@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Martech Signal — The AI in Marketing Automation</title>
+<meta name="description" content="A weekly newsletter on the AI tools, workflows, and vendor moves that actually matter for marketing automation teams.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="Martech Signal — The AI in Marketing Automation">
+<meta property="og:description" content="One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter for marketing automation teams.">
+<meta property="og:url" content="https://martechsignal.com/">
+<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Martech Signal — The AI in Marketing Automation">
+<meta name="twitter:description" content="One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter.">
+<meta name="twitter:image" content="https://martechsignal.com/og.png">
+<link rel="canonical" href="https://martechsignal.com/">
+<link rel="alternate" type="application/rss+xml" title="Martech Signal" href="/rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080E1A; --card:#0F1B31; --line:#1D2B47; --line2:#2A3D63;
+  --text:#E9EEF8; --muted:#8FA1C0; --amber:#FFB224; --green:#3DDC97; --red:#FF5C5C;
+  --mono:'Spline Sans Mono',ui-monospace,monospace; --disp:'Archivo Black',sans-serif; --body:'Archivo',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.65;-webkit-font-smoothing:antialiased}
+::selection{background:var(--amber);color:#141005}
+a{color:inherit}
+.bg{position:fixed;inset:0;z-index:-1;
+  background:
+    radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%),
+    radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%),
+    radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%),
+    var(--bg);}
+.bg::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(140,165,210,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(140,165,210,.05) 1px,transparent 1px);
+  background-size:46px 46px;
+  mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 100%);}
+.mono{font-family:var(--mono)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
+
+/* masthead */
+.masthead{border-bottom:1px solid var(--line)}
+.mast-in{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 0}
+.wordmark{font-family:var(--disp);font-size:1.15rem;letter-spacing:.03em;text-decoration:none}
+.wordmark b{color:var(--amber);font-weight:inherit}
+.cursor{color:var(--amber);animation:blink 1.1s steps(2) infinite;margin-left:2px}
+@keyframes blink{50%{opacity:0}}
+.mast-right{display:flex;align-items:center;gap:1.1rem}
+.live{display:inline-flex;align-items:center;gap:.45rem;font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--green);border:1px solid rgba(61,220,151,.35);padding:.32rem .7rem;border-radius:99px;background:rgba(61,220,151,.07)}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(61,220,151,.5)}55%{box-shadow:0 0 0 6px rgba(61,220,151,0)}}
+.mast-date{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
+@media(max-width:560px){.mast-date{display:none}}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:3.2rem;align-items:end;padding:4.6rem 0 1.2rem}
+@media(max-width:880px){.hero{grid-template-columns:1fr;gap:2.4rem;padding:3.2rem 0 1rem}}
+.kicker{font:600 .74rem var(--mono);letter-spacing:.16em;color:var(--amber);margin-bottom:1.2rem}
+h1{font-family:var(--disp);font-size:clamp(2.5rem,5.6vw,4.3rem);line-height:1.03;letter-spacing:-.015em;font-weight:400}
+h1 em{font-style:normal;color:var(--amber);position:relative;white-space:nowrap}
+h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.14em;background:linear-gradient(90deg,var(--amber),rgba(255,178,36,.15));border-radius:2px}
+.lede{color:var(--muted);font-size:1.1rem;max-width:34rem;margin:1.4rem 0 1.9rem}
+.hero-cta{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap}
+.btn{display:inline-block;background:var(--amber);color:#141005;font:700 .95rem var(--body);text-decoration:none;padding:.85rem 1.6rem;border-radius:6px;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}
+.ghost{font:600 .78rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none;transition:color .2s}
+.ghost:hover{color:var(--amber)}
+.micro{font:500 .68rem var(--mono);letter-spacing:.14em;color:var(--muted);margin-top:1.5rem}
+
+/* spec card */
+.spec{background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:1.5rem 1.5rem 1.7rem;box-shadow:0 24px 60px rgba(2,6,16,.5)}
+.spec-head{display:flex;align-items:center;gap:.55rem;font:600 .7rem var(--mono);letter-spacing:.14em;color:var(--green);margin-bottom:1.2rem}
+.spec-head .dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
+.wave{display:flex;align-items:flex-end;gap:3px;height:52px;margin-bottom:1.3rem}
+.wave span{flex:1;border-radius:2px 2px 0 0;background:linear-gradient(180deg,var(--amber),rgba(255,178,36,.18));height:var(--h);animation:eq 1.15s ease-in-out var(--d) infinite alternate;transform-origin:bottom}
+@keyframes eq{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+.spec dl{display:grid;gap:0}
+.spec dl>div{display:flex;justify-content:space-between;align-items:baseline;padding:.62rem 0;border-top:1px dashed var(--line2)}
+.spec dt{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+.spec dd{font:600 .86rem var(--body);color:var(--text)}
+.spec dd.ok{color:var(--green)}
+
+
+/* sections */
+section{padding:4.2rem 0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem;gap:1rem}
+h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.7rem,3.2vw,2.3rem);letter-spacing:-.01em}
+.all{font:600 .74rem var(--mono);letter-spacing:.14em;color:var(--amber);text-decoration:none}
+.all:hover{text-decoration:underline}
+
+/* signal rows */
+.sig{display:grid;grid-template-columns:auto 1fr auto;gap:1.4rem;align-items:baseline;padding:1.35rem .8rem;border-top:1px solid var(--line);text-decoration:none;transition:background .25s,transform .25s}
+.sig:last-of-type{border-bottom:1px solid var(--line)}
+.sig:hover{background:rgba(15,27,49,.75);transform:translateX(6px)}
+.sig .idx{font:600 .82rem var(--mono);color:var(--amber)}
+.sig h3{font:700 1.28rem/1.3 var(--body);letter-spacing:-.01em}
+.sig .sub{font:500 .72rem var(--mono);letter-spacing:.1em;color:var(--muted);margin-top:.35rem}
+.sig .arrow{font-family:var(--mono);color:var(--amber);opacity:0;transform:translateX(-6px);transition:opacity .25s,transform .25s}
+.sig:hover .arrow{opacity:1;transform:none}
+@media(max-width:560px){.sig{grid-template-columns:auto 1fr}.sig .arrow{display:none}}
+
+/* sample issue */
+.sample{padding:1.8rem 0 4.2rem}
+.sample-card{background:var(--card);border:1px solid var(--line2);border-radius:10px;overflow:hidden;box-shadow:0 24px 60px rgba(2,6,16,.5)}
+.sample-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 1.5rem;border-bottom:1px solid var(--line);background:rgba(15,27,49,.6)}
+.sample-top .issue-tag{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--amber)}
+.sample-top .issue-date{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
+.sample-body{padding:1.8rem 1.8rem 1.4rem}
+.sample-subject{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--muted);margin-bottom:.6rem}
+.sample-subject b{color:var(--text);font-weight:600}
+.sample-lead-title{font-family:var(--disp);font-weight:400;font-size:1.35rem;letter-spacing:-.01em;margin-bottom:.8rem}
+.sample-lead-text{color:#C8D2E4;font-size:.97rem;line-height:1.7;margin-bottom:1.4rem}
+.sample-toc{list-style:none;border-top:1px dashed var(--line2);padding-top:1.1rem}
+.sample-toc li{display:flex;align-items:center;gap:.7rem;padding:.35rem 0;font:500 .82rem var(--mono);letter-spacing:.06em;color:var(--muted)}
+.sample-toc li::before{content:"▸";color:var(--amber);font-size:.7rem}
+.sample-foot{padding:1rem 1.8rem 1.4rem;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.sample-foot p{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
+.sample-foot .btn{padding:.6rem 1.2rem;font-size:.85rem}
+
+/* subscribe */
+.subscribe{padding:3.4rem 0}
+.sub-card{max-width:660px;margin:0 auto;background:linear-gradient(180deg,rgba(255,178,36,.06),transparent 42%),var(--card);border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:10px;padding:2.6rem 2.4rem;text-align:left;box-shadow:0 24px 60px rgba(2,6,16,.5)}
+.sub-card h2{margin:.4rem 0 .4rem}
+.sub-card .why{color:var(--muted);font-size:.98rem;margin-bottom:1.4rem}
+#kit-form{margin:1.3rem 0 .9rem}
+#kit-form input[type="email"],#kit-form input[type="text"],#kit-form input[type="search"]{width:100%;background:#0A1322;border:1px solid var(--line2);color:var(--text);padding:.85rem 1rem;border-radius:6px;font:500 .95rem var(--mono);margin-bottom:.7rem}
+#kit-form input:focus{outline:none;border-color:var(--amber)}
+#kit-form button,#kit-form input[type="submit"]{background:var(--amber);color:#141005;border:0;font:700 .95rem var(--body);padding:.85rem 1.7rem;border-radius:6px;cursor:pointer;transition:transform .2s,box-shadow .2s}
+#kit-form button:hover,#kit-form input[type="submit"]:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}
+#kit-form label{color:var(--muted);font:500 .8rem var(--mono)}
+.fallback .btn{width:100%;text-align:center}
+
+/* Kit form dark restyle — overrides Kit's inline styles (charlotte template) */
+#kit-form .formkit-form{background:transparent !important;box-shadow:none !important;max-width:100% !important;min-width:0 !important;border-radius:0 !important}
+#kit-form .formkit-form [data-style="full"]{display:block !important}
+#kit-form .formkit-background{display:none !important}
+#kit-form .formkit-column{padding:0 !important}
+#kit-form .formkit-header,#kit-form .formkit-header h2{font:600 .78rem var(--mono) !important;letter-spacing:.16em !important;color:var(--muted) !important;text-transform:uppercase !important;margin:0 0 1rem !important}
+#kit-form .formkit-field{margin:0 !important}
+#kit-form .formkit-input{width:100% !important;background:#0A1322 !important;border:1px solid var(--line2) !important;color:var(--text) !important;padding:.9rem 1rem !important;border-radius:6px !important;font:500 .95rem var(--mono) !important;transition:border-color .2s,box-shadow .2s !important}
+#kit-form .formkit-input:focus{border-color:var(--amber) !important;box-shadow:0 0 0 3px rgba(255,178,36,.12) !important;outline:none !important}
+#kit-form .formkit-input::placeholder{color:var(--muted) !important;opacity:1 !important}
+#kit-form .formkit-submit{width:100% !important;margin-top:.6rem !important;background:var(--amber) !important;color:#141005 !important;border:0 !important;border-radius:6px !important;transition:transform .2s,box-shadow .2s !important}
+#kit-form .formkit-submit:hover{transform:translateY(-2px) !important;box-shadow:0 10px 28px rgba(255,178,36,.3) !important}
+#kit-form .formkit-submit > span{background:transparent !important;color:inherit !important;font:700 .95rem var(--body) !important;padding:.9rem 1.7rem !important}
+#kit-form .formkit-submit:hover > span{background:transparent !important}
+#kit-form .formkit-disclaimer{color:var(--muted) !important;font:500 .74rem var(--mono) !important;letter-spacing:.05em !important;margin-top:.9rem !important}
+#kit-form .formkit-alert{border-radius:6px !important;padding:.8rem 1rem !important;margin:0 0 .8rem !important;font:500 .85rem var(--mono) !important}
+#kit-form .formkit-alert-error{background:rgba(234,65,16,.1) !important;border:1px solid rgba(234,65,16,.35) !important;color:#f2643b !important}
+#kit-form .formkit-alert-success{background:rgba(16,191,122,.1) !important;border:1px solid rgba(16,191,122,.35) !important;color:#10bf7a !important}
+#kit-form .formkit-powered-by-convertkit-container{display:none !important}
+
+/* pitch */
+.pitch{display:grid;grid-template-columns:.85fr 1.15fr;gap:3rem;border-top:1px solid var(--line);padding-top:4.2rem}
+@media(max-width:880px){.pitch{grid-template-columns:1fr;gap:1.6rem}}
+.pitch-left p{color:var(--muted);margin-top:.9rem;max-width:26rem}
+.pitch-list{list-style:none}
+.pitch-list li{display:grid;grid-template-columns:auto 1fr;gap:1.4rem;padding:1.35rem 0;border-top:1px solid var(--line)}
+.pitch-list li:last-child{border-bottom:1px solid var(--line)}
+.pitch-list .num{font:600 .85rem var(--mono);color:var(--amber);padding-top:.2rem}
+.pitch-list h3{font:700 1.12rem var(--body);margin-bottom:.25rem}
+.pitch-list p{color:var(--muted);font-size:.95rem}
+
+/* quote */
+.quote{max-width:760px;margin:0 auto}
+.quote blockquote{border-left:3px solid var(--amber);background:var(--card);border-radius:0 10px 10px 0;padding:2rem 2.2rem;font:600 clamp(1.15rem,2.4vw,1.5rem)/1.45 var(--body);letter-spacing:-.01em}
+.quote blockquote::before{content:"“";color:var(--amber);font-family:var(--disp);font-size:2.4rem;line-height:0;vertical-align:-.35em;margin-right:.15rem}
+.quote .src{font:600 .72rem var(--mono);letter-spacing:.16em;color:var(--muted);margin-top:1.1rem}
+
+/* about */
+.about{padding:3.6rem 0 4.2rem}
+.about-card{max-width:760px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:1.8rem;align-items:start;background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:2rem 2.2rem;box-shadow:0 24px 60px rgba(2,6,16,.5)}
+.about-avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--amber),rgba(255,178,36,.3));display:flex;align-items:center;justify-content:center;font:700 1.6rem var(--disp);color:#141005;flex-shrink:0}
+.about-card h2{font-size:1.15rem;margin-bottom:.5rem}
+.about-card .role{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--amber);margin-bottom:.7rem}
+.about-card p{color:var(--muted);font-size:.95rem;line-height:1.7}
+@media(max-width:560px){.about-card{grid-template-columns:1fr;text-align:center;justify-items:center}}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:2.6rem 0 2.2rem;margin-top:2rem}
+.foot-grid{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.foot-grid p{color:var(--muted);font-size:.9rem;margin-top:.5rem}
+.foot-links{display:flex;gap:1.6rem;flex-wrap:wrap;align-items:center}
+.foot-links a{font:600 .74rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none;transition:color .2s}
+.foot-links a:hover{color:var(--amber)}
+.fine{font:500 .64rem var(--mono);letter-spacing:.14em;color:#5A6C8F}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <div class="mast-right">
+      <span class="live"><i></i>LIVE</span>
+      <span class="mast-date" id="mastDate"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="kicker">// WEEKLY DISPATCH FOR MARKETING OPS TEAMS</p>
+      <h1>The <em>signal</em> in the martech noise.</h1>
+      <p class="lede">AI is rewriting marketing automation faster than most stacks can keep up with. One sharp email every Friday: the tools, workflows, and vendor moves that actually matter — with the fluff filtered out.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#subscribe">Subscribe free</a>
+        <a class="ghost" href="/blog/">READ THE BLOG ↓</a>
+      </div>
+      <p class="micro">ONE EMAIL / WEEK · 5-MIN READ · UNSUBSCRIBE ANYTIME</p>
+    </div>
+    <aside class="spec reveal" aria-label="Newsletter spec sheet">
+      <div class="spec-head"><span class="dot"></span>SIGNAL FEED — STATUS: LIVE</div>
+      <div class="wave" aria-hidden="true">
+        <span style="--h:34%;--d:0s"></span><span style="--h:58%;--d:.08s"></span><span style="--h:42%;--d:.16s"></span><span style="--h:76%;--d:.24s"></span><span style="--h:52%;--d:.32s"></span><span style="--h:88%;--d:.4s"></span><span style="--h:64%;--d:.48s"></span><span style="--h:96%;--d:.56s"></span><span style="--h:70%;--d:.64s"></span><span style="--h:48%;--d:.72s"></span><span style="--h:82%;--d:.8s"></span><span style="--h:56%;--d:.88s"></span><span style="--h:92%;--d:.96s"></span><span style="--h:66%;--d:1.04s"></span><span style="--h:40%;--d:1.12s"></span><span style="--h:74%;--d:1.2s"></span><span style="--h:54%;--d:1.28s"></span><span style="--h:86%;--d:1.36s"></span><span style="--h:60%;--d:1.44s"></span><span style="--h:94%;--d:1.52s"></span><span style="--h:46%;--d:1.6s"></span><span style="--h:72%;--d:1.68s"></span><span style="--h:58%;--d:1.76s"></span><span style="--h:84%;--d:1.84s"></span>
+      </div>
+      <dl>
+        <div><dt>Frequency</dt><dd>Weekly · Friday</dd></div>
+        <div><dt>Read time</dt><dd>~5 minutes</dd></div>
+        <div><dt>Coverage</dt><dd>Agents · Lifecycle · Data</dd></div>
+        <div><dt>Vendor fluff</dt><dd class="ok">Filtered out</dd></div>
+        <div><dt>Opinions</dt><dd>Strong · weekly</dd></div>
+      </dl>
+    </aside>
+  </section>
+</main>
+
+
+<main class="wrap">
+  <section class="sample">
+    <div class="sec-head">
+      <h2>Read the latest issue</h2>
+      <span class="all" style="cursor:default">JULY 24, 2026</span>
+    </div>
+    <div class="sample-card reveal">
+      <div class="sample-top">
+        <span class="issue-tag">AI IN MARKETING AUTOMATION — ISSUE #3</span>
+        <span class="issue-date">JULY 24, 2026</span>
+      </div>
+      <div class="sample-body">
+        <p class="sample-subject">SUBJECT: <b>ChatGPT just got your Yelp reviews</b></p>
+        <h3 class="sample-lead-title">The big thing</h3>
+        <p class="sample-lead-text">Yelp is piping reviews, photos, ratings, and quote requests directly into ChatGPT. Search Engine Land has the details. Yelp gets branded links back to its platform. OpenAI gets real-time local data that makes ChatGPT actually useful for &quot;find me a plumber near me&quot; queries. Even if local isn&#x27;t your thing, this is the pattern. Every data source that used to sit behind a website is getting wired directly into AI agents. Your reviews, your pricing. The middleman (your…</p>
+        <ul class="sample-toc">
+        <li>Agent playbook</li>
+        <li>Deep dive</li>
+        <li>Tools and launches</li>
+        <li>By the numbers</li>
+        <li>Community highlight</li>
+        </ul>
+      </div>
+      <div class="sample-foot">
+        <p>THE FULL ISSUE LANDS IN SUBSCRIBERS' INBOXES — FREE, EVERY FRIDAY.</p>
+        <a class="btn" href="#subscribe">Get it free →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="subscribe" class="subscribe">
+    <div class="sub-card reveal">
+      <p class="kicker">// GET THE NEXT ISSUE</p>
+      <h2>Join the Friday dispatch.</h2>
+      <p class="why">What 5 minutes of curated signal saves you: an hour of skimming vendor blogs, changelogs, and LinkedIn hot air.</p>
+      <div id="kit-form"><script async data-uid="9c9d44c5b7" src="https://tim-christensen.kit.com/9c9d44c5b7/index.js"></script></div>
+      <p class="micro">FREE · NO SPAM · ONE CLICK TO LEAVE</p>
+    </div>
+  </section>
+
+  <section class="latest">
+    <div class="sec-head">
+      <h2>Latest signals</h2>
+      <a class="all" href="/blog/">ALL POSTS →</a>
+    </div>
+    <a class="sig reveal" href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">
+      <span class="idx">01</span>
+      <span><h3>Why Your Marketing Automation Stack Doesn&#x27;t Need Another AI Tool</h3>
+      <span class="sub">2026-07-24 · BLOG</span></span>
+      <span class="arrow">→</span>
+    </a>
+  </section>
+
+  <section class="pitch">
+    <div class="pitch-left reveal">
+      <h2>What lands in your inbox</h2>
+      <p>Not a link dump. Every issue is curated, tested where possible, and comes with a take you can argue with.</p>
+    </div>
+    <ol class="pitch-list">
+      <li class="reveal"><span class="num">01</span><div><h3>Tool teardowns</h3><p>What's real, what's demo-ware, and what actually deserves a slot in your stack.</p></div></li>
+      <li class="reveal"><span class="num">02</span><div><h3>Workflow recipes</h3><p>Automation patterns you can lift straight into your own lifecycle, scoring, and data ops.</p></div></li>
+      <li class="reveal"><span class="num">03</span><div><h3>Vendor moves, decoded</h3><p>What that acquisition, deprecation, or pricing change actually means for your roadmap.</p></div></li>
+      <li class="reveal"><span class="num">04</span><div><h3>One strong take</h3><p>Per issue. Strong enough that you might disagree with it — that's the point.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="quote reveal">
+    <blockquote>The best AI in martech right now is invisible — it's the dedup logic, the send-time optimization, the automatic list hygiene. Nobody demos it because it's boring. It also saves you 20 hours a month.</blockquote>
+    <p class="src">— FROM THE BLOG · JUL 2026</p>
+  </section>
+
+  <section class="about reveal">
+    <div class="about-card">
+      <div class="about-avatar">TC</div>
+      <div>
+        <h2>Tim Christensen</h2>
+        <p class="role">MARTECH PRODUCT OWNER · IF INSURANCE</p>
+        <p>20 years in marketing automation and product ownership across Nordic insurance and enterprise. Currently leading the marketing platform team at If Insurance, where AI-driven lifecycle orchestration, data activation, and agentic workflows are the daily reality — not buzzwords. PSPO I certified. Writes from the trenches, not the analyst bench.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <span class="wordmark">MARTECH<b>SIGNAL</b></span>
+        <p>Practical AI for marketing ops teams.<br>Written by Tim Christensen.</p>
+      </div>
+      <nav class="foot-links">
+        <a href="/blog/">BLOG</a>
+        <a href="/rss.xml">RSS</a>
+        <a href="https://tim-christensen.kit.com">NEWSLETTER</a>
+        <a href="/cdn-cgi/l/email-protection#d1a5b8bc91bcb0a3a5b4b2b9a2b8b6bfb0bdffb2bebc"><span class="__cf_email__" data-cfemail="e7b3aeaaa7aaa6b5b382848fb4aea0a9a6abc9a4a8aa">[email&#160;protected]</span></a>
+      </nav>
+    </div>
+    <p class="fine">© 2026 MARTech SIGNAL · SENT FROM MARTechSIGNAL.COM · NO TRACKING PIXELS ON THIS PAGE</p>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+(function(){
+  var d=new Date(),days=['SUN','MON','TUE','WED','THU','FRI','SAT'],mons=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  var el=document.getElementById('mastDate');
+  if(el)el.textContent=days[d.getUTCDay()]+' · '+mons[d.getUTCMonth()]+' '+d.getUTCDate()+' '+d.getUTCFullYear();
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});
+  }
+})();
+</script>
+</body>
+</html>
