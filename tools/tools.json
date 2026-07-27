@@ -1850,18 +1850,9 @@
   {
     "name": "OpenSEO",
     "slug": "openseo",
-    "url": "https://openseo.so",
-    "github": "https://github.com/every-app/open-seo",
     "description": "Open source alternative to Ahrefs and Semrush. Keyword research, backlink analysis, rank tracking, and site audits \u2014 self-hosted, MIT licensed, pay only for DataForSEO API usage.",
-    "category": "SEO",
-    "categories": [
-      "seo",
-      "open-source"
-    ],
-    "pricing": "Free self-hosted + API usage",
+    "category": "seo",
     "open_source": true,
-    "self_hosted": true,
-    "added": "2026-07-27",
     "tags": [
       "seo",
       "keyword-research",
@@ -1870,7 +1861,12 @@
       "site-audit",
       "self-hosted"
     ],
-    "status": "active"
+    "status": "active",
+    "website": "https://openseo.so",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free self-hosted; DataForSEO API costs extra",
+    "tagline": "Open source alternative to Ahrefs and Semrush"
   },
   {
     "slug": "ortto",

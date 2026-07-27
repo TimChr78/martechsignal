@@ -265,7 +265,7 @@ def build_tool_page(t, cats, all_tools):
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>{esc(t.get('tagline',''))} {esc(t['name'])} is a {esc(c.get('name','').lower())} tool with {'free' if t.get('price_from',1)==0 else 'paid'} pricing starting at {('$'+str(t['price_from'])+'/mo') if t.get('price_from') else 'custom pricing'}.</p>
+    <p>{esc(t.get('tagline',''))} {esc(t['name'])} is a {esc(c.get('name','').lower())} tool with {'free' if t.get('price_from',1)==0 else 'paid'} pricing starting at {('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'}.</p>
     {ai_html}
     {integ_html}
     {related_html}
