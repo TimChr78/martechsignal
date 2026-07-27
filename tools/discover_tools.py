@@ -180,25 +180,29 @@ def scan_rss():
 
 # ── Main ───────────────────────────────────────────────────────────
 
+def log(msg):
+    """Progress output to stderr (invisible to cron delivery)."""
+    print(msg, file=sys.stderr)
+
 def main():
-    print(f"🔍 Tool Discovery Pipeline — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    print(f"   GitHub token: {'✓ set' if GITHUB_TOKEN else '✗ not set (60 req/hr limit)'}")
-    print()
+    log(f"🔍 Tool Discovery Pipeline — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    log(f"   GitHub token: {'✓ set' if GITHUB_TOKEN else '✗ not set (60 req/hr limit)'}")
+    log("")
 
     # Load existing
     tools, slugs, names, websites, repos = load_existing()
-    print(f"   Existing directory: {len(tools)} tools, {len(repos)} GitHub repos tracked")
-    print()
+    log(f"   Existing directory: {len(tools)} tools, {len(repos)} GitHub repos tracked")
+    log("")
 
     # GitHub search
-    print("📡 Searching GitHub...")
+    log("📡 Searching GitHub...")
     gh_candidates = search_github()
-    print(f"   Found {len(gh_candidates)} new repo candidates")
+    log(f"   Found {len(gh_candidates)} new repo candidates")
 
     # RSS scan
-    print("📡 Scanning RSS feeds...")
+    log("📡 Scanning RSS feeds...")
     rss_mentions = scan_rss()
-    print(f"   Found {len(rss_mentions)} tool-related mentions")
+    log(f"   Found {len(rss_mentions)} tool-related mentions")
 
     # Load previous candidates to avoid duplicates
     prev = []
@@ -221,32 +225,26 @@ def main():
     # Save
     CANDIDATES_FILE.write_text(json.dumps(all_candidates, indent=2))
 
-    # Summary
-    print()
-    print(f"{'='*50}")
-    print(f"📋 RESULTS")
-    print(f"   New GitHub candidates: {len(new_gh)}")
-    print(f"   New RSS mentions: {len(new_rss)}")
-    print(f"   Total in queue: {len(all_candidates)}")
-    print(f"   Saved to: {CANDIDATES_FILE}")
+    # Log summary to stderr
+    log("")
+    log(f"{'='*50}")
+    log(f"📋 RESULTS: {len(new_gh)} new GitHub + {len(new_rss)} new RSS | queue: {len(all_candidates)}")
 
-    if new_gh:
-        print(f"\n🆕 Top GitHub discoveries:")
-        for c in sorted(new_gh, key=lambda x: -x.get("stars", 0))[:10]:
-            print(f"   ★{c['stars']:>6} | {c['full_name']:<40} | {c['description'][:60]}")
-
-    if new_rss:
-        print(f"\n📰 RSS mentions:")
-        for c in new_rss[:5]:
-            print(f"   [{c['source']}] {c['title'][:70]}")
-
-    # Output for cron (concise)
+    # stdout ONLY when there's something new (silent watchdog pattern)
     if new_gh or new_rss:
-        print(f"\n✅ {len(new_gh)} new tool candidates + {len(new_rss)} mentions found. Review: tools/candidates.json")
-    else:
-        print("\n😴 No new candidates this run.")
+        print(f"🔍 Tool Discovery — {len(new_gh)} new candidates + {len(new_rss)} mentions\n")
+        if new_gh:
+            print("🆕 Top GitHub discoveries:")
+            for c in sorted(new_gh, key=lambda x: -x.get("stars", 0))[:10]:
+                print(f"  ★{c['stars']:>6} | {c['full_name']:<40} | {c['description'][:60]}")
+        if new_rss:
+            print("\n📰 RSS mentions:")
+            for c in new_rss[:5]:
+                print(f"  [{c['source']}] {c['title'][:70]}")
+        print(f"\nReview: tools/candidates.json")
+    # else: empty stdout = no Telegram message
 
-    return 0 if (new_gh or new_rss) else 1
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
