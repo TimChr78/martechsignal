@@ -1,0 +1,14 @@
+[
+  {"slug": "marketing-automation", "name": "Marketing Automation", "description": "End-to-end campaign orchestration and workflow automation"},
+  {"slug": "email-marketing", "name": "Email Marketing", "description": "Email campaigns, sequences, and deliverability"},
+  {"slug": "crm", "name": "CRM", "description": "Customer relationship management and sales pipelines"},
+  {"slug": "content-ai", "name": "AI Content & Copywriting", "description": "AI-powered content generation and optimization"},
+  {"slug": "analytics", "name": "Analytics & Attribution", "description": "Marketing analytics, attribution, and reporting"},
+  {"slug": "social-media", "name": "Social Media", "description": "Social scheduling, listening, and engagement"},
+  {"slug": "advertising", "name": "Advertising & Paid Media", "description": "Ad creation, bidding, and campaign management"},
+  {"slug": "personalization", "name": "Personalization & CDP", "description": "Customer data platforms and experience personalization"},
+  {"slug": "chatbots", "name": "Chatbots & Conversational AI", "description": "AI chatbots, virtual assistants, and conversational marketing"},
+  {"slug": "seo", "name": "SEO & Search", "description": "Search optimization, keyword research, and content strategy"},
+  {"slug": "workflow-automation", "name": "Workflow Automation", "description": "No-code/low-code automation platforms and iPaaS"},
+  {"slug": "open-source", "name": "Open-Source Tools", "description": "Self-hostable open-source marketing and AI tools"}
+]
