@@ -178,7 +178,10 @@ def build_hub(tools, cats):
     # category pills
     pills = '<a class="cat-pill active" href="/tools/">ALL</a>\n'
     for c in cats:
-        n = sum(1 for t in tools if t["category"] == c["slug"] and t.get("status") == "active")
+        if c["slug"] == "open-source":
+            n = sum(1 for t in tools if t.get("open_source") and t.get("status") == "active")
+        else:
+            n = sum(1 for t in tools if t["category"] == c["slug"] and t.get("status") == "active")
         if n:
             pills += f'<a class="cat-pill" href="/categories/{c["slug"]}/">{esc(c["name"])} ({n})</a>\n'
 
@@ -334,7 +337,11 @@ def build_tool_page(t, cats, all_tools):
 # ── Category pages ─────────────────────────────────────────────────
 
 def build_category_page(cat, tools):
-    cat_tools = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t["category"] == cat["slug"] and t.get("status") == "active"]
+    if cat["slug"] == "open-source":
+        # Show ALL open-source tools regardless of primary category
+        cat_tools = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("open_source") and t.get("status") == "active"]
+    else:
+        cat_tools = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t["category"] == cat["slug"] and t.get("status") == "active"]
     if not cat_tools:
         return None
 
