@@ -18,5 +18,4 @@ Requires `CLOUDFLARE_API_KEY` env var (CF API token with Pages:Edit permission).
 ## Notes
 
 - Hosted on Cloudflare Pages (project: `martechsignal`)
-- Zone: `3ebb3af1888d56dac8732ddf6158c6d2`
-- Kit newsletter embed UID: `9c9d44c5b7`
+- Kit newsletter embed via Kit CDN
