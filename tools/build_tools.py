@@ -394,6 +394,61 @@ def build_category_page(cat, tools):
 
 # ── Main ───────────────────────────────────────────────────────────
 
+# ── Sitemap ────────────────────────────────────────────────────────
+
+def build_sitemap(tools, cats):
+    today = datetime.now().strftime("%Y-%m-%d")
+    urls = []
+
+    # Homepage
+    urls.append((f"https://martechsignal.com/", today, "1.0"))
+
+    # Blog posts (scan blog/ for subdirectories containing index.html)
+    blog_dir = ROOT / "blog"
+    if blog_dir.is_dir():
+        for child in blog_dir.iterdir():
+            if child.is_dir() and (child / "index.html").exists():
+                urls.append((f"https://martechsignal.com/blog/{child.name}/", today, "0.9"))
+
+    # Tools hub
+    urls.append((f"https://martechsignal.com/tools/", today, "0.8"))
+
+    # Individual tool pages
+    for t in tools:
+        if t.get("status") == "active":
+            urls.append((f"https://martechsignal.com/tools/{t['slug']}/", today, "0.7"))
+
+    # Category pages
+    for c in cats:
+        urls.append((f"https://martechsignal.com/categories/{c['slug']}/", today, "0.8"))
+
+    # Blog index
+    if (blog_dir / "index.html").exists():
+        urls.append((f"https://martechsignal.com/blog/", today, "0.8"))
+
+    # Generate XML
+    entries = []
+    for loc, lastmod, priority in urls:
+        entries.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod><priority>{priority}</priority></url>")
+
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap += '\n'.join(entries)
+    sitemap += '\n</urlset>\n'
+
+    (ROOT / "sitemap.xml").write_text(sitemap)
+    print(f"\nSitemap: {len(urls)} URLs written to sitemap.xml")
+
+    # Ensure robots.txt exists
+    robots_path = ROOT / "robots.txt"
+    if not robots_path.exists():
+        robots_path.write_text(
+            "User-agent: *\nAllow: /\n\n"
+            "Sitemap: https://martechsignal.com/sitemap.xml\n"
+        )
+        print("Robots.txt: created")
+
+
 def main():
     tools, cats = load()
     active = [t for t in tools if t.get("status") == "active"]
@@ -419,6 +474,9 @@ def main():
             print(f"  · {c['slug']} (empty, skipped)")
 
     print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + 1 hub")
+
+    # Sitemap
+    build_sitemap(tools, cats)
 
 if __name__ == "__main__":
     main()
