@@ -256,6 +256,13 @@ def build_tool_page(t, cats, all_tools):
         items = "".join(f"<span>{esc(i)}</span>" for i in t["integrations"])
         integ_html = f'<h2>Key Integrations</h2><div class="integ-list">{items}</div>'
 
+    # Overview paragraph
+    if t.get('description'):
+        overview_html = f'<p>{esc(t["description"])}</p>'
+    else:
+        price_str = ('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'
+        overview_html = f'<p>{esc(t.get("tagline",""))} {esc(t["name"])} is a {esc(c.get("name","").lower())} tool with {"free" if t.get("price_from",1)==0 else "paid"} pricing starting at {price_str}.</p>'
+
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
 <section class="page-head">
   <h1>{esc(t['name'])}</h1>
@@ -265,7 +272,7 @@ def build_tool_page(t, cats, all_tools):
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>{esc(t.get('tagline',''))} {esc(t['name'])} is a {esc(c.get('name','').lower())} tool with {'free' if t.get('price_from',1)==0 else 'paid'} pricing starting at {('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'}.</p>
+    {overview_html}
     {ai_html}
     {integ_html}
     {related_html}

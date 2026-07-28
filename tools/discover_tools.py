@@ -225,6 +225,14 @@ def main():
     # Save
     CANDIDATES_FILE.write_text(json.dumps(all_candidates, indent=2))
 
+    # Also write to n8n shared data dir
+    n8n_dir = Path("/mnt/cache/appdata/n8n/data")
+    try:
+        n8n_dir.mkdir(parents=True, exist_ok=True)
+        (n8n_dir / "tool-candidates.json").write_text(json.dumps(all_candidates, indent=2))
+    except OSError:
+        pass
+
     # Log summary to stderr
     log("")
     log(f"{'='*50}")
