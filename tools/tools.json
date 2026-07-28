@@ -670,7 +670,8 @@
     "hq": "Austin, TX, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Clearscope is a content optimization platform that helps writers and SEO teams create content that comprehensively covers a topic as search engines expect. Rather than generating content from scratch, Clearscope analyzes the top-ranking pages for a target keyword and produces a content brief showing the terms, entities, headings, and question patterns those pages use. Its real-time Content Grade scores your draft against that brief, updating as you write so you can see which concepts you still need to address. Founded in 2016 and based in Austin, Texas, Clearscope competes with Surfer SEO, MarketMuse, and Frase in the content optimization category. Its key differentiator is its integration with Google Search Console and Google Docs: the Content Decay feature identifies pages that are losing rankings and suggests updates based on what competitors have added since your last revision. AI Drafts can generate full content briefs or initial drafts, with allocation varying by plan. Pricing starts at $199/month for the Essentials plan with 10 content reports and Google Docs integration; the Business plan at $599/month adds unlimited reports, GSC integration, and team features. Clearscope is priced higher than Frase and Surfer but appeals to enterprise content teams that value its cleaner UI and stronger integration with existing editorial workflows. The main criticism is the price: for freelancers and small teams, Frase offers similar capability for less."
   },
   {
     "slug": "clerk-io",
@@ -955,7 +956,8 @@
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Frase is an AI-powered content optimization platform that positions itself as a content operating system for the era of AI search. Where Clearscope and Surfer SEO focus on Google rankings, Frase expands the scope to include AI search visibility (Answer Engine Optimization) and Generative Engine Optimization (GEO). Its core workflow mirrors the category: research a topic by analyzing top SERP results, build a content brief with target terms and questions, then write and optimize using a content editor that scores topic coverage in real time. Frase differentiates through its AI search features: SERP analysis for AI-generated results, question research that surfaces the exact queries appearing in Google's People Also Ask and featured snippets, and AI answer generation that produces content structured for AI overview citations. The platform includes an AI writer that generates full drafts, an SEO content brief tool, and a WordPress integration for direct publishing. Pricing starts at $15/month for the Solo plan with one user and 10 document credits; the Basic plan at $45/month adds 30 credits and SERP analysis; the Team plan at $115/month includes unlimited documents and 3 user seats. Frase competes with Clearscope and Surfer on content optimization and Jasper on AI writing, while its AI search visibility angle is a unique wedge. The trade-off: its content editor, while functional, is less polished than Clearscope's, and its AI-generated content still requires human editing for publication quality."
   },
   {
     "slug": "freshsales",
@@ -1598,7 +1600,8 @@
     "hq": "Boston, MA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "MarketMuse is an AI content strategy and optimization platform that approaches SEO from the top down: instead of optimizing individual articles one at a time, it analyzes your entire site's content inventory, identifies topic gaps and opportunities, and scores your content against competitors across your full topical landscape. Founded in 2015 and based in Montreal, MarketMuse competes with Clearscope and Surfer on content optimization but differentiates on its content planning layer above the article-level editor. Its core features include topic modeling that maps out the full semantic landscape of a subject, content scoring that measures how comprehensively a page covers its topic, and competitive content audits that compare your site's coverage against competitors across hundreds of topics simultaneously. It also generates content briefs and initial drafts using AI, with the briefs incorporating not just keyword data but the full topical structure MarketMuse models. Pricing starts at $149/month for the Standard plan with basic topic research and content scoring; the Team plan at $399/month adds competitive audits, content inventory analysis, and collaboration features; the Premium plan at $999/month includes API access and dedicated support. MarketMuse's highest value is for established sites with large content libraries that need systematic gap analysis and content refresh prioritization. For teams producing fewer than 10 articles per month, the price premium over Frase or Surfer is hard to justify unless content strategy is a core differentiator."
   },
   {
     "slug": "matomo",
@@ -2478,7 +2481,8 @@
     "hq": "Boston, MA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. Its keyword database covers 25 billion keywords across 140+ countries, and its backlink index processes trillions of URLs. The platform's breadth is its defining characteristic: a single subscription replaces a half-dozen point tools for most SEO workflows. Key capabilities include the Domain Overview (competitive benchmarking at a glance), Keyword Magic Tool (keyword discovery with advanced filtering), Position Tracking (daily rank monitoring), Site Audit (technical SEO crawler with 140+ checks), and the Content Marketing Toolkit (topic research, content templates, and SEO writing assistant). Semrush has been investing in AI features including an AI writing assistant, automated content brief generation, and Copilot conversational search. Pricing starts at $139.95/month for the Pro plan with 5 projects; the Guru plan at $249.95/month adds content marketing features and historical data; the Business plan at $499.95/month includes API access and white-label reporting. The main criticisms are cost (it's the most expensive all-in-one SEO platform), complexity (most users only touch 20-30% of features), and data accuracy on smaller/niche markets where Ahrefs' crawl data is sometimes more current. For teams that need one platform for SEO research, content, and competitive intel, Semrush is the default choice."
   },
   {
     "slug": "sendgrid",
@@ -2543,7 +2547,8 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "SEOnaut is an open-source SEO auditing tool designed for technical SEO professionals who need a lightweight, self-hosted alternative to commercial crawlers like Screaming Frog, Sitebulb, or the auditing modules in Semrush and Ahrefs. Built in Go and available on GitHub, it performs comprehensive site crawls to detect technical SEO issues: broken links, missing meta tags, duplicate content, redirect chains, page speed problems, crawl budget waste, and structural issues that impact search engine visibility. Because it's open source, teams can run it on their own infrastructure without per-seat licensing or crawl limits, making it particularly useful for agencies that audit large sites or need to run audits on a schedule. The tool provides detailed per-page reports and summary dashboards, with the ability to export data for further analysis. As an open-source project, it requires technical setup (Go runtime, database configuration) and lacks the polished UI and guided recommendations of commercial tools. SEOnaut competes primarily with other open-source SEO tools like SiteGuru and commercial crawlers that offer free tiers. Its niche is teams that have technical capacity and want audit data they fully control, without vendor lock-in or usage limits. For teams that need a turnkey crawler with visual reporting and guided issue resolution, Screaming Frog or Sitebulb are more practical despite the license cost."
   },
   {
     "slug": "smartly-io",
@@ -2750,7 +2755,8 @@
     "hq": "Wroclaw, Poland",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Surfer SEO is one of the most widely used on-page content optimization tools, processing over 500 on-page signals to reverse-engineer what makes top-ranking pages successful for a given keyword. Founded in 2017 and based in Poland, Surfer moved early to make NLP-driven content optimization accessible to non-technical marketers and grew through aggressive content marketing and an active affiliate program. Its Content Editor is the flagship feature: you enter a primary keyword, and Surfer analyzes the top 50 ranking pages to build a content score based on term frequency, heading structure, word count, image count, and structural patterns. As you write, the editor shows which terms you're missing, which you're overusing, and how your content score changes in real time. Surfer AI can generate fully optimized drafts that score 60-70+ on its scale directly in the editor. Additional tools include a Keyword Research module, a SERP Analyzer, a Content Planner, and a Domain Planner for site-level content strategy. Integrations include Google Docs, WordPress, and Jasper (for AI writing with Surfer optimization). Pricing starts at $89/month for the Essential plan with 30 content editor articles per month; the Scale plan at $219/month adds API access and 100 articles; custom enterprise plans are available. Surfer competes directly with Clearscope (more enterprise, higher price) and Frase (more affordable, AI search features). Its main criticism is that it's optimization-focused rather than research-focused: for keyword discovery and topic strategy, you still need Ahrefs, Semrush, or MarketMuse."
   },
   {
     "slug": "tealium",
@@ -3109,33 +3115,6 @@
     "date_added": "2026-07-27",
     "date_updated": "2026-07-28",
     "description": "Zapier is the name everyone knows in automation, and for good reason. It connects 7,000+ apps with a clean, no-code interface that non-technical marketers can actually use on day one. Founded in 2011 and headquartered in San Francisco, it's the default choice when someone says they need to connect X to Y without writing code. For marketing teams, Zapier handles the routine stuff: form submissions to CRM, new leads to Slack, event registrations to email sequences. It added AI capabilities (AI agents, chatbots, content generation) in 2024-2026, though AI steps consume tasks at accelerated rates. That task-based pricing model is the tradeoff: a 20-step workflow counts as 20 tasks, so complex automation gets expensive fast. The 7,000+ integration library is Zapier's real moat. Niche martech tools that lack native n8n nodes or Make modules almost always have a Zapier integration. For teams running simple workflows across many tools, nothing beats the breadth. But at scale, hundreds of multi-step runs per month, the per-task pricing becomes prohibitive. At that point n8n's per-execution model saves 5-10x. Zapier is best for: non-technical marketing teams with straightforward automation needs, organizations with diverse martech stacks needing wide integration coverage, and teams that value ease of use over deep customization."
-  },
-  {
-    "slug": "openseo",
-    "name": "OpenSEO",
-    "tagline": "Open-source Ahrefs/Semrush alternative \u2014 keywords, backlinks, rank tracking, and site audits",
-    "website": "https://openseo.io",
-    "category": "seo",
-    "pricing_model": "open-source",
-    "pricing_url": "https://github.com/openseo/openseo",
-    "price_from": 0,
-    "price_notes": "Self-hosted, MIT licensed. Pay-per-use API costs when using cloud data providers.",
-    "ai_features": [
-      "AI-powered content gap analysis",
-      "AI keyword clustering"
-    ],
-    "integrations": [
-      "Google Search Console"
-    ],
-    "github_repo": "openseo/openseo",
-    "github_stars": 6300,
-    "open_source": true,
-    "api_available": true,
-    "founded": 2026,
-    "hq": "",
-    "status": "active",
-    "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
   },
   {
     "slug": "langchain",
