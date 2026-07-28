@@ -4,6 +4,13 @@ set -euo pipefail
 # Deploy martechsignal.com to Cloudflare Pages via wrangler.
 # Requires: CLOUDFLARE_API_KEY (Pages:Edit) and CLOUDFLARE_ACCOUNT_ID env vars.
 
+# Source secrets for cron runs (turn off -u, .env references $1 etc.)
+set +u
+set -a
+source /home/hermes/.hermes/.env 2>/dev/null || true
+set +a
+set -u
+
 PROJECT="martechsignal"
 ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:?CLOUDFLARE_ACCOUNT_ID not set}"
 
