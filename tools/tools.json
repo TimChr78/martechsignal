@@ -812,7 +812,8 @@
     "hq": "Portland, OR, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Customer.io is a behavior-driven messaging platform that lets SaaS and digital product teams send targeted emails, push notifications, in-app messages, and SMS based on how users actually interact with their product. Founded in 2012 and based in Portland, Oregon, it competes with Braze, Iterable, and OneSignal by focusing on event-triggered automation rather than list-based blasts. Teams pipe user events into Customer.io via a REST API or Segment integration, then build visual workflows that react in real time: a trial user who hasn't logged in for 3 days gets a re-engagement email, a power user who hits a milestone gets a congratulatory push. The platform recently rebranded its Campaign feature to Automations, reflecting the shift from scheduled sends to always-on behavioral triggers. Its Liquid-based templating supports dynamic content and personalization, and the segmentation engine allows complex filters based on user properties and event history. Pricing starts around $100/month for the Basic plan with email support; the Premium plan adds SMS, push, and in-app messaging at higher tiers. Customer.io's sweet spot is SaaS companies that have engineering resources to instrument events and want marketing workflows that respond to product usage, not just email clicks. The trade-off is that it assumes you have a data pipeline \u2014 it's not a turnkey email tool for non-technical teams who want to upload a CSV and start sending."
   },
   {
     "slug": "drift",
@@ -1321,7 +1322,8 @@
     "hq": "Boston, MA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo's competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. This enables segments like 'bought twice in the last 90 days but haven't opened an email in 30 days' that generic ESPs cannot express. Pre-built automation flows cover the ecommerce playbook: abandoned cart, browse abandonment, post-purchase follow-up, win-back, and cross-sell. The platform includes SMS marketing alongside email with unified consent management and attribution. Its AI features, branded as Klaviyo AI, handle send-time optimization, subject line generation, and predictive churn analysis. The free plan supports up to 250 contacts and 500 emails/month; paid plans start at $20/month for 500 contacts, scaling with list size and SMS volume. Klaviyo's primary competitors are Mailchimp (broader but less ecommerce-focused), Omnisend (similar space but smaller scale), and Attentive (SMS-first). Its main limitations are vertical specificity (ecommerce-first, less suited for B2B or content businesses) and price scaling that becomes significant as contact lists grow."
   },
   {
     "slug": "krayin-crm",
@@ -1444,7 +1446,8 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Loops is a modern email platform purpose-built for SaaS companies that want lightweight, developer-friendly email tooling without the complexity of enterprise platforms. Launched around 2022, Loops combines marketing email, lifecycle automation, and transactional sending in a single product with a deliberately simple interface. Its positioning is clear: if Mailchimp is the Swiss Army knife and Customer.io is the professional kitchen, Loops is the sharp chef's knife that does one category of work extremely well. The platform handles onboarding sequences, feature announcement campaigns, re-engagement drips, and transactional messages like password resets from the same dashboard. Templates are clean and modern; the editor prioritizes speed over endless customization. Event tracking via API or Segment powers behavioral triggers, and the segmentation builder supports common SaaS use cases like filtering by plan tier, feature usage, or trial status. Loops offers a generous free tier and paid plans that scale with contact count, making it accessible for early-stage startups. It competes most directly with Customer.io and Userlist in the SaaS lifecycle email space, differentiating on simplicity and setup speed. The trade-off is depth: Loops does not support SMS, push notifications, or in-app messaging, so teams needing multi-channel automation will outgrow it or pair it with other tools."
   },
   {
     "slug": "mailchimp",
@@ -1481,7 +1484,8 @@
     "hq": "Atlanta, GA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. Founded in 2001 in Atlanta and acquired by Intuit in 2021 for $12 billion, it has expanded far beyond email into a full marketing platform that also includes landing pages, social media ads, postcards, SMS, marketing automation, and a basic CRM. Its core strength remains accessibility: the drag-and-drop email builder, template library, and guided setup make it the default starting point for businesses that need to send professional emails without technical skills. Intuit Assist, Mailchimp's AI layer, generates email copy, suggests subject lines, and recommends send times. The free plan supports up to 500 contacts and 1,000 emails/month, though it has been progressively trimmed since the Intuit acquisition. Paid plans start at $13/month for 500 contacts on the Essentials tier, with the Standard plan at $20/month adding automation and A/B testing. Mailchimp's transition from scrappy email tool to Intuit subsidiary has been a mixed experience for users: pricing has increased several times, the free plan limits have been reduced, and the platform sometimes feels like it's being pushed toward Intuit's broader QuickBooks ecosystem. For ecommerce brands, Klaviyo offers deeper Shopify integration. For SaaS, Customer.io and Loops are more event-driven. But for the small business that needs to send a newsletter, build a landing page, and run Facebook ads from one tool, Mailchimp still delivers the most complete out-of-the-box experience."
   },
   {
     "slug": "make",
@@ -1867,7 +1871,8 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "OpenOutreach is an open-source, self-hosted AI sales agent for B2B lead generation and email outreach. Built in Python and available on GitHub, it automates the entire top-of-funnel prospecting workflow: discovering leads from a licensed third-party B2B data provider, qualifying them using AI analysis of company profiles and job roles, and then running personalized agentic email outreach sequences from your own mailbox. Unlike commercial tools like Lemlist, Woodpecker, or Instantly that charge per seat or per mailbox, OpenOutreach is free to self-host. You provide your own OpenAI API key and email credentials, and the platform handles the rest. Each email is individually generated based on the prospect's company, role, and publicly available signals, moving beyond mail-merge personalization toward genuine one-to-one relevance. The platform is designed for technical teams comfortable with self-hosting and API management. It's not a SaaS with a polished UI; it's a Python application that runs on your infrastructure, giving you full control over data, sending behavior, and compliance. This makes it particularly interesting for European companies under GDPR constraints who need to keep prospect data on their own servers. OpenOutreach competes with the growing category of AI SDR tools (11x, Artisan, Lyx) but occupies the open-source, self-hosted niche where none of the commercial players operate."
   },
   {
     "name": "OpenSEO",
@@ -2179,7 +2184,8 @@
     "hq": "Chicago, IL, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Postmark is a transactional email service built around a single, uncompromising focus: getting time-sensitive emails into inboxes as fast as possible. Acquired by ActiveCampaign, it operates as a standalone service for application email like password resets, order confirmations, receipts, and notification digests. Its defining characteristic is speed: Postmark's infrastructure delivers transactional messages in approximately one second, with detailed tracking available for 45 days. This is in contrast to marketing-focused ESPs where delivery can take minutes and bounce processing is batched. Postmark separates transactional and broadcast sending into distinct message streams with independent reputation management, so a marketing campaign gone wrong cannot poison the deliverability of password reset emails. It offers SMTP relay and a well-documented REST API with SDKs for most major languages. Pricing starts at $15/month for 10,000 emails, scaling linearly with volume. Postmark competes with SendGrid, Mailgun, and Amazon SES in the transactional space, differentiating on deliverability reputation and simplicity rather than feature breadth. It does not include marketing automation, list management, or campaign builders \u2014 these are handled by its parent company ActiveCampaign or other marketing platforms. For developers who need a transactional email service that just works, Postmark's reliability and deliverability justify the higher per-email cost compared to SES or the free SendGrid tier."
   },
   {
     "slug": "predis-ai",
@@ -2278,7 +2284,8 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Resend is a developer-first email API platform that treats email infrastructure as a modern developer tool rather than a legacy SMTP service. Founded around 2023 by a team of engineers who were frustrated with existing email APIs, Resend focuses on developer experience above all else. Its key innovations are React Email integration (allowing developers to build email templates using React components with live preview), a clean, well-typed SDK, and a dashboard that actually shows what engineers need to debug delivery. Resend handles both transactional email (verification codes, invoices, alerts) and marketing email (newsletters, product updates) through the same API, using separate domains and IP pools to maintain independent sender reputations. It deploys on AWS infrastructure for reliability, and its deliverability tooling includes domain verification wizards, DMARC/SPF/DKIM guidance, and open/click tracking. The free plan includes 100 emails/day, while the Pro plan at $20/month covers 50,000 emails. Resend competes with SendGrid, Mailgun, and Postmark for transactional sending, but its real differentiator is the React-based template workflow that lets frontend engineers build, preview, and test emails in their existing development environment. This makes it particularly popular in the Next.js, Vercel, and React ecosystems. For teams that want a full marketing platform with campaign builders and audience segmentation, Resend is too low-level. For sending email from code, it's one of the best developer experiences available."
   },
   {
     "slug": "revealbot",
@@ -2500,7 +2507,8 @@
     "hq": "Denver, CO, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Twilio SendGrid is one of the largest email delivery platforms in the world, processing tens of billions of emails per month for customers including Uber, Spotify, and Yelp. Founded in 2009 and acquired by Twilio in 2018 for $2 billion, SendGrid provides both transactional email delivery via API/SMTP and marketing email capabilities through its Marketing Campaigns product. The Email API is its core: developers integrate via REST or SMTP, using dynamic templates with Handlebars syntax, webhook-based event tracking, and SDKs in Python, Node.js, Ruby, PHP, Go, C#, and Java. The Marketing Campaigns side includes a drag-and-drop email builder, contact list management, segmentation, and basic automation. SendGrid's free tier provides 100 emails/day forever; the Essentials plan starts at $19.95/month for 50,000 emails/month with dedicated IP available at the Pro tier ($89.95/month for 100,000 emails). Its main advantages are scale (proven at billions of messages), language support breadth, and the Twilio ecosystem integration (mixing email with SMS, Voice, and WhatsApp via Twilio's platform). The downsides: the product has grown complex over 15 years, the UI can feel dated compared to newer entrants like Resend, and support quality has been an ongoing complaint since the Twilio acquisition. For teams already in the Twilio ecosystem or sending high-volume transactional email, SendGrid remains a safe, battle-tested choice. For teams starting fresh with a modern stack, Resend or Postmark may offer a sharper developer experience at similar price points."
   },
   {
     "slug": "seonaut",
