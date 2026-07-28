@@ -153,13 +153,13 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 <h1>n8n + AI: The Open-Source Automation Engine That Actually Works</h1>
 <p class="meta">JUL 28, 2026 · 16 MIN READ · BY <a href="/">MARTECHSIGNAL</a></p>
 
-<p>In our <a href="/blog/open-source-martech-stack/">open-source martech stack analysis</a>, one tool kept surfacing as the connective tissue holding everything together: <strong>n8n</strong>. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities that turn it into more than a pipe-between-APIs tool, n8n isn't just another automation platform — it's the one open-source tool in the stack that <em>genuinely outperforms</em> its commercial competitors on both cost and capability.</p>
+<p>In our <a href="/blog/open-source-martech-stack/">open-source martech stack analysis</a>, one tool kept surfacing as the connective tissue holding everything together: <strong>n8n</strong>. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities that turn it into more than a pipe-between-APIs tool, n8n does something unusual for open-source software: it <em>genuinely outperforms</em> its commercial competitors on both cost and capability.</p>
 
-<p>But "free" and "open source" don't mean "easy." n8n has a learning curve, a self-hosting requirement for the truly free tier, and AI features that are still rolling out. This deep dive walks through <strong>what n8n actually does for marketing teams</strong> — with real workflows, verified pricing, and honest trade-offs.</p>
+<p>But "free" and "open source" don't mean "easy." n8n has a learning curve, a self-hosting requirement for the truly free tier, and AI features that are still rolling out. This piece walks through <strong>what n8n actually does for marketing teams</strong>, with real workflows, verified pricing, and honest trade-offs.</p>
 
 <h2>Why n8n Wins the Automation Category</h2>
 
-<p>Most open-source tools win on one dimension: cost. They do 80% of what the commercial alternative does for $0. n8n is different. It wins on three dimensions:</p>
+<p>Most open-source tools win on one dimension: cost. They do 80% of what the commercial alternative does for $0. n8n wins across several at once.</p>
 
 <h3>1. Per-execution pricing destroys per-task models at scale</h3>
 
@@ -171,10 +171,10 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 <li><strong>Zapier</strong> charges per <em>task</em>. Each action step counts. That 20-step Zap = <strong>20 tasks per run</strong>. Your 750-task Professional plan ($19.99/mo) handles just 37 runs.</li>
 </ul>
 
-<p>For marketing teams running AI-heavy, multi-step workflows, the math is brutal for commercial alternatives. A lead scoring pipeline that runs 500 times a month costs &euro;20 on n8n, ~$18 on Make Pro, and <strong>$100+</strong> on Zapier Team — and that's before the AI surcharges Zapier adds for AI steps.</p>
+<p>For marketing teams running AI-heavy, multi-step workflows, the math is brutal for commercial alternatives. A lead scoring pipeline that runs 500 times a month costs &euro;20 on n8n, ~$18 on Make Pro, and <strong>$100+</strong> on Zapier Team. And that's before the AI surcharges Zapier adds for AI steps.</p>
 
 <div class="callout">
-<strong>Bottom line:</strong> n8n's execution-based pricing isn't a minor detail. It's the reason a self-hosted n8n instance can replace a $200/mo Zapier bill with a $20/mo VPS. At scale — 5,000+ workflow runs/month — the savings are 5–10x, not 20%.
+<strong>Bottom line:</strong> n8n's execution-based pricing isn't a minor detail. It's the reason a self-hosted n8n instance can replace a $200/mo Zapier bill with a $20/mo VPS. At scale (5,000+ workflow runs/month) the savings are 5-10x, not 20%.
 </div>
 
 <h3>2. AI is first-class, not bolted on</h3>
@@ -194,7 +194,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 
 <h2>3 Real n8n AI Workflows a Marketing Ops Person Would Actually Use</h2>
 
-<p>n8n's template library has <a href="https://n8n.io/workflows/categories/marketing/">3,360+ marketing workflows</a>. Most are developer demos — cool but impractical. Here are three that solve real marketing ops problems, with enough detail that you could build them today.</p>
+<p>n8n's template library has <a href="https://n8n.io/workflows/categories/marketing/">3,360+ marketing workflows</a>. Most are developer demos, cool but impractical. Here are three that solve real marketing ops problems, with enough detail that you could build them today.</p>
 
 <h3>Workflow 1: Lead Scoring + Slack Alert from Webhook</h3>
 
@@ -219,7 +219,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 <p>IF node branches on priority. Hot (8–10): Slack message to #sales-inbound with full profile + score + reasoning. Warm (4–7): add to email nurture sequence and tag "MQL" in CRM. Cold (1–3): tag "Low Priority" in CRM, no notification.</p>
 </div>
 
-<p>Full end-to-end time: <strong>15–45 seconds</strong>. Compared to a human doing the same research: 10+ minutes. At 50 leads/day, that's 8 hours of rep time saved — per day.</p>
+<p>Full end-to-end time: <strong>15–45 seconds</strong>. Compared to a human doing the same research: 10+ minutes. At 50 leads/day, that's 8 hours of rep time saved per day.</p>
 
 <p>This workflow is based on a tested build from <a href="https://www.theagentecosystem.com/blog/n8n-ai-lead-enrichment-workflow">The Agent Ecosystem</a> and uses 9 nodes total. <a href="https://n8n.io/workflows/10128-ai-sales-agent-fully-automated-email-handling-and-lead-scoring-system/">Community template available</a>.</p>
 
@@ -267,7 +267,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 <p>IF node checks if domain is a free email provider (gmail.com, outlook.com, etc.). If yes: skip company enrichment, flag the contact as "Consumer/Personal Email," and route to a different nurture track. This prevents API calls that would fail and avoids contaminating B2B data with consumer leads.</p>
 </div>
 
-<p>This is the lowest-complexity workflow of the three — 6–8 nodes — and delivers the most immediate ROI. A CRM full of enriched data means better segmentation, better lead scoring, and better reporting. The alternative is asking sales reps to fill in company data manually, which they won't do.</p>
+<p>This is the lowest-complexity workflow of the three, 6–8 nodes, and delivers the most immediate ROI. A CRM full of enriched data means better segmentation, better lead scoring, and better reporting. The alternative is asking sales reps to fill in company data manually, which they won't do.</p>
 
 <div class="callout">
 <strong>All three workflows combined</strong> — lead scoring, content pipeline, CRM enrichment — run on n8n's Starter plan (&euro;20/mo, 2,500 executions) with room to spare. On Zapier Professional ($19.99/mo), the lead scoring workflow alone would blow through the 750-task limit in 3 days.
@@ -347,7 +347,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 <tr><td>n8n self-hosted</td><td>Community (free)</td><td class="oss-price">$0 + VPS (~$10–20/mo)</td><td>Unlimited</td></tr>
 </table>
 
-<p>Zapier's task model doesn't just make multi-step workflows expensive — it makes many of them <em>impossible</em> on lower-tier plans. A single 20-step Zap running daily uses 600 tasks/month, leaving just 150 for everything else on the Professional plan. This is by design: the pricing model pushes heavy users toward Team and Enterprise plans.</p>
+<p>Zapier's task model doesn't just make multi-step workflows expensive. It makes many of them <em>impossible</em> on lower-tier plans. A single 20-step Zap running daily uses 600 tasks/month, leaving just 150 for everything else on the Professional plan. This is by design: the pricing model pushes heavy users toward Team and Enterprise plans.</p>
 
 <div class="callout">
 <strong>n8n's Community Edition is the pricing cheat code.</strong> Self-host on a $10/mo VPS (Hetzner, DigitalOcean, or even a Raspberry Pi in your office) and you get unlimited workflows, unlimited users, and all 400+ integrations for $0 — forever. No per-user fees, no per-workflow caps, no execution limits. The only cost is infrastructure and your time to maintain it. This is what makes n8n the centerpiece of the open-source martech stack: it's the one tool where "free" actually means free at any scale.
@@ -372,7 +372,7 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 
 <div class="verdict tie">
 <div class="verdict-label">&#9878; Tie: Power vs. Accessibility</div>
-<p>n8n is dramatically more powerful than Zapier for complex, high-volume automation. It's also dramatically harder to learn. For a marketing team without technical support, Zapier's "sign up and build in 5 minutes" experience is genuinely valuable. The question isn't which tool is better — it's whether your team has the technical capacity to unlock n8n's advantages. If the answer is yes, the ROI is enormous. If no, n8n cloud at &euro;20/mo closes most of the gap while keeping costs manageable.</p>
+<p>n8n is dramatically more powerful than Zapier for complex, high-volume automation. It's also dramatically harder to learn. For a marketing team without technical support, Zapier's "sign up and build in 5 minutes" experience is genuinely valuable. The question isn't which tool is better. It's whether your team has the technical capacity to unlock n8n's advantages. If the answer is yes, the ROI is enormous. If no, n8n cloud at &euro;20/mo closes most of the gap while keeping costs manageable.</p>
 </div>
 
 <h2>Where n8n Fills the Gaps — and Where Commercial Tools Still Win</h2>
@@ -413,11 +413,11 @@ footer{border-top:1px solid var(--line);padding:2.2rem 0}
 
 <h2>The Verdict: n8n Is the Automation Engine the Open-Source Stack Deserves</h2>
 
-<p>n8n isn't a Zapier clone that happens to be open source. It's a fundamentally different product built on a fundamentally better pricing model. The per-execution approach, combined with self-hosting and native AI agents, makes it not just cheaper than Zapier and Make — it makes it <em>more capable</em> for the workflows marketing teams actually need in 2026.</p>
+<p>n8n isn't a Zapier clone that happens to be open source. It's a fundamentally different product built on a fundamentally better pricing model. The per-execution approach, combined with self-hosting and native AI agents, makes it cheaper than Zapier and Make while also being <em>more capable</em> for the workflows marketing teams actually need in 2026.</p>
 
-<p>The trade-off is real, and it's worth stating plainly: <strong>n8n requires technical skills that most marketing teams don't have in-house.</strong> The gap between "I can connect Gmail to Slack" and "I can build an AI lead scoring agent with error handling and fallback routing" is measured in weeks of learning, not hours. For solo marketers and small teams without technical support, n8n Cloud at &euro;20/mo is the smart entry point — you get 90% of the capability without the DevOps burden.</p>
+<p>The trade-off is real, and it's worth stating plainly: <strong>n8n requires technical skills that most marketing teams don't have in-house.</strong> The gap between "I can connect Gmail to Slack" and "I can build an AI lead scoring agent with error handling and fallback routing" is measured in weeks of learning, not hours. For solo marketers and small teams without technical support, n8n Cloud at &euro;20/mo is the smart entry point. You get 90% of the capability without the DevOps burden.</p>
 
-<p>But for any team with even one person who knows their way around a terminal, n8n self-hosted is the best deal in martech. Period. A $10/mo VPS replaces $200–500/mo in Zapier/Make subscriptions, and the AI capabilities turn automation from "move data from A to B" into "reason about data and take action." That's a capability jump, not just a cost savings.</p>
+<p>But for any team with even one person who knows their way around a terminal, n8n self-hosted is the best deal in martech. A $10/mo VPS replaces $200–500/mo in Zapier/Make subscriptions, and the AI capabilities turn automation from "move data from A to B" into "reason about data and take action." That's a step change in capability, not just a cheaper bill.</p>
 
 <p>In the <a href="/blog/open-source-martech-stack/">open-source stack we mapped out</a>, n8n was the glue. After spending real time with its AI workflows, pricing model, and community, the conclusion is stronger: n8n is the <em>engine</em>. Build your stack around it, and you've got automation infrastructure that commercial vendors can't match on either cost or flexibility.</p>
 
