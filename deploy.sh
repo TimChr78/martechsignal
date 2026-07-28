@@ -5,7 +5,7 @@ set -euo pipefail
 # Requires: CLOUDFLARE_API_KEY (Pages:Edit) and CLOUDFLARE_ACCOUNT_ID env vars.
 
 PROJECT="martechsignal"
-ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-fde19f15cef67eaf4f50c2cf2b635acb}"
+ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:?CLOUDFLARE_ACCOUNT_ID not set}"
 
 if [ -z "${CLOUDFLARE_API_KEY:-}" ]; then
     echo "ERROR: CLOUDFLARE_API_KEY not set" >&2
