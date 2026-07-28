@@ -250,7 +250,8 @@
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Anyword is an AI copywriting platform built around a single, measurable proposition: predict how well your copy will perform before you send it. Its Predictive Performance Score rates any piece of copy on a 0\u2013100 scale trained on millions of real marketing campaigns across email, social media, ads, landing pages, and blog content. Founded in 2020 and headquartered in New York, Anyword works agnostic to the underlying LLM, meaning it can layer its scoring and optimization engine on top of models from OpenAI, Anthropic, or other providers \u2014 and even other AI tools like Jasper and ChatGPT. Its Performance Boost AI feature lets teams train custom scoring models on their own historical campaign data, so the predictions reflect what actually converts for their specific audience. Key features include a copy generator with tone-of-voice controls, a blog post wizard, A/B testing recommendations, and integrations with Chrome, HubSpot, and social platforms. Pricing starts at $39/month for the Starter plan with one user and basic features; the Pro plan at $79/month adds custom scoring models and team collaboration. Anyword's niche is data-driven optimization: if you want AI that writes copy, any tool can do that. If you want AI that tells you which version will convert, Anyword is purpose-built for that question."
   },
   {
     "slug": "attio",
@@ -739,7 +740,8 @@
     "hq": "Cape Town, South Africa",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "ContentBot is an AI content automation platform that shifts the value proposition from 'AI writes for you' to 'AI runs your content pipeline.' Its signature feature, AI Flows, lets marketers build multi-step automation sequences where the AI generates content, checks it against brand guidelines, formats it for specific channels, and schedules or publishes it \u2014 all without manual handoffs between steps. With over 200,000 users, ContentBot competes with Jasper and Copy.ai at a lower price point and with a stronger emphasis on workflow automation rather than one-off generation. The platform includes 60+ AI tools for blog posts, social media, ads, email, and product descriptions, plus an AI-powered content importer that can ingest, rewrite, and restructure existing content for new channels. A built-in plagiarism checker verifies originality, and the Chrome extension surfaces AI writing capabilities across the web. ContentBot offers a free trial, with paid plans starting around $19/month for individuals. Agency plans include white-label capabilities and multi-client management. Its position in the market is the automation-first alternative: not the best AI writer, but the best tool for teams that know what content they need and want to systematize the production process rather than prompt AI manually every time."
   },
   {
     "slug": "copy-ai",
@@ -776,7 +778,8 @@
     "hq": "Memphis, TN, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Copy.ai started in 2020 as an AI copywriting tool but has undergone one of the sharper strategic pivots in the AI marketing space, repositioning as a GTM AI platform that orchestrates sales and marketing workflows rather than just generating text. The platform now organizes around go-to-market motions: prospecting (account research, personalized outreach), inbound (lead qualification, meeting prep), content (blog posts, social, email), and deal execution (proposal generation, competitive research). Its Prospecting Cockpit is the standout feature, combining company research, contact data enrichment, and AI-generated outreach sequences in one workflow. Copy.ai offers a large suite of free AI tools that serve as an acquisition funnel for the paid platform. Integrations include Salesforce, HubSpot, Google Workspace, and Slack. The free tier provides limited access; the Pro plan at $49/month includes unlimited words and workflow automation; the enterprise tier adds SSO, dedicated support, and custom workflows. Copy.ai competes with Jasper (agent workspace approach) and Writer (enterprise compliance approach), differentiating on its GTM workflow orchestration. For revenue teams that want AI to participate in the end-to-end sales motion rather than just help with copy, Copy.ai is the most workflow-native option in the category."
   },
   {
     "slug": "customer-io",
@@ -1211,7 +1214,8 @@
     "hq": "Singapore",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built specifically for ecommerce brands managing large product catalogs. Rather than competing as a general-purpose AI writer, it focuses on the distinct content challenges of online retail: product descriptions at scale, category page copy, SEO metadata, and product information enrichment across thousands of SKUs. The platform can generate unique, on-brand product descriptions in bulk from minimal input data (product name, specs, image), and includes a data cleaning and enrichment layer that standardizes product attributes before content generation begins. Direct publishing integrations connect to Shopify, Amazon, Walmart, and other major ecommerce platforms, so generated content flows directly into the product catalog without CSV exports or copy-paste workflows. Founded around 2020 and headquartered in Singapore, Hypotenuse AI positions as an enterprise-grade platform with governance controls for brand compliance across large teams and catalogs. Pricing is custom-quoted based on SKU volume and feature needs. It competes with the product content capabilities of Jasper and Writer but differentiates by being entirely ecommerce-native: its AI models are trained on product content patterns, its output formats match ecommerce platform requirements, and its workflows assume a catalog-first content operation."
   },
   {
     "slug": "intercom",
@@ -1285,7 +1289,8 @@
     "hq": "Austin, TX, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. Campaigns let teams brief an AI agent with brand context, audience data, and campaign goals, then generate coordinated assets across channels \u2014 blog posts, social media, email sequences, ad copy \u2014 from a single brief. The platform integrates with Google Docs, Chrome, Surfer SEO, Grammarly, and CMS tools, and includes a company knowledge base where teams can upload brand guidelines, product specs, and audience research that all generated content references. Jasper raised over $125 million in venture funding and went through a significant restructuring in 2024-2025, narrowing focus from the broad SMB market to enterprise marketing teams. Pricing starts at $49/month for the Creator plan with one user and basic features; the Pro plan at $69/month adds campaigns and multiple brand voices; Business plans with SSO, analytics, and unlimited users are custom-quoted. Jasper competes with Copy.ai (GTM workflows), Writer (enterprise compliance), and ChatGPT Enterprise (general-purpose). Its differentiation is marketing depth: not an AI that can write anything, but an AI workspace built for how marketing teams operate."
   },
   {
     "slug": "klaviyo",
@@ -2045,7 +2050,8 @@
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Persado is an enterprise AI content optimization platform that takes a fundamentally different approach to AI-generated marketing copy: instead of using LLMs to produce creative text from a prompt, it uses a proprietary Motivation AI engine that understands which language elements drive emotional response and action in specific audience segments. Founded in 2012 and headquartered in New York, Persado targets regulated industries where marketing language carries compliance and reputational risk: financial services, retail banking, insurance, travel, and hospitality. Its platform spans four layers: content generation informed by a taxonomy of emotional language elements, performance prediction that scores content before deployment, optimization that tests variants, and delivery to email, web, mobile, and ad platforms. The system learns which words, phrases, emotions, and formatting patterns drive conversion for specific audiences and applies those patterns to future content. Compliance and brand safety are built in: all generated content must pass regulatory and brand checks before going live. Persado is enterprise-only with custom pricing; customers include JPMorgan Chase, Dell, and major airlines. It competes with Phrasee in the enterprise language optimization space but differentiates on its emotional intelligence taxonomy and depth of service layer for regulated marketing organizations."
   },
   {
     "slug": "phrasee",
@@ -2079,7 +2085,8 @@
     "hq": "London, UK",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Phrasee is an enterprise AI copywriting platform specialized in generating and optimizing short-form marketing language: email subject lines, push notification text, social media ad copy, SMS messages, and in-app messaging. Unlike general-purpose AI writers, Phrasee's natural language generation models are trained exclusively on marketing copy and incorporate brand voice controls directly into the generation pipeline. This means marketers define their brand's tone, vocabulary, and prohibited language once, and all generated copy conforms to those rules without manual review. The platform includes A/B testing capabilities that measure real-world performance and feed the results back into the model so it generates increasingly effective copy over time. Analytics dashboards track lift in open rates, click-through rates, and conversion against brand-specific benchmarks. Phrasee was founded in the UK and acquired by CM Group (now Marigold) in 2021, then underwent a management buyout in 2023 to operate independently. It is enterprise-only with custom pricing based on message volume and channels. Primary competitors are Persado (emotional intelligence approach) and the AI copy features in Braze, Salesforce, and Adobe platforms. Phrasee's key pitch is brand safety at scale: for organizations where sending off-brand AI-generated copy to millions of customers is a career-limiting risk, Phrasee provides guardrails that consumer AI tools do not."
   },
   {
     "slug": "pipedrive",
@@ -3062,7 +3069,8 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-07-27"
+    "date_updated": "2026-07-28",
+    "description": "Writer is the enterprise AI platform built for organizations that treat brand consistency and regulatory compliance as non-negotiable requirements for AI adoption. Unlike tools that wrap third-party LLMs, Writer built its own Palmyra family of language models specifically trained on business and marketing language, with brand voice codification and content governance as first-class features. AI Studio, its application builder, lets teams create custom AI applications for specific marketing, sales, support, and operations workflows without writing code. The platform's defining feature is its style guide enforcement: companies upload their brand guidelines, terminology databases, and compliance rules, and the AI enforces these rules in every piece of generated content. Writer serves Fortune 500 companies including Intuit, L'Or\u00e9al, and Deloitte, and positions as the secure, governed alternative to ChatGPT Enterprise for companies that cannot risk AI generating off-brand or non-compliant content. Integrations include Chrome, Google Docs, Microsoft Word, Figma, and content management systems. Pricing is enterprise-only with custom quotes based on users and use cases. Writer competes with Jasper (marketing workflow focus) and Copy.ai (GTM workflow focus) but differentiates on its proprietary LLMs, governance depth, and suitability for heavily regulated industries like financial services, healthcare, and insurance where the cost of an off-brand AI output is measured in regulatory fines rather than lost click-throughs."
   },
   {
     "slug": "zapier",
