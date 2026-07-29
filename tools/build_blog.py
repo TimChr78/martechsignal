@@ -256,6 +256,30 @@ article blockquote{{border-left:3px solid var(--amber);background:var(--card);bo
 article blockquote p{{margin:0;color:var(--text)}}
 article strong{{color:var(--text)}}
 article hr{{border:none;border-top:1px solid var(--line);margin:1.6rem 0}}
+/* Rich blog elements: callouts, verdicts, tables, workflow steps */
+.callout{{background:linear-gradient(180deg,rgba(61,220,151,.06),transparent 60%),var(--card);border:1px solid var(--line2);border-radius:10px;padding:1.4rem 1.6rem;margin:1.8rem 0;font-size:.95rem}}
+.callout strong{{color:var(--green)}}
+.verdict{{border-radius:10px;padding:1.3rem 1.5rem;margin:1.6rem 0;background:var(--card);border:1px solid var(--line2)}}
+.verdict-label{{font:600 .7rem var(--mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.6rem;color:var(--green)}}
+.win{{border-left:3px solid var(--green)}}
+.lose{{border-left:3px solid var(--red)}}
+.tie{{border-left:3px solid var(--amber)}}
+.cmp{{width:100%;border-collapse:collapse;margin:1.4rem 0 1.8rem;font-size:.88rem}}
+.cmp th{{font:600 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.6rem .7rem;border-bottom:2px solid var(--line2)}}
+.cmp td{{padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;color:#D5DDEB}}
+.total{{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.88rem}}
+.total th{{font:600 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.6rem .7rem;border-bottom:2px solid var(--line2)}}
+.total td{{padding:.6rem .7rem;border-bottom:1px solid var(--line);color:#D5DDEB}}
+.total tr:last-child td{{border-bottom:2px solid var(--line2);font-weight:700;color:var(--text)}}
+.oss-price{{color:var(--green);font:600 .82rem var(--mono)}}
+.com-price{{color:var(--red);font:600 .82rem var(--mono)}}
+.mid-price{{color:var(--amber);font:600 .82rem var(--mono)}}
+.wf-step{{background:var(--card);border:1px solid var(--line2);border-radius:8px;padding:1rem 1.3rem;margin:1rem 0}}
+.wf-step h4{{font:600 .74rem var(--mono);letter-spacing:.1em;color:var(--amber);text-transform:uppercase;margin-bottom:.5rem}}
+.wf-step p{{font-size:.92rem;margin-bottom:.3rem}}
+.wf-step .code-label{{font:500 .66rem var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:.6rem}}
+.code-label{{font:500 .66rem var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:.6rem}}
+@media(max-width:600px){{.cmp,.total{{font-size:.76rem}}.cmp td,.cmp th,.total td,.total th{{padding:.4rem}}}}
 code{{font-family:var(--mono);font-size:.82rem;background:rgba(15,27,49,.8);padding:1px 6px;border-radius:3px;border:1px solid var(--line)}}
 .cta-strip{{background:linear-gradient(180deg,rgba(255,178,36,.07),transparent 55%),var(--card);border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:10px;padding:1.8rem 1.9rem;margin:2.5rem 0 3.5rem}}
 .cta-strip h3{{font-family:var(--disp);font-weight:400;font-size:1.25rem;margin-bottom:.4rem}}
