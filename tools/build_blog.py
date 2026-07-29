@@ -297,9 +297,9 @@ def build_index(posts: list) -> str:
 
         entries.append(f"""    <li class="reveal"><a class="sig" href="/blog/{slug}/">
       <span class="idx">{idx:02d}</span>
-      <span><h2>{html.escape(title)}</h2>
+      <span><h2>{html.escape(title, quote=False)}</h2>
       <span class="sub">{date}</span>
-      <p class="excerpt">{html.escape(excerpt[:180])}</p></span>
+      <p class="excerpt">{html.escape(excerpt[:180], quote=False)}</p></span>
       <span class="arrow">→</span>
     </a></li>""")
 
@@ -458,7 +458,7 @@ def scan_existing_posts(draft_slugs: set) -> list:
 
         # Extract title from <title>...</title>
         m = re.search(r'<title>(.+?)(?:\s+—\s+Martech\s+Signal)?</title>', html_content)
-        title = m.group(1).strip() if m else slug.replace('-', ' ').title()
+        title = html.unescape(m.group(1).strip()) if m else slug.replace('-', ' ').title()
 
         # Extract date from meta line "JUL 28, 2026" or fallback to datePublished JSON-LD
         m = re.search(r'<p class="meta">([A-Z]{3}\s+\d{2},\s+\d{4})', html_content)
@@ -472,10 +472,10 @@ def scan_existing_posts(draft_slugs: set) -> list:
 
         # Extract excerpt from og:description or meta description
         m = re.search(r'<meta name="description" content="([^"]+)"', html_content)
-        excerpt = m.group(1)[:180] if m else ''
+        excerpt = html.unescape(m.group(1)[:180]) if m else ''
         if not excerpt:
             m = re.search(r'<meta property="og:description" content="([^"]+)"', html_content)
-            excerpt = m.group(1)[:180] if m else ''
+            excerpt = html.unescape(m.group(1)[:180]) if m else ''
 
         posts.append({
             'title': title,
