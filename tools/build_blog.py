@@ -292,7 +292,7 @@ def build_index(posts: list) -> str:
     for idx, post in enumerate(posts_sorted, start=1):
         title = post['title']
         date = post['date']
-        slug = slugify(title)
+        slug = post.get('slug', slugify(title))
         excerpt = post.get('excerpt', '')
 
         entries.append(f"""    <li class="reveal"><a class="sig" href="/blog/{slug}/">
