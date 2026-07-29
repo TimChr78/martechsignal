@@ -50,7 +50,7 @@ def parse_frontmatter(text: str):
 
 def markdown_to_html(md: str) -> str:
     """Convert basic markdown to HTML. Handles h1-3, paragraphs, lists, links,
-    bold, italic, inline code, and blockquotes."""
+    bold, italic, inline code, blockquotes, fenced divs (::: type), and raw HTML."""
     lines = md.split('\n')
     out = []
     i = 0
@@ -81,6 +81,38 @@ def markdown_to_html(md: str) -> str:
                 items.append(f'<li>{item_text}</li>')
                 i += 1
             out.append('<ul>\n' + '\n'.join(items) + '\n</ul>')
+            continue
+
+        # Fenced divs: ::: callout / ::: verdict win / ::: wf-step
+        m = re.match(r'^:::\s+(.+)$', line)
+        if m:
+            classes = m.group(1).strip()
+            inner_lines = []
+            i += 1
+            while i < len(lines) and not re.match(r'^:::$', lines[i].strip()):
+                inner_lines.append(lines[i])
+                i += 1
+            if i < len(lines):
+                i += 1  # skip closing :::
+            inner_md = '\n'.join(inner_lines)
+            inner_html = markdown_to_html(inner_md)
+            out.append(f'<div class="{classes}">\n{inner_html}\n</div>')
+            continue
+
+        # Raw HTML passthrough (lines starting with < and ending with >)
+        if re.match(r'^\s*<[a-zA-Z/]', line) and '>' in line:
+            html_lines = [line]
+            i += 1
+            # Collect multi-line HTML blocks
+            while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|:::\s|[-—]{2,}$)', lines[i]):
+                if '</' in lines[i] and not ('</' in html_lines[-1]):
+                    html_lines.append(lines[i])
+                    i += 1
+                    if '>' in lines[i-1]:
+                        break
+                    continue
+                break
+            out.append('\n'.join(html_lines))
             continue
 
         # Horizontal rule (--- or —)
