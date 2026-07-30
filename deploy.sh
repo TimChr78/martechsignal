@@ -3,6 +3,18 @@ set -euo pipefail
 
 # Deploy martechsignal.com to Cloudflare Pages via wrangler.
 # Requires: CLOUDFLARE_API_KEY (Pages:Edit) and CLOUDFLARE_ACCOUNT_ID env vars.
+#
+# Usage:
+#   ./deploy.sh            deploy to Cloudflare + IndexNow + git commit/push
+#   ./deploy.sh --no-git   skip the git commit/push step
+
+# ── Flags ──────────────────────────────────────────────────────────
+DO_GIT=1
+for arg in "$@"; do
+    case "$arg" in
+        --no-git) DO_GIT=0 ;;
+    esac
+done
 
 # Source secrets for cron runs (turn off -u, .env references $1 etc.)
 set +u
@@ -45,4 +57,28 @@ if [ ${#URLS[@]} -gt 1 ]; then
     HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$INDEXNOW_ENDPOINT" \
         -H "Content-Type: application/json" -d "$PAYLOAD")
     echo "IndexNow: $HTTP_CODE (${#URLS[@]} URLs submitted)"
+fi
+
+# ── Git commit + push (skip with --no-git) ─────────────────────────
+# Runs last so a successful deploy is never blocked by a git hiccup.
+if [ "$DO_GIT" -eq 1 ]; then
+    echo ""
+    echo "── Git sync ────────────────────────────────────────────"
+    if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+        if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "deploy: $(date -u +%Y-%m-%d\ %H:%M) UTC — rebuild + publish" >/dev/null
+            echo "Committed pending changes."
+        else
+            echo "Working tree clean — nothing to commit."
+        fi
+        # Push any local commits ahead of origin (non-fatal on failure)
+        if git push origin HEAD 2>&1 | tail -2; then
+            :
+        else
+            echo "⚠ git push failed — deploy succeeded, push manually later." >&2
+        fi
+    else
+        echo "Not a git repo — skipping git sync."
+    fi
 fi
