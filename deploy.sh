@@ -5,14 +5,23 @@ set -euo pipefail
 # Requires: CLOUDFLARE_API_KEY (Pages:Edit) and CLOUDFLARE_ACCOUNT_ID env vars.
 #
 # Usage:
-#   ./deploy.sh            deploy to Cloudflare + IndexNow + git commit/push
-#   ./deploy.sh --no-git   skip the git commit/push step
+#   ./deploy.sh              build + deploy to Cloudflare + IndexNow + git commit/push
+#   ./deploy.sh --no-build   skip the build step (upload current files as-is)
+#   ./deploy.sh --no-git     skip the git commit/push step
+#
+# The build step regenerates blog posts, tool/category pages, sitemap, and the
+# homepage latest-signals block from source (content/drafts/*.md, tools.json).
+# It runs BEFORE upload so the live site always reflects current source — this
+# closes the "deployed stale HTML" footgun where edits to a draft never reached
+# the site because deploy.sh used to only upload pre-built files.
 
 # ── Flags ──────────────────────────────────────────────────────────
 DO_GIT=1
+DO_BUILD=1
 for arg in "$@"; do
     case "$arg" in
-        --no-git) DO_GIT=0 ;;
+        --no-git)   DO_GIT=0 ;;
+        --no-build) DO_BUILD=0 ;;
     esac
 done
 
@@ -32,6 +41,17 @@ if [ -z "${CLOUDFLARE_API_KEY:-}" ]; then
 fi
 
 cd "$(dirname "$0")"
+
+# ── Build from source (skip with --no-build) ───────────────────────
+# Regenerate all generated HTML so the upload reflects current source.
+# Under `set -e`, a build failure aborts the deploy (don't ship half-built site).
+if [ "$DO_BUILD" -eq 1 ]; then
+    echo "── Build ───────────────────────────────────────────────"
+    python3 tools/build_blog.py
+    python3 tools/build_tools.py
+    echo ""
+fi
+
 CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_KEY" \
 CLOUDFLARE_ACCOUNT_ID="$ACCOUNT_ID" \
 npx wrangler pages deploy . --project-name="$PROJECT"
