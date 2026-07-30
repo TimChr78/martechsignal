@@ -54,7 +54,7 @@ fi
 
 CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_KEY" \
 CLOUDFLARE_ACCOUNT_ID="$ACCOUNT_ID" \
-npx wrangler pages deploy . --project-name="$PROJECT"
+npx wrangler pages deploy . --project-name="$PROJECT" --commit-dirty=true
 
 # ── IndexNow ping (Bing / Yandex) ──────────────────────────────────
 INDEXNOW_KEY="ca0ff0788c47a161e772b2e9b073b2a4"
