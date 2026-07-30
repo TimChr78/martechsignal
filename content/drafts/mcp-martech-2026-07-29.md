@@ -7,7 +7,7 @@ tags: [mcp, model-context-protocol, integration, martech-stack, ai-agents]
 
 Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying that tax since the category existed.
 
-MCP (Model Context Protocol) collapses that formula. When tools expose MCP endpoints instead of raw REST APIs, an AI agent can discover and call them the same way a browser calls web servers — no custom connector, no middleware, no integration project. The same ten tools become ten MCP registrations. Linear. O(n). Forty-five integrations you don't build, don't maintain, and don't debug at 2 AM because a webhook silently decided to stop firing.
+MCP (Model Context Protocol) collapses that formula. When tools expose MCP endpoints instead of raw REST APIs, an AI agent can discover and call them the same way a browser calls web servers. No custom connector, no middleware, no integration project. The same ten tools become ten MCP registrations. Linear. O(n). Forty-five integrations you don't build, don't maintain, and don't debug at 2 AM because a webhook silently decided to stop firing.
 
 The two things that change: how much it costs to connect your stack, and whether the big suite's lock-in is still worth the check you write every month.
 
@@ -101,17 +101,17 @@ Here's what the two stacks actually cost at comparable capability levels:
 ::: verdict win
 <div class="verdict-label">✓ MCP-Native Wins: Cost + Flexibility</div>
 
-For roughly 36% less per month, you get a stack where every component is best-in-class and an agent handles the wiring. The trade-off that defined the martech market — integration vs. quality — stops being a trade-off.
+For roughly 36% less per month, you get a stack where every component is best-in-class and an agent handles the wiring. The trade-off that defined the martech market (integration vs. quality) stops being a trade-off.
 :::
 
 ## The Conductor Becomes Plumbing
 
 In the old model, the platform is the conductor. HubSpot decides which data goes where, what triggers what, how the UI looks. The platform imposes its model on your operations.
 
-MCP hands the baton to the agent layer. The platform becomes dumb plumbing — a data store with an MCP endpoint. The agent decides which tools to call, in what order, and with what logic. Change the pipeline by changing the agent's instructions, not the integration middleware.
+MCP hands the baton to the agent layer. The platform becomes dumb plumbing, a data store with an MCP endpoint. The agent decides which tools to call, in what order, and with what logic. Change the pipeline by changing the agent's instructions, not the integration middleware.
 
 ::: callout
-**Watch how the incumbents are responding.** HubSpot shipped an MCP server — but it's read-only for most objects. Salesforce is taking its time on official MCP support, leaving gaps the community is filling with unofficial connectors. These aren't accidental limitations. They're the moves of companies that can see the moat draining and are trying to control how fast it goes.
+**Watch how the incumbents are responding.** HubSpot shipped an MCP server, but it's read-only for most objects. Salesforce is taking its time on official MCP support, leaving gaps the community is filling with unofficial connectors. These aren't accidental limitations. They're the moves of companies that can see the moat draining and are trying to control how fast it goes.
 :::
 
 An open protocol doesn't ask permission. Once your data is accessible through MCP, the agent layer is what matters, and no single vendor owns that layer. The vendors that adapt become better data stores with better MCP endpoints. The ones that stall will find agents interacting with them through community-built servers that skipped every limitation the vendor intended.
@@ -126,16 +126,16 @@ Stop asking "does this integrate with HubSpot?" Start asking "does it have an MC
 
 ### 2. Best-of-breed is economically viable for the first time
 
-The trade-off that locked companies into suites is dissolving. Running separate CRM, email, enrichment, analytics, and workflow tools costs roughly what a suite costs — with dramatically better capability in every slot. The numbers in the table above aren't theoretical. They're priced from public plans in July 2026.
+The trade-off that locked companies into suites is dissolving. Running separate CRM, email, enrichment, analytics, and workflow tools costs roughly what a suite costs, with dramatically better capability in every slot. The numbers in the table above aren't theoretical. They're priced from public plans in July 2026.
 
 ### 3. Your orchestration layer becomes strategic
 
-The platform you pick for agent orchestration — general-purpose AI, a workflow tool with MCP support like **[Tray](/tools/tray-io/)** or **[n8n](/tools/n8n/)**, or a custom agent — determines what your stack can do. The individual tools become interchangeable parts. The agent is the stack.
+The platform you pick for agent orchestration (general-purpose AI, a workflow tool with MCP support like **[Tray](/tools/tray-io/)** or **[n8n](/tools/n8n/)**, or a custom agent) determines what your stack can do. The individual tools become interchangeable parts. The agent is the stack.
 
 ::: verdict win
 <div class="verdict-label">The Bottom Line</div>
 
-MCP doesn't make integrations free. It makes them cheap enough that the old logic of the platform suite doesn't hold. Your next stack will be agent-orchestrated. The only open question is which agent you put in the conductor's seat. For marketing ops teams running 5+ tools, the math already favors switching. For teams still locked into multi-year suite contracts, the clock is ticking — your renewal negotiation just lost its strongest argument.
+MCP doesn't make integrations free. It makes them cheap enough that the old logic of the platform suite doesn't hold. Your next stack will be agent-orchestrated. The only open question is which agent you put in the conductor's seat. For marketing ops teams running 5+ tools, the math already favors switching. For teams still locked into multi-year suite contracts, the clock is ticking. Your renewal negotiation just lost its strongest argument.
 :::
 
 ---

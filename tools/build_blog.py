@@ -207,97 +207,9 @@ def build_post(meta: dict, body_html: str) -> str:
 <script type="application/ld+json">
 {json.dumps(schema, indent=2)}
 </script>
-<style>
-:root{{
-  --bg:#080E1A; --card:#0F1B31; --line:#1D2B47; --line2:#2A3D63;
-  --text:#E9EEF8; --muted:#8FA1C0; --amber:#FFB224; --green:#3DDC97;
-  --red:#F87171;
-  --mono:'Spline Sans Mono',ui-monospace,monospace; --disp:'Archivo Black',sans-serif; --body:'Archivo',sans-serif;
-}}
-*{{margin:0;padding:0;box-sizing:border-box}}
-body{{background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.7;-webkit-font-smoothing:antialiased}}
-::selection{{background:var(--amber);color:#141005}}
-a{{color:inherit}}
-.bg{{position:fixed;inset:0;z-index:-1;
-  background:
-    radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.10), transparent 62%),
-    radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.06), transparent 60%),
-    var(--bg);}}
-.bg::before{{content:"";position:absolute;inset:0;
-  background-image:linear-gradient(rgba(140,165,210,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(140,165,210,.05) 1px,transparent 1px);
-  background-size:46px 46px;
-  mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 100%);}}
-.wrap{{max-width:720px;margin:0 auto;padding:0 1.25rem}}
-.masthead{{border-bottom:1px solid var(--line)}}
-.mast-in{{max-width:1080px;margin:0 auto;padding:1.1rem 1.25rem;display:flex;align-items:center;justify-content:space-between}}
-.wordmark{{font-family:var(--disp);font-size:1.15rem;letter-spacing:.03em;text-decoration:none}}
-.wordmark b{{color:var(--amber);font-weight:inherit}}
-.cursor{{color:var(--amber);animation:blink 1.1s steps(2) infinite;margin-left:2px}}
-@keyframes blink{{50%{{opacity:0}}}}
-.mast-nav{{display:flex;gap:1.4rem}}
-.mast-nav a{{font:600 .74rem var(--mono);letter-spacing:.14em;color:var(--muted);text-decoration:none;transition:color .2s}}
-.mast-nav a:hover{{color:var(--amber)}}
-.back{{display:inline-block;margin:2.4rem 0 0;font:600 .74rem var(--mono);letter-spacing:.14em;color:var(--muted);text-decoration:none;transition:color .2s}}
-.back:hover{{color:var(--amber)}}
-article{{padding:1.6rem 0 3rem}}
-.kicker{{font:600 .72rem var(--mono);letter-spacing:.16em;color:var(--amber);margin-bottom:1rem}}
-article h1{{font-family:var(--disp);font-weight:400;font-size:clamp(1.9rem,4.4vw,2.9rem);line-height:1.12;letter-spacing:-.015em;margin-bottom:1rem}}
-.meta{{font:500 .74rem var(--mono);letter-spacing:.12em;color:var(--muted);margin-bottom:2.4rem;padding-bottom:1.4rem;border-bottom:1px solid var(--line)}}
-.meta a{{color:var(--amber);text-decoration:none}}
-.meta a:hover{{text-decoration:underline}}
-article h2{{font-family:var(--disp);font-weight:400;font-size:1.45rem;letter-spacing:-.01em;margin:2.6rem 0 .9rem}}
-article h3{{font:700 1.15rem var(--body);margin:2rem 0 .7rem}}
-article p{{margin-bottom:1.15rem;font-size:1.05rem;color:#D5DDEB}}
-article a{{color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(255,178,36,.4);transition:border-color .2s}}
-article a:hover{{border-color:var(--amber)}}
-article ul,article ol{{margin:0 0 1.2rem 1.4rem}}
-article li{{margin-bottom:.5rem;color:#D5DDEB}}
-article blockquote{{border-left:3px solid var(--amber);background:var(--card);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.6rem 0;color:var(--text);font-weight:500}}
-article blockquote p{{margin:0;color:var(--text)}}
-article strong{{color:var(--text)}}
-article hr{{border:none;border-top:1px solid var(--line);margin:1.6rem 0}}
-/* Rich blog elements: callouts, verdicts, tables, workflow steps */
-.callout{{background:linear-gradient(180deg,rgba(61,220,151,.06),transparent 60%),var(--card);border:1px solid var(--line2);border-radius:10px;padding:1.4rem 1.6rem;margin:1.8rem 0;font-size:.95rem}}
-.callout strong{{color:var(--green)}}
-.verdict{{border-radius:10px;padding:1.3rem 1.5rem;margin:1.6rem 0;background:var(--card);border:1px solid var(--line2)}}
-.verdict-label{{font:600 .7rem var(--mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:.6rem;color:var(--green)}}
-.win{{border-left:3px solid var(--green)}}
-.lose{{border-left:3px solid var(--red)}}
-.tie{{border-left:3px solid var(--amber)}}
-.cmp{{width:100%;border-collapse:collapse;margin:1.4rem 0 1.8rem;font-size:.88rem}}
-.cmp th{{font:600 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.6rem .7rem;border-bottom:2px solid var(--line2)}}
-.cmp td{{padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;color:#D5DDEB}}
-.total{{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.88rem}}
-.total th{{font:600 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:.6rem .7rem;border-bottom:2px solid var(--line2)}}
-.total td{{padding:.6rem .7rem;border-bottom:1px solid var(--line);color:#D5DDEB}}
-.total tr:last-child td{{border-bottom:2px solid var(--line2);font-weight:700;color:var(--text)}}
-.oss-price{{color:var(--green);font:600 .82rem var(--mono)}}
-.com-price{{color:var(--red);font:600 .82rem var(--mono)}}
-.mid-price{{color:var(--amber);font:600 .82rem var(--mono)}}
-.wf-step{{background:var(--card);border:1px solid var(--line2);border-radius:8px;padding:1rem 1.3rem;margin:1rem 0}}
-.wf-step h4{{font:600 .74rem var(--mono);letter-spacing:.1em;color:var(--amber);text-transform:uppercase;margin-bottom:.5rem}}
-.wf-step p{{font-size:.92rem;margin-bottom:.3rem}}
-.wf-step .code-label{{font:500 .66rem var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:.6rem}}
-.code-label{{font:500 .66rem var(--mono);letter-spacing:.08em;color:var(--muted);margin-top:.6rem}}
-@media(max-width:600px){{.cmp,.total{{font-size:.76rem}}.cmp td,.cmp th,.total td,.total th{{padding:.4rem}}}}
-code{{font-family:var(--mono);font-size:.82rem;background:rgba(15,27,49,.8);padding:1px 6px;border-radius:3px;border:1px solid var(--line)}}
-.cta-strip{{background:linear-gradient(180deg,rgba(255,178,36,.07),transparent 55%),var(--card);border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:10px;padding:1.8rem 1.9rem;margin:2.5rem 0 3.5rem}}
-.cta-strip h3{{font-family:var(--disp);font-weight:400;font-size:1.25rem;margin-bottom:.4rem}}
-.cta-strip p{{color:var(--muted);font-size:.95rem;margin-bottom:1.1rem}}
-.btn{{display:inline-block;background:var(--amber);color:#141005;font:700 .92rem var(--body);text-decoration:none;padding:.75rem 1.5rem;border-radius:6px;transition:transform .2s,box-shadow .2s}}
-.btn:hover{{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}}
-footer{{border-top:1px solid var(--line);padding:2.2rem 0}}
-.foot-in{{max-width:1080px;margin:0 auto;padding:0 1.25rem;display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;align-items:center}}
-.foot-in p{{color:var(--muted);font-size:.85rem}}
-.foot-links{{display:flex;gap:1.4rem}}
-.foot-links a{{font:600 .72rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none}}
-.foot-links a:hover{{color:var(--amber)}}
-.reveal{{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}}
-.reveal.in{{opacity:1;transform:none}}
-@media(prefers-reduced-motion:reduce){{*,*::before,*::after{{animation:none!important;transition:none!important}}.reveal{{opacity:1;transform:none}}}}
-</style>
+<link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="page-post">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
@@ -387,69 +299,9 @@ def build_index(posts: list) -> str:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{{
-  --bg:#080E1A; --card:#0F1B31; --line:#1D2B47; --line2:#2A3D63;
-  --text:#E9EEF8; --muted:#8FA1C0; --amber:#FFB224; --green:#3DDC97;
-  --mono:'Spline Sans Mono',ui-monospace,monospace; --disp:'Archivo Black',sans-serif; --body:'Archivo',sans-serif;
-}}
-*{{margin:0;padding:0;box-sizing:border-box}}
-body{{background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.65;-webkit-font-smoothing:antialiased}}
-::selection{{background:var(--amber);color:#141005}}
-a{{color:inherit}}
-.bg{{position:fixed;inset:0;z-index:-1;
-  background:
-    radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.10), transparent 62%),
-    radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.06), transparent 60%),
-    var(--bg);}}
-.bg::before{{content:"";position:absolute;inset:0;
-  background-image:linear-gradient(rgba(140,165,210,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(140,165,210,.05) 1px,transparent 1px);
-  background-size:46px 46px;
-  mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 100%);}}
-.mono{{font-family:var(--mono)}}
-.masthead{{border-bottom:1px solid var(--line)}}
-.mast-in{{max-width:1080px;margin:0 auto;padding:1.1rem 1.25rem;display:flex;align-items:center;justify-content:space-between}}
-.wordmark{{font-family:var(--disp);font-size:1.15rem;letter-spacing:.03em;text-decoration:none}}
-.wordmark b{{color:var(--amber);font-weight:inherit}}
-.cursor{{color:var(--amber);animation:blink 1.1s steps(2) infinite;margin-left:2px}}
-@keyframes blink{{50%{{opacity:0}}}}
-.mast-nav{{display:flex;gap:1.4rem}}
-.mast-nav a{{font:600 .74rem var(--mono);letter-spacing:.14em;color:var(--muted);text-decoration:none;transition:color .2s}}
-.mast-nav a:hover{{color:var(--amber)}}
-.wrap{{max-width:820px;margin:0 auto;padding:0 1.25rem}}
-.page-head{{padding:3.6rem 0 2.4rem}}
-.kicker{{font:600 .72rem var(--mono);letter-spacing:.16em;color:var(--amber);margin-bottom:1rem}}
-h1{{font-family:var(--disp);font-weight:400;font-size:clamp(2rem,4.6vw,3rem);letter-spacing:-.015em;line-height:1.08}}
-.page-head p{{color:var(--muted);margin-top:1rem;max-width:34rem;font-size:1.05rem}}
-.post-list{{list-style:none;padding-bottom:3.5rem}}
-.post-list li{{border-top:1px solid var(--line)}}
-.post-list li:last-child{{border-bottom:1px solid var(--line)}}
-.sig{{display:grid;grid-template-columns:auto 1fr auto;gap:1.4rem;align-items:baseline;padding:1.5rem .8rem;text-decoration:none;transition:background .25s,transform .25s}}
-.sig:hover{{background:rgba(15,27,49,.75);transform:translateX(6px)}}
-.sig .idx{{font:600 .82rem var(--mono);color:var(--amber)}}
-.sig h2{{font:700 1.3rem/1.3 var(--body);letter-spacing:-.01em}}
-.sig .sub{{font:500 .72rem var(--mono);letter-spacing:.1em;color:var(--muted);margin-top:.4rem}}
-.sig .excerpt{{color:var(--muted);font-size:.93rem;margin-top:.45rem;max-width:38rem}}
-.sig .arrow{{font-family:var(--mono);color:var(--amber);opacity:0;transform:translateX(-6px);transition:opacity .25s,transform .25s}}
-.sig:hover .arrow{{opacity:1;transform:none}}
-@media(max-width:560px){{.sig{{grid-template-columns:auto 1fr}}.sig .arrow{{display:none}}}}
-.sub-strip{{background:linear-gradient(180deg,rgba(255,178,36,.07),transparent 55%),var(--card);border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:10px;padding:1.8rem 1.9rem;margin-bottom:3.5rem;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap}}
-.sub-strip h3{{font-family:var(--disp);font-weight:400;font-size:1.25rem;margin-bottom:.3rem}}
-.sub-strip p{{color:var(--muted);font-size:.92rem}}
-.btn{{display:inline-block;background:var(--amber);color:#141005;font:700 .92rem var(--body);text-decoration:none;padding:.75rem 1.5rem;border-radius:6px;transition:transform .2s,box-shadow .2s}}
-.btn:hover{{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}}
-footer{{border-top:1px solid var(--line);padding:2.2rem 0}}
-.foot-in{{max-width:1080px;margin:0 auto;padding:0 1.25rem;display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;align-items:center}}
-.foot-in p{{color:var(--muted);font-size:.85rem}}
-.foot-links{{display:flex;gap:1.4rem}}
-.foot-links a{{font:600 .72rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none}}
-.foot-links a:hover{{color:var(--amber)}}
-.reveal{{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}}
-.reveal.in{{opacity:1;transform:none}}
-@media(prefers-reduced-motion:reduce){{*,*::before,*::after{{animation:none!important;transition:none!important}}.reveal{{opacity:1;transform:none}}}}
-</style>
+<link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="page-blog-index">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
@@ -543,21 +395,64 @@ def scan_existing_posts(draft_slugs: set) -> list:
     return posts
 
 
+def update_homepage(posts: list, count: int = 3) -> bool:
+    """Regenerate the 'Latest signals' block in the hand-crafted homepage.
+
+    Replaces only the content between <!-- LATEST:START --> and
+    <!-- LATEST:END --> markers in index.html, leaving the rest of the
+    hand-maintained page untouched. Returns True if the page changed.
+    """
+    homepage = ROOT / "index.html"
+    if not homepage.exists():
+        print("Homepage index.html not found, skipping latest-signals update.")
+        return False
+
+    posts_sorted = sorted(posts, key=lambda p: p['date'], reverse=True)[:count]
+    if not posts_sorted:
+        print("No posts to feature on homepage.")
+        return False
+
+    rows = []
+    for idx, post in enumerate(posts_sorted, start=1):
+        title = html.escape(post['title'], quote=False)
+        slug = post.get('slug', slugify(post['title']))
+        rows.append(
+            f'    <a class="sig reveal" href="/blog/{slug}/">\n'
+            f'      <span class="idx">{idx:02d}</span>\n'
+            f'      <span><h3>{title}</h3>\n'
+            f'      <span class="sub">{post["date"]} · BLOG</span></span>\n'
+            f'      <span class="arrow">→</span>\n'
+            f'    </a>'
+        )
+    block = "\n".join(rows)
+
+    content = homepage.read_text()
+    pattern = re.compile(
+        r'(<!-- LATEST:START -->\n).*?(\n\s*<!-- LATEST:END -->)',
+        re.DOTALL,
+    )
+    if not pattern.search(content):
+        print("⚠ LATEST markers not found in index.html — homepage not updated.")
+        return False
+
+    new_content = pattern.sub(lambda m: m.group(1) + block + m.group(2), content)
+    if new_content == content:
+        print("Homepage latest-signals already up to date.")
+        return False
+
+    homepage.write_text(new_content)
+    print(f"Homepage: latest {len(posts_sorted)} posts updated in index.html")
+    return True
+
+
 def main():
     # Track which slugs have drafts
     draft_slugs = set()
     posts = []
 
-    if not DRAFTS_DIR.is_dir():
-        print("No drafts directory found. Nothing to build.")
-        return
-
-    drafts = list(DRAFTS_DIR.glob('*.md'))
+    drafts = list(DRAFTS_DIR.glob('*.md')) if DRAFTS_DIR.is_dir() else []
     if not drafts:
-        print("No drafts found.")
-        return
-
-    posts = []
+        print("No drafts found — refreshing index/homepage from existing posts.")
 
     # Process each draft
     for draft_path in sorted(drafts):
@@ -609,6 +504,9 @@ def main():
     index_html = build_index(posts)
     (BLOG_DIR / 'index.html').write_text(index_html)
     print(f"\nBlog index: {len(posts)} posts written to blog/index.html")
+
+    # Refresh the hand-crafted homepage's "Latest signals" block
+    update_homepage(posts)
 
 
 if __name__ == '__main__':

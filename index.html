@@ -24,187 +24,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#080E1A; --card:#0F1B31; --line:#1D2B47; --line2:#2A3D63;
-  --text:#E9EEF8; --muted:#8FA1C0; --amber:#FFB224; --green:#3DDC97; --red:#FF5C5C;
-  --mono:'Spline Sans Mono',ui-monospace,monospace; --disp:'Archivo Black',sans-serif; --body:'Archivo',sans-serif;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.65;-webkit-font-smoothing:antialiased}
-::selection{background:var(--amber);color:#141005}
-a{color:inherit}
-.bg{position:fixed;inset:0;z-index:-1;
-  background:
-    radial-gradient(900px 520px at 88% -8%, rgba(255,178,36,.11), transparent 62%),
-    radial-gradient(760px 560px at -12% 34%, rgba(61,220,151,.07), transparent 60%),
-    radial-gradient(700px 400px at 60% 110%, rgba(255,92,92,.05), transparent 60%),
-    var(--bg);}
-.bg::before{content:"";position:absolute;inset:0;
-  background-image:linear-gradient(rgba(140,165,210,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(140,165,210,.05) 1px,transparent 1px);
-  background-size:46px 46px;
-  mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 100%);}
-.mono{font-family:var(--mono)}
-.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
-
-/* masthead */
-.masthead{border-bottom:1px solid var(--line)}
-.mast-in{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 0}
-.wordmark{font-family:var(--disp);font-size:1.15rem;letter-spacing:.03em;text-decoration:none}
-.wordmark b{color:var(--amber);font-weight:inherit}
-.cursor{color:var(--amber);animation:blink 1.1s steps(2) infinite;margin-left:2px}
-@keyframes blink{50%{opacity:0}}
-.mast-right{display:flex;align-items:center;gap:1.1rem}
-.live{display:inline-flex;align-items:center;gap:.45rem;font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--green);border:1px solid rgba(61,220,151,.35);padding:.32rem .7rem;border-radius:99px;background:rgba(61,220,151,.07)}
-.live i{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(61,220,151,.5)}55%{box-shadow:0 0 0 6px rgba(61,220,151,0)}}
-.mast-date{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
-@media(max-width:560px){.mast-date{display:none}}
-
-/* hero */
-.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:3.2rem;align-items:end;padding:4.6rem 0 1.2rem}
-@media(max-width:880px){.hero{grid-template-columns:1fr;gap:2.4rem;padding:3.2rem 0 1rem}}
-.kicker{font:600 .74rem var(--mono);letter-spacing:.16em;color:var(--amber);margin-bottom:1.2rem}
-h1{font-family:var(--disp);font-size:clamp(2.5rem,5.6vw,4.3rem);line-height:1.03;letter-spacing:-.015em;font-weight:400}
-h1 em{font-style:normal;color:var(--amber);position:relative;white-space:nowrap}
-h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.14em;background:linear-gradient(90deg,var(--amber),rgba(255,178,36,.15));border-radius:2px}
-.lede{color:var(--muted);font-size:1.1rem;max-width:34rem;margin:1.4rem 0 1.9rem}
-.hero-cta{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap}
-.btn{display:inline-block;background:var(--amber);color:#141005;font:700 .95rem var(--body);text-decoration:none;padding:.85rem 1.6rem;border-radius:6px;transition:transform .2s,box-shadow .2s}
-.btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}
-.ghost{font:600 .78rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none;transition:color .2s}
-.ghost:hover{color:var(--amber)}
-.micro{font:500 .68rem var(--mono);letter-spacing:.14em;color:var(--muted);margin-top:1.5rem}
-
-/* spec card */
-.spec{background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:1.5rem 1.5rem 1.7rem;box-shadow:0 24px 60px rgba(2,6,16,.5)}
-.spec-head{display:flex;align-items:center;gap:.55rem;font:600 .7rem var(--mono);letter-spacing:.14em;color:var(--green);margin-bottom:1.2rem}
-.spec-head .dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 1.6s ease-in-out infinite}
-.wave{display:flex;align-items:flex-end;gap:3px;height:52px;margin-bottom:1.3rem}
-.wave span{flex:1;border-radius:2px 2px 0 0;background:linear-gradient(180deg,var(--amber),rgba(255,178,36,.18));height:var(--h);animation:eq 1.15s ease-in-out var(--d) infinite alternate;transform-origin:bottom}
-@keyframes eq{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
-.spec dl{display:grid;gap:0}
-.spec dl>div{display:flex;justify-content:space-between;align-items:baseline;padding:.62rem 0;border-top:1px dashed var(--line2)}
-.spec dt{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
-.spec dd{font:600 .86rem var(--body);color:var(--text)}
-.spec dd.ok{color:var(--green)}
-
-
-/* sections */
-section{padding:1.8rem 0}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.6rem;gap:1rem}
-h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.7rem,3.2vw,2.3rem);letter-spacing:-.01em}
-.all{font:600 .74rem var(--mono);letter-spacing:.14em;color:var(--amber);text-decoration:none}
-.all:hover{text-decoration:underline}
-
-/* signal rows */
-.sig{display:grid;grid-template-columns:auto 1fr auto;gap:1.4rem;align-items:baseline;padding:1.35rem .8rem;border-top:1px solid var(--line);text-decoration:none;transition:background .25s,transform .25s}
-.sig:last-of-type{border-bottom:1px solid var(--line)}
-.sig:hover{background:rgba(15,27,49,.75);transform:translateX(6px)}
-.sig .idx{font:600 .82rem var(--mono);color:var(--amber)}
-.sig h3{font:700 1.28rem/1.3 var(--body);letter-spacing:-.01em}
-.sig .sub{font:500 .72rem var(--mono);letter-spacing:.1em;color:var(--muted);margin-top:.35rem}
-.sig .arrow{font-family:var(--mono);color:var(--amber);opacity:0;transform:translateX(-6px);transition:opacity .25s,transform .25s}
-.sig:hover .arrow{opacity:1;transform:none}
-@media(max-width:560px){.sig{grid-template-columns:auto 1fr}.sig .arrow{display:none}}
-
-/* sample issue */
-.sample{padding:1.8rem 0}
-.sample-card{background:var(--card);border:1px solid var(--line2);border-radius:10px;overflow:hidden;box-shadow:0 24px 60px rgba(2,6,16,.5)}
-.sample-top{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem 1.5rem;border-bottom:1px solid var(--line);background:rgba(15,27,49,.6)}
-.sample-top .issue-tag{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--amber)}
-.sample-top .issue-date{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
-.sample-body{padding:1.8rem 1.8rem 1.4rem}
-.sample-subject{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--muted);margin-bottom:.6rem}
-.sample-subject b{color:var(--text);font-weight:600}
-.sample-lead-title{font-family:var(--disp);font-weight:400;font-size:1.35rem;letter-spacing:-.01em;margin-bottom:.8rem}
-.sample-lead-text{color:#C8D2E4;font-size:.97rem;line-height:1.7;margin-bottom:1.4rem}
-.sample-toc{list-style:none;border-top:1px dashed var(--line2);padding-top:1.1rem}
-.sample-toc li{display:flex;align-items:center;gap:.7rem;padding:.35rem 0;font:500 .82rem var(--mono);letter-spacing:.06em;color:var(--muted)}
-.sample-toc li::before{content:"▸";color:var(--amber);font-size:.7rem}
-.sample-foot{padding:1rem 1.8rem 1.4rem;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-.sample-foot p{font:500 .72rem var(--mono);letter-spacing:.12em;color:var(--muted)}
-.sample-foot .btn{padding:.6rem 1.2rem;font-size:.85rem}
-
-/* subscribe */
-.subscribe{padding:1.8rem 0}
-.sub-card{max-width:660px;margin:0 auto;background:linear-gradient(180deg,rgba(255,178,36,.06),transparent 42%),var(--card);border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:10px;padding:2.6rem 2.4rem;text-align:left;box-shadow:0 24px 60px rgba(2,6,16,.5)}
-.sub-card h2{margin:.4rem 0 .4rem}
-.sub-card .why{color:var(--muted);font-size:.98rem;margin-bottom:1.4rem}
-#kit-form{margin:1.3rem 0 .9rem}
-#kit-form input[type="email"],#kit-form input[type="text"],#kit-form input[type="search"]{width:100%;background:#0A1322;border:1px solid var(--line2);color:var(--text);padding:.85rem 1rem;border-radius:6px;font:500 .95rem var(--mono);margin-bottom:.7rem}
-#kit-form input:focus{outline:none;border-color:var(--amber)}
-#kit-form button,#kit-form input[type="submit"]{background:var(--amber);color:#141005;border:0;font:700 .95rem var(--body);padding:.85rem 1.7rem;border-radius:6px;cursor:pointer;transition:transform .2s,box-shadow .2s}
-#kit-form button:hover,#kit-form input[type="submit"]:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,178,36,.3)}
-#kit-form label{color:var(--muted);font:500 .8rem var(--mono)}
-.fallback .btn{width:100%;text-align:center}
-
-/* Kit form dark restyle — overrides Kit's inline styles (charlotte template) */
-#kit-form .formkit-form{background:transparent !important;box-shadow:none !important;max-width:100% !important;min-width:0 !important;border-radius:0 !important}
-#kit-form .formkit-form [data-style="full"]{display:block !important}
-#kit-form .formkit-background{display:none !important}
-#kit-form .formkit-column{padding:0 !important}
-#kit-form .formkit-header,#kit-form .formkit-header h2{font:600 .78rem var(--mono) !important;letter-spacing:.16em !important;color:var(--muted) !important;text-transform:uppercase !important;margin:0 0 1rem !important}
-#kit-form .formkit-field{margin:0 !important}
-#kit-form .formkit-input{width:100% !important;background:#0A1322 !important;border:1px solid var(--line2) !important;color:var(--text) !important;padding:.9rem 1rem !important;border-radius:6px !important;font:500 .95rem var(--mono) !important;transition:border-color .2s,box-shadow .2s !important}
-#kit-form .formkit-input:focus{border-color:var(--amber) !important;box-shadow:0 0 0 3px rgba(255,178,36,.12) !important;outline:none !important}
-#kit-form .formkit-input::placeholder{color:var(--muted) !important;opacity:1 !important}
-#kit-form .formkit-submit{width:100% !important;margin-top:.6rem !important;background:var(--amber) !important;color:#141005 !important;border:0 !important;border-radius:6px !important;transition:transform .2s,box-shadow .2s !important}
-#kit-form .formkit-submit:hover{transform:translateY(-2px) !important;box-shadow:0 10px 28px rgba(255,178,36,.3) !important}
-#kit-form .formkit-submit > span{background:transparent !important;color:inherit !important;font:700 .95rem var(--body) !important;padding:.9rem 1.7rem !important}
-#kit-form .formkit-submit:hover > span{background:transparent !important}
-#kit-form .formkit-disclaimer{color:var(--muted) !important;font:500 .74rem var(--mono) !important;letter-spacing:.05em !important;margin-top:.9rem !important}
-#kit-form .formkit-alert{border-radius:6px !important;padding:.8rem 1rem !important;margin:0 0 .8rem !important;font:500 .85rem var(--mono) !important}
-#kit-form .formkit-alert-error{background:rgba(234,65,16,.1) !important;border:1px solid rgba(234,65,16,.35) !important;color:#f2643b !important}
-#kit-form .formkit-alert-success{background:rgba(16,191,122,.1) !important;border:1px solid rgba(16,191,122,.35) !important;color:#10bf7a !important}
-#kit-form .formkit-powered-by-convertkit-container{display:none !important}
-
-/* pitch */
-.pitch{display:grid;grid-template-columns:.85fr 1.15fr;gap:3rem;border-top:1px solid var(--line);padding-top:2.2rem}
-@media(max-width:880px){.pitch{grid-template-columns:1fr;gap:1.6rem}}
-.pitch-left p{color:var(--muted);margin-top:.9rem;max-width:26rem}
-.pitch-list{list-style:none}
-.pitch-list li{display:grid;grid-template-columns:auto 1fr;gap:1.4rem;padding:1.35rem 0;border-top:1px solid var(--line)}
-.pitch-list li:last-child{border-bottom:1px solid var(--line)}
-.pitch-list .num{font:600 .85rem var(--mono);color:var(--amber);padding-top:.2rem}
-.pitch-list h3{font:700 1.12rem var(--body);margin-bottom:.25rem}
-.pitch-list p{color:var(--muted);font-size:.95rem}
-
-/* quote */
-.quote{max-width:760px;margin:0 auto}
-.quote blockquote{border-left:3px solid var(--amber);background:var(--card);border-radius:0 10px 10px 0;padding:2rem 2.2rem;font:600 clamp(1.15rem,2.4vw,1.5rem)/1.45 var(--body);letter-spacing:-.01em}
-.quote blockquote::before{content:"“";color:var(--amber);font-family:var(--disp);font-size:2.4rem;line-height:0;vertical-align:-.35em;margin-right:.15rem}
-.quote .src{font:600 .72rem var(--mono);letter-spacing:.16em;color:var(--muted);margin-top:1.1rem}
-
-/* about */
-.about{padding:2.2rem 0 2.8rem}
-.about-card{max-width:760px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:1.8rem;align-items:start;background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:2rem 2.2rem;box-shadow:0 24px 60px rgba(2,6,16,.5)}
-.about-avatar{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--amber),rgba(255,178,36,.3));display:flex;align-items:center;justify-content:center;font:700 1.6rem var(--disp);color:#141005;flex-shrink:0}
-.about-card h2{font-size:1.15rem;margin-bottom:.5rem}
-.about-card .role{font:600 .72rem var(--mono);letter-spacing:.14em;color:var(--amber);margin-bottom:.7rem}
-.about-card p{color:var(--muted);font-size:.95rem;line-height:1.7}
-@media(max-width:560px){.about-card{grid-template-columns:1fr;text-align:center;justify-items:center}}
-
-/* footer */
-footer{border-top:1px solid var(--line);padding:2.6rem 0 2.2rem;margin-top:1.2rem}
-.foot-grid{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-bottom:1.6rem}
-.foot-grid p{color:var(--muted);font-size:.9rem;margin-top:.5rem}
-.foot-links{display:flex;gap:1.6rem;flex-wrap:wrap;align-items:center}
-.foot-links a{font:600 .74rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none;transition:color .2s}
-.foot-links a:hover{color:var(--amber)}
-.fine{font:500 .64rem var(--mono);letter-spacing:.14em;color:#5A6C8F}
-
-/* reveal */
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
-.reveal.in{opacity:1;transform:none}
-@media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation:none!important;transition:none!important}
-  .reveal{opacity:1;transform:none}
-}
-</style>
+<link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="page-home">
 <div class="bg" aria-hidden="true"></div>
 
 <header class="masthead">
@@ -244,37 +66,32 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 2.2rem;margin-top:1.2re
       </dl>
     </aside>
   </section>
-</main>
 
-
-<main class="wrap">
-  <section class="sample">
+  <section class="latest">
     <div class="sec-head">
-      <h2>Read the latest issue</h2>
-      <span class="all" style="cursor:default">JULY 24, 2026</span>
+      <h2>Latest signals</h2>
+      <a class="all" href="/blog/">ALL POSTS →</a>
     </div>
-    <div class="sample-card reveal">
-      <div class="sample-top">
-        <span class="issue-tag">AI IN MARKETING AUTOMATION — ISSUE #3</span>
-        <span class="issue-date">JULY 24, 2026</span>
-      </div>
-      <div class="sample-body">
-        <p class="sample-subject">SUBJECT: <b>ChatGPT just got your Yelp reviews</b></p>
-        <h3 class="sample-lead-title">The big thing</h3>
-        <p class="sample-lead-text">Yelp is piping reviews, photos, ratings, and quote requests directly into ChatGPT. Search Engine Land has the details. Yelp gets branded links back to its platform. OpenAI gets real-time local data that makes ChatGPT actually useful for &quot;find me a plumber near me&quot; queries. Even if local isn&#x27;t your thing, this is the pattern. Every data source that used to sit behind a website is getting wired directly into AI agents. Your reviews, your pricing. The middleman (your…</p>
-        <ul class="sample-toc">
-        <li>Agent playbook</li>
-        <li>Deep dive</li>
-        <li>Tools and launches</li>
-        <li>By the numbers</li>
-        <li>Community highlight</li>
-        </ul>
-      </div>
-      <div class="sample-foot">
-        <p>THE FULL ISSUE LANDS IN SUBSCRIBERS' INBOXES — FREE, EVERY FRIDAY.</p>
-        <a class="btn" href="#subscribe">Get it free →</a>
-      </div>
-    </div>
+    <!-- LATEST:START -->
+    <a class="sig reveal" href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">
+      <span class="idx">01</span>
+      <span><h3>Claude Cowork is eating the edges of your martech stack</h3>
+      <span class="sub">2026-07-30 · BLOG</span></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="sig reveal" href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">
+      <span class="idx">02</span>
+      <span><h3>MCP Rewrites the Integration Economics of Your Marketing Stack</h3>
+      <span class="sub">2026-07-29 · BLOG</span></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="sig reveal" href="/blog/n8n-ai-open-source-automation/">
+      <span class="idx">03</span>
+      <span><h3>n8n + AI: The Open-Source Automation Engine That Actually Works</h3>
+      <span class="sub">2026-07-28 · BLOG</span></span>
+      <span class="arrow">→</span>
+    </a>
+    <!-- LATEST:END -->
   </section>
 
   <section id="subscribe" class="subscribe">
@@ -287,17 +104,16 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 2.2rem;margin-top:1.2re
     </div>
   </section>
 
-  <section class="latest">
-    <div class="sec-head">
-      <h2>Latest signals</h2>
-      <a class="all" href="/blog/">ALL POSTS →</a>
+  <section class="dirtease reveal">
+    <div class="dirtease-left">
+      <p class="kicker">// THE TOOL DIRECTORY</p>
+      <h2>90 tools, one honest line each.</h2>
+      <p>No fluff, no sponsored rankings. Every tool in the stack gets a straight take on what it does and who it's for — agents, lifecycle, data, and the glue between them.</p>
     </div>
-    <a class="sig reveal" href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">
-      <span class="idx">01</span>
-      <span><h3>Why Your Marketing Automation Stack Doesn&#x27;t Need Another AI Tool</h3>
-      <span class="sub">2026-07-24 · BLOG</span></span>
-      <span class="arrow">→</span>
-    </a>
+    <div class="dirtease-tags">
+      <a href="/tools/n8n/">n8n</a><a href="/tools/hubspot/">HubSpot</a><a href="/tools/segment/">Segment</a><a href="/tools/make/">Make</a><a href="/tools/customer-io/">Customer.io</a><a href="/tools/snowplow/">Snowplow</a><a href="/tools/attio/">Attio</a><a href="/tools/langchain/">LangChain</a><a href="/tools/amplitude/">Amplitude</a><a href="/tools/tray-io/">Tray.io</a><a href="/tools/mixpanel/">Mixpanel</a><a href="/tools/">+80 more</a>
+    </div>
+    <a class="btn dirtease-cta" href="/tools/">Browse the directory →</a>
   </section>
 
   <section class="pitch">
