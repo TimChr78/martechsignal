@@ -51,7 +51,7 @@ Take a standard B2B lead enrichment pipeline. It touches five tools:
 
 ## The Suite's Moat Starts Leaking
 
-Companies don't pay HubSpot or Salesforce enterprise pricing because every individual feature is best-in-class. They pay because integration beats best-of-breed. A platform with passable everything beats five excellent tools that don't talk to each other. The suite's lock-in is its integration advantage. That's been true for a decade.
+Companies don't pay HubSpot or Salesforce enterprise pricing because every individual feature is the strongest available. They pay because integration beats best-of-breed. A platform with passable everything beats five excellent tools that don't talk to each other. The suite's lock-in is its integration advantage. That's been true for a decade.
 
 MCP flips the math. If an agent can wire **[Attio](/tools/attio/)** (CRM) + **[Customer.io](/tools/customer-io/)** (email) + **[Tray](/tools/tray-io/)** (workflows) + **[Clay](https://www.clay.com/mcp)** (enrichment) + **[Mixpanel](/tools/mixpanel/)** (analytics) together at roughly zero integration cost, the suite's moat isn't deep enough to justify the premium anymore.
 
@@ -101,7 +101,7 @@ Here's what the two stacks actually cost at comparable capability levels:
 ::: verdict win
 <div class="verdict-label">✓ MCP-Native Wins: Cost + Flexibility</div>
 
-For roughly 36% less per month, you get a stack where every component is best-in-class and an agent handles the wiring. The trade-off that defined the martech market (integration vs. quality) stops being a trade-off.
+For roughly 36% less per month, you get a stack where every component is the strongest option in its category and an agent handles the wiring. The trade-off that defined the martech market (integration vs. quality) stops being a trade-off.
 :::
 
 ## The Conductor Becomes Plumbing
