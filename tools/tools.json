@@ -3193,5 +3193,40 @@
     "pricing": "Free (100 credits/mo), Basic ($29/mo), Advanced ($49/mo), Connect ($99/mo), Business (custom)",
     "date_updated": "2026-07-28",
     "status": "active"
+  },
+  {
+    "slug": "cordys-crm",
+    "name": "Cordys CRM",
+    "tagline": "Open-source AI CRM with built-in agents, conversational analytics, and private deployment",
+    "website": "https://cordys.cn",
+    "category": "crm",
+    "pricing_model": "freemium",
+    "pricing_url": "https://cordys.cn/pricing.html",
+    "price_from": 0,
+    "price_notes": "Community edition free and self-hosted (GPLv3-based license). Enterprise edition: annual subscription, standard/professional/flagship tiers, no per-seat fees, pricing via sales.",
+    "ai_features": [
+      "MaxKB-powered sales AI agents",
+      "SQLBot conversational analytics",
+      "DataEase embedded BI dashboards",
+      "MCP server for external AI agents",
+      "AI lead routing and follow-up"
+    ],
+    "integrations": [
+      "MaxKB",
+      "DataEase",
+      "SQLBot",
+      "MCP",
+      "Docker"
+    ],
+    "github_repo": "1Panel-dev/CordysCRM",
+    "github_stars": 2559,
+    "open_source": true,
+    "api_available": true,
+    "founded": 2025,
+    "hq": "China",
+    "status": "active",
+    "date_added": "2026-07-31",
+    "date_updated": "2026-07-31",
+    "description": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It covers the full lead-to-cash cycle: lead capture and routing, customer and contact management, opportunities, contracts, orders, and payment collection. The pitch is a self-hosted Salesforce alternative for mid-size and large teams that want their sales data on their own servers. It's Java (Spring Boot) on the backend with a Vue frontend, ships as a Docker install, and hit 100,000 downloads within 25 days of its August 2025 public beta.\n\nThe AI part is real, not a bolted-on chatbot. Cordys leans on three FIT2CLOUD tools working together. MaxKB, their agent platform, runs sales agents inside the CRM for things like lead triage and follow-up drafting. SQLBot gives you conversational analytics, so you ask \"which leads went cold this month\" in plain language instead of building a report. DataEase handles the embedded BI dashboards. There's also an MCP server, so outside agents (Claude, Cursor, and similar) can read and act on CRM data directly. Since v1.8.1 the free community edition exposes the API and MCP access too, which is unusual. The catch is that you're really running three systems in a trench coat, and the setup and upkeep reflect that.\n\nPricing skips per-seat fees entirely. The community edition is free and self-hosted under a GPLv3-based license (the FIT2CLOUD Open Source License) that bars you from swapping out the logo or copyright notices. The enterprise edition is an annual subscription in standard, professional, and flagship tiers, with actual numbers behind a sales conversation. No public price list, which is a minor annoyance if you're just trying to budget. The no-per-seat model can work out far cheaper than Salesforce or HubSpot for a 100-person sales team, but you're trading license cost for hosting and ops effort.\n\nAgainst Twenty, the other big open-source CRM in this directory, Cordys goes deeper on native AI (Twenty's AI is lighter and its community is more global) but feels less polished and skews heavily toward the Chinese market. EspoCRM is easier to stand up and lighter to run, but has no comparable AI layer. If you want Salesforce-style depth with AI agents baked in and no per-seat bill, and you're comfortable self-hosting, Cordys is worth a serious look.\n\nWho should skip it: anyone who needs a SaaS product that just works without a server, teams outside China who want English-first docs and community support (the docs and forums are Chinese-first), and small teams that don't have Java ops capacity. The stack is heavier than a typical PHP CRM, and the enterprise motion is built around Chinese enterprises. For a China-based sales team that wants private deployment and real AI features without per-seat fees, though, it's one of the few open-source options that actually delivers both."
   }
 ]

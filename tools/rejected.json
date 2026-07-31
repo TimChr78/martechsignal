@@ -1,0 +1,296 @@
+[
+  {
+    "name": "claude-seo",
+    "url": "https://github.com/AgriciDaniel/claude-seo",
+    "reason": "Claude Code skill pack, not a standalone product/tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "claude-ads",
+    "url": "https://github.com/AgriciDaniel/claude-ads",
+    "reason": "Claude Code skill pack, not a standalone product/tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "aaron-marketing-skills",
+    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+    "reason": "Claude Code skill pack, not a standalone product/tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "ai-marketing-claude",
+    "url": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "reason": "Claude Code skill pack; homepage is a Skool community, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "postbot",
+    "url": "https://github.com/gitcoffee-os/postbot",
+    "reason": "No clear AI features; content sync utility",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "google-meta-ads-ga4-mcp",
+    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "reason": "MCP server/integration component, not a standalone product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "digital-marketing-pro",
+    "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+    "reason": "AI coding agent plugin/skill pack, not a standalone product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "ai-business-skills",
+    "url": "https://github.com/minhnv0807/ai-business-skills",
+    "reason": "Prompt/skill pack for coding agents, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "codex-seo",
+    "url": "https://github.com/AgriciDaniel/codex-seo",
+    "reason": "Codex CLI skill suite, not a standalone product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "AutoSocial",
+    "url": "https://github.com/Katzca/AutoSocial",
+    "reason": "No homepage, no clear AI features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "caffeinate",
+    "url": "https://github.com/joshmn/caffeinate",
+    "reason": "Rails engine/library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "email-marketing-bible",
+    "url": "https://github.com/CosmoBlk/email-marketing-bible",
+    "reason": "Claude Code skill (text content), not a tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "react-email-editor",
+    "url": "https://github.com/unlayer/react-email-editor",
+    "reason": "React component library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "maizzle",
+    "url": "https://github.com/maizzle/maizzle",
+    "reason": "Email development framework, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "email-builder-js",
+    "url": "https://github.com/usewaypoint/email-builder-js",
+    "reason": "Open-source library/component, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "framework",
+    "url": "https://github.com/maizzle/framework",
+    "reason": "Duplicate of maizzle; email framework/library",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "email-templates",
+    "url": "https://github.com/ColorlibHQ/email-templates",
+    "reason": "HTML template collection, not a tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "openclaw-marketing-skills",
+    "url": "https://github.com/LeoYeAI/openclaw-marketing-skills",
+    "reason": "Agent skill pack, not a standalone product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "snooze",
+    "url": "https://github.com/thomasjohnkane/snooze",
+    "reason": "Laravel package/library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "caniemail",
+    "url": "https://github.com/hteumeuleu/caniemail",
+    "reason": "Reference website, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "notifo",
+    "url": "https://github.com/notifo-io/notifo",
+    "reason": "Notification service library, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "inky",
+    "url": "https://github.com/foundation/inky",
+    "reason": "Email HTML framework/library",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "vue-email-editor",
+    "url": "https://github.com/unlayer/vue-email-editor",
+    "reason": "Vue component library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "paperboy",
+    "url": "https://github.com/rykov/paperboy",
+    "reason": "Email delivery CLI/library, no AI features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "erpnext",
+    "url": "https://github.com/frappe/erpnext",
+    "reason": "ERP, not a marketing automation tool; no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "platform",
+    "url": "https://github.com/hcengineering/platform",
+    "reason": "Project management platform (Huly), not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "monica",
+    "url": "https://github.com/monicahq/monica",
+    "reason": "Personal CRM, no AI marketing automation features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "nocobase",
+    "url": "https://github.com/nocobase/nocobase",
+    "reason": "Generic no-code platform, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "akaunting",
+    "url": "https://github.com/akaunting/akaunting",
+    "reason": "Accounting software, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "idurar-erp-crm",
+    "url": "https://github.com/idurar/idurar-erp-crm",
+    "reason": "ERP/CRM, no clear AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "dolibarr",
+    "url": "https://github.com/Dolibarr/dolibarr",
+    "reason": "ERP/CRM, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "personal-management-system",
+    "url": "https://github.com/Volmarg/personal-management-system",
+    "reason": "Personal data manager, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "reason": "Business management ERP, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "CommunityServer",
+    "url": "https://github.com/ONLYOFFICE/CommunityServer",
+    "reason": "Office suite, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "InvoicePlane",
+    "url": "https://github.com/InvoicePlane/InvoicePlane",
+    "reason": "Invoicing app, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "crm",
+    "url": "https://github.com/frappe/crm",
+    "reason": "Frappe CRM, no clear AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "frappe_docker",
+    "url": "https://github.com/frappe/frappe_docker",
+    "reason": "Docker deployment tooling, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "metasfresh",
+    "url": "https://github.com/metasfresh/metasfresh",
+    "reason": "ERP, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Django-CRM",
+    "url": "https://github.com/MicroPyramid/Django-CRM",
+    "reason": "Generic open-source CRM, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "DaybydayCRM",
+    "url": "https://github.com/Bottelet/DaybydayCRM",
+    "reason": "CRM/task tracker, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "avo",
+    "url": "https://github.com/avo-hq/avo",
+    "reason": "Rails admin panel toolkit, not a marketing product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "open-mercato",
+    "url": "https://github.com/open-mercato/open-mercato",
+    "reason": "AI-engineering framework, not a marketing product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "diff-diff",
+    "url": "https://github.com/igerber/diff-diff",
+    "reason": "Python statistics library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "rudder-sdk-js",
+    "url": "https://github.com/rudderlabs/rudder-sdk-js",
+    "reason": "JavaScript SDK, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "analytics-tracking-automation",
+    "url": "https://github.com/jtrackingai/analytics-tracking-automation",
+    "reason": "Agent skill, not a standalone product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Zapier for enterprise orchestration: Scaling automation on a trusted platform",
+    "url": "https://zapier.com/blog/feeds/latest/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "HubSpot AEO vs. Otterly: Platform or standalone tool?",
+    "url": "https://blog.hubspot.com/marketing/rss.xml",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Unlock Intent-Driven Shopping: Inside the July 2026 B2C Commerce Release",
+    "url": "https://www.salesforce.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "django-crm",
+    "url": "https://github.com/DjangoCRM/django-crm",
+    "reason": "Generic Django CRM, no clear AI features relevant to marketing automation",
+    "rejected_at": "2026-07-31"
+  }
+]
