@@ -178,6 +178,14 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .sample-foot p { font: 500 .72rem var(--mono); letter-spacing: .12em; color: var(--muted) }
 .sample-foot .btn { padding: .6rem 1.2rem; font-size: .85rem }
 
+/* lead magnet */
+.leadmagnet { padding: 1.8rem 0 }
+.lm-card { display: flex; align-items: center; justify-content: space-between; gap: 2rem; background: linear-gradient(120deg, rgba(255,178,36,.05), transparent 55%), var(--card); border: 1px solid var(--line2); border-left: 3px solid var(--amber); border-radius: 10px; padding: 2rem 2.4rem; box-shadow: 0 24px 60px rgba(2,6,16,.5) }
+.lm-left h2 { font-size: clamp(1.2rem, 2.4vw, 1.5rem); margin: .3rem 0 .5rem }
+.lm-left > p { color: var(--muted); font-size: .94rem; line-height: 1.6; max-width: 32rem }
+.lm-right { flex-shrink: 0 }
+@media (max-width: 640px) { .lm-card { flex-direction: column; text-align: center } .lm-left > p { max-width: none } }
+
 /* subscribe */
 .subscribe { padding: 1.8rem 0 }
 .sub-card { max-width: 660px; margin: 0 auto; background: linear-gradient(180deg, rgba(255,178,36,.06), transparent 42%), var(--card); border: 1px solid var(--line2); border-top: 3px solid var(--amber); border-radius: 10px; padding: 2.6rem 2.4rem; text-align: left; box-shadow: 0 24px 60px rgba(2,6,16,.5) }

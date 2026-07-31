@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marketing Automation AI Readiness Checklist — Martech Signal</title>
+<meta name="description" content="12 questions to answer before you plug AI agents into your marketing automation stack. Free PDF from Martech Signal.">
+<link rel="canonical" href="https://martechsignal.com/checklist/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #080E1A; --card: #0F1628; --border: #1E2A42; --gold: #FFB224; --text: #C8D0E0; --white: #F0F2F8; --green: #34D399; --red: #F87171; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Archivo', sans-serif; line-height: 1.6; }
+  .page { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+  .badge { display: inline-block; font-family: 'Spline Sans Mono', monospace; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold); padding: 4px 12px; border-radius: 3px; margin-bottom: 16px; }
+  h1 { font-family: 'Archivo Black', sans-serif; font-size: 28px; color: var(--white); line-height: 1.2; margin-bottom: 8px; }
+  .sub { font-size: 15px; color: var(--text); margin-bottom: 32px; }
+  .item { display: flex; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--border); }
+  .item:last-child { border-bottom: none; }
+  .check { flex-shrink: 0; width: 22px; height: 22px; border: 2px solid var(--gold); border-radius: 4px; margin-top: 2px; }
+  .item h3 { font-size: 15px; font-weight: 600; color: var(--white); margin-bottom: 2px; }
+  .item p { font-size: 13px; color: var(--text); }
+  .item .fail { color: var(--red); font-size: 12px; font-style: italic; }
+  .scoring { margin-top: 32px; padding: 20px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; }
+  .scoring h2 { font-size: 16px; color: var(--gold); margin-bottom: 12px; font-family: 'Spline Sans Mono', monospace; letter-spacing: 1px; }
+  .scoring p { font-size: 13px; margin-bottom: 6px; }
+  .scoring .range { color: var(--white); font-weight: 600; }
+  .cta { margin-top: 32px; text-align: center; }
+  .cta a { display: inline-block; background: var(--gold); color: var(--bg); font-weight: 700; font-size: 14px; padding: 12px 28px; border-radius: 6px; text-decoration: none; }
+  .footer { margin-top: 40px; text-align: center; font-size: 12px; color: #4A5568; }
+  .footer a { color: var(--gold); text-decoration: none; }
+  @media print {
+    body { background: #fff; color: #1a1a1a; }
+    .page { padding: 24px; }
+    h1, .item h3, .scoring .range { color: #111; }
+    .badge { color: #b8860b; border-color: #b8860b; }
+    .check { border-color: #333; }
+    .scoring { background: #f5f5f5; border-color: #ddd; }
+    .cta { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <span class="badge">Martech Signal · Free Resource</span>
+  <h1>Is your stack ready for AI agents?</h1>
+  <p class="sub">12 questions to answer before you plug agents into your marketing automation. If you can't check most of these, the agents will make your mess faster — not fix it.</p>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>1. Can you export your full customer journey as structured data?</h3>
+    <p>Not a PDF report. A JSON or CSV with touchpoints, timestamps, and attribution. Agents can't reason over screenshots.</p>
+    <p class="fail">If no: your agents will hallucinate journey insights from whatever fragment they can access.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>2. Do your tools have APIs — not just UIs?</h3>
+    <p>Check your CRM, ESP, ad platforms, and analytics. If the only way to export data is "click Export → CSV," agents can't touch it without brittle screen-scraping.</p>
+    <p class="fail">If no: you'll build a human-in-the-loop bottleneck that defeats the purpose.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>3. Is your UTM convention documented and enforced?</h3>
+    <p>Agents will generate campaigns. If your UTMs are already inconsistent, agents will scale the inconsistency. Write the convention down. Enforce it with validation.</p>
+    <p class="fail">If no: your attribution model becomes noise within one quarter of agent-generated campaigns.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>4. Can you segment your audience programmatically?</h3>
+    <p>API-level access to segments, tags, or cohorts. Agents need to say "send this to segment X" without a human clicking through a UI.</p>
+    <p class="fail">If no: every agent campaign needs manual audience setup. That's not automation, that's a fancy form.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>5. Do you have a single source of truth for customer data?</h3>
+    <p>CDP, data warehouse, or even a well-maintained spreadsheet. If customer data lives in 4 tools with no sync, agents will pull conflicting records and act on stale info.</p>
+    <p class="fail">If no: fix this first. No amount of AI fixes a data architecture problem.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>6. Are your email templates modular and API-sendable?</h3>
+    <p>Agents should be able to compose and send emails via API, not just draft copy for a human to paste into a template builder.</p>
+    <p class="fail">If no: your agent is a copywriter, not an operator. The gap matters.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>7. Can you measure campaign performance without logging into 3 dashboards?</h3>
+    <p>One query, one API call, one place. Open rates, conversions, revenue. If reporting requires a human tour of your stack, agents can't close the feedback loop.</p>
+    <p class="fail">If no: agents will optimize what they can measure and ignore what they can't. That's how budgets leak.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>8. Do you have approval workflows for automated sends?</h3>
+    <p>Agents will make mistakes. You need a gate between "agent composed it" and "it went to 10,000 people." Even a Slack confirmation counts.</p>
+    <p class="fail">If no: your first agent error becomes a customer-facing incident.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>9. Is your consent and suppression list accessible via API?</h3>
+    <p>GDPR, CAN-SPAM, and your own suppression rules need to be queryable. An agent that can't check "has this person unsubscribed?" is a compliance violation waiting to happen.</p>
+    <p class="fail">If no: legal risk. Full stop.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>10. Can you version-control your automation logic?</h3>
+    <p>Workflows, triggers, conditions — are they in git, or locked in a visual builder with no export? Agents will modify flows. You need rollback.</p>
+    <p class="fail">If no: you'll be debugging agent changes by clicking through a UI at 11 PM.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>11. Do you have cost guardrails on your ad platforms?</h3>
+    <p>Daily caps, budget alerts, anomaly thresholds. An agent optimizing spend without guardrails is an agent that can drain a quarterly budget in a weekend.</p>
+    <p class="fail">If no: set hard caps before any agent touches bid management.</p>
+  </div></div>
+
+  <div class="item"><div class="check"></div><div>
+    <h3>12. Can you run a campaign end-to-end without opening a browser?</h3>
+    <p>The ultimate test. If your entire workflow — segment, compose, send, measure, iterate — can run via API calls, you're agent-ready. If any step requires a UI, that's where your human bottleneck lives.</p>
+    <p class="fail">If no: you know exactly where to start.</p>
+  </div></div>
+
+  <div class="scoring">
+    <h2>// SCORING</h2>
+    <p><span class="range">10–12 checked:</span> You're agent-ready. Start with low-risk automation (reporting, segmentation) and expand.</p>
+    <p><span class="range">6–9 checked:</span> Solid foundation. Fix the gaps before scaling agent access. The unchecked items are your roadmap.</p>
+    <p><span class="range">0–5 checked:</span> Don't buy AI tools yet. Fix your data plumbing first. Agents will amplify whatever you have — including the mess.</p>
+  </div>
+
+  <div class="cta">
+    <p style="font-size:14px;color:var(--white);margin-bottom:12px;font-weight:600;">Want the weekly breakdown of what's actually changing?</p>
+    <div id="kit-form" style="max-width:400px;margin:0 auto;"><script async data-uid="9c9d44c5b7" src="https://tim-christensen.kit.com/9c9d44c5b7/index.js"></script></div>
+  </div>
+
+  <div class="footer">
+    <p>Martech Signal — <a href="https://martechsignal.com">martechsignal.com</a> · One sharp email every Friday.</p>
+  </div>
+</div>
+</body>
+</html>
