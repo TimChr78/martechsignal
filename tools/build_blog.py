@@ -231,7 +231,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <div class="cta-strip">
 <h3>Get the Weekly Signal</h3>
 <p>One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter for marketing automation.</p>
-<a class="btn" href="/#subscribe">SUBSCRIBE →</a>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
 </article>
@@ -322,7 +322,7 @@ def build_index(posts: list) -> str:
       <h3>Prefer it in your inbox?</h3>
       <p>The best of this, curated weekly. Free, 5-minute read.</p>
     </div>
-    <a class="btn" href="/#subscribe">Subscribe</a>
+    <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe</a>
   </div>
   <ul class="post-list">
 {blog_list}

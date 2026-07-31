@@ -208,9 +208,9 @@ def build_tool_page(t, cats, all_tools):
       </dl>
     </div>
     <div class="side-card">
-      <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener">Visit {esc(t['name'])} →</a>
+      <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
     </div>
-    {'<div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">' + esc(t.get('price_notes','')) + '</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="' + esc(t.get('pricing_url','#')) + '" target="_blank" rel="noopener">VIEW PRICING →</a></div></div>' if t.get('price_notes') else ''}
+    {'<div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">' + esc(t.get('price_notes','')) + '</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="' + esc(t.get('pricing_url','#')) + '" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="' + esc(t['name']) + '">VIEW PRICING →</a></div></div>' if t.get('price_notes') else ''}
   </aside>
 </div>"""
 
