@@ -1,29 +1,5 @@
 [
   {
-    "name": "claude-seo",
-    "url": "https://github.com/AgriciDaniel/claude-seo",
-    "reason": "Claude Code skill pack, not a standalone product/tool",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "claude-ads",
-    "url": "https://github.com/AgriciDaniel/claude-ads",
-    "reason": "Claude Code skill pack, not a standalone product/tool",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "aaron-marketing-skills",
-    "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
-    "reason": "Claude Code skill pack, not a standalone product/tool",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "ai-marketing-claude",
-    "url": "https://github.com/zubair-trabzada/ai-marketing-claude",
-    "reason": "Claude Code skill pack; homepage is a Skool community, not a product",
-    "rejected_at": "2026-07-31"
-  },
-  {
     "name": "postbot",
     "url": "https://github.com/gitcoffee-os/postbot",
     "reason": "No clear AI features; content sync utility",
@@ -36,24 +12,6 @@
     "rejected_at": "2026-07-31"
   },
   {
-    "name": "digital-marketing-pro",
-    "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
-    "reason": "AI coding agent plugin/skill pack, not a standalone product",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "ai-business-skills",
-    "url": "https://github.com/minhnv0807/ai-business-skills",
-    "reason": "Prompt/skill pack for coding agents, not a product",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "codex-seo",
-    "url": "https://github.com/AgriciDaniel/codex-seo",
-    "reason": "Codex CLI skill suite, not a standalone product",
-    "rejected_at": "2026-07-31"
-  },
-  {
     "name": "AutoSocial",
     "url": "https://github.com/Katzca/AutoSocial",
     "reason": "No homepage, no clear AI features",
@@ -63,12 +21,6 @@
     "name": "caffeinate",
     "url": "https://github.com/joshmn/caffeinate",
     "reason": "Rails engine/library, not a product",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "email-marketing-bible",
-    "url": "https://github.com/CosmoBlk/email-marketing-bible",
-    "reason": "Claude Code skill (text content), not a tool",
     "rejected_at": "2026-07-31"
   },
   {
@@ -99,12 +51,6 @@
     "name": "email-templates",
     "url": "https://github.com/ColorlibHQ/email-templates",
     "reason": "HTML template collection, not a tool",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "openclaw-marketing-skills",
-    "url": "https://github.com/LeoYeAI/openclaw-marketing-skills",
-    "reason": "Agent skill pack, not a standalone product",
     "rejected_at": "2026-07-31"
   },
   {
@@ -261,12 +207,6 @@
     "name": "rudder-sdk-js",
     "url": "https://github.com/rudderlabs/rudder-sdk-js",
     "reason": "JavaScript SDK, not a product",
-    "rejected_at": "2026-07-31"
-  },
-  {
-    "name": "analytics-tracking-automation",
-    "url": "https://github.com/jtrackingai/analytics-tracking-automation",
-    "reason": "Agent skill, not a standalone product",
     "rejected_at": "2026-07-31"
   },
   {
