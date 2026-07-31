@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "cdp",
+    "term": "Customer Data Platform (CDP)",
+    "short": "CDP",
+    "definition": "A customer data platform collects and unifies customer data from every touchpoint — website visits, email opens, purchases, support tickets — into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.",
+    "context": "CDPs became a distinct category around 2016 when the CDP Institute formed. Before that, marketers stitched together data from a CRM, an email platform, and a web analytics tool, and hoped the picture was accurate. The CDP promise is that you stop guessing which version of a customer is real. In practice, the hard part was never the software — it was getting every team to agree on what a 'customer' even means.",
+    "related_tools": ["segment", "snowplow", "amplitude"],
+    "related_categories": ["analytics"]
+  },
+  {
+    "slug": "crm",
+    "term": "Customer Relationship Management (CRM)",
+    "short": "CRM",
+    "definition": "A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.",
+    "context": "The CRM category dates back to the 1990s with Siebel Systems, which Oracle later acquired. Salesforce moved it to the cloud in 1999 and made it a subscription. Today the line between CRM and marketing automation is blurry — HubSpot started as a CRM and added marketing, Salesforce started as a CRM and added everything else. The question for buyers is less 'do I need a CRM' and more 'how much of my stack does the CRM eat.'",
+    "related_tools": ["hubspot-crm", "salesforce-crm", "attio", "espocrm", "freshsales"],
+    "related_categories": ["crm"]
+  },
+  {
+    "slug": "marketing-automation",
+    "term": "Marketing Automation",
+    "short": "Marketing automation",
+    "definition": "Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.",
+    "context": "The category was defined by Eloqua and Marketo in the mid-2000s, both later acquired by Oracle and Adobe respectively. The original pitch was 'do more with fewer people.' The reality is that most companies use about 20% of what they pay for. The tools that stuck around are the ones that made the common workflows easy, not the ones with the longest feature lists.",
+    "related_tools": ["activecampaign", "braze", "customer-io", "adobe-marketo"],
+    "related_categories": ["marketing-automation"]
+  },
+  {
+    "slug": "attribution",
+    "term": "Marketing Attribution",
+    "short": "Attribution",
+    "definition": "Attribution is the process of assigning credit for a conversion to the marketing touches that led to it. A customer sees a Facebook ad, reads a blog post, gets a retargeting email, then buys. Which channel gets credit? First-touch says the ad. Last-touch says the email. Multi-touch splits it. Nobody agrees on the right answer.",
+    "context": "Attribution models have been argued about for as long as digital marketing has existed. Google's deprecation of third-party cookies made the problem harder, not easier. Privacy regulations like GDPR and CCPA added legal constraints on top of the technical ones. The honest answer is that attribution is always an approximation, and the companies doing it well treat it as directional input rather than ground truth.",
+    "related_tools": ["amplitude", "mixpanel", "attribution"],
+    "related_categories": ["analytics"]
+  },
+  {
+    "slug": "deliverability",
+    "term": "Email Deliverability",
+    "short": "Deliverability",
+    "definition": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
+    "context": "Deliverability used to be a dark art. You'd warm up an IP address over weeks, monitor blacklist status, and pray. The big mailbox providers — Gmail, Microsoft, Yahoo — now publish clearer requirements, and Google's 2024 bulk sender guidelines forced a lot of companies to finally set up DMARC. The tools in this space have gotten better at telling you why an email bounced instead of just that it did.",
+    "related_tools": ["activecampaign", "billionmail", "customer-io"],
+    "related_categories": ["email-marketing"]
+  },
+  {
+    "slug": "dmp",
+    "term": "Data Management Platform (DMP)",
+    "short": "DMP",
+    "definition": "A data management platform collects and organizes audience data — mostly anonymous, cookie-based identifiers — for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.",
+    "context": "DMPs were essential infrastructure for programmatic advertising from roughly 2012 to 2022. Then third-party cookies started dying. Chrome's Privacy Sandbox, Safari's ITP, and Firefox's ETP all eroded the cookie-based identifiers that DMPs depended on. Most DMP vendors pivoted to 'audience platforms' or got absorbed into CDPs. If you're evaluating a DMP today, ask what happens to your segments when cookies are fully gone.",
+    "related_tools": ["segment", "snowplow"],
+    "related_categories": ["analytics"]
+  },
+  {
+    "slug": "dsp",
+    "term": "Demand-Side Platform (DSP)",
+    "short": "DSP",
+    "definition": "A demand-side platform is the buying interface for programmatic advertising. Advertisers use a DSP to bid on ad impressions across ad exchanges in real time, setting targeting parameters, budget caps, and bidding strategies in one place instead of negotiating with each publisher individually.",
+    "context": "The DSP category consolidated heavily. The Trade Desk is the largest independent player. Google's DV360 dominates among agencies already in the Google ecosystem. Amazon's DSP grew fast on the back of its shopping data. The trend is toward fewer, larger platforms with more first-party data, which is good for advertisers who want scale and bad for anyone who liked having options.",
+    "related_tools": ["adcreative-ai"],
+    "related_categories": ["advertising"]
+  },
+  {
+    "slug": "dco",
+    "term": "Dynamic Creative Optimization (DCO)",
+    "short": "DCO",
+    "definition": "Dynamic creative optimization assembles ad creatives in real time from modular components — headlines, images, calls to action — and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.",
+    "context": "DCO started in display advertising and was mostly a programmatic buying feature. It moved into email (dynamic content blocks), social (Meta's dynamic creative), and connected TV. The AI layer on top is what changed the math: tools like AdCreative.ai can generate the component variants, not just assemble them. The bottleneck shifted from 'can we produce enough variants' to 'do we have enough performance data to pick the right ones.'",
+    "related_tools": ["adcreative-ai", "anyword"],
+    "related_categories": ["advertising", "content-ai"]
+  },
+  {
+    "slug": "mql-sql",
+    "term": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
+    "short": "MQL / SQL",
+    "definition": "An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.",
+    "context": "The MQL/SQL framework comes from the SiriusDecisions (now Forrester) demand waterfall model from 2006. It made sense when marketing's job was to fill the top of a funnel and sales caught whatever fell out. The problem is that the handoff criteria are usually negotiated once, written into a service-level agreement, and never revisited. Marketing says they delivered 500 MQLs. Sales says 480 were junk. Both are probably right.",
+    "related_tools": ["hubspot-crm", "salesforce-crm", "activecampaign"],
+    "related_categories": ["crm", "marketing-automation"]
+  },
+  {
+    "slug": "abm",
+    "term": "Account-Based Marketing (ABM)",
+    "short": "ABM",
+    "definition": "Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.",
+    "context": "ABM works best in B2B with long sales cycles and high deal values — enterprise software, financial services, consulting. The technology layer (Terminus, 6sense, Demandbase) handles identification and orchestration, but the strategy part is mostly organizational: getting marketing and sales to share a target list and agree on what 'engaged' means. Companies that treat ABM as a software purchase rather than a process change tend to be disappointed.",
+    "related_tools": ["hubspot-crm", "salesforce-crm"],
+    "related_categories": ["marketing-automation", "crm"]
+  },
+  {
+    "slug": "cro",
+    "term": "Conversion Rate Optimization (CRO)",
+    "short": "CRO",
+    "definition": "Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action — buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.",
+    "context": "CRO used to mean 'change the button color and measure.' The discipline matured into something closer to applied behavioral science. The AI angle is real but narrow: tools can generate test variants and analyze results faster, but they can't tell you why visitors aren't converting. That still requires watching session recordings and reading support tickets. The best CRO teams use AI for volume and humans for insight.",
+    "related_tools": ["amplitude", "mixpanel", "clerk-io"],
+    "related_categories": ["analytics", "personalization"]
+  },
+  {
+    "slug": "utm-parameters",
+    "term": "UTM Parameters",
+    "short": "UTM parameters",
+    "definition": "UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&utm_medium=email&utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as 'direct' and you learn nothing.",
+    "context": "UTMs were invented by Urchin Tracking Module, the analytics company Google acquired in 2005 to build Google Analytics. The naming convention stuck. The problem was never the technology — it's that someone has to decide on a taxonomy and enforce it. Half the companies I've looked at have three different people tagging campaigns three different ways, and the analytics data is a mess as a result.",
+    "related_tools": ["amplitude", "mixpanel", "attribution"],
+    "related_categories": ["analytics"]
+  },
+  {
+    "slug": "programmatic-advertising",
+    "term": "Programmatic Advertising",
+    "short": "Programmatic",
+    "definition": "Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding. Instead of a media buyer calling a publisher to negotiate a placement, software matches available impressions with advertiser bids in milliseconds, millions of times per day.",
+    "context": "Programmatic now accounts for the majority of digital ad spending in most markets. The supply chain is long: advertiser, DSP, ad exchange, SSP, publisher. Each layer takes a cut. The IAB estimated in 2023 that roughly half of every programmatic dollar never reaches the publisher. The industry keeps trying to shorten the chain, and the intermediaries keep finding ways to stay relevant.",
+    "related_tools": ["adcreative-ai"],
+    "related_categories": ["advertising"]
+  },
+  {
+    "slug": "customer-journey",
+    "term": "Customer Journey Mapping",
+    "short": "Customer journey",
+    "definition": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
+    "context": "Journey mapping sounds straightforward and is, in practice, where most marketing teams discover they don't actually know what their customers do. The maps that work are built from data — analytics paths, support ticket themes, sales call transcripts — not from a workshop where everyone's opinion gets equal weight. The AI tools entering this space are good at assembling the data. The interpretation still needs a human who's willing to be wrong.",
+    "related_tools": ["amplitude", "mixpanel", "hubspot-crm"],
+    "related_categories": ["analytics", "crm"]
+  },
+  {
+    "slug": "lead-scoring",
+    "term": "Lead Scoring",
+    "short": "Lead scoring",
+    "definition": "Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.",
+    "context": "Traditional lead scoring was a rules engine: +10 for visiting the pricing page, +5 for opening an email, -20 for unsubscribing. AI-based scoring replaced the hand-tuned rules with models trained on historical conversion data. The improvement is real but modest. The bigger issue is that most scoring models are trained on whatever data the CRM has, which is usually incomplete and biased toward the leads sales already liked.",
+    "related_tools": ["hubspot-crm", "salesforce-crm", "activecampaign"],
+    "related_categories": ["crm", "marketing-automation"]
+  },
+  {
+    "slug": "email-sequence",
+    "term": "Email Sequence (Drip Campaign)",
+    "short": "Email sequence",
+    "definition": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.",
+    "context": "The drip campaign got its name from the idea of slowly dripping information into a prospect's inbox. The format works because it's low effort for the sender and predictable for the recipient. The failure mode is writing seven emails that say the same thing in slightly different words. The sequences that perform well have a clear reason for each email to exist and a clear exit condition — the subscriber bought, replied, or explicitly said stop.",
+    "related_tools": ["activecampaign", "customer-io", "billionmail"],
+    "related_categories": ["email-marketing"]
+  },
+  {
+    "slug": "personalization",
+    "term": "Website Personalization",
+    "short": "Personalization",
+    "definition": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
+    "context": "Personalization ranges from simple (show a different headline based on referral source) to complex (real-time product recommendations trained on millions of sessions). The ROI evidence is strongest for ecommerce recommendations — Clerk.io and Dynamic Yield have solid case studies. For B2B, the data is thinner and the implementation is harder because traffic volumes are lower and buying committees involve multiple people.",
+    "related_tools": ["clerk-io", "bloomreach", "amplitude"],
+    "related_categories": ["personalization"]
+  },
+  {
+    "slug": "social-listening",
+    "term": "Social Listening",
+    "short": "Social listening",
+    "definition": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets for mentions of your brand, competitors, products, or industry topics. It goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.",
+    "context": "Social listening tools range from free (Google Alerts, Reddit search) to enterprise (Brandwatch, Sprout Social). The value isn't in the volume of mentions — it's in catching the ones that matter: a complaint going viral, a competitor's product launch, a shift in how people talk about your category. The AI layer helps with sentiment classification and summarization, but the strategic interpretation of 'why are people suddenly angry about our checkout flow' still requires a human.",
+    "related_tools": ["brandwatch", "buffer"],
+    "related_categories": ["social-media"]
+  },
+  {
+    "slug": "marketing-ops",
+    "term": "Marketing Operations (MarketingOps)",
+    "short": "Marketing ops",
+    "definition": "Marketing operations is the function that manages the technology, processes, and data behind marketing execution. Marketing ops owns the CRM configuration, the automation workflows, the reporting dashboards, the data hygiene, and the tech stack evaluation. They're the people who make sure the campaign actually sends.",
+    "context": "Marketing ops grew from an afterthought into a distinct discipline as martech stacks expanded. The average enterprise stack has 80+ tools, according to the annual Marketing Technology Landscape survey. Someone has to manage the integrations, clean the data, and explain why the numbers in the CRM don't match the numbers in the analytics platform. That someone is marketing ops. The role is increasingly technical, and the best practitioners think in systems, not campaigns.",
+    "related_tools": ["hubspot-crm", "activecampaign", "segment", "n8n"],
+    "related_categories": ["marketing-automation", "workflow-automation"]
+  },
+  {
+    "slug": "first-party-data",
+    "term": "First-Party Data",
+    "short": "First-party data",
+    "definition": "First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.",
+    "context": "First-party data went from a nice-to-have to a survival requirement as third-party cookies and mobile ad identifiers got restricted. The shift forced marketers to build direct relationships with their audiences instead of renting access through ad platforms. The companies that invested in email lists, loyalty programs, and preference centers five years ago are in a much stronger position now. The ones that didn't are scrambling.",
+    "related_tools": ["segment", "snowplow", "customer-io"],
+    "related_categories": ["analytics", "email-marketing"]
+  },
+  {
+    "slug": "marketing-attribution-models",
+    "term": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
+    "short": "Attribution models",
+    "definition": "An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.",
+    "context": "Every model is wrong, but some are useful for specific questions. First-touch tells you which channels generate awareness. Last-touch tells you which channels close. Multi-touch tells you the whole story but requires data most companies don't have. The practical advice: pick one model, use it consistently, and compare trends over time rather than treating any single number as truth.",
+    "related_tools": ["attribution", "amplitude", "mixpanel"],
+    "related_categories": ["analytics"]
+  },
+  {
+    "slug": "chatbot",
+    "term": "Chatbot (Conversational AI)",
+    "short": "Chatbot",
+    "definition": "A chatbot is software that conducts text or voice conversations with users, typically on a website, messaging app, or social platform. Rule-based chatbots follow decision trees. AI-powered chatbots use large language models to generate responses and handle questions they weren't explicitly programmed for.",
+    "context": "The first wave of chatbots (2016-2019) was mostly disappointing — glorified FAQ menus that frustrated users and got turned off. The LLM wave changed the economics. A chatbot that can actually understand a question and pull the right answer from your knowledge base is useful in a way the old ones weren't. The remaining problem is trust: customers don't know if they're talking to a bot, and when the bot confidently gives a wrong answer, the brand takes the hit.",
+    "related_tools": ["chatbotx", "chatfuel", "chatwoot"],
+    "related_categories": ["chatbots"]
+  },
+  {
+    "slug": "seo",
+    "term": "Search Engine Optimization (SEO)",
+    "short": "SEO",
+    "definition": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
+    "context": "SEO has survived every prediction of its death. The latest threat is AI-generated search answers — Google's AI Overviews and Perplexity-style engines that summarize answers without sending clicks. Early data suggests informational queries are losing traffic while transactional and navigational queries hold up. The practical response is the same as it's always been: create content that answers real questions better than anyone else, and make sure the technical foundation doesn't get in the way.",
+    "related_tools": ["clearscope", "alwrity", "claude-seo", "codex-seo"],
+    "related_categories": ["seo", "agent-skills"]
+  },
+  {
+    "slug": "workflow-automation",
+    "term": "Workflow Automation (iPaaS)",
+    "short": "Workflow automation",
+    "definition": "Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.",
+    "context": "The category split into two camps: no-code platforms (Zapier, Make) that anyone can use, and developer-oriented tools (n8n, Pipedream) that offer more control at the cost of setup time. The no-code tools are great for simple, linear workflows. They get expensive and fragile when you need branching logic, error handling, or high volume. The developer tools have a steeper on-ramp but don't charge per task, which changes the math at scale.",
+    "related_tools": ["n8n", "make", "tray-io", "pipedream"],
+    "related_categories": ["workflow-automation"]
+  },
+  {
+    "slug": "ai-content-generation",
+    "term": "AI Content Generation",
+    "short": "AI content",
+    "definition": "AI content generation uses large language models to produce marketing copy: blog posts, ad headlines, product descriptions, email subject lines, social captions. The tools take a brief or a prompt and output draft text that a human reviews, edits, and publishes.",
+    "context": "The first generation of AI writing tools (Jasper, Copy.ai) wrapped GPT-3 in a marketing-specific interface. The current generation is harder to distinguish from general-purpose AI assistants. The quality ceiling went up, but so did the volume of mediocre content. Google's helpful content updates target sites that publish AI-generated text without editorial oversight. The tools that survived are the ones positioned as drafting assistants, not replacements for writers.",
+    "related_tools": ["anyword", "alwrity", "adcreative-ai"],
+    "related_categories": ["content-ai"]
+  }
+]

@@ -337,6 +337,14 @@ def build_sitemap(tools, cats):
     for c in cats:
         urls.append((f"https://martechsignal.com/categories/{c['slug']}/", today, "0.8"))
 
+    # Glossary hub + term pages
+    glossary_json = TOOLS_DIR / "glossary.json"
+    if glossary_json.exists():
+        glossary_terms = json.loads(glossary_json.read_text())
+        urls.append((f"https://martechsignal.com/glossary/", today, "0.8"))
+        for gt in glossary_terms:
+            urls.append((f"https://martechsignal.com/glossary/{gt['slug']}/", today, "0.6"))
+
     # Blog index
     if (blog_dir / "index.html").exists():
         urls.append((f"https://martechsignal.com/blog/", today, "0.8"))
