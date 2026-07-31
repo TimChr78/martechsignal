@@ -102,3 +102,14 @@ if [ "$DO_GIT" -eq 1 ]; then
         echo "Not a git repo — skipping git sync."
     fi
 fi
+
+# ── Google Search Console URL Inspection ───────────────────────────
+# Requests indexing for URLs changed in the last commit.
+# Skips silently if no service account key is configured.
+echo ""
+echo "── GSC Indexing ───────────────────────────────────────"
+if command -v uv >/dev/null 2>&1 && [ -f gsc_inspect.py ]; then
+    uv run gsc_inspect.py --changed 2>&1 || echo "⚠ GSC inspection failed (non-fatal)"
+else
+    echo "Skipped (uv or gsc_inspect.py not found)"
+fi
