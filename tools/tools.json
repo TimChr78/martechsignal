@@ -367,7 +367,7 @@
   {
     "slug": "billionmail",
     "name": "BillionMail",
-    "tagline": "Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free",
+    "tagline": "Open-source mail server, newsletter, and email marketing platform \u2014 fully self-hosted and free",
     "website": "http://www.billionmail.com/",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -466,7 +466,7 @@
     "status": "active",
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
-    "description": "Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Where tools focused solely on scheduling or engagement stop at execution, Brandwatch's core differentiator is its **social listening and consumer intelligence engine**. It analyzes billions of online conversations across social media, blogs, forums, and news sites to surface trends, sentiment shifts, competitive intelligence, and emerging cultural signals that inform marketing strategy.\n\nThe platform's capabilities span: **Brandwatch Consumer Intelligence** (real-time social listening with AI-powered sentiment analysis, trend detection, image recognition, and audience segmentation across 100M+ sources), **Brandwatch Social Media Management** (publishing, scheduling, engagement, and analytics unified with the listening data, so community managers see conversation context alongside response tools), **Brandwatch Influence** (influencer identification, vetting, campaign management, and ROI measurement), and **Brandwatch Reviews** (aggregating and analyzing reviews from 100+ review sites). The AI component, Iris, uses machine learning to automatically categorize mentions, detect crisis signals, and surface emerging trends before they reach mainstream awareness.\n\nBrandwatch is used by half of the Forbes 100 and serves enterprise clients including Unilever, Nestlé, and Walmart. Pricing is enterprise-tier, typically starting at $1,000-3,000+/month depending on data volume, features, and users. It competes with Sprinklr (full CX platform), Talkwalker (social listening), and Meltwater (media intelligence). Brandwatch is best suited for large enterprises and agencies that need social listening at scale, where the primary question is \"what are people saying about us and our competitors?\" rather than \"when should we post?\" It is overkill for teams that only need scheduling and basic analytics."
+    "description": "Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Where tools focused solely on scheduling or engagement stop at execution, Brandwatch's core differentiator is its **social listening and consumer intelligence engine**. It analyzes billions of online conversations across social media, blogs, forums, and news sites to surface trends, sentiment shifts, competitive intelligence, and emerging cultural signals that inform marketing strategy.\n\nThe platform's capabilities span: **Brandwatch Consumer Intelligence** (real-time social listening with AI-powered sentiment analysis, trend detection, image recognition, and audience segmentation across 100M+ sources), **Brandwatch Social Media Management** (publishing, scheduling, engagement, and analytics unified with the listening data, so community managers see conversation context alongside response tools), **Brandwatch Influence** (influencer identification, vetting, campaign management, and ROI measurement), and **Brandwatch Reviews** (aggregating and analyzing reviews from 100+ review sites). The AI component, Iris, uses machine learning to automatically categorize mentions, detect crisis signals, and surface emerging trends before they reach mainstream awareness.\n\nBrandwatch is used by half of the Forbes 100 and serves enterprise clients including Unilever, Nestl\u00e9, and Walmart. Pricing is enterprise-tier, typically starting at $1,000-3,000+/month depending on data volume, features, and users. It competes with Sprinklr (full CX platform), Talkwalker (social listening), and Meltwater (media intelligence). Brandwatch is best suited for large enterprises and agencies that need social listening at scale, where the primary question is \"what are people saying about us and our competitors?\" rather than \"when should we post?\" It is overkill for teams that only need scheduling and basic analytics."
   },
   {
     "slug": "braze",
@@ -544,7 +544,7 @@
   {
     "slug": "chatbotx",
     "name": "ChatbotX",
-    "tagline": "Open-source ManyChat alternative built for AI — omnichannel chat marketing and automation",
+    "tagline": "Open-source ManyChat alternative built for AI \u2014 omnichannel chat marketing and automation",
     "website": "https://chatbotx.io/docs",
     "category": "chatbots",
     "pricing_model": "open-source",
@@ -1377,7 +1377,7 @@
   {
     "slug": "laudspeaker",
     "name": "Laudspeaker",
-    "tagline": "Open-source customer engagement and product onboarding platform — alternative to Braze",
+    "tagline": "Open-source customer engagement and product onboarding platform \u2014 alternative to Braze",
     "website": "https://laudspeaker.com/?ref=github",
     "category": "marketing-automation",
     "pricing_model": "open-source",
@@ -1626,7 +1626,7 @@
     "pricing_model": "open-source",
     "pricing_url": "https://matomo.org/pricing/",
     "price_from": 0,
-    "price_notes": "Self-hosted free (GPL); Cloud from €19/mo; premium plugins available",
+    "price_notes": "Self-hosted free (GPL); Cloud from \u20ac19/mo; premium plugins available",
     "ai_features": [
       "AI-powered insights",
       "AI anomaly detection",
@@ -1652,7 +1652,7 @@
     "status": "active",
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
-    "description": "Founded in 2007 and headquartered in Wellington, New Zealand, Matomo is an open-source web analytics platform designed to give organizations full ownership of their visitor data. It tracks websites, e-commerce stores, and apps while providing reports on traffic sources, user behavior, conversions, and campaign performance. Because the core product is available under the GPL, teams can self-host it for free, use Matomo Cloud from €19 per month, or add premium plugins for extended capabilities. The project has 21,717 GitHub stars and includes an API, with integrations for WordPress, Shopify, Magento, Zapier, Google Analytics import, Slack, and tag managers.\n\nMatomo is aimed at marketing, analytics, product, and privacy teams that want more control than typical hosted analytics services provide. Its main differentiator is the combination of open-source transparency and a broad analytics suite, including AI-powered insights, AI anomaly detection, AI form analytics, AI heatmaps, and AI session replay. These features help users surface unusual trends, understand where visitors hesitate, and identify friction in forms or journeys without relying solely on manual report review.\n\nCompared with commercial alternatives such as Google Analytics or Adobe Analytics, Matomo places greater emphasis on data ownership, self-hosting flexibility, and customizable reporting, though organizations may need more technical resources to manage infrastructure and plugins. It is best for privacy-conscious businesses, agencies, e-commerce teams, and enterprises that want an open-source analytics platform with AI-assisted insights and the option to move from self-hosted to cloud-based deployment."
+    "description": "Founded in 2007 and headquartered in Wellington, New Zealand, Matomo is an open-source web analytics platform designed to give organizations full ownership of their visitor data. It tracks websites, e-commerce stores, and apps while providing reports on traffic sources, user behavior, conversions, and campaign performance. Because the core product is available under the GPL, teams can self-host it for free, use Matomo Cloud from \u20ac19 per month, or add premium plugins for extended capabilities. The project has 21,717 GitHub stars and includes an API, with integrations for WordPress, Shopify, Magento, Zapier, Google Analytics import, Slack, and tag managers.\n\nMatomo is aimed at marketing, analytics, product, and privacy teams that want more control than typical hosted analytics services provide. Its main differentiator is the combination of open-source transparency and a broad analytics suite, including AI-powered insights, AI anomaly detection, AI form analytics, AI heatmaps, and AI session replay. These features help users surface unusual trends, understand where visitors hesitate, and identify friction in forms or journeys without relying solely on manual report review.\n\nCompared with commercial alternatives such as Google Analytics or Adobe Analytics, Matomo places greater emphasis on data ownership, self-hosting flexibility, and customizable reporting, though organizations may need more technical resources to manage infrastructure and plugins. It is best for privacy-conscious businesses, agencies, e-commerce teams, and enterprises that want an open-source analytics platform with AI-assisted insights and the option to move from self-hosted to cloud-based deployment."
   },
   {
     "slug": "mautic",
@@ -1872,7 +1872,7 @@
   {
     "slug": "openoutreach",
     "name": "OpenOutreach",
-    "tagline": "Agentic AI email automation — describe your product and target market, AI finds the leads",
+    "tagline": "Agentic AI email automation \u2014 describe your product and target market, AI finds the leads",
     "website": "https://openoutreach.app",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -1963,13 +1963,13 @@
   {
     "slug": "paperclip",
     "name": "Paperclip",
-    "tagline": "Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit",
+    "tagline": "Open-source control plane to manage AI agents like a company \u2014 hire, schedule, budget, and audit",
     "website": "https://paperclip.inc",
     "category": "workflow-automation",
     "pricing_model": "freemium",
     "pricing_url": "https://paperclip.inc/pricing",
     "price_from": 0,
-    "price_notes": "Self-hosted free (MIT); hosted cloud from €10/mo, unlimited companies",
+    "price_notes": "Self-hosted free (MIT); hosted cloud from \u20ac10/mo, unlimited companies",
     "ai_features": [
       "Multi-agent orchestration (Claude, Codex, Cursor, Gemini, DeepSeek, Qwen, Hermes, OpenCode)",
       "Per-agent budgets with auto-pause at cap",
@@ -2257,7 +2257,7 @@
   {
     "slug": "relaticle",
     "name": "Relaticle",
-    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament",
+    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API \u2014 Laravel & Filament",
     "website": "https://relaticle.com",
     "category": "crm",
     "pricing_model": "open-source",
@@ -3192,7 +3192,8 @@
     "description": "Pipedream is a developer-first integration and automation platform that connects over 3,000 APIs, AI models, databases, and services through code-level workflows. Founded in 2019 and acquired by Workday in 2026, it serves over one million developers, from startups to Fortune 500 companies including LinkedIn, Scale AI, and Warner Bros. Discovery. The platform spans four product surfaces. There is a visual Workflow Builder where steps can be no-code integrations or arbitrary Node.js, Python, or Go code. Connect is an SDK that lets product teams embed Pipedream's 3,000+ integrations into their own applications or AI agents with managed OAuth. MCP servers deploy integrations as tool endpoints that any Model Context Protocol client can call, including Claude, Cursor, and Copilot. And String is an AI agent builder where users describe what they want in natural language and Pipedream generates, deploys, and hosts the agent. The platform includes 10,000 pre-built triggers and actions, a built-in key-value data store, file storage, concurrency controls, and GitHub Sync for version-controlled workflow deployment across environments. Security certifications include SOC 2 Type II, HIPAA compliance, and GDPR. Pricing is credit-based, so you pay for compute time. The Free tier includes 100 credits per month with 1 million AI tokens, 3 active workflows, and 3 connected accounts. The Basic plan at $29/month includes 2,000 credits and 20 million AI tokens. The Advanced plan at $49/month adds unlimited workflows and accounts, control flow operators (branching, parallelism, switch), premium apps, and GitHub Sync. The Connect plan at $99/month is for teams embedding integrations in their own products, with managed auth for up to 100 external users. Business plans are custom-quoted with volume pricing, dedicated Slack support, HIPAA workloads, and SLAs. Pipedream competes with Zapier, Make, n8n, Tray.io, and Workato, but sets itself apart on developer flexibility. Every step can run arbitrary code, which pure no-code tools cannot do, while still providing managed auth, a pre-built integration catalog, and an execution environment that infrastructure tools like AWS Lambda leave you to build yourself. Its MCP server deployment capability is unusual in the category: marketers or developers can turn any Pipedream workflow into an MCP server endpoint that AI coding agents call directly, which makes it a bridge between traditional iPaaS automation and agentic workflows. The Workday acquisition points toward deeper enterprise integration, particularly around the HR, finance, and planning systems where Workday is dominant. For marketing and revenue operations teams, the strongest use cases are data pipelines between martech tools (routing leads from ad platforms to CRMs, enriching contact data across systems, syncing campaign metrics to dashboards), AI-powered content workflows triggered from webhook events, and internal tools that combine multiple marketing APIs into single endpoints.",
     "pricing": "Free (100 credits/mo), Basic ($29/mo), Advanced ($49/mo), Connect ($99/mo), Business (custom)",
     "date_updated": "2026-07-28",
-    "status": "active"
+    "status": "active",
+    "website": "https://pipedream.com"
   },
   {
     "slug": "cordys-crm",
