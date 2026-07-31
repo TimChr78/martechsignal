@@ -208,6 +208,7 @@ def build_post(meta: dict, body_html: str) -> str:
 {json.dumps(schema, indent=2)}
 </script>
 <link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
 <div class="bg" aria-hidden="true"></div>
@@ -300,6 +301,7 @@ def build_index(posts: list) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-blog-index">
 <div class="bg" aria-hidden="true"></div>
