@@ -77,6 +77,7 @@ def page_shell(title, description, canonical, body, schema_json=None):
     <div class="foot-links">
       <a href="/">HOME</a>
       <a href="/tools/">TOOLS</a>
+      <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
       <a href="/#subscribe">SUBSCRIBE</a>
     </div>
