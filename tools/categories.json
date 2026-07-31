@@ -2,66 +2,349 @@
   {
     "slug": "marketing-automation",
     "name": "Marketing Automation",
-    "description": "End-to-end campaign orchestration and workflow automation"
+    "description": "End-to-end campaign orchestration and workflow automation",
+    "tools": [
+      "activecampaign",
+      "adobe-marketo",
+      "alwrity",
+      "bloomreach",
+      "braze",
+      "hubspot-marketing-hub",
+      "laudspeaker",
+      "ortto",
+      "salesforce-marketing-cloud"
+    ]
   },
   {
     "slug": "email-marketing",
     "name": "Email Marketing",
-    "description": "Email campaigns, sequences, and deliverability"
+    "description": "Email campaigns, sequences, and deliverability",
+    "tools": [
+      "billionmail",
+      "customer-io",
+      "klaviyo",
+      "loops",
+      "mailchimp",
+      "openoutreach",
+      "postmark",
+      "resend",
+      "sendgrid"
+    ]
   },
   {
     "slug": "crm",
     "name": "CRM",
-    "description": "Customer relationship management and sales pipelines"
+    "description": "Customer relationship management and sales pipelines",
+    "tools": [
+      "attio",
+      "cordys-crm",
+      "espocrm",
+      "freshsales",
+      "hubspot-crm",
+      "krayin-crm",
+      "pipedrive",
+      "relaticle",
+      "salesforce-crm",
+      "suitecrm",
+      "twenty",
+      "wacrm"
+    ]
   },
   {
     "slug": "content-ai",
     "name": "AI Content & Copywriting",
-    "description": "AI-powered content generation and optimization"
+    "description": "AI-powered content generation and optimization",
+    "tools": [
+      "anyword",
+      "contentbot",
+      "copy-ai",
+      "hypotenuse-ai",
+      "jasper",
+      "persado",
+      "phrasee",
+      "writer"
+    ]
   },
   {
     "slug": "analytics",
     "name": "Analytics & Attribution",
-    "description": "Marketing analytics, attribution, and reporting"
+    "description": "Marketing analytics, attribution, and reporting",
+    "tools": [
+      "amplitude",
+      "attribution",
+      "heap",
+      "mixpanel",
+      "northbeam",
+      "snowplow",
+      "triple-whale"
+    ]
   },
   {
     "slug": "social-media",
     "name": "Social Media",
-    "description": "Social scheduling, listening, and engagement"
+    "description": "Social scheduling, listening, and engagement",
+    "tools": [
+      "brandwatch",
+      "buffer",
+      "hootsuite",
+      "multipost-extension",
+      "predis-ai",
+      "sprout-social"
+    ]
   },
   {
     "slug": "advertising",
     "name": "Advertising & Paid Media",
-    "description": "Ad creation, bidding, and campaign management"
+    "description": "Ad creation, bidding, and campaign management",
+    "tools": [
+      "adcreative-ai",
+      "albert-ai",
+      "pencil",
+      "revealbot",
+      "smartly-io"
+    ]
   },
   {
     "slug": "personalization",
     "name": "Personalization & CDP",
-    "description": "Customer data platforms and experience personalization"
+    "description": "Customer data platforms and experience personalization",
+    "tools": [
+      "clerk-io",
+      "dynamic-yield",
+      "nosto",
+      "segment",
+      "tealium"
+    ]
   },
   {
     "slug": "chatbots",
     "name": "Chatbots & Conversational AI",
-    "description": "AI chatbots, virtual assistants, and conversational marketing"
+    "description": "AI chatbots, virtual assistants, and conversational marketing",
+    "tools": [
+      "chatbotx",
+      "chatfuel",
+      "intercom",
+      "manychat",
+      "tidio"
+    ]
   },
   {
     "slug": "seo",
     "name": "SEO & Search",
-    "description": "Search optimization, keyword research, and content strategy"
+    "description": "Search optimization, keyword research, and content strategy",
+    "tools": [
+      "clearscope",
+      "frase",
+      "marketmuse",
+      "openseo",
+      "semrush",
+      "seonaut",
+      "surfer-seo"
+    ]
   },
   {
     "slug": "workflow-automation",
     "name": "Workflow Automation",
-    "description": "No-code/low-code automation platforms and iPaaS"
+    "description": "No-code/low-code automation platforms and iPaaS",
+    "tools": [
+      "langchain",
+      "make",
+      "n8n",
+      "paperclip",
+      "pipedream",
+      "tray-io",
+      "workato",
+      "zapier"
+    ],
+    "hub": {
+      "meta": "Compare Zapier, Make, n8n, Workato, Tray.io, LangChain, Pipedream, and Paperclip. Speed, self-hosting, AI agents, or enterprise governance: each of these platforms bets on a different one.",
+      "flow": [
+        {
+          "label": "TRIGGER",
+          "sub": "new deal in CRM"
+        },
+        {
+          "label": "FILTER",
+          "sub": "value > $500"
+        },
+        {
+          "label": "AI AGENT",
+          "sub": "draft the follow-up",
+          "style": "ai"
+        },
+        {
+          "label": "ACTION",
+          "sub": "send + log result",
+          "style": "ok"
+        }
+      ],
+      "lead": [
+        "Workflow automation is the unglamorous layer that decides whether your stack behaves like a system or a pile of browser tabs. These tools connect everything else: your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually execute instead of drafting suggestions nobody reads.",
+        "The category splits two ways. Visual builders like Zapier and Make get you to a working run fast, but you rent the engine. Code-friendly platforms like n8n and LangChain hand you raw primitives and expect you to know what you're doing. Workato and Tray.io sit in the enterprise tier, wrapping both ideas in governance and a bigger invoice.",
+        "When you're comparing these in 2026, skip the \"which one connects the most apps\" table. They all connect enough apps. What separates them is whether a run can hold state across a long job, recover from failures without losing progress, and give an AI agent real operations to call. That last part matters more than the node count, and most comparison pages ignore it."
+      ],
+      "chooser": [
+        {
+          "if": "First automation, needs to be live before lunch",
+          "then": [
+            {
+              "name": "Zapier",
+              "slug": "zapier"
+            },
+            {
+              "name": "Make",
+              "slug": "make"
+            }
+          ],
+          "why": "Biggest app catalogs, fastest time to a working run"
+        },
+        {
+          "if": "Self-hosted, you own the data and the engine",
+          "then": [
+            {
+              "name": "n8n",
+              "slug": "n8n"
+            }
+          ],
+          "why": "Runs on your own box, 400+ nodes, no per-task billing"
+        },
+        {
+          "if": "Building AI agents, not just moving data",
+          "then": [
+            {
+              "name": "n8n",
+              "slug": "n8n"
+            },
+            {
+              "name": "LangChain",
+              "slug": "langchain"
+            }
+          ],
+          "why": "Real agent primitives and tool calling, not bolt-ons"
+        },
+        {
+          "if": "Running a fleet of agents with budgets and approvals",
+          "then": [
+            {
+              "name": "Paperclip",
+              "slug": "paperclip"
+            }
+          ],
+          "why": "A control plane that hires, schedules, caps, and audits agents"
+        },
+        {
+          "if": "Procurement needs SOC 2 and a signature line",
+          "then": [
+            {
+              "name": "Workato",
+              "slug": "workato"
+            },
+            {
+              "name": "Tray.io",
+              "slug": "tray-io"
+            }
+          ],
+          "why": "Governance, SSO, and a contract legal will actually sign"
+        }
+      ],
+      "groups": [
+        {
+          "label": "OPEN SOURCE / SELF-HOSTED",
+          "slugs": [
+            "n8n",
+            "langchain",
+            "paperclip"
+          ]
+        },
+        {
+          "label": "COMMERCIAL",
+          "slugs": [
+            "zapier",
+            "make",
+            "pipedream",
+            "tray-io",
+            "workato"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "n8n-ai-open-source-automation",
+          "title": "n8n + AI: The Open-Source Automation Engine That Actually Works",
+          "note": "The case for self-hosting your automation engine, node by node"
+        },
+        {
+          "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
+          "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
+          "note": "How agent-to-tool protocols change what integrations should cost"
+        },
+        {
+          "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
+          "title": "Claude Cowork is eating the edges of your martech stack",
+          "note": "Where the agent orchestration layer is heading next"
+        }
+      ]
+    }
   },
   {
     "slug": "open-source",
     "name": "Open-Source Tools",
-    "description": "Self-hostable open-source marketing and AI tools"
+    "description": "Self-hostable open-source marketing and AI tools",
+    "tools": [
+      "aaron-marketing-skills",
+      "ai-business-skills",
+      "ai-marketing-claude",
+      "alwrity",
+      "analytics-tracking-automation",
+      "billionmail",
+      "chatbotx",
+      "chatwoot",
+      "claude-ads",
+      "claude-seo",
+      "codex-seo",
+      "cordys-crm",
+      "digital-marketing-pro",
+      "email-marketing-bible",
+      "espocrm",
+      "ghost",
+      "krayin-crm",
+      "langchain",
+      "laudspeaker",
+      "listmonk",
+      "matomo",
+      "mautic",
+      "multipost-extension",
+      "n8n",
+      "openclaw-marketing-skills",
+      "openoutreach",
+      "openseo",
+      "paperclip",
+      "plausible",
+      "relaticle",
+      "seonaut",
+      "snowplow",
+      "strapi",
+      "suitecrm",
+      "twenty",
+      "umami",
+      "wacrm"
+    ]
   },
   {
     "slug": "agent-skills",
     "name": "Agent Skills",
-    "description": "Skills, plugins, and extensions for AI coding agents \u2014 what they automate in your marketing workflow"
+    "description": "Skills, plugins, and extensions for AI coding agents \u2014 what they automate in your marketing workflow",
+    "tools": [
+      "aaron-marketing-skills",
+      "ai-business-skills",
+      "ai-marketing-claude",
+      "analytics-tracking-automation",
+      "claude-ads",
+      "claude-seo",
+      "codex-seo",
+      "digital-marketing-pro",
+      "email-marketing-bible",
+      "openclaw-marketing-skills"
+    ]
   }
 ]

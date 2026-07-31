@@ -259,6 +259,17 @@ def build_tool_page(t, cats, all_tools):
 
 # ── Category pages ─────────────────────────────────────────────────
 
+def tool_card_html(t):
+    tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>'
+    if t.get("open_source"):
+        tags += '<span class="tag oss">OSS</span>'
+    return f"""<a class="tool-card" href="/tools/{t['slug']}/">
+  <div class="name">{esc(t['name'])}</div>
+  <div class="tagline">{esc(t.get('tagline',''))}</div>
+  <div class="meta">{tags}</div>
+</a>\n"""
+
+
 def build_category_page(cat, tools):
     if cat["slug"] == "open-source":
         # Show ALL open-source tools regardless of primary category
@@ -268,30 +279,106 @@ def build_category_page(cat, tools):
     if not cat_tools:
         return None
 
-    cards = ""
-    for t in cat_tools:
-        tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>'
-        if t.get("open_source"):
-            tags += '<span class="tag oss">OSS</span>'
-        cards += f"""<a class="tool-card" href="/tools/{t['slug']}/">
-  <div class="name">{esc(t['name'])}</div>
-  <div class="tagline">{esc(t.get('tagline',''))}</div>
-  <div class="meta">{tags}</div>
-</a>\n"""
+    by_slug = {t["slug"]: t for t in cat_tools}
+    hub = cat.get("hub")
 
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
+    if not hub:
+        # Simple listing for categories without editorial hub content
+        cards = "".join(tool_card_html(t) for t in cat_tools)
+        body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
 <section class="page-head">
   <h1>{esc(cat['name'])} Tools</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
 <div class="tool-grid">{cards}</div>"""
+    else:
+        # ── Hub page: editorial intro + pipeline visual + chooser + grouped grid ──
+        flow = ""
+        steps = hub.get("flow", [])
+        for i, s in enumerate(steps):
+            style = f' {s["style"]}' if s.get("style") else ""
+            flow += f'<div class="flow-step{style}"><span class="flow-label">{esc(s["label"])}</span><span class="flow-sub">{esc(s.get("sub",""))}</span></div>'
+            if i < len(steps) - 1:
+                flow += '<div class="flow-wire"><i class="flow-pulse"></i></div>'
+
+        lead = "".join(f"<p>{esc(p)}</p>" for p in hub.get("lead", []))
+
+        chooser = ""
+        for row in hub.get("chooser", []):
+            picks = " ".join(
+                f'<a class="pick" href="/tools/{p["slug"]}/">{esc(p["name"])}</a>' for p in row["then"]
+            )
+            chooser += f"""<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> {esc(row["if"])}</div>
+  <div class="chooser-then">{picks}</div>
+  <div class="chooser-why">{esc(row["why"])}</div>
+</div>\n"""
+
+        groups_html = ""
+        grouped_slugs = set()
+        for g in hub.get("groups", []):
+            g_tools = [by_slug[s] for s in g["slugs"] if s in by_slug]
+            if not g_tools:
+                continue
+            grouped_slugs.update(g["slugs"])
+            cards = "".join(tool_card_html(t) for t in g_tools)
+            groups_html += f"""<div class="hub-group reveal">
+  <div class="hub-group-label"><span>{esc(g["label"])}</span><i></i><em>{len(g_tools)}</em></div>
+  <div class="tool-grid">{cards}</div>
+</div>\n"""
+        leftovers = [t for t in cat_tools if t["slug"] not in grouped_slugs]
+        if leftovers:
+            cards = "".join(tool_card_html(t) for t in leftovers)
+            groups_html += f'<div class="hub-group reveal"><div class="tool-grid">{cards}</div></div>'
+
+        reading = ""
+        for r in hub.get("reading", []):
+            reading += f"""<a class="read-row" href="/blog/{r['slug']}/">
+  <div class="read-title">{esc(r["title"])}</div>
+  <div class="read-note">{esc(r.get("note",""))}</div>
+  <span class="read-arrow">→</span>
+</a>\n"""
+
+        body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
+<section class="page-head hub-head">
+  <h1>{esc(cat['name'])} Tools</h1>
+  <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
+  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
+</section>
+
+<div class="flow-strip reveal" aria-hidden="true">{flow}</div>
+
+<section class="hub-lead reveal">{lead}</section>
+
+<section class="hub-chooser reveal">
+  <h2>Which one fits</h2>
+  {chooser}
+</section>
+
+{groups_html}
+
+<section class="hub-reading reveal">
+  <h2>Reading before you buy</h2>
+  {reading}
+</section>
+
+<script>
+(function() {{
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {{ els.forEach(function(e) {{ e.classList.add('in'); }}); return; }}
+  var io = new IntersectionObserver(function(entries) {{
+    entries.forEach(function(en) {{ if (en.isIntersecting) {{ en.target.classList.add('in'); io.unobserve(en.target); }} }});
+  }}, {{ threshold: 0.12 }});
+  els.forEach(function(e) {{ io.observe(e); }});
+}})();
+</script>"""
 
     schema = {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": f"{cat['name']} Tools",
-        "description": cat.get("description", ""),
+        "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
         "numberOfItems": len(cat_tools),
         "itemListElement": [
             {"@type": "ListItem", "position": i+1, "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}
@@ -304,7 +391,7 @@ def build_category_page(cat, tools):
     out = out_dir / "index.html"
     out.write_text(page_shell(
         f"{cat['name']} Tools — MartechSignal",
-        f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.",
+        (hub.get("meta") if hub else f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.") or "",
         f"/categories/{cat['slug']}/", body, schema))
     return out
 
