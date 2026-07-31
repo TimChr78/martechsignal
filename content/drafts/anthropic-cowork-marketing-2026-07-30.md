@@ -67,6 +67,12 @@ This is the part that should worry vendors selling "AI-powered" features inside 
 
 Anthropic has shipped fast, but multi-agent orchestration at enterprise scale is hard, and competitors are not standing still.
 
+## The skill ecosystem nobody planned
+
+Cowork ships with five marketing workflows. The community built plenty more. [Claude SEO](/tools/claude-seo/) has 12,800 GitHub stars and turns Claude Code into a 25-agent SEO audit pipeline. [Claude Ads](/tools/claude-ads/) covers 12 ad platforms. [Aaron Marketing Skills](/tools/aaron-marketing-skills/) bundles 120 skills across seven disciplines. None of these are Anthropic products. They are markdown files anyone can install, and they are getting more traction than most SaaS tools with actual funding.
+
+I keep coming back to what this means for the $40,000-a-year analytics platform that just added an "AI insights" button. The question stopped being whether your tools have AI features. Now it is whether they do something a free skill pack cannot. We track the ones worth watching in the [Agent Skills directory](/tools/category/agent-skills/).
+
 ## What to actually do with this
 
 If you run marketing ops at a company between 50 and 500 employees, try the Marketing Ops bundle on a Pro plan for a month. Pick one recurring deliverable, a weekly report, a competitive brief, a content audit. Set it up as a scheduled task. Watch what it does well and where it breaks.
@@ -75,4 +81,4 @@ The work Cowork does well right now is specific: assembly, synthesis, and schedu
 
 It will not replace your automation platform, your CDP, or your CRM. But it will absorb the reporting and analysis layer that currently eats your team's time, and it will do it for $20 a month per seat. That is a different value proposition than "we added AI to our dashboard," and it is one worth taking seriously.
 
-Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/tools/tray-io/), [HubSpot](/tools/hubspot-crm/), [Salesforce](/tools/salesforce-crm/), [Customer.io](/tools/customer-io/), [Segment](/tools/segment/), [Snowplow](/tools/snowplow/), [Amplitude](/tools/amplitude/), [Mixpanel](/tools/mixpanel/), [Attio](/tools/attio/), [LangChain](/tools/langchain/), [Pipedream](/tools/pipedream/), [Google Analytics](https://analytics.google.com).
+Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/tools/tray-io/), [HubSpot](/tools/hubspot-crm/), [Salesforce](/tools/salesforce-crm/), [Customer.io](/tools/customer-io/), [Segment](/tools/segment/), [Snowplow](/tools/snowplow/), [Amplitude](/tools/amplitude/), [Mixpanel](/tools/mixpanel/), [Attio](/tools/attio/), [LangChain](/tools/langchain/), [Pipedream](/tools/pipedream/), [Google Analytics](https://analytics.google.com), [Claude SEO](/tools/claude-seo/), [Claude Ads](/tools/claude-ads/), [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Agent Skills directory](/tools/category/agent-skills/).
