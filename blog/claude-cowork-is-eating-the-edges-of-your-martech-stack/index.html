@@ -45,6 +45,7 @@
 </head>
 <body class="page-post">
 <div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
@@ -52,12 +53,16 @@
   </div>
 </header>
 <main class="wrap">
-<a class="back" href="/blog/">← ALL POSTS</a>
+<a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">DEEP DIVE · MARTECH</p>
+<p class="kicker">AI · MARKETING OPS · 8 MIN</p>
 <h1>Claude Cowork is eating the edges of your martech stack</h1>
-<p class="meta">JUL 30, 2026 · BY <a href="/">MARTECHSIGNAL</a></p>
+<p class="meta">JUL 30, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b>Tim Christensen</b></span>
+</div>
 
 <p>For the past three years, marketing ops teams have been promised "AI-powered automation" by every vendor in the stack. You know how that went. Chatbots nobody uses, predictive scores nobody trusts, and "copilots" that summarize dashboards you already looked at.</p>
 
@@ -138,8 +143,8 @@
 <p>Tools linked in this post: <a href="/tools/n8n/">n8n</a>, <a href="/tools/make/">Make</a>, <a href="/tools/tray-io/">Tray.io</a>, <a href="/tools/hubspot-crm/">HubSpot</a>, <a href="/tools/salesforce-crm/">Salesforce</a>, <a href="/tools/customer-io/">Customer.io</a>, <a href="/tools/segment/">Segment</a>, <a href="/tools/snowplow/">Snowplow</a>, <a href="/tools/amplitude/">Amplitude</a>, <a href="/tools/mixpanel/">Mixpanel</a>, <a href="/tools/attio/">Attio</a>, <a href="/tools/langchain/">LangChain</a>, <a href="/tools/pipedream/">Pipedream</a>, <a href="https://analytics.google.com">Google Analytics</a>, <a href="/tools/claude-seo/">Claude SEO</a>, <a href="/tools/claude-ads/">Claude Ads</a>, <a href="/tools/aaron-marketing-skills/">Aaron Marketing Skills</a>, <a href="/tools/category/agent-skills/">Agent Skills directory</a>.</p>
 
 <div class="cta-strip">
-<h3>Get the Weekly Signal</h3>
-<p>One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter for marketing automation.</p>
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
@@ -147,15 +152,20 @@
 </main>
 <footer>
   <div class="foot-in">
-    <p>© 2026 Martech Signal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/blog/">BLOG</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <p><b>MartechSignal</b> — written by Tim Christensen</p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>
-if('IntersectionObserver' in window){
-  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
-  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
-}else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
 </script>
 </body>
 </html>

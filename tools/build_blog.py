@@ -48,6 +48,41 @@ def parse_frontmatter(text: str):
     return meta, body
 
 
+def highlight_json(code: str) -> str:
+    """Syntax-highlight a JSON string (keys amber, string values green, punctuation dim).
+    Single pass over quoted tokens so keys are never re-wrapped as values."""
+    esc = html.escape(code, quote=True)  # " -> &quot;
+
+    def tok(m: re.Match) -> str:
+        quoted, ws, colon = m.group(1), m.group(2) or '', m.group(3)
+        if colon:  # a key — a quoted token followed by ':'
+            return f'<span class="k">{quoted}</span>{ws}<span class="p">:</span>'
+        return f'<span class="s">{quoted}</span>{ws}'
+
+    # One pass: each quoted token classified exactly once (key vs value)
+    s = re.sub(r'(&quot;[^&]*?&quot;)(\s*)(:)?', tok, esc)
+    # Structural braces/brackets (never inside this content's string values)
+    s = re.sub(r'([{}\[\]])', r'<span class="p">\1</span>', s)
+    # Booleans / null
+    s = re.sub(r'\b(true|false|null)\b', r'<span class="k">\1</span>', s)
+    return s
+
+
+def fenced_code_block(lang: str, code: str) -> str:
+    """Render a fenced code block as a styled panel with a filename/lang bar."""
+    lang = (lang or '').strip().lower()
+    label = {'json': 'JSON', 'python': 'PYTHON', 'bash': 'SHELL', 'sh': 'SHELL',
+             'yaml': 'YAML', 'yml': 'YAML', 'js': 'JS', 'javascript': 'JS'}.get(lang, lang.upper() or 'CODE')
+    if lang == 'json':
+        body = highlight_json(code)
+    else:
+        body = html.escape(code, quote=False)
+    return (f'<div class="codeblock">\n'
+            f'<div class="cb-bar"><span class="cb-dots"><i></i><i></i><i></i></span>'
+            f'<span class="cb-lang">{label}</span></div>\n'
+            f'<pre><code>{body}</code></pre>\n</div>')
+
+
 def markdown_to_html(md: str) -> str:
     """Convert basic markdown to HTML. Handles h1-3, paragraphs, lists, links,
     bold, italic, inline code, blockquotes, fenced divs (::: type), and raw HTML."""
@@ -71,6 +106,20 @@ def markdown_to_html(md: str) -> str:
             text = inline_format(m.group(2))
             out.append(f'<h{level}>{text}</h{level}>')
             i += 1
+            continue
+
+        # Fenced code block: ```lang ... ```
+        m = re.match(r'^```(\w*)\s*$', line)
+        if m:
+            lang = m.group(1)
+            code_lines = []
+            i += 1
+            while i < len(lines) and not re.match(r'^```\s*$', lines[i]):
+                code_lines.append(lines[i])
+                i += 1
+            if i < len(lines):
+                i += 1  # skip closing ```
+            out.append(fenced_code_block(lang, '\n'.join(code_lines)))
             continue
 
         # Unordered list
@@ -169,6 +218,14 @@ def build_post(meta: dict, body_html: str) -> str:
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
     excerpt = re.sub(r'<[^>]+>', '', first_p.group(1))[:200] if first_p else ''
 
+    # Read time from word count (~200 wpm), tags as kicker
+    words = len(re.sub(r'<[^>]+>', ' ', body_html).split())
+    read_min = max(1, round(words / 200))
+    tags = meta.get('tags', [])
+    kicker = ' · '.join(t.upper() for t in tags[:2]) if tags else 'DEEP DIVE · MARTECH'
+    # Human byline — the site's named author (see footer/about); org stays in JSON-LD
+    byline = 'Tim Christensen'
+
     # JSON-LD
     schema = {
         "@context": "https://schema.org",
@@ -212,6 +269,7 @@ def build_post(meta: dict, body_html: str) -> str:
 </head>
 <body class="page-post">
 <div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
@@ -219,18 +277,22 @@ def build_post(meta: dict, body_html: str) -> str:
   </div>
 </header>
 <main class="wrap">
-<a class="back" href="/blog/">← ALL POSTS</a>
+<a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">DEEP DIVE · MARTECH</p>
+<p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
-<p class="meta">{date_display} · BY <a href="/">MARTECHSIGNAL</a></p>
+<p class="meta">{date_display}</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b>{byline}</b></span>
+</div>
 
 {body_html}
 
 <div class="cta-strip">
-<h3>Get the Weekly Signal</h3>
-<p>One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter for marketing automation.</p>
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
@@ -238,15 +300,20 @@ def build_post(meta: dict, body_html: str) -> str:
 </main>
 <footer>
   <div class="foot-in">
-    <p>© {datetime.now().year} Martech Signal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/blog/">BLOG</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <p><b>MartechSignal</b> — written by Tim Christensen</p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>
-if('IntersectionObserver' in window){{
-  var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('in');io.unobserve(e.target);}}}});}},{{threshold:.1}});
-  document.querySelectorAll('.reveal').forEach(function(el){{io.observe(el);}});
-}}else{{document.querySelectorAll('.reveal').forEach(function(el){{el.classList.add('in');}});}}
+(function(){{
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){{addEventListener('scroll',function(){{var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';}},{{passive:true}});}}
+  if('IntersectionObserver' in window){{
+    var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('in');io.unobserve(e.target);}}}});}},{{threshold:.1}});
+    document.querySelectorAll('.reveal').forEach(function(el){{io.observe(el);}});
+  }}else{{document.querySelectorAll('.reveal').forEach(function(el){{el.classList.add('in');}});}}
+}})();
 </script>
 </body>
 </html>"""
@@ -418,12 +485,14 @@ def update_homepage(posts: list, count: int = 3) -> bool:
     for idx, post in enumerate(posts_sorted, start=1):
         title = html.escape(post['title'], quote=False)
         slug = post.get('slug', slugify(post['title']))
+        excerpt = html.escape(post.get('excerpt', ''), quote=False)
+        date_disp = post['date']
         rows.append(
-            f'    <a class="sig reveal" href="/blog/{slug}/">\n'
-            f'      <span class="idx">{idx:02d}</span>\n'
-            f'      <span><h3>{title}</h3>\n'
-            f'      <span class="sub">{post["date"]} · BLOG</span></span>\n'
-            f'      <span class="arrow">→</span>\n'
+            f'    <a class="story reveal" href="/blog/{slug}/">\n'
+            f'      <div class="story-head"><span class="kicker">BLOG · {date_disp}</span><span class="no">{idx:02d}</span></div>\n'
+            f'      <h3>{title}</h3>\n'
+            f'      <p>{excerpt}</p>\n'
+            f'      <span class="story-cta">READ →</span>\n'
             f'    </a>'
         )
     block = "\n".join(rows)

@@ -3,192 +3,236 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Martech Signal — The AI in Marketing Automation</title>
-<meta name="description" content="A weekly newsletter on the AI tools, workflows, and vendor moves that actually matter for marketing automation teams.">
+<title>MartechSignal — AI Marketing Automation, Audited</title>
+<meta name="description" content="Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy. Honest assessments, no sponsored rankings.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Martech Signal">
-<meta property="og:title" content="Martech Signal — The AI in Marketing Automation">
-<meta property="og:description" content="One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter for marketing automation teams.">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="MartechSignal — AI Marketing Automation, Audited">
+<meta property="og:description" content="Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy. Honest assessments, no sponsored rankings.">
 <meta property="og:url" content="https://martechsignal.com/">
 <meta property="og:image" content="https://martechsignal.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Martech Signal — The AI in Marketing Automation">
-<meta name="twitter:description" content="One sharp email every Friday: the AI tools, workflows, and vendor moves that actually matter.">
-<meta name="twitter:image" content="https://martechsignal.com/og.png">
 <link rel="canonical" href="https://martechsignal.com/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
-<link rel="alternate" type="application/rss+xml" title="Martech Signal" href="/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MartechSignal",
+  "url": "https://martechsignal.com/",
+  "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com/"
+  }
+}
+</script>
 <link rel="stylesheet" href="/style.css">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<style>
+/* ── Concept D homepage ── */
+.dot-grid{position:fixed;inset:0;z-index:-2;background-image:radial-gradient(circle,rgba(255,255,255,.03) 1px,transparent 1px);background-size:28px 28px}
+.glow{position:fixed;border-radius:50%;filter:blur(120px);z-index:-1;pointer-events:none}
+.glow-amber{width:500px;height:500px;background:rgba(255,178,36,.06);top:-180px;right:-120px}
+.glow-green{width:400px;height:400px;background:rgba(61,220,151,.05);bottom:-100px;left:-100px}
+.masthead{position:sticky;top:0;z-index:50;background:rgba(8,14,26,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.mast-in{max-width:1100px;margin:0 auto;padding:.9rem 1.5rem;display:flex;align-items:center;justify-content:space-between}
+.wordmark{font-family:var(--disp);font-size:1.1rem;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+.wordmark b{color:var(--amber)}
+.pulse-dot{width:8px;height:8px;border-radius:50%;background:var(--amber);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(255,178,36,.4)}50%{opacity:.7;box-shadow:0 0 0 6px rgba(255,178,36,0)}}
+.mast-nav{display:flex;gap:1.5rem}
+.mast-nav a{font:600 .68rem var(--mono);letter-spacing:.14em;color:var(--muted);text-decoration:none;transition:color .2s}
+.mast-nav a:hover{color:var(--amber)}
+.hero{max-width:1100px;margin:0 auto;padding:4rem 1.5rem 3rem}
+.hero-kicker{font:700 .62rem var(--mono);letter-spacing:.2em;color:var(--green);margin-bottom:1.2rem;display:flex;align-items:center;gap:.6rem}
+.hero-kicker::before{content:"";width:22px;height:2px;background:var(--green)}
+.hero h1{font-family:var(--disp);font-size:clamp(2.2rem,5.5vw,3.6rem);line-height:1.08;margin-bottom:1.4rem;max-width:22ch}
+.hero h1 .hl{position:relative;display:inline-block}
+.hero h1 .hl::after{content:"";position:absolute;left:-.1em;right:-.1em;bottom:.08em;height:.32em;background:rgba(255,178,36,.25);z-index:-1;transform:scaleX(0);transform-origin:left;animation:swipe .6s .4s ease forwards}
+@keyframes swipe{to{transform:scaleX(1)}}
+.hero p{font-size:1.05rem;color:var(--muted);max-width:52ch;line-height:1.7}
+.stats-band{max-width:1100px;margin:0 auto;padding:0 1.5rem 3rem}
+.stats-in{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.stat{background:var(--card);padding:1.6rem 1.4rem;text-align:center}
+.stat .num{font-family:var(--disp);font-size:2rem;color:var(--amber);display:block}
+.stat .lbl{font:600 .58rem var(--mono);letter-spacing:.16em;color:var(--muted);margin-top:.3rem;display:block}
+.section{max-width:1100px;margin:0 auto;padding:0 1.5rem 3.5rem}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.5rem}
+.section-head h2{font-family:var(--body);font-weight:800;font-size:1.4rem;letter-spacing:-.01em}
+.section-head a{font:600 .62rem var(--mono);letter-spacing:.12em;color:var(--amber);text-decoration:none}
+.section-head a:hover{text-decoration:underline}
+.stories{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.story{display:block;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1.5rem;text-decoration:none;transition:border-color .25s,transform .25s}
+.story:hover{border-color:var(--amber);transform:translateY(-3px)}
+.story-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem}
+.story .kicker{font:700 .56rem var(--mono);letter-spacing:.14em;color:var(--green)}
+.story .no{font:700 .7rem var(--mono);color:var(--muted)}
+.story h3{font-family:var(--body);font-weight:700;font-size:1.05rem;line-height:1.35;color:var(--text);margin-bottom:.6rem}
+.story p{font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:1rem}
+.story-cta{font:700 .6rem var(--mono);letter-spacing:.14em;color:var(--amber)}
+.tool-index{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.tool-row{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1rem;background:var(--card);border:1px solid var(--line);border-radius:4px;text-decoration:none;transition:border-color .2s}
+.tool-row:hover{border-color:var(--amber)}
+.tool-row .name{font:700 .85rem var(--body);color:var(--text)}
+.tool-row .take{font-size:.75rem;color:var(--muted);flex:1;margin:0 1rem}
+.tool-row .tag{font:600 .54rem var(--mono);letter-spacing:.1em;color:var(--green);white-space:nowrap}
+.more-tools{display:block;text-align:center;margin-top:1.2rem;font:700 .62rem var(--mono);letter-spacing:.14em;color:var(--amber);text-decoration:none}
+.more-tools:hover{text-decoration:underline}
+.subscribe{max-width:1100px;margin:0 auto;padding:0 1.5rem 4rem}
+.sub-in{background:linear-gradient(160deg,#122036,var(--card));border:1px solid var(--line2);border-top:3px solid var(--amber);border-radius:6px;padding:2.5rem;text-align:center}
+.sub-in h2{font-family:var(--disp);font-size:1.8rem;margin-bottom:.5rem}
+.sub-in h2 .amber{color:var(--amber)}
+.sub-in>p{color:var(--muted);font-size:.9rem;max-width:34rem;margin:0 auto 1.5rem}
+.sub-form{display:flex;gap:.6rem;max-width:28rem;margin:0 auto}
+.sub-form input{flex:1;background:#0A1120;border:1px solid var(--line2);border-radius:4px;padding:.7rem 1rem;color:var(--text);font:500 .85rem var(--body)}
+.sub-form input:focus{outline:none;border-color:var(--amber)}
+.sub-form button{background:var(--amber);color:#080E1A;border:none;border-radius:4px;padding:.7rem 1.4rem;font:700 .68rem var(--mono);letter-spacing:.12em;cursor:pointer;transition:opacity .2s}
+.sub-form button:hover{opacity:.85}
+.foot{border-top:1px solid var(--line);padding:2rem 1.5rem}
+.foot-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+.foot-in p{font-size:.75rem;color:var(--muted)}
+.foot-in p b{color:var(--text)}
+.foot-links{display:flex;gap:1.2rem}
+.foot-links a{font:600 .6rem var(--mono);letter-spacing:.12em;color:var(--muted);text-decoration:none}
+.foot-links a:hover{color:var(--amber)}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:760px){
+  .stories,.tool-index{grid-template-columns:1fr}
+  .stats-in{grid-template-columns:1fr}
+  .sub-form{flex-direction:column}
+  .foot-in{flex-direction:column;gap:1rem;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .hero h1 .hl::after{animation:none;transform:scaleX(1)}
+  .pulse-dot{animation:none}
+}
+</style>
 </head>
-<body class="page-home">
-<div class="bg" aria-hidden="true"></div>
+<body>
+<div class="dot-grid" aria-hidden="true"></div>
+<div class="glow glow-amber" aria-hidden="true"></div>
+<div class="glow glow-green" aria-hidden="true"></div>
 
 <header class="masthead">
-  <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
-    <div class="mast-right">
-      <span class="live"><i></i>LIVE</span>
-      <span class="mast-date" id="mastDate"></span>
-    </div>
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 
-<main class="wrap">
-  <section class="hero">
-    <div>
-      <p class="kicker">// WEEKLY DISPATCH FOR MARKETING OPS TEAMS</p>
-      <h1>The <em>signal</em> in the martech noise.</h1>
-      <p class="lede">AI is rewriting marketing automation faster than most stacks can keep up with. One sharp email every Friday: the tools, workflows, and vendor moves that actually matter — with the fluff filtered out.</p>
-      <div class="hero-cta">
-        <a class="btn" href="#subscribe">Subscribe free</a>
-        <a class="ghost" href="/tools/" data-umami-event="Browse tools">BROWSE TOOLS ↓</a>
-        <a class="ghost" href="/blog/">READ THE BLOG ↓</a>
-      </div>
-      <p class="micro">ONE EMAIL / WEEK · 5-MIN READ · UNSUBSCRIBE ANYTIME</p>
-    </div>
-    <aside class="spec reveal" aria-label="Newsletter spec sheet">
-      <div class="spec-head"><span class="dot"></span>SIGNAL FEED — STATUS: LIVE</div>
-      <div class="wave" aria-hidden="true">
-        <span style="--h:34%;--d:0s"></span><span style="--h:58%;--d:.08s"></span><span style="--h:42%;--d:.16s"></span><span style="--h:76%;--d:.24s"></span><span style="--h:52%;--d:.32s"></span><span style="--h:88%;--d:.4s"></span><span style="--h:64%;--d:.48s"></span><span style="--h:96%;--d:.56s"></span><span style="--h:70%;--d:.64s"></span><span style="--h:48%;--d:.72s"></span><span style="--h:82%;--d:.8s"></span><span style="--h:56%;--d:.88s"></span><span style="--h:92%;--d:.96s"></span><span style="--h:66%;--d:1.04s"></span><span style="--h:40%;--d:1.12s"></span><span style="--h:74%;--d:1.2s"></span><span style="--h:54%;--d:1.28s"></span><span style="--h:86%;--d:1.36s"></span><span style="--h:60%;--d:1.44s"></span><span style="--h:94%;--d:1.52s"></span><span style="--h:46%;--d:1.6s"></span><span style="--h:72%;--d:1.68s"></span><span style="--h:58%;--d:1.76s"></span><span style="--h:84%;--d:1.84s"></span>
-      </div>
-      <dl>
-        <div><dt>Frequency</dt><dd>Weekly · Friday</dd></div>
-        <div><dt>Read time</dt><dd>~5 minutes</dd></div>
-        <div><dt>Coverage</dt><dd>Agents · Lifecycle · Data</dd></div>
-        <div><dt>Vendor fluff</dt><dd class="ok">Filtered out</dd></div>
-        <div><dt>Opinions</dt><dd>Strong · weekly</dd></div>
-      </dl>
-    </aside>
-  </section>
+<main>
+<section class="hero">
+  <p class="hero-kicker">AI MARKETING AUTOMATION · WEEKLY</p>
+  <h1>The tools are ready. <span class="hl">Your stack isn't.</span></h1>
+  <p>Every week we audit the AI marketing automation landscape — the agents, the workflows, the vendor lock-in — and tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
+</section>
 
-  <section class="latest">
-    <div class="sec-head">
-      <h2>Latest signals</h2>
-      <a class="all" href="/blog/">ALL POSTS →</a>
-    </div>
-    <!-- LATEST:START -->
-    <a class="sig reveal" href="/blog/your-ai-marketing-agent-doesnt-need-better-prompts-it-needs-campaign-state/">
-      <span class="idx">01</span>
-      <span><h3>Your AI marketing agent doesn't need better prompts. It needs campaign state</h3>
-      <span class="sub">2026-08-03 · BLOG</span></span>
-      <span class="arrow">→</span>
+<section class="stats-band">
+  <div class="stats-in">
+    <div class="stat"><span class="num" id="s1">0</span><span class="lbl">TOOLS AUDITED</span></div>
+    <div class="stat"><span class="num" id="s2">0</span><span class="lbl">POSTS PUBLISHED</span></div>
+    <div class="stat"><span class="num" id="s3">0</span><span class="lbl">CHECKLIST QUESTIONS</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Latest writing</h2>
+    <a href="/blog/">ALL POSTS →</a>
+  </div>
+  <div class="stories">
+<!-- LATEST:START -->
+    <a class="story reveal" href="/blog/your-ai-marketing-agent-doesnt-need-better-prompts-it-needs-campaign-state/">
+      <div class="story-head"><span class="kicker">BLOG · 2026-08-03</span><span class="no">01</span></div>
+      <h3>Your AI marketing agent doesn't need better prompts. It needs campaign state</h3>
+      <p>Every vendor demo you have seen this year shows the same trick. A marketer types a sentence into a box, an AI agent drafts an email, and the crowd applauds. The drafting is the eas</p>
+      <span class="story-cta">READ →</span>
     </a>
-    <a class="sig reveal" href="/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/">
-      <span class="idx">02</span>
-      <span><h3>Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.</h3>
-      <span class="sub">2026-07-31 · BLOG</span></span>
-      <span class="arrow">→</span>
+    <a class="story reveal" href="/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/">
+      <div class="story-head"><span class="kicker">BLOG · 2026-07-31</span><span class="no">02</span></div>
+      <h3>Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.</h3>
+      <p>For fifteen years the deal was simple. You published content, Google sent traffic. You did the writing, the formatting, the keyword research, and in exchange you got a metered drip</p>
+      <span class="story-cta">READ →</span>
     </a>
-    <a class="sig reveal" href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">
-      <span class="idx">03</span>
-      <span><h3>Claude Cowork is eating the edges of your martech stack</h3>
-      <span class="sub">2026-07-30 · BLOG</span></span>
-      <span class="arrow">→</span>
+    <a class="story reveal" href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">
+      <div class="story-head"><span class="kicker">BLOG · 2026-07-30</span><span class="no">03</span></div>
+      <h3>Claude Cowork is eating the edges of your martech stack</h3>
+      <p>For the past three years, marketing ops teams have been promised "AI-powered automation" by every vendor in the stack. You know how that went. Chatbots nobody uses, predictive scor</p>
+      <span class="story-cta">READ →</span>
     </a>
-    <!-- LATEST:END -->
-  </section>
+<!-- LATEST:END -->
+  </div>
+</section>
 
-  <section class="leadmagnet reveal">
-    <div class="lm-card">
-      <div class="lm-left">
-        <p class="kicker">// FREE RESOURCE</p>
-        <h2>Is your stack ready for AI agents?</h2>
-        <p>12 questions that separate agent-ready marketing ops from expensive experiments. Takes 3 minutes. Saves a quarter of wasted tooling budget.</p>
-      </div>
-      <div class="lm-right">
-        <a class="btn" href="/checklist/" data-umami-event="Lead magnet click">GET THE CHECKLIST →</a>
-      </div>
-    </div>
-  </section>
+<section class="section">
+  <div class="section-head">
+    <h2>Tool index</h2>
+    <a href="/tools/">ALL 100 TOOLS →</a>
+  </div>
+  <div class="tool-index">
+    <a class="tool-row" href="/tools/n8n/"><span class="name">n8n</span><span class="take">Self-hosted automation with real AI agent nodes</span><span class="tag">AUTOMATION</span></a>
+    <a class="tool-row" href="/tools/customer-io/"><span class="name">Customer.io</span><span class="take">Event-driven messaging that respects the data layer</span><span class="tag">MESSAGING</span></a>
+    <a class="tool-row" href="/tools/hubspot-marketing-hub/"><span class="name">HubSpot</span><span class="take">The default, but the AI features are still shallow</span><span class="tag">PLATFORM</span></a>
+    <a class="tool-row" href="/tools/snowplow/"><span class="name">Snowplow</span><span class="take">First-party event collection you actually own</span><span class="tag">DATA</span></a>
+    <a class="tool-row" href="/tools/twilio-segment/"><span class="name">Segment</span><span class="take">The canonical CDP, if you can afford the lock-in</span><span class="tag">CDP</span></a>
+    <a class="tool-row" href="/tools/attio/"><span class="name">Attio</span><span class="take">The CRM that treats your data like a database</span><span class="tag">CRM</span></a>
+    <a class="tool-row" href="/tools/make/"><span class="name">Make</span><span class="take">Visual automation, but the AI nodes are bolted on</span><span class="tag">AUTOMATION</span></a>
+    <a class="tool-row" href="/tools/amplitude/"><span class="name">Amplitude</span><span class="take">Product analytics with genuine AI querying</span><span class="tag">ANALYTICS</span></a>
+  </div>
+  <a class="more-tools" href="/tools/">+92 MORE TOOLS →</a>
+</section>
 
-  <section id="subscribe" class="subscribe">
-    <div class="sub-card reveal">
-      <p class="kicker">// GET THE NEXT ISSUE</p>
-      <h2>Join the Friday dispatch.</h2>
-      <p class="why">What 5 minutes of curated signal saves you: an hour of skimming vendor blogs, changelogs, and LinkedIn hot air.</p>
-      <div id="kit-form"><script async data-uid="9c9d44c5b7" src="https://tim-christensen.kit.com/9c9d44c5b7/index.js"></script></div>
-      <p class="micro">FREE · NO SPAM · ONE CLICK TO LEAVE</p>
-    </div>
-  </section>
-
-  <section class="dirtease reveal">
-    <div class="dirtease-left">
-      <p class="kicker">// THE TOOL DIRECTORY</p>
-      <h2>90 tools, one honest line each.</h2>
-      <p>No fluff, no sponsored rankings. Every tool in the stack gets a straight take on what it does and who it's for — agents, lifecycle, data, and the glue between them.</p>
-    </div>
-    <div class="dirtease-tags">
-      <a href="/tools/n8n/">n8n</a><a href="/tools/hubspot/">HubSpot</a><a href="/tools/segment/">Segment</a><a href="/tools/make/">Make</a><a href="/tools/customer-io/">Customer.io</a><a href="/tools/snowplow/">Snowplow</a><a href="/tools/attio/">Attio</a><a href="/tools/langchain/">LangChain</a><a href="/tools/amplitude/">Amplitude</a><a href="/tools/tray-io/">Tray.io</a><a href="/tools/mixpanel/">Mixpanel</a><a href="/tools/">+80 more</a>
-    </div>
-    <a class="btn dirtease-cta" href="/tools/" data-umami-event="Browse tools">Browse the directory →</a>
-  </section>
-
-  <section class="pitch">
-    <div class="pitch-left reveal">
-      <h2>What lands in your inbox</h2>
-      <p>Not a link dump. Every issue is curated, tested where possible, and comes with a take you can argue with.</p>
-    </div>
-    <ol class="pitch-list">
-      <li class="reveal"><span class="num">01</span><div><h3>Tool teardowns</h3><p>What's real, what's demo-ware, and what actually deserves a slot in your stack.</p></div></li>
-      <li class="reveal"><span class="num">02</span><div><h3>Workflow recipes</h3><p>Automation patterns you can lift straight into your own lifecycle, scoring, and data ops.</p></div></li>
-      <li class="reveal"><span class="num">03</span><div><h3>Vendor moves, decoded</h3><p>What that acquisition, deprecation, or pricing change actually means for your roadmap.</p></div></li>
-      <li class="reveal"><span class="num">04</span><div><h3>One strong take</h3><p>Per issue. Strong enough that you might disagree with it — that's the point.</p></div></li>
-    </ol>
-  </section>
-
-  <section class="quote reveal">
-    <blockquote>The best AI in martech right now is invisible — it's the dedup logic, the send-time optimization, the automatic list hygiene. Nobody demos it because it's boring. It also saves you 20 hours a month.</blockquote>
-    <p class="src">— FROM THE BLOG · JUL 2026</p>
-  </section>
-
-  <section class="about reveal">
-    <div class="about-card">
-      <div class="about-avatar">TC</div>
-      <div>
-        <h2>Tim Christensen</h2>
-        <p class="role">MARTECH PRODUCT OWNER · IF INSURANCE</p>
-        <p>20 years in marketing automation and product ownership across Nordic insurance and enterprise. Currently leading the marketing platform team at If Insurance, where AI-driven lifecycle orchestration, data activation, and agentic workflows are the daily reality — not buzzwords. PSPO I certified. Writes from the trenches, not the analyst bench.</p>
-      </div>
-    </div>
-  </section>
+<section class="subscribe" id="subscribe">
+  <div class="sub-in">
+    <h2>One email. <span class="amber">Every Friday.</span></h2>
+    <p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour. No sponsored placements.</p>
+    <form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank">
+      <input type="hidden" name="newsletter[subscriber][first_name]" value="">
+      <input type="email" name="email_address" placeholder="you@company.com" required>
+      <button type="submit" data-umami-event="Homepage subscribe">SUBSCRIBE</button>
+    </form>
+  </div>
+</section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <span class="wordmark">MARTECH<b>SIGNAL</b></span>
-        <p>Practical AI for marketing ops teams.<br>Written by Tim Christensen.</p>
-      </div>
-      <nav class="foot-links">
-        <a href="/blog/">BLOG</a>
-        <a href="/rss.xml">RSS</a>
-        <a href="https://tim-christensen.kit.com" data-umami-event="Newsletter click">NEWSLETTER</a>
-        <a href="/cdn-cgi/l/email-protection#d1a5b8bc91bcb0a3a5b4b2b9a2b8b6bfb0bdffb2bebc"><span class="__cf_email__" data-cfemail="e7b3aeaaa7aaa6b5b382848fb4aea0a9a6abc9a4a8aa">[email&#160;protected]</span></a>
-      </nav>
-    </div>
-    <p class="fine">© 2026 MARTech SIGNAL · SENT FROM MARTechSIGNAL.COM · NO TRACKING PIXELS ON THIS PAGE</p>
+<footer class="foot">
+  <div class="foot-in">
+    <p><b>MartechSignal</b> — written by Tim Christensen</p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/checklist/">CHECKLIST</a></nav>
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 (function(){
-  var d=new Date(),days=['SUN','MON','TUE','WED','THU','FRI','SAT'],mons=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
-  var el=document.getElementById('mastDate');
-  if(el)el.textContent=days[d.getUTCDay()]+' · '+mons[d.getUTCMonth()]+' '+d.getUTCDate()+' '+d.getUTCFullYear();
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
-    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
-  }else{
-    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // count-up stats
+  function countUp(el,target){
+    if(reduced){el.textContent=target;return;}
+    var t0=performance.now();
+    (function step(t){
+      var p=Math.min((t-t0)/1200,1);
+      el.textContent=Math.round(target*(1-Math.pow(1-p,3)));
+      if(p<1)requestAnimationFrame(step);
+    })(t0);
   }
+  countUp(document.getElementById('s1'),100);
+  countUp(document.getElementById('s2'),7);
+  countUp(document.getElementById('s3'),12);
+  // scroll reveal
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
 })();
 </script>
 </body>

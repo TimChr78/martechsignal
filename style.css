@@ -471,3 +471,70 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
   .flow-strip { padding: 1rem }
   .flow-step { min-width: 128px }
 }
+
+/* ════════════════════════════════════════════════════════════════
+   CONCEPT D — EDITORIAL POST SYSTEM  (.page-post)
+   Dark front-page reading experience. Scoped to .page-post so the
+   tool pages, checklist, and blog index keep their existing look.
+   ════════════════════════════════════════════════════════════════ */
+
+/* reading-progress bar */
+#progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--amber); z-index: 99; box-shadow: 0 0 12px rgba(255,178,36,.6) }
+
+.page-post .kicker { display: inline-flex; align-items: center; gap: .6rem; font: 700 .62rem var(--mono); letter-spacing: .2em; color: var(--green); margin-bottom: 1.2rem }
+.page-post .kicker::before { content: ""; width: 22px; height: 2px; background: var(--green) }
+
+.page-post h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.06; margin-bottom: 1.2rem }
+
+.page-post .meta { margin-bottom: .4rem; padding-bottom: 0; border-bottom: none }
+
+/* byline */
+.page-post .byline { display: flex; align-items: center; gap: .8rem; padding: 1.1rem 0 1.6rem; border-bottom: 1px solid var(--line); margin-bottom: 2rem }
+.page-post .byline .av { width: 38px; height: 38px; background: #122036; border: 1px solid var(--line2); color: var(--amber); font: 700 .8rem var(--mono); display: flex; align-items: center; justify-content: center; border-radius: 3px; flex-shrink: 0 }
+.page-post .byline .who b { font-family: var(--body); font-weight: 700; font-size: .88rem; display: block; color: var(--text) }
+.page-post .byline .who span { color: var(--muted); font: 500 .6rem var(--mono); letter-spacing: .1em }
+
+/* section headings get a mono index */
+.page-post article h2 { display: flex; align-items: baseline; gap: .7rem; font-size: 1.55rem; font-family: var(--body); font-weight: 800; letter-spacing: -.01em }
+.page-post article h2::before { counter-increment: h2sec; content: "§" counter(h2sec, decimal-leading-zero); font: 700 .62rem var(--mono); letter-spacing: .14em; color: var(--amber) }
+.page-post article { counter-reset: h2sec }
+
+/* pull-quote callout — amber left rule */
+.page-post .callout { border-left: 3px solid var(--amber); background: var(--card); padding: 1.3rem 1.5rem; margin: 2rem 0; border-radius: 0 4px 4px 0 }
+.page-post .callout p { font-family: var(--body); font-weight: 600; font-size: 1.12rem; line-height: 1.5; color: var(--text); margin: 0 }
+
+/* fenced code block panel */
+.page-post .codeblock { background: #0A1120; border: 1px solid var(--line); border-radius: 6px; margin: 1.8rem 0; overflow: hidden }
+.page-post .codeblock .cb-bar { display: flex; align-items: center; justify-content: space-between; padding: .55rem .9rem; border-bottom: 1px solid var(--line); background: #122036 }
+.page-post .codeblock .cb-dots { display: flex; gap: .4rem }
+.page-post .codeblock .cb-dots i { width: 9px; height: 9px; border-radius: 50%; background: var(--line2) }
+.page-post .codeblock .cb-lang { font: 600 .56rem var(--mono); letter-spacing: .16em; color: var(--muted) }
+.page-post .codeblock pre { background: none; border: none; border-radius: 0; margin: 0; padding: 1.1rem 1.2rem }
+.page-post .codeblock pre code { background: none; border: none; padding: 0; font: 500 .8rem/1.7 var(--mono); color: #C7D2E4 }
+.page-post .codeblock .k { color: var(--amber) }
+.page-post .codeblock .s { color: var(--green) }
+.page-post .codeblock .p { color: var(--muted) }
+
+/* verdict — green emphasis box */
+.page-post .verdict.win { border: 1px solid var(--green); border-left-width: 3px; background: rgba(61,220,151,.08) }
+.page-post .verdict.win p { color: var(--text) }
+
+/* comparison table — color-coded columns */
+.page-post .cmp { border: 1px solid var(--line); border-radius: 4px; overflow: hidden }
+.page-post .cmp th { background: #122036; border-bottom: 1px solid var(--line2) }
+.page-post .cmp th.com-price { color: var(--red) }
+.page-post .cmp th.oss-price { color: var(--green) }
+.page-post .cmp td.com-price { color: #FF9A8E; font: 500 .82rem var(--body) }
+.page-post .cmp td.oss-price { color: var(--green); font: 500 .82rem var(--body) }
+.page-post .cmp tr:hover td { background: rgba(255,178,36,.04) }
+
+/* cta strip */
+.page-post .cta-strip { border: 1px solid var(--line2); border-top: 3px solid var(--amber); background: linear-gradient(160deg, #122036, var(--card)); border-radius: 6px; padding: 2rem; margin: 2.6rem 0 3rem; text-align: center }
+.page-post .cta-strip h3 { font-family: var(--disp); font-weight: 400; font-size: 1.5rem; margin-bottom: .5rem }
+.page-post .cta-strip h3 .amber { color: var(--amber) }
+.page-post .cta-strip p { color: var(--muted); font-size: .9rem; max-width: 30rem; margin: 0 auto 1.3rem }
+.page-post .cta-strip .btn { display: inline-block }
+
+@media (prefers-reduced-motion: reduce) {
+  #progress { display: none }
+}
