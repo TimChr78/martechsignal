@@ -1,5 +1,6 @@
 ---
 title: "Your AI marketing agent doesn't need better prompts. It needs campaign state"
+slug: ai-agents-need-campaign-state
 date: 2026-08-03
 author: MartechSignal
 tags: [AI, Marketing Ops, Agents, Automation, Campaign State, n8n]

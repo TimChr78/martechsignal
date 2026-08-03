@@ -212,7 +212,7 @@ def build_post(meta: dict, body_html: str) -> str:
     title = meta.get('title', 'Untitled')
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
     date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%b %d, %Y').upper()
-    slug = slugify(title)
+    slug = meta.get('slug') or slugify(title)
 
     # First paragraph as excerpt (strip HTML tags)
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
@@ -538,7 +538,7 @@ def main():
 
         title = meta['title']
         date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
-        slug = slugify(title)
+        slug = meta.get('slug') or slugify(title)
 
         # Convert markdown to HTML
         body_html = markdown_to_html(body_md)
