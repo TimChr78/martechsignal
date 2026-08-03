@@ -3587,5 +3587,39 @@
     "date_added": "2026-07-31",
     "date_updated": "2026-07-31",
     "description": "Analytics Tracking Automation solves a specific, annoying problem: setting up GA4 and GTM event tracking correctly. Most marketing teams either skip proper tracking setup or pay a consultant $2,000 to do it. This skill automates the workflow from site analysis to go-live. You give it a URL, and it analyzes the site, groups pages by business purpose, designs a GA4 event schema, produces GTM-ready outputs, and walks you through verification before publishing. It handles both generic websites and Shopify storefronts.\n\nThe workflow is artifact-backed, meaning each step produces a reviewable file you can inspect before moving on. The site analysis groups pages into business categories (product, checkout, blog, support) so the event schema maps to actual user journeys rather than generic pageview tracking. The GTM output includes the container configuration, trigger definitions, and variable setup. Verification guidance tells you what to check in GTM preview mode before you publish. If you stop halfway through, the artifacts let you resume where you left off.\n\nInstallation is npm-based: clone the repo and run npm run install:skills, or use npx skills add jtrackingai/analytics-tracking-automation for a no-clone install. It works on Cursor, Codex, and any agent that reads the skill format. The ClawHub publish path strips executable runtime files for marketplace safety.\n\nThis is the narrowest tool in this batch, and that's its strength. It doesn't try to be a full marketing suite. It does one thing that every marketing team needs and few do well. At 134 stars, it's the smallest repo here, and the last push was April 2026, so it's not getting weekly updates. But the problem it solves doesn't change often. GA4's event model is stable, GTM's container format is stable, and the workflow from \"we need tracking\" to \"tracking is live and verified\" is well-defined. If you're setting up analytics for a new site or auditing an existing GTM mess, this saves you a day of spreadsheet work and a week of \"is this firing correctly?\" anxiety."
+  },
+  {
+    "slug": "growth-lab",
+    "name": "Growth Lab",
+    "tagline": "Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex",
+    "website": "https://growthlab.tsingyuai.com",
+    "category": "agent-skills",
+    "pricing_model": "open-source",
+    "pricing_url": null,
+    "price_from": 0,
+    "price_notes": "Free, Apache 2.0. Self-hosted workspace; runs inside Claude Code or OpenAI Codex (both paid).",
+    "ai_features": [
+      "SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing",
+      "Xiaohongshu loop: viral post collection, structure replication, copy, images, compliance check",
+      "Persistent per-loop memory that feeds real results into the next run",
+      "Product understanding from a repo, prototype, URL, or notes",
+      "Natural-language configuration audit via the onboarding skill"
+    ],
+    "integrations": [
+      "Claude Code",
+      "OpenAI Codex",
+      "IndexNow",
+      "Bing Webmaster Tools"
+    ],
+    "github_repo": "tsingyuai/growth-lab",
+    "github_stars": 308,
+    "open_source": true,
+    "api_available": false,
+    "founded": 2026,
+    "hq": null,
+    "status": "active",
+    "date_added": "2026-08-03",
+    "date_updated": "2026-08-03",
+    "description": "Growth Lab is an agent skill pack that turns Claude Code or OpenAI Codex into a growth operator. You clone the repo, open the folder in your agent, and describe the growth outcome you want. The agent reads your product (a codebase, a prototype, or just a URL), researches what people actually search for, creates SEO pages aimed at those queries, publishes them, pings IndexNow, then reads the performance data and decides what to do next. The pitch is that context stops leaking between five disconnected tools. One workspace holds the product, the research, the output, and the results.\n\nSkills carry the method, and files carry the memory. Each capability is an observe-act-review loop with its own persistent memory, and the next run reads the previous results before it starts. The SEO loop maps user scenarios to live SERP research and generates pages that answer real queries. In the team's own test run, new pages got indexed within 1-2 days and page impressions and clicks both rose about 10x on a 7-day average. Average CTR dropped 50%, which they treated as input for the next iteration rather than a failure. The second loop targets Xiaohongshu: it collects high-performing posts in your niche, replicates the winning structure, writes the copy, generates images, runs a compliance check, and reviews the results. Their best test post drew 4,000+ likes and saves. Actual publishing on Xiaohongshu stays manual by design.\n\nSetup is git clone plus a conversation. An onboarding skill audits what's missing: API keys, browser sessions, third-party clients. You fix gaps in plain language instead of editing a config file. Secrets and cookies stay outside the workspace and never enter memory. The repo is Apache 2.0 licensed, has about 308 stars, and was pushed within days of this writing.\n\nThe honest caveats: the project is roughly a week old. Only two loops actually work, and all the performance numbers come from a single run on the authors' own site. You need paid access to Claude Code or Codex, plus comfort working in a terminal with an agent. If your channels are X, LinkedIn, or TikTok, there's no loop for those yet.\n\nWho it's for: technical founders and small teams already living in a coding agent who want the growth work done rather than another dashboard. Compared with Surfer or Semrush, it writes and publishes the page instead of handing you recommendations. Compared with doing it manually, the research-to-publish cycle becomes one conversation. Compared with most agent skill packs, which teach the agent marketing knowledge, this one runs the loop end to end, memory included."
   }
 ]
