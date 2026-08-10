@@ -232,5 +232,17 @@
     "url": "https://github.com/DjangoCRM/django-crm",
     "reason": "Generic Django CRM, no clear AI features relevant to marketing automation",
     "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "What is enterprise marketing automation? Features, platforms, and best practices",
+    "url": "https://blog.hubspot.com/marketing/rss.xml",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-10"
+  },
+  {
+    "name": "The 9 best tools for your early-stage startup tech stack in 2026",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-10"
   }
 ]
