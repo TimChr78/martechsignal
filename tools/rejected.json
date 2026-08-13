@@ -244,5 +244,17 @@
     "url": "https://www.intercom.com/blog/feed/",
     "reason": "RSS blog post, not a tool candidate",
     "rejected_at": "2026-08-10"
+  },
+  {
+    "name": "Django-CRM",
+    "url": "https://github.com/Django-CRM/Django-CRM",
+    "reason": "Generic open-source CRM (bottlecrm.io), no AI features for marketing automation",
+    "rejected_at": "2026-08-13"
+  },
+  {
+    "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-13"
   }
 ]

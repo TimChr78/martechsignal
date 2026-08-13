@@ -367,7 +367,7 @@
   {
     "slug": "billionmail",
     "name": "BillionMail",
-    "tagline": "Open-source mail server, newsletter, and email marketing platform \u2014 fully self-hosted and free",
+    "tagline": "Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free",
     "website": "http://www.billionmail.com/",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -466,7 +466,7 @@
     "status": "active",
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
-    "description": "Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Where tools focused solely on scheduling or engagement stop at execution, Brandwatch's core differentiator is its **social listening and consumer intelligence engine**. It analyzes billions of online conversations across social media, blogs, forums, and news sites to surface trends, sentiment shifts, competitive intelligence, and emerging cultural signals that inform marketing strategy.\n\nThe platform's capabilities span: **Brandwatch Consumer Intelligence** (real-time social listening with AI-powered sentiment analysis, trend detection, image recognition, and audience segmentation across 100M+ sources), **Brandwatch Social Media Management** (publishing, scheduling, engagement, and analytics unified with the listening data, so community managers see conversation context alongside response tools), **Brandwatch Influence** (influencer identification, vetting, campaign management, and ROI measurement), and **Brandwatch Reviews** (aggregating and analyzing reviews from 100+ review sites). The AI component, Iris, uses machine learning to automatically categorize mentions, detect crisis signals, and surface emerging trends before they reach mainstream awareness.\n\nBrandwatch is used by half of the Forbes 100 and serves enterprise clients including Unilever, Nestl\u00e9, and Walmart. Pricing is enterprise-tier, typically starting at $1,000-3,000+/month depending on data volume, features, and users. It competes with Sprinklr (full CX platform), Talkwalker (social listening), and Meltwater (media intelligence). Brandwatch is best suited for large enterprises and agencies that need social listening at scale, where the primary question is \"what are people saying about us and our competitors?\" rather than \"when should we post?\" It is overkill for teams that only need scheduling and basic analytics."
+    "description": "Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Where tools focused solely on scheduling or engagement stop at execution, Brandwatch's core differentiator is its **social listening and consumer intelligence engine**. It analyzes billions of online conversations across social media, blogs, forums, and news sites to surface trends, sentiment shifts, competitive intelligence, and emerging cultural signals that inform marketing strategy.\n\nThe platform's capabilities span: **Brandwatch Consumer Intelligence** (real-time social listening with AI-powered sentiment analysis, trend detection, image recognition, and audience segmentation across 100M+ sources), **Brandwatch Social Media Management** (publishing, scheduling, engagement, and analytics unified with the listening data, so community managers see conversation context alongside response tools), **Brandwatch Influence** (influencer identification, vetting, campaign management, and ROI measurement), and **Brandwatch Reviews** (aggregating and analyzing reviews from 100+ review sites). The AI component, Iris, uses machine learning to automatically categorize mentions, detect crisis signals, and surface emerging trends before they reach mainstream awareness.\n\nBrandwatch is used by half of the Forbes 100 and serves enterprise clients including Unilever, Nestlé, and Walmart. Pricing is enterprise-tier, typically starting at $1,000-3,000+/month depending on data volume, features, and users. It competes with Sprinklr (full CX platform), Talkwalker (social listening), and Meltwater (media intelligence). Brandwatch is best suited for large enterprises and agencies that need social listening at scale, where the primary question is \"what are people saying about us and our competitors?\" rather than \"when should we post?\" It is overkill for teams that only need scheduling and basic analytics."
   },
   {
     "slug": "braze",
@@ -544,7 +544,7 @@
   {
     "slug": "chatbotx",
     "name": "ChatbotX",
-    "tagline": "Open-source ManyChat alternative built for AI \u2014 omnichannel chat marketing and automation",
+    "tagline": "Open-source ManyChat alternative built for AI — omnichannel chat marketing and automation",
     "website": "https://chatbotx.io/docs",
     "category": "chatbots",
     "pricing_model": "open-source",
@@ -1377,7 +1377,7 @@
   {
     "slug": "laudspeaker",
     "name": "Laudspeaker",
-    "tagline": "Open-source customer engagement and product onboarding platform \u2014 alternative to Braze",
+    "tagline": "Open-source customer engagement and product onboarding platform — alternative to Braze",
     "website": "https://laudspeaker.com/?ref=github",
     "category": "marketing-automation",
     "pricing_model": "open-source",
@@ -1626,7 +1626,7 @@
     "pricing_model": "open-source",
     "pricing_url": "https://matomo.org/pricing/",
     "price_from": 0,
-    "price_notes": "Self-hosted free (GPL); Cloud from \u20ac19/mo; premium plugins available",
+    "price_notes": "Self-hosted free (GPL); Cloud from €19/mo; premium plugins available",
     "ai_features": [
       "AI-powered insights",
       "AI anomaly detection",
@@ -1652,7 +1652,7 @@
     "status": "active",
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
-    "description": "Founded in 2007 and headquartered in Wellington, New Zealand, Matomo is an open-source web analytics platform designed to give organizations full ownership of their visitor data. It tracks websites, e-commerce stores, and apps while providing reports on traffic sources, user behavior, conversions, and campaign performance. Because the core product is available under the GPL, teams can self-host it for free, use Matomo Cloud from \u20ac19 per month, or add premium plugins for extended capabilities. The project has 21,717 GitHub stars and includes an API, with integrations for WordPress, Shopify, Magento, Zapier, Google Analytics import, Slack, and tag managers.\n\nMatomo is aimed at marketing, analytics, product, and privacy teams that want more control than typical hosted analytics services provide. Its main differentiator is the combination of open-source transparency and a broad analytics suite, including AI-powered insights, AI anomaly detection, AI form analytics, AI heatmaps, and AI session replay. These features help users surface unusual trends, understand where visitors hesitate, and identify friction in forms or journeys without relying solely on manual report review.\n\nCompared with commercial alternatives such as Google Analytics or Adobe Analytics, Matomo places greater emphasis on data ownership, self-hosting flexibility, and customizable reporting, though organizations may need more technical resources to manage infrastructure and plugins. It is best for privacy-conscious businesses, agencies, e-commerce teams, and enterprises that want an open-source analytics platform with AI-assisted insights and the option to move from self-hosted to cloud-based deployment."
+    "description": "Founded in 2007 and headquartered in Wellington, New Zealand, Matomo is an open-source web analytics platform designed to give organizations full ownership of their visitor data. It tracks websites, e-commerce stores, and apps while providing reports on traffic sources, user behavior, conversions, and campaign performance. Because the core product is available under the GPL, teams can self-host it for free, use Matomo Cloud from €19 per month, or add premium plugins for extended capabilities. The project has 21,717 GitHub stars and includes an API, with integrations for WordPress, Shopify, Magento, Zapier, Google Analytics import, Slack, and tag managers.\n\nMatomo is aimed at marketing, analytics, product, and privacy teams that want more control than typical hosted analytics services provide. Its main differentiator is the combination of open-source transparency and a broad analytics suite, including AI-powered insights, AI anomaly detection, AI form analytics, AI heatmaps, and AI session replay. These features help users surface unusual trends, understand where visitors hesitate, and identify friction in forms or journeys without relying solely on manual report review.\n\nCompared with commercial alternatives such as Google Analytics or Adobe Analytics, Matomo places greater emphasis on data ownership, self-hosting flexibility, and customizable reporting, though organizations may need more technical resources to manage infrastructure and plugins. It is best for privacy-conscious businesses, agencies, e-commerce teams, and enterprises that want an open-source analytics platform with AI-assisted insights and the option to move from self-hosted to cloud-based deployment."
   },
   {
     "slug": "mautic",
@@ -1872,7 +1872,7 @@
   {
     "slug": "openoutreach",
     "name": "OpenOutreach",
-    "tagline": "Agentic AI email automation \u2014 describe your product and target market, AI finds the leads",
+    "tagline": "Agentic AI email automation — describe your product and target market, AI finds the leads",
     "website": "https://openoutreach.app",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -1963,13 +1963,13 @@
   {
     "slug": "paperclip",
     "name": "Paperclip",
-    "tagline": "Open-source control plane to manage AI agents like a company \u2014 hire, schedule, budget, and audit",
+    "tagline": "Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit",
     "website": "https://paperclip.inc",
     "category": "workflow-automation",
     "pricing_model": "freemium",
     "pricing_url": "https://paperclip.inc/pricing",
     "price_from": 0,
-    "price_notes": "Self-hosted free (MIT); hosted cloud from \u20ac10/mo, unlimited companies",
+    "price_notes": "Self-hosted free (MIT); hosted cloud from €10/mo, unlimited companies",
     "ai_features": [
       "Multi-agent orchestration (Claude, Codex, Cursor, Gemini, DeepSeek, Qwen, Hermes, OpenCode)",
       "Per-agent budgets with auto-pause at cap",
@@ -2257,7 +2257,7 @@
   {
     "slug": "relaticle",
     "name": "Relaticle",
-    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API \u2014 Laravel & Filament",
+    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament",
     "website": "https://relaticle.com",
     "category": "crm",
     "pricing_model": "open-source",
@@ -3621,5 +3621,40 @@
     "date_added": "2026-08-03",
     "date_updated": "2026-08-03",
     "description": "Growth Lab is an agent skill pack that turns Claude Code or OpenAI Codex into a growth operator. You clone the repo, open the folder in your agent, and describe the growth outcome you want. The agent reads your product (a codebase, a prototype, or just a URL), researches what people actually search for, creates SEO pages aimed at those queries, publishes them, pings IndexNow, then reads the performance data and decides what to do next. The pitch is that context stops leaking between five disconnected tools. One workspace holds the product, the research, the output, and the results.\n\nSkills carry the method, and files carry the memory. Each capability is an observe-act-review loop with its own persistent memory, and the next run reads the previous results before it starts. The SEO loop maps user scenarios to live SERP research and generates pages that answer real queries. In the team's own test run, new pages got indexed within 1-2 days and page impressions and clicks both rose about 10x on a 7-day average. Average CTR dropped 50%, which they treated as input for the next iteration rather than a failure. The second loop targets Xiaohongshu: it collects high-performing posts in your niche, replicates the winning structure, writes the copy, generates images, runs a compliance check, and reviews the results. Their best test post drew 4,000+ likes and saves. Actual publishing on Xiaohongshu stays manual by design.\n\nSetup is git clone plus a conversation. An onboarding skill audits what's missing: API keys, browser sessions, third-party clients. You fix gaps in plain language instead of editing a config file. Secrets and cookies stay outside the workspace and never enter memory. The repo is Apache 2.0 licensed, has about 308 stars, and was pushed within days of this writing.\n\nThe honest caveats: the project is roughly a week old. Only two loops actually work, and all the performance numbers come from a single run on the authors' own site. You need paid access to Claude Code or Codex, plus comfort working in a terminal with an agent. If your channels are X, LinkedIn, or TikTok, there's no loop for those yet.\n\nWho it's for: technical founders and small teams already living in a coding agent who want the growth work done rather than another dashboard. Compared with Surfer or Semrush, it writes and publishes the page instead of handing you recommendations. Compared with doing it manually, the research-to-publish cycle becomes one conversation. Compared with most agent skill packs, which teach the agent marketing knowledge, this one runs the loop end to end, memory included."
+  },
+  {
+    "slug": "macro",
+    "name": "Macro",
+    "tagline": "Open source workspace with a self-updating, agent-driven CRM and shared AI team memory",
+    "website": "https://macro.com",
+    "category": "crm",
+    "pricing_model": "freemium",
+    "pricing_url": "https://macro.com/pricing",
+    "price_from": 40,
+    "price_notes": "Free for personal use. Teams $40/seat/mo with every module included; you pay for limits and team features, not feature gates. Self-hosting is free under AGPL-3.0.",
+    "ai_features": [
+      "Agent-driven CRM that updates itself from email, chat, docs, and tasks",
+      "Team-level agent memory built nightly from workspace content",
+      "AI email triage with Signal/Noise inbox splitting and auto-tagging",
+      "Email drafting in your voice",
+      "Agents that take tasks, close them, and report back",
+      "MCP interface exposing unified workspace search to agents"
+    ],
+    "integrations": [
+      "Gmail",
+      "Google Workspace",
+      "GitHub",
+      "MCP"
+    ],
+    "github_repo": "macro-inc/macro",
+    "github_stars": 2534,
+    "open_source": true,
+    "api_available": true,
+    "founded": 2020,
+    "hq": "New York, NY, USA",
+    "status": "active",
+    "date_added": "2026-08-13",
+    "date_updated": "2026-08-13",
+    "description": "Macro is an open source office suite that puts email, chat, docs, tasks, calls, and a CRM in one app. The bet is that AI agents are only as useful as the context they can see, and your team's context is scattered across seven SaaS tools. It was founded in 2020 by Jacob Beckerman, backed by Andreessen Horowitz (the site claims $30M+ raised), and open sourced under AGPL-3.0 in mid-2026. It's built in Rust and SolidJS, and the speed obsession shows. The repo picked up roughly 2,500 GitHub stars and over 5,000 commits in its first few months out in the open.\n\nThe AI parts are more real than most. The CRM updates itself: contacts, companies, and deal notes get assembled from your email, chat, docs, and tasks, so nobody on your team enters data by hand. Ask 'what's the latest with Hartwell' before a call and you get a recap with receipts. Team-level agent memory is built nightly from workspace content, email triage splits your inbox into Signal and Noise, drafts come out in your voice, and agents can take a task, finish it, and report back. MCP support means outside agents can search the workspace too, including PDFs parsed out of email attachments. The marketing angle is specific: this is relationship and pipeline management. It does not send campaigns, run lifecycle email, or manage ads.\n\nPricing is simple: free for personal use, $40 per seat per month for teams, every module on every plan. You pay for limits and team features, not feature gates. Self-hosting is free under AGPL if you want to run it yourself. $40 a seat costs more than a budget CRM, but it's cheaper than paying for Superhuman, Slack, Notion, and Linear separately, which is exactly the stack Macro wants to replace. There is no free team tier, so trial it as an individual first.\n\nThe closest tool in this directory is Attio. Attio is a dedicated AI-native CRM with strong enrichment and agentic workflows, and it stops there. You bolt other tools around it. Macro is a whole workspace where the CRM is a byproduct of how your team already communicates. If you need a CRM to drop into an existing stack, Attio is the safer pick. If you want to collapse your tools into one and let the pipeline update itself from email context, Macro is the more interesting gamble.\n\nSkip it if your marketing team needs campaign automation, lifecycle email, or ad tooling. None of that lives here. The open source project is also young, so self-hosters should expect rough edges. And if your org runs on Salesforce integrations and long compliance checklists, give the ecosystem time to catch up."
   }
 ]
