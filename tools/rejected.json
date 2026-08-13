@@ -6,12 +6,6 @@
     "rejected_at": "2026-07-31"
   },
   {
-    "name": "google-meta-ads-ga4-mcp",
-    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
-    "reason": "MCP server/integration component, not a standalone product",
-    "rejected_at": "2026-07-31"
-  },
-  {
     "name": "AutoSocial",
     "url": "https://github.com/Katzca/AutoSocial",
     "reason": "No homepage, no clear AI features",

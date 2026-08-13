@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "source": "github",
+    "name": "google-meta-ads-ga4-mcp",
+    "full_name": "irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "description": "MCP server for Google Ads, Meta Ads & GA4 — works with ChatGPT, Claude, Cursor, n8n, Windsurf & more. 250+ tools for campaign management, analytics & optimization.",
+    "stars": 1055,
+    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "homepage": null,
+    "topics": [
+      "advertising",
+      "mcp",
+      "mcp-server",
+      "marketing-automation",
+      "google-ads",
+      "meta-ads",
+      "ga4",
+      "n8n"
+    ],
+    "language": null,
+    "last_push": "2026-04-07T01:32:31Z",
+    "discovered": "2026-08-13T22:58:07"
+  }
+]
