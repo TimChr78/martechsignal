@@ -38,6 +38,79 @@ def pricing_label(t):
     if p: return f"From ${p}/mo"
     return "Paid"
 
+# ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
+# Title:  "{Name} Review — {Pricing} | MartechSignal"        (primary)
+#   Try: "{Name} Review: {Category} — {Pricing} | MartechSignal" first;
+#   fallback without category if >60ch. For very long names we truncate
+#   the name part (never the suffix) to keep the pipe-brand intact.
+# Meta:   "{Name} — {Tagline}. {PricingPhrase} Compare AI features, integrations & top alternatives."
+#   PricingPhrase varies by model: Open source / Enterprise / Starts at $X / etc.
+
+def _seo_title_for(t, cats):
+    cat_map = {c["slug"]: c["name"] for c in cats}
+    name = t["name"]
+    cat_name = cat_map.get(t.get("category"), "")
+    price = pricing_label(t)
+    suffix = " | MartechSignal"
+    if cat_name:
+        cand = f"{name} Review: {cat_name} \u2014 {price}{suffix}"
+        if len(cand) <= 60:
+            return cand
+    cand2 = f"{name} Review \u2014 {price}{suffix}"
+    if len(cand2) <= 60:
+        return cand2
+    overhead = len(f" Review \u2014 {price}{suffix}")
+    budget = 60 - overhead
+    if budget < 10:
+        return cand2[:60]
+    truncated_name = name[:budget].rsplit(" ", 1)[0] if " " in name[:budget] else name[:budget]
+    return f"{truncated_name} Review \u2014 {price}{suffix}"[:60]
+
+def _seo_description_for(t, cats):
+    cat_map = {c["slug"]: c["name"] for c in cats}
+    name = t["name"]
+    tagline = (t.get("tagline") or "").strip()
+    if not tagline or len(tagline) < 10:
+        desc = (t.get("description") or "").strip()
+        if desc and len(desc) >= 30:
+            # use first sentence of description as tagline fallback
+            import re as _re
+            first = _re.split(r'[.!…]\s', desc, 1)[0].strip()
+            if len(first) >= 20:
+                tagline = first
+            else:
+                tagline = desc[:90].rsplit(" ", 1)[0] if " " in desc[:90] else desc[:90]
+        else:
+            tagline = f"{cat_map.get(t.get('category'), 'Marketing')} tool"
+    tagline_sent = tagline if tagline.endswith(".") else tagline + "."
+    if t.get("open_source"):
+        price_phrase = "Open source & free to self-host."
+    elif t.get("pricing_model") == "enterprise":
+        price_phrase = "Enterprise pricing; demo required."
+    elif t.get("price_from") is not None:
+        if t.get("price_from") == 0:
+            price_phrase = "Free tier available."
+        else:
+            price_phrase = f"Starts at ${t['price_from']}/mo."
+    else:
+        price_phrase = f"{pricing_label(t)}."
+    tail = " Compare AI features, integrations & top alternatives."
+    base = f"{name} \u2014 {tagline_sent} {price_phrase}{tail}"
+    if len(base) <= 155:
+        return base
+    overhead = len(f"{name} \u2014  {price_phrase}{tail}") + 3
+    budget = 155 - overhead
+    if len(tagline_sent) > budget:
+        if budget > 20 and " " in tagline_sent[:budget]:
+            trunc = tagline_sent[:budget].rsplit(" ", 1)[0]
+        else:
+            trunc = tagline_sent[:max(0, budget - 1)]
+        tagline_sent = trunc.rstrip(" ,;:") + "\u2026"
+    base2 = f"{name} \u2014 {tagline_sent} {price_phrase}{tail}"
+    if len(base2) > 155:
+        base2 = f"{name} \u2014 {price_phrase}{tail}".replace("  ", " ")
+    return base2[:155]
+
 # ── Shared HTML shell ──────────────────────────────────────────────
 
 def page_shell(title, description, canonical, body, schema_json=None):
@@ -261,9 +334,12 @@ def build_tool_page(t, cats, all_tools):
     out_dir = TOOLS_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
+    # SEO title/meta: prefer persisted seo_* fields; otherwise generate via helpers (≤60/≤155, Review+Category+Pricing)
+    seo_title = t.get("seo_title") or _seo_title_for(t, cats)
+    seo_desc = t.get("seo_description") or _seo_description_for(t, cats)
     out.write_text(page_shell(
-        t.get("seo_title") or f"{t['name']} — AI Marketing Tool | MartechSignal",
-        t.get("seo_description") or f"{t.get('tagline','')} Pricing, AI features, integrations, and alternatives.",
+        seo_title,
+        seo_desc,
         f"/tools/{slug}/", body, [schema, breadcrumb]))
     return out
 
