@@ -253,8 +253,8 @@ def build_tool_page(t, cats, all_tools):
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
     out.write_text(page_shell(
-        f"{t['name']} — AI Marketing Tool | MartechSignal",
-        f"{t.get('tagline','')} Pricing, AI features, integrations, and alternatives.",
+        t.get("seo_title") or f"{t['name']} — AI Marketing Tool | MartechSignal",
+        t.get("seo_description") or f"{t.get('tagline','')} Pricing, AI features, integrations, and alternatives.",
         f"/tools/{slug}/", body, [schema, breadcrumb]))
     return out
 
