@@ -250,5 +250,29 @@
     "url": "https://www.intercom.com/blog/feed/",
     "reason": "RSS blog post, not a tool candidate",
     "rejected_at": "2026-08-13"
+  },
+  {
+    "name": "markov-chain-attribution",
+    "url": "https://github.com/jerednel/markov-chain-attribution",
+    "reason": "86 stars, proof-of-concept script, not a product",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "The best AI tools for social media content creation in 2026",
+    "url": "https://blog.hootsuite.com/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "The 9 best tools for your early-stage startup tech stack in 2026",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
   }
 ]

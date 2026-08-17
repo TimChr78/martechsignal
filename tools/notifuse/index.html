@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notifuse — AI Marketing Tool | MartechSignal</title>
+<meta name="description" content="Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations Pricing, AI features, integrations, and alternatives.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="Notifuse — AI Marketing Tool | MartechSignal">
+<meta property="og:description" content="Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations Pricing, AI features, integrations, and alternatives.">
+<meta property="og:url" content="https://martechsignal.com/tools/notifuse/">
+<link rel="canonical" href="https://martechsignal.com/tools/notifuse/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Notifuse",
+    "description": "Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations",
+    "url": "https://www.notifuse.com",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Email Marketing",
+        "item": "https://martechsignal.com/categories/email-marketing/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Notifuse",
+        "item": "https://martechsignal.com/tools/notifuse/"
+      }
+    ]
+  }
+]</script>
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-tools">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/email-marketing/">Email Marketing</a> / <span>Notifuse</span></nav>
+<section class="page-head">
+  <h1>Notifuse</h1>
+  <p class="sub">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</p>
+  <p class="count">Email Marketing · Open Source · OPEN SOURCE</p>
+</section>
+<div class="detail">
+  <div class="detail-main">
+    <h2>Overview</h2>
+    <p>Notifuse is a self-hosted email platform for newsletters, marketing campaigns, and transactional email. It&#x27;s written in Go with a React console, and it aims at the gap between bare-bones senders like Listmonk and full SaaS suites like Mailchimp: you get a drag-and-drop MJML builder, Liquid templating, automations, and a transactional API, while your data stays on your own server. It ships with support for seven sending providers: Amazon SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost, and plain SMTP.
+
+The AI angle is real but limited, and I&#x27;d rather be straight about that. Notifuse has no proprietary AI of its own. Instead it integrates with Anthropic, OpenAI, and Google Gemini to generate email copy and blog posts inside the editor, with Firecrawl for pulling web content into prompts. There&#x27;s no predictive send-time optimization and no AI segmentation. If a vendor pitch leads with AI, this isn&#x27;t it. What it does have is solid mechanics: A/B testing on subject lines and content, dynamic segments built from contact properties and activity, and automation flows with 10 node types that stop automatically when a contact replies.
+
+Self-hosting is free under AGPL-3.0 with all features included. Notifuse Cloud starts at $19/month (Lite, 2,500 active contacts) and runs $49/month for Starter at 10,000 contacts. The pricing model is the interesting part: every plan includes unlimited email sends because you bring your own ESP. With Amazon SES at roughly $0.10 per 1,000 emails, 50,000 sends costs about $5 on top of the subscription. Contacts inactive for 30 days don&#x27;t count toward limits, unlike Mailchimp or Klaviyo, which bill every stored contact. No overage fees; if you exceed a tier you get moved up on the next cycle.
+
+The closest comparison in this directory is Listmonk. Listmonk is lighter and faster to run, but it has no visual builder, no automation workflows, and a thinner API. Mautic is the heavier option with true marketing automation and lead scoring, and correspondingly more to maintain. Notifuse sits between the two. BillionMail covers similar ground with its own built-in mail server, while Notifuse assumes you&#x27;d rather delegate delivery to a real ESP.
+
+Who should skip it: teams that want deliverability fully managed for them, or anyone who picked up a Mailchimp habit of leaning on built-in AI for everything. You still need someone comfortable configuring DKIM, SPF, and an SES account. For developers, agencies running client workspaces (multi-tenant is built in), and anyone tired of per-email pricing, it&#x27;s one of the better options in the open-source email space right now.</p>
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>AI email copy generation via Anthropic, OpenAI, or Gemini</li><li>AI blog writing with Liquid templating</li><li>Firecrawl web research integration for AI content</li><li>Built-in A/B testing for subject lines, content, and send times</li><li>Event-driven automation workflows with reply detection</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>Amazon SES</span><span>Postmark</span><span>SendGrid</span><span>Mailgun</span><span>Mailjet</span><span>SparkPost</span><span>SMTP</span><span>Anthropic</span><span>OpenAI</span><span>Google Gemini</span><span>Firecrawl</span><span>Supabase</span></div>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free</div></a><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/klaviyo/"><div class="name">Klaviyo</div><div class="tagline">AI-powered email and SMS marketing platform built for ecommerce brands</div></a><a class="tool-card" href="/tools/loops/"><div class="name">Loops</div><div class="tagline">Modern email marketing platform for SaaS with AI-powered campaigns and automation</div></a></div>
+  </div>
+  <aside class="sidebar">
+    <div class="side-card">
+      <h3>Quick Facts</h3>
+      <dl>
+        <div class="side-row"><dt>Pricing</dt><dd>Open Source</dd></div>
+        <div class="side-row"><dt>Category</dt><dd><a href="/categories/email-marketing/">Email Marketing</a></dd></div>
+        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 2046</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2025</dd></div>
+        
+        <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
+      </dl>
+    </div>
+    <div class="side-card">
+      <a class="btn-sm" href="https://www.notifuse.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Notifuse">Visit Notifuse →</a>
+    </div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends.</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://www.notifuse.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Notifuse">VIEW PRICING →</a></div></div>
+  </aside>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a>
+      <a href="/tools/">TOOLS</a>
+      <a href="/glossary/">GLOSSARY</a>
+      <a href="/blog/">BLOG</a>
+      <a href="/#subscribe">SUBSCRIBE</a>
+    </div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>

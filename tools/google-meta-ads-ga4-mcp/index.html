@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Ads + Meta Ads + GA4 MCP — AI Marketing Tool | MartechSignal</title>
+<meta name="description" content="MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 Pricing, AI features, integrations, and alternatives.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="Google Ads + Meta Ads + GA4 MCP — AI Marketing Tool | MartechSignal">
+<meta property="og:description" content="MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 Pricing, AI features, integrations, and alternatives.">
+<meta property="og:url" content="https://martechsignal.com/tools/google-meta-ads-ga4-mcp/">
+<link rel="canonical" href="https://martechsignal.com/tools/google-meta-ads-ga4-mcp/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Google Ads + Meta Ads + GA4 MCP",
+    "description": "MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4",
+    "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Agent Skills",
+        "item": "https://martechsignal.com/categories/agent-skills/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Google Ads + Meta Ads + GA4 MCP",
+        "item": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
+      }
+    ]
+  }
+]</script>
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-tools">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/agent-skills/">Agent Skills</a> / <span>Google Ads + Meta Ads + GA4 MCP</span></nav>
+<section class="page-head">
+  <h1>Google Ads + Meta Ads + GA4 MCP</h1>
+  <p class="sub">MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4</p>
+  <p class="count">Agent Skills · Freemium · OPEN SOURCE</p>
+</section>
+<div class="detail">
+  <div class="detail-main">
+    <h2>Overview</h2>
+    <p>google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. Instead of jumping between three dashboards, you ask Claude or ChatGPT to pull campaign performance, pause ad sets, build audiences, or reconcile ad spend against GA4 conversions. It exposes 250+ tools: roughly 150 for Google Ads (campaign CRUD across Search, Display, Shopping, PMax, and Video, Keyword Planner data, bidding and budget controls, experiments, conversion tracking), 80+ for Meta Ads (campaigns, ad sets, creatives, lookalikes, lead forms, product catalogs), and 20+ for GA4 (standard and realtime reports, audiences, attribution settings, key events).
+
+Day to day, the value is in cross-platform work that usually means exporting CSVs. You can compare Google versus Meta spend side by side, correlate ad cost with GA4 conversion events, and ask for a unified ROAS read across both networks. The repo ships with 60+ example prompts and an n8n workflow template. Write access is a deliberate choice: the official Google MCP server is read-only, while this one can create, pause, and delete campaigns. That power means you should gate it carefully. Give it a test account first, and keep a human approving anything that touches budgets.
+
+Setup is remote rather than local. You add an endpoint URL to claude_desktop_config.json, Cursor, Windsurf, ChatGPT connectors, or n8n&#x27;s MCP node. There&#x27;s no local code to run and no API keys to manage in config files, but the endpoint comes from Ryze AI (Meow AI, LLC), the company behind the repo. The code is MIT licensed and free, but the hosted server is tied to Ryze&#x27;s trial and paid plans, so treat this as freemium infrastructure rather than a standalone open-source deployment. The repo launched in April 2026 and picked up over 1,000 stars quickly; most of that momentum is marketing from Ryze&#x27;s blog, which is worth keeping in mind.
+
+Versus the official Google Ads MCP server, this one trades vendor independence for reach and write access. Versus the Claude Ads skill pack already in this directory, the roles differ: Claude Ads is the analyst that audits and plans, while this MCP server is the plumbing that lets any MCP-compatible agent actually touch live accounts. If you run an agent stack around n8n or Claude Code and manage spend on both Google and Meta, it&#x27;s the fastest way to give your agents hands on the ad accounts. Just remember that hands can also delete things.</p>
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>250+ MCP tools for campaign management, analytics, and optimization</li><li>Natural-language campaign creation and pausing across Google and Meta</li><li>Keyword Planner research with volume, CPC, and competition data</li><li>Cross-platform ROAS analysis correlating ad spend with GA4 conversions</li><li>Scheduled actions and audit reports via ChatGPT, Claude, or n8n</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>Google Ads</span><span>Meta Ads</span><span>GA4</span><span>ChatGPT</span><span>Claude</span><span>Claude Code</span><span>Cursor</span><span>Windsurf</span><span>n8n</span><span>Codex CLI</span><span>Gemini CLI</span></div>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/claude-seo/"><div class="name">Claude SEO</div><div class="tagline">Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents</div></a><a class="tool-card" href="/tools/claude-ads/"><div class="name">Claude Ads</div><div class="tagline">Paid-media operations skill for Claude Code covering 12 ad platforms</div></a><a class="tool-card" href="/tools/aaron-marketing-skills/"><div class="name">Aaron Marketing Skills</div><div class="tagline">120 marketing skills across 7 disciplines for Claude Code with auditor gates</div></a><a class="tool-card" href="/tools/ai-marketing-claude/"><div class="name">AI Marketing Suite</div><div class="tagline">15-skill marketing suite for Claude Code with parallel agents and PDF reports</div></a></div>
+  </div>
+  <aside class="sidebar">
+    <div class="side-card">
+      <h3>Quick Facts</h3>
+      <dl>
+        <div class="side-row"><dt>Pricing</dt><dd>Freemium</dd></div>
+        <div class="side-row"><dt>Category</dt><dd><a href="/categories/agent-skills/">Agent Skills</a></dd></div>
+        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 1058</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2026</dd></div>
+        
+        <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
+      </dl>
+    </div>
+    <div class="side-card">
+      <a class="btn-sm" href="https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Google Ads + Meta Ads + GA4 MCP">Visit Google Ads + Meta Ads + GA4 MCP →</a>
+    </div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">MIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans).</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://www.get-ryze.ai/payment-setup" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Google Ads + Meta Ads + GA4 MCP">VIEW PRICING →</a></div></div>
+  </aside>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a>
+      <a href="/tools/">TOOLS</a>
+      <a href="/glossary/">GLOSSARY</a>
+      <a href="/blog/">BLOG</a>
+      <a href="/#subscribe">SUBSCRIBE</a>
+    </div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>
