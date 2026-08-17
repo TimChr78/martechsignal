@@ -222,6 +222,16 @@ def build_post(meta: dict, body_html: str) -> str:
         links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related)
         body_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
 
+    # Blog -> Tools: suggest 2-3 relevant tools via keyword overlap
+    try:
+        existing_tool_slugs = set(__import__('re').findall(r'/tools/([^/"\'\?#]+)/', body_html))
+    except Exception:
+        existing_tool_slugs = set()
+    related_tools = suggest_links.suggest_tools_for_text(body_html, max_suggestions=3, exclude_slugs=existing_tool_slugs)
+    if related_tools:
+        tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> — ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
+        body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'
+
     # First paragraph as excerpt (strip HTML tags)
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
     excerpt = re.sub(r'<[^>]+>', '', first_p.group(1))[:200] if first_p else ''

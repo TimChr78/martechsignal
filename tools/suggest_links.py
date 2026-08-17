@@ -114,6 +114,40 @@ def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = ""
     ]
 
 
+def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: set | None = None) -> list[dict]:
+    """Return related tools for arbitrary source text (blog <-> tools linking).
+
+    Scores keyword overlap between source text and each tool's metadata
+    (name + tagline + description + ai_features + integrations).
+    Filters out inactive tools and optionally excluded slugs.
+    """
+    if not TOOLS_JSON.exists():
+        return []
+    try:
+        tools = json.loads(TOOLS_JSON.read_text())
+    except Exception:
+        return []
+    source_kw = keywords(extract_text(text))
+    exclude_slugs = set(exclude_slugs or [])
+    scored: list[tuple[float, dict]] = []
+    for t in tools:
+        if t.get("status") != "active":
+            continue
+        if t.get("slug") in exclude_slugs:
+            continue
+        blob = " ".join(str(t.get(k, "")) for k in ("name", "tagline", "description", "ai_features", "integrations"))
+        if not blob.strip():
+            continue
+        score = score_overlap(source_kw, keywords(extract_text(blob)))
+        if score > 0:
+            scored.append((score, t))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    out = []
+    for score, t in scored[:max_suggestions]:
+        out.append({"name": t["name"], "slug": t["slug"], "url": f"/tools/{t['slug']}/", "score": round(score, 3), "tagline": t.get("tagline", "")})
+    return out
+
+
 def suggest(draft_path: Path, max_suggestions: int = 3):
     """Return list of suggested links for a draft."""
     draft_text = get_draft_text(draft_path)
