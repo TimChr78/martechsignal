@@ -12,6 +12,9 @@ import html
 import json
 from pathlib import Path
 from datetime import datetime
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import suggest_links
 
 ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = ROOT / "content" / "drafts"
@@ -213,6 +216,11 @@ def build_post(meta: dict, body_html: str) -> str:
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
     date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%b %d, %Y').upper()
     slug = meta.get('slug') or slugify(title)
+
+    related = suggest_links.suggest_for_text(body_html, max_suggestions=3, exclude_slug=slug)
+    if related:
+        links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related)
+        body_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
 
     # First paragraph as excerpt (strip HTML tags)
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)

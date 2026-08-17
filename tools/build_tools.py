@@ -9,8 +9,11 @@ Reads tools/tools.json + tools/categories.json → outputs:
 Run from /opt/data/martechsignal/:  python3 tools/build_tools.py
 """
 import json, os, html, re
+import sys
 from pathlib import Path
 from datetime import datetime
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import suggest_links
 
 ROOT = Path(__file__).resolve().parent.parent  # martechsignal/
 TOOLS_DIR = ROOT / "tools"
@@ -160,6 +163,12 @@ def build_tool_page(t, cats, all_tools):
     if related:
         items = "".join(f'<a class="tool-card" href="/tools/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
         related_html = f'<h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
+
+    source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
+    related_posts = suggest_links.suggest_for_text(source_text, max_suggestions=3)
+    if related_posts:
+        links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related_posts)
+        related_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
 
     # AI features
     ai_html = ""

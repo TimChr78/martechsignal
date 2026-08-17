@@ -14,6 +14,7 @@ With --apply: inserts links into the draft markdown (before the footer).
 import json
 import re
 import sys
+import html
 from pathlib import Path
 from collections import Counter
 
@@ -75,7 +76,7 @@ def get_published_posts():
             title_m = re.search(r'<h1[^>]*>([^<]+)</h1>', content)
             if not title_m:
                 title_m = re.search(r'<title>([^<]+)</title>', content)
-            title = title_m.group(1) if title_m else child.name
+            title = html.unescape(title_m.group(1)) if title_m else child.name
             posts.append({
                 "slug": child.name,
                 "title": title,
@@ -94,6 +95,23 @@ def get_draft_text(draft_path: Path) -> str:
         if end != -1:
             content = content[end + 3:]
     return content
+
+
+def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = ""):
+    """Return related published posts for arbitrary source text."""
+    source_kw = keywords(extract_text(text))
+    scored = []
+    for post in get_published_posts():
+        if exclude_slug and post["slug"] == exclude_slug:
+            continue
+        score = score_overlap(source_kw, keywords(post["text"]))
+        if score > 0:
+            scored.append((score, post))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return [
+        {"title": post["title"], "url": post["url"], "score": round(score, 3), "slug": post["slug"]}
+        for score, post in scored[:max_suggestions]
+    ]
 
 
 def suggest(draft_path: Path, max_suggestions: int = 3):
