@@ -179,9 +179,9 @@
         }
       ],
       "lead": [
-        "Workflow automation is the unglamorous layer that decides whether your stack behaves like a system or a pile of browser tabs. These tools connect everything else: your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually execute instead of drafting suggestions nobody reads.",
-        "The category splits two ways. Visual builders like Zapier and Make get you to a working run fast, but you rent the engine. Code-friendly platforms like n8n and LangChain hand you raw primitives and expect you to know what you're doing. Workato and Tray.io sit in the enterprise tier, wrapping both ideas in governance and a bigger invoice.",
-        "When you're comparing these in 2026, skip the \"which one connects the most apps\" table. They all connect enough apps. What separates them is whether a run can hold state across a long job, recover from failures without losing progress, and give an AI agent real operations to call. That last part matters more than the node count, and most comparison pages ignore it."
+        "Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.",
+        "The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice.",
+        "If you are comparing these in 2026, skip the table that ranks them by how many apps they connect. They all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparison pages skip it."
       ],
       "chooser": [
         {
@@ -196,7 +196,7 @@
               "slug": "make"
             }
           ],
-          "why": "Biggest app catalogs, fastest time to a working run"
+          "why": "Largest catalogs, fastest path to a live run"
         },
         {
           "if": "Self-hosted, you own the data and the engine",
@@ -230,7 +230,7 @@
               "slug": "paperclip"
             }
           ],
-          "why": "A control plane that hires, schedules, caps, and audits agents"
+          "why": "A control plane that hires, schedules, caps spend, and audits agents"
         },
         {
           "if": "Procurement needs SOC 2 and a signature line",
@@ -334,7 +334,7 @@
   {
     "slug": "agent-skills",
     "name": "Agent Skills",
-    "description": "Skills, plugins, and extensions for AI coding agents \u2014 what they automate in your marketing workflow",
+    "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
     "tools": [
       "aaron-marketing-skills",
       "ai-business-skills",
