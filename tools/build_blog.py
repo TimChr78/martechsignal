@@ -10,8 +10,9 @@ Run from /opt/data/martechsignal/: python3 tools/build_blog.py
 import re
 import html
 import json
+import email.utils
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
@@ -534,6 +535,51 @@ def update_homepage(posts: list, count: int = 3) -> bool:
     return True
 
 
+def build_rss(posts: list) -> str:
+    """Generate RSS 2.0 XML for the blog (newest first)."""
+    site_url = "https://martechsignal.com"
+    posts_sorted = sorted(posts, key=lambda p: p['date'], reverse=True)
+    now = datetime.now(timezone.utc)
+    last_build = email.utils.format_datetime(now)
+    items = []
+    for post in posts_sorted:
+        title = post['title']
+        slug = post.get('slug', slugify(title))
+        link = f"{site_url}/blog/{slug}/"
+        excerpt = post.get('excerpt', '')
+        date_str = post.get('date', now.strftime('%Y-%m-%d'))
+        try:
+            dt = datetime.strptime(date_str, '%Y-%m-%d').replace(tzinfo=timezone.utc)
+            pub_date = email.utils.format_datetime(dt)
+        except Exception:
+            pub_date = last_build
+        # Description as escaped HTML excerpt
+        desc = html.escape(excerpt[:300], quote=False) if excerpt else html.escape(title, quote=False)
+        items.append(
+            f"    <item>\n"
+            f"      <title>{html.escape(title, quote=False)}</title>\n"
+            f"      <link>{link}</link>\n"
+            f"      <guid isPermaLink=\"true\">{link}</guid>\n"
+            f"      <pubDate>{pub_date}</pubDate>\n"
+            f"      <description>{desc}</description>\n"
+            f"    </item>"
+        )
+    items_xml = "\n".join(items)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>MartechSignal — AI Marketing Automation, Audited</title>
+    <link>{site_url}/</link>
+    <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
+    <language>en-us</language>
+    <lastBuildDate>{last_build}</lastBuildDate>
+    <generator>build_blog.py</generator>
+{items_xml}
+  </channel>
+</rss>
+"""
+
+
 def main():
     # Track which slugs have drafts
     draft_slugs = set()
@@ -596,6 +642,11 @@ def main():
 
     # Refresh the hand-crafted homepage's "Latest signals" block
     update_homepage(posts)
+
+    # Generate RSS feed
+    rss_xml = build_rss(posts)
+    (ROOT / "rss.xml").write_text(rss_xml)
+    print(f"RSS: {len(posts)} items written to rss.xml", flush=True)
 
 
 if __name__ == '__main__':
