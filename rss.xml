@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 05:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 05:06:44 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>You Don't Need a New Data Stack for AI — Fivetran Just Proved It</title>
+      <link>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eigh</description>
+    </item>
     <item>
       <title>Competitive-Intel Tools Were the First Martech Category AI Killed — Here's How to Spot the Next One</title>
       <link>https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/</link>

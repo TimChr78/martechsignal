@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You Don&#x27;t Need a New Data Stack for AI — Fivetran Just Proved It — Martech Signal</title>
+<meta name="description" content="Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with tw">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="You Don&#x27;t Need a New Data Stack for AI — Fivetran Just Proved It">
+<meta property="og:description" content="Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with tw">
+<meta property="og:url" content="https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/">
+<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "You Don't Need a New Data Stack for AI \u2014 Fivetran Just Proved It",
+  "description": "Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with tw",
+  "author": {
+    "@type": "Organization",
+    "name": "MartechSignal"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com"
+  },
+  "datePublished": "2026-08-20",
+  "dateModified": "2026-08-20",
+  "mainEntityOfPage": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/"
+}
+</script>
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI · DATA STACK · 10 MIN</p>
+<h1>You Don&#x27;t Need a New Data Stack for AI — Fivetran Just Proved It</h1>
+<p class="meta">AUG 20, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b>Tim Christensen</b></span>
+</div>
+
+<p>Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.</p>
+
+<p>Earlier this month, Fivetran and data consultancy phData put out a post called <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">"Building healthcare AI without rebuilding your data platform."</a> The title is the thesis. Healthcare is one of the most data-hostile industries that exists: thousands of vendor systems per organization, Epic instances nobody wants to touch, compliance review on every connector, and <a href="https://cthosp.org/daily-news-clip/37-of-hospitals-still-losing-money/">37% of hospitals running at a loss</a> or on margins under 2%. If you can make AI-ready data work there without a rebuild, the "you need a new platform" pitch gets a lot harder to defend anywhere else. Including in your marketing stack.</p>
+
+<h2>What the legacy stack actually broke</h2>
+
+<p>The post's diagnosis is specific, and it will sound familiar if you have ever owned a marketing data pipeline. Healthcare organizations built their integration layer over the past decade using hand-coded ETL: each pipeline took months to build, pulled a fixed subset of fields, and served one dashboard on a weekly or daily batch schedule. Then a new use case arrived, and the whole engineering effort started over from scratch.</p>
+
+<p>That was tolerable when the consumer of the data was a dashboard a human looked at on Monday morning. It is not tolerable when the consumer is an AI agent that reads continuously and acts on what it reads. The post's two measures for an AI pipeline are time to deliver the data and how fresh it stays. Hand-built ETL fails both.</p>
+
+<p>Their fix is not a new platform. It is three changes to how data moves:</p>
+
+<p>1. Replicate everything from the source, not just the fields today's use case asks for. When a new question shows up, the data is already in the warehouse. 2. Keep it current with change data capture, so agents and dashboards work from the same live state. 3. Let schema changes propagate automatically. When a source adds a column or restructures a table, the pipeline adapts and sends a notification instead of breaking at 2am.</p>
+
+<p>None of that requires ripping out what you have. It requires replacing the hand-coded pipes with managed ones and pointing them at the warehouse you already run.</p>
+
+<h2>Four years of roadmap, done in six months</h2>
+
+<p>The evidence is <a href="https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai">Inova Health</a>, a Northern Virginia health system with 26,000 employees and 4 million patient visits a year. Inova had data scattered across on-prem systems, Epic, SharePoint, flat files, and vendor APIs, with a backlog of pipeline requests that kept growing. Their modernization plan was scoped at four years.</p>
+
+<p>They standardized on Fivetran for ingestion, dbt for transformations, and Databricks as the destination, and finished in six months. The reported numbers: $800,000 in third-party spend eliminated, data movement costs cut up to 8x per terabyte per source, and a backlog of more than 500 pipeline requests cleared.</p>
+
+<p>One detail matters more than the headline. Inova's Adobe Experience Platform integration had been stalled for months on fragmented pipelines and complex APIs. With managed connectors, they had it running in under a week. That is a marketing system. The same bottleneck your team knows, solved by swapping custom engineering for a connector, not by buying a new platform.</p>
+
+<div class="callout">
+<p><strong>The numbers are vendor-reported.</strong> Inova's chief data and AI officer is on record backing them ("We accelerated a 4-year roadmap into 6 months"), and the case study is on Fivetran's site, so treat the figures as the best available rather than audited. The shape of the story, though, matches what Gartner and others report independently: the projects that stall are the ones that over-build.</p>
+</div>
+
+<h2>The failure data points the same direction</h2>
+
+<p>Here is where the contrarian case gets stronger, because the failure evidence is not from Fivetran. dbt Labs published <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">"Why agentic projects fail and how to fix them"</a> on August 14, and its central finding is that the limiting factor is almost never the model. It is data quality and governance. Gartner projects more than 40% of agentic AI projects will be canceled by the end of 2027, and Fivetran's own 2026 readiness index found only 15% of organizations are fully ready, even after spending millions.</p>
+
+<p>The spread between winners and losers is not who bought the fancier platform. Wayfair's supplier agents now handle 41,000 support tickets a month, and C.H. Robinson's agents create 5,500 shipping orders a day while saving 600 person-hours daily. Klarna's agent, built to do the work of over 850 employees, became what one analyst called the poster child for bad AI deployments, with quality problems and falling customer satisfaction. Same model generation, opposite outcomes. The difference was what the agents had to work with.</p>
+
+<p>MarTech made the same point from the budget side on August 18: <a href="https://martech.org/how-to-stop-overpaying-for-ai-complexity/">"You wouldn't purchase a forklift to carry a coffee cup,"</a> their piece opens, arguing that most teams should start with the lightest approach that can do the job. A rebuild is a forklift. Most teams are carrying coffee cups.</p>
+
+<p>One disclosure before this goes further: Fivetran and dbt Labs <a href="https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents">completed their merger on June 1, 2026</a>. Two of the three sources in this post are the same company. The Gartner projections and the Klarna/Wayfair outcomes are not theirs, but you should know who is making which argument.</p>
+
+<h2>What marketing ops should copy from healthcare</h2>
+
+<p>Translate the healthcare architecture into marketing terms and it maps almost one-to-one.</p>
+
+<div class="flow-strip">
+  <div class="flow-step"><span class="flow-label">REPLICATE</span><span class="flow-sub">CRM, ad platforms, MAP, CDP events into the warehouse</span></div>
+  <div class="flow-wire"><span class="flow-pulse"></span></div>
+  <div class="flow-step"><span class="flow-label">MODEL</span><span class="flow-sub">dbt turns raw tables into tested, documented context</span></div>
+  <div class="flow-wire"><span class="flow-pulse"></span></div>
+  <div class="flow-step ai"><span class="flow-label">ACTIVATE</span><span class="flow-sub">warehouse segments written back to CRM and ad platforms</span></div>
+</div>
+
+<p>The third step is the one most marketing teams are missing, and it is the reason the rebuild pitch keeps losing. Fivetran's healthcare post leans on Activations, which write trusted data from the warehouse back into operational systems like CRMs and EMRs, creating, updating, and deleting records so the frontline works from the same state as the warehouse. The marketing version is identical: audience segments and scores computed in the warehouse get pushed back into your CRM, ESP, and ad platforms, instead of living in a dashboard nobody acts on.</p>
+
+<p>Notice what that does to the CDP question. You do not need to buy a new platform to get warehouse-native activation. You need a pipe with data flowing both directions.</p>
+
+<table class="cmp">
+<tr><th></th><th>Rip-and-replace pitch</th><th>Lean activation (the Fivetran/Inova model)</th></tr>
+<tr><td>Starting point</td><td>New platform, migration project</td><td>Existing warehouse, CRM, and MAP</td></tr>
+<tr><td>Timeline</td><td>12-18 months typical</td><td>Months; Inova did 4 years of scope in 6</td></tr>
+<tr><td>New use case cost</td><td>Engineering project per use case</td><td>Connector plus a dbt model; data already present</td></tr>
+<tr><td>Data freshness</td><td>Depends on the rebuild finishing</td><td>Continuous (CDC) from day one</td></tr>
+<tr><td>Risk profile</td><td>High; migration is the project</td><td>Incremental; each connector is testable</td></tr>
+<tr><td>Failure mode</td><td>Becomes the 40% Gartner cancels</td><td>Smaller surface, easier to unwind</td></tr>
+</table>
+
+<p>Salesforce's commerce research agrees on the direction, if not the vendor. Their August 13 piece declares the experimentation phase over: pilots have proven their point, and more than a third of agentic AI users have shifted from testing to scaling. The same research found organizations with unified data report 40% better AI and automation outcomes, while only 27% have fully unified customer data. The gap is not missing platforms. It is unconnected ones. (Salesforce.com blocks automated access, so those figures come from our newsletter scan of the post rather than a direct fetch.)</p>
+
+<h2>What it actually costs</h2>
+
+<p>Verified from <a href="https://www.fivetran.com/pricing">fivetran.com/pricing</a> as of this writing, because "usage-based" is where vendor pricing goes to hide:</p>
+
+<ul>
+<li>Pricing is consumption-based on monthly active rows (MAR), with a free plan covering 500,000 MAR for connections, enough to pilot a handful of sources.</li>
+<li>Fivetran's own examples on the Standard plan (1-200 employees): Google Analytics 4 at median usage runs about $11/month, Google Ads about $44, Facebook Ads about $17, and Marketo about $424 at roughly 848,000 MAR. Marketo is the expensive one, and it is expensive because marketing automation generates a lot of rows.</li>
+<li>Transformations get 5,000 model runs free per month, then $0.01 per run, dropping to $0.002 above 100,000 runs.</li>
+<li>Plans tier from Free through Standard, Enterprise (1-minute syncs, hybrid deployment), and Business Critical (customer-managed keys, PCI DSS Level 1). Healthcare-grade compliance is on the top tier, not the base.</li>
+</ul>
+
+<p>Consumption pricing is honest but not automatically cheap: it scales with your row volume, and a marketing stack syncing full event histories can climb. Inova's claim of an 8x cost reduction per terabyte is about replacing third-party spend, not about Fivetran being free. Budget accordingly.</p>
+
+<div class="verdict win">
+<p><strong>The verdict: the rebuild pitch loses.</strong> The evidence from this month, from a vendor case, an industry failure analysis, and independent analyst projections, all lands on the same answer. AI-ready data comes from automating movement and activation on the stack you already own, not from an eighteen-month migration. The teams winning with agents built narrow, well-fed workflows on live data. The teams in the 40% cancellation pile bought platforms first and asked questions later. If someone is quoting you a migration, ask them what happens to your next use case while it runs.</p>
+</div>
+
+<h2>What to do this week</h2>
+
+<div class="wf-step">
+<p><strong>Inventory your hand-coded pipelines.</strong> Every integration someone built as a script or a point-to-point connector is the legacy ETL problem in miniature: fixed fields, batch schedule, breaks on schema change. You cannot prioritize what you have not listed.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Pick one agent use case and trace its data path.</strong> Pick the narrow, high-volume kind dbt recommends: clear success criteria, reversible actions, authoritative data available. Then ask how fresh that data actually is. If the answer is "it syncs nightly," that is your first gap, and it costs a connector, not a platform.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Price the activation loop, not the platform.</strong> Estimate MAR for the two or three sources that feed your use case using Fivetran's estimator, and compare that monthly number against the annual quote for whatever new platform is in your pipeline. One of those numbers is an experiment. The other is a marriage.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Keep governance boring on purpose.</strong> The healthcare lesson is that compliance is a configuration, not a rebuild: encryption and a BAA on the ingestion layer, documented and tested dbt models on top, approval workflows where your policies require them. The organizations getting canceled are the ones that made governance an afterthought, not the ones that skipped the fancy platform.</p>
+</div>
+
+<p>The uncomfortable summary: your data stack probably does not need replacing. It needs its pipes automated, its data fresh, and its warehouse talking back to the systems where the work happens. Fivetran just showed a health system doing exactly that, four years of work in six months, in one of the hardest environments on earth. The next time a vendor tells you AI requires a rebuild, ask them to explain Inova.</p>
+
+<div class="cta-strip">
+<h3>Compare data tools before you sign anything</h3>
+<p>Our directory breaks down data and activation tools by pricing model, connector coverage, and what they actually write back to your operational systems. Check the rebuild quote against the lean option.</p>
+<a class="btn" href="/tools/">BROWSE THE TOOL DIRECTORY →</a>
+</div>
+
+<p><strong>Sources:</strong> <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">Fivetran: Building healthcare AI without rebuilding your data platform (Aug 10, 2026)</a> · <a href="https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai">Fivetran: Inova Health case study</a> · <a href="https://www.fivetran.com/pricing">Fivetran pricing (retrieved Aug 20, 2026)</a> · <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">dbt Labs: Why agentic projects fail and how to fix them (Aug 14, 2026)</a> · <a href="https://salesforce.com/blog/commerce-leaders-ai-focus">Salesforce: The Experimentation Phase of AI Is Over (Aug 13, 2026)</a> (bot-blocked; figures from newsletter scan) · <a href="https://martech.org/how-to-stop-overpaying-for-ai-complexity">MarTech: How to stop overpaying for AI complexity (Aug 18, 2026)</a> · <a href="https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents">Fivetran + dbt Labs merger announcement (Jun 1, 2026)</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/tealium/">Tealium</a> — Enterprise customer data platform with real-time data orchestration and AI</li><li><a href="/tools/mixpanel/">Mixpanel</a> — Product analytics platform with AI-powered insights for user behavior tracking</li><li><a href="/tools/n8n/">n8n</a> — Open-source workflow automation platform with AI agent capabilities and 400+ nodes</li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b> — written by Tim Christensen</p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>

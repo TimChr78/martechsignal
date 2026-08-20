@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L Harness Review — Open Source | MartechSignal</title>
+<meta name="description" content="L Harness — Open-source CRM for LINE Official Accounts with step… Open source &amp; free to self-host. Compare AI features, integrations &amp; top alternatives.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="L Harness Review — Open Source | MartechSignal">
+<meta property="og:description" content="L Harness — Open-source CRM for LINE Official Accounts with step… Open source &amp; free to self-host. Compare AI features, integrations &amp; top alternatives.">
+<meta property="og:url" content="https://martechsignal.com/tools/line-harness/">
+<link rel="canonical" href="https://martechsignal.com/tools/line-harness/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "L Harness",
+    "description": "Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control",
+    "url": "https://the-harness.com/line-harness/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Marketing Automation",
+        "item": "https://martechsignal.com/categories/marketing-automation/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "L Harness",
+        "item": "https://martechsignal.com/tools/line-harness/"
+      }
+    ]
+  }
+]</script>
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-tools">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/marketing-automation/">Marketing Automation</a> / <span>L Harness</span></nav>
+<section class="page-head">
+  <h1>L Harness</h1>
+  <p class="sub">Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control</p>
+  <p class="count">Marketing Automation · Open Source · OPEN SOURCE</p>
+</section>
+<div class="detail">
+  <div class="detail-main">
+    <h2>Overview</h2>
+    <p>L Harness (line-harness-oss) is an open-source CRM and marketing automation suite for LINE Official Accounts, built by Japanese developer Shuichi Noda and run under AI Agent Inc. It targets companies, shops, and marketing agencies in Japan that run LINE as a customer channel and want the step-delivery and segmentation features of paid tools like L-Step (from ¥20,000/mo) and L Message without the monthly license fee. The software itself costs ¥0; you deploy it to your own Cloudflare account using Workers, D1, and Pages, and the setup CLI (npx create-line-harness) handles database creation, worker deployment, LIFF app registration, and admin user creation in about five minutes.
+
+The feature list covers the standard LINE marketing playbook: step delivery with minute-level delay control and conditional branching, tag-based segment broadcasts with automatic queueing past 500 recipients, LIFF forms, rich menu switching per user or tag, behavior-based lead scoring, Google Calendar booking with webinar auto-scheduling, and an affiliate measurement system with click-to-conversion tracking and last-touch attribution. What separates it from the commercial incumbents is the AI layer. The repo ships an MCP server (@line-harness/mcp-server) so you can drive the entire system from Claude Code in natural language: create scenarios, monitor unanswered conversations, and send broadcasts. There is also a typed TypeScript SDK and webhook input/output for Stripe and Slack. BAN detection with automatic account switching is included for multi-account operators, a feature the paid tools do not touch.
+
+Pricing is genuinely simple but not free in the absolute sense. The MIT-licensed software costs nothing, and Cloudflare&#x27;s free tier covers most small deployments, but you still pay LINE&#x27;s own per-message delivery fees and any Cloudflare usage beyond the free tier. The project&#x27;s own pricing page is honest about this, and also about the fact that someone on your side owns updates and incident response. A managed version, L Harness Cloud, exists from the same developer if you want the infrastructure handled.
+
+Against the paid incumbents, L Harness wins on cost, API access (full API where L-Step and L Message expose none), and the MCP integration. It loses on support guarantees: no SLA, no phone support, and the admin UI documentation is Japanese-first, with English, Chinese, Korean, and Spanish READMEs. The repo has 568 stars and 246 commits as of August 2026, pushed within days of this writing, so it is actively maintained but still pre-1.0 (v0.21.x).
+
+Who should skip it: teams with no Cloudflare or LINE Developers setup capability, anyone who needs a vendor SLA, and marketers outside Japan where LINE is not a primary channel. For everyone else running LINE marketing, this is the first credible zero-license-cost alternative to the L-Step category.</p>
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language)</li><li>Typed TypeScript SDK for programmatic control</li><li>BAN detection with automatic account switching</li><li>Behavior-based lead scoring</li><li>IF-THEN automation rules (7 triggers x 6 actions)</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>LINE Messaging API</span><span>LINE LIFF</span><span>Google Calendar</span><span>Stripe (webhook)</span><span>Slack (webhook)</span><span>Cloudflare Workers/D1/Pages</span></div>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/activecampaign/"><div class="name">ActiveCampaign</div><div class="tagline">AI-powered marketing automation and CRM for small to mid-size businesses</div></a><a class="tool-card" href="/tools/adobe-marketo/"><div class="name">Adobe Marketo Engage</div><div class="tagline">Enterprise B2B marketing automation with AI-driven lead management and engagement</div></a><a class="tool-card" href="/tools/alwrity/"><div class="name">ALwrity</div><div class="tagline">AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social</div></a><a class="tool-card" href="/tools/bloomreach/"><div class="name">Bloomreach</div><div class="tagline">AI-powered commerce experience platform with search, personalization, and CDP</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li></ul></section>
+  </div>
+  <aside class="sidebar">
+    <div class="side-card">
+      <h3>Quick Facts</h3>
+      <dl>
+        <div class="side-row"><dt>Pricing</dt><dd>Open Source</dd></div>
+        <div class="side-row"><dt>Category</dt><dd><a href="/categories/marketing-automation/">Marketing Automation</a></dd></div>
+        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 568</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2026</dd></div>
+        <div class="side-row"><dt>HQ</dt><dd>Tokyo, Japan</dd></div>
+        <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
+      </dl>
+    </div>
+    <div class="side-card">
+      <a class="btn-sm" href="https://the-harness.com/line-harness/" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="L Harness">Visit L Harness →</a>
+    </div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Free open-source (MIT); self-hosted on Cloudflare Workers/D1/Pages. You pay LINE delivery fees and any Cloudflare usage beyond the free tier. Managed version (L Harness Cloud) available separately.</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://the-harness.com/line-harness/pricing/" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="L Harness">VIEW PRICING →</a></div></div>
+  </aside>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a>
+      <a href="/tools/">TOOLS</a>
+      <a href="/glossary/">GLOSSARY</a>
+      <a href="/blog/">BLOG</a>
+      <a href="/#subscribe">SUBSCRIBE</a>
+    </div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>
