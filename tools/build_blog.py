@@ -483,7 +483,7 @@ def scan_existing_posts(draft_slugs: set) -> list:
     return posts
 
 
-def update_homepage(posts: list, count: int = 3) -> bool:
+def update_homepage(posts: list, count: int = 4) -> bool:
     """Regenerate the 'Latest signals' block in the hand-crafted homepage.
 
     Replaces only the content between <!-- LATEST:START --> and
