@@ -9,7 +9,7 @@ Every AI platform vendor wants to sell you the same story: your data stack is le
 
 Earlier this month, Fivetran and data consultancy phData put out a post called ["Building healthcare AI without rebuilding your data platform."](https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform) The title is the thesis. Healthcare is one of the most data-hostile industries that exists: thousands of vendor systems per organization, Epic instances nobody wants to touch, compliance review on every connector, and [37% of hospitals running at a loss](https://cthosp.org/daily-news-clip/37-of-hospitals-still-losing-money/) or on margins under 2%. If you can make AI-ready data work there without a rebuild, the "you need a new platform" pitch gets a lot harder to defend anywhere else. Including in your marketing stack.
 
-## What the legacy stack actually broke
+## What the legacy stack broke
 
 The post's diagnosis is specific, and it will sound familiar if you have ever owned a marketing data pipeline. Healthcare organizations built their integration layer over the past decade using hand-coded ETL: each pipeline took months to build, pulled a fixed subset of fields, and served one dashboard on a weekly or daily batch schedule. Then a new use case arrived, and the whole engineering effort started over from scratch.
 
@@ -37,7 +37,7 @@ One detail matters more than the headline. Inova's Adobe Experience Platform int
 
 ## The failure data points the same direction
 
-Here is where the contrarian case gets stronger, because the failure evidence is not from Fivetran. dbt Labs published ["Why agentic projects fail and how to fix them"](https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them) on August 14, and its central finding is that the limiting factor is almost never the model. It is data quality and governance. Gartner projects more than 40% of agentic AI projects will be canceled by the end of 2027, and Fivetran's own 2026 readiness index found only 15% of organizations are fully ready, even after spending millions.
+The failure evidence is not from Fivetran, which is what makes it useful. dbt Labs published ["Why agentic projects fail and how to fix them"](https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them) on August 14, and its central finding is that the limiting factor is almost never the model. It is data quality and governance. Gartner projects more than 40% of agentic AI projects will be canceled by the end of 2027, and Fivetran's own 2026 readiness index found only 15% of organizations are fully ready, even after spending millions.
 
 The spread between winners and losers is not who bought the fancier platform. Wayfair's supplier agents now handle 41,000 support tickets a month, and C.H. Robinson's agents create 5,500 shipping orders a day while saving 600 person-hours daily. Klarna's agent, built to do the work of over 850 employees, became what one analyst called the poster child for bad AI deployments, with quality problems and falling customer satisfaction. Same model generation, opposite outcomes. The difference was what the agents had to work with.
 
@@ -73,7 +73,7 @@ Notice what that does to the CDP question. You do not need to buy a new platform
 
 Salesforce's commerce research agrees on the direction, if not the vendor. Their August 13 piece declares the experimentation phase over: pilots have proven their point, and more than a third of agentic AI users have shifted from testing to scaling. The same research found organizations with unified data report 40% better AI and automation outcomes, while only 27% have fully unified customer data. The gap is not missing platforms. It is unconnected ones. (Salesforce.com blocks automated access, so those figures come from our newsletter scan of the post rather than a direct fetch.)
 
-## What it actually costs
+## What it costs
 
 Verified from [fivetran.com/pricing](https://www.fivetran.com/pricing) as of this writing, because "usage-based" is where vendor pricing goes to hide:
 
@@ -95,7 +95,7 @@ Consumption pricing is honest but not automatically cheap: it scales with your r
 :::
 
 ::: wf-step
-**Pick one agent use case and trace its data path.** Pick the narrow, high-volume kind dbt recommends: clear success criteria, reversible actions, authoritative data available. Then ask how fresh that data actually is. If the answer is "it syncs nightly," that is your first gap, and it costs a connector, not a platform.
+**Pick one agent use case and trace its data path.** Pick the narrow, high-volume kind dbt recommends: clear success criteria, reversible actions, authoritative data available. Then ask how fresh that data really is. If the answer is "it syncs nightly," that is your first gap, and it costs a connector, not a platform.
 :::
 
 ::: wf-step
@@ -106,11 +106,11 @@ Consumption pricing is honest but not automatically cheap: it scales with your r
 **Keep governance boring on purpose.** The healthcare lesson is that compliance is a configuration, not a rebuild: encryption and a BAA on the ingestion layer, documented and tested dbt models on top, approval workflows where your policies require them. The organizations getting canceled are the ones that made governance an afterthought, not the ones that skipped the fancy platform.
 :::
 
-The uncomfortable summary: your data stack probably does not need replacing. It needs its pipes automated, its data fresh, and its warehouse talking back to the systems where the work happens. Fivetran just showed a health system doing exactly that, four years of work in six months, in one of the hardest environments on earth. The next time a vendor tells you AI requires a rebuild, ask them to explain Inova.
+The short version: your data stack probably does not need replacing. It needs its pipes automated, its data fresh, and its warehouse talking back to the systems where the work happens. Fivetran just showed a health system doing exactly that, four years of work in six months, in one of the hardest environments on earth. The next time a vendor tells you AI requires a rebuild, ask them to explain Inova.
 
 <div class="cta-strip">
 <h3>Compare data tools before you sign anything</h3>
-<p>Our directory breaks down data and activation tools by pricing model, connector coverage, and what they actually write back to your operational systems. Check the rebuild quote against the lean option.</p>
+<p>Our directory breaks down data and activation tools by pricing model, connector coverage, and what they write back to your operational systems. Check the rebuild quote against the lean option.</p>
 <a class="btn" href="/tools/">BROWSE THE TOOL DIRECTORY →</a>
 </div>
 

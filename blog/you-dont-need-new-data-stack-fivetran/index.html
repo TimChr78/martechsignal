@@ -68,7 +68,7 @@
 
 <p>Earlier this month, Fivetran and data consultancy phData put out a post called <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">"Building healthcare AI without rebuilding your data platform."</a> The title is the thesis. Healthcare is one of the most data-hostile industries that exists: thousands of vendor systems per organization, Epic instances nobody wants to touch, compliance review on every connector, and <a href="https://cthosp.org/daily-news-clip/37-of-hospitals-still-losing-money/">37% of hospitals running at a loss</a> or on margins under 2%. If you can make AI-ready data work there without a rebuild, the "you need a new platform" pitch gets a lot harder to defend anywhere else. Including in your marketing stack.</p>
 
-<h2>What the legacy stack actually broke</h2>
+<h2>What the legacy stack broke</h2>
 
 <p>The post's diagnosis is specific, and it will sound familiar if you have ever owned a marketing data pipeline. Healthcare organizations built their integration layer over the past decade using hand-coded ETL: each pipeline took months to build, pulled a fixed subset of fields, and served one dashboard on a weekly or daily batch schedule. Then a new use case arrived, and the whole engineering effort started over from scratch.</p>
 
@@ -94,7 +94,7 @@
 
 <h2>The failure data points the same direction</h2>
 
-<p>Here is where the contrarian case gets stronger, because the failure evidence is not from Fivetran. dbt Labs published <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">"Why agentic projects fail and how to fix them"</a> on August 14, and its central finding is that the limiting factor is almost never the model. It is data quality and governance. Gartner projects more than 40% of agentic AI projects will be canceled by the end of 2027, and Fivetran's own 2026 readiness index found only 15% of organizations are fully ready, even after spending millions.</p>
+<p>The failure evidence is not from Fivetran, which is what makes it useful. dbt Labs published <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">"Why agentic projects fail and how to fix them"</a> on August 14, and its central finding is that the limiting factor is almost never the model. It is data quality and governance. Gartner projects more than 40% of agentic AI projects will be canceled by the end of 2027, and Fivetran's own 2026 readiness index found only 15% of organizations are fully ready, even after spending millions.</p>
 
 <p>The spread between winners and losers is not who bought the fancier platform. Wayfair's supplier agents now handle 41,000 support tickets a month, and C.H. Robinson's agents create 5,500 shipping orders a day while saving 600 person-hours daily. Klarna's agent, built to do the work of over 850 employees, became what one analyst called the poster child for bad AI deployments, with quality problems and falling customer satisfaction. Same model generation, opposite outcomes. The difference was what the agents had to work with.</p>
 
@@ -130,7 +130,7 @@
 
 <p>Salesforce's commerce research agrees on the direction, if not the vendor. Their August 13 piece declares the experimentation phase over: pilots have proven their point, and more than a third of agentic AI users have shifted from testing to scaling. The same research found organizations with unified data report 40% better AI and automation outcomes, while only 27% have fully unified customer data. The gap is not missing platforms. It is unconnected ones. (Salesforce.com blocks automated access, so those figures come from our newsletter scan of the post rather than a direct fetch.)</p>
 
-<h2>What it actually costs</h2>
+<h2>What it costs</h2>
 
 <p>Verified from <a href="https://www.fivetran.com/pricing">fivetran.com/pricing</a> as of this writing, because "usage-based" is where vendor pricing goes to hide:</p>
 
@@ -154,7 +154,7 @@
 </div>
 
 <div class="wf-step">
-<p><strong>Pick one agent use case and trace its data path.</strong> Pick the narrow, high-volume kind dbt recommends: clear success criteria, reversible actions, authoritative data available. Then ask how fresh that data actually is. If the answer is "it syncs nightly," that is your first gap, and it costs a connector, not a platform.</p>
+<p><strong>Pick one agent use case and trace its data path.</strong> Pick the narrow, high-volume kind dbt recommends: clear success criteria, reversible actions, authoritative data available. Then ask how fresh that data really is. If the answer is "it syncs nightly," that is your first gap, and it costs a connector, not a platform.</p>
 </div>
 
 <div class="wf-step">
@@ -165,15 +165,15 @@
 <p><strong>Keep governance boring on purpose.</strong> The healthcare lesson is that compliance is a configuration, not a rebuild: encryption and a BAA on the ingestion layer, documented and tested dbt models on top, approval workflows where your policies require them. The organizations getting canceled are the ones that made governance an afterthought, not the ones that skipped the fancy platform.</p>
 </div>
 
-<p>The uncomfortable summary: your data stack probably does not need replacing. It needs its pipes automated, its data fresh, and its warehouse talking back to the systems where the work happens. Fivetran just showed a health system doing exactly that, four years of work in six months, in one of the hardest environments on earth. The next time a vendor tells you AI requires a rebuild, ask them to explain Inova.</p>
+<p>The short version: your data stack probably does not need replacing. It needs its pipes automated, its data fresh, and its warehouse talking back to the systems where the work happens. Fivetran just showed a health system doing exactly that, four years of work in six months, in one of the hardest environments on earth. The next time a vendor tells you AI requires a rebuild, ask them to explain Inova.</p>
 
 <div class="cta-strip">
 <h3>Compare data tools before you sign anything</h3>
-<p>Our directory breaks down data and activation tools by pricing model, connector coverage, and what they actually write back to your operational systems. Check the rebuild quote against the lean option.</p>
+<p>Our directory breaks down data and activation tools by pricing model, connector coverage, and what they write back to your operational systems. Check the rebuild quote against the lean option.</p>
 <a class="btn" href="/tools/">BROWSE THE TOOL DIRECTORY →</a>
 </div>
 
-<p><strong>Sources:</strong> <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">Fivetran: Building healthcare AI without rebuilding your data platform (Aug 10, 2026)</a> · <a href="https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai">Fivetran: Inova Health case study</a> · <a href="https://www.fivetran.com/pricing">Fivetran pricing (retrieved Aug 20, 2026)</a> · <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">dbt Labs: Why agentic projects fail and how to fix them (Aug 14, 2026)</a> · <a href="https://salesforce.com/blog/commerce-leaders-ai-focus">Salesforce: The Experimentation Phase of AI Is Over (Aug 13, 2026)</a> (bot-blocked; figures from newsletter scan) · <a href="https://martech.org/how-to-stop-overpaying-for-ai-complexity">MarTech: How to stop overpaying for AI complexity (Aug 18, 2026)</a> · <a href="https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents">Fivetran + dbt Labs merger announcement (Jun 1, 2026)</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/tealium/">Tealium</a> — Enterprise customer data platform with real-time data orchestration and AI</li><li><a href="/tools/mixpanel/">Mixpanel</a> — Product analytics platform with AI-powered insights for user behavior tracking</li><li><a href="/tools/n8n/">n8n</a> — Open-source workflow automation platform with AI agent capabilities and 400+ nodes</li></ul></section>
+<p><strong>Sources:</strong> <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">Fivetran: Building healthcare AI without rebuilding your data platform (Aug 10, 2026)</a> · <a href="https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai">Fivetran: Inova Health case study</a> · <a href="https://www.fivetran.com/pricing">Fivetran pricing (retrieved Aug 20, 2026)</a> · <a href="https://www.getdbt.com/blog/why-agentics-projects-fail-and-how-to-fix-them">dbt Labs: Why agentic projects fail and how to fix them (Aug 14, 2026)</a> · <a href="https://salesforce.com/blog/commerce-leaders-ai-focus">Salesforce: The Experimentation Phase of AI Is Over (Aug 13, 2026)</a> (bot-blocked; figures from newsletter scan) · <a href="https://martech.org/how-to-stop-overpaying-for-ai-complexity">MarTech: How to stop overpaying for AI complexity (Aug 18, 2026)</a> · <a href="https://www.getdbt.com/blog/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents">Fivetran + dbt Labs merger announcement (Jun 1, 2026)</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/ci-tools-were-the-first-martech-category-ai-killed/">Competitive-Intel Tools Were the First Martech Category AI Killed — Here's How to Spot the Next One</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/tealium/">Tealium</a> — Enterprise customer data platform with real-time data orchestration and AI</li><li><a href="/tools/mixpanel/">Mixpanel</a> — Product analytics platform with AI-powered insights for user behavior tracking</li><li><a href="/tools/n8n/">n8n</a> — Open-source workflow automation platform with AI agent capabilities and 400+ nodes</li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
