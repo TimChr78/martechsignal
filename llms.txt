@@ -62,11 +62,13 @@
 
 - [Attio](https://martechsignal.com/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Cordys CRM](https://martechsignal.com/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (open source)
+- [Django CRM](https://martechsignal.com/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (open source)
 - [EspoCRM](https://martechsignal.com/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (open source)
 - [Freshsales](https://martechsignal.com/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [HubSpot CRM](https://martechsignal.com/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Krayin CRM](https://martechsignal.com/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management (open source)
 - [Macro](https://martechsignal.com/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (open source)
+- [Monica](https://martechsignal.com/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (open source)
 - [Pipedrive](https://martechsignal.com/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament (open source)
 - [Salesforce CRM](https://martechsignal.com/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
@@ -81,6 +83,8 @@
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Loops](https://martechsignal.com/tools/loops/): Modern email marketing platform for SaaS with AI-powered campaigns and automation
 - [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
+- [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
 - [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
 - [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Agentic AI email automation — describe your product and target market, AI finds the leads (open source)
 - [Postmark](https://martechsignal.com/tools/postmark/): Fast, reliable transactional email delivery with industry-leading speed and uptime
@@ -97,6 +101,7 @@
 - [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform — alternative to Braze (open source)
+- [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation with Einstein AI for personalized customer journeys
 

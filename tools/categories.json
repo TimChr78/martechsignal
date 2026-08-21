@@ -12,7 +12,8 @@
    "hubspot-marketing-hub",
    "laudspeaker",
    "ortto",
-   "salesforce-marketing-cloud"
+   "salesforce-marketing-cloud",
+   "nocobase"
   ],
   "intro": "Campaign orchestration platforms that plan, execute, and measure multi-channel marketing from one system. We audit how well each platform's AI features hold up in daily operations, not just demos."
  },
@@ -29,7 +30,9 @@
    "openoutreach",
    "postmark",
    "resend",
-   "sendgrid"
+   "sendgrid",
+   "maizzle",
+   "notifo"
   ],
   "intro": "Tools for campaigns, automated sequences, and deliverability. The audits focus on list-quality handling, authentication support, and whether AI send-time and content features move real numbers."
  },
@@ -49,7 +52,9 @@
    "salesforce-crm",
    "suitecrm",
    "twenty",
-   "wacrm"
+   "wacrm",
+   "monica",
+   "django-crm"
   ],
   "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting actually costs you in practice."
  },
