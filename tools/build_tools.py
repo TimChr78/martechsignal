@@ -331,6 +331,41 @@ def build_tool_page(t, cats, all_tools):
         ]
     }
 
+    # FAQPage schema: generated from tool data (AI Overview / PAA eligibility)
+    def _faq_for(t, c):
+        name = t["name"]
+        cat = c.get("name", "marketing")
+        price = pricing_label(t)
+        q1 = f"What is {name}?"
+        a1 = (t.get("tagline") or "").strip().rstrip(".") or f"{name} is a {cat.lower()} tool."
+        a1 = f"{a1}. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        q2 = f"How much does {name} cost?"
+        if t.get("open_source"):
+            a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
+        elif t.get("price_from") is not None:
+            a2 = (f"{name} starts at ${t['price_from']}/mo." if t.get("price_from")
+                  else f"{name} has a free tier. Paid plans unlock higher limits.")
+        else:
+            a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
+        q3 = f"Is {name} a good {cat.lower()} tool in 2026?"
+        pros = []
+        if t.get("g2_rating"): pros.append(f"a {t['g2_rating']}/5 G2 rating")
+        if t.get("github_stars"): pros.append(f"{t['github_stars']:,} GitHub stars")
+        if t.get("api_available"): pros.append("an API for custom integrations")
+        a3 = (f"Our audit found {', '.join(pros)}" if pros else f"Our audit covers {name}'s core {cat.lower()} workflow")
+        a3 += f". The full review breaks down where it fits in a modern martech stack."
+        return [
+            {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
+            {"@type": "Question", "name": q2, "acceptedAnswer": {"@type": "Answer", "text": a2}},
+            {"@type": "Question", "name": q3, "acceptedAnswer": {"@type": "Answer", "text": a3}},
+        ]
+
+    faq_schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": _faq_for(t, c)
+    }
+
     out_dir = TOOLS_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
@@ -340,7 +375,7 @@ def build_tool_page(t, cats, all_tools):
     out.write_text(page_shell(
         seo_title,
         seo_desc,
-        f"/tools/{slug}/", body, [schema, breadcrumb]))
+        f"/tools/{slug}/", body, [schema, breadcrumb, faq_schema]))
     return out
 
 # ── Category pages ─────────────────────────────────────────────────
