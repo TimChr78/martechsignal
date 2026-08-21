@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 15:43:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 05:36:07 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</title>
+      <link>https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Two years ago the email go-to-market playbook was a DNS checklist: publish SPF, sign with DKIM, throw up a DMARC record, and your mail got to the inbox. That playbook is now table </description>
+    </item>
     <item>
       <title>You Don't Need a New Data Stack for AI — Fivetran Just Proved It</title>
       <link>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</link>
