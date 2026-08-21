@@ -49,6 +49,10 @@ if [ "$DO_BUILD" -eq 1 ]; then
     echo "── Build ───────────────────────────────────────────────"
     python3 tools/build_blog.py
     python3 tools/build_tools.py
+    # Per-post OG cards (Pillow venv; skip silently if venv missing)
+    if [ -x /home/hermes/.hermes/venvs/imggen/bin/python ]; then
+        /home/hermes/.hermes/venvs/imggen/bin/python tools/generate_og.py || echo "  (og generation skipped)"
+    fi
     echo ""
 fi
 
