@@ -13,7 +13,8 @@
    "laudspeaker",
    "ortto",
    "salesforce-marketing-cloud"
-  ]
+  ],
+  "intro": "Campaign orchestration platforms that plan, execute, and measure multi-channel marketing from one system. We audit how well each platform's AI features hold up in daily operations, not just demos."
  },
  {
   "slug": "email-marketing",
@@ -29,7 +30,8 @@
    "postmark",
    "resend",
    "sendgrid"
-  ]
+  ],
+  "intro": "Tools for campaigns, automated sequences, and deliverability. The audits focus on list-quality handling, authentication support, and whether AI send-time and content features move real numbers."
  },
  {
   "slug": "crm",
@@ -48,7 +50,8 @@
    "suitecrm",
    "twenty",
    "wacrm"
-  ]
+  ],
+  "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting actually costs you in practice."
  },
  {
   "slug": "content-ai",
@@ -63,7 +66,8 @@
    "persado",
    "phrasee",
    "writer"
-  ]
+  ],
+  "intro": "Generation and optimization platforms for marketing content. Every review asks the same question: does the output pass an editor's read, or does it need so much rework that the speed gain disappears?"
  },
  {
   "slug": "analytics",
@@ -77,7 +81,8 @@
    "northbeam",
    "snowplow",
    "triple-whale"
-  ]
+  ],
+  "intro": "Attribution, product analytics, and reporting. Privacy changes broke half the playbooks here; these audits check which tools rebuilt measurement honestly versus repackaged estimates."
  },
  {
   "slug": "social-media",
@@ -90,7 +95,8 @@
    "multipost-extension",
    "predis-ai",
    "sprout-social"
-  ]
+  ],
+  "intro": "Scheduling, listening, and engagement across social platforms. We test AI captioning and response features against the bar that matters: would a community manager ship them."
  },
  {
   "slug": "advertising",
@@ -102,7 +108,8 @@
    "pencil",
    "revealbot",
    "smartly-io"
-  ]
+  ],
+  "intro": "Creative generation, bidding automation, and campaign management for paid media. The audits separate genuine budget efficiency from platforms optimizing their own take rate."
  },
  {
   "slug": "personalization",
@@ -114,7 +121,8 @@
    "nosto",
    "segment",
    "tealium"
-  ]
+  ],
+  "intro": "Customer data platforms and experience personalization engines. We examine identity resolution quality, segment performance, and the compliance surface each tool creates."
  },
  {
   "slug": "chatbots",
@@ -126,7 +134,8 @@
    "intercom",
    "manychat",
    "tidio"
-  ]
+  ],
+  "intro": "Conversational AI for support and marketing. Reviews cover containment rates, handoff quality, and whether the bot deflects tickets or just relocates the frustration."
  },
  {
   "slug": "seo",
@@ -140,7 +149,8 @@
    "semrush",
    "seonaut",
    "surfer-seo"
-  ]
+  ],
+  "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
  },
  {
   "slug": "workflow-automation",
@@ -284,7 +294,8 @@
      "note": "Where the agent orchestration layer is heading next"
     }
    ]
-  }
+  },
+  "intro": "No-code/low-code automation platforms and iPaaS. Each platform bets on a different trade-off between speed, self-hosting, AI agents, and enterprise governance."
  },
  {
   "slug": "open-source",
@@ -329,7 +340,8 @@
    "twenty",
    "umami",
    "wacrm"
-  ]
+  ],
+  "intro": "Marketing and AI tools you can self-host. Free licenses are the start, not the finish: we audit setup cost, maintenance load, and feature gaps versus hosted rivals."
  },
  {
   "slug": "agent-skills",
@@ -347,6 +359,7 @@
    "email-marketing-bible",
    "growth-lab",
    "openclaw-marketing-skills"
-  ]
+  ],
+  "intro": "Skills, plugins, and extensions that turn AI coding agents into marketing operators. We verify what each pack actually installs and whether the guardrails hold."
  }
 ]

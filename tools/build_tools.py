@@ -407,10 +407,14 @@ def build_category_page(cat, tools):
     if not hub:
         # Simple listing for categories without editorial hub content
         cards = "".join(tool_card_html(t) for t in cat_tools)
+        intro_html = ""
+        if cat.get("intro"):
+            intro_html = f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(cat["intro"])}</p>'
         body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
 <section class="page-head">
   <h1>{esc(cat['name'])} Tools</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
+  {intro_html}
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
 <div class="tool-grid">{cards}</div>"""
