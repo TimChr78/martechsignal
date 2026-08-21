@@ -250,7 +250,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": title,
-        "description": excerpt[:160],
+        "description": excerpt[:155],
         "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com"},
         "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
@@ -274,13 +274,13 @@ def build_post(meta: dict, body_html: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(title)} — Martech Signal</title>
-<meta name="description" content="{html.escape(excerpt[:160])}">
+<title>{html.escape(title)}</title>
+<meta name="description" content="{html.escape(excerpt[:155])}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Martech Signal">
 <meta property="og:title" content="{html.escape(title)}">
-<meta property="og:description" content="{html.escape(excerpt[:160])}">
+<meta property="og:description" content="{html.escape(excerpt[:155])}">
 <meta property="og:url" content="https://martechsignal.com/blog/{slug}/">
 <meta property="og:image" content="https://martechsignal.com/og.png">
 <meta property="og:image:width" content="1200">
