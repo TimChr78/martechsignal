@@ -533,7 +533,8 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .page-post .cta-strip h3 { font-family: var(--disp); font-weight: 400; font-size: 1.5rem; margin-bottom: .5rem }
 .page-post .cta-strip h3 .amber { color: var(--amber) }
 .page-post .cta-strip p { color: var(--muted); font-size: .9rem; max-width: 30rem; margin: 0 auto 1.3rem }
-.page-post .cta-strip .btn { display: inline-block }
+.page-post .cta-strip .btn, .page-post article a.btn { display: inline-block; color: #141005; border-bottom: none }
+.cta-strip .btn { color: #141005; border-bottom: none }
 
 @media (prefers-reduced-motion: reduce) {
   #progress { display: none }
