@@ -614,5 +614,59 @@ def main():
     # Sitemap
     build_sitemap(tools, cats)
 
+    # llms.txt for AI-search readiness
+    build_llms_txt(tools, cats)
+
+
+def build_llms_txt(tools, cats):
+    """Generate llms.txt (site summary + structured inventory for AI crawlers)."""
+    import re as _re
+    cat_names = {c["slug"]: c["name"] for c in cats}
+    lines = [
+        "# MartechSignal",
+        "",
+        "> Independent reviews of AI marketing automation tools. Structured audits of",
+        "> 100+ martech platforms — pricing, self-hosting, APIs, and which AI features",
+        "> actually ship. No sponsored rankings, no affiliate links.",
+        "",
+        "## Directory",
+        "",
+    ]
+    active = [t for t in tools if t.get("status") == "active"]
+    by_cat = {}
+    for t in active:
+        by_cat.setdefault(t.get("category", "other"), []).append(t)
+    for cslug, ts in sorted(by_cat.items()):
+        lines.append(f"### {cat_names.get(cslug, cslug)}")
+        lines.append("")
+        for t in sorted(ts, key=lambda x: x["name"].lower()):
+            tag = (t.get("tagline") or "").strip().rstrip(".")[:110]
+            oss = " (open source)" if t.get("open_source") else ""
+            lines.append(f"- [{t['name']}](https://martechsignal.com/tools/{t['slug']}/): {tag}{oss}")
+        lines.append("")
+
+    blog_dir = ROOT / "blog"
+    posts = []
+    if blog_dir.is_dir():
+        for child in sorted(blog_dir.iterdir()):
+            f = child / "index.html"
+            if child.is_dir() and f.exists():
+                html_content = f.read_text()
+                m = _re.search(r"<title>(.*?)</title>", html_content)
+                d = _re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', html_content)
+                if m:
+                    posts.append((d.group(1) if d else "0000-00-00", child.name,
+                                  m.group(1).replace("&amp;", "&").replace("&#x27;", "'")))
+    posts.sort(reverse=True)
+    lines += ["## Analysis", ""]
+    for date, slug, title in posts:
+        lines.append(f"- [{title}](https://martechsignal.com/blog/{slug}/) ({date})")
+    lines += ["", "## Links", "", "- [Tool directory](https://martechsignal.com/tools/)",
+              "- [About / editorial policy](https://martechsignal.com/about/)",
+              "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
+    out = ROOT / "llms.txt"
+    out.write_text("\n".join(lines))
+    print(f"llms.txt: {out} ({len(lines)} lines)")
+
 if __name__ == "__main__":
     main()

@@ -1,0 +1,175 @@
+# MartechSignal
+
+> Independent reviews of AI marketing automation tools. Structured audits of
+> 100+ martech platforms — pricing, self-hosting, APIs, and which AI features
+> actually ship. No sponsored rankings, no affiliate links.
+
+## Directory
+
+### Advertising & Paid Media
+
+- [AdCreative.ai](https://martechsignal.com/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
+- [Albert AI](https://martechsignal.com/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Pencil](https://martechsignal.com/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
+- [Revealbot (Birch)](https://martechsignal.com/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+- [Smartly.io](https://martechsignal.com/tools/smartly-io/): AI-powered creative automation and media buying platform for enterprise advertisers
+
+### Agent Skills
+
+- [Aaron Marketing Skills](https://martechsignal.com/tools/aaron-marketing-skills/): 120 marketing skills across 7 disciplines for Claude Code with auditor gates (open source)
+- [AI Business Skills](https://martechsignal.com/tools/ai-business-skills/): 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents (open source)
+- [AI Marketing Suite](https://martechsignal.com/tools/ai-marketing-claude/): 15-skill marketing suite for Claude Code with parallel agents and PDF reports (open source)
+- [Analytics Tracking Automation](https://martechsignal.com/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live (open source)
+- [Claude Ads](https://martechsignal.com/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms (open source)
+- [Claude SEO](https://martechsignal.com/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents (open source)
+- [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations (open source)
+- [Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/): 158-skill AI marketing plugin for agencies with EU AI Act compliance (open source)
+- [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)
+- [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
+- [Growth Lab](https://martechsignal.com/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (open source)
+- [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
+
+### Analytics & Attribution
+
+- [Amplitude](https://martechsignal.com/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
+- [Attribution](https://martechsignal.com/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
+- [Heap](https://martechsignal.com/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Mixpanel](https://martechsignal.com/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
+- [Northbeam](https://martechsignal.com/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
+- [Snowplow](https://martechsignal.com/tools/snowplow/): Open-source customer data infrastructure for collecting, enriching, and activating behavioral data (open source)
+- [Triple Whale](https://martechsignal.com/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+
+### Chatbots & Conversational AI
+
+- [ChatbotX](https://martechsignal.com/tools/chatbotx/): Open-source ManyChat alternative built for AI — omnichannel chat marketing and automation (open source)
+- [Chatfuel](https://martechsignal.com/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Intercom](https://martechsignal.com/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
+- [ManyChat](https://martechsignal.com/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
+- [Tidio](https://martechsignal.com/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
+
+### AI Content & Copywriting
+
+- [Anyword](https://martechsignal.com/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
+- [ContentBot](https://martechsignal.com/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
+- [Copy.ai](https://martechsignal.com/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [Hypotenuse AI](https://martechsignal.com/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
+- [Jasper](https://martechsignal.com/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Persado](https://martechsignal.com/tools/persado/): Motivation AI platform generating emotionally optimized marketing copy at scale
+- [Phrasee](https://martechsignal.com/tools/phrasee/): AI-powered enterprise content optimization for email, push, and SMS marketing
+- [Writer](https://martechsignal.com/tools/writer/): Enterprise AI writing platform with brand governance, fact-checking, and agents
+
+### CRM
+
+- [Attio](https://martechsignal.com/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
+- [Cordys CRM](https://martechsignal.com/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (open source)
+- [EspoCRM](https://martechsignal.com/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (open source)
+- [Freshsales](https://martechsignal.com/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
+- [HubSpot CRM](https://martechsignal.com/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Krayin CRM](https://martechsignal.com/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management (open source)
+- [Macro](https://martechsignal.com/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (open source)
+- [Pipedrive](https://martechsignal.com/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
+- [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament (open source)
+- [Salesforce CRM](https://martechsignal.com/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+- [SuiteCRM](https://martechsignal.com/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (open source)
+- [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
+- [WaCRM](https://martechsignal.com/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (open source)
+
+### Email Marketing
+
+- [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free (open source)
+- [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
+- [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [Loops](https://martechsignal.com/tools/loops/): Modern email marketing platform for SaaS with AI-powered campaigns and automation
+- [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
+- [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
+- [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Agentic AI email automation — describe your product and target market, AI finds the leads (open source)
+- [Postmark](https://martechsignal.com/tools/postmark/): Fast, reliable transactional email delivery with industry-leading speed and uptime
+- [Resend](https://martechsignal.com/tools/resend/): Developer-first email API with React Email support and AI-powered deliverability
+- [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+
+### Marketing Automation
+
+- [ActiveCampaign](https://martechsignal.com/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
+- [Adobe Marketo Engage](https://martechsignal.com/tools/adobe-marketo/): Enterprise B2B marketing automation with AI-driven lead management and engagement
+- [ALwrity](https://martechsignal.com/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social (open source)
+- [Bloomreach](https://martechsignal.com/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
+- [Braze](https://martechsignal.com/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
+- [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
+- [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform — alternative to Braze (open source)
+- [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
+- [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation with Einstein AI for personalized customer journeys
+
+### Open-Source Tools
+
+- [Chatwoot](https://martechsignal.com/tools/chatwoot/): Open-source customer engagement platform with AI-powered chatbot and helpdesk (open source)
+- [Ghost](https://martechsignal.com/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (open source)
+- [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
+- [Matomo](https://martechsignal.com/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (open source)
+- [Mautic](https://martechsignal.com/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (open source)
+- [Plausible Analytics](https://martechsignal.com/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (open source)
+- [Strapi](https://martechsignal.com/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (open source)
+- [Umami](https://martechsignal.com/tools/umami/): Open-source privacy-focused web analytics with real-time dashboards and AI insights (open source)
+
+### Personalization & CDP
+
+- [Clerk.io](https://martechsignal.com/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
+- [Dynamic Yield](https://martechsignal.com/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
+- [Nosto](https://martechsignal.com/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
+- [Tealium](https://martechsignal.com/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
+- [Twilio Segment](https://martechsignal.com/tools/segment/): Customer data platform for collecting, unifying, and activating customer data
+
+### SEO & Search
+
+- [Clearscope](https://martechsignal.com/tools/clearscope/): AI-powered content optimization platform for SEO teams and content writers
+- [Frase](https://martechsignal.com/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
+- [MarketMuse](https://martechsignal.com/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
+- [OpenSEO](https://martechsignal.com/tools/openseo/): Open source alternative to Ahrefs and Semrush (open source)
+- [Semrush](https://martechsignal.com/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Seonaut](https://martechsignal.com/tools/seonaut/): Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues (open source)
+- [Surfer SEO](https://martechsignal.com/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
+
+### Social Media
+
+- [Brandwatch](https://martechsignal.com/tools/brandwatch/): AI-powered consumer intelligence and social media management platform
+- [Buffer](https://martechsignal.com/tools/buffer/): Simple social media scheduling and analytics with AI-powered content tools
+- [Hootsuite](https://martechsignal.com/tools/hootsuite/): Social media management platform with AI-powered scheduling and analytics
+- [MultiPost](https://martechsignal.com/tools/multipost-extension/): Browser extension to publish content to multiple social media platforms with one click (open source)
+- [Predis.ai](https://martechsignal.com/tools/predis-ai/): AI-powered social media content generator for posts, videos, and ad creatives
+- [Sprout Social](https://martechsignal.com/tools/sprout-social/): Enterprise social media management with AI-powered analytics and engagement tools
+
+### Workflow Automation
+
+- [LangChain](https://martechsignal.com/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (open source)
+- [Make](https://martechsignal.com/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
+- [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit (open source)
+- [Pipedream](https://martechsignal.com/tools/pipedream/): 
+- [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
+- [Workato](https://martechsignal.com/tools/workato/): Enterprise integration and automation platform with AI-powered workflow orchestration
+- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 7,000+ apps with AI-powered workflows
+
+## Analysis
+
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](https://martechsignal.com/blog/deliverability-ai-spam-content-problem/) (2026-08-21)
+- [You Don't Need a New Data Stack for AI — Fivetran Just Proved It](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
+- [CI Tools: The First Category AI Killed](https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/) (2026-08-18)
+- [Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook](https://martechsignal.com/blog/google-ad-agents-control-gap/) (2026-08-17)
+- [Multi-Touch Attribution Was Always a Fiction](https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/) (2026-08-14)
+- [Your Agents Are Only as Smart as Your Identity Debt](https://martechsignal.com/blog/agents-identity-debt/) (2026-08-13)
+- [Agentforce Is Free: What Marketing Ops Can Build](https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/) (2026-08-07)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/) (2026-08-06)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](https://martechsignal.com/blog/openai-agent-ads-spending-without-you/) (2026-08-05)
+- [AI Agents Need Campaign State, Not Prompts](https://martechsignal.com/blog/ai-agents-need-campaign-state/) (2026-08-03)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/) (2026-07-31)
+- [Claude Cowork is eating the edges of your martech stack](https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/) (2026-07-30)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/) (2026-07-29)
+- [n8n + AI: The Open-Source Automation Engine That Actually Works](https://martechsignal.com/blog/n8n-ai-open-source-automation/) (2026-07-28)
+- [Why Your Marketing Automation Stack Doesn't Need Another AI Tool](https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/) (2026-07-27)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](https://martechsignal.com/blog/open-source-martech-stack/) (2026-07-27)
+
+## Links
+
+- [Tool directory](https://martechsignal.com/tools/)
+- [About / editorial policy](https://martechsignal.com/about/)
+- [RSS feed](https://martechsignal.com/rss.xml)
