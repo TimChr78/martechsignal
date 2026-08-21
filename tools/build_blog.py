@@ -245,18 +245,29 @@ def build_post(meta: dict, body_html: str) -> str:
     # Human byline — the site's named author (see footer/about); org stays in JSON-LD
     byline = 'Tim Christensen'
 
-    # JSON-LD
-    schema = {
+    # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
+    article_schema = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": title,
         "description": excerpt[:160],
-        "author": {"@type": "Organization", "name": "MartechSignal"},
-        "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com"},
+        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com"},
+        "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
         "dateModified": date_str,
-        "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/"
+        "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
+        "image": "https://martechsignal.com/og.png",
     }
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"},
+            {"@type": "ListItem", "position": 3, "name": title, "item": f"https://martechsignal.com/blog/{slug}/"},
+        ],
+    }
+    schema = article_schema  # compat alias for tests that import schema
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -281,7 +292,10 @@ def build_post(meta: dict, body_html: str) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{json.dumps(schema, indent=2)}
+{json.dumps(article_schema, indent=2)}
+</script>
+<script type="application/ld+json">
+{json.dumps(breadcrumb_schema, indent=2)}
 </script>
 <link rel="stylesheet" href="/style.css">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>

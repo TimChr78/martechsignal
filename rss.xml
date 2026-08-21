@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 05:36:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 11:29:07 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</title>
@@ -116,7 +116,7 @@
       <title>Why Your Marketing Automation Stack Doesn't Need Another AI Tool</title>
       <link>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</guid>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
       <description>Most AI features in martech are shelfware. Here's what actually works — data cleanup, explainable lead scoring, segment-level personalization, and anomaly detection — and how </description>
     </item>
   </channel>
