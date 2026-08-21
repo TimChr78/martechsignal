@@ -1,5 +1,6 @@
 ---
-title: "Salesforce Just Made Agentforce Free. Here's What Marketing Ops Can Actually Build With It."
+title: "Salesforce Made Agentforce Free. What Marketing Ops Can Build With It."
+seo_title: "Agentforce Is Free: What Marketing Ops Can Build"
 slug: salesforce-agentforce-free-marketing-ops
 date: 2026-08-07
 author: MartechSignal

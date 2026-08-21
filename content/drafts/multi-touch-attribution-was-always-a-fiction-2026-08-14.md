@@ -1,5 +1,6 @@
 ---
-title: "Multi-Touch Attribution Was Always a Fiction — the Signal Loss Just Made It Undeniable"
+title: "Multi-Touch Attribution Was Always a Fiction"
+seo_title: "Multi-Touch Attribution Was Always a Fiction"
 slug: multi-touch-attribution-was-always-a-fiction
 date: 2026-08-14
 author: MartechSignal

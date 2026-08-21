@@ -1,5 +1,6 @@
 ---
-title: "Your AI marketing agent doesn't need better prompts. It needs campaign state"
+title: "Your AI Marketing Agent Doesn't Need Better Prompts"
+seo_title: "AI Agents Need Campaign State, Not Prompts"
 slug: ai-agents-need-campaign-state
 date: 2026-08-03
 author: MartechSignal

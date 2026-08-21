@@ -214,6 +214,8 @@ def inline_format(text: str) -> str:
 def build_post(meta: dict, body_html: str) -> str:
     """Generate the full HTML page for a blog post."""
     title = meta.get('title', 'Untitled')
+    # SEO title: optional frontmatter override (<=60ch) for <title>/og:title; H1 keeps full title
+    seo_title = meta.get('seo_title') or title
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
     date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%b %d, %Y').upper()
     slug = meta.get('slug') or slugify(title)
@@ -274,12 +276,12 @@ def build_post(meta: dict, body_html: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(title)}</title>
+<title>{html.escape(seo_title)}</title>
 <meta name="description" content="{html.escape(excerpt[:155])}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Martech Signal">
-<meta property="og:title" content="{html.escape(title)}">
+<meta property="og:title" content="{html.escape(seo_title)}">
 <meta property="og:description" content="{html.escape(excerpt[:155])}">
 <meta property="og:url" content="https://martechsignal.com/blog/{slug}/">
 <meta property="og:image" content="https://martechsignal.com/og.png">
