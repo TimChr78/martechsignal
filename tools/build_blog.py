@@ -270,7 +270,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "datePublished": date_str,
         "dateModified": date_str,
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
-        "image": "https://martechsignal.com/og.png",
+        "image": f"https://martechsignal.com/og/{slug}.png",
     }
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -296,7 +296,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta property="og:title" content="{html.escape(seo_title)}">
 <meta property="og:description" content="{html.escape(excerpt[:155])}">
 <meta property="og:url" content="https://martechsignal.com/blog/{slug}/">
-<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:image" content="https://martechsignal.com/og/{slug}.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
