@@ -376,6 +376,27 @@ def build_index(posts: list) -> str:
 
     blog_list = '\n'.join(entries)
 
+    # Blog + ItemList structured data (the only page that lacked ld+json)
+    item_list = {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "MartechSignal Blog",
+        "url": "https://martechsignal.com/blog/",
+        "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
+        "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com/"},
+        "blogPost": [
+            {
+                "@type": "BlogPosting",
+                "headline": p['title'],
+                "url": f"https://martechsignal.com/blog/{p.get('slug', slugify(p['title']))}/",
+                "datePublished": p['date'],
+            }
+            for p in posts_sorted
+        ],
+    }
+    import json as _json
+    schema_tag = f'<script type="application/ld+json">{_json.dumps(item_list, indent=2)}</script>'
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -403,6 +424,7 @@ def build_index(posts: list) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+{schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-blog-index">
