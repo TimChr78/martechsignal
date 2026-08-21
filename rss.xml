@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 13:05:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 15:27:58 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</title>
@@ -103,21 +103,21 @@
       <link>https://martechsignal.com/blog/n8n-ai-open-source-automation/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/n8n-ai-open-source-automation/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <description>n8n is the standout tool in the open-source martech stack. Here's how it handles lead scoring, content pipelines, and CRM enrichment — and where it still falls short.</description>
+      <description>n8n is the standout tool in the open-source martech stack. Here's how it handles lead scoring, content pipelines, and CRM enrichment — and where it still</description>
     </item>
     <item>
       <title>The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</title>
       <link>https://martechsignal.com/blog/open-source-martech-stack/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/open-source-martech-stack/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>We compared 23 open-source marketing tools against their commercial equivalents. Here's what a full OSS martech stack actually costs, where it wins, and where it doesn't.</description>
+      <description>We compared 23 open-source marketing tools against their commercial equivalents. Here's what a full OSS martech stack actually costs, where it wins, and</description>
     </item>
     <item>
       <title>Why Your Marketing Automation Stack Doesn't Need Another AI Tool</title>
       <link>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Most AI features in martech are shelfware. Here's what actually works — data cleanup, explainable lead scoring, segment-level personalization, and anomaly detection — and how </description>
+      <description>Most AI features in martech are shelfware. Here's what actually works — data cleanup, explainable lead scoring, segment-level personalization, and anomaly</description>
     </item>
   </channel>
 </rss>

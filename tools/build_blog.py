@@ -334,7 +334,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <footer>
   <div class="foot-in">
     <p><b>MartechSignal</b> — written by Tim Christensen</p>
-    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>

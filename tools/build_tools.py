@@ -156,6 +156,7 @@ def page_shell(title, description, canonical, body, schema_json=None):
       <a href="/tools/">TOOLS</a>
       <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
+      <a href="/about/">ABOUT</a>
       <a href="/#subscribe">SUBSCRIBE</a>
     </div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
@@ -536,6 +537,9 @@ def build_sitemap(tools, cats):
 
     # Tools hub
     urls.append((f"https://martechsignal.com/tools/", today, "0.8"))
+
+    # About page
+    urls.append((f"https://martechsignal.com/about/", today, "0.5"))
 
     # Individual tool pages
     for t in tools:
