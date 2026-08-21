@@ -114,12 +114,32 @@ def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = ""
     ]
 
 
-def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: set | None = None) -> list[dict]:
+def _blog_linked_tool_slugs() -> set:
+    """Slugs of tools linked from at least one published blog post's body."""
+    linked = set()
+    pat = re.compile(r"/tools/([^/\"'\\?#]+)/")
+    for f in BLOG_DIR.glob("*/index.html"):
+        try:
+            html_src = f.read_text()
+        except Exception:
+            continue
+        # body only: cut the head to avoid counting nav/schema links
+        body = html_src.split("</head>", 1)[-1]
+        linked.update(pat.findall(body))
+    return linked
+
+
+def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: set | None = None, prefer_orphans: bool = False) -> list[dict]:
     """Return related tools for arbitrary source text (blog <-> tools linking).
 
     Scores keyword overlap between source text and each tool's metadata
     (name + tagline + description + ai_features + integrations).
     Filters out inactive tools and optionally excluded slugs.
+
+    prefer_orphans: boost tools that currently receive zero links from any
+    published blog post, so the internal-linking graph stays healthy and no
+    tool page becomes an orphan. The boost only breaks ties between
+    comparable matches — relevance still dominates.
     """
     if not TOOLS_JSON.exists():
         return []
@@ -129,6 +149,7 @@ def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: s
         return []
     source_kw = keywords(extract_text(text))
     exclude_slugs = set(exclude_slugs or [])
+    linked = _blog_linked_tool_slugs() if prefer_orphans else set()
     scored: list[tuple[float, dict]] = []
     for t in tools:
         if t.get("status") != "active":
@@ -140,6 +161,8 @@ def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: s
             continue
         score = score_overlap(source_kw, keywords(extract_text(blob)))
         if score > 0:
+            if prefer_orphans and t.get("slug") not in linked:
+                score *= 1.5  # orphan boost: relevance still gates entry, this reorders near-ties
             scored.append((score, t))
     scored.sort(key=lambda item: item[0], reverse=True)
     out = []
@@ -252,3 +275,66 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+_CATEGORY_FILL_PLAN: dict[str, list[str]] = {}
+
+def set_category_fill_plan(plan: dict[str, list[str]]) -> None:
+    """Build-level plan: post slug -> ordered tool slugs to link as directory fill."""
+    global _CATEGORY_FILL_PLAN
+    _CATEGORY_FILL_PLAN = plan or {}
+
+def build_category_fill_plan(max_per_post: int = 4) -> dict[str, list[str]]:
+    """Deterministic whole-build plan assigning still-unlinked tools to posts.
+
+    Round-robin over posts (alphabetical) so the fill spreads evenly; tools are
+    taken alphabetically per category first, then globally. Computed once per
+    build so every rebuild converges instead of rotating targets.
+    """
+    pat = re.compile(r'/tools/([^/"\'?#]+)/')
+    linked = set()
+    for f in BLOG_DIR.glob("*/index.html"):
+        try:
+            body = f.read_text().split("</head>", 1)[-1]
+        except Exception:
+            continue
+        linked.update(pat.findall(body))
+    tools = json.loads(TOOLS_JSON.read_text())
+    active = [t for t in tools if t.get("status") == "active"]
+    orphans = sorted((t for t in active if t["slug"] not in linked), key=lambda t: t["name"].lower())
+    if not orphans:
+        return {}
+    posts = sorted(f.parent.name for f in BLOG_DIR.glob("*/index.html"))
+    plan: dict[str, list[str]] = {}
+    i = 0
+    for o in orphans:
+        # give each orphan to the next post in rotation, skipping the post it
+        # would naturally duplicate on (a post links a slug only once)
+        for _ in range(len(posts)):
+            post = posts[i % len(posts)]
+            i += 1
+            bucket = plan.setdefault(post, [])
+            if o["slug"] not in bucket and len(bucket) < max_per_post:
+                bucket.append(o["slug"])
+                break
+    return plan
+
+def suggest_category_fill(text: str, max_suggestions: int = 2, exclude_slugs: set | None = None, post_slug: str = "") -> list[dict]:
+    """Return this post's precomputed directory-fill links (see build_category_fill_plan)."""
+    if not TOOLS_JSON.exists():
+        return []
+    try:
+        tools = json.loads(TOOLS_JSON.read_text())
+    except Exception:
+        return []
+    exclude_slugs = set(exclude_slugs or [])
+    by_slug = {t["slug"]: t for t in tools}
+    out = []
+    for slug in _CATEGORY_FILL_PLAN.get(post_slug, []):
+        t = by_slug.get(slug)
+        if not t or t.get("status") != "active" or slug in exclude_slugs:
+            continue
+        out.append({"name": t["name"], "url": f"/tools/{t['slug']}/", "slug": slug})
+        if len(out) >= max_suggestions:
+            break
+    return out

@@ -234,6 +234,18 @@ def build_post(meta: dict, body_html: str) -> str:
     if related_tools:
         tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> — ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
         body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'
+        existing_tool_slugs.update(item['slug'] for item in related_tools)
+
+    # Directory coverage: 1-2 "More from the directory" links to unlinked tools
+    # sharing the post's dominant category. Keeps every tool page reachable
+    # from at least one editorial post (no orphans).
+    try:
+        more_links = suggest_links.suggest_category_fill(body_html, max_suggestions=8, exclude_slugs=existing_tool_slugs, post_slug=slug)
+    except Exception:
+        more_links = []
+    if more_links:
+        mlinks = ' · '.join('<a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a>' for item in more_links)
+        body_html += '<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: ' + mlinks + '</p>'
 
     # First paragraph as excerpt (strip HTML tags)
     first_p = re.search(r'<p>(.+?)</p>', body_html, re.DOTALL)
@@ -470,6 +482,48 @@ if('IntersectionObserver' in window){{
 </html>"""
 
 
+def apply_fill_to_legacy_posts():
+    """Inject directory-fill links into hand-crafted posts that bypass build_post."""
+    plan = getattr(suggest_links, "_CATEGORY_FILL_PLAN", {})
+    if not plan:
+        return 0
+    applied = 0
+    by_slug = {t["slug"]: t for t in suggest_links.json.loads(suggest_links.TOOLS_JSON.read_text())}
+    for f in sorted(BLOG_DIR.glob("*/index.html")):
+        slug = f.parent.name
+        slugs_to_link = plan.get(slug, [])
+        if not slugs_to_link:
+            continue
+        html_src = f.read_text()
+        # strip any previous fill line so we always render the current plan
+        # preserve already-rendered fill links; the plan adds missing ones
+        kept = re.findall(r'More from the directory:(.*?)</p>', html_src, flags=re.S)
+        kept_slugs = set(re.findall(r'/tools/([^/"]+)/', kept[0])) if kept else set()
+        html_src = re.sub(r'<p class="more-tools"[^>]*>More from the directory:.*?</p>\n?', "", html_src, flags=re.S)
+        links = []
+        # re-render kept links first (they were stripped above)
+        for s in sorted(kept_slugs):
+            tmeta = by_slug.get(s)
+            if tmeta and tmeta.get("status") == "active":
+                links.append(f'<a href="/tools/{s}/">{html.escape(tmeta["name"], quote=False)}</a>')
+        for s in slugs_to_link:
+            tmeta = by_slug.get(s)
+            if tmeta and tmeta.get("status") == "active" and f"/tools/{s}/" not in html_src and s not in kept_slugs:
+                links.append(f'<a href="/tools/{s}/">{html.escape(tmeta["name"], quote=False)}</a>')
+        if not links:
+            continue
+        mlinks = " \u00b7 ".join(links)
+        line = f'<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: {mlinks}</p>'
+        if "</article>" in html_src:
+            html_src = html_src.replace("</article>", line + "\n</article>", 1)
+        else:
+            html_src = html_src.replace("</main>", line + "\n</main>", 1)
+        f.write_text(html_src)
+        applied += 1
+        print(f"  + fill -> {slug}")
+    return applied
+
+
 def scan_existing_posts(draft_slugs: set) -> list:
     """Scan blog/ for existing posts not generated from drafts."""
     posts = []
@@ -625,6 +679,13 @@ def main():
     draft_slugs = set()
     posts = []
 
+    # Early plan: lets build_post render directory-fill inline for draft posts
+    try:
+        suggest_links.set_category_fill_plan(suggest_links.build_category_fill_plan(max_per_post=8))
+    except Exception as e:
+        print(f"  (early fill plan skipped: {e})")
+
+
     drafts = list(DRAFTS_DIR.glob('*.md')) if DRAFTS_DIR.is_dir() else []
     if not drafts:
         print("No drafts found — refreshing index/homepage from existing posts.")
@@ -674,6 +735,16 @@ def main():
     if existing:
         print(f"\nExisting posts scanned: {len(existing)}")
     posts.extend(existing)
+
+    # Directory coverage pass: runs AFTER all Related-tools links are on disk,
+    # so the plan sees true orphans. Patches every post in place (draft + legacy).
+    # Re-plan + re-apply up to 3x so stragglers created mid-pass get picked up;
+    # stops early when a pass assigns nothing new (converged).
+    try:
+        suggest_links.set_category_fill_plan(suggest_links.build_category_fill_plan(max_per_post=8))
+        apply_fill_to_legacy_posts()
+    except Exception as e:
+        print(f"  (directory coverage skipped: {e})")
 
     # Build blog index
     index_html = build_index(posts)
