@@ -156,6 +156,7 @@
 
 ## Analysis
 
+- [Your Dashboard Can't See AI Search — Here's the 5-Layer Fix](https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/) (2026-08-22)
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](https://martechsignal.com/blog/deliverability-ai-spam-content-problem/) (2026-08-21)
 - [You Don't Need a New Data Stack for AI — Fivetran Just Proved It](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
 - [CI Tools: The First Category AI Killed](https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/) (2026-08-18)

@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 20:09:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 05:12:25 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Your Dashboard Can't See AI Search — Here's the 5-Layer Fix</title>
+      <link>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique queries, 1,427 impressions, a</description>
+    </item>
     <item>
       <title>Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</title>
       <link>https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</link>
