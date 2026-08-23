@@ -177,5 +177,7 @@
 ## Links
 
 - [Tool directory](https://martechsignal.com/tools/)
+- [Glossary](https://martechsignal.com/glossary/)
+- [Checklist](https://martechsignal.com/checklist/)
 - [About / editorial policy](https://martechsignal.com/about/)
 - [RSS feed](https://martechsignal.com/rss.xml)

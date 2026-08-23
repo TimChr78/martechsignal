@@ -130,6 +130,13 @@ def page_shell(title, description, canonical, body, schema_json=None):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="https://martechsignal.com{canonical}">
+<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="https://martechsignal.com/og.png">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -560,46 +567,66 @@ def build_category_page(cat, tools):
 
 # ── Sitemap ────────────────────────────────────────────────────────
 
+def _lastmod(path):
+    """True lastmod from file mtime — audit M3: uniform dates erode trust."""
+    import datetime as _dt
+    return _dt.datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d")
+
 def build_sitemap(tools, cats):
     today = datetime.now().strftime("%Y-%m-%d")
     urls = []
 
     # Homepage
-    urls.append((f"https://martechsignal.com/", today, "1.0"))
+    home_html = ROOT / "index.html"
+    urls.append((f"https://martechsignal.com/", _lastmod(home_html) if home_html.exists() else today, "1.0"))
+
+    # Checklist page (audit M1: live but missing from discovery)
+    checklist_html = ROOT / "checklist" / "index.html"
+    if checklist_html.exists():
+        urls.append(("https://martechsignal.com/checklist/", _lastmod(checklist_html), "0.6"))
 
     # Blog posts (scan blog/ for subdirectories containing index.html)
     blog_dir = ROOT / "blog"
     if blog_dir.is_dir():
         for child in blog_dir.iterdir():
             if child.is_dir() and (child / "index.html").exists():
-                urls.append((f"https://martechsignal.com/blog/{child.name}/", today, "0.9"))
+                urls.append((f"https://martechsignal.com/blog/{child.name}/", _lastmod(child / "index.html"), "0.9"))
 
     # Tools hub
-    urls.append((f"https://martechsignal.com/tools/", today, "0.8"))
+    tools_hub = ROOT / "tools" / "index.html"
+    urls.append((f"https://martechsignal.com/tools/", _lastmod(tools_hub) if tools_hub.exists() else today, "0.8"))
 
     # About page
-    urls.append((f"https://martechsignal.com/about/", today, "0.5"))
+    about_html = ROOT / "about" / "index.html"
+    urls.append((f"https://martechsignal.com/about/", _lastmod(about_html) if about_html.exists() else today, "0.5"))
 
     # Individual tool pages
     for t in tools:
         if t.get("status") == "active":
-            urls.append((f"https://martechsignal.com/tools/{t['slug']}/", today, "0.7"))
+            tool_html = TOOLS_DIR / t["slug"] / "index.html"
+            lm = _lastmod(tool_html) if tool_html.exists() else today
+            urls.append((f"https://martechsignal.com/tools/{t['slug']}/", lm, "0.7"))
 
     # Category pages
     for c in cats:
-        urls.append((f"https://martechsignal.com/categories/{c['slug']}/", today, "0.8"))
+        cat_html = ROOT / "categories" / c["slug"] / "index.html"
+        lm = _lastmod(cat_html) if cat_html.exists() else today
+        urls.append((f"https://martechsignal.com/categories/{c['slug']}/", lm, "0.8"))
 
     # Glossary hub + term pages
     glossary_json = TOOLS_DIR / "glossary.json"
     if glossary_json.exists():
         glossary_terms = json.loads(glossary_json.read_text())
-        urls.append((f"https://martechsignal.com/glossary/", today, "0.8"))
+        gl_hub = ROOT / "glossary" / "index.html"
+        urls.append((f"https://martechsignal.com/glossary/", _lastmod(gl_hub) if gl_hub.exists() else today, "0.8"))
         for gt in glossary_terms:
-            urls.append((f"https://martechsignal.com/glossary/{gt['slug']}/", today, "0.6"))
+            gl_html = ROOT / "glossary" / gt["slug"] / "index.html"
+            lm = _lastmod(gl_html) if gl_html.exists() else today
+            urls.append((f"https://martechsignal.com/glossary/{gt['slug']}/", lm, "0.6"))
 
     # Blog index
     if (blog_dir / "index.html").exists():
-        urls.append((f"https://martechsignal.com/blog/", today, "0.8"))
+        urls.append((f"https://martechsignal.com/blog/", _lastmod(blog_dir / "index.html"), "0.8"))
 
     # Generate XML
     entries = []
@@ -648,7 +675,8 @@ def main():
         else:
             print(f"  · {c['slug']} (empty, skipped)")
 
-    print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + 1 hub")
+    n_hubs = sum(1 for c in cats if c.get("hub"))
+    print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + {n_hubs} hub")
 
     # Sitemap
     build_sitemap(tools, cats)
@@ -701,6 +729,8 @@ def build_llms_txt(tools, cats):
     for date, slug, title in posts:
         lines.append(f"- [{title}](https://martechsignal.com/blog/{slug}/) ({date})")
     lines += ["", "## Links", "", "- [Tool directory](https://martechsignal.com/tools/)",
+              "- [Glossary](https://martechsignal.com/glossary/)",
+              "- [Checklist](https://martechsignal.com/checklist/)",
               "- [About / editorial policy](https://martechsignal.com/about/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
