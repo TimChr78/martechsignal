@@ -131,6 +131,19 @@ def build_term_page(term, tools_map, all_terms):
         links = " · ".join(f'<a href="/glossary/{rt["slug"]}/" style="color:var(--amber)">{esc(rt["short"])}</a>' for rt in related_terms)
         rt_html = f'<h2>Related terms</h2><p style="color:var(--muted)">{links}</p>'
 
+    # optional deep-dive sections (audit H2: glossary pages must exceed 300 words)
+    dd = term.get("deep_dive") or {}
+    dd_html = ""
+    if dd:
+        parts = []
+        for key, title in [("how_it_works", "How it works"), ("practical_uses", "Practical uses"),
+                           ("choosing", "How to choose"), ("common_mistakes", "Common mistakes"),
+                           ("ai_angle", "What changed with AI")]:
+            txt = dd.get(key)
+            if txt:
+                parts.append(f"<h2>{title}</h2><p>{esc(txt)}</p>")
+        dd_html = "".join(parts)
+
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/glossary/">Glossary</a> / <span>{esc(term['short'])}</span></nav>
 <section class="page-head">
   <h1>{esc(term['term'])}</h1>
@@ -142,6 +155,7 @@ def build_term_page(term, tools_map, all_terms):
     <p>{esc(term['definition'])}</p>
     <h2>Why it matters</h2>
     <p>{esc(term['context'])}</p>
+    {dd_html}
     {related_html}
     {rt_html}
   </div>
