@@ -749,7 +749,8 @@ def build_llms_txt(tools, cats):
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
-    lines += ["", "## Links", "", "- [Tool directory](https://martechsignal.com/tools/)",
+    lines += ["", "## Links", "", "- [Blog](https://martechsignal.com/blog/)",
+              "- [Tool directory](https://martechsignal.com/tools/)",
               "- [Glossary](https://martechsignal.com/glossary/)",
               "- [Checklist](https://martechsignal.com/checklist/)",
               "- [About / editorial policy](https://martechsignal.com/about/)",

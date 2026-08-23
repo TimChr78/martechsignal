@@ -220,6 +220,7 @@
 
 ## Links
 
+- [Blog](https://martechsignal.com/blog/)
 - [Tool directory](https://martechsignal.com/tools/)
 - [Glossary](https://martechsignal.com/glossary/)
 - [Checklist](https://martechsignal.com/checklist/)
