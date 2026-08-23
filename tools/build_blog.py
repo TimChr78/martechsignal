@@ -236,6 +236,18 @@ def build_post(meta: dict, body_html: str) -> str:
         body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'
         existing_tool_slugs.update(item['slug'] for item in related_tools)
 
+    # Blog -> Glossary: suggest up to 2 glossary terms via keyword overlap
+    # (audit M7: 0/17 blog posts linked to any glossary page)
+    try:
+        existing_glossary_slugs = set(__import__('re').findall(r'/glossary/([^/"\'\\?#]+)/', body_html))
+        related_glossary = suggest_links.suggest_glossary_for_text(body_html, max_suggestions=2)
+        related_glossary = [g for g in related_glossary if g['slug'] not in existing_glossary_slugs][:2]
+        if related_glossary:
+            glinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a></li>' for item in related_glossary)
+            body_html += '<section class="related-glossary"><h2>Glossary terms</h2><ul>' + glinks + '</ul></section>'
+    except Exception:
+        pass
+
     # Directory coverage: 1-2 "More from the directory" links to unlinked tools
     # sharing the post's dominant category. Keeps every tool page reachable
     # from at least one editorial post (no orphans).

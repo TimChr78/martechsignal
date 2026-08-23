@@ -171,6 +171,42 @@ def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: s
     return out
 
 
+def suggest_glossary_for_text(text: str, max_suggestions: int = 3) -> list[dict]:
+    """Return related glossary terms for arbitrary source text.
+
+    Scores keyword overlap between source text and each glossary term's
+    term/short/definition/context. Used by build_blog.py so posts link to
+    glossary pages (audit M7: 0/17 posts linked to glossary).
+    """
+    glossary_path = ROOT / "tools" / "glossary.json"
+    if not glossary_path.exists():
+        return []
+    try:
+        terms = json.loads(glossary_path.read_text())
+    except Exception:
+        return []
+    source_kw = keywords(extract_text(text))
+    scored: list[tuple[float, dict]] = []
+    for term in terms:
+        blob = " ".join(str(term.get(k, "")) for k in ("term", "short", "definition", "context"))
+        if not blob.strip():
+            continue
+        score = score_overlap(source_kw, keywords(extract_text(blob)))
+        if score > 0:
+            scored.append((score, term))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    out = []
+    for score, term in scored[:max_suggestions]:
+        out.append({
+            "name": term.get("short") or term.get("term"),
+            "slug": term["slug"],
+            "url": f"/glossary/{term['slug']}/",
+            "score": round(score, 3),
+            "tagline": (term.get("definition") or "")[:100],
+        })
+    return out
+
+
 def suggest(draft_path: Path, max_suggestions: int = 3):
     """Return list of suggested links for a draft."""
     draft_text = get_draft_text(draft_path)
