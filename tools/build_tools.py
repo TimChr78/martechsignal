@@ -605,6 +605,11 @@ def build_sitemap(tools, cats):
     about_html = ROOT / "about" / "index.html"
     urls.append((f"https://martechsignal.com/about/", _lastmod(about_html) if about_html.exists() else today, "0.5"))
 
+    # Author page
+    author_html = ROOT / "authors" / "tim-christensen" / "index.html"
+    if author_html.exists():
+        urls.append(("https://martechsignal.com/authors/tim-christensen/", _lastmod(author_html), "0.5"))
+
     # Individual tool pages
     for t in tools:
         if t.get("status") == "active":

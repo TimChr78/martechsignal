@@ -277,7 +277,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@type": "Article",
         "headline": title,
         "description": excerpt[:155],
-        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com"},
+        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
         "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
         "dateModified": date_str,
