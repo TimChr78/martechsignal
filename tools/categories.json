@@ -155,6 +155,130 @@
    "seonaut",
    "surfer-seo"
   ],
+  "hub": {
+   "meta": "Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.",
+   "flow": [
+    {
+     "label": "CRAWL",
+     "sub": "find what breaks"
+    },
+    {
+     "label": "GAPS",
+     "sub": "topics + keywords"
+    },
+    {
+     "label": "OPTIMIZE",
+     "sub": "brief \u2192 draft \u2192 grade",
+     "style": "ai"
+    },
+    {
+     "label": "MEASURE",
+     "sub": "Google + AI answers",
+     "style": "ok"
+    }
+   ],
+   "lead": [
+    "SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.",
+    "The seven here fall into two camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing.",
+    "When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one."
+   ],
+   "chooser": [
+    {
+     "if": "You need a technical audit and rank data, not writing help",
+     "then": [
+      {
+       "name": "Semrush",
+       "slug": "semrush"
+      }
+     ],
+     "why": "Site Audit runs 140+ checks on every crawl; 25 billion keyword database"
+    },
+    {
+     "if": "You have a draft to fix, not a blank page to fill",
+     "then": [
+      {
+       "name": "Clearscope",
+       "slug": "clearscope"
+      },
+      {
+       "name": "Surfer SEO",
+       "slug": "surfer-seo"
+      }
+     ],
+     "why": "Real-time content grades built from live SERP analysis, inside Google Docs and WordPress"
+    },
+    {
+     "if": "You want citations in AI answers, not just blue links",
+     "then": [
+      {
+       "name": "Frase",
+       "slug": "frase"
+      }
+     ],
+     "why": "AI visibility monitoring and GEO optimization in the same editor as your content briefs"
+    },
+    {
+     "if": "You run a large content library that needs refresh priorities",
+     "then": [
+      {
+       "name": "MarketMuse",
+       "slug": "marketmuse"
+      }
+     ],
+     "why": "Scores your full inventory and finds the topic gaps across it"
+    },
+    {
+     "if": "You want to own the data and skip the subscription",
+     "then": [
+      {
+       "name": "OpenSEO",
+       "slug": "openseo"
+      },
+      {
+       "name": "Seonaut",
+       "slug": "seonaut"
+      }
+     ],
+     "why": "Run them on your own server with no seat fees or crawl limits"
+    }
+   ],
+   "groups": [
+    {
+     "label": "OPEN SOURCE / SELF-HOSTED",
+     "slugs": [
+      "openseo",
+      "seonaut"
+     ]
+    },
+    {
+     "label": "COMMERCIAL",
+     "slugs": [
+      "semrush",
+      "clearscope",
+      "marketmuse",
+      "surfer-seo",
+      "frase"
+     ]
+    }
+   ],
+   "reading": [
+    {
+     "slug": "google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows",
+     "title": "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.",
+     "note": "How two decades of SEO work became raw material for the answer engines"
+    },
+    {
+     "slug": "dashboard-cant-see-ai-search-5-layer-fix",
+     "title": "Your Dashboard Can't See AI Search \u2014 Here's the 5-Layer Fix",
+     "note": "The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks"
+    },
+    {
+     "slug": "google-ad-agents-control-gap",
+     "title": "Google Just Handed Your Ad Budget to AI Agents \u2014 and Kept You on the Hook",
+     "note": "What happens when Google moves bidding and budget calls into agents"
+    }
+   ]
+  },
   "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
  },
  {

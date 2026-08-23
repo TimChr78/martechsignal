@@ -257,6 +257,31 @@ def build_tool_page(t, cats, all_tools):
         items = "".join(f"<span>{esc(i)}</span>" for i in t["integrations"])
         integ_html = f'<h2>Key Integrations</h2><div class="integ-list">{items}</div>'
 
+    # optional deep-dive sections (per-tool, only for tools with a deep_dive dict)
+    dd = t.get("deep_dive") or {}
+    dd_html = ""
+    if dd:
+        parts = []
+        if dd.get("install"):
+            steps = "".join(f"<li>{esc(s)}</li>" for s in dd["install"])
+            parts.append(f'<h2>How to install</h2><ol class="feat-list">{steps}</ol>')
+        if dd.get("requirements"):
+            parts.append(f'<h2>Requirements</h2><p>{esc(dd["requirements"])}</p>')
+        if dd.get("stats"):
+            rows = "".join(f"<div class='side-row'><dt>{esc(str(k).replace('_',' ').title())}</dt><dd>{esc(str(v))}</dd></div>" for k, v in dd["stats"].items())
+            parts.append(f'<div class="side-card"><h3>Project stats</h3><dl>{rows}</dl></div>')
+        if dd.get("best_for"):
+            parts.append(f'<h2>Best for</h2><p>{esc(dd["best_for"])}</p>')
+        if dd.get("not_for"):
+            parts.append(f'<h2>Not for</h2><p>{esc(dd["not_for"])}</p>')
+        if dd.get("comparison_note"):
+            parts.append(f'<h2>Hosted vs. original</h2><p>{esc(dd["comparison_note"])}</p>')
+        # stats card goes in the sidebar; other sections inline before related links
+        inline = "".join(x for x in parts if x.startswith("<h2"))
+        sidebar_extra = "".join(x for x in parts if x.startswith("<div"))
+        dd_html = inline
+        t["_dd_sidebar"] = sidebar_extra
+
     # Overview paragraph
     if t.get('description'):
         overview_html = f'<p>{esc(t["description"])}</p>'
@@ -264,6 +289,8 @@ def build_tool_page(t, cats, all_tools):
         price_str = ('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'
         overview_html = f'<p>{esc(t.get("tagline",""))} {esc(t["name"])} is a {esc(c.get("name","").lower())} tool with {"free" if t.get("price_from",1)==0 else "paid"} pricing starting at {price_str}.</p>'
 
+    deep_dive_html = dd_html if dd else ""
+    deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
 <section class="page-head">
   <h1>{esc(t['name'])}</h1>
@@ -276,6 +303,7 @@ def build_tool_page(t, cats, all_tools):
     {overview_html}
     {ai_html}
     {integ_html}
+    {deep_dive_html}
     {related_html}
   </div>
   <aside class="sidebar">
@@ -284,6 +312,7 @@ def build_tool_page(t, cats, all_tools):
       <dl>
         <div class="side-row"><dt>Pricing</dt><dd>{esc(pricing_label(t))}</dd></div>
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></dd></div>
+        {deep_dive_sidebar}
         {'<div class="side-row"><dt>G2 Rating</dt><dd>★ ' + str(t['g2_rating']) + ' (' + str(t.get('g2_reviews','')) + ')</dd></div>' if t.get('g2_rating') else ''}
         {'<div class="side-row"><dt>GitHub</dt><dd>★ ' + str(t['github_stars']) + '</dd></div>' if t.get('github_stars') else ''}
         {'<div class="side-row"><dt>Founded</dt><dd>' + str(t['founded']) + '</dd></div>' if t.get('founded') else ''}
@@ -356,11 +385,16 @@ def build_tool_page(t, cats, all_tools):
         if t.get("api_available"): pros.append("an API for custom integrations")
         a3 = (f"Our audit found {', '.join(pros)}" if pros else f"Our audit covers {name}'s core {cat.lower()} workflow")
         a3 += f". The full review breaks down where it fits in a modern martech stack."
-        return [
+        faqs = [
             {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
             {"@type": "Question", "name": q2, "acceptedAnswer": {"@type": "Answer", "text": a2}},
             {"@type": "Question", "name": q3, "acceptedAnswer": {"@type": "Answer", "text": a3}},
         ]
+        # per-tool FAQ extensions (targets long-tail query variants)
+        if dd.get("faq_extra"):
+            for q, a in dd["faq_extra"]:
+                faqs.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
+        return faqs
 
     faq_schema = {
         "@context": "https://schema.org",
