@@ -174,10 +174,27 @@
 - [Why Your Marketing Automation Stack Doesn't Need Another AI Tool](https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/) (2026-07-27)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](https://martechsignal.com/blog/open-source-martech-stack/) (2026-07-27)
 
+## Categories
+
+- [Advertising & Paid Media](https://martechsignal.com/categories/advertising/)
+- [Agent Skills](https://martechsignal.com/categories/agent-skills/)
+- [AI Content & Copywriting](https://martechsignal.com/categories/content-ai/)
+- [Analytics & Attribution](https://martechsignal.com/categories/analytics/)
+- [Chatbots & Conversational AI](https://martechsignal.com/categories/chatbots/)
+- [CRM](https://martechsignal.com/categories/crm/)
+- [Email Marketing](https://martechsignal.com/categories/email-marketing/)
+- [Marketing Automation](https://martechsignal.com/categories/marketing-automation/)
+- [Open-Source Tools](https://martechsignal.com/categories/open-source/)
+- [Personalization & CDP](https://martechsignal.com/categories/personalization/)
+- [SEO & Search](https://martechsignal.com/categories/seo/)
+- [Social Media](https://martechsignal.com/categories/social-media/)
+- [Workflow Automation](https://martechsignal.com/categories/workflow-automation/)
+
 ## Links
 
 - [Tool directory](https://martechsignal.com/tools/)
 - [Glossary](https://martechsignal.com/glossary/)
 - [Checklist](https://martechsignal.com/checklist/)
 - [About / editorial policy](https://martechsignal.com/about/)
+- [Author](https://martechsignal.com/authors/tim-christensen/)
 - [RSS feed](https://martechsignal.com/rss.xml)

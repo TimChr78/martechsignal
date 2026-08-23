@@ -740,10 +740,14 @@ def build_llms_txt(tools, cats):
     lines += ["## Analysis", ""]
     for date, slug, title in posts:
         lines.append(f"- [{title}](https://martechsignal.com/blog/{slug}/) ({date})")
+    lines += ["", "## Categories", ""]
+    for c in sorted(cats, key=lambda x: x["name"].lower()):
+        lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
     lines += ["", "## Links", "", "- [Tool directory](https://martechsignal.com/tools/)",
               "- [Glossary](https://martechsignal.com/glossary/)",
               "- [Checklist](https://martechsignal.com/checklist/)",
               "- [About / editorial policy](https://martechsignal.com/about/)",
+              "- [Author](https://martechsignal.com/authors/tim-christensen/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
     out.write_text("\n".join(lines))
