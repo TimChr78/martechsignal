@@ -212,7 +212,7 @@ def build_term_page(term, tools_map, all_terms):
     out.write_text(page_shell(
         title,
         f"{term['definition'][:155]}",
-        f"/glossary/{slug}/", body, [schema, breadcrumb]))
+        f"/glossary/{slug}/", body, [schema, breadcrumb], og_image=f"og/glossary/{slug}.png"))
     return out
 
 

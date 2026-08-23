@@ -113,7 +113,8 @@ def _seo_description_for(t, cats):
 
 # ── Shared HTML shell ──────────────────────────────────────────────
 
-def page_shell(title, description, canonical, body, schema_json=None):
+def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
+    og_url = og_image or "og.png"
     schema_block = ""
     if schema_json:
         schema_block = f'<script type="application/ld+json">{json.dumps(schema_json, indent=2)}</script>'
@@ -130,13 +131,13 @@ def page_shell(title, description, canonical, body, schema_json=None):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="https://martechsignal.com{canonical}">
-<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:image" content="https://martechsignal.com/{og_url}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(description)}">
-<meta name="twitter:image" content="https://martechsignal.com/og.png">
+<meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -423,7 +424,7 @@ def build_tool_page(t, cats, all_tools):
     out.write_text(page_shell(
         seo_title,
         seo_desc,
-        f"/tools/{slug}/", body, [schema, breadcrumb, faq_schema]))
+        f"/tools/{slug}/", body, [schema, breadcrumb, faq_schema], og_image=f"og/tools/{slug}.png"))
     return out
 
 # ── Category pages ─────────────────────────────────────────────────
@@ -565,7 +566,7 @@ def build_category_page(cat, tools):
     out.write_text(page_shell(
         f"{cat['name']} Tools — MartechSignal",
         (hub.get("meta") if hub else f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.") or "",
-        f"/categories/{cat['slug']}/", body, schema))
+        f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
 
 # ── Main ───────────────────────────────────────────────────────────

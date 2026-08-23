@@ -52,6 +52,7 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # Per-post OG cards (Pillow venv; skip silently if venv missing)
     if [ -x /home/hermes/.hermes/venvs/imggen/bin/python ]; then
         /home/hermes/.hermes/venvs/imggen/bin/python tools/generate_og.py || echo "  (og generation skipped)"
+        /home/hermes/.hermes/venvs/imggen/bin/python tools/generate_media.py || echo "  (media generation skipped)"
     fi
     echo ""
 fi
