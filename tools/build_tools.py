@@ -209,6 +209,7 @@ def build_hub(tools, cats):
   <p class="sub">Curated tools for AI-powered marketing automation — from email and CRM to content generation and workflow automation.</p>
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
+<img src="/og/charts/oss-by-category.png" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <nav class="cat-nav">{pills}</nav>
 <div class="tool-grid">{cards}</div>"""
 
