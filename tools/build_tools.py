@@ -283,6 +283,11 @@ def build_tool_page(t, cats, all_tools):
             parts.append(f'<h2>Not for</h2><p>{esc(dd["not_for"])}</p>')
         if dd.get("comparison_note"):
             parts.append(f'<h2>Hosted vs. original</h2><p>{esc(dd["comparison_note"])}</p>')
+        if dd.get("hands_on"):
+            paras = "".join(f"<p>{esc(p)}</p>" for p in dd["hands_on"])
+            parts.append(f'<h2>Hands-on notes</h2>{paras}')
+        if dd.get("verdict"):
+            parts.append(f'<h2>Verdict</h2><p>{esc(dd["verdict"])}</p>')
         # stats card goes in the sidebar; other sections inline before related links
         inline = "".join(x for x in parts if x.startswith("<h2"))
         sidebar_extra = "".join(x for x in parts if x.startswith("<div"))
