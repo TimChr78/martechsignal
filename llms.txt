@@ -174,6 +174,34 @@
 - [Why Your Marketing Automation Stack Doesn't Need Another AI Tool](https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/) (2026-07-27)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](https://martechsignal.com/blog/open-source-martech-stack/) (2026-07-27)
 
+## Glossary
+
+- [Account-Based Marketing (ABM)](https://martechsignal.com/glossary/abm/)
+- [AI Content Generation](https://martechsignal.com/glossary/ai-content-generation/)
+- [Attribution Models (First-Touch, Last-Touch, Multi-Touch)](https://martechsignal.com/glossary/marketing-attribution-models/)
+- [Chatbot (Conversational AI)](https://martechsignal.com/glossary/chatbot/)
+- [Conversion Rate Optimization (CRO)](https://martechsignal.com/glossary/cro/)
+- [Customer Data Platform (CDP)](https://martechsignal.com/glossary/cdp/)
+- [Customer Journey Mapping](https://martechsignal.com/glossary/customer-journey/)
+- [Customer Relationship Management (CRM)](https://martechsignal.com/glossary/crm/)
+- [Data Management Platform (DMP)](https://martechsignal.com/glossary/dmp/)
+- [Demand-Side Platform (DSP)](https://martechsignal.com/glossary/dsp/)
+- [Dynamic Creative Optimization (DCO)](https://martechsignal.com/glossary/dco/)
+- [Email Deliverability](https://martechsignal.com/glossary/deliverability/)
+- [Email Sequence (Drip Campaign)](https://martechsignal.com/glossary/email-sequence/)
+- [First-Party Data](https://martechsignal.com/glossary/first-party-data/)
+- [Lead Scoring](https://martechsignal.com/glossary/lead-scoring/)
+- [Marketing Attribution](https://martechsignal.com/glossary/attribution/)
+- [Marketing Automation](https://martechsignal.com/glossary/marketing-automation/)
+- [Marketing Operations (MarketingOps)](https://martechsignal.com/glossary/marketing-ops/)
+- [MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)](https://martechsignal.com/glossary/mql-sql/)
+- [Programmatic Advertising](https://martechsignal.com/glossary/programmatic-advertising/)
+- [Search Engine Optimization (SEO)](https://martechsignal.com/glossary/seo/)
+- [Social Listening](https://martechsignal.com/glossary/social-listening/)
+- [UTM Parameters](https://martechsignal.com/glossary/utm-parameters/)
+- [Website Personalization](https://martechsignal.com/glossary/personalization/)
+- [Workflow Automation (iPaaS)](https://martechsignal.com/glossary/workflow-automation/)
+
 ## Categories
 
 - [Advertising & Paid Media](https://martechsignal.com/categories/advertising/)

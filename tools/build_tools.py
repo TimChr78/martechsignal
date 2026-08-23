@@ -740,6 +740,12 @@ def build_llms_txt(tools, cats):
     lines += ["## Analysis", ""]
     for date, slug, title in posts:
         lines.append(f"- [{title}](https://martechsignal.com/blog/{slug}/) ({date})")
+    glossary_json = TOOLS_DIR / "glossary.json"
+    if glossary_json.exists():
+        glossary_terms = json.loads(glossary_json.read_text())
+        lines += ["", "## Glossary", ""]
+        for gt in sorted(glossary_terms, key=lambda x: x["term"].lower()):
+            lines.append(f"- [{gt['term']}](https://martechsignal.com/glossary/{gt['slug']}/)")
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
