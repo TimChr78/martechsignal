@@ -295,6 +295,19 @@ def build_tool_page(t, cats, all_tools):
         sidebar_extra = "".join(x for x in parts if x.startswith("<div"))
         dd_html = inline
         t["_dd_sidebar"] = sidebar_extra
+    else:
+        inline = ""
+        sidebar_extra = ""
+        dd_html = ""
+
+    # Vendor screenshot on every tool page that has a capture (M9 media plan)
+    _shot_path = f"og/screenshots/{slug}-{datetime.now().strftime('%Y-%m')}.png"
+    _shot = ROOT / _shot_path
+    if _shot.exists():
+        shot_html = (f'<figure style="margin:1.5rem 0"><img src="/{_shot_path}" '
+                     f'alt="Screenshot of {esc(t["name"])} homepage, {datetime.now().strftime("%B %Y")}" loading="lazy" '
+                     f'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></figure>')
+        dd_html = shot_html + dd_html
 
     # Overview paragraph
     if t.get('description'):
@@ -303,7 +316,7 @@ def build_tool_page(t, cats, all_tools):
         price_str = ('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'
         overview_html = f'<p>{esc(t.get("tagline",""))} {esc(t["name"])} is a {esc(c.get("name","").lower())} tool with {"free" if t.get("price_from",1)==0 else "paid"} pricing starting at {price_str}.</p>'
 
-    deep_dive_html = dd_html if dd else ""
+    deep_dive_html = dd_html
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
 <section class="page-head">
