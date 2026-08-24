@@ -3,3 +3,12 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
+
+/style.css
+  Cache-Control: public, max-age=604800
+/rss.xml
+  Cache-Control: public, max-age=300
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+/og/*
+  Cache-Control: public, max-age=2592000

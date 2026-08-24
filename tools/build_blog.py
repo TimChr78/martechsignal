@@ -297,7 +297,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@type": "Article",
         "headline": title,
         "description": excerpt[:155],
-        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
+        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
         "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
         "dateModified": date_str,
@@ -344,7 +344,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <script type="application/ld+json">
 {json.dumps(breadcrumb_schema, indent=2)}
 </script>
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=130896fb">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -365,7 +365,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <p class="meta">{date_display}</p>
 <div class="byline">
   <span class="av">TC</span>
-  <span class="who"><b>{byline}</b></span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">{byline}</a></b></span>
 </div>
 
 {body_html}
@@ -380,8 +380,8 @@ def build_post(meta: dict, body_html: str) -> str:
 </main>
 <footer>
   <div class="foot-in">
-    <p><b>MartechSignal</b> — written by Tim Christensen</p>
-    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <p><b>MartechSignal</b> — written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>
@@ -469,7 +469,7 @@ def build_index(posts: list) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=130896fb">
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
