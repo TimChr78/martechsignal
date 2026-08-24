@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2026 17:40:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 05:32:33 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</title>
+      <link>https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <description>This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide og:image 404 that our de</description>
+    </item>
     <item>
       <title>Your Dashboard Can't See AI Search — Here's the 5-Layer Fix</title>
       <link>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</link>

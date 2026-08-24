@@ -539,3 +539,12 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 @media (prefers-reduced-motion: reduce) {
   #progress { display: none }
 }
+
+/* FAQ accordions (visible FAQPage content on tool pages) */
+.faq-block { margin: 2rem 0 }
+.faq-block h2 { margin-bottom: .8rem }
+.faq-item { border: 1px solid var(--line); border-radius: 6px; margin-bottom: .5rem; background: rgba(15,27,49,.5) }
+.faq-item summary { cursor: pointer; padding: .75rem 1rem; font-weight: 600; font-size: .95rem; color: #E8EDF7; list-style-position: inside }
+.faq-item summary:hover { color: var(--amber) }
+.faq-item[open] summary { border-bottom: 1px solid var(--line) }
+.faq-item p { padding: .75rem 1rem; margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.55 }

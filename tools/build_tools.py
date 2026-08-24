@@ -316,6 +316,56 @@ def build_tool_page(t, cats, all_tools):
         price_str = ('$'+str(t['price_from'])+'/mo') if t.get('price_from') is not None else 'custom pricing'
         overview_html = f'<p>{esc(t.get("tagline",""))} {esc(t["name"])} is a {esc(c.get("name","").lower())} tool with {"free" if t.get("price_from",1)==0 else "paid"} pricing starting at {price_str}.</p>'
 
+    # FAQPage Q&A: generated from tool data (AI Overview / PAA eligibility).
+    # Rendered BOTH as visible accordions in the page body AND as FAQPage
+    # JSON-LD — schema-only Q&A without matching on-page content risks
+    # Google structured-data guideline non-compliance.
+    def _faq_for(t, c):
+        name = t["name"]
+        cat = c.get("name", "marketing")
+        price = pricing_label(t)
+        q1 = f"What is {name}?"
+        a1 = (t.get("tagline") or "").strip().rstrip(".") or f"{name} is a {cat.lower()} tool."
+        a1 = f"{a1}. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        q2 = f"How much does {name} cost?"
+        if t.get("open_source"):
+            a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
+        elif t.get("price_from") is not None:
+            a2 = (f"{name} starts at ${t['price_from']}/mo." if t.get("price_from")
+                  else f"{name} has a free tier. Paid plans unlock higher limits.")
+        else:
+            a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
+        q3 = f"Is {name} a good {cat.lower()} tool in 2026?"
+        pros = []
+        if t.get("g2_rating"): pros.append(f"a {t['g2_rating']}/5 G2 rating")
+        if t.get("github_stars"): pros.append(f"{t['github_stars']:,} GitHub stars")
+        if t.get("api_available"): pros.append("an API for custom integrations")
+        a3 = (f"Our audit found {', '.join(pros)}" if pros else f"Our audit covers {name}'s core {cat.lower()} workflow")
+        a3 += f". The full review breaks down where it fits in a modern martech stack."
+        faqs = [
+            {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
+            {"@type": "Question", "name": q2, "acceptedAnswer": {"@type": "Answer", "text": a2}},
+            {"@type": "Question", "name": q3, "acceptedAnswer": {"@type": "Answer", "text": a3}},
+        ]
+        # per-tool FAQ extensions (targets long-tail query variants)
+        if dd.get("faq_extra"):
+            for q, a in dd["faq_extra"]:
+                faqs.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
+        return faqs
+
+    faqs = _faq_for(t, c)
+
+    # Visible FAQ accordions (same Q&A as the FAQPage JSON-LD)
+    _faq_items = [
+        f'<details class="faq-item"><summary>{esc(q["name"])}</summary>'
+        f'<p>{esc(q["acceptedAnswer"]["text"])}</p></details>'
+        for q in faqs
+    ]
+    faq_html = (
+        '<section class="faq-block"><h2>Frequently asked questions</h2>'
+        + "".join(_faq_items) + "</section>"
+    ) if _faq_items else ""
+
     deep_dive_html = dd_html
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
@@ -331,6 +381,7 @@ def build_tool_page(t, cats, all_tools):
     {ai_html}
     {integ_html}
     {deep_dive_html}
+    {faq_html}
     {related_html}
   </div>
   <aside class="sidebar">

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</title>
+<meta name="description" content="This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.">
+<meta property="og:description" content="This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide">
+<meta property="og:url" content="https://martechsignal.com/blog/claude-seo-teardown-martechsignal/">
+<meta property="og:image" content="https://martechsignal.com/og/claude-seo-teardown-martechsignal.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/claude-seo-teardown-martechsignal/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.",
+  "description": "This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-teardown-martechsignal/",
+  "image": "https://martechsignal.com/og/claude-seo-teardown-martechsignal.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.",
+      "item": "https://martechsignal.com/blog/claude-seo-teardown-martechsignal/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AGENT SKILLS · SEO · 7 MIN</p>
+<h1>I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</h1>
+<p class="meta">AUG 24, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b>Tim Christensen</b></span>
+</div>
+
+<p>This site reviews martech tools for a living. On August 23 we pointed a free, open-source <a href="/categories/agent-skills/">agent skill</a> at our own production domain, and it found a sitewide og:image 404 that our deploy pipeline had been shipping for weeks. Every link to this site shared on X, LinkedIn, or Slack rendered as bare text. The build system missed it, and we missed it by eye too. A stranger's MIT-licensed script caught it in one crawl.</p>
+
+<p>This is the teardown of that run: what it found, where it fell down, and the footer it appends to every deliverable that you should know about before pointing it at client work.</p>
+
+<h2>What we actually ran</h2>
+
+<p>The tool is <a href="/tools/claude-seo/">Claude SEO</a> (AgriciDaniel/claude-seo, v2.2.4, MIT, roughly 14.8K GitHub stars as of this writing): 25 sub-skills and 18 sub-agents covering technical SEO, schema, E-E-A-T, backlinks, and AI search readiness, packaged for Claude Code.</p>
+
+<p>We did not pay Anthropic for this. Our Claude Code CLI is wired through OmniRoute to CommandCode's ox-alpha model, so the skill ran on third-party capacity with no subscription involved. The trade is speed: ox-alpha takes 60 to 160 seconds per turn. The skill also degrades honestly. With no Google API credentials it skips the agents that need them and says so in the report ("Credential Tier −1" is its phrase), and Common Crawl's free tier returned zero metrics for a domain this young. It audited what it could reach and told us what it could not.</p>
+
+<h2>The marketing versus the runtime</h2>
+
+<p>The README's headline feature is 18 parallel agents. In practice our run executed them sequentially, an inline fallback the report itself labels as such. The full audit of 169 sitemap URLs took about two hours. If you are sizing one of these runs into a workday, plan for that number, not for a parallel speedup.</p>
+
+<p>The output was more disciplined than most paid tools we have reviewed. Every finding carried evidence (the actual curl response, the word count, the link graph), a falsifiability check ("if impressions don't move in 8 weeks, the terms are too competitive"), and a leading indicator to watch. That framing is <a href="/glossary/seo/">technical SEO</a> done the way we wish vendors did it: claims you can disprove, not vibes.</p>
+
+<h2>What it caught that we missed</h2>
+
+<p>The headline score was 83/100, with the damage concentrated in three categories: Content Quality at 72, Images at 60, everything else in the high 80s. The findings that stung:</p>
+
+<p><strong>The og:image 404.</strong> All 36 pages carrying an og:image tag pointed at <code>/og.png</code>, which returned 404. Zero <code>twitter:image</code> tags anywhere. This site's growth plan is editorial content shared by readers, and every share arrived cardless. The fix is live now: <a href="/og.png">/og.png</a> returns 200, and blog, tool, and category pages each carry their own generated image.</p>
+
+<p><strong>A uniformly thin glossary.</strong> All 26 glossary pages sat under 300 words, median 203, while targeting head terms like CRM and attribution where 1,000-word incumbents own the SERP. We expanded 11 of them same-day; <a href="/glossary/cro/">/glossary/cro/</a> went from a stub to 529 words of actual definition and context.</p>
+
+<p><strong>109 near-identical tool pages.</strong> The audit measured what we suspected and ignored: identical 18-link blocks on every page, the same three-question FAQ on 108 of 109, one meta-description template. Post-HCU, that is a scaled-content profile. We added unique hands-on notes and verdicts to the 20 tools with real search demand first.</p>
+
+<p><strong>Plumbing.</strong> A broken homepage link to <a href="/tools/segment/">/tools/segment/</a> (it pointed at a 404 slug), <a href="/checklist/">/checklist/</a> live and linked but absent from the sitemap and llms.txt, every sitemap entry stamped with the same fake lastmod date, and no HSTS header. Each was a minutes-long fix that had been invisible to us for months.</p>
+
+<p><strong>Internal linking and entity signals.</strong> Blog posts linked to tools in 17 of 17 cases and to glossary pages in zero of 17. Our Article schema pointed the author at the homepage instead of a person. We added blog-to-glossary links (14 of 17 posts now have them) and built <a href="/authors/tim-christensen/">/authors/tim-christensen/</a> with proper schema the same day.</p>
+
+<h2>Where it fell down</h2>
+
+<p>The audit could not measure Core Web Vitals field data or lab scores because we had no PageSpeed API key configured, and it said so rather than inventing numbers. Common Crawl had nothing on a young domain. And because we were fixing things while it crawled, it audited a moving target: some findings described state that had already changed by the time the report rendered. Two hours of wall-clock time makes that unavoidable.</p>
+
+<p>It also missed things the second pass caught, which is worth saying plainly. When we re-ran the audit on August 24 after the fixes, it surfaced two new High findings the first run never flagged: our FAQ schema existed only in JSON-LD with no visible FAQ content on the page, and every blog post emitted its Article schema twice. The Schema category score actually went down between runs, from 90 to 88. One audit is a snapshot, not a certification.</p>
+
+<h2>The footer you should know about</h2>
+
+<p>Every major deliverable this skill produces ends with an appended block: "Built by agricidaniel, Join the AI Marketing Hub community," followed by links to the author's free and paid Skool communities. There is no disclosure of it, no flag, and no opt-out in the audit run. If you run this skill on a client's site and hand them the report, you are handing them an advertisement embedded in what looks like neutral analysis. The skill is MIT licensed and free, so this is not a scandal. It is a governance fact you should decide about consciously, especially in agency workflows where the deliverable carries your name.</p>
+
+<h2>The receipts</h2>
+
+<div class="flow-strip">
+  <div class="flow-step"><span class="flow-label">AUDIT</span><span class="flow-sub">169 pages crawled, ~2 hours</span></div>
+  <div class="flow-wire"><span class="flow-pulse"></span></div>
+  <div class="flow-step"><span class="flow-label">FIND</span><span class="flow-sub">3 high, 9 medium, 7 low</span></div>
+  <div class="flow-wire"><span class="flow-pulse"></span></div>
+  <div class="flow-step"><span class="flow-label">FIX</span><span class="flow-sub">all 9 addressed same day</span></div>
+  <div class="flow-wire"><span class="flow-pulse"></span></div>
+  <div class="flow-step ai"><span class="flow-label">RE-AUDIT</span><span class="flow-sub">83 to 92, verified by re-crawl</span></div>
+</div>
+
+<p>We addressed all nine actionable findings from the first audit the same day, across commits 547bedc through 1c6385e on August 23. The re-audit on August 24 re-crawled all 171 URLs (the site grew by two pages in the meantime) and scored it independently:</p>
+
+<p>| Category | Weight | Aug 23 | Aug 24 | Delta | |—-|—-|—-|—-|—-| | Technical SEO | 22% | 85 | 95 | +10 | | Content Quality | 23% | 72 | 85 | +13 | | On-Page SEO | 20% | 88 | 93 | +5 | | Schema | 10% | 90 | 88 | −2 | | Performance (CWV) | 10% | 92 | 92 | 0 | | AI Search Readiness | 10% | 88 | 96 | +8 | | Images | 5% | 60 | 98 | +38 | | <strong>Health score</strong> | | <strong>83</strong> | <strong>92</strong> | <strong>+9</strong> |</p>
+
+<div class="verdict win">
+<p>The audit worked. It found real defects our own pipeline shipped, every claim carried verifiable evidence, and the score moved when we fixed things, confirmed by a second independent crawl rather than self-report.</p>
+</div>
+
+<div class="verdict warn">
+<p>The score is not the point. The remaining gaps the re-audit found (thin category hubs, an orphaned author page, duplicated schema) are the kind of things a second pass catches precisely because the first pass changed what it was looking at. Treat any single audit as a starting list, never a clean bill of health.</p>
+</div>
+
+<h2>The verdict</h2>
+
+<p>Claude SEO is the strongest free <a href="/categories/seo/">SEO</a> skill we have run, and it embarrassed our own deploy pipeline on our own site. Use it. Run it twice, a week apart, and assume the first report is incomplete. Strip the footer before it touches a client. We fixed everything the first audit named and the second crawl confirmed it, then found three new problems we still have to work through.</p>
+
+<p>See the full tool review and alternatives in our <a href="/tools/claude-seo/">Claude SEO directory entry</a>, and our <a href="/glossary/cro/">conversion rate optimization glossary</a> if the thin-content scoring is news to you.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/ci-tools-were-the-first-martech-category-ai-killed/">Competitive-Intel Tools Were the First Martech Category AI Killed</a></li><li><a href="/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/">Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/ai-marketing-claude/">AI Marketing Suite</a> — 15-skill marketing suite for Claude Code with parallel agents and PDF reports</li><li><a href="/tools/macro/">Macro</a> — Open source workspace with a self-updating, agent-driven CRM and shared AI team memory</li><li><a href="/tools/claude-ads/">Claude Ads</a> — Paid-media operations skill for Claude Code covering 12 ad platforms</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/analytics-tracking-automation/">Analytics Tracking Automation</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b> — written by Tim Christensen</p>
+    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>
