@@ -126,6 +126,26 @@ def markdown_to_html(md: str) -> str:
             out.append(fenced_code_block(lang, '\n'.join(code_lines)))
             continue
 
+        # Pipe table: header row | a | b | + separator row |---|---|
+        if line.strip().startswith('|') and i + 1 < len(lines) and re.match(r'^\s*\|[\s:|-]+$', lines[i + 1]):
+            def _cells(row):
+                return [c.strip() for c in row.strip().strip('|').split('|')]
+            headers = _cells(lines[i])
+            i += 2  # skip header + separator
+            body_rows = []
+            while i < len(lines) and lines[i].strip().startswith('|'):
+                cells = _cells(lines[i])
+                # pad/truncate to header width so ragged rows stay valid HTML
+                cells = (cells + [''] * len(headers))[:len(headers)]
+                body_rows.append([inline_format(c) for c in cells])
+                i += 1
+            head_html = ''.join(f'<th>{inline_format(h)}</th>' for h in headers)
+            rows_html = ''.join(
+                '<tr>' + ''.join(f'<td>{c}</td>' for c in row) + '</tr>' for row in body_rows)
+            out.append(f'<div class="table-wrap"><table><thead><tr>{head_html}</tr></thead>'
+                       f'<tbody>{rows_html}</tbody></table></div>')
+            continue
+
         # Unordered list
         if re.match(r'^-\s', line):
             items = []
