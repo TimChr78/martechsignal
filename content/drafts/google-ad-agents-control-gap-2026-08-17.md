@@ -1,5 +1,6 @@
 ---
 title: "Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook"
+seo_title: "Google Handed Your Ad Budget to AI Agents"
 slug: google-ad-agents-control-gap
 date: 2026-08-17
 author: MartechSignal

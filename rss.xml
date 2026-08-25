@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 05:07:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 06:15:46 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Link Building Won't Get You Into AI Answers. Community Signals Will.</title>
@@ -120,7 +120,7 @@
       <description>Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying th</description>
     </item>
     <item>
-      <title>n8n + AI: The Open-Source Automation Engine That Actually Works</title>
+      <title>n8n + AI: The Open-Source Automation Engine</title>
       <link>https://martechsignal.com/blog/n8n-ai-open-source-automation/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/n8n-ai-open-source-automation/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
@@ -134,7 +134,7 @@
       <description>We compared 23 open-source marketing tools against their commercial equivalents. Here's what a full OSS martech stack actually costs, where it wins, and</description>
     </item>
     <item>
-      <title>Why Your Marketing Automation Stack Doesn't Need Another AI Tool</title>
+      <title>Why Your Marketing Stack Doesn't Need Another AI Tool</title>
       <link>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>

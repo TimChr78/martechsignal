@@ -1,5 +1,6 @@
 ---
 title: "OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You."
+seo_title: "OpenAI Isn't Building Ads. It's Building Agents"
 slug: openai-agent-ads-spending-without-you
 date: 2026-08-05
 author: MartechSignal

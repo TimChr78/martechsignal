@@ -604,10 +604,39 @@ def build_category_page(cat, tools):
 
 # ── Sitemap ────────────────────────────────────────────────────────
 
+_LASTMOD_STORE_PATH = ROOT / "tools" / ".lastmod.json"
+_lastmod_store = None
+
+def _load_lastmod_store():
+    global _lastmod_store
+    if _lastmod_store is None:
+        try:
+            _lastmod_store = json.loads(_LASTMOD_STORE_PATH.read_text())
+        except Exception:
+            _lastmod_store = {}
+    return _lastmod_store
+
+def _save_lastmod_store():
+    if _lastmod_store is not None:
+        _LASTMOD_STORE_PATH.write_text(json.dumps(_lastmod_store, indent=1))
+
 def _lastmod(path):
-    """True lastmod from file mtime — audit M3: uniform dates erode trust."""
-    import datetime as _dt
-    return _dt.datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d")
+    """Content-hash lastmod — audit 3 M2: rebuild re-stamps evergreen pages,
+    teaching Google to distrust lastmod. Fingerprint the rendered HTML; if
+    unchanged since the previous build, keep the stored date instead of today."""
+    import datetime as _dt, hashlib as _hl, re as _re
+    p = Path(path)
+    if not p.exists():
+        return _dt.datetime.now().strftime("%Y-%m-%d")
+    fp = _hl.sha256(_re.sub(r"<lastmod>[^<]*</lastmod>", "", p.read_text()).encode()).hexdigest()[:16]
+    store = _load_lastmod_store()
+    key = str(p)
+    prev = store.get(key)
+    if prev and prev.get("fp") == fp:
+        return prev["date"]
+    date = _dt.datetime.fromtimestamp(p.stat().st_mtime).strftime("%Y-%m-%d")
+    store[key] = {"fp": fp, "date": date}
+    return date
 
 def build_sitemap(tools, cats):
     today = datetime.now().strftime("%Y-%m-%d")
@@ -681,6 +710,7 @@ def build_sitemap(tools, cats):
     sitemap += '\n</urlset>\n'
 
     (ROOT / "sitemap.xml").write_text(sitemap)
+    _save_lastmod_store()
     print(f"\nSitemap: {len(urls)} URLs written to sitemap.xml")
 
     # Ensure robots.txt exists

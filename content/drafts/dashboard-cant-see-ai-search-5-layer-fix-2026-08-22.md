@@ -1,5 +1,6 @@
 ---
 title: "Your Dashboard Can't See AI Search — Here's the 5-Layer Fix"
+seo_title: "Your Dashboard Can't See AI Search: 5-Layer Fix"
 slug: dashboard-cant-see-ai-search-5-layer-fix
 date: 2026-08-22
 author: MartechSignal

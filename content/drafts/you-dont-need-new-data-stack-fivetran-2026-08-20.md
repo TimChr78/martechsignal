@@ -1,5 +1,6 @@
 ---
 title: "You Don't Need a New Data Stack for AI — Fivetran Just Proved It"
+seo_title: "You Don't Need a New Data Stack for AI — Fivetran"
 slug: you-dont-need-new-data-stack-fivetran
 date: 2026-08-20
 author: MartechSignal

@@ -1,5 +1,6 @@
 ---
 title: "I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed."
+seo_title: "I Ran Claude SEO on My Own Site. It Found What"
 slug: claude-seo-teardown-martechsignal
 date: 2026-08-24
 author: MartechSignal
