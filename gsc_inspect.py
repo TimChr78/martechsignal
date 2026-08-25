@@ -16,6 +16,8 @@ The service account must be added as an owner/user in Google Search Console.
 import json, os, sys, subprocess, time
 
 SITE = "https://martechsignal.com/"
+# Domain properties must be addressed by their sc-domain: identifier, not URL.
+PROPERTY = os.environ.get("GSC_PROPERTY", "sc-domain:martechsignal.com")
 KEY_PATH = os.environ.get("GSC_SERVICE_ACCOUNT_KEY",
                           "/home/hermes/.hermes/gsc-service-account.json")
 
@@ -32,7 +34,7 @@ def inspect_url(service, url):
     try:
         resp = service.urlInspection().index().inspect(body={
             "inspectionUrl": url,
-            "siteUrl": SITE
+            "siteUrl": PROPERTY
         }).execute()
         result = resp.get("inspectionResult", {}).get("indexStatusResult", {})
         verdict = result.get("verdict", "UNKNOWN")
