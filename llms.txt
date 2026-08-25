@@ -27,6 +27,7 @@
 - [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
 - [Growth Lab](https://martechsignal.com/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (open source)
+- [open-mercato](https://martechsignal.com/tools/open-mercato/): The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy,  (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
 
 ### Analytics & Attribution
@@ -62,10 +63,14 @@
 
 - [Attio](https://martechsignal.com/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Cordys CRM](https://martechsignal.com/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (open source)
+- [crm](https://martechsignal.com/tools/frappe-crm/): Fully featured, open source CRM (open source)
 - [Django CRM](https://martechsignal.com/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (open source)
+- [dolibarr](https://martechsignal.com/tools/dolibarr/): Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppl (open source)
 - [EspoCRM](https://martechsignal.com/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (open source)
+- [ever-gauzy](https://martechsignal.com/tools/ever-gauzy/): Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co (open source)
 - [Freshsales](https://martechsignal.com/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [HubSpot CRM](https://martechsignal.com/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [idurar-erp-crm](https://martechsignal.com/tools/idurar-erp-crm/): Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React (open source)
 - [Krayin CRM](https://martechsignal.com/tools/krayin-crm/): Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management (open source)
 - [Macro](https://martechsignal.com/tools/macro/): Open source workspace with a self-updating, agent-driven CRM and shared AI team memory (open source)
 - [Monica](https://martechsignal.com/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (open source)
@@ -88,6 +93,7 @@
 - [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
 - [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Agentic AI email automation — describe your product and target market, AI finds the leads (open source)
 - [Postmark](https://martechsignal.com/tools/postmark/): Fast, reliable transactional email delivery with industry-leading speed and uptime
+- [react-email-editor](https://martechsignal.com/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (open source)
 - [Resend](https://martechsignal.com/tools/resend/): Developer-first email API with React Email support and AI-powered deliverability
 - [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 

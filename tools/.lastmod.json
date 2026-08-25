@@ -84,7 +84,7 @@
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "5657896464b86800",
+  "fp": "f81e4de0a77d7bfb",
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -536,11 +536,11 @@
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/categories/email-marketing/index.html": {
-  "fp": "4c86a87540660b95",
+  "fp": "98b54f734de7eca7",
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/categories/crm/index.html": {
-  "fp": "d038762a0f0329b8",
+  "fp": "8261338d70ce5583",
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/categories/content-ai/index.html": {
@@ -576,11 +576,11 @@
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
-  "fp": "d109f9285659aeac",
+  "fp": "c4576b98c7d45f66",
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/categories/agent-skills/index.html": {
-  "fp": "18d26cf77cd802b6",
+  "fp": "3dbced9d72529a78",
   "date": "2026-08-25"
  },
  "/mnt/user/dev/martechsignal/glossary/index.html": {
@@ -688,7 +688,31 @@
   "date": "2026-08-24"
  },
  "/mnt/user/dev/martechsignal/blog/index.html": {
-  "fp": "b1b5894fb9c8fbce",
+  "fp": "4439b940176ad326",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/idurar-erp-crm/index.html": {
+  "fp": "94a5346f4e0e4446",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/dolibarr/index.html": {
+  "fp": "7337dde41ed03ec5",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/react-email-editor/index.html": {
+  "fp": "f2fe614d5a8ee783",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/ever-gauzy/index.html": {
+  "fp": "c805238653b34c94",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/frappe-crm/index.html": {
+  "fp": "0ce48fbc50a8e389",
+  "date": "2026-08-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/open-mercato/index.html": {
+  "fp": "180cd5c99facf616",
   "date": "2026-08-25"
  }
 }
