@@ -148,7 +148,7 @@
     "category": "advertising",
     "pricing_model": "enterprise",
     "pricing_url": "https://albert.ai/contact/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; percentage of ad spend model; demo required",
     "ai_features": [
       "Autonomous campaign management",
@@ -390,7 +390,7 @@
     "category": "analytics",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.attributionapp.com/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom enterprise pricing; demo required; focused on B2B and DTC attribution",
     "ai_features": [
       "AI multi-touch attribution",
@@ -507,7 +507,7 @@
     "category": "marketing-automation",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.bloomreach.com/en/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge",
     "ai_features": [
       "Loomi AI search",
@@ -554,7 +554,7 @@
     "category": "social-media",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.brandwatch.com/plans/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules",
     "ai_features": [
       "AI sentiment analysis",
@@ -600,7 +600,7 @@
     "category": "marketing-automation",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.braze.com/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom pricing based on MAUs and message volume; enterprise contracts typical",
     "ai_features": [
       "BrazeAI intelligent timing",
@@ -866,7 +866,7 @@
     "category": "personalization",
     "pricing_model": "paid",
     "pricing_url": "https://www.clerk.io/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom pricing based on traffic and modules; monthly to yearly contracts available",
     "ai_features": [
       "AI product recommendations",
@@ -1094,7 +1094,7 @@
     "category": "personalization",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.dynamicyield.com/pricing/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; acquired by Mastercard in 2022; annual contracts",
     "ai_features": [
       "AI product recommendations",
@@ -2224,7 +2224,7 @@
     "category": "analytics",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.northbeam.io/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue",
     "ai_features": [
       "AI multi-touch attribution",
@@ -2264,7 +2264,7 @@
     "category": "personalization",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.nosto.com/pricing/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Custom pricing; modular product suites; typical year-one cost $12K-$50K+",
     "ai_features": [
       "AI product recommendations",
@@ -2484,7 +2484,7 @@
     "category": "content-ai",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.persado.com/contact/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; focused on regulated industries (finserv, retail, travel)",
     "ai_features": [
       "Motivation AI copy generation",
@@ -2522,7 +2522,7 @@
     "category": "content-ai",
     "pricing_model": "enterprise",
     "pricing_url": "https://phrasee.co/contact/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; annual contracts; focused on large-scale email programs",
     "ai_features": [
       "AI subject line generation",
@@ -3290,7 +3290,7 @@
     "category": "personalization",
     "pricing_model": "enterprise",
     "pricing_url": "https://tealium.com/pricing/",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; annual contracts; tag management and CDP modules",
     "ai_features": [
       "AI audience segmentation",
@@ -3377,7 +3377,7 @@
     "category": "workflow-automation",
     "pricing_model": "enterprise",
     "pricing_url": "https://tray.io/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; Merlin AI agents included; annual contracts; demo required",
     "ai_features": [
       "Merlin AI agents",
@@ -3557,7 +3557,7 @@
     "category": "workflow-automation",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.workato.com/pricing",
-    "price_from": 0,
+    "price_from": null,
     "price_notes": "Enterprise custom pricing; recipe-based licensing; annual contracts; demo required",
     "ai_features": [
       "AI workflow automation",
@@ -3829,8 +3829,8 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-07-31",
-    "date_updated": "2026-07-31",
-    "description": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). A full-site audit that would take a consultant a full day finishes in minutes. The output is a prioritized action plan where every recommendation carries the observation it rests on, its dependencies, and an explicit \"how would we know this failed?\" check. That last part matters. Most SEO tools tell you what's wrong. Claude SEO tells you what's wrong, why it matters, and how you'd verify the fix worked.\n\nThe AI-search angle is what separates this from a Screaming Frog crawl. Claude SEO scores your content for citability by AI answer engines: whether your pages have self-contained 134-167 word answer blocks, question-based heading hierarchy, and the structured data that makes LLMs cite you instead of your competitor. It checks for IPTC TrainedAlgorithmicMedia metadata on AI-generated images, llms.txt files, and agent-friendly page structure per web.dev guidance. If you're optimizing for a world where Google's AI Overviews and ChatGPT answers replace traditional blue links, this is the audit tool built for that reality.\n\nIt's free and MIT-licensed. The catch is you need Claude Code (Anthropic's paid CLI/IDE product) to run it, so you're paying for API tokens. A full audit on a 200-page site burns through a meaningful chunk of tokens. There's also a private community mirror on Skool (AI Marketing Hub Pro) that gets early features, but the public repo is fully functional. Version 2.2.4 ships 410 passing tests, which is unusual rigor for a skill pack.\n\nCompared to doing this manually with Screaming Frog, Ahrefs, and a spreadsheet, Claude SEO collapses the workflow into one command. Compared to SaaS audit tools like Sitebulb or Lumar, it's more flexible and cheaper, but you lose the polished dashboards and historical tracking. It's best for SEO agencies running 5+ client sites who want weekly automated audits instead of quarterly manual ones, and for in-house SEO leads who want a second pair of eyes before executive reviews. If you don't use Claude Code, look at Codex SEO, the same author's port for OpenAI's Codex.",
+    "date_updated": "2026-08-26",
+    "description": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). A full-site audit that would take a consultant a full day finishes in minutes. The output is a prioritized action plan where every recommendation carries the observation it rests on, its dependencies, and an explicit \"how would we know this failed?\" check. That last part matters. Most SEO tools tell you what's wrong. Claude SEO tells you what's wrong, why it matters, and how you'd verify the fix worked.\n\nThe AI-search angle is what separates this from a Screaming Frog crawl. Claude SEO scores your content for citability by AI answer engines: whether your pages have self-contained 134-167 word answer blocks, question-based heading hierarchy, and the structured data that makes LLMs cite you instead of your competitor. It checks for IPTC TrainedAlgorithmicMedia metadata on AI-generated images, llms.txt files, and agent-friendly page structure per web.dev guidance. If you're optimizing for a world where Google's AI Overviews and ChatGPT answers replace traditional blue links, this is the audit tool built for that reality.\n\nIt's free and MIT-licensed. The catch is you need Claude Code (Anthropic's paid CLI/IDE product) to run it, so you're paying for API tokens. A full audit on a 200-page site burns through a meaningful chunk of tokens. There's also a private community mirror on Skool (AI Marketing Hub Pro) that gets early features, but the public repo is fully functional. Version 2.2.5 ships 439 passing tests, which is unusual rigor for a skill pack.\n\nCompared to doing this manually with Screaming Frog, Ahrefs, and a spreadsheet, Claude SEO collapses the workflow into one command. Compared to SaaS audit tools like Sitebulb or Lumar, it's more flexible and cheaper, but you lose the polished dashboards and historical tracking. It's best for SEO agencies running 5+ client sites who want weekly automated audits instead of quarterly manual ones, and for in-house SEO leads who want a second pair of eyes before executive reviews. If you don't use Claude Code, look at Codex SEO, the same author's port for OpenAI's Codex.",
     "seo_title": "Claude SEO Review: Audits in Claude Code | MartechSignal",
     "seo_description": "Claude SEO runs 25 sub-skills and parallel audit agents inside Claude Code. Free, MIT-licensed. We ran it on two production sites.",
     "deep_dive": {
@@ -3842,10 +3842,10 @@
       ],
       "requirements": "Python 3.10+ and Claude Code CLI. macOS, Linux, Windows (PowerShell installer available). Audits run locally; only Google API calls and optional providers leave your machine.",
       "stats": {
-        "github_stars": "14,200",
+        "github_stars": "15,300",
         "forks": "2,100",
-        "sub_skills": 25,
-        "agents": 18,
+        "sub_skills": 21,
+        "agents": 16,
         "commands": 30
       },
       "best_for": "Developers and SEO practitioners who want audit depth without a SaaS subscription, and teams already living in Claude Code who want SEO checks next to their code workflow.",
@@ -3883,7 +3883,8 @@
       ],
       "hands_on": [
         "We ran Claude SEO on our own production sites before writing this. On a 170-page marketing site it surfaced 96 findings in about five minutes; on a smaller transit-info site it flagged 87 findings across technical SEO, schema gaps, and citability issues like missing llms.txt. Both audits cost roughly six dollars of API tokens each.",
-        "Findings are graded High/Medium/Low with dependency tracking, which matters when several fixes interact: schema work depends on markup cleanup, citability fixes depend on heading hierarchy. Re-running after fixing confirmed the score moved from 68 to 87 on one site. That verify-the-fix loop is the part most audit tools skip."
+        "Findings are graded High/Medium/Low with dependency tracking, which matters when several fixes interact: schema work depends on markup cleanup, citability fixes depend on heading hierarchy. Re-running after fixing confirmed the score moved from 68 to 87 on one site. That verify-the-fix loop is the part most audit tools skip.",
+        "The v2.2.5 release (August 2026) is a reliability and Google-currency pass: refreshed guidance through the August spam update, Preferred Sources, Search Console platform properties, and PageSpeed Insights Agentic Browsing, plus safer JSON-LD traversal and bounded Chromium accessibility-tree capture. Test count is up to 439. Nothing changed in the workflow, but the audit rules track Google's current guidance."
       ]
     }
   },
@@ -4620,7 +4621,7 @@
   },
   {
     "slug": "idurar-erp-crm",
-    "name": "idurar-erp-crm",
+    "name": "IDURAR ERP & CRM",
     "tagline": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React",
     "website": "https://cloud.idurarapp.com",
     "category": "crm",
@@ -4640,7 +4641,7 @@
   },
   {
     "slug": "dolibarr",
-    "name": "dolibarr",
+    "name": "Dolibarr ERP/CRM",
     "tagline": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invo",
     "website": "https://www.dolibarr.org",
     "category": "crm",
@@ -4660,7 +4661,7 @@
   },
   {
     "slug": "react-email-editor",
-    "name": "react-email-editor",
+    "name": "React Email Editor",
     "tagline": "Drag-n-Drop Email Editor Component for React.js",
     "website": "https://unlayer.com/",
     "category": "email-marketing",
@@ -4680,7 +4681,7 @@
   },
   {
     "slug": "ever-gauzy",
-    "name": "ever-gauzy",
+    "name": "Ever Gauzy",
     "tagline": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
     "website": "https://gauzy.co",
     "category": "crm",
@@ -4700,7 +4701,7 @@
   },
   {
     "slug": "frappe-crm",
-    "name": "crm",
+    "name": "Frappe CRM",
     "tagline": "Fully featured, open source CRM",
     "website": "https://frappe.io/crm",
     "category": "crm",
@@ -4720,7 +4721,7 @@
   },
   {
     "slug": "open-mercato",
-    "name": "open-mercato",
+    "name": "Open Mercato",
     "tagline": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, even",
     "website": "https://www.openmercato.com/",
     "category": "agent-skills",

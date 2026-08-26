@@ -46,6 +46,14 @@ def pricing_label(t):
 # Meta:   "{Name} — {Tagline}. {PricingPhrase} Compare AI features, integrations & top alternatives."
 #   PricingPhrase varies by model: Open source / Enterprise / Starts at $X / etc.
 
+
+def cat_h1(cat_name):
+    """Category hub H1: append 'Tools' unless the name already ends with it."""
+    name = (cat_name or "").strip()
+    if name.lower().endswith("tools"):
+        return name
+    return f"{name} Tools"
+
 def _seo_title_for(t, cats):
     cat_map = {c["slug"]: c["name"] for c in cats}
     name = t["name"]
@@ -88,10 +96,12 @@ def _seo_description_for(t, cats):
     elif t.get("pricing_model") == "enterprise":
         price_phrase = "Enterprise pricing; demo required."
     elif t.get("price_from") is not None:
-        if t.get("price_from") == 0:
+        if t.get("price_from"):
+            price_phrase = f"Starts at ${t['price_from']}/mo."
+        elif t.get("pricing_model") in ("freemium", "free", "open-core"):
             price_phrase = "Free tier available."
         else:
-            price_phrase = f"Starts at ${t['price_from']}/mo."
+            price_phrase = "Free to use."
     else:
         price_phrase = f"{pricing_label(t)}."
     tail = " Compare AI features, integrations & top alternatives."
@@ -153,6 +163,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <header class="masthead">
   <div class="wrap mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -166,6 +177,8 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
       <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
       <a href="/about/">ABOUT</a>
+      <a href="/privacy/">PRIVACY</a>
+      <a href="/terms/">TERMS</a>
       <a href="/#subscribe">SUBSCRIBE</a>
     </div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
@@ -331,8 +344,12 @@ def build_tool_page(t, cats, all_tools):
         if t.get("open_source"):
             a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
         elif t.get("price_from") is not None:
-            a2 = (f"{name} starts at ${t['price_from']}/mo." if t.get("price_from")
-                  else f"{name} has a free tier. Paid plans unlock higher limits.")
+            if t.get("price_from"):
+                a2 = f"{name} starts at ${t['price_from']}/mo."
+            elif t.get("pricing_model") in ("freemium", "free", "open-core"):
+                a2 = f"{name} has a free tier. Paid plans unlock higher limits."
+            else:
+                a2 = f"{name} is free to use."
         else:
             a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
         q3 = f"Is {name} a good {cat.lower()} tool in 2026?"
@@ -396,6 +413,7 @@ def build_tool_page(t, cats, all_tools):
         {'<div class="side-row"><dt>Founded</dt><dd>' + str(t['founded']) + '</dd></div>' if t.get('founded') else ''}
         {'<div class="side-row"><dt>HQ</dt><dd>' + esc(t['hq']) + '</dd></div>' if t.get('hq') else ''}
         <div class="side-row"><dt>API</dt><dd>{'Yes' if t.get('api_available') else 'No'}</dd></div>
+        {'<div class="side-row"><dt>Last verified</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('date_updated') else ''}
       </dl>
     </div>
     <div class="side-card">
@@ -415,6 +433,10 @@ def build_tool_page(t, cats, all_tools):
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
     }
+    if t.get("date_updated"):
+        schema["dateModified"] = t["date_updated"]
+    if t.get("date_added"):
+        schema["datePublished"] = t["date_added"]
     if t.get("g2_rating"):
         schema["aggregateRating"] = {
             "@type": "AggregateRating",
@@ -422,10 +444,13 @@ def build_tool_page(t, cats, all_tools):
             "reviewCount": t.get("g2_reviews", 0),
             "bestRating": 5
         }
-    if t.get("price_from") is not None:
+    # Only emit offers.price when it is a real number. Custom/enterprise pricing
+    # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
+    _pf = t.get("price_from")
+    if _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
         schema["offers"] = {
             "@type": "Offer",
-            "price": t["price_from"],
+            "price": _pf,
             "priceCurrency": "USD"
         }
 
@@ -491,7 +516,7 @@ def build_category_page(cat, tools):
             intro_html = f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(cat["intro"])}</p>'
         body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
 <section class="page-head">
-  <h1>{esc(cat['name'])} Tools</h1>
+  <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
   {intro_html}
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
@@ -547,7 +572,7 @@ def build_category_page(cat, tools):
 
         body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
 <section class="page-head hub-head">
-  <h1>{esc(cat['name'])} Tools</h1>
+  <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
