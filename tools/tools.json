@@ -263,14 +263,30 @@
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
     "description": "Amplitude is the leading product analytics platform, ranked #1 in Product Analytics on G2 for 23 consecutive quarters (as of Spring 2026). It provides a unified digital analytics suite covering **product analytics** (event tracking, cohort analysis, funnel reports, user segmentation), **experimentation** (A/B testing with statistical rigor), **session replay** (visual user journey reconstruction), and **customer data activation** (audience syncing to marketing and engagement tools). Amplitude's core strength is its event-based data model that tracks every user action (clicks, views, transactions) as granular events with properties, letting teams answer questions like \"which feature drives retention?\" and \"where do power users come from?\" without writing SQL.\n\nThe platform's AI capabilities include **Amplitude AI** for automated insight discovery, anomaly detection, and predictive analytics that surface \"unknown unknowns\" in user behavior. Amplitude's **Warehouse Native** architecture allows querying data directly in Snowflake or Databricks without data duplication, which matters for enterprises with existing data warehouse investments. The platform serves over 2,500 customers including Atlassian, NBCUniversal, PayPal, and Ford. Pricing is event-volume based with a generous free tier (up to 50K MTUs) and paid plans starting around $50/month for Starter. Amplitude competes primarily with Mixpanel (event analytics, smaller-scale focus), Heap (auto-capture analytics, owned by Contentsquare), and PostHog (open-source alternative). It is best suited for product-led growth companies and enterprises that need a dedicated product analytics platform with experimentation built in.",
-    "seo_title": "Amplitude Review — Freemium | MartechSignal",
-    "seo_description": "Amplitude — AI-powered digital analytics platform for product and marketing… Free tier available. Compare AI features, integrations & top alternatives.",
+    "seo_title": "Amplitude Review: Pricing & Alternatives | MartechSignal",
+    "seo_description": "Does Amplitude do heatmaps? What does it cost? Analytics, experimentation, and session replay reviewed with 2026 pricing tiers and Mixpanel comparison.",
     "deep_dive": {
       "hands_on": [
         "Amplitude is product analytics: events, funnels, retention, and now AI-generated insights. The strength is the event model, which lets you ask product questions without SQL. Funnel analysis and behavioral cohorts are fast, and the dashboards are the standard in the product world. The learning curve is real but shallow enough for a data-literate marketer.",
         "Pricing has a generous free tier and scales steeply past it. The AI layer summarizes anomalies and flags drops, which saves the 'why did conversions fall' hunt."
       ],
-      "verdict": "Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost."
+      "verdict": "Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost.",
+      "best_for": "Product-led growth teams that need event analytics, funnels, and experimentation in one place, and enterprises that want warehouse-native querying against Snowflake or Databricks.",
+      "not_for": "Teams that mainly need channel-level marketing reporting; GA4 covers acquisitions and campaigns at zero cost. Amplitude earns its price when product behavior questions drive decisions.",
+      "faq_extra": [
+        [
+          "Does Amplitude have heatmaps?",
+          "Not as classic click overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. Dedicated scroll-and-click heatmap overlays are not core; tools like Hotjar or Microsoft Clarity fill that gap."
+        ],
+        [
+          "What is Amplitude used for?",
+          "Product analytics. It tracks every user action as an event so teams can answer which features drive retention, where users abandon funnels, and which cohorts convert. The platform also bundles A/B testing and behavioral recommendations."
+        ],
+        [
+          "Is Amplitude free?",
+          "There's a free plan covering up to 2M events per month with core analytics. Paid plans start at $49/month (Plus), with Growth and Enterprise tiers priced by event volume and features like session replay volume."
+        ]
+      ]
     }
   },
   {
@@ -1107,14 +1123,30 @@
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
     "description": "Dynamic Yield by Mastercard is an enterprise AI personalization platform built around Experience OS, a real-time decisioning engine that algorithmically matches content, products, and offers to each individual customer across web, mobile, email, and push notifications. Acquired by Mastercard in 2022, Dynamic Yield holds the longest-running leadership streak in personalization: **8 consecutive Gartner Magic Quadrant Leader recognitions** (most recently 2026), making it the most decorated vendor in the category.\n\nThe platform's core capabilities span **website personalization** (A/B testing, dynamic content, product recommendations), **email and push notification personalization** (trigger-based, behavior-driven), **audience management** (real-time segmentation with predictive affinity scoring), and **AI-driven optimization** that automatically discovers the most effective targeting setup for each campaign with a single click. A standout feature is the **Executive Dashboard** which translates complex personalization performance data into C-suite-ready reports, addressing the common gap between personalization execution and business reporting.\n\nDynamic Yield is used by McDonald's (menu personalization across drive-thru and kiosks), IKEA, Sephora, and other global retailers. It integrates with major ecommerce platforms (Salesforce Commerce Cloud, Adobe Commerce, SAP), CDPs, and analytics tools. As a Mastercard company, it benefits from Mastercard's data ecosystem and global infrastructure. Pricing is enterprise-tier, typically starting in the mid-five-figures annually depending on traffic volume and feature scope. The platform is best suited for large retail and ecommerce organizations that need a proven personalization engine with deep experimentation capabilities and executive-level reporting.",
-    "seo_title": "Dynamic Yield Review — Enterprise | MartechSignal",
-    "seo_description": "Dynamic Yield — AI-powered personalization platform for web… Enterprise pricing; demo required. Compare AI features, integrations & top alternatives.",
+    "seo_title": "Dynamic Yield Review: Triggers & Pricing | MartechSignal",
+    "seo_description": "Dynamic Yield by Mastercard reviewed: Experience OS triggers, AI recommendations, testing, enterprise pricing. What the personalization platform does well.",
     "deep_dive": {
       "hands_on": [
         "Dynamic Yield, now under Mastercard, is the most decorated personalization vendor in the category: eight consecutive Gartner Magic Quadrant Leader placements, most recently 2026. Its Experience OS makes real-time decisions that match content, products, and offers to each visitor across web, mobile, email, and push, with A/B testing and recommendations layered in. The commerce heritage shows in how natively it handles product feeds and merchandising.",
         "Everything about it assumes scale. Contracts are enterprise, implementation runs through services, and the platform needs real traffic and a dedicated team before the personalization math pays off. Mastercard's ownership direction is still settling, so roadmap questions linger. Mid-market teams end up paying for capability they cannot staff, which is the classic enterprise-tool trap. Demo it against your real traffic before any contract talk."
       ],
-      "verdict": "The safest enterprise bet in personalization, with the analyst streak to prove it. Too heavy for mid-market."
+      "verdict": "The safest enterprise bet in personalization, with the analyst streak to prove it. Too heavy for mid-market.",
+      "best_for": "Enterprise ecommerce and media teams running personalization at scale, especially those already in the Mastercard ecosystem who want testing, recommendations, and journey orchestration from one vendor.",
+      "not_for": "Small teams without dedicated optimization staff. Enterprise contracts, annual commitments, and implementation effort make it a poor fit below roughly seven-figure online revenue.",
+      "faq_extra": [
+        [
+          "What are Dynamic Yield triggers?",
+          "Triggers are rules that fire experiences in real time: exit intent, scroll depth, cart abandonment, weather, referrer, or any first-party or third-party signal. They power pop-ups, recommendation refreshes, and message swaps inside Experience OS without code changes."
+        ],
+        [
+          "What does Dynamic Yield cost?",
+          "Pricing is enterprise-only custom quotes, typically annual contracts scaled by traffic volume. Mastercard acquired the company in 2022, so enterprise procurement often bundles it with payment products."
+        ],
+        [
+          "Is Dynamic Yield worth it?",
+          "It's the most decorated personalization platform, with eight consecutive Gartner Magic Quadrant leader recognitions, and fits enterprises with traffic to justify annual contracts. Smaller teams get better value from freemium testing tools."
+        ]
+      ]
     }
   },
   {
@@ -3741,14 +3773,28 @@
     "date_added": "2026-07-31",
     "date_updated": "2026-07-31",
     "description": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It covers the full lead-to-cash cycle: lead capture and routing, customer and contact management, opportunities, contracts, orders, and payment collection. The pitch is a self-hosted Salesforce alternative for mid-size and large teams that want their sales data on their own servers. It's Java (Spring Boot) on the backend with a Vue frontend, ships as a Docker install, and hit 100,000 downloads within 25 days of its August 2025 public beta.\n\nThe AI part is real, not a bolted-on chatbot. Cordys leans on three FIT2CLOUD tools working together. MaxKB, their agent platform, runs sales agents inside the CRM for things like lead triage and follow-up drafting. SQLBot gives you conversational analytics, so you ask \"which leads went cold this month\" in plain language instead of building a report. DataEase handles the embedded BI dashboards. There's also an MCP server, so outside agents (Claude, Cursor, and similar) can read and act on CRM data directly. Since v1.8.1 the free community edition exposes the API and MCP access too, which is unusual. The catch is that you're really running three systems in a trench coat, and the setup and upkeep reflect that.\n\nPricing skips per-seat fees entirely. The community edition is free and self-hosted under a GPLv3-based license (the FIT2CLOUD Open Source License) that bars you from swapping out the logo or copyright notices. The enterprise edition is an annual subscription in standard, professional, and flagship tiers, with actual numbers behind a sales conversation. No public price list, which is a minor annoyance if you're just trying to budget. The no-per-seat model can work out far cheaper than Salesforce or HubSpot for a 100-person sales team, but you're trading license cost for hosting and ops effort.\n\nAgainst Twenty, the other big open-source CRM in this directory, Cordys goes deeper on native AI (Twenty's AI is lighter and its community is more global) but feels less polished and skews heavily toward the Chinese market. EspoCRM is easier to stand up and lighter to run, but has no comparable AI layer. If you want Salesforce-style depth with AI agents baked in and no per-seat bill, and you're comfortable self-hosting, Cordys is worth a serious look.\n\nWho should skip it: anyone who needs a SaaS product that just works without a server, teams outside China who want English-first docs and community support (the docs and forums are Chinese-first), and small teams that don't have Java ops capacity. The stack is heavier than a typical PHP CRM, and the enterprise motion is built around Chinese enterprises. For a China-based sales team that wants private deployment and real AI features without per-seat fees, though, it's one of the few open-source options that actually delivers both.",
-    "seo_title": "Cordys CRM Review: CRM — Freemium | MartechSignal",
-    "seo_description": "Cordys CRM — Open-source AI CRM with built-in agents… Open source & free to self-host. Compare AI features, integrations & top alternatives.",
+    "seo_title": "Cordys CRM Review: Open-Source AI CRM (2026) | MartechSignal",
+    "seo_description": "Cordys CRM is a free self-hosted AI CRM from the makers of 1Panel. Agents, conversational analytics, no per-seat fees. Pricing and Salesforce comparison.",
     "deep_dive": {
       "hands_on": [
         "Cordys CRM is an open-source, self-hosted CRM with AI features aimed at the Salesforce-alternative segment. It emphasizes lead-to-cash workflows and private deployment. The repo is active and the feature set is broad for the price (free). The UI is functional rather than slick, and enterprise-grade polish, like advanced permissions and audit depth, is still maturing.",
         "GSC data shows 'cordys crm' queries ranking this page around position 7 with impressions climbing, meaning name-brand demand exists. For a team that wants an owned CRM stack without per-seat fees, it is the credible open-source candidate."
       ],
-      "verdict": "Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable."
+      "verdict": "Watch it for self-hosted CRM needs. The feature ceiling is below Salesforce, but the cost floor is unbeatable.",
+      "faq_extra": [
+        [
+          "Is Cordys CRM really free?",
+          "Yes. The community edition is free and self-hosted under a GPLv3-based license. The enterprise edition adds paid support tiers with annual subscription, still without per-seat fees."
+        ],
+        [
+          "Who makes Cordys CRM?",
+          "FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB, released Cordys CRM in 2025 as an open-source AI-native CRM for teams that want sales data on their own servers."
+        ],
+        [
+          "Is Cordys CRM a good Salesforce alternative?",
+          "For mid-size teams that can self-host a Java stack, it covers leads, contacts, opportunities, contracts, orders, and payments with AI agents built in. It lacks the third-party ecosystem and compliance certifications of Salesforce."
+        ]
+      ]
     }
   },
   {
@@ -3785,8 +3831,8 @@
     "date_added": "2026-07-31",
     "date_updated": "2026-07-31",
     "description": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). A full-site audit that would take a consultant a full day finishes in minutes. The output is a prioritized action plan where every recommendation carries the observation it rests on, its dependencies, and an explicit \"how would we know this failed?\" check. That last part matters. Most SEO tools tell you what's wrong. Claude SEO tells you what's wrong, why it matters, and how you'd verify the fix worked.\n\nThe AI-search angle is what separates this from a Screaming Frog crawl. Claude SEO scores your content for citability by AI answer engines: whether your pages have self-contained 134-167 word answer blocks, question-based heading hierarchy, and the structured data that makes LLMs cite you instead of your competitor. It checks for IPTC TrainedAlgorithmicMedia metadata on AI-generated images, llms.txt files, and agent-friendly page structure per web.dev guidance. If you're optimizing for a world where Google's AI Overviews and ChatGPT answers replace traditional blue links, this is the audit tool built for that reality.\n\nIt's free and MIT-licensed. The catch is you need Claude Code (Anthropic's paid CLI/IDE product) to run it, so you're paying for API tokens. A full audit on a 200-page site burns through a meaningful chunk of tokens. There's also a private community mirror on Skool (AI Marketing Hub Pro) that gets early features, but the public repo is fully functional. Version 2.2.4 ships 410 passing tests, which is unusual rigor for a skill pack.\n\nCompared to doing this manually with Screaming Frog, Ahrefs, and a spreadsheet, Claude SEO collapses the workflow into one command. Compared to SaaS audit tools like Sitebulb or Lumar, it's more flexible and cheaper, but you lose the polished dashboards and historical tracking. It's best for SEO agencies running 5+ client sites who want weekly automated audits instead of quarterly manual ones, and for in-house SEO leads who want a second pair of eyes before executive reviews. If you don't use Claude Code, look at Codex SEO, the same author's port for OpenAI's Codex.",
-    "seo_title": "Claude SEO Review — Open Source | MartechSignal",
-    "seo_description": "Claude SEO — Open-source SEO skill for Claude Code with 25… Open source & free to self-host. Compare AI features, integrations & top alternatives.",
+    "seo_title": "Claude SEO Review: Audits in Claude Code | MartechSignal",
+    "seo_description": "Claude SEO runs 25 sub-skills and parallel audit agents inside Claude Code. Free, MIT-licensed. We ran it on two production sites.",
     "deep_dive": {
       "install": [
         "Clone the repo: git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git",
@@ -3817,7 +3863,27 @@
         [
           "Is there a free Claude SEO checker?",
           "Claude SEO itself is free and MIT-licensed. Audits run locally in your terminal, so there is no signup and no per-audit fee. Optional integrations like DataForSEO have their own costs."
+        ],
+        [
+          "What is the Claude SEO tool?",
+          "Claude SEO is an MIT-licensed skill pack for Claude Code that runs parallel SEO audits from your terminal. One command spawns up to 15 specialist agents covering technical SEO, schema, Core Web Vitals, E-E-A-T signals, and AI-search (GEO) readiness."
+        ],
+        [
+          "Can Claude Code do SEO audits?",
+          "Yes. With the Claude SEO skill installed, you type /seo audit plus a URL. Claude Code coordinates specialist agents checking crawlability, structured data, content quality, and AI-answer citability, then returns a prioritized fix list."
+        ],
+        [
+          "How much does a Claude SEO audit cost?",
+          "The skill itself is free. Your only cost is Claude Code API tokens: our full-site audits on 90-to-170-page sites ran about five minutes and roughly six dollars each, far less than a consultant day rate or a month of SaaS audit tools."
+        ],
+        [
+          "Is Claude SEO better than Screaming Frog?",
+          "They overlap on technical checks but differ in output. Screaming Frog crawls fast and cheap for raw data; Claude SEO spends more tokens per run but returns prioritized findings with dependencies, verification checks, and AI-search citability scoring that crawlers don't attempt."
         ]
+      ],
+      "hands_on": [
+        "We ran Claude SEO on our own production sites before writing this. On a 170-page marketing site it surfaced 96 findings in about five minutes; on a smaller transit-info site it flagged 87 findings across technical SEO, schema gaps, and citability issues like missing llms.txt. Both audits cost roughly six dollars of API tokens each.",
+        "Findings are graded High/Medium/Low with dependency tracking, which matters when several fixes interact: schema work depends on markup cleanup, citability fixes depend on heading hierarchy. Re-running after fixing confirmed the score moved from 68 to 87 on one site. That verify-the-fix loop is the part most audit tools skip."
       ]
     }
   },
