@@ -620,7 +620,7 @@ def build_category_page(cat, tools):
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
     out.write_text(page_shell(
-        f"{cat['name']} Tools — MartechSignal",
+        f"{cat_h1(cat['name'])} — MartechSignal",
         (hub.get("meta") if hub else f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.") or "",
         f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
