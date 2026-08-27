@@ -5,6 +5,7 @@ slug: salesforce-agentforce-free-marketing-ops
 date: 2026-08-07
 author: MartechSignal
 tags: [Salesforce, AI Agents, Marketing Ops]
+categories: [crm]
 ---
 Salesforce spent the last two years selling Agentforce as an enterprise conversation, at enterprise prices. Then at the end of July it quietly changed the math. Salesforce Foundations, the free add-on bundled into existing Enterprise contracts, now includes Agentforce: 200,000 Flex credits, Prompt Builder, generative AI responses, and one agent skill, with no new line item on the invoice.
 

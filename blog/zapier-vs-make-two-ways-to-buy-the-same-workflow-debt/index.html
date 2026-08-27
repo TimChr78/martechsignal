@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,11 +102,12 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-meter-is-the-product">The meter is the product</a> · <a href="#the-rot-is-not-a-bug">The rot is not a bug</a> · <a href="#agents-are-a-second-meter-not-an-exit">Agents are a second meter, not an exit</a> · <a href="#which-exit-costs-less">Which exit costs less</a> · <a href="#the-counterpoint-shipped-this-week">The counterpoint shipped this week</a></nav>
 <p>Zapier's pricing page now opens with the headline "AI orchestration plans that scale with you." Make's nav leads with Maia, a conversational tool that builds your automations and AI agents for you. The two biggest names in no-code automation are racing toward the same destination, and that destination is bolting AI agents onto the exact duct-tape problem they were both built to fix.</p>
 
 <p>The standard comparison pits features against each other: 9,000 app integrations versus 3,000, tasks versus credits, $19.99 versus $9. We pulled both pricing pages this week, and the feature gap is real but boring. The interesting finding is that both platforms sell the same underlying product. You are renting metered connections you do not own, maintained by hand, that rot quietly whenever a third-party API changes shape. The comparison that matters is not which one to buy. It is which one costs less to leave.</p>
 
-<h2>The meter is the product</h2>
+<h2 id="the-meter-is-the-product">The meter is the product</h2>
 
 <p>Pricing verified from <a href="https://zapier.com/pricing">zapier.com/pricing</a> and <a href="https://www.make.com/en/pricing">make.com/en/pricing</a> on August 27, 2026:</p>
 
@@ -125,7 +126,7 @@
 
 <p>The platforms differ on price, but they agree on the mechanism that matters. Every successful run costs money. The lead that converts, the row that syncs, the ticket that routes: each one drops a coin in the meter. Your bill goes up when your automation works. That is the inverse of every other piece of infrastructure you buy, and neither company has any incentive to change it. Zapier made the commitment explicit this year with a pricing-page announcement that AI steps, code steps, and SDK calls now all follow the same task-based model. The new AI layer is not an escape from the meter. It is a new thing to feed the meter.</p>
 
-<h2>The rot is not a bug</h2>
+<h2 id="the-rot-is-not-a-bug">The rot is not a bug</h2>
 
 <p>Ask the people who run this stuff for clients, and the failure mode is always the same. A thread in r/MarketingAutomation from August 21 asked which automations "look great in a demo but break constantly in production." The top answer is worth quoting: "There's always one. You build something, show it to the client, everyone's impressed, and then two weeks into actually running it, it starts failing in ways that never showed up in testing. For me it's usually anything that depends on a third-party API's response format staying exactly the same."</p>
 
@@ -133,7 +134,7 @@
 
 <p>An r/nocode thread from earlier this year did the arithmetic the vendors skip: "Zapier pricing just went up again, Make quietly changed their plan limits... the promise was: anyone can build without a developer and the reality at scale is that the monthly subscriptions add up to what a part time developer would cost anyway." When your glue layer costs as much as a person, the glue has become the product.</p>
 
-<h2>Agents are a second meter, not an exit</h2>
+<h2 id="agents-are-a-second-meter-not-an-exit">Agents are a second meter, not an exit</h2>
 
 <p>Both vendors looked at a system of fragile, hand-maintained connections and decided the fix was to hand it to a probabilistic AI agent.</p>
 
@@ -141,7 +142,7 @@
 
 <p>An agent does not repair brittle automation. It consumes it, faster, with judgment you cannot audit after the fact. If the connection under the agent silently changes shape, you now have a system that takes wrong actions at machine speed and bills you for each one. We have written before about what happens when <a href="/blog/ai-agents-need-campaign-state/">agents act on state they cannot see</a>, and the problem is worse when every mistaken action costs real money.</p>
 
-<h2>Which exit costs less</h2>
+<h2 id="which-exit-costs-less">Which exit costs less</h2>
 
 <p>The lazy version of this article says you cannot get your data out. That is outdated, and the honest version is more useful.</p>
 
@@ -153,7 +154,7 @@
 
 <p>One correction to the cheapness myth, because it cuts the other way at volume. Zapier's per-task rate gets cheaper as tiers climb, and at the big tiers it undercuts Make's credit price per action. Make wins at the low end. Zapier wins the race to the bottom. Both models still bill every success, which is the part that never changes.</p>
 
-<h2>The counterpoint shipped this week</h2>
+<h2 id="the-counterpoint-shipped-this-week">The counterpoint shipped this week</h2>
 
 <p>While both vendors priced their agents, n8n shipped <a href="https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0">version 2.36.0</a> on August 18, and the release notes read like a rebuttal. The Schedule Trigger node gained an "If Execution Is Missed" option with a per-node grace period, so the platform itself now catches up runs missed during downtime instead of dropping them. The AI side got hardening rather than marketing: the agent HTTP Request tool configuration was locked down, human-in-the-loop approval resumes were fixed, and agents gained writable workspaces and deeper MCP access.</p>
 

@@ -5,6 +5,7 @@ slug: multi-touch-attribution-was-always-a-fiction
 date: 2026-08-14
 author: MartechSignal
 tags: [Analytics, Attribution, AI, Privacy]
+categories: [analytics]
 ---
 
 On Sept. 2, the MarTech Conference runs a free session called "Marketing without signals: How to perform when the data disappears." The copy tells the story the industry has settled on. For years, marketing teams built their playbooks on an abundance of granular signals: clicks, third-party cookies, device identifiers, deterministic conversion paths. Privacy rules, platform walled gardens, and AI intermediaries ate all of it. Now teams have to learn to perform without the data.

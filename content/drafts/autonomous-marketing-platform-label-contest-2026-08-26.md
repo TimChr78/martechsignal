@@ -4,6 +4,7 @@ slug: autonomous-marketing-platform-label-contest
 date: 2026-08-26
 author: MartechSignal
 tags: [Agent Skills, Advertising, AI Agents, Governance]
+categories: [agent-skills]
 ---
 
 Vendors say autonomous marketing platform. Analysts say agentic AI. G2 says AI marketing agents. Three names, one category, and zero independent definitions on page one of any of them. This is an attempt to fix that last part.

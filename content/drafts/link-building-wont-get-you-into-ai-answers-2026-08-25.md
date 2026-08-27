@@ -5,6 +5,7 @@ slug: link-building-wont-get-you-into-ai-answers
 date: 2026-08-25
 author: MartechSignal
 tags: [SEO, AI Search, Link Building, Reddit, UGC]
+categories: [seo]
 ---
 
 Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility actually comes from, and the picture is uncomfortable for an industry that still bills by the backlink.

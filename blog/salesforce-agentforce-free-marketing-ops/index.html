@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,13 +102,14 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/crm/">Crm</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-you-actually-get-for-nothing">What you actually get for nothing</a> · <a href="#the-credit-math-because-it-decides-everything">The credit math, because it decides everything</a> · <a href="#build-1-a-lead-routing-agent-that-earns-its-credits">Build #1: A lead routing agent that earns its credits</a> · <a href="#build-2-campaign-brief-generator-with-prompt-builder">Build #2: Campaign brief generator with Prompt Builder</a> · <a href="#build-3-slack-and-mcp-where-it-gets-genuinely-interesting">Build #3: Slack and MCP, where it gets genuinely interesting</a> · <a href="#build-4-the-quiet-one-segmentation-plus-2-000-sends">Build #4: The quiet one, segmentation plus 2,000 sends</a> · <a href="#free-versus-paid-side-by-side">Free versus paid, side by side</a> · <a href="#the-limitations-nobody-puts-on-slide-one">The limitations nobody puts on slide one</a></nav>
 <p>Salesforce spent the last two years selling Agentforce as an enterprise conversation, at enterprise prices. Then at the end of July it quietly changed the math. Salesforce Foundations, the free add-on bundled into existing Enterprise contracts, now includes Agentforce: 200,000 Flex credits, Prompt Builder, generative AI responses, and one agent skill, with no new line item on the invoice.</p>
 
 <p>The catch arrives in the same sentence. "Free" here means free if you already pay for Salesforce Enterprise Edition or higher. If your org runs on Sales or Service Enterprise, Foundations is a free upgrade you can switch on from Setup this afternoon. If you're not a Salesforce customer at all, this post is entertainment, not an offer.</p>
 
 <p>For the marketing ops people reading this from inside a Salesforce org, the interesting question isn't whether it's really free. It's what 200,000 credits actually buys, and which agent is worth building before the counter runs out.</p>
 
-<h2>What you actually get for nothing</h2>
+<h2 id="what-you-actually-get-for-nothing">What you actually get for nothing</h2>
 
 <p>Salesforce published the bundle breakdown on July 30, and the marketing ops line items are the ones worth circling:</p>
 
@@ -123,7 +124,7 @@
 <p>The honest framing: Salesforce handed existing Enterprise customers roughly $1,000 of agent runway and a small email engine, then called it an upgrade. That's a real budget for experimentation. It is not an unlimited one, and the word "free" is doing contract work in every headline this week.</p>
 </div>
 
-<h2>The credit math, because it decides everything</h2>
+<h2 id="the-credit-math-because-it-decides-everything">The credit math, because it decides everything</h2>
 
 <p>Agentforce pricing runs on Flex credits since May 2025. One agent action consumes 20 credits, which Salesforce prices at $0.10 per action. Run the division on the free allotment:</p>
 
@@ -135,7 +136,7 @@
 
 <p>Ten thousand actions sounds like a lot until you point an agent at something chatty. A lead-qualification agent that touches every inbound form fill will eat that in a quarter if your volume is real. A scoped internal tool, like a brief generator used twenty times a week, barely dents it. The free tier doesn't decide what you build. Your action budget does, so pick the use case before you open Agent Builder, not after.</p>
 
-<h2>Build #1: A lead routing agent that earns its credits</h2>
+<h2 id="build-1-a-lead-routing-agent-that-earns-its-credits">Build #1: A lead routing agent that earns its credits</h2>
 
 <p>This is the highest-leverage use of the free allotment because it replaces work someone is doing by hand right now.</p>
 
@@ -147,7 +148,7 @@
 
 <p>At 20 credits a pop, routing 500 leads a month costs 10,000 credits. The free pool covers ten months of that before anyone sees an invoice.</p>
 
-<h2>Build #2: Campaign brief generator with Prompt Builder</h2>
+<h2 id="build-2-campaign-brief-generator-with-prompt-builder">Build #2: Campaign brief generator with Prompt Builder</h2>
 
 <p>Prompt Builder ships in the free bundle, which makes this the cheapest build on the list. No agent required, so no Flex credit burn on every use beyond the standard response costs.</p>
 
@@ -157,7 +158,7 @@
 
 <p>Two rules make this useful instead of embarrassing. First, wire the template to real fields, not to vibes; a brief generated from empty merge fields reads like a ransom note assembled from a wiki. Second, keep a human as the last step. Salesforce's own small business content makes the same point in its human-AI collaboration material: people handle judgment and voice, the model handles the first draft. Nobody's campaign strategy ever survived an unedited LLM output, and this isn't the quarter to start trusting one.</p>
 
-<h2>Build #3: Slack and MCP, where it gets genuinely interesting</h2>
+<h2 id="build-3-slack-and-mcp-where-it-gets-genuinely-interesting">Build #3: Slack and MCP, where it gets genuinely interesting</h2>
 
 <p>At the end of July, Salesforce's architecture blog laid out three ways to connect Agentforce agents and Slackbot to external systems over MCP:</p>
 
@@ -169,13 +170,13 @@
 
 <p>The identity part is where people get hurt, so the design rules from Salesforce's own architects are worth repeating. External MCP servers have to support OAuth 2.0. Per-user authentication means every teammate needs their own account in the external system, and the agent inherits whatever access that person already has, nothing narrower. A service account fixes the scope but applies to everyone equally, so treat it as all-or-nothing. And when someone changes roles or leaves, the stored token does not revoke itself. A stale token is a live credential nobody watches.</p>
 
-<h2>Build #4: The quiet one, segmentation plus 2,000 sends</h2>
+<h2 id="build-4-the-quiet-one-segmentation-plus-2-000-sends">Build #4: The quiet one, segmentation plus 2,000 sends</h2>
 
 <p>Less exciting, possibly the best ROI per dollar-not-spent. Foundations includes unified profiles across your systems, segmentation over up to five data streams with 10,000 credits a year, and 2,000 email sends a month through the built-in builder.</p>
 
 <p>For a small marketing ops team that currently exports CSVs from three places to run one nurture sequence, this collapses real manual work: build the segment from unified data, send the nurture inside the same system, read the analytics without a BI ticket. Two thousand sends won't run your whole lifecycle program. It will run your highest-intent slice, which is the one you should be hand-tending anyway.</p>
 
-<h2>Free versus paid, side by side</h2>
+<h2 id="free-versus-paid-side-by-side">Free versus paid, side by side</h2>
 
 <table class="cmp">
 <tr><th>What you get</th><th>Foundations (free with Enterprise)</th><th>When you start paying</th></tr>
@@ -187,7 +188,7 @@
 <tr><td>Partner integrations</td><td>Free trials, 25+ apps on AgentExchange</td><td>Full licenses from each vendor</td></tr>
 </table>
 
-<h2>The limitations nobody puts on slide one</h2>
+<h2 id="the-limitations-nobody-puts-on-slide-one">The limitations nobody puts on slide one</h2>
 
 <p>The free tier has edges, and pretending otherwise wastes the runway:</p>
 
@@ -212,7 +213,7 @@
 <p><strong>❌ The losing move: letting the credits expire unmeasured.</strong> This allotment is Salesforce's way of showing you what paid Agentforce feels like. If you activate it, log the actions consumed and the hours saved from week one. Otherwise the renewal conversation next year happens with the vendor holding all the numbers.</p>
 </div>
 
-<h2>What this really is</h2>
+<h2 id="what-this-really-is">What this really is</h2>
 
 <p>Strip the marketing off and Foundations reads as a land-grab with good manners. Salesforce is betting that once your team builds one working agent on free credits, the second agent gets budgeted instead of debated. For marketing ops, the bet can work in your favor, because the free pool is genuinely enough to settle the "should we even try agents" argument with evidence instead of opinions.</p>
 

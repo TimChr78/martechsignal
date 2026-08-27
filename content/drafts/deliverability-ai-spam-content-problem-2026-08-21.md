@@ -5,6 +5,7 @@ slug: deliverability-ai-spam-content-problem
 date: 2026-08-21
 author: MartechSignal
 tags: [Email, Deliverability, AI]
+categories: [email-marketing]
 ---
 
 Two years ago the email go-to-market playbook was a DNS checklist: publish SPF, sign with DKIM, throw up a DMARC record, and your mail got to the inbox. That playbook is now table stakes, and it is no longer enough. The bulk-sender rules Google and Yahoo switched on in February 2024, and Microsoft followed in May 2025, are now the floor, not the target. In the AI-spam era, deliverability is decided by content-quality signals, and the teams still treating it as an IT ticket are the ones quietly losing inbox placement.

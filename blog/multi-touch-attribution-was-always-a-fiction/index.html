@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,11 +102,12 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-same-conversion-six-different-truths">The same conversion, six different truths</a> · <a href="#the-definition-assumed-the-problem-away">The definition assumed the problem away</a> · <a href="#why-the-theater-survived">Why the theater survived</a> · <a href="#what-signal-loss-actually-exposed">What signal loss actually exposed</a> · <a href="#what-to-track-instead">What to track instead</a></nav>
 <p>On Sept. 2, the MarTech Conference runs a free session called "Marketing without signals: How to perform when the data disappears." The copy tells the story the industry has settled on. For years, marketing teams built their playbooks on an abundance of granular signals: clicks, third-party cookies, device identifiers, deterministic conversion paths. Privacy rules, platform walled gardens, and AI intermediaries ate all of it. Now teams have to learn to perform without the data.</p>
 
 <p>It's a clean story. I don't buy it. Signal loss did not break marketing measurement. It made visible what multi-touch attribution never actually measured in the first place.</p>
 
-<h2>The same conversion, six different truths</h2>
+<h2 id="the-same-conversion-six-different-truths">The same conversion, six different truths</h2>
 
 <p>Search Engine Land ran a piece in July that should be pinned to every marketing ops Slack channel. Ann Robison walks through a single $100 conversion spread across four touchpoints: display, paid social, organic search, email. Then she runs it through the standard models.</p>
 
@@ -114,7 +115,7 @@
 
 <p>Six models, one conversion, six different answers. The same purchase is worth $100 to display or $0 to display, depending on which model you picked before the data arrived. That's not measurement. That's a policy choice wearing a lab coat. You decide in advance what you believe about the journey, and the model confirms it.</p>
 
-<h2>The definition assumed the problem away</h2>
+<h2 id="the-definition-assumed-the-problem-away">The definition assumed the problem away</h2>
 
 <p>The standard definition of attribution, courtesy of Wikipedia, runs like this: identify the set of user actions that contributed to a desired outcome, then assign a value to each. Notice what it assumes: that you can see the actions. The entire discipline was built on a premise of full observability that never held.</p>
 
@@ -122,19 +123,19 @@
 
 <p>This is not obscure academic trivia. It's on Wikipedia, and it has been for years. The people selling attribution software knew. The people buying it suspected. The industry kept paying for the number anyway.</p>
 
-<h2>Why the theater survived</h2>
+<h2 id="why-the-theater-survived">Why the theater survived</h2>
 
 <p>Pressure explains it. The 2025 CMO Survey found that 63% of marketing leaders report increased pressure from CFOs, up from 52% the year before, with CEO and board scrutiny rising alongside it. Attribution gave finance a number. It converted "we don't know what works" into "display is worth $30 of every $100." Ugly as that number was, it was a number, and it could go in a deck.</p>
 
 <p>Attribution was answering a political question, not an empirical one: which channel gets the credit? Budget meetings need an answer, and the answer was whatever model you picked. Every vendor could produce one. Nobody got fired for a dashboard that flattered the platform that sold it.</p>
 
-<h2>What signal loss actually exposed</h2>
+<h2 id="what-signal-loss-actually-exposed">What signal loss actually exposed</h2>
 
 <p>The gap between buyer behavior and what marketing tools observe was always there. Journeys were always cross-device, partially offline, partially unlogged. MTA never measured the journey. It measured the trackable slice of the journey and extrapolated with confidence. The slice kept shrinking: browsers blocked the cookies, platforms walled off their data, and now AI assistants buy things on behalf of people without generating a single touchpoint you can see. MarTech's own copy concedes the point in one phrase. Instead of "chasing elusive multi-touch attribution models," teams are turning to high-probability modeling built on first-party signals.</p>
 
 <p>Elusive. The house organ of the measurement category just told you the category was a chase.</p>
 
-<h2>What to track instead</h2>
+<h2 id="what-to-track-instead">What to track instead</h2>
 
 <p>Which channel gets credit was never the useful question. The useful question was whether the marketing moved the outcome. That's incrementality, and it has a method: split the audience, expose one group, hold the other back, compare. The Search Engine Land example: the exposed group completes 1,000 purchases, the control completes 800. The campaign's lift is 200. An attribution model could claim all 1,000.</p>
 
@@ -163,7 +164,7 @@
 <a class="btn" href="/categories/analytics/">BROWSE ANALYTICS & ATTRIBUTION TOOLS →</a>
 </div>
 
-<p><strong>Sources:</strong> <a href="https://martech.org/marketing-without-signals-how-to-perform-when-the-data-disappears/">MarTech: Marketing without signals: How to perform when the data disappears</a> · <a href="https://searchengineland.com/attribution-vs-incrementality-both-483741">Search Engine Land: Attribution vs. incrementality: Why you need both</a> · <a href="https://en.wikipedia.org/wiki/Attribution_%28marketing%29">Wikipedia: Attribution (marketing)</a> · <a href="https://martech.org/what-is-marketing-attribution/">MarTech: What is marketing attribution? Models and best practices</a> · <a href="https://www.salesforce.com/blog/agentic-marketing-optimization/">Salesforce: Why Marketers Need to Move Beyond Attribution and Embrace Agentic Optimization</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI — Fivetran Just Proved It</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/attribution/">Attribution</a> — AI-powered marketing attribution platform connecting ad spend to revenue</li><li><a href="/tools/northbeam/">Northbeam</a> — AI-powered multi-touch attribution and marketing intelligence for ecommerce</li><li><a href="/tools/triple-whale/">Triple Whale</a> — AI-powered ecommerce analytics and attribution platform for DTC brands</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/attribution/">Attribution</a></li></ul></section>
+<p><strong>Sources:</strong> <a href="https://martech.org/marketing-without-signals-how-to-perform-when-the-data-disappears/">MarTech: Marketing without signals: How to perform when the data disappears</a> · <a href="https://searchengineland.com/attribution-vs-incrementality-both-483741">Search Engine Land: Attribution vs. incrementality: Why you need both</a> · <a href="https://en.wikipedia.org/wiki/Attribution_%28marketing%29">Wikipedia: Attribution (marketing)</a> · <a href="https://martech.org/what-is-marketing-attribution/">MarTech: What is marketing attribution? Models and best practices</a> · <a href="https://www.salesforce.com/blog/agentic-marketing-optimization/">Salesforce: Why Marketers Need to Move Beyond Attribution and Embrace Agentic Optimization</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI — Fivetran Just Proved It</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/attribution/">Attribution</a> — AI-powered marketing attribution platform connecting ad spend to revenue</li><li><a href="/tools/northbeam/">Northbeam</a> — AI-powered multi-touch attribution and marketing intelligence for ecommerce</li><li><a href="/tools/triple-whale/">Triple Whale</a> — AI-powered ecommerce analytics and attribution platform for DTC brands</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/attribution/">Attribution</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

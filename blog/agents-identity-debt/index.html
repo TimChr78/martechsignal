@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,6 +102,7 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/marketing-automation/">Marketing Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-identity-layer-decides-what-agents-can-see">The identity layer decides what agents can see</a> · <a href="#interpretation-is-not-vouching">Interpretation is not vouching</a> · <a href="#pipelines-built-for-dashboards-can-t-feed-agents">Pipelines built for dashboards can't feed agents</a> · <a href="#trust-moves-to-runtime">Trust moves to runtime</a> · <a href="#the-verdict">The verdict</a></nav>
 <p>Three pieces landed this week from three corners of the industry that rarely agree on anything. Salesforce's architecture blog said customer data can look clean in isolation while broken relationships hand your agents the wrong story. AdExchanger ran a column arguing that AI can interpret data but can't vouch for it. Fivetran published a post about building healthcare AI without rebuilding the data platform underneath it.</p>
 
 <p>Different vendors, different audiences, one warning: agentic marketing breaks on data trust, not model quality.</p>
@@ -117,7 +118,7 @@
 <tr><td><strong>Fivetran</strong> (Aug 10)</td><td>Dashboard-era pipelines can't feed agents</td><td>Agents reason from stale, subset data</td></tr>
 </table>
 
-<h2>The identity layer decides what agents can see</h2>
+<h2 id="the-identity-layer-decides-what-agents-can-see">The identity layer decides what agents can see</h2>
 
 <p>Salesforce's post opens with a scenario every marketing ops team will recognize. A premium customer buys a high-value item through Agentforce Commerce, then contacts support. The Service agent sees zero purchase history. Same person, different email alias at checkout, two records that never got connected. Each record is clean on its own. The relationship between them is broken, and no amount of prompt engineering fixes that.</p>
 
@@ -129,7 +130,7 @@
 
 <p>The merge itself is where this gets concrete. Salesforce warns about over-merging: two spouses sharing one household email collapse into a single Frankenstein profile unless you enforce compound rules like Name plus Email. Then survivorship has to be decided field by field. The post's example: let Billing always win on physical addresses, let Marketing win on phone numbers if updated in the last 30 days. Those are business policy decisions being encoded into data plumbing. And when a duplicate lead and contact get merged, their clicks, cases, and orders have to be re-parented to the new identity. Skip that and you get what Salesforce calls a clean profile and a fractured history.</p>
 
-<h2>Interpretation is not vouching</h2>
+<h2 id="interpretation-is-not-vouching">Interpretation is not vouching</h2>
 
 <p>Popov's column is the sharpest statement of the week. LLMs can bridge the gaps that used to require rigid interfaces. A model can recognize that "campaign start date," "flight begin," and "launch timestamp" describe the same concept. It can translate schemas, map taxonomies, generate integration logic. That has led some people to argue standards matter less as AI gets better.</p>
 
@@ -137,7 +138,7 @@
 
 <p>This is the uncomfortable part for anyone betting the agent era on bigger models. AI can already generate behavior that looks entirely legitimate. The audience looks real. Customer journeys look plausible. Optimizations look rational. Decisions look justified. None of those characteristics prove the action traces back to an accountable principal, a valid permission boundary, or a delegated authority. A model can make the output look right. It cannot make the output right.</p>
 
-<h2>Pipelines built for dashboards can't feed agents</h2>
+<h2 id="pipelines-built-for-dashboards-can-t-feed-agents">Pipelines built for dashboards can't feed agents</h2>
 
 <p>Fivetran's post, written with phData, makes the same point from the data platform side. Most healthcare companies built their core data infrastructure for an era of dashboards: ETL pipelines that took months to build, updated weekly or daily at best, coded to pull a specific subset of data for a limited set of use cases. Pipelines sized for humans reading reports on Monday morning break when agents need fresh, complete data around the clock.</p>
 
@@ -147,7 +148,7 @@
 
 <p>Fivetran proposes a blunt measure of whether your foundation is ready: how quickly can a previously unknown business question get answered without starting an engineering project? For most organizations the answer is weeks or months. With a modern foundation it becomes hours or minutes. That is the real readiness metric for agents, and it has nothing to do with model quality.</p>
 
-<h2>Trust moves to runtime</h2>
+<h2 id="trust-moves-to-runtime">Trust moves to runtime</h2>
 
 <p>Popov argues trust has to move up the stack: from an audit function to an execution function, from governance review to runtime infrastructure, from post-campaign analysis to real-time control. The stronger the inference layer becomes, the more important the trust layer becomes. Media markets already trade on signals that claim to represent attention and audience quality. AI makes it easier to generate signals that look valid while staying disconnected from accountable origins.</p>
 
@@ -155,7 +156,7 @@
 
 <p>Follow the chain and the accountability question becomes clear. Identity resolution decides whose data the agent sees. Data trust decides whether that data is true. Agent accountability decides who answers when the agent acts on it. Each link depends on the one before it. That is why resolving identity once, upstream, matters: it is the only way every agent consuming that context inherits the same trust and the same audit trail.</p>
 
-<h2>The verdict</h2>
+<h2 id="the-verdict">The verdict</h2>
 
 <p>The agentic marketing discourse is spending its energy on the wrong layer. Model quality, orchestration, guardrails, benchmarks: all of it assumes the constraint is intelligence. The constraint is identity. An agent can be the best model ever shipped and still send a discount code to the wrong household because two spouses share an email address and the merge rule was never written.</p>
 

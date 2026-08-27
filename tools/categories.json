@@ -168,7 +168,7 @@
         },
         {
           "label": "OPTIMIZE",
-          "sub": "brief \u2192 draft \u2192 grade",
+          "sub": "brief → draft → grade",
           "style": "ai"
         },
         {
@@ -269,13 +269,13 @@
         },
         {
           "slug": "dashboard-cant-see-ai-search-5-layer-fix",
-          "title": "Your Dashboard Can't See AI Search \u2014 Here's the 5-Layer Fix",
+          "title": "Your Dashboard Can't See AI Search — Here's the 5-Layer Fix",
           "note": "The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks"
         },
         {
-          "slug": "google-ad-agents-control-gap",
-          "title": "Google Just Handed Your Ad Budget to AI Agents \u2014 and Kept You on the Hook",
-          "note": "What happens when Google moves bidding and budget calls into agents"
+          "slug": "link-building-wont-get-you-into-ai-answers",
+          "title": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
+          "note": "The off-page playbook that actually moves AI citations"
         }
       ]
     },
@@ -475,7 +475,7 @@
   {
     "slug": "agent-skills",
     "name": "Agent Skills",
-    "description": "Skills, plugins, and extensions for AI coding agents \u2014 what they automate in your marketing workflow",
+    "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
     "tools": [
       "aaron-marketing-skills",
       "ai-business-skills",

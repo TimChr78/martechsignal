@@ -4,6 +4,7 @@ seo_title: "MCP Rewrites the Integration Economics of Your Stack"
 date: 2026-07-29
 author: "MartechSignal"
 tags: [mcp, model-context-protocol, integration, martech-stack, ai-agents]
+categories: [workflow-automation]
 ---
 
 Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying that tax since the category existed.

@@ -5,6 +5,7 @@ slug: ci-tools-were-the-first-martech-category-ai-killed
 date: 2026-08-18
 author: MartechSignal
 tags: [AI, Competitive Intelligence, Martech Strategy, Budget, Enablement]
+categories: [marketing-automation]
 ---
 
 A product marketer needs to know what a competitor just shipped. Six months ago that meant opening Klue or Crayon, finding the battlecard, and hoping someone had refreshed it this quarter. Now it means opening Claude and asking.

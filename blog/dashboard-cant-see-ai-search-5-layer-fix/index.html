@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,13 +102,14 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/seo/">Seo</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#why-last-click-can-t-see-ai-mode">Why last-click can't see AI Mode</a> · <a href="#the-five-layers-and-what-each-one-tracks">The five layers, and what each one tracks</a> · <a href="#confidence-is-the-funnel-now">Confidence is the funnel now</a> · <a href="#standing-it-up-in-your-stack">Standing it up in your stack</a></nav>
 <p>On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique queries, 1,427 impressions, and zero clicks. A 0.00% click-through rate across the board.</p>
 
 <p>The standard read of that number is "your titles are bad." The standard read is wrong, and the same export proves it: 87.6% of those impressions sat at positions 51 through 100. Page six of Google. Not a single query cracked the top three. Our highest-volume queries, <code>claude seo</code> at 54 impressions, <code>lead scoring</code> at 40, all of them parked between positions 50 and 92. Nobody declined to click our results. Nobody saw them. That is a ranking-depth problem, and no meta rewrite fixes position 74.</p>
 
 <p>Here is the part that reaches past our own bruised site. Even once depth gets fixed, the meter everyone optimizes against is quietly going dark. The influence AI search exerts on a purchase rarely arrives as a click, and the clicks it does send arrive mislabeled. Last-click attribution assumes a journey of ten blue links with clean referrers. Google's AI Mode breaks both assumptions, and most reporting stacks have not caught up. A framework published in Search Engine Land on August 11 describes what to measure instead, and it is the best one we have seen.</p>
 
-<h2>Why last-click can't see AI Mode</h2>
+<h2 id="why-last-click-can-t-see-ai-mode">Why last-click can't see AI Mode</h2>
 
 <p>The framework comes from Aimee Jurenka, an SEO and AI visibility strategist at RicketyRoo, and its third layer names the blind spot precisely. When someone clicks out of AI Mode or an AI Overview, GA4 does not record an AI visit. The click gets blended into Google organic search, and in some cases it lands as Direct. The visit happened. The label did not.</p>
 
@@ -118,7 +119,7 @@
 
 <p>Run those three facts together and the failure mode is mechanical, not anecdotal. A procurement committee asks ChatGPT to shortlist vendors in your category. Two weeks later one of them searches your brand name, reads your pricing page, and fills in a demo form. Last-click hands the win to branded search. The AI conversation that built the shortlist appears nowhere in the report. You cannot file a data-quality ticket for this. It is the shape of the channel now.</p>
 
-<h2>The five layers, and what each one tracks</h2>
+<h2 id="the-five-layers-and-what-each-one-tracks">The five layers, and what each one tracks</h2>
 
 <p>Jurenka's answer is to stop chasing one perfect attribution metric and measure influence across five layers, each answering a different business question. No single layer proves causation. Together they form a body of evidence that marketing is shaping demand in places traditional attribution cannot observe. Here is the mapping against what a legacy dashboard gives you today.</p>
 
@@ -151,7 +152,7 @@
 <p><strong>Layer 5 is where the budget argument actually happens.</strong> Pipeline, closed-won, revenue. The trick is adding an AI-source field to lead forms and briefing sales on how to ask the qualification question, so the CRM carries the signal your analytics dropped.</p>
 </div>
 
-<h2>Confidence is the funnel now</h2>
+<h2 id="confidence-is-the-funnel-now">Confidence is the funnel now</h2>
 
 <p>The layers explain what to track. A second piece, published by Search Engine Land on August 10, explains why clicks stopped being the right unit of measurement in the first place.</p>
 
@@ -163,7 +164,7 @@
 
 <p>One caveat before anyone builds a UGC strategy deck: the floor is stable, the platforms are not. Search Engine Land reported on August 19 that Reddit's citations in ChatGPT Search fell 86% in four days. Measure the layer, hold it loosely, and never let one platform's number become the whole story.</p>
 
-<h2>Standing it up in your stack</h2>
+<h2 id="standing-it-up-in-your-stack">Standing it up in your stack</h2>
 
 <p>The framework is only useful as a build sequence. For a marketing ops team running GA4, GSC, and a CRM, it looks like this.</p>
 
@@ -219,7 +220,7 @@
 <a class="btn" href="/tools/">BROWSE THE TOOL DIRECTORY →</a>
 </div>
 
-<p><strong>Sources:</strong> <a href="https://searchengineland.com/ai-search-performance-measurment-framework-484546">Search Engine Land: A 5-layer framework for measuring AI search performance (Aug 11, 2026)</a> · <a href="https://searchengineland.com/customers-build-confidence-search-journey-484509">Search Engine Land: How customers build confidence across the search journey (Aug 10, 2026)</a> · <a href="https://searchengineland.com/community-signals-ai-largest-third-party-source-484606">Search Engine Land: Community signals are AI's largest third-party source (Aug 12, 2026)</a> · <a href="https://searchengineland.com/reddit-chatgpt-search-citations-fall-report-485473">Search Engine Land: Reddit's ChatGPT Search citations fell 86% in four days (Aug 19, 2026)</a> · Loamly AI traffic attribution analysis (446,405 visits), cited in <a href="https://searchengineland.com/the-5-layer-framework-for-measuring-geo-performance-477742">Search Engine Land: The 5-layer framework for measuring GEO performance</a> · Green Hat, 2025 B2B Buyer Journey Research · Wynter, 2026 CMO software buying research · MartechSignal GSC diagnostic, Aug 17, 2026 (28-day pull: 379 queries, 1,427 impressions, 0 clicks, 87.6% at position 51-100)</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/frase/">Frase</a> — AI-powered SEO content platform for research, writing, and AI visibility tracking</li><li><a href="/tools/semrush/">Semrush</a> — All-in-one SEO and digital marketing platform with AI-powered insights and tools</li><li><a href="/tools/albert-ai/">Albert AI</a> — Autonomous AI platform that manages and optimizes digital advertising campaigns</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
+<p><strong>Sources:</strong> <a href="https://searchengineland.com/ai-search-performance-measurment-framework-484546">Search Engine Land: A 5-layer framework for measuring AI search performance (Aug 11, 2026)</a> · <a href="https://searchengineland.com/customers-build-confidence-search-journey-484509">Search Engine Land: How customers build confidence across the search journey (Aug 10, 2026)</a> · <a href="https://searchengineland.com/community-signals-ai-largest-third-party-source-484606">Search Engine Land: Community signals are AI's largest third-party source (Aug 12, 2026)</a> · <a href="https://searchengineland.com/reddit-chatgpt-search-citations-fall-report-485473">Search Engine Land: Reddit's ChatGPT Search citations fell 86% in four days (Aug 19, 2026)</a> · Loamly AI traffic attribution analysis (446,405 visits), cited in <a href="https://searchengineland.com/the-5-layer-framework-for-measuring-geo-performance-477742">Search Engine Land: The 5-layer framework for measuring GEO performance</a> · Green Hat, 2025 B2B Buyer Journey Research · Wynter, 2026 CMO software buying research · MartechSignal GSC diagnostic, Aug 17, 2026 (28-day pull: 379 queries, 1,427 impressions, 0 clicks, 87.6% at position 51-100)</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/frase/">Frase</a> — AI-powered SEO content platform for research, writing, and AI visibility tracking</li><li><a href="/tools/semrush/">Semrush</a> — All-in-one SEO and digital marketing platform with AI-powered insights and tools</li><li><a href="/tools/albert-ai/">Albert AI</a> — Autonomous AI platform that manages and optimizes digital advertising campaigns</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

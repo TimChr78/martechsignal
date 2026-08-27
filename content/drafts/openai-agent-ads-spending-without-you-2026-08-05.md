@@ -5,6 +5,7 @@ slug: openai-agent-ads-spending-without-you
 date: 2026-08-05
 author: MartechSignal
 tags: [AI, Advertising, Agents, OpenAI]
+categories: [advertising]
 ---
 
 When news broke last week that OpenAI is testing a new ad format in ChatGPT, much of the industry took one look and restarted the banner ad debate. Will ChatGPT show display ads? How intrusive will they be? Will they poison the answers?

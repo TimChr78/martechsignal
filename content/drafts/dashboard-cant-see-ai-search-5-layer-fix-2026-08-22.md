@@ -5,6 +5,7 @@ slug: dashboard-cant-see-ai-search-5-layer-fix
 date: 2026-08-22
 author: MartechSignal
 tags: [SEO, AI Search, Measurement]
+categories: [seo]
 ---
 
 On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique queries, 1,427 impressions, and zero clicks. A 0.00% click-through rate across the board.

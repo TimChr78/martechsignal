@@ -5,6 +5,7 @@ slug: ai-agents-need-campaign-state
 date: 2026-08-03
 author: MartechSignal
 tags: [AI, Marketing Ops, Agents, Automation, Campaign State, n8n]
+categories: [marketing-automation]
 ---
 
 Every vendor demo you have seen this year shows the same trick. A marketer types a sentence into a box, an AI agent drafts an email, and the crowd applauds. The drafting is the easy part. It has been the easy part since 2023.

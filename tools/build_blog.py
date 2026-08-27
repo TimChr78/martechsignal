@@ -231,9 +231,40 @@ def inline_format(text: str) -> str:
     return text
 
 
+
+def _build_toc_and_chip(body_html: str, categories=None):
+    """Audit M-9/M-8: anchored mini-TOC on long posts + 'Filed under' category chips."""
+    import re as _re
+    words = len(_re.findall(r"\b\w+\b", _re.sub(r"<[^>]+>", " ", body_html)))
+    chip_html = ""
+    if categories:
+        links = " · ".join(
+            f'<a href="/categories/{c}/">{str(c).replace("-", " ").title()}</a>'
+            for c in (categories if isinstance(categories, list) else [categories])
+        )
+        chip_html = f'<p class="meta filed-cat">Filed under {links}</p>'
+    toc_html = ""
+    if words >= 1200:
+        items = []
+        def _add(m):
+            text = _re.sub(r"<[^>]+>", "", m.group(2))
+            anchor = _re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+            items.append((anchor, text))
+            return f'<h2 id="{anchor}"{m.group(1)}>{m.group(2)}</h2>'
+        new_body = _re.sub(r"<h2([^>]*)>(.*?)</h2>", _add, body_html, flags=_re.S)
+        if len(items) >= 3:
+            links = " \u00b7 ".join(f'<a href="#{a}">{t}</a>' for a, t in items[:8])
+            toc_html = ('<nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;'
+                        'border:1px solid var(--line);border-radius:10px;font-size:.85rem">'
+                        '<b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br>'
+                        f"{links}</nav>")
+            body_html = new_body
+    return body_html, chip_html + toc_html
+
 def build_post(meta: dict, body_html: str) -> str:
     """Generate the full HTML page for a blog post."""
     title = meta.get('title', 'Untitled')
+    body_html, extras = _build_toc_and_chip(body_html, meta.get('categories') or meta.get('category'))
     # SEO title: optional frontmatter override (<=60ch) for <title>/og:title; H1 keeps full title
     seo_title = meta.get('seo_title') or title
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
@@ -344,7 +375,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <script type="application/ld+json">
 {json.dumps(breadcrumb_schema, indent=2)}
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -368,6 +399,7 @@ def build_post(meta: dict, body_html: str) -> str:
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">{byline}</a></b></span>
 </div>
 
+{extras}
 {body_html}
 
 <div class="cta-strip">
@@ -469,7 +501,7 @@ def build_index(posts: list) -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>

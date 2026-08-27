@@ -4,6 +4,7 @@ slug: agents-identity-debt
 date: 2026-08-13
 author: MartechSignal
 tags: [AI, Agents, Data, Identity]
+categories: [marketing-automation]
 ---
 
 Three pieces landed this week from three corners of the industry that rarely agree on anything. Salesforce's architecture blog said customer data can look clean in isolation while broken relationships hand your agents the wrong story. AdExchanger ran a column arguing that AI can interpret data but can't vouch for it. Fivetran published a post about building healthcare AI without rebuilding the data platform underneath it.

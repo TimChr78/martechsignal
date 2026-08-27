@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,11 +102,12 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/email-marketing/">Email Marketing</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#why-authentication-stopped-being-the-differentiator">Why authentication stopped being the differentiator</a> · <a href="#the-message-has-to-be-wanted-on-arrival">The message has to be wanted on arrival</a> · <a href="#why-the-past-two-years-of-playbooks-now-read-as-spam">Why the past two years of playbooks now read as spam</a> · <a href="#what-this-means-for-marketing-operations">What this means for marketing operations</a> · <a href="#where-the-real-work-lives-now">Where the real work lives now</a></nav>
 <p>Two years ago the email go-to-market playbook was a DNS checklist: publish SPF, sign with DKIM, throw up a DMARC record, and your mail got to the inbox. That playbook is now table stakes, and it is no longer enough. The bulk-sender rules Google and Yahoo switched on in February 2024, and Microsoft followed in May 2025, are now the floor, not the target. In the AI-spam era, deliverability is decided by content-quality signals, and the teams still treating it as an IT ticket are the ones quietly losing inbox placement.</p>
 
 <p>What changed is not your DNS. It is what the inbox now does with your message after it authenticates.</p>
 
-<h2>Why authentication stopped being the differentiator</h2>
+<h2 id="why-authentication-stopped-being-the-differentiator">Why authentication stopped being the differentiator</h2>
 
 <p>The old mental model was that spam filters were marks on a pass/fail test. Authenticate, pass, get the inbox. That was always a simplification, and today it is flatly wrong. Gmail's own sender guidelines make the real test explicit: message quality is enforced through a reported spam rate, and that is a content and sourcing outcome, not a DNS setting.</p>
 
@@ -114,7 +115,7 @@
 
 <p>SPF, DKIM, and DMARC decide whether you are allowed to knock on the door. The spam rate decides whether anyone opens it.</p>
 
-<h2>The message has to be wanted on arrival</h2>
+<h2 id="the-message-has-to-be-wanted-on-arrival">The message has to be wanted on arrival</h2>
 
 <p>The 99.9% claim is worth sitting with. Google says its AI-powered defenses stop more than 99.9% of spam, phishing, and malware from reaching inboxes, and blocks nearly 15 billion unwanted emails a day (<a href="https://blog.google/products-and-platforms/products/gmail/gmail-security-authentication-spam-protection/">Google, "New Gmail protections"</a>). That is not a stat about your SPF record. It is the sum of models reading every message for whether it reads like something a human wanted.</p>
 
@@ -126,7 +127,7 @@
 <p><strong>Two distinct trends are colliding here, and conflating them hides the real lesson.</strong> On one side, real AI-generated phishing has surged: Hoxhunt's data shows AI-generated phishing jumping from 4% of reported attacks to 56% between November and December, while Sublime Security measured likely-AI signals in malicious mail leaping from 4.21% of sample attacks in Q1 to 19.29% in Q4. On the other side, the legitimate campaigns flooding your own list are also getting lazier. The inbox provider cannot tell the difference at the header level, because both now authenticate fine. So it filters on behavior: spam complaints and whether the content gets read. That is the content lever.</p>
 </div>
 
-<h2>Why the past two years of playbooks now read as spam</h2>
+<h2 id="why-the-past-two-years-of-playbooks-now-read-as-spam">Why the past two years of playbooks now read as spam</h2>
 
 <p>Here is the uncomfortable part for anyone who was diligent about the old rules. The playbooks that worked in 2024, bulk blasts with identical copy to entire lists, are exactly the patterns AI-slop detectors and spam models now punish. The search side has been screaming this for months. Search Engine Land's Kevin Indig documents "slop antibodies" spreading across every content platform: LinkedIn throttling AI-flagged posts, Substack running AI-detection, YouTube demonetizing repetitive low-effort content, TikTok and Reddit both deploying AI spam detection (<a href="https://searchengineland.com/slop-antibodies-the-link-between-ai-slop-watermarking-and-commodity-content-485182">Indig, "Slop antibodies"</a>). Those systems do not check your DKIM key. They check whether your output looks mass-produced.</p>
 
@@ -134,7 +135,7 @@
 
 <p>The inbox is no different from the feed. An email that reads like a template written to a statistically average subscriber is exactly what an AI filter is optimized to bury.</p>
 
-<h2>What this means for marketing operations</h2>
+<h2 id="what-this-means-for-marketing-operations">What this means for marketing operations</h2>
 
 <p>The shift is not that deliverability stopped being technical. It is that the technical work is now necessary but no longer sufficient, and the decisive variable has moved to content and list strategy. Your IT team can make you deliverable. They cannot make you read.</p>
 
@@ -154,7 +155,7 @@
 <p><strong>The verdict: fixed infrastructure is mandatory, but it is the baseline.</strong> If your SPF, DKIM, and DMARC are not perfect, fix that first, because non-compliance gets you rejected outright or spam-foldered. But once that is done, the teams winning deliverability are the ones treating the inbox like a content channel readers choose to open, not a pipe the IT department routes. The threat to your program is not a missing email signature. It is copy your subscribers keep reporting, sent too often, to people who never wanted it.</p>
 </div>
 
-<h2>Where the real work lives now</h2>
+<h2 id="where-the-real-work-lives-now">Where the real work lives now</h2>
 
 <p>The discipline that protects deliverability in the AI-spam era is the same discipline that protects any channel that gets editorial judgment. Quality gates go before send, not after a reputation hit.</p>
 

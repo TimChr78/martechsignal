@@ -6,6 +6,7 @@ slug: martech-budget-bleeding-nobody-measuring
 date: 2026-08-06
 author: MartechSignal
 tags: [Martech, Measurement, AI]
+categories: [analytics]
 ---
 
 A food pantry worker posted on r/MarketingAutomation last week with a problem I can't stop thinking about. Her organization runs on $60,000 a year and feeds about 200 families a month. She was considering a $25-a-month social scheduling tool, and she phrased the cost the way only someone with a real budget would: "this $25 a month could buy 50 pounds of rice."

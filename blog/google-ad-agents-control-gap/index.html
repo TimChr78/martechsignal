@@ -78,7 +78,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=b59469e3">
+<link rel="stylesheet" href="/style.css?v=2b4f4783">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -102,13 +102,14 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
+<p class="meta filed-cat">Filed under <a href="/categories/advertising/">Advertising</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-google-actually-shipped">What Google actually shipped</a> · <a href="#the-roadmap-is-explicit-about-where-this-goes">The roadmap is explicit about where this goes</a> · <a href="#the-chatgpt-guides-accidentally-wrote-the-control-gap-spec">The ChatGPT guides accidentally wrote the control-gap spec</a> · <a href="#four-places-the-control-gap-shows-up">Four places the control gap shows up</a> · <a href="#what-to-demand-before-you-switch-an-agent-on">What to demand before you switch an agent on</a> · <a href="#what-to-measure-instead">What to measure instead</a></nav>
 <p>The week of August 10 was a strange one for paid media. On Monday, Google announced new agentic capabilities for Ask Advisor, its AI assistant inside Google Ads and Analytics, and pitched them as help for marketers who want to "make decisions without leaving the platform." The same day, Search Engine Land published a step-by-step guide to running ChatGPT ads. The next day MarTech published a seven-step guide to the same platform, written by the same practitioner. Two how-tos in 48 hours for an ad product that opened self-serve buying in May.</p>
 
 <p>By Thursday, Search Engine Land was running a roadmap piece on wiring AI agents into Google Ads accounts. And the whole week sat on top of a quieter fact: Google's Smart Bidding change rolled out on August 17, the same day OpenAI's Automatic Advanced Matching becomes the default for existing ChatGPT Ads pixels unless advertisers opt out. Two platforms, one week, both moving decisions closer to the model layer.</p>
 
 <p>Paid-media automation is arriving faster than anyone has built the audit trail for it. The interesting question is not whether your team will use agents to buy ads. It is who watches them when a mistyped bid or a runaway pacing decision costs real money before lunch, and which of you is left holding the invoice.</p>
 
-<h2>What Google actually shipped</h2>
+<h2 id="what-google-actually-shipped">What Google actually shipped</h2>
 
 <p>The announcement itself is modest, so it's worth being precise. Google's blog post describes Ask Advisor, which it calls "our in-product AI agent across Google's marketing platforms," getting new capabilities:</p>
 
@@ -123,7 +124,7 @@
 
 <p>Nobody in any of this is spending your money yet. Ask Advisor reads, summarizes, and recommends. That matters, and it is also the part of the story that will not survive contact with the roadmap.</p>
 
-<h2>The roadmap is explicit about where this goes</h2>
+<h2 id="the-roadmap-is-explicit-about-where-this-goes">The roadmap is explicit about where this goes</h2>
 
 <p>Four days after the announcement, Search Engine Land published a practitioner roadmap for AI agents in Google Ads, written by the co-founder of a paid media agency. Its framing of the present moment is blunt: "We've already spent the last decade handing more execution to algorithms via Smart Bidding, broad match, and Performance Max. Agentic AI is simply the next stage of that evolution."</p>
 
@@ -131,7 +132,7 @@
 
 <p>So the sequence looks like this: the platform ships an agent that interprets your account, then invites you to let it act, and the control layer is a DIY project. That is the shape of the thing, and it is not a conspiracy. It is a product roadmap.</p>
 
-<h2>The ChatGPT guides accidentally wrote the control-gap spec</h2>
+<h2 id="the-chatgpt-guides-accidentally-wrote-the-control-gap-spec">The ChatGPT guides accidentally wrote the control-gap spec</h2>
 
 <p>The two ChatGPT Ads how-tos deserve attention not because ChatGPT is the point, but because they document what a young self-serve ad platform looks like when the buyer has almost no instrumentation. The guides, by John Horn of StubGroup, are unusually honest about this.</p>
 
@@ -152,7 +153,7 @@
 
 <p>One test, one website, and the authors say so. But 0.21% against 3.71% is the kind of number that should make anyone pause before describing this channel as plug-and-play performance spend. The platform is real, and it reaches people who are not searching on Google. It is also a channel where you pay per click, cannot see what triggered the click, and get 17 seconds of attention when the visitor arrives.</p>
 
-<h2>Four places the control gap shows up</h2>
+<h2 id="four-places-the-control-gap-shows-up">Four places the control gap shows up</h2>
 
 <p>Run the week's announcements together and the gaps line up in four places. None of them is hypothetical.</p>
 
@@ -176,7 +177,7 @@
 
 <p>The diagram is the problem. Between your target and the auction, the trace is invisible. After the auction, the only explanation available is written by the party that took the margin.</p>
 
-<h2>What to demand before you switch an agent on</h2>
+<h2 id="what-to-demand-before-you-switch-an-agent-on">What to demand before you switch an agent on</h2>
 
 <p>The platforms are not going to ship the audit layer unprompted, because the audit layer is the part that costs them. If your team is going to run agents against ad budgets this year, and something in your stack is already trying to, these are the preconditions worth treating as non-negotiable.</p>
 
@@ -200,7 +201,7 @@
 <p><strong>Placement disclosure as a condition of scale.</strong> If a platform cannot tell you what triggered your ad, cap the budget at what you are willing to lose to the unknown, and treat every efficiency claim from that platform as provisional. On ChatGPT Ads today, the trigger data does not exist for advertisers. That is a hard limit, not a roadmap item you can wait out.</p>
 </div>
 
-<h2>What to measure instead</h2>
+<h2 id="what-to-measure-instead">What to measure instead</h2>
 
 <p>If the platform's explanation of itself is compromised by design, the measurement has to come from somewhere the platform cannot reach.</p>
 

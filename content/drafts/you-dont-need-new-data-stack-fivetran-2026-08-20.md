@@ -5,6 +5,7 @@ slug: you-dont-need-new-data-stack-fivetran
 date: 2026-08-20
 author: MartechSignal
 tags: [AI, Data Stack, Marketing Operations]
+categories: [analytics]
 ---
 Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.
 
