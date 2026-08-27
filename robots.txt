@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+# Block crawlable parameterized duplicates of list endpoints (audit v2.2.5 M-3).
+# Clean URLs stay fully crawlable; only query-string variants are disallowed.
+Disallow: /*?
+Disallow: /tools/*?
 
 Sitemap: https://martechsignal.com/sitemap.xml

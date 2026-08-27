@@ -162,6 +162,7 @@
 
 ## Analysis
 
+- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) (2026-08-27)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/) (2026-08-26)
 - [Link Building Won't Get You Into AI Answers](https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/) (2026-08-25)
 - [I Ran Claude SEO on My Own Site. It Found What](https://martechsignal.com/blog/claude-seo-teardown-martechsignal/) (2026-08-24)

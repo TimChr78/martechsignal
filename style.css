@@ -555,3 +555,19 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .table-wrap th { text-align: left; padding: .55rem .8rem; background: #122036; border-bottom: 2px solid var(--amber); color: #E8EDF7; font-family: var(--disp); font-weight: 500; white-space: nowrap }
 .table-wrap td { padding: .5rem .8rem; border-bottom: 1px solid var(--line); color: #C8D2E4 }
 .table-wrap tbody tr:hover td { background: rgba(255,178,36,.04) }
+
+/* ── H-1 mobile overflow guard (audit v2.2.5 2026-08-27) ─────────────
+   Decorative layers and the masthead nav exceeded the 390-430px viewport,
+   forcing horizontal pan and clipping the SUBSCRIBE anchor. Target state:
+   document.scrollWidth === clientWidth at 360/390/414. */
+html, body { overflow-x: clip }
+.bg { width: 100vw; max-width: 100% }
+.dot-grid, .glow-a, .glow-b, .glow-c { max-width: 100% ; }
+@media (max-width: 480px) {
+  .mast-in {
+    flex-wrap: wrap;
+    row-gap: .5rem;
+    padding-inline: clamp(.9rem, 4vw, 1.5rem);
+  }
+  .mast-nav { gap: 1rem; min-width: 0; flex-wrap: wrap; font-size: .68rem; letter-spacing: .1em }
+}
