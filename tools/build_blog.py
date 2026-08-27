@@ -261,6 +261,16 @@ def _build_toc_and_chip(body_html: str, categories=None):
             body_html = new_body
     return body_html, chip_html + toc_html
 
+
+def _clean_excerpt(text, limit=155):
+    """Word-boundary meta excerpt with terminal punctuation; no mid-word cuts (audit H-3)."""
+    text = " ".join((text or "").split())
+    if len(text) <= limit:
+        return text
+    sp = text.rfind(" ", 0, limit - 1)
+    text = text[:sp] if sp > 60 else text[:limit - 3]
+    return text.rstrip(" ,;:.—-") + "."
+
 def build_post(meta: dict, body_html: str) -> str:
     """Generate the full HTML page for a blog post."""
     title = meta.get('title', 'Untitled')
@@ -327,7 +337,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": title,
-        "description": excerpt[:155],
+        "description": _clean_excerpt(excerpt),
         "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
         "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
@@ -352,12 +362,12 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(seo_title)}</title>
-<meta name="description" content="{html.escape(excerpt[:155])}">
+<meta name="description" content="{html.escape(_clean_excerpt(excerpt))}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Martech Signal">
 <meta property="og:title" content="{html.escape(seo_title)}">
-<meta property="og:description" content="{html.escape(excerpt[:155])}">
+<meta property="og:description" content="{html.escape(_clean_excerpt(excerpt))}">
 <meta property="og:url" content="https://martechsignal.com/blog/{slug}/">
 <meta property="og:image" content="https://martechsignal.com/og/{slug}.png">
 <meta property="og:image:width" content="1200">

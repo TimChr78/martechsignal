@@ -115,11 +115,17 @@ def _seo_description_for(t, cats):
             trunc = tagline_sent[:budget].rsplit(" ", 1)[0]
         else:
             trunc = tagline_sent[:max(0, budget - 1)]
-        tagline_sent = trunc.rstrip(" ,;:") + "\u2026"
+        tagline_sent = trunc.rstrip(" ,;:") + "."
     base2 = f"{name} \u2014 {tagline_sent} {price_phrase}{tail}"
     if len(base2) > 155:
         base2 = f"{name} \u2014 {price_phrase}{tail}".replace("  ", " ")
-    return base2[:155]
+    if len(base2) > 155:
+        sp = base2.rfind(" ", 0, 152)
+        if sp > 60:
+            base2 = base2[:sp]
+        else:
+            base2 = base2[:152]
+    return base2.rstrip(" ,;:") + ("." if not base2.rstrip().endswith((".", "!", "?")) else "")
 
 # ── Shared HTML shell ──────────────────────────────────────────────
 
@@ -388,7 +394,7 @@ def build_tool_page(t, cats, all_tools):
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
 <section class="page-head">
-  <h1>{esc(t['name'])}</h1>
+  <h1>{esc(t['name'])} Review</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
 </section>
@@ -808,8 +814,11 @@ def assert_factual_consistency(tools):
             problems.append(f"{slug}: offers.price=0 on {model} pricing")
         if paid_custom and "has a free tier" in html:
             problems.append(f"{slug}: FAQ claims free tier on {model} pricing")
-        if t.get("name") and f">{esc(t['name'])}</h1>" not in html and len(t.get("name","")) > 3:
-            problems.append(f"{slug}: H1 does not match name '{t['name']}'")
+        if t.get("name") and len(t.get("name","")) > 3:
+            h1_ok = (f">{esc(t['name'])}</h1>" in html
+                     or f">{esc(t['name'])} Review</h1>" in html)
+            if not h1_ok:
+                problems.append(f"{slug}: H1 does not match name '{t['name']}'")
     if problems:
         print("FACTUAL CONSISTENCY FAILURES:")
         for p in problems:
