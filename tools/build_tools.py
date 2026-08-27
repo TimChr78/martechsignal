@@ -425,6 +425,7 @@ def build_tool_page(t, cats, all_tools):
     </div>
     <div class="side-card">
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
+      <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>
     {'<div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">' + esc(t.get('price_notes','')) + '</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="' + esc(t.get('pricing_url','#')) + '" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="' + esc(t['name']) + '">VIEW PRICING →</a></div></div>' if t.get('price_notes') else ''}
   </aside>
@@ -684,11 +685,18 @@ def build_sitemap(tools, cats):
         urls.append(("https://martechsignal.com/checklist/", _lastmod(checklist_html), "0.6"))
 
     # Blog posts (scan blog/ for subdirectories containing index.html)
+    # H-6: lastmod must never contradict the page's own datePublished. A build stamp
+    # older than publish date, or a uniform date on unchanged posts, reads as fake.
     blog_dir = ROOT / "blog"
     if blog_dir.is_dir():
         for child in blog_dir.iterdir():
-            if child.is_dir() and (child / "index.html").exists():
-                urls.append((f"https://martechsignal.com/blog/{child.name}/", _lastmod(child / "index.html"), "0.9"))
+            f = child / "index.html"
+            if child.is_dir() and f.exists():
+                lm = _lastmod(f)
+                m_dp = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', f.read_text())
+                if m_dp and m_dp.group(1) > lm:
+                    lm = m_dp.group(1)
+                urls.append((f"https://martechsignal.com/blog/{child.name}/", lm, "0.9"))
 
     # Tools hub
     tools_hub = ROOT / "tools" / "index.html"

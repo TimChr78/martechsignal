@@ -291,7 +291,9 @@ def build_post(meta: dict, body_html: str) -> str:
         existing_tool_slugs = set(__import__('re').findall(r'/tools/([^/"\'\?#]+)/', body_html))
     except Exception:
         existing_tool_slugs = set()
-    related_tools = suggest_links.suggest_tools_for_text(body_html, max_suggestions=3, exclude_slugs=existing_tool_slugs)
+    _post_cats = meta.get('categories') or meta.get('category')
+    _src_cat = (_post_cats[0] if isinstance(_post_cats, list) and _post_cats else _post_cats) if _post_cats else None
+    related_tools = suggest_links.suggest_tools_for_text(body_html, max_suggestions=3, exclude_slugs=existing_tool_slugs, source_category=_src_cat)
     if related_tools:
         tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> — ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
         body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'

@@ -129,7 +129,7 @@ def _blog_linked_tool_slugs() -> set:
     return linked
 
 
-def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: set | None = None, prefer_orphans: bool = False) -> list[dict]:
+def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: set | None = None, prefer_orphans: bool = False, source_category: str | None = None) -> list[dict]:
     """Return related tools for arbitrary source text (blog <-> tools linking).
 
     Scores keyword overlap between source text and each tool's metadata
@@ -161,6 +161,9 @@ def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: s
             continue
         score = score_overlap(source_kw, keywords(extract_text(blob)))
         if score > 0:
+            # H-9: same-category tools are intent-matched, not merely keyword-adjacent.
+            if source_category and t.get("category") == source_category:
+                score *= 1.3
             if prefer_orphans and t.get("slug") not in linked:
                 score *= 1.5  # orphan boost: relevance still gates entry, this reorders near-ties
             scored.append((score, t))
