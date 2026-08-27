@@ -187,7 +187,11 @@
 ## Glossary
 
 - [Account-Based Marketing (ABM)](https://martechsignal.com/glossary/abm/)
+- [Agentic Marketing](https://martechsignal.com/glossary/agentic-marketing/)
+- [AI Agent](https://martechsignal.com/glossary/ai-agent/)
 - [AI Content Generation](https://martechsignal.com/glossary/ai-content-generation/)
+- [AI Search Visibility](https://martechsignal.com/glossary/ai-search-visibility/)
+- [Answer Engine Optimization (AEO)](https://martechsignal.com/glossary/aeo/)
 - [Attribution Models (First-Touch, Last-Touch, Multi-Touch)](https://martechsignal.com/glossary/marketing-attribution-models/)
 - [Chatbot (Conversational AI)](https://martechsignal.com/glossary/chatbot/)
 - [Conversion Rate Optimization (CRO)](https://martechsignal.com/glossary/cro/)
@@ -204,6 +208,7 @@
 - [Marketing Attribution](https://martechsignal.com/glossary/attribution/)
 - [Marketing Automation](https://martechsignal.com/glossary/marketing-automation/)
 - [Marketing Operations (MarketingOps)](https://martechsignal.com/glossary/marketing-ops/)
+- [Model Context Protocol (MCP)](https://martechsignal.com/glossary/mcp/)
 - [MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)](https://martechsignal.com/glossary/mql-sql/)
 - [Programmatic Advertising](https://martechsignal.com/glossary/programmatic-advertising/)
 - [Search Engine Optimization (SEO)](https://martechsignal.com/glossary/seo/)

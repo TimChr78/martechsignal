@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Context Protocol (MCP) — Definition | MartechSignal</title>
+<meta name="description" content="The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Martech Signal">
+<meta property="og:title" content="Model Context Protocol (MCP) — Definition | MartechSignal">
+<meta property="og:description" content="The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a d">
+<meta property="og:url" content="https://martechsignal.com/glossary/mcp/">
+<meta property="og:image" content="https://martechsignal.com/og/glossary/mcp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Model Context Protocol (MCP) — Definition | MartechSignal">
+<meta name="twitter:description" content="The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a d">
+<meta name="twitter:image" content="https://martechsignal.com/og/glossary/mcp.png">
+<link rel="canonical" href="https://martechsignal.com/glossary/mcp/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Model Context Protocol (MCP)",
+    "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/mcp/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "MCP",
+        "item": "https://martechsignal.com/glossary/mcp/"
+      }
+    ]
+  }
+]</script>
+<link rel="stylesheet" href="/style.css?v=69b0f800">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-tools">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb"><a href="/">Home</a> / <a href="/glossary/">Glossary</a> / <span>MCP</span></nav>
+<section class="page-head">
+  <h1>Model Context Protocol (MCP)</h1>
+  <p class="count">GLOSSARY</p>
+</section>
+<div class="detail">
+  <div class="detail-main">
+    <h2>Definition</h2>
+    <p>The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.</p>
+    <h2>Why it matters</h2>
+    <p>Anthropic introduced MCP in late 2024 and open-sourced it; adoption spread quickly through developer tools and then marketing platforms. For marketing teams, MCP is how agents get hands: the CRM connector, the ad-account connector, the analytics connector that lets an agent act inside your stack.</p>
+    <h2>How it works</h2><p>An MCP server is a small program that declares resources it can read and actions it can perform. The client - Claude Code, an agent runtime, an IDE - discovers those declarations and lets the model call them as structured tools. Sessions are stateful enough for context to persist across calls within a conversation.</p><h2>Practical uses</h2><p>Marketing teams use MCP servers to give agents safe access to internal data: campaign performance reads, content draft writes, ticket lookups. The protocol&#x27;s permission model means access can be scoped per server, which is how you give an agent analytics reads without handing over spend controls.</p><h2>How to choose</h2><p>Prefer MCP servers that are idempotent and read-heavy for first deployments. A server that can only read and report cannot break production data; once trust is established, add write-capable servers one at a time.</p><h2>The numbers</h2><p>Scale math: an agent that checks six data sources before each decision, running once per hour, makes roughly 4,300 tool calls per week per agent. Against metered MCP or search quotas, that is the difference between a rounding error and a budget line - design polling frequency before launch, not after.</p><h2>Common mistakes</h2><p>Running unvetted third-party MCP servers with production credentials is the emerging horror story - a server with broad scopes is a supply-chain risk. Audit what scopes each server holds and rotate credentials separately.</p><h2>What changed with AI</h2><p>MCP exists because of AI; the practical risk is quota economics. Hosted-model providers meter MCP tool calls separately from plain inference, and agentic workloads multiply call counts. Know your provider&#x27;s metering before wiring an agent to a chatty tool.</p>
+    <h2>Tools in this space</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/make/"><div class="name">Make</div><div class="tagline">Visual automation platform for building complex workflows with AI agents and apps</div></a></div>
+    <h2>Related terms</h2><p style="color:var(--muted)"><a href="/glossary/marketing-ops/" style="color:var(--amber)">Marketing ops</a> · <a href="/glossary/workflow-automation/" style="color:var(--amber)">Workflow automation</a> · <a href="/glossary/ai-agent/" style="color:var(--amber)">AI Agent</a> · <a href="/glossary/agentic-marketing/" style="color:var(--amber)">Agentic Marketing</a></p>
+  </div>
+  <aside class="sidebar">
+    <div class="side-card">
+      <h3>Categories</h3>
+      <p><a class="cat-pill" href="/categories/workflow-automation/">Workflow Automation</a> <a class="cat-pill" href="/categories/marketing-ops/">Marketing Ops</a> </p>
+    </div>
+    <div class="side-card">
+      <a class="btn-sm" href="/tools/">Browse all tools →</a>
+    </div>
+  </aside>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a>
+      <a href="/tools/">TOOLS</a>
+      <a href="/glossary/">GLOSSARY</a>
+      <a href="/blog/">BLOG</a>
+      <a href="/about/">ABOUT</a>
+      <a href="/contact/">CONTACT</a>
+      <a href="/privacy/">PRIVACY</a>
+      <a href="/terms/">TERMS</a>
+      <a href="/#subscribe">SUBSCRIBE</a>
+    </div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>
