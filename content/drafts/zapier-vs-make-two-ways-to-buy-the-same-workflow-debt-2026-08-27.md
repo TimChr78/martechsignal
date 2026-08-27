@@ -78,3 +78,5 @@ The honest caveat: self-hosting does not delete the maintenance, it relocates it
 </div>
 
 **Sources:** [Zapier pricing (retrieved Aug 27, 2026)](https://zapier.com/pricing) · [Make pricing (retrieved Aug 27, 2026)](https://www.make.com/en/pricing) · [n8n 2.36.0 release notes (Aug 18, 2026)](https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0) · [r/MarketingAutomation: client automations that break in production (Aug 21, 2026)](https://reddit.com/r/MarketingAutomation/comments/1vu7agv/for_everyone_running_client_automations_on) · [r/nocode: Nocode is getting too expensive (Mar 2026)](https://www.reddit.com/r/nocode/comments/1sj58j8/nocode_is_getting_too_expensive_and_nobody_wants/) · [Make scenario blueprints documentation](https://help.make.com/blueprints) · [Zapier import/export documentation](https://help.zapier.com/hc/en-us/articles/8496308481933-Import-and-export-Zap-workflows-in-your-Team-or-Enterprise-account)
+
+**Tools linked in this post:** [Zapier](/tools/zapier/), [Make](/tools/make/), [n8n](/tools/n8n/), [Pipedream](/tools/pipedream/), [Tray.io](/tools/tray-io/).
