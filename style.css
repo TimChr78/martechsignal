@@ -19,9 +19,9 @@
   --amber: #FFB224;
   --green: #3DDC97;
   --red: #F87171;
-  --mono: 'Spline Sans Mono', ui-monospace, monospace;
-  --disp: 'Archivo Black', sans-serif;
-  --body: 'Archivo', sans-serif;
+  --mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace;
+  --disp: 'Archivo Black', 'Archivo-fallback', sans-serif;
+  --body: 'Archivo', 'Archivo-fallback', sans-serif;
 }
 
 /* ---------- reset / base ---------- */
@@ -575,3 +575,25 @@ html, body { overflow-x: clip }
 /* M-11: reading measure for long-form tool content */
 .tool-body, .page-tools main p, .page-tools main li { max-width: 72ch }
 .page-tools main h2, .page-tools main h3 { max-width: 40ch }
+
+
+/* M-2: CLS guard - metric-compatible local fallbacks so font swap doesn't reflow text.
+   Metrics approximate Archivo (body) and Spline Sans Mono (mono); system fonts render at the
+   same line height, eliminating the async-font layout shift the audit measured. */
+@font-face {
+  font-family: 'Archivo-fallback';
+  src: local('Arial'), local('Helvetica Neue'), local('Liberation Sans');
+  ascent-override: 98%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+  size-adjust: 104%;
+}
+@font-face {
+  font-family: 'SplineMono-fallback';
+  src: local('Consolas'), local('Menlo'), local('DejaVu Sans Mono');
+  ascent-override: 100%;
+  descent-override: 25%;
+  line-gap-override: 0%;
+  size-adjust: 96%;
+}
+:root { --body: 'Archivo', 'Archivo-fallback', sans-serif; --disp: 'Archivo Black', 'Archivo-fallback', sans-serif; --mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace; }

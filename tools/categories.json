@@ -56,7 +56,7 @@
       "monica",
       "django-crm"
     ],
-    "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice."
+    "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: nineteen systems, fourteen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one."
   },
   {
     "slug": "content-ai",
@@ -87,7 +87,7 @@
       "snowplow",
       "triple-whale"
     ],
-    "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers."
+    "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict."
   },
   {
     "slug": "social-media",
@@ -114,7 +114,7 @@
       "revealbot",
       "smartly-io"
     ],
-    "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features."
+    "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the five platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over."
   },
   {
     "slug": "personalization",
@@ -489,6 +489,6 @@
       "growth-lab",
       "openclaw-marketing-skills"
     ],
-    "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print."
+    "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print. All thirteen entries are open source, most distributed as skill packs or agent frameworks rather than hosted products, which flips the usual evaluation criteria. There is no sales team to blame and no SLA to fall back on; quality lives in the repo's issue discipline, documentation, and how predictable the skill behaves inside a real workflow. Every review here comes from loading the pack into our own agents and shipping something with it."
   }
 ]
