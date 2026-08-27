@@ -137,7 +137,8 @@ def build_term_page(term, tools_map, all_terms):
     if dd:
         parts = []
         for key, title in [("how_it_works", "How it works"), ("practical_uses", "Practical uses"),
-                           ("choosing", "How to choose"), ("common_mistakes", "Common mistakes"),
+                           ("choosing", "How to choose"), ("the_numbers", "The numbers"),
+                           ("common_mistakes", "Common mistakes"),
                            ("ai_angle", "What changed with AI")]:
             txt = dd.get(key)
             if txt:
