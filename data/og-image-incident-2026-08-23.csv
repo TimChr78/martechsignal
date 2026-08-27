@@ -1,0 +1,2 @@
+incident,page_type,pages_affected,check_url,response_before,response_after
+og:image 404 sitewide,all (36 pages referencing /og.png),36,https://martechsignal.com/og.png,404 text/html 1423 bytes,200 image/png

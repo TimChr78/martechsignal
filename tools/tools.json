@@ -459,7 +459,8 @@
     "status": "acquired",
     "date_added": "2026-07-27",
     "date_updated": "2026-07-28",
-    "description": "Autopilot is a visual customer journey automation platform that pioneered the 'draw your customer journey' approach to marketing automation. Founded in Australia, it was one of the first tools to replace traditional campaign builders with a canvas-based interface where marketers literally sketch out email sequences, SMS triggers, and in-app messages as visual flows. The platform's simplicity was its key advantage: non-technical marketers could build multi-step journeys in minutes without understanding branching logic or conditional rules. In recent years, Autopilot has been rebranded and absorbed into Ortto, which builds on the journey automation foundation by adding a customer data platform (CDP), real-time analytics dashboards, and AI-powered journey optimization. The original Autopilot product focused on email journeys, SMS, and direct mail triggers, with integrations into Salesforce, Segment, Slack, and payment platforms. Pricing was usage-based, starting around $49/month for 2,000 contacts. For current users, the migration path is toward Ortto, where the visual journey builder lives on alongside CDP features, AI-driven email and push messaging, and a dashboard that unifies campaign analytics with customer behavior data. The transition from Autopilot to Ortto reflects a broader market trend: standalone journey builders have been absorbed into platforms that also handle data unification and analytics, since journeys without unified customer data produce inconsistent experiences."
+    "description": "Autopilot is a visual customer journey automation platform that pioneered the 'draw your customer journey' approach to marketing automation. Founded in Australia, it was one of the first tools to replace traditional campaign builders with a canvas-based interface where marketers literally sketch out email sequences, SMS triggers, and in-app messages as visual flows. The platform's simplicity was its key advantage: non-technical marketers could build multi-step journeys in minutes without understanding branching logic or conditional rules. In recent years, Autopilot has been rebranded and absorbed into Ortto, which builds on the journey automation foundation by adding a customer data platform (CDP), real-time analytics dashboards, and AI-powered journey optimization. The original Autopilot product focused on email journeys, SMS, and direct mail triggers, with integrations into Salesforce, Segment, Slack, and payment platforms. Pricing was usage-based, starting around $49/month for 2,000 contacts. For current users, the migration path is toward Ortto, where the visual journey builder lives on alongside CDP features, AI-driven email and push messaging, and a dashboard that unifies campaign analytics with customer behavior data. The transition from Autopilot to Ortto reflects a broader market trend: standalone journey builders have been absorbed into platforms that also handle data unification and analytics, since journeys without unified customer data produce inconsistent experiences.",
+    "seo_title": "Autopilot Review — From $199/mo | MartechSignal"
   },
   {
     "slug": "billionmail",
@@ -894,7 +895,7 @@
     "date_added": "2026-07-27",
     "date_updated": "2026-07-27",
     "description": "Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. Its modular AI platform covers four core areas: **personalized site search** that eliminates zero-result dead ends by combining browsing behavior, sales data, and real-time inventory availability; **product recommendations** across homepage, category pages, product pages, and cart using multi-algorithm AI; **email personalization** with behavior-triggered product feeds; and **audience segmentation** that dynamically groups customers by intent signals rather than static rules. Clerk.io's unified data platform ensures all personalization modules share the same customer profile, so a shopper who searched for running shoes sees consistent recommendations across search, browse, and email rather than conflicting signals from siloed tools.\n\n**Cookieless by design:** Clerk.io uses first-party behavioral data and session-based signals instead of third-party cookies, making it resilient to privacy regulations and browser restrictions. The platform serves over 2,500 stores worldwide and reports 15-30% average sales lift from its personalization suite. Pricing starts at $119/month, making it accessible to mid-market ecommerce while scaling to enterprise needs. Integrations include Shopify, Magento, WooCommerce, BigCommerce, and custom platforms via REST API. Clerk.io competes directly with Nosto, Dynamic Yield, and Algonomy in the ecommerce personalization space, positioning itself as the AI-first alternative that unifies search, recommendations, and email under one behavioral data engine.",
-    "seo_title": "Clerk.io Review — Free tier | MartechSignal",
+    "seo_title": "Clerk.io Review — Paid | MartechSignal",
     "seo_description": "Clerk.io — AI-powered ecommerce personalization with search… Free tier available. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
       "hands_on": [
@@ -1084,7 +1085,8 @@
         "The price point (from $2,500/mo) says it plainly: this is a revenue-team tool, not a support widget. Teams that only need a FAQ bot or light chat will overpay drastically. Buy it for pipeline conversation, not deflection."
       ],
       "verdict": "Relevant only for B2B revenue teams running inbound-outbound motion. Everyone else should use a support-oriented chatbot."
-    }
+    },
+    "seo_title": "Drift (Salesloft) Review — Enterprise | MartechSignal"
   },
   {
     "slug": "dynamic-yield",
@@ -4493,7 +4495,8 @@
         "You still pay LINE's per-message fees and any Cloudflare usage past the free tier, and operations, updates, and incident response are yours, with no SLA to lean on. Documentation is Japanese-first, the project sits pre-1.0 at v0.21.x with 568 stars, and it has existed for only months. The MCP server for Claude Code control is genuinely unusual, but the use case is strictly Japan-focused LINE marketing."
       ],
       "verdict": "The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case."
-    }
+    },
+    "seo_title": "L Harness Review — Open Source | MartechSignal"
   },
   {
     "slug": "monica",
@@ -4516,7 +4519,8 @@
     "status": "active",
     "date_added": "2026-08-21",
     "date_updated": "2026-08-21",
-    "description": "Monica is an open-source personal CRM built around a simple premise: remember everything about the people in your life. Contacts, conversations, reminders, journal entries, and relationship details live in one self-hostable interface. With more than 25,000 GitHub stars it is one of the most popular open-source CRM projects overall, though its focus is personal relationship management rather than B2B sales pipelines.\n\nFor marketing teams Monica fits a narrow but real niche: founder-led sales, community management, and relationship-driven outreach where the 'customer' is a person rather than an account. It self-hosts via Docker or the official hosted plan, exposes an API for integrations, and costs nothing to run yourself. Teams that need pipeline stages, forecasting, or multi-owner deal workflows should look at Twenty or SuiteCRM instead."
+    "description": "Monica is an open-source personal CRM built around a simple premise: remember everything about the people in your life. Contacts, conversations, reminders, journal entries, and relationship details live in one self-hostable interface. With more than 25,000 GitHub stars it is one of the most popular open-source CRM projects overall, though its focus is personal relationship management rather than B2B sales pipelines.\n\nFor marketing teams Monica fits a narrow but real niche: founder-led sales, community management, and relationship-driven outreach where the 'customer' is a person rather than an account. It self-hosts via Docker or the official hosted plan, exposes an API for integrations, and costs nothing to run yourself. Teams that need pipeline stages, forecasting, or multi-owner deal workflows should look at Twenty or SuiteCRM instead.",
+    "seo_title": "Monica Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "nocobase",
@@ -4543,7 +4547,8 @@
     "status": "active",
     "date_added": "2026-08-21",
     "date_updated": "2026-08-21",
-    "description": "NocoBase is an open-source, self-hosted no-code platform for assembling business systems — CRMs, approval flows, content operations, internal dashboards — from configurable data models, pages, and workflow blocks. Its plugin architecture and AI-assisted building put it closer to a marketing-ops construction kit than a fixed automation tool: you compose the campaign-management system you want rather than adapting to someone else's.\n\nWith 23,000+ GitHub stars and active development, it is a credible self-hosted alternative to Airtable-plus-Zapier stacks for teams with light technical resources. The free community edition covers core data modeling, WYSIWYG pages, and workflow automation; commercial editions add enterprise plugins and support. Marketing use cases include lead databases, content calendars, campaign approval flows, and internal tools wired to your own data."
+    "description": "NocoBase is an open-source, self-hosted no-code platform for assembling business systems — CRMs, approval flows, content operations, internal dashboards — from configurable data models, pages, and workflow blocks. Its plugin architecture and AI-assisted building put it closer to a marketing-ops construction kit than a fixed automation tool: you compose the campaign-management system you want rather than adapting to someone else's.\n\nWith 23,000+ GitHub stars and active development, it is a credible self-hosted alternative to Airtable-plus-Zapier stacks for teams with light technical resources. The free community edition covers core data modeling, WYSIWYG pages, and workflow automation; commercial editions add enterprise plugins and support. Marketing use cases include lead databases, content calendars, campaign approval flows, and internal tools wired to your own data.",
+    "seo_title": "NocoBase Review — Free tier | MartechSignal"
   },
   {
     "slug": "django-crm",
@@ -4571,7 +4576,8 @@
         "The AI layer is absent, which is fine only if you know that coming in. Email stays basic, integrations are whatever you build, and the UI is traditional rather than modern, with Twenty and SuiteCRM framing the trade-offs. Django shops get a pragmatic middle; teams without Django skills inherit a maintenance burden that cheap software never pays for. Budget for that engineering time before you count the savings from skipping per-seat fees."
       ],
       "verdict": "A sensible self-hosted CRM for Django teams managing multiple brands. Others get faster value from hosted CRMs."
-    }
+    },
+    "seo_title": "Django CRM Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "maizzle",
@@ -4592,7 +4598,8 @@
     "status": "active",
     "date_added": "2026-08-21",
     "date_updated": "2026-08-21",
-    "description": "Maizzle is an email development framework that brings Tailwind CSS and modern build tooling to HTML email production. It compiles responsive, client-safe templates with inlining, purging, and Outlook conditioning handled at build time, so email developers write clean code instead of fighting table soup. Nearly 2,900 GitHub stars and steady releases make it the current default choice for template-based email work.\n\nMaizzle is not a sending platform — pair it with your ESP of choice (it maintains starter templates for common ones). For martech stacks it occupies the production layer: agencies and in-house teams producing high-cadence campaign HTML get maintainable code, reusable components, and far less QA pain across clients. If your team writes email HTML by hand or dreads every new template request, this is the fix."
+    "description": "Maizzle is an email development framework that brings Tailwind CSS and modern build tooling to HTML email production. It compiles responsive, client-safe templates with inlining, purging, and Outlook conditioning handled at build time, so email developers write clean code instead of fighting table soup. Nearly 2,900 GitHub stars and steady releases make it the current default choice for template-based email work.\n\nMaizzle is not a sending platform — pair it with your ESP of choice (it maintains starter templates for common ones). For martech stacks it occupies the production layer: agencies and in-house teams producing high-cadence campaign HTML get maintainable code, reusable components, and far less QA pain across clients. If your team writes email HTML by hand or dreads every new template request, this is the fix.",
+    "seo_title": "Maizzle Review: Email Marketing — Free | MartechSignal"
   },
   {
     "slug": "notifo",
@@ -4617,7 +4624,8 @@
     "status": "active",
     "date_added": "2026-08-21",
     "date_updated": "2026-08-21",
-    "description": "Notifo is an open-source notification service that unifies email, SMS, and web push behind one API. Product and marketing teams use it for transactional and lifecycle messaging — signup confirmations, alerts, digests, re-engagement pings — without wiring each channel separately. It self-hosts via Docker and integrates with existing SMTP providers for delivery.\n\nAt roughly 900 GitHub stars it is a smaller project than Squidex (its sibling), positioned as infrastructure rather than a campaign platform: think programmatic notifications triggered by your own events, not newsletters or drip journeys. Teams that already run SendGrid or Postmark for marketing mail often deploy Notifo alongside them to centralize product-triggered messaging with user preferences and per-channel settings managed in one place."
+    "description": "Notifo is an open-source notification service that unifies email, SMS, and web push behind one API. Product and marketing teams use it for transactional and lifecycle messaging — signup confirmations, alerts, digests, re-engagement pings — without wiring each channel separately. It self-hosts via Docker and integrates with existing SMTP providers for delivery.\n\nAt roughly 900 GitHub stars it is a smaller project than Squidex (its sibling), positioned as infrastructure rather than a campaign platform: think programmatic notifications triggered by your own events, not newsletters or drip journeys. Teams that already run SendGrid or Postmark for marketing mail often deploy Notifo alongside them to centralize product-triggered messaging with user preferences and per-channel settings managed in one place.",
+    "seo_title": "Notifo Review: Email Marketing — Open Source | MartechSignal"
   },
   {
     "slug": "idurar-erp-crm",
@@ -4637,7 +4645,8 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React"
+    "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React",
+    "seo_title": "IDURAR ERP & CRM Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "dolibarr",
@@ -4657,7 +4666,8 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers."
+    "description": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web application (written in PHP) designed for businesses of any sizes, foundations and freelancers.",
+    "seo_title": "Dolibarr ERP/CRM Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "react-email-editor",
@@ -4677,7 +4687,8 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "Drag-n-Drop Email Editor Component for React.js"
+    "description": "Drag-n-Drop Email Editor Component for React.js",
+    "seo_title": "React Email Editor Review — Open Source | MartechSignal"
   },
   {
     "slug": "ever-gauzy",
@@ -4697,7 +4708,8 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co"
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "seo_title": "Ever Gauzy Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "frappe-crm",
@@ -4717,7 +4729,8 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "Fully featured, open source CRM"
+    "description": "Fully featured, open source CRM",
+    "seo_title": "Frappe CRM Review: CRM — Open Source | MartechSignal"
   },
   {
     "slug": "open-mercato",
@@ -4737,6 +4750,7 @@
     "status": "active",
     "date_added": "2026-08-25",
     "date_updated": "2026-08-25",
-    "description": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, events and domain modules already decided as conventions and specs, so Cursor, Claude Code and Codex build features instead of re-deciding architecture. Start with 80% done."
+    "description": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, events and domain modules already decided as conventions and specs, so Cursor, Claude Code and Codex build features instead of re-deciding architecture. Start with 80% done.",
+    "seo_title": "Open Mercato Review — Open Source | MartechSignal"
   }
 ]

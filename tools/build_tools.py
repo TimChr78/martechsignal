@@ -155,7 +155,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Black&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
 {schema_block}
-<link rel="stylesheet" href="/style.css?v=130896fb">
+<link rel="stylesheet" href="/style.css?v=54351929">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -318,7 +318,7 @@ def build_tool_page(t, cats, all_tools):
     _shot_path = f"og/screenshots/{slug}-{datetime.now().strftime('%Y-%m')}.png"
     _shot = ROOT / _shot_path
     if _shot.exists():
-        shot_html = (f'<figure style="margin:1.5rem 0"><img src="/{_shot_path}" '
+        shot_html = (f'<figure style="margin:1.5rem 0"><img src="/{_shot_path}" width="1200" height="750" '
                      f'alt="Screenshot of {esc(t["name"])} homepage, {datetime.now().strftime("%B %Y")}" loading="lazy" '
                      f'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></figure>')
         dd_html = shot_html + dd_html
@@ -787,6 +787,35 @@ def main():
     # llms.txt for AI-search readiness
     build_llms_txt(tools, cats)
 
+    # Factual-consistency gate (fails the build loudly on contradictions)
+    assert_factual_consistency(tools)
+
+
+
+def assert_factual_consistency(tools):
+    """Post-build gate (audit follow-up): loud failure if any tool page contradicts itself."""
+    problems = []
+    for t in tools:
+        if t.get("status") != "active":
+            continue
+        slug, model = t["slug"], t.get("pricing_model")
+        paid_custom = t.get("price_from") is None or t.get("pricing_model") == "enterprise"
+        page = TOOLS_DIR / slug / "index.html"
+        if not page.exists():
+            continue
+        html = page.read_text()
+        if re.search(r'"price"\s*:\s*0\b', html) and model in ("enterprise", "paid"):
+            problems.append(f"{slug}: offers.price=0 on {model} pricing")
+        if paid_custom and "has a free tier" in html:
+            problems.append(f"{slug}: FAQ claims free tier on {model} pricing")
+        if t.get("name") and f">{esc(t['name'])}</h1>" not in html and len(t.get("name","")) > 3:
+            problems.append(f"{slug}: H1 does not match name '{t['name']}'")
+    if problems:
+        print("FACTUAL CONSISTENCY FAILURES:")
+        for p in problems:
+            print("  !!", p)
+        raise SystemExit(1)
+    print("Factual consistency: OK")
 
 def build_llms_txt(tools, cats):
     """Generate llms.txt (site summary + structured inventory for AI crawlers)."""
@@ -810,7 +839,18 @@ def build_llms_txt(tools, cats):
         lines.append(f"### {cat_names.get(cslug, cslug)}")
         lines.append("")
         for t in sorted(ts, key=lambda x: x["name"].lower()):
-            tag = (t.get("tagline") or "").strip().rstrip(".")[:110]
+            tag_full = (t.get("tagline") or "").strip().rstrip(".")
+            if len(tag_full) > 110:
+                # cut at the last clause boundary (comma/semicolon) before the limit,
+                # falling back to a word boundary - never mid-word (audit M8)
+                cut = max(tag_full.rfind(",", 0, 110), tag_full.rfind(";", 0, 110))
+                if cut >= 40:
+                    tag = tag_full[:cut].rstrip(",;:")
+                else:
+                    sp = tag_full.rfind(" ", 0, 110)
+                    tag = tag_full[:sp] + "\u2026" if sp > 30 else tag_full[:110].rsplit(" ", 1)[0] + "\u2026"
+            else:
+                tag = tag_full
             oss = " (open source)" if t.get("open_source") else ""
             lines.append(f"- [{t['name']}](https://martechsignal.com/tools/{t['slug']}/): {tag}{oss}")
         lines.append("")
@@ -850,6 +890,28 @@ def build_llms_txt(tools, cats):
     out = ROOT / "llms.txt"
     out.write_text("\n".join(lines))
     print(f"llms.txt: {out} ({len(lines)} lines)")
+
+    # llms-full.txt: same inventory with full descriptions per tool (audit M8:
+    # AI crawlers that want depth get it without crawling every page)
+    full_lines = list(lines)
+    for cslug, ts in sorted(by_cat.items()):
+        full_lines.append(f"### {cat_names.get(cslug, cslug)}")
+        full_lines.append("")
+        for t in sorted(ts, key=lambda x: x["name"].lower()):
+            desc = (t.get("description") or t.get("tagline") or "").strip()
+            if not desc:
+                continue
+            oss = " Open source." if t.get("open_source") else ""
+            price = pricing_label(t)
+            full_lines.append(f"[{t['name']}](https://martechsignal.com/tools/{t['slug']}/) \u2014 {price}.{oss}")
+            for para in desc.split("\n"):
+                para = para.strip()
+                if para:
+                    full_lines.append(para)
+            full_lines.append("")
+    full_out = ROOT / "llms-full.txt"
+    full_out.write_text("\n".join(full_lines))
+    print(f"llms-full.txt: {full_out} ({len(full_lines)} lines)")
 
 if __name__ == "__main__":
     main()
