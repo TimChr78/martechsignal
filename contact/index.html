@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | MartechSignal</title>
+<meta name="description" content="Corrections, tips, vendor news, or questions about how MartechSignal tests tools. Email tim@martechsignal.com or use the contact form.">
+<link rel="canonical" href="https://martechsignal.com/contact/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css?v=130896fb">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">&#9646;</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap post-wrap" style="max-width:720px;margin:0 auto;padding:2rem 1.5rem 4rem">
+<nav class="crumb"><a href="/">Home</a> / <span>Contact</span></nav>
+<article>
+<h1>Contact</h1>
+<p>Corrections, tips, vendor news worth a look, or questions about how we test. I read everything sent here.</p>
+<p>Email works best: <a href="mailto:tim@martechsignal.com">tim@martechsignal.com</a>. The form below opens your own email client with the message pre-filled; nothing is stored on this site.</p>
+<form id="contact-form" style="max-width:520px;margin:2rem 0;display:flex;flex-direction:column;gap:.8rem">
+  <input type="text" name="website" value="" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <input type="text" name="name" placeholder="Your name" required style="padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border,#2a3038);background:transparent;color:inherit;font:inherit">
+  <input type="email" name="email" placeholder="Your email" required style="padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border,#2a3038);background:transparent;color:inherit;font:inherit">
+  <textarea name="message" rows="6" placeholder="What's on your mind?" required style="padding:.7rem .9rem;border-radius:8px;border:1px solid var(--border,#2a3038);background:transparent;color:inherit;font:inherit"></textarea>
+  <button type="submit" class="btn" style="align-self:flex-start;padding:.75rem 1.4rem;border-radius:8px;border:none;background:#d4a040;color:#0f0f12;font-weight:600;cursor:pointer">Compose email</button>
+</form>
+<script>
+(function(){
+  var f = document.getElementById('contact-form');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (f.website.value !== '') return;
+    var subject = encodeURIComponent('martechsignal.com: ' + (f.message.value.slice(0,40) || 'contact'));
+    var body = encodeURIComponent(f.message.value + '\n\n\u2014 ' + f.name.value + ' (' + f.email.value + ')');
+    window.location.href = 'mailto:tim@martechsignal.com?subject=' + subject + '&body=' + body;
+  });
+})();
+</script>
+<p class="fine" style="margin-top:1.5rem">No database behind this form: the button just drafts the email in your client, so nothing you type reaches this server. Expect a reply within a couple of days.</p>
+</article>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/about/">ABOUT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a>
+    </div>
+    <p class="fine">&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>

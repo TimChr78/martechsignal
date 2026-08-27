@@ -177,6 +177,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
       <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
       <a href="/about/">ABOUT</a>
+      <a href="/contact/">CONTACT</a>
       <a href="/privacy/">PRIVACY</a>
       <a href="/terms/">TERMS</a>
       <a href="/#subscribe">SUBSCRIBE</a>
@@ -686,6 +687,11 @@ def build_sitemap(tools, cats):
     # Tools hub
     tools_hub = ROOT / "tools" / "index.html"
     urls.append((f"https://martechsignal.com/tools/", _lastmod(tools_hub) if tools_hub.exists() else today, "0.8"))
+
+    # Contact page
+    contact_html = ROOT / "contact" / "index.html"
+    if contact_html.exists():
+        urls.append(("https://martechsignal.com/contact/", _lastmod(contact_html), "0.5"))
 
     # About page
     about_html = ROOT / "about" / "index.html"
