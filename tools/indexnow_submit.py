@@ -24,7 +24,7 @@ LASTMOD = ROOT / "tools" / ".lastmod.json"
 ENDPOINT = "https://api.indexnow.org/indexnow"  # routes to participating engines (Bing, Yandex, Seznam, Naver)
 
 HOST = "martechsignal.com"
-KEYFILE_URL = f"https://{HOST}/.well-known/indexnow-{{key}}.txt"
+KEYFILE_URL = f"https://{HOST}/indexnow-{{key}}.txt"  # root variant; engines verify this reliably
 
 
 def load_key() -> str:
@@ -44,9 +44,13 @@ def changed_urls(limit: int = 100) -> list[str]:
         rel = path.replace(str(ROOT), "").lstrip("/")
         if not rel:
             out.append(f"https://{HOST}/")
-        else:
-            out.append(f"https://{HOST}/{rel.removeprefix('index.html').rstrip('/')}" or f"https://{HOST}/")
-    return [u if u.endswith("/") or u.endswith(".xml") or u.endswith(".txt") else u + "/" for u in out]
+            continue
+        if rel.endswith("index.html"):
+            rel = rel[: -len("index.html")]  # /blog/foo/index.html -> /blog/foo/
+        if rel and not rel.endswith("/"):
+            rel += "/"
+        out.append(f"https://{HOST}/{rel}")
+    return out
 
 
 def submit(urls: list[str]) -> None:
