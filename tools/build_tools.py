@@ -428,6 +428,25 @@ def build_tool_page(t, cats, all_tools):
 
     deep_dive_html = dd_html
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
+
+    # External third-party ratings: facts-only display with attribution, link, and as-of date.
+    # Deliberately visually distinct from our editorial rating (no stars, muted, sourced).
+    ext_lines = []
+    for er in t.get("external_ratings") or []:
+        count_s = f" ({er['count']:,} reviews)" if er.get("count") else ""
+        ext_lines.append(
+            f'<div class="side-row"><dt>{esc(str(er.get("source","")))} rating</dt>'
+            f'<dd>{esc(str(er.get("score","")))}/{esc(str(er.get("max",5)))}{esc(count_s)}'
+            f' · <a href="{esc(str(er.get("url","#")))}" target="_blank" rel="noopener nofollow">source</a>'
+            f'<br><span style="font-size:.68rem;color:var(--muted)">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
+        )
+    if ext_lines:
+        note = ('<div class="side-row" style="font-size:.68rem;color:var(--muted)">'
+                'Third-party ratings, not ours. Our editorial policy: we rate only tools we run.</div>')
+        external_ratings_html = ('<div class="side-row"><dt style="font-weight:700">Third-party ratings</dt></div>'
+                                 + "".join(ext_lines) + note)
+    else:
+        external_ratings_html = ""
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
 <section class="page-head">
   <h1>{esc(t['name'])} Review</h1>
@@ -451,7 +470,7 @@ def build_tool_page(t, cats, all_tools):
         <div class="side-row"><dt>Pricing</dt><dd>{esc(pricing_label(t))}</dd></div>
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></dd></div>
         {deep_dive_sidebar}
-        {'<div class="side-row"><dt>G2 Rating</dt><dd>★ ' + str(t['g2_rating']) + ' (' + str(t.get('g2_reviews','')) + ')</dd></div>' if t.get('g2_rating') else ''}
+        {external_ratings_html}
         {'<div class="side-row"><dt>GitHub</dt><dd>★ ' + str(t['github_stars']) + '</dd></div>' if t.get('github_stars') else ''}
         {'<div class="side-row"><dt>Founded</dt><dd>' + str(t['founded']) + '</dd></div>' if t.get('founded') else ''}
         {'<div class="side-row"><dt>HQ</dt><dd>' + esc(t['hq']) + '</dd></div>' if t.get('hq') else ''}

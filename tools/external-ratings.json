@@ -1,0 +1,55 @@
+{
+ "as_of": "2026-08-28",
+ "tools": {
+  "zapier": {
+   "g2": 4.5,
+   "count": 2101,
+   "url": "https://www.g2.com/products/zapier/reviews"
+  },
+  "mailchimp": {
+   "g2": 4.4,
+   "count": null,
+   "url": "https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews"
+  },
+  "hubspot-marketing-hub": {
+   "g2": 4.4,
+   "count": null,
+   "url": "https://www.g2.com/products/hubspot-marketing-hub/reviews"
+  },
+  "semrush": {
+   "g2": 4.5,
+   "count": null,
+   "url": "https://www.g2.com/products/semrush/reviews"
+  },
+  "pipedrive": {
+   "g2": 4.3,
+   "count": 3181,
+   "url": "https://www.g2.com/products/pipedrive/reviews"
+  },
+  "activecampaign": {
+   "g2": 4.4,
+   "count": 14821,
+   "url": "https://www.g2.com/products/activecampaign/reviews"
+  },
+  "mixpanel": {
+   "g2": 4.5,
+   "count": null,
+   "url": "https://www.g2.com/products/mixpanel/reviews"
+  },
+  "salesforce-crm": {
+   "g2": 4.4,
+   "count": 25415,
+   "url": "https://www.g2.com/products/salesforce-sales-cloud/reviews"
+  },
+  "intercom": {
+   "g2": 4.5,
+   "count": 3855,
+   "url": "https://www.g2.com/products/intercom/reviews"
+  },
+  "klaviyo": {
+   "g2": 4.6,
+   "count": 1361,
+   "url": "https://www.g2.com/products/klaviyo/reviews"
+  }
+ }
+}

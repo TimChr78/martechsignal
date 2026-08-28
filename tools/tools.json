@@ -44,7 +44,17 @@
     "Pricing sits above Mailchimp but well below enterprise suites. The AI agent layer, which builds campaigns from a goal prompt, is genuinely new in this segment and got a rebrand around 'autonomous marketing' in 2025."
    ],
    "verdict": "The pragmatic pick when you want automation plus AI agents in one product and your list is under a few hundred thousand contacts."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.4,
+    "max": 5,
+    "count": 14821,
+    "url": "https://www.g2.com/products/activecampaign/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "adcreative-ai",
@@ -1512,7 +1522,17 @@
     "The cost accumulates in increments: each module, each seat, each higher limit adds up, and heavy users report the total approaches enterprise pricing while the interface stays SMB-shaped. The trade-off is the opposite of Braze: easy to start, expensive to specialize."
    ],
    "verdict": "The sensible default for SMB and growth teams that want one system. Fragments when you need true event-driven engagement at scale."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.4,
+    "max": 5,
+    "count": null,
+    "url": "https://www.g2.com/products/hubspot-marketing-hub/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "hypotenuse-ai",
@@ -1605,7 +1625,17 @@
     "Seat-based pricing plus AI usage credits is the surprise for new buyers: message volume and AI resolution volume are metered on top of the base plan. For a marketing team that owns post-purchase experience, it is a strong fit. For a pure lead-gen chat, the conversational marketing features have been folded into the support motion."
    ],
    "verdict": "Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly changes the total cost at scale."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.5,
+    "max": 5,
+    "count": 3855,
+    "url": "https://www.g2.com/products/intercom/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "jasper",
@@ -1699,7 +1729,17 @@
     "The trade-off: it is built for storefronts, not lead-gen or B2B. If you have no product catalog and no checkout events, you pay for a lot of structure you cannot use. Pricing scales by contact count, so email-heavy brands in growth hit six-figure annual bills before they expect it."
    ],
    "verdict": "The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.6,
+    "max": 5,
+    "count": 1361,
+    "url": "https://www.g2.com/products/klaviyo/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "krayin-crm",
@@ -1906,7 +1946,17 @@
     "The pain shows up at the growth boundary: automations, segmentation depth, and delivery tooling get paywalled or throttled, and the jump to paid tiers is steeper than competitors with comparable features. It is also not a commerce-first platform, so ecommerce teams outgrow it toward Klaviyo or a CDP-driven stack."
    ],
    "verdict": "Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.4,
+    "max": 5,
+    "count": null,
+    "url": "https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "make",
@@ -2180,7 +2230,17 @@
     "Implementation discipline is the catch - naming conventions and property hygiene decide whether Mixpanel is a goldmine or a swamp. The pricing cliff past the free tier is steep, and we found ourselves auditing tracked events monthly to control spend."
    ],
    "verdict": "Powerful product analytics that rewards implementation discipline; budget governance needs owning from day one."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.5,
+    "max": 5,
+    "count": null,
+    "url": "https://www.g2.com/products/mixpanel/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "multipost-extension",
@@ -2710,7 +2770,17 @@
     "Where it thins out is past the core CRM: marketing automation, advanced reporting, and quote management all live in paid add-ons that reprice the product. Data model is deal-centric, so companies running long, multi-threaded B2B cycles will feel the walls."
    ],
    "verdict": "The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.3,
+    "max": 5,
+    "count": 3181,
+    "url": "https://www.g2.com/products/pipedrive/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "plausible",
@@ -3017,7 +3087,17 @@
     "The total cost is the tax: per-seat licensing that climbs with editions, plus admin and developer capacity that mid-market buyers routinely underestimate. We have watched more implementations stall on governance and cleanup than on features. Start with Sales Cloud essentials, resist the full suite until adoption proves out."
    ],
    "verdict": "Unmatched depth for complex sales organizations; count the total cost before committing mid-market budgets."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.4,
+    "max": 5,
+    "count": 25415,
+    "url": "https://www.g2.com/products/salesforce-sales-cloud/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "salesforce-marketing-cloud",
@@ -3158,7 +3238,17 @@
     "The pricing ladder bites fast, though. Useful modules sit in higher tiers, and unit-based add-ons (extra users, more tracked keywords) compound quickly. For a single site with modest needs it is a lot of platform; for an agency juggling a dozen domains the breadth pays for itself."
    ],
    "verdict": "The most complete all-in-one SEO platform we have used; buy the tier you need, not the one marketing suggests."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.5,
+    "max": 5,
+    "count": null,
+    "url": "https://www.g2.com/products/semrush/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "sendgrid",
@@ -3957,7 +4047,17 @@
     "The practical limits are the same ones its competitors exploit: multi-branch logic gets awkward compared to Make's graph editor, and there is no cheap way to run workflows on your own infrastructure. For a team whose automation needs are a few dozen well-chosen integrations, Zapier is still the least-effort choice on the market."
    ],
    "verdict": "Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt."
-  }
+  },
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.5,
+    "max": 5,
+    "count": 2101,
+    "url": "https://www.g2.com/products/zapier/reviews",
+    "as_of": "2026-08-28"
+   }
+  ]
  },
  {
   "slug": "langchain",
