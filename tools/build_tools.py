@@ -330,6 +330,17 @@ def build_tool_page(t, cats, all_tools):
             if dd.get("score_note"):
                 table += f'<p style="margin-top:.75rem">{esc(dd["score_note"])}</p>'
             parts.append(f'<h2>Audit scores on our own sites</h2>{table}')
+        if dd.get("editorial_rating"):
+            er = dd["editorial_rating"]
+            score, mx = float(er.get("score", 0)), int(er.get("max", 5))
+            full, half = int(score), (score - int(score)) >= 0.25
+            stars = "★" * full + ("☆" if half else "") + "·" * (mx - full - (1 if half else 0))
+            rating_html = (f'<div class="side-card" id="rating"><h3>Our rating</h3>'
+                           f'<p style="font-size:1.35rem;letter-spacing:2px;color:var(--amber);margin:.2rem 0">{esc(stars)}</p>'
+                           f'<p><b>{score:g} / {mx}</b>'
+                           + (f'<br>{esc(er["basis"])}</p>' if er.get("basis") else '</p>')
+                           + '</div>')
+            parts.append(rating_html)
         if dd.get("hands_on"):
             paras = "".join(f"<p>{esc(p)}</p>" for p in dd["hands_on"])
             parts.append(f'<h2>Hands-on notes</h2>{paras}')

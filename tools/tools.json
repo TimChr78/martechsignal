@@ -4245,7 +4245,12 @@
     ]
    },
    "verdict": "The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.",
-   "score_note": "How we read scores: v2.2.4 and v2.2.5 are different graders. The 96 to 61 move in late August was a version change, not a site regression. Within v2.2.5, 61 to 74.6 in one day reflects real fixes to real findings."
+   "score_note": "How we read scores: v2.2.4 and v2.2.5 are different graders. The 96 to 61 move in late August was a version change, not a site regression. Within v2.2.5, 61 to 74.6 in one day reflects real fixes to real findings.",
+   "editorial_rating": {
+    "score": 4.5,
+    "max": 5,
+    "basis": "The audits found real, verifiable issues on every run, which earns the high score. Scoring shifts between grader versions and is sometimes erratic, so not a 5. No paid placement, no affiliate link: the tool is free and open source."
+   }
   }
  },
  {
