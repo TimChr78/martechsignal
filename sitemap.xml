@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-08-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-08-28</lastmod><priority>1.0</priority></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-08-27</lastmod><priority>0.6</priority></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/n8n-ai-open-source-automation/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/open-source-martech-stack/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/openai-agent-ads-spending-without-you/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/google-ad-agents-control-gap/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/google-ad-agents-control-gap/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/deliverability-ai-spam-content-problem/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
-  <url><loc>https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</loc><lastmod>2026-08-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</loc><lastmod>2026-08-28</lastmod><priority>0.9</priority></url>
   <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-08-27</lastmod><priority>0.8</priority></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-08-27</lastmod><priority>0.5</priority></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-08-27</lastmod><priority>0.5</priority></url>
@@ -116,16 +117,16 @@
   <url><loc>https://martechsignal.com/tools/langchain/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/pipedream/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/cordys-crm/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
-  <url><loc>https://martechsignal.com/tools/claude-seo/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://martechsignal.com/tools/claude-seo/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/claude-ads/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
-  <url><loc>https://martechsignal.com/tools/aaron-marketing-skills/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://martechsignal.com/tools/aaron-marketing-skills/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/ai-marketing-claude/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/digital-marketing-pro/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/ai-business-skills/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/codex-seo/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/email-marketing-bible/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/openclaw-marketing-skills/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
-  <url><loc>https://martechsignal.com/tools/analytics-tracking-automation/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://martechsignal.com/tools/analytics-tracking-automation/</loc><lastmod>2026-08-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/growth-lab/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/macro/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
   <url><loc>https://martechsignal.com/tools/notifuse/</loc><lastmod>2026-08-27</lastmod><priority>0.7</priority></url>
@@ -186,5 +187,5 @@
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-08-27</lastmod><priority>0.6</priority></url>
   <url><loc>https://martechsignal.com/glossary/ai-search-visibility/</loc><lastmod>2026-08-27</lastmod><priority>0.6</priority></url>
   <url><loc>https://martechsignal.com/glossary/aeo/</loc><lastmod>2026-08-27</lastmod><priority>0.6</priority></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-08-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-08-28</lastmod><priority>0.8</priority></url>
 </urlset>

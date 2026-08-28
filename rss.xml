@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2026 16:43:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 05:17:27 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Claude SEO v2.2.5 Re-Scored Our Site 61. A Week Ago It Said 92. Both Audits Were Right.</title>
+      <link>https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <description>On August 24, the open-source Claude SEO skill scored martechsignal.com 92/100. We published the full teardown, patted ourselves on the back, and moved on. Two days later we update</description>
+    </item>
     <item>
       <title>Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</title>
       <link>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</link>
