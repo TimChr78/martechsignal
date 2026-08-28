@@ -304,6 +304,32 @@ def build_tool_page(t, cats, all_tools):
             parts.append(f'<h2>Not for</h2><p>{esc(dd["not_for"])}</p>')
         if dd.get("comparison_note"):
             parts.append(f'<h2>Hosted vs. original</h2><p>{esc(dd["comparison_note"])}</p>')
+        if dd.get("score_history"):
+            # Verified audit-score table (Claude SEO page: our real runs on our own sites).
+            def _score_rows(entries):
+                out = []
+                for e in entries:
+                    score = e.get("score")
+                    score_s = str(score).rstrip("0").rstrip(".") if isinstance(score, float) else str(score)
+                    out.append(
+                        f"<tr><td>{esc(str(e.get('version','')))}</td>"
+                        f"<td>{esc(str(e.get('date','')))}</td>"
+                        f"<td><b>{esc(score_s)}</b>/100</td>"
+                        f"<td>{esc(str(e.get('note','')))}</td></tr>"
+                    )
+                return "".join(out)
+            sh = dd["score_history"]
+            table = ('<table class="cmp-table"><thead><tr><th>Grader</th><th>Date</th>'
+                     '<th>Score</th><th>Context</th></tr></thead><tbody>'
+                     + _score_rows(sh) + "</tbody></table>")
+            if dd.get("second_site"):
+                ss = dd["second_site"]
+                table += (f'<p style="margin-top:.75rem">Second site check: <b>{esc(ss["site"])}</b> '
+                          + " → ".join(f"<b>{e['score']}</b> ({e['date']})" for e in ss["scores"])
+                          + "</p>")
+            if dd.get("score_note"):
+                table += f'<p style="margin-top:.75rem">{esc(dd["score_note"])}</p>'
+            parts.append(f'<h2>Audit scores on our own sites</h2>{table}')
         if dd.get("hands_on"):
             paras = "".join(f"<p>{esc(p)}</p>" for p in dd["hands_on"])
             parts.append(f'<h2>Hands-on notes</h2>{paras}')

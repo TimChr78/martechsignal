@@ -4151,11 +4151,11 @@
     ],
     [
      "Is there a free Claude SEO checker?",
-     "Claude SEO itself is free and MIT-licensed. Audits run locally in your terminal, so there is no signup and no per-audit fee. Optional integrations like DataForSEO have their own costs."
+     "Yes, and it is the same project. Claude SEO is free and MIT-licensed; the checker is the /seo audit command inside Claude Code. We ran seven audits on two production sites in one week and scored up to 96/100 on the v2.2.4 grader."
     ],
     [
      "What is the Claude SEO tool?",
-     "Claude SEO is an MIT-licensed skill pack for Claude Code that runs parallel SEO audits from your terminal. One command spawns up to 15 specialist agents covering technical SEO, schema, Core Web Vitals, E-E-A-T signals, and AI-search (GEO) readiness."
+     "An open-source SEO analysis toolkit for Claude Code: 21 sub-skills and 16 agents that crawl your site and grade technical SEO, content, schema, and AI-search readiness. On our own sites it surfaced 96 findings in about five minutes."
     ],
     [
      "Can Claude Code do SEO audits?",
@@ -4168,13 +4168,84 @@
     [
      "Is Claude SEO better than Screaming Frog?",
      "They overlap on technical checks but differ in output. Screaming Frog crawls fast and cheap for raw data; Claude SEO spends more tokens per run but returns prioritized findings with dependencies, verification checks, and AI-search citability scoring that crawlers don't attempt."
+    ],
+    [
+     "Are Claude SEO scores reliable?",
+     "Within one version, yes: our score moved 61 to 66 to 72 to 74.6 as we fixed flagged issues, and every point tracked a real repair. Across versions, no: v2.2.4 scored the same site 96 that v2.2.5 scored 61. Pin the version before comparing runs."
+    ],
+    [
+     "Does Claude SEO work as SEO analysis software?",
+     "It runs as analysis software inside your terminal rather than a dashboard. Each audit crawls every URL, grades seven categories, and writes a full report with prioritized fixes. We published three complete reports from real runs on this site's own domain."
     ]
    ],
    "hands_on": [
     "We ran Claude SEO on our own production sites before writing this. On a 170-page marketing site it surfaced 96 findings in about five minutes; on a smaller transit-info site it flagged 87 findings across technical SEO, schema gaps, and citability issues like missing llms.txt. Both audits cost roughly six dollars of API tokens each.",
     "Findings are graded High/Medium/Low with dependency tracking, which matters when several fixes interact: schema work depends on markup cleanup, citability fixes depend on heading hierarchy. Re-running after fixing confirmed the score moved from 68 to 87 on one site. That verify-the-fix loop is the part most audit tools skip.",
     "The v2.2.5 release (August 2026) is a reliability and Google-currency pass: refreshed guidance through the August spam update, Preferred Sources, Search Console platform properties, and PageSpeed Insights Agentic Browsing, plus safer JSON-LD traversal and bounded Chromium accessibility-tree capture. Test count is up to 439. Nothing changed in the workflow, but the audit rules track Google's current guidance."
-   ]
+   ],
+   "score_history": [
+    {
+     "version": "v2.2.4",
+     "date": "2026-08-23",
+     "score": 83,
+     "note": "First audit, 169 pages"
+    },
+    {
+     "version": "v2.2.4",
+     "date": "2026-08-24",
+     "score": 92,
+     "note": "After fixing round-1 findings"
+    },
+    {
+     "version": "v2.2.4",
+     "date": "2026-08-25",
+     "score": 96,
+     "note": "Zero critical and high findings"
+    },
+    {
+     "version": "v2.2.5",
+     "date": "2026-08-26",
+     "score": 61,
+     "note": "Same site, stricter grader"
+    },
+    {
+     "version": "v2.2.5",
+     "date": "2026-08-27",
+     "score": 66,
+     "note": "First remediation wave"
+    },
+    {
+     "version": "v2.2.5",
+     "date": "2026-08-27",
+     "score": 72,
+     "note": "Remediation waves 2 and 3"
+    },
+    {
+     "version": "v2.2.5",
+     "date": "2026-08-27",
+     "score": 74.6,
+     "note": "All 115 tool pages differentiated"
+    }
+   ],
+   "second_site": {
+    "site": "oresund.live",
+    "scores": [
+     {
+      "version": "v2.2.4",
+      "date": "2026-08-23",
+      "score": 68,
+      "note": "SPA architecture, zero critical findings"
+     },
+     {
+      "version": "v2.2.5",
+      "date": "2026-08-25",
+      "score": 87,
+      "note": "After prerender and hreflang fixes"
+     }
+    ]
+   },
+   "verdict": "The most thorough free SEO audit you can run without leaving your terminal. Scores only mean something within one grader version, so pin the version and track deltas, not absolutes. It caught real bugs in our own production deploy pipeline on day one.",
+   "score_note": "How we read scores: v2.2.4 and v2.2.5 are different graders. The 96 to 61 move in late August was a version change, not a site regression. Within v2.2.5, 61 to 74.6 in one day reflects real fixes to real findings."
   }
  },
  {
