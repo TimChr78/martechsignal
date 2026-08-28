@@ -164,8 +164,44 @@ def gen_charts(tools, cats, out_dir):
     d.text((80, 70), "Open-source share by category", font=font(40), fill=TEXT)
     d.text((80, 122), f"{len(active)} tools · martechsignal.com directory", font=font(22), fill=MUTED)
     n = len(cats_sorted)
-    bar_w, gap = 56, 18
+    # Two-line wrapped labels under each bar (readable at OG size; no truncation mid-word)
+    label_fs = 14
+    bar_w, gap = 56, 30
     x0 = 80
+    LABELS = {
+        "marketing-automation": ["marketing", "automation"],
+        "workflow-automation": ["workflow", "automation"],
+        "email-marketing": ["email", "marketing"],
+        "agent-skills": ["agent", "skills"],
+        "open-source": ["open", "source"],
+        "social-media": ["social", "media"],
+        "content-ai": ["content", "ai"],
+        "advertising": ["advertising"],
+        "adtech": ["adtech"],
+        "crm": ["crm"], "seo": ["seo"], "analytics": ["analytics"], "chatbots": ["chatbots"],
+    }
+    def _wrap(cat, max_chars=9):
+        if cat in LABELS:
+            return LABELS[cat]
+        words = cat.split("-") if "-" in cat else [cat]
+        if len(cat) <= max_chars:
+            return [cat]
+        lines, cur = [], ""
+        for w in words:
+            cand = w if not cur else cur
+            if len(w) <= max_chars:
+                if cur:
+                    lines.append(cur)
+                cur = w
+            else:
+                if cur:
+                    lines.append(cur)
+                    cur = ""
+                cur = w
+        if cur:
+            lines.append(cur)
+        return lines[:3]
+    baseline = 566
     for i, c in enumerate(cats_sorted):
         tot, o = total[c], oss[c]
         h_full = 280 * tot / max(total.values())
@@ -174,12 +210,16 @@ def gen_charts(tools, cats, out_dir):
         d.rectangle([x, 560 - h_full - bot_pad + bot_pad, x + bar_w, 560], fill=DIM, outline=BORDER)
         if o:
             d.rectangle([x, 560 - h_oss, x + bar_w, 560], fill=AMBER)
-        label = c[:9]
-        lw = d.textlength(label, font=font(16))
-        d.text((x + bar_w/2 - lw/2, 566), label, font=font(16), fill=MUTED)
         cnt = f"{tot}"
         cw = d.textlength(cnt, font=font(18))
         d.text((x + bar_w/2 - cw/2, 560 - h_full - 26), cnt, font=font(18), fill=TEXT)
+        # centered wrapped category label
+        lines = _wrap(c)
+        y = baseline
+        for ln in lines:
+            lw = d.textlength(ln, font=font(label_fs, bold=False))
+            d.text((x + bar_w/2 - lw/2, y), ln, font=font(label_fs, bold=False), fill=MUTED)
+            y += 19
     # legend
     d.rectangle([900, 480, 924, 500], fill=AMBER)
     d.text((932, 482), "open source", font=font(20), fill=MUTED)
