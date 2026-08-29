@@ -70,6 +70,11 @@ GITHUB_QUERIES = [
     "topic:content-generation+topic:ai stars:>100",
     "topic:marketing-analytics stars:>80",
     "topic:marketing+topic:llm stars:>30",
+    "topic:ai-agents+topic:marketing stars:>30",
+    "topic:agentic+topic:marketing stars:>20",
+    "topic:ai-agents+topic:crm stars:>20",
+    "topic:seo+topic:agent stars:>20",
+    "topic:marketing+topic:mcp stars:>10",
 ]
 
 def search_github():
