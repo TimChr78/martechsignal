@@ -84,7 +84,7 @@
   "date": "2026-08-28"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "3c448f26ee17e8e2",
+  "fp": "90263885d1285684",
   "date": "2026-08-29"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -540,8 +540,8 @@
   "date": "2026-08-28"
  },
  "/mnt/user/dev/martechsignal/categories/crm/index.html": {
-  "fp": "6b042ada44f99452",
-  "date": "2026-08-28"
+  "fp": "7633fafbb88448c5",
+  "date": "2026-08-29"
  },
  "/mnt/user/dev/martechsignal/categories/content-ai/index.html": {
   "fp": "43a2d249af79d61a",
@@ -576,12 +576,12 @@
   "date": "2026-08-28"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
-  "fp": "f2c35b36890a4fab",
-  "date": "2026-08-28"
+  "fp": "148accaeecc29ea9",
+  "date": "2026-08-29"
  },
  "/mnt/user/dev/martechsignal/categories/agent-skills/index.html": {
-  "fp": "0602ceff19e69d5a",
-  "date": "2026-08-28"
+  "fp": "d0205e7031a34aa3",
+  "date": "2026-08-29"
  },
  "/mnt/user/dev/martechsignal/glossary/index.html": {
   "fp": "f7788bfdb8ab00cf",
@@ -750,5 +750,17 @@
  "/mnt/user/dev/martechsignal/blog/claude-seo-v225-rescore-61-vs-92/index.html": {
   "fp": "e0aa7d927482f053",
   "date": "2026-08-28"
+ },
+ "/mnt/user/dev/martechsignal/tools/marketing-studio/index.html": {
+  "fp": "364c2cf4f25a8ef5",
+  "date": "2026-08-29"
+ },
+ "/mnt/user/dev/martechsignal/tools/prospectos/index.html": {
+  "fp": "94f2d8f707d6e307",
+  "date": "2026-08-29"
+ },
+ "/mnt/user/dev/martechsignal/tools/alphone/index.html": {
+  "fp": "79ee78c10f8a7a2d",
+  "date": "2026-08-29"
  }
 }

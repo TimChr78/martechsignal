@@ -5325,5 +5325,88 @@
    "verdict": "Strong foundation for engineering-led commerce builds; not a turnkey business tool."
   },
   "seo_description": "Open Mercato — The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, even. Open source &."
+ },
+ {
+  "slug": "marketing-studio",
+  "name": "Marketing Studio",
+  "tagline": "Agent-driven marketing studio for Claude Code: launch assets from one command",
+  "website": "https://github.com/ucsandman/marketing-studio",
+  "category": "agent-skills",
+  "pricing_model": "open-source",
+  "price_from": 0,
+  "price_notes": "Free and open source (MIT). Requires Claude Code and API access.",
+  "pricing_url": "https://github.com/ucsandman/marketing-studio",
+  "ai_features": [
+   "Launch asset generation",
+   "Demo video rendering",
+   "Social clip creation",
+   "OG asset generation"
+  ],
+  "integrations": [
+   "Claude Code",
+   "Blender"
+  ],
+  "github_repo": "https://github.com/ucsandman/marketing-studio",
+  "github_stars": 220,
+  "open_source": true,
+  "api_available": false,
+  "description": "Marketing Studio turns Claude Code into a launch-asset engine. Type /marketing in your product repo and the agent onboards your brand, captures your app with Playwright, and renders a complete asset suite: a Blender logo reveal, product demo videos with camera moves and cursor tracking, a 30-90 second launch video, social clips, and animated OG images. Everything renders from brand tokens alone, and the finished files copy back to your repo. It exists because launch assets are the last manual step of shipping, and one command beats a week of Figma and screen recording.",
+  "status": "active",
+  "date_added": "2026-08-29",
+  "date_updated": "2026-08-29",
+  "founded": 2026,
+  "hq": "Open source"
+ },
+ {
+  "slug": "prospectos",
+  "name": "ProspectOS",
+  "tagline": "Open-source lead prospecting CRM with Google Maps and Instagram scraping",
+  "website": "https://github.com/nando0x/ProspectOS",
+  "category": "crm",
+  "pricing_model": "open-source",
+  "price_from": 0,
+  "price_notes": "Free and open source (MIT). Self-hosted; scraping APIs may have their own costs.",
+  "pricing_url": "https://github.com/nando0x/ProspectOS",
+  "ai_features": [
+   "Lead discovery",
+   "Contact enrichment"
+  ],
+  "integrations": [
+   "Google Maps",
+   "Instagram"
+  ],
+  "github_repo": "https://github.com/nando0x/ProspectOS",
+  "github_stars": 206,
+  "open_source": true,
+  "api_available": true,
+  "description": "ProspectOS finds small local businesses with no website or a bad one, then runs the outreach play for you. It scrapes Google Maps and Instagram for prospects, uses AI to draft the approach strategy and the first message, generates a PDF diagnostic you can send, and tracks every lead in a visual CRM through to close. Built on Flask and React with 230 passing tests, it is aimed at agencies and freelancers selling web services to local businesses. Version 2.0, actively developed.",
+  "status": "active",
+  "date_added": "2026-08-29",
+  "date_updated": "2026-08-29",
+  "founded": 2026,
+  "hq": "Open source"
+ },
+ {
+  "slug": "alphone",
+  "name": "AlphOne",
+  "tagline": "Plugin-first open-source CRM written in Go",
+  "website": "https://github.com/gopherium/AlphOne",
+  "category": "crm",
+  "pricing_model": "open-source",
+  "price_from": 0,
+  "price_notes": "Free to self-host. Split license: backend under Elastic License 2.0 (source-available, not OSI open source), check terms for commercial use.",
+  "pricing_url": "https://github.com/gopherium/AlphOne",
+  "ai_features": [],
+  "integrations": [],
+  "github_repo": "https://github.com/gopherium/AlphOne",
+  "github_stars": 179,
+  "open_source": true,
+  "api_available": false,
+  "description": "AlphOne is a plugin-first CRM with a Go backend and React frontend. The JSON API covers contacts, pipelines, and the plugin system that gives every integration its own module. It is source-available rather than strictly open source: the backend ships under the Elastic License 2.0, so check the split license before committing it to a client stack. Self-hosting is documented, the UI ships translated, and development is active, with the codecov badge and weekly translation jobs to show for it.",
+  "status": "active",
+  "date_added": "2026-08-29",
+  "date_updated": "2026-08-29",
+  "founded": 2026,
+  "hq": "Open source"
  }
 ]

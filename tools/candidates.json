@@ -133,49 +133,6 @@
   "found_date": "2026-08-29"
  },
  {
-  "full_name": "ucsandman/marketing-studio",
-  "name": "marketing-studio",
-  "url": "https://github.com/ucsandman/marketing-studio",
-  "description": "Agent-driven marketing studio for Claude Code: one /marketing command renders your product's full launch asset suite (logo reveal, demo, launch video, social clips, OG assets)",
-  "stars": 220,
-  "age_days": 50,
-  "stars_per_week": 30.8,
-  "topics": [
-   "ai-agents",
-   "blender",
-   "claude-code",
-   "marketing",
-   "remotion",
-   "video-generation"
-  ],
-  "language": "JavaScript",
-  "source": "rising:ai-agents",
-  "found_date": "2026-08-29"
- },
- {
-  "full_name": "nando0x/ProspectOS",
-  "name": "ProspectOS",
-  "url": "https://github.com/nando0x/ProspectOS",
-  "description": "CRM de prospecção de leads com scraping de Google Maps + Instagram e mensagens geradas por IA.",
-  "stars": 206,
-  "age_days": 52,
-  "stars_per_week": 27.7,
-  "topics": [
-   "crm",
-   "flask",
-   "google-maps",
-   "instagram",
-   "python",
-   "react",
-   "sales-automation",
-   "typescript",
-   "web-scraping"
-  ],
-  "language": "Python",
-  "source": "rising:crm",
-  "found_date": "2026-08-29"
- },
- {
   "full_name": "Cordelia886/whatsapp-ai-marketing-automation-de",
   "name": "whatsapp-ai-marketing-automation-de",
   "url": "https://github.com/Cordelia886/whatsapp-ai-marketing-automation-de",
@@ -271,28 +228,6 @@
   ],
   "language": null,
   "source": "rising:marketing-automation",
-  "found_date": "2026-08-29"
- },
- {
-  "full_name": "gopherium/AlphOne",
-  "name": "AlphOne",
-  "url": "https://github.com/gopherium/AlphOne",
-  "description": "A plugin-first CRM gone Go",
-  "stars": 179,
-  "age_days": 56,
-  "stars_per_week": 22.4,
-  "topics": [
-   "contact-center",
-   "contact-management",
-   "contact-manager",
-   "contacts-manager",
-   "crm",
-   "customer-relationship-management",
-   "task-management",
-   "task-manager"
-  ],
-  "language": "Go",
-  "source": "rising:crm",
   "found_date": "2026-08-29"
  },
  {

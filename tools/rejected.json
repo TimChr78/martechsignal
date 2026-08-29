@@ -501,5 +501,20 @@
   "resurfaced": [
    "2026-08-29"
   ]
+ },
+ {
+  "name": "habibi",
+  "reason": "Below star threshold (22 at review) - revisit when it crosses ~50+",
+  "rejected_at": "2026-08-29"
+ },
+ {
+  "name": "crmkit",
+  "reason": "Below star threshold (35 at review) - revisit next discovery pass",
+  "rejected_at": "2026-08-29"
+ },
+ {
+  "name": "sandbase-skills",
+  "reason": "General agent skill pack, not MarTech-specific (Tim call 2026-08-29)",
+  "rejected_at": "2026-08-29"
  }
 ]
