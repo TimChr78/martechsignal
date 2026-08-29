@@ -5,6 +5,7 @@ slug: claude-seo-teardown-martechsignal
 date: 2026-08-24
 author: MartechSignal
 tags: [Agent Skills, SEO]
+categories: [agent-skills]
 ---
 
 This site reviews martech tools for a living. On August 23 we pointed a free, open-source [agent skill](/categories/agent-skills/) at our own production domain, and it found a sitewide og:image 404 that our deploy pipeline had been shipping for weeks. Every link to this site shared on X, LinkedIn, or Slack rendered as bare text. The build system missed it, and we missed it by eye too. A stranger's MIT-licensed script caught it in one crawl.

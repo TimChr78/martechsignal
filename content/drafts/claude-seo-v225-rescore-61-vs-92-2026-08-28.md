@@ -4,6 +4,7 @@ slug: claude-seo-v225-rescore-61-vs-92
 date: 2026-08-28
 author: MartechSignal
 tags: [AI, SEO, Agent Skills, Quality]
+categories: [agent-skills]
 ---
 
 On August 24, the open-source [Claude SEO](/tools/claude-seo/) skill scored martechsignal.com 92/100. We published the full teardown, patted ourselves on the back, and moved on. Two days later we updated the skill from v2.2.4 to v2.2.5 and ran it against the identical site. It came back with 61/100.
