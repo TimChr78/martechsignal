@@ -345,6 +345,13 @@ def build_tool_page(t, cats, all_tools):
                            + (f'<br>{esc(er["basis"])}</p>' if er.get("basis") else '</p>')
                            + '</div>')
             parts.append(rating_html)
+        if dd.get("links"):
+            items = "".join(
+                f'<li><a href="{esc(l["url"])}" target="_blank" rel="noopener nofollow">{esc(l["label"])}</a>'
+                + (f' - {esc(l["note"])}' if l.get("note") else '') + '</li>'
+                for l in dd["links"]
+            )
+            parts.append(f'<h2>Ecosystem links</h2><ul class="feat-list">{items}</ul>')
         if dd.get("hands_on"):
             paras = "".join(f"<p>{esc(p)}</p>" for p in dd["hands_on"])
             parts.append(f'<h2>Hands-on notes</h2>{paras}')

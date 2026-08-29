@@ -2324,7 +2324,14 @@
     "n8n is the open-source automation engine: a node-based workflow builder that you self-host or run in their cloud. The model is different from Make and Zapier: workflows live in your repo, can be versioned, and execute anywhere Node runs. The library of integrations is broad, and the community nodes cover the long tail. It has a real learning curve, but the ceiling is near-unlimited.",
     "Free if you self-host, subscription for cloud. For a martech team with even one developer, n8n replaces the duct-tape layer that Zapier variants leave behind. The maintenance cost is yours."
    ],
-   "verdict": "The right choice when you want owned automation with code-level control and no per-task tax."
+   "verdict": "The right choice when you want owned automation with code-level control and no per-task tax.",
+   "links": [
+    {
+     "label": "n8n Marketing Flows (open source)",
+     "url": "https://github.com/YuriCrystal/n8n-marketing-flows",
+     "note": "community pack of 79 importable marketing workflow templates: social, monitoring, ads, SEO, with optional local Ollama models"
+    }
+   ]
   }
  },
  {
