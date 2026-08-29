@@ -8,6 +8,7 @@ Reads tools/tools.json + tools/categories.json → outputs:
 
 Run from /opt/data/martechsignal/:  python3 tools/build_tools.py
 """
+import hashlib
 import json, os, html, re
 import sys
 from pathlib import Path
@@ -197,6 +198,9 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 
 def build_hub(tools, cats):
     cat_map = {c["slug"]: c for c in cats}
+    # Chart cache-bust: hash the PNG so regenerating it busts the 30-day og/* edge cache.
+    _chart = ROOT / "og" / "charts" / "oss-by-category.png"
+    chart_v = hashlib.sha256(_chart.read_bytes()).hexdigest()[:10] if _chart.exists() else "1"
     # category pills
     pills = '<a class="cat-pill active" href="/tools/">ALL</a>\n'
     for c in cats:
@@ -228,7 +232,7 @@ def build_hub(tools, cats):
   <p class="sub">Curated tools for AI-powered marketing automation — from email and CRM to content generation and workflow automation.</p>
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
-<img src="/og/charts/oss-by-category.png" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
+<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <nav class="cat-nav">{pills}</nav>
 <div class="tool-grid">{cards}</div>"""
 
