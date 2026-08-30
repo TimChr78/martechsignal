@@ -489,6 +489,133 @@
       "growth-lab",
       "openclaw-marketing-skills"
     ],
+    "hub":     {
+      "meta": "Compare 14 open-source agent skills and MCP tooling for Claude Code, Codex and OpenClaw: SEO audits, ad ops, email, launch assets. Zero subscription per skill; the cost is verification time.",
+      "flow": [
+        {
+          "label": "INSTALL",
+          "sub": "clone + load into agent"
+        },
+        {
+          "label": "RUN",
+          "sub": "point it at a real project",
+          "style": "ai"
+        },
+        {
+          "label": "VERIFY",
+          "sub": "check the output against the site"
+        },
+        {
+          "label": "WIRE IN",
+          "sub": "scheduled, not one-off",
+          "style": "ok"
+        }
+      ],
+      "lead": [
+        "Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.",
+        "The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.",
+        "This directory covers 14 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract."
+      ],
+      "chooser": [
+        {
+          "if": "You want SEO audits and content fixes running inside your terminal",
+          "then": [
+            {
+              "name": "Claude SEO",
+              "slug": "claude-seo"
+            }
+          ],
+          "why": "25 sub-skills and up to 15 parallel agents; the 12,800-star (15,700 today) audit machine"
+        },
+        {
+          "if": "Your team runs OpenAI Codex, not Claude Code",
+          "then": [
+            {
+              "name": "Codex SEO",
+              "slug": "codex-seo"
+            }
+          ],
+          "why": "The same audit surface as a TOML agent suite with deterministic runners"
+        },
+        {
+          "if": "You manage paid media across multiple ad platforms",
+          "then": [
+            {
+              "name": "Claude Ads",
+              "slug": "claude-ads"
+            },
+            {
+              "name": "Google Ads + Meta Ads + GA4 MCP",
+              "slug": "google-meta-ads-ga4-mcp"
+            }
+          ],
+          "why": "Claude Ads audits and plans 12 platforms; the MCP server gives agents hands on live accounts"
+        },
+        {
+          "if": "You want a launch asset suite without a designer or a video editor",
+          "then": [
+            {
+              "name": "Marketing Studio",
+              "slug": "marketing-studio"
+            }
+          ],
+          "why": "One command renders logo reveals, product demos and launch video from brand tokens"
+        },
+        {
+          "if": "You want SEO and growth loops that run on a schedule, not ad hoc",
+          "then": [
+            {
+              "name": "Growth Lab",
+              "slug": "growth-lab"
+            }
+          ],
+          "why": "Closes the loop: research, publish, ping IndexNow, read performance, repeat"
+        }
+      ],
+      "groups": [
+        {
+          "label": "SEO AND CONTENT SKILLS",
+          "slugs": [
+            "claude-seo",
+            "codex-seo",
+            "growth-lab",
+            "aaron-marketing-skills",
+            "ai-marketing-claude",
+            "email-marketing-bible"
+          ]
+        },
+        {
+          "label": "CAMPAIGN AND ASSET SKILLS",
+          "slugs": [
+            "claude-ads",
+            "marketing-studio",
+            "digital-marketing-pro",
+            "openclaw-marketing-skills",
+            "ai-business-skills",
+            "analytics-tracking-automation",
+            "google-meta-ads-ga4-mcp",
+            "open-mercato"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
+          "title": "Claude Cowork is eating the edges of your martech stack",
+          "note": "Where the desktop agent layer is heading, and why the skill ecosystem nobody planned matters"
+        },
+        {
+          "slug": "autonomous-marketing-platform-label-contest",
+          "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong.",
+          "note": "How to compare agents on budget authority, state, approval gates and audit trails"
+        },
+        {
+          "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
+          "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
+          "note": "Why agent-to-tool protocols change what integrations should cost"
+        }
+      ]
+    },
     "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print. All thirteen entries are open source, most distributed as skill packs or agent frameworks rather than hosted products, which flips the usual evaluation criteria. There is no sales team to blame and no SLA to fall back on; quality lives in the repo's issue discipline, documentation, and how predictable the skill behaves inside a real workflow. Every review here comes from loading the pack into our own agents and shipping something with it."
   }
 ]
