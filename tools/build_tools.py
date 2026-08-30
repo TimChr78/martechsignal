@@ -180,6 +180,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
     <div class="foot-links">
       <a href="/">HOME</a>
       <a href="/tools/">TOOLS</a>
+      <a href="/trending/">TRENDING</a>
       <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
       <a href="/about/">ABOUT</a>
@@ -233,6 +234,7 @@ def build_hub(tools, cats):
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
+<p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
 <nav class="cat-nav">{pills}</nav>
 <div class="tool-grid">{cards}</div>"""
 
@@ -744,6 +746,11 @@ def build_sitemap(tools, cats):
     # Homepage
     home_html = ROOT / "index.html"
     urls.append((f"https://martechsignal.com/", _lastmod(home_html) if home_html.exists() else today, "1.0"))
+
+    # Trending page (momentum tracker, built by tools/build_trending.py)
+    trending_html = ROOT / "trending" / "index.html"
+    if trending_html.exists():
+        urls.append(("https://martechsignal.com/trending/", _lastmod(trending_html), "0.6"))
 
     # Checklist page (audit M1: live but missing from discovery)
     checklist_html = ROOT / "checklist" / "index.html"

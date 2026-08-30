@@ -5129,7 +5129,7 @@
   "slug": "notifo",
   "name": "Notifo",
   "tagline": "Self-hosted multi-channel notification service for email, SMS, and web push",
-  "website": "",
+  "website": "https://github.com/notifo-io/notifo",
   "category": "email-marketing",
   "pricing_model": "open-source",
   "pricing_url": null,

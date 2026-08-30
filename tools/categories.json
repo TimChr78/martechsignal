@@ -1,621 +1,652 @@
 [
-  {
-    "slug": "marketing-automation",
-    "name": "Marketing Automation",
-    "description": "End-to-end campaign orchestration and workflow automation",
-    "tools": [
-      "activecampaign",
-      "adobe-marketo",
-      "alwrity",
-      "bloomreach",
-      "braze",
-      "hubspot-marketing-hub",
-      "laudspeaker",
-      "ortto",
-      "salesforce-marketing-cloud",
-      "nocobase"
-    ],
-    "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally."
-  },
-  {
-    "slug": "email-marketing",
-    "name": "Email Marketing",
-    "description": "Email campaigns, sequences, and deliverability",
-    "tools": [
-      "billionmail",
-      "customer-io",
-      "klaviyo",
-      "loops",
-      "mailchimp",
-      "openoutreach",
-      "postmark",
-      "resend",
-      "sendgrid",
-      "maizzle",
-      "notifo"
-    ],
-    "intro": "Email marketing remains the channel with the highest measurable ROI and the lowest tolerance for error. This category splits into campaign senders, lifecycle automation engines, and deliverability specialists. The AI layer now drafts subject lines, predicts send times, and segments lists automatically. Deliverability is where tools truly differ. inbox placement depends on infrastructure choices most vendors do not advertise. We test sending mechanics, template flexibility, and how each platform handles list hygiene without you noticing."
-  },
-  {
-    "slug": "crm",
-    "name": "CRM",
-    "description": "Customer relationship management and sales pipelines",
-    "tools": [
-      "attio",
-      "cordys-crm",
-      "espocrm",
-      "freshsales",
-      "hubspot-crm",
-      "krayin-crm",
-      "pipedrive",
-      "relaticle",
-      "salesforce-crm",
-      "suitecrm",
-      "twenty",
-      "wacrm",
-      "monica",
-      "django-crm"
-    ],
-    "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: nineteen systems, fourteen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one."
-  },
-  {
-    "slug": "content-ai",
-    "name": "AI Content & Copywriting",
-    "description": "AI-powered content generation and optimization",
-    "tools": [
-      "anyword",
-      "contentbot",
-      "copy-ai",
-      "hypotenuse-ai",
-      "jasper",
-      "persado",
-      "phrasee",
-      "writer"
-    ],
-    "intro": "Content AI tools generate, optimize, and score written material against search intent. The first wave produced interchangeable long-form generators; the current wave scores drafts against live SERP data and briefs writers on gaps. The honest limitation is shared by all of them: generated copy needs a human pass for accuracy and voice, and search engines reward experience signals that no generator fakes convincingly. We evaluate research quality, editing workflow fit, and how each tool handles verification instead of fluency."
-  },
-  {
-    "slug": "analytics",
-    "name": "Analytics & Attribution",
-    "description": "Marketing analytics, attribution, and reporting",
-    "tools": [
-      "amplitude",
-      "attribution",
-      "heap",
-      "mixpanel",
-      "northbeam",
-      "snowplow",
-      "triple-whale"
-    ],
-    "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict."
-  },
-  {
-    "slug": "social-media",
-    "name": "Social Media",
-    "description": "Social scheduling, listening, and engagement",
-    "tools": [
-      "brandwatch",
-      "buffer",
-      "hootsuite",
-      "multipost-extension",
-      "predis-ai",
-      "sprout-social"
-    ],
-    "intro": "Social media tools span scheduling, listening, and analytics across the major networks. Publishing is a solved problem; the interesting differences are in listening depth and response workflows. The newer generation adds AI drafting and sentiment classification, which helps volume and raises questions about voice consistency. We look at network API coverage (several tools quietly lost access to key platforms), approval flows for teams, and whether reporting connects back to actual business outcomes."
-  },
-  {
-    "slug": "advertising",
-    "name": "Advertising & Paid Media",
-    "description": "Ad creation, bidding, and campaign management",
-    "tools": [
-      "adcreative-ai",
-      "albert-ai",
-      "pencil",
-      "revealbot",
-      "smartly-io"
-    ],
-    "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the five platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over."
-  },
-  {
-    "slug": "personalization",
-    "name": "Personalization & CDP",
-    "description": "Customer data platforms and experience personalization",
-    "tools": [
-      "clerk-io",
-      "dynamic-yield",
-      "nosto",
-      "segment",
-      "tealium"
-    ],
-    "intro": "Website personalization tools change what each visitor sees based on who they are or what they just did. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. In practice most teams use these platforms for three jobs. swapping hero content by segment, adjusting product recommendations, and gating offers behind behavior. We test how well each tool handles identity resolution, how quickly segments update after an action, and whether the targeting rules survive contact with a real campaign calendar."
-  },
-  {
-    "slug": "chatbots",
-    "name": "Chatbots & Conversational AI",
-    "description": "AI chatbots, virtual assistants, and conversational marketing",
-    "tools": [
-      "chatbotx",
-      "chatfuel",
-      "intercom",
-      "manychat",
-      "tidio"
-    ],
-    "intro": "Chatbot and conversational AI tools handle the front line of customer conversation: answering common questions, routing requests, and capturing leads when humans are offline. The category has split in two. Rule-based bots still run FAQ deflection reliably. LLM-based agents now draft their own answers, which raises the stakes on guardrails: a confident wrong answer costs more than no answer. Our reviews focus on escalation quality, handoff to humans, and what happens when the bot meets a question its training did not cover."
-  },
-  {
-    "slug": "seo",
-    "name": "SEO & Search",
-    "description": "Search optimization, keyword research, and content strategy",
-    "tools": [
-      "clearscope",
-      "frase",
-      "marketmuse",
-      "openseo",
-      "semrush",
-      "seonaut",
-      "surfer-seo"
-    ],
-    "hub": {
-      "meta": "Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.",
-      "flow": [
-        {
-          "label": "CRAWL",
-          "sub": "find what breaks"
-        },
-        {
-          "label": "GAPS",
-          "sub": "topics + keywords"
-        },
-        {
-          "label": "OPTIMIZE",
-          "sub": "brief → draft → grade",
-          "style": "ai"
-        },
-        {
-          "label": "MEASURE",
-          "sub": "Google + AI answers",
-          "style": "ok"
-        }
-      ],
-      "lead": [
-        "SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.",
-        "The seven here fall into two camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing.",
-        "When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one."
-      ],
-      "chooser": [
-        {
-          "if": "You need a technical audit and rank data, not writing help",
-          "then": [
-            {
-              "name": "Semrush",
-              "slug": "semrush"
-            }
-          ],
-          "why": "Site Audit runs 140+ checks on every crawl; 25 billion keyword database"
-        },
-        {
-          "if": "You have a draft to fix, not a blank page to fill",
-          "then": [
-            {
-              "name": "Clearscope",
-              "slug": "clearscope"
-            },
-            {
-              "name": "Surfer SEO",
-              "slug": "surfer-seo"
-            }
-          ],
-          "why": "Real-time content grades built from live SERP analysis, inside Google Docs and WordPress"
-        },
-        {
-          "if": "You want citations in AI answers, not just blue links",
-          "then": [
-            {
-              "name": "Frase",
-              "slug": "frase"
-            }
-          ],
-          "why": "AI visibility monitoring and GEO optimization in the same editor as your content briefs"
-        },
-        {
-          "if": "You run a large content library that needs refresh priorities",
-          "then": [
-            {
-              "name": "MarketMuse",
-              "slug": "marketmuse"
-            }
-          ],
-          "why": "Scores your full inventory and finds the topic gaps across it"
-        },
-        {
-          "if": "You want to own the data and skip the subscription",
-          "then": [
-            {
-              "name": "OpenSEO",
-              "slug": "openseo"
-            },
-            {
-              "name": "Seonaut",
-              "slug": "seonaut"
-            }
-          ],
-          "why": "Run them on your own server with no seat fees or crawl limits"
-        }
-      ],
-      "groups": [
-        {
-          "label": "OPEN SOURCE / SELF-HOSTED",
-          "slugs": [
-            "openseo",
-            "seonaut"
-          ]
-        },
-        {
-          "label": "COMMERCIAL",
-          "slugs": [
-            "semrush",
-            "clearscope",
-            "marketmuse",
-            "surfer-seo",
-            "frase"
-          ]
-        }
-      ],
-      "reading": [
-        {
-          "slug": "google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows",
-          "title": "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.",
-          "note": "How two decades of SEO work became raw material for the answer engines"
-        },
-        {
-          "slug": "dashboard-cant-see-ai-search-5-layer-fix",
-          "title": "Your Dashboard Can't See AI Search — Here's the 5-Layer Fix",
-          "note": "The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks"
-        },
-        {
-          "slug": "link-building-wont-get-you-into-ai-answers",
-          "title": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
-          "note": "The off-page playbook that actually moves AI citations"
-        }
-      ]
+ {
+  "slug": "marketing-automation",
+  "name": "Marketing Automation",
+  "description": "End-to-end campaign orchestration and workflow automation",
+  "tools": [
+   "activecampaign",
+   "adobe-marketo",
+   "alwrity",
+   "bloomreach",
+   "braze",
+   "hubspot-marketing-hub",
+   "laudspeaker",
+   "line-harness",
+   "nocobase",
+   "ortto",
+   "salesforce-marketing-cloud"
+  ],
+  "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally."
+ },
+ {
+  "slug": "email-marketing",
+  "name": "Email Marketing",
+  "description": "Email campaigns, sequences, and deliverability",
+  "tools": [
+   "billionmail",
+   "customer-io",
+   "klaviyo",
+   "loops",
+   "mailchimp",
+   "maizzle",
+   "notifo",
+   "notifuse",
+   "openoutreach",
+   "postmark",
+   "react-email-editor",
+   "resend",
+   "sendgrid"
+  ],
+  "intro": "Email marketing remains the channel with the highest measurable ROI and the lowest tolerance for error. This category splits into campaign senders, lifecycle automation engines, and deliverability specialists. The AI layer now drafts subject lines, predicts send times, and segments lists automatically. Deliverability is where tools truly differ. inbox placement depends on infrastructure choices most vendors do not advertise. We test sending mechanics, template flexibility, and how each platform handles list hygiene without you noticing."
+ },
+ {
+  "slug": "crm",
+  "name": "CRM",
+  "description": "Customer relationship management and sales pipelines",
+  "tools": [
+   "alphone",
+   "attio",
+   "cordys-crm",
+   "django-crm",
+   "dolibarr",
+   "espocrm",
+   "ever-gauzy",
+   "frappe-crm",
+   "freshsales",
+   "hubspot-crm",
+   "idurar-erp-crm",
+   "krayin-crm",
+   "macro",
+   "monica",
+   "pipedrive",
+   "prospectos",
+   "relaticle",
+   "salesforce-crm",
+   "suitecrm",
+   "twenty",
+   "wacrm"
+  ],
+  "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: nineteen systems, fourteen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one."
+ },
+ {
+  "slug": "content-ai",
+  "name": "AI Content & Copywriting",
+  "description": "AI-powered content generation and optimization",
+  "tools": [
+   "anyword",
+   "contentbot",
+   "copy-ai",
+   "hypotenuse-ai",
+   "jasper",
+   "persado",
+   "phrasee",
+   "writer"
+  ],
+  "intro": "Content AI tools generate, optimize, and score written material against search intent. The first wave produced interchangeable long-form generators; the current wave scores drafts against live SERP data and briefs writers on gaps. The honest limitation is shared by all of them: generated copy needs a human pass for accuracy and voice, and search engines reward experience signals that no generator fakes convincingly. We evaluate research quality, editing workflow fit, and how each tool handles verification instead of fluency."
+ },
+ {
+  "slug": "analytics",
+  "name": "Analytics & Attribution",
+  "description": "Marketing analytics, attribution, and reporting",
+  "tools": [
+   "amplitude",
+   "attribution",
+   "heap",
+   "mixpanel",
+   "northbeam",
+   "snowplow",
+   "triple-whale"
+  ],
+  "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict."
+ },
+ {
+  "slug": "social-media",
+  "name": "Social Media",
+  "description": "Social scheduling, listening, and engagement",
+  "tools": [
+   "brandwatch",
+   "buffer",
+   "hootsuite",
+   "multipost-extension",
+   "predis-ai",
+   "sprout-social"
+  ],
+  "intro": "Social media tools span scheduling, listening, and analytics across the major networks. Publishing is a solved problem; the interesting differences are in listening depth and response workflows. The newer generation adds AI drafting and sentiment classification, which helps volume and raises questions about voice consistency. We look at network API coverage (several tools quietly lost access to key platforms), approval flows for teams, and whether reporting connects back to actual business outcomes."
+ },
+ {
+  "slug": "advertising",
+  "name": "Advertising & Paid Media",
+  "description": "Ad creation, bidding, and campaign management",
+  "tools": [
+   "adcreative-ai",
+   "albert-ai",
+   "pencil",
+   "revealbot",
+   "smartly-io"
+  ],
+  "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the five platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over."
+ },
+ {
+  "slug": "personalization",
+  "name": "Personalization & CDP",
+  "description": "Customer data platforms and experience personalization",
+  "tools": [
+   "clerk-io",
+   "dynamic-yield",
+   "nosto",
+   "segment",
+   "tealium"
+  ],
+  "intro": "Website personalization tools change what each visitor sees based on who they are or what they just did. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. In practice most teams use these platforms for three jobs. swapping hero content by segment, adjusting product recommendations, and gating offers behind behavior. We test how well each tool handles identity resolution, how quickly segments update after an action, and whether the targeting rules survive contact with a real campaign calendar."
+ },
+ {
+  "slug": "chatbots",
+  "name": "Chatbots & Conversational AI",
+  "description": "AI chatbots, virtual assistants, and conversational marketing",
+  "tools": [
+   "chatbotx",
+   "chatfuel",
+   "intercom",
+   "manychat",
+   "tidio"
+  ],
+  "intro": "Chatbot and conversational AI tools handle the front line of customer conversation: answering common questions, routing requests, and capturing leads when humans are offline. The category has split in two. Rule-based bots still run FAQ deflection reliably. LLM-based agents now draft their own answers, which raises the stakes on guardrails: a confident wrong answer costs more than no answer. Our reviews focus on escalation quality, handoff to humans, and what happens when the bot meets a question its training did not cover."
+ },
+ {
+  "slug": "seo",
+  "name": "SEO & Search",
+  "description": "Search optimization, keyword research, and content strategy",
+  "tools": [
+   "clearscope",
+   "frase",
+   "marketmuse",
+   "openseo",
+   "semrush",
+   "seonaut",
+   "surfer-seo"
+  ],
+  "hub": {
+   "meta": "Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.",
+   "flow": [
+    {
+     "label": "CRAWL",
+     "sub": "find what breaks"
     },
-    "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
+    {
+     "label": "GAPS",
+     "sub": "topics + keywords"
+    },
+    {
+     "label": "OPTIMIZE",
+     "sub": "brief → draft → grade",
+     "style": "ai"
+    },
+    {
+     "label": "MEASURE",
+     "sub": "Google + AI answers",
+     "style": "ok"
+    }
+   ],
+   "lead": [
+    "SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.",
+    "The seven here fall into two camps. Semrush is the full platform: 25 billion keywords of data, a technical crawler, rank tracking, and an AI visibility add-on on top. Clearscope, Frase, MarketMuse and Surfer sell the writing layer: they read the top-ranking pages for a keyword, turn them into a brief, and grade your draft against it while you write. OpenSEO and Seonaut are the open source plumbing: rank tracking and backlinks, or site crawls, on your own server with no per-seat billing.",
+    "When you compare these, don't buy by database size. Check whether the crawler catches problems that cost rankings, whether the grading loop works inside the editor your team already writes in, and whether anything in the stack can tell you an AI assistant cited you while Google Analytics still shows nothing. Database numbers end up on pricing pages because they're easy to print. The last question almost never shows up on one."
+   ],
+   "chooser": [
+    {
+     "if": "You need a technical audit and rank data, not writing help",
+     "then": [
+      {
+       "name": "Semrush",
+       "slug": "semrush"
+      }
+     ],
+     "why": "Site Audit runs 140+ checks on every crawl; 25 billion keyword database"
+    },
+    {
+     "if": "You have a draft to fix, not a blank page to fill",
+     "then": [
+      {
+       "name": "Clearscope",
+       "slug": "clearscope"
+      },
+      {
+       "name": "Surfer SEO",
+       "slug": "surfer-seo"
+      }
+     ],
+     "why": "Real-time content grades built from live SERP analysis, inside Google Docs and WordPress"
+    },
+    {
+     "if": "You want citations in AI answers, not just blue links",
+     "then": [
+      {
+       "name": "Frase",
+       "slug": "frase"
+      }
+     ],
+     "why": "AI visibility monitoring and GEO optimization in the same editor as your content briefs"
+    },
+    {
+     "if": "You run a large content library that needs refresh priorities",
+     "then": [
+      {
+       "name": "MarketMuse",
+       "slug": "marketmuse"
+      }
+     ],
+     "why": "Scores your full inventory and finds the topic gaps across it"
+    },
+    {
+     "if": "You want to own the data and skip the subscription",
+     "then": [
+      {
+       "name": "OpenSEO",
+       "slug": "openseo"
+      },
+      {
+       "name": "Seonaut",
+       "slug": "seonaut"
+      }
+     ],
+     "why": "Run them on your own server with no seat fees or crawl limits"
+    }
+   ],
+   "groups": [
+    {
+     "label": "OPEN SOURCE / SELF-HOSTED",
+     "slugs": [
+      "openseo",
+      "seonaut"
+     ]
+    },
+    {
+     "label": "COMMERCIAL",
+     "slugs": [
+      "semrush",
+      "clearscope",
+      "marketmuse",
+      "surfer-seo",
+      "frase"
+     ]
+    }
+   ],
+   "reading": [
+    {
+     "slug": "google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows",
+     "title": "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.",
+     "note": "How two decades of SEO work became raw material for the answer engines"
+    },
+    {
+     "slug": "dashboard-cant-see-ai-search-5-layer-fix",
+     "title": "Your Dashboard Can't See AI Search — Here's the 5-Layer Fix",
+     "note": "The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks"
+    },
+    {
+     "slug": "link-building-wont-get-you-into-ai-answers",
+     "title": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
+     "note": "The off-page playbook that actually moves AI citations"
+    }
+   ]
   },
-  {
-    "slug": "workflow-automation",
-    "name": "Workflow Automation",
-    "description": "No-code/low-code automation platforms and iPaaS",
-    "tools": [
-      "langchain",
-      "make",
+  "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
+ },
+ {
+  "slug": "workflow-automation",
+  "name": "Workflow Automation",
+  "description": "No-code/low-code automation platforms and iPaaS",
+  "tools": [
+   "langchain",
+   "make",
+   "n8n",
+   "paperclip",
+   "pipedream",
+   "tray-io",
+   "workato",
+   "zapier"
+  ],
+  "hub": {
+   "meta": "Compare Zapier, Make, n8n, Workato and Tray.io on speed, self-hosting, AI agents and enterprise governance. Each platform bets on a different trade-off.",
+   "flow": [
+    {
+     "label": "TRIGGER",
+     "sub": "new deal in CRM"
+    },
+    {
+     "label": "FILTER",
+     "sub": "value > $500"
+    },
+    {
+     "label": "AI AGENT",
+     "sub": "draft the follow-up",
+     "style": "ai"
+    },
+    {
+     "label": "ACTION",
+     "sub": "send + log result",
+     "style": "ok"
+    }
+   ],
+   "lead": [
+    "Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.",
+    "The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice.",
+    "If you are comparing these in 2026, skip the table that ranks them by how many apps they connect. They all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparison pages skip it."
+   ],
+   "chooser": [
+    {
+     "if": "First automation, needs to be live before lunch",
+     "then": [
+      {
+       "name": "Zapier",
+       "slug": "zapier"
+      },
+      {
+       "name": "Make",
+       "slug": "make"
+      }
+     ],
+     "why": "Largest catalogs, fastest path to a live run"
+    },
+    {
+     "if": "Self-hosted, you own the data and the engine",
+     "then": [
+      {
+       "name": "n8n",
+       "slug": "n8n"
+      }
+     ],
+     "why": "Runs on your own box, 400+ nodes, no per-task billing"
+    },
+    {
+     "if": "Building AI agents, not just moving data",
+     "then": [
+      {
+       "name": "n8n",
+       "slug": "n8n"
+      },
+      {
+       "name": "LangChain",
+       "slug": "langchain"
+      }
+     ],
+     "why": "Real agent primitives and tool calling, not bolt-ons"
+    },
+    {
+     "if": "Running a fleet of agents with budgets and approvals",
+     "then": [
+      {
+       "name": "Paperclip",
+       "slug": "paperclip"
+      }
+     ],
+     "why": "A control plane that hires, schedules, caps spend, and audits agents"
+    },
+    {
+     "if": "Procurement needs SOC 2 and a signature line",
+     "then": [
+      {
+       "name": "Workato",
+       "slug": "workato"
+      },
+      {
+       "name": "Tray.io",
+       "slug": "tray-io"
+      }
+     ],
+     "why": "Governance, SSO, and a contract legal will actually sign"
+    }
+   ],
+   "groups": [
+    {
+     "label": "OPEN SOURCE / SELF-HOSTED",
+     "slugs": [
       "n8n",
-      "paperclip",
+      "langchain",
+      "paperclip"
+     ]
+    },
+    {
+     "label": "COMMERCIAL",
+     "slugs": [
+      "zapier",
+      "make",
       "pipedream",
       "tray-io",
-      "workato",
-      "zapier"
-    ],
-    "hub": {
-      "meta": "Compare Zapier, Make, n8n, Workato and Tray.io on speed, self-hosting, AI agents and enterprise governance. Each platform bets on a different trade-off.",
-      "flow": [
-        {
-          "label": "TRIGGER",
-          "sub": "new deal in CRM"
-        },
-        {
-          "label": "FILTER",
-          "sub": "value > $500"
-        },
-        {
-          "label": "AI AGENT",
-          "sub": "draft the follow-up",
-          "style": "ai"
-        },
-        {
-          "label": "ACTION",
-          "sub": "send + log result",
-          "style": "ok"
-        }
-      ],
-      "lead": [
-        "Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.",
-        "The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice.",
-        "If you are comparing these in 2026, skip the table that ranks them by how many apps they connect. They all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparison pages skip it."
-      ],
-      "chooser": [
-        {
-          "if": "First automation, needs to be live before lunch",
-          "then": [
-            {
-              "name": "Zapier",
-              "slug": "zapier"
-            },
-            {
-              "name": "Make",
-              "slug": "make"
-            }
-          ],
-          "why": "Largest catalogs, fastest path to a live run"
-        },
-        {
-          "if": "Self-hosted, you own the data and the engine",
-          "then": [
-            {
-              "name": "n8n",
-              "slug": "n8n"
-            }
-          ],
-          "why": "Runs on your own box, 400+ nodes, no per-task billing"
-        },
-        {
-          "if": "Building AI agents, not just moving data",
-          "then": [
-            {
-              "name": "n8n",
-              "slug": "n8n"
-            },
-            {
-              "name": "LangChain",
-              "slug": "langchain"
-            }
-          ],
-          "why": "Real agent primitives and tool calling, not bolt-ons"
-        },
-        {
-          "if": "Running a fleet of agents with budgets and approvals",
-          "then": [
-            {
-              "name": "Paperclip",
-              "slug": "paperclip"
-            }
-          ],
-          "why": "A control plane that hires, schedules, caps spend, and audits agents"
-        },
-        {
-          "if": "Procurement needs SOC 2 and a signature line",
-          "then": [
-            {
-              "name": "Workato",
-              "slug": "workato"
-            },
-            {
-              "name": "Tray.io",
-              "slug": "tray-io"
-            }
-          ],
-          "why": "Governance, SSO, and a contract legal will actually sign"
-        }
-      ],
-      "groups": [
-        {
-          "label": "OPEN SOURCE / SELF-HOSTED",
-          "slugs": [
-            "n8n",
-            "langchain",
-            "paperclip"
-          ]
-        },
-        {
-          "label": "COMMERCIAL",
-          "slugs": [
-            "zapier",
-            "make",
-            "pipedream",
-            "tray-io",
-            "workato"
-          ]
-        }
-      ],
-      "reading": [
-        {
-          "slug": "n8n-ai-open-source-automation",
-          "title": "n8n + AI: The Open-Source Automation Engine That Actually Works",
-          "note": "The case for self-hosting your automation engine, node by node"
-        },
-        {
-          "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
-          "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
-          "note": "How agent-to-tool protocols change what integrations should cost"
-        },
-        {
-          "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
-          "title": "Claude Cowork is eating the edges of your martech stack",
-          "note": "Where the agent orchestration layer is heading next"
-        }
-      ]
+      "workato"
+     ]
+    }
+   ],
+   "reading": [
+    {
+     "slug": "n8n-ai-open-source-automation",
+     "title": "n8n + AI: The Open-Source Automation Engine That Actually Works",
+     "note": "The case for self-hosting your automation engine, node by node"
     },
-    "intro": "No-code/low-code automation platforms and iPaaS. Each platform bets on a different trade-off between speed, self-hosting, AI agents, and enterprise governance."
+    {
+     "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
+     "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
+     "note": "How agent-to-tool protocols change what integrations should cost"
+    },
+    {
+     "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
+     "title": "Claude Cowork is eating the edges of your martech stack",
+     "note": "Where the agent orchestration layer is heading next"
+    }
+   ]
   },
-  {
-    "slug": "open-source",
-    "name": "Open-Source Tools",
-    "description": "Self-hostable open-source marketing and AI tools",
-    "tools": [
-      "aaron-marketing-skills",
-      "ai-business-skills",
-      "ai-marketing-claude",
-      "alwrity",
-      "analytics-tracking-automation",
-      "billionmail",
-      "chatbotx",
-      "chatwoot",
-      "claude-ads",
+  "intro": "No-code/low-code automation platforms and iPaaS. Each platform bets on a different trade-off between speed, self-hosting, AI agents, and enterprise governance."
+ },
+ {
+  "slug": "open-source",
+  "name": "Open-Source Tools",
+  "description": "Self-hostable open-source marketing and AI tools",
+  "tools": [
+   "aaron-marketing-skills",
+   "ai-business-skills",
+   "ai-marketing-claude",
+   "alphone",
+   "alwrity",
+   "analytics-tracking-automation",
+   "billionmail",
+   "chatbotx",
+   "chatwoot",
+   "claude-ads",
+   "claude-seo",
+   "codex-seo",
+   "cordys-crm",
+   "digital-marketing-pro",
+   "django-crm",
+   "dolibarr",
+   "email-marketing-bible",
+   "espocrm",
+   "ever-gauzy",
+   "frappe-crm",
+   "ghost",
+   "google-meta-ads-ga4-mcp",
+   "growth-lab",
+   "idurar-erp-crm",
+   "krayin-crm",
+   "langchain",
+   "laudspeaker",
+   "line-harness",
+   "listmonk",
+   "macro",
+   "maizzle",
+   "marketing-studio",
+   "matomo",
+   "mautic",
+   "monica",
+   "multipost-extension",
+   "n8n",
+   "nocobase",
+   "notifo",
+   "notifuse",
+   "open-mercato",
+   "openclaw-marketing-skills",
+   "openoutreach",
+   "openseo",
+   "paperclip",
+   "plausible",
+   "prospectos",
+   "react-email-editor",
+   "relaticle",
+   "seonaut",
+   "snowplow",
+   "strapi",
+   "suitecrm",
+   "twenty",
+   "umami",
+   "wacrm"
+  ],
+  "intro": "Marketing and AI tools you can self-host. Free licenses are the start, not the finish: we audit setup cost, maintenance load, and feature gaps versus hosted rivals."
+ },
+ {
+  "slug": "agent-skills",
+  "name": "Agent Skills",
+  "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
+  "tools": [
+   "aaron-marketing-skills",
+   "ai-business-skills",
+   "ai-marketing-claude",
+   "analytics-tracking-automation",
+   "claude-ads",
+   "claude-seo",
+   "codex-seo",
+   "digital-marketing-pro",
+   "email-marketing-bible",
+   "google-meta-ads-ga4-mcp",
+   "growth-lab",
+   "marketing-studio",
+   "open-mercato",
+   "openclaw-marketing-skills"
+  ],
+  "hub": {
+   "meta": "Compare 14 open-source agent skills and MCP tooling for Claude Code, Codex and OpenClaw: SEO audits, ad ops, email, launch assets. Zero subscription per skill; the cost is verification time.",
+   "flow": [
+    {
+     "label": "INSTALL",
+     "sub": "clone + load into agent"
+    },
+    {
+     "label": "RUN",
+     "sub": "point it at a real project",
+     "style": "ai"
+    },
+    {
+     "label": "VERIFY",
+     "sub": "check the output against the site"
+    },
+    {
+     "label": "WIRE IN",
+     "sub": "scheduled, not one-off",
+     "style": "ok"
+    }
+   ],
+   "lead": [
+    "Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.",
+    "The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.",
+    "This directory covers 14 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract."
+   ],
+   "chooser": [
+    {
+     "if": "You want SEO audits and content fixes running inside your terminal",
+     "then": [
+      {
+       "name": "Claude SEO",
+       "slug": "claude-seo"
+      }
+     ],
+     "why": "25 sub-skills and up to 15 parallel agents; the 12,800-star (15,700 today) audit machine"
+    },
+    {
+     "if": "Your team runs OpenAI Codex, not Claude Code",
+     "then": [
+      {
+       "name": "Codex SEO",
+       "slug": "codex-seo"
+      }
+     ],
+     "why": "The same audit surface as a TOML agent suite with deterministic runners"
+    },
+    {
+     "if": "You manage paid media across multiple ad platforms",
+     "then": [
+      {
+       "name": "Claude Ads",
+       "slug": "claude-ads"
+      },
+      {
+       "name": "Google Ads + Meta Ads + GA4 MCP",
+       "slug": "google-meta-ads-ga4-mcp"
+      }
+     ],
+     "why": "Claude Ads audits and plans 12 platforms; the MCP server gives agents hands on live accounts"
+    },
+    {
+     "if": "You want a launch asset suite without a designer or a video editor",
+     "then": [
+      {
+       "name": "Marketing Studio",
+       "slug": "marketing-studio"
+      }
+     ],
+     "why": "One command renders logo reveals, product demos and launch video from brand tokens"
+    },
+    {
+     "if": "You want SEO and growth loops that run on a schedule, not ad hoc",
+     "then": [
+      {
+       "name": "Growth Lab",
+       "slug": "growth-lab"
+      }
+     ],
+     "why": "Closes the loop: research, publish, ping IndexNow, read performance, repeat"
+    }
+   ],
+   "groups": [
+    {
+     "label": "SEO AND CONTENT SKILLS",
+     "slugs": [
       "claude-seo",
       "codex-seo",
-      "cordys-crm",
-      "digital-marketing-pro",
-      "email-marketing-bible",
-      "espocrm",
-      "ghost",
       "growth-lab",
-      "krayin-crm",
-      "langchain",
-      "laudspeaker",
-      "listmonk",
-      "matomo",
-      "mautic",
-      "multipost-extension",
-      "n8n",
+      "aaron-marketing-skills",
+      "ai-marketing-claude",
+      "email-marketing-bible"
+     ]
+    },
+    {
+     "label": "CAMPAIGN AND ASSET SKILLS",
+     "slugs": [
+      "claude-ads",
+      "marketing-studio",
+      "digital-marketing-pro",
       "openclaw-marketing-skills",
-      "openoutreach",
-      "openseo",
-      "paperclip",
-      "plausible",
-      "relaticle",
-      "seonaut",
-      "snowplow",
-      "strapi",
-      "suitecrm",
-      "twenty",
-      "umami",
-      "wacrm"
-    ],
-    "intro": "Marketing and AI tools you can self-host. Free licenses are the start, not the finish: we audit setup cost, maintenance load, and feature gaps versus hosted rivals."
-  },
-  {
-    "slug": "agent-skills",
-    "name": "Agent Skills",
-    "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
-    "tools": [
-      "aaron-marketing-skills",
       "ai-business-skills",
-      "ai-marketing-claude",
       "analytics-tracking-automation",
-      "claude-ads",
-      "claude-seo",
-      "codex-seo",
-      "digital-marketing-pro",
-      "email-marketing-bible",
-      "growth-lab",
-      "openclaw-marketing-skills"
-    ],
-    "hub":     {
-      "meta": "Compare 14 open-source agent skills and MCP tooling for Claude Code, Codex and OpenClaw: SEO audits, ad ops, email, launch assets. Zero subscription per skill; the cost is verification time.",
-      "flow": [
-        {
-          "label": "INSTALL",
-          "sub": "clone + load into agent"
-        },
-        {
-          "label": "RUN",
-          "sub": "point it at a real project",
-          "style": "ai"
-        },
-        {
-          "label": "VERIFY",
-          "sub": "check the output against the site"
-        },
-        {
-          "label": "WIRE IN",
-          "sub": "scheduled, not one-off",
-          "style": "ok"
-        }
-      ],
-      "lead": [
-        "Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.",
-        "The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill's output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.",
-        "This directory covers 14 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract."
-      ],
-      "chooser": [
-        {
-          "if": "You want SEO audits and content fixes running inside your terminal",
-          "then": [
-            {
-              "name": "Claude SEO",
-              "slug": "claude-seo"
-            }
-          ],
-          "why": "25 sub-skills and up to 15 parallel agents; the 12,800-star (15,700 today) audit machine"
-        },
-        {
-          "if": "Your team runs OpenAI Codex, not Claude Code",
-          "then": [
-            {
-              "name": "Codex SEO",
-              "slug": "codex-seo"
-            }
-          ],
-          "why": "The same audit surface as a TOML agent suite with deterministic runners"
-        },
-        {
-          "if": "You manage paid media across multiple ad platforms",
-          "then": [
-            {
-              "name": "Claude Ads",
-              "slug": "claude-ads"
-            },
-            {
-              "name": "Google Ads + Meta Ads + GA4 MCP",
-              "slug": "google-meta-ads-ga4-mcp"
-            }
-          ],
-          "why": "Claude Ads audits and plans 12 platforms; the MCP server gives agents hands on live accounts"
-        },
-        {
-          "if": "You want a launch asset suite without a designer or a video editor",
-          "then": [
-            {
-              "name": "Marketing Studio",
-              "slug": "marketing-studio"
-            }
-          ],
-          "why": "One command renders logo reveals, product demos and launch video from brand tokens"
-        },
-        {
-          "if": "You want SEO and growth loops that run on a schedule, not ad hoc",
-          "then": [
-            {
-              "name": "Growth Lab",
-              "slug": "growth-lab"
-            }
-          ],
-          "why": "Closes the loop: research, publish, ping IndexNow, read performance, repeat"
-        }
-      ],
-      "groups": [
-        {
-          "label": "SEO AND CONTENT SKILLS",
-          "slugs": [
-            "claude-seo",
-            "codex-seo",
-            "growth-lab",
-            "aaron-marketing-skills",
-            "ai-marketing-claude",
-            "email-marketing-bible"
-          ]
-        },
-        {
-          "label": "CAMPAIGN AND ASSET SKILLS",
-          "slugs": [
-            "claude-ads",
-            "marketing-studio",
-            "digital-marketing-pro",
-            "openclaw-marketing-skills",
-            "ai-business-skills",
-            "analytics-tracking-automation",
-            "google-meta-ads-ga4-mcp",
-            "open-mercato"
-          ]
-        }
-      ],
-      "reading": [
-        {
-          "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
-          "title": "Claude Cowork is eating the edges of your martech stack",
-          "note": "Where the desktop agent layer is heading, and why the skill ecosystem nobody planned matters"
-        },
-        {
-          "slug": "autonomous-marketing-platform-label-contest",
-          "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong.",
-          "note": "How to compare agents on budget authority, state, approval gates and audit trails"
-        },
-        {
-          "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
-          "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
-          "note": "Why agent-to-tool protocols change what integrations should cost"
-        }
-      ]
+      "google-meta-ads-ga4-mcp",
+      "open-mercato"
+     ]
+    }
+   ],
+   "reading": [
+    {
+     "slug": "claude-cowork-is-eating-the-edges-of-your-martech-stack",
+     "title": "Claude Cowork is eating the edges of your martech stack",
+     "note": "Where the desktop agent layer is heading, and why the skill ecosystem nobody planned matters"
     },
-    "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print. All thirteen entries are open source, most distributed as skill packs or agent frameworks rather than hosted products, which flips the usual evaluation criteria. There is no sales team to blame and no SLA to fall back on; quality lives in the repo's issue discipline, documentation, and how predictable the skill behaves inside a real workflow. Every review here comes from loading the pack into our own agents and shipping something with it."
-  }
+    {
+     "slug": "autonomous-marketing-platform-label-contest",
+     "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong.",
+     "note": "How to compare agents on budget authority, state, approval gates and audit trails"
+    },
+    {
+     "slug": "mcp-rewrites-the-integration-economics-of-your-marketing-stack",
+     "title": "MCP Rewrites the Integration Economics of Your Marketing Stack",
+     "note": "Why agent-to-tool protocols change what integrations should cost"
+    }
+   ]
+  },
+  "intro": "Agent skills are prompt-and-script packages that give coding agents like Claude Code specialist capabilities: SEO audits, copywriting frameworks, data pulls: without building a product around them. The category barely existed two years ago; it now includes marketplace distributions with tens of thousands of users. Quality varies enormously, and provenance matters: some packages append self-promotion to their output. We install, run, and inspect what these skills change, including the fine print. All thirteen entries are open source, most distributed as skill packs or agent frameworks rather than hosted products, which flips the usual evaluation criteria. There is no sales team to blame and no SLA to fall back on; quality lives in the repo's issue discipline, documentation, and how predictable the skill behaves inside a real workflow. Every review here comes from loading the pack into our own agents and shipping something with it."
+ }
 ]
