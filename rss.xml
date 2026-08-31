@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 05:30:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 05:28:20 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Microsoft Just Removed the Steering Wheel From Search Ads</title>
+      <link>https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI Max globally, a suite that le</description>
+    </item>
     <item>
       <title>Claude SEO v2.2.5 Re-Scored Our Site 61. A Week Ago It Said 92. Both Audits Were Right.</title>
       <link>https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</link>

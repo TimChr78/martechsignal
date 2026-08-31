@@ -23,13 +23,16 @@
 - [Claude Ads](https://martechsignal.com/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms (open source)
 - [Claude SEO](https://martechsignal.com/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents (open source)
 - [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations (open source)
+- [Diffmode Growth Tactics](https://martechsignal.com/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays (open source)
 - [Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/): 158-skill AI marketing plugin for agencies with EU AI Act compliance (open source)
 - [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)
+- [Eve Marketing Team Template](https://martechsignal.com/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (open source)
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
 - [Growth Lab](https://martechsignal.com/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (open source)
 - [Marketing Studio](https://martechsignal.com/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (open source)
 - [Open Mercato](https://martechsignal.com/tools/open-mercato/): The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
+- [Zapier GTM Cheat Codes](https://martechsignal.com/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof (open source)
 
 ### Analytics & Attribution
 
@@ -139,6 +142,7 @@
 - [Frase](https://martechsignal.com/tools/frase/): AI-powered SEO content platform for research, writing, and AI visibility tracking
 - [MarketMuse](https://martechsignal.com/tools/marketmuse/): AI-powered content strategy and optimization platform for SEO content teams
 - [OpenSEO](https://martechsignal.com/tools/openseo/): Open source alternative to Ahrefs and Semrush (open source)
+- [Potato](https://martechsignal.com/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (open source)
 - [Semrush](https://martechsignal.com/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [Seonaut](https://martechsignal.com/tools/seonaut/): Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues (open source)
 - [Surfer SEO](https://martechsignal.com/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
@@ -157,6 +161,7 @@
 - [LangChain](https://martechsignal.com/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (open source)
 - [Make](https://martechsignal.com/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 - [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
+- [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
 - [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit (open source)
 - [Pipedream](https://martechsignal.com/tools/pipedream/): 
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
@@ -165,6 +170,7 @@
 
 ## Analysis
 
+- [Microsoft Just Removed the Steering Wheel From Search Ads](https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/) (2026-08-31)
 - [Claude SEO v2.2.5 Re-Scored Our Site 61. A Week Ago It Said 92. Both Audits Were Right.](https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/) (2026-08-28)
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) (2026-08-27)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/) (2026-08-26)
