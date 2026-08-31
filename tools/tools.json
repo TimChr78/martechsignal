@@ -5017,8 +5017,8 @@
   "api_available": true,
   "status": "active",
   "date_added": "2026-08-21",
-  "date_updated": "2026-08-28",
-  "description": "Monica is an open-source personal CRM built around a simple premise: remember everything about the people in your life. Contacts, conversations, reminders, journal entries, and relationship details live in one self-hostable interface. With more than 25,000 GitHub stars it is one of the most popular open-source CRM projects overall, though its focus is personal relationship management rather than B2B sales pipelines.\n\nFor marketing teams Monica fits a narrow but real niche: founder-led sales, community management, and relationship-driven outreach where the 'customer' is a person rather than an account. It self-hosts via Docker or the official hosted plan, exposes an API for integrations, and costs nothing to run yourself. Teams that need pipeline stages, forecasting, or multi-owner deal workflows should look at Twenty or SuiteCRM instead.",
+  "date_updated": "2026-08-31",
+  "description": "Monica is an open-source personal CRM built around a single premise: remember everything about the people in your life. Contacts, conversations, reminders, journal entries, and relationship details live in one self-hostable interface, backed by a Laravel/PHP codebase with a large install base (25,000-plus GitHub stars and millions of Docker pulls). It is not a sales CRM: there are no pipelines, forecasts, or campaign tools, and treating it as one will disappoint. Where it fits a marketing context is narrow but real: founder-led and community-led businesses where relationships are the channel, since Monica is designed for exactly the follow-up discipline that newsletters and personal outreach depend on. Note the development state honestly: the main branch has been in a long-running beta toward its next major version, and the hosted monicahq.com offering is the company's revenue focus, which means self-hosters should expect to track releases and migrate deliberately. The mobile apps pair with the hosted service first. For a personal CRM it is the category's reference implementation; for team sales, look elsewhere in this category.",
   "seo_title": "Monica Review: CRM — Open Source | MartechSignal",
   "seo_description": "Monica — Open-source personal CRM for tracking friends, family, and business relationships. Open source & free to self-host. Compare AI features.",
   "deep_dive": {
@@ -5053,8 +5053,8 @@
   "api_available": true,
   "status": "active",
   "date_added": "2026-08-21",
-  "date_updated": "2026-08-28",
-  "description": "NocoBase is an open-source, self-hosted no-code platform for assembling business systems — CRMs, approval flows, content operations, internal dashboards — from configurable data models, pages, and workflow blocks. Its plugin architecture and AI-assisted building put it closer to a marketing-ops construction kit than a fixed automation tool: you compose the campaign-management system you want rather than adapting to someone else's.\n\nWith 23,000+ GitHub stars and active development, it is a credible self-hosted alternative to Airtable-plus-Zapier stacks for teams with light technical resources. The free community edition covers core data modeling, WYSIWYG pages, and workflow automation; commercial editions add enterprise plugins and support. Marketing use cases include lead databases, content calendars, campaign approval flows, and internal tools wired to your own data.",
+  "date_updated": "2026-08-31",
+  "description": "NocoBase is an open-source, self-hosted no-code platform for assembling business systems, CRMs, approval flows, content operations, internal dashboards, from configurable data models, pages, and workflow blocks. Its plugin architecture and AI-assisted building put it closer to a marketing-ops construction kit than a fixed automation tool: you compose the campaign-management system you want rather than accept the one shipped. Everything is built data-model-first: define structures, then assemble interfaces and workflows around them, with the plugin architecture extending nearly everything including UI blocks. The platform is actively developed with significant investment in its plugin ecosystem, and at 23,900-plus stars it is among the most-starred projects in this directory. The honest trade-off is the learning curve: data-model thinking is required, not optional, which puts it a step steeper than Airtable-class tools. For marketing operations teams with an engineer anywhere nearby, that trade buys systems that match their process. For pure self-serve no-code expectations, it will feel like work. Chinese and English communities are both large, with documentation in six-plus languages.",
   "seo_title": "NocoBase Review — Free tier | MartechSignal",
   "seo_description": "NocoBase — Open-source no-code platform with AI assistance for building business systems fast. Open source & free to self-host. Compare AI features.",
   "deep_dive": {
@@ -5083,8 +5083,8 @@
   "api_available": true,
   "status": "active",
   "date_added": "2026-08-21",
-  "date_updated": "2026-08-28",
-  "description": "Django CRM (Bottle CRM) is an open-source, multi-tenant CRM built on Django and SvelteKit, covering leads, accounts, contacts, opportunities, campaigns, cases, and email marketing. It targets startups and enterprises that want a self-hosted CRM without per-seat fees, with roughly 2,400 GitHub stars and an active release cadence.\n\nThe multi-tenant design suits agencies and operators running several brands or client books in one instance. It ships standard funnel views, task and invoice modules, and an API for custom integrations. There is no meaningful native AI layer yet — its pitch is control, cost, and Django's extensibility rather than intelligence features. Compared with Twenty (more modern UX) or SuiteCRM (broader enterprise feature set), Django CRM is the pragmatic middle: lighter than SuiteCRM, more traditional than Twenty.",
+  "date_updated": "2026-08-31",
+  "description": "Django CRM (Bottle CRM) is an open-source, multi-tenant CRM built on Django REST Framework with a SvelteKit web app, a Flutter mobile app, and a documented REST API sharing one backend. It covers leads, accounts, contacts, opportunities, campaigns, cases, tasks, and invoicing across the full customer lifecycle. The standout engineering choice is PostgreSQL Row-Level Security for tenant isolation at the database layer, letting one deployment serve a single startup or hundreds of organizations. The project is MIT-licensed with no per-seat pricing, user caps, or feature paywalls, and the README claims 90-plus percent test coverage, verifiable in the repo. Python 3.12-plus and Django 6.x keep the stack current. The honest caveats: the community is small compared with SuiteCRM or Frappe CRM, so long-term maintenance depends on the core team and contributors; and the marketing functionality is campaign-and-email basics, not automation. It fits a team that wants a modern, self-hosted CRM they can extend in Django and prefers a focused codebase over a plugin ecosystem. Evaluate the mobile app if field use matters; it is the youngest surface.",
   "deep_dive": {
    "hands_on": [
     "Django CRM, also sold as Bottle CRM, is a multi-tenant, self-hosted CRM on Django and SvelteKit covering leads, accounts, contacts, opportunities, campaigns, cases, and email marketing. The multi-tenant design is the standout for agencies running several brands or client books from one instance, and the API plus Django's ecosystem cover custom needs. No per-seat fees, roughly 2,400 stars, and an active release cadence.",
@@ -5113,8 +5113,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-21",
-  "date_updated": "2026-08-28",
-  "description": "Maizzle is an email development framework that brings Tailwind CSS and modern build tooling to HTML email production. It compiles responsive, client-safe templates with inlining, purging, and Outlook conditioning handled at build time, so email developers write clean code instead of fighting table soup. Nearly 2,900 GitHub stars and steady releases make it the current default choice for template-based email work.\n\nMaizzle is not a sending platform — pair it with your ESP of choice (it maintains starter templates for common ones). For martech stacks it occupies the production layer: agencies and in-house teams producing high-cadence campaign HTML get maintainable code, reusable components, and far less QA pain across clients. If your team writes email HTML by hand or dreads every new template request, this is the fix.",
+  "date_updated": "2026-08-31",
+  "description": "Maizzle is an email development framework that brings Tailwind CSS and modern build tooling to HTML email production. It compiles responsive, client-safe templates with CSS inlining, purging, and Outlook conditioning handled at build time, so email developers write Tailwind classes and Maizzle outputs the table-based, inline-styled HTML that clients like Outlook can render. Built on a config-driven architecture with per-environment settings, it supports reusable components, templating, and a starter set aimed at real production emails. The project is MIT-licensed, available via npx (one command scaffolds a new project), with the framework itself at 2,800-plus stars and a documented, actively maintained core. The honest scope: Maizzle is for developers who code emails, not a drag-and-drop builder for marketers; there is no visual editor, no campaign sending, no analytics. It solves the hardest part of email, reliable rendering across clients, and leaves distribution to your sending platform. Marketing teams without a developer should pair it with a builder instead; agencies and product teams templating transactional or lifecycle email get the most from it.",
   "seo_title": "Maizzle Review: Email Marketing — Free | MartechSignal",
   "seo_description": "Maizzle — Modern email development framework using Tailwind CSS for responsive campaigns. Open source & free to self-host. Compare AI features.",
   "deep_dive": {
@@ -5147,8 +5147,8 @@
   "api_available": true,
   "status": "active",
   "date_added": "2026-08-21",
-  "date_updated": "2026-08-28",
-  "description": "Notifo is an open-source notification service that unifies email, SMS, and web push behind one API. Product and marketing teams use it for transactional and lifecycle messaging — signup confirmations, alerts, digests, re-engagement pings — without wiring each channel separately. It self-hosts via Docker and integrates with existing SMTP providers for delivery.\n\nAt roughly 900 GitHub stars it is a smaller project than Squidex (its sibling), positioned as infrastructure rather than a campaign platform: think programmatic notifications triggered by your own events, not newsletters or drip journeys. Teams that already run SendGrid or Postmark for marketing mail often deploy Notifo alongside them to centralize product-triggered messaging with user preferences and per-channel settings managed in one place.",
+  "date_updated": "2026-08-31",
+  "description": "Notifo is an open-source notification service that unifies email, SMS, web push, and mobile push behind one API with a management UI for templates, users, subscriptions, and projects. Built by the Squidex team, it targets product and marketing teams that send transactional and lifecycle messages: signup confirmations, alerts, digests, and re-engagement pings. The feature set is practitioner-grade: MJML and Liquid email templates, a REST API with OpenAPI documentation, message queues and retry mechanisms per channel, read and confirmed tracking, and a JavaScript plugin for in-app notification overlays. Provider support is concrete rather than abstract: Amazon SES for email, Firebase for mobile push, MessageBird for SMS, and custom-built web push, with sockets for real-time web delivery. Docker images are published and self-hosting is the intended mode. With 878 stars the community is modest, and the last significant activity should be checked before adoption, since notification infrastructure is the kind of thing you want actively maintained. For teams already running Squidex CMS, it is the natural companion; for everyone else it competes with Courier, Knock, or plain provider APIs.",
   "seo_title": "Notifo Review: Email Marketing — Open Source | MartechSignal",
   "deep_dive": {
    "hands_on": [
@@ -5176,8 +5176,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "IDURAR is an open-source ERP and CRM built on Node.js and React with Ant Design, positioned between a boilerplate and a usable product. It ships with invoicing, recurring invoices, payment mode tracking, and a basic customer and product directory out of the box.\n\nThe architecture is deliberately simple: a single Mongo database, a REST plus MERN codebase, and multi-company support via a company selector rather than true tenant isolation. That makes it fast to stand up and easy to modify, but teams needing strict data separation between clients should plan additional work.\n\nBest fit is developers who want a working finance-and-contacts core they can reshape into a vertical product, rather than companies wanting an out-of-the-box department suite.",
+  "date_updated": "2026-08-31",
+  "description": "IDURAR is an open-source ERP and CRM on the MERN stack (Node.js, Express, MongoDB, React) with Ant Design, positioned honestly between a boilerplate and a usable product. It ships invoicing, recurring invoices, quotes, payments, and a customer and product directory, with the README explicitly inviting commercial use for free. The project calls itself 'fair-code' open source, and the practical reading is: the code is available and modifiable, but this is a foundation you build on, not a finished suite you deploy for a whole company. A self-hosted enterprise version is sold at cloud.idurarapp.com, which tells you where the polished experience lives. At 8,700-plus stars it is one of the most-starred projects in the CRM category here, driven by its value as a reference implementation: if your team knows the MERN stack and wants a head start on building a custom invoicing-and-quotes product, IDURAR saves weeks. As a day-to-day CRM for a sales team, it lacks the workflow depth of Frappe CRM or Dolibarr, and MongoDB as the data layer is a deliberate trade that favors developers over administrators.",
   "seo_title": "IDURAR ERP & CRM Review: CRM — Open Source | MartechSignal",
   "seo_description": "IDURAR ERP & CRM — Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. Open source & free to self-host. Compare AI features.",
   "deep_dive": {
@@ -5205,8 +5205,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "Dolibarr ERP/CRM is a French open-source business suite managing contacts, quotes and invoices, orders, stock, and basic accounting in one PHP/MySQL application. Its defining trait is modularity done simply: you enable exactly the features you want from an app list, and the interface stays as small as your selections.\n\nIt targets small businesses and foundations first - the feature set stops deliberately short of manufacturing and heavy accounting, where ERPNext or full ERPs take over. A large add-on ecosystem covers payment providers, French fiscal compliance, and e-commerce sync.\n\nDeployment is famously light: a LAMP stack and an installer wizard. That, plus translations into dozens of languages, explains its durability across associations, freelancers, and small trade companies across Europe and Africa.",
+  "date_updated": "2026-08-31",
+  "description": "Dolibarr ERP/CRM is a French open-source business suite managing contacts, quotes and invoices, orders, stock, agenda, HR, and basic accounting in one PHP/MySQL application, usable standalone or over the web from a LAN or the internet. Its defining trait is modularity done simply: you enable exactly the features you want from an app catalogue and disable the rest, which keeps the interface approachable for small organizations that find SuiteCRM overwhelming. The project has been active since the early 2000s, holds CII Best Practices certification, publishes daily Docker images, and shows thousands of SourceForge downloads per day, making it one of the most proven packages in this directory. The CRM module covers leads, contacts, and opportunities adequately; the ERP side (invoicing, stock, HR) is where Dolibarr genuinely earns its keep for freelancers and SMBs. The trade-offs are dated UI conventions, a reporting layer that needs supplements, and marketing features that stop at campaigns and emailing basics. For a marketing-team context, it fits when the same tool must run invoicing and light CRM, not when campaign automation is the job.",
   "seo_title": "Dolibarr ERP/CRM Review: CRM — Open Source | MartechSignal",
   "seo_description": "Dolibarr ERP/CRM — Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invo. Open source.",
   "deep_dive": {
@@ -5234,8 +5234,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "React Email Editor is Unlayer's embeddable drag-and-drop email builder component for React applications. You mount it as a component, and it gives your end users a structured editor with blocks, styling controls, and mobile preview without you building any of that UI.\n\nThe component exports and imports design JSON as well as production-ready HTML, which is the part that matters: the output renders consistently across major email clients, the historical pain point of DIY editors. It is free to embed with Unlayer branding; commercial use needs a license.\n\nConsider it when your SaaS needs user-designed emails - onboarding sequences, newsletters, notification templates - and building or buying a full editor is the only other option.",
+  "date_updated": "2026-08-31",
+  "description": "React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application. You mount the component, and end users get a structured editor with content blocks, styling controls, and mobile preview without your team building or maintaining an editor. The component is a wrapper around Unlayer's editor service, which matters for the honesty of the pitch: the npm package is open source with 5,200-plus stars and active CI, but the editing engine itself is Unlayer's hosted product with its own pricing, so this is open-source SDK plus commercial service rather than a fully self-hosted editor. Integration is genuinely small (an import, a mount, and save/export callbacks), and Unlayer's free tier covers development and low-volume use before their usage-based plans start. For SaaS teams that need white-label email editing inside their product, it removes months of work. If you need a fully open pipeline with no third-party dependency, look at building on MJML or GrapesJS instead, and accept the engineering cost that comes with them.",
   "seo_title": "React Email Editor Review — Open Source | MartechSignal",
   "seo_description": "React Email Editor — Drag-n-Drop Email Editor Component for React.js. Open source & free to self-host. Compare AI features, integrations & top.",
   "deep_dive": {
@@ -5263,8 +5263,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "Ever Gauzy is an open business management platform covering ERP, CRM, HRM including time tracking and payroll-adjacent features, and ATS for recruiting. The scope is unusual for open source: most competitors pick one of those lanes, Gauzy bundles them under a single NestJS-based monorepo.\n\nThe platform is Angular on the front end with a plugin architecture for extending modules. Time tracking is the most mature surface, with desktop timers, screenshots, and activity levels aimed at distributed teams - the employee-monitoring heritage is visible and worth discussing with staff before rollout.\n\nSelf-hosting is Docker-first, and a hosted EU edition exists. Suits companies wanting one system of record across operations and HR rather than best-of-breed point tools.",
+  "date_updated": "2026-08-31",
+  "description": "Ever Gauzy is an open business management platform covering ERP, CRM, HRM, ATS for recruiting, project management, and employee time-tracking under one AGPLv3 codebase. The scope is unusual for open source: most competitors pick one lane, Gauzy bundles HR-adjacent operations with client management, aimed at collaborative, on-demand, and sharing-economy businesses. The stack is Node.js and NestJS with React (Next.js) frontends, an exposed public API at api.gauzy.co, and a companion Ever Teams product for work management that connects to the same platform APIs. Docker deployment is documented, and the company behind it (Ever Co) sells enterprise support around the open core. For a marketing team the realistic entry point is the CRM plus time-and-activity tracking combination, since the ERP depth targets finance workflows few marketing stacks need. At 4,300-plus stars it is one of the larger projects in this directory, and the feature breadth is real but shallow in places: treat it as a broad platform where you adopt two or three modules, not a suite where you adopt everything.",
   "seo_title": "Ever Gauzy Review: CRM — Open Source | MartechSignal",
   "seo_description": "Ever Gauzy — Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co. Open source & free to self-host. Compare AI.",
   "deep_dive": {
@@ -5292,8 +5292,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "Frappe CRM is the customer relationship module of the Frappe framework, the same Python/Postgres stack behind ERPNext. Because it runs on Frappe, every lead, deal, and contact is a first-class document you can extend with custom fields, print formats, and server scripts without forking the codebase.\n\nThe UI is lean by design: a kanban deal board, email and call logging via Frappe telephony integrations, and assignment rules for round-robin lead distribution. It lacks the marketing-automation layer of bigger suites, so most teams pair it with Listmonk or Mautic for campaigns.\n\nSelf-hosting follows the standard Frappe bench process: a Linux server, MariaDB or Postgres, and the bench CLI. For teams already running ERPNext, adding Frappe CRM is nearly free operationally since it shares the same site, users, and permissions.",
+  "date_updated": "2026-08-31",
+  "description": "Frappe CRM is the customer-relationship module built on the Frappe framework, the Python and MariaDB stack behind ERPNext, positioning itself as a simple, affordable CRM for modern sales teams with unlimited users. Because every lead, deal, and contact is a first-class Frappe document, you extend it with custom fields, print formats, workflows, and scripts the same way ERPNext is extended, which is the real differentiator: customization without forking. The interface is a modern single-page app, a deliberate break from Frappe's traditional desk UI, and the project ships a live demo, straightforward docs, and a mobile-ready experience. The motivation stated in the README is explicit about its target: existing CRMs that are too complex, overly generic, or priced steeply. At 3,400-plus stars with ERPNext's enormous ecosystem behind it, the sustainability question is answered. The trade-offs: you inherit the Frappe framework's conventions and its benchmarks-based stack (Python, MariaDB, Redis), and the CRM is younger than ERPNext, so some sales-depth features like advanced forecasting remain thinner than Salesforce-class suites. It shines for SMBs wanting ERPNext-adjacent CRM without per-seat costs.",
   "seo_title": "Frappe CRM Review: CRM — Open Source | MartechSignal",
   "seo_description": "Frappe CRM — Fully featured, open source CRM. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
   "deep_dive": {
@@ -5321,8 +5321,8 @@
   "api_available": false,
   "status": "active",
   "date_added": "2026-08-25",
-  "date_updated": "2026-08-28",
-  "description": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, events and domain modules already decided as conventions and specs, so Cursor, Claude Code and Codex build features instead of re-deciding architecture. Start with 80% done.",
+  "date_updated": "2026-08-31",
+  "description": "Open Mercato is an open-source AI-engineering foundation for commerce and ERP/CRM projects: a TypeScript codebase where multi-tenancy, RBAC, event handling, and domain modules are pre-decided as conventions and specifications, so AI coding agents (Cursor, Claude Code, Codex) build features instead of re-deciding architecture on every prompt. The framing 'start with 80% done' is the honest pitch: you get commerce primitives (catalog, cart, checkout scaffolding) plus the platform plumbing that normally takes weeks, and your team, human or agent, fills in the differentiating 20%. The README documents a quick start with Docker, PostgreSQL, Redis, and JWT configuration, with separate setup paths for macOS/Linux and Windows. This is a foundation framework, not a product: there is no admin UI polish or marketing-tool surface to evaluate, and the right comparison is against starting a NestJS project from scratch, not against Shopify or a configured CRM. For teams that match the profile (TypeScript competence, custom commerce or marketplace ambitions, AI-assisted development workflow), it removes real ground work. Everyone else should look at configured platforms first.",
   "seo_title": "Open Mercato Review — Open Source | MartechSignal",
   "deep_dive": {
    "hands_on": [
@@ -5357,12 +5357,19 @@
   "github_stars": 220,
   "open_source": true,
   "api_available": false,
-  "description": "Marketing Studio turns Claude Code into a launch-asset engine. Type /marketing in your product repo and the agent onboards your brand, captures your app with Playwright, and renders a complete asset suite: a Blender logo reveal, product demo videos with camera moves and cursor tracking, a 30-90 second launch video, social clips, and animated OG images. Everything renders from brand tokens alone, and the finished files copy back to your repo. It exists because launch assets are the last manual step of shipping, and one command beats a week of Figma and screen recording.",
+  "description": "Marketing Studio is an agent-driven asset pipeline for Claude Code: you run /marketing in your product's repository, and the agent onboards your brand, captures your app with Playwright, and renders a launch asset suite through a chain of skills. One run produces a logo reveal (Blender plus Remotion), a product demo with camera moves, a 30 to 90 second launch video, a scored voiceover and music track via ElevenLabs, per-platform social clips for X, LinkedIn, and TikTok, plus OG images and README GIFs. The pipeline is deliberately ordered so cheap compositions render first and brand-token bugs surface before expensive assets, and a manifest lets a dead session resume instead of restarting. Around the render chain sit a derived content brief (the agent reads your README, routes, and landing page into a validated brief.json), a copy linter that blocks em dashes and hype vocabulary before render, per-brand film grade and motion tokens, and an export matrix. With 220 stars it is one of the more complete demonstrations of agentic creative production, and the honest framing is that it renders marketing assets from your repo, not strategy from thin air.",
   "status": "active",
   "date_added": "2026-08-29",
-  "date_updated": "2026-08-29",
+  "date_updated": "2026-08-31",
   "founded": 2026,
-  "hq": "Open source"
+  "hq": "Open source",
+  "deep_dive": {
+   "hands_on": [
+    "The README documents a real render pipeline with named skills, an asset order that front-loads cheap steps, and a resume manifest, which is more engineering discipline than most agent-creative projects show. The examples directory shows rendered output for real products, including an animated OG loop generated from brand tokens alone. Assessments here are based on the repository, its examples, and its documented pipeline; we have not run the studio against a product repo ourselves.",
+    "The copy linter deserves attention: generated lines are gated for em dashes, hype vocabulary, and AI-slop before they can reach a render, which is the same editorial standard human teams apply and a sign the author has shipped real content. Requirements follow from the stack: Blender, Remotion, Playwright, and an ElevenLabs key, all running inside Claude Code on your machine."
+   ],
+   "verdict": "The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable."
+  }
  },
  {
   "slug": "prospectos",
@@ -5386,12 +5393,19 @@
   "github_stars": 206,
   "open_source": true,
   "api_available": true,
-  "description": "ProspectOS finds small local businesses with no website or a bad one, then runs the outreach play for you. It scrapes Google Maps and Instagram for prospects, uses AI to draft the approach strategy and the first message, generates a PDF diagnostic you can send, and tracks every lead in a visual CRM through to close. Built on Flask and React with 230 passing tests, it is aimed at agencies and freelancers selling web services to local businesses. Version 2.0, actively developed.",
+  "description": "ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with 206 stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.",
   "status": "active",
   "date_added": "2026-08-29",
-  "date_updated": "2026-08-29",
+  "date_updated": "2026-08-31",
   "founded": 2026,
-  "hq": "Open source"
+  "hq": "Open source",
+  "deep_dive": {
+   "hands_on": [
+    "The README is unusually candid: a dedicated 'before you use' section spells out that the tool scrapes Google Maps and Instagram, that Instagram access uses your personal account through instagrapi with a documented risk of security checkpoints or bans, and that the WhatsApp cockpit only passively reads a chat window you open yourself. That transparency makes evaluation easier, since the operational risks are the product's most important features. All claims here come from the repository documentation; we have not run prospecting campaigns with it.",
+    "The scope is deliberately narrow and local: businesses without websites or with poor ones, approached via WhatsApp with an AI-drafted message and a PDF diagnosis. For a web-design freelancer that is a genuine end-to-end workflow. The Instagram module is optional but account-risk-bearing, and the tool runs on your machine by design, so there is no SaaS convenience layer or team features."
+   ],
+   "verdict": "A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS."
+  }
  },
  {
   "slug": "alphone",
@@ -5409,12 +5423,19 @@
   "github_stars": 179,
   "open_source": true,
   "api_available": false,
-  "description": "AlphOne is a plugin-first CRM with a Go backend and React frontend. The JSON API covers contacts, pipelines, and the plugin system that gives every integration its own module. It is source-available rather than strictly open source: the backend ships under the Elastic License 2.0, so check the split license before committing it to a client stack. Self-hosting is documented, the UI ships translated, and development is active, with the codecov badge and weekly translation jobs to show for it.",
+  "description": "AlphOne is a plugin-first CRM with a Go backend exposing a JSON API and a React single-page frontend. The plugin architecture is the core design decision: features ship as separate plugins with their own repositories, so a team can run a minimal core and add exactly the modules it needs. The project publishes setup and self-hosting guides at docs.alph.one, and translation happens through POEditor with a weekly sync job rather than direct commits. Licensing is unusual and matters before you commit: the Go backend and SQL migrations carry the Elastic License 2.0, which forbids offering AlphOne to third parties as a hosted service, while the frontend, tests, and docs are AGPLv3. For a company that wants a self-hosted CRM it can extend in Go, that split is workable. For a SaaS vendor looking to resell hosted CRM, the backend license rules it out. With 179 stars the community is early-stage, and codecov badges suggest the project takes testing seriously for its age. Evaluate it as a foundation to build on, not a finished SuiteCRM replacement.",
   "status": "active",
   "date_added": "2026-08-29",
-  "date_updated": "2026-08-29",
+  "date_updated": "2026-08-31",
   "founded": 2026,
-  "hq": "Open source"
+  "hq": "Open source",
+  "deep_dive": {
+   "hands_on": [
+    "The README is short and the documentation lives on a separate docs site, which tells you where the project is in its lifecycle: the code and setup path are real (Go backend, React SPA, plugin repositories per feature), but the marketing surface is minimal. The plugin-first model means most evaluation effort goes into reading the plugin catalogue rather than feature pages. Claims here rest on the repository itself; we have not run a self-hosted instance.",
+    "The split license is the part to check first. Elastic License 2.0 on the backend means no offering AlphOne as a hosted or managed service to third parties, while the frontend carries AGPLv3. If your use case is internal CRM on your own infrastructure, neither restriction bites. If you build client solutions, read both licenses before writing any code against the API."
+   ],
+   "verdict": "A credible early-stage foundation for teams that want a self-hosted, plugin-extendable Go CRM and can live with the Elastic License on the backend. Too young to displace established open-source CRM options, and not usable for hosted-resale scenarios by license."
+  }
  },
  {
   "slug": "eve-marketing-team",

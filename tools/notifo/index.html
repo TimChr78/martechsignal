@@ -32,7 +32,7 @@
     "url": "https://github.com/notifo-io/notifo",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-08-31",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -122,9 +122,7 @@
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Notifo is an open-source notification service that unifies email, SMS, and web push behind one API. Product and marketing teams use it for transactional and lifecycle messaging — signup confirmations, alerts, digests, re-engagement pings — without wiring each channel separately. It self-hosts via Docker and integrates with existing SMTP providers for delivery.
-
-At roughly 900 GitHub stars it is a smaller project than Squidex (its sibling), positioned as infrastructure rather than a campaign platform: think programmatic notifications triggered by your own events, not newsletters or drip journeys. Teams that already run SendGrid or Postmark for marketing mail often deploy Notifo alongside them to centralize product-triggered messaging with user preferences and per-channel settings managed in one place.</p>
+    <p>Notifo is an open-source notification service that unifies email, SMS, web push, and mobile push behind one API with a management UI for templates, users, subscriptions, and projects. Built by the Squidex team, it targets product and marketing teams that send transactional and lifecycle messages: signup confirmations, alerts, digests, and re-engagement pings. The feature set is practitioner-grade: MJML and Liquid email templates, a REST API with OpenAPI documentation, message queues and retry mechanisms per channel, read and confirmed tracking, and a JavaScript plugin for in-app notification overlays. Provider support is concrete rather than abstract: Amazon SES for email, Firebase for mobile push, MessageBird for SMS, and custom-built web push, with sockets for real-time web delivery. Docker images are published and self-hosting is the intended mode. With 878 stars the community is modest, and the last significant activity should be checked before adoption, since notification infrastructure is the kind of thing you want actively maintained. For teams already running Squidex CMS, it is the natural companion; for everyone else it competes with Courier, Knock, or plain provider APIs.</p>
     
     <h2>Key Integrations</h2><div class="integ-list"><span>REST API</span><span>Webhooks</span><span>JavaScript SDK</span></div>
     <h2>Hands-on notes</h2><p>Notifuse Squidex-style multi-channel notifications - the project gives you one API surface over email, SMS, and push providers, self-hosted. Configuration centers on provider templates and channel fallbacks rather than campaign design. That focus is its identity: infrastructure, not marketing tooling.</p><p>Choose it to unify scattered provider calls behind one internal service. Newsletter marketing belongs in a different category of tool entirely.</p><h2>Verdict</h2><p>Good unified-notifications middleware for developers; not a campaign sender.</p>
@@ -143,7 +141,7 @@ At roughly 900 GitHub stars it is a smaller project than Squidex (its sibling), 
         
         
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-28">2026-08-28</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-31">2026-08-31</time></dd></div>
       </dl>
     </div>
     <div class="side-card">

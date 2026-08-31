@@ -32,7 +32,7 @@
     "url": "https://frappe.io/crm",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-08-31",
     "datePublished": "2026-08-25",
     "offers": {
       "@type": "Offer",
@@ -122,16 +122,12 @@
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Frappe CRM is the customer relationship module of the Frappe framework, the same Python/Postgres stack behind ERPNext. Because it runs on Frappe, every lead, deal, and contact is a first-class document you can extend with custom fields, print formats, and server scripts without forking the codebase.
-
-The UI is lean by design: a kanban deal board, email and call logging via Frappe telephony integrations, and assignment rules for round-robin lead distribution. It lacks the marketing-automation layer of bigger suites, so most teams pair it with Listmonk or Mautic for campaigns.
-
-Self-hosting follows the standard Frappe bench process: a Linux server, MariaDB or Postgres, and the bench CLI. For teams already running ERPNext, adding Frappe CRM is nearly free operationally since it shares the same site, users, and permissions.</p>
+    <p>Frappe CRM is the customer-relationship module built on the Frappe framework, the Python and MariaDB stack behind ERPNext, positioning itself as a simple, affordable CRM for modern sales teams with unlimited users. Because every lead, deal, and contact is a first-class Frappe document, you extend it with custom fields, print formats, workflows, and scripts the same way ERPNext is extended, which is the real differentiator: customization without forking. The interface is a modern single-page app, a deliberate break from Frappe&#x27;s traditional desk UI, and the project ships a live demo, straightforward docs, and a mobile-ready experience. The motivation stated in the README is explicit about its target: existing CRMs that are too complex, overly generic, or priced steeply. At 3,400-plus stars with ERPNext&#x27;s enormous ecosystem behind it, the sustainability question is answered. The trade-offs: you inherit the Frappe framework&#x27;s conventions and its benchmarks-based stack (Python, MariaDB, Redis), and the CRM is younger than ERPNext, so some sales-depth features like advanced forecasting remain thinner than Salesforce-class suites. It shines for SMBs wanting ERPNext-adjacent CRM without per-seat costs.</p>
     
     
     <h2>Hands-on notes</h2><p>Frappe CRM runs on the Frappe framework behind ERPNext, which makes every lead, deal, and contact an extensible document: custom fields, print formats, and server scripts come without forking code. The kanban deal board is clean, telephony and email logging integrate through Frappe standards.</p><p>Marketing automation is deliberately absent - pairing with Listmonk or Mautic covers campaigns. For teams already in the Frappe ecosystem, adoption is nearly free operationally; the same site, users, and permissions just extend. Standalone adopters should weigh the framework learning curve.</p><h2>Verdict</h2><p>A lean open-source CRM that shines inside the Frappe ecosystem; standalone buyers should compare first.</p>
     <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Frappe CRM?</summary><p>Fully featured, open source CRM. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Frappe CRM cost?</summary><p>Frappe CRM is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is Frappe CRM a good crm tool in 2026?</summary><p>Our audit found 3,390 GitHub stars. The full review breaks down where it fits in a modern martech stack.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li></ul></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -145,7 +141,7 @@ Self-hosting follows the standard Frappe bench process: a Linux server, MariaDB 
         
         
         <div class="side-row"><dt>API</dt><dd>No</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-28">2026-08-28</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-31">2026-08-31</time></dd></div>
       </dl>
     </div>
     <div class="side-card">
