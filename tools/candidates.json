@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "full_name": "vercel-labs/marketing-team-eve-template",
+    "name": "marketing-team-eve-template",
+    "url": "https://github.com/vercel-labs/marketing-team-eve-template",
+    "description": "Team of marketing agents built on eve.",
+    "stars": 435,
+    "age_days": 34,
+    "stars_per_week": 89.6,
+    "topics": [
+      "ai",
+      "eve",
+      "marketing",
+      "notion",
+      "resend",
+      "typefully",
+      "vercel"
+    ],
+    "language": "TypeScript",
+    "source": "rising:marketing",
+    "found_date": "2026-08-29",
+    "triage_note": "APPROVED as ECOSYSTEM LINK on agent-skills hub (template ruling) - NOT a standalone tool page"
+  },
+  {
+    "full_name": "sneg55/warpdrive",
+    "name": "warpdrive",
+    "url": "https://github.com/sneg55/warpdrive",
+    "description": "Open-source alternative to Pipedrive, self-hosted business-development CRM",
+    "stars": 73,
+    "age_days": 48,
+    "stars_per_week": 10.6,
+    "topics": [
+      "crm",
+      "sales",
+      "sales-dashboard",
+      "self-hosted"
+    ],
+    "language": "TypeScript",
+    "source": "rising:crm",
+    "found_date": "2026-08-29",
+    "triage_note": "APPROVED by Tim 2026-08-31 for next batch"
+  },
+  {
+    "full_name": "aleclindz/seo-skill-bench",
+    "name": "seo-skill-bench",
+    "url": "https://github.com/aleclindz/seo-skill-bench",
+    "description": "Open benchmark for Claude Code SEO skills — real headless execution against fixture sites with planted-defect answer keys. Deterministic scoring, pre-registered rubric.",
+    "stars": 56,
+    "age_days": 58,
+    "stars_per_week": 6.8,
+    "topics": [
+      "aeo",
+      "agent-skills",
+      "ai",
+      "ai-seo",
+      "benchmark",
+      "claude-code",
+      "claude-code-skill",
+      "evals",
+      "geo",
+      "llm",
+      "llm-evaluation",
+      "open-source",
+      "seo"
+    ],
+    "language": "JavaScript",
+    "source": "rising:seo",
+    "found_date": "2026-08-29",
+    "triage_note": "APPROVED by Tim 2026-08-31 for next batch"
+  }
+]
