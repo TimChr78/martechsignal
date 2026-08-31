@@ -70,9 +70,28 @@ def main():
     tools = load_json(ROOT / "tools" / "tools.json", [])
     dir_repos = {str(t.get("github_repo") or "").rstrip("/").split("github.com/")[-1].lower()
                  for t in tools if isinstance(t, dict)}
+    # directory slug names too (catches slug-vs-reponame drift, e.g. maizzle/framework vs slug 'maizzle')
+    dir_slugs = {str(t.get("slug") or "").lower() for t in tools if isinstance(t, dict)}
     rejected = load_json(REJECTED, [])
     rej_repos = {x.get("full_name", "").lower() for x in rejected if isinstance(x, dict)}
     rej_names = {x.get("name", "").lower() for x in rejected if isinstance(x, dict)}
+
+    # spam heuristics: mass-uploaded guide/cheatsheet repos that pollute the queue
+    # (2026-08-31 wave: ~10 German "Leitfaden" guide repos at 50-66 stars from single-author accounts)
+    SPAM_MARKERS = (
+        "leitfaden", "cheatsheet", "cheat-sheet", "cheat sheet", "awesome-", "playbook",
+        "guide", "anleitung", "tutorial", "wörterbuch", "handbuch", "資源", "教程",
+        "download", "booste", "reichweite", "kaltakquise", "vertriebsautomatisierung",
+    )
+    def looks_like_spam(repo):
+        desc = (repo.get("description") or "").lower()
+        name = (repo.get("name") or "").lower()
+        if any(m in desc for m in SPAM_MARKERS) or any(m in name for m in SPAM_MARKERS):
+            return True
+        # README-sized red flag: description calling it a framework/list rather than a tool
+        if desc.startswith(("a curated", "the ultimate", "free guerrilla", "battle-tested ai prompts")):
+            return True
+        return False
 
     new_items = []
     for query in SEARCH_QUERIES:
@@ -89,6 +108,11 @@ def main():
             if full.lower() in rej_repos or repo.get("name", "").lower() in rej_names:
                 continue
             if full.lower() in dir_repos:
+                continue
+            # dedupe by directory slug too: 'maizzle/framework' matches existing slug 'maizzle'
+            if repo.get("name", "").lower() in dir_slugs:
+                continue
+            if looks_like_spam(repo):
                 continue
             seen_repos.add(full)
             age_days = (datetime.now(timezone.utc) - datetime.fromisoformat(

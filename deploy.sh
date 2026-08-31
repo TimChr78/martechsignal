@@ -49,6 +49,10 @@ if [ "$DO_BUILD" -eq 1 ]; then
     echo "── Build ───────────────────────────────────────────────"
     python3 tools/build_blog.py
     python3 tools/build_tools.py
+    # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
+    # Uses the cached /opt/data/gsc-pages-28d.json if present (refresh it with
+    # a fresh GSC searchanalytics pull); falls back to stars-only otherwise.
+    python3 tools/build_homepage.py || echo "⚠ homepage tool-index update failed (non-fatal)"
     # Per-post OG cards (Pillow venv; skip silently if venv missing)
     if [ -x /home/hermes/.hermes/venvs/imggen/bin/python ]; then
         /home/hermes/.hermes/venvs/imggen/bin/python tools/generate_og.py || echo "  (og generation skipped)"
