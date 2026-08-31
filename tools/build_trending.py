@@ -193,7 +193,7 @@ def build_page():
     out = ROOT / "trending" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
-        "Open-Source MarTech Momentum \u2014 GitHub Star Trends | MartechSignal",
+        "Open-Source MarTech Momentum: GitHub Stars | MartechSignal",
         f"Daily GitHub star tracking for {n_repos} open-source marketing tools. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
         "/trending/", body, [schema, breadcrumb]))
     print(f"  \u2713 {out.relative_to(ROOT)}  ({len(hist)} snapshots, {n_repos} repos, window {d0}..{d1})")

@@ -204,73 +204,73 @@
   </div>
 
   <div class="item reveal" data-i="0"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>1. Can you export your full customer journey as structured data?</h3>
+    <h2>1. Can you export your full customer journey as structured data?
     <p>Not a PDF report. A JSON or CSV with touchpoints, timestamps, and attribution. Agents can't reason over screenshots.</p>
     <p class="fail">If no: your agents will hallucinate journey insights from whatever fragment they can access.</p>
   </div></div>
 
   <div class="item reveal" data-i="1"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>2. Do your tools have APIs, not just UIs?</h3>
+    <h2>2. Do your tools have APIs, not just UIs?
     <p>Check your CRM, ESP, ad platforms, and analytics. If the only way to export data is "click Export → CSV," agents can't touch it without brittle screen-scraping.</p>
     <p class="fail">If no: you'll build a human-in-the-loop bottleneck that defeats the purpose.</p>
   </div></div>
 
   <div class="item reveal" data-i="2"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>3. Is your UTM convention documented and enforced?</h3>
+    <h2>3. Is your UTM convention documented and enforced?
     <p>Agents will generate campaigns. If your UTMs are already inconsistent, agents will scale the inconsistency. Write the convention down. Enforce it with validation.</p>
     <p class="fail">If no: your attribution model becomes noise within one quarter of agent-generated campaigns.</p>
   </div></div>
 
   <div class="item reveal" data-i="3"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>4. Can you segment your audience programmatically?</h3>
+    <h2>4. Can you segment your audience programmatically?
     <p>API-level access to segments, tags, or cohorts. Agents need to say "send this to segment X" without a human clicking through a UI.</p>
     <p class="fail">If no: every agent campaign needs a human clicking through a UI first. You've automated the copy, not the workflow.</p>
   </div></div>
 
   <div class="item reveal" data-i="4"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>5. Do you have a single source of truth for customer data?</h3>
+    <h2>5. Do you have a single source of truth for customer data?
     <p>CDP, data warehouse, or even a well-maintained spreadsheet. If customer data lives in 4 tools with no sync, agents will pull conflicting records and act on stale info.</p>
     <p class="fail">If no: fix this first. No amount of AI fixes a data architecture problem.</p>
   </div></div>
 
   <div class="item reveal" data-i="5"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>6. Are your email templates modular and API-sendable?</h3>
+    <h2>6. Are your email templates modular and API-sendable?
     <p>Agents should be able to compose and send emails via API, not just draft copy for a human to paste into a template builder.</p>
     <p class="fail">If no: your agent writes copy but a human still has to paste it into the builder and hit send. You've automated one step out of five.</p>
   </div></div>
 
   <div class="item reveal" data-i="6"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>7. Can you measure campaign performance without logging into 3 dashboards?</h3>
+    <h2>7. Can you measure campaign performance without logging into 3 dashboards?
     <p>One query, one API call, one place. Open rates, conversions, revenue. If reporting requires a human tour of your stack, agents can't close the feedback loop.</p>
     <p class="fail">If no: agents will optimize what they can measure and ignore what they can't. That's how budgets leak.</p>
   </div></div>
 
   <div class="item reveal" data-i="7"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>8. Do you have approval workflows for automated sends?</h3>
+    <h2>8. Do you have approval workflows for automated sends?
     <p>Agents will make mistakes. You need a gate between "agent composed it" and "it went to 10,000 people." Even a Slack confirmation counts.</p>
     <p class="fail">If no: your first agent error becomes a customer-facing incident.</p>
   </div></div>
 
   <div class="item reveal" data-i="8"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>9. Is your consent and suppression list accessible via API?</h3>
+    <h2>9. Is your consent and suppression list accessible via API?
     <p>GDPR, CAN-SPAM, and your own suppression rules need to be queryable. An agent that can't check "has this person unsubscribed?" is a compliance violation waiting to happen.</p>
     <p class="fail">If no: you're one agent mistake away from a GDPR complaint.</p>
   </div></div>
 
   <div class="item reveal" data-i="9"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>10. Can you version-control your automation logic?</h3>
+    <h2>10. Can you version-control your automation logic?
     <p>Workflows, triggers, conditions. Are they in git, or locked in a visual builder with no export? Agents will modify flows. You need rollback.</p>
     <p class="fail">If no: you'll be debugging agent changes by clicking through a UI at 11 PM.</p>
   </div></div>
 
   <div class="item reveal" data-i="10"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>11. Do you have cost guardrails on your ad platforms?</h3>
+    <h2>11. Do you have cost guardrails on your ad platforms?
     <p>Daily caps, budget alerts, anomaly thresholds. An agent optimizing spend without guardrails is an agent that can drain a quarterly budget in a weekend.</p>
     <p class="fail">If no: set hard caps before any agent touches bid management.</p>
   </div></div>
 
   <div class="item reveal" data-i="11"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
-    <h3>12. Can you run a campaign end-to-end without opening a browser?</h3>
+    <h2>12. Can you run a campaign end-to-end without opening a browser?
     <p>If your entire workflow can run via API calls (segment, compose, send, measure, iterate), you're agent-ready. If any step requires a browser, that's where your bottleneck lives.</p>
     <p class="fail">If no: start with whichever step still needs a browser. That's your first project.</p>
   </div></div>
