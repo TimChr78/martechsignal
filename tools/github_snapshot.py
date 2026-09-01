@@ -37,7 +37,9 @@ snapshot = {"date": TODAY, "repos": {}}
 errors = []
 for slug, repo in repos:
     try:
-        req = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers=headers)
+        # tolerate full-URL github_repo values (older pipeline entries)
+        api_repo = repo.rstrip("/").split("github.com/")[-1]
+        req = urllib.request.Request(f"https://api.github.com/repos/{api_repo}", headers=headers)
         d = json.load(urllib.request.urlopen(req, timeout=15))
         snapshot["repos"][slug] = {
             "full_name": repo,

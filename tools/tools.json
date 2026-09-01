@@ -5360,7 +5360,7 @@
    "Claude Code",
    "Blender"
   ],
-  "github_repo": "https://github.com/ucsandman/marketing-studio",
+  "github_repo": "ucsandman/marketing-studio",
   "github_stars": 220,
   "open_source": true,
   "api_available": false,
@@ -5396,7 +5396,7 @@
    "Google Maps",
    "Instagram"
   ],
-  "github_repo": "https://github.com/nando0x/ProspectOS",
+  "github_repo": "nando0x/ProspectOS",
   "github_stars": 206,
   "open_source": true,
   "api_available": true,
@@ -5426,7 +5426,7 @@
   "pricing_url": "https://github.com/gopherium/AlphOne",
   "ai_features": [],
   "integrations": [],
-  "github_repo": "https://github.com/gopherium/AlphOne",
+  "github_repo": "gopherium/AlphOne",
   "github_stars": 179,
   "open_source": true,
   "api_available": false,
