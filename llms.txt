@@ -170,6 +170,7 @@
 
 ## Analysis
 
+- [ChatGPT Isn't Search Anymore, It's Checkout](https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/) (2026-09-01)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/) (2026-08-31)
 - [Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.](https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/) (2026-08-28)
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) (2026-08-27)

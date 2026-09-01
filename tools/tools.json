@@ -271,14 +271,26 @@
   "hq": "San Francisco, CA, USA",
   "status": "active",
   "date_added": "2026-07-27",
-  "date_updated": "2026-08-28",
-  "description": "Amplitude is the leading product analytics platform, ranked #1 in Product Analytics on G2 for 23 consecutive quarters (as of Spring 2026). It provides a unified digital analytics suite covering **product analytics** (event tracking, cohort analysis, funnel reports, user segmentation), **experimentation** (A/B testing with statistical rigor), **session replay** (visual user journey reconstruction), and **customer data activation** (audience syncing to marketing and engagement tools). Amplitude's core strength is its event-based data model that tracks every user action (clicks, views, transactions) as granular events with properties, letting teams answer questions like \"which feature drives retention?\" and \"where do power users come from?\" without writing SQL.\n\nThe platform's AI capabilities include **Amplitude AI** for automated insight discovery, anomaly detection, and predictive analytics that surface \"unknown unknowns\" in user behavior. Amplitude's **Warehouse Native** architecture allows querying data directly in Snowflake or Databricks without data duplication, which matters for enterprises with existing data warehouse investments. The platform serves over 2,500 customers including Atlassian, NBCUniversal, PayPal, and Ford. Pricing is event-volume based with a generous free tier (up to 50K MTUs) and paid plans starting around $50/month for Starter. Amplitude competes primarily with Mixpanel (event analytics, smaller-scale focus), Heap (auto-capture analytics, owned by Contentsquare), and PostHog (open-source alternative). It is best suited for product-led growth companies and enterprises that need a dedicated product analytics platform with experimentation built in.",
+  "date_updated": "2026-09-01",
+  "external_ratings": [
+   {
+    "source": "G2",
+    "score": 4.5,
+    "max": 5,
+    "count": 3865,
+    "url": "https://www.g2.com/sellers/amplitude",
+    "as_of": "2026-09-01"
+   }
+  ],
+  "description": "Amplitude is the leading product analytics platform, ranked #1 in Product Analytics on G2 for 23 consecutive quarters (as of Spring 2026). It provides a unified digital analytics suite covering **product analytics** (event tracking, cohort analysis, funnel reports, user segmentation), **experimentation** (A/B testing with statistical rigor), **session replay** (visual user journey reconstruction), and **customer data activation** (audience syncing to marketing and engagement tools). Amplitude's core strength is its event-based data model that tracks every user action (clicks, views, transactions) as granular events with properties, letting teams answer questions like \"which feature drives retention?\" and \"where do power users come from?\" without writing SQL.\n\nThe platform's AI capabilities include **Amplitude AI** for automated insight discovery, anomaly detection, and predictive analytics that surface \"unknown unknowns\" in user behavior. Amplitude's **Warehouse Native** architecture allows querying data directly in Snowflake or Databricks without data duplication, which matters for enterprises with existing data warehouse investments. The platform serves over 2,500 customers including Atlassian, NBCUniversal, PayPal, and Ford. Pricing is event-volume based: the free plan covers 2M events per month, self-serve Plus starts at $49/month, and Growth and Enterprise tiers are quoted by sales. Amplitude competes primarily with Mixpanel (event analytics, smaller-scale focus), Heap (auto-capture analytics, owned by Contentsquare), and PostHog (open-source alternative). It is best suited for product-led growth companies and enterprises that need a dedicated product analytics platform with experimentation built in.",
   "seo_title": "Amplitude Review: Pricing & Alternatives | MartechSignal",
   "seo_description": "Does Amplitude do heatmaps? What does it cost? Analytics, experimentation, and session replay reviewed with 2026 pricing tiers and Mixpanel comparison.",
   "deep_dive": {
    "hands_on": [
     "Amplitude is product analytics: events, funnels, retention, and now AI-generated insights. The strength is the event model, which lets you ask product questions without SQL. Funnel analysis and behavioral cohorts are fast, and the dashboards are the standard in the product world. The learning curve is real but shallow enough for a data-literate marketer.",
-    "Pricing has a generous free tier and scales steeply past it. The AI layer summarizes anomalies and flags drops, which saves the 'why did conversions fall' hunt."
+    "It helps to separate product analytics from web analytics. GA4 reports sessions, pageviews, and campaigns; Amplitude reports behavior: which features people use, in what order, and what the power users do differently. Marketing teams that only need channel reporting are fine in GA4. Teams that need to explain why retention moved or which feature drives upgrade need an event model like this one. The practical test: if your questions start with 'which segment' or 'what behavior' rather than 'which channel', you are in product analytics territory.",
+    "Instrumentation is the real cost. The free plan is generous, but the data is only as good as the tracking plan behind it: someone has to name events, define properties, and keep the taxonomy sane as the product changes. Amplitude's partnership with Segment and its warehouse-native setup (querying data in Snowflake or Databricks instead of duplicating it) reduce that work for teams that already have pipelines. Teams starting from zero should budget effort for the tracking plan before budgeting for the plan tier.",
+    "Pricing has a generous free tier and scales steeply past it. The published structure is simple: the free plan covers 2M events per month, self-serve Plus starts at $49/month, and Growth and Enterprise are quoted by sales. Event-volume pricing is the part to watch: traffic spikes, bot traffic, and sloppy instrumentation all inflate the bill. The AI layer summarizes anomalies and flags drops, which saves the 'why did conversions fall' hunt."
    ],
    "verdict": "Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost.",
    "best_for": "Product-led growth teams that need event analytics, funnels, and experimentation in one place, and enterprises that want warehouse-native querying against Snowflake or Databricks.",
@@ -286,15 +298,23 @@
    "faq_extra": [
     [
      "Does Amplitude have heatmaps?",
-     "Not as classic click overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. Dedicated scroll-and-click heatmap overlays are not core; tools like Hotjar or Microsoft Clarity fill that gap."
+     "Not as classic click and scroll overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. If heatmap overlays are the requirement, tools like Hotjar or Microsoft Clarity fill that gap, and both pair fine with Amplitude data."
     ],
     [
-     "What is Amplitude used for?",
-     "Product analytics. It tracks every user action as an event so teams can answer which features drive retention, where users abandon funnels, and which cohorts convert. The platform also bundles A/B testing and behavioral recommendations."
+     "What is Amplitude analytics?",
+     "Product analytics: Amplitude tracks user actions as events so teams can measure funnels, retention, and feature adoption that page-based web analytics cannot see. It complements rather than replaces web analytics. GA4 answers 'which campaign brought the visit'; Amplitude answers 'what did the user do once they arrived and what keeps them coming back'."
+    ],
+    [
+     "What is Amplitude software?",
+     "A digital analytics platform covering product analytics, A/B testing, session replay, and feature experimentation in one suite. It runs on an event-based data model, connects to warehouses like Snowflake and Databricks without duplicating data, and syncs behavioral audiences to marketing tools like Braze and Salesforce. Customers include Atlassian, NBCUniversal, PayPal, and Ford."
+    ],
+    [
+     "Does Amplitude have AI features?",
+     "Yes. Amplitude AI (Amplitude's AI assistant) analyzes product data in natural language, and Amplitude ships AI agents such as the Global Agent and Dashboard Agent, plus an MCP server for connecting external AI tools. Predictive audiences and automated anomaly detection flag behavior changes without manual query work. Scope changes often; Amplitude's AI docs list the current capabilities."
     ],
     [
      "Is Amplitude free?",
-     "There's a free plan covering up to 2M events per month with core analytics. Paid plans start at $49/month (Plus), with Growth and Enterprise tiers priced by event volume and features like session replay volume."
+     "There's a free plan covering up to 2M events per month with core analytics, session replay, and no credit card required. Paid plans start at $49/month (Plus, self-serve), with Growth and Enterprise tiers quoted by sales based on event volume and features."
     ]
    ]
   }
