@@ -170,6 +170,7 @@
 
 ## Analysis
 
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](https://martechsignal.com/blog/cdp-reckoning-warehouse-native/) (2026-09-02)
 - [ChatGPT Isn't Search Anymore, It's Checkout](https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/) (2026-09-01)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/) (2026-08-31)
 - [Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.](https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/) (2026-08-28)

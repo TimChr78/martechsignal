@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 05:29:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 05:12:41 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For</title>
+      <link>https://martechsignal.com/blog/cdp-reckoning-warehouse-native/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/cdp-reckoning-warehouse-native/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description>The customer data platform had a good run as a category. The pitch was simple: your customer data is scattered across dozens of systems, so buy a platform that ingests all of it, r</description>
+    </item>
     <item>
       <title>ChatGPT Isn't Search Anymore — It's Checkout</title>
       <link>https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/</link>
