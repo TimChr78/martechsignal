@@ -818,9 +818,11 @@ def build_sitemap(tools, cats):
         urls.append((f"https://martechsignal.com/blog/", _lastmod(blog_dir / "index.html"), "0.8"))
 
     # Generate XML
+    # M11: <priority> dropped - Google ignores it and our values were incoherent.
+    # urls tuples keep the third slot for compatibility; it is no longer emitted.
     entries = []
-    for loc, lastmod, priority in urls:
-        entries.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod><priority>{priority}</priority></url>")
+    for loc, lastmod, _priority in urls:
+        entries.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod></url>")
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
