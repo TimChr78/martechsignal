@@ -48,6 +48,9 @@ cd "$(dirname "$0")"
 if [ "$DO_BUILD" -eq 1 ]; then
     echo "── Build ───────────────────────────────────────────────"
     python3 tools/build_blog.py
+    # Trending before build_tools: the sitemap (written by build_tools) includes the
+    # trending page lastmod. Failure is non-fatal; sitemap falls back to file mtime.
+    python3 tools/build_trending.py || echo "⚠ trending build failed (non-fatal)"
     python3 tools/build_tools.py
     # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
     # Uses the cached /opt/data/gsc-pages-28d.json if present (refresh it with
