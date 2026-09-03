@@ -32,6 +32,7 @@
 - [Marketing Studio](https://martechsignal.com/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (open source)
 - [Open Mercato](https://martechsignal.com/tools/open-mercato/): The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
+- [SEO Skill Bench](https://martechsignal.com/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (open source)
 - [Zapier GTM Cheat Codes](https://martechsignal.com/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof (open source)
 
 ### Analytics & Attribution
@@ -86,6 +87,7 @@
 - [SuiteCRM](https://martechsignal.com/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (open source)
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
 - [WaCRM](https://martechsignal.com/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (open source)
+- [Warpdrive](https://martechsignal.com/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (open source)
 
 ### Email Marketing
 
