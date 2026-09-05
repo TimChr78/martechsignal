@@ -197,7 +197,16 @@
   <p class="sub">12 questions to answer before you plug agents into your marketing automation. If you can't check most of these, agents will make your mess faster.</p>
   <p class="hint">// CLICK EACH ITEM AS YOU GO — YOUR SCORE UPDATES LIVE AND <b>SAVES IN YOUR BROWSER</b></p>
 
-  <div class="scorebar" id="scorebar">
+  
+<div class="sub-strip reveal" id="score-capture" style="display:none">
+  <div>
+    <h3>Your score is in. Want the fix-it plan?</h3>
+    <p>The weekly newsletter walks through exactly the gaps you just checked, one tool at a time. Free.</p>
+  </div>
+  <a class="btn" href="/#subscribe" data-umami-event="Checklist subscribe click">Get the newsletter</a>
+</div>
+
+<div class="scorebar" id="scorebar">
     <div class="score-num"><span id="score-count">0</span>/12</div>
     <div class="score-track"><div class="score-fill" id="score-fill"></div></div>
     <div class="score-verdict v-none" id="score-verdict">NOT STARTED</div>
@@ -205,73 +214,73 @@
 
   <div class="item reveal" data-i="0"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>1. Can you export your full customer journey as structured data?
-    <p>Not a PDF report. A JSON or CSV with touchpoints, timestamps, and attribution. Agents can't reason over screenshots.</p>
+    <p>Not a PDF report. A JSON or CSV with touchpoints, timestamps, and attribution. Agents can't reason over screenshots.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/customer-journey/">customer journey</a></div>
     <p class="fail">If no: your agents will hallucinate journey insights from whatever fragment they can access.</p>
   </div></div>
 
   <div class="item reveal" data-i="1"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>2. Do your tools have APIs, not just UIs?
-    <p>Check your CRM, ESP, ad platforms, and analytics. If the only way to export data is "click Export → CSV," agents can't touch it without brittle screen-scraping.</p>
+    <p>Check your CRM, ESP, ad platforms, and analytics. If the only way to export data is "click Export → CSV," agents can't touch it without brittle screen-scraping.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/workflow-automation/">workflow automation</a></div>
     <p class="fail">If no: you'll build a human-in-the-loop bottleneck that defeats the purpose.</p>
   </div></div>
 
   <div class="item reveal" data-i="2"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>3. Is your UTM convention documented and enforced?
-    <p>Agents will generate campaigns. If your UTMs are already inconsistent, agents will scale the inconsistency. Write the convention down. Enforce it with validation.</p>
+    <p>Agents will generate campaigns. If your UTMs are already inconsistent, agents will scale the inconsistency. Write the convention down. Enforce it with validation.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/utm-parameters/">utm parameters</a></div>
     <p class="fail">If no: your attribution model becomes noise within one quarter of agent-generated campaigns.</p>
   </div></div>
 
   <div class="item reveal" data-i="3"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>4. Can you segment your audience programmatically?
-    <p>API-level access to segments, tags, or cohorts. Agents need to say "send this to segment X" without a human clicking through a UI.</p>
+    <p>API-level access to segments, tags, or cohorts. Agents need to say "send this to segment X" without a human clicking through a UI.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/lead-scoring/">lead scoring</a> · <a href="/glossary/personalization/">personalization</a></div>
     <p class="fail">If no: every agent campaign needs a human clicking through a UI first. You've automated the copy, not the workflow.</p>
   </div></div>
 
   <div class="item reveal" data-i="4"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>5. Do you have a single source of truth for customer data?
-    <p>CDP, data warehouse, or even a well-maintained spreadsheet. If customer data lives in 4 tools with no sync, agents will pull conflicting records and act on stale info.</p>
+    <p>CDP, data warehouse, or even a well-maintained spreadsheet. If customer data lives in 4 tools with no sync, agents will pull conflicting records and act on stale info.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/cdp/">cdp</a> · <a href="/glossary/first-party-data/">first party data</a></div>
     <p class="fail">If no: fix this first. No amount of AI fixes a data architecture problem.</p>
   </div></div>
 
   <div class="item reveal" data-i="5"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>6. Are your email templates modular and API-sendable?
-    <p>Agents should be able to compose and send emails via API, not just draft copy for a human to paste into a template builder.</p>
+    <p>Agents should be able to compose and send emails via API, not just draft copy for a human to paste into a template builder.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/email-sequence/">email sequence</a></div>
     <p class="fail">If no: your agent writes copy but a human still has to paste it into the builder and hit send. You've automated one step out of five.</p>
   </div></div>
 
   <div class="item reveal" data-i="6"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>7. Can you measure campaign performance without logging into 3 dashboards?
-    <p>One query, one API call, one place. Open rates, conversions, revenue. If reporting requires a human tour of your stack, agents can't close the feedback loop.</p>
+    <p>One query, one API call, one place. Open rates, conversions, revenue. If reporting requires a human tour of your stack, agents can't close the feedback loop.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/marketing-attribution-models/">marketing attribution models</a></div>
     <p class="fail">If no: agents will optimize what they can measure and ignore what they can't. That's how budgets leak.</p>
   </div></div>
 
   <div class="item reveal" data-i="7"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>8. Do you have approval workflows for automated sends?
-    <p>Agents will make mistakes. You need a gate between "agent composed it" and "it went to 10,000 people." Even a Slack confirmation counts.</p>
+    <p>Agents will make mistakes. You need a gate between "agent composed it" and "it went to 10,000 people." Even a Slack confirmation counts.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/marketing-ops/">marketing ops</a></div>
     <p class="fail">If no: your first agent error becomes a customer-facing incident.</p>
   </div></div>
 
   <div class="item reveal" data-i="8"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>9. Is your consent and suppression list accessible via API?
-    <p>GDPR, CAN-SPAM, and your own suppression rules need to be queryable. An agent that can't check "has this person unsubscribed?" is a compliance violation waiting to happen.</p>
+    <p>GDPR, CAN-SPAM, and your own suppression rules need to be queryable. An agent that can't check "has this person unsubscribed?" is a compliance violation waiting to happen.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/deliverability/">deliverability</a> · <a href="/glossary/first-party-data/">first party data</a></div>
     <p class="fail">If no: you're one agent mistake away from a GDPR complaint.</p>
   </div></div>
 
   <div class="item reveal" data-i="9"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>10. Can you version-control your automation logic?
-    <p>Workflows, triggers, conditions. Are they in git, or locked in a visual builder with no export? Agents will modify flows. You need rollback.</p>
+    <p>Workflows, triggers, conditions. Are they in git, or locked in a visual builder with no export? Agents will modify flows. You need rollback.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/tools/n8n/">n8n</a> · <a href="/glossary/workflow-automation/">workflow automation</a></div>
     <p class="fail">If no: you'll be debugging agent changes by clicking through a UI at 11 PM.</p>
   </div></div>
 
   <div class="item reveal" data-i="10"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>11. Do you have cost guardrails on your ad platforms?
-    <p>Daily caps, budget alerts, anomaly thresholds. An agent optimizing spend without guardrails is an agent that can drain a quarterly budget in a weekend.</p>
+    <p>Daily caps, budget alerts, anomaly thresholds. An agent optimizing spend without guardrails is an agent that can drain a quarterly budget in a weekend.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/programmatic-advertising/">programmatic advertising</a></div>
     <p class="fail">If no: set hard caps before any agent touches bid management.</p>
   </div></div>
 
   <div class="item reveal" data-i="11"><div class="check"><svg viewBox="0 0 20 20"><path d="M3 10.5 L8 15.5 L17 5"/></svg></div><div>
     <h2>12. Can you run a campaign end-to-end without opening a browser?
-    <p>If your entire workflow can run via API calls (segment, compose, send, measure, iterate), you're agent-ready. If any step requires a browser, that's where your bottleneck lives.</p>
+    <p>If your entire workflow can run via API calls (segment, compose, send, measure, iterate), you're agent-ready. If any step requires a browser, that's where your bottleneck lives.</p><div class="item-links" style="margin-top:.4rem;font-size:.8rem">Deep dive: <a href="/glossary/agentic-marketing/">agentic marketing</a> · <a href="/glossary/ai-agent/">ai agent</a></div>
     <p class="fail">If no: start with whichever step still needs a browser. That's your first project.</p>
   </div></div>
 
@@ -329,6 +338,8 @@
     var v = verdict(n);
     verdictEl.textContent = v[0];
     verdictEl.className = 'score-verdict ' + v[1];
+    var cap = document.getElementById('score-capture');
+    if (cap) cap.style.display = n > 0 ? 'flex' : 'none';
     // M4: shareable score URL - reflect checked count in the address bar
     try {
       var u = new URL(window.location.href);
