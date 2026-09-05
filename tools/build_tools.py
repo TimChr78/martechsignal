@@ -479,6 +479,7 @@ def build_tool_page(t, cats, all_tools):
   <h1>{esc(t['name'])} Review</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated {esc(t.get('date_updated',''))}</p>
 </section>
 <div class="detail">
   <div class="detail-main">
