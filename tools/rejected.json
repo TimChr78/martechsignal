@@ -1,882 +1,906 @@
 [
- {
-  "name": "postbot",
-  "url": "https://github.com/gitcoffee-os/postbot",
-  "reason": "No clear AI features; content sync utility",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "AutoSocial",
-  "url": "https://github.com/Katzca/AutoSocial",
-  "reason": "No homepage, no clear AI features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "caffeinate",
-  "url": "https://github.com/joshmn/caffeinate",
-  "reason": "Rails engine/library, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "react-email-editor",
-  "url": "https://github.com/unlayer/react-email-editor",
-  "reason": "React component library, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "maizzle",
-  "url": "https://github.com/maizzle/maizzle",
-  "reason": "Email development framework, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "email-builder-js",
-  "url": "https://github.com/usewaypoint/email-builder-js",
-  "reason": "Open-source library/component, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "framework",
-  "url": "https://github.com/maizzle/framework",
-  "reason": "Duplicate of maizzle; email framework/library",
-  "rejected_at": "2026-07-31",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "email-templates",
-  "url": "https://github.com/ColorlibHQ/email-templates",
-  "reason": "HTML template collection, not a tool",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "snooze",
-  "url": "https://github.com/thomasjohnkane/snooze",
-  "reason": "Laravel package/library, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "caniemail",
-  "url": "https://github.com/hteumeuleu/caniemail",
-  "reason": "Reference website, not a marketing tool",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "notifo",
-  "url": "https://github.com/notifo-io/notifo",
-  "reason": "Notification service library, no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "inky",
-  "url": "https://github.com/foundation/inky",
-  "reason": "Email HTML framework/library",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "vue-email-editor",
-  "url": "https://github.com/unlayer/vue-email-editor",
-  "reason": "Vue component library, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "paperboy",
-  "url": "https://github.com/rykov/paperboy",
-  "reason": "Email delivery CLI/library, no AI features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "erpnext",
-  "url": "https://github.com/frappe/erpnext",
-  "reason": "ERP, not a marketing automation tool; no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "platform",
-  "url": "https://github.com/hcengineering/platform",
-  "reason": "Project management platform (Huly), not marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "monica",
-  "url": "https://github.com/monicahq/monica",
-  "reason": "Personal CRM, no AI marketing automation features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "nocobase",
-  "url": "https://github.com/nocobase/nocobase",
-  "reason": "Generic no-code platform, not a marketing tool",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "akaunting",
-  "url": "https://github.com/akaunting/akaunting",
-  "reason": "Accounting software, not marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "idurar-erp-crm",
-  "url": "https://github.com/idurar/idurar-erp-crm",
-  "reason": "ERP/CRM, no clear AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "dolibarr",
-  "url": "https://github.com/Dolibarr/dolibarr",
-  "reason": "ERP/CRM, no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "personal-management-system",
-  "url": "https://github.com/Volmarg/personal-management-system",
-  "reason": "Personal data manager, not marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "ever-gauzy",
-  "url": "https://github.com/ever-co/ever-gauzy",
-  "reason": "Business management ERP, no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "CommunityServer",
-  "url": "https://github.com/ONLYOFFICE/CommunityServer",
-  "reason": "Office suite, not a marketing tool",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "InvoicePlane",
-  "url": "https://github.com/InvoicePlane/InvoicePlane",
-  "reason": "Invoicing app, not marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "crm",
-  "url": "https://github.com/frappe/crm",
-  "reason": "Frappe CRM, no clear AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "frappe_docker",
-  "url": "https://github.com/frappe/frappe_docker",
-  "reason": "Docker deployment tooling, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "metasfresh",
-  "url": "https://github.com/metasfresh/metasfresh",
-  "reason": "ERP, not marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "Django-CRM",
-  "url": "https://github.com/MicroPyramid/Django-CRM",
-  "reason": "Generic open-source CRM, no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "DaybydayCRM",
-  "url": "https://github.com/Bottelet/DaybydayCRM",
-  "reason": "CRM/task tracker, no AI marketing features",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "avo",
-  "url": "https://github.com/avo-hq/avo",
-  "reason": "Rails admin panel toolkit, not a marketing product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "open-mercato",
-  "url": "https://github.com/open-mercato/open-mercato",
-  "reason": "AI-engineering framework, not a marketing product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "diff-diff",
-  "url": "https://github.com/igerber/diff-diff",
-  "reason": "Python statistics library, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "rudder-sdk-js",
-  "url": "https://github.com/rudderlabs/rudder-sdk-js",
-  "reason": "JavaScript SDK, not a product",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "Zapier for enterprise orchestration: Scaling automation on a trusted platform",
-  "url": "https://zapier.com/blog/feeds/latest/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "HubSpot AEO vs. Otterly: Platform or standalone tool?",
-  "url": "https://blog.hubspot.com/marketing/rss.xml",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "Unlock Intent-Driven Shopping: Inside the July 2026 B2C Commerce Release",
-  "url": "https://www.salesforce.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "django-crm",
-  "url": "https://github.com/DjangoCRM/django-crm",
-  "reason": "Generic Django CRM, no clear AI features relevant to marketing automation",
-  "rejected_at": "2026-07-31"
- },
- {
-  "name": "What is enterprise marketing automation? Features, platforms, and best practices",
-  "url": "https://blog.hubspot.com/marketing/rss.xml",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-10"
- },
- {
-  "name": "The 9 best tools for your early-stage startup tech stack in 2026",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-10"
- },
- {
-  "name": "Django-CRM",
-  "url": "https://github.com/Django-CRM/Django-CRM",
-  "reason": "Generic open-source CRM (bottlecrm.io), no AI features for marketing automation",
-  "rejected_at": "2026-08-13"
- },
- {
-  "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-13"
- },
- {
-  "name": "markov-chain-attribution",
-  "url": "https://github.com/jerednel/markov-chain-attribution",
-  "reason": "86 stars, proof-of-concept script, not a product",
-  "rejected_at": "2026-08-17"
- },
- {
-  "name": "The best AI tools for social media content creation in 2026",
-  "url": "https://blog.hootsuite.com/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-17"
- },
- {
-  "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-17"
- },
- {
-  "name": "The 9 best tools for your early-stage startup tech stack in 2026",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-17"
- },
- {
-  "name": "ERPNext",
-  "reason": "ERP/accounting \u2014 off-topic for AI marketing directory",
-  "date": "2026-08-21"
- },
- {
-  "name": "Huly (hcengineering/platform)",
-  "reason": "Project management platform \u2014 off-topic",
-  "date": "2026-08-21"
- },
- {
-  "name": "Akaunting",
-  "reason": "Accounting software \u2014 off-topic",
-  "date": "2026-08-21"
- },
- {
-  "name": "IDurable ERP CRM / Dolibarr / Ever Gauzy / metasfresh",
-  "reason": "ERP suites \u2014 off-topic",
-  "date": "2026-08-21"
- },
- {
-  "name": "CommunityServer / avo / personal-management-system",
-  "reason": "Internal tools/project mgmt \u2014 off-topic",
-  "date": "2026-08-21"
- },
- {
-  "name": "Email component libraries (framework, email-templates, snooze, inky, vue-email-editor)",
-  "reason": "Dev components/templates, weak directory fit",
-  "date": "2026-08-21"
- },
- {
-  "name": "DaybydayCRM / django-crm (lower-star dupe) / crm (3.3k generic)",
-  "reason": "Thin vs existing CRM coverage; kept Django-CRM 2.4k multi-tenant",
-  "date": "2026-08-21"
- },
- {
-  "name": "CommunityServer",
-  "url": "https://github.com/ONLYOFFICE/CommunityServer",
-  "reason": "Office suite with CRM bolt-on; not martech-focused",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "DaybydayCRM",
-  "url": "https://github.com/Bottelet/DaybydayCRM",
-  "reason": "Generic small-biz CRM, low differentiation vs existing CRM set",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "django-crm",
-  "url": "https://github.com/DjangoCRM/django-crm",
-  "reason": "Name collision with existing Django CRM entry (different repo: DjangoCRM/ vs Django-CRM/) \u2014 confusing for users",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "AutoSocial",
-  "url": "https://github.com/Katzca/AutoSocial",
-  "reason": "Social posting automation for TikTok/IG/YT \u2014 creator tool, not martech platform; also stale (June)",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "vue-email-editor",
-  "url": "https://github.com/unlayer/vue-email-editor",
-  "reason": "Same product as approved react-email-editor (Unlayer) \u2014 one editor per vendor is enough",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "email-templates",
-  "url": "https://github.com/ColorlibHQ/email-templates",
-  "reason": "Static template collection, not a tool/platform",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "caniemail",
-  "url": "https://github.com/hteumeuleu/caniemail",
-  "reason": "Reference site, not a marketing automation tool",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "inky",
-  "url": "https://github.com/foundation/inky",
-  "reason": "Email framework, dormant-ish (July); overlaps Maizzle which we already cover",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "postbot",
-  "url": "https://github.com/gitcoffee-os/postbot",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "snooze",
-  "url": "https://github.com/thomasjohnkane/snooze",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "erpnext",
-  "url": "https://github.com/frappe/erpnext",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "platform",
-  "url": "https://github.com/hcengineering/platform",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "akaunting",
-  "url": "https://github.com/akaunting/akaunting",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "personal-management-system",
-  "url": "https://github.com/Volmarg/personal-management-system",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "InvoicePlane",
-  "url": "https://github.com/InvoicePlane/InvoicePlane",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "frappe_docker",
-  "url": "https://github.com/frappe/frappe_docker",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "metasfresh",
-  "url": "https://github.com/metasfresh/metasfresh",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "avo",
-  "url": "https://github.com/avo-hq/avo",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "diff-diff",
-  "url": "https://github.com/igerber/diff-diff",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "rudder-sdk-js",
-  "url": "https://github.com/rudderlabs/rudder-sdk-js",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "markov-chain-attribution",
-  "url": "https://github.com/jerednel/markov-chain-attribution",
-  "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
-  "rejected_at": "2026-08-25",
-  "resurfaced": [
-   "2026-08-29"
-  ]
- },
- {
-  "name": "habibi",
-  "reason": "Below star threshold (22 at review) - revisit when it crosses ~50+",
-  "rejected_at": "2026-08-29"
- },
- {
-  "name": "crmkit",
-  "reason": "Below star threshold (35 at review) - revisit next discovery pass",
-  "rejected_at": "2026-08-29"
- },
- {
-  "name": "sandbase-skills",
-  "reason": "General agent skill pack, not MarTech-specific (Tim call 2026-08-29)",
-  "rejected_at": "2026-08-29"
- },
- {
-  "name": "life-ipo",
-  "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
-  "reason": "No clear AI features relevant to marketing automation",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "Neofollower-SMM-Reseller-API-for-Woocommerce",
-  "url": "https://github.com/Neofollower/Neofollower-SMM-Reseller-API-for-Woocommerce",
-  "reason": "No clear AI features relevant to marketing automation",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "Neofollower-SMM-Panel-API",
-  "url": "https://github.com/Neofollower/Neofollower-SMM-Panel-API",
-  "reason": "No clear AI features relevant to marketing automation",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "playbooks",
-  "url": "https://github.com/andrewluxem/playbooks",
-  "reason": "Below star threshold (44 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "whatsapp-ai-marketing-automation-de",
-  "url": "https://github.com/Cordelia886/whatsapp-ai-marketing-automation-de",
-  "reason": "Below star threshold (64 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "ai-social-content-automation-de",
-  "url": "https://github.com/Genevieveyes/ai-social-content-automation-de",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "execsum-deal-brief",
-  "url": "https://github.com/kklounge/execsum-deal-brief",
-  "reason": "Below star threshold (50 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "viral-skript-reichweiten-system",
-  "url": "https://github.com/Seraphinayes/viral-skript-reichweiten-system",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "digistore-marketplace-booste",
-  "url": "https://github.com/Seraphinayes/digistore-marketplace-booste",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "ai-copywriting-prompts",
-  "url": "https://github.com/Archibaldys/ai-copywriting-prompts",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "awesome-tech-writing-tools",
-  "url": "https://github.com/Montgomery66/awesome-tech-writing-tools",
-  "reason": "Below star threshold (68 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "avatar-speak-pro-download",
-  "url": "https://github.com/Nathanielyseterday/avatar-speak-pro-download",
-  "reason": "Below star threshold (65 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "Youtube-seo-cheatsheet",
-  "url": "https://github.com/MaximilianYes/Youtube-seo-cheatsheet",
-  "reason": "Below star threshold (65 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "b2b-vertriebsautomatisierung-dirk-kreuter",
-  "url": "https://github.com/digistoremaster/b2b-vertriebsautomatisierung-dirk-kreuter",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "automated-og-image-banner-generator",
-  "url": "https://github.com/digistoremaster/automated-og-image-banner-generator",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "klick-tipp-zapier-alternative-wordpress",
-  "url": "https://github.com/digistoremaster/klick-tipp-zapier-alternative-wordpress",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "orbitkeep",
-  "url": "https://github.com/AiAlchemist0/orbitkeep",
-  "reason": "Below star threshold (46 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "OpenCMO",
-  "url": "https://github.com/About-Intelligence/OpenCMO",
-  "reason": "Below star threshold (20 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "PhantomCrowd-Simulacra",
-  "url": "https://github.com/charan820/PhantomCrowd-Simulacra",
-  "reason": "No clear AI features relevant to marketing automation",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "nondual",
-  "url": "https://github.com/nondual-agents/nondual",
-  "reason": "Below star threshold (72 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "clickfunnels-alternative",
-  "url": "https://github.com/digistoremaster/clickfunnels-alternative",
-  "reason": "Below star threshold (66 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "growth-marketing-os",
-  "url": "https://github.com/growthack88/growth-marketing-os",
-  "reason": "Below star threshold (89 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "warpdrive",
-  "url": "https://github.com/sneg55/warpdrive",
-  "reason": "Below star threshold (73 stars at review)",
-  "rejected_at": "2026-08-31",
-  "overridden": "Approved by Tim 2026-08-31; published 2026-09-03"
- },
- {
-  "name": "purdia",
-  "url": "https://github.com/anggagewor/purdia",
-  "reason": "Below star threshold (68 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "marketing-intelligence-layer",
-  "url": "https://github.com/searchbrat/marketing-intelligence-layer",
-  "reason": "Below star threshold (22 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "skills",
-  "url": "https://github.com/social-media-skills/skills",
-  "reason": "Below star threshold (53 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "line-oa-mcp-ultimate",
-  "url": "https://github.com/wasintoh/line-oa-mcp-ultimate",
-  "reason": "Below star threshold (96 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "whatsapp-closer-agentkit",
-  "url": "https://github.com/Hainrixz/whatsapp-closer-agentkit",
-  "reason": "Below star threshold (26 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "seo-skill-bench",
-  "url": "https://github.com/aleclindz/seo-skill-bench",
-  "reason": "Below star threshold (56 stars at review)",
-  "rejected_at": "2026-08-31",
-  "overridden": "Approved by Tim 2026-08-31; published 2026-09-03"
- },
- {
-  "name": "php-crm-connectors",
-  "url": "https://github.com/ictinnovations/php-crm-connectors",
-  "reason": "Below star threshold (15 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "sendmux-sdk",
-  "url": "https://github.com/Sendmux/sendmux-sdk",
-  "reason": "Below star threshold (73 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "sumeru",
-  "url": "https://github.com/ProjectMeru/sumeru",
-  "reason": "Below star threshold (15 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "PhantomReach",
-  "url": "https://github.com/calesthio/PhantomReach",
-  "reason": "Below star threshold (45 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "AI-Website-Audit-CLI",
-  "url": "https://github.com/Tools2U/AI-Website-Audit-CLI",
-  "reason": "Below star threshold (59 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "PhantomReach",
-  "url": "https://github.com/calesthio/PhantomReach",
-  "reason": "Below star threshold (45 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "awesome-ai-startups",
-  "url": "https://github.com/nowork-studio/awesome-ai-startups",
-  "reason": "Below star threshold (79 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "Chuwu-PR-OS",
-  "url": "https://github.com/chuwu57/Chuwu-PR-OS",
-  "reason": "Below star threshold (52 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "awesome-solo-founder-oss",
-  "url": "https://github.com/princepal9120/awesome-solo-founder-oss",
-  "reason": "Below star threshold (61 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "smart-trade-ai",
-  "url": "https://github.com/chefroger/smart-trade-ai",
-  "reason": "Below star threshold (62 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "ForgeChat",
-  "url": "https://github.com/Forgemind-git/ForgeChat",
-  "reason": "Below star threshold (53 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "gtm-skills",
-  "url": "https://github.com/LeadMagic/gtm-skills",
-  "reason": "Below star threshold (45 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "gtm-skills",
-  "url": "https://github.com/LeadMagic/gtm-skills",
-  "reason": "Below star threshold (45 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "atlas-marketing-studio",
-  "url": "https://github.com/AtlasCloudAI/atlas-marketing-studio",
-  "reason": "Below star threshold (22 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "atlas-marketing-studio",
-  "url": "https://github.com/AtlasCloudAI/atlas-marketing-studio",
-  "reason": "Below star threshold (22 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "tradepilot",
-  "url": "https://github.com/feifei9126/tradepilot",
-  "reason": "Below star threshold (35 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "brand-loom",
-  "url": "https://github.com/hogan-tech/brand-loom",
-  "reason": "Below star threshold (22 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "blog",
-  "url": "https://github.com/axelfreeman/blog",
-  "reason": "Below star threshold (18 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "zerp",
-  "url": "https://github.com/zerp-pk/zerp",
-  "reason": "Below star threshold (24 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "RankWise",
-  "url": "https://github.com/MADEVAL/RankWise",
-  "reason": "Below star threshold (29 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "vibemarketer-skills",
-  "url": "https://github.com/vibemarketer94/vibemarketer-skills",
-  "reason": "Below star threshold (36 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "founders-os",
-  "url": "https://github.com/OurThinkTank/founders-os",
-  "reason": "Below star threshold (17 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "claude-code-growth-os",
-  "url": "https://github.com/etrebels/claude-code-growth-os",
-  "reason": "Below star threshold (20 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "nationforge-community",
-  "url": "https://github.com/programozas-kft/nationforge-community",
-  "reason": "Below star threshold (23 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "kancelaria-dms",
-  "url": "https://github.com/apiotrowski-afk/kancelaria-dms",
-  "reason": "Below star threshold (18 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "aiecos-social-crm",
-  "url": "https://github.com/aiecosvietnam/aiecos-social-crm",
-  "reason": "Below star threshold (17 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "BlogPilot-Open-Source-AI-SEO-Content-Studio",
-  "url": "https://github.com/IamRamgarhia/BlogPilot-Open-Source-AI-SEO-Content-Studio",
-  "reason": "Below star threshold (16 stars at review)",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "The 9 best tools for your early-stage startup tech stack in 2026",
-  "url": "https://www.intercom.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-08-31"
- },
- {
-  "name": "prod-FARM-IOS-Core",
-  "url": "https://github.com/Git-Agni/prod-FARM-IOS-Core",
-  "reason": "No AI features; iPhone phone-farm automation with TikTok workflows, platform ToS risk",
-  "rejected_at": "2026-09-03"
- },
- {
-  "name": "Activate Your Central Business Platform With The Right Integrations",
-  "url": "https://www.salesforce.com/blog/feed/",
-  "reason": "RSS blog post, not a tool candidate",
-  "rejected_at": "2026-09-03"
- }
+  {
+    "name": "postbot",
+    "url": "https://github.com/gitcoffee-os/postbot",
+    "reason": "No clear AI features; content sync utility",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "AutoSocial",
+    "url": "https://github.com/Katzca/AutoSocial",
+    "reason": "No homepage, no clear AI features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "caffeinate",
+    "url": "https://github.com/joshmn/caffeinate",
+    "reason": "Rails engine/library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "react-email-editor",
+    "url": "https://github.com/unlayer/react-email-editor",
+    "reason": "React component library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "maizzle",
+    "url": "https://github.com/maizzle/maizzle",
+    "reason": "Email development framework, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "email-builder-js",
+    "url": "https://github.com/usewaypoint/email-builder-js",
+    "reason": "Open-source library/component, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "framework",
+    "url": "https://github.com/maizzle/framework",
+    "reason": "Duplicate of maizzle; email framework/library",
+    "rejected_at": "2026-07-31",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "email-templates",
+    "url": "https://github.com/ColorlibHQ/email-templates",
+    "reason": "HTML template collection, not a tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "snooze",
+    "url": "https://github.com/thomasjohnkane/snooze",
+    "reason": "Laravel package/library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "caniemail",
+    "url": "https://github.com/hteumeuleu/caniemail",
+    "reason": "Reference website, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "notifo",
+    "url": "https://github.com/notifo-io/notifo",
+    "reason": "Notification service library, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "inky",
+    "url": "https://github.com/foundation/inky",
+    "reason": "Email HTML framework/library",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "vue-email-editor",
+    "url": "https://github.com/unlayer/vue-email-editor",
+    "reason": "Vue component library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "paperboy",
+    "url": "https://github.com/rykov/paperboy",
+    "reason": "Email delivery CLI/library, no AI features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "erpnext",
+    "url": "https://github.com/frappe/erpnext",
+    "reason": "ERP, not a marketing automation tool; no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "platform",
+    "url": "https://github.com/hcengineering/platform",
+    "reason": "Project management platform (Huly), not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "monica",
+    "url": "https://github.com/monicahq/monica",
+    "reason": "Personal CRM, no AI marketing automation features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "nocobase",
+    "url": "https://github.com/nocobase/nocobase",
+    "reason": "Generic no-code platform, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "akaunting",
+    "url": "https://github.com/akaunting/akaunting",
+    "reason": "Accounting software, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "idurar-erp-crm",
+    "url": "https://github.com/idurar/idurar-erp-crm",
+    "reason": "ERP/CRM, no clear AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "dolibarr",
+    "url": "https://github.com/Dolibarr/dolibarr",
+    "reason": "ERP/CRM, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "personal-management-system",
+    "url": "https://github.com/Volmarg/personal-management-system",
+    "reason": "Personal data manager, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "reason": "Business management ERP, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "CommunityServer",
+    "url": "https://github.com/ONLYOFFICE/CommunityServer",
+    "reason": "Office suite, not a marketing tool",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "InvoicePlane",
+    "url": "https://github.com/InvoicePlane/InvoicePlane",
+    "reason": "Invoicing app, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "crm",
+    "url": "https://github.com/frappe/crm",
+    "reason": "Frappe CRM, no clear AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "frappe_docker",
+    "url": "https://github.com/frappe/frappe_docker",
+    "reason": "Docker deployment tooling, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "metasfresh",
+    "url": "https://github.com/metasfresh/metasfresh",
+    "reason": "ERP, not marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Django-CRM",
+    "url": "https://github.com/MicroPyramid/Django-CRM",
+    "reason": "Generic open-source CRM, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "DaybydayCRM",
+    "url": "https://github.com/Bottelet/DaybydayCRM",
+    "reason": "CRM/task tracker, no AI marketing features",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "avo",
+    "url": "https://github.com/avo-hq/avo",
+    "reason": "Rails admin panel toolkit, not a marketing product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "open-mercato",
+    "url": "https://github.com/open-mercato/open-mercato",
+    "reason": "AI-engineering framework, not a marketing product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "diff-diff",
+    "url": "https://github.com/igerber/diff-diff",
+    "reason": "Python statistics library, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "rudder-sdk-js",
+    "url": "https://github.com/rudderlabs/rudder-sdk-js",
+    "reason": "JavaScript SDK, not a product",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Zapier for enterprise orchestration: Scaling automation on a trusted platform",
+    "url": "https://zapier.com/blog/feeds/latest/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "HubSpot AEO vs. Otterly: Platform or standalone tool?",
+    "url": "https://blog.hubspot.com/marketing/rss.xml",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "Unlock Intent-Driven Shopping: Inside the July 2026 B2C Commerce Release",
+    "url": "https://www.salesforce.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "django-crm",
+    "url": "https://github.com/DjangoCRM/django-crm",
+    "reason": "Generic Django CRM, no clear AI features relevant to marketing automation",
+    "rejected_at": "2026-07-31"
+  },
+  {
+    "name": "What is enterprise marketing automation? Features, platforms, and best practices",
+    "url": "https://blog.hubspot.com/marketing/rss.xml",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-10"
+  },
+  {
+    "name": "The 9 best tools for your early-stage startup tech stack in 2026",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-10"
+  },
+  {
+    "name": "Django-CRM",
+    "url": "https://github.com/Django-CRM/Django-CRM",
+    "reason": "Generic open-source CRM (bottlecrm.io), no AI features for marketing automation",
+    "rejected_at": "2026-08-13"
+  },
+  {
+    "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-13"
+  },
+  {
+    "name": "markov-chain-attribution",
+    "url": "https://github.com/jerednel/markov-chain-attribution",
+    "reason": "86 stars, proof-of-concept script, not a product",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "The best AI tools for social media content creation in 2026",
+    "url": "https://blog.hootsuite.com/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "The 9 best tools for your early-stage startup tech stack in 2026",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-17"
+  },
+  {
+    "name": "ERPNext",
+    "reason": "ERP/accounting — off-topic for AI marketing directory",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "Huly (hcengineering/platform)",
+    "reason": "Project management platform — off-topic",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "Akaunting",
+    "reason": "Accounting software — off-topic",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "IDurable ERP CRM / Dolibarr / Ever Gauzy / metasfresh",
+    "reason": "ERP suites — off-topic",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "CommunityServer / avo / personal-management-system",
+    "reason": "Internal tools/project mgmt — off-topic",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "Email component libraries (framework, email-templates, snooze, inky, vue-email-editor)",
+    "reason": "Dev components/templates, weak directory fit",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "DaybydayCRM / django-crm (lower-star dupe) / crm (3.3k generic)",
+    "reason": "Thin vs existing CRM coverage; kept Django-CRM 2.4k multi-tenant",
+    "date": "2026-08-21"
+  },
+  {
+    "name": "CommunityServer",
+    "url": "https://github.com/ONLYOFFICE/CommunityServer",
+    "reason": "Office suite with CRM bolt-on; not martech-focused",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "DaybydayCRM",
+    "url": "https://github.com/Bottelet/DaybydayCRM",
+    "reason": "Generic small-biz CRM, low differentiation vs existing CRM set",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "django-crm",
+    "url": "https://github.com/DjangoCRM/django-crm",
+    "reason": "Name collision with existing Django CRM entry (different repo: DjangoCRM/ vs Django-CRM/) — confusing for users",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "AutoSocial",
+    "url": "https://github.com/Katzca/AutoSocial",
+    "reason": "Social posting automation for TikTok/IG/YT — creator tool, not martech platform; also stale (June)",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "vue-email-editor",
+    "url": "https://github.com/unlayer/vue-email-editor",
+    "reason": "Same product as approved react-email-editor (Unlayer) — one editor per vendor is enough",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "email-templates",
+    "url": "https://github.com/ColorlibHQ/email-templates",
+    "reason": "Static template collection, not a tool/platform",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "caniemail",
+    "url": "https://github.com/hteumeuleu/caniemail",
+    "reason": "Reference site, not a marketing automation tool",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "inky",
+    "url": "https://github.com/foundation/inky",
+    "reason": "Email framework, dormant-ish (July); overlaps Maizzle which we already cover",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "postbot",
+    "url": "https://github.com/gitcoffee-os/postbot",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "snooze",
+    "url": "https://github.com/thomasjohnkane/snooze",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "erpnext",
+    "url": "https://github.com/frappe/erpnext",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "platform",
+    "url": "https://github.com/hcengineering/platform",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "akaunting",
+    "url": "https://github.com/akaunting/akaunting",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "personal-management-system",
+    "url": "https://github.com/Volmarg/personal-management-system",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "InvoicePlane",
+    "url": "https://github.com/InvoicePlane/InvoicePlane",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "frappe_docker",
+    "url": "https://github.com/frappe/frappe_docker",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "metasfresh",
+    "url": "https://github.com/metasfresh/metasfresh",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "avo",
+    "url": "https://github.com/avo-hq/avo",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "diff-diff",
+    "url": "https://github.com/igerber/diff-diff",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "rudder-sdk-js",
+    "url": "https://github.com/rudderlabs/rudder-sdk-js",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "markov-chain-attribution",
+    "url": "https://github.com/jerednel/markov-chain-attribution",
+    "reason": "Off-topic: generic ERP/accounting/project management, no martech focus",
+    "rejected_at": "2026-08-25",
+    "resurfaced": [
+      "2026-08-29"
+    ]
+  },
+  {
+    "name": "habibi",
+    "reason": "Below star threshold (22 at review) - revisit when it crosses ~50+",
+    "rejected_at": "2026-08-29"
+  },
+  {
+    "name": "crmkit",
+    "reason": "Below star threshold (35 at review) - revisit next discovery pass",
+    "rejected_at": "2026-08-29"
+  },
+  {
+    "name": "sandbase-skills",
+    "reason": "General agent skill pack, not MarTech-specific (Tim call 2026-08-29)",
+    "rejected_at": "2026-08-29"
+  },
+  {
+    "name": "life-ipo",
+    "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
+    "reason": "No clear AI features relevant to marketing automation",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "Neofollower-SMM-Reseller-API-for-Woocommerce",
+    "url": "https://github.com/Neofollower/Neofollower-SMM-Reseller-API-for-Woocommerce",
+    "reason": "No clear AI features relevant to marketing automation",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "Neofollower-SMM-Panel-API",
+    "url": "https://github.com/Neofollower/Neofollower-SMM-Panel-API",
+    "reason": "No clear AI features relevant to marketing automation",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "playbooks",
+    "url": "https://github.com/andrewluxem/playbooks",
+    "reason": "Below star threshold (44 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "whatsapp-ai-marketing-automation-de",
+    "url": "https://github.com/Cordelia886/whatsapp-ai-marketing-automation-de",
+    "reason": "Below star threshold (64 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "ai-social-content-automation-de",
+    "url": "https://github.com/Genevieveyes/ai-social-content-automation-de",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "execsum-deal-brief",
+    "url": "https://github.com/kklounge/execsum-deal-brief",
+    "reason": "Below star threshold (50 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "viral-skript-reichweiten-system",
+    "url": "https://github.com/Seraphinayes/viral-skript-reichweiten-system",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "digistore-marketplace-booste",
+    "url": "https://github.com/Seraphinayes/digistore-marketplace-booste",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "ai-copywriting-prompts",
+    "url": "https://github.com/Archibaldys/ai-copywriting-prompts",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "awesome-tech-writing-tools",
+    "url": "https://github.com/Montgomery66/awesome-tech-writing-tools",
+    "reason": "Below star threshold (68 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "avatar-speak-pro-download",
+    "url": "https://github.com/Nathanielyseterday/avatar-speak-pro-download",
+    "reason": "Below star threshold (65 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "Youtube-seo-cheatsheet",
+    "url": "https://github.com/MaximilianYes/Youtube-seo-cheatsheet",
+    "reason": "Below star threshold (65 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "b2b-vertriebsautomatisierung-dirk-kreuter",
+    "url": "https://github.com/digistoremaster/b2b-vertriebsautomatisierung-dirk-kreuter",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "automated-og-image-banner-generator",
+    "url": "https://github.com/digistoremaster/automated-og-image-banner-generator",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "klick-tipp-zapier-alternative-wordpress",
+    "url": "https://github.com/digistoremaster/klick-tipp-zapier-alternative-wordpress",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "orbitkeep",
+    "url": "https://github.com/AiAlchemist0/orbitkeep",
+    "reason": "Below star threshold (46 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "OpenCMO",
+    "url": "https://github.com/About-Intelligence/OpenCMO",
+    "reason": "Below star threshold (20 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "PhantomCrowd-Simulacra",
+    "url": "https://github.com/charan820/PhantomCrowd-Simulacra",
+    "reason": "No clear AI features relevant to marketing automation",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "nondual",
+    "url": "https://github.com/nondual-agents/nondual",
+    "reason": "Below star threshold (72 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "clickfunnels-alternative",
+    "url": "https://github.com/digistoremaster/clickfunnels-alternative",
+    "reason": "Below star threshold (66 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "growth-marketing-os",
+    "url": "https://github.com/growthack88/growth-marketing-os",
+    "reason": "Below star threshold (89 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "warpdrive",
+    "url": "https://github.com/sneg55/warpdrive",
+    "reason": "Below star threshold (73 stars at review)",
+    "rejected_at": "2026-08-31",
+    "overridden": "Approved by Tim 2026-08-31; published 2026-09-03"
+  },
+  {
+    "name": "purdia",
+    "url": "https://github.com/anggagewor/purdia",
+    "reason": "Below star threshold (68 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "marketing-intelligence-layer",
+    "url": "https://github.com/searchbrat/marketing-intelligence-layer",
+    "reason": "Below star threshold (22 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "skills",
+    "url": "https://github.com/social-media-skills/skills",
+    "reason": "Below star threshold (53 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "line-oa-mcp-ultimate",
+    "url": "https://github.com/wasintoh/line-oa-mcp-ultimate",
+    "reason": "Below star threshold (96 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "whatsapp-closer-agentkit",
+    "url": "https://github.com/Hainrixz/whatsapp-closer-agentkit",
+    "reason": "Below star threshold (26 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "seo-skill-bench",
+    "url": "https://github.com/aleclindz/seo-skill-bench",
+    "reason": "Below star threshold (56 stars at review)",
+    "rejected_at": "2026-08-31",
+    "overridden": "Approved by Tim 2026-08-31; published 2026-09-03"
+  },
+  {
+    "name": "php-crm-connectors",
+    "url": "https://github.com/ictinnovations/php-crm-connectors",
+    "reason": "Below star threshold (15 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "sendmux-sdk",
+    "url": "https://github.com/Sendmux/sendmux-sdk",
+    "reason": "Below star threshold (73 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "sumeru",
+    "url": "https://github.com/ProjectMeru/sumeru",
+    "reason": "Below star threshold (15 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "PhantomReach",
+    "url": "https://github.com/calesthio/PhantomReach",
+    "reason": "Below star threshold (45 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "AI-Website-Audit-CLI",
+    "url": "https://github.com/Tools2U/AI-Website-Audit-CLI",
+    "reason": "Below star threshold (59 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "PhantomReach",
+    "url": "https://github.com/calesthio/PhantomReach",
+    "reason": "Below star threshold (45 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "awesome-ai-startups",
+    "url": "https://github.com/nowork-studio/awesome-ai-startups",
+    "reason": "Below star threshold (79 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "Chuwu-PR-OS",
+    "url": "https://github.com/chuwu57/Chuwu-PR-OS",
+    "reason": "Below star threshold (52 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "awesome-solo-founder-oss",
+    "url": "https://github.com/princepal9120/awesome-solo-founder-oss",
+    "reason": "Below star threshold (61 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "smart-trade-ai",
+    "url": "https://github.com/chefroger/smart-trade-ai",
+    "reason": "Below star threshold (62 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "ForgeChat",
+    "url": "https://github.com/Forgemind-git/ForgeChat",
+    "reason": "Below star threshold (53 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "gtm-skills",
+    "url": "https://github.com/LeadMagic/gtm-skills",
+    "reason": "Below star threshold (45 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "gtm-skills",
+    "url": "https://github.com/LeadMagic/gtm-skills",
+    "reason": "Below star threshold (45 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "atlas-marketing-studio",
+    "url": "https://github.com/AtlasCloudAI/atlas-marketing-studio",
+    "reason": "Below star threshold (22 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "atlas-marketing-studio",
+    "url": "https://github.com/AtlasCloudAI/atlas-marketing-studio",
+    "reason": "Below star threshold (22 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "tradepilot",
+    "url": "https://github.com/feifei9126/tradepilot",
+    "reason": "Below star threshold (35 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "brand-loom",
+    "url": "https://github.com/hogan-tech/brand-loom",
+    "reason": "Below star threshold (22 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "blog",
+    "url": "https://github.com/axelfreeman/blog",
+    "reason": "Below star threshold (18 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "zerp",
+    "url": "https://github.com/zerp-pk/zerp",
+    "reason": "Below star threshold (24 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "RankWise",
+    "url": "https://github.com/MADEVAL/RankWise",
+    "reason": "Below star threshold (29 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "vibemarketer-skills",
+    "url": "https://github.com/vibemarketer94/vibemarketer-skills",
+    "reason": "Below star threshold (36 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "founders-os",
+    "url": "https://github.com/OurThinkTank/founders-os",
+    "reason": "Below star threshold (17 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "claude-code-growth-os",
+    "url": "https://github.com/etrebels/claude-code-growth-os",
+    "reason": "Below star threshold (20 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "nationforge-community",
+    "url": "https://github.com/programozas-kft/nationforge-community",
+    "reason": "Below star threshold (23 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "kancelaria-dms",
+    "url": "https://github.com/apiotrowski-afk/kancelaria-dms",
+    "reason": "Below star threshold (18 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "aiecos-social-crm",
+    "url": "https://github.com/aiecosvietnam/aiecos-social-crm",
+    "reason": "Below star threshold (17 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "BlogPilot-Open-Source-AI-SEO-Content-Studio",
+    "url": "https://github.com/IamRamgarhia/BlogPilot-Open-Source-AI-SEO-Content-Studio",
+    "reason": "Below star threshold (16 stars at review)",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "Announcing Evals and Releases: Evaluate Fin before, during, and after you go live",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "The 9 best tools for your early-stage startup tech stack in 2026",
+    "url": "https://www.intercom.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-08-31"
+  },
+  {
+    "name": "prod-FARM-IOS-Core",
+    "url": "https://github.com/Git-Agni/prod-FARM-IOS-Core",
+    "reason": "No AI features; iPhone phone-farm automation with TikTok workflows, platform ToS risk",
+    "rejected_at": "2026-09-03"
+  },
+  {
+    "name": "Activate Your Central Business Platform With The Right Integrations",
+    "url": "https://www.salesforce.com/blog/feed/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-09-03"
+  },
+  {
+    "name": "Directus",
+    "slug": "directus",
+    "reason": "Data platform/headless CMS with fair-code MSCL license; content-ops angle weaker than the internal-tools class. Revisit if GSC shows content-ops demand.",
+    "date": "2026-09-05"
+  },
+  {
+    "name": "Appwrite",
+    "slug": "appwrite",
+    "reason": "Backend-as-a-service (auth, DB, functions), not a marketing-ops tool.",
+    "date": "2026-09-05"
+  },
+  {
+    "name": "ILLA Builder",
+    "slug": "illa-builder",
+    "reason": "Low-code app builder but development stalled (last push May 2026); prefer Budibase/Appsmith/ToolJet in class.",
+    "date": "2026-09-05"
+  },
+  {
+    "name": "APITable",
+    "slug": "apitable",
+    "reason": "Stale (last push Oct 2025); superseded by AITable SaaS pivot.",
+    "date": "2026-09-05"
+  }
 ]

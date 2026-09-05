@@ -84,7 +84,7 @@
   "date": "2026-09-03"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "2d31d51c9d411b31",
+  "fp": "db5a73e067a20310",
   "date": "2026-09-05"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -516,7 +516,7 @@
   "date": "2026-08-31"
  },
  "/mnt/user/dev/martechsignal/tools/nocobase/index.html": {
-  "fp": "ad9d5f42f32240f9",
+  "fp": "36b262333ca619f4",
   "date": "2026-09-05"
  },
  "/mnt/user/dev/martechsignal/tools/django-crm/index.html": {
@@ -532,8 +532,8 @@
   "date": "2026-08-31"
  },
  "/mnt/user/dev/martechsignal/categories/marketing-automation/index.html": {
-  "fp": "07798d3b89451dc7",
-  "date": "2026-08-30"
+  "fp": "685be392624984b2",
+  "date": "2026-09-05"
  },
  "/mnt/user/dev/martechsignal/categories/email-marketing/index.html": {
   "fp": "692318f6697a3864",
@@ -572,12 +572,12 @@
   "date": "2026-08-31"
  },
  "/mnt/user/dev/martechsignal/categories/workflow-automation/index.html": {
-  "fp": "ee1cdc4d6886da28",
-  "date": "2026-08-31"
+  "fp": "f86d14ffe423adbd",
+  "date": "2026-09-05"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
-  "fp": "d029d06ceb5031bb",
-  "date": "2026-09-03"
+  "fp": "171cfcbf33be02b0",
+  "date": "2026-09-05"
  },
  "/mnt/user/dev/martechsignal/categories/agent-skills/index.html": {
   "fp": "7ecce7459e5bee4d",
@@ -806,5 +806,21 @@
  "/mnt/user/dev/martechsignal/tools/seo-skill-bench/index.html": {
   "fp": "be647958130f5542",
   "date": "2026-09-03"
+ },
+ "/mnt/user/dev/martechsignal/tools/budibase/index.html": {
+  "fp": "aa55240f54302710",
+  "date": "2026-09-05"
+ },
+ "/mnt/user/dev/martechsignal/tools/appsmith/index.html": {
+  "fp": "026052f6284f516a",
+  "date": "2026-09-05"
+ },
+ "/mnt/user/dev/martechsignal/tools/tooljet/index.html": {
+  "fp": "dbf994e8f3286f3a",
+  "date": "2026-09-05"
+ },
+ "/mnt/user/dev/martechsignal/tools/nocodb/index.html": {
+  "fp": "a4d739de24434dd9",
+  "date": "2026-09-05"
  }
 }

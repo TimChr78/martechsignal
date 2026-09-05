@@ -115,7 +115,7 @@
 - [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform — alternative to Braze (open source)
-- [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
+- [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation with Einstein AI for personalized customer journeys
 
@@ -160,12 +160,16 @@
 
 ### Workflow Automation
 
+- [Appsmith](https://martechsignal.com/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (open source)
+- [Budibase](https://martechsignal.com/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (open source)
 - [LangChain](https://martechsignal.com/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (open source)
 - [Make](https://martechsignal.com/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
 - [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
 - [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
+- [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
 - [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit (open source)
 - [Pipedream](https://martechsignal.com/tools/pipedream/): 
+- [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Workato](https://martechsignal.com/tools/workato/): Enterprise integration and automation platform with AI-powered workflow orchestration
 - [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 7,000+ apps with AI-powered workflows
