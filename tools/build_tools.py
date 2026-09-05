@@ -130,6 +130,11 @@ def _seo_description_for(t, cats):
 
 # ── Shared HTML shell ──────────────────────────────────────────────
 
+SUB_STRIP = (
+    '<div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3>'
+    '<p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div>'
+    '<a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>')
+
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
     og_url = og_image or "og.png"
     schema_block = ""
@@ -236,6 +241,7 @@ def build_hub(tools, cats):
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
 <nav class="cat-nav">{pills}</nav>
+<div class="sub-strip reveal"><div><h3>Evaluating tools for your stack?</h3><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
 <div class="tool-grid">{cards}</div>"""
 
     schema = {
@@ -409,12 +415,20 @@ def build_tool_page(t, cats, all_tools):
         else:
             a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
         q3 = f"Is {name} a good {cat.lower()} tool in 2026?"
-        pros = []
-        if t.get("g2_rating"): pros.append(f"a {t['g2_rating']}/5 G2 rating")
-        if t.get("github_stars"): pros.append(f"{t['github_stars']:,} GitHub stars")
-        if t.get("api_available"): pros.append("an API for custom integrations")
-        a3 = (f"Our audit found {', '.join(pros)}" if pros else f"Our audit covers {name}'s core {cat.lower()} workflow")
-        a3 += f". The full review breaks down where it fits in a modern martech stack."
+        # F-H13: the answer must be per-tool, not a sitewide template. Prefer the tool's
+        # own verdict from its deep dive; fall back to concrete facts (stars, OSS, price).
+        verdict = ((t.get("deep_dive") or {}).get("verdict") or "").strip()
+        if verdict:
+            a3 = verdict.rstrip(".") + "."
+        else:
+            pros = []
+            if t.get("g2_rating"): pros.append(f"a {t['g2_rating']}/5 G2 rating")
+            if t.get("github_stars"): pros.append(f"{t['github_stars']:,} GitHub stars")
+            if t.get("open_source"): pros.append("open-source licensing with free self-hosting")
+            if t.get("api_available"): pros.append("an API for custom integrations")
+            a3 = (f"Strengths include {', '.join(pros)}" if pros
+                  else f"Our review covers {name}'s core {cat.lower()} workflow")
+            a3 += f". The full review breaks down where it fits in a modern martech stack."
         faqs = [
             {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
             {"@type": "Question", "name": q2, "acceptedAnswer": {"@type": "Answer", "text": a2}},
@@ -473,6 +487,7 @@ def build_tool_page(t, cats, all_tools):
     {ai_html}
     {integ_html}
     {deep_dive_html}
+    {SUB_STRIP}
     {faq_html}
     {related_html}
   </div>
