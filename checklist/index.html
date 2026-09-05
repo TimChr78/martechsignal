@@ -303,6 +303,15 @@
   var tiers = { high: document.getElementById('tier-high'), mid: document.getElementById('tier-mid'), low: document.getElementById('tier-low') };
   var state = [];
   try { state = JSON.parse(localStorage.getItem(KEY)) || []; } catch(e) { state = []; }
+  // M4: a ?score=N URL (shared link) overrides the saved local state count
+  try {
+    var qs = new URLSearchParams(window.location.search).get('score');
+    if (qs !== null) {
+      var sn = Math.max(0, Math.min(12, parseInt(qs, 10) || 0));
+      state = [];
+      for (var si = 0; si < sn; si++) state[si] = true;
+    }
+  } catch(e) {}
 
   function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {} }
 
@@ -320,6 +329,12 @@
     var v = verdict(n);
     verdictEl.textContent = v[0];
     verdictEl.className = 'score-verdict ' + v[1];
+    // M4: shareable score URL - reflect checked count in the address bar
+    try {
+      var u = new URL(window.location.href);
+      if (n > 0) u.searchParams.set('score', n); else u.searchParams.delete('score');
+      window.history.replaceState(null, '', u);
+    } catch(e) {}
     tiers.high.className = 'tier' + (n >= 10 ? ' active-high' : '');
     tiers.mid.className = 'tier' + (n >= 6 && n <= 9 ? ' active-mid' : '');
     tiers.low.className = 'tier' + (n > 0 && n <= 5 ? ' active-low' : '');

@@ -518,11 +518,14 @@ def build_tool_page(t, cats, all_tools):
     schema = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
+        "@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
         "name": t["name"],
         "description": t.get("tagline", ""),
         "url": t.get("website", ""),
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
+        # M7: single org identity - defined once on the homepage, referenced everywhere
+        "publisher": {"@id": "https://martechsignal.com/#organization"},
     }
     if t.get("date_updated"):
         schema["dateModified"] = t["date_updated"]

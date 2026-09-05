@@ -131,6 +131,16 @@ def build_term_page(term, tools_map, all_terms):
         links = " · ".join(f'<a href="/glossary/{rt["slug"]}/" style="color:var(--amber)">{esc(rt["short"])}</a>' for rt in related_terms)
         rt_html = f'<h2>Related terms</h2><p style="color:var(--muted)">{links}</p>'
 
+    # M10: value flows back - link the term to posts that use it in practice
+    posts_html = ""
+    seen = term.get("related_posts") or []
+    if seen:
+        plinks = " · ".join(
+            f'<a href="/blog/{p["slug"]}/" style="color:var(--amber)">{esc(p["title"])}</a>'
+            for p in seen
+        )
+        posts_html = f'<h2>Seen in the wild</h2><p style="color:var(--muted)">{plinks}</p>'
+
     # optional deep-dive sections (audit H2: glossary pages must exceed 300 words)
     dd = term.get("deep_dive") or {}
     dd_html = ""
@@ -159,6 +169,7 @@ def build_term_page(term, tools_map, all_terms):
     {dd_html}
     {related_html}
     {rt_html}
+    {posts_html}
   </div>
   <aside class="sidebar">
     <div class="side-card">

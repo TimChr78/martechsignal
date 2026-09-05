@@ -68,7 +68,21 @@
       "choosing": "Fit the platform to where your data lives. HubSpot and ActiveCampaign are all-in-one choices that pair with their own CRM. Klaviyo and Customer.io focus on commerce and product-led email. n8n and Make sit in a different category entirely: they are automation engines you wire yourself, with no campaign UI. If your team cannot write logic, buy the all-in-one. If you already run pipelines, the engine approach gives you more control for less money.",
       "common_mistakes": "The biggest mistake is building automation on a dirty list. Segment names differ between imports, duplicate contacts split the journey, and the flow quietly sends half its messages to the wrong people. The second is over-automating the top of the funnel, so engagement drops and inboxes flag the domain. The third is ignoring maintenance. Every flow that runs on assumptions from last year is a flow that is slowly rotting.",
       "ai_angle": "AI moved automation from if-then rules to goal-based prompts. You state the outcome, and the system writes the emails, selects the audience, and iterates on subject lines. The trade-off is transparency. Rule-based automation can be audited line by line; agent-based execution cannot always explain why it sent what it sent. Teams that keep approval gates on spend and on external messages get the upside without the surprises."
-    }
+    },
+    "related_posts": [
+      {
+        "slug": "agents-identity-debt",
+        "title": "Your Agents Are Only as Smart as Your Identity Debt"
+      },
+      {
+        "slug": "ai-agents-need-campaign-state",
+        "title": "AI Agents Need Campaign State, Not Prompts"
+      },
+      {
+        "slug": "autonomous-marketing-platform-label-contest",
+        "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong."
+      }
+    ]
   },
   {
     "slug": "attribution",
@@ -90,7 +104,13 @@
       "choosing": "Match the model to your funnel length and data quality. SaaS with a long sales cycle needs multi-touch, because last-touch will always credit the final demo and starve the channels that started the pipeline. E-commerce with a short path can survive last-touch. If your data is incomplete, pick the simplest model that your tooling can populate reliably. A complex model fed by partial data is worse than a simple one that is complete.",
       "common_mistakes": "The recurring failure is treating the model output as ground truth. Attribution is a report, not a measurement of reality. Cross-device gaps, walled gardens, and offline conversion all break the chain, and the model quietly assigns credit to whatever it can see. The second mistake is changing models mid-quarter, which makes the numbers incomparable and the teams argue about methodology instead of decisions.",
       "ai_angle": "AI search and agentic advertising are making click-based attribution less reliable. ChatGPT answers questions without a click, and AI agents place media without a standard referrer. The industry is shifting from counting clicks to measuring outcomes: signups, revenue, and retention. That is harder to automate but far more honest, and it is where the tools are heading."
-    }
+    },
+    "related_posts": [
+      {
+        "slug": "multi-touch-attribution-was-always-a-fiction",
+        "title": "Multi-Touch Attribution Was Always a Fiction"
+      }
+    ]
   },
   {
     "slug": "deliverability",
@@ -336,7 +356,21 @@
       "common_mistakes": "The recurring failure is scoring activity without scoring fit, so marketing passes eager but irrelevant leads to sales. The second is never reviewing the model, letting the threshold drift from the market as seasons change. The third is scoring everything, including the bottom of the funnel, where a demo request should route instantly regardless of score. Scoring should make routing faster, not add a bureaucratic gate on ready buyers.",
       "ai_angle": "Predictive scoring finds patterns humans miss: a lead that reads three specific pages in one session may behave like a closer even if the attribute score is low. AI can also re-score in real time as new signals arrive, which rules cannot do cheaply. The risk is opaque decisions. Model scores that cannot be explained produce sales teams that ignore them. Whatever the model, someone has to be able to say why a lead became a priority.",
       "the_numbers": "Calibration check: in a healthy scoring model, roughly 25-40% of marketing-qualified leads convert to sales opportunities within 90 days. Below 20% means the threshold is too loose; above 50% usually means sales is quietly ignoring scores and cherry-picking. Track that one conversion rate quarterly instead of debating individual score weights - it catches drift faster than any model review."
-    }
+    },
+    "related_posts": [
+      {
+        "slug": "dashboard-cant-see-ai-search-5-layer-fix",
+        "title": "Your Dashboard Can&#x27;t See AI Search: 5-Layer Fix"
+      },
+      {
+        "slug": "n8n-ai-open-source-automation",
+        "title": "n8n + AI: The Open-Source Automation Engine"
+      },
+      {
+        "slug": "open-source-martech-stack",
+        "title": "Open-Source Martech Stack vs $5K/mo Subscriptions"
+      }
+    ]
   },
   {
     "slug": "email-sequence",
@@ -449,7 +483,13 @@
       "common_mistakes": "The most common failure is collecting everything and unifying nothing, so the data exists but no system can use it reliably. Duplicate identities split profiles across tools and silently break personalization. The second mistake is ignoring consent and data-retention rules until a legal review forces a cleanup. The third is treating first-party data as a substitute for knowing your customer. Volume without identity is just noise.",
       "ai_angle": "AI agents depend on first-party data more than any previous marketing stack. A personalization agent needs a coherent profile to work from, and identity resolution quality decides whether it personalizes for the right person. Vendors increasingly frame the CDP as the memory layer for agents. If the data under the agent is fragmented, the agent output is fragmented too, and the failure is harder to spot because it looks confident.",
       "the_numbers": "The compliance arithmetic: collecting first-party data costs consent-banner friction (roughly 20-40% of EU visitors decline) but produces identifiers that survive platform policy changes. Third-party cookie audiences decay at 3-6% per month; email lists decay at about 2-3% monthly with proper hygiene. First-party wins on half-life, and half-life is what media buyers price."
-    }
+    },
+    "related_posts": [
+      {
+        "slug": "cdp-reckoning-warehouse-native",
+        "title": "The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For"
+      }
+    ]
   },
   {
     "slug": "marketing-attribution-models",
@@ -588,6 +628,20 @@
     "related_categories": [
       "marketing-automation",
       "workflow-automation"
+    ],
+    "related_posts": [
+      {
+        "slug": "ai-agents-need-campaign-state",
+        "title": "AI Agents Need Campaign State, Not Prompts"
+      },
+      {
+        "slug": "autonomous-marketing-platform-label-contest",
+        "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong."
+      },
+      {
+        "slug": "google-ad-agents-control-gap",
+        "title": "Google Handed Your Ad Budget to AI Agents"
+      }
     ]
   },
   {
@@ -611,6 +665,12 @@
     "related_categories": [
       "workflow-automation",
       "marketing-ops"
+    ],
+    "related_posts": [
+      {
+        "slug": "openai-agent-ads-spending-without-you",
+        "title": "OpenAI Isn&#x27;t Building Ads. It&#x27;s Building Agents"
+      }
     ]
   },
   {
@@ -633,6 +693,16 @@
     ],
     "related_categories": [
       "marketing-automation"
+    ],
+    "related_posts": [
+      {
+        "slug": "agents-identity-debt",
+        "title": "Your Agents Are Only as Smart as Your Identity Debt"
+      },
+      {
+        "slug": "autonomous-marketing-platform-label-contest",
+        "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong."
+      }
     ]
   },
   {
