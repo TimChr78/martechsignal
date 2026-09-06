@@ -12,7 +12,7 @@
 - [Albert AI](https://martechsignal.com/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Pencil](https://martechsignal.com/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 - [Revealbot (Birch)](https://martechsignal.com/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
-- [Smartly.io](https://martechsignal.com/tools/smartly-io/): AI-powered creative automation and media buying platform for enterprise advertisers
+- [Smartly.io](https://martechsignal.com/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 
 ### Agent Skills
 
@@ -99,7 +99,7 @@
 - [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
 - [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
 - [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
-- [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Agentic AI email automation — describe your product and target market, AI finds the leads (open source)
+- [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads (open source)
 - [Postmark](https://martechsignal.com/tools/postmark/): Fast, reliable transactional email delivery with industry-leading speed and uptime
 - [React Email Editor](https://martechsignal.com/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (open source)
 - [Resend](https://martechsignal.com/tools/resend/): Developer-first email API with React Email support and AI-powered deliverability
@@ -117,7 +117,7 @@
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform — alternative to Braze (open source)
 - [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
-- [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation with Einstein AI for personalized customer journeys
+- [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
 ### Open-Source Tools
 
