@@ -70,7 +70,7 @@
 - [Attio](https://martechsignal.com/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Cordys CRM](https://martechsignal.com/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (open source)
 - [Django CRM](https://martechsignal.com/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (open source)
-- [Dolibarr ERP/CRM](https://martechsignal.com/tools/dolibarr/): Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts (open source)
+- [Dolibarr ERP/CRM](https://martechsignal.com/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (open source)
 - [EspoCRM](https://martechsignal.com/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (open source)
 - [Ever Gauzy](https://martechsignal.com/tools/ever-gauzy/): Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co (open source)
 - [Frappe CRM](https://martechsignal.com/tools/frappe-crm/): Fully featured, open source CRM (open source)
