@@ -30,13 +30,13 @@
     "@id": "https://martechsignal.com/tools/monica/#app",
     "name": "Monica",
     "description": "Open-source personal CRM for tracking friends, family, and business relationships",
-    "url": "https://beta.monicahq.com",
+    "url": "https://monicahq.com",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "publisher": {
       "@id": "https://martechsignal.com/#organization"
     },
-    "dateModified": "2026-08-31",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-08-21",
     "offers": {
       "@type": "Offer",
@@ -83,7 +83,7 @@
         "name": "What is Monica?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source personal CRM for tracking friends, family, and business relationships. It ships with AI-assisted reminders and journaling prompts, 25,077 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,238 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -99,7 +99,31 @@
         "name": "Is Monica a good crm tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Thoughtful personal relationship tracker; explicitly not for sales teams."
+          "text": "The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Monica have AI features?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. The README states plainly that Monica does not have built-in AI with integrations like ChatGPT and is not a smart assistant: it only sends the reminders you asked for. AI-assisted workflows are something you build yourself against the API."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Monica cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Self-hosting is free under the AGPL. The hosted option is a single plan at $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, and email support, with a 30-day trial that needs no credit card."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Monica a CRM for sales?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, and the project says so directly. It is a personal relationship manager for friends, family, colleagues, and neighbours, with no pipelines, deals, or campaigns. Sales teams should look at the sales CRM entries in this directory instead."
         }
       }
     ]
@@ -122,19 +146,19 @@
   <h1>Monica Review</h1>
   <p class="sub">Open-source personal CRM for tracking friends, family, and business relationships</p>
   <p class="count">CRM · Open Source · OPEN SOURCE</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-08-31</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-09-06</p>
 </section>
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Monica is an open-source personal CRM built around a single premise: remember everything about the people in your life. Contacts, conversations, reminders, journal entries, and relationship details live in one self-hostable interface, backed by a Laravel/PHP codebase with a large install base (25,000-plus GitHub stars and millions of Docker pulls). It is not a sales CRM: there are no pipelines, forecasts, or campaign tools, and treating it as one will disappoint. Where it fits a marketing context is narrow but real: founder-led and community-led businesses where relationships are the channel, since Monica is designed for exactly the follow-up discipline that newsletters and personal outreach depend on. Note the development state honestly: the main branch has been in a long-running beta toward its next major version, and the hosted monicahq.com offering is the company&#x27;s revenue focus, which means self-hosters should expect to track releases and migrate deliberately. The mobile apps pair with the hosted service first. For a personal CRM it is the category&#x27;s reference implementation; for team sales, look elsewhere in this category.</p>
-    <h2>AI Capabilities</h2><ul class="feat-list"><li>AI-assisted reminders and journaling prompts</li></ul>
+    <p>Monica is an open-source personal relationship management app - the project&#x27;s own term is PRM - built around documenting your life rather than selling to anyone. Contacts, relationships between contacts, notes, journal entries, activities, tasks, reminders, automatic birthday reminders, addresses, custom fields, pets, gifts, and file attachments live in one place, organized into vaults with multiple users and 27 languages. The README is explicit about what it is not, and the list is worth reading before you evaluate: it is not a social network and never will be, it carries no ads and tracks no users, it is not a smart assistant, and it does not have built-in AI with integrations like ChatGPT. Reminders send only for the things you asked to be reminded of. For marketing work the honest framing is narrow: founder-led and community-led businesses whose channel is the founder&#x27;s relationships or a newsletter get real follow-up discipline, and sales teams get nothing here. Licensing is AGPL, and at 25,000-plus GitHub stars this is one of the largest open-source CRM projects by community size, though the last push to the main branch was in April 2026. Two things complicate adoption. First, the hosted service is the revenue focus: one plan at $90 per year with unlimited contacts, managed backups, automatic updates, and email support, while self-hosting is free but makes you the operator. Second, the project is mid-transition. The README marks the main branch as a beta and points to the 4.x branch as stable, the official Docker Hub image still packages the previous major version, and the site promotes a rebuilt Monica v3 targeted before the end of 2026 with an API-first design, community templates, and native iOS and Android apps. Pin a release and read the upgrade notes before committing data.</p>
     
-    <h2>Hands-on notes</h2><p>Monica is a personal CRM - managing relationships with friends and family rather than sales pipelines. Activities, reminders to stay in touch, gift tracking, and journal-style notes about people live in one place, self-hostable via Docker or usable hosted.</p><p>It is deliberately not a business tool: no deals, no pipelines, no team-oriented sales reporting. The import path from spreadsheets is workable, and the API covers automation needs. Anyone who has lost track of important personal relationships will understand the use case immediately.</p><h2>Verdict</h2><p>Thoughtful personal relationship tracker; explicitly not for sales teams.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI-assisted reminders and journaling prompts</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (25,077 GitHub stars)</td><td></td></tr></tbody></table></section>
+    
+    <h2>How to install</h2><ol class="feat-list"><li>The docs&#x27; quickest route is the container registry image: docker run -p 8080:80 ghcr.io/monicahq/monica-next:main, which runs on SQLite and serves http://localhost:8080.</li><li>Add MAIL_MAILER=log to that command, because registration needs a working mailer and the log driver satisfies it without an SMTP server.</li><li>The official Docker Hub image (library/monica) still packages the previous major version, per the docs. For database, queue, and other production setups, the docs point to the examples directory of the monicahq/docker repository.</li><li>The hosted pricing page is explicit about what self-hosting costs you in practice: updates, backups, monitoring, security patches, and support are what the $90 per year hosted plan buys, so budget the operator time honestly.</li></ol><h2>Requirements</h2><p>A Laravel/PHP application distributed as a container. The quick-start image runs on SQLite with a mailer configured; production deployments follow the examples in monicahq/docker for database and queue setup. The 4.x branch is the stable line and main is the beta for the next major version.</p><h2>Best for</h2><p>Individuals and founder- or community-led businesses that live on personal relationships and want a private, self-hostable record of people, conversations, gifts, and reminders. The project also notes positive reviews from users with Asperger syndrome and Alzheimer&#x27;s disease.</p><h2>Not for</h2><p>Sales and marketing teams. There are no pipelines, deals, forecasts, or campaigns, and the README is categorical that Monica will never guess, recommend, or rank anything for you.</p><h2>Hands-on notes</h2><p>Assessed from the repository, the GitBook documentation, and the hosted site rather than a self-hosted instance. The docs publish an llms.txt and a Markdown version of every page, which makes them easy to work with programmatically.</p><p>The README&#x27;s &#x27;What Monica isn&#x27;t&#x27; section does the disqualifying work for you: no social features by design, no ads, no tracking, no smart assistant, and no built-in AI. Reminders are strictly the emails you asked for. Treat any AI claim about Monica as something someone built on top of the API, not a product feature.</p><p>Version state is the operational risk. The main branch is labeled beta, the 4.x branch is stable with the last tagged release at v4.1.2 in May 2024, the official Docker Hub image still carries the previous major version, and the hosted site promotes a from-scratch v3 due before the end of 2026. Self-hosters should pin a release and plan a deliberate migration.</p><h2>Verdict</h2><p>The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation.</p>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (25,238 GitHub stars)</td><td></td></tr></tbody></table></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Monica?</summary><p>Open-source personal CRM for tracking friends, family, and business relationships. It ships with AI-assisted reminders and journaling prompts, 25,077 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Monica cost?</summary><p>Monica is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is Monica a good crm tool in 2026?</summary><p>Thoughtful personal relationship tracker; explicitly not for sales teams.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/ci-tools-were-the-first-martech-category-ai-killed/">Competitive-Intel Tools Were the First Martech Category AI Killed</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Monica?</summary><p>Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,238 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Monica cost?</summary><p>Monica is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is Monica a good crm tool in 2026?</summary><p>The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation.</p></details><details class="faq-item"><summary>Does Monica have AI features?</summary><p>No. The README states plainly that Monica does not have built-in AI with integrations like ChatGPT and is not a smart assistant: it only sends the reminders you asked for. AI-assisted workflows are something you build yourself against the API.</p></details><details class="faq-item"><summary>How much does Monica cost?</summary><p>Self-hosting is free under the AGPL. The hosted option is a single plan at $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, and email support, with a 30-day trial that needs no credit card.</p></details><details class="faq-item"><summary>Is Monica a CRM for sales?</summary><p>No, and the project says so directly. It is a personal relationship manager for friends, family, colleagues, and neighbours, with no pipelines, deals, or campaigns. Sales teams should look at the sales CRM entries in this directory instead.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -144,18 +168,18 @@
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/crm/">CRM</a></dd></div>
         
         
-        <div class="side-row"><dt>GitHub</dt><dd>★ 25077</dd></div>
+        <div class="side-row"><dt>GitHub</dt><dd>★ 25238</dd></div>
         
         
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-31">2026-08-31</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-09-06">2026-09-06</time></dd></div>
       </dl>
     </div>
     <div class="side-card">
-      <a class="btn-sm" href="https://beta.monicahq.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Monica">Visit Monica →</a>
+      <a class="btn-sm" href="https://monicahq.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Monica">Visit Monica →</a>
       <div style="margin-top:.8rem"><a href="/categories/crm/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More CRM Tools →</a></div>
     </div>
-    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Free open-source self-hosted; hosted plans at monicahq.com</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Monica">VIEW PRICING →</a></div></div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Self-host free under AGPL. Hosted Monica is a single plan at $90 per year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, and email support.</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Monica">VIEW PRICING →</a></div></div>
   </aside>
 </div>
 </main>
