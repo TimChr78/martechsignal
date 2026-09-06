@@ -291,6 +291,57 @@ def build_tool_page(t, cats, all_tools):
         items = "".join(f"<li>{esc(f)}</li>" for f in t["ai_features"])
         ai_html = f'<h2>AI Capabilities</h2><ul class="feat-list">{items}</ul>'
 
+    # H5 (model-comparison audit): the template had no pros/cons section on any page.
+    # Compose an honest pros/cons block from record facts only - every line must trace
+    # to a field in tools.json. No invented claims; absence of data yields fewer lines,
+    # never filler.
+    _pros, _cons = [], []
+    if t.get("open_source"):
+        _pros.append("Open-source licensing with free self-hosting")
+    if t.get("api_available"):
+        _pros.append("API access for custom integrations")
+    if t.get("ai_features"):
+        _feat = t["ai_features"][0].rstrip(".")
+        _feat = _feat[0].lower() + _feat[1:] if _feat and not _feat[:2].isupper() else _feat
+        _pros.append(f"AI capabilities: {_feat}")
+    if t.get("github_stars") and t["github_stars"] >= 1000:
+        _pros.append(f"Established community ({t['github_stars']:,} GitHub stars)")
+    if t.get("external_ratings"):
+        er0 = t["external_ratings"][0]
+        _pros.append(f"{er0.get('source','Third-party')} rating {er0.get('score','')}/{er0.get('max',5)}")
+    if t.get("integrations") and len(t["integrations"]) >= 5:
+        _pros.append(f"Deep integration catalogue ({len(t['integrations'])} listed)")
+    if t.get("price_from") in (None, 0) and not t.get("open_source") and t.get("pricing_model") in ("freemium", "free", "open-core"):
+        _pros.append("Free tier to evaluate before committing")
+    if t.get("paid_from"):
+        _cons.append(f"Paid plans start at ${t['paid_from']}/mo once past the free tier")
+    if not t.get("open_source"):
+        _cons.append("Closed source - no self-hosting option")
+    if t.get("github_stars") and t["github_stars"] < 500:
+        _cons.append(f"Young project ({t['github_stars']} GitHub stars) - smaller community and plugin ecosystem")
+    if t.get("integrations") and len(t["integrations"]) < 3:
+        _cons.append("Short native integration list - plan for API work")
+    if t.get("pricing_model") == "enterprise" and not t.get("price_from"):
+        _cons.append("Enterprise pricing is quote-based - no public numbers")
+    _pc_rows = ""
+    _maxlen = max(len(_pros), len(_cons))
+    if _maxlen:
+        _pros += [""] * (_maxlen - len(_pros))
+        _cons += [""] * (_maxlen - len(_cons))
+        for p, c_ in zip(_pros, _cons):
+            _pc_rows += (
+                "<tr><td>"
+                + (f'<span style="color:var(--ok-text)">&#10003;</span> {esc(p)}' if p else "")
+                + "</td><td>"
+                + (f'<span style="color:var(--red-text)">&#10007;</span> {esc(c_)}' if c_ else "")
+                + "</td></tr>"
+            )
+    proscons_html = (
+        '<section class="pros-cons"><h2>Pros and cons</h2>'
+        '<table><thead><tr><th>Pros</th><th>Cons</th></tr></thead>'
+        f"<tbody>{_pc_rows}</tbody></table></section>"
+    ) if _maxlen else ""
+
     # integrations
     integ_html = ""
     if t.get("integrations"):
@@ -400,10 +451,29 @@ def build_tool_page(t, cats, all_tools):
         cat = c.get("name", "marketing")
         price = pricing_label(t)
         q1 = f"What is {name}?"
-        a1 = (t.get("tagline") or "").strip().rstrip(".") or f"{name} is a {cat.lower()} tool."
-        a1 = f"{a1}. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        # H1 (model-comparison audit): a1/a2 were sitewide templates - 114/410 answers
+        # collapsed to 8 templates once the brand token was normalized. Compose from
+        # per-tool facts so every answer carries at least one tool-specific claim.
+        a1 = (t.get("tagline") or "").strip().rstrip(".") or f"{name} is a {cat.lower()} tool"
+        _facts = []
+        if t.get("ai_features"):
+            _f0 = t["ai_features"][0].rstrip(".")
+            _facts.append(_f0[0].lower() + _f0[1:] if not _f0[:2].isupper() else _f0)
+        if t.get("github_stars"):
+            _facts.append(f"{t['github_stars']:,} GitHub stars")
+        elif t.get("integrations"):
+            _facts.append(f"{len(t['integrations'])} listed integrations")
+        if t.get("api_available"):
+            _facts.append("an API for custom integrations")
+        _fact_s = ""
+        if _facts:
+            _fact_s = f"It ships with {', '.join(_facts[:2])}."
+        a1 = f"{a1}. {_fact_s} MartechSignal's review covers features, pricing, and how it compares to alternatives."
         q2 = f"How much does {name} cost?"
-        if t.get("open_source"):
+        if t.get("paid_from"):
+            # freemium with a known paid entry: quote both sides of the freemium split
+            a2 = f"{name} has a free tier; paid plans start at ${t['paid_from']}/mo."
+        elif t.get("open_source"):
             a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
         elif t.get("price_from") is not None:
             if t.get("price_from"):
@@ -488,6 +558,7 @@ def build_tool_page(t, cats, all_tools):
     {ai_html}
     {integ_html}
     {deep_dive_html}
+    {proscons_html}
     {SUB_STRIP}
     {faq_html}
     {related_html}
@@ -541,8 +612,18 @@ def build_tool_page(t, cats, all_tools):
         }
     # Only emit offers.price when it is a real number. Custom/enterprise pricing
     # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
+    # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the
+    # paid entry price (paid_from), not 0 - "price: 0" on a tool the page itself quotes
+    # at $49/mo is a machine-readable contradiction.
     _pf = t.get("price_from")
-    if _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
+    _paid = t.get("paid_from")
+    if _paid:
+        schema["offers"] = {
+            "@type": "Offer",
+            "price": _paid,
+            "priceCurrency": "USD"
+        }
+    elif _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
         schema["offers"] = {
             "@type": "Offer",
             "price": _pf,

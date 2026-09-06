@@ -317,7 +317,8 @@
           "There's a free plan covering up to 2M events per month with core analytics, session replay, and no credit card required. Paid plans start at $49/month (Plus, self-serve), with Growth and Enterprise tiers quoted by sales based on event volume and features."
         ]
       ]
-    }
+    },
+    "paid_from": 49
   },
   {
     "slug": "anyword",
@@ -410,7 +411,8 @@
         "Pricing starts free for limited records and scales per seat into the hundreds. For a team that already runs its go-to-market logic in spreadsheets or Notion, Attio is the closest thing to a relational database with a CRM skin."
       ],
       "verdict": "Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box."
-    }
+    },
+    "paid_from": 29
   },
   {
     "slug": "attribution",
@@ -719,7 +721,8 @@
         "The business is simplicity, so the analytics stay shallow, listening barely exists, and advanced workflows like multi-brand permissioning or approval chains are thin. You outgrow it the moment you need reporting depth or serious collaboration. For its real audience, solo creators and small social teams, nothing else beats the price-to-effort ratio, and the free tier costs nothing to confirm that for yourself."
       ],
       "verdict": "Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter."
-    }
+    },
+    "paid_from": 5
   },
   {
     "slug": "chatbotx",
@@ -850,7 +853,8 @@
         "Free self-hosted with paid cloud tiers. It is the standard answer to 'we need support chat without the Intercom price tag'."
       ],
       "verdict": "Solid open-source foundation for support chat and inbox routing, with the usual self-hosting responsibility."
-    }
+    },
+    "paid_from": 19
   },
   {
     "slug": "clearscope",
@@ -984,7 +988,8 @@
         "Quality is where it yields. Output reads competent rather than distinctive, and long-form brand writing still favors Jasper, whose model templates run deeper. Flows need tuning so the guideline checks stay meaningful and the pipeline stops auto-publishing mediocrity. Teammates who review every draft will find the workflows save less than promised, so match it to your review culture before you commit."
       ],
       "verdict": "Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper."
-    }
+    },
+    "paid_from": 9
   },
   {
     "slug": "copy-ai",
@@ -1031,7 +1036,8 @@
         "The pivot means writing depth trails dedicated content tools, and heavy users feel the seat and credit pricing. It shines for small GTM teams that want research, outreach, and content in one place, and for agencies running many accounts from one cockpit. Pure content shops get more from a dedicated AI writer at a lower price, so match the purchase to the motion you run day to day."
       ],
       "verdict": "Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options."
-    }
+    },
+    "paid_from": 49
   },
   {
     "slug": "customer-io",
@@ -1134,23 +1140,27 @@
     "pricing_model": "enterprise",
     "pricing_url": "https://www.dynamicyield.com/pricing/",
     "price_from": null,
-    "price_notes": "Enterprise custom pricing; acquired by Mastercard in 2022; annual contracts",
+    "price_notes": "No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts.",
     "ai_features": [
-      "AI product recommendations",
-      "AI content personalization",
-      "AI A/B testing",
-      "Predictive targeting",
-      "AI journey optimization"
+      "Experience OS Agents (multi-agent copilot)",
+      "Shopping Muse conversational commerce",
+      "Predictive Targeting",
+      "NextML deep learning ranking",
+      "AffinityML affinity scoring",
+      "VisualML visual similarity",
+      "Copywriter generative copy"
     ],
     "integrations": [
       "Shopify",
-      "Salesforce",
-      "Adobe",
-      "Google Analytics",
-      "Braze",
-      "Segment",
-      "Slack",
-      "Snowflake"
+      "Salesforce Commerce Cloud",
+      "commercetools",
+      "Magento 2",
+      "SAP Hybris",
+      "mParticle",
+      "SendGrid",
+      "Mailchimp",
+      "Listrak",
+      "Smartling"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -1160,31 +1170,53 @@
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Dynamic Yield by Mastercard is an enterprise AI personalization platform built around Experience OS, a real-time decisioning engine that algorithmically matches content, products, and offers to each individual customer across web, mobile, email, and push notifications. Acquired by Mastercard in 2022, Dynamic Yield holds the longest-running leadership streak in personalization: **8 consecutive Gartner Magic Quadrant Leader recognitions** (most recently 2026), making it the most decorated vendor in the category.\n\nThe platform's core capabilities span **website personalization** (A/B testing, dynamic content, product recommendations), **email and push notification personalization** (trigger-based, behavior-driven), **audience management** (real-time segmentation with predictive affinity scoring), and **AI-driven optimization** that automatically discovers the most effective targeting setup for each campaign with a single click. A standout feature is the **Executive Dashboard** which translates complex personalization performance data into C-suite-ready reports, addressing the common gap between personalization execution and business reporting.\n\nDynamic Yield is used by McDonald's (menu personalization across drive-thru and kiosks), IKEA, Sephora, and other global retailers. It integrates with major ecommerce platforms (Salesforce Commerce Cloud, Adobe Commerce, SAP), CDPs, and analytics tools. As a Mastercard company, it benefits from Mastercard's data ecosystem and global infrastructure. Pricing is enterprise-tier, typically starting in the mid-five-figures annually depending on traffic volume and feature scope. The platform is best suited for large retail and ecommerce organizations that need a proven personalization engine with deep experimentation capabilities and executive-level reporting.",
+    "date_updated": "2026-09-06",
+    "description": "Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Mastercard acquired the company in 2022, and documentation lives in two places: a support knowledge base and the technical documentation at dy.dev, which is unusually deep for a marketing product, covering script internals, CSP configuration, a cookie inventory, and the Parquet Daily Activity Stream.\n\nImplementation follows a documented six-step path: create sections, sync a product feed, implement on every page, track events, set cookies from the backend, and install the Chrome extension used for debugging and visual editing. Two routes exist and the docs recommend both: client-side scripts (api_static.js or api_dynamic.js, served from adm.dynamicyield.com or adm.dynamicyield.eu) or server-side calls to the Experience API's Choose endpoint, with Kotlin, Swift, and React Native SDKs for apps.\n\nThe capability surface is broad and app names have shifted. Experience Web handles on-site campaigns and split testing, Recommendations and Algorithm Studio cover merchandising, Experience Email and Reconnect handle campaign and triggered messaging (Reconnect gained a native email delivery channel in September 2025), Audience Hub manages segmentation, and Rollout adds gradual feature release with rollback. AI features are named: Experience OS Agents is a multi-agent system with five defined roles (Personalization Expert, Designer, Developer, Copywriter, Analyst), Shopping Muse is the generative conversational commerce product now exposed as a server-side API, Predictive Targeting automates audience selection, and NextML, AffinityML, and VisualML handle ranking, affinity, and visual similarity.\n\nPricing is not published: the pricing URL redirects to a Mastercard product page and every path ends at contact sales or a demo request. The vendor claims eight consecutive Gartner Magic Quadrant leader placements, 80 million personalized sessions daily, and MACH Alliance certification. Documented integrations include Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, mParticle, and several email service providers.",
     "seo_title": "Dynamic Yield Review: Triggers & Pricing | MartechSignal",
     "seo_description": "Dynamic Yield by Mastercard reviewed: Experience OS triggers, AI recommendations, testing, enterprise pricing. What the personalization platform does well.",
     "deep_dive": {
       "hands_on": [
-        "Dynamic Yield, now under Mastercard, is the most decorated personalization vendor in the category: eight consecutive Gartner Magic Quadrant Leader placements, most recently 2026. Its Experience OS makes real-time decisions that match content, products, and offers to each visitor across web, mobile, email, and push, with A/B testing and recommendations layered in. The commerce heritage shows in how natively it handles product feeds and merchandising.",
-        "Everything about it assumes scale. Contracts are enterprise, implementation runs through services, and the platform needs real traffic and a dedicated team before the personalization math pays off. Mastercard's ownership direction is still settling, so roadmap questions linger. Mid-market teams end up paying for capability they cannot staff, which is the classic enterprise-tool trap. Demo it against your real traffic before any contract talk."
+        "Assessed from Dynamic Yield's knowledge base and developer docs, not a live account. The developer documentation is the standout: dy.dev covers script internals, CSP configuration, the full cookie inventory, and the Parquet-formatted Daily Activity Stream, which is more depth than most personalization vendors publish.",
+        "Implementation is a project with a documented sequence: sections, product feed, page implementation, events, backend cookies, then the Chrome extension for debugging and visual editing. Two routes exist, script and Experience API, and the docs recommend running both, which tells you where the complexity sits. Mobile needs the Kotlin, Swift, or React Native SDK.",
+        "Two claims need qualification. The vendor states eight consecutive Gartner Magic Quadrant leader placements but names no year on the page, and no pricing appears anywhere: the pricing URL redirects to a Mastercard product page whose only actions are contact sales and book a demo. The AI features, by contrast, are specific and named, down to the five roles inside Experience OS Agents."
       ],
-      "verdict": "The safest enterprise bet in personalization, with the analyst streak to prove it. Too heavy for mid-market.",
-      "best_for": "Enterprise ecommerce and media teams running personalization at scale, especially those already in the Mastercard ecosystem who want testing, recommendations, and journey orchestration from one vendor.",
-      "not_for": "Small teams without dedicated optimization staff. Enterprise contracts, annual commitments, and implementation effort make it a poor fit below roughly seven-figure online revenue.",
+      "verdict": "The most deeply documented enterprise personalization platform we assessed, with real AI features that ship under specific names. Go in expecting an implementation project and a procurement conversation, not a tag and a credit card.",
+      "best_for": "Enterprise retail, ecommerce, and travel organizations with real traffic volume and developers on staff, especially those that want testing, recommendations, triggered messaging, and Mastercard spend models from one vendor. The restaurant vertical has its own targeting features, a leftover of the McDonald's years.",
+      "not_for": "Small and mid-market teams without engineering support. Implementation spans sections, feeds, events, and backend cookie work, there is no published price to budget against, and there is no self-serve trial to evaluate the product before a sales cycle.",
       "faq_extra": [
+        [
+          "Does Dynamic Yield work with Shopify?",
+          "Yes, and three routes are documented separately: a Shopify store integration, a Shopify Hydrogen 2 integration for headless storefronts, and Shopify Checkout personalization built as a Checkout UI extension. Other documented ecommerce connectors include Salesforce Commerce Cloud in both Controller and SFRA flavors, commercetools, Magento 2, and SAP Hybris."
+        ],
+        [
+          "What AI features does Dynamic Yield include?",
+          "The named, shipped ones are Experience OS Agents (a multi-agent system with Personalization Expert, Designer, Developer, Copywriter, and Analyst roles), Shopping Muse for conversational product discovery, Predictive Targeting for automated audience selection, NextML for deep learning ranking, AffinityML and VisualML for affinity and visual similarity, and Experience Search for semantic text and visual search. The docs note the agents propose changes and wait for approval before applying them."
+        ],
+        [
+          "How is Dynamic Yield implemented, script or API?",
+          "Both routes are documented and the docs recommend using them together. The script route drops api_static.js or api_dynamic.js on every page and suits teams that want visual editing. The API route calls the Experience API Choose endpoint server-side and suits headless or high-performance builds, with Kotlin, Swift, and React Native SDKs for apps. Two separate onboarding guides exist, one per route."
+        ],
         [
           "What are Dynamic Yield triggers?",
           "Triggers are rules that fire experiences in real time: exit intent, scroll depth, cart abandonment, weather, referrer, or any first-party or third-party signal. They power pop-ups, recommendation refreshes, and message swaps inside Experience OS without code changes."
         ],
         [
           "What does Dynamic Yield cost?",
-          "Pricing is enterprise-only custom quotes, typically annual contracts scaled by traffic volume. Mastercard acquired the company in 2022, so enterprise procurement often bundles it with payment products."
+          "No price is published. The pricing page redirects to a Mastercard product page whose only calls to action are contact sales and book a demo, so budgeting happens inside a sales cycle. Expect an enterprise contract scaled to traffic and module scope."
         ],
         [
           "Is Dynamic Yield worth it?",
-          "It's the most decorated personalization platform, with eight consecutive Gartner Magic Quadrant leader recognitions, and fits enterprises with traffic to justify annual contracts. Smaller teams get better value from freemium testing tools."
+          "It is the vendor with the longest claimed run of Gartner Magic Quadrant leader placements in personalization engines, eight consecutive, and the developer documentation to back an enterprise rollout. If you cannot staff an implementation project, lighter testing and recommendation tools will deliver value faster."
         ]
+      ],
+      "install": [
+        "Create your sections in the Experience OS console. The docs define a section as the scope of work for one domain or app, so a web store and its mobile app are separate sections.",
+        "Sync a product feed so recommendation, sorting, and merchandising campaigns have data to draw on.",
+        "Implement on every page using one of the two documented routes: the client-side script (api_static.js or api_dynamic.js, served from adm.dynamicyield.com or adm.dynamicyield.eu) or server-side calls to the Experience API Choose endpoint. The docs state their recommendation is to use both.",
+        "Track meaningful events (pageviews, add to cart, purchase) so targeting, algorithms, and reporting have signal to work with.",
+        "Set cookies from your backend application and configure active cookie consent where regulations require it.",
+        "Install the Dynamic Yield Chrome extension. The docs mark it as required for debugging implementation, creating variations with Visual Edit, and choosing selectors on the page.",
+        "For mobile apps, add the Kotlin, Swift, or React Native SDK. React Native support shipped in September 2025."
       ]
     }
   },
@@ -1317,7 +1349,8 @@
         "The ecosystem is the gap. Freshworks' marketplace and integrations trail HubSpot's, the admin surface shows its age in places, and the AI needs transaction history before its scoring warms up. Marketing-heavy teams still lean HubSpot for the shared database. Sales-led mid-market buyers get a lot of CRM for the money, and Freddy AI is genuinely useful rather than a checkbox feature."
       ],
       "verdict": "The smart budget CRM for sales-led mid-market teams that want built-in phone and email. Marketing-led stacks still favor HubSpot's ecosystem."
-    }
+    },
+    "paid_from": 9
   },
   {
     "slug": "ghost",
@@ -1361,7 +1394,8 @@
         "Pricing is a flat monthly fee for Hosted, or free self-hosted. For a content brand that wants memberships, newsletters, and a fast reading experience in one system, Ghost is the default serious option."
       ],
       "verdict": "Choose Ghost for editorial sites with paid membership intent. Skip it if you need a general-purpose CMS."
-    }
+    },
+    "paid_from": 9
   },
   {
     "slug": "heap",
@@ -1502,7 +1536,8 @@
         "The strength is time-to-value: a team can be tracking deals in an afternoon. The weakness is that every module you add deepens the lock-in. The Agent Hub and AI additions are being folded into the same reach-for-the-wallet motion."
       ],
       "verdict": "Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply."
-    }
+    },
+    "paid_from": 20
   },
   {
     "slug": "hubspot-marketing-hub",
@@ -1559,7 +1594,8 @@
         "url": "https://www.g2.com/products/hubspot-marketing-hub/reviews",
         "as_of": "2026-08-28"
       }
-    ]
+    ],
+    "paid_from": 20
   },
   {
     "slug": "hypotenuse-ai",
@@ -1766,7 +1802,8 @@
         "url": "https://www.g2.com/products/klaviyo/reviews",
         "as_of": "2026-08-28"
       }
-    ]
+    ],
+    "paid_from": 20
   },
   {
     "slug": "krayin-crm",
@@ -1983,7 +2020,8 @@
         "url": "https://www.g2.com/products/intuit-mailchimp-all-in-one-marketing-platform/reviews",
         "as_of": "2026-08-28"
       }
-    ]
+    ],
+    "paid_from": 13
   },
   {
     "slug": "make",
@@ -2030,7 +2068,8 @@
         "Pricing is per operation, which punishes chatty integrations, and it scales cheaper than Zapier at volume. For teams with any technical comfort, Make is usually the better deal."
       ],
       "verdict": "Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task."
-    }
+    },
+    "paid_from": 16
   },
   {
     "slug": "manychat",
@@ -2076,7 +2115,8 @@
         "It is channel-locked to Meta properties, with SMS and email as paid add-ons, and pricing climbs to per-contact tiers as lists grow. Businesses whose audience genuinely lives in DMs get real ROI; everyone else is buying a very good chatbot for a channel they barely use."
       ],
       "verdict": "The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs."
-    }
+    },
+    "paid_from": 14
   },
   {
     "slug": "marketmuse",
@@ -2131,22 +2171,22 @@
     "pricing_model": "open-source",
     "pricing_url": "https://matomo.org/pricing/",
     "price_from": 0,
-    "price_notes": "Self-hosted free (GPL); Cloud from €19/mo; premium plugins available",
+    "price_notes": "Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 EUR/mo, Business 1,450 EUR/mo, Enterprise 3,400 EUR/mo, about 17% less billed annually. Cloud from 22 EUR/mo for 50,000 hits, scaling to 14,850 EUR/mo at 100 million. 21-day Cloud trial.",
     "ai_features": [
-      "AI-powered insights",
-      "AI anomaly detection",
-      "AI form analytics",
-      "AI heatmaps",
-      "AI session replay"
+      "AI chatbot traffic reports",
+      "MCP Server plugin",
+      "AI Agent Overview report",
+      "AI Connector (query analytics in plain language)"
     ],
     "integrations": [
       "WordPress",
+      "Matomo Tag Manager",
+      "Google Tag Manager",
+      "Google Analytics Importer",
       "Shopify",
-      "Magento",
-      "Zapier",
-      "Google Analytics import",
-      "Slack",
-      "Tag Manager"
+      "BigQuery",
+      "OneTrust",
+      "Cookiebot"
     ],
     "github_repo": "matomo-org/matomo",
     "github_stars": 21717,
@@ -2156,16 +2196,46 @@
     "hq": "Wellington, New Zealand",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Founded in 2007 and headquartered in Wellington, New Zealand, Matomo is an open-source web analytics platform designed to give organizations full ownership of their visitor data. It tracks websites, e-commerce stores, and apps while providing reports on traffic sources, user behavior, conversions, and campaign performance. Because the core product is available under the GPL, teams can self-host it for free, use Matomo Cloud from €19 per month, or add premium plugins for extended capabilities. The project has 21,717 GitHub stars and includes an API, with integrations for WordPress, Shopify, Magento, Zapier, Google Analytics import, Slack, and tag managers.\n\nMatomo is aimed at marketing, analytics, product, and privacy teams that want more control than typical hosted analytics services provide. Its main differentiator is the combination of open-source transparency and a broad analytics suite, including AI-powered insights, AI anomaly detection, AI form analytics, AI heatmaps, and AI session replay. These features help users surface unusual trends, understand where visitors hesitate, and identify friction in forms or journeys without relying solely on manual report review.\n\nCompared with commercial alternatives such as Google Analytics or Adobe Analytics, Matomo places greater emphasis on data ownership, self-hosting flexibility, and customizable reporting, though organizations may need more technical resources to manage infrastructure and plugins. It is best for privacy-conscious businesses, agencies, e-commerce teams, and enterprises that want an open-source analytics platform with AI-assisted insights and the option to move from self-hosted to cloud-based deployment.",
+    "date_updated": "2026-09-06",
+    "description": "Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. Installation is a documented nine-step wizard: download matomo.zip from builds.matomo.org, upload it to a directory or subdomain, set permissions on tmp and config, then walk through a system check, database setup, superuser creation, first-site setup, and the JavaScript tracking tag. The README asks for PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, which is stricter than the requirements page on matomo.org, still telling PHP 7.2.5 users that Matomo 5 works well with PHP 8. Sites above a few hundred visits a day need an archiving cron job.\n\nThe feature split matters more than the feature list. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free. Funnels, cohorts, custom reports, form analytics, media analytics, A/B testing, heatmaps and session recordings, multi-channel attribution, roll-up reporting, and users flow are paid premium plugins, sold individually or in bundles. Matomo Tag Manager and the Google Analytics Importer are free. On-Premise bundles run 275 euros a month for Team, 1,450 for Business, and 3,400 for Enterprise, while Cloud starts at 22 euros a month for 50,000 hits and scales into four figures at hundreds of millions of hits.\n\nPrivacy is the reason teams pick it. Matomo claims 100 percent data ownership, unsampled reporting on every plan, adherence to GDPR, HIPAA, CCPA, LGPD, and PECR, and a CNIL listing it says allows consent-free use. Cloud data stays in Europe, and the vendor commits to keeping self-hosting free permanently.\n\nMatomo's AI work measures AI traffic rather than adding AI analytics. Version 5.12.0 added AI chatbot content-request and real-time reports, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.",
     "seo_title": "Matomo Review — Open Source | MartechSignal",
     "seo_description": "Matomo — Open-source web analytics platform with full data ownership and AI-powered insights. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
       "hands_on": [
-        "Matomo (ex-Piwik) is the analytics platform you run yourself, and that changes the compliance conversation entirely: data stays on your infrastructure, no sampling, full raw data access. The report set mirrors classic GA but with unaggregated export and no data-sharing fine print.",
-        "It is heavier to operate than hosted alternatives - updates, backups, and performance tuning at scale are your job. The marketplace plugins fill feature gaps unevenly. For teams with GDPR exposure or data-residency requirements, those tradeoffs are exactly the point."
+        "Assessed from matomo.org, the plugin marketplace, and the GitHub repository rather than a self-hosted deployment. The install path is a nine-step wizard over a downloaded matomo.zip, and the requirements that matter are the ones in the README: PHP 8.1 or newer and MySQL 8 or MariaDB 10.6. Matomo's own requirements page still describes the older PHP 7.2.5 floor, so read the README first.",
+        "The free-versus-paid split is the part most reviews gloss over. Core analytics, ecommerce tracking, goals, segments, the dashboard, and the API are free; funnels, cohorts, custom reports, form analytics, heatmaps, session recordings, A/B testing, attribution, and roll-up reporting are paid plugins, bundled at 275 to 3,400 euros a month depending on tier. Tag Manager and the Google Analytics importer are the notable free exceptions.",
+        "The AI story is about AI traffic, not AI analysis. Version 5.12.0 added reports for chatbot content requests, an AIAgents plugin ships on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval. For teams evaluating on privacy, the relevant claims, including the CNIL listing and ISO 27001, are the vendor's own and deserve independent checking."
       ],
-      "verdict": "The answer when analytics must live on your own servers; budget real ops time rather than SaaS fees."
+      "verdict": "The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.",
+      "install": [
+        "Download the latest release with wget https://builds.matomo.org/matomo.zip and unzip it. The docs warn against third-party sources and point to GPG signatures for verification.",
+        "Upload the files to a directory such as yourdomain.org/analytics/ or to a subdomain, using SFTP or SCP, which the docs list as the preferred transfer method.",
+        "Set permissions so the web server can read every file and only tmp/ and config/ are writable. Once installed, the docs recommend locking config/ back to read-only.",
+        "Open the URL and follow the wizard: system check, MySQL setup (use a dedicated database and a restricted user, and put non-default ports after the hostname, as in localhost:3307), superuser account, first website, and the JavaScript tag placed before the closing head tag.",
+        "If the site gets more than a few hundred visits per day, set up the auto-archiving cron job the docs recommend, so reports are pre-processed instead of computed on request.",
+        "Prefer not to run it? Matomo ships an official WordPress plugin with 100,000-plus active installs and a Docker route, and a 21-day Cloud trial with a live demo at demo.matomo.cloud."
+      ],
+      "requirements": "The GitHub README asks for PHP 8.1.0 or newer, MySQL 8.0+ or MariaDB 10.6+, and pdo_mysql or mysqli. Matomo's own requirements page still says Matomo 4.x needs PHP 7.2.5+ and that Matomo 5 works well with PHP 8, so treat the README as the current floor. Apache, Nginx, IIS, and LiteSpeed all work, and the MySQL user needs grants including CREATE TEMPORARY TABLES and LOCK TABLES.",
+      "best_for": "Organizations with a compliance reason to keep analytics data in-house: EU-facing sites, healthcare, finance, and the public sector. Also a fit for anyone who needs unsampled raw data or wants to keep history when changing vendors.",
+      "not_for": "Teams that want analytics with no ops burden. Self-hosting means updates, backups, performance tuning, and the archiving cron, and most headline features beyond core reporting are paid plugins rather than inclusions.",
+      "faq_extra": [
+        [
+          "What is the cheapest Matomo Cloud plan?",
+          "The lowest tier is 22 euros per month for 50,000 hits, where a hit counts as a page view, event, download, outlink, onsite search, or content tracking request. Tiers scale to 1,600 euros per month at 10 million hits, and annual billing gives two months free. Watch the pricing page's static HTML, which shows a stale 29-euro figure until JavaScript loads the tier table."
+        ],
+        [
+          "Is Matomo really GDPR compliant?",
+          "Matomo claims adherence to GDPR, HIPAA, CCPA, LGPD, and PECR, with IP anonymization, configurable data anonymization, an opt-out, first-party cookies by default, and tools to delete visitor data on request. It states that France's CNIL lists it among tools usable without consent and that Cloud data stays in Europe. Those are vendor claims, and your compliance still depends on configuration, particularly cookie consent and retention."
+        ],
+        [
+          "Matomo or Google Analytics 4?",
+          "The differences that matter are ownership and sampling. Matomo stores data in your own database or its EU-based Cloud, generates unsampled reports on every plan, and exports raw data on request. GA4 keeps data in Google's infrastructure and applies sampling, which is why European regulator rulings feature in Matomo's comparisons. GA4 still wins on cost at low traffic and on Google Ads integration."
+        ],
+        [
+          "Does Matomo have AI features?",
+          "Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today."
+        ]
+      ]
     }
   },
   {
@@ -2359,7 +2429,8 @@
           "note": "community pack of 79 importable marketing workflow templates: social, monitoring, ads, SEO, with optional local Ollama models"
         }
       ]
-    }
+    },
+    "paid_from": 20
   },
   {
     "slug": "northbeam",
@@ -2857,7 +2928,8 @@
         "You trade depth for that simplicity: no heatmaps, session replay, or user-level journeys. E-commerce and content sites wanting behavioral analytics will still need a product-analytics companion. Pricing scales by traffic, which is fair but worth modeling at growth rates."
       ],
       "verdict": "The analytics tool we recommend by default for content and marketing sites; power users will want a second layer."
-    }
+    },
+    "paid_from": 9
   },
   {
     "slug": "postmark",
@@ -2900,7 +2972,8 @@
         "It deliberately refuses marketing email, which keeps deliverability pristine but means a second tool for newsletters. Pricing per email runs above bulk providers, a premium you pay for speed and focus. Apps where a delayed password reset costs revenue should look here first."
       ],
       "verdict": "The transactional email specialist; pair it with a marketing ESP rather than expecting one tool."
-    }
+    },
+    "paid_from": 15
   },
   {
     "slug": "predis-ai",
@@ -2946,7 +3019,8 @@
         "Output quality varies by industry; generic retail works well, nuanced B2B content needs heavier editing. Brand-voice training is lighter than dedicated copy tools. For solo marketers and small shops needing consistent presence without a content team, the price-to-output ratio is hard to beat."
       ],
       "verdict": "Efficient social content factory for small brands; B2B nuance still needs a human editor."
-    }
+    },
+    "paid_from": 19
   },
   {
     "slug": "relaticle",
@@ -3028,7 +3102,8 @@
         "It is young: marketing features are thin, and some teams will want longer track records for mission-critical volume. Pricing is competitive at small-to-medium scale. For developer-led teams shipping product email in 2026, it is the first tool we reach for."
       ],
       "verdict": "The best developer experience in email right now; volume senders should verify enterprise fit."
-    }
+    },
+    "paid_from": 20
   },
   {
     "slug": "revealbot",
@@ -3189,22 +3264,26 @@
     "pricing_model": "freemium",
     "pricing_url": "https://www.twilio.com/en-us/pricing/customer-data",
     "price_from": 0,
-    "price_notes": "Free (1,000 MTUs); Team $120/mo; Business custom; enterprise add-ons available",
+    "price_notes": "Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026.",
     "ai_features": [
-      "AI audience building",
-      "AI predictive traits",
-      "AI identity resolution",
-      "AI data governance"
+      "Predictions (4 models)",
+      "Predictive Audiences",
+      "Predictive Traits",
+      "Recommendations",
+      "Generative Audiences",
+      "Functions Co-Pilot"
     ],
     "integrations": [
+      "Snowflake",
+      "BigQuery",
+      "Redshift",
+      "Databricks",
+      "Postgres",
       "Salesforce",
       "Braze",
-      "Amplitude",
-      "Snowflake",
-      "Slack",
-      "Zapier",
-      "Google Analytics",
-      "Meta Ads"
+      "Klaviyo",
+      "HubSpot",
+      "Slack"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -3214,17 +3293,47 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Twilio Segment is a developer-first Customer Data Platform (CDP) that acts as the centralized data infrastructure for collecting, unifying, and activating customer data. Founded in 2011 as a Y Combinator startup and acquired by Twilio for $3.2 billion in 2020, Segment now operates as Twilio's data backbone with over 700 pre-built connectors, the largest integration catalog in the category, spanning data collection, identity resolution, audience building, reverse ETL, and AI-powered predictions.\n\nSegment's core architecture has three layers. Connections are client-side and server-side SDKs that ingest events from web, mobile, server, and third-party sources (\"one API, 700+ destinations\"). Protocols enforce data quality with schema validation, event auditing, and governance rules to keep bad data from reaching downstream tools. Engage handles audience building and activation across email, advertising, push, SMS, and in-app channels. A newer addition is AI Predictions, which adds predictive traits and product recommendations directly into the customer data pipeline without requiring a data science team.\n\nSegment's key differentiator is its developer-first orientation. It treats customer data as engineered infrastructure rather than a marketing interface, which makes it the default CDP for companies with strong engineering cultures. The API-centric approach means agentic AI systems can query unified customer profiles mid-conversation, which matters for the emerging \"AI agent plus CDP\" pattern where agents need real-time customer context to personalize interactions. Segment also offers Twilio Conversation Memory, which pairs CDP profiles with AI conversation history for persistent, context-aware agent interactions.\n\nPricing is MTU-based (Monthly Tracked Users): the free plan covers 1,000 MTU/mo, the Team plan starts at $120/mo for 10,000 MTU, and enterprise pricing scales with volume. Segment competes with mParticle (engineering-led CDP), Tealium (enterprise CDP with tag management roots), and Bloomreach Engagement (commerce CDP). It fits mid-to-large organizations where engineering teams drive data infrastructure and marketing or agent systems consume unified profiles, rather than organizations that want a marketing-operated CDP with a drag-and-drop interface.",
+    "date_updated": "2026-09-06",
+    "description": "Twilio Segment is a developer-first customer data platform: SDKs and server libraries send events to one API, and Segment routes them to analytics tools, ad platforms, and warehouses. Acquired by Twilio for $3.2 billion in 2020, it is now documented on twilio.com; segment.com's docs and pricing paths redirect there. The getting-started guide runs six steps, from a JavaScript, iOS, or PHP quickstart to a full install built on six tracking calls: Identify, Track, Page, Screen, Group, Alias. Web installs use the analytics.js snippet (version 5.2.1, loaded from cdn.segment.com) or the @segment/analytics-next npm package.\n\nThe product splits into layers with real gating between them. Connections is the pipeline: sources with a write key, a docs catalog listing 452 destinations, Reverse ETL from BigQuery, Databricks, Postgres, Redshift, and Snowflake, and warehouse syncs. Protocols is the data-quality add-on, Business tier only: a tracking plan, violation reports, enforcement that blocks non-conforming events, and transformations. Unify, formerly Profiles, adds identity resolution and a Profile API; Engage adds audiences, computed traits, SQL traits, and activation over SMS, email, and WhatsApp. One gotcha the docs state plainly: a source with no destinations gets disabled after 14 days.\n\nPricing is MTU-based. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120 per month for 10,000 MTUs with unlimited sources, 1 million reverse ETL records, and overages of $10 to $12 per additional 1,000 MTUs. Business is custom, with Protocols, Unify, and Engage above it. Twilio labels the numbers current as of August 2026.\n\nAI reached general availability in June 2025: Predictions with four models (likelihood to purchase, predicted lifetime value, likelihood to churn, custom goals), Predictive Audiences, Recommendations, Generative Audiences from natural-language prompts, and Functions Co-Pilot. Twilio's terms replaced OpenAI with Anthropic's Claude as the model provider for the generative features in August 2025. Documentation is agent-friendly too: every page ships a markdown version, Twilio publishes an MCP endpoint, and llms.txt sits at the root.",
     "seo_title": "Twilio Segment Review — Freemium | MartechSignal",
     "seo_description": "Twilio Segment — Customer data platform for collecting, unifying, and activating customer data. Free tier available. Compare AI features, integrations &.",
     "deep_dive": {
       "hands_on": [
-        "Segment (Twilio Segment) is the customer data platform that made the warehouse-first approach popular. The core is the tracking API: one SDK sends events to Segment, which fans them out to analytics, ads, and data warehouses. The catalog of destinations is its moat. Two-tier pricing splits free and paid sources, which surprises teams that scale past the free sources tier.",
-        "For product teams, the developer experience is the best in the CDP segment. For marketers who want audiences without engineering, alternatives like Tealium or warehouse-native tools are less dev-dependent."
+        "Assessed from Twilio's documentation rather than a deployment. Segment's model is one tracking API feeding every downstream tool, and the docs structure the whole product that way: six walkthrough pages from a JavaScript, iOS, or PHP quickstart to a full implementation built on Identify, Track, Page, Screen, Group, and Alias. The planning step is unusually prescriptive, with named B2B, Ecommerce, Mobile, and Video specs to adopt before writing code.",
+        "The layering is where buyers get surprised. Connections is the pipeline, while Protocols, Unify, and Engage are separate products gated at Business tier, and the billing docs say outright that Free and Team plans are excluded from Protocols, Engage, and Replays. One operational detail worth planning around: the docs state that a source with no connected destinations is disabled automatically after 14 days, even if it is still receiving events.",
+        "Destination breadth is the marketing claim to check carefully. Twilio's pages say 550+, 700+, and 750+ in different places, while the docs catalog we counted lists 452 destinations. Documentation quality is a genuine strength: every page ships a markdown version, and Twilio publishes an MCP endpoint and llms.txt, which makes the docs unusually easy for agents and coding assistants to work with."
       ],
-      "verdict": "The developer-first CDP. Ideal when you have engineering capacity and a warehouse you want to feed."
-    }
+      "verdict": "The developer-first CDP with the deepest documentation and the widest destination catalog, priced so that most of what differentiates it sits above the self-serve tiers.",
+      "install": [
+        "Create separate development and production sources in the Segment app. The write key you need for every library lives under Connections, then Sources, then your source, then Settings and API Keys.",
+        "For a website, paste the analytics.js snippet into the head of every page below the title tag, or install the npm package and call AnalyticsBrowser.load({ writeKey }). The snippet loader pulls analytics.min.js from cdn.segment.com.",
+        "For mobile and server, pick a documented library: iOS in Swift, Android in Kotlin, React Native, Flutter, Unity, or server libraries in Node, Python, Ruby, Go, Java, PHP, .NET, and Clojure.",
+        "Plan the schema before writing code. The docs push you through named specs (B2B, Ecommerce, Mobile, Video), naming conventions, and a tracking plan, and the full-install page builds on exactly six calls: Identify, Track, Page, Screen, Group, and Alias.",
+        "Enable destinations and remove the vendor tags you are replacing. The docs warn that leaving old snippets in place sends duplicate data.",
+        "Verify in the source Debugger tab, then watch the Event Delivery tool and Workspace Health alerts. Check Protocols violations once a tracking plan is live."
+      ],
+      "best_for": "Engineering-led teams that want one tracking API feeding every downstream tool, especially those already running a warehouse. Product and data teams own the pipeline, and marketing consumes audiences and traits from it.",
+      "not_for": "Teams without engineering support, and anyone who needs identity resolution, audience building, or data governance on a small budget. The docs state Free and Team plans are excluded from Protocols, Engage, and Replays, so the differentiating features sit behind Business contracts.",
+      "faq_extra": [
+        [
+          "What is an MTU in Segment pricing?",
+          "Monthly tracked user. Segment counts each unique userId once per billing month, plus each anonymous visitor not linked to a userId. The same person on web and mobile counts once; an anonymous web visitor who later logs in only on mobile counts twice. Events blocked by a tracking plan do not count unless violation forwarding is switched on."
+        ],
+        [
+          "How many integrations does Segment have?",
+          "It depends which page you read: Twilio's marketing copy says 550+, 700+, and 750+ in different places. The countable source is the docs destination catalog, which lists 452 destinations, alongside roughly 58 GA and 26 beta Reverse ETL destinations and 13 object cloud sources such as Salesforce, HubSpot, Stripe, and Zendesk."
+        ],
+        [
+          "Does Segment work with AI agents and coding assistants?",
+          "On the docs side, yes: every Segment documentation page exposes a markdown version, Twilio publishes an MCP endpoint and llms.txt, and the doc UI offers one-click open in ChatGPT, Claude, Cursor, and Perplexity. On the data side, Generative Audiences builds audiences from natural-language prompts. Note that Conversation Memory and Conversation Orchestrator are Twilio communications products, not Segment features."
+        ],
+        [
+          "What is the difference between Segment Connections, Unify, and Engage?",
+          "Connections is the data pipeline: sources, destinations, Reverse ETL, and warehouse sync. Unify, formerly Profiles, adds identity resolution, a profile explorer, and the Profile API. Engage builds on Unify for activation: audiences, computed and SQL traits, predictions, and campaigns over SMS, email, and WhatsApp. Protocols, the tracking-plan governance layer, is a separate add-on, and each layer gates at a higher plan."
+        ]
+      ]
+    },
+    "paid_from": 120
   },
   {
     "slug": "semrush",
@@ -3328,7 +3437,8 @@
         "The weak surface is anything beyond sending. Template editing is clunky, marketing campaigns are an afterthought next to dedicated ESPs, and support quality on lower tiers is famously slow. Pricing per email also gets uncompetitive at high volume against modern alternatives."
       ],
       "verdict": "Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work."
-    }
+    },
+    "paid_from": 19.95
   },
   {
     "slug": "seonaut",
@@ -3545,7 +3655,8 @@
         "It is a framework as much as a product: complex content relations require real development time, and major version upgrades have historically needed migration attention. Editorial teams wanting WYSIWYG-heavy publishing flows will find it spartan compared to hosted CMS platforms."
       ],
       "verdict": "Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish."
-    }
+    },
+    "paid_from": 99
   },
   {
     "slug": "suitecrm",
@@ -3724,34 +3835,38 @@
         "Free tier covers basic chat; AI features sit behind subscriptions that scale with handled conversations. Complex integration needs are limited compared to enterprise chat platforms. For small e-commerce and service businesses, it hits the balance of automation plus human handoff well."
       ],
       "verdict": "Best-value AI chat for small e-commerce; complex routing needs bigger platforms."
-    }
+    },
+    "paid_from": 24
   },
   {
     "slug": "tray-io",
     "name": "Tray.io",
     "tagline": "AI-powered integration platform for building custom automation and AI agents",
-    "website": "https://tray.io",
+    "website": "https://tray.ai",
     "category": "workflow-automation",
     "pricing_model": "enterprise",
-    "pricing_url": "https://tray.io/pricing",
+    "pricing_url": "https://tray.ai/pricing/",
     "price_from": null,
-    "price_notes": "Enterprise custom pricing; Merlin AI agents included; annual contracts; demo required",
+    "price_notes": "No published prices. Three tiers (Pro, Team, Enterprise) described by workspaces, log retention, and insights windows; usage metered in Tasks across integration, automation, MCP, and agents. HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons. Demo or sales call required.",
     "ai_features": [
-      "Merlin AI agents",
-      "AI workflow builder",
-      "AI data transformation",
-      "AI-powered connectors",
-      "AI anomaly detection"
+      "Merlin Agent Builder",
+      "Agent Gateway for MCP",
+      "AI Palette",
+      "Merlin Build",
+      "VectorTables",
+      "Tray IDP"
     ],
     "integrations": [
       "Salesforce",
       "Slack",
       "HubSpot",
-      "Marketo",
       "Snowflake",
-      "Stripe",
-      "Shopify",
-      "Zendesk"
+      "Zendesk",
+      "Google BigQuery",
+      "Google Sheets",
+      "NetSuite",
+      "OpenAI",
+      "Anthropic (Claude)"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -3761,16 +3876,45 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Tray.io is an enterprise iPaaS rebuilt from the ground up for the AI era, rather than bolted on through acquisitions. One platform covers AI agent building, MCP governance, integration, automation, and AI development.\n\nThe stack has three pillars. Merlin Agent Builder lets teams build and deploy AI agents with natural language. The Agent Gateway governs Model Context Protocol (MCP), controlling which tools agents can call and tracing every invocation. Underneath it all, the Intelligent iPaaS connects 700+ apps with enterprise-grade reliability (99.99%+ uptime).\n\nThe governance story is what separates Tray from lighter tools. SOC 2 Type II, SOC 1 Type II, HIPAA, GDPR, and CCPA apply across every agent action, workflow run, and integration, giving you one audit trail and one control surface instead of stitching together separate monitoring tools for agents and automations.\n\nPricing is the tradeoff. Task-based billing with a sales-led model means costs are harder to predict than n8n's self-hosted free tier or Zapier's transparent plans. G2 data shows average time to ROI is 10 months. Tray is for mid-market and enterprise teams where the governance and compliance requirements justify the price, not for indie makers running a few automations.",
+    "date_updated": "2026-09-06",
+    "description": "Tray.io, now trading as Tray.ai, calls itself an AI orchestration platform rather than an iPaaS, and the shift shows in what shipped during 2026. Tray Headless arrived in June with plugins for Claude Code and Codex plus a headless MCP server, followed by MCP dynamic authentication, Guardian Log Masking, and a Tray Sync CLI in August. The newest piece is Tray Helix, announced August 2026: a managed runtime that takes apps your team builds with AI coding assistants and puts them into production with IT visibility, security controls, and a named owner on each one.\n\nThe automation core still works the way the docs teach it: get data from one service, do something with it, send it to another. Workflows start from a service trigger, a webhook, or a scheduled poll, and the quickstart walks a Typeform-to-Google-Sheets template with a Slack notification, introducing project config, conditional logic, callable workflows, the data mapper, and environment variables along the way. Around that sits a catalog of 700-plus pre-built connectors, a connector SDK for anything missing, on-premise connectivity, API management, and an Embedded product for SaaS teams shipping integrations to their own customers.\n\nAI is layered rather than bolted on. Every plan includes the AI Palette, VectorTables, and built-in AI tools, Merlin Build assists workflow construction, and the paid Agent Development add-on bundles Merlin Agent Builder with Agent Gateway, which turns those connectors into governed MCP tools with access control, observability, and cost governance.\n\nPricing is published as tiers but not as prices. Pro, Team, and Enterprise are described by workspaces, log retention, and insights windows, with HIPAA, SSO, regional hosting, and Tray IDP sold as add-ons and usage metered in Tasks. Teams that need agents governed inside a compliance boundary are the buyers. Small automation projects are not.",
     "seo_title": "Tray.io Review — Enterprise | MartechSignal",
     "seo_description": "Tray.io — AI-powered integration platform for building custom automation and AI agents. Enterprise pricing; demo required. Compare AI features.",
     "deep_dive": {
       "hands_on": [
-        "Tray.io targets the middle ground between Zapier's simplicity and enterprise iPaaS governance: a visual builder with real branching and data transformation, plus the connector library and environment management that scaling integration programs need. HTTP-step flexibility rescued us from edge cases more than once.",
-        "Pricing is task-based but negotiated, and complex workflows consume tasks quickly - model your volumes before committing. Citizen automators will find the interface heavier than Zapier; engineering-led teams will appreciate not outgrowing the platform at production scale."
+        "Assessed from Tray.ai's documentation and pricing pages rather than a built workflow. The platform renamed and re-scoped during 2026: Tray Headless shipped in June with plugins for Claude Code and Codex and a headless MCP server, followed by MCP dynamic authentication, Guardian Log Masking, and a Sync CLI, and Tray Helix arrived in August as a managed runtime for AI-built apps.",
+        "The automation core is conventional and well documented. The quickstart teaches get data, do something, send data through a Typeform-to-Google-Sheets template, and introduces project config, conditional logic, callable workflows, the data mapper, and environment variables. The catalog claims 700-plus pre-built connectors, and the public connectors page names Salesforce, Slack, HubSpot, Snowflake, Zendesk, NetSuite, BigQuery, Google Sheets, OpenAI, and Anthropic among them.",
+        "Governance is the actual product difference, and much of it is priced as an add-on. HIPAA, SSO, regional hosting, and Tray IDP sit outside the base tiers, and Agent Gateway and Merlin Agent Builder ship together as a paid Agent Development add-on. Prices are not published; tiers are described by workspaces, retention, and insights windows, and usage is metered in Tasks."
       ],
-      "verdict": "Solid middle-tier iPaaS for scaling programs; model task consumption carefully before signing."
+      "verdict": "An integration platform that has rebuilt itself around agents, MCP, and governance faster than most of its category. Model your task consumption and confirm the compliance add-ons you need before signing.",
+      "install": [
+        "Start with the Quickstart in the Tray documentation. It teaches three moves: get data from a service, do something with it, and send it somewhere else.",
+        "Install the Add Typeform survey responses to Google Sheets template from the library. The docs estimate ten minutes including a free Typeform account, and it hands you a service trigger, a data mapper, and a Slack notification to pull apart.",
+        "Learn the data-handling concepts the quickstart introduces: project config variables, conditional logic, callable workflows, input schemas, and environment variables.",
+        "Connect your first apps under Authenticating connectors. Service connectors hold their own OAuth, JWT, API key, or basic auth; anything without a connector goes through a universal HTTP step or the connector SDK.",
+        "When you are ready for agents, look at Tray Headless, which ships plugins for Claude Code and Codex plus a headless MCP endpoint with EU and APAC regions, and at the Agent Development add-on for Agent Gateway and Merlin Agent Builder."
+      ],
+      "requirements": "Tray.ai is hosted, so there is nothing to install beyond an account and a browser for the builder. The constraints are contractual: workspaces, log retention windows, and insights history scale by tier, and on-premise connectivity, regional hosting, HIPAA, and SSO are Enterprise-tier or add-on items. Verify those before you design around them.",
+      "best_for": "Mid-market and enterprise teams running automation as a governed program rather than a pile of individual scripts: multiple workspaces, environments, audit trails, and now AI agents that need access control and observability.",
+      "not_for": "Small teams and solo operators. Prices are quoted by sales, usage is metered in Tasks that complex workflows consume quickly, and free tiers from Zapier or self-hosted n8n cover simple automation at a fraction of the cost.",
+      "faq_extra": [
+        [
+          "What is Tray Helix?",
+          "Announced in August 2026, Helix is a managed runtime for apps your team builds with AI coding assistants such as Claude Code, Codex, and Cursor. Tray's framing is that fewer than 5 percent of AI-built apps reach production and the ones that do ship ungoverned, so Helix deploys them onto Tray's runtime with IT visibility, security controls, and a named owner on everything that ships."
+        ],
+        [
+          "Does Tray.ai support MCP?",
+          "Yes, from several directions. Tray Headless includes a headless MCP server with regional endpoints in the EU and APAC and dynamic authentication added in June 2026. The Agent Gateway add-on publishes any of the 700-plus connectors as an MCP tool with access control, observability, and cost governance. Tray also documents how to connect external agents to those services."
+        ],
+        [
+          "How much does Tray.ai cost?",
+          "No prices are published. The pricing page names Pro, Team, and Enterprise tiers and describes them by workspaces, log retention, and insights windows, with usage metered in Tasks and add-ons such as HIPAA, SSO, regional hosting, and Tray IDP priced separately. Every call to action is a demo request, so budgeting happens in a sales conversation."
+        ],
+        [
+          "Tray.ai or Zapier: when is the upgrade worth it?",
+          "Zapier fits single-task automations owned by individuals. Tray fits programs: multiple workspaces, callable workflows, data tables, version control through the Sync CLI, log masking, and audit trails, plus agents governed through Agent Gateway. If you need governance, compliance certifications, or centrally controlled agents, Tray earns its cost. If you are wiring five apps together, it does not."
+        ]
+      ]
     }
   },
   {
@@ -3900,7 +4044,8 @@
         "Event tracking and custom dashboards are more limited than Matomo, and there is no commercial support layer unless you pay for their cloud. For sites wanting privacy-friendly, self-hosted numbers without operational weight, it is the lightest credible option we have deployed."
       ],
       "verdict": "The lightest credible self-hosted analytics; ideal when Plausible's subscription is the objection."
-    }
+    },
+    "paid_from": 20
   },
   {
     "slug": "wacrm",
@@ -4091,7 +4236,8 @@
         "url": "https://www.g2.com/products/zapier/reviews",
         "as_of": "2026-08-28"
       }
-    ]
+    ],
+    "paid_from": 19.99
   },
   {
     "slug": "langchain",
@@ -4140,7 +4286,8 @@
         "The abstraction moves fast, breaking changes are part of life, and you own the engineering, deployment, and cost control. If you are building custom marketing agents, it saves enormous groundwork; if you are not a developer, the right move is to buy a product built on it rather than touch the framework. The huge community and documentation make it the safest framework bet available."
       ],
       "verdict": "For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it."
-    }
+    },
+    "paid_from": 39
   },
   {
     "slug": "pipedream",
@@ -4927,7 +5074,8 @@
         "Makes sense for product teams tired of per-email pricing who run their own infrastructure anyway. Non-technical senders should stay with hosted platforms."
       ],
       "verdict": "Sensible self-hosted routing layer for engineers; overkill for marketers."
-    }
+    },
+    "paid_from": 19
   },
   {
     "slug": "google-meta-ads-ga4-mcp",
@@ -5271,26 +5419,72 @@
     "category": "email-marketing",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Open source, free self-hosted.",
-    "ai_features": "",
-    "integrations": [],
+    "price_notes": "Free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo.",
+    "ai_features": [
+      "AI Assistant chat editing",
+      "AI image generation",
+      "AI Template Importer",
+      "Unlayer MCP server (beta)",
+      "Agent Skills for Claude Code, Codex, and Cursor"
+    ],
+    "integrations": [
+      "React",
+      "Angular",
+      "Vue",
+      "Vanilla JavaScript",
+      "Cloud API",
+      "OpenAI",
+      "Anthropic"
+    ],
     "github_repo": "unlayer/react-email-editor",
     "github_stars": 5207,
     "open_source": true,
     "api_available": false,
     "status": "active",
     "date_added": "2026-08-25",
-    "date_updated": "2026-08-31",
-    "description": "React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application. You mount the component, and end users get a structured editor with content blocks, styling controls, and mobile preview without your team building or maintaining an editor. The component is a wrapper around Unlayer's editor service, which matters for the honesty of the pitch: the npm package is open source with 5,200-plus stars and active CI, but the editing engine itself is Unlayer's hosted product with its own pricing, so this is open-source SDK plus commercial service rather than a fully self-hosted editor. Integration is genuinely small (an import, a mount, and save/export callbacks), and Unlayer's free tier covers development and low-volume use before their usage-based plans start. For SaaS teams that need white-label email editing inside their product, it removes months of work. If you need a fully open pipeline with no third-party dependency, look at building on MJML or GrapesJS instead, and accept the engineering cost that comes with them.",
+    "date_updated": "2026-09-06",
+    "description": "React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. The npm package is a thin wrapper whose single runtime dependency is a types package; the editor itself is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId from Unlayer's developer console. Install is npm install react-email-editor, then mount the component with an onReady callback and call loadDesign, saveDesign, or exportHtml on the ref. Version 2.0.0 (July 2026) modernized the build, requires React 16.8 or newer, and fixed a long-standing unmount leak; 2.1.2 in August 2026 fixed an SSR hydration bug that could leave a blank editor under the Next.js App Router.\n\nThe hosted engine is a real builder, not a demo. It ships 15 built-in content blocks, custom tools and blocks, merge tags that accept any templating syntax, display conditions, device previews, undo and redo, and inbox previews across real email clients on the top plan. Pricing is public: a free tier, Launch at $250 per month for white-labeling, custom tools, and the Cloud API, Scale at $750 for custom blocks, collaboration, and smart merge tags, and Optimize at $2,000 for custom CSS, AMP, and inbox previews.\n\nAI features are real and metered. An AI Assistant on paid plans streams edits into the design from chat prompts, routes to OpenAI or Anthropic, and draws on a workspace credit balance; AI image generation reached Launch plans in August 2026. There is also a hosted MCP server in beta with 14 documented tools plus agent skills for Claude Code, Codex, and Cursor, unusual for an embedded editor and handy if your users work with AI assistants.\n\nThe trade is control. Exports return HTML and a design JSON, there is no MJML output, AMP requires the top plan, and self-hosting is Enterprise-only.",
     "seo_title": "React Email Editor Review — Open Source | MartechSignal",
     "seo_description": "React Email Editor — Drag-n-Drop Email Editor Component for React.js. Open source & free to self-host. Compare AI features, integrations & top.",
     "deep_dive": {
       "hands_on": [
-        "Unlayer's React Email Editor solves a specific SaaS problem: giving end users drag-and-drop email design inside your application. Integration is a component mount, design JSON saves and reloads cleanly, and the exported HTML survives major email clients, the historical weakness of DIY editors.",
-        "The free tier embeds with Unlayer branding; production deployments need a commercial license, and advanced customization follows a hosted configuration model. For SaaS products needing user-designed emails without building an editor from scratch, it removes months of work."
+        "Assessed from the GitHub repository, Unlayer's docs, and the pricing page rather than an integration. The architecture is the first thing to understand: the npm package is a thin MIT-licensed wrapper whose single runtime dependency is a types package, while the editor is a hosted service loaded from editor.unlayer.com into an iframe and unlocked with a projectId.",
+        "The component API is small and stable. Three documented methods cover the data path: loadDesign, saveDesign, and exportHtml, which returns both the design JSON and the HTML. Version 2.0.0 in July 2026 modernized the build and requires React 16.8 or newer, and 2.1.2 in August 2026 fixed an SSR hydration bug that could render a blank editor in the Next.js App Router.",
+        "Plan against the pricing tiers rather than the free tier. White-labeling starts at Launch, custom blocks and collaboration at Scale, and custom CSS, AMP, and inbox previews at Optimize, with AI metered through a workspace credit balance. The docs do not describe how Unlayer branding appears on free-plan exports, so test that path before committing to it."
       ],
-      "verdict": "Pragmatic embedded email-editor for SaaS products; budget the commercial license from the start."
-    }
+      "verdict": "The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.",
+      "install": [
+        "Install the wrapper: npm install react-email-editor --save. Version 2.0.0 (July 2026) raised the floor to React 16.8 or newer and Node 18 or newer.",
+        "Import EmailEditor, hold a ref with useRef, and render <EmailEditor ref={emailEditorRef} onReady={onReady} />. The published bundle carries a 'use client' directive, so it runs in the Next.js App Router, and 2.1.2 fixed the SSR hydration mismatch that produced a silently blank editor there.",
+        "Create a project in the Unlayer Developer Console. The component loads editor.unlayer.com/embed.js and needs a projectId to initialize, and the docs tell you to add your production domains under Project > Settings > Deployment so the builder only runs where you allow.",
+        "Drive the editor through the three documented methods on the ref: loadDesign(object) to load saved JSON, saveDesign(callback) to get it back, and exportHtml(callback) to receive both the design JSON and the HTML.",
+        "Enable AI with features: { ai: { enabled: true, assistant: true } } in the options prop plus a user id. The docs state that without the user id the assistant stays hidden and AI requests are rejected server-side.",
+        "Angular and Vue teams do not need this package: Unlayer publishes separate open-source Angular Email Editor and Vue Email Editor components, plus a vanilla JS path through unlayer.init()."
+      ],
+      "requirements": "React 16.8 or newer and Node 18 or newer for the build, a Unlayer project with a projectId, and network access to editor.unlayer.com at runtime, because the editor renders in an iframe served from Unlayer's CDN. Custom tools and blocks are configured through that hosted options model rather than in your bundle.",
+      "best_for": "SaaS teams that need a white-label drag-and-drop email builder inside their product and would rather buy the editor than spend months building and maintaining one. The React, Angular, and Vue components cover mixed stacks.",
+      "not_for": "Teams that need the editing engine on their own infrastructure, since on-premise deployment is Enterprise-only. The free tier omits white-labeling, and custom tools, custom blocks, custom CSS, collaboration, AMP, and inbox previews each sit behind a specific paid plan, so map the features you need to a tier before you commit.",
+      "faq_extra": [
+        [
+          "Is React Email Editor really open source?",
+          "The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
+        ],
+        [
+          "What are Unlayer's paid plans?",
+          "Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000."
+        ],
+        [
+          "Does React Email Editor support AMP emails?",
+          "Yes, but only on the Optimize plan. You enable it with amp: true in the options, preview the AMP version inside the editor, and export AMP alongside standard HTML. The carousel block requires AMP in email designs, which is why it is a top-tier feature."
+        ],
+        [
+          "Should I build my own editor on GrapesJS or MJML instead?",
+          "If you need a fully open pipeline with no third-party dependency, yes, and you should budget for it: email client compatibility, a design schema, undo history, and preview tooling are the hard parts, and they are what the $250 to $2,000 per month buys. Unlayer has no MJML export, so a strict MJML workflow means rolling your own. Teams that can absorb that engineering cost should; product teams that cannot will ship faster with the wrapper."
+        ]
+      ]
+    },
+    "paid_from": 250,
+    "pricing_url": "https://unlayer.com/pricing"
   },
   {
     "slug": "ever-gauzy",
@@ -5329,26 +5523,63 @@
     "category": "crm",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Open source, free self-hosted.",
+    "price_notes": "Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud.",
     "ai_features": "",
-    "integrations": [],
+    "integrations": [
+      "Twilio",
+      "Exotel",
+      "WhatsApp",
+      "ERPNext",
+      "Meta Lead Ads"
+    ],
     "github_repo": "frappe/crm",
     "github_stars": 3390,
     "open_source": true,
     "api_available": false,
     "status": "active",
     "date_added": "2026-08-25",
-    "date_updated": "2026-08-31",
-    "description": "Frappe CRM is the customer-relationship module built on the Frappe framework, the Python and MariaDB stack behind ERPNext, positioning itself as a simple, affordable CRM for modern sales teams with unlimited users. Because every lead, deal, and contact is a first-class Frappe document, you extend it with custom fields, print formats, workflows, and scripts the same way ERPNext is extended, which is the real differentiator: customization without forking. The interface is a modern single-page app, a deliberate break from Frappe's traditional desk UI, and the project ships a live demo, straightforward docs, and a mobile-ready experience. The motivation stated in the README is explicit about its target: existing CRMs that are too complex, overly generic, or priced steeply. At 3,400-plus stars with ERPNext's enormous ecosystem behind it, the sustainability question is answered. The trade-offs: you inherit the Frappe framework's conventions and its benchmarks-based stack (Python, MariaDB, Redis), and the CRM is younger than ERPNext, so some sales-depth features like advanced forecasting remain thinner than Salesforce-class suites. It shines for SMBs wanting ERPNext-adjacent CRM without per-seat costs.",
+    "date_updated": "2026-09-06",
+    "description": "Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. The README pitches a simple, affordable CRM for modern sales teams with unlimited users, and pricing supports the affordability half of that: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, dedicated servers run $20 to $60 per month, and no tier charges per user.\n\nDevelopment moves quickly. The project released roughly 130 times across 2025 and 2026, reaching v1.83.0 in September 2026, adding Sales Hierarchy in June 2026, an editable dashboard in July 2025, and assignment rules. Every lead, deal, contact, and organization is a Frappe document, so custom fields, custom statuses, list actions, and Python server scripts extend the CRM the same way ERPNext gets extended. The interface is a Vue 3 single-page app with a drag-and-drop kanban board for leads and deals, saved, public, and pinned views, web forms for lead capture, and a mobile experience delivered as a progressive web app rather than a native app.\n\nIntegrations are narrow and documented. Telephony covers Twilio and Exotel, with click-to-call from lead, deal, and contact pages, call pop-ups, recording, and notes. WhatsApp arrives through a separate third-party app, Frappe WhatsApp by Shridhar, sending from templates over the WhatsApp Business Cloud API. Email works from lead and deal records with multiple accounts and templates. Facebook and Instagram lead sync is documented as beta. ERPNext sync creates customers and quotations from won deals, though most of it needs both apps on the same site.\n\nTwo things to check first: no AI features appear in the README, marketing site, or release notes, and the repository's default branch is develop, which tracks the unreleased Frappe v17, so pin to main for a stable install.",
     "seo_title": "Frappe CRM Review: CRM — Open Source | MartechSignal",
     "seo_description": "Frappe CRM — Fully featured, open source CRM. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
       "hands_on": [
-        "Frappe CRM runs on the Frappe framework behind ERPNext, which makes every lead, deal, and contact an extensible document: custom fields, print formats, and server scripts come without forking code. The kanban deal board is clean, telephony and email logging integrate through Frappe standards.",
-        "Marketing automation is deliberately absent - pairing with Listmonk or Mautic covers campaigns. For teams already in the Frappe ecosystem, adoption is nearly free operationally; the same site, users, and permissions just extend. Standalone adopters should weigh the framework learning curve."
+        "Assessed from the repository, the 41-page documentation site, and the release history rather than a self-hosted instance. The project is unusually active: roughly 130 releases across 2025 and 2026, reaching v1.83.0 in September 2026, with Sales Hierarchy in June 2026 and an editable dashboard in July 2025 among the additions.",
+        "Installation has four documented routes, and they are not equal. Frappe Cloud is the path the docs recommend trying first, the Easy Install script deploys a production server in one command, Docker gets you a disposable instance at crm.localhost:8000 with an Administrator account, and bench get-app crm is the development route. One caveat the docs leave implicit: the repository's default branch is develop, which targets the unreleased Frappe v17, so pin to main.",
+        "The integration surface is narrow and clearly scoped: Twilio and Exotel for telephony, WhatsApp through a third-party app by Shridhar, email accounts on lead and deal records, beta Facebook and Instagram lead sync, and ERPNext sync that mostly requires both apps on the same site. There are no AI features in the README, the marketing site, or any release note we reviewed, and the mobile experience is a PWA rather than a native app."
       ],
-      "verdict": "A lean open-source CRM that shines inside the Frappe ecosystem; standalone buyers should compare first."
-    }
+      "verdict": "A lean, fast-moving open-source CRM that costs almost nothing to run and gives up AI, native mobile, and connector breadth to get there. Read the AGPL terms and pin your branch before you install.",
+      "install": [
+        "Managed route first, because the docs say so: they recommend trying Frappe Cloud before self-hosting. Sign up at frappecloud.com/crm/signup, or install the CRM app from the marketplace if you already run a Frappe Cloud account.",
+        "For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=you@example.com --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.",
+        "For a quick look, Docker is the fastest path: download docker-compose.yml and init.sh from the repo's docker directory and run docker compose up -d, then open http://crm.localhost:8000/crm and log in as Administrator with the password admin.",
+        "For development, install the bench CLI (uv tool install frappe-bench), create a bench with bench init, then run bench get-app crm and bench new-site sitename.localhost --install-app crm. Start it with bench start and browse to sitename.localhost:8000/crm.",
+        "Frontend changes live in frappe-bench/apps/crm/frontend, a Vue 3 and Vite project: yarn install, then yarn dev serves the dev build on port 8080.",
+        "Pin the branch deliberately. main tracks the stable v1.x series against Frappe v15 and v16; develop, the repo's default branch, targets the unreleased Frappe v17."
+      ],
+      "requirements": "The CRM itself lists no version pins and defers to the Frappe framework docs, which ask for Python 3.10 or newer, MariaDB 10.6 or newer, Redis or Valkey 6, Node 18 or newer, and Yarn on Linux or macOS. The crm main branch declares Python 3.10+ and a Frappe dependency of 15.x or 16.x. Setup runs in a browser wizard the docs describe as about two minutes, but custom fields and server scripts still drop you into the Frappe desk backend.",
+      "best_for": "Teams already inside the Frappe or ERPNext ecosystem, and cost-conscious SMBs that want unlimited users without per-seat fees and are comfortable operating a Python, MariaDB, and Redis stack. The AGPL license suits internal business use without obligation.",
+      "not_for": "Teams shopping for AI features (there are none in the product or the release notes), native mobile apps (it is a PWA), or broad connector coverage. Marketing teams wanting campaign automation need to pair it with a separate tool, and anyone wanting a SaaS vendor to call will not find one at this price.",
+      "faq_extra": [
+        [
+          "Does Frappe CRM charge per user?",
+          "No. The pricing page states that you do not pay per user and that leads, deals, contacts, and sales agents are unlimited on every plan. Costs come from infrastructure: free if you self-host, from $5 per month for a Frappe Cloud site, or $20 to $60 per month for a dedicated server depending on provider and resources."
+        ],
+        [
+          "Does Frappe CRM integrate with WhatsApp?",
+          "Not on its own. WhatsApp support comes from a separate third-party app, Frappe WhatsApp by Shridhar, which you install alongside the CRM and connect using WhatsApp Business Cloud API credentials and a webhook verify token. It adds a WhatsApp tab to lead and deal pages and sends from approved templates; the docs note you can only initiate communication with customers."
+        ],
+        [
+          "Frappe CRM or ERPNext CRM: which one?",
+          "Frappe CRM is a standalone app with a purpose-built sales interface, while ERPNext ships selling features inside full accounting and inventory. The documented integration creates ERPNext customers and quotations from won deals and keeps items and products in sync, with ERPNext as the source of truth for items. Most of that sync only works when both apps sit on the same site, so pick Frappe CRM for a dedicated sales frontend and ERPNext when CRM belongs inside an ERP."
+        ],
+        [
+          "Can Frappe CRM make phone calls?",
+          "Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal, and contact pages, an incoming call pop-up with accept, reject, and mute, a recording toggle, and the ability to attach notes or tasks from the call. Twilio needs an Account SID, Auth Token, and a Twilio number with a webhook URL; Exotel needs an Account SID, subdomain, API key, API token, and Exophone, plus completed KYC."
+        ]
+      ]
+    },
+    "paid_from": 5
   },
   {
     "slug": "open-mercato",
