@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WaCRM Review: CRM — Open Source | MartechSignal</title>
-<meta name="description" content="WaCRM — Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. Open source &amp; free to self-host. Compare AI.">
+<title>WaCRM Review: Open-Source WhatsApp CRM | MartechSignal</title>
+<meta name="description" content="WaCRM review: self-hostable WhatsApp CRM on the official Meta Cloud API, with shared inbox, pipelines, broadcasts, and AI replies. MIT-licensed.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Martech Signal">
-<meta property="og:title" content="WaCRM Review: CRM — Open Source | MartechSignal">
-<meta property="og:description" content="WaCRM — Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. Open source &amp; free to self-host. Compare AI.">
+<meta property="og:title" content="WaCRM Review: Open-Source WhatsApp CRM | MartechSignal">
+<meta property="og:description" content="WaCRM review: self-hostable WhatsApp CRM on the official Meta Cloud API, with shared inbox, pipelines, broadcasts, and AI replies. MIT-licensed.">
 <meta property="og:url" content="https://martechsignal.com/tools/wacrm/">
 <meta property="og:image" content="https://martechsignal.com/og/tools/wacrm.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="WaCRM Review: CRM — Open Source | MartechSignal">
-<meta name="twitter:description" content="WaCRM — Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. Open source &amp; free to self-host. Compare AI.">
+<meta name="twitter:title" content="WaCRM Review: Open-Source WhatsApp CRM | MartechSignal">
+<meta name="twitter:description" content="WaCRM review: self-hostable WhatsApp CRM on the official Meta Cloud API, with shared inbox, pipelines, broadcasts, and AI replies. MIT-licensed.">
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/wacrm.png">
 <link rel="canonical" href="https://martechsignal.com/tools/wacrm/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
@@ -36,7 +36,7 @@
     "publisher": {
       "@id": "https://martechsignal.com/#organization"
     },
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-06",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -83,7 +83,7 @@
         "name": "What is WaCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with no-code automations, 1,720 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with AI reply assistant (bring your own OpenAI or Anthropic key), 2,250 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -99,7 +99,31 @@
         "name": "Is WaCRM a good crm tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Right answer for WhatsApp-first microbusinesses; wrong answer once you need pipeline math."
+          "text": "A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is WaCRM free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger's managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does WaCRM use the official WhatsApp API or WhatsApp Web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does WaCRM have AI features?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The AI reply assistant uses your own OpenAI or Anthropic key, stored encrypted, to draft one-click replies in the inbox or run an auto-reply bot with a per-conversation cap and human handoff, optionally grounded in a knowledge base retrieved with Postgres full-text search or pgvector when an embeddings key is set. There is also an MCP server so Claude, Cursor, and similar assistants can read the CRM, read-only by default with writes as an opt-in."
         }
       }
     ]
@@ -122,25 +146,19 @@
   <h1>WaCRM Review</h1>
   <p class="sub">Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations</p>
   <p class="count">CRM · Open Source · OPEN SOURCE</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-08-28</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-09-06</p>
 </section>
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>WaCRM takes a narrow, specific bet: for many small businesses and sales teams, WhatsApp is the CRM. Rather than building yet another contact database and asking teams to log WhatsApp conversations into it, WaCRM wraps a CRM directly around WhatsApp Web.
-
-The feature set is purpose-built for WhatsApp-first sales: a shared inbox for team WhatsApp conversations, a contact hub with conversation history, simple sales pipelines, broadcast messaging, and no-code automations. Everything lives in a self-hostable template that you fork, brand, and host on your own infrastructure. The GitHub repo (ArnasDon/wacrm) is MIT-licensed and actively maintained.
-
-The insight is sharp: in markets where WhatsApp dominates business communication (Latin America, India, Southeast Asia, parts of Europe), the gap between &quot;chatting with customers&quot; and &quot;tracking them in a CRM&quot; is where deals stall. WaCRM closes that gap by making the chat platform the system of record, so there is no copying conversations into another tool and no asking sales reps to log WhatsApp activity.
-
-The limitations are significant for teams outside WhatsApp-heavy markets. There is no email integration, no phone dialer, no marketing automation, no AI features, and no third-party integrations beyond what you build yourself. It is a single-channel tool. The self-hosted model means you manage deployment, updates, and security. For a 5-person sales team in Brazil or Indonesia running entirely on WhatsApp, WaCRM is a pragmatic, lightweight solution. For a multi-channel sales org in North America or Europe, it is too narrow.</p>
-    <h2>AI Capabilities</h2><ul class="feat-list"><li>No-code automations</li><li>WhatsApp broadcast campaigns</li><li>Sales pipeline management</li></ul>
-    
-    <h2>Hands-on notes</h2><p>WaCRM pitches WhatsApp as the CRM database itself - contacts live inside the chat app rather than a separate system. Setup is genuinely fast if your team already works from WhatsApp daily; the trade is giving up structured pipelines and reporting that a dedicated CRM takes for granted.</p><p>For solo operators and small service businesses living in WhatsApp threads, it removes the sync tax entirely. Anyone needing forecasting, teams of ten plus, or audit trails should look at Twenty or EspoCRM instead.</p><h2>Verdict</h2><p>Right answer for WhatsApp-first microbusinesses; wrong answer once you need pipeline math.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: no-code automations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (1,720 GitHub stars)</td><td></td></tr></tbody></table></section>
+    <p>WaCRM is a self-hostable CRM template built on the official Meta WhatsApp Business Cloud API, and it is explicit about what that means: the README calls it &#x27;a template, not a product,&#x27; licensed MIT under the instruction &#x27;fork it, brand it, host it.&#x27; You get the code, your own Supabase project, your own domain, and your own data. The feature set covers WhatsApp-first sales: a shared inbox with per-conversation assignment, round-robin distribution, and internal notes; a contact hub with tags, custom fields, CSV import, and deduplication; unlimited Kanban pipelines with deals linked to conversations; broadcast campaigns using Meta-approved templates with delivery, read, and reply tracking; and a no-code automation builder whose triggers include inbound messages, new contacts, tag changes, keywords, and schedules. Two additions move it past the narrower project it was a year ago. An AI reply assistant takes your own OpenAI or Anthropic key, stored encrypted, drafts one-click replies in the inbox, and can run an auto-reply bot with a per-conversation cap and human handoff, grounded in an optional knowledge base that uses Postgres full-text or pgvector semantic retrieval. A public REST API with scoped, revocable keys and an MCP server let external tools and assistants read the CRM, read-only by default with writes as an opt-in. The stack is Next.js 16, React 19, TypeScript, and Tailwind v4 on Supabase. Getting there takes real setup: fork the repo, run npm install, set Supabase credentials plus an encryption key, run migrations, then paste a Meta phone number ID and access token and expose an HTTPS webhook. Because it uses the official API, broadcasts are limited to Meta-approved templates and your number must be approved by Meta first. For a small team in a WhatsApp-heavy market that is a fair trade; for anyone needing email, a dialer, or forecasting, it is the wrong tool.</p>
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>AI reply assistant (bring your own OpenAI or Anthropic key)</li><li>Auto-reply bot with human handoff</li><li>Knowledge base grounding (pgvector or Postgres full-text)</li><li>MCP server for Claude and Cursor</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>Meta WhatsApp Cloud API</span><span>Supabase</span><span>OpenAI</span><span>Anthropic</span><span>pgvector</span><span>MCP (Claude, Cursor)</span><span>Docker</span><span>Hostinger</span></div>
+    <h2>How to install</h2><ol class="feat-list"><li>Fork github.com/ArnasDon/wacrm, then clone your fork and run npm install. The getting-started guide assumes Node.js 20+ and npm are already installed.</li><li>Copy .env.local.example to .env.local. The docs state that npm run dev will not start until at least NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY are set.</li><li>Generate the encryption key for WhatsApp token storage with node -e &quot;console.log(require(&#x27;crypto&#x27;).randomBytes(32).toString(&#x27;hex&#x27;))&quot; and paste it into ENCRYPTION_KEY. The docs warn not to change it later, because stored tokens become unreadable.</li><li>Create a Supabase project and run the migrations per docs/supabase-setup, then connect a WhatsApp number in Settings using your Meta phone number ID and access token, with an HTTPS webhook configured (docs/whatsapp-setup).</li><li>Run npm run dev, open http://localhost:3000, and create an account at /signup. Docker Compose is documented in docs/docker.md, and Hostinger managed Node.js hosting is the recommended one-click path, though the README notes it runs anywhere Node.js does.</li></ol><h2>Requirements</h2><p>Node.js 20+, your own Supabase project, a Meta-approved WhatsApp Business number with a Cloud API access token and phone number ID, and an HTTPS webhook. You pay your own hosting and WhatsApp Business API usage.</p><h2>Best for</h2><p>Small teams in WhatsApp-heavy markets that want a shared inbox, pipelines, and broadcasts they can fork, brand, and host, with AI replies running on their own OpenAI or Anthropic key.</p><h2>Not for</h2><p>Teams that need email, a dialer, forecasting, or multi-channel outreach, and anyone who cannot get a WhatsApp Business number approved by Meta or does not want to maintain a fork.</p><h2>Hands-on notes</h2><p>WaCRM is a fork-and-own template rather than a product you install, and the README is blunt about the consequences: &#x27;your code, your Supabase project, your domain, your data.&#x27; The contributing policy follows the same logic, saying feature PRs often belong in your fork rather than upstream, so plan to carry your customizations yourself. Assessed from the repository and the docs site; we have not run an instance.</p><p>The channel decision defines the tool. It talks to the official Meta Cloud API, which brings template approvals, delivery and read tracking, and an HTTPS webhook requirement, and rules out the casual WhatsApp Web wrapper experience. The docs&#x27; own framing is honest about the gate: most teams are live in under 30 minutes once their WhatsApp Business number has been approved by Meta. Approval is the long pole, not the deploy.</p><p>Setup is documented to a level most template projects never reach. The getting-started guide states the minimum environment, gives a one-line command to generate the 64-character encryption key used for token storage, and warns that rotating it makes stored WhatsApp tokens unreadable. Docker and Hostinger deployment paths both exist.</p><p>Security posture is specified rather than hand-waved: WhatsApp access tokens encrypted at rest, row-level security throughout, HMAC-verified webhooks, CSP, and rate limiting. For a tool that holds WhatsApp credentials for a whole sales team, that list is the part worth reading before you fork.</p><h2>Verdict</h2><p>A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.</p>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (2,250 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Deep integration catalogue (8 listed)</td><td></td></tr></tbody></table></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is WaCRM?</summary><p>Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with no-code automations, 1,720 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does WaCRM cost?</summary><p>WaCRM is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is WaCRM a good crm tool in 2026?</summary><p>Right answer for WhatsApp-first microbusinesses; wrong answer once you need pipeline math.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is WaCRM?</summary><p>Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with AI reply assistant (bring your own OpenAI or Anthropic key), 2,250 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does WaCRM cost?</summary><p>WaCRM is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is WaCRM a good crm tool in 2026?</summary><p>A legitimate starting point for WhatsApp-first sales teams that can run Node and Supabase; the official API brings template approvals and Meta vetting along with the delivery tracking.</p></details><details class="faq-item"><summary>Is WaCRM free?</summary><p>The code is MIT-licensed and free to fork, modify, and ship, with no user or record limits. The costs around it are yours: a Supabase project, hosting, and WhatsApp Business API usage billed by Meta. The docs recommend Hostinger&#x27;s managed Node.js hosting, where plans start at a few dollars a month, though the README notes it runs anywhere Node.js does, including Vercel, Railway, or your own VPS. The AI reply assistant has no per-seat fee because you bring your own OpenAI or Anthropic key.</p></details><details class="faq-item"><summary>Does WaCRM use the official WhatsApp API or WhatsApp Web?</summary><p>The official one. Both the README and the docs site state that WaCRM talks to the Meta WhatsApp Business Cloud API using a phone number ID and access token you supply, and that any Meta-approved BSP exposing the same endpoints works. The practical consequences are delivery and read tracking on broadcasts, plus template management inside the app with live Meta approval status, balanced by a requirement that your number be approved by Meta and that broadcasts use Meta-approved templates.</p></details><details class="faq-item"><summary>Does WaCRM have AI features?</summary><p>Yes. The AI reply assistant uses your own OpenAI or Anthropic key, stored encrypted, to draft one-click replies in the inbox or run an auto-reply bot with a per-conversation cap and human handoff, optionally grounded in a knowledge base retrieved with Postgres full-text search or pgvector when an embeddings key is set. There is also an MCP server so Claude, Cursor, and similar assistants can read the CRM, read-only by default with writes as an opt-in.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -150,11 +168,11 @@ The limitations are significant for teams outside WhatsApp-heavy markets. There 
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/crm/">CRM</a></dd></div>
         
         
-        <div class="side-row"><dt>GitHub</dt><dd>★ 1720</dd></div>
-        
-        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 2250</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2026</dd></div>
+        <div class="side-row"><dt>HQ</dt><dd>Open source</dd></div>
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-28">2026-08-28</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-09-06">2026-09-06</time></dd></div>
       </dl>
     </div>
     <div class="side-card">
