@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://martechsignal.com/</loc><lastmod>2026-09-05</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-09-05</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-09-05</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-03</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-06</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/</loc><lastmod>2026-09-03</lastmod></url>
@@ -14,7 +14,7 @@
   <url><loc>https://martechsignal.com/blog/openai-agent-ads-spending-without-you/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/blog/google-ad-agents-control-gap/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</loc><lastmod>2026-09-02</lastmod></url>
@@ -22,12 +22,12 @@
   <url><loc>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/</loc><lastmod>2026-09-03</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/</loc><lastmod>2026-09-03</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/cdp-reckoning-warehouse-native/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/cdp-reckoning-warehouse-native/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-08-28</lastmod></url>
@@ -149,7 +149,7 @@
   <url><loc>https://martechsignal.com/tools/open-mercato/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/tools/marketing-studio/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/tools/prospectos/</loc><lastmod>2026-09-05</lastmod></url>
-  <url><loc>https://martechsignal.com/tools/alphone/</loc><lastmod>2026-09-05</lastmod></url>
+  <url><loc>https://martechsignal.com/tools/alphone/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://martechsignal.com/tools/eve-marketing-team/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/tools/zapier-gtm-cheat-codes/</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://martechsignal.com/tools/diffmode-growth-tactics/</loc><lastmod>2026-09-05</lastmod></url>
