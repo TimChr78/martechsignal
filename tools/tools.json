@@ -2065,44 +2065,72 @@
   {
     "slug": "loops",
     "name": "Loops",
-    "tagline": "Modern email marketing platform for SaaS with AI-powered campaigns and automation",
+    "tagline": "Email marketing for SaaS: marketing, product, and transactional email in one tool",
     "website": "https://loops.so",
     "category": "email-marketing",
     "pricing_model": "freemium",
     "pricing_url": "https://loops.so/pricing",
     "price_from": 0,
-    "price_notes": "Free up to 1,000 contacts/4,000 emails/mo; paid plans scale with contacts",
+    "price_notes": "Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices",
     "ai_features": [
-      "AI subject line suggestions",
-      "AI content generation",
-      "AI send-time optimization"
+      "LLM email translation",
+      "AI workflow builder",
+      "MCP server for agent access"
     ],
     "integrations": [
-      "Slack",
-      "Zapier",
-      "Shopify",
       "Stripe",
       "Segment",
-      "HubSpot"
+      "Zapier",
+      "PostHog",
+      "Supabase",
+      "Clerk",
+      "Fivetran",
+      "Make"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
     "api_available": true,
     "founded": 2022,
-    "hq": "San Francisco, CA, USA",
+    "hq": "Washington, DC, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Loops is a modern email platform purpose-built for SaaS companies that want lightweight, developer-friendly email tooling without the complexity of enterprise platforms. Launched around 2022, Loops combines marketing email, lifecycle automation, and transactional sending in a single product with a deliberately simple interface. Where Mailchimp tries to cover everything and Customer.io serves complex lifecycle operations, Loops focuses on doing one category of work well. The platform handles onboarding sequences, feature announcement campaigns, re-engagement drips, and transactional messages like password resets from the same dashboard. Templates are clean and modern; the editor prioritizes speed over endless customization. Event tracking via API or Segment powers behavioral triggers, and the segmentation builder supports common SaaS use cases like filtering by plan tier, feature usage, or trial status. Loops offers a generous free tier and paid plans that scale with contact count, making it accessible for early-stage startups. It competes most directly with Customer.io and Userlist in the SaaS lifecycle email space, differentiating on simplicity and setup speed. The trade-off is depth: Loops does not support SMS, push notifications, or in-app messaging, so teams needing multi-channel automation will outgrow it or pair it with other tools.",
+    "date_updated": "2026-09-07",
+    "description": "Loops is an email platform built for SaaS companies, covering marketing campaigns, product announcements, and transactional email from one dashboard, and deliberately nothing else: there is no SMS, no push, and no in-app messaging. Founded in 2022 by Chris Frantz and Adam Kaczmarek, it went through Y Combinator's W22 batch, and the site names Linear, Perplexity, Framer, Clerk, Reuters, Granola, and Sketch among its customers. Automation was rebuilt and renamed Workflows in May 2026, replacing the original loop builder: workflows trigger on contact property changes, new contacts, or external events, branch on contact properties, and pause on timers. Experiments, added in June 2025, handle split testing. Guardian, introduced in September 2025, runs pre-send checks that flag misplaced variables, missing button links, and missing fallbacks. Deliverability handling is documented rather than claimed: hard bounces and complaints are suppressed, temporary failures retried, and large sends rate-limited. One constraint surprises people: Loops does not accept custom HTML email. Content is built in the editor or in LMX, an XML-based markup, with a Components API that cascades edits into every email using the component; MJML, Emailify, and Email Love files can be imported. Developers get roughly 70 REST endpoints with an OpenAPI spec, official SDKs for JavaScript, Go, Nuxt, PHP, and Ruby, a CLI, webhooks, SMTP for transactional sending, and an MCP server so coding agents can read and write contacts, events, and content. LLM translation, added in January 2026, duplicates an email branch and translates it in one click. Pricing is contact-based: the free plan covers up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days with all features included; paid plans add unlimited sends, no Loops branding, and 1,000 emails per second, with no per-seat fees and no published list prices.",
     "seo_title": "Loops Review: Email Marketing, Freemium | MartechSignal",
     "seo_description": "Loops, Modern email marketing platform for SaaS with AI-powered campaigns and automation. Free tier available. Compare AI features, integrations & top.",
     "deep_dive": {
-      "hands_on": [
-        "Loops is modern transactional-plus-marketing email with a designer that feels like Figma: loop-based automation branches, event-triggered sends, and a clean API. Onboarding took minutes, and the visual builder output rendered correctly across the clients we tested, including the unforgiving ones like Outlook.",
-        "The trade is ecosystem breadth. Fewer native integrations than incumbents, and automation depth stops short of complex multi-step lifecycle programs. For SaaS teams sending onboarding, product updates, and broadcasts from one modern tool, it lands a sweet spot between GUI-era ESPs and raw APIs."
+      "install": [
+        "Sign up at loops.so with no credit card; the free plan includes all features up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days.",
+        "Verify a sending domain before production sends; the docs carry around 15 deliverability guides covering DKIM, DMARC, inbox placement, sender reputation, and subdomains.",
+        "Get contacts in via CSV upload, simple or custom forms, the REST API, or the official Segment integration.",
+        "For API use, create a key in the dashboard; the OpenAPI spec lives at app.loops.so/openapi.json and official SDKs exist for JavaScript, Go, Nuxt, PHP, and Ruby, plus a Go CLI at github.com/loops-so/cli.",
+        "Agents connect over MCP (the docs publish a Claude Connector guide), and transactional sending can also run over SMTP from Django, Laravel, Rails, or Supabase."
       ],
-      "verdict": "A genuinely modern email platform for SaaS teams; complex lifecycle automation still needs bigger tools."
+      "requirements": "A verified sending domain for production and an API key for programmatic use; Loops is hosted SaaS with nothing to self-host. Unsubscribed contacts do not count toward plan limits.",
+      "best_for": "SaaS teams that want marketing, product announcement, and transactional email in one modern tool driven from the API: contact-based pricing, all features on the free tier, and agent access over MCP make it a natural fit for developer-led startups sending onboarding sequences and lifecycle email.",
+      "not_for": "Teams that need custom HTML email (not accepted; content is editor or LMX based), multi-channel programs needing SMS, push, or in-app messaging, or buyers who require published price lists before signing up, since paid figures come from the on-site calculator only.",
+      "hands_on": [
+        "Assessed from loops.so, loops.so/docs, and loops.so/changelog; we have no Loops account and have not sent through it. The changelog is the best evidence of momentum: 15 entries between February 2025 and August 2026, including Workflows (May 2026), Goals (July 2026), and a Workflows API with a Claude Connector (August 2026).",
+        "The product correction that matters against our earlier record: none of the previously listed AI features (subject line suggestions, content generation, send-time optimization) appear anywhere in the docs. What is documented is LLM Translation for one-click email translation (January 2026), an AI agent that assembles workflows from a prompt, and an MCP server plus skills for coding agents. Our earlier integration list named Slack, Shopify, and HubSpot, none of which appear in the documented integration index; the documented set is Stripe, Polar, Auth0, Clerk, Supabase, PostHog, RudderStack, Segment, Clay, Fivetran, Make, Integrately, Zapier, and others.",
+        "The email-only scope is confirmed and stated plainly: no SMS, push, or in-app. Combined with the no-custom-HTML policy and contact-based pricing, the product is narrow by design, and the docs are unusually explicit about what it will not do.",
+        "Where it sits against incumbents: Customer.io and Userlist remain the closest comparisons for SaaS lifecycle email. Loops differentiates on the free tier (all features, 1,000 contacts), the 70-endpoint API with a public OpenAPI spec, and agent tooling (MCP, CLI, skills) that most competitors in this bracket do not document."
+      ],
+      "verdict": "A focused, developer-friendly email platform for SaaS: strong API and agent access, honest scope, email only, and paid pricing you calculate rather than read.",
+      "faq_extra": [
+        [
+          "Does Loops support custom HTML email?",
+          "No. Loops does not accept custom HTML emails; content is created in its editor or in LMX, the platform's XML-based markup, and reused through a Components API so edits cascade into every email that uses the component. Imports are supported from MJML, Emailify, and Email Love. The docs include a page titled Why we don't support HTML emails explaining the reasoning, so teams with strict design-control requirements should test the editor against their needs first."
+        ],
+        [
+          "How does Loops pricing work as your list grows?",
+          "It is contact-based, not send-based: Loops charges on subscribed contacts and does not charge separately for sending. The free plan covers 0 to 1,000 subscribed contacts and up to 4,000 sends in any rolling 30 days, with all features included and a small Powered by Loops footer. Paid plans remove the branding, raise throughput to 1,000 emails per second, and lift the send cap entirely, with no per-seat fees. Loops publishes no dollar figures on its pricing page; you move a slider to estimate cost, and unsubscribed contacts do not count toward the limit."
+        ],
+        [
+          "Can AI coding agents connect to Loops?",
+          "Yes, and it is documented as a first-class surface rather than a bolt-on. Loops publishes an MCP server so any MCP client can read and write contacts, events, and content, along with agent skills for Claude Code, Codex, and Cursor, setup and migrate CLI commands, and a Claude Connector added in August 2026. The REST API underneath exposes roughly 70 endpoints with a public OpenAPI spec at app.loops.so/openapi.json. Separately, an in-app AI agent can assemble a workflow from a prompt, and LLM Translation translates an email branch in one click."
+        ]
+      ]
     }
   },
   {
@@ -3764,40 +3792,64 @@
   {
     "slug": "seonaut",
     "name": "Seonaut",
-    "tagline": "Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues",
+    "tagline": "Open-source SEO crawler in Go for technical audits, self-hosted or cloud",
     "website": "https://seonaut.org",
     "category": "seo",
     "pricing_model": "open-source",
-    "pricing_url": null,
+    "pricing_url": "https://seonaut.org/",
     "price_from": 0,
-    "price_notes": "Free open-source; self-hosted via Docker",
-    "ai_features": [
-      "Automated SEO crawling",
-      "Technical SEO issue detection"
-    ],
+    "price_notes": "MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits",
+    "ai_features": [],
     "integrations": [],
     "github_repo": "StJudeWasHere/seonaut",
-    "github_stars": 742,
-    "last_release": null,
+    "github_stars": 779,
+    "last_release": "No tagged releases; ships as the :latest container image",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
-    "api_available": true,
-    "founded": null,
-    "hq": null,
+    "api_available": false,
+    "founded": 2022,
+    "hq": "Open source",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "SEOnaut is an open-source SEO auditing tool designed for technical SEO professionals who need a lightweight, self-hosted alternative to commercial crawlers like Screaming Frog, Sitebulb, or the auditing modules in Semrush and Ahrefs. Built in Go and available on GitHub, it performs comprehensive site crawls to detect technical SEO issues: broken links, missing meta tags, duplicate content, redirect chains, page speed problems, crawl budget waste, and structural issues that affect search engine visibility. Because it is open source, teams can run it on their own infrastructure without per-seat licensing or crawl limits, which makes it useful for agencies that audit large sites or need to run audits on a schedule. The tool provides detailed per-page reports and summary dashboards, with the ability to export data for further analysis. As an open-source project, it requires technical setup (Go runtime, database configuration) and lacks the polished UI and guided recommendations of commercial tools. SEOnaut competes primarily with other open-source SEO tools like SiteGuru and commercial crawlers that offer free tiers. Its niche is teams that have technical capacity and want audit data they fully control, without vendor lock-in or usage limits. For teams that need a turnkey crawler with visual reporting and guided issue resolution, Screaming Frog or Sitebulb are more practical despite the license cost.",
+    "date_updated": "2026-09-07",
+    "description": "SEOnaut is an MIT-licensed SEO crawler written in Go, self-hosted with Docker and MySQL, and also offered as a hosted service with a free Lite tier (one project, 500 URLs per project) and a $9-per-month Growth plan (five projects, 10,000 URLs, recurring audits), billed through Stripe with one month free on annual plans; the site claims more than 3,000 professionals use it. The code defines 79 issue types across page-level and site-wide checks: broken links and redirects including loops, missing or duplicate meta tags, heading order, hreflang problems, image and alt-text audits for accessibility, content quality, canonical tags, orphan and dead-end pages, HTTPS checks, and TTFB and timeout detection. Documented crawl options include bypassing robots.txt, following nofollow links, crawling from sitemaps or subdomains, checking external links, basic-auth crawls, and WACZ archive creation. Results land in Apache ECharts dashboards with CSV, sitemap, and WACZ exports, and the crawler identifies itself as SEOnautBot/1.0. The honest limits shape who should adopt it: there is no JavaScript rendering, since no headless browser exists in the codebase, so client-rendered pages will audit badly; there is no API, because all routes are session-based web UI; there is no team or role model, with single-user projects in the schema; and no AI features appear anywhere in the product or its site. Maintenance is active but unhurried: 900-plus commits since 2022, the most recent in May 2026, and no tagged releases, so installs track the :latest container image. Source builds need Go 1.25 and the compose file runs MySQL 8.4, serving plain HTTP on port 9000 with signup rather than a default account. Against Screaming Frog the trade is direct: no license cost and repeatable self-hosted audits, in exchange for JS rendering and a commercial feature set.",
     "seo_title": "Seonaut Review: SEO & Search, Open Source | MartechSignal",
     "seo_description": "Seonaut, Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Seonaut is an open-source SEO crawler and audit tool: crawl a site, get broken links, redirect chains, missing metas, duplicate content, and hreflang issues in a readable report. Setup is a Docker pull, crawl speed on mid-size sites is respectable, and the issue taxonomy maps well to real audit workflows.",
-        "It does not attempt keyword research or rank tracking; this is technical-audit scope only. Agencies and site owners wanting a repeatable self-hosted crawler without per-crawl SaaS fees will find it covers the technical-audit layer well."
+      "install": [
+        "Docker path from the README: git clone https://github.com/stjudewashere/seonaut.git, cd seonaut, then docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build, and open http://localhost:9000.",
+        "Image-only install: docker pull ghcr.io/stjudewashere/seonaut:latest. From source without Docker: make run per docs/INSTALL.md.",
+        "There is no default account: you register through the /signup route on first run. The compose database credentials (MYSQL_ROOT_PASSWORD=root, database, user, and password all seonaut) are sample values to change before exposing anything.",
+        "Configuration lives in a config file at the repo root, overridable with SEONAUT_* environment variables; the crawler user agent is Mozilla/5.0 (compatible; SEOnautBot/1.0; +https://seonaut.org/bot), so exclude it with robots.txt if you audit sites you do not own.",
+        "The app serves plain HTTP on port 9000; the install docs describe fronting it with Nginx or Apache plus certbot for HTTPS."
       ],
-      "verdict": "Capable self-hosted technical crawler for repeatable audits; pair with external keyword data."
-    }
+      "requirements": "Docker and Git for the container path; Go 1.25 and Make to build from source, with MySQL 8.4 as the database in the compose file. A hosted option at app.seonaut.org removes the infrastructure work entirely.",
+      "best_for": "Developers and consultants who want a repeatable, self-hosted technical crawler with no per-crawl or license cost, and whose target sites are server-rendered: agencies auditing client HTML, and site owners tracking broken links, redirects, metas, hreflang, and alt text on a schedule they control.",
+      "not_for": "Auditing JavaScript-rendered applications (no headless browser in the codebase), teams wanting shared projects or roles (the schema is single-user), and anyone needing programmatic access (there is no API; exports are CSV, sitemap, and WACZ files from the UI).",
+      "hands_on": [
+        "Assessed from the GitHub repository (including the issue-reporter source and route table), seonaut.org, and docs/INSTALL.md; we have not run a crawl. The code defines 79 issue types registered as 57 page-level and 15 site-wide reporters, which is the concrete answer to how much audit coverage the project ships.",
+        "Two corrections against our earlier record: the tool has no API (we previously marked api_available true, but every route is session-cookie web UI with no /api endpoints), and the widely repeated claim of 150-plus issue types does not appear in any primary source; the count in code is 79. We also listed integrations that do not exist; the only exports are CSV, sitemap, and WACZ.",
+        "Maintenance cadence is the honest risk flag: 534 commits in 2022, then roughly 110 to 130 per year, 33 in the trailing twelve months, and the most recent commit in May 2026. There are no tagged releases, so pinning is not part of the project's model and upgrades mean pulling the latest image. MIT licensing and commercial use are explicitly permitted per the support page.",
+        "The hosted tiers change the evaluation: Lite is free with one project and 500 URLs per project, Growth is $9 per month with five projects, 10,000 URLs, and recurring audits, which is the only place scheduled crawling is documented. Self-hosted, you bring your own scheduler via cron."
+      ],
+      "verdict": "A lean, honest, self-hosted technical crawler with 79 documented issue checks; no JS rendering, no API, and a slow-but-alive commit pace.",
+      "faq_extra": [
+        [
+          "Does SEOnaut render JavaScript?",
+          "No. The codebase has no headless browser dependency, and JavaScript rendering appears nowhere in the feature list; the crawler fetches HTML directly. Sites built as client-rendered single-page apps will show empty content, missing links, and phantom issues, because the crawler sees what curl sees. Server-rendered sites, static sites, and sites using pre-rendering audit fine. If your audit targets a React or Vue application without SSR, you need a JS-rendering crawler, and this is not one."
+        ],
+        [
+          "Is SEOnaut free, and what do the cloud plans cost?",
+          "The self-hosted Community edition is MIT-licensed and free, including commercial use per the support page. The hosted service at app.seonaut.org has two tiers: Lite is free with one project and up to 500 URLs per project, and Growth is $9 per month for five projects, 10,000 URLs per project, and recurring audits, billed through Stripe with one month free on annual plans. The practical difference beyond limits is scheduling: recurring audits are a Growth feature, while self-hosted users set up their own cron-triggered crawls."
+        ],
+        [
+          "Does SEOnaut compare to Screaming Frog?",
+          "On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool's strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice."
+        ]
+      ]
+    },
+    "paid_from": 9
   },
   {
     "slug": "smartly-io",
@@ -3873,40 +3925,76 @@
   {
     "slug": "snowplow",
     "name": "Snowplow",
-    "tagline": "Open-source customer data infrastructure for collecting, enriching, and activating behavioral data",
+    "tagline": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents",
     "website": "https://snowplow.io",
     "category": "analytics",
-    "pricing_model": "open-source",
-    "pricing_url": null,
-    "price_from": 0,
-    "price_notes": "Open-source self-hosted free; Snowplow Cloud managed service available",
+    "pricing_model": "enterprise",
+    "pricing_url": "https://snowplow.io/pricing/",
+    "price_from": null,
+    "price_notes": "Community Edition free but licensed for testing and evaluation only (SLULA 1.1, not production); Self-Hosted Pipeline and managed Platform plans are quote-based, priced on monthly event volume and destinations",
     "ai_features": [
-      "AI-powered data enrichment",
-      "Behavioral analytics",
-      "Real-time event processing"
+      "Signals real-time profiles with propensity predictions",
+      "Intent detection",
+      "Agentic context for AI agents"
     ],
-    "integrations": [],
+    "integrations": [
+      "Snowflake",
+      "Databricks",
+      "BigQuery",
+      "Redshift",
+      "Delta Lake",
+      "Apache Iceberg",
+      "Kafka",
+      "Kinesis",
+      "Google Pub/Sub"
+    ],
     "github_repo": "snowplow/snowplow",
     "github_stars": 7025,
-    "last_release": null,
+    "last_release": "Components release individually: enrich 6.13.1 (2026-08-21), JavaScript tracker 4.10.1 (2026-08-19); last umbrella release R22.01 (2022)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": null,
+    "founded": 2012,
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Snowplow is an open-source customer data infrastructure platform that helps marketing, product, and data teams collect, enrich, and activate behavioral data from websites, apps, and connected products. It captures event-level interactions in real time, structures them into governed data models, and delivers them to data warehouses, analytics tools, activation platforms, and internal systems through APIs and pipelines. Because the core technology is open source, organizations can inspect the collection logic, customize schemas, and keep ownership of raw behavioral data rather than relying on a closed vendor pipeline.\n\nSnowplow is aimed at teams that need flexible, privacy-aware analytics infrastructure and have the technical resources to implement event tracking and data modeling. Its differentiators include granular event tracking, schema-based data governance, real-time processing, and the ability to self-host for full control. AI-related capabilities include AI-powered data enrichment, behavioral analytics, and real-time event processing that can support personalization, anomaly detection, and downstream machine learning workflows. Pricing is open-source self-hosted free, with Snowplow Cloud available as a managed service for teams that prefer less operational overhead. Compared with commercial alternatives such as Segment, Amplitude, or Mixpanel, Snowplow trades some out-of-the-box dashboards for deeper data ownership and composability. It fits data-driven organizations that want a customizable behavioral data foundation and are comfortable supporting or extending open-source infrastructure.",
+    "date_updated": "2026-09-07",
+    "description": "Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. Founded in 2012 by Alex Dean and Yali Sassoon, it names Strava, HelloFresh, Auto Trader, and Burberry among its customers. The tracking model is the enduring core: trackers send events that are validated against self-describing JSON schemas, with vendor, name, and version carried in an iglu: reference, invalid events routed out rather than silently accepted, and Iglu acting as the schema registry. Eighteen documented enrichments cover campaign attribution, bot detection, user-agent parsing, IP anonymization, PII pseudonymization, and currency conversion, and destinations include Snowflake, Databricks, BigQuery, Redshift, Delta Lake, and Apache Iceberg, plus Kafka, Kinesis, and Pub/Sub streams. Snowplow Console manages the pipeline, Snowplow Mini provides single-instance testing, and Event Studio and data model packs round out the tooling. Signals, launched in May 2025, is the AI-facing layer: a profiles store with a sub-10-millisecond API claim, an interventions engine driven by rules or machine learning, conversion, churn, and lifetime-value propensity predictions, and agentic context exposed through Python and Node SDKs. One licensing change matters more than any feature: since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement, and the documentation states the community edition is for testing and evaluation and must not be deployed in production; the paid Self-Hosted Pipeline plan exists specifically to remove that restriction. Components still release actively (enrich 6.13.1 in August 2026, the BSD-3 JavaScript tracker at 4.10.1). Pricing has no published figures: a 14-day full trial with no credit card, then quote-based managed and self-hosted plans priced on event volume and destinations.",
     "seo_title": "Snowplow Review: Open Source | MartechSignal",
-    "seo_description": "Snowplow, Open-source customer data infrastructure for collecting, enriching, and activating behavioral data. Open source & free to self-host. Compare.",
+    "seo_description": "Snowplow: behavioral event infrastructure serving real-time customer context to AI agents and warehouses. Quote-based pricing. Compare alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Snowplow is behavioral-data infrastructure, not a dashboard: you run the pipeline, own the raw event stream, and schema-validate every event before storage. For teams with data engineering capacity, it removes the sampling, retention, and access limits of SaaS product analytics entirely.",
-        "The operational weight is real - Kafka or similar queueing, storage, and pipeline monitoring are on you. The payoff is a clean event warehouse feeding any downstream tool indefinitely. Product organizations with data teams get compounding returns; smaller teams will drown in it."
+      "install": [
+        "Managed path: start the 14-day free trial from snowplow.io/pricing; the page states no credit card and no sales call are required to start.",
+        "Local testing: run Snowplow Micro, a lightweight pipeline in a Docker image (snowplow/snowplow-micro) that receives, validates, and enriches events with a UI at localhost:9090/micro/ui; the docs state it is not designed for production traffic.",
+        "Self-hosted path is Terraform, not docker compose: sign up for the Community Edition, then terraform init, plan, and apply for the Iglu server followed by the pipeline, with reference architectures for AWS Kinesis to Redshift, Snowflake, or Databricks, GCP Pub/Sub to BigQuery, and Azure Event Hubs to ADLS.",
+        "Instrumentation starts with a tracker; the JavaScript tracker (BSD-3-Clause, v4.10.1) is the common entry point, and Snowtype generates typed tracking code from your schemas.",
+        "Validate early: events that fail schema validation are routed to a failed-events path rather than dropped silently, so wiring that monitoring in on day one is the documented pattern."
       ],
-      "verdict": "Maximum-control behavioral data for teams with engineers; the opposite of plug-and-play by design."
+      "requirements": "Self-hosting means Terraform plus a cloud message queue (Kinesis, Pub/Sub, or Event Hubs) and a warehouse or lake destination, operated by your team. Micro needs only Docker. The managed platform removes the pipeline operations entirely; the community edition's SLULA 1.1 terms forbid production deployment, so plan licensing before you build.",
+      "best_for": "Organizations with data engineering capacity that want event-level behavioral data they own in their own warehouse, schema-governed and enrichment-rich, and that are building personalization, propensity modeling, or AI agents on top of a real-time context layer.",
+      "not_for": "Teams wanting a dashboard-first product analytics tool (Snowplow models data, it does not hand you product dashboards), and anyone expecting the free open-source pipeline of earlier years: production self-hosting now requires a paid plan under SLULA 1.1, and small teams without pipeline operations experience will feel the weight.",
+      "hands_on": [
+        "Assessed from snowplow.io, docs.snowplow.io, the pricing page, and the component repos; we have not run a Snowplow pipeline. The scale signals are consistent across sources: 7,000-plus stars on the umbrella repo, named customers including Strava and Burberry, and components shipping point releases in August 2026.",
+        "The correction that matters against our earlier record: Snowplow is no longer free open source for production use. Since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement v1.1, and the self-hosted quick start states the community edition must not be deployed in production; the paid Self-Hosted Pipeline plan is described as removing the non-commercial restriction. Our record previously said open-source self-hosted free, and the repo's Apache-2.0 badge obscures the README's licensing note. The JavaScript tracker remains BSD-3-Clause, and pre-2024 versions still carry Apache terms but receive no security patches.",
+        "The product surface has widened beyond the pipeline: Snowplow Signals (May 2025) adds real-time profiles, an interventions engine with rules or ML triggers, and propensity predictions exposed through Python and Node SDKs, and the site now leads with agentic context for AI. Data-model packs, event studio, and identities round out the managed platform. None of this changes the fundamental shape: you design schemas, own the event stream, and build models downstream.",
+        "The eighteen documented enrichments are the quiet differentiator versus SaaS SDKs: campaign attribution, referrer and UA parsing, bot detection, IP lookup and anonymization, PII pseudonymization, currency conversion, and API or SQL enrichment. Everything is schema-validated before storage, which is why failed-event monitoring is a first-class concern in the docs."
+      ],
+      "verdict": "The deepest behavioral-event infrastructure for teams that own their data pipeline, now priced and licensed like enterprise software rather than the free open-source project it once was.",
+      "faq_extra": [
+        [
+          "Is Snowplow still open source?",
+          "Partly, and the details matter. The GitHub repo badge says Apache-2.0, but the README states that since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement v1.1, which restricts commercial use, and the self-hosted docs say the community edition is for testing and evaluation and must not be deployed in production. Components released before 2024 keep Apache terms but get no security patches. The JavaScript tracker remains BSD-3-Clause, as are some client libraries. In practical terms: you can still inspect everything and self-host for evaluation, but production self-hosting requires a paid plan, which is why the pricing page lists a Self-Hosted Pipeline option described as removing the non-commercial restriction."
+        ],
+        [
+          "What is Snowplow Signals?",
+          "Signals, launched in May 2025, is Snowplow's real-time context layer and the home of its AI-facing features. It combines a profiles store serving customer context with a published sub-10-millisecond p95 API claim, an interventions engine that triggers on rules or machine learning, and propensity predictions for conversion, churn, and lifetime value. It also exposes agentic context, meaning AI agents can read customer state at runtime through Python and Node SDKs. It sits downstream of the event pipeline: behavioral events feed profiles, profiles feed interventions and agents. If you are not building real-time personalization or agent-driven experiences, Signals is the part of the platform you can ignore."
+        ],
+        [
+          "How much does Snowplow cost?",
+          "No dollar figures are published. The pricing page lists three options: a 14-day free trial with full product functionality (no credit card and no sales call required), a Self-Hosted Pipeline plan for teams that want to run the pipeline themselves, and the fully managed Snowplow Platform; both paid options are quote-based. The pricing FAQ says rates are based on monthly event volume, hosting preferences, consumption, and destinations. The one published number is that community self-hosting is free, but under SLULA 1.1 it is licensed for testing and evaluation only, so cost evaluation starts with a quote rather than a price list."
+        ]
+      ]
     }
   },
   {
@@ -5888,16 +5976,42 @@
     "api_available": false,
     "status": "active",
     "date_added": "2026-08-21",
-    "date_updated": "2026-08-31",
-    "description": "Maizzle is an email development framework that brings Tailwind CSS and modern build tooling to HTML email production. It compiles responsive, client-safe templates with CSS inlining, purging, and Outlook conditioning handled at build time, so email developers write Tailwind classes and Maizzle outputs the table-based, inline-styled HTML that clients like Outlook can render. Built on a config-driven architecture with per-environment settings, it supports reusable components, templating, and a starter set aimed at real production emails. The project is MIT-licensed, available via npx (one command scaffolds a new project), with the framework itself at 2, 800-plus stars and a documented, actively maintained core. The honest scope: Maizzle is for developers who code emails, not a drag-and-drop builder for marketers; there is no visual editor, no campaign sending, no analytics. It solves the hardest part of email, reliable rendering across clients, and leaves distribution to your sending platform. Marketing teams without a developer should pair it with a builder instead; agencies and product teams templating transactional or lifecycle email get the most from it.",
+    "date_updated": "2026-09-07",
+    "description": "Maizzle is an MIT-licensed email development framework that compiles Tailwind CSS into email-safe HTML, and version 6, released in June 2026 after 26 release candidates and a complete rewrite, runs on Vite with Vue templates and Tailwind CSS 4. You write Tailwind classes in Vue single-file components, and the build runs a configurable pipeline of transformers: CSS inlining, unused CSS removal, minification, six-digit hex conversion, link and attribute handling, all of which are on by default in v6. The output is production HTML with inlined styles and Outlook fallbacks that you upload to your ESP or hand to a sending service. More than 30 documented components cover responsive layouts, buttons that survive Outlook, dark-mode images, and VML background pieces through dedicated Outlook components; the project claims render testing against Apple Mail, Gmail, Yahoo, and Outlook with compatibility over 95% of email clients. The v6 dev server adds live preview with hot reload, device resizing, dark-mode emulation, compatibility checks that link out to caniemail.com data, command-palette search, and test email sending. Scaffolding is one command (npx maizzle new), environments are config files rather than flags, and a render() and build() API plus a Vite plugin cover Laravel, Nuxt, SvelteKit, and Astro integration. Deployment guides exist for Nodemailer, SendGrid, Mailgun, Postmark, Resend, SES, and Cloudflare, with migration guides from React Email and MJML, and the docs publish an agent skill for coding assistants. Scope stays honest: Maizzle builds templates, it does not send campaigns, manage lists, or report analytics, and there is no visual editor; Mailviews, the commercial template product, is separate. Developers maintaining many templates get versioned, reviewable email code, and marketers who want drag-and-drop need a different category of tool.",
     "seo_title": "Maizzle Review: Email Marketing, Free | MartechSignal",
     "seo_description": "Maizzle, Modern email development framework using Tailwind CSS for responsive campaigns. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Maizzle is a Tailwind CSS-based framework for building HTML email templates with a real build process: components, loops, and environment configs compile to email-safe HTML with inlined styles. For developer teams maintaining many templates, it turns email HTML from a punishment into versioned code.",
-        "It is a framework, not an editor - marketers who want drag-and-drop need a different category of tool. You also still need email-client testing discipline; Maizzle handles the coding pain, not the Outlook rendering quirks entirely. Developer-led email programs are the audience."
+      "install": [
+        "Scaffold a project: npx maizzle new (interactive), or non-interactively npx maizzle new maizzle/maizzle project-name --install, which uses the starter.",
+        "Develop locally: cd project-name && npx maizzle serve (maizzle dev is an alias). Options include --port and --host. The starter's package.json wires dev, build, and a postinstall maizzle prepare step.",
+        "Build for production: npx maizzle build, with flags for --output, --dir, --ext, --pretty, --minify, and --plaintext.",
+        "Per-environment builds are config files, not flags, in v6: npx maizzle make:config production writes production.config.ts, and you build with npx maizzle build --config maizzle.production.ts. There is no --env flag in v6.",
+        "Generators cover the rest of the workflow: npx maizzle make:template, make:layout, and make:component."
       ],
-      "verdict": "The right answer for developer-maintained email templates; marketers should keep their drag-and-drop tools."
+      "requirements": "Node.js and npm to run the CLI; no specific Node version is documented in the framework package.json or the installation docs. No database, server, or runtime dependency beyond the build step, since output is static HTML you deploy to your own sending stack.",
+      "best_for": "Developer-led teams and agencies that maintain many email templates in version control and want Tailwind ergonomics, component reuse, and reliable Outlook handling at build time, with output that drops into any ESP or sending API.",
+      "not_for": "Marketers who want a visual drag-and-drop editor (there is none; Mailviews is the separate commercial product), and teams that want sending, list management, or analytics from the same tool, since Maizzle deliberately stops at compiled HTML.",
+      "hands_on": [
+        "Assessed from maizzle.com/docs and the maizzle/framework releases; we have not built templates with it. Activity is the strongest signal: v6.0.0 landed June 9, 2026 after 26 release candidates, and 236 commits plus point releases followed, including v6.1.3 on September 7, 2026.",
+        "Version 6 is a rewrite, not an increment, and the upgrade guide is blunt about the breakage: templates move from PostHTML HTML to Vue single-file components, front matter is replaced by defineConfig() in script setup, config.js becomes maizzle.config.ts, the outlook config key is replaced by an Outlook component, and CSS inlining, purging, shorthand, and HTML formatting are now always on. Tailwind CSS 4 support arrives with a bundled @maizzle/tailwindcss email config that replaces v5's tailwindcss-preset-email. Existing v5 projects should budget real migration time and read the guide first.",
+        "The repo layout changed with v6 and matters for evaluation: the engine lives in maizzle/framework (with the bulk of the commit history) while maizzle/maizzle is the starter template repository at 2,800-plus stars. Issues are directed at the framework repo.",
+        "Two boundaries the docs leave explicit or absent: there is no documented Node version requirement, and Google Fonts support in v6 links a stylesheet through the Font component rather than documenting font CSS inlining. Neither blocks adoption, but both are worth knowing before you promise font behavior to a client."
+      ],
+      "verdict": "The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.",
+      "faq_extra": [
+        [
+          "Does Maizzle support Tailwind CSS v4?",
+          "Yes, starting with Maizzle 6 (GA June 9, 2026), which the upgrade guide describes as a complete rewrite powered by Vite, Vue, and Tailwind CSS 4. Tailwind ships as a bundled @maizzle/tailwindcss email config, configured through @import and @theme blocks inside style tags instead of a tailwind.config.js file, and it replaces the v5-era tailwindcss-preset-email package. If you are on Maizzle 5, Tailwind v4 is the reason to plan the v6 migration, alongside the move to Vue single-file components."
+        ],
+        [
+          "How does Maizzle handle Outlook?",
+          "Through dedicated components and build-time conditioning rather than runtime hacks. Maizzle provides Outlook, NotOutlook, OutlookBg, and Vml components for conditional markup and vector backgrounds, and the transformer pipeline handles the client-hostile parts automatically: CSS inlining, six-digit hex color conversion, shorthand CSS expansion, and attribute-to-style mapping. The project states its templates are render-tested against Apple Mail, Gmail, Yahoo, and Outlook and claims compatibility with over 95% of email clients. You still need your own testing discipline for specific client quirks; Maizzle removes the mechanical work, not the need to verify."
+        ],
+        [
+          "Can I migrate from MJML or React Email to Maizzle?",
+          "Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path."
+        ]
+      ]
     }
   },
   {
@@ -6172,31 +6286,58 @@
   {
     "slug": "ever-gauzy",
     "name": "Ever Gauzy",
-    "tagline": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "tagline": "Open business management platform: ERP, CRM, HRM, ATS, and time tracking",
     "website": "https://gauzy.co",
     "category": "crm",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Open source, free self-hosted.",
-    "ai_features": "",
+    "price_notes": "Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually",
+    "ai_features": [],
     "integrations": [],
     "github_repo": "ever-co/ever-gauzy",
     "github_stars": 4348,
     "open_source": true,
-    "api_available": false,
+    "api_available": true,
     "status": "active",
     "date_added": "2026-08-25",
-    "date_updated": "2026-08-31",
-    "description": "Ever Gauzy is an open business management platform covering ERP, CRM, HRM, ATS for recruiting, project management, and employee time-tracking under one AGPLv3 codebase. The scope is unusual for open source: most competitors pick one lane, Gauzy bundles HR-adjacent operations with client management, aimed at collaborative, on-demand, and sharing-economy businesses. The stack is Node.js and NestJS with React (Next.js) frontends, an exposed public API at api.gauzy.co, and a companion Ever Teams product for work management that connects to the same platform APIs. Docker deployment is documented, and the company behind it (Ever Co) sells enterprise support around the open core. For a marketing team the realistic entry point is the CRM plus time-and-activity tracking combination, since the ERP depth targets finance workflows few marketing stacks need. At 4, 300-plus stars it is one of the larger projects in this directory, and the feature breadth is real but shallow in places: treat it as a broad platform where you adopt two or three modules, not a suite where you adopt everything.",
+    "date_updated": "2026-09-07",
+    "description": "Ever Gauzy is an open business management platform from Ever Co that bundles ERP, CRM, HRM, applicant tracking, project management, and employee time and activity tracking under an AGPLv3 Community Edition license, with paid Small Business and Enterprise license tiers documented alongside it. The module list is unusually wide for open source: estimates, invoicing, payments, income and expense tracking, inventory and equipment sharing, schedules and appointments, sales pipelines and proposals, goals and KPIs, time off, a help center with knowledge base, and reports, alongside multi-organization, multi-currency, and multi-language support. The stack is TypeScript on Node.js and NestJS with an Angular frontend and TypeORM or MikroORM for data, SQLite for demos and PostgreSQL or MySQL recommended for production, deployable with Docker Compose or Kubernetes. Public APIs are served from api.gauzy.co with Swagger docs at the /docs path, and desktop applications (a server, a desktop app, and a timer app) run on Windows, Mac, and Linux for time and activity tracking. Companion products connect to the same APIs: Ever Teams for work management, built on React, Next.js, and React Native, and Ever Works, an agentic runtime. Hosted cloud pricing is published: a Starter tier free for one company and one employee, Small Business at $17 per month billed annually for ten employees with additional employees at $5 each, and Enterprise at $139 per month billed annually with either unlimited employees or unlimited companies; both paid tiers carry a 90-day free trial, and the hosted SaaS at app.gauzy.co is marked alpha. No AI features are documented in the product; the AI-adjacent material in the repo is developer tooling, not capability. Treat Gauzy as a broad platform where you adopt two or three modules, not a suite you adopt whole.",
     "seo_title": "Ever Gauzy Review: CRM, Open Source | MartechSignal",
     "seo_description": "Ever Gauzy, Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co. Open source & free to self-host. Compare AI.",
     "deep_dive": {
-      "hands_on": [
-        "Ever Gauzy bundles ERP, CRM, HRM with time tracking, and ATS recruiting in one NestJS-based platform - a scope no other open-source project matches. The time-tracking module is the most polished surface, with desktop timers and activity monitoring aimed at distributed teams.",
-        "The employee-monitoring heritage is visible and worth explicit team conversations before rollout. Being a monorepo of many modules, self-hosting demands more operational commitment than single-purpose tools. Organizations wanting one system across operations and HR, willing to run it, get unusual value."
+      "install": [
+        "Fastest look: the hosted demo at demo.gauzy.co, or the hosted SaaS at app.gauzy.co, which the README marks as an alpha version. Default demo logins documented in the README are admin@ever.co / admin and employee@ever.co / 12345678.",
+        "Demo stack in one command: docker-compose -f docker-compose.demo.yml up (Docker Compose v2.20 or later is the stated minimum).",
+        "Production containers: docker-compose up -d after setting JWT_SECRET, JWT_REFRESH_TOKEN_SECRET, and JWT_VERIFICATION_TOKEN_SECRET in .env.compose (the README suggests generating them with openssl rand -hex 64). A docker-compose.infra.yml brings up infrastructure only, and docker-compose.build.yml builds locally.",
+        "From source: yarn bootstrap, optionally yarn prepare:husky, then yarn start; seed demo data with yarn seed or yarn seed:all. The UI runs at localhost:4200 and the API at localhost:3000/api.",
+        "Desktop users install Gauzy Desktop or the Desktop Timer app for Windows, Mac, or Linux from the releases rather than running the web stack."
       ],
-      "verdict": "Unusually broad open-source business platform; best value where time tracking anchors the rollout."
-    }
+      "requirements": "Node.js and Yarn for a source build, with PostgreSQL or MySQL recommended for production (SQLite is the default only for demos; MariaDB, MS SQL, CockroachDB, Oracle, and MongoDB are also listed as supported by the ORM layer). Docker Compose v2.20 or later for containers, Kubernetes documented for production deployments.",
+      "best_for": "Small teams and agencies that want one self-hosted system combining client billing, invoicing, pipelines, and employee time and activity tracking, and are comfortable running a multi-service NestJS platform to get it without per-seat license fees.",
+      "not_for": "Teams wanting a single-purpose, lightweight tool: this is a many-module monorepo with real operational weight. Also reconsider where employee activity monitoring is sensitive; the tracking heritage needs an explicit conversation before rollout. AI-driven CRM is absent by any documented measure.",
+      "hands_on": [
+        "Assessed from github.com/ever-co/ever-gauzy, gauzy.co, and its pricing page; we have not run an instance. The repo is large and active (4,300-plus stars, 27,000-plus commits), and the README is honest about maturity markers: app.gauzy.co is labeled alpha, and the demo database defaults to SQLite unless you configure PostgreSQL or MySQL.",
+        "A correction against our earlier record: Gauzy's own frontend is Angular, not React. The README lists Angular with ngx-admin for the Gauzy UI; Next.js belongs to the companion product Ever Teams, which is a separate codebase connecting to Gauzy's APIs. We had attributed the wrong frontend stack to Gauzy itself.",
+        "The commercial model is clearer than most open-core projects: the README names three license tiers (Community Edition, Small Business, Enterprise), the cloud pricing page publishes exact numbers (Starter free for one company and one employee, Small Business $17 per month billed annually for ten employees plus $5 per additional employee, Enterprise $139 per month billed annually with unlimited employees or unlimited companies), and both paid tiers carry a 90-day free trial. The hosted SaaS is explicitly alpha, so self-hosting or the demo remain the serious evaluation paths.",
+        "No AI features are documented in the product itself. The AI-adjacent items visible in the repo (AGENTS.md, .claude and .cursor directories, CodeRabbit review) are development tooling for contributors, and Ever Works, the agentic runtime product from Ever Co, is a separate project, not a Gauzy module. Any AI capability claim about Gauzy should be treated as unsupported until it appears in the README or changelog."
+      ],
+      "verdict": "Unusually broad open-source business platform with published cloud pricing; best value where time and activity tracking anchors the rollout, and best run by teams with operational patience.",
+      "faq_extra": [
+        [
+          "How much does Ever Gauzy cost in practice?",
+          "Self-hosting is free under the AGPLv3 Community Edition license with no seat limits in the license itself. The hosted cloud plans are published in USD: Starter is free forever for one company and one employee; Small Business is $17 per month billed annually ($204 per year) for one company with ten employees, and additional employees cost $5 per month each; Enterprise is $139 per month billed annually ($1,668 per year), either with one company and unlimited employees or unlimited companies with ten employees each, and additional employees cost $10 per month each. Both paid tiers include a 90-day free trial, and customized UX/UI design or integrations carry additional quoted fees."
+        ],
+        [
+          "Can I use Ever Gauzy free for business, and what does AGPLv3 require?",
+          "Yes for internal business use, with one obligation to understand. Gauzy's default license is the AGPLv3 Community Edition, and the README also names paid Small Business and Enterprise license tiers for teams that need different terms. AGPLv3 closes the hosting loophole in plain GPL: if you offer Gauzy to users over a network, you must make the corresponding source available to those users. Running it internally for your own staff does not create that obligation. If you plan to resell hosted access to clients or modify the code and want to keep changes private, that is exactly what the commercial tiers exist for, so read the license terms before building on it."
+        ],
+        [
+          "Does Ever Gauzy include employee time tracking?",
+          "Yes, and it is the platform's anchor module. The README lists employee time-tracking, activity, and productivity tracking as a core capability, and it ships with dedicated desktop applications: Gauzy Desktop and a Desktop Timer app for Windows, Mac, and Linux, so tracked time feeds the same platform that handles invoicing, estimates, and payroll-adjacent reporting. The related features (schedules, appointments, time off, holidays) sit in the same module set. Note that activity tracking of this kind is employee monitoring in substance, so involve the people being tracked before rollout rather than after."
+        ]
+      ]
+    },
+    "paid_from": 17
   },
   {
     "slug": "frappe-crm",
@@ -6267,31 +6408,64 @@
   {
     "slug": "open-mercato",
     "name": "Open Mercato",
-    "tagline": "The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, even",
+    "tagline": "Open-source TypeScript foundation for AI-built commerce, CRM, and ERP",
     "website": "https://www.openmercato.com/",
     "category": "agent-skills",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Open source, free self-hosted.",
-    "ai_features": "",
+    "price_notes": "MIT-licensed core, free self-hosted; a separate Enterprise Edition package (SSO, MFA, record locks) exists with no published pricing",
+    "ai_features": [
+      "AI development harness with 192 evaluation cases",
+      "MCP server exposing about 70 tools",
+      "LLM email triage with human approval gate"
+    ],
     "integrations": [],
     "github_repo": "open-mercato/open-mercato",
-    "github_stars": 1681,
+    "github_stars": 1708,
     "open_source": true,
-    "api_available": false,
+    "api_available": true,
     "status": "active",
     "date_added": "2026-08-25",
-    "date_updated": "2026-08-31",
-    "description": "Open Mercato is an open-source AI-engineering foundation for commerce and ERP/CRM projects: a TypeScript codebase where multi-tenancy, RBAC, event handling, and domain modules are pre-decided as conventions and specifications, so AI coding agents (Cursor, Claude Code, Codex) build features instead of re-deciding architecture on every prompt. The framing 'start with 80% done' is the honest pitch: you get commerce primitives (catalog, cart, checkout scaffolding) plus the platform plumbing that normally takes weeks, and your team, human or agent, fills in the differentiating 20%. The README documents a quick start with Docker, PostgreSQL, Redis, and JWT configuration, with separate setup paths for macOS/Linux and Windows. This is a foundation framework, not a product: there is no admin UI polish or marketing-tool surface to evaluate, and the right comparison is against starting a NestJS project from scratch, not against Shopify or a configured CRM. For teams that match the profile (TypeScript competence, custom commerce or marketplace ambitions, AI-assisted development workflow), it removes real ground work. Everyone else should look at configured platforms first.",
+    "date_updated": "2026-09-07",
+    "description": "Open Mercato is an MIT-licensed TypeScript framework that positions itself as an AI-engineering foundation for commerce, CRM, and ERP builds: business modules and platform conventions ship pre-decided, so human developers and AI coding agents build features instead of re-arguing architecture on every prompt. The pitch is starting at 80% done. The stack is a Yarn-workspaces monorepo on Next.js App Router with MikroORM, zod, Redis, and Meilisearch, and the core package ships catalog, sales (quoting, ordering, fulfillment, billing, payment gateways, shipping carriers), a CRM module with people, companies, deals, and activities, a customer self-service portal, checkout, workflows, business rules, custom entities, translations, dashboards, audit logs, and API keys. Multi-tenancy is the default posture: a directory module provisions tenants and organization trees, tenant and organization context propagates so queries filter themselves, and per-tenant field-level encryption uses AES-GCM. RBAC is two-layer, roles bundling module.action feature strings with per-user, per-tenant overrides. The AI story is documented rather than implied: the repo carries an AGENTS.md spec-first workflow, a standalone AI development harness with 192 evaluation cases and tool configuration for Claude Code, Codex, and Cursor, an in-product AI framework with typed module agents and a mutation-approval gate, and an MCP server exposing about 70 tools. An Enterprise Edition package adds SSO with OIDC and SCIM, MFA, and record locks outside the MIT core, with no published pricing. A public demo runs at demo.openmercato.com, sandboxes at sandboxes.openmercato.com, and community chat on Discord. Version 0.7.0 shipped on August 26, 2026, and the requirements are honest about weight: Node 24, PostgreSQL 17 with pgvector, Redis 7, and Meilisearch via Docker Compose. This is a foundation framework, not a product: compare it against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM.",
     "seo_title": "Open Mercato Review: Open Source | MartechSignal",
     "deep_dive": {
-      "hands_on": [
-        "Open Mercato bills itself as an AI-engineering foundation for commerce rather than a finished product, and that framing holds up: you get TypeScript scaffolding with multi-tenancy and RBAC wired in, then build on top. This is a developer's tool; there is no friendly admin onboarding path.",
-        "Pick it when you are standing up a custom commerce or marketplace backend and want commerce primitives handled. If you want a CRM you configure rather than code, look elsewhere."
+      "install": [
+        "Monorepo quick start from the docs: git clone https://github.com/open-mercato/open-mercato.git, cd open-mercato && git checkout develop, docker compose up -d, then cp apps/mercato/.env.example apps/mercato/.env and set DATABASE_URL, JWT_SECRET, and REDIS_URL.",
+        "Continue with yarn install, yarn build:packages, yarn generate, then yarn build:packages a second time (the docs require it), then yarn initialize, which runs migrations, seeds roles, provisions an admin, and loads demo CRM data (pass --no-examples to skip demo data).",
+        "Start development with yarn dev; the backend app runs at http://localhost:3000/backend with credentials printed by yarn initialize, and the splash page on port 4000.",
+        "For a standalone project rather than the monorepo: npx create-mercato-app my-app. The CLI binary is yarn mercato, used for commands such as auth setup, db:migrate, entities install, and api_keys add.",
+        "Upgrades follow git pull && yarn install && yarn db:migrate && yarn generate && yarn dev. Development variants include yarn dev:greenfield, dev:ephemeral, dev:classic, and dev:verbose."
       ],
-      "verdict": "Strong foundation for engineering-led commerce builds; not a turnkey business tool."
+      "requirements": "Node.js 24 with Yarn 4 via corepack. Docker Compose brings PostgreSQL 17 with the pgvector extension, Redis 7, and Meilisearch (ports 5432, 6379, and 7700). The MCP server runs separately (yarn mcp:dev on port 3001, yarn mcp:serve in production).",
+      "best_for": "TypeScript teams standing up custom commerce, marketplace, or CRM backends with an AI-assisted development workflow, who want multi-tenancy, RBAC, and business modules already decided so agents and developers spend their time on the differentiating features.",
+      "not_for": "Teams that want a CRM or storefront they configure rather than code, and anyone needing a turnkey admin experience on day one. Enterprise features (OIDC/SCIM SSO, MFA, record locks) live in a separate package with no published pricing, so regulated buyers need to talk to the vendor first.",
+      "hands_on": [
+        "Assessed from the repository, docs.openmercato.com, and openmercato.com; we have not run it. The project is young (repo created September 2025) and moving fast: v0.7.0 on August 26, 2026 added the standalone AI development harness, an EUDR module, a warranty and RMA desk, and mobile push, following v0.6.7 with a phase-one WMS. Expect breaking change cadence typical of 0.x software.",
+        "The AI tooling is the substance behind the marketing framing, and it is unusually concrete for an open-source project: an AGENTS.md with a 32,768-byte budget and Always/Ask-First/Never rules, spec-first design in .ai/specs/, per-agent configuration for Codex, Claude Code, and Cursor, 192 evaluation cases, and a documented MCP server with about 70 tools plus a full Claude Code setup guide. CLAUDE.md in the repo is a one-line pointer to AGENTS.md.",
+        "Two documentation gaps are worth knowing before you commit: the website still claims version 0.4.6 against an actual v0.7.0, and the docs' pinned Yarn version (4.12.0) disagrees with package.json (4.17.1). Neither is serious, but both mean you should trust package.json and GitHub releases over the marketing site.",
+        "Scale expectations matter: 1,700-plus stars, a public Discord, a demo at demo.openmercato.com, and sandboxes at sandboxes.openmercato.com signal an active early project, not an established platform. The roadmap (visual module scaffolder, GraphQL gateway, multi-region tenancy, plugin marketplace) is documented but unbuilt."
+      ],
+      "verdict": "A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.",
+      "faq_extra": [
+        [
+          "Is Open Mercato a ready-to-use CRM or ERP?",
+          "No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work."
+        ],
+        [
+          "How does Open Mercato work with Claude Code, Codex, or Cursor?",
+          "The framework is built around agent tooling. The repo's AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land."
+        ],
+        [
+          "What does Open Mercato cost to run?",
+          "The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list."
+        ]
+      ]
     },
-    "seo_description": "Open Mercato, The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, even. Open source &."
+    "seo_description": "Open Mercato, The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy, RBAC, even. Open source &.",
+    "founded": 2025,
+    "hq": "Open source",
+    "last_release": "v0.7.0 (2026-08-26)"
   },
   {
     "slug": "marketing-studio",
