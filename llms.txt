@@ -147,6 +147,7 @@
 - [Potato](https://martechsignal.com/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (open source)
 - [Semrush](https://martechsignal.com/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
 - [Seonaut](https://martechsignal.com/tools/seonaut/): Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues (open source)
+- [Superlines](https://martechsignal.com/tools/superlines/): AI Search Intelligence platform for brands and agencies
 - [Surfer SEO](https://martechsignal.com/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 
 ### Social Media
@@ -172,7 +173,7 @@
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Workato](https://martechsignal.com/tools/workato/): Enterprise integration and automation platform with AI-powered workflow orchestration
-- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 7,000+ apps with AI-powered workflows
+- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 ## Analysis
 
