@@ -1295,36 +1295,58 @@
     "website": "https://www.espocrm.com",
     "category": "crm",
     "pricing_model": "open-source",
-    "pricing_url": null,
+    "pricing_url": "https://www.espocrm.com/cloud/",
     "price_from": 0,
-    "price_notes": "Free open-source self-hosted; paid extensions and cloud hosting available",
-    "ai_features": [
-      "Workflow automation",
-      "Email marketing automation",
-      "Lead management"
-    ],
+    "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from EUR 12.90/user/mo (Basic, min 3 users) to EUR 59 (Ultimate, min 10), all plans include the Advanced Pack.",
+    "ai_features": [],
     "integrations": [],
     "github_repo": "espocrm/espocrm",
     "github_stars": 3166,
-    "last_release": null,
+    "last_release": "10.0.7 (2026-09-03)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": null,
-    "hq": null,
+    "founded": 2011,
+    "hq": "Delaware, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Designed as a self-hosted alternative to proprietary customer relationship platforms, EspoCRM gives small and mid-sized teams a lightweight way to manage contacts, leads, opportunities, and customer communications without licensing lock-in. The system is open source, with an active GitHub presence of more than 3, 000 stars, and can be deployed on a company's own infrastructure. Its interface is cleaner and less complex than many enterprise CRMs, which can reduce setup time and make it easier for non-technical users to adopt.\n\nEspoCRM includes sales automation, email marketing automation, lead management, and workflow rules that can route records, trigger actions, and standardize follow-up processes. An API is available for connecting the CRM to other marketing and business tools, while paid extensions and managed cloud hosting options allow organizations to expand functionality without building everything internally. Its AI-related strengths are practical rather than experimental: automation-focused features help teams prioritize leads, coordinate campaigns, and reduce manual data handling. Compared with commercial alternatives such as Salesforce or HubSpot, EspoCRM trades breadth of ecosystem and native AI services for greater control, lower base cost, and a more modular approach.\n\nThe free self-hosted edition makes it especially attractive for budget-conscious teams, agencies, and internal IT groups that want ownership over customer data. Paid add-ons and hosting are available when more support or convenience is needed. EspoCRM is best for technically comfortable SMBs and marketing operations teams that need a flexible, open-source CRM with automation capabilities and do not require a large enterprise platform.",
+    "date_updated": "2026-09-07",
+    "description": "EspoCRM is a self-hosted CRM under AGPLv3 that has been in development since 2011, started in Ukraine and now owned by EspoCRM, Inc., a Delaware corporation, and it moves fast: 10.0.7 shipped on September 3, 2026, three months after the 10.0 line landed. The free core covers accounts, contacts, leads, opportunities, cases, a knowledge base, customer portals, mass email campaigns with target lists and mail merge, web-to-lead forms, kanban, and a formula engine with dynamic logic for calculated fields and conditional UI; version 10 added multiple pipelines, record locking, and categories for custom entity types. What the free edition leaves out matters when you compare it with commercial CRMs: workflow automation, the business process management designer, and reports are paid extensions sold together as the Advanced Pack, as are VoIP and Twilio telephony, Google Workspace and Outlook sync, and the AI add-on. That add-on, called Intelligence and first released in August 2026, connects to OpenAI, Gemini, Claude, or any OpenAI-compatible provider and adds summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, which is the only AI surface in the product. Integration work is well served: a documented REST API at api/v1 with an OpenAPI spec since version 9.3 and official API clients in PHP, JavaScript, Python, Rust, Java, Go, and Zig. Requirements are PHP 8.3 through 8.5 with MySQL 8 or later, MariaDB 10.3 or later, or PostgreSQL 15 or later, plus an optional WebSocket daemon for real-time updates. Installation is an archive with a browser wizard, a shell script with Let's Encrypt options, or Docker. Vendor-hosted cloud plans run from EUR 12.90 per user monthly on Basic to EUR 59 on Ultimate, each including the Advanced Pack. We have not run EspoCRM; this assessment is from the repository, the docs, and the vendor site.",
     "seo_title": "EspoCRM Review: CRM, Open Source | MartechSignal",
     "seo_description": "EspoCRM, Lightweight open-source CRM with sales automation, marketing tools, and customer management. Open source & free to self-host. Compare AI.",
     "deep_dive": {
-      "hands_on": [
-        "EspoCRM is the open-source option that does not feel like a side project. It ships with entities for accounts, contacts, leads, opportunities, and cases, plus a workflow engine and BPM designer that are genuinely usable. Extending the data model is done in the admin UI without touching code. The UI is dated compared to modern SaaS, but it is fast and complete.",
-        "The extension marketplace covers the gaps (email, telephony, and integrations). For a small team that wants ownership of the data layer and no per-seat fee, EspoCRM is the serious alternative to the freemium SaaS crowd."
+      "install": [
+        "Fastest route is the official installer script: wget -N https://github.com/espocrm/espocrm-installer/releases/latest/download/install.sh then sudo bash install.sh. Add --ssl for certificates, or run unattended with sudo bash install.sh -y --ssl --letsencrypt --domain=my-espocrm.com --email=email@my-domain.com.",
+        "Docker route per the docs: create an espocrm-network and four volumes (espocrm-db, espocrm-data, espocrm-custom, espocrm-custom-client), then run a MariaDB container plus espocrm/espocrm published on 8080, and an espocrm-daemon container alongside. Default login is admin / admin_password.",
+        "Archive route: extract the release archive to your web server directory (the docs name public_html or www), set 755 for directories, 644 for files, and 775 for the data directory, with ownership typically www-data:www-data, then open the domain in a browser to run the wizard.",
+        "Scheduled jobs need cron: add * * * * * /usr/bin/php -f /var/www/html/espocrm/cron.php > /dev/null 2>&1 through crontab -e -u WEBSERVER_USER.",
+        "Real-time updates are optional and separate: a WebSocket daemon (websocket.php) runs under systemd and needs the ZMQ PHP extension."
       ],
-      "verdict": "The strongest self-hosted CRM for teams that need workflow automation without paying per user."
+      "requirements": "PHP 8.3 to 8.5 with pdo_mysql or pdo_pgsql, gd, openssl, zip, mbstring, iconv, curl, xml, xmlwriter, exif, and bcmath. Database: MySQL 8.0 or later, MariaDB 10.3 or later, or PostgreSQL 15 or later. The docs ask for max_execution_time and max_input_time of 180, memory_limit of 256M, and 50M upload and post sizes. Apache, Nginx, and IIS are supported; Elasticsearch and RabbitMQ are not part of the documented stack.",
+      "best_for": "Small and mid-sized teams that want a self-hosted CRM with real mass email, target lists, case handling, and a customer portal out of the box, and that will pay once for the Advanced Pack rather than per seat. Agencies and IT teams that want a documented REST API with an OpenAPI spec and clients in seven languages will find the integration path unusually well covered.",
+      "not_for": "Teams that need workflow automation, BPM, or reporting without paying: those are Advanced Pack extensions, not free core. Also skip it if AI features are a buying requirement for the free edition, since Intelligence is a paid add-on released in August 2026, and if you want an OSI license without copyleft, since AGPLv3 applies to modifications served over a network.",
+      "hands_on": [
+        "Assessed from the repository, docs.espocrm.com, and espocrm.com; we have not run an instance. The correction worth making up front: workflow automation, the BPM designer, and reports are paid extensions in the Advanced Pack, not part of the free edition, so the free product's automation surface is the formula engine and dynamic logic rather than rule-based workflows. Cloud plans bundle the Advanced Pack, which changes the comparison with per-seat SaaS CRMs considerably.",
+        "Release cadence is the strongest freshness signal in this category: the 10.0 line shipped July 2, 2026 and reached 10.0.7 by September 3, with 9.x maintained in parallel at 9.3.10. Version 10 brought multiple pipelines, record locking, cascade removal with restore, and categories for custom entities; 9.x added collaborators, scheduled email send, web-to-lead forms, and the OpenAPI spec. Two releases in the 10.0 line were security fixes with published GitHub advisories, which is the pattern you want to see in a project that handles customer data.",
+        "The extension catalog is where EspoCRM monetizes, and pricing is not published on the product pages: neither the Advanced Pack nor the Intelligence add-on shows a number on espocrm.com, so budget planning means contacting the vendor. Cloud hosting is the exception, with published EUR pricing: Basic at EUR 12.90 per user monthly with a three-user minimum, Enterprise at EUR 22 with five users, and Ultimate at EUR 59 with ten users, all including the Advanced Pack and official extensions.",
+        "The API story is better than most open-source CRMs manage: a documented REST API under api/v1, an OpenAPI spec available at /api/v1/OpenApi since 9.3, and first-party clients for PHP, JavaScript, Python, Rust, Java, Go, and Zig. No native AI ships in the free core; the Intelligence extension is the AI surface, and its release notes show it arrived in August 2026 with OpenAI-compatible provider support added two weeks later."
+      ],
+      "verdict": "A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.",
+      "faq_extra": [
+        [
+          "Does EspoCRM have AI features?",
+          "Not in the free core. AI arrives through the paid Intelligence extension, first released August 3, 2026, with version 1.1.0 on August 14 adding custom OpenAI-compatible providers. Documented capabilities cover OpenAI, Gemini, and Claude integrations, record and email summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, plus usage logging and quotas. There are no AI agents, and the docs have no AI section outside the extensions area, so treat AI as an add-on decision rather than a core feature."
+        ],
+        [
+          "Is EspoCRM free? What do the paid parts cost?",
+          "The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in EUR: Basic EUR 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise EUR 22.00 (minimum 5, 10GB), and Ultimate EUR 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions."
+        ],
+        [
+          "EspoCRM vs SuiteCRM: which open-source CRM fits better?",
+          "Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026."
+        ]
+      ]
     }
   },
   {
@@ -1904,17 +1926,17 @@
     "website": "https://krayincrm.com",
     "category": "crm",
     "pricing_model": "open-source",
-    "pricing_url": null,
+    "pricing_url": "https://krayincrm.com/extensions/",
     "price_from": 0,
-    "price_notes": "Free open-source; self-hosted",
+    "price_notes": "Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices.",
     "ai_features": [
-      "AI lead scoring",
-      "Workflow automation"
+      "Magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module)",
+      "Automation package: event triggers, conditions, actions, and webhooks"
     ],
     "integrations": [],
     "github_repo": "krayin/laravel-crm",
-    "github_stars": 23508,
-    "last_release": null,
+    "github_stars": 23843,
+    "last_release": "v2.2.5 (2026-08-04)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
@@ -1923,16 +1945,42 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Krayin CRM is an open-source Laravel CRM that covers the fundamentals and stops there. Built on Laravel (the PHP framework powering a significant chunk of the web), Krayin handles leads, contacts, organizations, pipeline management, activities, and email integration.\n\nWhat Krayin gets right is the Laravel-native approach. If your team already runs a Laravel application, Krayin slots into your stack without introducing a new language, database, or deployment model. The codebase is MIT-licensed and hosted on GitHub, so you can fork it, brand it, and extend it without licensing friction. A multi-tenant SaaS edition exists for teams running multiple business units from a single deployment, a feature most open-source CRMs skip.\n\nThe limitations are straightforward: Krayin is a traditional CRM, not an AI-powered one. No built-in lead scoring, no predictive analytics, no workflow automation engine. Email integration is basic IMAP/SMTP, not the deep Gmail/Outlook sync of HubSpot or Attio. The UI is functional Laravel admin-panel style, clean but not modern by 2026 standards. Third-party integrations are sparse compared to commercial CRMs; you'll be building most connections yourself.\n\nKrayin is best for Laravel shops that want a self-hosted CRM they can extend in PHP, teams with strong privacy requirements where data must never leave their servers, and organizations that need a basic pipeline manager without the SaaS tax. It is not for teams expecting AI features, plug-and-play integrations, or a polished user experience out of the box. Think of it as a CRM starter kit rather than a finished product.",
+    "date_updated": "2026-09-07",
+    "description": "Krayin CRM is an MIT-licensed, Laravel-native open-source CRM from Webkul, with 23,800-plus GitHub stars and a steady release rhythm: v2.2.5 shipped August 4, 2026, and the 2.2 branch took commits in September 2026. The current line requires PHP 8.3 or later and Laravel 12, with MySQL 8.0.32 or later, MariaDB 10.3 or later, and at least 3GB of RAM, so check the stack before installing. The feature set is broader than older reviews suggest: leads with multiple pipelines, quotes, activities, contacts and organizations, tags, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, email templates, a marketing package, and an import-export layer, with dashboard support for multiple pipelines added in 2.2.4. Two corrections to the common criticisms. Krayin does ship a workflow engine: the Automation package provides event triggers, conditions, and actions plus webhooks, though documentation for it is thin. And it does have a genuine AI feature, Magic AI, which creates leads from uploaded PDFs and images using an OpenRouter API key and ships as an official module rather than in core. What is still absent is lead scoring and predictive analytics; the marketing copy mentions sales forecasting without documenting a forecasting engine. Email handling is inbound-focused: a SendGrid Inbound Parse webhook turns mail to your domain into HTTP posts, or an IMAP driver polls an existing mailbox, with outbound mail on Laravel configuration. The REST API is a separate composer package with Sanctum bearer tokens and Swagger documentation, not something the base install ships with. Installation is composer create-project plus an artisan installer that prompts for app and database settings and seeds an admin account. Paid extras include a multi-tenant SaaS extension at $1,799 and vendor cloud hosting with no published prices. We have not run Krayin; this assessment is from the repository, the docs, and the site.",
     "seo_title": "Krayin CRM Review: CRM, Open Source | MartechSignal",
     "seo_description": "Krayin CRM, Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. Open source & free to self-host. Compare AI.",
     "deep_dive": {
-      "hands_on": [
-        "Krayin CRM is the Laravel-native open-source CRM: leads, contacts, organizations, pipeline, activities, and basic email integration, MIT-licensed with more than 23,000 GitHub stars, plus a multi-tenant SaaS edition for operators running several business units from one deployment. If your team already ships Laravel, it slots in without a new language, database, or deployment model, and you can fork and brand it freely.",
-        "Simple is the whole story: no genuine AI scoring despite the marketing, no predictive analytics, basic IMAP and SMTP email rather than deep Gmail or Outlook sync, and sparse integrations you will build yourself. The UI reads as functional admin panel rather than modern design. For Laravel shops that want a self-hosted base to extend, it is the honest budget pick; others will feel the gaps."
+      "install": [
+        "Create the project and run the installer: composer create-project krayin/laravel-crm, then php artisan krayin-crm:install. If no .env exists, the installer prompts for app name, URL, locale, currency, database connection, and admin credentials; otherwise edit APP_URL plus the mail and database parameters in .env yourself.",
+        "The web root must point at laravel-crm/public/. The default admin signs in at /admin/login with admin@example.com and admin123, so change both before anything touches the internet.",
+        "For production the README recommends removing development dependencies with composer install --no-dev.",
+        "The REST API is a separate package: composer require krayin/rest-api, then php artisan krayin-rest-api:install and php artisan l5-swagger:generate. Swagger UI lands at /api/admin/documentation, with Sanctum bearer-token endpoints such as POST /api/admin/login and GET /api/admin/leads.",
+        "Magic AI is configured after install under Dashboard, Settings, Configuration, Magic AI, where you supply an OpenRouter API key; the docs show a free Llama model as the example."
       ],
-      "verdict": "A solid Laravel-native base for self-hosted teams that will extend it. Everyone else gets more from hosted CRMs."
+      "requirements": "PHP 8.3 or higher with the intl and gd extensions, Laravel 12 (the 2.2 branch composer.json pins ^8.3 and ^12.0), MySQL 8.0.32 or later or MariaDB 10.3 or later, Composer 2.5 or higher, and 3GB RAM or more per the docs requirements page. Note the master-branch README still says PHP 8.2 or higher; the 2.2 branch is the accurate source. Mail needs either a SendGrid account for inbound parse or an IMAP mailbox for the pull driver.",
+      "best_for": "Laravel shops that want a self-hosted CRM they can extend in PHP without license friction: MIT code, familiar artisan tooling, web-to-lead forms, multiple pipelines, custom fields, and a REST API you can add as a composer package. Also a fit for teams that need a second language locale trail (Korean and Japanese landed in the last two releases) and prefer paying for extensions rather than seats.",
+      "not_for": "Teams buying on AI: there is no lead scoring or predictive analytics, and Magic AI is document-to-lead extraction rather than pipeline intelligence. Also skip it if you need deep two-way Gmail or Outlook sync, a large native integration marketplace, or automation that is documented well enough to learn from the manual rather than the code.",
+      "hands_on": [
+        "Assessed from the repository, devdocs.krayincrm.com, and krayincrm.com; we have not run an instance. Two corrections to our own earlier read: the Automation package is a real trigger, conditions, and actions engine with webhooks, and Magic AI is a documented AI feature that turns uploaded PDFs and images into leads through OpenRouter. Neither makes Krayin an AI CRM, but the flat no-automation claim that circulates in reviews is out of date.",
+        "Security history deserves attention before you expose an install. Version 2.2.5 fixed unauthenticated installer access and executable email attachment uploads; 2.2.4 fixed unrestricted file upload, stored XSS in notes, IDOR on agent access, and SQL injection in the lead filter, plus webhook validation rejecting internal endpoint URLs in 2.2.5. The pattern says the project patches, and also that running the latest release matters.",
+        "Documentation lag is the operational tax. The master README still says PHP 8.2 while the 2.2 branch requires 8.3, and the Automation package has no user-facing manual page, so expect to read source for workflow specifics. Release notes are informative where the docs are not: import and export for custom lead and person attributes, Google Contacts export, group-based view permissions, and quick attributes on lead forms all landed in the last two releases.",
+        "The commercial layer is a Webkul storefront rather than a core fork: extensions for VoIP, WhatsApp, purchase orders, and Google integration list on krayincrm.com without prices, the multi-tenant SaaS extension is published at $1,799 for Krayin 2.1.0, and cloud hosting advertises paying for servers rather than seats with no published rates. Budget discovery is a sales conversation."
+      ],
+      "verdict": "A current, actively maintained Laravel CRM that is more capable than its reputation on automation and AI, thinner than its marketing on documentation, scoring, and integrations, and best treated as an extendable base.",
+      "faq_extra": [
+        [
+          "Does Krayin CRM have AI features or lead scoring?",
+          "It has one documented AI feature and no lead scoring. Magic AI creates leads from uploaded PDFs and images using an OpenRouter API key, configured under Settings, Configuration, Magic AI, and ships as an official module rather than in the core packages. There is no lead scoring, no predictive analytics, and no documented forecasting engine; the homepage phrase sales forecasting has no matching feature documentation. Treat Krayin as a traditional CRM with one document-parsing AI add-on."
+        ],
+        [
+          "How much does Krayin CRM cost?",
+          "The core is free under the MIT license with no user limits, so self-hosting costs only infrastructure. Paid pieces are optional: Webkul sells extensions for VoIP, WhatsApp, purchase orders, Google integration, and a multi-tenant SaaS package, with the multi-tenant extension published at $1,799 for Krayin 2.1.0 and other prices unlisted on the site. Vendor cloud hosting exists with no published prices and a pay-for-servers-not-seats pitch. The REST API package is free but is a separate composer install."
+        ],
+        [
+          "Can you import leads and contacts from a CSV or another CRM into Krayin?",
+          "Yes, through the built-in import and export layer (the DataTransfer package), which covers leads, persons, and organizations, with support for custom attributes on leads and persons added in v2.2.5 along with Google Contacts export. There is no documented one-click migration from Salesforce or HubSpot, so plan a CSV path: export from the source system, map columns to Krayin attributes, and import. Custom fields you create in the target should exist before import so the attribute columns can map."
+        ]
+      ]
     }
   },
   {
@@ -3965,33 +4013,56 @@
     "pricing_url": null,
     "price_from": 0,
     "price_notes": "Free open-source self-hosted; paid cloud hosting available",
-    "ai_features": [
-      "AI-powered lead scoring",
-      "Predictive analytics",
-      "Workflow automation"
-    ],
+    "ai_features": [],
     "integrations": [],
     "github_repo": "SuiteCRM/SuiteCRM",
     "github_stars": 5596,
-    "last_release": null,
+    "last_release": "8.10.2 / 7.15.2 ESR (2026-07-31)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
     "founded": null,
-    "hq": null,
+    "hq": "Stirling, Scotland, UK",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "SuiteCRM is an open-source alternative to proprietary customer relationship platforms. It gives teams a centralized system for managing leads, accounts, opportunities, campaigns, and support cases. The platform covers the full customer lifecycle, with sales pipeline management, marketing automation, case tracking, and workflow automation available in a single interface. Because the source code is publicly available, organizations can inspect, customize, and extend the system to match their data models, compliance requirements, and internal processes. Its GitHub repository has more than 5, 500 stars, reflecting an active community around the project.\n\nSuiteCRM is aimed at small, midsize, and enterprise teams that want CRM functionality without per-seat licensing fees or vendor lock-in. It can be deployed free as a self-hosted application, while paid cloud hosting options are available for teams that prefer a managed environment. Key differentiators include its open architecture, API access for custom integrations, and configurable modules for sales, marketing, and customer support. AI-related capabilities include AI-powered lead scoring, predictive analytics, and workflow automation, which can help teams prioritize prospects, forecast activity, and reduce manual administration. Compared with commercial alternatives such as Salesforce or HubSpot, SuiteCRM generally offers greater control and lower base cost, though teams may need more internal technical resources for setup, hosting, and maintenance.\n\nIt fits organizations that need an enterprise-grade CRM with sales, marketing, and support automation and are comfortable managing or supporting an open-source deployment.",
+    "date_updated": "2026-09-07",
+    "description": "SuiteCRM is the AGPLv3 open-source CRM that forked SugarCRM Community Edition and outlived it, maintained by SuiteCRM Ltd from Stirling, Scotland. Two release lines are current: 8.10.2 and 7.15.2 shipped on the same day in July 2026 as a joint security release, and 7.15 is an extended support release with security fixes published into 2028. The module set is the deepest in this directory's CRM category: leads, accounts, contacts, opportunities, quotes, invoices, contracts, PDF templates, campaigns with target lists and confirmed opt-in, surveys, events, cases with a knowledge base, bugs, reports with scheduled runs, calendar, projects, and document management, plus Studio for no-code layout changes and Module Builder for new entities from six templates. Workflow automation is free in the core, with calculated fields, which is the main structural difference from EspoCRM, where workflows are a paid extension. What SuiteCRM does not have matters too: there is no native AI anywhere in the documented feature set, and no official mobile app. Elasticsearch is an optional search backend, and Redis or RabbitMQ are optional message transports for background jobs beyond a single server. Two APIs are documented, the newer V8 API with OAuth and the legacy V4. Requirements are PHP 8.2 to 8.4 with MariaDB 10.6 or later, or MySQL 8.0 or later, on Apache 2.4. Installation is a pre-built zip with a permissions pass, then a browser wizard or a CLI installer with flags for the admin user, database, and demo data. Migrating from 7.x to 8.x is a documented fresh install with three console commands, not a patch. Commercial support is GBP-priced: hosting from 50 pounds monthly with unlimited users, and SuiteASSURED from 3,350 pounds a year carrying warranties and indemnities. We have not run SuiteCRM; this assessment is from the repository, the docs, and the vendor site.",
     "seo_title": "SuiteCRM Review: CRM, Open Source | MartechSignal",
     "seo_description": "SuiteCRM, Enterprise-grade open-source CRM with sales, marketing, and support automation. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "SuiteCRM is the open-source fork of SugarCRM CE, and its longevity shows both ways: the module set (sales, marketing, service, reporting) is mature, and the workflow engine handles real business logic. Deep customization via Studio requires no code for common changes.",
-        "The interface shows its SugarCRM ancestry, and mobile experience lags modern standards. Upgrades between major versions need planning and testing. For organizations wanting an on-premise CRM with a full module set and no per-seat fees, it remains the workhorse option with the largest community."
+      "install": [
+        "Download the pre-built package from suitecrm.com (the docs direct you to pre-built installables rather than composer), unzip into the web root, then run the documented permissions pass: find . -type d -not -perm 2755 -exec chmod 2755 {} \\; , find . -type f -not -perm 0644 -exec chmod 0644 {} \\; , find . ! -user www-data -exec chown www-data:www-data {} \\; , and chmod +x bin/console.",
+        "Install from the CLI in one command: ./bin/console suitecrm:app:install, or pass everything as flags, for example -u \"admin\" -p \"pass\" -U \"root\" -P \"dbpass\" -H \"mariadb\" -N \"suitecrm\" -S \"https://yourcrm.com/\" -d \"yes\", where -d controls demo data. The browser installer is the alternative.",
+        "For the 7.15 line the flow is unzip, chown -R www-data:www-data, chmod 755 with 775 on cache, custom, modules, themes, data, upload, and config_override.php, then open install.php and step through license, system check, database, and site config.",
+        "Scheduled jobs need cron on both lines: * * * * * cd /var/www/html; php -f cron.php > /dev/null 2>&1.",
+        "Front-end development has extra requirements (Node 20.11, yarn 4, Angular CLI 18) that the docs mark as not required for production, since you install a pre-built package."
       ],
-      "verdict": "The established open-source CRM workhorse; dated interface, unmatched on-premise module depth."
+      "requirements": "SuiteCRM 8.10 supports PHP 8.2, 8.3, and 8.4 with MariaDB 10.6, 10.11, 11.4, or 11.8, or MySQL 8.0 or 8.4, on Apache 2.4. The 7.15 line adds PHP 8.1 and supports IIS 10 and Windows Server 2019 or later, plus SQL Server 2019 as a database option. Elasticsearch is optional for search; RabbitMQ or Redis are optional transports for asynchronous tasks, with the default transport your existing database through Doctrine.",
+      "best_for": "Organizations that need a full-module, on-premise CRM with no per-seat fees and workflow automation included free: sales, service, and campaign operations in one PHP application, with a UK-based vendor available for hosting, support, and an indemnity-carrying build. Long-lived 7.x installs get an ESR with security fixes into 2028.",
+      "not_for": "Teams shopping for AI features: there is no native AI capability in the documented product, so lead scoring and prediction mean building on the API or pairing another tool. Also reconsider if your team lives on mobile, since no official mobile app is documented, or if you want a product where upgrades are patches rather than planned migrations.",
+      "hands_on": [
+        "Assessed from the repository, docs.suitecrm.com, and suitecrm.com; we have not run an instance. The maintenance picture is the strongest signal: both release lines shipped security releases on the same day in July 2026, 8.x minor releases arrive roughly every eight weeks per the roadmap, and 7.15 carries published ESR dates. This is a project that still engineers, not a zombie fork.",
+        "The correction that matters most against our earlier record: SuiteCRM has no native AI. Scanning the 8.9 and 8.10 release notes, the 8.x user guide index, the roadmap, and the what-is-SuiteCRM page turns up no AI, LLM, machine learning, or predictive feature; the closest phrase is a marketing header, Actionable Intelligence, that refers to charts and reports. Earlier claims of AI lead scoring and predictive analytics were wrong, and any scoring or prediction work would be your own build on the V8 API.",
+        "Version 8.10.0 is a substantial release: image fields, PDF generation including bulk output, campaign error handling, asynchronous tasks, and the merge of the 7.15 code line into 8.10, which brought PHP 8.4 support, advanced calendar integration and sync, and OAuth authorization code grant for the V8 API. Version 8.10.2 then removed the SOAP portal as a breaking change and added a V4 API query configuration flag that defaults to on, so read the release notes before upgrading rather than assuming drop-in compatibility.",
+        "The 7.x to 8.x migration is documented and is deliberately not a patch: you stand up a new SuiteCRM 8 install, migrate from the latest 7.x release only, and run three console commands, setup-legacy-migration, upgrade with a target package such as SuiteCRM-8.7.0, and upgrade-finalize. The 7 codebase ends up copied into public/legacy. The docs warn that migrating from an older 7.x will fail or produce unstable results, which is the step teams skip.",
+        "Commercial pricing is published in GBP on suitecrm.com: fully managed hosting from 50 pounds monthly, hosted tiers at 143, 198, and 308 pounds monthly (130, 180, and 280 annually) with unlimited users, Quick Start implementation from 2,520 pounds, standard support at 1,200 pounds for ten hours, and SuiteASSURED from 3,350 pounds a year for ten care hours with warranties, indemnities, and performance guarantees."
+      ],
+      "verdict": "The established open-source CRM workhorse: unmatched module depth and free core workflows, with no AI, no mobile app, and a migration path that needs planning. Current, maintained, and still the default on-premise choice.",
+      "faq_extra": [
+        [
+          "Does SuiteCRM have AI features?",
+          "No native ones. The documented feature set, release notes, roadmap, and user guide contain no AI, machine learning, or predictive capability, and there is no AI add-on in the vendor's price list; SuiteASSURED and the support tiers cover hosting, fixes, and guarantees. Teams that want scoring or prediction build it themselves against the documented V8 API with OAuth, or run enrichment and scoring in an external tool and write results back to records. Any vendor claiming AI-driven SuiteCRM features is describing custom work."
+        ],
+        [
+          "How much does SuiteCRM cost?",
+          "Self-hosting is free under AGPLv3 with no user limits in the license. The vendor's published GBP prices: fully managed hosting from 50 pounds per month, hosted plans at 143 pounds monthly (Starter), 198 (Business), and 308 (Premium), cheaper on annual billing and all with unlimited users; Quick Start implementation from 2,520 pounds one-off; standard support at 1,200 pounds for ten hours; and SuiteASSURED, a separately supported build with warranties, indemnities, and performance guarantees, from 3,350 pounds per year for ten care hours. Enterprise support is custom quoted."
+        ],
+        [
+          "How do you migrate from SuiteCRM 7 to SuiteCRM 8?",
+          "As a fresh installation, not an in-place patch. The docs require the latest 7.x release as the source (migrating from an older 7.x will fail or produce unstable results), then a new SuiteCRM 8 install with three console commands: ./bin/console suitecrm:app:setup-legacy-migration, ./bin/console suitecrm:app:upgrade -t with the migration package, for example SuiteCRM-8.7.0, and ./bin/console suitecrm:app:upgrade-finalize. The 7 codebase is copied into public/legacy and continues to serve the legacy surface. Test on a copy, since 8.10 also removed the SOAP portal as a breaking change."
+        ]
+      ]
     }
   },
   {
@@ -5360,14 +5431,16 @@
     "pricing_model": "freemium",
     "pricing_url": "https://macro.com/pricing",
     "price_from": 40,
-    "price_notes": "Free for personal use. Teams $40/seat/mo with every module included; you pay for limits and team features, not feature gates. Self-hosting is free under AGPL-3.0.",
+    "price_notes": "Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0.",
     "ai_features": [
-      "Agent-driven CRM that updates itself from email, chat, docs, and tasks",
-      "Team-level agent memory built nightly from workspace content",
-      "AI email triage with Signal/Noise inbox splitting and auto-tagging",
-      "Email drafting in your voice",
-      "Agents that take tasks, close them, and report back",
-      "MCP interface exposing unified workspace search to agents"
+      "Agent-driven CRM that builds contact and company records from your team's email",
+      "Pipeline stages on company records (no deal entity); stage moves are manual",
+      "Team-level agent memory rebuilt nightly from workspace activity (paid)",
+      "Signal/Noise email triage with auto-tagging",
+      "Email drafting in your voice that sends only on approval",
+      "Agents that take tasks, close them, and report back, on a schedule if you want",
+      "Calls recorded and transcribed into team memory",
+      "MCP server exposing unified workspace search, including PDFs parsed from attachments"
     ],
     "integrations": [
       "Gmail",
@@ -5376,24 +5449,52 @@
       "MCP"
     ],
     "github_repo": "macro-inc/macro",
-    "github_stars": 2534,
+    "github_stars": 4238,
     "open_source": true,
     "api_available": true,
     "founded": 2020,
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-08-13",
-    "date_updated": "2026-08-28",
-    "description": "Macro is an open source office suite that puts email, chat, docs, tasks, calls, and a CRM in one app. The bet is that AI agents are only as useful as the context they can see, and your team's context is scattered across seven SaaS tools. It was founded in 2020 by Jacob Beckerman, backed by Andreessen Horowitz (the site claims $30M+ raised), and open sourced under AGPL-3.0 in mid-2026. It's built in Rust and SolidJS, and the speed obsession shows. The repo picked up roughly 2, 500 GitHub stars and over 5, 000 commits in its first few months out in the open.\n\nThe AI parts are more real than most. The CRM updates itself: contacts, companies, and deal notes get assembled from your email, chat, docs, and tasks, so nobody on your team enters data by hand. Ask 'what's the latest with Hartwell' before a call and you get a recap with receipts. Team-level agent memory is built nightly from workspace content, email triage splits your inbox into Signal and Noise, drafts come out in your voice, and agents can take a task, finish it, and report back. MCP support means outside agents can search the workspace too, including PDFs parsed out of email attachments. The marketing angle is specific: this is relationship and pipeline management. It does not send campaigns, run lifecycle email, or manage ads.\n\nPricing is simple: free for personal use, $40 per seat per month for teams, every module on every plan. You pay for limits and team features, not feature gates. Self-hosting is free under AGPL if you want to run it yourself. $40 a seat costs more than a budget CRM, but it's cheaper than paying for Superhuman, Slack, Notion, and Linear separately, which is exactly the stack Macro wants to replace. There is no free team tier, so trial it as an individual first.\n\nThe closest tool in this directory is Attio. Attio is a dedicated AI-native CRM with strong enrichment and agentic workflows, and it stops there. You bolt other tools around it. Macro is a whole workspace where the CRM is a byproduct of how your team already communicates. If you need a CRM to drop into an existing stack, Attio is the safer pick. If you want to collapse your tools into one and let the pipeline update itself from email context, Macro is the more interesting gamble.\n\nSkip it if your marketing team needs campaign automation, lifecycle email, or ad tooling. None of that lives here. The open source project is also young, so self-hosters should expect rough edges. And if your org runs on Salesforce integrations and long compliance checklists, give the ecosystem time to catch up.",
+    "date_updated": "2026-09-07",
+    "description": "Macro is an open-source workspace that folds email, chat, docs, tasks, calls, and a CRM into one app, built in Rust and SolidJS with the speed obsession to show for it. The premise is that AI agents are only as good as the context they can see, and team context is scattered across a dozen SaaS tools. The whole product sits in the repo: the README says fully open source, not open core, under AGPL-3.0, a switch from the Business Source License made on May 31, 2026, so the license is only months old. The CRM is the part marketing teams will ask about first, and the docs are precise about what it is. Contact and company records build themselves from your team's email: a contact appears when a teammate messages an external person, and companies roll up by email domain. There is no separate deal entity. Pipeline stages from Lead through Customer and Churned live on company records with Stage, Owner, Revenue, and Last Interaction properties, and the docs state plainly that while records create themselves, stages are all manual. Around the CRM sit Signal and Noise email triage, drafting in your voice that sends only on approval, team memory rebuilt nightly from the day's activity, agents that take a task and report back, calls recorded and transcribed into that memory, and an MCP server outside agents reach with a one-line connection command. Pricing is free for personal use and $40 per seat per month for the first five seats, then $80 per seat, with no free team plan; team-level agent memory and auto-shared email and CRM are paid features. The security posture is unusually strong for a project this young: SOC 2 Type II, ISO 27001, HIPAA with a BAA, GDPR, and US plus EU data regions. We have not run Macro; this assessment is from the repository, the docs, and the site.",
     "seo_title": "Macro Review: CRM, Freemium | MartechSignal",
     "seo_description": "Macro, Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Macro operates in the crowded AI-inbox space, treating email as a workflow surface rather than a list of messages. Response drafting and thread triage are the core loop. It is closer to a layer over your existing mail than a replacement client, which keeps adoption friction low but integration depth shallow.",
-        "Try it if inbox load is your bottleneck and your stack is Gmail-centric. Teams needing CRM-grade contact history still need something underneath."
+      "install": [
+        "Self-hosting is Nix-first: docs/RUNNING_LOCALLY.md names Nix as the only hard host dependency. Steps are git clone https://github.com/macro-inc/macro.git, cd macro, nix develop, then just doctor-local and just run_local --no-doppler.",
+        "The local stack brings up Postgres, Redis, LocalStack, OpenSearch, Kafka, and FusionAuth in Docker with dummy AWS credentials, and builds the Rust services on the host with cargo zigbuild. Compose is driven through just recipes; no raw docker compose commands are documented.",
+        "Login codes land in Mailpit at localhost:8025 rather than a real inbox, so first-run sign-in works offline.",
+        "Release artifacts ship monthly under dated tags: v2026.9.7.0 includes a macOS .dmg, a Linux AppImage, and tarballs for the macrod agent daemon.",
+        "The README points commercial or managed-hosting arrangements to self-host@macro.com, and licensing@macro.com handles alternative licensing."
       ],
-      "verdict": "A legitimate inbox-accelerator layer; not a substitute for real contact management."
-    }
+      "requirements": "A Nix-managed environment plus Docker for the backing services (Postgres, Redis, LocalStack, OpenSearch, Kafka, FusionAuth) and a Rust toolchain for the services, which build with cargo zigbuild. The monorepo holds 167 Rust crates, 42 deployable services, and a SolidJS app for web and desktop. Two components are sublicensed rather than in-repo, so a self-hosted instance either maintains licenses for LiveKit (video calls), FusionAuth (authentication), and PostHog (analytics) or disables those features.",
+      "best_for": "Teams that want to collapse email, chat, docs, tasks, and calls into one tool and let the CRM assemble itself from their outbound email: relationship-driven sales, founder-led selling, and agency or studio work where the conversation history is the deal context. Agent-heavy teams get the most, since MCP support and scheduled agent runs are first-class.",
+      "not_for": "Teams that manage pipeline as a discipline: there is no deal entity, stages sit on company records, and stage progression is entirely manual, so there is no weighted forecast or pipeline reporting. Also skip it for campaign automation and lifecycle email, which it does not attempt, and for self-hosting if you need a vendor-supported deployment.",
+      "hands_on": [
+        "Assessed from the repository, docs.macro.com, and macro.com; we have not run an instance. The repo is unusually legible for its size: apps/web for the SolidJS client, crates/ for the Rust libraries, services/ for the deployable units, infra/ in Pulumi, and docker/ plus nix/ for local environments. Nothing in local development asks for a license key, which matches the fully-open-source claim.",
+        "The CRM is deliberately thin, and the docs say so. Records create themselves from email, but the docs note that stages are all manual: there is no deal entity, no weighted forecast, and no automation that moves a company from Demo to Negotiation. Email sync is per company, so marking a company as synced is what makes its threads team-visible. For a team whose pipeline discipline lives in spreadsheets today this is a step up; for a sales org with stage-gated forecasting it is not a CRM yet.",
+        "The license history matters for anyone evaluating on open-source grounds. Macro shipped source-available under the Business Source License and moved to AGPL-3.0 on May 31, 2026, per the FAQ, which calls the change fully open source rather than open core. The AGPL network-copyleft obligation is real for anyone modifying it and serving users, and the self-hosting story is honest about friction: three key components are sublicensed third-party services you must license or disable.",
+        "The agent surface is broader than the CRM label suggests. There is a model picker across OpenAI, Google, and Anthropic, a BYO agent harness through the macrod daemon, scheduled agent runs such as daily inbox summaries, and an MCP server the docs connect with claude mcp add --transport http macro https://mcp-server.macro.com/mcp. Security documentation claims SOC 2 Type II, ISO 27001, HIPAA with a BAA, GDPR compliance, US and EU data regions, no training on customer data, and zero-retention arrangements with model providers; agents inherit user permissions."
+      ],
+      "verdict": "A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project's age.",
+      "faq_extra": [
+        [
+          "Macro vs Attio: which should a sales team pick?",
+          "Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves."
+        ],
+        [
+          "Can you self-host Macro?",
+          "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com."
+        ],
+        [
+          "How much does Macro cost?",
+          "Free for personal use, with Sent with Macro in email signatures and limits on storage and AI. The paid plan is $40 per seat per month for the first five seats, then $80 per seat beyond that, and there is no free team plan. Team-level agent memory, auto-shared email and CRM, channel-based access control, and priority support are paid features; the module set itself is the same on both plans. Self-hosting is free under AGPL-3.0 with no published self-host price."
+        ]
+      ]
+    },
+    "last_release": "v2026.9.7.0 (2026-09-07)",
+    "paid_from": 40
   },
   {
     "slug": "notifuse",
@@ -5587,31 +5688,38 @@
     "pricing_model": "open-source",
     "pricing_url": null,
     "price_from": 0,
-    "price_notes": "Self-host free under AGPL. Hosted Monica is a single plan at $90 per year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, and email support.",
+    "price_notes": "Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier.",
     "ai_features": [],
     "integrations": [],
     "github_repo": "monicahq/monica",
-    "github_stars": 25238,
+    "github_stars": 25246,
     "open_source": true,
     "api_available": true,
     "status": "active",
     "date_added": "2026-08-21",
-    "date_updated": "2026-09-06",
-    "description": "Monica is an open-source personal relationship management app - the project's own term is PRM - built around documenting your life rather than selling to anyone. Contacts, relationships between contacts, notes, journal entries, activities, tasks, reminders, automatic birthday reminders, addresses, custom fields, pets, gifts, and file attachments live in one place, organized into vaults with multiple users and 27 languages. The README is explicit about what it is not, and the list is worth reading before you evaluate: it is not a social network and never will be, it carries no ads and tracks no users, it is not a smart assistant, and it does not have built-in AI with integrations like ChatGPT. Reminders send only for the things you asked to be reminded of. For marketing work the honest framing is narrow: founder-led and community-led businesses whose channel is the founder's relationships or a newsletter get real follow-up discipline, and sales teams get nothing here. Licensing is AGPL, and at 25, 000-plus GitHub stars this is one of the largest open-source CRM projects by community size, though the last push to the main branch was in April 2026. Two things complicate adoption. First, the hosted service is the revenue focus: one plan at $90 per year with unlimited contacts, managed backups, automatic updates, and email support, while self-hosting is free but makes you the operator. Second, the project is mid-transition. The README marks the main branch as a beta and points to the 4.x branch as stable, the official Docker Hub image still packages the previous major version, and the site promotes a rebuilt Monica v3 targeted before the end of 2026 with an API-first design, community templates, and native iOS and Android apps. Pin a release and read the upgrade notes before committing data.",
+    "date_updated": "2026-09-07",
+    "description": "Monica is an open-source personal relationship manager, the project's own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. The README is explicit about what it is not: not a social network and never will be, no ads or tracking, not a smart assistant, and no built-in AI with integrations like ChatGPT, and reminders only cover what you asked for. For marketing work the fit is narrow: founder-led and community-led businesses whose channel is relationships and a newsletter, not sales teams. Two facts should shape an adoption decision. The app codebase is dormant: the last commit to the main branch landed August 30, 2025, the newest stable release is v4.1.2 from May 2024, and no release of any kind has shipped in more than a year, while the organization around it is clearly active, with a Helm chart pushed in September 2026 and a blog publishing rebuild posts through the same month. That blog is where Monica v3 lives: a rebuild from scratch, still open source, promised before the end of 2026, API-first, with community templates and native iOS and Android apps to follow, and with naming that has not settled, since marketing says v3, repository tags say 5.0.0-beta, and the Docker examples call the beta Chandler. The hosted service is one plan, $90 a year or $9 a month, with unlimited contacts, data export, managed backups, email support, and no enterprise tier. We have not run Monica; this assessment is from the repository, the docs, and the hosted site.",
     "seo_title": "Monica Review: CRM, Open Source | MartechSignal",
     "seo_description": "Monica, Open-source personal CRM for tracking friends, family, and business relationships. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
       "hands_on": [
         "Assessed from the repository, the GitBook documentation, and the hosted site rather than a self-hosted instance. The docs publish an llms.txt and a Markdown version of every page, which makes them easy to work with programmatically.",
         "The README's 'What Monica isn't' section does the disqualifying work for you: no social features by design, no ads, no tracking, no smart assistant, and no built-in AI. Reminders are strictly the emails you asked for. Treat any AI claim about Monica as something someone built on top of the API, not a product feature.",
-        "Version state is the operational risk. The main branch is labeled beta, the 4.x branch is stable with the last tagged release at v4.1.2 in May 2024, the official Docker Hub image still carries the previous major version, and the hosted site promotes a from-scratch v3 due before the end of 2026. Self-hosters should pin a release and plan a deliberate migration."
+        "Version state is the operational risk, and the naming has not settled. The main branch is the beta for the next version, tagged v5.0.0-beta.5 in April 2025; the 4.x branch is the stable line with its last tagged release at v4.1.2 in May 2024; the official Docker Hub image still serves 4.x as latest, though 5.0.0-beta tags exist there now; and the hosted site promotes the rebuild, branded Monica v3, as coming before the end of 2026. The Docker examples call the same beta v5, a.k.a. Chandler. Pin a release deliberately and plan the migration, because the lines are far apart.",
+        "The activity picture needs a correction to our earlier read: the last commit to the main branch is August 30, 2025, not April 2026, and the releases page shows nothing of any kind in more than a year, with the newest tag being the v5.0.0-beta.5 pre-release from April 2025. The organization is not idle: the Helm chart, marketing site repo, and a Laravel database tool all show 2026 pushes, and the blog published four posts between August 6 and September 2, 2026. The honest summary is a dormant application with an active rebuild behind it.",
+        "Feature facts verified from the repository and docs: two-factor authentication with TOTP, recovery codes, and WebAuthn or FIDO security keys; vCard download per contact; vaults that are private by design, so even an account administrator cannot open a vault they are not a member of; multiple users per account with administrator and regular permissions; custom activity types; and notification channels limited to email and Telegram. The README claims 27 translations while the lang directory holds 29 locales, so the number varies by source.",
+        "The API differs sharply between the stable and beta lines. The 4.x branch carries a real REST API with 67 route registrations behind Passport token auth, which the hosted marketing copy leans on for import and export. The beta on main exposes only user and vault endpoints behind Sanctum, with Scribe generating per-instance documentation at /docs, /docs.postman, and /docs.openapi. There is no public API documentation site, so API work on the beta means running an instance to read its generated docs.",
+        "Export and migration are a stated right rather than a paywall: the pricing FAQ says you can export contacts, relationships, notes, reminders, activities, custom fields, and other account data with attachments included, and import into a compatible self-hosted installation. Backup guidance stays thin on the self-host side; the 4.x upgrade doc says to back up and verify a backup without documenting the commands."
       ],
       "verdict": "The reference implementation of the personal CRM category, honest about its limits, and mid-rewrite. Value it for follow-up discipline, not for pipeline or automation.",
       "install": [
         "The docs' quickest route is the container registry image: docker run -p 8080:80 ghcr.io/monicahq/monica-next:main, which runs on SQLite and serves http://localhost:8080.",
         "Add MAIL_MAILER=log to that command, because registration needs a working mailer and the log driver satisfies it without an SMTP server.",
         "The official Docker Hub image (library/monica) still packages the previous major version, per the docs. For database, queue, and other production setups, the docs point to the examples directory of the monicahq/docker repository.",
-        "The hosted pricing page is explicit about what self-hosting costs you in practice: updates, backups, monitoring, security patches, and support are what the $90 per year hosted plan buys, so budget the operator time honestly."
+        "The hosted pricing page is explicit about what self-hosting costs you in practice: updates, backups, monitoring, security patches, and support are what the $90 per year hosted plan buys, so budget the operator time honestly.",
+        "Production setups follow the examples in the monicahq/docker repository: full_v5 runs the v5 beta as fpm-alpine behind nginx with redis and separate cron and queue containers, and the supervisor variant pairs a MariaDB 11 container with one app container running supervisord for web, cron, and queue. Official-image setup runs docker-compose exec app php artisan setup:production.",
+        "A Helm chart is maintained at monicahq/helm and was pushed in September 2026; it pins ghcr.io/monicahq/monica-next at tag main with appVersion 5.0.0, which makes it the most current packaged route and also the most bleeding-edge.",
+        "Background queues need a worker in non-trivial installs: the docs' local development list includes php artisan queue:listen --queue=high,low,default."
       ],
       "requirements": "A Laravel/PHP application distributed as a container. The quick-start image runs on SQLite with a mailer configured; production deployments follow the examples in monicahq/docker for database and queue setup. The 4.x branch is the stable line and main is the beta for the next major version.",
       "best_for": "Individuals and founder- or community-led businesses that live on personal relationships and want a private, self-hostable record of people, conversations, gifts, and reminders. The project also notes positive reviews from users with Asperger syndrome and Alzheimer's disease.",
@@ -5623,14 +5731,27 @@
         ],
         [
           "How much does Monica cost?",
-          "Self-hosting is free under the AGPL. The hosted option is a single plan at $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, and email support, with a 30-day trial that needs no credit card."
+          "Self-hosting is free under the AGPL. The hosted option is a single plan at $9 per month or $90 per year, with two months free on annual billing, unlimited contacts, notes, reminders, activities, and journal entries, custom fields and sections, file attachments, managed backups, automatic updates, data export, and email support, on a 30-day trial that needs no credit card. There is no enterprise tier and no per-relationship pricing."
         ],
         [
           "Is Monica a CRM for sales?",
           "No, and the project says so directly. It is a personal relationship manager for friends, family, colleagues, and neighbours, with no pipelines, deals, or campaigns. Sales teams should look at the sales CRM entries in this directory instead."
+        ],
+        [
+          "Is Monica still maintained in 2026?",
+          "The application code is not, in practical terms: the last commit to the main branch was August 30, 2025, the latest stable release remains v4.1.2 from May 2024, and no release of any kind has been published in over a year. The organization is active on the rebuild, with a Helm chart pushed in September 2026 and blog posts about the new version through September 2026, and the hosted service continues to run. Self-hosters should treat the current code as stable but frozen and evaluate the promised v3, due before the end of 2026, before committing new data."
+        ],
+        [
+          "Should you self-host Monica or pay for the hosted plan?",
+          "The hosted plan is $9 per month or $90 per year with unlimited contacts, notes, reminders, activities, and journal entries, managed backups, automatic updates, data export, and email support, on a 30-day trial with no credit card. Self-hosting is free under AGPL and runs as a container, but you inherit the operator work the plan buys: updates, backups, monitoring, and a version question, since the official Docker Hub latest tag still serves the 4.x line while the current code is the 5.0 beta on ghcr. If the value of Monica is remembering things about people rather than infrastructure, the hosted plan is the rational default; self-host when the data must stay on your hardware."
+        ],
+        [
+          "Can you export your data out of Monica, and can you migrate from hosted to self-hosted?",
+          "Yes on both. Export covers contacts, relationships, notes, reminders, activities, custom fields, and other supported account data with attachments, and the pricing FAQ states it plainly as a right rather than a premium feature, so it works on every plan and costs nothing. The same page confirms you can export from hosted Monica and import into a compatible self-hosted installation. Contacts also support per-contact vCard download. Verify the import path against your self-hosted version before cancelling the hosted account, since the two code lines differ."
         ]
       ]
-    }
+    },
+    "last_release": "v4.1.2 (2024-05-04); 5.0.0-beta.5 pre-release (2025-04-21)"
   },
   {
     "slug": "nocobase",
@@ -5854,26 +5975,54 @@
     "category": "crm",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Open source, free self-hosted.",
-    "ai_features": "",
+    "price_notes": "Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support.",
+    "ai_features": [],
     "integrations": [],
     "github_repo": "idurar/idurar-erp-crm",
-    "github_stars": 8719,
+    "github_stars": 8769,
     "open_source": true,
-    "api_available": false,
+    "api_available": true,
     "status": "active",
     "date_added": "2026-08-25",
-    "date_updated": "2026-08-31",
-    "description": "IDURAR is an open-source ERP and CRM on the MERN stack (Node.js, Express, MongoDB, React) with Ant Design, positioned honestly between a boilerplate and a usable product. It ships invoicing, recurring invoices, quotes, payments, and a customer and product directory, with the README explicitly inviting commercial use for free. The project calls itself 'fair-code' open source, and the practical reading is: the code is available and modifiable, but this is a foundation you build on, not a finished suite you deploy for a whole company. A self-hosted enterprise version is sold at cloud.idurarapp.com, which tells you where the polished experience lives. At 8, 700-plus stars it is one of the most-starred projects in the CRM category here, driven by its value as a reference implementation: if your team knows the MERN stack and wants a head start on building a custom invoicing-and-quotes product, IDURAR saves weeks. As a day-to-day CRM for a sales team, it lacks the workflow depth of Frappe CRM or Dolibarr, and MongoDB as the data layer is a deliberate trade that favors developers over administrators.",
+    "date_updated": "2026-09-07",
+    "description": "IDURAR is an open-source ERP and CRM on the MERN stack - Node.js and Express with MongoDB behind an Ant Design React frontend - and it is smaller than its 8,700-plus GitHub stars suggest. The license file is verbatim AGPL-3.0 with no custom clauses, and the README answers the commercial question directly: free for personal or commercial use. The same README also calls the project fair-code in one line and open source in another, and the backend package.json still says Fair-code License, so the licensing story is untidy even though the license itself is standard AGPL. The feature set needs the most correction before you commit: the README claims exactly four modules - invoice, payment, quote, and customer management - and the code backs that up. Quotes are not a separate entity but an invoice with a quote type, converted through a dedicated endpoint, and recurring invoices are a field on the invoice model rather than a billing engine. There are no expense, lead, product, or inventory models in the open-source code, and the role model ships with a single owner role, so this is a one-admin invoicing core rather than a departmental suite. The paid tiers on the vendor site make the same point by omission: a Professional lifetime license at $5,000 and an Enterprise license at $10,000, which add multi-company, multi-currency, multiple languages, a headless API, and support windows. Every entity gets auto-generated REST routes (create, read, update, delete, search, filter, summary) but there is no Swagger spec and the docs subdomain does not resolve, so plan to read the source. Installation is two npm terminals rather than a container; there is no Dockerfile in the repository. We have not run IDURAR; this assessment is from the repository, the license file, and the vendor site.",
     "seo_title": "IDURAR ERP & CRM Review: CRM, Open Source | MartechSignal",
     "seo_description": "IDURAR ERP & CRM, Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "IDURAR works well as a starting codebase for custom ERP/CRM builds: invoicing, payments, and contacts function out of the box, and the MERN stack is familiar enough that most React teams modify it productively within days. Multi-company support covers the consultant scenario of several entities in one install.",
-        "It is a foundation, not a finished department suite - expect to build reporting, refine workflows, and handle your own security hardening. Roadmap activity is steady. Teams wanting a product they configure rather than code should compare with Dolibarr or SuiteCRM first."
+      "install": [
+        "From INSTALLATION-INSTRUCTIONS.md, backend first: git clone https://github.com/idurar/idurar-erp-crm.git, cd idurar-erp-crm, cd backend, then npm install, npm run setup and npm run dev. npm run setup runs src/setup/setup.js.",
+        "Frontend in a second terminal: cd frontend, npm install, npm run dev. The doc says open http://localhost:3000; the Vite dev server proxies /api to the backend on port 8888.",
+        "Backend configuration lives in /backend/.env. The required value is DATABASE (your MongoDB connection string); the checked-in template also carries JWT_SECRET, NODE_ENV and PUBLIC_SERVER_FILE, with RESEND_API and OPENAI_API_KEY commented out.",
+        "There is no Dockerfile or docker-compose file in the repository, so containerizing is on you. The install doc includes a legacy OpenSSL workaround (export NODE_OPTIONS=--openssl-legacy-provider) for older Node, or recommends Node.js v20.",
+        "npm run upgrade and npm run reset exist alongside setup for schema and data resets; read them before running against data you care about."
       ],
-      "verdict": "A clean MERN starting point for custom ERP/CRM builds; config-only buyers should look elsewhere."
-    }
+      "requirements": "Node.js 20.9 and npm 10.2 are the pinned engines, with MongoDB as the only database (Mongoose 8 on the backend, Express 4, React 18, Ant Design 5, Redux Toolkit and Vite on the frontend). PDF output uses html-pdf with pug templates, which needs the pdf engine available on the host. There is no official container image, so a bare host or your own image is the deployment path.",
+      "best_for": "Developers on the MERN stack who want a working starting point for a custom invoicing, quoting and payments product: the CRUD API, PDF generation and Ant Design UI are real, and the codebase is small enough to read end to end in an afternoon.",
+      "not_for": "Sales teams looking for a CRM to configure: there is no lead or pipeline model in the open-source code, one user role, and no documented API reference. Teams needing multi-company, multi-currency or headless API access are pointed at paid licenses rather than code.",
+      "hands_on": [
+        "Assessed from the repository, the license file, the installation doc and the vendor site; we have not run an instance. The most useful evaluation step is reading backend/src/models/appModels: exactly three application models exist (Client, Invoice, Payment), which settles in one glance what the open-source edition is. Quotes are an invoice with a quote type and a /quote/convert/:id endpoint, and the recurring field on the invoice model is a schedule enum, not a billing engine.",
+        "The vendor site and the repository disagree, and the difference matters commercially. The site's comparison table caps the Community Edition at one admin user and marks core features as excluded, while the AGPL-3.0 license in the repo places no such limit, and the README invites free commercial use. The site sells a Professional lifetime license at $5,000 and Enterprise at $10,000 covering multi-company, multi-currency, languages, a headless API and support. Read the license, not the marketing table, before deciding what your install may do.",
+        "Some feature pages on the vendor site describe capabilities that do not exist in the open-source code at all: purchase orders, supplier management, barcodes, a general ledger and webhooks appear in the localized marketing pages but have no models or routes in the repository. Treat the site's feature copy as aspirational and the repository as the product.",
+        "The REST API is real but undocumented: routes are generated per entity for create, read, update, delete, search, list, filter and summary, plus mail endpoints and quote conversion. There is no OpenAPI spec in the repo and docs.idurarapp.com does not resolve, so integration work means reading backend/src/routes. AI features: none. The openai dependency in backend/package.json is unused, and the only other AI reference in the repo is a maintainer CV written for AI agents."
+      ],
+      "verdict": "A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.",
+      "faq_extra": [
+        [
+          "Is IDURAR open source or fair-code?",
+          "The license file is standard AGPL-3.0 with no added clauses, and the README says IDURAR is free for personal or commercial use. The fair-code label comes from the project's own copy: the README uses both phrases in different lines and the backend package.json still declares a Fair-code License, which does not match the license file. Functionally the repo is AGPL software, so the network-copyleft obligation applies if you modify it and serve users without publishing source. The vendor sells paid lifetime licenses on its site, which buy support and features rather than permission."
+        ],
+        [
+          "What does IDURAR cost, and what do the paid licenses include?",
+          "Self-hosting the Community Edition is free. The vendor site publishes two one-time licenses: Professional at $5,000 with three months of support, and Enterprise at $10,000 with six months, adding multi-company and branch support, multi-currency, multiple languages, a headless API and public forms. The site's own comparison table says Community is limited to one admin user, but the AGPL-3.0 license in the repository carries no user limit, so treat the cap as a commercial position, not a code enforcement."
+        ],
+        [
+          "Can IDURAR replace SuiteCRM or Dolibarr for a sales team?",
+          "No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines, cases, campaigns and role-based teams; IDURAR's repository has three application models (clients, invoices, payments) and a single owner role. It competes as a developer base for custom billing and customer invoicing tools, where its small MERN codebase and generated REST routes are the advantage. If the requirement is a CRM your team configures in the admin UI, the config-first open-source CRMs are the better fit."
+        ]
+      ]
+    },
+    "pricing_url": "https://www.idurarapp.com",
+    "last_release": "4.1.1 (2026-03-16)"
   },
   {
     "slug": "dolibarr",
