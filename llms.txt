@@ -10,6 +10,8 @@
 
 - [AdCreative.ai](https://martechsignal.com/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
 - [Albert AI](https://martechsignal.com/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Madgicx](https://martechsignal.com/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
+- [Opteo](https://martechsignal.com/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
 - [Pencil](https://martechsignal.com/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 - [Revealbot (Birch)](https://martechsignal.com/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 - [Smartly.io](https://martechsignal.com/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
