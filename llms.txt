@@ -130,7 +130,7 @@
 - [Mautic](https://martechsignal.com/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (open source)
 - [Plausible Analytics](https://martechsignal.com/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (open source)
 - [Strapi](https://martechsignal.com/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (open source)
-- [Umami](https://martechsignal.com/tools/umami/): Open-source privacy-focused web analytics with real-time dashboards and AI insights (open source)
+- [Umami](https://martechsignal.com/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (open source)
 
 ### Personalization & CDP
 
