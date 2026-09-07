@@ -2520,39 +2520,64 @@
     "pricing_model": "open-source",
     "pricing_url": "https://www.mautic.org/pricing",
     "price_from": 0,
-    "price_notes": "Free and open-source (GPL); self-hosted; paid hosting and support available",
-    "ai_features": [
-      "AI-powered lead scoring",
-      "AI email personalization",
-      "AI campaign optimization"
-    ],
+    "price_notes": "Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from EUR 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.",
+    "ai_features": [],
     "integrations": [
       "Salesforce",
       "HubSpot",
+      "Pipedrive",
+      "Zoho",
       "WordPress",
-      "Zapier",
-      "Slack",
-      "Google Analytics",
-      "Stripe"
+      "Twilio",
+      "Mailchimp",
+      "Google Tag Manager",
+      "Amazon S3",
+      "Zapier"
     ],
     "github_repo": "mautic/mautic",
-    "github_stars": 10232,
+    "github_stars": 10452,
     "open_source": true,
     "api_available": true,
     "founded": 2014,
-    "hq": "Raleigh, NC, USA",
+    "hq": "Community project; fiscal host Open Source Collective",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Founded in 2014 and headquartered in Raleigh, North Carolina, USA, Mautic is an open-source marketing automation platform designed to manage campaigns, email marketing, and lead lifecycle processes without relying on proprietary SaaS infrastructure. It supports contact management, landing pages, forms, segmentation, automated workflows, and multi-channel campaign orchestration, giving teams direct control over their data and deployment environment. The project is released under the GPL license and has attracted more than 10, 000 GitHub stars, reflecting an active community of contributors and users.\n\nMautic is suited to marketing teams, agencies, developers, and organizations that want flexibility and ownership rather than a managed black-box tool. Its API and integration ecosystem connect it with Salesforce, HubSpot, WordPress, Zapier, Slack, Google Analytics, and Stripe, allowing it to fit into existing CRM, analytics, and commerce stacks. AI-related capabilities include AI-powered lead scoring, AI email personalization, and AI campaign optimization, which can help teams prioritize prospects, tailor messaging, and refine performance over time. Compared with commercial alternatives such as HubSpot Marketing Hub or Marketo, Mautic trades polished hosted convenience for self-hosted control, lower licensing costs, and deeper technical customization.\n\nPricing is free and open source for the core software, while paid hosting, managed services, and professional support are available from third-party providers. This model makes it attractive for teams with technical resources that can maintain infrastructure, security, and upgrades internally. Best for technically capable marketing operations teams, agencies, and privacy-conscious organizations seeking a customizable, self-hosted alternative to commercial marketing automation platforms.",
+    "date_updated": "2026-09-07",
+    "description": "Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,500 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from EUR 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.",
     "seo_title": "Mautic Review: Open Source | MartechSignal",
     "seo_description": "Mautic, Open-source marketing automation platform with email, campaigns, and lead management. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Mautic is the open-source marketing automation platform: email, landing pages, segments, and automation campaigns you host yourself. It is the most mature open-source answer to HubSpot, and it shows in both the feature list and the rough edges. Setup and maintenance are the cost; the marketing team needs technical support nearby. Campaign builder, contact scoring, and email are all genuinely usable.",
-        "Free but with real ops overhead. GSC shows 'mautic' as a recurring branded query for this site, so the directory page already earns impressions."
+      "install": [
+        "Composer is the canonical path since Mautic 6: composer create-project mautic/recommended-project:^7.0 some-dir --no-interaction, then php bin/console mautic:install https://m.example.com with database, mailer, and admin flags. The 7.1 install docs still show the older ^5 template, so follow the 7.x recommended-project README.",
+        "Requirements (mautic.org/mautic-requirements): PHP 8.2 to 8.5 with the xml, mysql, imap, zip, intl, curl, gd, mbstring, and bcmath extensions, npm from 5.0 onward, and, per UPGRADE-7.0.md, MySQL 8.4+ or MariaDB 10.11+ (the requirements page still says 5.7/10.2 and lags the release). max_execution_time needs at least 240 seconds, and admin passwords must be complex since 5.1.",
+        "Docker: docker pull mautic/mautic (apache and fpm variants, about 615 MB) with compose roles for mautic_web, mautic_worker, and mautic_cron; CLI commands run as www-data inside the mautic_web container, for example docker compose exec --user www-data --workdir /var/www/html mautic_web php ./bin/console mautic:install https://mautic.example.com.",
+        "Cron is mandatory, not optional: mautic:segments:update, mautic:campaigns:update, and mautic:campaigns:trigger (the docs suggest 15-minute offsets), messenger:consume email for the queue, and optional jobs for broadcasts, imports, webhooks, and IP lookup downloads.",
+        "Updates are CLI-only: mautic:update:find, then mautic:update:apply and mautic:update:apply --finish, or on Composer installs cache:clear plus doctrine:migration:migrate. The docs' own warning applies before any of it: never update without a working, up-to-date backup. For local development the documented route is DDEV (ddev start)."
       ],
-      "verdict": "Best for organizations that refuse per-seat SaaS and have the technical staff to run it."
+      "requirements": "A VPS or dedicated server: the requirements page says shared hosting can impair performance, cause update failures, and limit functionality, and that community support is unlikely for shared hosting setups. Add PHP 8.2+ with nine documented extensions, npm, MySQL 8.4+ or MariaDB 10.11+, and cron as part of the deployment rather than an option. Budget the operational work too: backups before every update, deliverability configuration (bounce management, monitored inboxes, and S/MIME signing are all documented), and the fact that campaigns cannot be moved between instances, so staging strategy needs deciding early.",
+      "best_for": "Organizations that expect automation and integrations to grow more complex over time and need control over data governance and infrastructure, in the project's own words: in-house marketing ops with developers nearby, agencies running client instances, and regulated or privacy-conscious teams that cannot put contact data in a vendor's cloud and prefer costs tied to real usage rather than contact-based fees.",
+      "not_for": "Teams without technical staff: browser updates are gone, cron is mandatory, shared hosting is discouraged, and the marketplace does not yet verify plugin version compatibility, so blind plugin installs are warned against. Also not for anyone shopping for AI features, which the project explicitly does not provide, and not for teams that need to copy campaigns between staging and production, which the roadmap lists as currently impossible.",
+      "hands_on": [
+        "Assessed from mautic.org, docs.mautic.org (the 7.1 line), the GitHub repo, Packagist, and Docker Hub in September 2026; we have not run an instance. The release cadence is healthy: 7.2.0 shipped September 2, 2026 and 7.1.3 on July 7, with a stated cadence of monthly patches, quarterly minors, and a major every two years, plus published support windows including a 7.3 LTS due December 2026.",
+        "The correction that matters: our earlier record listed AI-powered lead scoring, AI email personalization, and AI campaign optimization. None exist. The project's AI Manifesto states that it does not currently host or maintain any AI services as part of the Mautic project and that Mautic is strictly AI-agnostic. Lead scoring is a deterministic points rule engine. We have emptied the AI feature list rather than soften it.",
+        "Second correction: governance and integrations. Our Raleigh, North Carolina headquarters claim has no source anywhere on mautic.org; Mautic has been community-governed since Acquia bought Mautic Inc. in 2019, with the trademark held by Open Source Collective and operations under an elected council. Slack, Google Analytics, and Stripe appeared in our integration list with no docs page or official plugin repo behind them (plugin-slack and plugin-stripe return 404); we replaced them with documented plugins.",
+        "Vendor numbers deserve caution on this listing: the homepage claims both 40,000+ and 200K+ companies use Mautic, and its stat counters render placeholder zeros, so we quote neither. The verifiable scale markers are the star count, the 70-language translation effort, and the eleven bundled plugin packages in the core repository."
+      ],
+      "verdict": "The most complete open-source answer to HubSpot if you have the ops capacity to run it: real campaigns, segments, and scoring under GPL-3.0, no AI, and no shortcuts on maintenance.",
+      "faq_extra": [
+        [
+          "Can I update Mautic from the browser?",
+          "No. The update-in-UI feature was deprecated in 4.2 and, per the 7.1 upgrade docs, completely removed from Mautic 5.0, partly because it required significant resources and could fail mid-update. Updates now run at the command line: php bin/console mautic:update:find to check, mautic:update:apply to install, and mautic:update:apply --finish to complete, or cache:clear plus doctrine:migration:migrate on Composer installs. The docs also warn never to update without a working, up-to-date backup."
+        ],
+        [
+          "What are the system requirements for Mautic 7?",
+          "PHP 8.2, 8.3, 8.4, or 8.5 with the xml, mysql, imap, zip, intl, curl, gd, mbstring, and bcmath extensions, npm (required since 5.0), and, since the 7.0 upgrade raised the floors, MySQL 8.4.0+ or MariaDB 10.11.0+. max_execution_time must be at least 240 seconds and admin passwords must meet a complexity rule since 5.1. The requirements page still states MySQL 5.7 and MariaDB 10.2 minimums, which lag the UPGRADE-7.0 document, and shared hosting is discouraged outright."
+        ],
+        [
+          "How does Mautic handle GDPR compliance?",
+          "The features page describes IP anonymization for visitor records, site tracking that can be placed behind a cookie consent gate, automated cleanup of anonymous visitors, audit logs, and inactive contacts after a configurable time frame, and CCPA do-not-sell list syncing through MaxMind-powered cron jobs (mautic:max-mind:purge and mautic:donotsell:download). Contacts get a preference center and frequency rules. Worth knowing: the documentation itself has no dedicated GDPR page, so these capabilities live on a marketing page and the implementation work stays with whoever operates the instance."
+        ]
+      ]
     }
   },
   {
@@ -2788,22 +2813,26 @@
     "pricing_model": "enterprise",
     "pricing_url": "https://www.nosto.com/pricing/",
     "price_from": null,
-    "price_notes": "Custom pricing; modular product suites; typical year-one cost $12K-$50K+",
+    "price_notes": "Quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site.",
     "ai_features": [
-      "AI product recommendations",
-      "AI visual search",
+      "Predictive product recommendations",
+      "Semantic search with vector embeddings",
+      "Visual AI product tagging",
       "AI content personalization",
-      "AI merchandising",
-      "Predictive analytics"
+      "Category merchandising with global rules"
     ],
     "integrations": [
       "Shopify",
+      "Shopify Plus",
+      "Adobe Commerce (Magento)",
       "BigCommerce",
-      "Salesforce",
+      "Salesforce Commerce Cloud",
+      "Shopware",
+      "PrestaShop",
       "Klaviyo",
-      "Google Analytics",
-      "Meta Ads",
-      "Slack"
+      "Attentive",
+      "Yotpo",
+      "Google Analytics"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -2813,16 +2842,42 @@
     "hq": "Helsinki, Finland",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Nosto is an AI-powered Commerce Experience Platform (CXP) that delivers ecommerce personalization through a unified AI engine powering three integrated modules: product recommendations, personalized search and discovery, and category merchandising. Unlike platforms that treat search, recommendations, and merchandising as separate products bolted together, Nosto's single AI brain shares behavioral data across all three. What a shopper clicks in search results directly informs the recommendations they see on product pages and the sort order of category listings.\n\nThe platform's key capabilities include behavioral product recommendations (homepage, PDP, cart, checkout, post-purchase), personalized site search that learns from click-through and purchase patterns, visual merchandising with drag-and-drop rule configuration for category pages, dynamic segmentation based on real-time behavior and purchase history, and A/B testing and analytics built into every personalization module. Nosto's search product, strengthened by two dedicated search acquisitions, offers typo-tolerant, AI-ranked results with individual result boosting and synonym management.\n\nNosto's pricing is GMV-based (gross merchandise value) rather than query-based or traffic-based. Merchants pay a fixed percentage of revenue through the platform, which removes per-query cost anxiety for high-traffic stores. The platform integrates with Shopify, Magento (Adobe Commerce), BigCommerce, Salesforce Commerce Cloud, and custom storefronts via API. Nosto competes primarily with Clerk.io, Dynamic Yield, and Algolia in the commerce personalization space. It positions as the unified alternative where businesses don't need to stitch together separate search, recommendation, and merchandising tools. Best suited for mid-market to enterprise ecommerce brands that want one AI platform covering the full on-site personalization stack.",
+    "date_updated": "2026-09-07",
+    "description": "Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. It is sold as two modular suites. Product Experience Cloud covers personalized search, category merchandising, product recommendations, post-purchase upsell, dynamic bundles, and personalized emails; an AI Search product is labeled coming soon on the pricing page. Content Experience Cloud covers A/B testing and optimization, onsite content personalization, pop-ups, and shoppable UGC. The search module documents semantic search with vector embeddings, AI-suggested synonyms, merchandising rules keyed to margin, stock, and seasonality, and 27 languages out of the box; content and vector search carry alpha labels. Implementation is documented in detail: Nosto replicates the store catalog (one account per domain and language), a script tag plus page tagging feeds behavioral profiles, and published search go-live estimates run from 1-3 weeks (templates) to 4-8 weeks (API). GraphQL is the documented path into the intelligence engine; REST is legacy, used to push orders, products, and exchange rates, and stays mandatory for product updates in SPA builds. Rate limits are published in points, with a search request costing 600. Pricing is quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by the modules and support level, with AI bundled into every module and an optional Product Scalability Package carrying a 99.99% uptime SLA. There is no self-serve trial; qualified merchants get a proof of concept on their own store data. Founded in 2013 with eight offices including Helsinki, London, and New York, Nosto reports more than 1,500 brand customers and a 4.6/5 G2 rating. Its search line now includes the Austrian vendor Findologic, whose typo-tolerance docs sit in Nosto's help center beside its own.",
     "seo_title": "Nosto Review: Enterprise | MartechSignal",
     "seo_description": "Nosto, AI-powered ecommerce personalization with product recommendations and merchandising. Enterprise pricing; demo required. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Nosto is personalization infrastructure for e-commerce: product recommendations, category merchandising, and triggered overlays driven by behavioral data. The Shopify and BigCommerce integrations are mature, and recommendation performance held up credibly in A/B setups against manual merchandising.",
-        "It assumes a capable team at the wheel. Campaign setup, front-end placement, and template work all need resources, and pricing scales with traffic, climbing steeply at enterprise levels. The platform fits mid-market retailers with real personalization ambitions rather than small catalogs."
+      "install": [
+        "No self-serve signup and no published pricing: the entry point is the 30-minute demo form at nosto.com/book-a-demo. The pricing FAQ states it directly: \"While we do not offer a standard self-service free trial, we provide a structured Proof of Concept (PoC) for qualified merchants.\"",
+        "Qualified merchants install the Nosto app from their platform's app store (Shopify, Adobe Commerce, BigCommerce, Shopware) with a Nosto representative attached to the account, then preview AI Search and merchandising against their own live catalog data.",
+        "Module activation is vendor-gated, not self-serve. For search the docs say: \"Your search engine will be ready after the Nosto representative enables the Search module for your account.\"",
+        "Technical onboarding is script tag plus catalog replication: the tracking script (connect.nosto.com/include/$accountID) and page tagging build behavioral profiles, and Nosto replicates the product catalog, one account per domain and language.",
+        "Headless and SPA builds use the Session API with GraphQL for reads; the docs keep REST mandatory for product updates in SPA/PWA storefronts and warn that proxying GraphQL through a backend hides the end user's IP, breaking geolocation."
       ],
-      "verdict": "Serious personalization for serious e-commerce teams; overkill for small catalogs without staff."
+      "requirements": "A storefront on Shopify/Shopify Plus, Adobe Commerce, BigCommerce, Salesforce Commerce Cloud, Shopware, PrestaShop, or a custom build you can tag and replicate. Search requests are metered in points, not calls: a search, category, or autocomplete request costs 600 points against a 40,000 points-per-second standard allowance (200,000 with the paid Peak Performance package), and recommendation requests typically cost 100-200 points. API integrations need GraphQL capability; the legacy REST API is for pushing orders, products, and exchange rates. Higher support tiers (priority support, dedicated CSM) are attached to the Professional and Enterprise packages.",
+      "best_for": "Mid-market and enterprise retailers on Shopify Plus, Adobe Commerce, BigCommerce, or Shopware who want search, merchandising, and recommendations driven by one shared engine, especially multilingual and long-tail catalogs (27 languages out of the box, vector search built for queries without explicit keywords) and merchandising teams that work in the UI without depending on IT.",
+      "not_for": "Small catalogs and small teams: pricing is quote-based GMV-plus-traffic with a base platform fee, module activation needs a representative, and there is no self-serve trial to evaluate against. Also not for teams that need AI Search today (labeled coming soon, with content and vector search in alpha), SPA teams hoping to use in-browser search templates (the docs steer them to the JS library or API), or headless builds that need geo-targeting behind a proxied GraphQL connection.",
+      "hands_on": [
+        "Assessed from nosto.com, docs.nosto.com, help.nosto.com, and the pricing page in September 2026; we have no Nosto account and have not run it on a store. The public surface is unusually deep for a quote-based vendor: a full technical docs site with published rate limits and implementation timelines, a help center, and a pricing page that explains structure while publishing no numbers. Evaluation without a sales conversation stops at the documentation.",
+        "The correction that matters: our earlier description described a three-module platform (recommendations, search and discovery, category merchandising) and said merchants pay \"a fixed percentage of revenue.\" Both are outdated. The current structure is two suites (Product Experience Cloud, Content Experience Cloud) on the experience.AI layer, and the pricing FAQ words the volume component as \"a fixed fee calculated on your store's volume (GMV turnover and traffic),\" not a percentage.",
+        "A second correction: our earlier text credited \"two dedicated search acquisitions.\" Only one is verifiable on live pages. Findologic (Salzburg) is confirmed as part of Nosto, with a 55-article FAQ collection in Nosto's help center; Fredhopper is branded \"A rezolve solution\" under Crownpeak and is not a Nosto property. The split is visible in the product: typo tolerance and Smart Did-You-Mean live in the Findologic collection, while the core search docs cover semantic and vector search, and the help center keeps two separate category merchandising collections (Platform v1 and Universal).",
+        "What the docs do well: published points-based rate limits with cost per request type, four search implementation routes with honest timelines (1-3 weeks for templates up to 4-8 weeks for the API), a documented consent pattern that disables Nosto entirely for visitors who opt out, a published DPA, and a hard telemetry-style detail most vendors omit, the attribution rule that bills only the most recently interacted product when a visitor touches two products in a group."
+      ],
+      "verdict": "A genuinely documented enterprise personalization platform with an unusual seam between its core search and the acquired Findologic line. Strong fit for large multilingual catalogs; no self-serve way to find out if it fits yours.",
+      "faq_extra": [
+        [
+          "How does Nosto pricing scale with GMV?",
+          "The pricing FAQ describes a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled further by the modules selected and the support level required. No numbers are published. Attribution matters to the bill: products are grouped so that when a visitor interacts with two products in one group, only the sale from the most recently interacted product counts toward the fee. Pop-ups and onsite recommendations form one group, Facebook and Instagram Ads another, and triggered emails and email widgets a third, and test orders can be billed."
+        ],
+        [
+          "What are Nosto's API rate limits?",
+          "They are costed in points per second rather than requests. Search GraphQL allows 40,000 points per second standard and 200,000 with the Peak Performance package; recommendations allow 10,000 (80,000 advanced) and the main GraphQL API 10,000 (50,000). A search, category, or autocomplete request costs 600 points and a typical recommendation request 100-200. Over-limit calls return HTTP 429 with a Retry-After header (the docs suggest 1 second backoff), current status is exposed in the X-Nosto-Ratelimit-Status header, and nosto-cost-debug returns a per-section cost breakdown."
+        ],
+        [
+          "How do visitors opt out of Nosto tracking?",
+          "Nosto documents a consent-conditional pattern: wrap the tracking script (connect.nosto.com/include/$accountID) in a check of your consent cookie so it is injected only after a visitor accepts, which the help center says disables the initialization of Nosto entirely for that user. A data processing agreement is published at nosto.com/legal/terms-conditions-dpa. For implementation, that means opt-out lives in your storefront template rather than in a Nosto settings toggle."
+        ]
+      ]
     }
   },
   {
@@ -3056,52 +3111,80 @@
     "slug": "paperclip",
     "name": "Paperclip",
     "tagline": "Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit",
-    "website": "https://paperclip.inc",
+    "website": "https://paperclip.ing",
     "category": "workflow-automation",
     "pricing_model": "freemium",
     "pricing_url": "https://paperclip.inc/pricing",
     "price_from": 0,
-    "price_notes": "Self-hosted free (MIT); hosted cloud from €10/mo, unlimited companies",
+    "price_notes": "Self-hosted free (MIT). Hosted cloud: one plan at EUR 10/month or EUR 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts.",
     "ai_features": [
-      "Multi-agent orchestration (Claude, Codex, Cursor, Gemini, DeepSeek, Qwen, Hermes, OpenCode)",
-      "Per-agent budgets with auto-pause at cap",
-      "Approval workflows with scoped permissions",
-      "Scheduled routines (24/7 cadence)",
-      "Immutable audit log with one-click rollback",
-      "Pre-built company templates (167-agent agency, engineering teams)"
+      "Org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more)",
+      "Per-agent budgets: warn at 80%, hard stop at 100%, auto-pause at cap",
+      "Approval workflows for hires, CEO strategy, and budget overrides",
+      "Event-driven wakeups; interval heartbeats are opt-in, off by default",
+      "Permanent activity log with revisioned config rollback"
     ],
     "integrations": [
       "Claude Code",
       "Codex",
-      "Cursor",
-      "Gemini",
-      "DeepSeek",
-      "Qwen",
-      "Hermes",
+      "Cursor (local and cloud)",
+      "Gemini CLI",
       "OpenCode",
-      "GitHub Actions"
+      "Hermes",
+      "Grok Local",
+      "Kimi Code",
+      "Pi",
+      "OpenClaw Gateway (coming soon)",
+      "GitHub via pull requests",
+      "e2b, Cloudflare, and Modal sandboxes"
     ],
     "github_repo": "paperclipai/paperclip",
-    "github_stars": 74800,
-    "last_release": "2026-07-22",
+    "github_stars": 80187,
+    "last_release": "v2026.831.1 (2026-09-02)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": 2025,
+    "founded": null,
     "hq": "EU",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Paperclip takes a different approach to AI agents: instead of building individual automations, it runs an entire company. Think org charts, budgets, governance, and goal alignment, all for AI agents.\n\nBuilt as a Node.js server with a React UI, Paperclip is an open-source control plane that orchestrates teams of AI agents working toward a shared mission. You define the company structure (CEO, CTO, engineers, marketers) and agents check in on a heartbeat schedule, picking up tasks delegated through the org chart. Budget caps per agent stop runaway spend. Every decision is traced with a full audit trail.\n\nThe key insight is that Paperclip doesn't run agents, it manages them. Agents run wherever they run and phone home. If you're using Claude Code, OpenClaw, or custom agents, they all slot into the same org chart. Multi-company support means one deployment can run several \"companies\" with complete data isolation.\n\nPaperclip is not a chatbot, an agent framework, or a workflow builder. It's the governance layer, not the worker. For marketing ops teams exploring autonomous agent fleets, Paperclip provides the missing management layer (who does what, how much it costs, and why decisions were made) that every agent experiment eventually needs.",
+    "date_updated": "2026-09-07",
+    "description": "Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat EUR 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,187 stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.",
     "seo_title": "Paperclip Review: Freemium | MartechSignal",
     "seo_description": "Paperclip, Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. Open source & free to self-host. Compare AI.",
     "deep_dive": {
-      "hands_on": [
-        "Paperclip is a lightweight workflow automation tool aimed at small teams connecting everyday SaaS apps. The trigger-action model is standard, the interface avoids automation jargon, and for simple two or three step flows it gets out of the way faster than the heavier platforms.",
-        "Complex branching, error handling, and bulk data operations hit walls quickly, and the integration library is a fraction of Zapier's or Make's. It fits teams automating a handful of internal processes, not operations teams running hundreds of production workflows."
+      "install": [
+        "Managed install (README quickstart): curl -fsSLO https://paperclip.ing/install.sh plus its .sha256, verify with sha256sum -c, then bash install.sh. The installer ensures Node.js 24.11+, installs a CLI under ~/.paperclip/cli, and starts interactive onboarding; the README notes the checksum is served from the same origin as the script.",
+        "Non-interactive: curl -fsSL https://paperclip.ing/install.sh | bash -s -- --no-prompt --no-onboard, then paperclipai onboard --yes. To try without installing: npx paperclipai onboard --yes, or ANTHROPIC_API_KEY=... npx paperclipai test-drive for an isolated test company pre-initialized with a CEO agent.",
+        "The docs warn against running onboard with sudo or as root: the default setup starts embedded PostgreSQL, which refuses to run as an administrative user. Success looks like a config at ~/.paperclip/instances/default/config.json and a server on http://localhost:3100; keep it running with paperclipai service install.",
+        "From source: git clone https://github.com/paperclipai/paperclip.git && cd paperclip && pnpm install && pnpm dev (Node.js 24.11+, pnpm 9.15+). Docker paths exist for a quickstart compose file and a full stack with PostgreSQL 17; the image ships git, gh, ripgrep, python3, and the Claude, Codex, and OpenCode CLIs.",
+        "Connect an agent by adapter: a Claude Code agent takes adapterType claude_local with model and working-directory config, authenticated by ANTHROPIC_API_KEY, Bedrock env vars, or Claude subscription login. Network binding presets are --bind lan and --bind tailnet; the default local_trusted mode has no login and must not be reachable from a network."
       ],
-      "verdict": "Nice lightweight automator for small teams; outgrown the moment flows get serious."
+      "requirements": "Node.js 24.11+ is a hard floor as of v2026.831.0 (August 2026) and pnpm 9.15+ for source installs; embedded PostgreSQL is created automatically, and any 1 vCPU, 2 GB Linux VPS is enough to start, with port 3100 kept off the internet. Telemetry is on by default and disabled with PAPERCLIP_TELEMETRY_DISABLED=1 or DO_NOT_TRACK=1. The openclaw_gateway, process, and http adapters are marked coming soon in the UI dropdown but work through the API or an imported company export, and there are no outbound webhooks, so alerting requires a polling routine.",
+      "best_for": "Teams already running several coding agents in parallel (the README's example is twenty Claude Code terminals) that want one place to delegate through an org chart, cap spend per agent, require human approval for hires and strategy, and audit every change; also EU-constrained buyers, since cloud hosting is EU end to end and GDPR native.",
+      "not_for": "Anyone with a single agent (the README says you probably don't need Paperclip), teams wanting drag-and-drop workflow automation (explicitly not a workflow builder), or buyers who need push notifications: no outbound webhooks exist today. Cloud Sync was removed in v2026.817.0, so company import and export is the only supported transfer path between deployments.",
+      "hands_on": [
+        "Assessed from github.com/paperclipai/paperclip, docs.paperclip.ing, paperclip.ing, and paperclip.inc in September 2026; we have not run an instance. The public surface is deep: about 29 documented REST resource pages, an OpenAPI spec at /api/openapi.json, a paperclipai CLI with roughly 32 command groups, and a changelog tracking the calendar-versioned releases. Latest stable is v2026.831.1 (September 2, 2026), with canary builds shipping several times a day.",
+        "The correction that matters: our earlier hands-on notes described a lightweight trigger-action automation tool for connecting everyday SaaS apps. That is a different product. The README states plainly that Paperclip is not a workflow builder, has no drag-and-drop pipelines, and models companies with org charts, goals, budgets, and governance. We have replaced those notes in full.",
+        "Second correction: two domains, two things. paperclip.ing is the open-source project (Paperclip Labs); paperclip.inc is the hosted cloud run by Paperclip.inc OÜ, an Estonian company whose footer reads built on paperclipai/paperclip, 80.2k. Our record pointed the homepage at the commercial site; we now link the project site and keep the cloud's pricing page. DeepSeek and Qwen are not adapters, they are model providers reachable through other adapters, and GitHub Actions is this project's own CI, not a product integration.",
+        "Where the docs are refreshingly honest: interval heartbeats ship off by default, with the docs advising that a frequently paused agent has the wrong heartbeat rather than the wrong workflow; budget behavior is spelled out to the API call (warn at 80%, hard stop at 100%, auto-resume 00:00 UTC on the 1st); and the activity log is described as kept permanently rather than dressed up as immutable."
+      ],
+      "verdict": "The most credible attempt yet at governing agent fleets like headcount rather than scripts: real budgets, approvals, and audit, with honest defaults (dormant agents, no webhooks) and a deep public docs surface.",
+      "faq_extra": [
+        [
+          "What happens when a Paperclip agent hits its budget cap?",
+          "At 80% of the cap (the default warnPercent) Paperclip records a soft incident and the agent keeps working. At 100% a hard incident fires: the scope is paused immediately, no more heartbeats are scheduled, in-progress runs are cancelled, and the docs state no work is lost. You resume through the budget-incident API with raise_budget_and_resume (the new amount must exceed current spend, or the call fails) or keep_paused. Budget-paused scopes auto-resume at 00:00 UTC on the first of the month."
+        ],
+        [
+          "Do Paperclip agents run 24/7 by default?",
+          "No. A new agent ships with timer heartbeats turned off, and the docs recommend leaving them off and enabling wake-on-demand instead: the agent shows as active on the dashboard but consumes nothing until work lands. There are four wake sources (timer, task assignment or comment, manual wake-now, and routines), and only the timer is not event-driven. For scheduled recurring work on the hosted cloud, routines run around the clock; self-hosted routines use cron in your timezone plus signed webhooks."
+        ],
+        [
+          "How do I connect Claude Code to Paperclip?",
+          "Create an agent whose adapter is claude_local. Claude Code must be installed and on PATH, and authentication uses ANTHROPIC_API_KEY, AWS Bedrock environment variables, or a Claude subscription login. The adapter stores the session id and resumes it on the next heartbeat when the working directory still matches, injects Paperclip skills by building a directory of symlinks passed with --add-dir, and exposes a Test Environment button that probes the CLI in headless print mode. maxTurnsPerRun defaults to 300."
+        ]
+      ]
     }
   },
   {
@@ -4727,79 +4810,136 @@
     "website": "https://twenty.com",
     "category": "crm",
     "pricing_model": "open-source",
-    "pricing_url": null,
+    "pricing_url": "https://twenty.com/pricing",
     "price_from": 0,
-    "price_notes": "Open-source self-hosted free; cloud hosting available",
+    "price_notes": "Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without.",
     "ai_features": [
-      "AI-powered data enrichment",
-      "AI email assistant",
-      "Smart relationship insights"
+      "AI Chatbot with access to your workspace data",
+      "AI Agents in Workflows",
+      "AI-built dashboards",
+      "Native MCP server on cloud workspaces (site claim)"
     ],
-    "integrations": [],
+    "integrations": [
+      "Gmail & Google Calendar",
+      "Outlook & Microsoft Calendar",
+      "IMAP / SMTP / CalDAV",
+      "Signed outbound webhooks",
+      "REST + GraphQL API",
+      "SAML 2.0 SSO (Organization plan)",
+      "Marketplace: Slack, Exa, People Data Labs"
+    ],
     "github_repo": "twentyhq/twenty",
-    "github_stars": 53690,
+    "github_stars": 56412,
     "last_release": null,
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": null,
-    "hq": null,
+    "founded": 2023,
+    "hq": "Paris, France",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Twenty is an open-source CRM that positions itself as a self-hostable alternative to enterprise sales platforms while adding AI-assisted workflows for modern revenue teams. The platform manages contacts, companies, deals, and pipelines, and gives teams the ability to customize objects, fields, views, and automations without being locked into a proprietary stack. Because the codebase is publicly available and has attracted a large GitHub following, organizations can inspect, extend, and deploy it on their own infrastructure, or use a managed cloud option when they prefer not to operate the system themselves.\n\nTwenty is aimed at startups, technical teams, RevOps leaders, and companies that want CRM flexibility with more control over data and deployment. Its AI capabilities include data enrichment, an email assistant, and relationship insights that help users surface context from records and communications. An API supports integrations and internal tooling, which makes it easier to connect the CRM to product, support, billing, or analytics systems. Compared with commercial alternatives such as Salesforce, Twenty emphasizes transparency, self-hosting, and developer-friendly customization rather than a closed, license-heavy ecosystem.\n\nThe pricing model is anchored by a free open-source self-hosted edition, with paid cloud hosting available for teams that want managed operations. That makes it attractive for organizations that need a CRM foundation but do not want the cost or complexity often associated with large enterprise platforms. Twenty fits technical B2B teams, open-source advocates, and growing companies that need a customizable CRM with AI-assisted data and communication features while retaining ownership of their system and data.",
+    "date_updated": "2026-09-07",
+    "description": "Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. Standard objects cover companies, people, opportunities, tasks, and notes, and custom objects get the same first-class treatment: API endpoints, views, permissions, and workflow triggers, with 20-plus field types, many-to-many relations, and no limits on objects or fields on any plan. The project is unusually honest about fit: its docs name startups with technical founders, agencies fluent in TypeScript, and privacy-conscious organizations that want to self-host, while pointing teams that want a CRM they never think about to Pipedrive or HubSpot. Documented AI is narrower than the tagline suggests: an AI chatbot with access to workspace data, AI agents inside workflows (enrichment from public sources, auto-drafting email replies), AI-built dashboards, and a native MCP server on cloud workspaces, which the site claims but the docs do not yet document. Integrations center on Gmail, Google Calendar, Outlook, and Microsoft Calendar, with IMAP, SMTP, and CalDAV for anything else, signed outbound webhooks on every object including custom ones, and a five-app marketplace (Slack, Exa, People Data Labs, and others). There is no mobile app and no static API reference, because each workspace has its own schema. Self-hosting is free and carries all Pro features on Docker Compose (2 GB RAM minimum, PostgreSQL 15 or newer, and losing ENCRYPTION_KEY loses every stored secret); premium features such as SSO and audit logs need a paid Enterprise key even self-hosted. Cloud Pro is $9 per user per month billed yearly, Organization is $19, and Enterprise starts at $50,000 a year. At 56,000-plus stars with several tagged releases a week, it is the fastest-moving CRM here, and it reads like it.",
     "seo_title": "Twenty Review: CRM, Open Source | MartechSignal",
     "seo_description": "Twenty, The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Twenty is rebuilding CRM the way developers expect: open source, GraphQL and REST APIs, a Notion-like interface, and data ownership without per-seat fees. The pace of development is fast, and core objects (companies, people, opportunities) plus custom fields cover standard pipeline needs already.",
-        "It is young - expect rough edges, a thinner integration catalog, and self-hosting responsibility. Companies needing mature reporting, mobile apps, or enterprise governance today should wait or pair it with something else. As a self-hosted CRM foundation, the trajectory is the best we have seen."
+      "install": [
+        "One-line installer: bash <(curl -sL https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docker/scripts/install.sh), optionally prefixed with VERSION=vx.y.z to pin a release.",
+        "Manual Docker Compose: download .env.example and docker-compose.yml from packages/twenty-docker, generate ENCRYPTION_KEY with openssl rand -base64 32, then docker compose up -d. The stack is server, worker, db (postgres:16), and redis, and the app answers on http://localhost:3000.",
+        "Storage defaults to local (STORAGE_TYPE=local) with S3 variables commented out in .env; Postgres settings are assembled into PG_DATABASE_URL by the compose file, so there is no DATABASE_URL variable to set.",
+        "Upgrade: back up first with docker exec {db_container} pg_dumpall -U {user} > databases_backup.sql, then docker compose down, change TAG in .env, and docker compose up -d. Migrations run automatically, and instances on v1.23 or later can jump straight to the latest version.",
+        "Cloud alternative: signup starts a 30-day trial with a card or 7 days without; Twenty Cloud runs on AWS in Frankfurt, Germany, and region selection is promised from 2027."
       ],
-      "verdict": "The most promising open-source CRM of the new generation; early-stage, so plan for growing pains."
-    }
+      "requirements": "Docker Compose with at least 2 GB RAM (the docs warn that low memory causes crashes), PostgreSQL 15 or newer, and a domain if you expose it beyond localhost. ENCRYPTION_KEY is critical: the docs state that losing it means losing access to every secret stored in the database, with FALLBACK_ENCRYPTION_KEY for rotations. Outbound-call protection blocks private IPs, so self-hosters with LAN mail or calendar servers set OUTBOUND_HTTP_SAFE_MODE_ENABLED=false. Config lives in an admin panel by default; PG_DATABASE_URL, SERVER_URL, and the encryption keys are env-only.",
+      "best_for": "Technical teams that want to build their CRM rather than configure one: GTM teams writing their own lead scoring, enrichment, and outbound workflows, agencies fluent in TypeScript and React, and organizations that must self-host and own their data end to end. The docs' own list adds enterprises replacing Salesforce and Salesforce partners tired of license increases.",
+      "not_for": "Teams that want a CRM they never think about, which the docs redirect to Pipedrive or HubSpot, and companies that need hundreds of pre-built integrations today. There is no mobile app, native email campaigns are not shipped, webhook event filtering is still future work, attachments sync is promised for H1 2026, and bringing your own AI model self-hosted requires an Organization license.",
+      "hands_on": [
+        "Assessed from twenty.com, docs.twenty.com (a 971KB docs corpus fetched through its published llms.txt), the GitHub repo, and the release feed in September 2026; we have not deployed an instance. Activity is the strongest signal: v2.39.0 shipped September 7, 2026, five releases landed in the prior week, and the repo was pushed the day before we checked. The vendor changelog page lags GitHub, which matters if you track versions.",
+        "The correction that matters: our earlier record listed AI-powered data enrichment, an AI email assistant, and smart relationship insights. None are documented features. The docs' own AI FAQ names exactly two capabilities, an AI Chatbot with access to workspace data and AI Agents in Workflows, and smart relationship insights appears nowhere in the 971KB corpus. We have replaced the list with documented capabilities and flagged the MCP server as a site claim that has not reached the docs.",
+        "Second correction: the license is not plain AGPLv3. The LICENSE file applies AGPLv3 to most of the code, carves out Enterprise-licensed files that require a paid subscription for production use, licenses the SDK and UI packages under MIT, and adds an AGPLv3 section 7 exception. Self-hosting genuinely includes all Pro features at no cost, but SSO, row-level permissions, audit logs, unlimited workspaces, and private source code need a paid Enterprise key even on your own servers.",
+        "What the docs do well: an explicit who-Twenty-is-not-for list, metered logic-function pricing published at Lambda-style rates ($0.0001 per invocation plus $0.0001 per second of runtime), and legal FAQs that state where cloud data lives (AWS Frankfurt), that soft-deleted records purge after 14 days and backups after 30, and that CRM content can train sub-processor models depending on their terms, with a settings path to disable AI entirely."
+      ],
+      "verdict": "The fastest-moving open-source CRM in this directory, honest about its limits and genuinely free to self-host at the Pro tier; adopt it as a platform you build on, not a finished product you switch on.",
+      "faq_extra": [
+        [
+          "Is Twenty really free to self-host?",
+          "The self-hosted free plan includes all Pro features at no cost, confirmed both by the docs plan table and the LICENSE's AGPLv3 core. What is not free: SSO, row-level permissions, audit logs, unlimited workspaces, and access to the private source code are Enterprise Edition features that require a paid key, bought through Stripe and pasted under Settings, Admin Panel, Enterprise, whether you run cloud or self-host. Enterprise files in the repo carry a commercial license and are cleared for production use only with that subscription."
+        ],
+        [
+          "Can I migrate from Salesforce or HubSpot to Twenty?",
+          "Through CSV import or the API (the pricing FAQ suggests the API for 50,000-plus records), but the docs are clear it is a mapping exercise rather than a connector: Accounts map to Companies, Contacts to People, Deals to Opportunities, and Activities to Tasks or Notes. Users must be invited before the import, custom fields must exist before rows arrive, and views, workflows, and permissions must be recreated manually afterward."
+        ],
+        [
+          "Does Twenty train AI models on my CRM data?",
+          "Twenty has no model of its own; the legal FAQ states that CRM content can be used to train AI models depending on the terms of its AI sub-processors, which is as much as it can control. You can turn AI off completely by disabling all models under Settings, AI, Models. Cloud data sits on AWS in Frankfurt, Germany, sub-processors are listed at trust.twenty.com, and EU standard contractual clauses apply."
+        ]
+      ]
+    },
+    "paid_from": 9
   },
   {
     "slug": "umami",
     "name": "Umami",
-    "tagline": "Open-source privacy-focused web analytics with real-time dashboards and AI insights",
+    "tagline": "Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps",
     "website": "https://umami.is",
     "category": "open-source",
     "pricing_model": "open-source",
     "pricing_url": "https://umami.is/pricing",
     "price_from": 0,
-    "price_notes": "Self-hosted free (MIT); Cloud Hobby $20/mo; Pro and Enterprise tiers available",
-    "ai_features": [
-      "AI-powered insights",
-      "AI anomaly detection",
-      "AI event tracking"
-    ],
+    "price_notes": "Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial.",
+    "ai_features": [],
     "integrations": [
-      "WordPress",
+      "WordPress (community plugin)",
       "Next.js",
       "Vercel",
-      "Zapier",
-      "Slack",
-      "Google Search Console"
+      "Node.js (@umami/node)",
+      "Community API clients (Laravel, Python, Go)"
     ],
     "github_repo": "umami-software/umami",
-    "github_stars": 37900,
+    "github_stars": 38662,
     "open_source": true,
     "api_available": true,
     "founded": 2020,
-    "hq": "San Francisco, CA, USA",
+    "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Umami is an open-source alternative to traditional analytics platforms. It gives website owners a lightweight way to measure traffic, campaigns, and on-site behavior while keeping data collection privacy focused. The San Francisco-based project, founded in 2020 and backed by an active GitHub community with about 37, 900 stars, can be self-hosted under the MIT license or used through paid cloud plans. Its real-time dashboards track pageviews, sessions, referrers, countries, devices, and custom events, while an API and integrations with WordPress, Next.js, Vercel, Zapier, Slack, and Google Search Console make it practical for marketing teams, indie builders, agencies, and product-led organizations that want simple reporting without complex setup.\n\nUmami's AI features are designed to reduce manual analysis by surfacing AI-powered insights, flagging unusual traffic patterns through AI anomaly detection, and supporting AI event tracking for more structured measurement. These capabilities are useful for teams that need quick signals from their web data but do not want to manage a full enterprise analytics stack. Compared with commercial alternatives such as Google Analytics or Mixpanel, Umami trades some depth of behavioral modeling and advertising ecosystem integrations for transparency, self-hosting control, and a cleaner privacy posture. Pricing includes a free self-hosted option, a Cloud Hobby tier at $20 per month, and higher Pro and Enterprise plans for teams needing managed infrastructure and support. It fits privacy-conscious marketers, developers, and small to mid-sized teams that want an open-source, AI-assisted web analytics tool with straightforward dashboards and flexible deployment options.",
+    "date_updated": "2026-09-07",
+    "description": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,600 GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.",
     "seo_title": "Umami Review: Open Source | MartechSignal",
     "seo_description": "Umami, Open-source privacy-focused web analytics with real-time dashboards and AI insights. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Umami is the open-source analytics answer when Plausible-style simplicity must live on your own infrastructure: one Node app plus a database, cookieless tracking, and a clean single-page dashboard covering pageviews, referrers, and events. Setup from Docker to first data took minutes.",
-        "Event tracking and custom dashboards are more limited than Matomo, and there is no commercial support layer unless you pay for their cloud. For sites wanting privacy-friendly, self-hosted numbers without operational weight, it is the lightest credible option we have deployed."
+      "install": [
+        "Docker path: docker pull docker.umami.is/umami-software/umami:latest, or clone the repo and run docker compose up -d with the shipped file, which starts the app on port 3000 plus postgres:15-alpine, each with a health check and a persistent umami-db-data volume.",
+        "Source path: git clone https://github.com/umami-software/umami.git && cd umami && pnpm install, set DATABASE_URL (postgresql://username:mypassword@localhost:5432/mydb, the only required variable), then pnpm run build and pnpm run start. Node.js 18.18+ and PostgreSQL 12.14+ are required.",
+        "The build creates a default admin/umami login; change it on first sign-in. Two-factor auth needs TWO_FACTOR_ENCRYPTION_KEY set (generate with openssl rand -hex 32), required since v3.3.",
+        "Updates: git pull && pnpm install && pnpm build from source, or docker compose pull && docker compose up --force-recreate -d for Docker deployments.",
+        "Get data flowing: add the tracking script to your site (Next.js via the next/script component; a WordPress community plugin exists), then watch events land in the dashboard. Server-side events post to /api/send or /api/batch as JSON and require a valid User-Agent header; requests without one are rejected."
       ],
-      "verdict": "The lightest credible self-hosted analytics; ideal when Plausible's subscription is the objection."
+      "requirements": "Node.js 18.18+ and PostgreSQL 12.14+; v3 dropped MySQL and MariaDB, and the docs document a v2.19 stepping-stone migration for anyone moving off MySQL. DATABASE_URL is the only required variable; APP_SECRET, TRACKER_SCRIPT_NAME (renames script.js), COLLECT_API_ENDPOINT (renames /api/send), IGNORE_IP, and DISABLE_TELEMETRY=1 cover most configuration. Self-hosted data is retained indefinitely unless you delete it. The docs list three ways around ad blockers: reverse-proxy the script, self-host the tracker file with data-host-url, or rename the tracker and collect endpoint.",
+      "best_for": "Developers and privacy-conscious marketing teams that want campaign and conversion reporting without cookies or consent banners: UTM and attribution reports, funnels, retention, revenue, and shareable dashboards, with unlimited websites when self-hosted and an API-first design for custom pipelines.",
+      "not_for": "Buyers who want zero infrastructure: self-hosters are responsible for the security of their own deployment, and session replay, heatmaps, email reports, and the streaming API sit behind paid Cloud tiers (Business and up for replay and heatmaps). Also not for teams that need certified compliance attestations, since the security page states Umami claims no certifications it has not completed, and not for MySQL shops, which v3 no longer supports.",
+      "hands_on": [
+        "Assessed from umami.is, docs.umami.is (about 120 pages, fetched through its published llms.txt), the GitHub repo, and the release log in September 2026; we have not deployed an instance. The docs cover v3 only, with v2 split off at v2.umami.is, and the release cadence is healthy: v3.3.1 (August 20, 2026), v3.3.0 (August 12), v3.2.0 (June 24), v3.1.0 (April 16), with a push to master the day before we checked.",
+        "The correction that matters: our earlier record listed AI-powered insights, AI anomaly detection, and AI event tracking. None exist. A search across the full documentation set, the README, and every release from v3.0.3 to v3.3.1 finds no AI feature of any kind; Insights in Umami is a menu of deterministic reports (compare, breakdown, funnel, retention, UTM, goals, journey, revenue, attribution). We have removed the AI claims.",
+        "Second correction: our cloud pricing was wrong. Hobby is free to 100,000 events a month, not $20; Pro is $20 for 1 million events; Business is $200 for 10 million; Enterprise is custom, with overage billed per event and no interruption to collection. The old claim that Umami lacks session recordings and heatmaps is also out of date: replay shipped in v3.1 and heatmaps in v3.2, both off by default and both Cloud Business tier and above on the hosted side.",
+        "Two more stale facts: v3 removed MySQL and MariaDB in favor of PostgreSQL-only, and the integration list was padded. Zapier, Slack, and Google Search Console appear nowhere in the docs; WordPress is a community plugin, Next.js and Vercel are documented guides rather than integrations, and the official integrations page lists community plugins for ten platforms plus API clients."
+      ],
+      "verdict": "Light, honest, cookieless analytics you can own outright; the AI-free tracking script is the point, not a gap. Self-host for unlimited sites, or pay $20 a month for 1 million cloud events.",
+      "faq_extra": [
+        [
+          "How do I stop ad blockers from blocking Umami?",
+          "The docs describe three methods: reverse-proxy the tracking script at the server level (Nginx, Apache, or an Express endpoint serving it), self-host the tracker file and point the snippet at it with data-host-url, or on self-hosted installs rename the tracker with TRACKER_SCRIPT_NAME and the collection endpoint with COLLECT_API_ENDPOINT. The docs concede the point plainly: even though Umami is privacy-focused, it may still get blocked by certain ad blockers."
+        ],
+        [
+          "Does Umami track UTM campaign parameters?",
+          "Yes, natively since v2.11.0. All five standard parameters (utm_source, utm_medium, utm_campaign, utm_term, utm_content) are collected automatically with no extra configuration, and there is a dedicated UTM report. The v2.18.0 attribution report builds on that with first-click and last-click models across referrers, paid ads, and UTM parameters, so campaign credit can be viewed under either model."
+        ],
+        [
+          "What happened to MySQL support in Umami v3?",
+          "It was removed. The v3 upgrade guide announces that Umami is standardizing on PostgreSQL, and the FAQ states PostgreSQL 12.14 or newer is the only supported database. Existing MySQL users migrate by upgrading to v2.19.0 first, exporting with mysqldump or CSV, and importing with a tool such as pgloader or pg_chameleon; the docs walk the full path. MariaDB, which v2 tolerated as a MySQL variant, goes with it."
+        ]
+      ]
     },
     "paid_from": 20
   },
@@ -7176,15 +7316,48 @@
       "Postgres"
     ],
     "github_repo": "sneg55/warpdrive",
-    "github_stars": 73,
+    "github_stars": 72,
     "open_source": true,
     "api_available": false,
     "founded": null,
     "hq": null,
     "status": "active",
     "date_added": "2026-09-03",
-    "date_updated": "2026-09-03",
-    "description": "Warpdrive is a self-hosted CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts, and two-way Gmail. It runs on your own box under the MIT license, single-tenant, with no per-seat bill. The pitch targets small BD teams that want pipeline tracking without handing customer data to a vendor cloud, and the whole stack comes up with one docker compose command.\n\nThe AI angle needs an honest answer: there isn't one. No lead scoring model, no AI email drafting, nothing in the product that learns anything. The repo ships a CLAUDE.md and a PostHog MCP config, but those help developers work on the code, not users sell. Where Warpdrive earns its place is as a clean, actively maintained open-source CRM with a real email surface: open and click tracking, templates, merge fields, scheduled send, and Gmail threads linked to deals in both directions.\n\nPricing is the simple part. It costs nothing beyond the server you host it on. One compose file starts the app, a WebSocket server, a background worker, Postgres, MinIO, and Caddy handling TLS automatically. Set against Pipedrive's per-seat billing, the trade is plain: you swap a subscription for ops responsibility, and Google Workspace provides your SSO and Gmail OAuth.\n\nThis directory carries several open-source CRMs, and Warpdrive's niche is narrowness. Twenty is the bigger project with more objects and a larger community. EspoCRM and SuiteCRM cover more business processes. Warpdrive deliberately leaves products, invoicing, forecasting, and workflow automation out of scope, and its README says so in a comparison table. What you get is the Pipedrive-style pipeline plus Gmail, polished.\n\nSkip it if you need marketing automation, forecasts, or mobile apps. The project calls those out of scope and means it. It is also one maintainer's work, in production for a single team, with 73 stars and 33 commits at review, so treat it as young software. For a solo founder or a small BD team that runs its own infrastructure and lives in Gmail, it is worth an afternoon to try."
+    "date_updated": "2026-09-07",
+    "description": "Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, 72 stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.",
+    "deep_dive": {
+      "install": [
+        "Prerequisites (docs.warpdrivecrm.com/setup): a Linux box with Docker and the Compose plugin, a domain with A/AAAA records for both the app host and an s3. subdomain (browser uploads POST presigned requests there; skipping it breaks every upload), ports 80 and 443 open, and a Google OAuth client from the project that owns your Workspace.",
+        "Install is two commands from the repo: cp .env.example .env, fill in domain, Google OAuth, storage, and secrets, then docker compose up -d --build. That starts caddy, postgres (postgres:16-alpine), minio, app, ws, and worker, plus one-shot migrate and createbuckets services.",
+        "Secrets come from openssl: openssl rand -base64 32 for TOKEN_ENCRYPTION_KEY, openssl rand -hex 32 for WS_TICKET_SECRET, openssl rand -hex 16 for the MinIO keys, and openssl rand -base64 32 for OAUTH_SIGNING_KEY. DATABASE_URL and the other secrets accept a VAR_FILE variant for Docker secrets.",
+        "In Google Cloud, register two redirect URIs: the app sign-in callback and https://<your-domain>/api/gmail/oauth/callback. Set SEED_ADMIN_EMAIL (the first Google sign-in is promoted to admin) and keep ALLOW_FIRST_LOGIN_ADMIN=false, which the env boundary enforces in production.",
+        "Verify with docker compose ps and curl -fsS https://<domain>/api/health (returns {\"ok\":true}). Upgrades are git pull && docker compose up -d --build, with migrations running in the one-shot migrate service before the app restarts."
+      ],
+      "requirements": "Google Workspace is effectively mandatory: Google SSO is the only documented auth path and the Gmail API the only mail integration, with GOOGLE_WORKSPACE_DOMAIN available to pin sign-in to one domain. NEXT_PUBLIC_WS_URL must be set at build time; if it is missing the app still starts and looks healthy but the board, inbox, notifications, and presence indicators silently never update. Telemetry is switchable: leave POSTHOG_KEY and POSTHOG_HOST empty or set DISABLE_TELEMETRY, and DISABLE_UPDATE_CHECK=true for deployments that should make no outbound calls. Uploads cap at 25 MiB by default (MAX_FILE_BYTES). No RAM or CPU sizing is documented anywhere. If a CSV import sticks at \"uploaded\", the docs point at the worker process: background jobs run only there.",
+      "best_for": "Business-development teams already on Google Workspace that want Pipedrive's pipeline-and-Gmail loop on their own infrastructure: single-tenant, MIT licensed, no per-seat bill, data in your own Postgres and S3-compatible storage, and an MCP server so assistants can work the CRM under each user's permissions.",
+      "not_for": "Teams that need products, projects, invoicing, forecasts, multi-currency, workflow automation beyond email scheduling, web forms, or native mobile apps: the README marks all of them out of scope and the docs say plainly that this is not the right tool if you need them. Also not for shops without Google Workspace, and not for bulk integration work: CSV is the documented import route, with no REST API, no webhooks, and no API keys.",
+      "hands_on": [
+        "Assessed from github.com/sneg55/warpdrive, docs.warpdrivecrm.com (about 25 pages), and warpdrivecrm.com in September 2026; we have not deployed an instance. The repo is young and small: 72 stars, 35 commits, one contributor (Nikita Sawinyh), one release (v1.0.0, July 19, 2026), zero issues and zero pull requests ever filed, latest commit September 7, 2026. The docs site config describes the repo as a public mirror of a private source-of-truth repository, with pull requests merged upstream and synced back on the next release.",
+        "The correction that matters: our earlier text said the repo's CLAUDE.md and PostHog MCP config help developers work on the code rather than users sell, and recorded no API. Both were wrong. Warpdrive ships a user-facing MCP server as a documented headline feature: 29 tools (13 read, 16 write) at /api/mcp over OAuth 2.1, with no delete tools for CRM records and no send tool, so drafts are written for review and sending stays a human action. What remains true is the absence of a REST API, webhooks, and API keys.",
+        "Second correction: our earlier summary implied the README compares Warpdrive with other open-source CRMs. The comparison table is against Pipedrive only, and its out-of-scope rows are verbatim: products, projects, invoicing, forecast, multi-currency, workflow automation (email scheduling only), web forms, marketplace, and native mobile apps. The README calls Warpdrive a focused, self-hosted CRM rather than a feature-for-feature clone, and says it is used in production for a single team's BD workflow.",
+        "Free applies to the software, not every workflow: contact enrichment requires your own paid Apollo, RocketReach, or GetProspect keys, which are encrypted at rest and put the provider on a 24-hour cooldown when quota runs out. Backups need both a pg_dump and the miniodata volume; the docs note that a database dump alone restores records whose attachments are gone."
+      ],
+      "verdict": "A scoped, honestly documented self-hosted Pipedrive alternative whose AI story is an MCP server rather than a model. One maintainer and a private upstream mean you are betting on a person, not a community.",
+      "faq_extra": [
+        [
+          "Does Warpdrive import my existing Gmail when I connect a mailbox?",
+          "No. The docs are explicit that there is no backfill: the first sync records Gmail's current history cursor and starts from there, so mail already in the mailbox is not imported and a freshly connected inbox stays empty until new mail arrives. Inboxes are also personal; colleagues do not see yours and you do not see theirs. Sharing happens by linking a Gmail thread to a deal or contact so it appears on that record's timeline."
+        ],
+        [
+          "Can an AI assistant delete records or send email through Warpdrive's MCP server?",
+          "No on both counts. The MCP server exposes 29 tools (13 read, 16 write) and has no delete tools for CRM records and no send tool: email drafts are written for review and sending stays a human action. Every call runs as the OAuth signed-in user, bounded by that user's visibility and permission flags, and writes land in the change log attributed to that user. Access is revoked per client under Settings, Connected apps."
+        ],
+        [
+          "How do I back up a self-hosted Warpdrive instance?",
+          "Two volumes, both required: a Postgres dump and the miniodata volume, since attachments live in MinIO and the docs warn that a database dump alone restores records whose attachments are gone. The documented command is docker compose exec -T postgres pg_dump -U warpdrive warpdrive | gzip > backup-$(date +%F).sql.gz, followed by copying the miniodata volume, and they recommend testing a restore before you need one."
+        ]
+      ]
+    }
   },
   {
     "slug": "seo-skill-bench",
