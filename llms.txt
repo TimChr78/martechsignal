@@ -32,7 +32,7 @@
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
 - [Growth Lab](https://martechsignal.com/tools/growth-lab/): Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex (open source)
 - [Marketing Studio](https://martechsignal.com/tools/marketing-studio/): Agent-driven marketing studio for Claude Code: launch assets from one command (open source)
-- [Open Mercato](https://martechsignal.com/tools/open-mercato/): The AI-Engineering Foundation Framework for CRM/ERP and commerce: open-source TypeScript, with multi-tenancy (open source)
+- [Open Mercato](https://martechsignal.com/tools/open-mercato/): Open-source TypeScript foundation for AI-built commerce, CRM, and ERP (open source)
 - [OpenClaw Marketing Skills](https://martechsignal.com/tools/openclaw-marketing-skills/): 37 marketing skills for OpenClaw agents with live data connectors (open source)
 - [SEO Skill Bench](https://martechsignal.com/tools/seo-skill-bench/): Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects (open source)
 - [Zapier GTM Cheat Codes](https://martechsignal.com/tools/zapier-gtm-cheat-codes/): Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof (open source)
@@ -44,7 +44,7 @@
 - [Heap](https://martechsignal.com/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
 - [Mixpanel](https://martechsignal.com/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Northbeam](https://martechsignal.com/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
-- [Snowplow](https://martechsignal.com/tools/snowplow/): Open-source customer data infrastructure for collecting, enriching, and activating behavioral data (open source)
+- [Snowplow](https://martechsignal.com/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (open source)
 - [Triple Whale](https://martechsignal.com/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 
 ### Chatbots & Conversational AI
@@ -74,7 +74,7 @@
 - [Django CRM](https://martechsignal.com/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (open source)
 - [Dolibarr ERP/CRM](https://martechsignal.com/tools/dolibarr/): Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app (open source)
 - [EspoCRM](https://martechsignal.com/tools/espocrm/): Lightweight open-source CRM with sales automation, marketing tools, and customer management (open source)
-- [Ever Gauzy](https://martechsignal.com/tools/ever-gauzy/): Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co (open source)
+- [Ever Gauzy](https://martechsignal.com/tools/ever-gauzy/): Open business management platform: ERP, CRM, HRM, ATS, and time tracking (open source)
 - [Frappe CRM](https://martechsignal.com/tools/frappe-crm/): Fully featured, open source CRM (open source)
 - [Freshsales](https://martechsignal.com/tools/freshsales/): AI-powered CRM with built-in phone, email, and chat for sales teams
 - [HubSpot CRM](https://martechsignal.com/tools/hubspot-crm/): Free AI-powered CRM platform with sales, service, and marketing tools unified
@@ -96,7 +96,7 @@
 - [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (open source)
 - [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
-- [Loops](https://martechsignal.com/tools/loops/): Modern email marketing platform for SaaS with AI-powered campaigns and automation
+- [Loops](https://martechsignal.com/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
 - [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
@@ -148,7 +148,7 @@
 - [OpenSEO](https://martechsignal.com/tools/openseo/): Open source alternative to Ahrefs and Semrush (open source)
 - [Potato](https://martechsignal.com/tools/potato-ai-visibility/): Free local tool that measures brand mentions and citations in Claude's web-search answers (open source)
 - [Semrush](https://martechsignal.com/tools/semrush/): All-in-one SEO and digital marketing platform with AI-powered insights and tools
-- [Seonaut](https://martechsignal.com/tools/seonaut/): Open-source SEO audit tool for crawling and analyzing websites for technical SEO issues (open source)
+- [Seonaut](https://martechsignal.com/tools/seonaut/): Open-source SEO crawler in Go for technical audits, self-hosted or cloud (open source)
 - [Superlines](https://martechsignal.com/tools/superlines/): AI Search Intelligence platform for brands and agencies
 - [Surfer SEO](https://martechsignal.com/tools/surfer-seo/): AI-powered content optimization platform for SEO-driven article writing and audits
 
