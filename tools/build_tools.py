@@ -637,13 +637,20 @@ def build_tool_page(t, cats, all_tools):
         schema["dateModified"] = t["date_updated"]
     if t.get("date_added"):
         schema["datePublished"] = t["date_added"]
-    if t.get("g2_rating"):
-        schema["aggregateRating"] = {
-            "@type": "AggregateRating",
-            "ratingValue": t["g2_rating"],
-            "reviewCount": t.get("g2_reviews", 0),
-            "bestRating": 5
-        }
+    if t.get("external_ratings"):
+        _er = t["external_ratings"][0]
+        try:
+            _rv = float(_er.get("score"))
+            _rc = int(_er.get("count") or 0)
+        except (TypeError, ValueError):
+            _rv, _rc = None, 0
+        if _rv:
+            schema["aggregateRating"] = {
+                "@type": "AggregateRating",
+                "ratingValue": _rv,
+                "reviewCount": _rc,
+                "bestRating": int(_er.get("max", 5))
+            }
     # Only emit offers.price when it is a real number. Custom/enterprise pricing
     # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
     # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the
