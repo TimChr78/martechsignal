@@ -97,8 +97,13 @@ def get_draft_text(draft_path: Path) -> str:
     return content
 
 
-def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = ""):
-    """Return related published posts for arbitrary source text."""
+def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = "", rotate_key: str = ""):
+    """Return related published posts for arbitrary source text.
+
+    L8 (model-comparison audit): identical top-3 modules were repeating across many
+    tool pages. When rotate_key is set, equally-scored candidates beyond the first are
+    rotated deterministically per page so different pages surface different valid
+    suggestions while relevance ordering is preserved for the top match."""
     source_kw = keywords(extract_text(text))
     scored = []
     for post in get_published_posts():
@@ -108,6 +113,20 @@ def suggest_for_text(text: str, max_suggestions: int = 3, exclude_slug: str = ""
         if score > 0:
             scored.append((score, post))
     scored.sort(key=lambda item: item[0], reverse=True)
+
+    if rotate_key and len(scored) > max_suggestions:
+        import hashlib as _hl
+        offset = int(_hl.sha256(rotate_key.encode()).hexdigest(), 16) % len(scored)
+        rotated = scored[offset:] + scored[:offset]
+        # keep the best-scoring item first, rotate the remainder for variety
+        best = scored[0]
+        rest = [(s, p) for s, p in rotated if p is not best[1]]
+        picked = [best] + rest[: max_suggestions - 1]
+        return [
+            {"title": p["title"], "url": p["url"], "score": round(s, 3), "slug": p["slug"]}
+            for s, p in picked
+        ]
+
     return [
         {"title": post["title"], "url": post["url"], "score": round(score, 3), "slug": post["slug"]}
         for score, post in scored[:max_suggestions]

@@ -162,6 +162,8 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -282,7 +284,7 @@ def build_tool_page(t, cats, all_tools):
         related_html = f'<h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
 
     source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
-    related_posts = suggest_links.suggest_for_text(source_text, max_suggestions=3)
+    related_posts = suggest_links.suggest_for_text(source_text, max_suggestions=3, rotate_key=slug)
     if related_posts:
         links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related_posts)
         related_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
@@ -517,7 +519,9 @@ def build_tool_page(t, cats, all_tools):
                 a2 = f"{name} is free to use."
         else:
             a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
-        q3 = f"Is {name} a good {cat.lower()} tool in 2026?"
+        # MUSE 11: keep acronym category names (CRM, SEO, CDP) uppercase in the question
+        _cat_disp = cat if cat.isupper() and 2 <= len(cat) <= 5 else cat.lower()
+        q3 = f"Is {name} a good {_cat_disp} tool in 2026?"
         # F-H13: the answer must be per-tool, not a sitewide template. Prefer the tool's
         # own verdict from its deep dive; fall back to concrete facts (stars, OSS, price).
         verdict = ((t.get("deep_dive") or {}).get("verdict") or "").strip()

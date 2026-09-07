@@ -20,6 +20,8 @@
 <meta name="twitter:image" content="https://martechsignal.com/og/glossary/mcp.png">
 <link rel="canonical" href="https://martechsignal.com/glossary/mcp/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -86,13 +88,13 @@
     <p>Anthropic introduced MCP in late 2024 and open-sourced it; adoption spread quickly through developer tools and then marketing platforms. For marketing teams, MCP is how agents get hands: the CRM connector, the ad-account connector, the analytics connector that lets an agent act inside your stack.</p>
     <h2>How it works</h2><p>An MCP server is a small program that declares resources it can read and actions it can perform. The client - Claude Code, an agent runtime, an IDE - discovers those declarations and lets the model call them as structured tools. Sessions are stateful enough for context to persist across calls within a conversation.</p><h2>Practical uses</h2><p>Marketing teams use MCP servers to give agents safe access to internal data: campaign performance reads, content draft writes, ticket lookups. The protocol&#x27;s permission model means access can be scoped per server, which is how you give an agent analytics reads without handing over spend controls.</p><h2>How to choose</h2><p>Prefer MCP servers that are idempotent and read-heavy for first deployments. A server that can only read and report cannot break production data; once trust is established, add write-capable servers one at a time.</p><h2>The numbers</h2><p>Scale math: an agent that checks six data sources before each decision, running once per hour, makes roughly 4,300 tool calls per week per agent. Against metered MCP or search quotas, that is the difference between a rounding error and a budget line - design polling frequency before launch, not after.</p><h2>Common mistakes</h2><p>Running unvetted third-party MCP servers with production credentials is the emerging horror story - a server with broad scopes is a supply-chain risk. Audit what scopes each server holds and rotate credentials separately.</p><h2>What changed with AI</h2><p>MCP exists because of AI; the practical risk is quota economics. Hosted-model providers meter MCP tool calls separately from plain inference, and agentic workloads multiply call counts. Know your provider&#x27;s metering before wiring an agent to a chatty tool.</p>
     <h2>Tools in this space</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/make/"><div class="name">Make</div><div class="tagline">Visual automation platform for building complex workflows with AI agents and apps</div></a></div>
-    <h2>Related terms</h2><p style="color:var(--muted)"><a href="/glossary/marketing-ops/" style="color:var(--amber)">Marketing ops</a> · <a href="/glossary/workflow-automation/" style="color:var(--amber)">Workflow automation</a> · <a href="/glossary/ai-agent/" style="color:var(--amber)">AI Agent</a> · <a href="/glossary/agentic-marketing/" style="color:var(--amber)">Agentic Marketing</a></p>
+    <h2>Related terms</h2><p style="color:var(--muted)"><a href="/glossary/marketing-automation/" style="color:var(--amber)">Marketing automation</a> · <a href="/glossary/mql-sql/" style="color:var(--amber)">MQL / SQL</a> · <a href="/glossary/abm/" style="color:var(--amber)">ABM</a> · <a href="/glossary/lead-scoring/" style="color:var(--amber)">Lead scoring</a> · <a href="/glossary/marketing-ops/" style="color:var(--amber)">Marketing ops</a></p>
     <h2>Seen in the wild</h2><p style="color:var(--muted)"><a href="/blog/openai-agent-ads-spending-without-you/" style="color:var(--amber)">OpenAI Isn&amp;#x27;t Building Ads. It&amp;#x27;s Building Agents</a></p>
   </div>
   <aside class="sidebar">
     <div class="side-card">
       <h3>Categories</h3>
-      <p><a class="cat-pill" href="/categories/workflow-automation/">Workflow Automation</a> <a class="cat-pill" href="/categories/marketing-ops/">Marketing Ops</a> </p>
+      <p><a class="cat-pill" href="/categories/workflow-automation/">Workflow Automation</a> <a class="cat-pill" href="/categories/marketing-automation/">Marketing Automation</a> </p>
     </div>
     <div class="side-card">
       <a class="btn-sm" href="/tools/">Browse all tools →</a>

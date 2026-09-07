@@ -81,6 +81,10 @@
       {
         "slug": "autonomous-marketing-platform-label-contest",
         "title": "Autonomous Marketing Platforms Are Real. The Name Is Wrong."
+      },
+      {
+        "slug": "why-your-marketing-automation-stack-doesnt-need-another-ai-tool",
+        "title": "Why Your Marketing Automation Stack Doesn’t Need Another AI Tool"
       }
     ]
   },
@@ -664,7 +668,7 @@
     ],
     "related_categories": [
       "workflow-automation",
-      "marketing-ops"
+      "marketing-automation"
     ],
     "related_posts": [
       {
@@ -726,6 +730,12 @@
     ],
     "related_categories": [
       "seo"
+    ],
+    "related_posts": [
+      {
+        "slug": "link-building-wont-get-you-into-ai-answers",
+        "title": "Link Building Won’t Get You Into AI Answers"
+      }
     ]
   },
   {
@@ -749,6 +759,12 @@
     ],
     "related_categories": [
       "seo"
+    ],
+    "related_posts": [
+      {
+        "slug": "link-building-wont-get-you-into-ai-answers",
+        "title": "Link Building Won’t Get You Into AI Answers"
+      }
     ]
   }
 ]
