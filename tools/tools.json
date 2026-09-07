@@ -850,48 +850,74 @@
   {
     "slug": "chatwoot",
     "name": "Chatwoot",
-    "tagline": "Open-source customer engagement platform with AI-powered chatbot and helpdesk",
+    "tagline": "Open-source customer engagement suite with Captain AI and full self-hosting",
     "website": "https://www.chatwoot.com",
     "category": "open-source",
     "pricing_model": "open-source",
     "pricing_url": "https://www.chatwoot.com/pricing",
     "price_from": 0,
-    "price_notes": "Self-hosted free (MIT); Cloud Hacker $19/mo; Startups $49/mo; Enterprise custom",
+    "price_notes": "Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000",
     "ai_features": [
-      "AI chatbot",
-      "AI conversation summaries",
-      "AI auto-replies",
-      "AI agent assist",
-      "AI sentiment analysis"
+      "Captain Assistant (AI chatbot)",
+      "Captain Copilot (agent assist)",
+      "Captain Memories (auto customer notes)",
+      "AI reply suggestions",
+      "AI conversation summarization",
+      "Smart FAQs content gap detection"
     ],
     "integrations": [
       "Slack",
-      "WhatsApp",
-      "Telegram",
-      "Zapier",
-      "Shopify",
-      "Salesforce",
-      "HubSpot",
-      "Google Analytics"
+      "Linear",
+      "Dialogflow",
+      "Google Translate",
+      "Cloudflare RealtimeKit",
+      "LeadSquared"
     ],
     "github_repo": "chatwoot/chatwoot",
-    "github_stars": 34787,
+    "github_stars": 36581,
     "open_source": true,
     "api_available": true,
     "founded": 2019,
-    "hq": "Bangalore, India",
+    "hq": "Distributed team across the US and India; YC profile lists San Francisco",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Built as an open-source customer engagement platform, Chatwoot brings messaging, live chat, and helpdesk workflows into a single interface for teams that want control over their customer data. It supports conversations across channels such as website chat, WhatsApp, Telegram, and email, while integrations with Slack, Zapier, Shopify, Salesforce, HubSpot, and Google Analytics help connect support activity to broader marketing and revenue systems. The platform is aimed at startups, SaaS companies, ecommerce teams, and developers who need a flexible alternative to closed support suites.\n\nChatwoot's main differentiator is its self-hostable MIT-licensed codebase, backed by an active GitHub project with more than 34, 000 stars. This gives organizations the option to run it free on their own infrastructure or use paid cloud plans, including Hacker at $19 per month, Startups at $49 per month, and custom Enterprise pricing. Its AI features include an AI chatbot, conversation summaries, auto-replies, agent assist, and sentiment analysis, making it useful for routing, triage, and agent productivity. An API also supports custom extensions and product integrations.\n\nCompared with commercial alternatives such as Intercom, Zendesk, or Freshdesk, Chatwoot trades some polish and managed convenience for transparency, customization, and lower entry cost. It is best for technical marketing, support, and RevOps teams that want an open-source helpdesk with AI-assisted conversations and the flexibility to self-host or scale on cloud plans.",
+    "date_updated": "2026-09-07",
+    "description": "Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near 36,600 GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300, 500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.",
     "seo_title": "Chatwoot Review: Open Source | MartechSignal",
     "seo_description": "Chatwoot, Open-source customer engagement platform with AI-powered chatbot and helpdesk. Open source & free to self-host. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Chatwoot is the open-source customer support and live chat platform. It covers inboxes, WhatsApp, email ticketing, and a helpdesk, all self-hostable. The agent experience is clean, and the API is workable. Compared to Intercom it lacks the polish and the AI summaries, but it costs a fraction and you own the data.",
-        "Free self-hosted with paid cloud tiers. It is the standard answer to 'we need support chat without the Intercom price tag'."
+      "install": [
+        "Docker, the documented default: wget -O .env https://raw.githubusercontent.com/chatwoot/chatwoot/develop/.env.example, wget -O docker-compose.yaml https://raw.githubusercontent.com/chatwoot/chatwoot/develop/docker-compose.production.yaml, then docker compose run --rm rails bundle exec rails db:chatwoot_prepare and docker compose up -d.",
+        "The production compose file pairs chatwoot/chatwoot:latest with pgvector/pgvector:pg16 and redis:alpine, so Postgres with pgvector and Redis arrive with the stack. Upgrades are docker compose pull, docker compose up -d, then the db:chatwoot_prepare step again.",
+        "Linux VM alternative: wget https://get.chatwoot.app/linux/install.sh, chmod +x install.sh, ./install.sh --install. The same script installs as cwctl for day-two management, and the docs target Ubuntu 24.04.",
+        "Hosted paths also documented: a Heroku deploy button and DigitalOcean 1-Click Kubernetes, plus a Helm chart for Kubernetes and an AWS guide.",
+        "For the community edition image specifically, the -ce tags (latest-ce) exclude the enterprise directory code; the self-hosted FAQ covers what the paid Enterprise Edition unlocks."
       ],
-      "verdict": "Solid open-source foundation for support chat and inbox routing, with the usual self-hosting responsibility."
+      "requirements": "4GB RAM and 4 cores is the documented minimum and supports up to 10,000 conversations a day (8GB and 8 cores for 20,000), with at least 1GB of swap, Redis 7.0 or higher, Ruby 3.2 or later for source installs, and Postgres as the only supported database. Self-hosting means you own upgrades, backups, and channel credentials.",
+      "best_for": "Technical support and success teams that want a self-hosted inbox across web chat, WhatsApp, email, and social DMs without per-seat SaaS costs, and that can run Rails, Postgres, and Redis themselves. The API, webhooks, and agent bots make it a reasonable base for custom support tooling.",
+      "not_for": "Teams that expect a broad native integration catalog out of the box (six integrations are live; Shopify and HubSpot are roadmap items for Q4 2026), and non-technical teams that want AI features without an OpenAI key: Captain on self-hosted requires Enterprise Edition with a paid plan.",
+      "hands_on": [
+        "Assessed from the repository, developers.chatwoot.com, and chatwoot.com in September 2026; we have not run a Chatwoot instance. The repo is healthy: 36,581 stars, v4.17.1 released August 27, 2026, and a commit log that has not slowed since the 2019 open-sourcing.",
+        "The pricing correction is significant. Our record listed Hacker at $19/month and Startups at $49/month, and both are wrong against the current page: the ladder is Hacker at $0 (2 agents, 500 conversations a month, live chat only), Startups at $19, Business at $39, and Enterprise at $99, all per agent per month billed annually, with conversation retention rising from 30 days to 1, 2, then 3 years. The self-hosted page mirrors it with Community Edition free, Premium Support at $19, and Enterprise Edition at $99 per agent monthly.",
+        "The license needs qualifying too. The LICENSE file grants MIT Expat to content outside named directories and states that everything under the enterprise/ directory follows enterprise/LICENSE, which is why GitHub reports the repo license as NOASSERTION rather than MIT. Calling the whole project MIT, as we did, overstates it: the community edition is MIT, and the AI and premium features live behind the enterprise directory and its paid licence.",
+        "Two data fixes follow from that. Our AI list included sentiment analysis, which appears nowhere in the Captain documentation, and auto-replies, which is not an official feature name; the documented set is Assistant, Copilot, Memories, reply suggestions, summarization, and content gap detection, with label suggestions and audio transcription also consuming credits. Our integration list named WhatsApp and Telegram, which are channels rather than integrations, plus Zapier, Salesforce, Google Analytics, and HubSpot, none of which appear on the live integrations page: the shipped list is Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared.",
+        "Company facts were also off: Bangalore appears on no live page, the team page describes a distributed team across the United States and India, and the Y Combinator profile lists founding year 2020, the W21 batch, and San Francisco as headquarters. The project itself was open-sourced in 2019, which is the year worth keeping in the timeline."
+      ],
+      "verdict": "The strongest self-hostable support inbox in open source, with real AI now bolted on behind a paid licence; budget for infrastructure and for writing your own integrations.",
+      "faq_extra": [
+        [
+          "How much RAM and CPU does self-hosted Chatwoot need?",
+          "The requirements page states 4GB RAM as the required minimum and 4 cores as the recommended minimum, each supporting up to 10,000 conversations a day, with 8GB and 8 cores supporting 20,000. It also asks for at least 1GB of swap, Redis 7.0 or higher, and Ruby 3.2 or later for source installs. Postgres is the only supported database, and the production compose image ships Postgres 16 with pgvector for the AI features."
+        ],
+        [
+          "Can I use Captain AI on a self-hosted Chatwoot instance?",
+          "Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account's Premium Features."
+        ],
+        [
+          "What do Chatwoot's AI credits cover and how do they bill?",
+          "Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription."
+        ]
+      ]
     },
     "paid_from": 19
   },
@@ -2825,7 +2851,7 @@
   {
     "name": "OpenSEO",
     "slug": "openseo",
-    "description": "OpenSEO is an open-source, self-hosted SEO platform that provides keyword research, backlink analysis, rank tracking, and site auditing through a clean web interface, essentially the feature set of Ahrefs and Semrush without the SaaS subscription model. Built in TypeScript and released under the MIT license, OpenSEO is available on GitHub and can be deployed on your own infrastructure using Docker. The platform connects to DataForSEO as its data backend: you bring your own DataForSEO API key and pay only for the API calls you actually make, typically at 10-20% of what a SaaS SEO platform charges for equivalent data. Key features include keyword research with search volume and difficulty, domain overview for competitive analysis, backlink checking with link metrics, rank tracking with daily position monitoring, and technical site audits. Because it is MIT-licensed, teams can fork and extend the platform, integrate it into internal dashboards, or plug it into AI agents for automated SEO workflows. OpenSEO can also run as a hosted service at openseo.so for those who prefer not to self-host. The project has gained attention from SEO professionals and indie developers frustrated with rising Ahrefs and Semrush pricing, particularly the trend toward per-user and per-feature upsells. The trade-off is the same as any open-source tool: self-hosting requires Docker knowledge and infrastructure, DataForSEO costs scale with usage, and the UI, while functional, lacks the polish and data visualization depth of commercial platforms. For teams already comfortable with self-hosted tools and seeking significant cost reduction on SEO data, OpenSEO is one of the most practical open-source entries in the SEO space.",
+    "description": "OpenSEO is an open-source, self-hosted SEO platform covering keyword research, rank tracking, competitor insights, backlink analysis, site audits, and AI search visibility, positioned as an alternative to Ahrefs and Semrush. The TypeScript project (repo every-app/open-seo) is MIT-licensed, held around 17,700 GitHub stars as of September 2026, and has moved quickly since its February 2026 debut: AI Visibility and Prompt Explorer landed in April, an MCP server in May, agent skills and multi-project support in June, Local SEO in August, and on-demand SERP depth on September 2. Two deployment paths are documented. Docker is described as best for testing: clone the repo, copy .env.example to .env, and run docker compose up -d, which serves on port 3001 with authentication disabled, so it belongs behind your own reverse proxy or private network. For an internet-facing or team install the README recommends the Cloudflare path, where pnpm deploy:selfhost provisions D1, KV, R2, and a Cloudflare Access gate on Cloudflare's free plan. Data is the real cost. OpenSEO is a front end over DataForSEO: you bring your own API key (the base64 of your DataForSEO email and password), pay that vendor directly for what you use, and add a separate OpenRouter key for AI features such as SAM, the in-app SEO agent. New DataForSEO accounts include $1 of credit and the minimum top-up is $50. The hosted service at openseo.so charges $10/month including $10 of usage, and the README states plainly that the hosted margin is a 28% surcharge on every DataForSEO request, so self-hosting is slightly cheaper. Rank tracking defaults to weekly, and the docs note that daily checks use seven times more credits. Google Search Console and Google Analytics data is free. The trade-off is the usual one: you own the interface, the scheduling, and your own database, not the crawl index.",
     "category": "seo",
     "open_source": true,
     "tags": [
@@ -2834,70 +2860,135 @@
       "rank-tracking",
       "backlinks",
       "site-audit",
+      "ai-visibility",
+      "mcp",
       "self-hosted"
     ],
     "status": "active",
     "website": "https://openseo.so",
     "pricing_model": "open-source",
     "price_from": 0,
-    "price_notes": "Free self-hosted; DataForSEO API costs extra",
+    "price_notes": "Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage.",
     "tagline": "Open source alternative to Ahrefs and Semrush",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-07",
     "seo_title": "OpenSEO Review: SEO & Search, Open Source | MartechSignal",
     "seo_description": "OpenSEO, Open source alternative to Ahrefs and Semrush. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "OpenSEO is a lightweight open-source SEO toolkit covering rank tracking, site audits, and basic keyword research. Self-hosting is simple, the interface is functional rather than pretty, and for a single site or a small set of clients it covers the technical-checklist tier of SEO work competently.",
-        "It cannot match commercial suites on keyword databases or backlink indexes; those datasets are the moat commercial tools spend fortunes maintaining. Where it wins is cost structure and data ownership: no subscription, no query limits, your data on your own server."
+      "install": [
+        "Docker, which the README calls best for testing: git clone https://github.com/every-app/open-seo.git, cd open-seo, cp .env.example .env, then docker compose up -d. The image is ghcr.io/every-app/open-seo:latest and the app listens on port 3001.",
+        "Set DATAFORSEO_API_KEY in .env to the base64 of your DataForSEO login in the documented format email:password (printf '%s' 'email:password' | base64). AI features such as SAM also need OPENROUTER_API_KEY.",
+        "For an internet-facing or team install, the documented path is Cloudflare: corepack enable, pnpm install, pnpm alchemy login, pnpm alchemy cloudflare bootstrap, cp .env.selfhost.example .env.selfhost, then pnpm deploy:selfhost --yes.",
+        "Team access on the Cloudflare path is a matter of adding emails to ACCESS_ALLOWED_EMAILS in .env.selfhost and redeploying; everyone who passes Cloudflare Access works in one shared workspace.",
+        "Local development: pnpm install --frozen-lockfile, pnpm run db:migrate:local, pnpm run dev. Telemetry can be turned off with OPENSEO_TELEMETRY_DISABLED=1."
       ],
-      "verdict": "Fine self-hosted starter toolkit for checklist SEO; no substitute for commercial keyword data."
-    }
+      "requirements": "Docker plus a funded DataForSEO account for search data, and an OpenRouter key if you want the AI features, or Node 22.6 or newer plus a Cloudflare account with R2 for the self-host deployment, which the docs say works on Cloudflare's free plan. Docker self-hosting runs in local no-auth mode, so the docs expect a reverse proxy, tunnel, or private network in front of it. No hardware sizing is published.",
+      "best_for": "Indie SEOs, startups, and small agencies that want keyword research, rank tracking, audits, backlink checks, and AI mention tracking in one self-hosted interface, and that would rather pay DataForSEO per call than carry an Ahrefs or Semrush subscription. Teams already working with coding agents get an MCP server and documented agent skills.",
+      "not_for": "Buyers expecting Ahrefs-scale clickstream backlink data, teams that need daily rank checks on a budget (the docs price daily at seven times weekly credits), and non-technical marketers: self-hosting ships with authentication off and assumes you can put an access layer in front of it.",
+      "hands_on": [
+        "Assessed from the repository, openseo.so, and the self-hosting docs in September 2026; we have not deployed it. The project is young and fast. The repo was created in February 2026 and the release notes read as a feature a fortnight: AI Visibility (v0.0.8, April), an MCP server (v0.0.11, May), agent skills (v0.0.15), multi-project support with Share of Voice (v0.0.19, June), Local SEO MCP (v0.1.5, August), and on-demand SERP depth (v0.1.7, September 2).",
+        "The correction against our earlier record: the claim that self-hosting runs at 10-20% of SaaS SEO cost was ours, not the project's, and appears in no OpenSEO source. The documented anchors are different. The hosted plan is $10/month including $10 of usage, the README states the hosted service charges 28% extra on every DataForSEO request, and the site's own comparison points at Ahrefs' cheapest plan at $129/month. Rank tracking also defaults to weekly rather than daily; daily is an option that costs seven times more credits.",
+        "The feature set is wider than we previously recorded. Beyond keyword research, domain overview, backlinks, and audits, the documented workflows include Competitor Insights, AI Visibility and Prompt Explorer for LLM mentions, citations, and prompts, Local SEO built on Google Business Profile data, and an in-app SEO agent called SAM that runs on OpenRouter. Eight agent skills are documented, from keyword clustering to link prospecting.",
+        "The dependency question is unchanged and the project does not dress it up: OpenSEO queries DataForSEO, described in its own docs as a pay-as-you-go third-party service unaffiliated with the project. What you own is the interface, the scheduling, the reports, and a database you control (D1 SQLite by default, with an opt-in Postgres backend), not the crawl index behind the numbers."
+      ],
+      "verdict": "A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.",
+      "faq_extra": [
+        [
+          "What does OpenSEO cost to run on my own DataForSEO account?",
+          "You pay DataForSEO directly at its published rates. The docs state that new DataForSEO accounts include $1 of free credit and that the minimum top-up is $50, and the README says self-hosted costs come in slightly lower than the estimates on the OpenSEO website because the hosted service charges 28% extra on every request it makes to DataForSEO. For reference, hosted OpenSEO is $10/month including $10 of usage, with one keyword search quoted at about $0.05 and a domain overview with a year of history at about $0.08."
+        ],
+        [
+          "How often does OpenSEO check keyword positions?",
+          "Rank tracking schedules are Daily, Weekly, Monthly (end of month), and Manual only, with weekly as the default. The docs note that daily checks use seven times more credits than weekly ones, and that deeper SERP depth costs more, with ten pages of results quoted as roughly eight times the cost of one page. Google Search Console data is free and does not draw on your paid usage."
+        ],
+        [
+          "Does the self-hosted version include the AI features?",
+          "Only if you supply keys for them. AI features such as SAM, the in-app SEO agent, require an OpenRouter API key in your environment file, and AI Visibility is powered by DataForSEO's LLM mention endpoints, so those calls bill against your DataForSEO account like any other query. The MCP server and the agent skills themselves ship in the repository with no extra licence."
+        ]
+      ]
+    },
+    "github_repo": "every-app/open-seo",
+    "github_stars": 17703,
+    "pricing_url": "https://openseo.so/pricing",
+    "founded": 2026,
+    "hq": "Open source"
   },
   {
     "slug": "ortto",
     "name": "Ortto",
-    "tagline": "AI-powered customer data and marketing automation platform with unified analytics",
+    "tagline": "Customer data and marketing automation platform with journeys, CDP, and AI features",
     "website": "https://ortto.com",
     "category": "marketing-automation",
     "pricing_model": "paid",
-    "pricing_url": "https://ortto.com/pricing/",
+    "pricing_url": "https://ortto.com/starter/",
     "price_from": 199,
-    "price_notes": "Starter $199/mo (~$169/mo annual); 14-day free trial; scales with contacts",
+    "price_notes": "Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000",
     "ai_features": [
-      "AI journey builder",
-      "Predictive analytics",
-      "AI content generation",
-      "AI send-time optimization",
-      "Customer intelligence"
+      "AI subject line recommendations",
+      "AI content generation suggestions",
+      "AI filters (natural language segments)",
+      "AI decision shapes",
+      "AI enrichment shapes",
+      "Ortto MCP server"
     ],
     "integrations": [
       "Slack",
       "Shopify",
       "Salesforce",
+      "Stripe",
       "Zapier",
       "HubSpot",
-      "Stripe",
       "Google Ads",
-      "Meta Ads"
+      "Facebook",
+      "Pipedrive",
+      "Zendesk",
+      "Intercom",
+      "Twilio Segment",
+      "Calendly"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
     "api_available": true,
-    "founded": 2012,
+    "founded": 2015,
     "hq": "Sydney, Australia",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Ortto is a marketing automation and customer data platform that evolved from Autopilot, the popular visual journey builder. The rebrand reflects a broader product vision: Ortto combines journey-based marketing automation with a built-in CDP and real-time analytics on a single platform, eliminating the need to stitch together separate tools for data, messaging, and measurement. The visual journey builder remains the centerpiece. Marketers drag and drop triggers, actions, and wait steps onto a canvas to create email, SMS, and push notification workflows. What changed from the Autopilot days is the data layer underneath. Ortto ingests customer data from websites, apps, CRMs, and third-party tools via API and JavaScript snippet, unifies it into single customer profiles, and feeds those profiles into the journey builder and the analytics dashboards. This means journeys fire based on actual behavior (product usage, page visits, purchase history) rather than just email clicks and form fills. AI features include predictive lead scoring, send-time optimization, and content suggestions. Pricing starts at $199/month for the Starter plan; higher tiers add the full CDP, multi-channel journeys, and advanced analytics. Ortto competes with ActiveCampaign and HubSpot in the SMB-to-mid-market space, differentiating on data unification and analytics depth. The main limitation is channel breadth: while Braze and Salesforce support 8+ messaging channels, Ortto focuses on email, SMS, and push, with in-app messaging as a recent addition.",
+    "date_updated": "2026-09-07",
+    "description": "Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. The pitch is one platform for the data layer and the messaging layer: a CDP that unifies contacts and activities into single profiles, a visual journey builder that fires email, SMS, push, live chat, in-app messages, popups, forms, surveys, and landing pages from that data, and analytics dashboards on top. Channel scope is far past the email-plus-SMS-plus-push story our earlier record told: in-app messaging, a team inbox with knowledge base, transactional email, and multilingual content are all listed products, MMS shipped in April 2026, and WhatsApp is documented as a new channel alongside email, SMS, and push. AI features carry official names: subject line recommendations, content generation suggestions, AI filters that build segments from plain text, AI decision shapes in journeys, and AI enrichment shapes, plus an MCP server (December 2025) that lets ChatGPT or Claude query the account, and an account-level switch that turns every AI feature off. Pricing is contact-based: the Starter page quotes from $199/month with up to 15% off for annual payment, the trial runs 14 days, larger plans require a 12-month commitment, and email overages bill at $1 per 1,000. Founded in Sydney in 2015 by Michael and Chris Sharkey, Ortto raised $35M from Salesforce Ventures, Rembrandt, and Blackbird. It competes with ActiveCampaign and Customer.io in the mid-market, differentiating on the built-in CDP and reporting depth rather than channel breadth. The CDP scales: documentation cites up to 12 million contacts out of the box and 100 million per instance with custom setup.",
     "seo_title": "Ortto Review: From $199/mo | MartechSignal",
     "seo_description": "Ortto, AI-powered customer data and marketing automation platform with unified analytics. Starts at $199/mo. Compare AI features, integrations & top.",
     "deep_dive": {
-      "hands_on": [
-        "Ortto emerged from the Autopilot rebrand as a combined CDP-lite, email, and journey platform. The visual journey builder is strong, the unified customer profile works as advertised for mid-size data, and reporting blends email with behavioral signals cleanly in a single interface.",
-        "Pricing starts around $199 monthly, positioning it above SMB tools and below enterprise CDPs, a genuinely competitive middle. Teams pushing heavy data transformation or million-plus contact volumes should pressure-test platform limits first; the sweet spot is sub-million-contact B2C."
+      "install": [
+        "No install: Ortto is hosted SaaS. Signup is at ortto.app/signup with a Google or Microsoft account, and the docs note you choose a Data Hosting Location of US, EU, or AU at that point.",
+        "The 14-day trial includes up to 10,000 contacts and 100 email sends (SMS excluded), and the help centre states that an expired trial account is deleted after 90 days if no plan is selected.",
+        "The documented onboarding checklist is: add contacts by CSV upload or a data source connection, set up your Brand Book, build a first campaign (journey, playbook, email, SMS, or push), then invite team members.",
+        "Connect a data source or paste the tracking snippet (the global ap3c object) to start collecting activities; the snippet can identify known visitors by email and be told to skip contacts that do not already exist.",
+        "Before production sends, verify a custom email domain so mail comes from your domain rather than autopilotmail.com, with a tracking subdomain alongside it."
       ],
-      "verdict": "A credible mid-market CDP-plus-journey platform; test data limits before scaling into it."
+      "requirements": "Nothing to host; Ortto runs on its own infrastructure with a US, EU, or AU data region chosen at signup. You will want a verified sending domain for production email, an API key (configured as a data source) for programmatic use against the regional REST endpoints, and a contact-count expectation, since pricing scales with contacts and email overages bill at $1 per 1,000.",
+      "best_for": "Mid-market B2C and B2B teams that want a CDP, journeys, and reporting in one tool, send across email, SMS, push, in-app, and live chat, and value a Sydney-hosted AU data region plus an MCP server for AI assistants.",
+      "not_for": "Teams that need a published per-plan price table before buying (the public pricing page is currently unreachable and per-plan figures come from the Starter page and help centre), and enterprises needing deep custom data transformation or more than 12 million contacts without custom setup.",
+      "hands_on": [
+        "Assessed from ortto.com, help.ortto.com, and roadmap.ortto.com/changelog in September 2026; we have no Ortto account and have not run a journey. The changelog shows steady shipping: an Ortto MCP server and account-level journeys (December 2025), saved filters and folder depth (January 2026), Microsoft Dynamics 365 and an account-wide AI off switch (March 2026), then dynamic webhooks, MMS, Microsoft Teams, and Stripe abandoned cart (May 2026).",
+        "Two corrections against our earlier record. First, founding: the about page states founded in 2015, when Autopilot Journeys launched, not 2012; 2012 fits the predecessor company Bislr, which no Ortto page names with that date. Second, AI: our record listed predictive lead scoring and send-time optimization, and neither appears in the official AI feature list, which names subject line recommendations, content generation suggestions, intelligent filters, AI decision shapes, and AI enrichment shapes. Lead scoring exists as rule-based Scoring with decay, and open-rate prediction is documented, but send-time optimization is not.",
+        "Channel scope was understated too. In-app messages is a first-class listed product, not a recent add-on: the site also lists live chat, knowledge base, popups, forms, surveys, landing pages, and transactional email. MMS support arrived in April 2026, and the WhatsApp integration is documented as a new channel alongside email, SMS, and push, in beta and available to all accounts.",
+        "The Canva acquisition is the strategic fact a buyer needs. The company's own FAQ confirms Canva acquired Ortto, that plans, pricing, and billing stay as they are, and that Ortto continues as its own platform without migration into Canva. That is reassurance today and an integration question for later; we would ask about roadmap independence before signing a 12-month commitment."
+      ],
+      "verdict": "A capable CDP-plus-journeys platform that now sits inside Canva: strong data model and channel range, contact-based pricing, and a pricing page that has gone missing at the worst possible time.",
+      "faq_extra": [
+        [
+          "How many custom fields can I create in Ortto?",
+          "Plan-dependent: 100 person fields and 25 account fields on Professional, 150 and 25 on Business, and 200 and 50 on Enterprise. Fields are also effectively permanent, since the help centre states that once a custom field is created it cannot be modified to alter its name, field type, or values (only single and multi-select options are exceptions). Plan the schema before import rather than after."
+        ],
+        [
+          "What happens if I go over my Ortto email or SMS limits?",
+          "Email keeps sending and bills overage at $1 per 1,000 emails, while SMS sending stops once you exceed twice your monthly SMS credit limit. Email and SMS limits reset on the first of each month UTC. Both behaviours are documented in the help centre's plan management article, so an overage on email is a billing event, not a blocked campaign."
+        ],
+        [
+          "Does Ortto have an API, and which endpoint should I use?",
+          "Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet."
+        ]
+      ]
     }
   },
   {
@@ -3029,7 +3120,7 @@
   {
     "slug": "persado",
     "name": "Persado",
-    "tagline": "Motivation AI platform generating emotionally optimized marketing copy at scale",
+    "tagline": "AI content creation and optimization platform for regulated financial services marketing",
     "website": "https://www.persado.com",
     "category": "content-ai",
     "pricing_model": "enterprise",
@@ -3037,19 +3128,23 @@
     "price_from": null,
     "price_notes": "Enterprise custom pricing; focused on regulated industries (finserv, retail, travel)",
     "ai_features": [
-      "Motivation AI copy generation",
-      "Emotional language optimization",
-      "AI A/B testing",
-      "Compliance-aware content",
-      "Predictive performance"
+      "AI content generation (Create)",
+      "AI message scoring (Optimize)",
+      "Per-recipient personalization at send time (Automate)",
+      "Persado Dynamic Email",
+      "Persado Marketing Compliance AI"
     ],
     "integrations": [
-      "Salesforce",
-      "Adobe",
-      "Braze",
       "Salesforce Marketing Cloud",
-      "Oracle",
-      "SAP"
+      "Adobe Campaign Classic",
+      "Adobe Journey Optimizer",
+      "Braze",
+      "Oracle Eloqua",
+      "Oracle Responsys",
+      "SAP Emarsys",
+      "Klaviyo",
+      "Iterable",
+      "Marketo"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -3059,60 +3154,117 @@
     "hq": "New York, NY, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Persado is an enterprise AI content optimization platform that takes a fundamentally different approach to AI-generated marketing copy: instead of using LLMs to produce creative text from a prompt, it uses a proprietary Motivation AI engine that understands which language elements drive emotional response and action in specific audience segments. Founded in 2012 and headquartered in New York, Persado targets regulated industries where marketing language carries compliance and reputational risk: financial services, retail banking, insurance, travel, and hospitality. Its platform spans four layers: content generation informed by a taxonomy of emotional language elements, performance prediction that scores content before deployment, optimization that tests variants, and delivery to email, web, mobile, and ad platforms. The system learns which words, phrases, emotions, and formatting patterns drive conversion for specific audiences and applies those patterns to future content. Compliance and brand safety are built in: all generated content must pass regulatory and brand checks before going live. Persado is enterprise-only with custom pricing; customers include JPMorgan Chase, Dell, and major airlines. It competes with Phrasee in the enterprise language optimization space but differentiates on its emotional intelligence taxonomy and depth of service layer for regulated marketing organizations.",
+    "date_updated": "2026-09-07",
+    "description": "Persado is an AI content platform for regulated marketing, and its 2026 site leads with new framing: the agentic creative agency for regulated brands, aimed squarely at financial services. The product surface is three named pillars, Create (generate compliant content at speed and scale), Optimize (score and improve every message before it ships), and Automate (personalize every send automatically via API), plus two 2025 launches: Persado Dynamic Email, which the company says cuts email operations time by up to 75%, and Persado Marketing Compliance AI, positioned as the first agentic AI platform built for financial services marketing and legal teams. Underneath sits a Performance Knowledge Base the company describes as 100,000+ message elements, a proprietary taxonomy categorized by emotional drivers, CTA types, and performance attributes, drawing on what the site claims is 1M+ A/B tests, 120K+ campaigns, and scoring against 150B+ customer interactions. Compliance is the sales argument: 20+ regulatory frameworks built into generation, including UDAAP, TILA, Reg Z, ECOA, and TCPA, brand voice guardrails, audit trails, and a stated zero post-deployment compliance incidents across 10+ years and 8 of the 10 largest U.S. banks. Channels are email (full message: subject, preheader, body, CTA), direct mail, web banners, social ads, SMS, and push through partner platforms, delivered via 121 documented integrations, 27 of them email and messaging platforms: Salesforce Marketing Cloud, Adobe Campaign Classic and Journey Optimizer, Braze, Oracle Eloqua and Responsys, and SAP Emarsys among them. Publicly named customers are banks: Bank of America, U.S. Bank, Ally, NatWest, Discover, TD Bank, LendingClub, and M&T Bank. Founded in 2012, headquartered in New York, and independent as Persado Inc. under co-founders Alex Vratskides and Assaf Baciu, it sells through demo requests only, with onboarding quoted at roughly four weeks and no published pricing.",
     "seo_title": "Persado Review: Enterprise | MartechSignal",
     "seo_description": "Persado, Motivation AI platform generating emotionally optimized marketing copy at scale. Enterprise pricing; demo required. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Persado applies language science to marketing messages: it generates and tests emotional, descriptive, and call-to-action variations at a scale no copy team can match. Enterprise clients use it mostly in finance and retail, where message-level lift percentages translate directly into large revenue deltas.",
-        "This is enterprise software with enterprise pricing and procurement to match. The value case requires high message volume and existing testing infrastructure. Small teams get better returns from a copywriter with an A/B testing habit than from language-optimization AI."
+      "install": [
+        "No trial and no published pricing: the documented entry path is the demo form at persado.com/contact, which offers Sales, Press or Media, Job, Agency/Partner, and Other inquiry types.",
+        "Onboarding is quoted at approximately four weeks. For the enterprise managed service a dedicated Persado team handles setup, integration, and initial campaign delivery; a self-service Studio tier exists for Optimize only and is described as faster to stand up.",
+        "The Salesforce Marketing Cloud integration documents four connection models with different lead times: Native (2-3 weeks including QA), Data Integration Pipeline (4-6 weeks), Service-Delivered (live on the first campaign cycle), and a Chrome extension that optimizes copy in any web UI with no IT involvement.",
+        "Customers sign in at portal.persado.com; there is no public sandbox or evaluation environment.",
+        "The site also documents an MCP surface at persado.com/mcp with its own privacy policy, for connecting the platform to AI assistants."
       ],
-      "verdict": "Message optimization at enterprise scale and price; the math only works on high volume."
+      "requirements": "Enterprise message volume worth optimizing, an existing ESP or CDP to deliver through (the integration catalog lists 121), and a procurement cycle: pricing is quote-based, the only self-serve option is Studio for Optimize, and onboarding is measured in weeks rather than hours.",
+      "best_for": "High-volume financial services marketers, card issuers, banks, credit unions, and lenders that need every message pre-scored against regulatory frameworks before it ships, and that send enough for percentage lift to be worth enterprise money.",
+      "not_for": "Small teams and non-regulated verticals: there is no trial, no published price, the documented verticals are all financial services, and the Chrome extension is the only low-commitment way to see the scoring. Buyers wanting a self-serve copywriting tool should look elsewhere.",
+      "hands_on": [
+        "Assessed from persado.com, its press releases, and its integration pages in September 2026; we have no Persado account and have not run a campaign. The biggest change is positioning: the site now leads with the agentic creative agency for regulated brands rather than the Motivation AI Platform language our record used, though Motivation AI still appears in press releases and case studies.",
+        "Three claims needed correcting. Our vertical list included travel and hospitality, but the current site sells financial services verticals only (card acquisition, mortgage and lending, consumer banking, co-brand, credit unions, insurance and wealth, fintech), with travel mentioned only as a past customer category. Our customer list named JPMorgan Chase, Dell, and major airlines: Chase is documented in a 2019 five-year deal announcement that also cites a 450% ad click-through lift in its pilot, Dell appears only in 2021-and-earlier boilerplate, and no airline is named anywhere on the live site. Our integration list also needed precision, since generic entries like Salesforce, Adobe, Oracle, and SAP map to specific documented products.",
+        "The performance numbers are the vendor's own and are large: 1M+ A/B tests, 120K+ campaigns, 150B+ customer interactions scored, a claimed 96% correlation between predicted and actual campaign performance, and $2.5B in attributed revenue for financial services brands in a September 2024 press release. One attestation could not be verified: the navigation advertises SOC 2 Type II while the platform security page claims ISO 27001 alignment and SOC 1 coverage through its AWS hosting, and we found no page stating Persado itself holds a SOC 2 Type II report.",
+        "Ownership is a recurring confusion worth settling: Persado is independent. It operates as Persado Inc. with co-founders Alex Vratskides (CEO) and Assaf Baciu (President) still leading it, and no documented acquisition or Accenture relationship, with the most recent independent press release dated October 8, 2025."
+      ],
+      "verdict": "Enterprise message optimization for financial services, sold as a service as much as software; the compliance record and language knowledge base are the pitch, and the price is whatever the demo produces.",
+      "faq_extra": [
+        [
+          "Is Persado owned by Accenture?",
+          "No evidence supports that. Persado operates as Persado Inc., its footer carries a 2026 copyright in its own name, and co-founders Alex Vratskides (CEO) and Assaf Baciu (President) still run it according to the company's about page. No acquisition or investment by Accenture appears on persado.com, in the company's press releases (the latest dated October 8, 2025), or in third-party lists of Accenture acquisitions."
+        ],
+        [
+          "Does Persado offer a free trial or published pricing?",
+          "No on either count. persado.com/pricing returns a 404 and no price appears anywhere on the site; every call to action is a demo request form. The nearest options to an evaluation are the self-service Studio tier, which covers Optimize only, and a Chrome extension that the company describes as optimizing copy in-browser with zero IT involvement and as perfect for trials. The site quotes typical onboarding at approximately four weeks for the managed service."
+        ],
+        [
+          "How does Persado integrate with Salesforce Marketing Cloud?",
+          "Four documented models. Native is the deepest: every email send pulls Persado-scored variants and variant-level performance flows back automatically, with optimization covering subject, preheader, body, and CTA, and setup quoted at 2-3 weeks including QA. Data Integration Pipeline takes 4-6 weeks, Service-Delivered goes live on the first campaign cycle, and a Chrome extension optimizes copy inside any web UI with no IT involvement. The Automate product runs per-recipient content selection at send time inside Journey Builder."
+        ]
+      ]
     }
   },
   {
     "slug": "phrasee",
     "name": "Phrasee",
-    "tagline": "AI-powered enterprise content optimization for email, push, and SMS marketing",
-    "website": "https://phrasee.co",
+    "tagline": "AI messaging content platform; rebranded as Jacquard in June 2024",
+    "website": "https://www.jacquard.com",
     "category": "content-ai",
     "pricing_model": "enterprise",
-    "pricing_url": "https://phrasee.co/contact/",
+    "pricing_url": "https://www.jacquard.com/book-a-demo/",
     "price_from": null,
-    "price_notes": "Enterprise custom pricing; annual contracts; focused on large-scale email programs",
+    "price_notes": "Enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation",
     "ai_features": [
-      "AI subject line generation",
-      "AI body copy optimization",
-      "Predictive engagement scoring",
-      "AI brand language modeling",
-      "AI A/B testing"
+      "Brand-safe AI message generation (Language engine)",
+      "AI performance prediction (Neural engine)",
+      "AI tone-of-voice analysis",
+      "Automated A/B/N testing against human controls"
     ],
     "integrations": [
       "Salesforce Marketing Cloud",
       "Braze",
-      "Adobe Campaign",
+      "Adobe",
+      "Iterable",
       "Bloomreach",
-      "Iterable"
+      "Oracle Responsys",
+      "Optimizely",
+      "Epsilon",
+      "Cordial",
+      "Airship",
+      "Acoustic",
+      "Emarsys"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
-    "api_available": true,
+    "api_available": false,
     "founded": 2015,
     "hq": "London, UK",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Phrasee is an enterprise AI copywriting platform specialized in generating and optimizing short-form marketing language: email subject lines, push notification text, social media ad copy, SMS messages, and in-app messaging. Unlike general-purpose AI writers, Phrasee's natural language generation models are trained exclusively on marketing copy and incorporate brand voice controls directly into the generation pipeline. This means marketers define their brand's tone, vocabulary, and prohibited language once, and all generated copy conforms to those rules without manual review. The platform includes A/B testing capabilities that measure real-world performance and feed the results back into the model so it generates increasingly effective copy over time. Analytics dashboards track lift in open rates, click-through rates, and conversion against brand-specific benchmarks. Phrasee was founded in the UK and acquired by CM Group (now Marigold) in 2021, then underwent a management buyout in 2023 to operate independently. It is enterprise-only with custom pricing based on message volume and channels. Primary competitors are Persado (emotional intelligence approach) and the AI copy features in Braze, Salesforce, and Adobe platforms. Phrasee's key pitch is brand safety at scale: for organizations where sending off-brand AI-generated copy to millions of customers is a career-limiting risk, Phrasee provides guardrails that consumer AI tools do not.",
+    "date_updated": "2026-09-07",
+    "description": "Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. The product intent is unchanged: AI-generated, brand-safe short-form marketing copy generated, predicted, and tested at enterprise send volumes. The current platform documents four engines (Language, Neural, Optimise, Contextual) and describes a neuro-symbolic architecture combining generative AI with deterministic rules for tone, structure, and compliance. Language enforces what the company calls strict, deterministic guardrails, style guides and AI tone-of-voice analysis keep output sounding like your copywriters, and Neural is described as trained on 60 billion data points from a decade of messaging experiments, with a claimed 66% win rate predicting top variants against human controls. Every send is documented as an A/B/N test where AI variants compete against a human control, allocated by a multi-armed bandit derivative. Channels on the live site are email, SMS, mobile push, in-app, web push, and ChatGPT apps; social ad copy, which Phrasee marketed in 2023, no longer appears. Two claims in our earlier record needed correcting. Ownership: Phrasee was never acquired by CM Group or Marigold. UK filings show a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners effective March 14, 2022, and the October 2023 event was founder-CEO Parry Malm leaving the board, not a management buyout. Brand controls: the tone-plus-vocabulary-plus-prohibited-language model we described is not the vendor's language; the documented mechanism is style guides, deterministic rules, and an approval process for vetting messages. Founded in London in 2015 by Parry Malm, Victoria Peppiatt, and Neil Yager, it reports 50+ customers, 200 billion sends, and 17M pounds raised. Pricing is quote-based, with no trial and no published price list.",
     "seo_title": "Phrasee Review: Enterprise | MartechSignal",
     "seo_description": "Phrasee, AI-powered enterprise content optimization for email, push, and SMS marketing. Enterprise pricing; demo required. Compare AI features.",
     "deep_dive": {
-      "hands_on": [
-        "Phrasee pioneered AI subject-line and push-copy generation, focusing narrowly on email and mobile messaging language. Its brand-voice controls are the differentiator: generated lines stay inside trained tone boundaries, which addresses the biggest fear brands have about AI copy.",
-        "Like Persado, it is an enterprise product with enterprise onboarding, and its best results come with high send volumes where percentage lifts are meaningful. Teams sending a few campaigns monthly should invest in copywriters and testing discipline instead."
+      "install": [
+        "No trial and no self-serve signup: the documented entry path is the Book a Demo form at jacquard.com/book-a-demo, and the live site has no pricing page.",
+        "There is nothing to install. Content ships through your ESP or CEP, so onboarding is a connector project: link the platform to Salesforce Marketing Cloud, Braze, or another documented partner and import brand and tone guidelines.",
+        "Brand setup follows the vendor's documented model: a style guide, AI tone-of-voice analysis, what the site calls building your AI brand guardian, and an approval process for vetting messaging before it goes live.",
+        "Live product facts sit at jacquard.com. Phrasee-era pages such as pricing and partners survive only in the Internet Archive (the 2023 partners page is the most complete integration list), so ask the vendor to confirm the current partner list during the demo."
       ],
-      "verdict": "Focused, brand-safe AI copy for high-volume email programs; wrong fit below enterprise volume."
+      "requirements": "An existing enterprise ESP or CEP to deliver through, send volumes large enough that percentage lifts matter, and a procurement conversation: pricing is quote-based and billed annually, there is no published price, and no public API documentation exists on any live or archived page.",
+      "best_for": "High-volume consumer brands in retail, travel, and food that send millions of emails, push notifications, and SMS messages a year and want AI variants that stay inside a defined brand voice, with testing handled automatically against human controls.",
+      "not_for": "Teams below enterprise send volumes, buyers who need ad or social copy (a Phrasee-era channel the live site no longer lists), and anyone requiring a published price list or a public API.",
+      "hands_on": [
+        "Assessed from jacquard.com, UK Companies House filings, and Internet Archive snapshots of phrasee.co in September 2026; we have no account and have not run a campaign. Phrasee the brand is gone: the domain redirects, the company changed its registered name to Jacquard Group Limited on June 11, 2024, and the rebrand was announced the following day.",
+        "The correction that matters most: Phrasee was never acquired by CM Group or Marigold, and there was no 2023 management buyout. Companies House shows founder Parry Malm ceasing as a person with significant control on March 14, 2022, when Monorail Bidco Limited was registered holding 75% or more of shares, and Phrasee's own March 2022 announcement names capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners as the majority investors. The only 2023 filing of substance is Malm leaving the board on October 16, 2023, with Daniel Head appointed the same day, which is almost certainly the event our MBO claim was built from. Marigold's enterprise business was sold to Zeta Global in November 2025, and Phrasee/Jacquard was never part of it.",
+        "Product claims needed tightening too. Our record described marketers defining tone, vocabulary, and prohibited language once, with generated copy conforming without manual review; the documented mechanism is style guides, AI tone-of-voice analysis, deterministic rules for tone, structure, and compliance, and a built-in approval process, which is a different and weaker claim. Feature names are current now: the Language engine for brand-safe generation and the Neural engine for performance prediction, described as a neuro-symbolic architecture.",
+        "The lift numbers are vendor-published and vary widely by customer: Currys reports 42% more opens, 93% more clicks, and 102% more revenue; P&O Cruises 13% and 18%; Home Chef 21% and 29%; Confused.com 12% on clicks. Platform-wide claims are a 9.7% median click uplift rising to 19% with testing, and a 66% win rate against human controls. Phrasee-era testimonials from Virgin Holidays, Domino's, and eBay UK survive on archived pages, but the specific percentage lifts often quoted with those names are not in sources we could reach."
+      ],
+      "verdict": "Enterprise AI copy generation, now called Jacquard, with deterministic brand guardrails and automatic testing; the ownership history in older directories, including ours, was wrong.",
+      "faq_extra": [
+        [
+          "Is Phrasee part of Marigold?",
+          "No. Phrasee was never owned by CM Group or Marigold, and no 2021 transaction appears in its Companies House filing history. Control passed to a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners on March 14, 2022, and the company renamed itself Jacquard Group Limited in June 2024. Marigold's enterprise business was sold to Zeta Global in November 2025, but Phrasee/Jacquard was never part of that group."
+        ],
+        [
+          "Does Phrasee work with Salesforce Marketing Cloud?",
+          "Yes. Salesforce Marketing Cloud appears on the archived 2023 partner list alongside Braze, Adobe, Iterable, Bloomreach, Oracle Responsys, Optimizely, Epsilon, Cordial, Airship, Acoustic, and Emarsys, and Salesforce is the one partner named in prose on the live integrations page, where a customer states that the integration improved workflow efficiency and speed in creating, testing, and deploying email content. The live page renders its other partner logos without names, so confirm the current list with the vendor."
+        ],
+        [
+          "What lift can I realistically expect from Phrasee or Jacquard?",
+          "Vendor-published results range widely. Currys reports 42% uplift in opens, 93% in clicks, and 102% in revenue; P&O Cruises 13% opens and 18% clicks; Home Chef 21% opens and 29% clicks; Confused.com 12% on clicks. The platform-wide claims are a 9.7% median click uplift for the predicted champion, rising to 19% with testing, and a 66% win rate at predicting the top-performing variant against human controls. All of these are the company's own numbers, not independent audits."
+        ]
+      ]
     }
   },
   {
@@ -4636,30 +4788,33 @@
   {
     "slug": "writer",
     "name": "Writer",
-    "tagline": "Enterprise AI writing platform with brand governance, fact-checking, and agents",
+    "tagline": "Enterprise AI platform with Palmyra models, brand governance, and agents",
     "website": "https://writer.com",
     "category": "content-ai",
     "pricing_model": "paid",
     "pricing_url": "https://writer.com/plans/",
-    "price_from": 18,
-    "price_notes": "Team $18-25/user/mo; Starter $29-39/user/mo; Enterprise custom; free trial available",
+    "price_from": null,
+    "price_notes": "Starter is self-serve with a 14-day free trial (up to 5 users; per-seat price not published); Enterprise is quote-based. Palmyra API: X6 $2/$8 per 1M tokens in/out",
     "ai_features": [
       "AI content generation",
-      "Brand governance",
-      "AI fact-checking",
-      "Knowledge graph",
-      "AI agents",
-      "Style guide enforcement"
+      "Brand governance (voice profiles, terminology lists, style guides)",
+      "Knowledge Graph grounding",
+      "AI agents (100+ prebuilt Agent Library)",
+      "Palmyra LLMs (X4, X5, X6)"
     ],
     "integrations": [
       "Slack",
-      "Google Docs",
-      "Microsoft Word",
-      "Chrome",
-      "Figma",
-      "Zapier",
+      "Google Workspace",
+      "Microsoft 365",
+      "Salesforce",
+      "HubSpot",
       "Contentful",
-      "WordPress"
+      "Chrome extension",
+      "Microsoft Word",
+      "Figma",
+      "Snowflake",
+      "Databricks",
+      "Webflow"
     ],
     "github_repo": null,
     "github_stars": null,
@@ -4669,16 +4824,43 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Writer is an enterprise AI platform built for organizations that treat brand consistency and regulatory compliance as hard requirements for AI adoption. Unlike tools that wrap third-party LLMs, Writer built its own Palmyra family of language models trained specifically on business and marketing language, with brand voice codification and content governance as core features. AI Studio, its application builder, lets teams create custom AI applications for specific marketing, sales, support, and operations workflows without writing code. The platform's defining feature is its style guide enforcement: companies upload their brand guidelines, terminology databases, and compliance rules, and the AI enforces these rules in every piece of generated content. Writer serves Fortune 500 companies including Intuit, L'Oreal, and Deloitte, and positions itself as the secure, governed alternative to ChatGPT Enterprise for companies that cannot risk AI generating off-brand or non-compliant content. Integrations include Chrome, Google Docs, Microsoft Word, Figma, and content management systems. Pricing is enterprise-only with custom quotes based on users and use cases. Writer competes with Jasper (marketing workflow focus) and Copy.ai (GTM workflow focus) but differentiates on its proprietary LLMs, governance depth, and suitability for heavily regulated industries like financial services, healthcare, and insurance, where the cost of an off-brand AI output is measured in regulatory fines rather than lost click-throughs.",
-    "seo_title": "Writer Review: From $18/mo | MartechSignal",
-    "seo_description": "Writer, Enterprise AI writing platform with brand governance, fact-checking, and agents. Starts at $18/mo. Compare AI features, integrations & top.",
+    "date_updated": "2026-09-07",
+    "description": "Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. The Palmyra lineup is now X4, X5, and X6: X6 is described as the default agentic model with a 1M-token context window, published API pricing of $2 per million input tokens and $8 per million output tokens, and a claimed 8 hours of unsupervised task persistence, while X4 carries a documented deprecation date of November 18, 2026. Smaller Palmyra variants have been released as open weights on Hugging Face, including palmyra-mini and two thinking variants under Apache 2.0 in September 2025. On the application layer, WRITER Agent plans and executes work, an Agent Library lists more than 100 prebuilt agents, and AI Studio acts as the control plane for building and governing them. Governance is the real product: voice profiles, terminology lists, style guides, and Skills encode brand rules, and the company states that language is enforced before any reviewer sees a draft. Security posture is unusually explicit: no training on customer data, zero data retention by default, SOC 2 Type II plus ISO 27001, 27701, and 42001, HIPAA and PCI badges, and customer-managed encryption keys. Pricing changed materially in 2026: the plans page now shows a self-serve Starter tier with a 14-day trial capped at 5 users and no published per-seat price, plus quote-based Enterprise with Pro and Lite seat types. Founded in 2020 in San Francisco by May Habib and Waseem AlShikh, Writer reports $326M raised at a $1.9B valuation, and names KPMG, Intuit, Mars, Uber, Vanguard, and Salesforce among customers. Connectors reach into Salesforce, Snowflake, Databricks, Contentful, and Microsoft 365, so agents and answers ground in company data rather than general model knowledge, and the dev docs list LangChain and Amazon Bedrock entry points for engineering teams.",
+    "seo_title": "Writer Review: Enterprise AI Platform | MartechSignal",
+    "seo_description": "Writer: enterprise AI platform with Palmyra models, brand governance, and agents. 14-day trial; Enterprise quote-based. Compare AI features & alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Writer is the enterprise generative-AI writing platform, and its difference from consumer tools is governance: brand-voice training, terminology enforcement, plagiarism and compliance checks, and team controls that legal departments sign off on. For regulated industries, those controls are the product.",
-        "Pricing is enterprise and the platform assumes content operations with editors and style guides to enforce. Solo writers get more value from lighter tools. Teams with brand-consistency obligations across many writers and channels are exactly who Writer built for."
+      "install": [
+        "No install: Writer is hosted SaaS. Start with the 14-day free trial on the plans page, which the page states needs no credit card.",
+        "Starter is capped at 5 users and includes WRITER Agent, up to 5 Playbooks, 1 team Personality profile, basic connectors, and a limited Knowledge Graph.",
+        "Connect your data through the connectors catalog (Salesforce, Snowflake, Databricks, Contentful, Slack, Microsoft 365, Google Workspace, and others) so agents and answers are grounded in company context.",
+        "For editor use, install Writer for Chrome from the Chrome Web Store, or the Word add-in; the support centre documents Chrome, Word, Figma, Outlook, Teams, and Slack surfaces.",
+        "API and agent work happens at dev.writer.com: Palmyra models are callable directly (X5 also available on Amazon Bedrock as us.writer.palmyra-x5-v1:0) with Python and Node SDKs at v3.0.0."
       ],
-      "verdict": "Enterprise AI writing with real governance; the compliance layer is the product, not the model."
+      "requirements": "A browser for the app and, for API use, an account with model access; Starter is limited to 5 users and 3 active connectors, so anything past a pilot means Enterprise procurement. Regulated deployments should confirm the BAA and DPA paperwork, which Writer says is available on request for Enterprise plans.",
+      "best_for": "Enterprise content and go-to-market teams that need AI output to obey brand and terminology rules by default, and platform teams that want to build governed agents on their own data with a model family they can also call directly.",
+      "not_for": "Solo writers and small teams: Starter caps at 5 users and the published price is gone, so there is no cheap individual entry point any more. Teams wanting a model-agnostic tool that sits on top of OpenAI or Anthropic models will also find Writer opinionated about running its own.",
+      "hands_on": [
+        "Assessed from writer.com, dev.writer.com, the support centre, and the Hugging Face model index in September 2026; we have no Writer account and have not run agents on it. Direct fetches of writer.com pages are Cloudflare-gated, so quotes here come from the rendered pages and the developer docs.",
+        "The pricing correction is the biggest one. Our record carried Team at $18-25 per user per month and Starter at $29-39, and both are gone: the current plans page contains no dollar figure and no per-seat or per-user string at all. It shows Starter (self-serve, 14-day trial, up to 5 users, 5 Playbooks, 3 scheduled routines, 3 active connectors, 50 GB in a single graph) and Enterprise (quote-based, Pro and Lite seats, 20% discount for nonprofits and educational institutions). We have therefore removed the $18 figure from our structured data rather than publish a number the vendor no longer states.",
+        "Two framing corrections follow. AI Studio is no longer fairly described as a no-code app builder for business users; Writer now positions it as a single control plane for agents, and the phrase without writing code appears nowhere on the pages we fetched. And our customer list was stale: L'Oreal and Deloitte appear on no page we could fetch, while KPMG, Intuit, Mars, Uber, Vanguard, Salesforce, and Dropbox do.",
+        "The model story is real and checkable. Palmyra X6 shipped August 13, 2026 with published per-token pricing and a 1M context window, X4 is documented as deprecated on November 18, 2026, and the palmyra-mini and mini-thinking models were released as open weights under Apache 2.0 in September 2025. Benchmark claims on the marketing site (capability scores, cost per finished task) are the vendor's own and the dev docs caveat that scores measure the model inside the combined system.",
+        "Governance claims are the ones to test in a pilot: voice profiles, terminology lists, and style guides are documented as enforced before review, and the trust page states plainly that customer data is not used to train models, with SOC 2 Type II, ISO 27001, 27701, and 42001, HIPAA and PCI badges, and an option to bring your own encryption keys."
+      ],
+      "verdict": "A governed enterprise AI platform with its own models and a real compliance story; the writing tool inside it is now the smallest part, and the price tag is whatever sales says it is.",
+      "faq_extra": [
+        [
+          "Does Writer train its models on my company's data?",
+          "The company says no. The plans page states that you retain full ownership of your data and that Writer takes a zero data retention approach and does not train or improve models on customer data by default, and the trust page repeats that data shared with Writer is not used to create, modify, or train models. Organization-wide data controls, including an automated deletion schedule, are documented, and enterprise buyers can request SOC 2 Type II and HIPAA reports and a BAA."
+        ],
+        [
+          "What is included in Writer's Starter plan and what are its limits?",
+          "Starter is the self-serve tier: a 14-day free trial with no credit card, up to 5 users, the WRITER Agent interface, up to 5 Playbooks, 1 team Personality profile, basic connectors, and a limited Knowledge Graph. The comparison table caps scheduled routines at 3, active connectors at 3, and graph storage at 50 GB, and roles are limited to one team. No per-seat price is published on the page."
+        ],
+        [
+          "How much do the Palmyra models cost via the API?",
+          "Published in the developer docs: Palmyra X6 at $2 per million input tokens and $8 per million output tokens with a 1M context window, Palmyra X5 at $0.60 and $6.00 with the same window, and Palmyra X4 at $2.50 and $10.00 with 128k context and a documented deprecation date of November 18, 2026. X5 is also available on Amazon Bedrock; the docs quote X6 at $0.12 of average cost per finished task."
+        ]
+      ]
     }
   },
   {
