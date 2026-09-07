@@ -509,38 +509,73 @@
     "slug": "billionmail",
     "name": "BillionMail",
     "tagline": "Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free",
-    "website": "http://www.billionmail.com/",
+    "website": "https://www.billionmail.com",
     "category": "email-marketing",
     "pricing_model": "open-source",
     "pricing_url": null,
     "price_from": 0,
-    "price_notes": "Free open-source; self-hosted",
+    "price_notes": "Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance.",
     "ai_features": [
-      "AI-powered email content generation",
-      "Smart send-time optimization"
+      "AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi)",
+      "AI website profiling for brand-aware templates"
     ],
-    "integrations": [],
+    "integrations": [
+      "Postfix",
+      "Dovecot",
+      "Rspamd",
+      "Roundcube webmail",
+      "SMTP relay (AWS SES, Mailgun, custom)",
+      "REST management API with Swagger",
+      "Send API (single and batch)"
+    ],
     "github_repo": "Billionmail/BillionMail",
-    "github_stars": 15361,
-    "last_release": null,
+    "github_stars": 15539,
+    "last_release": "v4.9 (2025-12-11)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": null,
+    "founded": 2025,
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Designed for teams that want full control over their email infrastructure, BillionMail combines a self-hosted mail server, newsletter publishing tools, and email marketing workflows in a single open-source platform. It lets organizations manage sending domains, subscriber lists, campaigns, and delivery operations without relying on a third-party SaaS provider. The project has attracted significant community interest, with 15, 361 GitHub stars, and its open-source model makes it attractive to developers, privacy-conscious marketers, and organizations that need to keep customer data inside their own environment.\n\nThe platform includes AI-assisted capabilities such as email content generation and smart send-time optimization, helping users draft messages and improve timing without a separate copywriting tool. An API is available for connecting BillionMail to other systems, although its integration ecosystem is likely to be smaller than that of mature commercial email services. Compared with hosted alternatives like Mailchimp, Brevo, or ActiveCampaign, BillionMail trades managed convenience for lower software costs, greater customization, and direct ownership of deliverability and data. It is free to use, but teams should expect to handle installation, server maintenance, security, and email reputation management themselves. BillionMail is best for technical marketing teams, startups, agencies, and open-source advocates that need a self-hosted email marketing stack and are comfortable managing their own infrastructure.",
+    "date_updated": "2026-09-07",
+    "description": "BillionMail is a fully self-hosted email stack in one open-source project: a Linux mail server built from Postfix, Dovecot and Rspamd, plus newsletter and email marketing tooling (campaign tasks, an HTML and drag-and-drop template builder, contact management, open and click tracking) and Roundcube webmail, all AGPL-3.0 with no paid tiers. Install it on a Linux box (the documented minimum is 1 core, 1 GB RAM and 20 GB disk, with outbound port 25) and you own sending, deliverability setup and data end to end: DNS helpers walk you through SPF, DKIM, DMARC and PTR records, Let's Encrypt certificates come free, and an IP warmup mode caps your sending rate while a domain builds reputation. For marketing teams the pitch is independence from per-contact SaaS pricing; the trade is that you run the mail server, watch the blocklists and handle upgrades yourself. The API surface is practical: a management API with Swagger documentation and a Send API with single and batch endpoints authenticated by API key, for triggering sends from your own systems, plus outbound SMTP relay support for AWS SES, Mailgun or a custom relay when you would rather not deliver directly. AI template generation is real but modest: since v4.0 you can generate email templates from a prompt, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi supported as configurable providers. Context worth weighing: the project started in February 2025 with a small core team, the last tagged release is v4.9 from December 2025 and the most recent commit landed in June 2026, so development has slowed sharply, and webhooks and journey automation are absent from the documented feature set. The homepage courts cold emailers with unlimited sending and no built-in speed limit, but the project's own framing is mail server plus newsletter plus campaigns. We have not run BillionMail; this assessment is based on the repository, the docs site and the release notes.",
     "seo_title": "BillionMail Review: Open Source | MartechSignal",
     "seo_description": "BillionMail, Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. Open source & free to self-host. Compare AI.",
     "deep_dive": {
       "hands_on": [
-        "BillionMail is a delivery-focused email tool aimed at cold outreach and high-volume sending. Its pitch is deliverability engineering: domain warmup, rotation, and inbox placement tooling rather than campaign design. The dashboard is utilitarian. First impressions: it does one thing, getting mail delivered, and keeps the feature set narrow around that.",
-        "Pricing is competitive with the cold-email crowd (Instantly, Smartlead). The trade-off is that lifecycle marketing features like transactional templates and complex journeys are thin."
+        "BillionMail is two products in one container set. The base is a conventional Linux mail server: Postfix for SMTP, Dovecot for IMAP and POP, Rspamd for filtering, PostgreSQL and Redis underneath, Roundcube for webmail. On top sits the marketing layer the project exists for: campaign tasks with a from address, subject, recipient groups and template, an HTML plus drag-and-drop template editor, contact lists with CSV import, template variables, spintax for content variation, and open and click tracking that you can switch off globally or per campaign. Docs for all of it live at billionmail.com/start rather than in the README.",
+        "The README undersells the shipped product, and that is worth knowing when you evaluate: it still describes a future open-source mail server awaiting development, while the release notes show a working platform through v4.9 (December 2025) with retention policies, DKIM key-length options and tracking toggles. The docs site is the real reference. Conversely, a homepage section headed Cold Email Partner pitches unlimited sending with no built-in speed limit; that is the marketing-est sentence in the project, and the feature set around it (warmup-based rate limiting, DNS guidance, unsubscribe handling) is ordinary email infrastructure rather than a cold-outreach workflow.",
+        "Deliverability tooling is the practical reason to pick this over a plain sender. Domain setup covers A, MX, SPF, DKIM and DMARC with a PTR reminder and free Let's Encrypt certificates on port 80, the IP warmup system enforces sending-rate limits while reputation builds, and an SMTP relay option routes outbound mail through AWS SES, Mailgun or a custom relay, one relay per domain, when direct delivery is not viable. Security note from the docs: the default admin credentials in env_init are billion/billion, and the default database and Redis passwords are printed in the documentation, so changing them before exposure is not optional.",
+        "The AI story is narrower than the marketing implies, so here is exactly what is documented. AI email template generation arrived in v4.0: describe the email, get a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers and a setup notice that blocks AI features until a model is configured. Release notes also describe website profiling to pull brand information from a domain. There is no documented send-time optimization, predictive sending or AI segmentation; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits, not a model.",
+        "We have not run BillionMail; this assessment is based on the repository, the docs site and the release notes. The risk profile comes from cadence, not features: roughly 15 named contributors with four accounts producing most commits, no release since December 2025, and no commit since June 11, 2026. Also note the repository moved: the canonical repo is Billionmail/BillionMail, older aaPanel/BillionMail links redirect there, the default branch is dev, and the README still points at the old URLs."
       ],
-      "verdict": "Fit for outbound-heavy teams. Not the tool for brand email programs."
+      "install": [
+        "Install script (docs quickstart): cd /opt && git clone https://github.com/aaPanel/BillionMail && cd BillionMail && bash install.sh. The clone URL still uses the old aaPanel path, which redirects to the current Billionmail org.",
+        "Docker route (docs): cd /opt && git clone https://github.com/aaPanel/BillionMail && cd BillionMail && cp env_init .env && docker compose up -d. The docs literally print the command as docker compose up -d || docker-compose up -d to cover both Compose versions. The compose file runs Postfix, Dovecot, Rspamd, Roundcube, PostgreSQL 17, Redis and the billionmail/core panel container.",
+        "Manage with the bm script: bm help for commands, bm default to print the access URL and credentials, bm update to upgrade, plus bm start, restart, status, stop, change-password, change-user and change-port. On the Docker install the docs use bash bm.sh default.",
+        "Requirements per the docs: Linux only, on amd64 or arm64, with 1 core, 1 GB RAM and 20 GB disk as the minimum. Outbound port 25 must be open unless you use an SMTP relay; Postfix listens on 25, 465 and 587, and Dovecot serves IMAP on 143 and 993 and POP3 on 110 and 995.",
+        "Change the defaults before exposing the panel: the admin login ships as billion/billion in env_init, and the docs print default database and Redis passwords.",
+        "Keep in mind the default branch is dev and the README predates the shipped product, so prefer tagged releases and the docs site over the README when following setup steps."
+      ],
+      "best_for": "Technical teams and agencies that want to own their email infrastructure outright, send newsletters and campaigns from their own server with their own IPs, and accept deliverability work as part of the job.",
+      "not_for": "Teams that need marketing automation journeys, webhooks or a vendor to carry deliverability risk, buyers who require evidence of active development (no release since December 2025), and senders who cannot open outbound port 25 or run a mail server at all.",
+      "verdict": "A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.",
+      "faq_extra": [
+        [
+          "Is BillionMail really free, and is there a paid plan?",
+          "The software is AGPL-3.0 with no Pro, Enterprise or cloud edition: there is no pricing page because every feature ships in the single free project. The only paid offering is a done-for-you deployment package listed on the support page at $98.9 per instance with seven days of support. Your real costs are infrastructure and deliverability: a server with outbound port 25, DNS records, warmup time and blocklist monitoring."
+        ],
+        [
+          "BillionMail vs Listmonk: which self-hosted sender should you pick?",
+          "Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQL, strong at lists and campaign sending, but it is not a mail server, so you bring your own SMTP provider. BillionMail is the whole stack: Postfix, Dovecot and Rspamd plus campaigns, contacts, templates, DNS and DMARC tooling, IP warmup and webmail, so you can deliver directly from your own IPs. Pick Listmonk for simplicity and a long, steady release history; pick BillionMail when owning the mail server itself, mailboxes included, is the point and you accept a younger project whose development has slowed."
+        ],
+        [
+          "Does BillionMail have AI features?",
+          "One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up."
+        ]
+      ]
     }
   },
   {
@@ -5748,35 +5783,68 @@
     "slug": "notifo",
     "name": "Notifo",
     "tagline": "Self-hosted multi-channel notification service for email, SMS, and web push",
-    "website": "https://github.com/notifo-io/notifo",
+    "website": "https://notifo.io",
     "category": "email-marketing",
     "pricing_model": "open-source",
     "pricing_url": null,
     "price_from": 0,
-    "price_notes": "Free open-source self-hosted",
+    "price_notes": "MIT licensed, free to self-host. A hosted instance runs at app.notifo.io, but no live pricing page exists, so self-hosting is the only documented path.",
     "ai_features": [],
     "integrations": [
-      "REST API",
-      "Webhooks",
-      "JavaScript SDK"
+      "Amazon SES (email)",
+      "MessageBird (SMS)",
+      "Firebase Cloud Messaging (mobile push)",
+      "Custom web push",
+      "SignalR web sockets",
+      "REST API with OpenAPI",
+      "Notifo.SDK (.NET)",
+      "@notifo/notifo (TypeScript)"
     ],
     "github_repo": "notifo-io/notifo",
-    "github_stars": 878,
+    "github_stars": 879,
     "open_source": true,
     "api_available": true,
     "status": "active",
     "date_added": "2026-08-21",
-    "date_updated": "2026-08-31",
-    "description": "Notifo is an open-source notification service that unifies email, SMS, web push, and mobile push behind one API with a management UI for templates, users, subscriptions, and projects. Built by the Squidex team, it targets product and marketing teams that send transactional and lifecycle messages: signup confirmations, alerts, digests, and re-engagement pings. The feature set is practitioner-grade: MJML and Liquid email templates, a REST API with OpenAPI documentation, message queues and retry mechanisms per channel, read and confirmed tracking, and a JavaScript plugin for in-app notification overlays. Provider support is concrete rather than abstract: Amazon SES for email, Firebase for mobile push, MessageBird for SMS, and custom-built web push, with sockets for real-time web delivery. Docker images are published and self-hosting is the intended mode. With 878 stars the community is modest, and the last significant activity should be checked before adoption, since notification infrastructure is the kind of thing you want actively maintained. For teams already running Squidex CMS, it is the natural companion; for everyone else it competes with Courier, Knock, or plain provider APIs.",
+    "date_updated": "2026-09-07",
+    "description": "Notifo is an open-source notification service that puts email, SMS, web push, mobile push, in-app sockets and a WhatsApp messaging channel behind one API, with a management UI for templates, users, subscriptions and projects. It comes from the Squidex team: the README says it was originally developed for Squidex Headless CMS, and the license is MIT. The feature set is practitioner-grade rather than campaign-grade: MJML and Liquid email templates, hierarchical topic subscriptions (a user can follow a path like clothes/shoes/nike and set preferences per topic), per-channel message queues with retries, configurable send delays that work as aggregation windows, confirmation modes from none to explicit, and read and confirmed tracking. Provider support is specific rather than pluggable: Amazon SES for email, MessageBird for SMS, Firebase for mobile push, a custom-built web-push implementation, and sockets for real-time in-page delivery; a JavaScript plugin adds a notification overlay to your web app. Storage is MongoDB only, with Redis optional as a SignalR backplane. The integration surface is documented and live: a REST API with an OpenAPI spec served by the app, a .NET SDK on NuGet (Notifo.SDK 1.7.5) and a TypeScript SDK on npm (@notifo/notifo 2.0.2). The maintenance picture needs a hard look before you build on it. Code commits continue (the most recent, a security fix, landed in August 2026, and the backend moved to .NET 10 in June), but the last tagged release and the published Docker images date to November 2022, so the squidex/notifo image you can pull is years behind main, and the wiki's notifo/notifo image name no longer exists on Docker Hub. A hosted instance runs at app.notifo.io and the marketing site mentions usage-based pricing, but no pricing page is live, so treat self-hosting as the only documented path. We have not run Notifo; this assessment is based on the repository, wiki and published documentation.",
     "seo_title": "Notifo Review: Email Marketing, Open Source | MartechSignal",
     "deep_dive": {
       "hands_on": [
-        "Notifuse Squidex-style multi-channel notifications - the project gives you one API surface over email, SMS, and push providers, self-hosted. Configuration centers on provider templates and channel fallbacks rather than campaign design. That focus is its identity: infrastructure, not marketing tooling.",
-        "Choose it to unify scattered provider calls behind one internal service. Newsletter marketing belongs in a different category of tool entirely."
+        "Notifo is notification infrastructure, not marketing tooling, and the docs keep that identity consistent: one API, channels, users, subscriptions and templates. The model that matters is topic-based: users subscribe to hierarchical topics, events are published to a topic path, and each user sets notification preferences per topic with a confirmation mode (none, explicit, or seen). Delay settings act as aggregation windows so a burst of events becomes one digest. That is a different job from a campaign sender, and the feature list shows it: no segments, no journeys, no deliverability tooling.",
+        "Channel coverage is concrete: email through Amazon SES, SMS through MessageBird, mobile push through Firebase, custom-built web push, in-page delivery over sockets, and a messaging channel with WhatsApp support added in the 1.2.0 release notes. Templates are MJML with Liquid, and a JavaScript plugin renders a notification overlay inside your own web app. Provider choice is the constraint: the configuration carries one SES block and one MessageBird block, and the README explicitly asks contributors for other email providers, which tells you the roadmap state.",
+        "The maintenance record is the decision point, and it splits in two. Source activity is real: commits through August 2026, a security-fix commit on August 2, 2026, and a migration to .NET 10 in June 2026. Releases are not: the last tag is 1.3.0 from November 2022, and the Docker Hub images (squidex/notifo, tags latest, 1 and 1.3.0) were last pushed roughly four years ago. Practically, you either accept a 2022 image or build from source, and either way you are reading the commit log rather than the releases page to judge health. Eight hundred seventy-nine stars and nineteen open issues say small community.",
+        "For a .NET or Squidex shop the integration story is strong: the API has a live OpenAPI spec served by the app itself, Notifo.SDK on NuGet covers .NET clients, and the TypeScript SDK on npm is generated from the same spec. The wiki documents only MongoDB as storage, with Redis optional as a SignalR backplane, so plan a Mongo instance into the deployment. Note also that webhook-style callbacks appear in configuration but are not a documented feature, so do not plan an event-out pipeline around them.",
+        "We have not run Notifo; this assessment is based on the repository, the wiki and the published documentation. One naming caution: Notifo (this project, C#/.NET, MIT, notifo-io/notifo) is regularly confused with Notifuse, a separate Go-based self-hosted email platform with a paid cloud. They share nothing except the first four letters."
       ],
-      "verdict": "Good unified-notifications middleware for developers; not a campaign sender."
+      "install": [
+        "The README's documented path is Docker with the images at hub.docker.com/r/squidex/notifo, plus a docker compose file in the repo under deployment/docker-compose. Installation details live in the project wiki rather than a docs site.",
+        "Pull: docker pull squidex/notifo:latest. Published tags are latest, 1 and 1.3.0, and Docker Hub shows the last push roughly four years ago, so the image will not include the .NET 10 work on main.",
+        "The repo compose file wires squidex/notifo:1 with mongo:5 and squidex/caddy-proxy:2.7.6, sets URLS__BASEURL=https://your-domain and STORAGE__MONGODB__CONNECTIONSTRING=mongodb://notifo_mongo, and healthchecks curl -f http://localhost:5000/healthz.",
+        "Configuration flattens nested config keys into environment variables: mongoDB.connectionString becomes MONGODB__CONNECTIONSTRING, and the same pattern covers email, SMS and web push settings.",
+        "Storage: the wiki states MongoDB is the only supported database. Redis is optional, used as a backplane for the sockets layer.",
+        "Watch for a stale image name: the wiki still says to use notifo/notifo:1, but that repository does not exist on Docker Hub. The real image is squidex/notifo, and for current code you will be building from source."
+      ],
+      "best_for": "Product and engineering teams, especially .NET shops or existing Squidex users, that want one self-hosted API for transactional and lifecycle notifications across email, SMS, push and in-app channels with per-user topic preferences.",
+      "not_for": "Newsletter and campaign marketing (there is no campaign builder, segmentation or deliverability tooling), teams that need provider choice beyond SES, MessageBird and Firebase, and anyone who requires current tagged releases or Docker images before adopting a dependency.",
+      "verdict": "Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.",
+      "faq_extra": [
+        [
+          "Is Notifo still maintained?",
+          "Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself."
+        ],
+        [
+          "Does Notifo work with SendGrid, Mailgun or Twilio?",
+          "Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings."
+        ],
+        [
+          "Notifo vs Notifuse: are they the same thing?",
+          "No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo's job."
+        ]
+      ]
     },
-    "seo_description": "Notifo, Self-hosted multi-channel notification service for email, SMS, and web push. Open source & free to self-host. Compare AI features, integrations."
+    "seo_description": "Notifo, Self-hosted multi-channel notification service for email, SMS, and web push. Open source & free to self-host. Compare AI features, integrations.",
+    "founded": 2020
   },
   {
     "slug": "idurar-erp-crm",
@@ -6477,31 +6545,72 @@
     "pricing_model": "open-core",
     "pricing_url": "https://budibase.com/pricing",
     "price_from": 0,
-    "price_notes": "Free self-hosted core (GPLv3). Paid cloud and business plans add hosting, SSO and support.",
+    "price_notes": "Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo.",
     "ai_features": [
-      "AI agents that run operational tasks",
-      "AI-assisted app generation"
+      "AI agents with tools, memory and structured outputs (beta since March 2026)",
+      "Model-agnostic: Anthropic, OpenAI, Google, Mistral, Groq, OpenRouter, custom OpenAI-compatible",
+      "Automation AI steps: classify, translate, summarize, extract document data"
     ],
     "integrations": [
-      "REST API",
-      "Postgres",
+      "PostgreSQL",
       "MySQL",
       "MongoDB",
+      "SQL Server",
+      "Oracle",
+      "Snowflake",
+      "Elasticsearch",
+      "DynamoDB",
+      "Firestore",
       "S3",
-      "Webhooks"
+      "Google Sheets",
+      "REST API"
     ],
     "github_repo": "budibase/budibase",
-    "github_stars": 28254,
+    "github_stars": 28261,
     "open_source": true,
     "api_available": true,
     "founded": null,
     "hq": null,
     "status": "active",
     "date_added": "2026-09-05",
-    "date_updated": "2026-09-05",
-    "description": "Budibase is an open-source operations platform for building internal apps, automations and, since its 2.x releases, AI agents that act on operational data. You connect databases and APIs, design interfaces in a visual builder, and wire up multi-step automations; self-hosting is free under GPLv3, with paid cloud and business tiers for hosting, SSO and support. For marketing operations the practical builds are the internal systems generic SaaS covers badly: lead-routing consoles, campaign budget trackers, content approval queues and dashboards that join ad platform data with CRM records. Because it is self-hosted, lead data and consent records stay inside your own infrastructure, which matters for EU teams with GDPR obligations. The 2.x direction adds agents that work over those same data connections, positioned as model-agnostic. The honest trade-offs: data modeling is part of the job, the AI features are young, and marketing teams without any technical help will feel the friction that engineering teams don't. Against NocoBase, its closest peer in this directory, Budibase is faster to a working CRUD app but less deep on data-model-driven structure. At 28, 000-plus GitHub stars with daily development it is one of the most active projects in this class. We have not run Budibase in production; this assessment is based on the documented architecture and public materials.",
+    "date_updated": "2026-09-07",
+    "description": "Budibase is an open-source operations platform for building internal apps, automations and AI agents on your own data, and its 2026 direction is agents first: the repo now bills it as AI agents, automations and apps that run your operations, model agnostic. You connect data sources, build interfaces in a visual builder, wire multi-step automations and, since the agents beta of March 2026, define agents as an LLM with instructions, tools, memory and structured outputs that can read rows, write rows and trigger automations, with per-tool run-as permissions and Slack or Microsoft Teams escalation when a human needs to approve. Model support is open rather than bundled: Anthropic, OpenAI, Google, Mistral, Groq, OpenRouter or any OpenAI-compatible endpoint, including locally hosted models. Licensing is layered: the repo's own guidelines say Budibase is GPLv3 overall, the client and component libraries are MPL 2.0, paid features live in a packages/pro folder under a Business Source License that converts to GPLv3 after four years, and apps you build are not GPL-restricted. Self-hosting free is real: one all-in-one Docker image rated at 2 cores and 6 GB of RAM, a compose cluster for production, or a Helm chart published to an OCI registry. Marketing teams reach for it on the same builds as its peers: lead-routing consoles, campaign budget trackers, content approval queues and dashboards that join ad platform data with CRM records. One behavior to plan around: automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL. External data sources documented include PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Elasticsearch, DynamoDB, Firestore, S3, Google Sheets and REST. Cloud plans start at $19 monthly billed annually with metered actions, and self-hosted open source has unlimited actions and users in a single workspace. We have not run Budibase in production; this assessment is based on the documented architecture and public materials.",
     "seo_title": "Budibase Review: Open-Source Ops Apps | MartechSignal",
-    "seo_description": "Budibase: open-source platform for internal apps, automations and AI agents. Self-host free. Compare features, pricing & alternatives."
+    "seo_description": "Budibase: open-source platform for internal apps, automations and AI agents. Self-host free. Compare features, pricing & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "Budibase builds data-first: connect a datasource, then generate screens against it, then add automations. The internal Budibase DB (CouchDB-backed) is the default when nothing external exists, and the connector list covers Postgres, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Elasticsearch, DynamoDB, Firestore, Redis, S3, Google Sheets and REST, plus custom datasource plugins. One documented behavior catches teams that connect a live database: row-based automations fire on rows written through Budibase, so rows inserted externally into your Postgres or MySQL do not trigger anything. Plan a webhook or a polling step for that case.",
+        "The agents are the reason to look again if you evaluated Budibase before 2026. Each workspace gets an Agents tab, and an agent is an LLM configured with instructions, tools, memory and structured outputs. Tools are discovered from your datasources and automations and granted per operation, with a run-as setting that executes either as the requesting user or as an admin, and field-level exclusions for link and formula fields. Escalation pauses the agent and asks a human in Slack or Teams before resuming. Docs also document an Agent step inside automations, agent activity monitoring, and a testing flow for evaluating agents against scenarios before production. Access went channel-first: Slack and Microsoft Teams are the primary surfaces, in-app agent chat is deprecated, and the Discord and Telegram channels were removed in v3.44.1.",
+        "The licensing is three layers rather than one, and reading the repo's own guidelines settles most questions. The core is GPLv3 overall, the client and component libraries are MPL 2.0, and paid features live in packages/pro under a Business Source License that converts to GPLv3 four years after publication; apps you build are not GPL-restricted. Two operational consequences: paid self-hosted tiers validate their license against Budibase's account portal over HTTPS, so plan outbound access (offline licenses are an enterprise add-on), and Budibase AI on self-host calls Budibase's cloud endpoints, so SSL inspection can break it.",
+        "Agent and knowledge features have their own requirements, and they are the difference between a demo and a deployment. Knowledge sources (retrieval over your documents) currently support pgvector as the only vector store, and they require a GEMINI_API_KEY in the environment or the knowledge actions are disabled. Budibase AI on self-host needs BBAI_LITELLM_KEY configured on every agent-running service, including the automation worker. If you bring your own model through the custom provider option, an OpenAI-compatible base URL plus key is the contract, which is how Ollama-style local models connect.",
+        "We have not run Budibase in production; this assessment is based on the repository, docs.budibase.com and release notes. Calibration: releases are roughly weekly (v3.44.1 shipped September 7, 2026, the day this was written), the agents beta arrived in March 2026, and the project's own usage claims do not reconcile (docs say over 200,000 teams, the homepage says 300K), so treat scale claims as marketing. Cloud pricing meters actions, defined as agent tool calls plus automation node executions plus row saves, updates and deletes, with hard monthly limits and no overage billing, so a busy automation estate needs a plan check each quarter."
+      ],
+      "install": [
+        "All-in-one Docker: docker run -d -t --name=budibase -p 10000:80 -v /local/path/data:/data --restart unless-stopped budibase/budibase:latest. The docs rate this at 2 cores and 6 GB of RAM for most uses, and the UI lands on port 10000.",
+        "Before production, set the environment variables the docs call out: CUSTOM_DOMAIN, INTERNAL_API_KEY, JWT_SECRET, MINIO_ACCESS_KEY and MINIO_SECRET_KEY, REDIS_PASSWORD, and COUCHDB_USER with COUCHDB_PASSWORD. If unset, the image seeds them with generated UUIDs into an .env file in the mounted volume.",
+        "Production compose cluster: download docker-compose.yaml, .env and litellm_config.yaml from the repo's hosting folder, then docker-compose up -d. You get CouchDB, MinIO, Nginx, the Budibase worker and the Budibase server as separate services; Linux is the recommended host, with setup scripts under hosting/scripts/linux.",
+        "Kubernetes: helm install --create-namespace --namespace budibase budibase oci://ghcr.io/budibase/charts/budibase. The charts moved to an OCI registry, so older instructions pointing at budibase.github.io need updating. Docs recommend nodes with at least 1 GB of memory and more for volume.",
+        "Agents and AI environment: set GEMINI_API_KEY for knowledge features, BBAI_LITELLM_KEY on every agent-running service for Budibase AI, and configure a pgvector connection under Settings if you want retrieval over your own documents.",
+        "Licensing network access: paid self-hosted tiers validate against account.budibase.app over HTTPS 443, and self-hosted Budibase AI reaches Budibase cloud IPs, so both need outbound allowances; air-gapped deployment is an enterprise add-on."
+      ],
+      "best_for": "Marketing ops teams that want self-hosted internal apps plus agents that can act on that data, bringing their own LLM keys and even local models, with Slack or Teams as the approval surface.",
+      "not_for": "Teams whose automations must fire on rows written by other systems, organizations that need a single OSI license (the pro folder is BSL), and buyers who cannot permit any outbound license validation or AI traffic.",
+      "verdict": "The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.",
+      "faq_extra": [
+        [
+          "Is Budibase free to self-host?",
+          "Yes. The open-source self-hosted tier has unlimited actions, apps, automations, agents and users in one workspace, and the repo's licensing guidelines put the core under GPLv3 with client and component libraries under MPL 2.0. The paid parts live in a packages/pro folder under a Business Source License that converts to GPLv3 four years after publication, and paid self-hosted tiers validate their license against Budibase's account portal over the network. Staying on the free tier means nothing phones home for licensing, though Budibase AI features do call external endpoints and knowledge features need a GEMINI_API_KEY."
+        ],
+        [
+          "Budibase vs NocoBase: which should marketing ops pick?",
+          "They solve adjacent problems. NocoBase is data-model-first: you define the schema, then assemble pages and server-side workflows around it, which suits systems that must match your organization's data model exactly. Budibase gets you a working CRUD app faster on top of an existing datasource and adds an agents layer, an LLM with tools, permissions and Slack or Teams escalation, that NocoBase does not offer in the same form. Choose NocoBase when the data model and approval logic are the product; choose Budibase when you want apps and agents quickly over Postgres, MySQL or REST, and can live with row triggers that only fire on rows written through Budibase."
+        ],
+        [
+          "Which AI models can Budibase agents use?",
+          "It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Google, Mistral, Groq and OpenRouter, plus a custom provider option that accepts any OpenAI-compatible base URL, which is how locally hosted models connect. Two requirements surprise people. Knowledge sources, meaning retrieval over your own documents, currently support pgvector as the only vector store and require a GEMINI_API_KEY in the environment. And the primary agent channels are Slack and Microsoft Teams, since in-app agent chat is deprecated and the Discord and Telegram channels were removed in v3.44.1."
+        ]
+      ]
+    }
   },
   {
     "slug": "appsmith",
@@ -6512,65 +6621,148 @@
     "pricing_model": "open-core",
     "pricing_url": "https://www.appsmith.com/pricing",
     "price_from": 0,
-    "price_notes": "Free community edition (Apache 2.0). Paid business and enterprise editions add SSO, audit logs, environments.",
+    "price_notes": "Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users.",
     "ai_features": [
-      "AI-assisted query and code generation"
+      "Ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3)",
+      "Appsmith AI datasource (deprecated; ends September 30, 2026)"
     ],
     "integrations": [
-      "REST API",
-      "Postgres",
+      "PostgreSQL",
       "MySQL",
       "MongoDB",
       "Snowflake",
-      "S3"
+      "Redshift",
+      "DynamoDB",
+      "Elasticsearch",
+      "S3",
+      "HubSpot",
+      "Salesforce",
+      "Google Sheets",
+      "Airtable",
+      "REST / GraphQL"
     ],
     "github_repo": "appsmithorg/appsmith",
-    "github_stars": 40813,
+    "github_stars": 40826,
     "open_source": true,
     "api_available": true,
     "founded": null,
     "hq": null,
     "status": "active",
     "date_added": "2026-09-05",
-    "date_updated": "2026-09-05",
-    "description": "Appsmith is an open-source platform for building admin panels, internal dashboards and operational apps on top of databases and APIs you already run. Licensed Apache 2.0 for the community edition, free to self-host, with paid tiers for SSO, audit logs and enterprise controls. Marketing operations teams reach for it when campaign data lives in five places and nobody wants to check five tabs: a single dashboard over the ad platforms' APIs, a lead-quality console next to the CRM, or a promotion approval panel wired to the warehouse. Queries are SQL or JS against your own connections, interfaces are drag-and-drop, and everything stays inside your infrastructure when self-hosted. The trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; and as a general internal-tools platform it ships no marketing-specific templates, so the first useful app is on you. At 40, 000-plus GitHub stars it is the largest project in the internal-tools class we cover. We have not run Appsmith in production; this assessment is based on the documented architecture and public materials.",
+    "date_updated": "2026-09-07",
+    "description": "Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 40,826 stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. We have not run Appsmith in production; this assessment is based on the documented architecture and public materials.",
     "seo_title": "Appsmith Review: Free Internal Dashboards | MartechSignal",
-    "seo_description": "Appsmith: open-source admin panels and dashboards over your databases and APIs. Self-host free, Apache 2.0. Compare features & alternatives."
+    "seo_description": "Appsmith: open-source admin panels and dashboards over your databases and APIs. Self-host free, Apache 2.0. Compare features & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "Building in Appsmith follows a loop the docs document well: connect a datasource, write a query in SQL or JavaScript, bind its results to widgets, then version the whole app in git. The git integration is deeper than most low-code tools offer: any Git provider works, you can protect branches, map different branches to development, staging and production, and wire CI/CD to update a branch automatically. For a marketing ops team that already reviews infrastructure changes through pull requests, that workflow carries over unchanged.",
+        "The realistic marketing builds are consolidation plays: one dashboard that pulls campaign metrics from several ad platform APIs, a lead-quality console beside the CRM, an approval panel wired to the warehouse, or an admin screen that lets support edit campaign metadata without raw database access. Nothing here is marketing-specific out of the box; there are no campaign templates, so the first useful app is your own work. Queries are yours to write, which is the price and the power of the tool.",
+        "The edition split is a detail worth catching before install. The public repo is Apache 2.0, but the docs recommend the appsmith-ee image, which is the commercial edition running on a free plan, and the community build is the appsmith-ce image you substitute in the same compose file. The enterprise code and its license terms are not in the public repository, and the docs note that cs.appsmith.com must be reachable for image pulls, updates and license validation. If license phone-home is unacceptable, run CE and accept the feature cut.",
+        "AI assistance exists in two forms. Ask AI, the in-editor assistant that writes SQL and JavaScript with schema awareness, moved into the Community Edition in v2.3 (August 2026) once an admin enables a provider in settings. The older Appsmith AI datasource is being retired: new connections are blocked from v2.3 and existing ones stop working on September 30, 2026. Appsmith also sells a separate agentic product, Appsmith Agents, which is distinct from the builder.",
+        "We have not run Appsmith in production; this assessment is based on the repository, docs.appsmith.com and the release notes. Operational notes from that reading: the all-in-one container runs MongoDB, Redis and PostgreSQL inside it and wants 8 GB of host RAM; Kubernetes pods want 6 GB and 2 vCPUs; and the issue tracker carries more than 4,400 open issues, which reads as a very active project with the bug volume to match."
+      ],
+      "install": [
+        "Current docs install with Docker Compose rather than a bare docker run. Create a docker-compose.yml with image index.docker.io/appsmith/appsmith-ee:<version>, ports 80 and 443, and volume ./stacks:/appsmith-stacks, then run docker-compose up -d. Pin a release tag (the docs use v1.98 as an example) instead of latest.",
+        "For the community edition, swap the image name to appsmith/appsmith-ce in the same file. The docs state this as the only change needed.",
+        "First boot creates an admin account at http://localhost, which the docs warn can take up to five minutes. License keys for paid plans are generated at customer.appsmith.com and activated in the instance.",
+        "Host requirements per the docs: Docker 20.10.7+, Docker Compose 1.29.2+, at least 8 GB of RAM, and outbound access to cs.appsmith.com for pulls, updates and license validation.",
+        "Kubernetes: helm repo add appsmith-ee https://helm-ee.appsmith.com && helm repo update, then helm install appsmith-ee appsmith-ee/appsmith -n appsmith-ee --create-namespace -f values.yaml. values.yaml must set the image tag, the MongoDB operator settings, and ingress class and hosts. Application pods need 6 GB of memory and benefit from 2 vCPUs, on a minimum of two nodes with 2 vCPUs and 8 GB each.",
+        "To reach APIs running on the Docker host itself (a local ad platform mock, a dev CRM), start the container with --add-host=host.docker.internal:host-gateway, which is the documented approach on Linux."
+      ],
+      "best_for": "Engineering-leaning marketing ops teams that want one self-hosted console over ad platform APIs, the warehouse and the CRM, and have someone who writes SQL and JavaScript to own the apps.",
+      "not_for": "Non-technical teams that want ready-made marketing apps out of the box, shops that cannot spare 8 GB of host RAM or allow outbound calls to cs.appsmith.com, and organizations that need SAML, SCIM, audit logs or custom roles without paying for Business or Enterprise.",
+      "verdict": "The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.",
+      "faq_extra": [
+        [
+          "Is Appsmith free for commercial use?",
+          "Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries."
+        ],
+        [
+          "Appsmith vs Retool: what's the difference?",
+          "Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith's own comparison content frames itself as the developer-centric, open-source alternative to Retool's closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself."
+        ],
+        [
+          "Which databases and SaaS tools does Appsmith connect to?",
+          "Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write."
+        ]
+      ]
+    }
   },
   {
     "slug": "tooljet",
     "name": "ToolJet",
     "tagline": "Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps",
-    "website": "https://tooljet.ai",
+    "website": "https://tooljet.com",
     "category": "workflow-automation",
     "pricing_model": "open-core",
-    "pricing_url": "https://www.tooljet.ai/pricing",
+    "pricing_url": "https://tooljet.com/pricing",
     "price_from": 0,
-    "price_notes": "Free community edition (AGPL-3.0). Paid tiers add SSO, audit logs, environments and cloud hosting.",
+    "price_notes": "Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100.",
     "ai_features": [
-      "ToolJet AI generates apps from prompts",
-      "MCP server for coding-agent builds"
+      "ToolJet AI generates apps from a prompt",
+      "AI query generation and JS/Python code assistant",
+      "MCP server (beta) for Claude Code, Codex and Cursor builds"
     ],
     "integrations": [
-      "REST API",
-      "Postgres",
+      "PostgreSQL",
       "MySQL",
       "MongoDB",
+      "Snowflake",
       "BigQuery",
-      "S3"
+      "Elasticsearch",
+      "S3",
+      "Stripe",
+      "Slack",
+      "SendGrid",
+      "Airtable",
+      "REST / GraphQL / gRPC"
     ],
     "github_repo": "ToolJet/ToolJet",
-    "github_stars": 40845,
+    "github_stars": 40857,
     "open_source": true,
     "api_available": true,
     "founded": null,
     "hq": null,
     "status": "active",
     "date_added": "2026-09-05",
-    "date_updated": "2026-09-05",
-    "description": "ToolJet is an open-source low-code platform for building internal tools: admin panels, dashboards and operational apps that run on your existing databases, APIs and SaaS systems. The community edition is AGPL-3.0 and free to self-host; paid plans add SSO, audit logs and environments. Its 2026 direction is AI-first: ToolJet AI turns a description into pages, queries and components, and an MCP server lets your coding agent build against ToolJet's real component and data contracts, so the output is an editable ToolJet app rather than loose code. For marketing operations the use case is the same class as Appsmith and Budibase: campaign dashboards over ad-platform APIs, lead-quality consoles next to the CRM, and approval panels, all self-hosted so lead and consent data stays in-house. Trade-offs: AGPL matters if you expose modified versions as a service; the AI generation is quick but the result still needs someone who can check queries and permissions. At 40, 000-plus GitHub stars it is among the largest projects in this class. We have not run ToolJet in production; this assessment is based on the documented architecture and public materials.",
+    "date_updated": "2026-09-07",
+    "description": "ToolJet is an open-source platform for building internal tools: admin panels, dashboards and operational apps that run against your databases, APIs and SaaS systems, built with a visual builder, a prompt-driven AI builder, or an MCP server that lets coding agents such as Claude Code and Cursor build and edit apps directly. The repo is AGPL-3.0 and now describes itself as the open-source foundation of ToolJet AI: AI app generation, AI query building, the agent builder, workflows, modules, git sync and audit logs belong to the paid editions, metered in AI credits on cloud and licensed on self-host. At 40,857 stars with roughly 400 contributors, and with several releases a week on an LTS track (v3.20.x) plus a beta track, it sits alongside Appsmith at the top of this class. For marketing operations the builds are the same set as its peers: campaign dashboards over ad-platform APIs, lead-quality consoles beside the CRM, and approval panels, self-hosted so lead and consent data stays in-house. Around 50 data sources are documented, including PostgreSQL, MySQL, MongoDB, Snowflake, BigQuery, Elasticsearch, S3, Stripe, Slack, SendGrid, Airtable and NocoDB, plus generic REST, GraphQL and gRPC. Self-hosting has real requirements: x86 64-bit only (no arm64 images), PostgreSQL 16 recommended, Redis 7, and two separate Postgres databases, with MySQL explicitly unsupported; a single docker run command still gets you a working instance. Two honesty notes from the docs: self-hosted AI calls ToolJet's hosted api-gateway and python-server endpoints, so it is not air-gapped without ToolJet AI Enterprise, and the published images are tagged ee even though the repo license is AGPL, so the community and enterprise boundary is not spelled out in a license file. Cloud pricing runs from free (2 builders, 2 apps) to $79 per builder monthly billed annually, with Team at $199 and Enterprise from $3,000 per month. We have not run ToolJet in production; this assessment is based on the documented architecture and public materials.",
     "seo_title": "ToolJet Review: AI-Built Internal Tools | MartechSignal",
-    "seo_description": "ToolJet: open-source internal tools built by prompt or visual builder. AGPL, self-host free. Compare features, pricing & alternatives."
+    "seo_description": "ToolJet: open-source internal tools built by prompt or visual builder. AGPL, self-host free. Compare features, pricing & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "ToolJet gives you three ways into the same app model. The visual builder is the classic loop: drop components, write queries in SQL, JavaScript or Python, bind results. The ToolJet Database is a no-code table editor sitting on PostgreSQL when there is no source system yet. And the AI builder takes a prompt on the home page and produces a working app with UI, queries and data bindings, no confirmation step. Docs also document AI query generation and an AI code generator for JavaScript and Python snippets, and note that only query names leave your instance for that feature.",
+        "The MCP server is the distinctive piece and the reason agent-first teams shortlist ToolJet. It is marked beta, and it exposes your instance to a coding agent: the agent can generate and modify apps in place, inspect datasources, create and seed ToolJet DB tables, write queries against ToolJet DB, Postgres, REST or any plugin, and manage page and query permissions and users. ToolJet ships a packaged plugin for Claude Code (tooljet-app-builder) and Codex, and any other MCP client can register the server from the ToolJet/tooljet-mcp repo. You need a personal access token (tj_pat_) and Node 20 or newer.",
+        "Editions and metering need reading before you budget. Cloud plans meter AI work in credits, and monthly credits do not carry forward; add-on credits cost $1 per 100. Enterprise adds bring-your-own-key AI at no credit cost and ToolJet AI Enterprise, which runs the AI server on your own infrastructure for a fully air-gapped deployment. Without that tier, self-hosted AI features call ToolJet's hosted api-gateway.tooljet.ai and python-server.tooljet.ai endpoints, which the setup docs tell you to whitelist. Related honesty note: the published Docker images are tagged ee even though the repo LICENSE is AGPL-3.0, and no separate license file spells out where community code ends.",
+        "Self-hosting requirements are stricter than peers and worth planning around: x86 64-bit only, with arm64 explicitly unsupported; PostgreSQL 16.x recommended, with 13.x at end of life since November 2025 and upgrade guides published; Redis 7.x required; and two separate Postgres databases (TOOLJET_DB and PG_DB must differ, and the docs warn that sharing one causes deployment failure). MySQL is explicitly not on the roadmap. Workflows need WORKER=true and an external Redis once you run more than one replica, and the workflow engine itself moved from Temporal to BullMQ, with a migration guide.",
+        "We have not run ToolJet in production; this assessment is based on the repository, docs.tooljet.com and release notes. Calibration: development is genuinely active, with multiple releases per week and two on September 7, 2026, split across an LTS track (v3.20.x) and a beta track (v3.21.x); and ToolJet's own marketing numbers lag its repo, with the pricing page citing 37,602 stars and the homepage 40,777 against an API count of 40,857. The 3.0 upgrade has documented breaking changes around dynamic component references and variable access, so test before upgrading."
+      ],
+      "install": [
+        "README one-liner: docker run --name tooljet --restart unless-stopped -p 80:80 --platform linux/amd64 -v tooljet_data:/var/lib/postgresql/13/main tooljet/try:ee-lts-latest. The docs version of the same command mounts /var/lib/postgresql/16/main instead, reflecting the Postgres 16 migration; for a non-standard port add -p 8080:8080 -e PORT=8080. The README recommends the LTS tag over latest when upgrading.",
+        "Docker Compose: curl -LO https://tooljet-deployments.s3.us-west-1.amazonaws.com/docker/docker-compose-db.yaml && mv docker-compose-db.yaml docker-compose.yaml && mkdir postgres_data, then fetch .env.internal.example and internal.sh from the same bucket, run ./internal.sh to seed secrets, and docker-compose up -d. An external-Postgres variant swaps in docker-compose.yaml, .env.external.example and external.sh; a backup-restore.sh script is published alongside.",
+        "Helm: helm repo add tooljet https://github.com/ToolJet/helm-charts.git && helm install tooljet tooljet/tooljet. The chart ships PostgreSQL enabled and Redis present but disabled, which must be enabled when replicas exceed one.",
+        "Raw Kubernetes: kubectl apply -f https://tooljet-deployments.s3.us-west-1.amazonaws.com/kubernetes/deployment.yaml, then kubectl get pods. PostgREST variables (PGRST_HOST, PGRST_DB_URI, PGRST_JWT_SECRET and others) are mandatory in this path.",
+        "System requirements per the docs: Ubuntu 22.04 or later, x86 64-bit only (arm64 is not supported), 4 GB RAM and 1 vCPU for the app VM, PostgreSQL 16.x recommended, Redis 7.x, and two distinct Postgres databases for TOOLJET_DB and PG_DB.",
+        "For AI features and workflows: whitelist https://api-gateway.tooljet.ai and https://python-server.tooljet.ai, set WORKER=true for scheduled workflows, and provide external Redis for multi-worker deployments."
+      ],
+      "best_for": "Teams that want to generate internal dashboards by prompt, or hand the build to Claude Code over MCP, self-hosted, with a wide connector library and a developer nearby to review the queries and permissions the AI produced.",
+      "not_for": "ARM or Apple-silicon-only infrastructure (no arm64 images), shops standardized on MySQL as the backing store, teams that need air-gapped AI without an enterprise agreement, and anyone who wants the simplest possible two-container install.",
+      "verdict": "The most AI-forward option in the open-source internal-tools class, with the sharpest self-hosting requirements to match. Strong if an agent-driven build path appeals; read the ee-tagged image boundary against the AGPL license before you standardize on it.",
+      "faq_extra": [
+        [
+          "Is ToolJet free to self-host?",
+          "The community edition is AGPL-3.0 and free to self-host, with no app or user ceiling written into the license. What costs money is the ToolJet AI layer and enterprise features: AI app generation and AI query building are metered in credits on cloud plans, and SSO, audit logs, modules, git sync, multi-environment and bring-your-own-key or air-gapped AI are licensed, with self-hosted paid plans starting at $199 per builder monthly. Two caveats the docs make explicit: self-hosted AI calls ToolJet's hosted gateway endpoints unless you buy ToolJet AI Enterprise, and the published Docker images are tagged ee even though the repo license is AGPL."
+        ],
+        [
+          "ToolJet vs Retool: how do they compare?",
+          "Retool is the commercial incumbent: hosted, closed source, priced per user at a premium. ToolJet is AGPL-3.0 with a free self-hosted edition, and its own comparison page pitches AI-first app generation, full app generation from a prompt and multi-LLM support as the differences, alongside SOC 2 Type II, GDPR and ISO 27001 claims for its cloud. Choose Retool for a managed platform with mature connectors and support; choose ToolJet when self-hosting, source access or the MCP build path matter more than managed convenience, and budget for stricter requirements (x86 only, PostgreSQL 16, Redis, two separate databases)."
+        ],
+        [
+          "Can Claude Code or Cursor build ToolJet apps?",
+          "Yes, through the ToolJet MCP server, which the README marks as beta. You create a ToolJet personal access token and run Node 20 or newer, then in Claude Code install the packaged plugin with /plugin marketplace add ToolJet/tooljet-mcp followed by /plugin install tooljet-app-builder@tooljet. Codex has equivalent commands, and Cursor or Cline connect by registering the stdio server from the ToolJet/tooljet-mcp repository. Once connected, the agent can generate and modify apps, inspect datasources, create and seed ToolJet DB tables, write queries and manage permissions, drawing on its own model subscription rather than your ToolJet AI credits."
+        ]
+      ]
+    }
   },
   {
     "slug": "nocodb",
@@ -6581,29 +6773,68 @@
     "pricing_model": "open-core",
     "pricing_url": "https://nocodb.com/pricing",
     "price_from": 0,
-    "price_notes": "Free self-hosted (Sustainable Use License, fair-code). Paid plans add advanced controls and cloud hosting.",
+    "price_notes": "Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom.",
     "ai_features": [
-      "AI-assisted data views and automation"
+      "NocoAI prompt-based schema, table, view and formula generation (paid)",
+      "AI button and AI prompt field types (paid)",
+      "MCP server for record-level agent access"
     ],
     "integrations": [
-      "REST API",
-      "Webhooks",
-      "Postgres",
+      "PostgreSQL",
       "MySQL",
-      "Google Sheets sync"
+      "SQLite",
+      "REST APIs (v3) with Swagger",
+      "Conditional webhooks with custom payloads",
+      "MCP server",
+      "Slack / Discord / Mattermost (paid App Store)",
+      "AWS SES / SMTP / MailerSend (paid App Store)"
     ],
     "github_repo": "nocodb/nocodb",
-    "github_stars": 64834,
+    "github_stars": 64880,
     "open_source": true,
     "api_available": true,
     "founded": null,
     "hq": null,
     "status": "active",
     "date_added": "2026-09-05",
-    "date_updated": "2026-09-05",
-    "description": "NocoDB turns any SQL database into a smart, Airtable-style spreadsheet with forms, views, permissions and automations on top. It is free to self-host under a Sustainable Use License (fair-code: free to use, not free to resell as a service; the same class as n8n's license), with paid cloud and enterprise tiers. For marketing teams it is the most direct self-hosted answer to the spreadsheet sprawl that runs campaign ops: content calendars, influencer and partner trackers, budgets, launch checklists and lead lists become shared, permissioned bases over your own Postgres or MySQL, with forms feeding them and webhooks pushing events into the rest of the stack. Compared with Airtable, you give up polish and the native integrations catalog and gain data ownership, no per-seat cost and SQL access to everything. Compared with NocoBase or Budibase, it is much faster to value: if a structured table with views and forms covers the need, NocoDB is the shortest path, and it is the most popular project in this class at 64, 000-plus GitHub stars. We have not run NocoDB in production; this assessment is based on the documented architecture and public materials.",
+    "date_updated": "2026-09-07",
+    "description": "NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 64,880 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. We have not run NocoDB in production; this assessment is based on the documented architecture and public materials.",
     "seo_title": "NocoDB Review: Self-Hosted Airtable Alternative",
-    "seo_description": "NocoDB turns any database into an Airtable-style spreadsheet. Self-host free, no per-seat cost. Compare features, pricing & alternatives."
+    "seo_description": "NocoDB turns any database into an Airtable-style spreadsheet. Self-host free, no per-seat cost. Compare features, pricing & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "NocoDB is a smart-spreadsheet layer over a database, and the bring-your-own-database part is the identity: you connect an external Postgres or MySQL instance as a data source, and bases, tables, views, forms and webhooks sit on top of your own tables. Two defaults matter for anyone pointing it at a production database: data editing is on and schema editing is off, and the docs advise leaving schema editing off unless you truly need it, so the default posture writes rows but does not alter your tables.",
+        "The marketing builds are the unglamorous ones that spreadsheets handle badly: content calendars with per-role edit rights, launch checklists, partner and influencer trackers, budget tables, and lead lists that a form feeds directly. Because views, forms and API tokens all sit over the same tables, the same base can serve an editor, a reviewer reading a shared view, and a script hitting the REST API. Community edition covers grid, gallery, form, kanban, calendar and map views, conditional webhooks with custom payloads, and two workflows per base with core nodes only.",
+        "The free-versus-paid line is worth reading before you commit, because several headline features sit above it. Timeline, gantt and list views are paid; every AI feature (NocoAI generation of schemas, tables, views and formulas, plus AI button and AI prompt field types) is paid; Slack, Discord, SES and S3 integrations come through the App Store on paid tiers; and SQL Server or Oracle as external sources are enterprise add-ons you request by email. Self-hosted community still gives you unlimited records, storage and seats, which is the part most teams want.",
+        "AI access is real but gated and bounded. NocoAI generates schemas, tables, views and formulas from prompts on cloud Plus and above, or on self-hosted Business and above with your own provider configured. The MCP server connects Claude Desktop, Claude Web, ChatGPT, Cursor and Windsurf to a base, and the docs state its limit plainly: it supports record-level operations only and does not handle table, field or metadata changes. Treat it as a data-entry and query surface for agents, not an admin surface.",
+        "We have not run NocoDB in production; this assessment is based on the repository, the docs at nocodb.com/docs and the release notes. Calibration notes from that reading: the README lags the docs (it omits the map view and interfaces), docs.nocodb.com now redirects into nocodb.com/docs, and versioning is calendar-based, so check the releases page rather than the package version when you evaluate freshness."
+      ],
+      "install": [
+        "Quickstart: curl -fsSL https://install.nocodb.com/noco.sh | bash -s -- --quick generates a Compose stack (nocodb, a worker for background jobs, Postgres, Redis) and serves the app at http://localhost:8080. The first user to sign up becomes super admin.",
+        "Production single-server: curl -fsSL https://install.nocodb.com/noco.sh | bash prompts for your domain, Postgres (bundled or existing), Redis and a Let's Encrypt email, then runs Traefik with automatic SSL in front.",
+        "The README's auto-upstall variant, bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp), generates a docker-compose setup for a production server. Note the README publishes that URL with http while the docs use https.",
+        "Docker against an existing Postgres: docker run -d --name noco -v \"$(pwd)\"/nocodb:/usr/app/data/ -p 8080:8080 -e NC_DB=\"pg://host.docker.internal:5432?u=root&p=password&d=d1\" -e NC_AUTH_JWT_SECRET=\"569a1821-0a93-45e8-87ab-eb857f20a010\" nocodb/nocodb:latest",
+        "Sizing per the docs: minimum 2 vCPU, 2 GB RAM, 10 GB disk; recommended for production 4 vCPU, 8 GB RAM, 50 GB or more.",
+        "Skip the binaries for anything serious: the README says the single-file downloads (curl http://get.nocodb.com/linux-x64 -o nocodb) are only for quick local testing, and building from source needs Node 22 or newer."
+      ],
+      "best_for": "Marketing ops teams that want Airtable-style shared bases over a Postgres or MySQL instance they own, without per-seat costs: content calendars, launch trackers, partner lists and form-fed lead lists, with webhooks and REST APIs into the rest of the stack.",
+      "not_for": "Teams that need an OSI-approved open-source license, want AI features or timeline and gantt views without paying, need SQL Server or Oracle sources outside enterprise plans, or are shopping for a full app platform with custom logic rather than a smart spreadsheet.",
+      "verdict": "The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.",
+      "faq_extra": [
+        [
+          "Is NocoDB open source?",
+          "Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n's. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify."
+        ],
+        [
+          "NocoDB vs Airtable: what do you gain?",
+          "Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable's polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature."
+        ],
+        [
+          "Can NocoDB use my existing Postgres or MySQL database?",
+          "Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business."
+        ]
+      ]
+    }
   },
   {
     "slug": "superlines",
