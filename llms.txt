@@ -62,9 +62,9 @@
 - [Copy.ai](https://martechsignal.com/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
 - [Hypotenuse AI](https://martechsignal.com/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Jasper](https://martechsignal.com/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
-- [Persado](https://martechsignal.com/tools/persado/): Motivation AI platform generating emotionally optimized marketing copy at scale
-- [Phrasee](https://martechsignal.com/tools/phrasee/): AI-powered enterprise content optimization for email, push, and SMS marketing
-- [Writer](https://martechsignal.com/tools/writer/): Enterprise AI writing platform with brand governance, fact-checking, and agents
+- [Persado](https://martechsignal.com/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
+- [Phrasee](https://martechsignal.com/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
+- [Writer](https://martechsignal.com/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
 
 ### CRM
 
@@ -118,12 +118,12 @@
 - [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (open source)
 - [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
-- [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
+- [Ortto](https://martechsignal.com/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
 ### Open-Source Tools
 
-- [Chatwoot](https://martechsignal.com/tools/chatwoot/): Open-source customer engagement platform with AI-powered chatbot and helpdesk (open source)
+- [Chatwoot](https://martechsignal.com/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (open source)
 - [Ghost](https://martechsignal.com/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (open source)
 - [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
 - [Matomo](https://martechsignal.com/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (open source)
