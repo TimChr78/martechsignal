@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Relaticle Review: CRM, Open Source | MartechSignal</title>
-<meta name="description" content="Relaticle, Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament. Open source &amp; free to self-host. Compare AI.">
+<meta name="description" content="Relaticle, Open-source CRM with 37 MCP tools, REST API, Laravel &amp; Filament. Free to self-host. Compare AI features, integrations &amp; top alternatives.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Relaticle Review: CRM, Open Source | MartechSignal">
-<meta property="og:description" content="Relaticle, Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament. Open source &amp; free to self-host. Compare AI.">
+<meta property="og:description" content="Relaticle, Open-source CRM with 37 MCP tools, REST API, Laravel &amp; Filament. Free to self-host. Compare AI features, integrations &amp; top alternatives.">
 <meta property="og:url" content="https://martechsignal.com/tools/relaticle/">
 <meta property="og:image" content="https://martechsignal.com/og/tools/relaticle.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Relaticle Review: CRM, Open Source | MartechSignal">
-<meta name="twitter:description" content="Relaticle, Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament. Open source &amp; free to self-host. Compare AI.">
+<meta name="twitter:description" content="Relaticle, Open-source CRM with 37 MCP tools, REST API, Laravel &amp; Filament. Free to self-host. Compare AI features, integrations &amp; top alternatives.">
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/relaticle.png">
 <link rel="canonical" href="https://martechsignal.com/tools/relaticle/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
@@ -31,14 +31,14 @@
     "@type": "SoftwareApplication",
     "@id": "https://martechsignal.com/tools/relaticle/#app",
     "name": "Relaticle",
-    "description": "Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament",
+    "description": "Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament",
     "url": "https://relaticle.com",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "publisher": {
       "@id": "https://martechsignal.com/#organization"
     },
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -85,7 +85,7 @@
         "name": "What is Relaticle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament. It ships with native AI agent support, 1,470 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament. It ships with native AI agent support, 1,610 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -101,7 +101,31 @@
         "name": "Is Relaticle a good CRM tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A readable, minimal CRM you can own end to end; skip it if you want suites of modules."
+          "text": "A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I install Relaticle on my own server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What can an AI agent do through Relaticle's MCP server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Relaticle free, and what does Cloud Pro add?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more."
         }
       }
     ]
@@ -122,29 +146,23 @@
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/crm/">CRM</a></li> / <li><span aria-current="page">Relaticle</span></li></ol></nav>
 <section class="page-head">
   <h1>Relaticle Review</h1>
-  <p class="sub">Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament</p>
+  <p class="sub">Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament</p>
   <p class="count">CRM · Open Source · OPEN SOURCE</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-08-28</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-09-07</p>
 </section>
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Relaticle is an open-source CRM that launched in 2025 with a clear promise: give teams a free, modern CRM with no premium tiers, no locked features, and no per-seat pricing, forever. Built on Laravel 12 and Filament 3, it is a self-hosted CRM that covers contacts, companies, deals, pipeline management, and team collaboration.
-
-The Filament admin panel gives Relaticle a polished UI for an open-source tool, closer to a commercial SaaS than the typical Bootstrap admin panel. Laravel 12&#x27;s testing improvements and Filament&#x27;s component system keep the codebase maintainable and extensible for PHP developers. The &quot;no premium tiers&quot; commitment is the core differentiator. Unlike open-core models where key features sit behind a paywall, Relaticle ships everything for free.
-
-The tradeoffs are typical of a young open-source project. The feature set covers CRM basics well but lacks the depth of established players: no built-in email sequencing, no AI features, limited integrations, and a smaller community than tools like Twenty or Krayin. Documentation and onboarding are community-driven and thinner than commercial alternatives. The project is actively maintained but has less than a year of production history, so long-term stability and roadmap are still unproven.
-
-Relaticle fits budget-conscious teams that want a self-hosted CRM they fully own, Laravel shops evaluating options before committing, and organizations that value a no-strings-attached open-source model over feature depth. It is the right call when &quot;free and self-hosted with a clean UI&quot; is the top priority and AI features, extensive integrations, or vendor support can wait.</p>
+    <p>Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside 1,610 GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.</p>
     
-    <h2>AI Capabilities</h2><ul class="feat-list"><li>Native AI agent support</li><li>30 MCP tools for AI integration</li><li>AI-powered data management</li></ul>
-    
-    <h2>Hands-on notes</h2><p>Relaticle is a Laravel/Filament-based open-source CRM aiming at the sweet spot between EspoCRM&#x27;s breadth and a spreadsheet&#x27;s simplicity. Installation is standard Laravel work. The feature set covers accounts, contacts, and pipelines without pretending to match enterprise suites module-for-module.</p><p>Sensible for teams wanting a small, hackable codebase their team can read and extend. Buyers expecting marketing automation bolted on will find it deliberately absent.</p><h2>Verdict</h2><p>A readable, minimal CRM you can own end to end; skip it if you want suites of modules.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: native AI agent support</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (1,470 GitHub stars)</td><td></td></tr></tbody></table></section>
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>Native AI agent support</li><li>37-tool MCP server</li><li>Built-in AI chat (Rela)</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>MCP clients (Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code)</span><span>REST API v1 (OpenAPI 3.1)</span><span>CSV import/export</span></div>
+    <h2>How to install</h2><ol class="feat-list"><li>Docker path: curl -o compose.yml https://raw.githubusercontent.com/Relaticle/relaticle/main/compose.yml, then create a .env with a generated APP_KEY (echo &#x27;APP_KEY=base64:$(openssl rand -base64 32)&#x27;) and a DB_PASSWORD, then docker compose up -d. That pulls ghcr.io/relaticle/relaticle:latest plus postgres:17-alpine and redis:7-alpine, for five containers: app, horizon, scheduler, postgres, redis.</li><li>Create your first admin with docker compose exec app php artisan make:filament-user; the admin panel lives at {APP_URL}/app, and instance-level sysadmin access comes from php artisan sysadmin:create, served at /sysadmin.</li><li>From source: git clone https://github.com/Relaticle/relaticle.git, cd relaticle, then composer app-install, a composer script that runs composer install followed by php artisan relaticle:install.</li><li>Manual sequence from the self-hosting docs: composer install --no-dev --optimize-autoloader, pnpm install --frozen-lockfile &amp;&amp; pnpm run build, cp .env.example .env, php artisan key:generate, php artisan migrate --force, php artisan storage:link, fix storage and bootstrap/cache permissions, then php artisan make:filament-user.</li><li>Upgrades on Docker are docker compose pull followed by docker compose up -d; the docs say migrations run automatically on startup.</li></ol><h2>Requirements</h2><p>PHP 8.5 with the pdo_pgsql, gd, bcmath, mbstring, xml, and redis extensions, PostgreSQL 17 or newer, Redis 7 or newer, Node.js 22+, Composer 2+, and a web server with Supervisor for queues. MySQL is not a documented option; PostgreSQL is the only database in the docs. The Docker path needs only APP_KEY and DB_PASSWORD. MCP requests are capped at 120 per minute per authenticated user, and self-hosted AI credits default to the Free plan&#x27;s 300 a month.</p><h2>Best for</h2><p>Laravel and Filament shops that want a CRM their developers can read, extend, and drive from agents: the 37-tool MCP server, REST API v1, and CSV import cover the programmatic paths, AGPL-3.0 keeps the code open, and self-hosting stays free with unlimited users and records.</p><h2>Not for</h2><p>Teams that need native connectors to email, Slack, or marketing tools: none are documented, only MCP, the REST API, and CSV. Also not for buyers who read AGPL-3.0 as a permissive license (offering Relaticle as a service triggers the source obligation), or who want MySQL instead of PostgreSQL 17 and Redis 7. Vendor support means the Enterprise tier, from $20,000 a year.</p><h2>Hands-on notes</h2><p>Assessed from github.com/relaticle/relaticle, relaticle.com, and relaticle.com/docs in September 2026; we have not deployed an instance. The commit log is live (commits dated the day before we checked) and the release cadence is unusually high for a CRM in this bracket: 74 releases in the twelve months to September 2026, currently at v3.5.7.</p><p>Corrections against our earlier record. The stack is Laravel 13 with Filament 5, Livewire 4, and PHP 8.5, not Laravel 12 and Filament 3. Our description said the product had no AI features while our own tagline listed MCP tools; the tagline was closer, and understated, because the MCP server exposes 37 tools rather than 30 and there is a built-in chat assistant with approval cards. Stars moved from 1,470 to 1,610.</p><p>Two more corrections. The license is AGPL-3.0, so the free claim needs its condition attached: modifying and offering Relaticle as a service triggers the source obligation. And the no-premium-tiers promise is gone; the pricing page now sells Cloud Pro at $19 per workspace per month (14-day trial, no card) and Enterprise from $20,000 a year, though per-seat pricing never arrived and self-hosting remains free.</p><p>The self-hosting docs are the strongest part of the public surface: a five-container compose stack, a fully spelled-out manual install sequence, automatic migrations on startup, and a separate sysadmin panel at /sysadmin. The API surface is documented with an OpenAPI 3.1 spec covering twelve paths across companies, people, opportunities, tasks, notes, and custom fields, and the CSV importer documents match-on-ID updates rather than insert-only behavior.</p><p>No hosted demo exists, which tells you where the project is: the sitemap lists no demo page, and the closest public entry points are the hosted app at app.relaticle.com and the repository. Evaluation means cloning and installing.</p><h2>Verdict</h2><p>A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.</p>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: native AI agent support</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (1,610 GitHub stars)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/crm/">Crm</a> <a href="/glossary/lead-scoring/">Lead Scoring</a> <a href="/glossary/mql-sql/">Mql Sql</a> <a href="/glossary/customer-journey/">Customer Journey</a> <a href="/glossary/first-party-data/">First Party Data</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Relaticle?</summary><p>Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel &amp; Filament. It ships with native AI agent support, 1,470 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Relaticle cost?</summary><p>Relaticle is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is Relaticle a good CRM tool in 2026?</summary><p>A readable, minimal CRM you can own end to end; skip it if you want suites of modules.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">Why Your Marketing Automation Stack Doesn't Need Another AI Tool</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Relaticle?</summary><p>Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament. It ships with native AI agent support, 1,610 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Relaticle cost?</summary><p>Relaticle is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is Relaticle a good CRM tool in 2026?</summary><p>A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.</p></details><details class="faq-item"><summary>How do I install Relaticle on my own server?</summary><p>The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo &#x27;APP_KEY=base64:$(openssl rand -base64 32)&#x27;) and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup.</p></details><details class="faq-item"><summary>What can an AI agent do through Relaticle&#x27;s MCP server?</summary><p>The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user.</p></details><details class="faq-item"><summary>Is Relaticle free, and what does Cloud Pro add?</summary><p>Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan&#x27;s 300 AI credits a month unless you bring your own key for more.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/attio/"><div class="name">Attio</div><div class="tagline">AI-native CRM with real-time data enrichment and agentic revenue workflows</div></a><a class="tool-card" href="/tools/espocrm/"><div class="name">EspoCRM</div><div class="tagline">Lightweight open-source CRM with sales automation, marketing tools, and customer management</div></a><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/hubspot-crm/"><div class="name">HubSpot CRM</div><div class="tagline">Free AI-powered CRM platform with sales, service, and marketing tools unified</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/chatgpt-isnt-search-anymore-its-checkout/">ChatGPT Isn't Search Anymore, It's Checkout</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -154,18 +172,18 @@ Relaticle fits budget-conscious teams that want a self-hosted CRM they fully own
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/crm/">CRM</a></dd></div>
         
         
-        <div class="side-row"><dt>GitHub</dt><dd>★ 1470</dd></div>
-        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 1610</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2024</dd></div>
         
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-28">2026-08-28</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-09-07">2026-09-07</time></dd></div>
       </dl>
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://relaticle.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Relaticle">Visit Relaticle →</a>
       <div style="margin-top:.8rem"><a href="/categories/crm/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More CRM Tools →</a></div>
     </div>
-    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Free open-source; self-hosted</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Relaticle">VIEW PRICING →</a></div></div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://relaticle.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Relaticle">VIEW PRICING →</a></div></div>
   </aside>
 </div>
 </main>

@@ -1383,41 +1383,78 @@
     "category": "seo",
     "pricing_model": "paid",
     "pricing_url": "https://www.frase.io/pricing",
-    "price_from": 15,
-    "price_notes": "Starter $39/mo (annual); Professional $103/mo; Scale $239/mo; 7-day free trial",
+    "price_from": 39,
+    "price_notes": "Starter $39/mo yearly ($49 monthly, 1 seat, 10 articles); Professional $103/mo ($129 monthly, 3 seats, 5 sites); Scale $239/mo ($299 monthly, 5 seats, 10 domains); Enterprise custom; free 7-day trial, no card",
     "ai_features": [
-      "AI content briefs",
-      "AI article writer",
-      "AI SERP analysis",
-      "AI content scoring",
-      "AI visibility monitoring",
-      "AI GEO optimization"
+      "Frase Agent (AI SEO agent)",
+      "AI content briefs via Deep Research",
+      "AI Visibility tracking",
+      "GEO Optimization and GEO Score",
+      "Content Scores (EEAT, GEO, SEO)",
+      "Content Guard monitoring",
+      "Frase Answers on-site answer engine",
+      "MCP server and CLI"
     ],
     "integrations": [
-      "Google Docs",
-      "WordPress",
-      "Zapier",
       "Google Search Console",
-      "Surfer SEO"
+      "Google Analytics 4",
+      "Google Docs",
+      "Notion",
+      "Slack",
+      "Linear",
+      "GitHub",
+      "WordPress",
+      "Webflow",
+      "Sanity",
+      "Wix",
+      "Zapier",
+      "Make",
+      "n8n"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
     "api_available": true,
-    "founded": 2018,
-    "hq": "New York, NY, USA",
+    "founded": null,
+    "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Frase is an AI content optimization platform that positions itself as a content operating system for the era of AI search. Where Clearscope and Surfer SEO focus on Google rankings, Frase expands the scope to include AI search visibility (Answer Engine Optimization) and Generative Engine Optimization (GEO). Its core workflow mirrors the category: research a topic by analyzing top SERP results, build a content brief with target terms and questions, then write and optimize using a content editor that scores topic coverage in real time. Frase differentiates through its AI search features: SERP analysis for AI-generated results, question research that surfaces the exact queries appearing in Google's People Also Ask and featured snippets, and AI answer generation that produces content structured for AI overview citations. The platform includes an AI writer that generates full drafts, an SEO content brief tool, and a WordPress integration for direct publishing. Pricing starts at $15/month for the Solo plan with one user and 10 document credits; the Basic plan at $45/month adds 30 credits and SERP analysis; the Team plan at $115/month includes unlimited documents and 3 user seats. Frase competes with Clearscope and Surfer on content optimization and Jasper on AI writing, while its AI search visibility angle is a unique wedge. The trade-off: its content editor, while functional, is less polished than Clearscope's, and its AI-generated content still requires human editing for publication quality.",
+    "date_updated": "2026-09-07",
+    "description": "Frase relaunched in 2026 as what its own docs call the agentic SEO and GEO platform, and the new product is materially different from the brief-and-editor tool most reviews still describe. The current loop is: connect a site, run an audit that crawls up to your plan's audit-page allowance, review prioritized opportunities, then let Frase Agent research a topic, draft the page in your brand voice, and publish it through WordPress, Webflow, Sanity, or Wix. Content quality is scored three ways on a 0-100 scale (EEAT Score, GEO Score, and SEO Score, with 70 to 85 described as solid), Content Guard monitors published pages and proposes confidence-tagged fixes, and Frase Answers, added in June 2026, is an on-site widget that answers visitor questions from your own content. AI search is a first-class product line rather than an add-on: AI Visibility tracks cited URLs, sentiment, and share of voice across ChatGPT and Google AI on Starter, adding Perplexity on Professional and Claude and Gemini on Scale, while GEO Optimization tunes content for extraction and citation. Plans are Starter at $39 a month billed yearly ($49 monthly, 1 seat, 10 articles, 50 audit pages), Professional at $103 ($129 monthly, 3 seats, 5 sites, 40 articles), Scale at $239 ($299 monthly, 5 seats, 10 domains, 100 articles), and Enterprise custom, with extra seats at $29 and optional overages. Every plan includes API, MCP, and CLI request allowances from 5,000 to 50,000 a month, which is unusual for an SEO suite to publish. Frase is owned by Copysmith, whose trust center also lists Describely and Rytr, and operates as a remote-first company. The 7-day trial is free with no credit card. It fits teams that want research, drafting, publishing, and AI-visibility tracking in one place, and that will trade a traditional editor for an agent-first workflow.",
     "seo_title": "Frase Review: SEO & Search, From $39/mo | MartechSignal",
-    "seo_description": "Frase, AI-powered SEO content platform for research, writing, and AI visibility tracking. Starts at $15/mo. Compare AI features, integrations & top.",
+    "seo_description": "Frase, Agentic SEO and GEO platform for research, writing, and AI visibility. Starts at $39/mo. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Frase started as a brief-and-write SEO tool and now leans into AI drafting. The core loop: give it a topic, it assembles SERP research into an outline, and the editor generates sections from your sources. The quality of generated copy is usable for foundations but needs a human pass, which the workflow assumes anyway.",
-        "Pricing is mid-tier with an annual discount. It competes with Surfer and Clearscope on briefs, and with Jasper on drafting. The differentiator is the combined brief-to-draft loop in one interface."
+      "install": [
+        "No install: hosted SaaS. Signup is at signin-next.frase.io/sign-up and the app lives at next.frase.io; legacy accounts can still log in at app.frase.io, and the docs publish a legacy migration guide.",
+        "Onboarding is three documented steps: set up your brand profile and competitors, connect Google Search Console under Settings, Workspace integrations (about two minutes), then run your first crawl from Optimize, Site Health.",
+        "The free trial is 7 days with no credit card, and its documented limits are 1 domain, 50 audit pages, 25 AI prompts, 5 articles, 10 briefs, 3 team seats, and 5 hero images.",
+        "Publishing connects directly to WordPress over its API with no plugin, filling Yoast or Rank Math meta fields; Webflow, Sanity, and Wix connectors are documented, and FraseCMS hosting is included on every plan.",
+        "For agents, Frase runs an MCP server at next.frase.io/api/mcp plus a CLI (npx @frase/cli), documented for Claude, ChatGPT, Codex, Cursor, and the terminal, on every plan."
       ],
-      "verdict": "Efficient for teams that want research and first-draft in one place, then human polish on top."
+      "requirements": "A browser plus a site you can verify: the Google Search Console connection powers SEO analytics and AI Visibility context, and publishing needs CMS credentials or an API connection. Plans meter articles, audit pages, AI generations, AI Visibility prompts, and API/MCP/CLI requests, so realistic monthly output is the real requirement. Roles (Owner, Admin, Editor, Viewer) arrive on every plan except Starter's single seat.",
+      "best_for": "Content teams and agencies that want one platform covering research, drafting, optimization scores, publishing, and AI-search visibility, with MCP and CLI access for agents. Professional (3 seats, 5 sites) is the natural in-house fit; Scale's 10 domains and agency client portal target multi-brand work.",
+      "not_for": "Writers who want a traditional editor they control: the product is agent-first now, and the legacy app is a migration path rather than a destination. Also not for teams needing SEO data depth beyond audits and SERP analysis, since there is no keyword database or backlink index here, and historical data stops at 3 months on Professional and 12 on Scale.",
+      "hands_on": [
+        "Assessed from frase.io, docs.frase.io, and the pricing page in September 2026; we have no Frase account and have not run the agent. The docs are current and specific, with a published whats-new feed whose newest entries are Frase Answers (June 24, 2026), 16 content types plus Wix publishing (May 21, 2026), and Content Guard (May 14, 2026).",
+        "The structural correction: our earlier description described Legacy Frase, with Solo, Basic, and Team plans and document credits. Those plans no longer exist. Current plans are Starter, Professional, Scale, and Enterprise; credits became articles, audit pages, AI generations, and AI Visibility prompts; and AI Visibility moved from a paid add-on into every plan with prompt caps of 50, 200, and 500.",
+        "Two more corrections. The price floor is $39 billed yearly, not the $15 we published, so our price_from changes with it. And the integrations list loses Surfer SEO (a competitor with its own comparison page, not an integration) and the Chrome extension (not documented anywhere we read); the documented set is Google Search Console, Google Analytics 4, Google Docs, Notion, Slack, Linear, GitHub, and CMS publishing.",
+        "Ownership is the fact a buyer should weigh: Frase's own trust badges point to the Copysmith trust center, which names Frase.io, Describely.ai, and Rytr.me as its products. The live about page gives no founding year and no founders, describing a remote-first company, so we dropped our earlier founded-2018 and New York claims. For a tool that stores your content pipeline, ask about roadmap independence across the three brands before an annual commitment."
+      ],
+      "verdict": "An agent-first rebuild of a familiar brief-and-draft tool, now with real AI-visibility tracking and published API limits; strong value at $39, provided you want the agent workflow and accept Copysmith ownership.",
+      "faq_extra": [
+        [
+          "How much does Frase cost in 2026?",
+          "Four plans: Starter at $39 a month billed yearly ($49 month to month) with 1 seat, 1 site, 10 articles, and 50 audit pages a month; Professional at $103 ($129 monthly) with 3 seats, 5 sites, 40 articles, and 250 audit pages; Scale at $239 ($299 monthly) with 5 seats, 10 domains, 100 articles, and 1,000 audit pages; and Enterprise, custom and scoped to your org. Yearly billing takes 20% off, extra seats are $29 a month on Professional and Scale, and the 7-day trial is free with no credit card."
+        ],
+        [
+          "What is the difference between Frase's AI Visibility and GEO features?",
+          "The docs draw the line explicitly: AI Visibility is about tracking, GEO is about optimization. AI Visibility monitors tracked prompts, classifies each as awareness, consideration, or decision, and reports cited URLs, position, sentiment, and share of voice, with prompt caps of 50 on Starter, 200 on Professional, and 500 on Scale, and engine coverage expanding by tier from ChatGPT and Google AI to Perplexity, then Claude and Gemini. GEO Optimization scores how well a page is structured to be extracted, trusted, and cited, expressed in the 0-100 GEO Score alongside EEAT and SEO scores."
+        ],
+        [
+          "Does Frase still integrate with Surfer SEO?",
+          "We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read."
+        ]
+      ]
     }
   },
   {
@@ -2338,40 +2375,64 @@
     "category": "seo",
     "pricing_model": "paid",
     "pricing_url": "https://www.marketmuse.com/pricing/",
-    "price_from": 99,
-    "price_notes": "Optimize $99/mo; Standard $149/mo; Research $249/mo; Strategy $499/mo; free tier limited",
+    "price_from": null,
+    "price_notes": "No published prices. Plans: Free (10 queries/mo), Optimize, Research, Strategy; all paid tiers are demo-gated. Optimize: 1 user, 100 tracked topics, 5 briefs/mo. Research: 3 users, 1,000 topics, unlimited queries. Strategy: 5 users, 10,000 topics, all 9 brief types.",
     "ai_features": [
-      "AI content briefs",
-      "AI topic modeling",
-      "AI content scoring",
-      "AI competitive analysis",
-      "AI content strategy",
-      "AI SERP analysis"
+      "AI content strategy documents (Content Strategy AI)",
+      "AI drafting in Optimize (MarketMuse AI)",
+      "AI content briefs in 9 documented types",
+      "Patented topic modeling"
     ],
     "integrations": [
-      "Google Docs",
-      "WordPress",
-      "Zapier",
-      "Google Search Console"
+      "Google Docs (export)",
+      "Microsoft Word (export)",
+      "WordPress (copy-paste)",
+      "ChatGPT"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
-    "api_available": true,
+    "api_available": false,
     "founded": 2013,
     "hq": "Boston, MA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "MarketMuse is an AI content strategy and optimization platform that approaches SEO from the top down: instead of optimizing individual articles one at a time, it analyzes your entire site's content inventory, identifies topic gaps and opportunities, and scores your content against competitors across your full range of topics. Founded in 2015 and based in Montreal, MarketMuse competes with Clearscope and Surfer on content optimization but differentiates on its content planning layer above the article-level editor. Its core features include topic modeling that maps out the full semantic structure of a subject, content scoring that measures how comprehensively a page covers its topic, and competitive content audits that compare your site's coverage against competitors across hundreds of topics simultaneously. It also generates content briefs and initial drafts using AI, with the briefs incorporating not just keyword data but the full topical structure MarketMuse models. Pricing starts at $149/month for the Standard plan with basic topic research and content scoring; the Team plan at $399/month adds competitive audits, content inventory analysis, and collaboration features; the Premium plan at $999/month includes API access and dedicated support. MarketMuse's highest value is for established sites with large content libraries that need systematic gap analysis and content refresh prioritization. For teams producing fewer than 10 articles per month, the price premium over Frase or Surfer is hard to justify unless content strategy is a core differentiator.",
-    "seo_title": "MarketMuse Review: From $99/mo | MartechSignal",
-    "seo_description": "MarketMuse, AI-powered content strategy and optimization platform for SEO content teams. Starts at $99/mo. Compare AI features, integrations & top.",
+    "date_updated": "2026-09-07",
+    "description": "MarketMuse is an AI content strategy and optimization platform that approaches SEO from the top down: rather than scoring one article at a time, it inventories your entire site, models the topics you cover, and grades your coverage against competitors across all of them. It was founded in July 2013 by Aki Balogh, is based in Boston, and was acquired by Siteimprove in October 2024; along the way it bought the Grepwords keyword database in 2021 and holds a patent on semantic keyword analysis. The documented product is four applications: Optimize for writing and scoring against briefs, Research with seven named tools (Topic Navigator, Keywords, Questions, Reflect, SERP X-Ray, SERP Heatmap, Site Heatmap), Heatmap for site-wide coverage, and Connect for internal linking. Proprietary metrics include Personalized Difficulty, Topic Authority, Competitive Advantage, Content Score, and Page Authority. Generative AI is documented rather than implied: MarketMuse AI arrived in Optimize in October 2023 as an LLM-agnostic drafting layer, and Content Strategy AI followed in August 2024 with prescriptive documents the company says compress 50+ hours of analyst work into 15 minutes. Briefs come in nine types, from Comparison and FAQ Collection to How-to and Product Review. The trade-offs are real. There is no documented API and no integrations page: writing exports to Google Docs or Word, WordPress gets copy-paste via a Copy for Publishing button, and ChatGPT is the one documented third-party connection. Pricing is no longer self-serve either: the site lists Free, Optimize, Research, and Strategy plans, but every paid tier sits behind a Book a demo button, with limits published instead of dollars (the Free plan allows 10 queries a month; Strategy covers 10,000 tracked topics and 5 users). Public product momentum is thin, with the newest docs changelog entry dated February 2024. It fits content teams that need portfolio-level planning more than per-article nudging.",
+    "seo_title": "MarketMuse Review: SEO & Search, Paid | MartechSignal",
+    "seo_description": "MarketMuse, AI-powered content strategy and optimization platform. Paid, demo-gated pricing. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "MarketMuse approaches content strategy from authority modeling: it inventories your whole site, compares topical coverage against competitors, and grades both before and after writing. The topic-cluster suggestions are genuinely strategic rather than keyword-list fluff, which separates it from brief generators.",
-        "Cost is the catch. Pricing targets content teams with real budgets, and the interface demands patience to learn. Solo operators will find Surfer or Frase more cost-effective; enterprises building topical authority systematically get analysis the cheaper tools simply do not attempt."
+      "install": [
+        "No install: hosted SaaS. Create a free account at app.marketmuse.com with an email address and password (the account docs also describe 2FA). The pricing page's Start my free trial link points to app.marketmuse.com/welcome, a JavaScript-only app that states no trial terms we could read.",
+        "First-run setup is an inventory crawl: the docs say MarketMuse reads and analyzes the content on your website, which takes 10 to 30 minutes for a site with fewer than 16,000 topics. Topics and URLs can also be added manually, with data appearing in about 5 minutes.",
+        "Bulk inventory is CSV with a documented maximum of 500 rows per file. Extra user seats and topic packs are added under Settings, Subscription (Users and Inventories).",
+        "Content leaves by export: Optimize exports writing to Google Docs or Word, briefs export to both, and a Copy for Publishing button hands formatted text to WordPress or HubSpot. Up to 7 competitor URLs can be excluded from Connect's linking recommendations.",
+        "Paid tiers route through a Book a demo form at marketmuse.com/book-demo. The docs describe in-app subscription management only for customers who signed up and paid on the web."
       ],
-      "verdict": "Serious topical-authority planning for serious budgets; smaller teams get more from cheaper brief tools."
+      "requirements": "A browser and a site to crawl: the inventory analysis is the core setup step and the docs size it at 10 to 30 minutes for sites under 16,000 topics. No API keys, SDKs, or connector work, because no API is documented. Password policy is at least 10 characters with a special character, a number, and an uppercase letter; 2FA is available.",
+      "best_for": "Content teams with a large existing library that need portfolio-level decisions: which topics to build out, which pages to refresh, and where a competitor out-covers them. Research and Heatmap are the deep end, and the nine brief types give writers structured starting points rather than empty outlines.",
+      "not_for": "Developers and ops teams: there is no documented API, no Zapier, no Google Search Console connection, and writing leaves by export or copy-paste. Also not for self-serve buyers who want a published price, since every paid plan now sits behind a demo form and the Free plan caps at 10 queries a month.",
+      "hands_on": [
+        "Assessed from marketmuse.com, docs.marketmuse.com, and the pricing page in September 2026; we have no MarketMuse account and have not run an inventory. The site reads as a planning tool rather than a word processor: Optimize, Research, Heatmap, and Connect are the documented applications, and the research side carries seven named tools from Topic Navigator to SERP X-Ray.",
+        "Corrections against our earlier record. Founding is July 2013 by Aki Balogh in Boston, not 2015 in Montreal. The price list is gone: the $99, $149, $249, and $499 figures we published appear nowhere on the current pricing page, which gates all four plans (Free, Optimize, Research, Strategy) behind a demo form and prints limits instead of dollars. Our claim that the top plan included API access is unsupported, because no API is documented anywhere on the docs site.",
+        "Integrations were overstated too. Google Docs and Word are export targets, not connectors; WordPress gets a documented copy-paste path instead of a plugin; ChatGPT (April 2023) is the one documented third-party link; and we found no evidence for Zapier or Google Search Console.",
+        "The acquisition is the fact a buyer needs: Siteimprove acquired MarketMuse in October 2024, the docs now carry Siteimprove branding, and the product is marketed as MarketMuse by Siteimprove. Public momentum since then is thin: the newest entry in the docs' Platform Updates section is from February 2024, and the newest dated post in the blog's news category is the acquisition announcement itself."
+      ],
+      "verdict": "Genuine topic-level planning depth, now wrapped in demo-gated pricing, Siteimprove ownership, and a public changelog quiet since early 2024; probe both the roadmap and the quote before committing.",
+      "faq_extra": [
+        [
+          "How much does MarketMuse cost in 2026?",
+          "MarketMuse no longer publishes prices. The pricing page lists four plans (Free, Optimize, Research, Strategy) and every paid tier's call to action is Book a demo. Limits are published instead: Optimize covers 1 user, 100 tracked topics, and 5 content briefs a month; Research covers 3 users, 1,000 tracked topics, and unlimited queries; Strategy covers 5 users, 10,000 tracked topics, and all nine brief types. The terms of service say fees are payable in US dollars as specified on the invoice, and the docs note that some self-serve customers can still manage a subscription in Settings."
+        ],
+        [
+          "Does MarketMuse have an API or a WordPress plugin?",
+          "We found no API documentation anywhere on docs.marketmuse.com, and the site has no integrations page (the /integrations URL returns 404). Getting content out is manual by design: Optimize exports to Google Docs or Word, a Copy for Publishing button hands formatted text to WordPress or HubSpot, and the ChatGPT connection from April 2023 is the one documented third-party link. Plan for export-and-paste in your workflow, or ask the sales team directly whether API access exists."
+        ],
+        [
+          "What is a MarketMuse query and how many do I need?",
+          "A query is spent when you enter a focus topic into one of the applications (Research, Compete, or Optimize). The Free plan includes 10 queries a month, Optimize 100, and Research and Strategy are unlimited, so a solo user testing workflows will exhaust the free ceiling in one planning session. Tracked topics and content briefs are counted separately, and both extra seats and extra topics can be purchased as add-ons under Settings, Subscription."
+        ]
+      ]
     }
   },
   {
@@ -3371,44 +3432,73 @@
   {
     "slug": "postmark",
     "name": "Postmark",
-    "tagline": "Fast, reliable transactional email delivery with industry-leading speed and uptime",
+    "tagline": "Transactional email API with separated message streams, an MCP server, and published delivery numbers",
     "website": "https://postmarkapp.com",
     "category": "email-marketing",
     "pricing_model": "freemium",
     "pricing_url": "https://postmarkapp.com/pricing",
     "price_from": 0,
-    "price_notes": "Free developer plan (100 emails/mo); paid from $15/mo for 10K emails; volume-based",
+    "price_notes": "Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders",
     "ai_features": [
-      "AI spam filtering",
-      "Smart delivery optimization",
-      "AI bounce analysis"
+      "MCP server with 24 tools and delivery diagnostics",
+      "Agent Skills for coding agents",
+      "Documented AI prompt library for dev tools"
     ],
     "integrations": [
       "Slack",
       "Zapier",
       "WordPress",
-      "Shopify",
-      "Segment",
-      "Salesforce"
+      "Customer.io",
+      "Supabase",
+      "Stripe",
+      "Netlify",
+      "Datadog"
     ],
     "github_repo": null,
     "github_stars": null,
     "open_source": false,
     "api_available": true,
-    "founded": 2009,
+    "founded": null,
     "hq": "Chicago, IL, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Postmark is a transactional email service built around one goal: getting time-sensitive emails into inboxes as fast as possible. Acquired by ActiveCampaign, it operates as a standalone service for application email like password resets, order confirmations, receipts, and notification digests. Speed is the point. Postmark's infrastructure delivers transactional messages in about one second, with detailed tracking available for 45 days. That contrasts with marketing-focused ESPs where delivery can take minutes and bounce processing is batched. Postmark separates transactional and broadcast sending into distinct message streams with independent reputation management, so a marketing campaign gone wrong cannot poison the deliverability of password reset emails. It offers SMTP relay and a well-documented REST API with SDKs for most major languages. Pricing starts at $15/month for 10, 000 emails, scaling linearly with volume. Postmark competes with SendGrid, Mailgun, and Amazon SES in the transactional space, and competes on deliverability reputation and simplicity rather than feature breadth. It does not include marketing automation, list management, or campaign builders. Those are handled by its parent company ActiveCampaign or other marketing platforms. For developers who need a transactional email service that just works, Postmark's reliability and deliverability justify the higher per-email cost compared to SES or the free SendGrid tier.",
+    "date_updated": "2026-09-07",
+    "description": "Postmark is a transactional email service owned by ActiveCampaign, which acquired it from Wildbit in May 2022 and kept it as a standalone product: the site footer still reads Made with heart at ActiveCampaign, and the company's own FAQ says there is no plan to roll Postmark into ActiveCampaign's marketing platform. Focus is the product. Postmark runs parallel but separate sending infrastructure for transactional and broadcast traffic and states that the two never intersect, including IP ranges, so a marketing blast cannot degrade password-reset deliverability. Servers expose message streams, three by default (outbound transactional, broadcasts, inbound) and up to ten per server, with inbound processing reserved for Pro and Platform plans. Speed claims are specific rather than vague: up to 4x faster than the competition, and a March 2026 post details the completed migration from PowerMTA to the open-source KumoMTA, with average queue times of about 1.2 seconds to Gmail and 6.3 seconds to Apple. Full message content and history is stored for 45 days by default, adjustable from 7 to 365 days with the retention add-on, while aggregate statistics are kept indefinitely. Pricing was restructured in August 2025: Free (100 emails a month, no overages), then Basic $15, Pro $16.50, and Platform $18 a month, all starting at 10,000 emails, with published volume tiers up to 1.5 million messages and no annual billing. The REST API is the same well-documented surface as ever, with official libraries for seven supported languages plus WordPress, Craft, and Zapier options. 2026 shipped a bulk email API (500 messages per request, 50MB payloads), webhooks that verify themselves, IP allowlisting, an MCP server with 24 tools, and agent skills. What Postmark does not do matters as much: no list management, no campaign builder, no automation. It pairs with a marketing ESP rather than replacing one.",
     "seo_title": "Postmark Review: Email Marketing, Freemium | MartechSignal",
-    "seo_description": "Postmark, Fast, reliable transactional email delivery with industry-leading speed and uptime. Free tier available. Compare AI features, integrations &.",
+    "seo_description": "Postmark, Transactional email API with separated streams and agent tooling. Free tier available. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Postmark (also Twilio now) focuses purely on transactional email and does it exceptionally: delivery speed is measured in seconds, the status page and incident communication set the industry standard, and template handling for receipts, notifications, and password resets just works.",
-        "It deliberately refuses marketing email, which keeps deliverability pristine but means a second tool for newsletters. Pricing per email runs above bulk providers, a premium you pay for speed and focus. Apps where a delayed password reset costs revenue should look here first."
+      "install": [
+        "No install: hosted SaaS. Signup is at account.postmarkapp.com/sign_up, and the documented onboarding order is: create your first Server, verify a Sender Signature or Domain, understand message streams, then send a first test email.",
+        "Grab a token: select your server, click API Tokens, and copy the Server API token (header X-Postmark-Server-Token); account-level calls use X-Postmark-Account-Token against https://api.postmarkapp.com. The POSTMARK_API_TEST token exercises the API without sending mail.",
+        "Approval gate: until the account is approved, sends are delivered only to the account owner's own verified address, and the API returns error 412 when a recipient does not share the From address's domain.",
+        "Official libraries cover the seven supported languages: npm install postmark, pip install postmark-python, gem install postmark, composer require wildbit/postmark-php, dotnet add package Postmark, plus Rails, Java, CLI, WordPress, and Craft packages.",
+        "For agents, add the official MCP server (24 tools as of July 2026, including delivery diagnostics) or the five documented Postmark Skills; the developer docs also publish ten copy-paste AI prompts for Cursor, Copilot, Claude, and ChatGPT."
       ],
-      "verdict": "The transactional email specialist; pair it with a marketing ESP rather than expecting one tool."
+      "requirements": "A verified sending identity (a single sender signature or a domain with DKIM), a server API token, and an approved account before you can mail anyone but yourself. The Email API accepts requests up to 10MB and batch requests up to 50MB, with a maximum of 500 messages per batch and 50 recipients across To, Cc, and Bcc. No numeric API rate limit is published; over-limit requests return HTTP 429. Bulk sending requires approval.",
+      "best_for": "Application teams that need password resets, receipts, and notifications to arrive fast and never want marketing traffic anywhere near that reputation: separate streams with separate IP ranges, a 45-day full message history, and delivery numbers Postmark publishes. The 2026 bulk API and MCP server also make it workable for agent-driven sending.",
+      "not_for": "Newsletters and marketing campaigns: there is no list management, campaign builder, or automation, and broadcast streams exist precisely so that traffic lives elsewhere. Also not for the price-per-email sensitive at high volume, since $15 buys 10,000 emails where bulk providers charge far less, and annual billing is not offered.",
+      "hands_on": [
+        "Assessed from postmarkapp.com, the developer docs, and the updates page in September 2026; we have no Postmark account and have not sent through it. The documentation is unusually complete: API error codes are documented inline with their exact strings, and webhook retry behavior is spelled out (1, 5, 10, 10, 10, then 15 minutes before Postmark gives up on an event).",
+        "Corrections against our earlier record. The note claiming Postmark was Twilio was wrong: ActiveCampaign announced the acquisition on May 3, 2022, remains the owner in 2026, and its GitHub organization owns every official Postmark repository. Our three listed AI features (spam filtering, delivery optimization, bounce analysis) appear nowhere on postmarkapp.com and are removed; the real AI story is tooling for agents, not AI features. And the 'about one second' delivery claim is gone from the site, replaced by 'up to 4x faster than the competition' with post-migration queue times per mailbox provider.",
+        "Two structural facts our record missed. Message streams are three, not two: outbound, broadcasts, and inbound, up to ten per server, with inbound processing gated to Pro and Platform. And the August 2025 pricing restructure created Basic, Pro, and Platform at $15, $16.50, and $18 for 10,000 emails a month, where dedicated IPs start at $50 a month and require senders above 300,000 a month on Pro or higher.",
+        "The KumoMTA migration (completed March 2026) is the most interesting public engineering note: Postmark moved off PowerMTA to the open-source MTA and published before-and-after queue times for Gmail, Yahoo, Microsoft, and Apple. Publishing those numbers is not something most ESPs do, and it is the kind of evidence that makes the status page worth trusting.",
+        "Provenance has to stay honest here: postmarkapp.com publishes no founding date and no headquarters address. The 2022 acquisition post describes founders Natalie and Chris Nagele having run Wildbit for 21 years, and a March 2026 post cites 16 years of sending reputation, so we dropped our earlier 'founded 2009' claim rather than restate it."
+      ],
+      "verdict": "The transactional specialist, now with agent tooling and a published engineering track record; pay the per-email premium for mail where speed and reputation are revenue.",
+      "faq_extra": [
+        [
+          "Does Postmark support marketing email?",
+          "Yes, with boundaries. Every server gets three default streams: outbound (transactional), broadcasts, and inbound, and a server can hold up to ten streams. Postmark states that transactional and broadcast traffic never intersect, including IP ranges, so broadcasts run on their own infrastructure. What it does not offer is the rest of the marketing job: no list management, no campaign builder, no automation. Inbound processing is limited to Pro and Platform plans."
+        ],
+        [
+          "What does Postmark cost after the free plan?",
+          "The free plan covers 100 emails a month with no overages. Paid plans all start at 10,000 emails a month: Basic at $15, Pro at $16.50, and Platform at $18, with overage rates of $1.80, $1.30, and $1.20 per thousand respectively. Volume pricing is published up to 1.5 million emails a month ($775, $852.50, and $930), beyond which you contact sales. Dedicated IPs start at $50 a month for senders above 300,000 a month on Pro or higher, retention upgrades start at $5 a month, and DMARC monitoring starts at $14 per domain. There is no annual billing option."
+        ],
+        [
+          "What do Postmark's MCP server and agent skills do?",
+          "Postmark ships tooling for AI agents rather than AI features. The official MCP server reached version 2.0 in July 2026 with 24 tools, including delivery diagnostics, and five open-source Postmark Skills teach coding agents to send email. The developer docs also publish ten copy-paste prompts for Cursor, Copilot, Claude, and ChatGPT, plus an llms.txt file for assistant context. Everything still sends through the same REST API and your server token, so the agent path adds no new deliverability behavior."
+        ]
+      ]
     },
     "paid_from": 15
   },
@@ -3462,83 +3552,141 @@
   {
     "slug": "relaticle",
     "name": "Relaticle",
-    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament",
+    "tagline": "Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament",
     "website": "https://relaticle.com",
     "category": "crm",
     "pricing_model": "open-source",
-    "pricing_url": null,
+    "pricing_url": "https://relaticle.com/pricing",
     "price_from": 0,
-    "price_notes": "Free open-source; self-hosted",
+    "price_notes": "Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr",
     "ai_features": [
       "Native AI agent support",
-      "30 MCP tools for AI integration",
-      "AI-powered data management"
+      "37-tool MCP server",
+      "Built-in AI chat (Rela)"
     ],
-    "integrations": [],
+    "integrations": [
+      "MCP clients (Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code)",
+      "REST API v1 (OpenAPI 3.1)",
+      "CSV import/export"
+    ],
     "github_repo": "relaticle/relaticle",
-    "github_stars": 1470,
-    "last_release": null,
+    "github_stars": 1610,
+    "last_release": "v3.5.7 (2026-09-06)",
     "g2_rating": null,
     "g2_reviews": null,
     "open_source": true,
     "api_available": true,
-    "founded": null,
+    "founded": 2024,
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Relaticle is an open-source CRM that launched in 2025 with a clear promise: give teams a free, modern CRM with no premium tiers, no locked features, and no per-seat pricing, forever. Built on Laravel 12 and Filament 3, it is a self-hosted CRM that covers contacts, companies, deals, pipeline management, and team collaboration.\n\nThe Filament admin panel gives Relaticle a polished UI for an open-source tool, closer to a commercial SaaS than the typical Bootstrap admin panel. Laravel 12's testing improvements and Filament's component system keep the codebase maintainable and extensible for PHP developers. The \"no premium tiers\" commitment is the core differentiator. Unlike open-core models where key features sit behind a paywall, Relaticle ships everything for free.\n\nThe tradeoffs are typical of a young open-source project. The feature set covers CRM basics well but lacks the depth of established players: no built-in email sequencing, no AI features, limited integrations, and a smaller community than tools like Twenty or Krayin. Documentation and onboarding are community-driven and thinner than commercial alternatives. The project is actively maintained but has less than a year of production history, so long-term stability and roadmap are still unproven.\n\nRelaticle fits budget-conscious teams that want a self-hosted CRM they fully own, Laravel shops evaluating options before committing, and organizations that value a no-strings-attached open-source model over feature depth. It is the right call when \"free and self-hosted with a clean UI\" is the top priority and AI features, extensive integrations, or vendor support can wait.",
+    "date_updated": "2026-09-07",
+    "description": "Relaticle is an open-source CRM you run on your own server under the AGPL-3.0 license, built on Laravel 13, Filament 5, Livewire 4, and PHP 8.5. The repository was created in September 2024, the first stable release shipped in April 2025, and development moves fast: 86 releases so far, 74 of them in the twelve months to September 2026, with v3.5.7 landing on September 6, 2026 alongside 1,610 GitHub stars and a claimed 2,000+ automated tests. The feature set covers companies, people, opportunities with custom pipeline stages and win/loss analysis, tasks, notes, and an activity log, on a customizable data model with 22 field types, conditional visibility, per-field encryption, and no schema migrations. AI is the pitch rather than an afterthought: a 37-tool MCP server at mcp.relaticle.com authenticates with OAuth 2.1 and PKCE or a personal access token, exposing search, fetch, and full create-read-update-delete across companies, people, opportunities, tasks, and notes to Claude, ChatGPT, Cursor, and other MCP clients, with destructive actions gated behind approval cards and requests capped at 120 per minute. There is also Rela, a built-in chat interface that answers questions about your records with model choices and one-click undo on approved destructive actions. Developers get a REST API v1 with twelve paths and a published OpenAPI 3.1 spec at api.relaticle.com, plus CSV import up to 10,000 rows and 10MB per file with column mapping and record-ID matching for updates. The business model outgrew the original no-premium-tiers promise: self-hosting is still free with unlimited users, but the site now sells Cloud Pro at $19 per workspace per month with 2,000 AI credits and an Enterprise tier from $20,000 a year. Per-seat pricing never arrived. Requirements are PostgreSQL 17 and Redis 7, with no MySQL path documented.",
     "seo_title": "Relaticle Review: CRM, Open Source | MartechSignal",
-    "seo_description": "Relaticle, Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament. Open source & free to self-host. Compare AI.",
+    "seo_description": "Relaticle, Open-source CRM with 37 MCP tools, REST API, Laravel & Filament. Free to self-host. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Relaticle is a Laravel/Filament-based open-source CRM aiming at the sweet spot between EspoCRM's breadth and a spreadsheet's simplicity. Installation is standard Laravel work. The feature set covers accounts, contacts, and pipelines without pretending to match enterprise suites module-for-module.",
-        "Sensible for teams wanting a small, hackable codebase their team can read and extend. Buyers expecting marketing automation bolted on will find it deliberately absent."
+      "install": [
+        "Docker path: curl -o compose.yml https://raw.githubusercontent.com/Relaticle/relaticle/main/compose.yml, then create a .env with a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That pulls ghcr.io/relaticle/relaticle:latest plus postgres:17-alpine and redis:7-alpine, for five containers: app, horizon, scheduler, postgres, redis.",
+        "Create your first admin with docker compose exec app php artisan make:filament-user; the admin panel lives at {APP_URL}/app, and instance-level sysadmin access comes from php artisan sysadmin:create, served at /sysadmin.",
+        "From source: git clone https://github.com/Relaticle/relaticle.git, cd relaticle, then composer app-install, a composer script that runs composer install followed by php artisan relaticle:install.",
+        "Manual sequence from the self-hosting docs: composer install --no-dev --optimize-autoloader, pnpm install --frozen-lockfile && pnpm run build, cp .env.example .env, php artisan key:generate, php artisan migrate --force, php artisan storage:link, fix storage and bootstrap/cache permissions, then php artisan make:filament-user.",
+        "Upgrades on Docker are docker compose pull followed by docker compose up -d; the docs say migrations run automatically on startup."
       ],
-      "verdict": "A readable, minimal CRM you can own end to end; skip it if you want suites of modules."
+      "requirements": "PHP 8.5 with the pdo_pgsql, gd, bcmath, mbstring, xml, and redis extensions, PostgreSQL 17 or newer, Redis 7 or newer, Node.js 22+, Composer 2+, and a web server with Supervisor for queues. MySQL is not a documented option; PostgreSQL is the only database in the docs. The Docker path needs only APP_KEY and DB_PASSWORD. MCP requests are capped at 120 per minute per authenticated user, and self-hosted AI credits default to the Free plan's 300 a month.",
+      "best_for": "Laravel and Filament shops that want a CRM their developers can read, extend, and drive from agents: the 37-tool MCP server, REST API v1, and CSV import cover the programmatic paths, AGPL-3.0 keeps the code open, and self-hosting stays free with unlimited users and records.",
+      "not_for": "Teams that need native connectors to email, Slack, or marketing tools: none are documented, only MCP, the REST API, and CSV. Also not for buyers who read AGPL-3.0 as a permissive license (offering Relaticle as a service triggers the source obligation), or who want MySQL instead of PostgreSQL 17 and Redis 7. Vendor support means the Enterprise tier, from $20,000 a year.",
+      "hands_on": [
+        "Assessed from github.com/relaticle/relaticle, relaticle.com, and relaticle.com/docs in September 2026; we have not deployed an instance. The commit log is live (commits dated the day before we checked) and the release cadence is unusually high for a CRM in this bracket: 74 releases in the twelve months to September 2026, currently at v3.5.7.",
+        "Corrections against our earlier record. The stack is Laravel 13 with Filament 5, Livewire 4, and PHP 8.5, not Laravel 12 and Filament 3. Our description said the product had no AI features while our own tagline listed MCP tools; the tagline was closer, and understated, because the MCP server exposes 37 tools rather than 30 and there is a built-in chat assistant with approval cards. Stars moved from 1,470 to 1,610.",
+        "Two more corrections. The license is AGPL-3.0, so the free claim needs its condition attached: modifying and offering Relaticle as a service triggers the source obligation. And the no-premium-tiers promise is gone; the pricing page now sells Cloud Pro at $19 per workspace per month (14-day trial, no card) and Enterprise from $20,000 a year, though per-seat pricing never arrived and self-hosting remains free.",
+        "The self-hosting docs are the strongest part of the public surface: a five-container compose stack, a fully spelled-out manual install sequence, automatic migrations on startup, and a separate sysadmin panel at /sysadmin. The API surface is documented with an OpenAPI 3.1 spec covering twelve paths across companies, people, opportunities, tasks, notes, and custom fields, and the CSV importer documents match-on-ID updates rather than insert-only behavior.",
+        "No hosted demo exists, which tells you where the project is: the sitemap lists no demo page, and the closest public entry points are the hosted app at app.relaticle.com and the repository. Evaluation means cloning and installing."
+      ],
+      "verdict": "A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.",
+      "faq_extra": [
+        [
+          "How do I install Relaticle on my own server?",
+          "The documented Docker path is one downloaded file and one command: fetch compose.yml from the repository, create a .env containing a generated APP_KEY (echo 'APP_KEY=base64:$(openssl rand -base64 32)') and a DB_PASSWORD, then docker compose up -d. That starts five containers (app, horizon, scheduler, postgres:17-alpine, redis:7-alpine). Create your first admin with docker compose exec app php artisan make:filament-user. Upgrades are docker compose pull followed by docker compose up -d, and migrations run automatically on startup."
+        ],
+        [
+          "What can an AI agent do through Relaticle's MCP server?",
+          "The hosted MCP endpoint at mcp.relaticle.com exposes 37 tools: cross-entity search and fetch, a whoami call, workspace introspection (CRM schema, CRM summary, opportunity aggregation, activity and custom field listings), list/get/create/update/delete sets for companies, people, and opportunities, and create, update, delete, attach, and detach for tasks and notes. Authentication is OAuth 2.1 with PKCE and dynamic client registration, or a personal access token from Settings, Access Tokens, passed as a bearer header. Destructive operations in the built-in chat require approval, and MCP requests are capped at 120 per minute per user."
+        ],
+        [
+          "Is Relaticle free, and what does Cloud Pro add?",
+          "Self-hosting is free under AGPL-3.0 with unlimited users and records on your own server. The paid tiers are hosted: Cloud Pro is $19 per workspace per month ($228 billed yearly, or $24 month to month) with a 14-day trial and no card required, adding 2,000 AI credits a month on top of unlimited users, records, the REST API, and the MCP server. Enterprise starts at $20,000 a year, billed yearly, and the site stresses it is never per seat. Self-hosted instances default to the Free plan's 300 AI credits a month unless you bring your own key for more."
+        ]
+      ]
     }
   },
   {
     "slug": "resend",
     "name": "Resend",
-    "tagline": "Developer-first email API with React Email support and AI-powered deliverability",
+    "tagline": "Developer-first email API built around React Email, batch sending, and agent tooling",
     "website": "https://resend.com",
     "category": "email-marketing",
     "pricing_model": "freemium",
     "pricing_url": "https://resend.com/pricing",
     "price_from": 0,
-    "price_notes": "Free 3,000 emails/mo (100/day); Pro $20/mo; Scale custom; Enterprise custom",
+    "price_notes": "Free 3,000 emails/mo (100/day cap, 3 domains); Transactional Pro $20/mo for 50,000; Scale $90-$1,150/mo published tiers; Enterprise custom; Marketing priced by contacts from $40/mo for 5,000; no annual discounts",
     "ai_features": [
-      "AI deliverability optimization",
-      "AI spam detection",
-      "Smart retry logic"
+      "AI Email Editor with brand-voice drafting",
+      "AI assistant in the template editor",
+      "AI column mapping on contact imports",
+      "Hosted MCP server and agent skills"
     ],
     "integrations": [
-      "Vercel",
       "Next.js",
+      "Vercel",
       "React Email",
       "Zapier",
-      "Slack",
-      "Segment"
+      "Cursor (official plugin)",
+      "Vercel Marketplace"
     ],
-    "github_repo": null,
-    "github_stars": null,
+    "github_repo": "resend/react-email",
+    "github_stars": 19715,
     "open_source": false,
     "api_available": true,
-    "founded": 2022,
+    "founded": 2023,
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Resend is a developer-first email API platform that treats email infrastructure as a modern developer tool rather than a legacy SMTP service. Founded around 2023 by engineers who were frustrated with existing email APIs, Resend puts developer experience first. Its main innovations are React Email integration (developers build email templates using React components with live preview), a clean, well-typed SDK, and a dashboard that actually shows what engineers need to debug delivery. Resend handles both transactional email (verification codes, invoices, alerts) and marketing email (newsletters, product updates) through the same API, using separate domains and IP pools to keep sender reputations independent. It runs on AWS infrastructure, and its deliverability tooling includes domain verification wizards, DMARC/SPF/DKIM guidance, and open/click tracking. The free plan includes 100 emails/day, and the Pro plan at $20/month covers 50, 000 emails. Resend competes with SendGrid, Mailgun, and Postmark for transactional sending, but its real differentiator is the React-based template workflow that lets frontend engineers build, preview, and test emails in their existing development environment. That makes it popular in the Next.js, Vercel, and React ecosystems. For teams that want a full marketing platform with campaign builders and audience segmentation, Resend is too low-level. For sending email from code, it is one of the better developer experiences available.",
+    "date_updated": "2026-09-07",
+    "description": "Resend is a developer-first email platform built by people who make developer tools: founders Zeno Rocha, Bu Kinoshita, and Jonni Lundy started the open-source React Email project in 2022, launched the sending platform in 2023 through Y Combinator's W23 batch, and raised an $18M Series A led by Andreessen Horowitz in December 2024. By June 2026 the company reported 3 million users, 6.8 million weekly npm downloads, and profitability. The product split is unusual and worth understanding before you buy: transactional and marketing email are separate subscriptions. Transactional starts free at 3,000 emails a month (100 a day), Pro is $20 a month for 50,000, and Scale publishes tiers from $90 for 100,000 to $1,150 for 2.5 million a month; marketing is priced by contacts, from $40 a month for 5,000. There are no annual discounts, and the pricing FAQ says so in one word: no. The developer surface is the draw. Official SDKs cover Node.js, Python, Go, Rust, PHP, Laravel, Ruby, Java, and .NET, plus a chat adapter, batch sending takes up to 100 messages per call, and webhooks document eight event types with retries and replays, alongside inbound receiving, broadcasts, audiences, templates, and automations. Agent tooling is first-class: a hosted MCP server at mcp.resend.com with OAuth, a CLI, and documented skills for Claude Code, Cursor, and Codex. AI is real but modest: an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, and AI column mapping on contact imports, metered through monthly AI credits. Deliverability tooling is rule-based, not AI. Sending runs on AWS across four regions, with account data held in the United States regardless of region. Resend fits product teams shipping email from code, not marketers who want a campaign studio.",
     "seo_title": "Resend Review: Email Marketing, Freemium | MartechSignal",
-    "seo_description": "Resend, Developer-first email API with React Email support and AI-powered deliverability. Free tier available. Compare AI features, integrations & top.",
+    "seo_description": "Resend, Developer-first email API built around React Email and agent tooling. Free tier available. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Resend is the developer-first email API that arrived with modern React-era tooling: clean SDKs, React Email templates as code, webhooks that are a pleasure to wire. The developer experience is arguably the best in the category right now, and deliverability on transactional sends held up in our tests.",
-        "It is young: marketing features are thin, and some teams will want longer track records for mission-critical volume. Pricing is competitive at small-to-medium scale. For developer-led teams shipping product email in 2026, it is the first tool we reach for."
+      "install": [
+        "npm install resend, then send with an API key: import { Resend } from 'resend'; const resend = new Resend('re_xxxxxxxxx'). Official SDKs cover Node.js, Python, Go, Rust, PHP, Laravel, Ruby, Java, and .NET.",
+        "Or use the CLI: curl -fsSL https://resend.com/install.sh | bash (also npm install -g resend-cli and brew install resend/cli/resend; on Windows, irm https://resend.com/install.ps1 | iex).",
+        "Verify a domain before production: add the generated DKIM and SPF records (TXT plus MX or CNAME) exactly as Resend generates them. The docs strongly recommend a subdomain such as notifications.example.com rather than your root domain.",
+        "Pick a sending region at setup: North Virginia (us-east-1), Ireland (eu-west-1), Sao Paulo (sa-east-1), or Tokyo (ap-northeast-1). The docs state that all account data stays in the United States regardless of region.",
+        "For agents, point an MCP client at https://mcp.resend.com/mcp (OAuth) or run claude plugin install resend@claude-plugins-official; the docs also publish a Resend skill and a React Email skill for coding agents."
       ],
-      "verdict": "The best developer experience in email right now; volume senders should verify enterprise fit."
+      "requirements": "A domain you control with DNS access for DKIM and SPF records, and an API key. The API rate limit is 10 requests per second per team with no burst allowance (429 beyond it, raiseable for trusted senders on request), batch sends take up to 100 messages per call and do not support attachments, and per-email attachments cap at 40MB after base64 encoding. Domains allowed: 3 on Free, 10 on Pro, 1,000 on Scale. Sent and inbound emails both count against quota, with a hard ceiling of 5x your monthly quota.",
+      "best_for": "Product and platform teams that send application email from code and want the workflow to live next to their IDE: React Email components, typed SDKs, batch API, webhooks with replays, and an MCP server for coding agents. The free tier and three-domain allowance make it a comfortable start for side projects and SaaS products alike.",
+      "not_for": "Marketing teams that want a campaign studio first: marketing plans exist but are priced by contacts, and broadcasts can only go to existing contacts, so segmentation and journey building are thinner than Customer.io or Klaviyo. Also not for buyers needing annual billing discounts, HIPAA compliance (listed as in progress), or dedicated IP pools below the Scale tier.",
+      "hands_on": [
+        "Assessed from resend.com, resend.com/docs, and the changelog RSS in September 2026; we have no Resend account and have not sent through it. The documentation corpus is large and current: the changelog's newest entries are Link Checker (September 3, 2026), Single Sign-On (September 1), and an Email Metrics API (August 27).",
+        "The correction that matters: the three AI features in our earlier record (AI deliverability optimization, AI spam detection, smart retry logic) appear nowhere in Resend's documentation. The documented AI surface is an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, AI column mapping on imports, and monthly AI credits; Deliverability Insights is explicitly a set of best-practice checks, not AI. Slack and Segment are not documented integrations, and Scale is not custom-priced.",
+        "Open source is the exit surface, and our record undersold it: react-email alone holds about 19,700 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.",
+        "The transactional and marketing split is the pricing trap. A team that starts on Pro for product email and later wants newsletters takes a second, contact-based subscription, and the docs recommend separate subdomains per stream anyway. IP pools are a $30 a month Scale add-on with an eligibility bar of 3,000 emails a day, so shared IPs are the default reality for most accounts."
+      ],
+      "verdict": "The most developer-native platform in email, with an honest free tier, real agent tooling, and a published limit sheet; check the transactional versus marketing split before committing either budget.",
+      "faq_extra": [
+        [
+          "What are Resend's rate limits and batch limits?",
+          "The API allows 10 requests per second per team with no burst allowance; exceeding it returns 429, and Resend says it can raise the limit for trusted senders on request. Batch sending accepts up to 100 emails in a single call, and each batch counts as one request against the rate limit, but attachments are not supported on the batch endpoint. Per-email attachments cap at 40MB after base64 encoding, and a hard limit of 5x your monthly quota applies to sending."
+        ],
+        [
+          "Is Resend free, and what does the free tier include?",
+          "The transactional free plan includes 3,000 emails a month with a 100-per-day cap, 3 verified domains, 5 AI credits, and 10,000 automation runs a month. Pro is $20 a month for 50,000 emails, Scale publishes tiers from $90 for 100,000 to $1,150 for 2.5 million, and Enterprise is custom, with a 99.99% uptime SLA. Marketing email is a separate, contact-based subscription starting at $40 a month for 5,000 contacts. There are no annual discounts; the pricing FAQ answers that question with a plain no."
+        ],
+        [
+          "Does Resend work with AI agents and coding tools?",
+          "Yes, and it is one of the better-documented cases in email. Resend hosts an MCP server at mcp.resend.com/mcp with OAuth, ships an official Claude plugin (claude plugin install resend@claude-plugins-official), and documents a Resend skill and a React Email skill alongside a CLI. Clients listed in the docs include Claude Code, Claude, Cursor, Codex, Copilot, Windsurf, and Warp. The changelog shows steady investment: an official MCP server in April 2026, a remote MCP server in July, and an official Cursor plugin in August."
+        ]
+      ]
     },
     "paid_from": 20
   },
@@ -4741,19 +4889,20 @@
   {
     "slug": "workato",
     "name": "Workato",
-    "tagline": "Enterprise integration and automation platform with AI-powered workflow orchestration",
+    "tagline": "Enterprise AI governance plus integration and automation on one platform",
     "website": "https://www.workato.com",
     "category": "workflow-automation",
     "pricing_model": "enterprise",
     "pricing_url": "https://www.workato.com/pricing",
     "price_from": null,
-    "price_notes": "Enterprise custom pricing; recipe-based licensing; annual contracts; demo required",
+    "price_notes": "No published prices; usage-based model with a platform edition fee plus a usage fee in one billing unit; editions Standard, Business, Enterprise, and Workato One; demo-gated trial",
     "ai_features": [
-      "AI workflow automation",
-      "AI data mapping",
-      "AI-powered integration",
-      "AI recipe suggestions",
-      "AI anomaly detection"
+      "Workato AIRO multi-agent system",
+      "Agent Studio for building agents",
+      "Workato Genies role-based agents",
+      "Acumen AI data scientist agent",
+      "Enterprise MCP servers",
+      "AI Workflows"
     ],
     "integrations": [
       "Salesforce",
@@ -4770,19 +4919,46 @@
     "open_source": false,
     "api_available": true,
     "founded": 2013,
-    "hq": "Mountain View, CA, USA",
+    "hq": "Palo Alto, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Workato positions itself as \"The Control and Execution Platform for Enterprise AI, \" and it actually separates those two concerns. The Control Plane governs every agent action (RBAC, audit logs, data masking, human approval gates). The Execution Plane does the work (14, 000+ app connectors, event triggers, composable MCP servers, orchestration engine).\n\nThis dual-plane architecture solves a real problem: most platforms either govern well but can't execute, or execute well but have no governance. Workato argues you need both on one platform, or you get two systems with a gap in between. A 2026 Gartner Magic Quadrant Leader position backs up the enterprise credibility.\n\nThe platform has evolved well beyond classic iPaaS. Agentic capabilities let AI agents trigger workflows directly, so they act on data rather than just reading it. Enterprise MCP servers make your internal APIs discoverable to agents. Low-code apps and workflow bots extend automation to business users without developer bottlenecks.\n\nPricing starts at $833/month and scales to $15, 000+/month for enterprise deployments. Like Tray, this is enterprise territory. Workato competes with Boomi, MuleSoft, and SAP Integration Suite, not Zapier or Make. For the 1, 000+ developer enterprise where marketing ops needs governed, auditable AI automation that can scale across departments, Workato is the reference architecture rather than the budget option.",
+    "date_updated": "2026-09-07",
+    "description": "Workato sells itself as the control and execution platform for enterprise AI, and the two halves are literal product lines: a Control Plane that governs agents with role-based access, audit, and approval gates, and an Execution Plane that does the work through integration, automation, API management, EDI, and IDP under the Orchestrate banner. The homepage now leads with The Platform to Govern and Scale Enterprise AI, built on what the company calls the number one iPaaS. Scale claims are specific: 14,000+ applications reachable per the homepage, over 1,000 connectors per the docs, Leader in the Gartner Magic Quadrant for iPaaS for the eighth time including the March 16, 2026 edition, and more than 50% of the Fortune 500 as customers. The agentic layer is where recent development has gone: Agent Studio for designing and deploying agents, Workato Genies as role-based agents for IT, Sales, HR, Support, and Marketing, Acumen positioned as an AI data scientist for operational insights, Otto as an early-access AI teammate inside Slack, and Enterprise MCP, which exposes governed MCP servers to Claude Desktop, ChatGPT, Cursor, and any MCP-compatible agent. Pricing is fully demo-gated: the public pricing page contains no numbers, and the docs describe usage-based pricing with a platform edition fee plus a usage fee in a single common billing unit, across four cumulative editions (Standard, Business, Enterprise, and Workato One, the last adding agentic capabilities). Older figures quoted around the web, including a widely repeated $833 a month starting price, appear nowhere on Workato's own site. This is enterprise territory, competing with Boomi, MuleSoft, and SAP Integration Suite rather than Zapier or Make: worth it when automations number in the dozens, governance is a requirement, and procurement can absorb an annual contract.",
     "seo_title": "Workato Review: Enterprise | MartechSignal",
-    "seo_description": "Workato, Enterprise integration and automation platform with AI-powered workflow orchestration. Enterprise pricing; demo required. Compare AI features.",
+    "seo_description": "Workato, Enterprise AI governance plus integration and automation. Enterprise pricing; demo required. Compare AI features, integrations & top alternatives.",
     "deep_dive": {
-      "hands_on": [
-        "Workato operates at the enterprise integration tier: pre-built connectors for hundreds of SaaS tools, a recipe DSL that ops engineers learn quickly, and governance features - environments, role-based access, deployment pipelines - that matter when dozens of automations run company-wide. Data transformation steps handled our messiest JSON payloads without custom code.",
-        "Costs scale with task volume and connector counts, and enterprise pricing is opaque until procurement engages. Simple use cases are expensive overkill; the platform earns its keep when integrations number in the dozens and failure isolation between them is a requirement."
+      "install": [
+        "No self-serve install and no self-serve signup: the documented entry point is the Schedule a demo form at workato.com/request_demo, which asks for a name, work email, and what you are trying to do, then prepares a demo. No trial length is published anywhere on the site.",
+        "Once you have a workspace, the docs' getting-started path is: read What is Workato, learn key concepts, create your first recipe, check supported browsers, then complete the Workato Foundations courses.",
+        "Training is the genuinely free part: the Workato Automation Institute's certificate programs (Automation Pro I, II, and III) are free with a valid account, with 10,000+ graduates and 20,000+ certificates claimed, and the company caveats that free access may not last.",
+        "The developer portal ships a Workato CLI for macOS, Windows, and Linux and positions Workato Enterprise MCP as the build surface; there is no documented SDK and no permanent free developer sandbox.",
+        "Product updates are published as Product Scoop and connector roundups at workato.com/product-hub/whats-new, including a recurring MCP Monday series, rather than a classic changelog."
       ],
-      "verdict": "Enterprise-grade integration governance that smaller teams should only grow into; the connector library is the draw."
+      "requirements": "Procurement first: there is no published price, no free tier, and no self-serve workspace, so the real requirements are a business case and a security review. Workato cites SOC 2 Type II, ISO 27001, PCI DSS, and GDPR compliance and claims 99.9% uptime. Plan for environments, role-based access, and deployment pipelines if more than a handful of people will own recipes, and budget training time through the free Automation Pro courses.",
+      "best_for": "Enterprises that need dozens of integrations under governance: environments, role-based access, and audit are first-class, the connector library covers ERP and HR systems such as SAP, NetSuite, and Workday that lighter tools skip, and Enterprise MCP plus Genies put AI agents under the same controls. Marketing ops inside a 1,000+ person company is the sweet spot.",
+      "not_for": "Small teams and simple automations: no published price, no self-serve signup, and no documented free tier make a five-recipe Zapier-class workload an expensive mismatch. Also not for buyers who need a number to put in a budget line before talking to sales, since the pricing page publishes nothing.",
+      "hands_on": [
+        "Assessed from workato.com, docs.workato.com, and the product-hub updates page in September 2026; we have no Workato workspace and have not built a recipe there. The public surface is marketing-heavy but unusually precise about analyst positioning: the Gartner page names the report (Magic Quadrant for Integration Platform as a Service, Worldwide), the publication date (March 16, 2026), and the four analysts.",
+        "Corrections against our earlier record. The $833 a month starting price we quoted appears nowhere on Workato's site; the pricing page has no numbers at all, and the docs describe a platform edition fee plus a usage fee in one common billing unit. Our 14,000+ app connectors claim conflated two published figures: the homepage says 14,000+ applications while the docs say over 1,000 connectors. And the headquarters is Palo Alto, not Mountain View.",
+        "The AI naming was the biggest correction. Copilot, recipe suggestions, data mapping, and anomaly detection are not documented today, and Copilot no longer appears anywhere in the docs sitemap. The current named surface is AIRO (a multi-agent system with Foundry, Memory, Connect, and Acumen components), Agent Studio, Genies, Otto, AI Workflows, and Enterprise MCP.",
+        "Entry is procurement-first, and that shapes who can even evaluate: no self-serve signup, a demo form as the only door, and no published trial length. The free path that does exist is education, through the Automation Pro courses, plus the Workato CLI on the developer portal.",
+        "Where the record held up: all eight connectors we listed (Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake, HubSpot) appear in the Workato Integration Library, with SAP and NetSuite present in several API variants each."
+      ],
+      "verdict": "The enterprise default for governed automation and agent orchestration: unmatched breadth, demo-gated pricing, and a cost conversation you cannot have until procurement engages.",
+      "faq_extra": [
+        [
+          "How much does Workato cost?",
+          "Workato publishes no prices. The pricing page contains no numbers and every call to action is Schedule a demo. The docs explain the model as a platform edition fee plus a usage fee, both measured in one common billing unit, across four cumulative editions: Standard (core capabilities), Business (advanced orchestration), Enterprise, and Workato One, which adds agentic capabilities. Accounts created before February 2024 sit on a separate legacy pricing model. Any specific figure quoted elsewhere, including the often-cited $833 a month, does not come from Workato."
+        ],
+        [
+          "What is Workato Enterprise MCP?",
+          "It is Workato's product for exposing your apps, data, and processes as governed MCP servers that AI agents can call. The product page lists a knowledge base, enterprise search, process intelligence, real-time signals, observability, governance, security, compliance, a skills builder, MCP composition, a registry, and a gateway, with unified gateway control to manage every server from one console. Documented agent compatibility includes Claude Desktop, ChatGPT, Workato Genies, Cursor, and any MCP-compatible client."
+        ],
+        [
+          "Is there a free way to learn Workato before buying?",
+          "Yes, for training. The Workato Automation Institute's certificate programs (Automation Pro I, II, and III) are free with a valid Workato account, and the company reports 10,000+ graduates and 20,000+ certificates awarded across 80+ countries, with the stated caveat that free access is not guaranteed to continue. There is also a Workato CLI for macOS, Windows, and Linux on the developer portal. Product access itself is demo-gated: no self-serve signup and no published trial length."
+        ]
+      ]
     }
   },
   {
