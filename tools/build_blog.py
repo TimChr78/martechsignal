@@ -367,7 +367,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="description" content="{html.escape(_clean_excerpt(excerpt))}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Martech Signal">
+<meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{html.escape(seo_title)}">
 <meta property="og:description" content="{html.escape(_clean_excerpt(excerpt))}">
 <meta property="og:url" content="https://martechsignal.com/blog/{slug}/">
@@ -464,6 +464,15 @@ def build_index(posts: list) -> str:
 
     blog_list = '\n'.join(entries)
 
+    # MUSE 5: the blog index was a link silo (0 links to /tools/* or /categories/*).
+    # Count active tools for the directory strip below.
+    try:
+        _tdata = json.loads((Path(__file__).resolve().parent.parent / "tools" / "tools.json").read_text())
+        _tlist = _tdata if isinstance(_tdata, list) else _tdata.get("tools", [])
+        all_tools = sum(1 for _t in _tlist if _t.get("status") == "active")
+    except Exception:
+        all_tools = 129
+
     # Blog + ItemList structured data (the only page that lacked ld+json)
     item_list = {
         "@context": "https://schema.org",
@@ -494,7 +503,7 @@ def build_index(posts: list) -> str:
 <meta name="description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Martech Signal">
+<meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Blog — Martech Signal">
 <meta property="og:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <meta property="og:url" content="https://martechsignal.com/blog/">
@@ -536,6 +545,27 @@ def build_index(posts: list) -> str:
     </div>
     <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe</a>
   </div>
+  <nav class="cat-strip reveal" aria-label="Browse the tool directory">
+    <h2>Related reading</h2>
+    <p>Browse the directory these teardowns draw from:</p>
+    <p class="integ-list">
+      <a href="/categories/marketing-automation/">Marketing automation</a>
+      <a href="/categories/workflow-automation/">Workflow automation</a>
+      <a href="/categories/crm/">CRM</a>
+      <a href="/categories/analytics/">Analytics</a>
+      <a href="/categories/seo/">SEO</a>
+      <a href="/categories/open-source/">Open source</a>
+    </p>
+    <p class="integ-list">
+      <a href="/tools/nocobase/">NocoBase</a>
+      <a href="/tools/amplitude/">Amplitude</a>
+      <a href="/tools/claude-seo/">Claude SEO</a>
+      <a href="/tools/segment/">Segment</a>
+      <a href="/tools/matomo/">Matomo</a>
+      <a href="/tools/alphone/">AlphOne</a>
+      <a href="/tools/">All {all_tools} tools &#8594;</a>
+    </p>
+  </nav>
   <ul class="post-list">
 {blog_list}
   </ul>

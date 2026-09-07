@@ -149,7 +149,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="description" content="{esc(description)}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Martech Signal">
+<meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:url" content="https://martechsignal.com{canonical}">
@@ -240,8 +240,10 @@ def build_hub(tools, cats):
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
+<h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
-<div class="sub-strip reveal"><div><h3>Evaluating tools for your stack?</h3><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
+<div class="sub-strip reveal"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
+<h2>All tools</h2>
 <div class="tool-grid">{cards}</div>"""
 
     schema = {
@@ -261,7 +263,7 @@ def build_hub(tools, cats):
     out = TOOLS_DIR / "index.html"
     out.write_text(page_shell(
         "AI Marketing Tool Directory — MartechSignal",
-        f"Browse {len(active)} curated AI marketing automation tools. Compare pricing, features, and integrations.",
+        f"Browse {len(active)} curated AI marketing automation tools across 13 categories - open-source and SaaS, with hands-on assessments, pricing notes, and integrations for each.",
         "/tools/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 
@@ -341,6 +343,37 @@ def build_tool_page(t, cats, all_tools):
         '<table><thead><tr><th>Pros</th><th>Cons</th></tr></thead>'
         f"<tbody>{_pc_rows}</tbody></table></section>"
     ) if _maxlen else ""
+
+    # M4 (model-comparison audit): glossary was disconnected from the tool directory.
+    # Category-level "Related concepts" strip: term links derive from the tool's category.
+    _CAT_TERMS = {
+        "marketing-automation": ["marketing-automation", "customer-journey", "lead-scoring", "mql-sql"],
+        "workflow-automation": ["workflow-automation", "agentic-marketing", "mcp", "ai-agent"],
+        "crm": ["crm", "lead-scoring", "mql-sql", "customer-journey", "first-party-data"],
+        "analytics": ["attribution", "marketing-attribution-models", "first-party-data"],
+        "email-marketing": ["email-sequence", "deliverability"],
+        "advertising": ["dsp", "dco", "programmatic-advertising", "cro"],
+        "personalization": ["personalization", "cro", "first-party-data"],
+        "seo": ["seo", "aeo", "ai-search-visibility", "utm-parameters"],
+        "chatbots": ["chatbot", "ai-agent"],
+        "content-ai": ["ai-content-generation", "agentic-marketing"],
+        "social-media": ["social-listening"],
+        "agent-skills": ["mcp", "agentic-marketing", "ai-agent"],
+        "open-source": ["marketing-ops", "workflow-automation"],
+    }
+    _terms = _CAT_TERMS.get(t["category"], [])
+    glossary_html = ""
+    if _terms:
+        _links = " ".join(
+            f'<a href="/glossary/{_term}/">{esc(_term.replace("-", " ").title())}</a>'
+            for _term in _terms
+        )
+        glossary_html = (
+            '<section class="related-concepts"><h2>Related concepts</h2>'
+            f'<p class="integ-list">{_links}</p>'
+            '<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
+            'Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>'
+        )
 
     # integrations
     integ_html = ""
@@ -544,7 +577,7 @@ def build_tool_page(t, cats, all_tools):
                                  + "".join(ext_lines) + note)
     else:
         external_ratings_html = ""
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a> / <span>{esc(t['name'])}</span></nav>
+    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{esc(t['name'])} Review</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
@@ -559,6 +592,7 @@ def build_tool_page(t, cats, all_tools):
     {integ_html}
     {deep_dive_html}
     {proscons_html}
+    {glossary_html}
     {SUB_STRIP}
     {faq_html}
     {related_html}
@@ -690,7 +724,7 @@ def build_category_page(cat, tools):
         intro_html = ""
         if cat.get("intro"):
             intro_html = f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(cat["intro"])}</p>'
-        body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
@@ -746,7 +780,7 @@ def build_category_page(cat, tools):
   <span class="read-arrow">→</span>
 </a>\n"""
 
-        body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>{esc(cat['name'])}</span></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
@@ -780,15 +814,30 @@ def build_category_page(cat, tools):
 }})();
 </script>"""
 
+    # M1/MUSE 12 (model-comparison audit): category pages lacked BreadcrumbList, and
+    # ItemList ListItems used name+url instead of the richer item->Thing pattern.
     schema = {
         "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": f"{cat['name']} Tools",
-        "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
-        "numberOfItems": len(cat_tools),
-        "itemListElement": [
-            {"@type": "ListItem", "position": i+1, "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}
-            for i, t in enumerate(cat_tools)
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"},
+                    {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://martechsignal.com/tools/"},
+                    {"@type": "ListItem", "position": 3, "name": cat["name"], "item": f"https://martechsignal.com/categories/{cat['slug']}/"}
+                ]
+            },
+            {
+                "@type": "ItemList",
+                "name": f"{cat['name']} Tools",
+                "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
+                "numberOfItems": len(cat_tools),
+                "itemListElement": [
+                    {"@type": "ListItem", "position": i+1,
+                     "item": {"@type": "Thing", "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
+                    for i, t in enumerate(cat_tools)
+                ]
+            }
         ]
     }
 
