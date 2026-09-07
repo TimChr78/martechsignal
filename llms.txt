@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured audits of
-> 100+ martech platforms — pricing, self-hosting, APIs, and which AI features
+> 100+ martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -49,7 +49,7 @@
 
 ### Chatbots & Conversational AI
 
-- [ChatbotX](https://martechsignal.com/tools/chatbotx/): Open-source ManyChat alternative built for AI — omnichannel chat marketing and automation (open source)
+- [ChatbotX](https://martechsignal.com/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (open source)
 - [Chatfuel](https://martechsignal.com/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
 - [Intercom](https://martechsignal.com/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [ManyChat](https://martechsignal.com/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
@@ -84,7 +84,7 @@
 - [Monica](https://martechsignal.com/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (open source)
 - [Pipedrive](https://martechsignal.com/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [ProspectOS](https://martechsignal.com/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (open source)
-- [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament (open source)
+- [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament (open source)
 - [Salesforce CRM](https://martechsignal.com/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [SuiteCRM](https://martechsignal.com/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (open source)
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
@@ -93,7 +93,7 @@
 
 ### Email Marketing
 
-- [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free (open source)
+- [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (open source)
 - [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
 - [Loops](https://martechsignal.com/tools/loops/): Modern email marketing platform for SaaS with AI-powered campaigns and automation
@@ -116,7 +116,7 @@
 - [Braze](https://martechsignal.com/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 - [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
-- [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform — alternative to Braze (open source)
+- [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (open source)
 - [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): AI-powered customer data and marketing automation platform with unified analytics
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -170,12 +170,12 @@
 - [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
 - [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
 - [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
-- [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit (open source)
+- [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (open source)
 - [Pipedream](https://martechsignal.com/tools/pipedream/): 
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Workato](https://martechsignal.com/tools/workato/): Enterprise integration and automation platform with AI-powered workflow orchestration
-- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9, 000+ apps with AI-powered workflows
 
 ## Analysis
 
@@ -190,7 +190,7 @@
 - [I Ran Claude SEO on My Own Site. It Found What](https://martechsignal.com/blog/claude-seo-teardown-martechsignal/) (2026-08-24)
 - [Your Dashboard Can't See AI Search: 5-Layer Fix](https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/) (2026-08-22)
 - [Deliverability in the AI-Spam Era Is a Content Problem](https://martechsignal.com/blog/deliverability-ai-spam-content-problem/) (2026-08-21)
-- [You Don't Need a New Data Stack for AI — Fivetran](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
+- [You Don't Need a New Data Stack for AI , Fivetran](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
 - [CI Tools: The First Category AI Killed](https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/) (2026-08-18)
 - [Google Handed Your Ad Budget to AI Agents](https://martechsignal.com/blog/google-ad-agents-control-gap/) (2026-08-17)
 - [Multi-Touch Attribution Was Always a Fiction](https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/) (2026-08-14)
