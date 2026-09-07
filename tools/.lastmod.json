@@ -1,6 +1,6 @@
 {
  "/mnt/user/dev/martechsignal/index.html": {
-  "fp": "4315887f3b6ffffe",
+  "fp": "3f1b163fda2895cd",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/checklist/index.html": {
@@ -84,7 +84,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "074930486b2916cf",
+  "fp": "dc8ba340c5b4d88e",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -556,7 +556,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/categories/advertising/index.html": {
-  "fp": "73ea828dd6f36614",
+  "fp": "f3066cda87f8849f",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/categories/personalization/index.html": {
@@ -829,6 +829,14 @@
  },
  "/mnt/user/dev/martechsignal/tools/superlines/index.html": {
   "fp": "feedb204dc3aa893",
+  "date": "2026-09-07"
+ },
+ "/mnt/user/dev/martechsignal/tools/opteo/index.html": {
+  "fp": "9a9053a7d60bc897",
+  "date": "2026-09-07"
+ },
+ "/mnt/user/dev/martechsignal/tools/madgicx/index.html": {
+  "fp": "e95aa646bc98b0d0",
   "date": "2026-09-07"
  }
 }

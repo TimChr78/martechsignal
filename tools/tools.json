@@ -6648,5 +6648,86 @@
       "not_for": "Teams wanting a free tier (entry is EUR79/mo after a 7-day trial) and content teams looking for an AI writing tool - Superlines measures visibility, it does not generate content.",
       "verdict": "A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from EUR79 per month."
     }
+  },
+  {
+    "slug": "opteo",
+    "name": "Opteo",
+    "tagline": "Continuous Google Ads monitoring with one-click improvements",
+    "category": "advertising",
+    "status": "active",
+    "date_added": "2026-09-07",
+    "date_updated": "2026-09-07",
+    "website": "https://opteo.com/",
+    "pricing_url": "https://opteo.com/pricing/",
+    "pricing_model": "paid",
+    "price_from": 129,
+    "price_notes": "Basic $129/mo (10 accounts, $25,000 spend/mo, live chat, 24hr refresh); Professional $249/mo (25 accounts, $100,000 spend/mo, priority support, 12hr refresh). Enterprise by quote. 14-day free trial.",
+    "open_source": false,
+    "api_available": false,
+    "ai_features": [
+      "Statistically significant pattern detection across Google Ads accounts",
+      "One-click improvement recommendations pushed live to campaigns",
+      "Automated error detection and bad-traffic exclusion"
+    ],
+    "integrations": [
+      "Google Ads",
+      "Slack"
+    ],
+    "hq": "Ireland",
+    "pricing_note_public": true,
+    "description": "Opteo is a Google Ads monitoring and improvement layer that sits on top of your existing account. It continuously scans for statistically significant patterns - wasted spend, broken landing pages, keyword conflicts, bid anomalies - and turns each finding into a one-click improvement you can push live or dismiss. The value proposition is time: instead of burying an account manager in performance data, Opteo surfaces the changes worth making and lets a human approve them. Feature groups cover keyword management, ad creative improvements, bid optimization, bad traffic exclusion, error detection, shopping ads, budget management, scorecards, alerts, and branded Google Ads reports, with Slack integration for team visibility. It is priced by account count and spend: Basic at $129/month covers 10 accounts and $25,000 monthly spend, Professional at $249/month covers 25 accounts and $100,000, and enterprise is quoted. A 14-day free trial needs no card. For agencies the multi-account model is the draw; for in-house teams the honest question is whether Google's own Recommendations tab plus an alerting script covers the same ground for free - Opteo's edge is statistical confidence scoring and cross-account consistency rather than raw capability.",
+    "seo_title": "Opteo Review: Google Ads Monitoring | MartechSignal",
+    "seo_description": "Opteo: continuous Google Ads monitoring with one-click improvements, from $129/mo. Compare AI features, integrations & top alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from opteo.com and its pricing documentation (September 2026); we have not run Opteo on a live account. The workflow it proposes is specific enough to evaluate: continuous pattern detection, a queue of suggested improvements each with statistical backing, and one-click deployment back into Google Ads.",
+        "For agencies the pitch is consistency across client accounts - the same checks run everywhere, Slack alerts routed to the right team, and branded reports without manual assembly. The multi-account pricing tiers and 12-24 hour refresh cycles are the practical constraints to check against client count and spend."
+      ],
+      "best_for": "Agencies and in-house teams running multiple Google Ads accounts that want statistically-backed improvement suggestions with one-click approval, plus Slack-native alerting.",
+      "not_for": "Advertisers wanting cross-channel management (Google Ads only), and teams under ~$25,000 monthly spend where the Basic tier's floor exceeds their needs.",
+      "verdict": "A focused Google Ads quality-control layer: less ambitious than cross-channel platforms, but its statistical confidence scoring and one-click fixes target exactly the work account managers hate."
+    }
+  },
+  {
+    "slug": "madgicx",
+    "name": "Madgicx",
+    "tagline": "AI-powered Meta ads optimization and creative workflow",
+    "category": "advertising",
+    "status": "active",
+    "date_added": "2026-09-07",
+    "date_updated": "2026-09-07",
+    "website": "https://madgicx.com/",
+    "pricing_url": "https://madgicx.com/pricing",
+    "pricing_model": "paid",
+    "price_from": 49,
+    "price_notes": "Entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from <$1K to $30K+. Free trial ($0) available.",
+    "open_source": false,
+    "api_available": false,
+    "ai_features": [
+      "AI Ads: end-to-end AI ad creative generation workflow",
+      "Autonomous budget allocation across ad sets in real time",
+      "AI Audiences generated and tested from conversion data",
+      "Creative Insights predicting performance of new creative pre-launch",
+      "Marketing Attribution for Meta ads"
+    ],
+    "integrations": [
+      "Meta (Facebook/Instagram)",
+      "Shopify",
+      "Google Analytics",
+      "TikTok"
+    ],
+    "hq": "Tel Aviv, Israel",
+    "description": "Madgicx is an all-in-one Meta ads platform - the vendor calls it an Ecom Ad Cloud - combining optimization, AI-generated ad creative, and marketing attribution in one subscription. Where point tools cover a single job, Madgicx bundles autonomous budget allocation that redistributes spend across ad sets in real time, AI Audiences that generate and test new audience combinations from your conversion data, Creative Insights that predict performance of new creative before launch, and an AI Ads workflow for producing the creative itself. Pricing scales with monthly ad spend via a calculator (bands from under $1K to $30K+), with an entry tier at $49/month and a free trial. For ecommerce teams the consolidation argument is real: attribution, audience testing, creative generation and budget automation under one roof removes the spreadsheet-and-four-tools workflow. The counterweight is Meta-only coverage - Google, TikTok and other channels need separate tooling - and spend-based pricing that climbs with success. Assess it as an operating layer for serious Meta spenders, not a multi-channel campaign manager.",
+    "seo_title": "Madgicx Review: AI Meta Ads — From $49/mo | MartechSignal",
+    "seo_description": "Madgicx: AI Meta ads platform with autonomous budgets, AI audiences and creative generation, from $49/mo. Compare AI features, integrations & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from madgicx.com and its pricing calculator (September 2026); we have not run Madgicx on a live ad account. The consolidation claim checks out structurally - optimization, creative generation, audience testing and attribution are all listed as first-party product areas, not integrations.",
+        "The AI Audiences feature is the one to test in a trial: it generates new audience combinations from your conversion data and runs them as tests, which addresses the audience-fatigue problem every mature Meta account hits. Creative Insights claims to predict performance of new creative before launch - a claim to verify against your own historical creative."
+      ],
+      "best_for": "Ecommerce teams spending serious money on Meta ads that want optimization, creative generation and attribution consolidated instead of stitched together from point tools.",
+      "not_for": "Multi-channel advertisers needing Google/TikTok coverage in the same platform, and small spenders whose budget cannot justify a spend-scaled subscription.",
+      "verdict": "The most complete Meta-only operating layer in the directory: real breadth across optimization, creative and attribution, with spend-based pricing that suits established ecommerce advertisers."
+    }
   }
 ]
