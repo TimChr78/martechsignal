@@ -84,7 +84,7 @@
 - [Monica](https://martechsignal.com/tools/monica/): Open-source personal CRM for tracking friends, family, and business relationships (open source)
 - [Pipedrive](https://martechsignal.com/tools/pipedrive/): Sales-focused CRM with AI-powered pipeline management and deal forecasting
 - [ProspectOS](https://martechsignal.com/tools/prospectos/): Open-source lead prospecting CRM with Google Maps and Instagram scraping (open source)
-- [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament (open source)
+- [Relaticle](https://martechsignal.com/tools/relaticle/): Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament (open source)
 - [Salesforce CRM](https://martechsignal.com/tools/salesforce-crm/): Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [SuiteCRM](https://martechsignal.com/tools/suitecrm/): Enterprise-grade open-source CRM with sales, marketing, and support automation (open source)
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
@@ -102,9 +102,9 @@
 - [Notifo](https://martechsignal.com/tools/notifo/): Self-hosted multi-channel notification service for email, SMS, and web push (open source)
 - [Notifuse](https://martechsignal.com/tools/notifuse/): Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations (open source)
 - [OpenOutreach](https://martechsignal.com/tools/openoutreach/): Open-source AI lead finder: describe your product and it finds and qualifies the leads (open source)
-- [Postmark](https://martechsignal.com/tools/postmark/): Fast, reliable transactional email delivery with industry-leading speed and uptime
+- [Postmark](https://martechsignal.com/tools/postmark/): Transactional email API with separated message streams, an MCP server, and published delivery numbers
 - [React Email Editor](https://martechsignal.com/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (open source)
-- [Resend](https://martechsignal.com/tools/resend/): Developer-first email API with React Email support and AI-powered deliverability
+- [Resend](https://martechsignal.com/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 
 ### Marketing Automation
@@ -174,7 +174,7 @@
 - [Pipedream](https://martechsignal.com/tools/pipedream/): 
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
-- [Workato](https://martechsignal.com/tools/workato/): Enterprise integration and automation platform with AI-powered workflow orchestration
+- [Workato](https://martechsignal.com/tools/workato/): Enterprise AI governance plus integration and automation on one platform
 - [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9, 000+ apps with AI-powered workflows
 
 ## Analysis
