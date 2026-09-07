@@ -85,7 +85,7 @@ def build_hub(terms):
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
     out.write_text(page_shell(
-        "Martech Glossary — Definitions for Marketing Technology | MartechSignal",
+        "Marketing Technology Glossary | MartechSignal",
         f"Plain-English definitions of {len(terms)} marketing technology terms, linked to real tools in our directory.",
         "/glossary/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
