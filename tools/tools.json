@@ -244,8 +244,8 @@
     "category": "analytics",
     "pricing_model": "freemium",
     "pricing_url": "https://amplitude.com/pricing",
-    "price_from": 0,
-    "price_notes": "Free (2M events/mo); Plus $49/mo; Growth and Enterprise custom pricing",
+    "price_from": null,
+    "price_notes": "Free plan: 2M events and 50,000 MTUs per month, no credit card. Plus: usage based, first 2M events free, scaling to 70M events and 700,000 MTUs, overage at the plan's per unit rate. Growth and Enterprise quoted by sales.",
     "ai_features": [
       "AI root cause analysis",
       "Predictive analytics",
@@ -271,7 +271,7 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-09-01",
+    "date_updated": "2026-09-07",
     "external_ratings": [
       {
         "source": "G2",
@@ -282,15 +282,15 @@
         "as_of": "2026-09-01"
       }
     ],
-    "description": "Amplitude is the leading product analytics platform, ranked #1 in Product Analytics on G2 for 23 consecutive quarters (as of Spring 2026). It provides a unified digital analytics suite covering **product analytics** (event tracking, cohort analysis, funnel reports, user segmentation), **experimentation** (A/B testing with statistical rigor), **session replay** (visual user journey reconstruction), and **customer data activation** (audience syncing to marketing and engagement tools). Amplitude's core strength is its event-based data model that tracks every user action (clicks, views, transactions) as granular events with properties, letting teams answer questions like \"which feature drives retention?\" and \"where do power users come from?\" without writing SQL.\n\nThe platform's AI capabilities include **Amplitude AI** for automated insight discovery, anomaly detection, and predictive analytics that surface \"unknown unknowns\" in user behavior. Amplitude's **Warehouse Native** architecture allows querying data directly in Snowflake or Databricks without data duplication, which matters for enterprises with existing data warehouse investments. The platform serves over 2,500 customers including Atlassian, NBCUniversal, PayPal, and Ford. Pricing is event-volume based: the free plan covers 2M events per month, self-serve Plus starts at $49/month, and Growth and Enterprise tiers are quoted by sales. Amplitude competes primarily with Mixpanel (event analytics, smaller-scale focus), Heap (auto-capture analytics, owned by Contentsquare), and PostHog (open-source alternative). It is best suited for product-led growth companies and enterprises that need a dedicated product analytics platform with experimentation built in.",
+    "description": "Amplitude is a digital analytics platform built on events: each action a user takes in a product becomes an event with properties, so teams can read funnels, retention, and feature adoption without writing SQL. The suite covers product analytics, experimentation and A/B testing, session replay, and customer data activation that syncs behavioral audiences to engagement tools. A Warehouse Native deployment queries data directly in Snowflake or Databricks rather than copying it, which is the draw for enterprises that already keep behavioral data in a warehouse.\n\nMetering is the part buyers most often misread. Amplitude counts monthly tracked users (MTUs), defined as unique users who trigger at least one event in a calendar month, alongside event volume. The Free plan includes 2M events and 50,000 MTUs per month with no credit card, capped at 1,000 events per MTU. Plus is usage based: the first 2M events cost nothing and the plan scales to 70M events and 700,000 MTUs, with overage billed at the same per unit rate as the plan and usage alerts at 80%, 90%, 100%, and 110%. Growth and Enterprise are quoted by sales, and a Startup Scholarship covers one free year of Growth for companies that have raised under $10M with fewer than 20 employees.\n\nAI features sit under the Amplitude AI label: named agents including Global Agent, Dashboard Agent, and Session Replay Agent, predictive audiences, anomaly detection, and an MCP server that connects Claude, Cursor, and other MCP clients on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Amplitude's own comparison pages frame it against Google Analytics 4 as self service across the full customer journey rather than a web and ads point solution, and against Mixpanel as one suite with experimentation, session replay, and CDP included.",
     "seo_title": "Amplitude Review: Pricing & Alternatives | MartechSignal",
     "seo_description": "Does Amplitude do heatmaps? What does it cost? Analytics, experimentation, and session replay reviewed with 2026 pricing tiers and Mixpanel comparison.",
     "deep_dive": {
       "hands_on": [
-        "Amplitude is product analytics: events, funnels, retention, and now AI-generated insights. The strength is the event model, which lets you ask product questions without SQL. Funnel analysis and behavioral cohorts are fast, and the dashboards are the standard in the product world. The learning curve is real but shallow enough for a data-literate marketer.",
+        "Assessed from Amplitude's public docs, pricing pages, and comparison pages; we have no account. Amplitude is product analytics: events, funnels, retention, and now AI-generated insights. The strength is the event model, which lets you ask product questions without SQL. Funnel analysis and behavioral cohorts are the core reports. The learning curve is real but shallow enough for a data-literate marketer.",
         "It helps to separate product analytics from web analytics. GA4 reports sessions, pageviews, and campaigns; Amplitude reports behavior: which features people use, in what order, and what the power users do differently. Marketing teams that only need channel reporting are fine in GA4. Teams that need to explain why retention moved or which feature drives upgrade need an event model like this one. The practical test: if your questions start with 'which segment' or 'what behavior' rather than 'which channel', you are in product analytics territory.",
         "Instrumentation is the real cost. The free plan is generous, but the data is only as good as the tracking plan behind it: someone has to name events, define properties, and keep the taxonomy sane as the product changes. Amplitude's partnership with Segment and its warehouse-native setup (querying data in Snowflake or Databricks instead of duplicating it) reduce that work for teams that already have pipelines. Teams starting from zero should budget effort for the tracking plan before budgeting for the plan tier.",
-        "Pricing has a generous free tier and scales steeply past it. The published structure is simple: the free plan covers 2M events per month, self-serve Plus starts at $49/month, and Growth and Enterprise are quoted by sales. Event-volume pricing is the part to watch: traffic spikes, bot traffic, and sloppy instrumentation all inflate the bill. The AI layer summarizes anomalies and flags drops, which saves the 'why did conversions fall' hunt."
+        "Pricing has a generous entry point and scales steeply past it. As published in September 2026 the free plan covers 2M events and 50,000 MTUs per month, Plus is usage based with the first 2M events free and a ceiling of 70M events and 700,000 MTUs, and Growth and Enterprise are quoted by sales. Amplitude publishes no per tier dollar figure, so budget from the event volume calculator on its pricing page. Event volume is the part to watch: traffic spikes, bot traffic, and sloppy instrumentation all inflate the bill."
       ],
       "verdict": "Standard choice for product-led companies. For pure marketing analytics, Google Analytics 4 covers more channels with less cost.",
       "best_for": "Product-led growth teams that need event analytics, funnels, and experimentation in one place, and enterprises that want warehouse-native querying against Snowflake or Databricks.",
@@ -301,24 +301,28 @@
           "Not as classic click and scroll overlays. Amplitude's closest equivalents are session replay and journey analysis, which reconstruct where users struggle after the fact. If heatmap overlays are the requirement, tools like Hotjar or Microsoft Clarity fill that gap, and both pair fine with Amplitude data."
         ],
         [
-          "What is Amplitude analytics?",
-          "Product analytics: Amplitude tracks user actions as events so teams can measure funnels, retention, and feature adoption that page-based web analytics cannot see. It complements rather than replaces web analytics. GA4 answers 'which campaign brought the visit'; Amplitude answers 'what did the user do once they arrived and what keeps them coming back'."
+          "What are Amplitude's pricing tiers?",
+          "Four. Free: 2M events and 50,000 MTUs per month, 10 saved charts, 1,000 session replays, one year of data access, no credit card. Plus: usage based, first 2M events free, scaling to 70M events and 700,000 MTUs, two year retention, 20 behavioral cohorts, credit card required. Growth and Enterprise: both quoted by sales, with Enterprise adding unlimited projects, RBAC and SCIM, 50,000 replays, and a one business day SLA. A Startup Scholarship covers one free year of Growth for companies under $10M raised with fewer than 20 employees. Amplitude publishes no per tier dollar table; Plus is priced through an event volume calculator on its pricing page."
         ],
         [
-          "What is Amplitude software?",
-          "A digital analytics platform covering product analytics, A/B testing, session replay, and feature experimentation in one suite. It runs on an event-based data model, connects to warehouses like Snowflake and Databricks without duplicating data, and syncs behavioral audiences to marketing tools like Braze and Salesforce. Customers include Atlassian, NBCUniversal, PayPal, and Ford."
+          "What is an MTU in Amplitude, and what happens if I exceed my limit?",
+          "An MTU is a unique user who triggers at least one event in your product in a calendar month. Anonymous users count by device ID, known users by user ID, and a person counts once across projects. The Free plan allows 50,000 MTUs and caps each at 1,000 events per month. On paid plans the limit is the MTU volume you purchase, and exceeding it can bring overage charges: each extra 1,000 events converts to one MTU at the plan's per unit rate, with alerts at 80%, 90%, 100%, and 110%. On Free, crossing the limit three times blocks the account; Amplitude keeps ingesting data but you cannot read it until you upgrade, and the account is deleted after six months over limit."
+        ],
+        [
+          "Amplitude vs Mixpanel: which should you pick?",
+          "Mixpanel is cheaper and does event analytics well, which is enough if behavioral charts are the whole job. Amplitude's comparison page argues for more than a point solution: experimentation, session replay, and a customer data platform in the same suite, plus autocapture, governance, and support it credits Mixpanel with lacking. Treat that as vendor framing. The practical test is whether you would buy a separate testing or replay tool anyway; if not, Mixpanel at a lower price point is the rational pick."
+        ],
+        [
+          "Do you need Amplitude if you already have Google Analytics 4?",
+          "They answer different questions. GA4 is built around acquisition, meaning which campaign or channel brought the visit, and it costs nothing. Amplitude is built around in product behavior: what a user did after arriving, which features retain, where a funnel breaks. Teams running a product led motion usually keep GA4 for channel reporting and add Amplitude for product decisions; teams that only need channel reporting usually do not need Amplitude at all. Amplitude's own comparison page positions GA4 as a web and ads point solution that depends on BigQuery for deeper analysis, which is the vendor's framing rather than an independent verdict."
         ],
         [
           "Does Amplitude have AI features?",
-          "Yes. Amplitude AI (Amplitude's AI assistant) analyzes product data in natural language, and Amplitude ships AI agents such as the Global Agent and Dashboard Agent, plus an MCP server for connecting external AI tools. Predictive audiences and automated anomaly detection flag behavior changes without manual query work. Scope changes often; Amplitude's AI docs list the current capabilities."
-        ],
-        [
-          "Is Amplitude free?",
-          "There's a free plan covering up to 2M events per month with core analytics, session replay, and no credit card required. Paid plans start at $49/month (Plus, self-serve), with Growth and Enterprise tiers quoted by sales based on event volume and features."
+          "Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashboard Agent, Session Replay Agent, and Customer Feedback Agent, plus custom agents, predictive audiences, and automated anomaly detection. An MCP server connects Claude, Cursor, and other MCP clients, and Amplitude states it works on every plan including Free. Wave, described as a proactive product agent, is listed as reaching customers in the second half of 2026. Scope moves often; Amplitude's AI docs carry the current list."
         ]
       ]
     },
-    "paid_from": 49
+    "paid_from": null
   },
   {
     "slug": "anyword",
@@ -2085,7 +2089,7 @@
     "pricing_model": "freemium",
     "pricing_url": "https://www.make.com/en/pricing",
     "price_from": 0,
-    "price_notes": "Free (1,000 credits/mo); Core $9-10.59/mo; Pro $16/mo; Teams $29/mo; Enterprise custom",
+    "price_notes": "Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom",
     "ai_features": [
       "AI agents",
       "AI workflow suggestions",
@@ -2111,18 +2115,36 @@
     "hq": "Prague, Czech Republic",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Make sits between Zapier's simplicity and n8n's depth. Its visual scenario builder is genuinely better than Zapier's linear editor. You can branch, loop, and handle errors visually without touching code. Founded in 2012, headquartered in Prague, and acquired by Celonis in 2020, Make occupies the middle ground where most technical marketing teams land. The key structural difference from Zapier is Make's operations model: each module in a scenario is one operation, not one task. A module that processes 100 bundles counts as 1 operation, not 100. This makes Make dramatically cheaper than Zapier for data-heavy workflows (CRM syncs, contact enrichment) while still being more expensive than n8n for deep multi-step automation. Make's AI features (agents, workflow suggestions, data transformation) are a step behind n8n in capability but ahead of Zapier in cost efficiency. The AI agent node doesn't consume extra operations the way Zapier's AI steps consume extra tasks. For marketing teams running AI-assisted content pipelines or lead enrichment workflows, this is a meaningful difference. Make is best for teams that want visual complexity without coding, data-heavy integrations where operations-based pricing beats tasks, and mid-size marketing operations teams that have outgrown Zapier but don't need the full flexibility or maintenance burden of self-hosted n8n.",
+    "date_updated": "2026-09-07",
+    "description": "Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration.\n\nBilling changed in August 2026, when credits replaced operations as the unit of account. By default one operation equals one credit, and each module action in a scenario, such as adding a Google Sheets row or fetching Gmail data, consumes one credit. Router modules and the error handlers (Rollback, Break, Resume, Commit, Ignore) consume none, some features running on Make's AI Provider consume more, and Make warns at 75% and 90% usage with optional auto purchase of extra credit bundles. Unused credits expire at the end of the billing term.\n\nPlans are Free ($0, 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files), Core at $9 a month, Pro at $16, and Teams at $29, each for 10,000 credits a month with a slider running from 10,000 up to 8M+ credits, and Enterprise quoted. Annual billing saves 15% or more. Paid tiers raise maximum execution to 40 minutes, lift file limits to 100 to 500 MB, allow 5 GB of data transfer per 10,000 credits, and extend log storage to 30 or 60 days. No step or module limit is published.\n\nAI is a stated product line: Make AI Agents are available on all plans, alongside Maia by Make, the AI Toolkit, the Make MCP Server, and a Code App billed at 2 credits per second.\n\nFor data heavy marketing work such as CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier's per task metering. Teams that need self hosting or unlimited execution should look at n8n instead.",
     "seo_title": "Make Review: Workflow Automation — Freemium | MartechSignal",
     "seo_description": "Make — Visual automation platform for building complex workflows with AI agents and apps. Free tier available. Compare AI features, integrations & top.",
     "deep_dive": {
       "hands_on": [
-        "Make (formerly Integromat) is the visual automation platform that competes with Zapier on price and power. The visual editor shows data flowing between modules as a graph, which makes multi-step logic readable in a way Zapier's linear steps are not. Scenarios can branch, loop, and reference earlier module output directly. The learning curve is steeper, and the interface is busier, but the capability ceiling is higher.",
-        "Pricing is per operation, which punishes chatty integrations, and it scales cheaper than Zapier at volume. For teams with any technical comfort, Make is usually the better deal."
+        "Assessed from Make's public pricing pages and help docs; we have no account. Make (formerly Integromat) is the visual automation platform that competes with Zapier on price and power. The visual editor shows data flowing between modules as a graph, which makes multi-step logic readable in a way Zapier's linear steps are not. Scenarios can branch, loop, and reference earlier module output directly. The learning curve is steeper, and the interface is busier, but the capability ceiling is higher.",
+        "Pricing is per credit, where one credit equals one module action by default, which punishes chatty integrations and scales cheaper than Zapier's per task metering at volume. For teams with any technical comfort, Make is usually the better deal."
       ],
-      "verdict": "Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task."
+      "verdict": "Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.",
+      "faq_extra": [
+        [
+          "What counts as a credit in Make?",
+          "Since August 27, 2026, credits are Make's billing unit, replacing operations. By default one operation equals one credit, and each module action in a scenario, like adding a Google Sheets row or fetching Gmail account data, consumes one credit. Router modules and the error handlers (Rollback, Break, Resume, Commit, Ignore) consume no credits, while some advanced features running on Make's AI Provider can consume more. Make warns you at 75% and 90% usage, sells extra bundles of 1,000 or 10,000 credits, auto purchases 10,000 on paid plans, and expires unused credits at the end of the billing term."
+        ],
+        [
+          "How much does Make cost per month?",
+          "Free is $0 with 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files, and 512 MB of data transfer. Core is $9 a month, Pro is $16, and Teams is $29, each for 10,000 credits a month, with a slider from 10,000 up to 8M+ credits. Annual billing saves 15% or more, though the page does not print the annual per month figures. Paid tiers raise maximum execution to 40 minutes, file limits to 100 to 500 MB, and log storage to 30 or 60 days. Enterprise is custom priced."
+        ],
+        [
+          "Make vs Zapier: which should marketing teams pick?",
+          "Pick on data shape more than on list price. Make draws scenarios as a graph, so branching, looping, and error handling are visual, and its credit model prices a module action once rather than per task, which favours CRM syncs and enrichment jobs that iterate over many rows. Zapier counters with a larger catalogue, more than 9,000 apps against Make's 3,000+, and a shallower learning curve, which still wins when the job is a handful of two or three step handoffs between common tools. Make's entry plan is more generous on volume, 1,000 credits against 100 tasks, but caps you at 2 active scenarios."
+        ],
+        [
+          "Does Make have AI agents?",
+          "Yes. Make AI Agents are stated as available on all plans, including Free, and run inside scenarios. The wider AI surface includes Maia by Make, the Make AI Toolkit, the Make MCP Server for connecting external agents, and a Make Code App billed at 2 credits per second. Note that AI features can consume credits above the default one per action when they run on Make's AI Provider, so agent heavy scenarios cost more per run than plain module chains."
+        ]
+      ]
     },
-    "paid_from": 16
+    "paid_from": 9
   },
   {
     "slug": "manychat",
@@ -2644,7 +2666,7 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-09-06",
+    "date_updated": "2026-09-07",
     "description": "OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. You describe your product and your target market, and the agent finds the people who fit, writes a reason for each one, and emails them from your own mailbox. It is a self-hosted Python CLI installed with two commands, uv tool install openoutreach and then openoutreach, organized as three packages on one Django registry and database: OpenOutFind for discovery, qualification, and CRM, OpenOutSend for the outreach agent, mailbox, and send guards, and OpenOutreach as the wizard that ties them together. Lead discovery runs on BetterContact's Lead Finder, a licensed data provider, with a confidence gate that rations the paid email lookups, which cost one credit per verified work email; a free account comes with 40 credits and no card required. The AI work is split into named steps: an LLM turns your product description into search keywords, another pass qualifies candidates against your ICP and writes the plain-language reason (there is deliberately no score column), and the agent writes each opener while send guards handle the sending window, daily cap, and pacing. A Gaussian Process over profile embeddings that learns from your verdicts is documented as an active experiment that has not been shown to beat random ordering. LLM access is verified at the prompt and accepts OpenAI, Anthropic, or any OpenAI-compatible endpoint; any SMTP or IMAP mailbox with an app password works, and Google Workspace works out of the box. A Claude Code plugin is included, and the same logic ships as a skill for Codex or Cursor. CSV export is shaped for Instantly and Smartlead importers with no column mapping. GPLv3, around 2,900 GitHub stars, funded by affiliate links rather than subscriptions.",
     "seo_title": "OpenOutreach Review: Open-Source AI SDR | MartechSignal",
     "seo_description": "OpenOutreach review: self-hosted AI lead finder that explains why each lead fits. GPLv3 CLI, BetterContact credits, exports to Instantly.",
@@ -2677,6 +2699,14 @@
         [
           "Is OpenOutreach safe for cold email and GDPR?",
           "The project is explicit that the obligations stay with you: the legal notice covers data-controller duties and sender responsibility and states use at your own risk with no liability assumed. The README argues the tool has zero platform-ToS surface because it is browserless and holds no social-network accounts. Self-hosting keeps prospect data on your servers, which is what makes it interesting for EU teams, but lawful basis, suppression lists, and warm-up are still yours to manage."
+        ],
+        [
+          "How does OpenOutreach decide which leads to qualify next?",
+          "With a Gaussian Process over 384 dimensional FastEmbed profile embeddings. When negative verdicts outnumber positive ones it exploits, taking the profile with the highest predicted fit probability; otherwise it explores using a BALD score, which favours profiles the model is most uncertain about. Passing qualification gates the paid email lookup. Cold start is seeded with synthetic ideal profiles that are flagged as synthetic and never contacted or exported. The README is candid that this loop is an active experiment not yet shown to beat picking at random."
+        ],
+        [
+          "What does an OpenOutreach export look like?",
+          "One CSV written to stdout with email, first_name, last_name, company, title, website, linkedin_url, reason, lead_id, and qualified_at. There is no score column by design: the written reason carries the qualification instead. The shape matches Instantly and Smartlead importers without column mapping, so the handoff is a file redirect rather than a transformation. In Docker you get a container that runs one job and exits with no open ports, which suits a scheduled pipeline rather than a dashboard."
         ]
       ]
     }
@@ -3287,7 +3317,7 @@
     "hq": "Paris, France",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-09-06",
+    "date_updated": "2026-09-07",
     "description": "Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion worth knowing before you compare it to anything. The core is still condition-based automation for paid social: rules that watch Meta, Google, TikTok, and Snapchat ad accounts and act on budgets, bids, statuses, and custom metrics, with the company stating it is an official partner of those platforms. Around that core sit newer modules. Explorer tracks ad performance, flags creative fatigue, and ranks assets. Stage builds ads by duplicating your setups from Google Drive media. Hub adds server-side tracking for Meta through Signals Gateway, priced per event from free at 10,000 monthly events to $499 at 150 million. Launcher generates ad sets from bulk creative uploads. Bïrch AI is described as an AI layer across your workflows, and Bïrch MCP connects the platform to external AI tools; Routines for scheduling repeated workflows are listed as coming soon. The integration list is attribution-heavy: Slack, Google Analytics, Google Drive, Google Sheets, Adjust, Hyros, Wicked Reports, and AppsFlyer, mostly so their metrics can drive rule conditions and custom metrics. Pricing is tiered by monthly ad spend across connected accounts, with Essential at $49 per month covering workspaces, post boosting, reports, and Slack alerts, and Pro at $99 adding automated rules and strategies, Explorer, Launcher, Stage, and custom and lookalike audiences; Enterprise is quoted with no limits or overages. Annual billing works out to twelve months for the price of ten, and there is a 14-day free trial with no credit card. The company claims 15,000+ clients, $2B in annual ad spend managed, and 240 million automated actions per year. What it is not is an autonomous optimizer: you write the conditions and Bïrch executes them, which is exactly the point for media buyers who want predictable automation.",
     "seo_title": "Revealbot (Birch) Review: Rules From $49/mo | MartechSignal",
     "seo_description": "Bïrch (formerly Revealbot) review: condition-based rules for Meta, Google, TikTok, and Snapchat ads. Essential $49/mo, Pro $99/mo, 14-day trial.",
@@ -3319,6 +3349,18 @@
         [
           "Is Birch an AI ad optimization tool?",
           "Only partly. The core product is deterministic: you write condition-based rules and the platform executes them, which is what separates it from autonomous optimizers. The AI surface is Bïrch AI, described as an AI layer across your workflows, and Bïrch MCP, which connects the platform to external AI tools. Routines for scheduling repeated workflows are listed as coming soon."
+        ],
+        [
+          "Does the Bïrch Essential plan include automated rules?",
+          "No. Automated rules and strategies are Pro features; Essential covers workspaces, post boosting, reports, and Slack alerts, and a downgrade turns existing rules into drafts. Essential is also capped at $150,000 of monthly ad spend, while Pro tiers run to $500,000 before custom pricing. If rule automation is the reason you are evaluating the tool, price the Pro tier from the start."
+        ],
+        [
+          "How often do Bïrch rules run, and how many can I create?",
+          "Anything from every 15 minutes to every 72 hours, or on specific days and hourly slots, or once. A single rule can watch up to five ad accounts in the same currency and is capped at 2,000 items per ad account, and Bïrch states no cap on the number of rules. Actions cover pause, start, budget and bid changes, duplicate, and rename, with several tasks per rule and alerts by email or Slack."
+        ],
+        [
+          "What is Bïrch MCP?",
+          "An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Codex over OAuth with no API key. The marketing page describes five tools and read only access; the help center is more precise. Campaign analysis cannot create, edit, pause, or delete anything, but rule management can duplicate, rename, move, activate, or pause rules and change which ad accounts they watch, across every platform and including drafts. Existing connections need to reconnect to pick up the write tools."
         ]
       ]
     }
@@ -4304,7 +4346,7 @@
     "hq": "Open source",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-09-06",
+    "date_updated": "2026-09-07",
     "description": "WaCRM is a self-hostable CRM template built on the official Meta WhatsApp Business Cloud API, and it is explicit about what that means: the README calls it 'a template, not a product,' licensed MIT under the instruction 'fork it, brand it, host it.' You get the code, your own Supabase project, your own domain, and your own data. The feature set covers WhatsApp-first sales: a shared inbox with per-conversation assignment, round-robin distribution, and internal notes; a contact hub with tags, custom fields, CSV import, and deduplication; unlimited Kanban pipelines with deals linked to conversations; broadcast campaigns using Meta-approved templates with delivery, read, and reply tracking; and a no-code automation builder whose triggers include inbound messages, new contacts, tag changes, keywords, and schedules. Two additions move it past the narrower project it was a year ago. An AI reply assistant takes your own OpenAI or Anthropic key, stored encrypted, drafts one-click replies in the inbox, and can run an auto-reply bot with a per-conversation cap and human handoff, grounded in an optional knowledge base that uses Postgres full-text or pgvector semantic retrieval. A public REST API with scoped, revocable keys and an MCP server let external tools and assistants read the CRM, read-only by default with writes as an opt-in. The stack is Next.js 16, React 19, TypeScript, and Tailwind v4 on Supabase. Getting there takes real setup: fork the repo, run npm install, set Supabase credentials plus an encryption key, run migrations, then paste a Meta phone number ID and access token and expose an HTTPS webhook. Because it uses the official API, broadcasts are limited to Meta-approved templates and your number must be approved by Meta first. For a small team in a WhatsApp-heavy market that is a fair trade; for anyone needing email, a dialer, or forecasting, it is the wrong tool.",
     "seo_title": "WaCRM Review: Open-Source WhatsApp CRM | MartechSignal",
     "seo_description": "WaCRM review: self-hostable WhatsApp CRM on the official Meta Cloud API, with shared inbox, pipelines, broadcasts, and AI replies. MIT-licensed.",
@@ -4338,6 +4380,14 @@
         [
           "Does WaCRM have AI features?",
           "Yes. The AI reply assistant uses your own OpenAI or Anthropic key, stored encrypted, to draft one-click replies in the inbox or run an auto-reply bot with a per-conversation cap and human handoff, optionally grounded in a knowledge base retrieved with Postgres full-text search or pgvector when an embeddings key is set. There is also an MCP server so Claude, Cursor, and similar assistants can read the CRM, read-only by default with writes as an opt-in."
+        ],
+        [
+          "Can WaCRM run multiple WhatsApp numbers?",
+          "One phone number per user account: the schema enforces a unique phone_number_id and the API returns a 409 if you try to attach a number that is already claimed. Shared inbox access is handled by adding multiple humans to one account with owner, admin, agent, or viewer roles rather than by attaching several numbers to a team. If you need several numbers, run several instances, which the Docker setup supports but does not orchestrate for you."
+        ],
+        [
+          "What breaks if I skip the cron setup in WaCRM?",
+          "Automations and flows never run. The container schedules nothing internally, so the docs have you point an external cron at /api/automations/cron and /api/flows/cron with an x-cron-secret header; without it those endpoints return 503 and your auto replies and flows silently do not fire. From the inbox it looks like a broken WhatsApp connection, so check the cron before you debug the Cloud API."
         ]
       ]
     }
@@ -4440,7 +4490,7 @@
   {
     "slug": "zapier",
     "name": "Zapier",
-    "tagline": "No-code automation platform connecting 7,000+ apps with AI-powered workflows",
+    "tagline": "No-code automation platform connecting 9,000+ apps with AI-powered workflows",
     "website": "https://zapier.com",
     "category": "workflow-automation",
     "pricing_model": "freemium",
@@ -4472,16 +4522,34 @@
     "hq": "San Francisco, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
-    "description": "Zapier is the name everyone knows in automation, and for good reason. It connects 7,000+ apps with a clean, no-code interface that non-technical marketers can actually use on day one. Founded in 2011 and headquartered in San Francisco, it is the default choice when someone says they need to connect X to Y without writing code. For marketing teams, Zapier handles the routine stuff: form submissions to CRM, new leads to Slack, event registrations to email sequences. It added AI capabilities (AI agents, chatbots, content generation) in 2024-2026, though AI steps consume tasks at accelerated rates. That task-based pricing model is the tradeoff: a 20-step workflow counts as 20 tasks, so complex automation gets expensive fast. The 7,000+ integration library is Zapier's real moat. Niche martech tools that lack native n8n nodes or Make modules almost always have a Zapier integration. For teams running simple workflows across many tools, nothing beats the breadth. But at scale, hundreds of multi-step runs per month, the per-task pricing becomes prohibitive. At that point n8n's per-execution model saves 5-10x. Zapier is best for non-technical marketing teams with straightforward automation needs, organizations with diverse martech stacks needing wide integration coverage, and teams that value ease of use over deep customization.",
+    "date_updated": "2026-09-07",
+    "description": "Zapier is the automation platform most people mean when they say they want to connect two tools without writing code. It lists more than 9,000 app integrations, still the widest catalogue in this directory, and the niche martech tools that lack an n8n node or a Make module usually still have a Zapier integration. Founded in 2011 and headquartered in San Francisco, it is the default choice for marketing teams moving form submissions into a CRM, pushing new leads to Slack, or registering event attendees into an email sequence.\n\nPricing is task based, and the definition matters: a task is counted when a Zap successfully moves data or completes an action, triggers do not count, and failed actions do not count. What does count is every step in a Zap and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run. The Free plan covers 100 tasks a month and two step Zaps only. Professional starts at $19.99 per month billed annually at the 750 task tier, or $29.99 monthly, scaling to 2M tasks. Team starts at $69 per month annually with 2,000 tasks, 25 seats, and shared workspaces. Premium apps are excluded from Free, and polling intervals run 15 minutes on Free, 2 minutes on Professional, and 1 minute on Team and up.\n\nAI is now a product line rather than a feature. Zapier Agents, Chatbots, Canvas, Zapier MCP, and Copilot are listed on every plan with basic access, AI by Zapier is not available on Free, and Agents are billed separately in activities rather than tasks, with 400 activities a month free and 1,500 on Agents Pro.\n\nBuy Zapier for breadth and onboarding speed, and move to Make or n8n when branching logic or volume makes the per task price hurt.",
     "seo_title": "Zapier Review — Freemium | MartechSignal",
     "seo_description": "Zapier — No-code automation platform connecting 7,000+ apps with AI-powered workflows. Free tier available. Compare AI features, integrations & top.",
     "deep_dive": {
       "hands_on": [
-        "Zapier is the default answer when someone says they want to connect two apps without code. The model is simple to understand: trigger, steps, done, with a visual editor that any marketer can learn in an afternoon. It has tens of thousands of supported apps, so the long tail of obscure tools is covered better than anywhere else. The cost grows with usage: pricing is per active task, and chatty integrations or high-volume automations hit the top tiers fast.",
+        "Assessed from Zapier's public pricing and product pages; we have no account. Zapier is the default answer when someone says they want to connect two apps without code. The model is simple to understand: trigger, steps, done, with a visual editor that any marketer can learn in an afternoon. It lists more than 9,000 supported apps, so the long tail of niche martech tools is covered better than on any competing platform. The cost grows with usage: pricing is per active task, and chatty integrations or high-volume automations hit the top tiers fast.",
         "The practical limits are the same ones its competitors exploit: multi-branch logic gets awkward compared to Make's graph editor, and there is no cheap way to run workflows on your own infrastructure. For a team whose automation needs are a few dozen well-chosen integrations, Zapier is still the least-effort choice on the market."
       ],
-      "verdict": "Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt."
+      "verdict": "Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt.",
+      "faq_extra": [
+        [
+          "How many tasks do Zapier plans include?",
+          "The Free plan includes 100 tasks a month and only two step Zaps. Professional is sold in task tiers: 750 tasks at $19.99 a month billed annually ($29.99 monthly), 1,500 at $39, 5,000 at $89, 20,000 at $189, and 1M at $2,199 annually. Team starts at 2,000 tasks for $69 a month annually with 25 seats, shared workspaces, and SAML SSO, rising to 1M tasks at $2,499. Triggers and failed actions do not count against the limit; every step in a Zap and every external connector call does."
+        ],
+        [
+          "What counts as a task in Zapier?",
+          "A task is used when a Zap successfully moves data or completes an action. Triggers do not count toward your limit and neither do failed actions. The newer rule to plan around is that every step in a Zap and every external connector call uses tasks, though Zapier states rates may vary, so a multi step Zap with several connector calls costs more per run than the step count alone suggests."
+        ],
+        [
+          "Does Zapier work with AI agents and ChatGPT?",
+          "Zapier sells AI as its own product line: Zapier Agents, Chatbots, Canvas, Zapier MCP, Copilot, and AI by Zapier. The pricing table marks Agents, Chatbots, Canvas, and MCP as included on all four plans with basic access and premium add ons; AI by Zapier is not available on Free; Copilot is message limited on Free and unlimited on paid plans. Agents are billed in activities rather than Zap tasks: 400 activities a month on the free Agents tier and 1,500 on Agents Pro at $33.33 a month billed annually. Zapier MCP is the piece that connects ChatGPT, Claude, and other MCP clients to those 9,000+ apps."
+        ],
+        [
+          "Zapier vs Make: which is cheaper for marketing automation?",
+          "They meter differently. Zapier charges per task, and work repeated inside a Zap is billed each time it runs. Make charges credits, where one credit is one module action by default and a Router or error handler costs nothing, which makes iterating over large datasets cheaper. In practice Zapier wins below a few thousand runs a month and on integration breadth; Make wins on data heavy workflows and branching logic. Both publish entry plans (100 tasks versus 1,000 credits) so you can price your own workflow before committing."
+        ]
+      ]
     },
     "external_ratings": [
       {
@@ -4574,18 +4642,17 @@
     "pricing_model": "freemium",
     "pricing_url": "https://cordys.cn/pricing.html",
     "price_from": 0,
-    "price_notes": "Community edition free and self-hosted (GPLv3-based license). Enterprise edition: annual subscription, standard/professional/flagship tiers, no per-seat fees, pricing via sales.",
+    "price_notes": "Community edition free and self-hosted (GPLv3-based license, API capped at 1,000 calls/day). Enterprise edition: annual subscription published at ¥30,000 / ¥60,000 / ¥120,000 per year by company revenue, no per-seat fees, flagship adds hot-standby HA. DataEase embedding requires a DataEase commercial edition.",
     "ai_features": [
-      "MaxKB-powered sales AI agents",
-      "SQLBot conversational analytics",
+      "MaxKB sales agents connected over the API",
+      "CORDYS AI server-side agent (enterprise edition)",
       "DataEase embedded BI dashboards",
-      "MCP server for external AI agents",
+      "MCP server with 11 tools for external AI agents",
       "AI lead routing and follow-up"
     ],
     "integrations": [
       "MaxKB",
       "DataEase",
-      "SQLBot",
       "MCP",
       "Docker"
     ],
@@ -4597,8 +4664,8 @@
     "hq": "China",
     "status": "active",
     "date_added": "2026-07-31",
-    "date_updated": "2026-08-28",
-    "description": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It covers the full lead-to-cash cycle: lead capture and routing, customer and contact management, opportunities, contracts, orders, and payment collection. The pitch is a self-hosted Salesforce alternative for mid-size and large teams that want their sales data on their own servers. It's Java (Spring Boot) on the backend with a Vue frontend, ships as a Docker install, and hit 100,000 downloads within 25 days of its August 2025 public beta.\n\nThe AI part is real, not a bolted-on chatbot. Cordys leans on three FIT2CLOUD tools working together. MaxKB, their agent platform, runs sales agents inside the CRM for things like lead triage and follow-up drafting. SQLBot gives you conversational analytics, so you ask \"which leads went cold this month\" in plain language instead of building a report. DataEase handles the embedded BI dashboards. There's also an MCP server, so outside agents (Claude, Cursor, and similar) can read and act on CRM data directly. Since v1.8.1 the free community edition exposes the API and MCP access too, which is unusual. The catch is that you're really running three systems in a trench coat, and the setup and upkeep reflect that.\n\nPricing skips per-seat fees entirely. The community edition is free and self-hosted under a GPLv3-based license (the FIT2CLOUD Open Source License) that bars you from swapping out the logo or copyright notices. The enterprise edition is an annual subscription in standard, professional, and flagship tiers, with actual numbers behind a sales conversation. No public price list, which is a minor annoyance if you're just trying to budget. The no-per-seat model can work out far cheaper than Salesforce or HubSpot for a 100-person sales team, but you're trading license cost for hosting and ops effort.\n\nAgainst Twenty, the other big open-source CRM in this directory, Cordys goes deeper on native AI (Twenty's AI is lighter and its community is more global) but feels less polished and skews heavily toward the Chinese market. EspoCRM is easier to stand up and lighter to run, but has no comparable AI layer. If you want Salesforce-style depth with AI agents baked in and no per-seat bill, and you're comfortable self-hosting, Cordys is worth a serious look.\n\nWho should skip it: anyone who needs a SaaS product that just works without a server, teams outside China who want English-first docs and community support (the docs and forums are Chinese-first), and small teams that don't have Java ops capacity. The stack is heavier than a typical PHP CRM, and the enterprise motion is built around Chinese enterprises. For a China-based sales team that wants private deployment and real AI features without per-seat fees, though, it's one of the few open-source options that actually delivers both.",
+    "date_updated": "2026-09-07",
+    "description": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It covers the full lead-to-cash cycle: lead capture and routing, customer and contact management, opportunities, contracts, orders, and payment collection. The pitch is a self-hosted Salesforce alternative for mid-size and large teams that want their sales data on their own servers. It's Java (Spring Boot) on the backend with a Vue frontend, ships as a Docker install, and hit 100,000 downloads within 25 days of its August 2025 public beta.\n\nThe AI part is real, not a bolted-on chatbot. The AI is assembled from outside rather than built in. MaxKB, FIT2CLOUD's agent platform, connects over the API to run sales agents for lead triage and follow-up drafting. DataEase handles embedded BI dashboards, and that integration requires a DataEase commercial edition. Conversational SQL analytics is not part of the product: SQLBot appears only in FIT2CLOUD's sibling product navigation, with no Cordys documentation behind it. CORDYS AI, added in v1.9.0, is the server-side agent, it is enterprise only, and it reuses the CRM's RBAC so reads run directly, writes are permission checked, and deletes need manual confirmation. There's also an MCP server, so outside agents (Claude, Cursor, and similar) can read and act on CRM data directly. Since v1.8.1 the free community edition exposes the API and MCP access too, capped at 1,000 API calls a day, which is unusual. The catch is that you're really running three systems in a trench coat, and the setup and upkeep reflect that.\n\nPricing skips per-seat fees entirely. The community edition is free and self-hosted under a GPLv3-based license (the FIT2CLOUD Open Source License) that bars you from swapping out the logo or copyright notices. The enterprise edition is an annual subscription in standard, professional, and flagship tiers, published at ¥30,000, ¥60,000, and ¥120,000 a year by company revenue, with flagship adding hot-standby and distributed high availability. The no-per-seat model can work out far cheaper than Salesforce or HubSpot for a 100-person sales team, but you're trading license cost for hosting and ops effort.\n\nAgainst Twenty, the other big open-source CRM in this directory, Cordys goes deeper on native AI (Twenty's AI is lighter and its community is more global) but feels less polished and skews heavily toward the Chinese market. EspoCRM is easier to stand up and lighter to run, but has no comparable AI layer. If you want Salesforce-style depth with AI agents baked in and no per-seat bill, and you're comfortable self-hosting, Cordys is worth a serious look.\n\nWho should skip it: anyone who needs a SaaS product that just works without a server, teams outside China who want English-first docs and community support (the docs and forums are Chinese-first), and small teams that don't have Java ops capacity. The stack is heavier than a typical PHP CRM, and the enterprise motion is built around Chinese enterprises. For a China-based sales team that wants private deployment and real AI features without per-seat fees, though, it's one of the few open-source options that delivers both.",
     "seo_title": "Cordys CRM Review: Open-Source AI CRM (2026) | MartechSignal",
     "seo_description": "Cordys CRM is a free self-hosted AI CRM from the makers of 1Panel. Agents, conversational analytics, no per-seat fees. Pricing and Salesforce comparison.",
     "deep_dive": {
@@ -4619,6 +4686,18 @@
         [
           "Is Cordys CRM a good Salesforce alternative?",
           "For mid-size teams that can self-host a Java stack, it covers leads, contacts, opportunities, contracts, orders, and payments with AI agents built in. It lacks the third-party ecosystem and compliance certifications of Salesforce."
+        ],
+        [
+          "What do I need to run Cordys CRM?",
+          "A Linux host with at least 4 CPU cores, 8 GB of RAM, and 100 GB of disk, kernel 3.10 or newer, and Docker 23 or newer recommended. The web UI sits on port 8081 and the MCP server on 8082. MySQL and Redis are embedded by default and can be switched to external instances through cordys-crm.properties. The default login is admin with the password CordysCRM, which you should change before anything touches the network. The backend is Spring Boot with a Vue frontend."
+        ],
+        [
+          "What can AI agents do through the Cordys MCP server?",
+          "Eleven documented tools: a global search across objects, add and update for leads, accounts, and contacts, add and update for opportunities, and creation of follow records and follow plans. Auth is via X-Access-Key and X-Secret-Key headers over SSE or Streamable HTTP, and the input schema for each tool is generated from your tenant's own dynamic form fields, including required lists and enum values. CORDYS AI, the built-in agent, is enterprise only and runs server side in the CRM's trust domain, reusing RBAC, so deletes still need manual confirmation."
+        ],
+        [
+          "How much does Cordys CRM cost for a company?",
+          "The community edition is free and self-hosted under a GPLv3-based license, with two strings attached: no swapping out the logo or copyright notices, and an API capped at 1,000 calls a day. Enterprise is published at ¥30,000, ¥60,000, and ¥120,000 per year, tiered by company revenue, with unlimited API calls, custom branding, embedded DataEase, and a built-in AI workbench; flagship adds hot-standby and distributed high availability. Budget separately for a DataEase commercial edition if you want BI dashboards embedded."
         ]
       ]
     }
@@ -5371,16 +5450,34 @@
     "hq": null,
     "status": "active",
     "date_added": "2026-08-17",
-    "date_updated": "2026-08-28",
-    "description": "google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. Instead of jumping between three dashboards, you ask Claude or ChatGPT to pull campaign performance, pause ad sets, build audiences, or reconcile ad spend against GA4 conversions. It exposes 250+ tools: roughly 150 for Google Ads (campaign CRUD across Search, Display, Shopping, PMax, and Video, Keyword Planner data, bidding and budget controls, experiments, conversion tracking), 80+ for Meta Ads (campaigns, ad sets, creatives, lookalikes, lead forms, product catalogs), and 20+ for GA4 (standard and realtime reports, audiences, attribution settings, key events).\n\nDay to day, the value is in cross-platform work that usually means exporting CSVs. You can compare Google versus Meta spend side by side, correlate ad cost with GA4 conversion events, and ask for a unified ROAS read across both networks. The repo ships with 60+ example prompts and an n8n workflow template. Write access is a deliberate choice: the official Google MCP server is read-only, while this one can create, pause, and delete campaigns. That power means you should gate it carefully. Give it a test account first, and keep a human approving anything that touches budgets.\n\nSetup is remote rather than local. You add an endpoint URL to claude_desktop_config.json, Cursor, Windsurf, ChatGPT connectors, or n8n's MCP node. There's no local code to run and no API keys to manage in config files, but the endpoint comes from Ryze AI (Meow AI, LLC), the company behind the repo. The code is MIT licensed and free, but the hosted server is tied to Ryze's trial and paid plans, so treat this as freemium infrastructure rather than a standalone open-source deployment. The repo launched in April 2026 and picked up over 1,000 stars quickly; most of that momentum is marketing from Ryze's blog, which is worth keeping in mind.\n\nVersus the official Google Ads MCP server, this one trades vendor independence for reach and write access. Versus the Claude Ads skill pack already in this directory, the roles differ: Claude Ads is the analyst that audits and plans, while this MCP server is the plumbing that lets any MCP-compatible agent actually touch live accounts. If you run an agent stack around n8n or Claude Code and manage spend on both Google and Meta, it's the fastest way to give your agents hands on the ad accounts. Just remember that hands can also delete things.",
-    "seo_title": "Google Ads + Meta Ads + Review — Freemium | MartechSignal",
+    "date_updated": "2026-09-07",
+    "description": "google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. Instead of jumping between three dashboards, you ask Claude or ChatGPT to pull campaign performance, pause ad sets, build audiences, or reconcile ad spend against GA4 conversions. It exposes 250+ tools: roughly 150 for Google Ads (campaign CRUD across Search, Display, Shopping, PMax, and Video, Keyword Planner data, bidding and budget controls, experiments, conversion tracking), 80+ for Meta Ads (campaigns, ad sets, creatives, lookalikes, lead forms, product catalogs), and 20+ for GA4 (standard and realtime reports, audiences, attribution settings, key events).\n\nDay to day, the value is in cross-platform work that usually means exporting CSVs. You can compare Google versus Meta spend side by side, correlate ad cost with GA4 conversion events, and ask for a unified ROAS read across both networks. The repo ships with 60+ example prompts and an n8n workflow template. Write access is a deliberate choice: the official Google MCP server is read-only, while this one can create, pause, and delete campaigns. That power means you should gate it carefully. Give it a test account first, and keep a human approving anything that touches budgets.\n\nSetup is remote rather than local. You add an endpoint URL to claude_desktop_config.json, Cursor, Windsurf, ChatGPT connectors, or n8n's MCP node. There's no local code to run and no API keys to manage in config files, but the endpoint comes from Ryze AI (Meow AI, LLC), the company behind the repo. The code is MIT licensed and free, but the hosted server is tied to Ryze's trial and paid plans, so treat this as freemium infrastructure rather than a standalone open-source deployment. The repo launched in April 2026 and picked up over 1,000 stars quickly; most of that momentum is marketing from Ryze's blog, which is worth keeping in mind.\n\nVersus the official Google Ads MCP server, this one trades vendor independence for reach and write access. Versus the Claude Ads skill pack already in this directory, the roles differ: Claude Ads is the analyst that audits and plans, while this MCP server is the plumbing that lets any MCP-compatible agent reach live accounts. If you run an agent stack around n8n or Claude Code and manage spend on both Google and Meta, it's the fastest way to give your agents hands on the ad accounts. Just remember that hands can also delete things.",
+    "seo_title": "Google Ads + Meta Ads + GA4 MCP Review | MartechSignal",
     "seo_description": "Google Ads + Meta Ads + GA4 MCP — MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. Open source & free to self-host.",
     "deep_dive": {
       "hands_on": [
         "This MCP server hands your AI agent read and write access to Google Ads, Meta Ads, and GA4: roughly 150 Google Ads tools for campaign, keyword, bidding, budget, and conversion work, 80-plus Meta tools across campaigns, creatives, lookalikes, and lead forms, and GA4 reporting to reconcile spend against conversions. You ask for a performance summary or a paused ad set and it executes, no dashboard hopping.",
         "The power cuts both ways. This is real spend and real changes executed from chat, so guardrails matter: review every write, keep human approval in the loop, and scope the API keys tightly. Setup means Google Cloud project work and a Meta app registration, so it is for teams comfortable with MCP plumbing. For those teams, the workflow compression is dramatic and the 1,000-plus stars show rapid adoption."
       ],
-      "verdict": "High-value tooling for performance teams already running agents and MCP. Keep human approval on every write."
+      "verdict": "High-value tooling for performance teams already running agents and MCP. Keep human approval on every write.",
+      "faq_extra": [
+        [
+          "How many tools does the Google Ads + Meta Ads + GA4 MCP server expose?",
+          "The README claims 250+ tools across three APIs: 150+ for Google Ads, covering campaign management, Keyword Planner research, bidding and budgets, audiences, extensions, experiments, negative keywords, labels, and conversion tracking; 80+ for Meta Ads, covering campaigns, ad sets, creatives, audiences, lead gen, catalogs, and insights; and 20+ for GA4, covering reporting, audiences, property config, attribution, and key events. A separate six tool research set handles search, webpage analysis, stock images, and landing page fetches. Those are the README's own numbers, not a tool by tool count of ours."
+        ],
+        [
+          "What credentials do I need to set it up?",
+          "Fewer than three ad APIs would suggest. There is no Google Ads client file, no Meta access token, and no GA4 service account JSON to manage. Setup points your client at the hosted endpoint connector.get-ryze.ai/mcp, and auth is OAuth 2.1 with PKCE, so you connect your Google and Meta accounts on first use. The README states the server stores no ad data or credentials. It is MIT licensed, but no self host path is documented; the repo reads as a hosted endpoint rather than a local install."
+        ],
+        [
+          "Can it edit campaigns, or is it read only?",
+          "The README claims full read and write across all three platforms and contrasts that with the official Google Ads MCP, which it describes as read only. Writes are gated: the README says the server is read only by default and that write operations require explicit confirmation. That is documented rather than independently tested, so keep a human approving anything that moves budget."
+        ],
+        [
+          "How much does it cost?",
+          "Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server itself is free, with you paying only for the AI assistant you use and your ad spend. The hosted endpoint is run by Ryze AI, whose own plans start at $89 a month for Paid ads Autopilot with a 7 day free trial and scale to $1,499 for Ecom Autopilot. If you want only the MCP connection and not Ryze's managed services, confirm what the free path covers before you build on it."
+        ]
+      ]
     }
   },
   {
@@ -5416,14 +5513,32 @@
     "hq": "Tokyo, Japan",
     "status": "active",
     "date_added": "2026-08-20",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-07",
     "description": "L Harness (line-harness-oss) is an open-source CRM and marketing automation suite for LINE Official Accounts, built by Japanese developer Shuichi Noda and run under AI Agent Inc. It targets companies, shops, and marketing agencies in Japan that run LINE as a customer channel and want the step-delivery and segmentation features of paid tools like L-Step (from ¥20,000/mo) and L Message without the monthly license fee. The software itself costs ¥0; you deploy it to your own Cloudflare account using Workers, D1, and Pages, and the setup CLI (npx create-line-harness) handles database creation, worker deployment, LIFF app registration, and admin user creation in about five minutes.\n\nThe feature list covers the standard LINE marketing playbook: step delivery with minute-level delay control and conditional branching, tag-based segment broadcasts with automatic queueing past 500 recipients, LIFF forms, rich menu switching per user or tag, behavior-based lead scoring, Google Calendar booking with webinar auto-scheduling, and an affiliate measurement system with click-to-conversion tracking and last-touch attribution. What separates it from the commercial incumbents is the AI layer. The repo ships an MCP server (@line-harness/mcp-server) so you can drive the entire system from Claude Code in natural language: create scenarios, monitor unanswered conversations, and send broadcasts. There is also a typed TypeScript SDK and webhook input/output for Stripe and Slack. BAN detection with automatic account switching is included for multi-account operators, a feature the paid tools do not touch.\n\nPricing is genuinely simple but not free in the absolute sense. The MIT-licensed software costs nothing, and Cloudflare's free tier covers most small deployments, but you still pay LINE's own per-message delivery fees and any Cloudflare usage beyond the free tier. The project's own pricing page is honest about this, and also about the fact that someone on your side owns updates and incident response. A managed version, L Harness Cloud, exists from the same developer if you want the infrastructure handled.\n\nAgainst the paid incumbents, L Harness wins on cost, API access (full API where L-Step and L Message expose none), and the MCP integration. It loses on support guarantees: no SLA, no phone support, and the admin UI documentation is Japanese-first, with English, Chinese, Korean, and Spanish READMEs. The repo has 568 stars and 246 commits as of August 2026, pushed within days of this writing, so it is actively maintained but still pre-1.0 (v0.21.x).\n\nWho should skip it: teams with no Cloudflare or LINE Developers setup capability, anyone who needs a vendor SLA, and marketers outside Japan where LINE is not a primary channel. For everyone else running LINE marketing, this is the first credible zero-license-cost alternative to the L-Step category.",
     "deep_dive": {
       "hands_on": [
         "L Harness is the zero-license alternative to the paid LINE marketing tools: step delivery with minute-level delays and conditional branching, tag-based segment broadcasts, LIFF forms, rich menus, behavior-based lead scoring, Google Calendar booking, and affiliate tracking with last-touch attribution, all deployed to your own Cloudflare account in about five minutes via the setup CLI. The software itself costs nothing, so the barrier to entry is Cloudflare comfort rather than budget.",
         "You still pay LINE's per-message fees and any Cloudflare usage past the free tier, and operations, updates, and incident response are yours, with no SLA to lean on. Documentation is Japanese-first, the project sits pre-1.0 at v0.21.x with 568 stars, and it has existed for only months. The MCP server for Claude Code control is genuinely unusual, but the use case is strictly Japan-focused LINE marketing."
       ],
-      "verdict": "The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case."
+      "verdict": "The first credible free alternative to L-Step for LINE marketing in Japan. Outside Japan there is no use case.",
+      "faq_extra": [
+        [
+          "What does L Harness cost to run?",
+          "The software is MIT licensed and free to self host on Cloudflare Workers, D1, and Pages, which the project states fits inside Cloudflare's free tier. You still pay for the LINE Official Account itself under LINE Yahoo's free message allotment and paid plans, a custom domain, any external AI provider, and an outsourced build if you commission one. Two operational caveats from the docs: D1 queries error out once daily read or write limits are hit rather than billing overage, and L Harness Cloud is a separate managed product with no published price."
+        ],
+        [
+          "What can an AI agent control through the MCP server?",
+          "The bundled @line-harness/mcp-server is documented as full operation from Claude Code in natural language. Named tools cover reading conversations (list_conversations, get_conversation) so an agent can monitor unanswered chats, building messages (create_scenario, update_step), and sending (broadcast, send_message), where sending requires user confirmation. The practical loop is an agent drafting and staging step sequences and broadcasts while you approve the sends."
+        ],
+        [
+          "What is step delivery on LINE?",
+          "Step delivery sends a pre built sequence of LINE messages where each step waits a set delay before the next, which is how Japanese LINE marketers run onboarding and nurture. In L Harness each step carries its own delay in minutes and steps can branch, and broadcasts go to all followers, tags, or segments on a schedule with automatic queueing past 500 recipients. Rich menus can auto switch per user or tag alongside the sequence."
+        ],
+        [
+          "What happens when a LINE account gets banned?",
+          "The docs describe BAN detection with automatic friend migration to the next account in a pool, and a traffic pool that spreads sending across multiple LINE Official Accounts, all managed from one dashboard with per account scoping for scenarios, tags, and delivery. Worth knowing that running several accounts to spread volume sits outside what LINE's terms are written for, so treat the pool as resilience rather than a growth lever."
+        ]
+      ]
     },
     "seo_title": "L Harness Review — Open Source | MartechSignal",
     "seo_description": "L Harness — Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source & free to self-host."
@@ -6489,5 +6604,49 @@
     "description": "NocoDB turns any SQL database into a smart, Airtable-style spreadsheet with forms, views, permissions and automations on top. It is free to self-host under a Sustainable Use License (fair-code: free to use, not free to resell as a service; the same class as n8n's license), with paid cloud and enterprise tiers. For marketing teams it is the most direct self-hosted answer to the spreadsheet sprawl that runs campaign ops: content calendars, influencer and partner trackers, budgets, launch checklists and lead lists become shared, permissioned bases over your own Postgres or MySQL, with forms feeding them and webhooks pushing events into the rest of the stack. Compared with Airtable, you give up polish and the native integrations catalog and gain data ownership, no per-seat cost and SQL access to everything. Compared with NocoBase or Budibase, it is much faster to value: if a structured table with views and forms covers the need, NocoDB is the shortest path, and it is the most popular project in this class at 64,000-plus GitHub stars. We have not run NocoDB in production; this assessment is based on the documented architecture and public materials.",
     "seo_title": "NocoDB Review: Self-Hosted Airtable Alternative",
     "seo_description": "NocoDB turns any database into an Airtable-style spreadsheet. Self-host free, no per-seat cost. Compare features, pricing & alternatives."
+  },
+  {
+    "slug": "superlines",
+    "name": "Superlines",
+    "tagline": "AI Search Intelligence platform for brands and agencies",
+    "category": "seo",
+    "status": "active",
+    "date_added": "2026-09-07",
+    "date_updated": "2026-09-07",
+    "website": "https://www.superlines.io/",
+    "pricing_url": "https://www.superlines.io/pricing",
+    "pricing_model": "paid",
+    "price_from": 79,
+    "price_notes": "Starter EUR79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro EUR199/mo (150 prompts, 3 brands, exports, site audits); Growth EUR379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial.",
+    "open_source": false,
+    "api_available": true,
+    "ai_features": [
+      "Tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews",
+      "GEO (Generative Engine Optimization) analytics with recommendations",
+      "Data available via UI, API and MCP server"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Gemini",
+      "Perplexity",
+      "Google AI Overviews",
+      "API",
+      "MCP"
+    ],
+    "founded": "2023",
+    "hq": "Helsinki, Finland",
+    "description": "Superlines is an AI Search Intelligence platform that measures and grows brand visibility across answer engines - ChatGPT, Gemini, Perplexity and Google AI Overviews. Its stated differentiator is data collection from the real user-facing AI interfaces rather than API outputs, which the vendor argues can diverge from what customers see; the practical consequence for a marketing team is visibility data that matches the answers their buyers get. The platform tracks 10+ engines, exposes everything through a UI, an API and an MCP server, and pairs monitoring with an Action Center that turns visibility gaps into tasks. Pricing starts at EUR79/month for three engines and 50 tracked prompts on one brand, scales through Pro at EUR199 (150 prompts, 3 brands, exports, site audits) and Growth at EUR379 (300 prompts, 7 brands, API access), with a 7-day free trial and 12% off annual billing. The company is Helsinki-based with agency programs as a core go-to-market. For teams already running AI-visibility spreadsheets, the evaluation question is whether real-interface collection and the MCP access are worth the subscription over manual prompt panels; assess it as a GEO analytics layer rather than a content-creation tool.",
+    "seo_title": "Superlines Review: AI Search Visibility | MartechSignal",
+    "seo_description": "Tracks brand visibility on ChatGPT, Gemini and Perplexity with real-UI data and MCP access, from EUR79/mo. Compare AI features, integrations & alternatives.",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from the vendor's live site and pricing pages (September 2026); we have not run Superlines ourselves. The pitch that matters for marketing ops is the collection method: Superlines samples the actual AI Search interfaces your customers use, on the argument that API-mode outputs differ from what users see. That claim is worth testing in a trial against your own prompt panel before committing budget.",
+        "The agency angle is structural, not cosmetic: multi-brand workspaces, competitor tracking on every plan including Starter, and an agency program. Prompts tracked scale 50/150/300 across Starter/Pro/Growth, history runs 1/2/6 months, and API access gates at Growth - so the data leaves the dashboard only once you are three tiers up.",
+        "The MCP server is the notable integration decision: an agent such as Claude Code can query your AI Search visibility data directly, which fits the pattern of GEO analytics becoming infrastructure that agents read rather than another dashboard a human checks."
+      ],
+      "best_for": "Brand and agency teams that need defensible AI Search visibility numbers across multiple engines, and teams that want GEO data readable by agents through MCP.",
+      "not_for": "Teams wanting a free tier (entry is EUR79/mo after a 7-day trial) and content teams looking for an AI writing tool - Superlines measures visibility, it does not generate content.",
+      "verdict": "A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from EUR79 per month."
+    }
   }
 ]

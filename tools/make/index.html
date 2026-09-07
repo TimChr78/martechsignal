@@ -38,11 +38,11 @@
     "publisher": {
       "@id": "https://martechsignal.com/#organization"
     },
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
-      "price": 16,
+      "price": 9,
       "priceCurrency": "USD"
     }
   },
@@ -93,7 +93,7 @@
         "name": "How much does Make cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Make has a free tier; paid plans start at $16/mo."
+          "text": "Make has a free tier; paid plans start at $9/mo."
         }
       },
       {
@@ -102,6 +102,38 @@
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What counts as a credit in Make?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Since August 27, 2026, credits are Make's billing unit, replacing operations. By default one operation equals one credit, and each module action in a scenario, like adding a Google Sheets row or fetching Gmail account data, consumes one credit. Router modules and the error handlers (Rollback, Break, Resume, Commit, Ignore) consume no credits, while some advanced features running on Make's AI Provider can consume more. Make warns you at 75% and 90% usage, sells extra bundles of 1,000 or 10,000 credits, auto purchases 10,000 on paid plans, and expires unused credits at the end of the billing term."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Make cost per month?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Free is $0 with 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files, and 512 MB of data transfer. Core is $9 a month, Pro is $16, and Teams is $29, each for 10,000 credits a month, with a slider from 10,000 up to 8M+ credits. Annual billing saves 15% or more, though the page does not print the annual per month figures. Paid tiers raise maximum execution to 40 minutes, file limits to 100 to 500 MB, and log storage to 30 or 60 days. Enterprise is custom priced."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Make vs Zapier: which should marketing teams pick?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pick on data shape more than on list price. Make draws scenarios as a graph, so branching, looping, and error handling are visual, and its credit model prices a module action once rather than per task, which favours CRM syncs and enrichment jobs that iterate over many rows. Zapier counters with a larger catalogue, more than 9,000 apps against Make's 3,000+, and a shallower learning curve, which still wins when the job is a handful of two or three step handoffs between common tools. Make's entry plan is more generous on volume, 1,000 credits against 100 tasks, but caps you at 2 active scenarios."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Make have AI agents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Make AI Agents are stated as available on all plans, including Free, and run inside scenarios. The wider AI surface includes Maia by Make, the Make AI Toolkit, the Make MCP Server for connecting external agents, and a Make Code App billed at 2 credits per second. Note that AI features can consume credits above the default one per action when they run on Make's AI Provider, so agent heavy scenarios cost more per run than plain module chains."
         }
       }
     ]
@@ -124,21 +156,29 @@
   <h1>Make Review</h1>
   <p class="sub">Visual automation platform for building complex workflows with AI agents and apps</p>
   <p class="count">Workflow Automation · Freemium</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-08-28</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-09-07</p>
 </section>
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Make sits between Zapier&#x27;s simplicity and n8n&#x27;s depth. Its visual scenario builder is genuinely better than Zapier&#x27;s linear editor. You can branch, loop, and handle errors visually without touching code. Founded in 2012, headquartered in Prague, and acquired by Celonis in 2020, Make occupies the middle ground where most technical marketing teams land. The key structural difference from Zapier is Make&#x27;s operations model: each module in a scenario is one operation, not one task. A module that processes 100 bundles counts as 1 operation, not 100. This makes Make dramatically cheaper than Zapier for data-heavy workflows (CRM syncs, contact enrichment) while still being more expensive than n8n for deep multi-step automation. Make&#x27;s AI features (agents, workflow suggestions, data transformation) are a step behind n8n in capability but ahead of Zapier in cost efficiency. The AI agent node doesn&#x27;t consume extra operations the way Zapier&#x27;s AI steps consume extra tasks. For marketing teams running AI-assisted content pipelines or lead enrichment workflows, this is a meaningful difference. Make is best for teams that want visual complexity without coding, data-heavy integrations where operations-based pricing beats tasks, and mid-size marketing operations teams that have outgrown Zapier but don&#x27;t need the full flexibility or maintenance burden of self-hosted n8n.</p>
+    <p>Make, the platform formerly known as Integromat, sits between Zapier&#x27;s simplicity and n8n&#x27;s depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration.
+
+Billing changed in August 2026, when credits replaced operations as the unit of account. By default one operation equals one credit, and each module action in a scenario, such as adding a Google Sheets row or fetching Gmail data, consumes one credit. Router modules and the error handlers (Rollback, Break, Resume, Commit, Ignore) consume none, some features running on Make&#x27;s AI Provider consume more, and Make warns at 75% and 90% usage with optional auto purchase of extra credit bundles. Unused credits expire at the end of the billing term.
+
+Plans are Free ($0, 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files), Core at $9 a month, Pro at $16, and Teams at $29, each for 10,000 credits a month with a slider running from 10,000 up to 8M+ credits, and Enterprise quoted. Annual billing saves 15% or more. Paid tiers raise maximum execution to 40 minutes, lift file limits to 100 to 500 MB, allow 5 GB of data transfer per 10,000 credits, and extend log storage to 30 or 60 days. No step or module limit is published.
+
+AI is a stated product line: Make AI Agents are available on all plans, alongside Maia by Make, the AI Toolkit, the Make MCP Server, and a Code App billed at 2 credits per second.
+
+For data heavy marketing work such as CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier&#x27;s per task metering. Teams that need self hosting or unlimited execution should look at n8n instead.</p>
     
     <h2>AI Capabilities</h2><ul class="feat-list"><li>AI agents</li><li>AI workflow suggestions</li><li>AI data transformation</li><li>AI content generation</li><li>AI error handling</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Slack</span><span>Gmail</span><span>Salesforce</span><span>HubSpot</span><span>Shopify</span><span>Stripe</span><span>Google Sheets</span><span>Notion</span></div>
-    <figure style="margin:1.5rem 0"><img src="/og/screenshots/make-2026-09.png" width="1200" height="750" alt="Screenshot of Make homepage, September 2026" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></figure><h2>Hands-on notes</h2><p>Make (formerly Integromat) is the visual automation platform that competes with Zapier on price and power. The visual editor shows data flowing between modules as a graph, which makes multi-step logic readable in a way Zapier&#x27;s linear steps are not. Scenarios can branch, loop, and reference earlier module output directly. The learning curve is steeper, and the interface is busier, but the capability ceiling is higher.</p><p>Pricing is per operation, which punishes chatty integrations, and it scales cheaper than Zapier at volume. For teams with any technical comfort, Make is usually the better deal.</p><h2>Verdict</h2><p>Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $16/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI agents</td><td><span style="color:var(--red-text)">&#10007;</span> Closed source - no self-hosting option</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Deep integration catalogue (8 listed)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Free tier to evaluate before committing</td><td></td></tr></tbody></table></section>
+    <figure style="margin:1.5rem 0"><img src="/og/screenshots/make-2026-09.png" width="1200" height="750" alt="Screenshot of Make homepage, September 2026" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></figure><h2>Hands-on notes</h2><p>Assessed from Make&#x27;s public pricing pages and help docs; we have no account. Make (formerly Integromat) is the visual automation platform that competes with Zapier on price and power. The visual editor shows data flowing between modules as a graph, which makes multi-step logic readable in a way Zapier&#x27;s linear steps are not. Scenarios can branch, loop, and reference earlier module output directly. The learning curve is steeper, and the interface is busier, but the capability ceiling is higher.</p><p>Pricing is per credit, where one credit equals one module action by default, which punishes chatty integrations and scales cheaper than Zapier&#x27;s per task metering at volume. For teams with any technical comfort, Make is usually the better deal.</p><h2>Verdict</h2><p>Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.</p>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $9/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI agents</td><td><span style="color:var(--red-text)">&#10007;</span> Closed source - no self-hosting option</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Deep integration catalogue (8 listed)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Free tier to evaluate before committing</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/workflow-automation/">Workflow Automation</a> <a href="/glossary/agentic-marketing/">Agentic Marketing</a> <a href="/glossary/mcp/">Mcp</a> <a href="/glossary/ai-agent/">Ai Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Make?</summary><p>Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Make cost?</summary><p>Make has a free tier; paid plans start at $16/mo.</p></details><details class="faq-item"><summary>Is Make a good workflow automation tool in 2026?</summary><p>Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/paperclip/"><div class="name">Paperclip</div><div class="tagline">Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit</div></a><a class="tool-card" href="/tools/tray-io/"><div class="name">Tray.io</div><div class="tagline">AI-powered integration platform for building custom automation and AI agents</div></a><a class="tool-card" href="/tools/workato/"><div class="name">Workato</div><div class="tagline">Enterprise integration and automation platform with AI-powered workflow orchestration</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/multi-touch-attribution-was-always-a-fiction/">Multi-Touch Attribution Was Always a Fiction</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Make?</summary><p>Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Make cost?</summary><p>Make has a free tier; paid plans start at $9/mo.</p></details><details class="faq-item"><summary>Is Make a good workflow automation tool in 2026?</summary><p>Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.</p></details><details class="faq-item"><summary>What counts as a credit in Make?</summary><p>Since August 27, 2026, credits are Make&#x27;s billing unit, replacing operations. By default one operation equals one credit, and each module action in a scenario, like adding a Google Sheets row or fetching Gmail account data, consumes one credit. Router modules and the error handlers (Rollback, Break, Resume, Commit, Ignore) consume no credits, while some advanced features running on Make&#x27;s AI Provider can consume more. Make warns you at 75% and 90% usage, sells extra bundles of 1,000 or 10,000 credits, auto purchases 10,000 on paid plans, and expires unused credits at the end of the billing term.</p></details><details class="faq-item"><summary>How much does Make cost per month?</summary><p>Free is $0 with 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files, and 512 MB of data transfer. Core is $9 a month, Pro is $16, and Teams is $29, each for 10,000 credits a month, with a slider from 10,000 up to 8M+ credits. Annual billing saves 15% or more, though the page does not print the annual per month figures. Paid tiers raise maximum execution to 40 minutes, file limits to 100 to 500 MB, and log storage to 30 or 60 days. Enterprise is custom priced.</p></details><details class="faq-item"><summary>Make vs Zapier: which should marketing teams pick?</summary><p>Pick on data shape more than on list price. Make draws scenarios as a graph, so branching, looping, and error handling are visual, and its credit model prices a module action once rather than per task, which favours CRM syncs and enrichment jobs that iterate over many rows. Zapier counters with a larger catalogue, more than 9,000 apps against Make&#x27;s 3,000+, and a shallower learning curve, which still wins when the job is a handful of two or three step handoffs between common tools. Make&#x27;s entry plan is more generous on volume, 1,000 credits against 100 tasks, but caps you at 2 active scenarios.</p></details><details class="faq-item"><summary>Does Make have AI agents?</summary><p>Yes. Make AI Agents are stated as available on all plans, including Free, and run inside scenarios. The wider AI surface includes Maia by Make, the Make AI Toolkit, the Make MCP Server for connecting external agents, and a Make Code App billed at 2 credits per second. Note that AI features can consume credits above the default one per action when they run on Make&#x27;s AI Provider, so agent heavy scenarios cost more per run than plain module chains.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/paperclip/"><div class="name">Paperclip</div><div class="tagline">Open-source control plane to manage AI agents like a company — hire, schedule, budget, and audit</div></a><a class="tool-card" href="/tools/tray-io/"><div class="name">Tray.io</div><div class="tagline">AI-powered integration platform for building custom automation and AI agents</div></a><a class="tool-card" href="/tools/workato/"><div class="name">Workato</div><div class="tagline">Enterprise integration and automation platform with AI-powered workflow orchestration</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -152,14 +192,14 @@
         <div class="side-row"><dt>Founded</dt><dd>2012</dd></div>
         <div class="side-row"><dt>HQ</dt><dd>Prague, Czech Republic</dd></div>
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
-        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-08-28">2026-08-28</time></dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-09-07">2026-09-07</time></dd></div>
       </dl>
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://www.make.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Make">Visit Make →</a>
       <div style="margin-top:.8rem"><a href="/categories/workflow-automation/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Workflow Automation Tools →</a></div>
     </div>
-    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Free (1,000 credits/mo); Core $9-10.59/mo; Pro $16/mo; Teams $29/mo; Enterprise custom</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://www.make.com/en/pricing" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Make">VIEW PRICING →</a></div></div>
+    <div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="https://www.make.com/en/pricing" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="Make">VIEW PRICING →</a></div></div>
   </aside>
 </div>
 </main>

@@ -84,7 +84,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "2d131fecc52c619e",
+  "fp": "074930486b2916cf",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -116,7 +116,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/amplitude/index.html": {
-  "fp": "8051dcf6b773faf4",
+  "fp": "43c77e524477ec39",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/anyword/index.html": {
@@ -256,7 +256,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/make/index.html": {
-  "fp": "8db7c1b3a56eef6b",
+  "fp": "9830d36616c2725b",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/manychat/index.html": {
@@ -296,7 +296,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/openoutreach/index.html": {
-  "fp": "dba2ff12bc2c339a",
+  "fp": "6f8c08185976b95a",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/openseo/index.html": {
@@ -348,7 +348,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/revealbot/index.html": {
-  "fp": "5a65e7eb9eb88d45",
+  "fp": "5e7fd8800d71513e",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/salesforce-crm/index.html": {
@@ -424,7 +424,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/wacrm/index.html": {
-  "fp": "b3095b84ffaca2e6",
+  "fp": "70acb9a48e35c159",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/workato/index.html": {
@@ -436,7 +436,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/zapier/index.html": {
-  "fp": "c6d2c30d0b77ab77",
+  "fp": "d94c1f982756628b",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/langchain/index.html": {
@@ -448,7 +448,7 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/cordys-crm/index.html": {
-  "fp": "b9b115e778da7fab",
+  "fp": "edb57143169a8d6c",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/claude-seo/index.html": {
@@ -504,11 +504,11 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/google-meta-ads-ga4-mcp/index.html": {
-  "fp": "39a9e24dfd82967a",
+  "fp": "811dcf2d258fe5ad",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/line-harness/index.html": {
-  "fp": "2aace681e4108539",
+  "fp": "9040c7deaf0adbf4",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/tools/monica/index.html": {
@@ -568,11 +568,11 @@
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/categories/seo/index.html": {
-  "fp": "557967d55c5c147a",
+  "fp": "aaf3f30a4b0d5edc",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/categories/workflow-automation/index.html": {
-  "fp": "3d4ea5b3f9a04738",
+  "fp": "cb8c5b7f1b3caeb9",
   "date": "2026-09-07"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
@@ -825,6 +825,10 @@
  },
  "/mnt/user/dev/martechsignal/blog/autonomous-stack-loophole-approval-step/index.html": {
   "fp": "529f8a23e34d7b54",
+  "date": "2026-09-07"
+ },
+ "/mnt/user/dev/martechsignal/tools/superlines/index.html": {
+  "fp": "feedb204dc3aa893",
   "date": "2026-09-07"
  }
 }
