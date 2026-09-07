@@ -425,7 +425,7 @@ def build_post(meta: dict, body_html: str) -> str:
 </main>
 <footer>
   <div class="foot-in">
-    <p><b>MartechSignal</b> — written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
     <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
@@ -501,19 +501,19 @@ def build_index(posts: list) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Blog — Martech Signal</title>
+<title>Blog | Martech Signal</title>
 <meta name="description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
-<meta property="og:title" content="Blog — Martech Signal">
+<meta property="og:title" content="Blog | Martech Signal">
 <meta property="og:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <meta property="og:url" content="https://martechsignal.com/blog/">
 <meta property="og:image" content="https://martechsignal.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Blog — Martech Signal">
+<meta name="twitter:title" content="Blog | Martech Signal">
 <meta name="twitter:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <meta name="twitter:image" content="https://martechsignal.com/og.png">
 <link rel="canonical" href="https://martechsignal.com/blog/">
@@ -538,9 +538,9 @@ def build_index(posts: list) -> str:
 </header>
 <main class="wrap">
   <div class="page-head reveal">
-    <p class="kicker">// THE BLOG — DEEPER THAN THE NEWSLETTER</p>
+    <p class="kicker">// THE BLOG | DEEPER THAN THE NEWSLETTER</p>
     <h1>Long-form signal.</h1>
-    <p>Tool teardowns, workflow recipes, and vendor moves decoded — published between newsletter issues.</p>
+    <p>Tool teardowns, workflow recipes, and vendor moves decoded | published between newsletter issues.</p>
   </div>
   <div class="sub-strip reveal">
     <div>
