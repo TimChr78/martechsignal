@@ -560,6 +560,23 @@ def build_tool_page(t, cats, all_tools):
         + "".join(_faq_items) + "</section>"
     ) if _faq_items else ""
 
+    # H4 (model-comparison audit): real homepage screenshots for tools where we captured
+    # one (og/screens/<slug>.webp). Honest caption with capture date. Pages without a
+    # captured screenshot render exactly as before.
+    screenshot_html = ""
+    _shot = ROOT / "og" / "screens" / f"{slug}.webp"
+    if _shot.exists():
+        from datetime import date as _date
+        screenshot_html = (
+            '<figure class="tool-screenshot" style="margin:1.2rem 0">'
+            f'<img src="/og/screens/{slug}.webp" alt="Homepage of {esc(t["name"])}" '
+            'width="1280" height="800" loading="lazy" '
+            'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
+            f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
+            f'{esc(t["name"])} homepage. Screenshot captured {esc(str(_date.today()))}; '
+            'site content belongs to its owner.</figcaption></figure>'
+        )
+
     deep_dive_html = dd_html
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""
 
@@ -592,6 +609,7 @@ def build_tool_page(t, cats, all_tools):
   <div class="detail-main">
     <h2>Overview</h2>
     {overview_html}
+    {screenshot_html}
     {ai_html}
     {integ_html}
     {deep_dive_html}
