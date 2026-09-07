@@ -337,7 +337,7 @@ def build_post(meta: dict, body_html: str) -> str:
     # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
     article_schema = {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "BlogPosting",
         "headline": title,
         "description": _clean_excerpt(excerpt),
         "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
