@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>MartechSignal — AI Marketing Automation, Audited</title>
+    <title>MartechSignal | AI Marketing Automation, Audited</title>
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 14:57:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:11:13 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Your autonomous stack's loophole is the approval step you deleted</title>
@@ -22,7 +22,7 @@
       <description>The customer data platform had a good run as a category. The pitch was simple: your customer data is scattered across dozens of systems, so buy a platform that ingests all of it, r</description>
     </item>
     <item>
-      <title>ChatGPT Isn't Search Anymore — It's Checkout</title>
+      <title>ChatGPT Isn't Search Anymore, It's Checkout</title>
       <link>https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
@@ -71,7 +71,7 @@
       <description>This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide og:image 404 that our de</description>
     </item>
     <item>
-      <title>Your Dashboard Can't See AI Search — Here's the 5-Layer Fix</title>
+      <title>Your Dashboard Can't See AI Search , Here's the 5-Layer Fix</title>
       <link>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
@@ -85,7 +85,7 @@
       <description>Two years ago the email go-to-market playbook was a DNS checklist: publish SPF, sign with DKIM, throw up a DMARC record, and your mail got to the inbox. That playbook is now table </description>
     </item>
     <item>
-      <title>You Don't Need a New Data Stack for AI — Fivetran Just Proved It</title>
+      <title>You Don't Need a New Data Stack for AI , Fivetran Just Proved It</title>
       <link>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
@@ -99,7 +99,7 @@
       <description>A product marketer needs to know what a competitor just shipped. Six months ago that meant opening Klue or Crayon, finding the battlecard, and hoping someone had refreshed it this </description>
     </item>
     <item>
-      <title>Google Just Handed Your Ad Budget to AI Agents — and Kept You on the Hook</title>
+      <title>Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</title>
       <link>https://martechsignal.com/blog/google-ad-agents-control-gap/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/google-ad-agents-control-gap/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>

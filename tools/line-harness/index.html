@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L Harness Review — Open Source | MartechSignal</title>
-<meta name="description" content="L Harness — Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
+<title>L Harness Review: Open Source | MartechSignal</title>
+<meta name="description" content="L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
-<meta property="og:title" content="L Harness Review — Open Source | MartechSignal">
-<meta property="og:description" content="L Harness — Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
+<meta property="og:title" content="L Harness Review: Open Source | MartechSignal">
+<meta property="og:description" content="L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
 <meta property="og:url" content="https://martechsignal.com/tools/line-harness/">
 <meta property="og:image" content="https://martechsignal.com/og/tools/line-harness.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="L Harness Review — Open Source | MartechSignal">
-<meta name="twitter:description" content="L Harness — Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
+<meta name="twitter:title" content="L Harness Review: Open Source | MartechSignal">
+<meta name="twitter:description" content="L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Open source &amp; free to self-host.">
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/line-harness.png">
 <link rel="canonical" href="https://martechsignal.com/tools/line-harness/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
@@ -161,7 +161,7 @@
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>L Harness (line-harness-oss) is an open-source CRM and marketing automation suite for LINE Official Accounts, built by Japanese developer Shuichi Noda and run under AI Agent Inc. It targets companies, shops, and marketing agencies in Japan that run LINE as a customer channel and want the step-delivery and segmentation features of paid tools like L-Step (from ¥20,000/mo) and L Message without the monthly license fee. The software itself costs ¥0; you deploy it to your own Cloudflare account using Workers, D1, and Pages, and the setup CLI (npx create-line-harness) handles database creation, worker deployment, LIFF app registration, and admin user creation in about five minutes.
+    <p>L Harness (line-harness-oss) is an open-source CRM and marketing automation suite for LINE Official Accounts, built by Japanese developer Shuichi Noda and run under AI Agent Inc. It targets companies, shops, and marketing agencies in Japan that run LINE as a customer channel and want the step-delivery and segmentation features of paid tools like L-Step (from ¥20, 000/mo) and L Message without the monthly license fee. The software itself costs ¥0; you deploy it to your own Cloudflare account using Workers, D1, and Pages, and the setup CLI (npx create-line-harness) handles database creation, worker deployment, LIFF app registration, and admin user creation in about five minutes.
 
 The feature list covers the standard LINE marketing playbook: step delivery with minute-level delay control and conditional branching, tag-based segment broadcasts with automatic queueing past 500 recipients, LIFF forms, rich menu switching per user or tag, behavior-based lead scoring, Google Calendar booking with webinar auto-scheduling, and an affiliate measurement system with click-to-conversion tracking and last-touch attribution. What separates it from the commercial incumbents is the AI layer. The repo ships an MCP server (@line-harness/mcp-server) so you can drive the entire system from Claude Code in natural language: create scenarios, monitor unanswered conversations, and send broadcasts. There is also a typed TypeScript SDK and webhook input/output for Stripe and Slack. BAN detection with automatic account switching is included for multi-account operators, a feature the paid tools do not touch.
 

@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Isn't Search Anymore — It's Checkout"
+title: "ChatGPT Isn't Search Anymore, It's Checkout"
 seo_title: "ChatGPT Isn't Search Anymore, It's Checkout"
 slug: chatgpt-isnt-search-anymore-its-checkout
 date: 2026-09-01

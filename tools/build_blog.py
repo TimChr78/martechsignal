@@ -770,7 +770,7 @@ def build_rss(posts: list) -> str:
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>MartechSignal — AI Marketing Automation, Audited</title>
+    <title>MartechSignal | AI Marketing Automation, Audited</title>
     <link>{site_url}/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>

@@ -211,16 +211,16 @@ def build_term_page(term, tools_map, all_terms):
     out = out_dir / "index.html"
     # Title: prefer short form for long terms (audit L1: glossary titles hit 90ch)
     title_term = term["term"] if len(term["term"]) <= 40 else term.get("short") or term["term"]
-    title = f"{title_term} — Definition | MartechSignal"
+    title = f"{title_term} | Definition | MartechSignal"
     if len(title) > 60:
         # Drop the "| MartechSignal" suffix (canonical/brand already in the page)
-        title = f"{title_term} — Definition"
+        title = f"{title_term} | Definition"
     if len(title) > 60 and " (" in title_term:
         # Strip parenthetical acronym, e.g. 'Customer Relationship Management (CRM)' -> 'CRM'
         title_term2 = term.get("short") or title_term.split(" (")[0]
-        title = f"{title_term2} — Definition | MartechSignal"
+        title = f"{title_term2} | Definition | MartechSignal"
         if len(title) > 60:
-            title = f"{title_term2} — Definition"
+            title = f"{title_term2} | Definition"
     out.write_text(page_shell(
         title,
         f"{term['definition'][:155]}",

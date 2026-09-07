@@ -40,11 +40,11 @@ def pricing_label(t):
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
-# Title:  "{Name} Review — {Pricing} | MartechSignal"        (primary)
-#   Try: "{Name} Review: {Category} — {Pricing} | MartechSignal" first;
+# Title:  "{Name} Review | {Pricing} | MartechSignal"        (primary)
+#   Try: "{Name} Review: {Category} | {Pricing} | MartechSignal" first;
 #   fallback without category if >60ch. For very long names we truncate
 #   the name part (never the suffix) to keep the pipe-brand intact.
-# Meta:   "{Name} — {Tagline}. {PricingPhrase} Compare AI features, integrations & top alternatives."
+# Meta:   "{Name} | {Tagline}. {PricingPhrase} Compare AI features, integrations & top alternatives."
 #   PricingPhrase varies by model: Open source / Enterprise / Starts at $X / etc.
 
 
@@ -62,18 +62,18 @@ def _seo_title_for(t, cats):
     price = pricing_label(t)
     suffix = " | MartechSignal"
     if cat_name:
-        cand = f"{name} Review: {cat_name} \u2014 {price}{suffix}"
+        cand = f"{name} Review: {cat_name}, {price}{suffix}"
         if len(cand) <= 60:
             return cand
-    cand2 = f"{name} Review \u2014 {price}{suffix}"
+    cand2 = f"{name} Review: {price}{suffix}"
     if len(cand2) <= 60:
         return cand2
-    overhead = len(f" Review \u2014 {price}{suffix}")
+    overhead = len(f" Review: {price}{suffix}")
     budget = 60 - overhead
     if budget < 10:
         return cand2[:60]
     truncated_name = name[:budget].rsplit(" ", 1)[0] if " " in name[:budget] else name[:budget]
-    return f"{truncated_name} Review \u2014 {price}{suffix}"[:60]
+    return f"{truncated_name} Review: {price}{suffix}"[:60]
 
 def _seo_description_for(t, cats):
     cat_map = {c["slug"]: c["name"] for c in cats}
@@ -106,10 +106,10 @@ def _seo_description_for(t, cats):
     else:
         price_phrase = f"{pricing_label(t)}."
     tail = " Compare AI features, integrations & top alternatives."
-    base = f"{name} \u2014 {tagline_sent} {price_phrase}{tail}"
+    base = f"{name} , {tagline_sent} {price_phrase}{tail}"
     if len(base) <= 155:
         return base
-    overhead = len(f"{name} \u2014  {price_phrase}{tail}") + 3
+    overhead = len(f"{name} ,  {price_phrase}{tail}") + 3
     budget = 155 - overhead
     if len(tagline_sent) > budget:
         if budget > 20 and " " in tagline_sent[:budget]:
@@ -117,9 +117,9 @@ def _seo_description_for(t, cats):
         else:
             trunc = tagline_sent[:max(0, budget - 1)]
         tagline_sent = trunc.rstrip(" ,;:") + "."
-    base2 = f"{name} \u2014 {tagline_sent} {price_phrase}{tail}"
+    base2 = f"{name} , {tagline_sent} {price_phrase}{tail}"
     if len(base2) > 155:
-        base2 = f"{name} \u2014 {price_phrase}{tail}".replace("  ", " ")
+        base2 = f"{name} , {price_phrase}{tail}".replace("  ", " ")
     if len(base2) > 155:
         sp = base2.rfind(" ", 0, 152)
         if sp > 60:
@@ -237,7 +237,7 @@ def build_hub(tools, cats):
     body = f"""<nav class="crumb"><a href="/">Home</a> / <span>Tools</span></nav>
 <section class="page-head">
   <h1>AI Marketing Tool Directory</h1>
-  <p class="sub">Curated tools for AI-powered marketing automation — from email and CRM to content generation and workflow automation.</p>
+  <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
@@ -264,7 +264,7 @@ def build_hub(tools, cats):
 
     out = TOOLS_DIR / "index.html"
     out.write_text(page_shell(
-        "AI Marketing Tool Directory — MartechSignal",
+        "AI Marketing Tool Directory | MartechSignal",
         f"Browse {len(active)} curated AI marketing automation tools across 13 categories - open-source and SaaS, with hands-on assessments, pricing notes, and integrations for each.",
         "/tools/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
@@ -479,7 +479,7 @@ def build_tool_page(t, cats, all_tools):
 
     # FAQPage Q&A: generated from tool data (AI Overview / PAA eligibility).
     # Rendered BOTH as visible accordions in the page body AND as FAQPage
-    # JSON-LD — schema-only Q&A without matching on-page content risks
+    # JSON-LD | schema-only Q&A without matching on-page content risks
     # Google structured-data guideline non-compliance.
     def _faq_for(t, c):
         name = t["name"]
@@ -874,7 +874,7 @@ def build_category_page(cat, tools):
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
     out.write_text(page_shell(
-        f"{cat_h1(cat['name'])} — MartechSignal",
+        f"{cat_h1(cat['name'])} | MartechSignal",
         (hub.get("meta") if hub else f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.") or "",
         f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
@@ -900,7 +900,7 @@ def _save_lastmod_store():
         _LASTMOD_STORE_PATH.write_text(json.dumps(_lastmod_store, indent=1))
 
 def _lastmod(path):
-    """Content-hash lastmod — audit 3 M2: rebuild re-stamps evergreen pages,
+    """Content-hash lastmod | audit 3 M2: rebuild re-stamps evergreen pages,
     teaching Google to distrust lastmod. Fingerprint the rendered HTML; if
     unchanged since the previous build, keep the stored date instead of today."""
     import datetime as _dt, hashlib as _hl, re as _re
@@ -1095,7 +1095,7 @@ def build_llms_txt(tools, cats):
         "# MartechSignal",
         "",
         "> Independent reviews of AI marketing automation tools. Structured audits of",
-        "> 100+ martech platforms — pricing, self-hosting, APIs, and which AI features",
+        "> 100+ martech platforms | pricing, self-hosting, APIs, and which AI features",
         "> actually ship. No sponsored rankings, no affiliate links.",
         "",
         "## Directory",
@@ -1173,7 +1173,7 @@ def build_llms_txt(tools, cats):
                 continue
             oss = " Open source." if t.get("open_source") else ""
             price = pricing_label(t)
-            full_lines.append(f"[{t['name']}](https://martechsignal.com/tools/{t['slug']}/) \u2014 {price}.{oss}")
+            full_lines.append(f"[{t['name']}](https://martechsignal.com/tools/{t['slug']}/) , {price}.{oss}")
             for para in desc.split("\n"):
                 para = para.strip()
                 if para:
