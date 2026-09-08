@@ -48,6 +48,26 @@ def pricing_label(t):
 #   PricingPhrase varies by model: Open source / Enterprise / Starts at $X / etc.
 
 
+def pricing_card(t):
+    """R2 H-10 (2026-09-08): pricing sidebar card. The VIEW PRICING anchor previously
+    rendered unconditionally with href='' when pricing_url was missing - clicking
+    reloaded the page AND fired a false 'Pricing click' Umami event. Emit the anchor
+    only when a real URL exists; otherwise render the notes as plain text."""
+    notes = (t.get("price_notes") or "").strip()
+    if not notes:
+        return ""
+    url = (t.get("pricing_url") or "").strip()
+    if url and url != "#":
+        cta = (f'<div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);'
+               f'color:var(--amber);text-decoration:none" href="{esc(url)}" target="_blank" '
+               f'rel="noopener" data-umami-event="Pricing click" '
+               f'data-umami-event-tool="{esc(t["name"])}">VIEW PRICING →</a></div>')
+    else:
+        cta = ""
+    return (f'<div class="side-card"><h3>Pricing</h3>'
+            f'<p style="color:var(--muted);font-size:.9rem">{esc(notes)}</p>{cta}</div>')
+
+
 def cat_h1(cat_name):
     """Category hub H1: append 'Tools' unless the name already ends with it."""
     name = (cat_name or "").strip()
@@ -106,27 +126,26 @@ def _seo_description_for(t, cats):
     else:
         price_phrase = f"{pricing_label(t)}."
     tail = " Compare AI features, integrations & top alternatives."
-    base = f"{name} , {tagline_sent} {price_phrase}{tail}"
+    base = f"{name}: {tagline_sent} {price_phrase}{tail}"
     if len(base) <= 155:
         return base
-    overhead = len(f"{name} ,  {price_phrase}{tail}") + 3
+    # R2 H-6 (2026-09-08): truncate only on word boundaries and keep the tail whole -
+    # the old logic sliced mid-phrase ("Compare AI features, integrations & top.")
+    # and could cut the tail itself ("Compare AI." / "Compare AI features.").
+    overhead = len(f"{name}:  {price_phrase}{tail}") + 1
     budget = 155 - overhead
-    if len(tagline_sent) > budget:
-        if budget > 20 and " " in tagline_sent[:budget]:
-            trunc = tagline_sent[:budget].rsplit(" ", 1)[0]
-        else:
-            trunc = tagline_sent[:max(0, budget - 1)]
-        tagline_sent = trunc.rstrip(" ,;:") + "."
-    base2 = f"{name} , {tagline_sent} {price_phrase}{tail}"
+    if len(tagline_sent) > budget and budget > 20 and " " in tagline_sent[:budget]:
+        trunc = tagline_sent[:budget].rsplit(" ", 1)[0].rstrip(" ,;:")
+        tagline_sent = trunc + "." if not trunc.endswith((".", "!", "?")) else trunc
+    base2 = f"{name}: {tagline_sent} {price_phrase}{tail}"
     if len(base2) > 155:
-        base2 = f"{name} , {price_phrase}{tail}".replace("  ", " ")
+        # drop the tagline entirely before ever cutting the tail mid-phrase
+        base2 = f"{name}: {price_phrase}{tail}"
     if len(base2) > 155:
-        sp = base2.rfind(" ", 0, 152)
-        if sp > 60:
-            base2 = base2[:sp]
-        else:
-            base2 = base2[:152]
-    return base2.rstrip(" ,;:") + ("." if not base2.rstrip().endswith((".", "!", "?")) else "")
+        # last resort: word-boundary cut inside the tail, ending with a full stop
+        cut = base2[:152].rsplit(" ", 1)[0].rstrip(" ,;:")
+        base2 = cut + "." if not cut.endswith((".", "!", "?")) else cut
+    return base2
 
 # ── Shared HTML shell ──────────────────────────────────────────────
 
@@ -448,6 +467,16 @@ def build_tool_page(t, cats, all_tools):
             parts.append(f'<h2>Ecosystem links</h2><ul class="feat-list">{items}</ul>')
         if dd.get("hands_on"):
             paras = "".join(f"<p>{esc(p)}</p>" for p in dd["hands_on"])
+            # R2 C-1 (2026-09-08): every Hands-on section must carry an explicit
+            # we-have-not-run disclosure. If the tool's own text lacks one, prepend a
+            # standard line so no page can imply hands-on testing it did not perform.
+            joined = " ".join(str(p) for p in dd["hands_on"]).lower()
+            if not any(m in joined for m in ("we have not run", "we have no account",
+                                             "not run this", "we have not tested",
+                                             "haven't run", "assessed from")):
+                paras = ('<p style="font-size:.78rem;color:var(--muted)">'
+                         'Assessed from public documentation, the repository, and vendor '
+                         'pages; we have not run this tool.</p>') + paras
             parts.append(f'<h2>Hands-on notes</h2>{paras}')
         if dd.get("verdict"):
             parts.append(f'<h2>Verdict</h2><p>{esc(dd["verdict"])}</p>')
@@ -592,8 +621,14 @@ def build_tool_page(t, cats, all_tools):
             f'<br><span style="font-size:.68rem;color:var(--muted)">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
         )
     if ext_lines:
+        # R2 C-2 (2026-09-08): the old wording ("we rate only tools we run") directly
+        # contradicted body disclosures like "we have no account" on the same page.
+        # State plainly whose ratings these are; link the methodology for the policy.
+        srcs = sorted({str(er.get("source", "")).strip() for er in t.get("external_ratings") if er.get("source")})
+        src_txt = "/".join(srcs) if srcs else "third-party platforms"
         note = ('<div class="side-row" style="font-size:.68rem;color:var(--muted)">'
-                'Third-party ratings, not ours. Our editorial policy: we rate only tools we run.</div>')
+                f'Ratings shown are third-party ({esc(src_txt)}), not MartechSignal\'s. '
+                'Our hands-on assessment is disclosed on this page.</div>')
         external_ratings_html = ('<div class="side-row"><dt style="font-weight:700">Third-party ratings</dt></div>'
                                  + "".join(ext_lines) + note)
     else:
@@ -638,7 +673,7 @@ def build_tool_page(t, cats, all_tools):
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
       <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>
-    {'<div class="side-card"><h3>Pricing</h3><p style="color:var(--muted);font-size:.9rem">' + esc(t.get('price_notes','')) + '</p><div style="margin-top:.8rem"><a style="font:600 .74rem var(--mono);color:var(--amber);text-decoration:none" href="' + esc(t.get('pricing_url','#')) + '" target="_blank" rel="noopener" data-umami-event="Pricing click" data-umami-event-tool="' + esc(t['name']) + '">VIEW PRICING →</a></div></div>' if t.get('price_notes') else ''}
+    {pricing_card(t)}
   </aside>
 </div>"""
 
@@ -667,12 +702,20 @@ def build_tool_page(t, cats, all_tools):
         except (TypeError, ValueError):
             _rv, _rc = None, 0
         if _rv:
-            schema["aggregateRating"] = {
+            # R2 C-2 (2026-09-08): attribute the rating to its actual source so the
+            # machine-readable claim is at least as attributable as the visible one.
+            _src = str(_er.get("source", "")).strip()
+            _agg = {
                 "@type": "AggregateRating",
                 "ratingValue": _rv,
                 "reviewCount": _rc,
                 "bestRating": int(_er.get("max", 5))
             }
+            if _src:
+                _agg["sourceOrganization"] = {"@type": "Organization", "name": _src}
+                if _er.get("url"):
+                    _agg["sourceOrganization"]["url"] = str(_er["url"])
+            schema["aggregateRating"] = _agg
     # Only emit offers.price when it is a real number. Custom/enterprise pricing
     # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
     # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the

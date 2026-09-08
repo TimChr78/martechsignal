@@ -2,6 +2,10 @@ User-agent: *
 Allow: /
 # Block crawlable parameterized duplicates of list endpoints (audit v2.2.5 M-3).
 # Clean URLs stay fully crawlable; only query-string variants are disallowed.
+# R2 H-1 (2026-09-08): the page-level CSS link is /style.css?v=<hash>, which matched
+# this disallow - Googlebot could not fetch the only stylesheet. Explicitly re-allow
+# the cache-busted stylesheet before the query-string disallow.
+Allow: /style.css*
 Disallow: /*?
 Disallow: /tools/*?
 
