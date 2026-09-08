@@ -9,7 +9,12 @@
   Cache-Control: public, max-age=31536000, immutable
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
-/*.html
+# HTML: /*.html does NOT match pretty URLs (/tools/x/ has no .html in the request path),
+# which is why pages served DYNAMIC despite this rule existing (M-1 root cause).
+# Match everything, let the asset rules above override per-page (last match wins).
+# Edge caches HTML 5 min + serves stale up to 60s while revalidating; Pages still
+# invalidates on deploy, so deploys stay effectively instant.
+/*
   Cache-Control: public, max-age=0, s-maxage=300, stale-while-revalidate=60
 /rss.xml
   Cache-Control: public, max-age=300
