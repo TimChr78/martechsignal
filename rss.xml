@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 23:46:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 07:07:36 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Before your next automation, run the blast radius audit</title>
+      <link>https://martechsignal.com/blog/automation-blast-radius-audit/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/automation-blast-radius-audit/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <description>A marketer in r/MarketingAutomation described what happened when their team moved from manual to automated targeting: "machine kept pushing the ad to wrong age bracket for like 2 w</description>
+    </item>
     <item>
       <title>Your autonomous stack's loophole is the approval step you deleted</title>
       <link>https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/</link>
