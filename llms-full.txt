@@ -179,6 +179,7 @@
 
 ## Analysis
 
+- [Before your next automation, run the blast radius audit](https://martechsignal.com/blog/automation-blast-radius-audit/) (2026-09-08)
 - [The Approval Step You Deleted Was the Audit Trail](https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/) (2026-09-07)
 - [The CDP Reckoning: Your Next CDP Is a Warehouse](https://martechsignal.com/blog/cdp-reckoning-warehouse-native/) (2026-09-02)
 - [ChatGPT Isn't Search Anymore, It's Checkout](https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/) (2026-09-01)
