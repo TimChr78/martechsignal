@@ -175,7 +175,7 @@
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Workato](https://martechsignal.com/tools/workato/): Enterprise AI governance plus integration and automation on one platform
-- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9, 000+ apps with AI-powered workflows
+- [Zapier](https://martechsignal.com/tools/zapier/): No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 ## Analysis
 
