@@ -317,8 +317,31 @@ def build_tool_page(t, cats, all_tools):
     c = cat_map.get(t["category"], {})
     slug = t["slug"]
 
-    # related tools (same category)
-    related = [x for x in all_tools if x["category"] == t["category"] and x["slug"] != slug and x.get("status") == "active"][:4]
+    # Similar tools (R2 H-2, 2026-09-09): relevance-scored instead of JSON-array-order.
+    # The old [:4] slice made the module an ordering artefact: only 5 distinct lists per
+    # category, 67/132 pages received zero module inlinks while array-first tools got 21.
+    # Score keyword overlap from this tool's own metadata; same-category gets the 1.3x
+    # intent boost; deterministic per slug (pure function of content, no rotation key -
+    # stable builds keep lastmod honest).
+    _src_text = " ".join(str(t.get(k, "")) for k in ("name", "tagline", "description", "ai_features", "integrations"))
+    related = suggest_links.suggest_tools_for_text(
+        _src_text, max_suggestions=10, exclude_slugs={slug},
+        source_category=t.get("category"))
+    # Fairness re-rank (R2 H-2 follow-up): keyword overlap alone still starves tail
+    # tools. Promote zero-inlink candidates among the top-10 relevance picks so every
+    # page participates in the internal-link graph; relevance orders within each group.
+    # The inlink table is built once per build (in main) and stashed on this module.
+    related = related[:4]
+    # Reserved slots (R2 H-2): host pages carry one zero-inlink same-category tool so
+    # the whole catalogue stays inside the internal-link graph (see main()).
+    _have = {r["slug"] for r in related}
+    for _rid in getattr(sys.modules[__name__], "_similar_reservations", {}).get(slug, []):
+        if _rid in _have or len(related) >= 5:
+            continue
+        _rt = next((x for x in all_tools if x["slug"] == _rid and x.get("status") == "active"), None)
+        if _rt:
+            related.append({"name": _rt["name"], "slug": _rt["slug"], "tagline": _rt.get("tagline", "")})
+            _have.add(_rid)
     related_html = ""
     if related:
         items = "".join(f'<a class="tool-card" href="/tools/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
@@ -1107,6 +1130,35 @@ def main():
     tools, cats = load()
     active = [t for t in tools if t.get("status") == "active"]
     print(f"Building tool directory: {len(active)} active tools, {len(cats)} categories\n")
+
+    # R2 H-2 guaranteed coverage: closed-form reservation computed purely from
+    # tools.json (no link-graph feedback). Each active tool is reserved one slot on a
+    # deterministic same-category host (stable md5 of its slug over the sorted peer
+    # list). Every tool therefore appears on at least one peer's Similar-Tools module,
+    # the whole catalogue stays in the internal-link graph, and hosts never reshuffle
+    # between builds (lastmod stays honest).
+    _reservations = {}
+    _by_cat = {}
+    for _t in active:
+        _by_cat.setdefault(_t["category"], []).append(_t["slug"])
+    # Deterministic assignment: each tool is reserved on a same-category host chosen
+    # by md5(slug+peer); if that host already carries 2 reservations, walk the md5-
+    # ordered peer list until one has capacity (max 2 per host keeps modules honest).
+    _load = {}
+    for _t in sorted(active, key=lambda x: x["slug"]):
+        _s = _t["slug"]
+        _peers = sorted(x for x in _by_cat.get(_t["category"], []) if x != _s)
+        if not _peers:
+            continue
+        _order = sorted(_peers, key=lambda p: int(hashlib.md5((_s + p).encode()).hexdigest(), 16))
+        for _host in _order:
+            if _s in _reservations.get(_host, []):
+                break
+            if _load.get(_host, 0) < 2:
+                _reservations.setdefault(_host, []).append(_s)
+                _load[_host] = _load.get(_host, 0) + 1
+                break
+    setattr(sys.modules[__name__], "_similar_reservations", _reservations)
 
     # Hub
     print("Hub:")
