@@ -271,6 +271,28 @@ def _clean_excerpt(text, limit=155):
     text = text[:sp] if sp > 60 else text[:limit - 3]
     return text.rstrip(" ,;:.—-") + "."
 
+def _date_modified(meta, date_str):
+    """R2 M-7 (2026-09-08): dateModified must reflect real edits. Use the last git commit
+    that touched the draft; fall back to file mtime, then the publish date."""
+    import subprocess as _sp, os as _os
+    dp = meta.get('_draft_path')
+    if dp and _os.path.exists(dp):
+        try:
+            out = _sp.run(['git', 'log', '-1', '--format=%cI', '--', dp],
+                          capture_output=True, text=True, timeout=10,
+                          cwd=_os.path.dirname(_os.path.abspath(dp)) or '.')
+            if out.returncode == 0 and out.stdout.strip():
+                return out.stdout.strip()[:10]
+        except Exception:
+            pass
+        try:
+            import datetime as _dt
+            return _dt.datetime.fromtimestamp(_os.path.getmtime(dp)).strftime('%Y-%m-%d')
+        except Exception:
+            pass
+    return date_str
+
+
 def build_post(meta: dict, body_html: str) -> str:
     """Generate the full HTML page for a blog post."""
     title = meta.get('title', 'Untitled')
@@ -343,7 +365,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
         "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
         "datePublished": date_str,
-        "dateModified": date_str,
+        "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
         "image": f"https://martechsignal.com/og/{slug}.png",
     }
@@ -804,6 +826,7 @@ def main():
 
         text = draft_path.read_text()
         meta, body_md = parse_frontmatter(text)
+        meta['_draft_path'] = str(draft_path)  # R2 M-7: dateModified from git mtime
 
         if not meta.get('title'):
             print(f"  ⚠ No title in frontmatter, skipping")

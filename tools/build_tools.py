@@ -975,12 +975,21 @@ def _save_lastmod_store():
 def _lastmod(path):
     """Content-hash lastmod | audit 3 M2: rebuild re-stamps evergreen pages,
     teaching Google to distrust lastmod. Fingerprint the rendered HTML; if
-    unchanged since the previous build, keep the stored date instead of today."""
+    unchanged since the previous build, keep the stored date instead of today.
+    R2 M-13 (2026-09-08): also exclude the related-reading block and the CSS cache-bust
+    hash from the fingerprint - the deterministic rotation rewrites one link line on
+    ~132 pages per deploy as the pool grows, which reset every lastmod and taught
+    Google the whole sitemap was noise. Only real content changes re-stamp now.
+    """
     import datetime as _dt, hashlib as _hl, re as _re
     p = Path(path)
     if not p.exists():
         return _dt.datetime.now().strftime("%Y-%m-%d")
-    fp = _hl.sha256(_re.sub(r"<lastmod>[^<]*</lastmod>", "", p.read_text()).encode()).hexdigest()[:16]
+    html = p.read_text()
+    html = _re.sub(r"<lastmod>[^<]*</lastmod>", "", html)
+    html = _re.sub(r'<section class="related-reading">.*?</section>', "", html, flags=_re.S)
+    html = _re.sub(r"/style\.css\?v=[a-f0-9]{8}", "/style.css", html)
+    fp = _hl.sha256(html.encode()).hexdigest()[:16]
     store = _load_lastmod_store()
     key = str(p)
     prev = store.get(key)
