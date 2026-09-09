@@ -1,4 +1,4 @@
-# R2 L-5 (2026-09-08): collapse double-slash paths to the canonical single-slash URL.
-# Pages serves //tools/x/ as 200 (soft duplicate); normalize to 301.
-/://  https://martechsignal.com/:splat  301
-/*//  https://martechsignal.com/:splat  301
+# Double-slash collapse rules removed 2026-09-09: `/*//  https://martechsignal.com/:splat  301`
+# matched EVERY single-trailing-slash path (not just double-slash), producing a
+# 301 -> 308 infinite loop site-wide. Do not re-add without testing a normal
+# trailing-slash URL (e.g. /tools/nocobase/) returns 200 first.
