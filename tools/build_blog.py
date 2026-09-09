@@ -426,7 +426,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <footer>
   <div class="foot-in">
     <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
-    <nav class="foot-links"><a href="/blog/">WRITING</a><a href="/rss.xml">RSS</a><a href="/tools/">TOOLS</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/blog/">WRITING</a><a href="/tools/">TOOLS</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>
@@ -577,7 +577,7 @@ def build_index(posts: list) -> str:
 <footer>
   <div class="foot-in">
     <p>© {datetime.now().year} MartechSignal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/blog/">BLOG</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/blog/">BLOG</a><a href="/tools/">TOOLS</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
 <script>

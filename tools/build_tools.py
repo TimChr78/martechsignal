@@ -230,6 +230,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
       <a href="/trending/">TRENDING</a>
       <a href="/glossary/">GLOSSARY</a>
       <a href="/blog/">BLOG</a>
+      <a href="/checklist/">CHECKLIST</a>
       <a href="/about/">ABOUT</a>
       <a href="/contact/">CONTACT</a>
       <a href="/privacy/">PRIVACY</a>
