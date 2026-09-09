@@ -5327,7 +5327,8 @@
     "The free development tier is generous, and production pricing by execution is predictable. Teams wanting purely no-code will find it programmer-ish; teams wanting code control with managed auth and scheduling will feel at home immediately."
    ],
    "verdict": "The automation platform for developers who want code control with SaaS convenience."
-  }
+  },
+  "tagline": "Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps"
  },
  {
   "slug": "cordys-crm",

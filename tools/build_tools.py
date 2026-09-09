@@ -831,6 +831,32 @@ def tool_card_html(t):
 </a>\n"""
 
 
+_CATEGORY_META = {
+    # R2 H-7 (2026-09-09): hand-written metas for the 9 non-hub categories. Replaces
+    # the single templated sentence (54-77% filler, .lower() mangled acronyms).
+    "crm": "Browse 22 open-source and freemium CRM tools - SuiteCRM, EspoCRM, Attio and more - compared on self-hosting, automation depth and real pricing.",
+    "email-marketing": "13 email marketing platforms compared: deliverability, automation builder, AI features and honest pricing for list sizes from 1,000 to 1M.",
+    "social-media": "6 social media management tools for scheduling, listening and reporting - what each one actually automates and what it costs.",
+    "advertising": "7 AI advertising tools covering Google Ads, Meta and creative testing - Opteo, Madgicx, Smartly.io and more, with real entry prices.",
+    "chatbots": "5 chatbot and conversational-AI platforms compared on channels, handover-to-human flows, AI features and self-hosting options.",
+    "content-ai": "8 AI content generation tools tested against brief quality, SEO readiness and pricing - from Copy.ai to Jasper alternatives.",
+    "marketing-automation": "11 marketing automation platforms compared on workflows, data ownership, AI agents and self-hosting - NocoDB, Mautic, Ortto and more.",
+    "open-source": "67 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+    "personalization": "5 website personalization and CDP tools - Nosto, Dynamic Yield, Segment and more - compared on targeting, price and data control.",
+}
+
+def category_meta(cat, cat_tools, hub):
+    """R2 H-7: hub meta if present, else the hand-written per-category meta, else a
+    fallback that preserves acronym casing (no .lower())."""
+    m = (hub or {}).get("meta")
+    if m:
+        return m
+    m = _CATEGORY_META.get(cat.get("slug", ""))
+    if m:
+        return m
+    return f"Browse {len(cat_tools)} {cat_h1(cat.get('name',''))} for AI-powered marketing automation."
+
+
 def build_category_page(cat, tools):
     if cat["slug"] == "open-source":
         # Show ALL open-source tools regardless of primary category
@@ -954,7 +980,8 @@ def build_category_page(cat, tools):
             },
             {
                 "@type": "ItemList",
-                "name": f"{cat['name']} Tools",
+                # R2 H-8: cat_h1 avoids the "Open-Source Tools Tools" double-Tools
+                "name": cat_h1(cat['name']),
                 "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
                 "numberOfItems": len(cat_tools),
                 "itemListElement": [
@@ -971,7 +998,7 @@ def build_category_page(cat, tools):
     out = out_dir / "index.html"
     out.write_text(page_shell(
         f"{cat_h1(cat['name'])} | MartechSignal",
-        (hub.get("meta") if hub else f"Browse {len(cat_tools)} {cat['name'].lower()} tools for AI-powered marketing automation.") or "",
+        category_meta(cat, cat_tools, hub),
         f"/categories/{cat['slug']}/", body, schema, og_image=f"og/categories/{cat['slug']}.png"))
     return out
 
