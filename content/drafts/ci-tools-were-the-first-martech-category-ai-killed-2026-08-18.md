@@ -3,7 +3,7 @@ title: "Competitive-Intel Tools Were the First Martech Category AI Killed"
 seo_title: "CI Tools: The First Category AI Killed"
 slug: ci-tools-were-the-first-martech-category-ai-killed
 date: 2026-08-18
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, Competitive Intelligence, Martech Strategy, Budget, Enablement]
 categories: [marketing-automation]
 ---

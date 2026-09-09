@@ -3,7 +3,7 @@ title: "OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without
 seo_title: "OpenAI Isn't Building Ads. It's Building Agents"
 slug: openai-agent-ads-spending-without-you
 date: 2026-08-05
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, Advertising, Agents, OpenAI]
 categories: [advertising]
 ---

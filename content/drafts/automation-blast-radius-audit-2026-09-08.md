@@ -3,7 +3,7 @@ title: "Before your next automation, run the blast radius audit"
 seo_title: "Before your next automation, run the blast radius audit"
 slug: automation-blast-radius-audit
 date: 2026-09-08
-author: MartechSignal
+author: Tim Christensen
 tags: [Marketing Automation, How-To]
 categories: [marketing-automation, workflow-automation]
 ---

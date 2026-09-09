@@ -3,7 +3,7 @@ title: "Your AI Marketing Agent Doesn't Need Better Prompts"
 seo_title: "AI Agents Need Campaign State, Not Prompts"
 slug: ai-agents-need-campaign-state
 date: 2026-08-03
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, Marketing Ops, Agents, Automation, Campaign State, n8n]
 categories: [marketing-automation]
 ---

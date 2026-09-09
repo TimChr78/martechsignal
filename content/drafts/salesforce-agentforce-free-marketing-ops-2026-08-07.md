@@ -3,7 +3,7 @@ title: "Salesforce Made Agentforce Free. What Marketing Ops Can Build With It."
 seo_title: "Agentforce Is Free: What Marketing Ops Can Build"
 slug: salesforce-agentforce-free-marketing-ops
 date: 2026-08-07
-author: MartechSignal
+author: Tim Christensen
 tags: [Salesforce, AI Agents, Marketing Ops]
 categories: [crm]
 ---

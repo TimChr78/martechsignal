@@ -3,7 +3,7 @@ title: "Your autonomous stack's loophole is the approval step you deleted"
 seo_title: "The Approval Step You Deleted Was the Audit Trail"
 slug: autonomous-stack-loophole-approval-step
 date: 2026-09-07
-author: MartechSignal
+author: Tim Christensen
 tags: [Marketing Automation, AI Agents, Governance]
 categories: [marketing-automation, workflow-automation]
 ---

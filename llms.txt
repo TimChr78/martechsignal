@@ -68,7 +68,7 @@
 
 ### CRM
 
-- [AlphOne](https://martechsignal.com/tools/alphone/): Plugin-first open-source CRM written in Go (open source)
+- [AlphOne](https://martechsignal.com/tools/alphone/): Plugin-first CRM (source-available, Elastic 2.0) written in Go (open source)
 - [Attio](https://martechsignal.com/tools/attio/): AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Cordys CRM](https://martechsignal.com/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment (open source)
 - [Django CRM](https://martechsignal.com/tools/django-crm/): Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting (open source)

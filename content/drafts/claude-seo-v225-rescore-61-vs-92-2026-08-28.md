@@ -2,7 +2,7 @@
 title: "Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right."
 slug: claude-seo-v225-rescore-61-vs-92
 date: 2026-08-28
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, SEO, Agent Skills, Quality]
 categories: [agent-skills]
 ---
@@ -60,7 +60,7 @@ An audit is a list of claims, not a list of orders. Two of v2.2.5's recommendati
 
 **"Deepen the glossary to match Wikipedia and Salesforce."** The audit measured our 31 glossary terms against 2,000-word vendor guides and encyclopedic incumbents and proposed lifting the top eight to match. We declined the blanket version. Our Search Console impressions say demand concentrates in a handful of terms, so ten terms got concrete "The numbers" sections with real benchmarks and prices, and the rest stay at uniform depth until data argues otherwise. Writing 2,000 words to match an incumbent's word count is a cost you pay to look like them, and we cannot out-Wikipedia Wikipedia.
 
-**"Close the authority gap with links."** The backlink findings leaned toward footprint-building, which is the standard prescription for a 12/100 authority score. We published our objection on August 25: in [the post on link-building and AI answers](/blog/link-building-wont-get-you-into-ai-answers-2026-08-25/), we argued that the earnable asset for this site is a number an answer engine can quote, not a swapped link from a domain of similar weakness. DA-driven link swaps between two young sites move nothing we can measure and burn time we would rather spend on the rating methodology. If we are wrong, the 90-day GSC data will say so.
+**"Close the authority gap with links."** The backlink findings leaned toward footprint-building, which is the standard prescription for a 12/100 authority score. We published our objection on August 25: in [the post on link-building and AI answers](/blog/link-building-wont-get-you-into-ai-answers/), we argued that the earnable asset for this site is a number an answer engine can quote, not a swapped link from a domain of similar weakness. DA-driven link swaps between two young sites move nothing we can measure and burn time we would rather spend on the rating methodology. If we are wrong, the 90-day GSC data will say so.
 
 ## What this means if you run AI audit skills
 

@@ -3,7 +3,7 @@ title: "The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For"
 seo_title: "The CDP Reckoning: Your Next CDP Is a Warehouse"
 slug: cdp-reckoning-warehouse-native
 date: 2026-09-02
-author: MartechSignal
+author: Tim Christensen
 tags: [CDP, CRM, Analytics, Data Stack]
 categories: [crm, analytics]
 ---

@@ -4,7 +4,7 @@ seo_title: "Your Martech Budget Is Bleeding and Nobody Measures It"
 seo_title: "Your Martech Budget Is Bleeding and Nobody's Me"
 slug: martech-budget-bleeding-nobody-measuring
 date: 2026-08-06
-author: MartechSignal
+author: Tim Christensen
 tags: [Martech, Measurement, AI]
 categories: [analytics]
 ---

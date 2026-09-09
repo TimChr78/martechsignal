@@ -3,7 +3,7 @@ title: "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt"
 seo_title: "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt"
 slug: zapier-vs-make-two-ways-to-buy-the-same-workflow-debt
 date: 2026-08-27
-author: MartechSignal
+author: Tim Christensen
 tags: [Automation, Zapier, Make, n8n, Workflow Automation]
 categories: [workflow-automation]
 ---

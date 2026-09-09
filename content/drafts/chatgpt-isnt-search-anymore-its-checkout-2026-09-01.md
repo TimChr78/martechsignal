@@ -3,7 +3,7 @@ title: "ChatGPT Isn't Search Anymore, It's Checkout"
 seo_title: "ChatGPT Isn't Search Anymore, It's Checkout"
 slug: chatgpt-isnt-search-anymore-its-checkout
 date: 2026-09-01
-author: MartechSignal
+author: Tim Christensen
 tags: [SEO, AI Search, ChatGPT, Advertising]
 categories: [seo, advertising]
 ---

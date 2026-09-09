@@ -3,7 +3,7 @@ title: "Multi-Touch Attribution Was Always a Fiction"
 seo_title: "Multi-Touch Attribution Was Always a Fiction"
 slug: multi-touch-attribution-was-always-a-fiction
 date: 2026-08-14
-author: MartechSignal
+author: Tim Christensen
 tags: [Analytics, Attribution, AI, Privacy]
 categories: [analytics]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Claude Cowork is eating the edges of your martech stack"
 date: 2026-07-30
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, Marketing Ops, Claude Cowork, Anthropic, Automation, Martech Stack]
 categories: [agent-skills]
 ---

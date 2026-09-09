@@ -1,0 +1,4 @@
+# R2 L-5 (2026-09-08): collapse double-slash paths to the canonical single-slash URL.
+# Pages serves //tools/x/ as 200 (soft duplicate); normalize to 301.
+/://  https://martechsignal.com/:splat  301
+/*//  https://martechsignal.com/:splat  301

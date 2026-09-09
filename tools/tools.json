@@ -1323,7 +1323,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://www.espocrm.com/cloud/",
   "price_from": 0,
-  "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from EUR 12.90/user/mo (Basic, min 3 users) to EUR 59 (Ultimate, min 10), all plans include the Advanced Pack.",
+  "price_notes": "Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.",
   "ai_features": [],
   "integrations": [],
   "github_repo": "espocrm/espocrm",
@@ -1338,7 +1338,7 @@
   "status": "active",
   "date_added": "2026-07-27",
   "date_updated": "2026-09-07",
-  "description": "EspoCRM is a self-hosted CRM under AGPLv3 that has been in development since 2011, started in Ukraine and now owned by EspoCRM, Inc., a Delaware corporation, and it moves fast: 10.0.7 shipped on September 3, 2026, three months after the 10.0 line landed. The free core covers accounts, contacts, leads, opportunities, cases, a knowledge base, customer portals, mass email campaigns with target lists and mail merge, web-to-lead forms, kanban, and a formula engine with dynamic logic for calculated fields and conditional UI; version 10 added multiple pipelines, record locking, and categories for custom entity types. What the free edition leaves out matters when you compare it with commercial CRMs: workflow automation, the business process management designer, and reports are paid extensions sold together as the Advanced Pack, as are VoIP and Twilio telephony, Google Workspace and Outlook sync, and the AI add-on. That add-on, called Intelligence and first released in August 2026, connects to OpenAI, Gemini, Claude, or any OpenAI-compatible provider and adds summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, which is the only AI surface in the product. Integration work is well served: a documented REST API at api/v1 with an OpenAPI spec since version 9.3 and official API clients in PHP, JavaScript, Python, Rust, Java, Go, and Zig. Requirements are PHP 8.3 through 8.5 with MySQL 8 or later, MariaDB 10.3 or later, or PostgreSQL 15 or later, plus an optional WebSocket daemon for real-time updates. Installation is an archive with a browser wizard, a shell script with Let's Encrypt options, or Docker. Vendor-hosted cloud plans run from EUR 12.90 per user monthly on Basic to EUR 59 on Ultimate, each including the Advanced Pack. We have not run EspoCRM; this assessment is from the repository, the docs, and the vendor site.",
+  "description": "EspoCRM is a self-hosted CRM under AGPLv3 that has been in development since 2011, started in Ukraine and now owned by EspoCRM, Inc., a Delaware corporation, and it moves fast: 10.0.7 shipped on September 3, 2026, three months after the 10.0 line landed. The free core covers accounts, contacts, leads, opportunities, cases, a knowledge base, customer portals, mass email campaigns with target lists and mail merge, web-to-lead forms, kanban, and a formula engine with dynamic logic for calculated fields and conditional UI; version 10 added multiple pipelines, record locking, and categories for custom entity types. What the free edition leaves out matters when you compare it with commercial CRMs: workflow automation, the business process management designer, and reports are paid extensions sold together as the Advanced Pack, as are VoIP and Twilio telephony, Google Workspace and Outlook sync, and the AI add-on. That add-on, called Intelligence and first released in August 2026, connects to OpenAI, Gemini, Claude, or any OpenAI-compatible provider and adds summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, which is the only AI surface in the product. Integration work is well served: a documented REST API at api/v1 with an OpenAPI spec since version 9.3 and official API clients in PHP, JavaScript, Python, Rust, Java, Go, and Zig. Requirements are PHP 8.3 through 8.5 with MySQL 8 or later, MariaDB 10.3 or later, or PostgreSQL 15 or later, plus an optional WebSocket daemon for real-time updates. Installation is an archive with a browser wizard, a shell script with Let's Encrypt options, or Docker. Vendor-hosted cloud plans run from € 12.90 per user monthly on Basic to € 59 on Ultimate, each including the Advanced Pack. We have not run EspoCRM; this assessment is from the repository, the docs, and the vendor site.",
   "seo_title": "EspoCRM Review: CRM, Open Source | MartechSignal",
   "seo_description": "EspoCRM: Lightweight open-source CRM with sales automation. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
   "deep_dive": {
@@ -1355,7 +1355,7 @@
    "hands_on": [
     "Assessed from the repository, docs.espocrm.com, and espocrm.com; we have not run an instance. The correction worth making up front: workflow automation, the BPM designer, and reports are paid extensions in the Advanced Pack, not part of the free edition, so the free product's automation surface is the formula engine and dynamic logic rather than rule-based workflows. Cloud plans bundle the Advanced Pack, which changes the comparison with per-seat SaaS CRMs considerably.",
     "Release cadence is the strongest freshness signal in this category: the 10.0 line shipped July 2, 2026 and reached 10.0.7 by September 3, with 9.x maintained in parallel at 9.3.10. Version 10 brought multiple pipelines, record locking, cascade removal with restore, and categories for custom entities; 9.x added collaborators, scheduled email send, web-to-lead forms, and the OpenAPI spec. Two releases in the 10.0 line were security fixes with published GitHub advisories, which is the pattern you want to see in a project that handles customer data.",
-    "The extension catalog is where EspoCRM monetizes, and pricing is not published on the product pages: neither the Advanced Pack nor the Intelligence add-on shows a number on espocrm.com, so budget planning means contacting the vendor. Cloud hosting is the exception, with published EUR pricing: Basic at EUR 12.90 per user monthly with a three-user minimum, Enterprise at EUR 22 with five users, and Ultimate at EUR 59 with ten users, all including the Advanced Pack and official extensions.",
+    "The extension catalog is where EspoCRM monetizes, and pricing is not published on the product pages: neither the Advanced Pack nor the Intelligence add-on shows a number on espocrm.com, so budget planning means contacting the vendor. Cloud hosting is the exception, with published € pricing: Basic at € 12.90 per user monthly with a three-user minimum, Enterprise at € 22 with five users, and Ultimate at € 59 with ten users, all including the Advanced Pack and official extensions.",
     "The API story is better than most open-source CRMs manage: a documented REST API under api/v1, an OpenAPI spec available at /api/v1/OpenApi since 9.3, and first-party clients for PHP, JavaScript, Python, Rust, Java, Go, and Zig. No native AI ships in the free core; the Intelligence extension is the AI surface, and its release notes show it arrived in August 2026 with OpenAI-compatible provider support added two weeks later."
    ],
    "verdict": "A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.",
@@ -1366,14 +1366,15 @@
     ],
     [
      "Is EspoCRM free? What do the paid parts cost?",
-     "The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in EUR: Basic EUR 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise EUR 22.00 (minimum 5, 10GB), and Ultimate EUR 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions."
+     "The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in €: Basic € 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise € 22.00 (minimum 5, 10GB), and Ultimate € 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions."
     ],
     [
      "EspoCRM vs SuiteCRM: which open-source CRM fits better?",
      "Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM's advantage is module depth and longevity on legacy PHP deployments; EspoCRM's is development pace, with the 10.0 line shipped in July 2026."
     ]
    ]
-  }
+  },
+  "currency": "EUR"
  },
  {
   "slug": "frase",
@@ -2444,7 +2445,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://matomo.org/pricing/",
   "price_from": 0,
-  "price_notes": "Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 EUR/mo, Business 1,450 EUR/mo, Enterprise 3,400 EUR/mo, about 17% less billed annually. Cloud from 22 EUR/mo for 50,000 hits, scaling to 14,850 EUR/mo at 100 million. 21-day Cloud trial.",
+  "price_notes": "Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial.",
   "ai_features": [
    "AI chatbot traffic reports",
    "MCP Server plugin",
@@ -2509,7 +2510,8 @@
      "Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 added reports for AI chatbot content requests and real-time chatbot traffic, an AIAgents plugin ships enabled on new instances, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions requiring approval. There is no AI anomaly detection or predictive analytics in the product today."
     ]
    ]
-  }
+  },
+  "currency": "EUR"
  },
  {
   "slug": "mautic",
@@ -2520,7 +2522,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://www.mautic.org/pricing",
   "price_from": 0,
-  "price_notes": "Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from EUR 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.",
+  "price_notes": "Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions.",
   "ai_features": [],
   "integrations": [
    "Salesforce",
@@ -2543,7 +2545,7 @@
   "status": "active",
   "date_added": "2026-07-27",
   "date_updated": "2026-09-07",
-  "description": "Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,500 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from EUR 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.",
+  "description": "Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,500 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances.",
   "seo_title": "Mautic Review: Open Source | MartechSignal",
   "seo_description": "Mautic: Open-source marketing automation platform with email. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
   "deep_dive": {
@@ -2578,7 +2580,8 @@
      "The features page describes IP anonymization for visitor records, site tracking that can be placed behind a cookie consent gate, automated cleanup of anonymous visitors, audit logs, and inactive contacts after a configurable time frame, and CCPA do-not-sell list syncing through MaxMind-powered cron jobs (mautic:max-mind:purge and mautic:donotsell:download). Contacts get a preference center and frequency rules. Worth knowing: the documentation itself has no dedicated GDPR page, so these capabilities live on a marketing page and the implementation work stays with whoever operates the instance."
     ]
    ]
-  }
+  },
+  "currency": "EUR"
  },
  {
   "slug": "mixpanel",
@@ -3116,7 +3119,7 @@
   "pricing_model": "freemium",
   "pricing_url": "https://paperclip.inc/pricing",
   "price_from": 0,
-  "price_notes": "Self-hosted free (MIT). Hosted cloud: one plan at EUR 10/month or EUR 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts.",
+  "price_notes": "Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts.",
   "ai_features": [
    "Org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more)",
    "Per-agent budgets: warn at 80%, hard stop at 100%, auto-pause at cap",
@@ -3150,7 +3153,7 @@
   "status": "active",
   "date_added": "2026-07-27",
   "date_updated": "2026-09-07",
-  "description": "Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat EUR 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,187 stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.",
+  "description": "Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,187 stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.",
   "seo_title": "Paperclip Review: Freemium | MartechSignal",
   "seo_description": "Paperclip: Open-source control plane to manage AI agents like a. Open source & free to self-host. Compare AI features, integrations & top alternatives.",
   "deep_dive": {
@@ -3185,7 +3188,8 @@
      "Create an agent whose adapter is claude_local. Claude Code must be installed and on PATH, and authentication uses ANTHROPIC_API_KEY, AWS Bedrock environment variables, or a Claude subscription login. The adapter stores the session id and resumes it on the next heartbeat when the working directory still matches, injects Paperclip skills by building a directory of symlinks passed with --add-dir, and exposes a Test Environment button that probes the CLI in headless print mode. maxTurnsPerRun defaults to 300."
     ]
    ]
-  }
+  },
+  "currency": "EUR"
  },
  {
   "slug": "pencil",
@@ -6553,7 +6557,7 @@
    "install": [
     "The README's documented path is Docker with the images at hub.docker.com/r/squidex/notifo, plus a docker compose file in the repo under deployment/docker-compose. Installation details live in the project wiki rather than a docs site.",
     "Pull: docker pull squidex/notifo:latest. Published tags are latest, 1 and 1.3.0, and Docker Hub shows the last push roughly four years ago, so the image will not include the .NET 10 work on main.",
-    "The repo compose file wires squidex/notifo:1 with mongo:5 and squidex/caddy-proxy:2.7.6, sets URLS__BASEURL=https://your-domain and STORAGE__MONGODB__CONNECTIONSTRING=mongodb://notifo_mongo, and healthchecks curl -f http://localhost:5000/healthz.",
+    "The repo compose file wires squidex/notifo:1 with mongo:5 and squidex/caddy-proxy:2.7.6, sets URLS__BAS€L=https://your-domain and STORAGE__MONGODB__CONNECTIONSTRING=mongodb://notifo_mongo, and healthchecks curl -f http://localhost:5000/healthz.",
     "Configuration flattens nested config keys into environment variables: mongoDB.connectionString becomes MONGODB__CONNECTIONSTRING, and the same pattern covers email, SMS and web push settings.",
     "Storage: the wiki states MongoDB is the only supported database. Redis is optional, used as a backplane for the sockets layer.",
     "Watch for a stale image name: the wiki still says to use notifo/notifo:1, but that repository does not exist on Docker Hub. The real image is squidex/notifo, and for current code you will be building from source."
@@ -7042,7 +7046,7 @@
  {
   "slug": "alphone",
   "name": "AlphOne",
-  "tagline": "Plugin-first open-source CRM written in Go",
+  "tagline": "Plugin-first CRM (source-available, Elastic 2.0) written in Go",
   "website": "https://github.com/gopherium/AlphOne",
   "category": "crm",
   "pricing_model": "open-source",
@@ -7702,7 +7706,7 @@
   "pricing_url": "https://www.superlines.io/pricing",
   "pricing_model": "paid",
   "price_from": 79,
-  "price_notes": "Starter EUR79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro EUR199/mo (150 prompts, 3 brands, exports, site audits); Growth EUR379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial.",
+  "price_notes": "Starter €79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro €199/mo (150 prompts, 3 brands, exports, site audits); Growth €379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial.",
   "open_source": false,
   "api_available": true,
   "ai_features": [
@@ -7720,7 +7724,7 @@
   ],
   "founded": "2023",
   "hq": "Helsinki, Finland",
-  "description": "Superlines is an AI Search Intelligence platform that measures and grows brand visibility across answer engines - ChatGPT, Gemini, Perplexity and Google AI Overviews. Its stated differentiator is data collection from the real user-facing AI interfaces rather than API outputs, which the vendor argues can diverge from what customers see; the practical consequence for a marketing team is visibility data that matches the answers their buyers get. The platform tracks 10+ engines, exposes everything through a UI, an API and an MCP server, and pairs monitoring with an Action Center that turns visibility gaps into tasks. Pricing starts at EUR79/month for three engines and 50 tracked prompts on one brand, scales through Pro at EUR199 (150 prompts, 3 brands, exports, site audits) and Growth at EUR379 (300 prompts, 7 brands, API access), with a 7-day free trial and 12% off annual billing. The company is Helsinki-based with agency programs as a core go-to-market. For teams already running AI-visibility spreadsheets, the evaluation question is whether real-interface collection and the MCP access are worth the subscription over manual prompt panels; assess it as a GEO analytics layer rather than a content-creation tool.",
+  "description": "Superlines is an AI Search Intelligence platform that measures and grows brand visibility across answer engines - ChatGPT, Gemini, Perplexity and Google AI Overviews. Its stated differentiator is data collection from the real user-facing AI interfaces rather than API outputs, which the vendor argues can diverge from what customers see; the practical consequence for a marketing team is visibility data that matches the answers their buyers get. The platform tracks 10+ engines, exposes everything through a UI, an API and an MCP server, and pairs monitoring with an Action Center that turns visibility gaps into tasks. Pricing starts at €79/month for three engines and 50 tracked prompts on one brand, scales through Pro at €199 (150 prompts, 3 brands, exports, site audits) and Growth at €379 (300 prompts, 7 brands, API access), with a 7-day free trial and 12% off annual billing. The company is Helsinki-based with agency programs as a core go-to-market. For teams already running AI-visibility spreadsheets, the evaluation question is whether real-interface collection and the MCP access are worth the subscription over manual prompt panels; assess it as a GEO analytics layer rather than a content-creation tool.",
   "seo_title": "Superlines Review: AI Search Visibility | MartechSignal",
   "seo_description": "Superlines: AI Search Intelligence platform for brands and agencies. Starts at $79/mo. Compare AI features, integrations & top alternatives.",
   "deep_dive": {
@@ -7730,9 +7734,10 @@
     "The MCP server is the notable integration decision: an agent such as Claude Code can query your AI Search visibility data directly, which fits the pattern of GEO analytics becoming infrastructure that agents read rather than another dashboard a human checks."
    ],
    "best_for": "Brand and agency teams that need defensible AI Search visibility numbers across multiple engines, and teams that want GEO data readable by agents through MCP.",
-   "not_for": "Teams wanting a free tier (entry is EUR79/mo after a 7-day trial) and content teams looking for an AI writing tool - Superlines measures visibility, it does not generate content.",
-   "verdict": "A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from EUR79 per month."
-  }
+   "not_for": "Teams wanting a free tier (entry is €79/mo after a 7-day trial) and content teams looking for an AI writing tool - Superlines measures visibility, it does not generate content.",
+   "verdict": "A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from €79 per month."
+  },
+  "currency": "EUR"
  },
  {
   "slug": "opteo",

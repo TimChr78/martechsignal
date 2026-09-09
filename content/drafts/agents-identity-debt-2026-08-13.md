@@ -2,7 +2,7 @@
 title: "Your Agents Are Only as Smart as Your Identity Debt"
 slug: agents-identity-debt
 date: 2026-08-13
-author: MartechSignal
+author: Tim Christensen
 tags: [AI, Agents, Data, Identity]
 categories: [marketing-automation]
 ---

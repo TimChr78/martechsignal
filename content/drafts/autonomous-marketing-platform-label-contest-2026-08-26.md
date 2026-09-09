@@ -2,7 +2,7 @@
 title: "Autonomous Marketing Platforms Are Real. The Name Is Wrong."
 slug: autonomous-marketing-platform-label-contest
 date: 2026-08-26
-author: MartechSignal
+author: Tim Christensen
 tags: [Agent Skills, Advertising, AI Agents, Governance]
 categories: [agent-skills]
 ---

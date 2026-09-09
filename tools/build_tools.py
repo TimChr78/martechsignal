@@ -68,6 +68,27 @@ def pricing_card(t):
             f'<p style="color:var(--muted);font-size:.9rem">{esc(notes)}</p>{cta}</div>')
 
 
+_GLOSSARY_NAMES = None
+
+def _glossary_display(term_slug):
+    """R2 M-5 (2026-09-08): display glossary terms with their real names instead of
+    .title()-mangling acronyms (Mcp, Ai Agent, Crm). Falls back to acronym-aware title."""
+    global _GLOSSARY_NAMES
+    if _GLOSSARY_NAMES is None:
+        import json as _json
+        try:
+            g = _json.load(open("tools/glossary.json", encoding="utf-8"))
+            _GLOSSARY_NAMES = {x.get("slug"): (x.get("short") or x.get("term")) for x in g}
+        except Exception:
+            _GLOSSARY_NAMES = {}
+    if term_slug in _GLOSSARY_NAMES:
+        return _GLOSSARY_NAMES[term_slug]
+    words = term_slug.replace("-", " ").title()
+    for acr in ("Mcp", "Crm", "Seo", "Ai", "Cdp", "Dsp", "Dmp", "Utm", "Kpi", "Sms", "Api", "Cta", "Roi"):
+        words = words.replace(acr, acr.upper())
+    return words
+
+
 def cat_h1(cat_name):
     """Category hub H1: append 'Tools' unless the name already ends with it."""
     name = (cat_name or "").strip()
@@ -386,7 +407,7 @@ def build_tool_page(t, cats, all_tools):
     glossary_html = ""
     if _terms:
         _links = " ".join(
-            f'<a href="/glossary/{_term}/">{esc(_term.replace("-", " ").title())}</a>'
+            f'<a href="/glossary/{_term}/">{esc(_glossary_display(_term))}</a>'
             for _term in _terms
         )
         glossary_html = (
@@ -538,7 +559,13 @@ def build_tool_page(t, cats, all_tools):
             # freemium with a known paid entry: quote both sides of the freemium split
             a2 = f"{name} has a free tier; paid plans start at ${t['paid_from']}/mo."
         elif t.get("open_source"):
-            a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
+            # R2 L-1 (2026-09-08): source-available tools (alphone: Elastic 2.0) must not
+            # be called open source here - the license sidebar says otherwise.
+            _rec = json.dumps(t, ensure_ascii=False).lower()
+            if "elastic license" in _rec or "source-available" in _rec:
+                a2 = f"{name} is source-available and free to self-host. Check the license terms for commercial use; hosted plans may add support."
+            else:
+                a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
         elif t.get("price_from") is not None:
             if t.get("price_from"):
                 a2 = f"{name} starts at ${t['price_from']}/mo."
@@ -723,17 +750,19 @@ def build_tool_page(t, cats, all_tools):
     # at $49/mo is a machine-readable contradiction.
     _pf = t.get("price_from")
     _paid = t.get("paid_from")
+    # R2 M-4 (2026-09-08): respect the tool's actual currency (default USD).
+    _cur = (t.get("currency") or "USD").strip().upper()
     if _paid:
         schema["offers"] = {
             "@type": "Offer",
             "price": _paid,
-            "priceCurrency": "USD"
+            "priceCurrency": _cur
         }
     elif _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
         schema["offers"] = {
             "@type": "Offer",
             "price": _pf,
-            "priceCurrency": "USD"
+            "priceCurrency": _cur
         }
 
     breadcrumb = {

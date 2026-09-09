@@ -3,7 +3,7 @@ title: "Microsoft Just Removed the Steering Wheel From Search Ads"
 seo_title: "Microsoft Just Removed the Steering Wheel From Search Ads"
 slug: microsoft-search-ads-steering-wheel
 date: 2026-08-31
-author: MartechSignal
+author: Tim Christensen
 tags: [Advertising, Microsoft, AI, Paid Search]
 categories: [advertising]
 ---

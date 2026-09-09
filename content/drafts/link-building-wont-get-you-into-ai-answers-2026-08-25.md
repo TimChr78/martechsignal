@@ -3,7 +3,7 @@ title: "Link Building Won't Get You Into AI Answers. Community Signals Will."
 seo_title: "Link Building Won't Get You Into AI Answers"
 slug: link-building-wont-get-you-into-ai-answers
 date: 2026-08-25
-author: MartechSignal
+author: Tim Christensen
 tags: [SEO, AI Search, Link Building, Reddit, UGC]
 categories: [seo]
 ---

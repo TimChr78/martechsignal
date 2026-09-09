@@ -3,7 +3,7 @@ title: "Deliverability in the AI-spam Era Is a Content Problem, Not an IT Proble
 seo_title: "Deliverability in the AI-Spam Era Is a Content Problem"
 slug: deliverability-ai-spam-content-problem
 date: 2026-08-21
-author: MartechSignal
+author: Tim Christensen
 tags: [Email, Deliverability, AI]
 categories: [email-marketing]
 ---
