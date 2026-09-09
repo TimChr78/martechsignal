@@ -171,7 +171,7 @@
 - [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
 - [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
 - [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (open source)
-- [Pipedream](https://martechsignal.com/tools/pipedream/): 
+- [Pipedream](https://martechsignal.com/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
 - [Tray.io](https://martechsignal.com/tools/tray-io/): AI-powered integration platform for building custom automation and AI agents
 - [Workato](https://martechsignal.com/tools/workato/): Enterprise AI governance plus integration and automation on one platform
