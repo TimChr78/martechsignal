@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Sep 2026 03:41:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 06:56:00 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>NocoBase vs NocoDB vs Budibase: pick by team shape</title>
+      <link>https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the same escape hatch out of per-</description>
+    </item>
     <item>
       <title>Before your next automation, run the blast radius audit</title>
       <link>https://martechsignal.com/blog/automation-blast-radius-audit/</link>

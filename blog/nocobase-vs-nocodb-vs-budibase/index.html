@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NocoBase vs NocoDB vs Budibase: pick by team shape</title>
+<meta name="description" content="Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="NocoBase vs NocoDB vs Budibase: pick by team shape">
+<meta property="og:description" content="Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.">
+<meta property="og:url" content="https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/">
+<meta property="og:image" content="https://martechsignal.com/og/nocobase-vs-nocodb-vs-budibase.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "NocoBase vs NocoDB vs Budibase: pick by team shape",
+  "description": "Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-09-09",
+  "dateModified": "2026-09-09",
+  "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
+  "image": "https://martechsignal.com/og/nocobase-vs-nocodb-vs-budibase.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "NocoBase vs NocoDB vs Budibase: pick by team shape",
+      "item": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css?v=b780159f">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">OPEN SOURCE · WORKFLOW AUTOMATION · 9 MIN</p>
+<h1>NocoBase vs NocoDB vs Budibase: pick by team shape</h1>
+<p class="meta">SEP 09, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-quick-table">The quick table</a> · <a href="#read-the-licenses-before-you-read-the-features">Read the licenses before you read the features</a> · <a href="#who-owns-the-data-model">Who owns the data model</a> · <a href="#automation-depth-and-where-the-paywall-sits">Automation depth, and where the paywall sits</a> · <a href="#ai-and-agent-access">AI and agent access</a> · <a href="#what-it-actually-costs-at-10-and-50-users">What it actually costs at 10 and 50 users</a></nav>
+<p>Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: <a href="/tools/nocobase/">NocoBase</a>, <a href="/tools/nocodb/">NocoDB</a>, and <a href="/tools/budibase/">Budibase</a>. They all promise the same escape hatch out of per-seat SaaS: run it on your own server, keep the data in your own database, stop paying $24 a seat for what is essentially a spreadsheet with permissions. They deliver on that promise in three very different ways, and the wrong pick costs you a migration six months later.</p>
+
+<p>We pulled current numbers from all three GitHub repos and pricing pages this week (September 9, 2026), and cross-checked them against our own tool reviews. The short version: all three are free to self-host at both 10 users and 50, none of them is "open source" in the clean sense the word implies, and they split by what your team is actually trying to run. Spreadsheet replacement, operational system of record, or internal app builder. Pick the shape first and the tool falls out.</p>
+
+<h2 id="the-quick-table">The quick table</h2>
+
+<div class="table-wrap"><table><thead><tr><th></th><th>NocoBase</th><th>NocoDB</th><th>Budibase</th></tr></thead><tbody><tr><td>GitHub stars</td><td>~24,100</td><td>~64,900</td><td>~28,300</td></tr><tr><td>License</td><td>Apache-2.0 kernel wrapped in a custom agreement</td><td>Sustainable Use License (fair-code)</td><td>GPLv3 overall, pro folder under BSL</td></tr><tr><td>Latest release</td><td>v2.2.8 (Sep 8, 2026)</td><td>2026.08.2 (Sep 3, 2026)</td><td>v3.44.1 (Sep 7, 2026)</td></tr><tr><td>Min self-host spec</td><td>2 cores, 4 GB RAM</td><td>2 vCPU, 2 GB RAM</td><td>2 cores, 6 GB RAM</td></tr><tr><td>Free self-hosted seats</td><td>Unlimited</td><td>Unlimited</td><td>Unlimited</td></tr><tr><td>What it is</td><td>Data-model-first system builder</td><td>Airtable-style layer over your SQL database</td><td>Internal app and automation platform</td></tr></tbody></table></div>
+
+<p>All three shipped releases within the last week. None of these projects is coasting.</p>
+
+<h2 id="read-the-licenses-before-you-read-the-features">Read the licenses before you read the features</h2>
+
+<p>This is where the marketing copy and the repos disagree, and it matters if "we control it" is the whole reason you are here.</p>
+
+<p>NocoDB is the biggest project of the three and the least open. It runs under the Sustainable Use License, a fair-code license: internal business use is free with unlimited records and seats, but offering it to others as a hosted service needs a commercial license. If your plan is to build client-facing portals on it, that plan has a price tag attached. The marketing site says open source. The LICENSE.md says otherwise.</p>
+
+<p>NocoBase's kernel incorporates Apache 2.0, then layers its own agreement on top with restrictions like keeping the branding intact in the Community Edition. GitHub lists no standard SPDX license for the repo, which is the machine-readable way of saying the same thing. Commercial use is allowed, and you pay only if you want rebranding, SSO, or the advanced workflow features.</p>
+
+<p>Budibase is the cleanest of the three: GPLv3 overall, MPL 2.0 on the client libraries, and paid features in a separate folder under a Business Source License that converts to GPLv3 after four years. Apps you build are not GPL-restricted. If license hygiene is a hard requirement from your legal team, Budibase is the shortest conversation.</p>
+
+<h2 id="who-owns-the-data-model">Who owns the data model</h2>
+
+<p>This is the real fork in the road, and it decides how the tool feels in month six.</p>
+
+<p><strong>NocoDB does not own your data model. You do.</strong> Point it at a Postgres or MySQL database you already run and it renders grids, forms, kanban, and calendar views over your existing tables. Your schema stays your schema, queryable with plain SQL from any other tool in the stack. That is the strongest ownership story of the three: if NocoDB disappears tomorrow, your data is still just Postgres.</p>
+
+<p><strong>NocoBase owns the modeling and asks you to think in it.</strong> You define collections and fields inside the platform first, then assemble pages, workflows, and permissions on top. The data lives in its own database, and the plugin architecture extends nearly everything including UI blocks. The payoff is that lead routing with audit trails, campaign trackers joined to results, and content approval chains can match how your team actually works instead of bending around a fixed schema. The cost is a learning curve: someone on the team has to think in data models, and it shows.</p>
+
+<p><strong>Budibase sits between the two.</strong> It ships its own internal database (CouchDB under the hood) but connects to external Postgres, MySQL, MongoDB, SQL Server, Snowflake, Google Sheets, and REST sources. One behavior to plan around: automations fire on rows written through Budibase, not on rows inserted directly into an external database. If another system writes to the same Postgres table, Budibase will not react. Design your write paths accordingly or you will debug a silent automation at the worst possible moment.</p>
+
+<h2 id="automation-depth-and-where-the-paywall-sits">Automation depth, and where the paywall sits</h2>
+
+<p>All three run server-side automations without a browser open, but the free tier gives you very different amounts of rope.</p>
+
+<p>NocoDB's community edition includes six core views, conditional webhooks with custom payloads, and two workflows per base. Two. A content calendar plus a lead form will eat that budget fast. Timeline and gantt views, AI field types, and most integrations (Slack, SES, S3) are paid.</p>
+
+<p>NocoBase's community edition includes the core workflow engine and most of its AI employee capabilities, with unlimited applications, users, and records. Approvals, subflows, webhook workflows, SSO, and full record edit history sit behind the one-time $8,000 Professional Edition. That is a real wall, but note the shape of it: one payment, forever, no seat math. External database connections as data sources start at the $800 Standard Edition.</p>
+
+<p>Budibase's self-hosted open source plan is the most generous on paper: unlimited apps, unlimited automations, unlimited agents, unlimited users, even SSO, free forever in one workspace. Audit logs, enforced SSO, SCIM, and backups are enterprise. For a team escaping metered SaaS, "unlimited automations, $0" is the whole pitch, and Budibase is the only one of the three that fully delivers it.</p>
+
+<h2 id="ai-and-agent-access">AI and agent access</h2>
+
+<p>This is the dimension that changed most over the past year, and the three took different bets.</p>
+
+<p>Budibase went agents-first. Since the March 2026 beta you define an agent as an LLM with instructions, tools, memory, and structured outputs that can read rows, write rows, and trigger automations, with per-tool run-as permissions and Slack or Teams escalation when a human needs to approve. Model support is open rather than bundled: Anthropic, OpenAI, Google, Mistral, Groq, OpenRouter, or any OpenAI-compatible endpoint including locally hosted models. Bring your own key and the OSS edition runs agents for free.</p>
+
+<p>NocoBase bets on AI employees inside the product plus coding agents outside it. Version 2.0 added assistant-style agents that work on top of your data models, and the project publishes an MCP server plugin, HTTP APIs, a CLI, and a <a href="https://github.com/nocobase/skills">skills repo</a> so Claude Code, Codex, or Cursor can build and configure whole applications against your instance. If your ops team already lives in a coding agent, NocoBase is the most agent-buildable of the three.</p>
+
+<p>NocoDB ships an MCP server for record-level agent access, which is the right primitive for letting an agent query and update campaign data safely. Its NocoAI features (prompt-based schema, table, and formula generation, AI field types) are paid, and on self-hosted they belong to the enterprise tier.</p>
+
+<p>Worth naming the two adjacent options teams also evaluate here: <a href="/tools/tooljet/">ToolJet</a> and <a href="/tools/appsmith/">Appsmith</a>, both around 40,800 stars, both more developer-leaning. They are interface builders over your databases rather than database platforms, so they compete with Budibase's app-builder side more than with NocoDB's spreadsheet side. ToolJet's AI app generation and workflows are paid editions, and Appsmith's Ask AI landed in the community edition with v2.3. If nobody on the team writes SQL or JavaScript, neither belongs on the shortlist.</p>
+
+<h2 id="what-it-actually-costs-at-10-and-50-users">What it actually costs at 10 and 50 users</h2>
+
+<p>Self-hosted, the software line is $0 for all three at both team sizes. Unlimited seats is table stakes in this category. The real numbers are infrastructure plus whatever features force you to pay.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Scenario</th><th>NocoBase</th><th>NocoDB</th><th>Budibase</th></tr></thead><tbody><tr><td>Self-host, 10 users</td><td>$0 software + ~4 GB RAM box</td><td>$0 software + ~2 GB RAM box</td><td>$0 software + ~6 GB RAM box</td></tr><tr><td>Self-host, 50 users</td><td>$0 software, same box works</td><td>$0 software, docs recommend 4 vCPU / 8 GB for production</td><td>$0 software, compose cluster recommended</td></tr><tr><td>Paying for advanced features</td><td>$800 one-time (external DB sources, rebranding) or $8,000 one-time (SSO, approvals, subflows, audit history)</td><td>Enterprise self-host for AI and integrations (contact sales); cloud Plus caps at $108/mo, Business at $216/mo</td><td>$0 for everything except enterprise controls (audit logs, SCIM, backups)</td></tr><tr><td>Cloud instead</td><td>Not offered as standard cloud</td><td>Free 3-user tier, then $108/mo unlimited seats (Plus)</td><td>Pro $19/mo + $5/end user/mo</td></tr></tbody></table></div>
+
+<p>Two things stand out. NocoBase's paid tiers are one-time purchases with a one-year upgrade window, which is a genuinely different financial shape from every SaaS you are trying to escape: $8,000 once beats $24 per seat per month at 50 users ($14,400 a year) by the second year. And NocoDB's cloud pricing quietly admits the per-seat model is dead, capping at nine paid seats with unlimited users after. The industry is converging on flat pricing from both directions.</p>
+
+<p>The hidden cost at every tier is the same one: the person who maintains the Docker containers, the backups, and the upgrades. Budget a few hours a month and an engineer who does not mind owning it. That is still cheaper than 50 seats, but it is not zero.</p>
+
+<div class="verdict win">
+<p><strong>Spreadsheet-shaped team: NocoDB.</strong> If the job is replacing Airtable and Google Sheets sprawl (content calendars, launch checklists, partner trackers, budget tables) and nobody wants to learn a platform, NocoDB gets you there fastest and your data stays in plain Postgres. Accept the fair-code license and the two-workflows-per-base community limit before you commit.</p>
+</div>
+
+<div class="verdict win">
+<p><strong>System-of-record team: NocoBase.</strong> If you are building operational infrastructure (lead routing with audit trails, approval chains, a marketing data hub between your ad platforms and CRM) and an engineer is within shouting distance, NocoBase's data-model-first design and coding-agent tooling are worth the steeper start. The $800 and $8,000 one-time tiers are the only pricing here that never grows with your headcount.</p>
+</div>
+
+<div class="verdict win">
+<p><strong>App-shaped team: Budibase.</strong> If the deliverable is internal apps and portals for non-technical colleagues, with automations and agents layered on, Budibase's free self-hosted tier is the most complete and its model-agnostic agents are the most flexible. Plan your write paths around the automation trigger limitation and keep legal happy with GPLv3.</p>
+</div>
+
+<p>One warning for all three: none of them sends email or runs ads out of the box. They orchestrate and track. The ESP, the ad platforms, and the connectors between them stay in the rest of your stack, which is exactly the point. You own the operational data and the workflows around it, and you stop renting the middle of your own stack by the seat.</p>
+
+<p>More of this category in our <a href="/categories/workflow-automation/">workflow automation</a> coverage, including the full reviews of all five tools in this post.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/zapier/">Zapier</a> — No-code automation platform connecting 9,000+ apps with AI-powered workflows</li><li><a href="/tools/pipedream/">Pipedream</a> — </li><li><a href="/tools/workato/">Workato</a> — Enterprise AI governance plus integration and automation on one platform</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/mcp/">MCP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/blog/">WRITING</a><a href="/tools/">TOOLS</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>
