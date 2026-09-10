@@ -36,7 +36,14 @@
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "publisher": {
-      "@id": "https://martechsignal.com/#organization"
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://martechsignal.com/og.png"
+      }
     },
     "dateModified": "2026-08-31",
     "datePublished": "2026-08-31",
@@ -85,7 +92,7 @@
         "name": "What is n8n Marketing Flows?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. It ships with LLM-powered post drafting and hashtag generation per platform, 174 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. It ships with LLM-powered post drafting and hashtag generation per platform, 175 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -93,7 +100,7 @@
         "name": "How much does n8n Marketing Flows cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n Marketing Flows is open source and free to self-host. Hosted plans may add support and managed features."
+          "text": "n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 175 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences."
         }
       },
       {
@@ -140,10 +147,10 @@ The directory already has an n8n entry for the platform itself. This is a templa
     <h2>AI Capabilities</h2><ul class="feat-list"><li>LLM-powered post drafting and hashtag generation per platform</li><li>AI news digest from RSS with push delivery</li><li>Local Ollama versions of every workflow (no API key needed)</li><li>Sensitive-word checks on social posts</li><li>Ad performance monitoring with auto-pause templates</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>n8n</span><span>Ollama</span><span>Meta Graph API</span><span>Google Sheets</span><span>YouTube Data API</span><span>WordPress</span><span>Discord</span></div>
     <h2>Hands-on notes</h2><p style="font-size:.78rem;color:var(--muted)">Assessed from public documentation, the repository, and vendor pages; we have not run this tool.</p><p>The package is 79 importable n8n workflow JSON templates covering social posting, sentiment monitoring, news digests, ad management, and AI image/video generation, each with Chinese-language documentation, node flow, and the credentials required. The template table marks workflows as verified, and two variants exist per flow: a standard JSON (defaulting to Claude plus email) and a .local-ollama.json variant that runs against a local Ollama instance with no API keys, using Discord webhooks for monitoring alerts. Setup follows n8n convention: import the JSON, attach your own credentials, adjust example parameters, activate. Based on the repository documentation; we have not imported the templates into a production n8n instance.</p><p>The project states all workflows are independent implementations with original copy, inspired by common marketing-automation scenarios rather than ports of third-party templates, and the key-handling note is explicit: templates contain no keys, you bring your own, and platform ToS and rate limits are yours to respect. For Chinese-language marketing contexts (PTT sentiment monitoring, IG/Threads/FB hashtag drafting) it is unusually well targeted; for English-only stacks, some templates need adaptation.</p><h2>Verdict</h2><p>The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.</p>
-    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> Young project (174 GitHub stars) - smaller community and plugin ecosystem</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: LLM-powered post drafting and hashtag generation per platform</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Deep integration catalogue (7 listed)</td><td></td></tr></tbody></table></section>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> MIT licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> Young project (175 GitHub stars) - smaller community and plugin ecosystem</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: LLM-powered post drafting and hashtag generation per platform</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include n8n, Ollama, Meta Graph API (7 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/workflow-automation/">Workflow automation</a> <a href="/glossary/agentic-marketing/">Agentic Marketing</a> <a href="/glossary/mcp/">MCP</a> <a href="/glossary/ai-agent/">AI Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is n8n Marketing Flows?</summary><p>79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. It ships with LLM-powered post drafting and hashtag generation per platform, 174 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does n8n Marketing Flows cost?</summary><p>n8n Marketing Flows is open source and free to self-host. Hosted plans may add support and managed features.</p></details><details class="faq-item"><summary>Is n8n Marketing Flows a good workflow automation tool in 2026?</summary><p>The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is n8n Marketing Flows?</summary><p>79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO. It ships with LLM-powered post drafting and hashtag generation per platform, 175 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does n8n Marketing Flows cost?</summary><p>n8n Marketing Flows is open source - MIT licensed and free to self-host; the public repository carries 175 stars; native integrations cover n8n, Ollama, Meta Graph API. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is n8n Marketing Flows a good workflow automation tool in 2026?</summary><p>The largest verified free template pack for n8n marketing automation, with a genuinely free local-Ollama path and honest credential handling. Recommended if you run n8n and want proven starting points, especially for Chinese-language social and monitoring workflows.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/zapier/"><div class="name">Zapier</div><div class="tagline">No-code automation platform connecting 9,000+ apps with AI-powered workflows</div></a><a class="tool-card" href="/tools/pipedream/"><div class="name">Pipedream</div><div class="tagline">Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps</div></a><a class="tool-card" href="/tools/predis-ai/"><div class="name">Predis.ai</div><div class="tagline">AI-powered social media content generator for posts, videos, and ad creatives</div></a><a class="tool-card" href="/tools/paperclip/"><div class="name">Paperclip</div><div class="tagline">Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li></ul></section>
   </div>
   <aside class="sidebar">
@@ -154,7 +161,7 @@ The directory already has an n8n entry for the platform itself. This is a templa
         <div class="side-row"><dt>Category</dt><dd><a href="/categories/workflow-automation/">Workflow Automation</a></dd></div>
         
         
-        <div class="side-row"><dt>GitHub</dt><dd>★ 174</dd></div>
+        <div class="side-row"><dt>GitHub</dt><dd>★ 175</dd></div>
         <div class="side-row"><dt>Founded</dt><dd>2026</dd></div>
         
         <div class="side-row"><dt>API</dt><dd>Yes</dd></div>

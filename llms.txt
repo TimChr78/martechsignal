@@ -24,7 +24,7 @@
 - [Analytics Tracking Automation](https://martechsignal.com/tools/analytics-tracking-automation/): AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live (open source)
 - [Claude Ads](https://martechsignal.com/tools/claude-ads/): Paid-media operations skill for Claude Code covering 12 ad platforms (open source)
 - [Claude SEO](https://martechsignal.com/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents (open source)
-- [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations (open source)
+- [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Diffmode Growth Tactics](https://martechsignal.com/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays (open source)
 - [Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/): 158-skill AI marketing plugin for agencies with EU AI Act compliance (open source)
 - [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)

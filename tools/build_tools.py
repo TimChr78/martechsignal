@@ -364,10 +364,27 @@ def build_tool_page(t, cats, all_tools):
     # to a field in tools.json. No invented claims; absence of data yields fewer lines,
     # never filler.
     _pros, _cons = [], []
+    # R2 M-2 (2026-09-09): per-tool authored pros/cons win over the derived template, and
+    # a page may never render zero cons - each tool's own deep_dive can carry grounded
+    # `pros_extra` / `cons` lines (no invented claims, they still trace to the record).
+    _dd = t.get("deep_dive") or {}
+    _authored_cons = [str(x) for x in (_dd.get("cons") or []) if str(x).strip()]
+    _authored_pros = [str(x) for x in (_dd.get("pros_extra") or []) if str(x).strip()]
     if t.get("open_source"):
-        _pros.append("Open-source licensing with free self-hosting")
-    if t.get("api_available"):
-        _pros.append("API access for custom integrations")
+        # R2 M-2 (2026-09-09): name the actual licence instead of the same sentence on
+        # all 67 open-source pages.
+        _lic = str(t.get("license") or "").strip()
+        if _lic:
+            _pros.append(f"{_lic} licence with free self-hosting")
+        else:
+            _pros.append("Open-source licensing with free self-hosting")
+    if t.get("api_available") and not (t.get("integrations") or []):
+        # R2 M-2 (2026-09-09): the blanket "API access for custom integrations" line was
+        # on 114 of 132 pages - true, but it says nothing about the tool. Only keep it
+        # where the API *is* the integration story (no native connectors on record).
+        _api = str(t.get("api_type") or t.get("api_kind") or "").strip()
+        _pros.append(f"Documented {_api} API for custom integrations" if _api
+                     else "API access for custom integrations")
     if t.get("ai_features"):
         _feat = t["ai_features"][0].rstrip(".")
         _feat = _feat[0].lower() + _feat[1:] if _feat and not _feat[:2].isupper() else _feat
@@ -378,9 +395,14 @@ def build_tool_page(t, cats, all_tools):
         er0 = t["external_ratings"][0]
         _pros.append(f"{er0.get('source','Third-party')} rating {er0.get('score','')}/{er0.get('max',5)}")
     if t.get("integrations") and len(t["integrations"]) >= 5:
-        _pros.append(f"Deep integration catalogue ({len(t['integrations'])} listed)")
+        # R2 M-2: naming the integrations beats the same "Deep integration catalogue
+        # (N listed)" line on 60+ pages.
+        _ints = [str(x) for x in t["integrations"][:3] if str(x).strip()]
+        _pros.append(f"Native integrations include {', '.join(_ints)} ({len(t['integrations'])} listed)")
     if t.get("price_from") in (None, 0) and not t.get("open_source") and t.get("pricing_model") in ("freemium", "free", "open-core"):
-        _pros.append("Free tier to evaluate before committing")
+        _pf_notes = str(t.get("price_notes") or "").strip()
+        _pros.append(f"Free tier to evaluate before committing ({_pf_notes.split('.')[0][:60]})" if _pf_notes
+                     else "Free tier to evaluate before committing")
     if t.get("paid_from"):
         _cons.append(f"Paid plans start at ${t['paid_from']}/mo once past the free tier")
     if not t.get("open_source"):
@@ -391,6 +413,26 @@ def build_tool_page(t, cats, all_tools):
         _cons.append("Short native integration list - plan for API work")
     if t.get("pricing_model") == "enterprise" and not t.get("price_from"):
         _cons.append("Enterprise pricing is quote-based - no public numbers")
+    # Authored lines (grounded per-tool) join the derived set, and an empty cons column
+    # is not allowed: fall back to the honest, always-true trade-off of not having run it.
+    _cons.extend(_authored_cons)
+    _pros.extend(_authored_pros)
+    # keep the lists substantial: if dropping the generic API line left a thin column,
+    # top it up from the tool's own record (grounded facts only), then fall back to the
+    # always-true API line rather than render a two-bullet pros list.
+    if len(_pros) < 3:
+        if t.get("g2_rating") and t.get("g2_reviews"):
+            _pros.append(f"G2 rating {t['g2_rating']}/5 across {t['g2_reviews']:,} reviews")
+        if t.get("integrations") and not any("integration" in p.lower() for p in _pros):
+            _ints2 = [str(x) for x in t["integrations"][:3] if str(x).strip()]
+            if _ints2:
+                _pros.append(f"Native integrations include {', '.join(_ints2)} ({len(t['integrations'])} listed)")
+        if t.get("last_release") and not any("development" in p.lower() for p in _pros):
+            _pros.append(f"Actively developed - latest release {t['last_release']}")
+    if len(_pros) < 3 and t.get("api_available"):
+        _pros.append("API access for custom integrations")
+    if not _cons:
+        _cons.append("No hands-on test - this assessment is based on vendor documentation and the public repository")
     _pc_rows = ""
     _maxlen = max(len(_pros), len(_cons))
     if _maxlen:
@@ -586,10 +628,29 @@ def build_tool_page(t, cats, all_tools):
             # R2 L-1 (2026-09-08): source-available tools (alphone: Elastic 2.0) must not
             # be called open source here - the license sidebar says otherwise.
             _rec = json.dumps(t, ensure_ascii=False).lower()
+            # R2 M-1 (2026-09-09): this answer used to be one sentence with the brand
+            # swapped, byte-identical across every open-source page. Compose it from the
+            # tool's own facts (licence, community size, hosted option, integrations) so
+            # each answer is specific to the tool it sits on.
+            _lic_txt = str(t.get("license") or "").strip()
+            _stars = t.get("github_stars")
+            _bits = []
+            _bits.append(f"{_lic_txt} licensed and free to self-host" if _lic_txt
+                         else "Free to self-host")
+            if _stars:
+                _bits.append(f"the public repository carries {_stars:,} stars")
+            _ni = len(t.get("integrations") or [])
+            if _ni >= 3:
+                _bits.append(f"native integrations cover {', '.join(str(x) for x in t['integrations'][:3])}")
+            if str(t.get("pricing_model") or "") in ("open-core", "freemium"):
+                _bits.append("a paid hosted tier exists if you would rather not run the servers")
+            elif t.get("paid_from"):
+                _bits.append(f"managed hosting starts at ${t['paid_from']}/mo")
             if "elastic license" in _rec or "source-available" in _rec:
-                a2 = f"{name} is source-available and free to self-host. Check the license terms for commercial use; hosted plans may add support."
+                a2 = (f"{name} is source-available rather than open source - "
+                      f"{'; '.join(_bits[:3])}. Check the licence terms before commercial use.")
             else:
-                a2 = f"{name} is open source and free to self-host. Hosted plans may add support and managed features."
+                a2 = f"{name} is open source - {'; '.join(_bits[:3])}. You pay in server time and maintenance, not licences."
         elif t.get("price_from") is not None:
             if t.get("price_from"):
                 a2 = f"{name} starts at ${t['price_from']}/mo."
@@ -611,7 +672,10 @@ def build_tool_page(t, cats, all_tools):
             pros = []
             if t.get("g2_rating"): pros.append(f"a {t['g2_rating']}/5 G2 rating")
             if t.get("github_stars"): pros.append(f"{t['github_stars']:,} GitHub stars")
-            if t.get("open_source"): pros.append("open-source licensing with free self-hosting")
+            if t.get("open_source"):
+                _lp = str(t.get("license") or "").strip()
+                pros.append(f"{_lp} licensing with free self-hosting" if _lp
+                            else "open-source licensing with free self-hosting")
             if t.get("api_available"): pros.append("an API for custom integrations")
             a3 = (f"Strengths include {', '.join(pros)}" if pros
                   else f"Our review covers {name}'s core {cat.lower()} workflow")
@@ -738,13 +802,53 @@ def build_tool_page(t, cats, all_tools):
         "url": t.get("website", ""),
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        # M7: single org identity - defined once on the homepage, referenced everywhere
-        "publisher": {"@id": "https://martechsignal.com/#organization"},
+        # M7: single org identity - defined once on the homepage, referenced everywhere.
+        # R2 M-11 (2026-09-09): a bare @id pointed at a node that does not exist on tool
+        # pages (only 33 pages sitewide carry the Organization block), so the reference
+        # was dangling exactly where rich results matter. Emit a minimal, self-contained
+        # publisher that still keys to the canonical @id.
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://martechsignal.com/#organization",
+            "name": "MartechSignal",
+            "url": "https://martechsignal.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://martechsignal.com/og.png",
+            },
+        },
     }
     if t.get("date_updated"):
         schema["dateModified"] = t["date_updated"]
     if t.get("date_added"):
         schema["datePublished"] = t["date_added"]
+    # R2 M-12 (2026-09-09): the site's own editorial rating was the one first-party
+    # rating on the site invisible to machines. Mark it up as a Review authored by
+    # MartechSignal (Google's review-snippet shape), separate from third-party
+    # AggregateRating so the two claims never merge.
+    _edr = (t.get("deep_dive") or {}).get("editorial_rating") or {}
+    try:
+        _ers = float(_edr.get("score"))
+    except (TypeError, ValueError):
+        _ers = None
+    if _ers:
+        _review = {
+            "@type": "Review",
+            "author": {
+                "@type": "Organization",
+                "@id": "https://martechsignal.com/#organization",
+                "name": "MartechSignal",
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": _ers,
+                "bestRating": float(_edr.get("max") or 5),
+            },
+        }
+        _basis = str(_edr.get("basis") or "").strip()
+        if _basis:
+            _review["reviewBody"] = _basis[:500]
+        schema["review"] = _review
     if t.get("external_ratings"):
         _er = t["external_ratings"][0]
         try:
@@ -834,26 +938,29 @@ def tool_card_html(t):
 _CATEGORY_META = {
     # R2 H-7 (2026-09-09): hand-written metas for the 9 non-hub categories. Replaces
     # the single templated sentence (54-77% filler, .lower() mangled acronyms).
-    "crm": "Browse 22 open-source and freemium CRM tools - SuiteCRM, EspoCRM, Attio and more - compared on self-hosting, automation depth and real pricing.",
-    "email-marketing": "13 email marketing platforms compared: deliverability, automation builder, AI features and honest pricing for list sizes from 1,000 to 1M.",
-    "social-media": "6 social media management tools for scheduling, listening and reporting - what each one actually automates and what it costs.",
-    "advertising": "7 AI advertising tools covering Google Ads, Meta and creative testing - Opteo, Madgicx, Smartly.io and more, with real entry prices.",
-    "chatbots": "5 chatbot and conversational-AI platforms compared on channels, handover-to-human flows, AI features and self-hosting options.",
-    "content-ai": "8 AI content generation tools tested against brief quality, SEO readiness and pricing - from Copy.ai to Jasper alternatives.",
-    "marketing-automation": "11 marketing automation platforms compared on workflows, data ownership, AI agents and self-hosting - NocoDB, Mautic, Ortto and more.",
-    "open-source": "67 open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
-    "personalization": "5 website personalization and CDP tools - Nosto, Dynamic Yield, Segment and more - compared on targeting, price and data control.",
+    "crm": "Browse {n} open-source and freemium CRM tools - SuiteCRM, EspoCRM, Attio and more - compared on self-hosting, automation depth and real pricing.",
+    "email-marketing": "{n} email marketing platforms compared: deliverability, automation builder, AI features and honest pricing for list sizes from 1,000 to 1M.",
+    "social-media": "{n} social media management tools for scheduling, listening and reporting - what each one actually automates and what it costs.",
+    "advertising": "{n} AI advertising tools covering Google Ads, Meta and creative testing - Opteo, Madgicx, Smartly.io and more, with real entry prices.",
+    "chatbots": "{n} chatbot and conversational-AI platforms compared on channels, handover-to-human flows, AI features and self-hosting options.",
+    "content-ai": "{n} AI content generation tools tested against brief quality, SEO readiness and pricing - from Copy.ai to Jasper alternatives.",
+    "marketing-automation": "{n} marketing automation platforms compared on workflows, data ownership, AI agents and self-hosting - NocoDB, Mautic, Ortto and more.",
+    "open-source": "{n} open-source MarTech tools you can self-host today - CRM, analytics, automation and email, each with license and hosting notes.",
+    "personalization": "{n} website personalization and CDP tools - Nosto, Dynamic Yield, Segment and more - compared on targeting, price and data control.",
 }
 
 def category_meta(cat, cat_tools, hub):
     """R2 H-7: hub meta if present, else the hand-written per-category meta, else a
-    fallback that preserves acronym casing (no .lower())."""
+    fallback that preserves acronym casing (no .lower()).
+    R2 M-12 (2026-09-09): a `{n}` token in the hand-written metas is filled with the
+    real tool count, so a count baked into prose can never drift out of sync again
+    (H-8 had to hand-fix four of these)."""
     m = (hub or {}).get("meta")
     if m:
         return m
     m = _CATEGORY_META.get(cat.get("slug", ""))
     if m:
-        return m
+        return m.replace("{n}", str(len(cat_tools)))
     return f"Browse {len(cat_tools)} {cat_h1(cat.get('name',''))} for AI-powered marketing automation."
 
 
