@@ -478,11 +478,13 @@ def build_index(posts: list) -> str:
         slug = post.get('slug', slugify(title))
         excerpt = post.get('excerpt', '')
 
+        # R2 L-4 (2026-09-09): the card wrapped its <h2> in a <span>, which is invalid
+        # (span cannot contain heading content) and cost the outline its structure.
         entries.append(f"""    <li class="reveal"><a class="sig" href="/blog/{slug}/">
       <span class="idx">{idx:02d}</span>
-      <span><h2>{html.escape(title, quote=False)}</h2>
+      <h2>{html.escape(title, quote=False)}</h2>
       <span class="sub">{date}</span>
-      <p class="excerpt">{html.escape(excerpt[:180], quote=False)}</p></span>
+      <p class="excerpt">{html.escape(excerpt[:180], quote=False)}</p>
       <span class="arrow">→</span>
     </a></li>""")
 
@@ -566,13 +568,13 @@ def build_index(posts: list) -> str:
   </div>
   <div class="sub-strip reveal">
     <div>
-      <h3>Prefer it in your inbox?</h3>
+      <h2>Prefer it in your inbox?</h2>
       <p>The best of this, curated weekly. Free, 5-minute read.</p>
     </div>
     <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">Subscribe</a>
   </div>
-  <nav class="cat-strip reveal" aria-label="Browse the tool directory">
-    <h2>Related reading</h2>
+  <section class="cat-strip reveal" aria-label="Browse the tool directory">
+    <h2>Browse the tool directory</h2>
     <p>Browse the directory these teardowns draw from:</p>
     <p class="integ-list">
       <a href="/categories/marketing-automation/">Marketing automation</a>
@@ -591,7 +593,7 @@ def build_index(posts: list) -> str:
       <a href="/tools/alphone/">AlphOne</a>
       <a href="/tools/">All {all_tools} tools &#8594;</a>
     </p>
-  </nav>
+  </section>
   <ul class="post-list">
 {blog_list}
   </ul>

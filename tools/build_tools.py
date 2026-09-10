@@ -698,6 +698,23 @@ def build_tool_page(t, cats, all_tools):
                     continue
                 _seen.add(_k)
                 faqs.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
+        # R2 L-2 (2026-09-09): amplitude answered "How much does Amplitude cost?" with an
+        # 86-char punt while the real tier breakdown sat two questions below. If the core
+        # cost answer is a punt and the tool has a richer pricing answer on record,
+        # promote that answer into the core question (the long-tail question stays).
+        _PUNT = "see the vendor's pricing page for current plans"
+        if len(faqs) > 1 and _PUNT in faqs[1]["acceptedAnswer"]["text"].lower():
+            _pricing_extra = [
+                q for q in faqs[2:]
+                if any(w in q["name"].lower() for w in ("cost", "price", "pricing", "tier"))
+                and len(q["acceptedAnswer"]["text"]) > len(faqs[1]["acceptedAnswer"]["text"]) + 60
+            ]
+            if _pricing_extra:
+                _rich = _pricing_extra[0]["acceptedAnswer"]["text"].strip()
+                # keep it answer-shaped: the first two sentences of the rich answer
+                _sent = re.split(r"(?<=[.!?])\s+", _rich)
+                _lead = " ".join(_sent[:2]).strip()
+                faqs[1]["acceptedAnswer"]["text"] = _lead if len(_lead) > 90 else _rich
         return faqs
 
     faqs = _faq_for(t, c)
