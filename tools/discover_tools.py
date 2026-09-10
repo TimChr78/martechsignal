@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TOOLS_FILE = ROOT / "tools" / "tools.json"
 CANDIDATES_FILE = ROOT / "tools" / "candidates.json"
 CATEGORIES_FILE = ROOT / "tools" / "categories.json"
+REJECTED_FILE = ROOT / "tools" / "rejected.json"
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 USER_AGENT = "MartechSignal-ToolDiscovery/1.0"
@@ -223,9 +224,50 @@ def main():
     new_gh = [c for c in gh_candidates if c["full_name"] not in prev_repos]
     new_rss = [c for c in rss_mentions if c["title"] not in prev_titles]
 
-    # Merge with previous (keep last 100)
+    # Skip previously rejected tools (2026-09-10: queue was re-filling with
+    # ~25 settled rejections every run because rejected.json was never checked)
+    rejected = []
+    if REJECTED_FILE.exists():
+        try:
+            rejected = json.loads(REJECTED_FILE.read_text())
+        except Exception as e:
+            log(f"  ⚠ Could not parse rejected.json ({e}) — proceeding without it")
+    rej_urls = set()
+    for x in rejected:
+        if not isinstance(x, dict):
+            continue
+        u = (x.get("url") or "").rstrip("/").lower()
+        u = re.sub(r'^https?://(www\.)?', '', u)
+        if u:
+            rej_urls.add(u)
+        n = (x.get("name") or "").lower()
+        if n:
+            rej_urls.add(n)
+
+    def is_rejected(c):
+        u = (c.get("url") or c.get("homepage") or "").rstrip("/").lower()
+        u = re.sub(r'^https?://(www\.)?', '', u)
+        if u and u in rej_urls:
+            return True
+        gh = (c.get("url") or "").rstrip("/").split("github.com/")[-1].lower()
+        if c.get("source") == "github" and gh and gh in rej_urls:
+            return True
+        # RSS mentions carry the post title in `title`; rejected entries store
+        # that same title as `name` (and the feed URL as `url`)
+        if (c.get("title") or "").lower() in rej_urls:
+            return True
+        return (c.get("name") or "").lower() in rej_urls
+
+    # Merge with previous (keep last 100), then drop previously-rejected
+    # items — prev included, so settled rejections can't ride along in the
+    # queue once they're in (2026-09-10 queue-refill fix)
     all_candidates = prev + new_gh + new_rss
     all_candidates = all_candidates[-100:]  # cap at 100
+    pre_filter = len(all_candidates)
+    all_candidates = [c for c in all_candidates if not is_rejected(c)]
+    filtered = pre_filter - len(all_candidates)
+    if filtered:
+        log(f"   Skipped {filtered} previously-rejected candidate(s)")
 
     # Save
     CANDIDATES_FILE.write_text(json.dumps(all_candidates, indent=2))
