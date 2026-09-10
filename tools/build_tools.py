@@ -687,7 +687,16 @@ def build_tool_page(t, cats, all_tools):
         ]
         # per-tool FAQ extensions (targets long-tail query variants)
         if dd.get("faq_extra"):
+            # R2 M-1 (2026-09-09): 12 pages shipped the same cost question twice (core
+            # answer + faq_extra). Normalise and skip any question already asked.
+            def _norm_q(s):
+                return " ".join(str(s).lower().replace("?", " ").split())
+            _seen = {_norm_q(q["name"]) for q in faqs}
             for q, a in dd["faq_extra"]:
+                _k = _norm_q(q)
+                if _k in _seen:
+                    continue
+                _seen.add(_k)
                 faqs.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
         return faqs
 
