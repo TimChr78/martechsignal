@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Check outputs, not logs: the silent-failure audit</title>
+<meta name="description" content="An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Check outputs, not logs: the silent-failure audit">
+<meta property="og:description" content="An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of.">
+<meta property="og:url" content="https://martechsignal.com/blog/silent-failure-audit/">
+<meta property="og:image" content="https://martechsignal.com/og/silent-failure-audit.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/silent-failure-audit/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Check outputs, not logs: the silent-failure audit",
+  "description": "An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-09-10",
+  "dateModified": "2026-09-11",
+  "mainEntityOfPage": "https://martechsignal.com/blog/silent-failure-audit/",
+  "image": "https://martechsignal.com/og/silent-failure-audit.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Check outputs, not logs: the silent-failure audit",
+      "item": "https://martechsignal.com/blog/silent-failure-audit/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css?v=b780159f">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AUTOMATION · AI AGENTS · 9 MIN</p>
+<h1>Check outputs, not logs: the silent-failure audit</h1>
+<p class="meta">SEP 10, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a> · <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#success-is-a-word-the-platform-defines">"Success" is a word the platform defines</a> · <a href="#the-audit-five-automations-five-steps">The audit: five automations, five steps</a> · <a href="#what-this-does-not-do">What this does not do</a></nav>
+<p>An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before <a href="https://www.reddit.com/r/n8n/comments/1vr6pcf/my_whatsapp_automation_ran_green_for_3_weeks/">posting what went wrong</a> in r/n8n last month. The headline of his post says it all: "My WhatsApp automation ran green for 3 weeks while quietly dying." His bot had been "replying" to expired conversations for days. WhatsApp's 24-hour window had closed on those chats, so the platform refused free-form replies and only accepted pre-approved templates. Every single n8n execution showed success, because the send request itself went through fine. WhatsApp was silently not delivering, and the delivery failure (error code 131047, which <a href="https://developers.facebook.com/documentation/business-messaging/whatsapp/support/error-codes">Meta's docs define</a> as "more than 24 hours have passed since the recipient last replied") arrived later on a status webhook that nobody had wired up.</p>
+
+<p>Three weeks of a customer-facing channel, dead. Not one red light.</p>
+
+<p>The comments under that post are the most useful practitioner thread on silent automation failure I have read this year, and they converge on one uncomfortable point: none of these failures are errors, so none of your error handling is even connected to them. This post turns that into a repeatable audit. It is also the missing second half of <a href="/blog/automation-blast-radius-audit/">this week's blast-radius audit</a>, which sorted your automations into four quadrants and told you where detection has to exist. This one tells you how to build the detection.</p>
+
+<h2 id="success-is-a-word-the-platform-defines">"Success" is a word the platform defines</h2>
+
+<p>Before the procedure, be clear about what green actually means on the major platforms, because the vendors document it honestly and almost nobody reads it.</p>
+
+<p>Make's <a href="https://help.make.com/skip-error-handler">Skip error handler</a> documentation (updated September 8, 2026) says the quiet part out loud: the handler "prevents turning off the scenario when there's an error and marks the scenario run as a success even in case of errors." Make even tells you when that trade is fair: use Skip "when incorrect data in your scenario has no impact on your processes and occasional data loss is acceptable." Someone made that judgment the day the scenario was built, usually under deadline pressure, usually about one field. The audit asks whether it is still true for every bundle the handler will ever swallow.</p>
+
+<p>Zapier's <a href="https://help.zapier.com/hc/en-us/articles/20505304170637-Review-run-statuses-in-Zap-workflows">run status documentation</a> lists eleven statuses, and the interesting ones are not errors either. <code>Filtered</code> means a filter step stopped the run, so no subsequent steps executed at all. <code>Handled error</code> means an error handler caught a failure and ran an alternative path, and Zapier notes that a Zap with a handled error "will not turn off automatically" no matter how many times it happens. A Zap can run wrong every day for a month and its history stays free of anything you would notice while scrolling.</p>
+
+<p>In n8n, the mechanism is a node setting called "continue on fail." One commenter in the thread, Ok-Category2729, diagnosed a customer's broken WhatsApp integration to exactly that: "every execution showed green because it never threw, but the send message step was silently failing." He then stated the mental model the whole audit rests on: n8n success means the execution finished, not that the intended thing happened.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Platform</th><th>What "success" certifies</th><th>What it can hide</th></tr></thead><tbody><tr><td>Make (Skip handler)</td><td>The run completed; failed bundles were dropped</td><td>Any data loss the builder once called acceptable</td></tr><tr><td>Zapier</td><td>The run completed or an error was handled</td><td>Filtered runs where nothing executed; errors handled forever without escalation</td></tr><tr><td>n8n</td><td>The execution finished</td><td>Nodes with "continue on fail"; steps whose API call succeeded but whose effect didn't</td></tr><tr><td>WhatsApp Cloud API (any tool)</td><td>The POST returned 200</td><td>Delivery failures like 131047 that arrive later, on a webhook you may not subscribe to</td></tr></tbody></table></div>
+
+<p>A 200 response is a receipt for the request. The outcome shows up later, somewhere else, or never.</p>
+
+<h2 id="the-audit-five-automations-five-steps">The audit: five automations, five steps</h2>
+
+<p>The blast-radius audit sorted your stack into quadrants using two questions: can you undo it, and can customers see it. The two right-hand quadrants, "fires, then tells someone" and "fires, but has to shout," both assume something tells you when a run does the wrong thing. For failures that produce no error, nothing will tell you unless you build it. Five automations, five steps, one working session.</p>
+
+<div class="wf-step">
+<p><strong>Step 1: Pick your five highest-blast-radius automations.</strong> Pull your quadrant sheet from the blast-radius audit. Take every row marked not-undoable, plus any row where the gate/siren column says "none." Rank those by what a wrong run costs over a week: a misfire that emails customers beats one that dirties an internal sheet. Take the top five and ignore the rest for now. Five is the cap because fifteen audits get started and none get finished.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 2: Write the expected outcome per run, as a checkable fact.</strong> One line per automation, and it must be a noun or a number, not a verb. "Syncs form data" is useless. "Adds exactly one row to the Responses sheet per form submission" is checkable. "Emails only contacts whose newsletter_opt_in is true and whose signup is less than 90 days old" is checkable. If you cannot write the expected outcome for an automation, you do not fully understand what it does, and that is the audit's first finding.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 3: Instrument a verification step that reads the destination, not the workflow.</strong> The log lives inside the system that already believes it succeeded. The check has to live downstream, in the place the automation was supposed to affect. Three patterns from the thread, cheapest first:</p>
+
+<ul>
+<li><strong>The canary.</strong> Commenter OkOpposite8159 built this after his inbound path died for days while outbound stayed green and every webhook test he ran manually still passed: a second phone number messages the bot every morning, and an alert fires if nothing comes back. One scheduled probe per direction of every two-way automation. Dumber than any monitoring product and it catches what monitoring products miss, because it tests the outcome the way a customer would.</li>
+<li><strong>The outcome count.</strong> Commenter catchleak's fix was "to stop watching executions and start watching outcomes": one scheduled workflow that asks a question whose answer is a number. How many inbound messages did we store in the last 24 hours? How many rows did the sync add? How many messages did the send API accept, and how many does the delivery report say landed? Compare against the expected fact from step 2 and alert on any gap. This is the pattern that would have caught the original 3-week failure on day one.</li>
+<li><strong>The inline assertion.</strong> Ok-Category2729's rule: after each external API call, an IF node validates that the response contains what you expect (for a WhatsApp send, that <code>messages[0].id</code> exists) and throws deliberately if not. Then turn off "continue on fail," Skip handlers, and error handlers everywhere except where you consciously want fallback behavior, and make every one you keep send a notification. A Skip handler that silently drops bundles and a Skip handler that pings a channel on every drop are different tools with the same name.</li>
+</ul>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 4: Subscribe to the platform's truth channel.</strong> Every platform that can fail after accepting your work publishes the failure somewhere other than the run log. For WhatsApp, commenter slunkeh listed the set: subscribe to the message status webhooks plus <code>message_template_status_update</code> and <code>account_update</code> on the business account, poll the phone number's quality rating once a day, and alert if it drops off GREEN. One caveat from commenter ManufacturerLast7833 worth internalizing: the quality rating is a trailing signal. "By the time your number drops off GREEN, Meta has already decided." The leading signals are reply rates, read rates, and blocks on recent sends. The same shape exists everywhere: email has bounce and complaint webhooks, CRMs have field history, ad platforms have change history. Write down the truth channel next to each of your five automations, or write "none found," which is also a finding.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 5: Record it and break something on purpose.</strong> One sheet: automation, expected outcome, verification pattern, truth channel, last checked, last mismatch found. Then test one check by causing the failure it watches for: pause the webhook receiver, corrupt one row, send from the canary number with the bot switched off. A verification step that has never fired on a real mismatch has never been tested. It might be watching the wrong field, the same way the original thread's team watched execution logs that could not see their problem.</p>
+</div>
+
+<p>One disclosure, same as last time. The thread is mixed: one commenter uses it to plug their own inbox product, so read that reply accordingly. The failure reports and the fix patterns come from several independent practitioners who run production WhatsApp and n8n stacks, and they agree with each other in the details (specific error codes, specific node settings), which is the part that is hard to fake.</p>
+
+<h2 id="what-this-does-not-do">What this does not do</h2>
+
+<p>Two honest limits. First, the audit catches wrongness you can describe. If you cannot write the expected outcome in step 2, no verification step will save you, and the real problem is that the automation encodes a decision nobody wrote down. Second, a canary tells you the pipe is broken, not that what flows through it is good. The original poster's worst failure, sending 500 messages to a list that was never properly opted in, would pass every mechanical check in this post. Delivery checks catch delivery failures. Consent and judgment stay human, which is exactly where the blast-radius quadrant put them.</p>
+
+<div class="verdict warn">
+<p><strong>The verdict: a green run certifies that the execution finished, and nothing more.</strong> Make marks skipped errors as success, Zapier keeps handled-error Zaps running forever, n8n greens any run with "continue on fail," and WhatsApp returns 200 for messages it will never deliver. Pick your five highest-blast-radius automations, write the expected outcome for each as a checkable fact, verify it downstream in the destination system, and subscribe to whatever truth channel the platform publishes. Then break something on purpose to prove the check works. The whole procedure costs an afternoon, which is less than three weeks of a dead channel.</p>
+</div>
+
+<div class="cta-strip">
+<h3>Compare automation platforms on observability</h3>
+<p>Our directory reviews workflow and marketing automation tools on what happens after "success": error-handler behavior, status webhooks, run history you can query, and whether the platform tells you when a delivered thing was the wrong thing.</p>
+<a class="btn" href="/categories/workflow-automation/">BROWSE WORKFLOW AUTOMATION →</a>
+</div>
+
+<p><strong>Sources:</strong> <a href="https://www.reddit.com/r/n8n/comments/1vr6pcf/my_whatsapp_automation_ran_green_for_3_weeks/">r/n8n: My WhatsApp automation ran green for 3 weeks while quietly dying (retrieved Sep 11, 2026)</a> · <a href="https://help.make.com/skip-error-handler">Make Help Center: Skip error handler (updated Sep 8, 2026)</a> · <a href="https://help.zapier.com/hc/en-us/articles/20505304170637-Review-run-statuses-in-Zap-workflows">Zapier Help Center: Review run statuses in Zap workflows</a> · <a href="https://developers.facebook.com/documentation/business-messaging/whatsapp/support/error-codes">Meta for Developers: WhatsApp error codes</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/automation-blast-radius-audit/">Before your next automation, run the blast radius audit</a></li><li><a href="/blog/autonomous-stack-loophole-approval-step/">Your autonomous stack's loophole is the approval step you deleted</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/zapier/">Zapier</a> — No-code automation platform connecting 9,000+ apps with AI-powered workflows</li><li><a href="/tools/make/">Make</a> — Visual automation platform for building complex workflows with AI agents and apps</li><li><a href="/tools/workato/">Workato</a> — Enterprise AI governance plus integration and automation on one platform</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/blog/">WRITING</a><a href="/tools/">TOOLS</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>

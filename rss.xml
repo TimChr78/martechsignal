@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 05:08:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 05:13:20 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>The AI-search funnel map GA4 won't give you</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <description>Two things landed since we published the 5-layer fix for dashboards that can't see AI search. On May 13, Google shipped a native AI Assistant channel in GA4. On August 31, the Sear</description>
+    </item>
+    <item>
+      <title>Check outputs, not logs: the silent-failure audit</title>
+      <link>https://martechsignal.com/blog/silent-failure-audit/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/silent-failure-audit/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of his post says it all: "My </description>
     </item>
     <item>
       <title>NocoBase vs NocoDB vs Budibase: pick by team shape</title>
