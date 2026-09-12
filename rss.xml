@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2026 05:13:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 05:06:53 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Most of your marketing AI agents should be if/then</title>
+      <link>https://martechsignal.com/blog/determinism-audit/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/determinism-audit/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description>An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter said it would matter for r</description>
+    </item>
     <item>
       <title>The AI-search funnel map GA4 won't give you</title>
       <link>https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/</link>

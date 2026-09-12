@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Most of your marketing AI agents should be if/then</title>
+<meta name="description" content="An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Most of your marketing AI agents should be if/then">
+<meta property="og:description" content="An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter.">
+<meta property="og:url" content="https://martechsignal.com/blog/determinism-audit/">
+<meta property="og:image" content="https://martechsignal.com/og/determinism-audit.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/determinism-audit/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Most of your marketing AI agents should be if/then",
+  "description": "An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-09-11",
+  "dateModified": "2026-09-12",
+  "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
+  "image": "https://martechsignal.com/og/determinism-audit.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Most of your marketing AI agents should be if/then",
+      "item": "https://martechsignal.com/blog/determinism-audit/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css?v=b780159f">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AI AGENTS · MARKETING AUTOMATION · 9 MIN</p>
+<h1>Most of your marketing AI agents should be if/then</h1>
+<p class="meta">SEP 11, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#why-ops-should-care-more-than-infra-teams">Why ops should care more than infra teams</a> · <a href="#the-audit-four-tiers-by-blast-radius">The audit: four tiers by blast radius</a> · <a href="#run-it-in-an-afternoon">Run it in an afternoon</a> · <a href="#agent-is-a-budget-decision">"Agent" is a budget decision</a></nav>
+<p>An open-source project called the Agentic Determinism Index <a href="https://news.ycombinator.com/item?id=49522378">landed on Hacker News on September 1</a>. It collected 5 points and three comments. One commenter said it would matter for regulated industries. Marketing ops is not a regulated industry, which is exactly why nobody is going to run this audit for us.</p>
+
+<p>The repo (<a href="https://github.com/lemma-ventures/agentic-determinism-index">lemma-ventures/agentic-determinism-index</a>, MIT licensed, 4 stars at time of writing) asks hosted LLM APIs one narrow question: "If I send you the exact same request N times, concurrently, and again across days, how identical are your answers?" Byte-level comparison. No intelligence benchmark, no quality judgment. Just reproducibility, measured per provider, per model, per serving stack, over time.</p>
+
+<p>The answers should change how you staff your agent roadmap. Same model, same weights, different serving paths, wildly different scores from the September 12 reference snapshot:</p>
+
+<div class="table-wrap"><table><thead><tr><th>Serving path</th><th>Model</th><th>Score</th><th>Mode share</th></tr></thead><tbody><tr><td>Cerebras via OpenRouter</td><td>gpt-oss-120b</td><td>100.0</td><td>100%, byte-exact in 5/5 runs</td></tr><tr><td>Groq via OpenRouter</td><td>llama-3.1-8b-instruct</td><td>89.25</td><td>95%</td></tr><tr><td>DeepInfra via OpenRouter</td><td>llama-3.1-8b-instruct</td><td>44.5</td><td>60%</td></tr><tr><td>OpenRouter (routed)</td><td>llama-3.1-8b-instruct</td><td>31.87</td><td>44%</td></tr><tr><td>OpenRouter</td><td>gpt-4o-mini</td><td>36.49</td><td>42%</td></tr><tr><td>Amazon Bedrock via OpenRouter</td><td>nova-lite-v1</td><td>14.62</td><td>20%</td></tr></tbody></table></div>
+
+<p>Look at the three middle rows. The identical Llama model scores 89 on one provider and 32 on another. The repo states the lesson plainly: determinism is a property of the deployment, not the weights. You are not buying "GPT-4o-mini." You are buying whatever tuple of provider, snapshot, parameters, batching behavior, and GPU class answered the phone that day, and the index's stack-drift timeline shows that tuple churning constantly. One entry logged 13 backend fingerprint changes for a single (provider, model) pair in ten days. On August 26, NVIDIA's hosted API returned HTTP 410 Gone for a pinned Llama checkpoint overnight. Teams that had built on that string lost the ability to reproduce yesterday's outputs.</p>
+
+<h2 id="why-ops-should-care-more-than-infra-teams">Why ops should care more than infra teams</h2>
+
+<p>Mode share is the fraction of responses that match the most common answer. A 95% mode share sounds safe right up until you remember that agents chain calls. The repo does the arithmetic: if a model repeats 80% of the time per call, a 10-call trajectory repeats far less often than 80% of the time. Do the naive math yourself and 0.8 to the tenth power is about 11%. Independence is an assumption, but the direction is not: every step you add to an agent multiplies the odds that the full path drifts.</p>
+
+<p>Your six-step campaign agent that "usually works" is not usually working. Its complete trajectory, start to finish, is closer to a coin flip than the per-call number suggests. When your agent tests are flaky, some of that is your code and some is the serving layer underneath, and until you measure, you are guessing which.</p>
+
+<p>Meanwhile the trade press has moved on to the next thing. MarTech's season-four premiere of Conversations with MarTech, published September 2, is titled <a href="https://martech.org/whats-next-in-content-operations-agents-what-else/">"What's next in content operations? Agents (what else?)"</a>. Orange Logic SVP Misti Vogt makes a real case: DAM buying is shifting back to IT, assets need structured metadata so systems can reason about them, and "brand agents" can check finished creative against brand guidelines before it enters formal review. Some of that is genuinely useful. Some of it is a lookup table wearing a trench coat. A compliance check against fixed brand rules is if/then work, and if/then does not drift when the batch size changes.</p>
+
+<p>That is the problem in one sentence: marketing ops decides which steps need determinism by superstition instead of policy, and superstition sounds like "it has been fine so far."</p>
+
+<h2 id="the-audit-four-tiers-by-blast-radius">The audit: four tiers by blast radius</h2>
+
+<p>This extends the <a href="/blog/automation-blast-radius-audit/">blast-radius quadrants</a> from last week to anything you currently call an agent. One question per item: if it acts unexpectedly today, what breaks?</p>
+
+<div class="table-wrap"><table><thead><tr><th>Tier</th><th>What breaks</th><th>Typical occupants</th></tr></thead><tbody><tr><td>1</td><td>Nothing</td><td>Internal tagging suggestions, meeting summaries, draft briefs a human reads first anyway</td></tr><tr><td>2</td><td>A draft gets weird</td><td>Ad copy variants, blog drafts, email subject tests, anything behind human review</td></tr><tr><td>3</td><td>A customer sees it</td><td>Live chat replies, on-site personalization, triggered sends, social responses</td></tr><tr><td>4</td><td>Money moves</td><td>Bid changes, budget pacing, list selection that gates a paid send</td></tr></tbody></table></div>
+
+<p>The classification does the arguing for you.</p>
+
+<p><strong>Tier 1 and 2: reclassify as automation.</strong> Most of what gets called an agent in a marketing stack lives here, and per-token nondeterminism buys you nothing a human reviewer does not already absorb. If the job is "route this lead when field X exceeds Y," that is an if statement, and an if statement costs nothing per run, never drifts, and needs no prompt. Where a step genuinely needs language (summarize this ticket, extract entities from this brief), keep the LLM call but stop calling the whole pipeline an agent, and validate the output against a schema before anything downstream trusts it. The index has a metric for exactly this, whether parsed and canonicalized JSON agrees even when the raw bytes do not, because structured output is where a probabilistic step can be made safe enough to keep.</p>
+
+<p><strong>Tier 3: this is where agent value actually concentrates, and only with guardrails.</strong> A customer-facing judgment call is the one place where flexible reasoning earns its variance. But it needs what the tier-2 toys never got: <a href="/blog/ai-agents-need-campaign-state/">campaign state the agent can read</a> so its decisions are grounded in facts instead of a prompt's memory of facts, and an <a href="/blog/autonomous-stack-loophole-approval-step/">approval trail</a> so that when something weird reaches a customer you can reconstruct who decided what, and when.</p>
+
+<p><strong>Tier 4: no model in the decision path.</strong> If money moves, the decision logic is deterministic code with a human approval above a threshold. An LLM can draft the recommendation. It does not get to execute it. A 20% mode share on a bid-adjustment path means the same market conditions produce a different budget decision one run in five, and you will never be able to explain why to finance.</p>
+
+<h2 id="run-it-in-an-afternoon">Run it in an afternoon</h2>
+
+<div class="wf-step">
+<p><strong>Step 1: Inventory everything called an agent.</strong> Include the things nobody calls an agent: the ChatGPT step inside a Zap, the summarizer node in n8n, the vendor feature that quietly started routing through a model after an update. Ignore the label and ask one question instead: does an LLM influence an outcome?</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 2: Assign a blast-radius tier to each item.</strong> Nothing / a draft gets weird / a customer sees it / money moves. When two people disagree on a tier, write down both answers. The disagreement is the finding: it means nobody ever decided this on purpose.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 3: Locate the actual model call inside each item.</strong> Most "agents" are a fixed pipeline with one probabilistic step buried in the middle. Once you can point at it, you have four options: replace it with rules, gate it behind a human, constrain and validate its output, or keep it and pin the serving stack. Options get cheaper as the tier goes down.</p>
+</div>
+
+<div class="wf-step">
+<p><strong>Step 4: Write the policy, one line per tier.</strong> For example: tier 1-2 defaults to deterministic automation, model calls require validation; tier 3 requires state, approval trail, and a kill switch; tier 4 requires deterministic logic and human sign-off above a money threshold. Put it where the next tool purchase will trip over it.</p>
+</div>
+
+<p>One honest disclosure, because the index deserves it. Lemma Ventures, the maintainer, builds deterministic-inference infrastructure and says so in the README: they have a commercial interest in reproducible serving. The leaderboard is v0.1 with 23 reference runs so far, and the first full analysis lands after about a month of data. Every score is recomputable from raw transcripts under MIT, which is the right design for a number you are supposed to distrust by default. I would not bet a vendor choice on the current rankings. I would absolutely bet an audit on the question.</p>
+
+<h2 id="agent-is-a-budget-decision">"Agent" is a budget decision</h2>
+
+<p>The label hides the economics. Deterministic serving exists today. SGLang ships a deterministic-inference mode, vLLM ships batch-invariance, and in Thinking Machines' testing the deterministic path ran at roughly half the default throughput. Half. And almost nobody pays that price, which tells you what most of these workloads were actually worth: they never needed the reasoning, they needed the reasoning to be cheap, and "agent" is how the invoice gets approved.</p>
+
+<p>When a vendor sells you an agent for a tier-1 job, you are paying per token for variance you did not order. When you build one yourself for the same job, you are paying for it in debugging time every time the trajectory drifts. The audit is how you stop buying risk you do not need, and how you make sure the risk you do keep is sitting in tier 3, pointed at customers, with guardrails around it.</p>
+
+<div class="verdict warn">
+<p><strong>The verdict: sort your stack by what breaks, then buy determinism where it matters and nowhere else.</strong> The same Llama model scores 89 on one serving path and 32 on another, and agent chains multiply that variance with every step. Most of what marketing calls an agent lands in tiers 1 and 2, where a wrong output costs nothing and an if/then would have been free, stable, and explainable. Real agent value concentrates in tier 3, customer-visible judgment, and only when it has state, approval trails, and a kill switch. Tier 4, where money moves, is not an agent conversation at all. Run the inventory, assign the tiers, write the one-line policy per tier. An afternoon now beats a post-mortem after the first customer sees a 20% mode share up close.</p>
+</div>
+
+<div class="cta-strip">
+<h3>Compare AI agent tools on the questions that matter</h3>
+<p>Our directory reviews marketing AI tools on what they can decide, what they can execute, whether outputs are validated before anything ships, and whether you can reconstruct the decision afterwards.</p>
+<a class="btn" href="/categories/agent-skills/">BROWSE AGENT SKILLS →</a>
+</div>
+
+<p><strong>Sources:</strong> <a href="https://github.com/lemma-ventures/agentic-determinism-index">Agentic Determinism Index, GitHub repo (MIT, retrieved Sep 12, 2026)</a> · <a href="https://lemma-ventures.github.io/agentic-determinism-index/">ADI reference leaderboard, run of Sep 12, 2026</a> · <a href="https://news.ycombinator.com/item?id=49522378">Hacker News thread, Sep 1, 2026</a> · <a href="https://lemma.ventures/blog/your-model-is-not-non-deterministic.html">Lemma Ventures: "Yes, LLMs can be deterministic. But most hosted stacks are not." (Sep 1, 2026)</a> · <a href="https://martech.org/whats-next-in-content-operations-agents-what-else/">MarTech: "What's next in content operations? Agents (what else?)" (Sep 2, 2026)</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/autonomous-stack-loophole-approval-step/">Your autonomous stack's loophole is the approval step you deleted</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/automation-blast-radius-audit/">Before your next automation, run the blast radius audit</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/digital-marketing-pro/">Digital Marketing Pro</a> — 158-skill AI marketing plugin for agencies with EU AI Act compliance</li><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> — Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/intercom/">Intercom</a> — AI-first customer service platform with Fin AI agent and omnichannel messaging</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/customer-journey/">Customer journey</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/manychat/">ManyChat</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/blog/">WRITING</a><a href="/tools/">TOOLS</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>
