@@ -16,7 +16,155 @@
       "ortto",
       "salesforce-marketing-cloud"
     ],
-    "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally."
+    "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally.",
+    "hub": {
+      "meta": "Compare ActiveCampaign, HubSpot, Braze, Marketo and 7 more marketing automation platforms on workflow power and guardrails. This is where AI autonomy landed first.",
+      "flow": [
+        {
+          "label": "MAP",
+          "sub": "journeys before vendors"
+        },
+        {
+          "label": "AUTOMATE",
+          "sub": "the work between channels",
+          "style": "ai"
+        },
+        {
+          "label": "GATE",
+          "sub": "what must never fire silently",
+          "style": "ok"
+        },
+        {
+          "label": "PICK",
+          "sub": "fit to your stack"
+        }
+      ],
+      "lead": [
+        "Marketing automation platforms orchestrate campaigns across email, ads and your site from one rules engine: who gets what message, when, and what happens after they click. It is also the category where AI autonomy arrived first. ActiveCampaign now brands itself an autonomous marketing platform. HubSpot ships Breeze agents inside its workflows. Salesforce rebuilt Marketing Cloud around Agentforce. Other categories assist; this one acts, which is why the buyer's question has changed from what can it do to what does it do when nobody is watching.",
+        "The category exists to fix two old failure modes. The first is manual campaign assembly: the same journey rebuilt by hand in an email tool, an ad platform and a CMS, drifting apart within a month. The second is siloed customer data, where email never learns what the ads team already knows. Both are solved problems now. The new failure mode came with the agents: silent actions at scale. A journey that fires overnight, spends budget, or emails your whole list leaves no draft to review. We covered the audit that catches this in the silent-failure audit and the missing control in the approval-loophole post.",
+        "The directory splits three ways. Suite platforms cover the whole journey: ActiveCampaign, Ortto and HubSpot Marketing Hub for the mid-market, Adobe Marketo and Salesforce Marketing Cloud (Agentforce) at the enterprise end. Point solutions go deep on one job: Braze and Bloomreach on real-time engagement and commerce data, Laudspeaker on open-source lifecycle messaging. The self-hosted edge is where the interesting moves are: ALwrity for AI content production, L Harness for LINE-channel CRM your agents can drive through an MCP server. Our reviews weight workflow power and guardrails equally, because autonomy without an audit trail is just unlisted liability."
+      ],
+      "chooser": [
+        {
+          "if": "You are consolidating an enterprise stack and need one vendor to sign",
+          "then": [
+            {
+              "name": "Adobe Marketo Engage",
+              "slug": "adobe-marketo"
+            },
+            {
+              "name": "Salesforce Marketing Cloud",
+              "slug": "salesforce-marketing-cloud"
+            }
+          ],
+          "why": "Enterprise orchestration with SSO, permissions and audit trails; Marketo owns B2B lead management, Marketing Cloud now ships Agentforce agents as the default"
+        },
+        {
+          "if": "You run lifecycle messaging at scale across push, SMS and email",
+          "then": [
+            {
+              "name": "Braze",
+              "slug": "braze"
+            },
+            {
+              "name": "Laudspeaker",
+              "slug": "laudspeaker"
+            }
+          ],
+          "why": "Braze handles real-time cross-channel at enterprise volume; Laudspeaker is the open-source alternative you self-host when per-message pricing or data residency kills it"
+        },
+        {
+          "if": "You are a mid-market team replacing a patchwork of point tools",
+          "then": [
+            {
+              "name": "ActiveCampaign",
+              "slug": "activecampaign"
+            },
+            {
+              "name": "Ortto",
+              "slug": "ortto"
+            },
+            {
+              "name": "HubSpot Marketing Hub",
+              "slug": "hubspot-marketing-hub"
+            }
+          ],
+          "why": "All-in-one email, journeys and CRM in one platform; ActiveCampaign brands itself autonomous, Ortto bundles the CDP, HubSpot puts Breeze agents in the workflows"
+        },
+        {
+          "if": "You sell into B2B with long cycles and lead scoring",
+          "then": [
+            {
+              "name": "Adobe Marketo Engage",
+              "slug": "adobe-marketo"
+            },
+            {
+              "name": "Bloomreach",
+              "slug": "bloomreach"
+            }
+          ],
+          "why": "Marketo remains the reference for nurture and scoring; Bloomreach fits when commerce behavior data should drive the same journeys"
+        },
+        {
+          "if": "You need content and AI-assisted production on a budget",
+          "then": [
+            {
+              "name": "ALwrity",
+              "slug": "alwrity"
+            },
+            {
+              "name": "L Harness",
+              "slug": "line-harness"
+            }
+          ],
+          "why": "Both open source: ALwrity covers strategy through publishing for the cost of the LLM calls, L Harness runs a LINE CRM your agents control via MCP"
+        }
+      ],
+      "groups": [
+        {
+          "label": "SUITE PLATFORMS",
+          "slugs": [
+            "activecampaign",
+            "adobe-marketo",
+            "bloomreach",
+            "braze",
+            "hubspot-marketing-hub",
+            "ortto",
+            "salesforce-marketing-cloud"
+          ]
+        },
+        {
+          "label": "POINT + OPEN-SOURCE TOOLS",
+          "slugs": [
+            "alwrity",
+            "laudspeaker",
+            "line-harness"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "ai-agents-need-campaign-state",
+          "title": "AI Agents Need Campaign State, Not Prompts",
+          "note": "Why agents need durable campaign state, not longer prompts, to run journeys safely"
+        },
+        {
+          "slug": "agents-identity-debt",
+          "title": "Your Agents Are Only as Smart as Your Identity Debt",
+          "note": "Agent actions inherit your identity and permission model; this is the groundwork"
+        },
+        {
+          "slug": "ci-tools-were-the-first-martech-category-ai-killed",
+          "title": "CI Tools: The First Category AI Killed",
+          "note": "What happened to the last category agents absorbed, and the pattern repeating here"
+        },
+        {
+          "slug": "silent-failure-audit",
+          "title": "Check outputs, not logs: the silent-failure audit",
+          "note": "The category thesis in practice: audit what agents actually sent, not what logs claim"
+        }
+      ]
+    }
   },
   {
     "slug": "email-marketing",
