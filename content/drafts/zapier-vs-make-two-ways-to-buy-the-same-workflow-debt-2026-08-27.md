@@ -11,6 +11,12 @@ Zapier's pricing page now opens with the headline "AI orchestration plans that s
 
 The standard comparison pits features against each other: 9,000 app integrations versus 3,000, tasks versus credits, $19.99 versus $9. We pulled both pricing pages this week, and the feature gap is real but boring. The interesting finding is that both platforms sell the same underlying product. You are renting metered connections you do not own, maintained by hand, that rot quietly whenever a third-party API changes shape. The comparison that matters is not which one to buy. It is which one costs less to leave.
 
+## The short answer
+
+Make is the better buy for most readers. It costs less at entry, its credit math survives a small team's volume, and its blueprint export works on every plan. Zapier is the better buy in one case: when your workflows depend on apps only Zapier connects, the catalog is the product and the price is the toll.
+
+Neither pick endorses the model underneath. Both platforms bill you every time your automation works, which is the part worth deciding against.
+
 ## The meter is the product
 
 Pricing verified from [zapier.com/pricing](https://zapier.com/pricing) and [make.com/en/pricing](https://www.make.com/en/pricing) on August 27, 2026:
@@ -29,6 +35,10 @@ Pricing verified from [zapier.com/pricing](https://zapier.com/pricing) and [make
 Now the math both vendors hope you skip. Take one ordinary lead-intake workflow: webhook in, enrich, add to CRM, Slack the team, log to a sheet. Five action steps. If it fires 1,000 times in a month, that is 5,000 tasks on Zapier, which is nearly seven times the allowance in the base Professional plan. On Make the same month burns 5,000 credits, half of a $9 Core plan.
 
 The platforms differ on price, but they agree on the mechanism that matters. Every successful run costs money. The lead that converts, the row that syncs, the ticket that routes: each one drops a coin in the meter. Your bill goes up when your automation works. That is the inverse of every other piece of infrastructure you buy, and neither company has any incentive to change it. Zapier made the commitment explicit this year with a pricing-page announcement that AI steps, code steps, and SDK calls now all follow the same task-based model. The new AI layer is not an escape from the meter. It is a new thing to feed the meter.
+
+::: verdict win
+**Winner on unit cost: Make.** Core is $9/mo for 10,000 credits, and the five-step lead-intake workflow above burns half of that in a 1,000-run month. The same month nearly exhausts a $19.99 Zapier Professional plan. Zapier's per-task price falls as tiers climb, so the advantage does flip at volume, but it flips only after you have already rented the meter.
+:::
 
 ## The rot is not a bug
 
@@ -59,6 +69,18 @@ Make lets you export any scenario as a blueprint JSON on every plan, including F
 On that scorecard Make is the cheaper exit. Blueprint export on all tiers and a $9 entry point mean the smallest users can walk away with almost nothing sunk. Zapier's exit is heavier where the platform is strongest: deep multi-step Zaps, the 9,000-app long tail, and team-owned libraries. Neither exit is free, because neither one hands over the maintenance history. The debt travels with you as a to-do list.
 
 One correction to the cheapness myth, because it cuts the other way at volume. Zapier's per-task rate gets cheaper as tiers climb, and at the big tiers it undercuts Make's credit price per action. Make wins at the low end. Zapier wins the race to the bottom. Both models still bill every success, which is the part that never changes.
+
+::: verdict win
+**Winner on leaving: Make.** Blueprint export runs on every plan, Free included, so the smallest users walk away with almost nothing sunk. Zapier documents export for Team and Enterprise accounts, which means the users with the most to lose are the ones the exit was built for.
+:::
+
+## Which should you pick
+
+Three reader shapes, since "it depends" is not an answer:
+
+- **Solo marketer running fewer than five workflows.** Make. The free tier's 1,000 credits cover light use, and $9 buys 10,000 credits, which is the cheapest way to find out what your own volume costs before you commit to a tier.
+- **Team with workflows spread across niche apps.** Zapier. Count the apps you need before you count the price. A platform connecting 9,000 apps ends arguments that Make's 3,000 cannot, and reimplementation is the expensive half of any migration.
+- **Anyone whose automation bill is approaching a part-time contractor.** Neither. Move the workflows to a self-hosted n8n instance, keep the JSON in git, and pay for a server instead of a meter. The maintenance does not vanish, it changes owner.
 
 ## The counterpoint shipped this week
 

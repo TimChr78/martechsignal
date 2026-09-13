@@ -179,6 +179,9 @@
 
 ## Analysis
 
+- [Claude SEO vs Seonaut: which free SEO checker wins](https://martechsignal.com/blog/claude-seo-vs-seonaut/) (2026-09-13)
+- [Claude SEO vs Semrush: what a free audit replaces](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-13)
+- [Claude SEO vs Codex SEO: same audit, pick your agent](https://martechsignal.com/blog/claude-seo-vs-codex-seo/) (2026-09-13)
 - [Most of your marketing AI agents should be if/then](https://martechsignal.com/blog/determinism-audit/) (2026-09-11)
 - [Check outputs, not logs: the silent-failure audit](https://martechsignal.com/blog/silent-failure-audit/) (2026-09-10)
 - [The AI-search funnel map GA4 won't give you](https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/) (2026-09-10)

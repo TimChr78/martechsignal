@@ -1,6 +1,6 @@
 {
  "/mnt/user/dev/martechsignal/index.html": {
-  "fp": "aad6b79bafeafe3d",
+  "fp": "418ab177f0ecddd0",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/checklist/index.html": {
@@ -20,7 +20,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/index.html": {
-  "fp": "b17d26c1a001e80b",
+  "fp": "e23305894106db5f",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/martech-budget-bleeding-nobody-measuring/index.html": {
@@ -56,7 +56,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/google-ad-agents-control-gap/index.html": {
-  "fp": "d2e8573f76dfd37b",
+  "fp": "4e1e354d8626b26c",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/ci-tools-were-the-first-martech-category-ai-killed/index.html": {
@@ -68,11 +68,11 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/deliverability-ai-spam-content-problem/index.html": {
-  "fp": "aad9c9eeef317d4c",
+  "fp": "2595bda2679f12a5",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/dashboard-cant-see-ai-search-5-layer-fix/index.html": {
-  "fp": "2cfde5416bb82b33",
+  "fp": "f18ff9a2e6b2dd98",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/claude-seo-teardown-martechsignal/index.html": {
@@ -572,7 +572,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/categories/workflow-automation/index.html": {
-  "fp": "490d4df5ea636512",
+  "fp": "b49946abfb994cd8",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
@@ -688,7 +688,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/index.html": {
-  "fp": "a6bfba20b871d4d8",
+  "fp": "119b46e0e16433a4",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/tools/idurar-erp-crm/index.html": {
@@ -724,7 +724,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/index.html": {
-  "fp": "a0c8067ad3739ec3",
+  "fp": "6300c6bef10d57d7",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/glossary/ai-agent/index.html": {
@@ -840,11 +840,11 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/automation-blast-radius-audit/index.html": {
-  "fp": "538b905d430e5850",
+  "fp": "22eaad56741a0c4c",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/nocobase-vs-nocodb-vs-budibase/index.html": {
-  "fp": "a82d9e2ccecb326d",
+  "fp": "dc3610d630eed5dc",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/ai-search-funnel-map-ga4-wont-give-you/index.html": {
@@ -856,7 +856,19 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/determinism-audit/index.html": {
-  "fp": "796d22032621fc25",
+  "fp": "2b7750255a208219",
+  "date": "2026-09-13"
+ },
+ "/mnt/user/dev/martechsignal/blog/claude-seo-vs-codex-seo/index.html": {
+  "fp": "1047fcc6f691a4be",
+  "date": "2026-09-13"
+ },
+ "/mnt/user/dev/martechsignal/blog/claude-seo-vs-semrush/index.html": {
+  "fp": "66adf09e61b384f6",
+  "date": "2026-09-13"
+ },
+ "/mnt/user/dev/martechsignal/blog/claude-seo-vs-seonaut/index.html": {
+  "fp": "725ddc0cd6b68dca",
   "date": "2026-09-13"
  }
 }

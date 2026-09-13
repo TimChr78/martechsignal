@@ -96,7 +96,7 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">AUTOMATION · ZAPIER · 9 MIN</p>
+<p class="kicker">AUTOMATION · ZAPIER · 10 MIN</p>
 <h1>Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</h1>
 <p class="meta">AUG 27, 2026</p>
 <div class="byline">
@@ -104,10 +104,16 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-meter-is-the-product">The meter is the product</a> · <a href="#the-rot-is-not-a-bug">The rot is not a bug</a> · <a href="#agents-are-a-second-meter-not-an-exit">Agents are a second meter, not an exit</a> · <a href="#which-exit-costs-less">Which exit costs less</a> · <a href="#the-counterpoint-shipped-this-week">The counterpoint shipped this week</a></nav>
+<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-short-answer">The short answer</a> · <a href="#the-meter-is-the-product">The meter is the product</a> · <a href="#the-rot-is-not-a-bug">The rot is not a bug</a> · <a href="#agents-are-a-second-meter-not-an-exit">Agents are a second meter, not an exit</a> · <a href="#which-exit-costs-less">Which exit costs less</a> · <a href="#which-should-you-pick">Which should you pick</a> · <a href="#the-counterpoint-shipped-this-week">The counterpoint shipped this week</a></nav>
 <p>Zapier's pricing page now opens with the headline "AI orchestration plans that scale with you." Make's nav leads with Maia, a conversational tool that builds your automations and AI agents for you. The two biggest names in no-code automation are racing toward the same destination, and that destination is bolting AI agents onto the exact duct-tape problem they were both built to fix.</p>
 
 <p>The standard comparison pits features against each other: 9,000 app integrations versus 3,000, tasks versus credits, $19.99 versus $9. We pulled both pricing pages this week, and the feature gap is real but boring. The interesting finding is that both platforms sell the same underlying product. You are renting metered connections you do not own, maintained by hand, that rot quietly whenever a third-party API changes shape. The comparison that matters is not which one to buy. It is which one costs less to leave.</p>
+
+<h2 id="the-short-answer">The short answer</h2>
+
+<p>Make is the better buy for most readers. It costs less at entry, its credit math survives a small team's volume, and its blueprint export works on every plan. Zapier is the better buy in one case: when your workflows depend on apps only Zapier connects, the catalog is the product and the price is the toll.</p>
+
+<p>Neither pick endorses the model underneath. Both platforms bill you every time your automation works, which is the part worth deciding against.</p>
 
 <h2 id="the-meter-is-the-product">The meter is the product</h2>
 
@@ -127,6 +133,10 @@
 <p>Now the math both vendors hope you skip. Take one ordinary lead-intake workflow: webhook in, enrich, add to CRM, Slack the team, log to a sheet. Five action steps. If it fires 1,000 times in a month, that is 5,000 tasks on Zapier, which is nearly seven times the allowance in the base Professional plan. On Make the same month burns 5,000 credits, half of a $9 Core plan.</p>
 
 <p>The platforms differ on price, but they agree on the mechanism that matters. Every successful run costs money. The lead that converts, the row that syncs, the ticket that routes: each one drops a coin in the meter. Your bill goes up when your automation works. That is the inverse of every other piece of infrastructure you buy, and neither company has any incentive to change it. Zapier made the commitment explicit this year with a pricing-page announcement that AI steps, code steps, and SDK calls now all follow the same task-based model. The new AI layer is not an escape from the meter. It is a new thing to feed the meter.</p>
+
+<div class="verdict win">
+<p><strong>Winner on unit cost: Make.</strong> Core is $9/mo for 10,000 credits, and the five-step lead-intake workflow above burns half of that in a 1,000-run month. The same month nearly exhausts a $19.99 Zapier Professional plan. Zapier's per-task price falls as tiers climb, so the advantage does flip at volume, but it flips only after you have already rented the meter.</p>
+</div>
 
 <h2 id="the-rot-is-not-a-bug">The rot is not a bug</h2>
 
@@ -156,6 +166,20 @@
 
 <p>One correction to the cheapness myth, because it cuts the other way at volume. Zapier's per-task rate gets cheaper as tiers climb, and at the big tiers it undercuts Make's credit price per action. Make wins at the low end. Zapier wins the race to the bottom. Both models still bill every success, which is the part that never changes.</p>
 
+<div class="verdict win">
+<p><strong>Winner on leaving: Make.</strong> Blueprint export runs on every plan, Free included, so the smallest users walk away with almost nothing sunk. Zapier documents export for Team and Enterprise accounts, which means the users with the most to lose are the ones the exit was built for.</p>
+</div>
+
+<h2 id="which-should-you-pick">Which should you pick</h2>
+
+<p>Three reader shapes, since "it depends" is not an answer:</p>
+
+<ul>
+<li><strong>Solo marketer running fewer than five workflows.</strong> Make. The free tier's 1,000 credits cover light use, and $9 buys 10,000 credits, which is the cheapest way to find out what your own volume costs before you commit to a tier.</li>
+<li><strong>Team with workflows spread across niche apps.</strong> Zapier. Count the apps you need before you count the price. A platform connecting 9,000 apps ends arguments that Make's 3,000 cannot, and reimplementation is the expensive half of any migration.</li>
+<li><strong>Anyone whose automation bill is approaching a part-time contractor.</strong> Neither. Move the workflows to a self-hosted n8n instance, keep the JSON in git, and pay for a server instead of a meter. The maintenance does not vanish, it changes owner.</li>
+</ul>
+
 <h2 id="the-counterpoint-shipped-this-week">The counterpoint shipped this week</h2>
 
 <p>While both vendors priced their agents, n8n shipped <a href="https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0">version 2.36.0</a> on August 18, and the release notes read like a rebuttal. The Schedule Trigger node gained an "If Execution Is Missed" option with a per-node grace period, so the platform itself now catches up runs missed during downtime instead of dropping them. The AI side got hardening rather than marketing: the agent HTTP Request tool configuration was locked down, human-in-the-loop approval resumes were fixed, and agents gained writable workspaces and deeper MCP access.</p>
@@ -176,7 +200,7 @@
 
 <p><strong>Sources:</strong> <a href="https://zapier.com/pricing">Zapier pricing (retrieved Aug 27, 2026)</a> · <a href="https://www.make.com/en/pricing">Make pricing (retrieved Aug 27, 2026)</a> · <a href="https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0">n8n 2.36.0 release notes (Aug 18, 2026)</a> · <a href="https://reddit.com/r/MarketingAutomation/comments/1vu7agv/for_everyone_running_client_automations_on">r/MarketingAutomation: client automations that break in production (Aug 21, 2026)</a> · <a href="https://www.reddit.com/r/nocode/comments/1sj58j8/nocode_is_getting_too_expensive_and_nobody_wants/">r/nocode: Nocode is getting too expensive (Mar 2026)</a> · <a href="https://help.make.com/blueprints">Make scenario blueprints documentation</a> · <a href="https://help.zapier.com/hc/en-us/articles/8496308481933-Import-and-export-Zap-workflows-in-your-Team-or-Enterprise-account">Zapier import/export documentation</a></p>
 
-<p><strong>Tools linked in this post:</strong> <a href="/tools/zapier/">Zapier</a>, <a href="/tools/make/">Make</a>, <a href="/tools/n8n/">n8n</a>, <a href="/tools/pipedream/">Pipedream</a>, <a href="/tools/tray-io/">Tray.io</a>.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">NocoBase vs NocoDB vs Budibase: pick by team shape</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/workato/">Workato</a> — Enterprise AI governance plus integration and automation on one platform</li><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> — Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/paperclip/">Paperclip</a> — Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/workflow-automation/">Workflow automation</a></li></ul></section>
+<p><strong>Tools linked in this post:</strong> <a href="/tools/zapier/">Zapier</a>, <a href="/tools/make/">Make</a>, <a href="/tools/n8n/">n8n</a>, <a href="/tools/pipedream/">Pipedream</a>, <a href="/tools/tray-io/">Tray.io</a>.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">NocoBase vs NocoDB vs Budibase: pick by team shape</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/paperclip/">Paperclip</a> — Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</li><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> — Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/tidio/">Tidio</a> — AI-powered live chat and chatbot platform with Lyro AI agent for customer support</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/workflow-automation/">Workflow automation</a></li><li><a href="/glossary/ai-agent/">AI Agent</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
