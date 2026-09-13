@@ -1,0 +1,51 @@
+# .assetsignore — the boundary between the working tree and the public web.
+#
+# `wrangler pages deploy .` uploads the WHOLE repo directory, so anything not
+# listed here is downloadable from martechsignal.com. Verified 2026-09-13:
+#   * .gitignore is NOT honoured by the deploy. Proof: /__pycache__/gsc_inspect.cpython-313.pyc
+#     was publicly served and byte-identical to the local file, even though
+#     __pycache__/ is in .gitignore.
+#   * .assetsignore IS honoured (wrangler reads it from the deploy directory and
+#     feeds the patterns to a gitignore-style matcher).
+#
+# Before this file existed, the following were all live and public: all 31
+# content drafts, tools/*.py, tools/*.json, deploy.sh, gsc_inspect.py, docs/*.md,
+# .github/workflows/ci.yml, __pycache__/*.pyc and 15 *.bak-* editor backups.
+#
+# Whatever you add here, verify it with (must print 404):
+#   curl -s -o /dev/null -w '%{http_code}\n' https://martechsignal.com/deploy.sh
+# ...and re-check that the real pages still work (must print 200):
+#   curl -s -o /dev/null -w '%{http_code}\n' https://martechsignal.com/tools/nocobase/
+
+# ── build + deploy machinery ──────────────────────────────────────────────
+/deploy.sh
+/gsc_inspect.py
+/*.py
+/README.md
+/.gitignore
+/.github/
+/.hermes/
+/__pycache__/
+/.pytest_cache/
+/.wrangler/
+
+# ── source content: unpublished drafts must never be public ──────────────
+/content/
+
+# ── pipeline source + state ──────────────────────────────────────────────
+# NOTE: the generated tool pages (/tools/<slug>/, /tools/index.html) and the
+# 132 tool HTML files under tools/ ARE public and must stay that way - only the
+# machinery beside them is excluded.
+/tools/*.py
+/tools/*.json
+/tools/*.md
+/tools/.indexnow-key
+/tools/__pycache__/
+
+# ── working inputs and internal docs ─────────────────────────────────────
+/data/
+/docs/
+
+# ── dead editor backups ──────────────────────────────────────────────────
+*.bak-*
+*.bak

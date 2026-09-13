@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2026 16:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 19:40:08 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</title>
@@ -204,25 +204,25 @@
       <description>Every vendor demo you have seen this year shows the same trick. A marketer types a sentence into a box, an AI agent drafts an email, and the crowd applauds. The drafting is the eas</description>
     </item>
     <item>
-      <title>Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.</title>
+      <title>Google Doesn't Need Your Site Anymore. You Taught It</title>
       <link>https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>For fifteen years the deal was simple. You published content, Google sent traffic. You did the writing, the formatting, the keyword research, and in exchange you got a metered drip</description>
+      <description>For fifteen years the deal was simple. You published content, Google sent traffic. You did the writing, the formatting, the keyword research, and in.</description>
     </item>
     <item>
       <title>Claude Cowork is eating the edges of your martech stack</title>
       <link>https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description>For the past three years, marketing ops teams have been promised "AI-powered automation" by every vendor in the stack. You know how that went. Chatbots nobody uses, predictive scor</description>
+      <description>For the past three years, marketing ops teams have been promised "AI-powered automation" by every vendor in the stack. You know how that went. Chatbots.</description>
     </item>
     <item>
-      <title>MCP Rewrites the Integration Economics of Your Marketing Stack</title>
+      <title>MCP Rewrites the Integration Economics of Your Stack</title>
       <link>https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying th</description>
+      <description>Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing.</description>
     </item>
     <item>
       <title>n8n + AI: The Open-Source Automation Engine</title>
