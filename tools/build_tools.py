@@ -116,6 +116,43 @@ def _seo_title_for(t, cats):
     truncated_name = name[:budget].rsplit(" ", 1)[0] if " " in name[:budget] else name[:budget]
     return f"{truncated_name} Review: {price}{suffix}"[:60]
 
+def _clip_meta_text(text, budget):
+    """Cut meta text on a natural boundary (GSC follow-up 2026-09-13).
+
+    The old fallback was a hard `desc[:90].rsplit(" ",1)[0]`, which sliced mid-phrase
+    and shipped broken snippets to the SERP. Real examples found live:
+      "AI Business Skills: 63 bilingual marketing skills (Vietnamese +."
+      "ALwrity: AI-first digital marketing platform for content strategy."
+    (the actual description continues past both cut points).
+
+    Order of preference: drop an unterminated parenthetical, then cut at a sentence /
+    semicolon / comma / dash, then fall back to a word boundary. Trailing connectors
+    and punctuation are stripped so the result always reads as a finished phrase.
+    """
+    if len(text) <= budget:
+        return text
+    window = text[:budget]
+    if window.count("(") > window.count(")"):
+        window = window[:window.rfind("(")].rstrip()
+    for sep in (". ", "; ", ", ", " - ", " \u2014 "):
+        i = window.rfind(sep)
+        if i >= budget * 0.5:
+            return window[:i].rstrip(" ,;:-\u2014")
+    return window.rsplit(" ", 1)[0].rstrip(" ,;:-\u2014+")
+
+
+def _ends_on_function_word(text):
+    """True if a clipped phrase would end on a dangling connector.
+
+    Prevents snippets like "...for SMEs and." / "...engagement and product with." that a
+    punctuation-only strip leaves behind.
+    """
+    _fw = {"and", "or", "with", "for", "of", "to", "in", "on", "the", "a", "an", "at",
+           "by", "from", "into", "as", "but", "plus", "using", "via", "without"}
+    words = text.strip().rstrip(",;:-").split()
+    return bool(words) and words[-1].lower() in _fw
+
+
 def _seo_description_for(t, cats):
     cat_map = {c["slug"]: c["name"] for c in cats}
     name = t["name"]
@@ -129,12 +166,19 @@ def _seo_description_for(t, cats):
             if len(first) >= 20:
                 tagline = first
             else:
-                tagline = desc[:90].rsplit(" ", 1)[0] if " " in desc[:90] else desc[:90]
+                tagline = _clip_meta_text(desc, 90)
         else:
             tagline = f"{cat_map.get(t.get('category'), 'Marketing')} tool"
     tagline_sent = tagline if tagline.endswith(".") else tagline + "."
     if t.get("open_source"):
-        price_phrase = "Open source & free to self-host."
+        # Don't repeat the licence in the snippet when the tagline already says it.
+        # Live example this fixes: "BillionMail: Open-source mail server, newsletter,
+        # and email. Open source & free to self-host." (and 53 other pages).
+        import re as _re
+        if _re.search(r"open[- ]?source", tagline, _re.I):
+            price_phrase = "Free to self-host; no licence fee."
+        else:
+            price_phrase = "Open source & free to self-host."
     elif t.get("pricing_model") == "enterprise":
         price_phrase = "Enterprise pricing; demo required."
     elif t.get("price_from") is not None:
@@ -147,26 +191,32 @@ def _seo_description_for(t, cats):
     else:
         price_phrase = f"{pricing_label(t)}."
     tail = " Compare AI features, integrations & top alternatives."
-    base = f"{name}: {tagline_sent} {price_phrase}{tail}"
-    if len(base) <= 155:
-        return base
-    # R2 H-6 (2026-09-08): truncate only on word boundaries and keep the tail whole -
-    # the old logic sliced mid-phrase ("Compare AI features, integrations & top.")
-    # and could cut the tail itself ("Compare AI." / "Compare AI features.").
-    overhead = len(f"{name}:  {price_phrase}{tail}") + 1
+    # Composition order (GSC follow-up 2026-09-13): prefer a COMPLETE tagline over the
+    # generic tail. The tail is identical boilerplate on ~104 pages, so it is the cheapest
+    # thing to drop when space runs short. The previous order clipped the tagline first,
+    # which shipped dangling fragments to the SERP, e.g.
+    #   "Ghost: Open-source publishing platform with built-in."
+    #   "Krayin CRM: Free open-source Laravel CRM for SMEs and."
+    if len(f"{name}: {tagline_sent} {price_phrase}{tail}") <= 155:
+        return f"{name}: {tagline_sent} {price_phrase}{tail}"
+    if len(f"{name}: {tagline_sent} {price_phrase}") <= 155:
+        return f"{name}: {tagline_sent} {price_phrase}"
+    # Only now clip the tagline, and only on a clean boundary with no tail to pay for.
+    overhead = len(f"{name}:  {price_phrase}") + 1
     budget = 155 - overhead
-    if len(tagline_sent) > budget and budget > 20 and " " in tagline_sent[:budget]:
-        trunc = tagline_sent[:budget].rsplit(" ", 1)[0].rstrip(" ,;:")
-        tagline_sent = trunc + "." if not trunc.endswith((".", "!", "?")) else trunc
-    base2 = f"{name}: {tagline_sent} {price_phrase}{tail}"
-    if len(base2) > 155:
-        # drop the tagline entirely before ever cutting the tail mid-phrase
-        base2 = f"{name}: {price_phrase}{tail}"
-    if len(base2) > 155:
-        # last resort: word-boundary cut inside the tail, ending with a full stop
-        cut = base2[:152].rsplit(" ", 1)[0].rstrip(" ,;:")
-        base2 = cut + "." if not cut.endswith((".", "!", "?")) else cut
-    return base2
+    if budget > 30:
+        trunc = _clip_meta_text(tagline_sent.rstrip("."), budget)
+        if trunc and not _ends_on_function_word(trunc):
+            ts = trunc + "." if not trunc.endswith((".", "!", "?")) else trunc
+            cand = f"{name}: {ts} {price_phrase}"
+            if len(cand) <= 155:
+                return cand
+    # Final fallback: name + pricing only. Never cut mid-phrase to keep the tail.
+    cand = f"{name}: {price_phrase}"
+    if len(cand) <= 155:
+        return cand
+    cut = cand[:152].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return cut + "." if not cut.endswith((".", "!", "?")) else cut
 
 # ── Shared HTML shell ──────────────────────────────────────────────
 

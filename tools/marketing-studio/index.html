@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Marketing Studio Review: Open Source | MartechSignal</title>
-<meta name="description" content="Marketing Studio: Agent-driven marketing studio for Claude Code. Open source &amp; free to self-host. Compare AI features, integrations &amp; top alternatives.">
+<meta name="description" content="Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Open source &amp; free to self-host.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Marketing Studio Review: Open Source | MartechSignal">
-<meta property="og:description" content="Marketing Studio: Agent-driven marketing studio for Claude Code. Open source &amp; free to self-host. Compare AI features, integrations &amp; top alternatives.">
+<meta property="og:description" content="Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Open source &amp; free to self-host.">
 <meta property="og:url" content="https://martechsignal.com/tools/marketing-studio/">
 <meta property="og:image" content="https://martechsignal.com/og/tools/marketing-studio.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Marketing Studio Review: Open Source | MartechSignal">
-<meta name="twitter:description" content="Marketing Studio: Agent-driven marketing studio for Claude Code. Open source &amp; free to self-host. Compare AI features, integrations &amp; top alternatives.">
+<meta name="twitter:description" content="Marketing Studio: Agent-driven marketing studio for Claude Code: launch assets from one command. Open source &amp; free to self-host.">
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/marketing-studio.png">
 <link rel="canonical" href="https://martechsignal.com/tools/marketing-studio/">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
@@ -137,7 +137,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Marketing Studio is an agent-driven asset pipeline for Claude Code: you run /marketing in your product&#x27;s repository, and the agent onboards your brand, captures your app with Playwright, and renders a launch asset suite through a chain of skills. One run produces a logo reveal (Blender plus Remotion), a product demo with camera moves, a 30 to 90 second launch video, a scored voiceover and music track via ElevenLabs, per-platform social clips for X, LinkedIn, and TikTok, plus OG images and README GIFs. The pipeline is deliberately ordered so cheap compositions render first and brand-token bugs surface before expensive assets, and a manifest lets a dead session resume instead of restarting. Around the render chain sit a derived content brief (the agent reads your README, routes, and landing page into a validated brief.json), a copy linter that blocks em dashes and hype vocabulary before render, per-brand film grade and motion tokens, and an export matrix. With 220 stars it is one of the more complete demonstrations of agentic creative production, and the honest framing is that it renders marketing assets from your repo, not strategy from thin air.</p>
-    
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/marketing-studio-2026-09.png" alt="Screenshot of the Marketing Studio homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Marketing Studio homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Launch asset generation</li><li>Demo video rendering</li><li>Social clip creation</li><li>OG asset generation</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Claude Code</span><span>Blender</span></div>
     <h2>Hands-on notes</h2><p>The README documents a real render pipeline with named skills, an asset order that front-loads cheap steps, and a resume manifest, which is more engineering discipline than most agent-creative projects show. The examples directory shows rendered output for real products, including an animated OG loop generated from brand tokens alone. Assessments here are based on the repository, its examples, and its documented pipeline; we have not run the studio against a product repo ourselves.</p><p>The copy linter deserves attention: generated lines are gated for em dashes, hype vocabulary, and AI-slop before they can reach a render, which is the same editorial standard human teams apply and a sign the author has shipped real content. Requirements follow from the stack: Blender, Remotion, Playwright, and an ElevenLabs key, all running inside Claude Code on your machine.</p><h2>Verdict</h2><p>The most complete open-source take on agent-produced launch assets, with a real pipeline architecture behind the demo. Worth adopting if you already work in Claude Code and need repeatable launch creative; expect to invest in brand tokens and review passes before output is publishable.</p>
