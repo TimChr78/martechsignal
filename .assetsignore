@@ -32,6 +32,9 @@
 # ── source content: unpublished drafts must never be public ──────────────
 /content/
 
+# ── repo tests (dev-only, same reasoning as the pipeline scripts) ────────
+/tests/
+
 # ── pipeline source + state ──────────────────────────────────────────────
 # NOTE: the generated tool pages (/tools/<slug>/, /tools/index.html) and the
 # 132 tool HTML files under tools/ ARE public and must stay that way - only the
