@@ -5594,7 +5594,8 @@
       ],
       "pros_extra": [
         "MIT licensed with no paid tier, so the whole audit stack is inspectable"
-      ]
+      ],
+      "hands_on_verified": true
     },
     "github": "AgriciDaniel/claude-seo",
     "license": "MIT"

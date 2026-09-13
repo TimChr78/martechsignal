@@ -770,9 +770,12 @@ def build_tool_page(t, cats, all_tools):
             # we-have-not-run disclosure. If the tool's own text lacks one, prepend a
             # standard line so no page can imply hands-on testing it did not perform.
             joined = " ".join(str(p) for p in dd["hands_on"]).lower()
+            _asserts_use = any(m in joined for m in (
+                "we ran ", "we have run ", "we tested ", "we installed ", "we set up "))
             if not any(m in joined for m in ("we have not run", "we have no account",
                                              "not run this", "we have not tested",
-                                             "haven't run", "assessed from")):
+                                             "haven't run", "assessed from")) \
+                    and not (_asserts_use and dd.get("hands_on_verified")):
                 paras = ('<p style="font-size:.78rem;color:var(--muted)">'
                          'Assessed from public documentation, the repository, and vendor '
                          'pages; we have not run this tool.</p>') + paras
