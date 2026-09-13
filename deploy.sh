@@ -52,6 +52,12 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # trending page lastmod. Failure is non-fatal; sitemap falls back to file mtime.
     python3 tools/build_trending.py || echo "⚠ trending build failed (non-fatal)"
     python3 tools/build_tools.py
+    # Glossary hub + term pages reuse page_shell from build_tools. This was previously
+    # NOT run by deploy, so glossary pages drifted and never picked up site-wide changes
+    # (found as a stale 10-link footer during R2 M-6). Failure is non-fatal.
+    python3 tools/build_glossary.py || echo "⚠ glossary build failed (non-fatal)"
+    # /categories/ and /authors/ index pages (R2 L-7: both returned 404).
+    python3 tools/build_indexes.py || echo "⚠ index build failed (non-fatal)"
     # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
     # Uses the cached /opt/data/gsc-pages-28d.json if present (refresh it with
     # a fresh GSC searchanalytics pull); falls back to stars-only otherwise.
