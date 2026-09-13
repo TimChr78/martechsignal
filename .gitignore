@@ -4,3 +4,4 @@ __pycache__/
 .wrangler/
 *.bak-*
 *.bak
+deploy-out/

@@ -14,6 +14,9 @@ set -euo pipefail
 # It runs BEFORE upload so the live site always reflects current source — this
 # closes the "deployed stale HTML" footgun where edits to a draft never reached
 # the site because deploy.sh used to only upload pre-built files.
+#
+# Only the staged public subset is uploaded (deploy-out/, built by
+# tools/stage_deploy.py). The repo itself is NOT the publish root any more.
 
 # ── Flags ──────────────────────────────────────────────────────────
 DO_GIT=1
@@ -70,9 +73,17 @@ if [ "$DO_BUILD" -eq 1 ]; then
     echo ""
 fi
 
+# Stage the public subset, then upload that. `wrangler pages deploy .` uploads the
+# whole working tree, which put content drafts, pipeline scripts, pipeline JSON,
+# docs/, .github/ and editor backups on the public web. Neither .gitignore nor
+# .assetsignore is honoured by `pages deploy` (both verified 2026-09-13), so the
+# upload directory itself has to be the boundary. See tools/stage_deploy.py, which
+# refuses to stage if a known-public file would be missing.
+python3 tools/stage_deploy.py
+
 CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_KEY" \
 CLOUDFLARE_ACCOUNT_ID="$ACCOUNT_ID" \
-npx wrangler pages deploy . --project-name="$PROJECT" --commit-dirty=true
+npx wrangler pages deploy deploy-out --project-name="$PROJECT" --commit-dirty=true
 
 # ── IndexNow ping (Bing / Yandex / Seznam / Naver via api.indexnow.org) ──
 # tools/indexnow_submit.py: submits the most recently changed URLs (from the
