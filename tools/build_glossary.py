@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-from build_tools import page_shell, esc, ROOT
+from build_tools import page_shell, esc, ROOT, _category_display
 
 TOOLS_DIR = ROOT / "tools"
 GLOSSARY_DIR = ROOT / "glossary"
@@ -111,7 +111,7 @@ def build_term_page(term, tools_map, all_terms):
     # Related categories
     cat_html = ""
     for cat_slug in term.get("related_categories", []):
-        cat_html += f'<a class="cat-pill" href="/categories/{cat_slug}/">{esc(cat_slug.replace("-", " ").title())}</a> '
+        cat_html += f'<a class="cat-pill" href="/categories/{cat_slug}/">{esc(_category_display(cat_slug))}</a> '
 
     # Related terms (other glossary entries sharing tools or categories)
     related_terms = []

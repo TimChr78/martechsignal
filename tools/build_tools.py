@@ -172,6 +172,31 @@ def _glossary_display(term_slug):
     return words
 
 
+_CATEGORY_NAMES = None
+
+def _category_display(cat_slug):
+    """MUSE-11 (2026-09-13): render categories with their canonical names.
+
+    Glossary chips and blog 'Filed under' chips built the label with
+    .title() on the slug, which put 'Crm', 'Seo' and 'Content Ai' on 88 pages
+    while categories.json has 'CRM', 'SEO & Search' and 'AI Content & Copywriting'.
+    Same fix pattern as _glossary_display() above.
+    """
+    global _CATEGORY_NAMES
+    if _CATEGORY_NAMES is None:
+        try:
+            g = json.loads((ROOT / "tools" / "categories.json").read_text(encoding="utf-8"))
+            _CATEGORY_NAMES = {c.get("slug"): c.get("name") for c in g if c.get("slug")}
+        except Exception:
+            _CATEGORY_NAMES = {}
+    if cat_slug in _CATEGORY_NAMES and _CATEGORY_NAMES[cat_slug]:
+        return _CATEGORY_NAMES[cat_slug]
+    words = str(cat_slug).replace("-", " ").title()
+    for acr in ("Mcp", "Crm", "Seo", "Ai", "Cdp", "Ads", "Oss", "Abm", "Cro", "Dco", "Cta", "Api", "Utm"):
+        words = words.replace(acr, acr.upper())
+    return words
+
+
 def cat_h1(cat_name):
     """Category hub H1: append 'Tools' unless the name already ends with it."""
     name = (cat_name or "").strip()

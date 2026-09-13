@@ -185,19 +185,32 @@ class TestCategoryPages:
                     f"Category '{c['slug']}' missing link to tool '{slug}'"
 
     def test_category_schema_itemlist(self, cats, active_tools):
+        """Category pages emit one ld+json block whose @graph holds a
+        BreadcrumbList and an ItemList (M1/MUSE-12, 2026-09-07). The old version of
+        this test expected a top-level ItemList, which the @graph refactor removed."""
         for c in cats:
             html = read_page(f"categories/{c['slug']}/index.html")
-            m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
-            assert m, f"No schema in category '{c['slug']}'"
-            schema = json.loads(m.group(1))
-            assert schema["@type"] == "ItemList"
-            # open-source is a meta-category: counts ALL active OSS tools
+            blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
+            assert blocks, f"No schema in category '{c['slug']}'"
+            payloads = [json.loads(b) for b in blocks]
+            members = [m for p in payloads for m in (p.get("@graph") or [p])]
+            types = [m.get("@type") for m in members if isinstance(m, dict)]
+            assert "BreadcrumbList" in types, \
+                f"Category '{c['slug']}': no BreadcrumbList in {types}"
+            lists = [m for m in members if isinstance(m, dict) and m.get("@type") == "ItemList"]
+            assert lists, f"Category '{c['slug']}': no ItemList in {types}"
+            item_list = lists[0]
+            # open-source is a meta-category: it aggregates ALL active OSS tools
             if c["slug"] == "open-source":
-                expected_count = len([t for t in active_tools if t.get("open_source")])
+                expected = [t for t in active_tools if t.get("open_source")]
             else:
-                expected_count = len([t for t in active_tools if t["category"] == c["slug"]])
-            assert schema["numberOfItems"] == expected_count, \
-                f"Category '{c['slug']}': schema says {schema['numberOfItems']}, expected {expected_count}"
+                expected = [t for t in active_tools if t["category"] == c["slug"]]
+            assert item_list["numberOfItems"] == len(expected), \
+                f"Category '{c['slug']}': schema says {item_list['numberOfItems']}, expected {len(expected)}"
+            urls = {str((e.get("item") or {}).get("url") or "") for e in item_list["itemListElement"]}
+            missing = [t["slug"] for t in expected
+                       if f"https://martechsignal.com/tools/{t['slug']}/" not in urls]
+            assert not missing, f"Category '{c['slug']}': ItemList omits {missing}"
 
 
 # ── 5. Hub pages ─────────────────────────────────────────────────────

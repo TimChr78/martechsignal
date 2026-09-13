@@ -17,6 +17,12 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
 
+try:  # canonical category names (MUSE-11); falls back to the old label
+    from build_tools import _category_display as _cat_display
+except Exception:  # pragma: no cover
+    def _cat_display(slug):
+        return str(slug).replace("-", " ").title()
+
 ROOT = Path(__file__).resolve().parent.parent
 DRAFTS_DIR = ROOT / "content" / "drafts"
 BLOG_DIR = ROOT / "blog"
@@ -239,7 +245,7 @@ def _build_toc_and_chip(body_html: str, categories=None):
     chip_html = ""
     if categories:
         links = " · ".join(
-            f'<a href="/categories/{c}/">{str(c).replace("-", " ").title()}</a>'
+            f'<a href="/categories/{c}/">{_cat_display(c)}</a>'
             for c in (categories if isinstance(categories, list) else [categories])
         )
         chip_html = f'<p class="meta filed-cat">Filed under {links}</p>'

@@ -5,29 +5,8 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2026 19:53:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 20:09:12 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
-    <item>
-      <title>Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</title>
-      <link>https://martechsignal.com/blog/claude-seo-vs-codex-seo/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-vs-codex-seo/</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. Claude SEO and Codex SEO are</description>
-    </item>
-    <item>
-      <title>Claude SEO vs Semrush: what a free audit replaces, and what it does not</title>
-      <link>https://martechsignal.com/blog/claude-seo-vs-semrush/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-vs-semrush/</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <description>One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracki</description>
-    </item>
-    <item>
-      <title>Claude SEO vs Seonaut: which free SEO checker should you run</title>
-      <link>https://martechsignal.com/blog/claude-seo-vs-seonaut/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-vs-seonaut/</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill that reasons about a site ins</description>
-    </item>
     <item>
       <title>Most of your marketing AI agents should be if/then</title>
       <link>https://martechsignal.com/blog/determinism-audit/</link>
