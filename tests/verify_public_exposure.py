@@ -67,15 +67,26 @@ def main() -> int:
     if "--deployment" in sys.argv:
         BASE = sys.argv[sys.argv.index("--deployment") + 1]
 
+    strict_cache = "--require-bare" in sys.argv
     bad = []
     private = excluded_paths()
     print(f"{len(private)} private files to check (must all be unreachable)")
+    stale = []
     for rel in private:
-        code = fetch("/" + rel.lstrip("/"), bust=True)
-        if code != 404:
-            bad.append((rel, code))
-    print(f"  -> {len(private) - len(bad)} unreachable, {len(bad)} still public"
+        path = "/" + rel.lstrip("/")
+        if fetch(path, bust=True) != 404:
+            bad.append((rel, "reachable at origin"))
+        elif fetch(path) != 404:
+            stale.append(rel)          # a pre-deploy edge cache copy is still being served
+    print(f"  -> {len(private)} unreachable at origin, {len(bad)} still public"
           + ("" if not bad else "  <-- LEAK"))
+    if stale:
+        print(f"  -> {len(stale)} still served from the edge cache (bare URLs return 200). "
+              f"Purge the cache; pass --require-bare to treat this as a failure.")
+        for rel in stale:
+            print(f"       cached: {rel}")
+        if strict_cache:
+            bad.extend((rel, "stale edge cache") for rel in stale)
 
     print(f"{len(PUBLIC_PAGES)} public pages/assets to check (must all be 200)")
     for p in PUBLIC_PAGES:
@@ -92,7 +103,10 @@ def main() -> int:
         print("\nA cache-busted 404 vs a bare 200 means the edge cache still holds a "
               "pre-deploy copy: purge the cache rather than re-deploying.")
         return 1
-    print("OK: no private file is reachable and every public page still resolves.")
+    if strict_cache:
+        print("OK: no private file is reachable (cache purged) and every public page resolves.")
+    else:
+        print("OK: no private file is reachable at origin and every public page still resolves.")
     return 0
 
 
