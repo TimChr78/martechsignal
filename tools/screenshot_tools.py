@@ -2,7 +2,14 @@
 """Capture dated homepage screenshots of top tools for martechsignal.com (media plan #3).
 
 Usage:
-  /home/hermes/.hermes/home/.claude/skills/seo/.venv/bin/python tools/screenshot_tools.py [--limit 5] [--slugs zapier klaviyo]
+  PLAYWRIGHT_BROWSERS_PATH=$HOME/.cache/ms-playwright \
+    /home/hermes/.hermes/home/.claude/skills/seo/.venv/bin/python tools/screenshot_tools.py [--limit 5] [--slugs zapier klaviyo]
+
+  NOTE: PLAYWRIGHT_BROWSERS_PATH is REQUIRED on this host. HOME is shimmed to
+  /home/hermes/.hermes/home, and without the variable the venv's playwright cannot
+  find the cached chromium build and dies with "Please run: playwright install"
+  on the very first capture attempt. The browsers ARE already cached at
+  $HOME/.cache/ms-playwright (chromium-1194 / chromium-1234).
 
 Outputs: og/screenshots/<slug>-<YYYY-MM>.png  (1280x800 viewport, full page crop 1200x630)
 Skips vendor bot-blocks gracefully and logs them; NEVER fabricates a capture.

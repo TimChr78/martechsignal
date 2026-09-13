@@ -175,6 +175,50 @@ SUB_STRIP = (
     '<p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div>'
     '<a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>')
 
+def screenshot_figure(slug, tool_name):
+    """Single source of truth for vendor homepage screenshots (R2 M-3).
+
+    Resolves either capture location, newest first:
+      1. og/screenshots/<slug>-<YYYY-MM>.png   (what tools/screenshot_tools.py writes)
+      2. og/screens/<slug>.webp                (legacy location, kept as fallback)
+    Always emits a <figure> WITH a figcaption, and dates the caption from the capture
+    month in the filename rather than today's date, so a rebuild cannot relabel an old
+    capture as a new one. Returns "" when no capture exists (page renders as before).
+
+    The internal link-free rule still applies: this is presented as a dated reference
+    capture of a vendor page, not as an endorsement.
+    """
+    candidates = []
+    shots_dir = ROOT / "og" / "screenshots"
+    if shots_dir.is_dir():
+        for p in sorted(shots_dir.glob(f"{slug}-*.png"), reverse=True):
+            candidates.append((f"og/screenshots/{p.name}", p))
+    legacy = ROOT / "og" / "screens" / f"{slug}.webp"
+    if legacy.exists():
+        candidates.append((f"og/screens/{slug}.webp", legacy))
+    if not candidates:
+        return ""
+    rel, path = candidates[0]
+    m = re.search(r"(\d{4})-(\d{2})", path.name)
+    if m:
+        try:
+            _d = datetime(int(m.group(1)), int(m.group(2)), 1)
+            what = f"{tool_name} homepage, captured {_d.strftime('%B %Y')}"
+        except ValueError:
+            what = f"{tool_name} homepage"
+    else:
+        what = f"{tool_name} homepage"
+    return (
+        '<figure class="tool-screenshot" style="margin:1.2rem 0">'
+        f'<img src="/{rel}" alt="Screenshot of the {esc(tool_name)} homepage" '
+        'width="1280" height="800" loading="lazy" '
+        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
+        f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
+        f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '
+        'belongs to its owner.</figcaption></figure>'
+    )
+
+
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
     og_url = og_image or "og.png"
     schema_block = ""
@@ -251,6 +295,7 @@ def build_hub(tools, cats):
 
     # tool cards
     cards = ""
+    card_by_slug = {}
     for t in sorted(tools, key=lambda x: x["name"].lower()):
         if t.get("status") != "active": continue
         c = cat_map.get(t["category"], {})
@@ -258,11 +303,42 @@ def build_hub(tools, cats):
         tags += f'<span class="tag cat">{esc(c.get("name", t["category"]))}</span>'
         if t.get("open_source"):
             tags += '<span class="tag oss">OSS</span>'
-        cards += f"""<a class="tool-card" href="/tools/{t['slug']}/">
+        card_html = f"""<a class="tool-card" href="/tools/{t['slug']}/">
   <div class="name">{esc(t['name'])}</div>
   <div class="tagline">{esc(t.get('tagline',''))}</div>
   <div class="meta">{tags}</div>
 </a>\n"""
+        cards += card_html
+        card_by_slug[t["slug"]] = card_html
+
+    # F-H12: the hub used to render one flat 115-card grid with no headings, so the
+    # page had no scannable structure. Group the same cards under a category heading
+    # (the category hub pages already did this with .hub-group). Groups are built from
+    # each active tool's own `category`, so no tool is listed twice; the cross-cutting
+    # open-source flag stays a pill/filter rather than a duplicate section.
+    grouped = ""
+    for c in sorted(cats, key=lambda x: x["name"]):
+        g_tools = [t for t in tools if t["category"] == c["slug"] and t.get("status") == "active"]
+        if not g_tools:
+            continue
+        g_cards = "".join(card_by_slug[t["slug"]] for t in sorted(g_tools, key=lambda x: x["name"].lower()))
+        grouped += (f'<section class="hub-group reveal">\n'
+                    f'  <h2>{esc(c["name"])} <em>{len(g_tools)}</em></h2>\n'
+                    f'  <div class="tool-grid">{g_cards}</div>\n'
+                    f'</section>\n')
+    # Safety net: if any active tool lacks a matching category entry, it would vanish.
+    listed = set()
+    for c in cats:
+        for t in tools:
+            if t["category"] == c["slug"] and t.get("status") == "active":
+                listed.add(t["slug"])
+    orphans = [t for t in tools if t.get("status") == "active" and t["slug"] not in listed]
+    if orphans:
+        o_cards = "".join(card_by_slug[t["slug"]] for t in sorted(orphans, key=lambda x: x["name"].lower()))
+        grouped += (f'<section class="hub-group reveal">\n  <h2>Other tools <em>{len(orphans)}</em></h2>\n'
+                    f'  <div class="tool-grid">{o_cards}</div>\n</section>\n')
+    _active_n = len([t for t in tools if t.get('status') == 'active'])
+    assert len(listed) + len(orphans) == _active_n, (len(listed), len(orphans), _active_n)
 
     body = f"""<nav class="crumb"><a href="/">Home</a> / <span>Tools</span></nav>
 <section class="page-head">
@@ -275,8 +351,8 @@ def build_hub(tools, cats):
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
 <div class="sub-strip reveal"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
-<h2>All tools</h2>
-<div class="tool-grid">{cards}</div>"""
+<p class="sub">All {_active_n} tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.</p>
+{grouped}"""
 
     schema = {
         "@context": "https://schema.org",
@@ -566,14 +642,9 @@ def build_tool_page(t, cats, all_tools):
         sidebar_extra = ""
         dd_html = ""
 
-    # Vendor screenshot on every tool page that has a capture (M9 media plan)
-    _shot_path = f"og/screenshots/{slug}-{datetime.now().strftime('%Y-%m')}.png"
-    _shot = ROOT / _shot_path
-    if _shot.exists():
-        shot_html = (f'<figure style="margin:1.5rem 0"><img src="/{_shot_path}" width="1200" height="750" '
-                     f'alt="Screenshot of {esc(t["name"])} homepage, {datetime.now().strftime("%B %Y")}" loading="lazy" '
-                     f'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></figure>')
-        dd_html = shot_html + dd_html
+    # Vendor screenshot (R2 M-3): single source of truth, rendered once per page at the
+    # main-body slot below via screenshot_figure(). The old fork that prepended a bare
+    # <img> here (no figcaption) was removed - it duplicated the body figure.
 
     # Overview paragraph
     if t.get('description'):
@@ -719,22 +790,13 @@ def build_tool_page(t, cats, all_tools):
         + "".join(_faq_items) + "</section>"
     ) if _faq_items else ""
 
-    # H4 (model-comparison audit): real homepage screenshots for tools where we captured
-    # one (og/screens/<slug>.webp). Honest caption with capture date. Pages without a
-    # captured screenshot render exactly as before.
-    screenshot_html = ""
-    _shot = ROOT / "og" / "screens" / f"{slug}.webp"
-    if _shot.exists():
-        from datetime import date as _date
-        screenshot_html = (
-            '<figure class="tool-screenshot" style="margin:1.2rem 0">'
-            f'<img src="/og/screens/{slug}.webp" alt="Homepage of {esc(t["name"])}" '
-            'width="1280" height="800" loading="lazy" '
-            'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
-            f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
-            f'{esc(t["name"])} homepage. Screenshot captured {esc(str(_date.today()))}; '
-            'site content belongs to its owner.</figcaption></figure>'
-        )
+    # H4 + R2 M-3: vendor homepage screenshot, single pipeline.
+    # Previously forked: og/screenshots/<slug>-<YYYY-MM>.png rendered as a bare <img> with
+    # no figcaption, while a separate og/screens/<slug>.webp path carried the caption and
+    # was almost never populated. Now one helper resolves either location, always emits a
+    # <figure> with a figcaption, and states the CAPTURE month taken from the filename
+    # rather than today's date (a rebuild no longer relabels an old capture as new).
+    screenshot_html = screenshot_figure(slug, t["name"])
 
     deep_dive_html = dd_html
     deep_dive_sidebar = (t.get("_dd_sidebar") or "") if dd else ""

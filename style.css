@@ -391,7 +391,7 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 
 /* tool detail */
 .detail { display: grid; grid-template-columns: 1fr 340px; gap: 2.4rem; padding: 2rem 0 }
-@media (max-width: 880px) { .detail { grid-template-columns: 1fr } }
+@media (max-width: 880px) { .detail { display: flex; flex-direction: column; gap: 1.4rem } .detail > .sidebar { display: contents } .detail > .detail-main { order: 3 } .detail > .sidebar > .side-card { order: 2 } .detail > .sidebar > .side-card#rating { order: 1 } }
 .detail-main h2 { font-family: var(--disp); font-weight: 400; font-size: 1.3rem; margin: 1.8rem 0 .8rem }
 .detail-main h2:first-child { margin-top: 0 }
 .detail-main p { color: #C8D2E4; font-size: .97rem; line-height: 1.7; margin-bottom: .8rem }
