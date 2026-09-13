@@ -68,6 +68,89 @@ def pricing_card(t):
             f'<p style="color:var(--muted);font-size:.9rem">{esc(notes)}</p>{cta}</div>')
 
 
+# Comparison posts (GSC follow-up, 2026-09-13): the three-way comparison post is the
+# best-placed asset for the NocoBase query cluster, and it already links out to every
+# tool page it covers. Nothing linked back. Keyword overlap does not surface it on tool
+# pages (the post scores below unrelated posts there), so the cross-link is curated per
+# slug with a real descriptive anchor, and it renders only when the post exists on disk.
+_TOOL_COMPARISON_POSTS = {
+    "nocobase": ("nocobase-vs-nocodb-vs-budibase",
+                 "How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops"),
+    "nocodb": ("nocobase-vs-nocodb-vs-budibase",
+               "Where NocoDB sits against NocoBase and Budibase"),
+    "budibase": ("nocobase-vs-nocodb-vs-budibase",
+                 "Budibase next to NocoBase and NocoDB: choosing between the three"),
+}
+
+# Body Pricing section (GSC follow-up, 2026-09-13): the pricing query cluster ("nocobase
+# pricing" and the same pattern on other tools) landed on tool pages whose only pricing
+# text sat in a sidebar card: no pricing heading in the body and no plan detail in the
+# page text. Compose one from the record's own fields, and emit it ONLY when the record
+# carries substantive pricing detail - a price_notes string with enough in it to say
+# something specific. Thin notes (a bare "free, self-hosted") render nothing, so no page
+# gains a section that just swaps the brand into the same sentence. Every line traces to
+# a tools.json field; nothing is inferred from outside the record.
+_PRICING_SECTION_MIN_NOTES = 40
+_PRICING_SECTION_SIGNAL = re.compile(r"\d|free|custom|tier|licen|quote|seat|user", re.I)
+
+
+def _price_money(sym, value):
+    try:
+        return f"{sym}{float(value):g}"
+    except (TypeError, ValueError):
+        return f"{sym}{value}"
+
+
+def pricing_section_html(t):
+    """Body Pricing section for one tool, or '' when the record is too thin for it."""
+    notes = str(t.get("price_notes") or "").strip()
+    # a vendor-approved public note wins over the internal one when it is a string
+    _pub = t.get("pricing_note_public")
+    if isinstance(_pub, str) and _pub.strip():
+        notes = _pub.strip()
+    if len(notes) < _PRICING_SECTION_MIN_NOTES or not _PRICING_SECTION_SIGNAL.search(notes):
+        return ""
+    name = esc(t.get("name") or "This tool")
+    model = str(t.get("pricing_model") or "").strip().lower()
+    lic = str(t.get("license") or "").strip()
+    pf, paid = t.get("price_from"), t.get("paid_from")
+    sym = "\u20ac" if str(t.get("currency") or "").upper() == "EUR" else "$"
+    # Lead: the pricing model plus the entry fact. Wording varies by model on purpose -
+    # one sentence per record, not one template with the brand swapped.
+    if model == "enterprise":
+        lead = (f"{name} is sold on quote-based enterprise contracts" if not pf
+                else f"{name} is sold on enterprise contracts")
+    elif model == "free" or (pf == 0 and model not in ("open-source", "open-core", "freemium")):
+        lead = f"{name} is free to use"
+    elif model == "open-source":
+        lead = f"{name} is free to self-host" + (f" under the {esc(lic)} licence" if lic else "")
+    elif model == "open-core":
+        lead = f"{name} is open core: the self-hosted version is free"
+    elif model == "freemium":
+        lead = f"{name} is freemium, with a free tier to start"
+    else:
+        lead = f"{name} is sold on paid plans"
+    tail = ""
+    if model == "enterprise" and pf:
+        tail = f", from {_price_money(sym, pf)}/mo"
+    elif pf and pf != 0:
+        _entry = paid if (paid and paid < pf) else pf
+        tail = f", from {_price_money(sym, _entry)}/mo" if "paid plans" in lead \
+            else f", paid plans from {_price_money(sym, _entry)}/mo"
+    elif paid:
+        tail = f", paid plans start at {_price_money(sym, paid)}/mo"
+    url = str(t.get("pricing_url") or "").strip()
+    link = ""
+    if url and url != "#":
+        link = ('<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
+                'Current plans and limits live on the '
+                f'<a href="{esc(url)}" target="_blank" rel="noopener" '
+                f'data-umami-event="Pricing section click" '
+                f'data-umami-event-tool="{esc(t.get("name") or "")}">{name} pricing page</a>.</p>')
+    return ('<section class="pricing-block"><h2>Pricing</h2>'
+            f'<p>{lead}{tail}.</p><p>{esc(notes)}</p>{link}</section>')
+
+
 _GLOSSARY_NAMES = None
 
 def _glossary_display(term_slug):
@@ -398,6 +481,7 @@ def build_hub(tools, cats):
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
+<p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
 <div class="sub-strip reveal"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
@@ -464,6 +548,16 @@ def build_tool_page(t, cats, all_tools):
 
     source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
     related_posts = suggest_links.suggest_for_text(source_text, max_suggestions=3, rotate_key=slug)
+    # Curated comparison cross-link (GSC follow-up, 2026-09-13): goes through the same
+    # Related reading block, first in the list, with a descriptive anchor rather than the
+    # post title, so a reader on a tool page reaches the comparison it appears in.
+    _cmp = _TOOL_COMPARISON_POSTS.get(slug)
+    if _cmp:
+        _cmp_post, _cmp_anchor = _cmp
+        if (ROOT / "blog" / _cmp_post / "index.html").exists():
+            _cmp_url = f"/blog/{_cmp_post}/"
+            related_posts = ([{"title": _cmp_anchor, "url": _cmp_url}]
+                             + [p for p in related_posts if p.get("url") != _cmp_url])[:3]
     if related_posts:
         links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related_posts)
         related_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
@@ -603,6 +697,9 @@ def build_tool_page(t, cats, all_tools):
     if t.get("integrations"):
         items = "".join(f"<span>{esc(i)}</span>" for i in t["integrations"])
         integ_html = f'<h2>Key Integrations</h2><div class="integ-list">{items}</div>'
+
+    # Body Pricing section (empty string when the record has too little pricing detail)
+    pricing_html = pricing_section_html(t)
 
     # optional deep-dive sections (per-tool, only for tools with a deep_dive dict)
     dd = t.get("deep_dive") or {}
@@ -889,6 +986,7 @@ def build_tool_page(t, cats, all_tools):
     {screenshot_html}
     {ai_html}
     {integ_html}
+    {pricing_html}
     {deep_dive_html}
     {proscons_html}
     {glossary_html}
@@ -915,7 +1013,7 @@ def build_tool_page(t, cats, all_tools):
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
       <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>
-    {pricing_card(t)}
+    {"" if pricing_html else pricing_card(t)}
   </aside>
 </div>"""
 
@@ -1165,6 +1263,14 @@ def build_category_page(cat, tools):
   <span class="read-arrow">→</span>
 </a>\n"""
 
+        checklist_callout = ""
+        if cat["slug"] == "marketing-automation":
+            checklist_callout = (
+                '<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:1rem 0 0">'
+                'Choosing a platform is step two. Step one is whether your stack can hand work to an agent at all. '
+                'The <a href="/checklist/">marketing automation checklist</a> scores that in 12 questions before you shortlist.</p>'
+            )
+
         body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
@@ -1175,7 +1281,7 @@ def build_category_page(cat, tools):
 <div class="flow-strip reveal" aria-hidden="true">{flow}</div>
 
 <section class="hub-lead reveal">{lead}</section>
-
+{checklist_callout}
 <section class="hub-chooser reveal">
   <h2>Which one fits</h2>
   {chooser}

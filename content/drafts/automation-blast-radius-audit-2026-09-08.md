@@ -39,7 +39,7 @@ The top-left quadrant is cheaper than it looks. A wrong social post you delete i
 
 ## The 20-minute audit
 
-Here is the worksheet. You need your automation list, wherever it lives, and a blank table with six columns: name, trigger, what it does, undoable?, customer-visible?, quadrant.
+Here is the worksheet. You need your automation list, wherever it lives, and a blank table with six columns: name, trigger, what it does, undoable?, customer-visible?, quadrant. If you would rather start one level up, the [marketing automation checklist](/checklist/) asks the 12 questions that come before this audit: whether your stack can hand any of it to an agent at all.
 
 **Minutes 0 to 5: inventory everything.** List every automation that touches marketing work, regardless of tool. Zapier, Make, n8n, native platform automations (HubSpot workflows, Meta Advantage rules, Google Ads automated rules), even the cron job a contractor left behind. One line each: name, trigger, action. If you cannot list them, that is already the audit's most important finding.
 

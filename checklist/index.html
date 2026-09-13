@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marketing Automation AI Readiness Checklist | MartechSignal</title>
+<title>Marketing Automation Checklist for AI Agents | MartechSignal</title>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Marketing Automation AI Readiness Checklist",
+  "name": "Marketing Automation Checklist for AI Agents",
   "description": "12 questions to answer before you plug AI agents into your marketing automation stack.",
   "numberOfItems": 12,
   "itemListElement": [
@@ -75,19 +75,19 @@
   ]
 }
 </script>
-<meta name="description" content="12 questions to answer before you plug AI agents into your marketing automation stack. Score your stack in 3 minutes. Free from MartechSignal.">
+<meta name="description" content="A 12-point marketing automation checklist to run before you plug AI agents into your stack. Score your stack in 3 minutes. Free from MartechSignal.">
 <link rel="canonical" href="https://martechsignal.com/checklist/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
-<meta property="og:title" content="Marketing Automation AI Readiness Checklist | MartechSignal">
-<meta property="og:description" content="12 questions to answer before you plug AI agents into your marketing automation stack. Score your stack in 3 minutes.">
+<meta property="og:title" content="Marketing Automation Checklist for AI Agents | MartechSignal">
+<meta property="og:description" content="A 12-point marketing automation checklist to run before you plug AI agents into your stack. Score your stack in 3 minutes.">
 <meta property="og:url" content="https://martechsignal.com/checklist/">
 <meta property="og:image" content="https://martechsignal.com/og/checklist.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Marketing Automation AI Readiness Checklist | MartechSignal">
-<meta name="twitter:description" content="12 questions to answer before you plug AI agents into your marketing automation stack.">
+<meta name="twitter:title" content="Marketing Automation Checklist for AI Agents | MartechSignal">
+<meta name="twitter:description" content="A 12-point marketing automation checklist to run before you plug AI agents into your stack.">
 <meta name="twitter:image" content="https://martechsignal.com/og/checklist.png">
 <style>
   :root { --bg: #080E1A; --card: #0F1628; --border: #1E2A42; --border-hi: #2A3D63; --gold: #FFB224; --gold-dim: rgba(255,178,36,.12); --text: #C8D0E0; --white: #F0F2F8; --green: #34D399; --red: #F87171; }
@@ -163,6 +163,14 @@
   .reset { display: inline-block; margin-top: 14px; font-family: 'Spline Sans Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #5A6A8A; background: none; border: 1px solid var(--border); border-radius: 4px; padding: 6px 14px; cursor: pointer; transition: color .2s, border-color .2s; }
   .reset:hover { color: var(--gold); border-color: var(--gold); }
 
+  /* deep dive */
+  .deep-dive { margin-top: 40px; padding: 26px 24px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; }
+  .deep-dive h2 { font-size: 17px; color: var(--white); margin-bottom: 10px; }
+  .deep-dive h3 { font-size: 12px; font-family: 'Spline Sans Mono', monospace; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin: 20px 0 6px; }
+  .deep-dive p { font-size: 13.5px; margin-bottom: 8px; }
+  .deep-dive p.closing { margin-bottom: 0; }
+  .deep-dive a { color: var(--gold); }
+
   /* cta */
   .cta { margin-top: 40px; text-align: center; padding: 32px 24px; background: linear-gradient(180deg, rgba(255,178,36,.06), transparent 60%), var(--card); border: 1px solid var(--border-hi); border-top: 3px solid var(--gold); border-radius: 10px; }
   .cta p { font-size: 14px; color: var(--white); margin-bottom: 14px; font-weight: 600; }
@@ -185,6 +193,9 @@
     .check { border-color: #333; }
     .item .fail { max-height: none; opacity: 1; }
     .scoring { background: #f5f5f5; border-color: #ddd; }
+    .deep-dive { background: #f5f5f5; border-color: #ddd; }
+    .deep-dive h2 { color: #111; }
+    .deep-dive h3 { color: #b8860b; }
     .reveal { opacity: 1; transform: none; }
   }
 </style>
@@ -292,8 +303,24 @@
     <button class="reset" id="reset-btn">Reset checklist</button>
   </div>
 
+  <section class="deep-dive reveal">
+    <h2>How to use this marketing automation checklist</h2>
+    <p>Every item below asks the same underlying question: can a machine do this without a person, and can you undo it when the machine gets it wrong? Read the twelve once before you change anything. The unchecked boxes are the roadmap; the order you fix them in is what protects you.</p>
+
+    <h3>Fix in order of blast radius</h3>
+    <p>Items 1, 5 and 9 decide how much damage a bad automation can do: journey data, a single customer record, and consent. If one of those is unchecked, nothing further down this list matters yet. A campaign that hits the wrong segment is recoverable. An automation that emails people who unsubscribed is not.</p>
+
+    <h3>What to do when an item fails</h3>
+    <p>Ship the smallest version of the fix that one person can finish this week. A scheduled CSV export beats a six-month data project. The goal at each step is to move the work from "a human does this in a UI" to "a script or an agent can call this". Write the gap down, give it an owner and a date. An unchecked box with no owner is a complaint, not a plan.</p>
+
+    <h3>How often to re-run it</h3>
+    <p>Re-run the checklist every quarter, and again whenever the stack changes: a new tool goes in, a vendor changes its API terms, or an agent gets write access to something that was read-only last month. Each new integration rewrites the answer to at least one question here. A score saved in your browser is a snapshot, not a permanent state.</p>
+
+    <p class="closing">This is a readiness checklist, not a tool comparison. If you need the second thing, the <a href="/tools/">tool directory</a> lists what is available in each category.</p>
+  </section>
+
   <div class="cta reveal">
-    <p>Want the weekly breakdown of what's actually changing?</p>
+    <p>Want the weekly breakdown of what's changing?</p>
     <div id="kit-form"><script async data-uid="4c53402b7c" src="https://tim-christensen.kit.com/4c53402b7c/index.js"></script></div>
   </div>
 

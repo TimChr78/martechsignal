@@ -593,6 +593,7 @@ def build_index(posts: list) -> str:
       <a href="/tools/alphone/">AlphOne</a>
       <a href="/tools/">All {all_tools} tools &#8594;</a>
     </p>
+    <p>Before you buy: the <a href="/checklist/">marketing automation checklist</a> scores your stack on the 12 things that decide whether AI can run any of it.</p>
   </section>
   <ul class="post-list">
 {blog_list}
