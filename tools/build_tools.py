@@ -225,18 +225,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a>
-      <a href="/tools/">TOOLS</a>
-      <a href="/trending/">TRENDING</a>
-      <a href="/glossary/">GLOSSARY</a>
-      <a href="/blog/">BLOG</a>
-      <a href="/checklist/">CHECKLIST</a>
-      <a href="/about/">ABOUT</a>
-      <a href="/contact/">CONTACT</a>
-      <a href="/privacy/">PRIVACY</a>
-      <a href="/terms/">TERMS</a>
-      <a href="/#subscribe">SUBSCRIBE</a>
-    </div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>

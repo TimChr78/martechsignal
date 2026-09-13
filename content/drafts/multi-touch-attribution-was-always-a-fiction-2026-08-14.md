@@ -8,9 +8,9 @@ tags: [Analytics, Attribution, AI, Privacy]
 categories: [analytics]
 ---
 
-On Sept. 2, the MarTech Conference runs a free session called "Marketing without signals: How to perform when the data disappears." The copy tells the story the industry has settled on. For years, marketing teams built their playbooks on an abundance of granular signals: clicks, third-party cookies, device identifiers, deterministic conversion paths. Privacy rules, platform walled gardens, and AI intermediaries ate all of it. Now teams have to learn to perform without the data.
+On Sept. 2, the MarTech Conference ran a free session called "Marketing without signals: How to perform when the data disappears." The session copy told the story the industry had settled on. For years, marketing teams built their playbooks on an abundance of granular signals: clicks, third-party cookies, device identifiers, deterministic conversion paths. Privacy rules, platform walled gardens, and AI intermediaries ate all of it. Now teams have to learn to perform without the data.
 
-It's a clean story. I don't buy it. Signal loss did not break marketing measurement. It made visible what multi-touch attribution never actually measured in the first place.
+It's a clean story. I don't buy it. Signal loss did not break marketing measurement. It made visible what multi-touch attribution never measured in the first place.
 
 ## The same conversion, six different truths
 
