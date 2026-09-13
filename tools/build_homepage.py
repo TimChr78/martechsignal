@@ -7,7 +7,9 @@ Counts: ALL {N} TOOLS + "+{N-8} MORE TOOLS" derived from tools.json active count
 Reads:
   - tools/tools.json            (active slugs, names, categories, taglines)
   - tools/github-history.json   (latest snapshot stars)
-  - /opt/data/gsc-pages-28d.json (per-page GSC impressions; optional — falls back to stars-only)
+  - /opt/data/gsc-pages-28d.json (per-page GSC impressions; optional — falls back to
+    stars-only). Written by tools/gsc_perf.py as a list of {page, clicks,
+    impressions, position} rows; a {url: {...}} dict is also accepted.
 
 Writes:
   - index.html (Tool index section + homepage-link counts only; LATEST section untouched)
@@ -34,6 +36,42 @@ TAGS = {
     "chatbots": "CHATBOTS", "open-source": "OPEN SOURCE",
 }
 
+def load_gsc_impressions(path):
+    """GSC page cache -> {url: impressions}.
+
+    tools/gsc_perf.py writes this cache as a LIST of rows
+    ({"page", "clicks", "impressions", "position"}); an earlier revision used a
+    {url: {...}} dict, so accept both. Returning {} just falls back to the
+    stars-only ranking, which is why this bug was silent for so long.
+    """
+    try:
+        raw = json.load(open(path))
+    except Exception as ex:
+        print(f"  (GSC cache unreadable: {ex} — ranking on stars only)")
+        return {}
+    out = {}
+    if isinstance(raw, dict):
+        for url, val in raw.items():
+            if isinstance(val, dict):
+                out[url] = val.get("impressions", 0) or 0
+            elif isinstance(val, (int, float)):
+                out[url] = val
+    elif isinstance(raw, list):
+        for row in raw:
+            if not isinstance(row, dict):
+                continue
+            url = row.get("page") or row.get("url")
+            if not url:
+                keys = row.get("keys")
+                url = keys[0] if isinstance(keys, list) and keys else None
+            if url:
+                out[url] = row.get("impressions", 0) or 0
+    else:
+        print(f"  (GSC cache has unexpected type {type(raw).__name__} — ranking on stars only)")
+        return {}
+    return out
+
+
 def main():
     dry = "--dry-run" in sys.argv
     tools = json.load(open(TOOLS_JSON))
@@ -51,14 +89,17 @@ def main():
     # GSC impressions (optional)
     gsc = {}
     if GSC_FILE.exists():
-        gsc = json.load(open(GSC_FILE))
+        gsc = load_gsc_impressions(GSC_FILE)
+        print(f"  GSC: {len(gsc)} pages in {GSC_FILE.name}")
+    else:
+        print(f"  GSC: {GSC_FILE} missing — ranking on stars only")
 
     rows = []
     for t in active:
         slug = t["slug"]
         if slug == "tools":
             continue
-        impr = gsc.get(f"https://martechsignal.com/tools/{slug}/", {}).get("impressions", 0)
+        impr = gsc.get(f"https://martechsignal.com/tools/{slug}/", 0)
         st = stars.get(slug, {}).get("stars", 0) or t.get("github_stars") or 0
         rows.append({"slug": slug, "name": t.get("name", slug), "impr": impr, "stars": st,
                      "cat": t.get("category", ""), "tagline": t.get("tagline", "")})
