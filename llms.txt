@@ -180,6 +180,7 @@
 
 ## Analysis
 
+- [Fifty days of open-source MarTech, audited](https://martechsignal.com/blog/oss-martech-50-day-checkin/) (2026-09-14)
 - [Most of your marketing AI agents should be if/then](https://martechsignal.com/blog/determinism-audit/) (2026-09-11)
 - [Check outputs, not logs: the silent-failure audit](https://martechsignal.com/blog/silent-failure-audit/) (2026-09-10)
 - [The AI-search funnel map GA4 won't give you](https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/) (2026-09-10)

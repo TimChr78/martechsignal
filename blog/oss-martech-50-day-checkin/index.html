@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fifty days of open-source MarTech, audited</title>
+<meta name="description" content="Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Fifty days of open-source MarTech, audited">
+<meta property="og:description" content="Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.">
+<meta property="og:url" content="https://martechsignal.com/blog/oss-martech-50-day-checkin/">
+<meta property="og:image" content="https://martechsignal.com/og/oss-martech-50-day-checkin.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/oss-martech-50-day-checkin/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Fifty days of open-source MarTech, audited",
+  "description": "Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-09-14",
+  "dateModified": "2026-09-14",
+  "mainEntityOfPage": "https://martechsignal.com/blog/oss-martech-50-day-checkin/",
+  "image": "https://martechsignal.com/og/oss-martech-50-day-checkin.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fifty days of open-source MarTech, audited",
+      "item": "https://martechsignal.com/blog/oss-martech-50-day-checkin/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css?v=b780159f">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">OPEN SOURCE · MARTECH · 7 MIN</p>
+<h1>Fifty days of open-source MarTech, audited</h1>
+<p class="meta">SEP 14, 2026</p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/open-source/">Open-Source Tools</a> · <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-window-at-a-glance">The window at a glance</a> · <a href="#the-crm-shelf-got-crowded">The CRM shelf got crowded</a> · <a href="#matomo-finally-moved">Matomo finally moved</a> · <a href="#n8n-treats-shipping-as-a-habit">n8n treats shipping as a habit</a> · <a href="#the-agent-layer-built-a-supply-chain">The agent layer built a supply chain</a> · <a href="#what-i-would-do-with-this">What I would do with this</a></nav>
+<p>Fifty days after <a href="/blog/open-source-martech-stack/">the open-source MarTech stack</a> piece, this is the first re-check: what shipped, what stalled, and where the energy went.</p>
+
+<p>The original argument was that every layer of a marketing stack, from automation to analytics to CRM, now has a self-hosted option good enough to run production work on. The reasonable response to that piece is the one I have been testing since. Stacks age. Tools stall. Maintainers burn out. So for the last 50 days (July 26 to September 14) I have been taking daily snapshots of the GitHub repos behind that piece, and this is the full check: fifty days of releases, pushes, and star movement across everything we track.</p>
+
+<p>The short version: nothing stalled. The automation layer shipped at a pace SaaS vendors rarely match, the CRM category turned into the most crowded shelf in open source, Matomo tagged its first 6.0 beta of the 5.x era, and agent tooling started growing its own supply chain. Stars only corroborate what follows; the releases are the story.</p>
+
+<div class="callout">
+<p>Release counts come from the GitHub releases API between July 26 and September 14, 2026. Star figures come from our own daily snapshots, which begin on August 25, so star movement covers the final 21 days of the window. That is too short for trend claims, so stars appear here only as corroboration of something already visible in the release log.</p>
+</div>
+
+<h2 id="the-window-at-a-glance">The window at a glance</h2>
+
+<table class="cmp">
+<tr><th>Project</th><th>Releases since Jul 26</th><th>The notable one</th></tr>
+<tr><td><a href="/tools/n8n/">n8n</a></td><td class="oss-price">41</td><td>Crossed 200,000 stars; 2.39 line</td></tr>
+<tr><td><a href="/tools/ghost/">Ghost</a></td><td class="oss-price">11</td><td>v6.63.0, Node 24 support</td></tr>
+<tr><td><a href="/tools/strapi/">Strapi</a></td><td class="oss-price">7</td><td>v5.53.0</td></tr>
+<tr><td><a href="/tools/twenty/">Twenty</a></td><td class="oss-price">~10</td><td>v2.39.0, workflow error handling</td></tr>
+<tr><td><a href="/tools/frappe-crm/">Frappe CRM</a></td><td class="oss-price">6</td><td>v1.83.0</td></tr>
+<tr><td><a href="/tools/chatwoot/">Chatwoot</a></td><td class="oss-price">3</td><td>v4.17.0, WhatsApp deep-dive</td></tr>
+<tr><td><a href="/tools/mautic/">Mautic</a></td><td class="oss-price">1</td><td>7.2.0 Lynx Edition</td></tr>
+<tr><td><a href="/tools/matomo/">Matomo</a></td><td class="oss-price">1 beta</td><td>6.0.0-b1, first major since 5.0</td></tr>
+</table>
+
+<h2 id="the-crm-shelf-got-crowded">The CRM shelf got crowded</h2>
+
+<p>If one category defined the window, it was CRM. <a href="/tools/mautic/">Mautic</a> shipped 7.2.0 "Lynx Edition" on September 2, and the changelog reads like a team that has been listening to campaign builders: an infinite canvas in the campaign builder, spacebar-drag for moving around it, and the ability to stop a campaign from sending past a chosen date and time. They are small features aimed at real operator pain. Mautic remains the closest thing open source has to a marketing automation suite with CRM built in.</p>
+
+<p><a href="/tools/twenty/">Twenty</a>, which bills itself on GitHub as "the open alternative to Salesforce, designed for AI", cut roughly ten tagged releases in the window and closed it on v2.39.0. It added 1,190 stars in the final 21 days, the largest gain of anything we track outside the automation repos. <a href="/tools/frappe-crm/">Frappe CRM</a> shipped six releases, v1.80.0 through v1.83.0, and passed 3,500 stars on the way.</p>
+
+<p>Then there is the bottom of the market, which is where the energy sits. <a href="/tools/wacrm/">WACRM</a>, a self-hosted CRM template for WhatsApp with a shared inbox, contacts, and sales pipelines, went from a first commit in April to roughly 2,300 stars by mid-September. Cordys CRM, an AI-first CRM from the team behind the 1Panel hosting panel, crossed 2,700 stars with private deployment as the headline feature. Ten of the thirteen CRM and ERP-adjacent repos we track pushed code in the window's final week alone.</p>
+
+<p>That last number is the tell. In July, Twenty was a proof-of-scale mention at 53,000 stars. Fifty days later it is the flag bearer of a contested category with entrants attacking from every direction: WhatsApp-first, AI-first, suite-first. Nobody has consolidated the shelf, which is why it deserves a shortlist instead of a default.</p>
+
+<h2 id="matomo-finally-moved">Matomo finally moved</h2>
+
+<p>The analytics layer supplied the quiet surprise. Matomo tagged 6.0.0-b1 on September 7, its first major version since 5.0 arrived in December 2023, and pushed 5.14 alphas almost daily around it. Major versions on analytics infrastructure rarely make headlines, but they matter more than feature posts. A 6.0 means schema changes, extension authors retesting their plugins, and an upgrade path that self-hosters need to plan for. Anyone running <a href="/tools/matomo/">Matomo</a> on their own hardware should read the beta notes before the stable release lands, not after.</p>
+
+<p>The rest of the analytics pack moved too. <a href="/tools/umami/">Umami</a> shipped v3.3.0 and v3.3.1 in August. <a href="/tools/plausible/">Plausible</a> cut no release in fifty days and still added around 300 stars, a reminder that in this layer an empty release log is not the same as a dead project. The contrast with SaaS analytics, where the pricing page changes quarterly and the changelog is a marketing page, keeps getting harder to ignore.</p>
+
+<h2 id="n8n-treats-shipping-as-a-habit">n8n treats shipping as a habit</h2>
+
+<p><a href="/tools/n8n/">n8n</a> published 41 releases between July 26 and September 14, closing the window on the 2.39 line. It crossed 200,000 GitHub stars somewhere between our July post (198,000) and the first snapshot on August 25. Per-release notes are mostly fixes, and that is the point. Forty-one releases in fifty days is a cadence, and cadence is what your deployment inherits: bug fixes for the nodes you depend on arrive in days, not quarters.</p>
+
+<p>The habit is spreading. <a href="/tools/ghost/">Ghost</a> shipped 11 releases, including Node 24 support in v6.63.0. <a href="/tools/strapi/">Strapi</a> cut 7 releases up to v5.53.0. <a href="/tools/chatwoot/">Chatwoot</a> used v4.17.0 to go deep on WhatsApp: Cloud API and Twilio template management, campaign delivery tracking, and a Freshdesk importer for teams migrating off that platform. For the stack argument from July, this section is the load-bearing one. Cadence is the difference between adopting a project and adopting a liability.</p>
+
+<h2 id="the-agent-layer-built-a-supply-chain">The agent layer built a supply chain</h2>
+
+<p>The newest shelf is also the fastest moving. <a href="/tools/claude-seo/">claude-seo</a>, a universal SEO skill for Claude Code, grew from 15,100 to nearly 16,900 stars in the final 21 days, and its sibling <a href="/tools/claude-ads/">claude-ads</a> added another 700. The same maintainer added roughly 2,500 stars across the two repos in three weeks. <a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a>, an MCP server that puts Google Ads, Meta Ads, and GA4 behind one interface for agents, grew 66 percent in the same 21 days, from about 1,100 to 1,800 stars. New to our tracking this month: <a href="/tools/openseo/">openseo</a>, an open-source alternative to Semrush and Ahrefs that arrived at 18,600 stars.</p>
+
+<p>Underneath it, <a href="/tools/langchain/">langchain</a> worked through a run of alphas in late August and shipped langchain 1.4.0 stable on September 3. And <a href="/tools/open-mercato/">Open Mercato</a> used its v0.7.0 release on August 26 to describe something I have not seen from a CRM project before: a development harness where AI agents build, test, and judge applications end to end, with enforced spec phases, generated locale validation, and privacy-gated session sharing. The framing is agent-native CRM. At 1,700 stars it is early, but the release notes read like the team is building for a buyer who never opens the UI. I covered the adjacent platform shift, agent tooling eating the edges of the martech stack, in <a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">the Claude Cowork piece</a>; this window is what the same shift looks like from the open-source side.</p>
+
+<p>I remain genuinely unsure how much of the agent-skills boom is durable infrastructure and how much is the current fashion. The star curves say people care. The fastest mover being an ads-data MCP suggests the near-term value is boring and real: agents pulling campaign data without a human copy-pasting CSVs between platforms.</p>
+
+<h2 id="what-i-would-do-with-this">What I would do with this</h2>
+
+<p>The July stack argument holds, with one amendment: the CRM line item has become a shortlist decision. WhatsApp-heavy sales teams should look at <a href="/tools/wacrm/">WACRM</a>. Teams escaping Salesforce pricing should keep <a href="/tools/twenty/">Twenty</a> at the top of the list. Marketing-automation-first teams should stay on <a href="/tools/mautic/">Mautic</a>, which just shipped its strongest release in a while. If you want to see where CRMs go when agents are the primary user, <a href="/tools/open-mercato/">Open Mercato</a> is the most interesting experiment running.</p>
+
+<p>Wait for the Matomo 6 stable tag before touching production analytics, but read the beta notes now. Everything else in the window is housekeeping you can adopt on your own schedule. The full tool-by-tool version of the stack argument lives in <a href="/blog/open-source-martech-stack/">the original piece</a>, everything from this beat is filed under <a href="/categories/open-source/">open source</a> and <a href="/categories/workflow-automation/">workflow automation</a>, and the CRM contenders sit in <a href="/categories/crm/">the CRM directory</a>.</p>
+
+<div class="verdict win">
+<div class="verdict-label">✓ The July stack bet held</div>
+
+<p>Every layer we recommended shipped during the window. CRM and agent tooling, the least settled layers, moved fastest of all.</p>
+</div>
+
+<p>Tools linked in this post: <a href="/tools/n8n/">n8n</a> · <a href="/tools/mautic/">Mautic</a> · <a href="/tools/twenty/">Twenty</a> · <a href="/tools/frappe-crm/">Frappe CRM</a> · <a href="/tools/wacrm/">WACRM</a> · <a href="/tools/matomo/">Matomo</a> · <a href="/tools/umami/">Umami</a> · <a href="/tools/plausible/">Plausible</a> · <a href="/tools/ghost/">Ghost</a> · <a href="/tools/strapi/">Strapi</a> · <a href="/tools/chatwoot/">Chatwoot</a> · <a href="/tools/claude-seo/">claude-seo</a> · <a href="/tools/claude-ads/">claude-ads</a> · <a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a> · <a href="/tools/openseo/">openseo</a> · <a href="/tools/langchain/">langchain</a> · <a href="/tools/open-mercato/">Open Mercato</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">The Open-Source Martech Stack: Can Free Tools Replace Your $5K/mo Subscription?</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine That Actually Works</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/relaticle/">Relaticle</a> — Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament</li><li><a href="/tools/listmonk/">Listmonk</a> — Open-source self-hosted newsletter and mailing list manager with a fast Go backend</li><li><a href="/tools/deskcommcrm/">DeskcommCRM</a> — Self-hosted open-source CRM with AI agents that sell through WhatsApp</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/marketing-ops/">Marketing ops</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>

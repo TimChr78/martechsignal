@@ -1,14 +1,14 @@
 {
  "/mnt/user/dev/martechsignal/index.html": {
-  "fp": "dcb47e9970afc4f2",
-  "date": "2026-09-13"
+  "fp": "3ed23458d2288ce3",
+  "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/checklist/index.html": {
   "fp": "6e2d37dea35847c9",
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/agents-identity-debt/index.html": {
-  "fp": "663d9aa1b47bed48",
+  "fp": "71e414e7532bf7da",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/blog/ai-agents-need-campaign-state/index.html": {
@@ -16,7 +16,7 @@
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/index.html": {
-  "fp": "d2c7853a5834cccb",
+  "fp": "1bc0769b9394a225",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/index.html": {
@@ -60,8 +60,8 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/ci-tools-were-the-first-martech-category-ai-killed/index.html": {
-  "fp": "82bbcd93acac1ffa",
-  "date": "2026-09-13"
+  "fp": "47136481df9ba59f",
+  "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/blog/you-dont-need-new-data-stack-fivetran/index.html": {
   "fp": "3a5768bda0d979ef",
@@ -76,7 +76,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/claude-seo-teardown-martechsignal/index.html": {
-  "fp": "a313acbf49a6db50",
+  "fp": "56ccba580f5d293a",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/blog/link-building-wont-get-you-into-ai-answers/index.html": {
@@ -84,7 +84,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "e8305c9be54740ca",
+  "fp": "993a31eff821cf7a",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -688,7 +688,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/index.html": {
-  "fp": "9ebd632d209ef98c",
+  "fp": "24cac27b47920c85",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/tools/idurar-erp-crm/index.html": {
@@ -748,7 +748,7 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/claude-seo-v225-rescore-61-vs-92/index.html": {
-  "fp": "d250bc1203bed3d2",
+  "fp": "bae3c7eaa9d31d41",
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/tools/marketing-studio/index.html": {
@@ -861,6 +861,10 @@
  },
  "/mnt/user/dev/martechsignal/tools/deskcommcrm/index.html": {
   "fp": "7edf1a624be8641b",
+  "date": "2026-09-14"
+ },
+ "/mnt/user/dev/martechsignal/blog/oss-martech-50-day-checkin/index.html": {
+  "fp": "2029ef0882951bba",
   "date": "2026-09-14"
  }
 }

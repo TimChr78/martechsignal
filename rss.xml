@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 05:05:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 05:23:22 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Fifty days of open-source MarTech, audited</title>
+      <link>https://martechsignal.com/blog/oss-martech-50-day-checkin/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/oss-martech-50-day-checkin/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.</description>
+    </item>
     <item>
       <title>Most of your marketing AI agents should be if/then</title>
       <link>https://martechsignal.com/blog/determinism-audit/</link>
