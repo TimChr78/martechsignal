@@ -1001,5 +1001,11 @@
     "slug": "apitable",
     "reason": "Stale (last push Oct 2025); superseded by AITable SaaS pivot.",
     "date": "2026-09-05"
+  },
+  {
+    "name": "The 7 best AIOps platforms in 2026",
+    "url": "https://zapier.com/blog/feeds/latest/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-09-14"
   }
 ]
