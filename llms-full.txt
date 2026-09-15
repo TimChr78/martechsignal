@@ -180,6 +180,7 @@
 
 ## Analysis
 
+- [Claude SEO vs Codex SEO: same audit, pick your agent](https://martechsignal.com/blog/claude-seo-vs-codex-seo/) (2026-09-15)
 - [Fifty days of open-source MarTech, audited](https://martechsignal.com/blog/oss-martech-50-day-checkin/) (2026-09-14)
 - [Most of your marketing AI agents should be if/then](https://martechsignal.com/blog/determinism-audit/) (2026-09-11)
 - [Check outputs, not logs: the silent-failure audit](https://martechsignal.com/blog/silent-failure-audit/) (2026-09-10)

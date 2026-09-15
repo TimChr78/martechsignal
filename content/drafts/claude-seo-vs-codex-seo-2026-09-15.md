@@ -2,7 +2,7 @@
 title: "Claude SEO vs Codex SEO: same audit, pick the agent you already pay for"
 seo_title: "Claude SEO vs Codex SEO: same audit, pick your agent"
 slug: claude-seo-vs-codex-seo
-date: 2026-09-13
+date: 2026-09-15
 author: Tim Christensen
 tags: [Agent Skills, SEO]
 categories: [agent-skills]
