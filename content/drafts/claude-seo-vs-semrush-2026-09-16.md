@@ -2,7 +2,7 @@
 title: "Claude SEO vs Semrush: what a free audit replaces, and what it does not"
 seo_title: "Claude SEO vs Semrush: what a free audit replaces"
 slug: claude-seo-vs-semrush
-date: 2026-09-13
+date: 2026-09-16
 author: Tim Christensen
 tags: [SEO, Agent Skills]
 categories: [seo]

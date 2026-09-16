@@ -1,7 +1,7 @@
 {
  "/mnt/user/dev/martechsignal/index.html": {
-  "fp": "31b98619546095ad",
-  "date": "2026-09-15"
+  "fp": "fac510c66d2704b0",
+  "date": "2026-09-16"
  },
  "/mnt/user/dev/martechsignal/checklist/index.html": {
   "fp": "6e2d37dea35847c9",
@@ -688,8 +688,8 @@
   "date": "2026-09-13"
  },
  "/mnt/user/dev/martechsignal/blog/index.html": {
-  "fp": "81f23ae8a5c2f94e",
-  "date": "2026-09-15"
+  "fp": "f341bc38e1e1666d",
+  "date": "2026-09-16"
  },
  "/mnt/user/dev/martechsignal/tools/idurar-erp-crm/index.html": {
   "fp": "7d65997b93c0a618",
@@ -764,8 +764,8 @@
   "date": "2026-09-14"
  },
  "/mnt/user/dev/martechsignal/trending/index.html": {
-  "fp": "6023a3f1c8466784",
-  "date": "2026-09-15"
+  "fp": "4ee072732bc6b2fe",
+  "date": "2026-09-16"
  },
  "/mnt/user/dev/martechsignal/tools/eve-marketing-team/index.html": {
   "fp": "5f8b2cd3b6018727",
@@ -870,5 +870,9 @@
  "/mnt/user/dev/martechsignal/blog/claude-seo-vs-codex-seo/index.html": {
   "fp": "10582a725ca97254",
   "date": "2026-09-15"
+ },
+ "/mnt/user/dev/martechsignal/blog/claude-seo-vs-semrush/index.html": {
+  "fp": "b23f166440d21052",
+  "date": "2026-09-16"
  }
 }
