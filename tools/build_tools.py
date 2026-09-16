@@ -1072,6 +1072,8 @@ def build_tool_page(t, cats, all_tools):
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://martechsignal.com/og.png",
+                "width": 1200,
+                "height": 630,
             },
         },
     }
@@ -1146,13 +1148,19 @@ def build_tool_page(t, cats, all_tools):
         schema["offers"] = {
             "@type": "Offer",
             "price": _paid,
-            "priceCurrency": _cur
+            "priceCurrency": _cur,
+            # R3-M24 (2026-09-16): an Offer without url+availability is an incomplete
+            # offer from a non-seller. Point at the vendor, mark as InStock=see vendor.
+            "url": str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com"),
+            "availability": "https://schema.org/InStock"
         }
     elif _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
         schema["offers"] = {
             "@type": "Offer",
             "price": _pf,
-            "priceCurrency": _cur
+            "priceCurrency": _cur,
+            "url": str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com"),
+            "availability": "https://schema.org/InStock"
         }
 
     breadcrumb = {

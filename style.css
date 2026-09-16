@@ -1,13 +1,13 @@
 
 /* H-18 CLS fix: self-hosted fonts, font-display:block (no swap reflow). Latin subset, ~115KB total. */
-@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 400; font-display: block; src: url('/fonts/archivo-400.woff2') format('woff2'); }
-@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 500; font-display: block; src: url('/fonts/archivo-500.woff2') format('woff2'); }
-@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 600; font-display: block; src: url('/fonts/archivo-600.woff2') format('woff2'); }
-@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 700; font-display: block; src: url('/fonts/archivo-700.woff2') format('woff2'); }
-@font-face { font-family: 'Archivo Black'; font-style: normal; font-weight: 400; font-display: block; src: url('/fonts/archivo-black-400.woff2') format('woff2'); }
-@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 400; font-display: block; src: url('/fonts/spline-sans-mono-400.woff2') format('woff2'); }
-@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 500; font-display: block; src: url('/fonts/spline-sans-mono-500.woff2') format('woff2'); }
-@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 600; font-display: block; src: url('/fonts/spline-sans-mono-600.woff2') format('woff2'); }
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/archivo-400.woff2') format('woff2'); }
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/archivo-500.woff2') format('woff2'); }
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/archivo-600.woff2') format('woff2'); }
+@font-face { font-family: 'Archivo'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/archivo-700.woff2') format('woff2'); }
+@font-face { font-family: 'Archivo Black'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/archivo-black-400.woff2') format('woff2'); }
+@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/spline-sans-mono-400.woff2') format('woff2'); }
+@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/spline-sans-mono-500.woff2') format('woff2'); }
+@font-face { font-family: 'Spline Sans Mono'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/spline-sans-mono-600.woff2') format('woff2'); }
 /* ============================================================
    martechsignal.com — unified stylesheet
    Navy/amber design system: Archivo Black + Spline Sans Mono
@@ -115,7 +115,7 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .ghost:hover { color: var(--amber) }
 
 /* ---------- scroll reveal (shared) ---------- */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease }
+html.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease }
 .page-home .reveal { transform: translateY(22px) }
 .reveal.in { opacity: 1; transform: none }
 @media (prefers-reduced-motion: reduce) {
@@ -131,7 +131,7 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
    HOMEPAGE  (.page-home)
    ============================================================ */
 .hero { display: grid; grid-template-columns: 1.12fr .88fr; gap: 3.2rem; align-items: end; padding: 4.6rem 0 1.2rem }
-@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 2.4rem; padding: 3.2rem 0 1rem } }
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 1.6rem; padding: 1.6rem 0 .8rem; align-items: start } }
 .page-home h1 { font-family: var(--disp); font-size: clamp(2.5rem, 5.6vw, 4.3rem); line-height: 1.03; letter-spacing: -.015em; font-weight: 400 }
 .page-home h1 em { font-style: normal; color: var(--amber); position: relative; white-space: nowrap }
 .page-home h1 em::after { content: ""; position: absolute; left: 0; right: 0; bottom: .06em; height: .14em; background: linear-gradient(90deg, var(--amber), rgba(255,178,36,.15)); border-radius: 2px }
@@ -607,3 +607,16 @@ html, body { overflow-x: clip }
   size-adjust: 96%;
 }
 :root { --body: 'Archivo', 'Archivo-fallback', sans-serif; --disp: 'Archivo Black', 'Archivo-fallback', sans-serif; --mono: 'Spline Sans Mono', 'SplineMono-fallback', ui-monospace, monospace; }
+
+/* R3-H8/M6 (2026-09-16): WCAG 2.5.8 tap targets - keep visual type size,
+   add hit area via inline-block padding + negative margin so layout barely moves. */
+.mast-nav a, .foot-links a, footer nav a, .footer-nav a {
+  display: inline-block;
+  padding: 12px 8px;
+  margin: -12px -8px;
+}
+.breadcrumbs a, .crumbs a {
+  display: inline-block;
+  padding: 12px 6px;
+  margin: -12px -6px;
+}
