@@ -52,7 +52,7 @@ def build_categories(cats, tools):
     return page_shell(
         "Categories | MartechSignal",
         f"Browse all {len(cats)} categories across {total} marketing-automation tools: licences, stars and plain-English summaries.",
-        "https://martechsignal.com/categories/",
+        "/categories/",
         body, schema_json=schema, og_image="og.png",
     )
 
@@ -78,7 +78,7 @@ def build_authors():
     return page_shell(
         "Authors | MartechSignal",
         "Who writes MartechSignal: the people behind the tool teardowns and automation audits.",
-        "https://martechsignal.com/authors/",
+        "/authors/",
         body, schema_json=schema, og_image="og.png",
     )
 

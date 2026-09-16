@@ -116,8 +116,8 @@
 - [Bloomreach](https://martechsignal.com/tools/bloomreach/): AI-powered commerce experience platform with search, personalization, and CDP
 - [Braze](https://martechsignal.com/tools/braze/): Customer engagement platform with AI-powered real-time messaging across channels
 - [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
-- [L Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (open source)
+- [Line Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
 - [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web

@@ -896,7 +896,11 @@ def build_tool_page(t, cats, all_tools):
         else:
             a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
         # MUSE 11: keep acronym category names (CRM, SEO, CDP) uppercase in the question
-        _cat_disp = cat if cat.isupper() and 2 <= len(cat) <= 5 else cat.lower()
+        # R3-M7 (2026-09-16): lowercase slugs leaked into FAQ text ("a good ai content &
+        # copywriting tool") — use the canonical display name, sentence-cased for prose.
+        _cat_disp = _category_display(cat) or cat
+        if not (_cat_disp.isupper() and 2 <= len(_cat_disp) <= 5):
+            _cat_disp = _cat_disp[0].upper() + _cat_disp[1:]
         q3 = f"Is {name} a good {_cat_disp} tool in 2026?"
         # F-H13: the answer must be per-tool, not a sitewide template. Prefer the tool's
         # own verdict from its deep dive; fall back to concrete facts (stars, OSS, price).
@@ -1112,18 +1116,23 @@ def build_tool_page(t, cats, all_tools):
         if _rv:
             # R2 C-2 (2026-09-08): attribute the rating to its actual source so the
             # machine-readable claim is at least as attributable as the visible one.
+            # R3-C1 (2026-09-16, v2.3.1 audit): a rating with reviewCount: 0 is
+            # arithmetically impossible and the textbook spammy-structured-markup
+            # trigger (4 pages shipped ratingValue 4.5 + reviewCount 0). Emit
+            # AggregateRating only when the scrape captured a real review count.
             _src = str(_er.get("source", "")).strip()
-            _agg = {
-                "@type": "AggregateRating",
-                "ratingValue": _rv,
-                "reviewCount": _rc,
-                "bestRating": int(_er.get("max", 5))
-            }
-            if _src:
-                _agg["sourceOrganization"] = {"@type": "Organization", "name": _src}
-                if _er.get("url"):
-                    _agg["sourceOrganization"]["url"] = str(_er["url"])
-            schema["aggregateRating"] = _agg
+            if _rc > 0:
+                _agg = {
+                    "@type": "AggregateRating",
+                    "ratingValue": _rv,
+                    "reviewCount": _rc,
+                    "bestRating": int(_er.get("max", 5))
+                }
+                if _src:
+                    _agg["sourceOrganization"] = {"@type": "Organization", "name": _src}
+                    if _er.get("url"):
+                        _agg["sourceOrganization"]["url"] = str(_er["url"])
+                schema["aggregateRating"] = _agg
     # Only emit offers.price when it is a real number. Custom/enterprise pricing
     # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
     # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the
@@ -1466,6 +1475,15 @@ def build_sitemap(tools, cats):
     author_html = ROOT / "authors" / "tim-christensen" / "index.html"
     if author_html.exists():
         urls.append(("https://martechsignal.com/authors/tim-christensen/", _lastmod(author_html), "0.5"))
+
+    # R3-M2/L1 (2026-09-16, v2.3.1 audit): the /categories/ and /authors/ hubs are
+    # live, indexable and nav-linked but were absent from the sitemap.
+    cats_hub = ROOT / "categories" / "index.html"
+    if cats_hub.exists():
+        urls.append(("https://martechsignal.com/categories/", _lastmod(cats_hub), "0.6"))
+    authors_hub = ROOT / "authors" / "index.html"
+    if authors_hub.exists():
+        urls.append(("https://martechsignal.com/authors/", _lastmod(authors_hub), "0.5"))
 
     # Individual tool pages
     for t in tools:
