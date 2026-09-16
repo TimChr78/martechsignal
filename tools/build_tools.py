@@ -799,12 +799,12 @@ def build_tool_page(t, cats, all_tools):
                 "we ran ", "we have run ", "we tested ", "we installed ", "we set up "))
             if not any(m in joined for m in ("we have not run", "we have no account",
                                              "not run this", "we have not tested",
-                                             "haven't run", "assessed from")) \
+                                             "haven't run", "assessed from", "not a hands-on test")) \
                     and not (_asserts_use and dd.get("hands_on_verified")):
                 paras = ('<p style="font-size:.78rem;color:var(--muted)">'
-                         'Assessed from public documentation, the repository, and vendor '
-                         'pages; we have not run this tool.</p>') + paras
-            parts.append(f'<h2>Hands-on notes</h2>{paras}')
+                         'Researched from public documentation, the source repository, and vendor '
+                         'materials. Not a hands-on test.</p>') + paras
+            parts.append(f'<h2>Review notes</h2>{paras}')
         if dd.get("verdict"):
             parts.append(f'<h2>Verdict</h2><p>{esc(dd["verdict"])}</p>')
         # stats card goes in the sidebar; other sections inline before related links
