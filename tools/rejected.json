@@ -351,27 +351,27 @@
   },
   {
     "name": "ERPNext",
-    "reason": "ERP/accounting — off-topic for AI marketing directory",
+    "reason": "ERP/accounting \u2014 off-topic for AI marketing directory",
     "date": "2026-08-21"
   },
   {
     "name": "Huly (hcengineering/platform)",
-    "reason": "Project management platform — off-topic",
+    "reason": "Project management platform \u2014 off-topic",
     "date": "2026-08-21"
   },
   {
     "name": "Akaunting",
-    "reason": "Accounting software — off-topic",
+    "reason": "Accounting software \u2014 off-topic",
     "date": "2026-08-21"
   },
   {
     "name": "IDurable ERP CRM / Dolibarr / Ever Gauzy / metasfresh",
-    "reason": "ERP suites — off-topic",
+    "reason": "ERP suites \u2014 off-topic",
     "date": "2026-08-21"
   },
   {
     "name": "CommunityServer / avo / personal-management-system",
-    "reason": "Internal tools/project mgmt — off-topic",
+    "reason": "Internal tools/project mgmt \u2014 off-topic",
     "date": "2026-08-21"
   },
   {
@@ -407,7 +407,7 @@
   {
     "name": "django-crm",
     "url": "https://github.com/DjangoCRM/django-crm",
-    "reason": "Name collision with existing Django CRM entry (different repo: DjangoCRM/ vs Django-CRM/) — confusing for users",
+    "reason": "Name collision with existing Django CRM entry (different repo: DjangoCRM/ vs Django-CRM/) \u2014 confusing for users",
     "rejected_at": "2026-08-25",
     "resurfaced": [
       "2026-08-29",
@@ -417,7 +417,7 @@
   {
     "name": "AutoSocial",
     "url": "https://github.com/Katzca/AutoSocial",
-    "reason": "Social posting automation for TikTok/IG/YT — creator tool, not martech platform; also stale (June)",
+    "reason": "Social posting automation for TikTok/IG/YT \u2014 creator tool, not martech platform; also stale (June)",
     "rejected_at": "2026-08-25",
     "resurfaced": [
       "2026-08-29",
@@ -427,7 +427,7 @@
   {
     "name": "vue-email-editor",
     "url": "https://github.com/unlayer/vue-email-editor",
-    "reason": "Same product as approved react-email-editor (Unlayer) — one editor per vendor is enough",
+    "reason": "Same product as approved react-email-editor (Unlayer) \u2014 one editor per vendor is enough",
     "rejected_at": "2026-08-25",
     "resurfaced": [
       "2026-08-29",
@@ -1007,5 +1007,11 @@
     "url": "https://zapier.com/blog/feeds/latest/",
     "reason": "RSS blog post, not a tool candidate",
     "rejected_at": "2026-09-14"
+  },
+  {
+    "name": "Supabase vs. Firebase: Which backend platform is right for you? [2026]",
+    "url": "https://zapier.com/blog/feeds/latest/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-09-16"
   }
 ]

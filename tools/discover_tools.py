@@ -221,6 +221,9 @@ def main():
     prev_titles = {c.get("title") for c in prev if c.get("source", "").startswith("rss")}
 
     # Deduplicate
+    # (2026-09-16 fix: the rejected-filter used to run only on the merged queue,
+    # while the Telegram announcement printed the PRE-filter new_gh/new_rss —
+    # so every run advertised items its own filter discarded seconds later.)
     new_gh = [c for c in gh_candidates if c["full_name"] not in prev_repos]
     new_rss = [c for c in rss_mentions if c["title"] not in prev_titles]
 
@@ -244,6 +247,33 @@ def main():
         if n:
             rej_urls.add(n)
 
+    # Tools already in the live directory must not be re-announced: their queue
+    # entry is consumed at review time, so without this check an approved tool
+    # reappears in the next run's announcement (2026-09-16)
+    live_names, live_repos, live_hosts = set(), set(), set()
+    try:
+        live_tools = json.loads(TOOLS_FILE.read_text())
+        for t in live_tools:
+            if t.get("status") != "active":
+                continue
+            if t.get("name"):
+                live_names.add(str(t["name"]).lower())
+            repo = str(t.get("github_repo") or "").rstrip("/").lower()
+            repo = re.sub(r"^https?://(www\.)?github\.com/", "", repo)
+            site = str(t.get("website") or "").rstrip("/").lower()
+            # ~17 live tools use a github.com URL as their website; match those
+            # by repo path, never by host (github.com in live_hosts would
+            # suppress every future GitHub candidate)
+            if "github.com/" in site and not repo:
+                repo = site.split("github.com/")[-1]
+            if repo:
+                live_repos.add(repo)
+            host = re.sub(r"^https?://(www\.)?", "", site).split("/")[0]
+            if host and "github.com" not in host:
+                live_hosts.add(host)
+    except Exception as e:
+        log(f"  ⚠ Could not load tools.json for live-check ({e})")
+
     def is_rejected(c):
         u = (c.get("url") or c.get("homepage") or "").rstrip("/").lower()
         u = re.sub(r'^https?://(www\.)?', '', u)
@@ -252,22 +282,38 @@ def main():
         gh = (c.get("url") or "").rstrip("/").split("github.com/")[-1].lower()
         if c.get("source") == "github" and gh and gh in rej_urls:
             return True
+        # already live in the directory -> not a "new" candidate
+        if (c.get("name") or "").lower() in live_names:
+            return True
+        c_repo = (c.get("url") or "").rstrip("/").split("github.com/")[-1].lower()
+        if c_repo and c_repo in live_repos:
+            return True
+        c_host = re.sub(r"^https?://(www\.)?", "", (c.get("homepage") or c.get("url") or "")
+                        .rstrip("/").lower()).split("/")[0]
+        if c_host and c_host in live_hosts:
+            return True
         # RSS mentions carry the post title in `title`; rejected entries store
         # that same title as `name` (and the feed URL as `url`)
         if (c.get("title") or "").lower() in rej_urls:
             return True
         return (c.get("name") or "").lower() in rej_urls
 
-    # Merge with previous (keep last 100), then drop previously-rejected
-    # items — prev included, so settled rejections can't ride along in the
-    # queue once they're in (2026-09-10 queue-refill fix)
-    all_candidates = prev + new_gh + new_rss
-    all_candidates = all_candidates[-100:]  # cap at 100
-    pre_filter = len(all_candidates)
-    all_candidates = [c for c in all_candidates if not is_rejected(c)]
-    filtered = pre_filter - len(all_candidates)
+    # Filter rejections from the NEW items (2026-09-16: filter new_gh/new_rss
+    # BEFORE both the announcement and the merge — previously the filter ran
+    # only on the merged queue while the announcement printed the pre-filter
+    # lists, so settled rejections were advertised every run and then dropped)
+    pre_filter = len(new_gh) + len(new_rss)
+    new_gh = [c for c in new_gh if not is_rejected(c)]
+    new_rss = [c for c in new_rss if not is_rejected(c)]
+    filtered = pre_filter - len(new_gh) - len(new_rss)
     if filtered:
         log(f"   Skipped {filtered} previously-rejected candidate(s)")
+
+    # Merge with previous (keep last 100). Everything merged here has already
+    # passed the rejection filter, so the queue can't refill with settled items
+    # (2026-09-10 queue-refill fix, tightened 2026-09-16)
+    all_candidates = prev + new_gh + new_rss
+    all_candidates = all_candidates[-100:]  # cap at 100
 
     # Save
     CANDIDATES_FILE.write_text(json.dumps(all_candidates, indent=2))
