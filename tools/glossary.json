@@ -89,34 +89,6 @@
     ]
   },
   {
-    "slug": "attribution",
-    "term": "Marketing Attribution",
-    "short": "Attribution",
-    "definition": "Attribution is the process of assigning credit for a conversion to the marketing touches that led to it. A customer sees a Facebook ad, reads a blog post, gets a retargeting email, then buys. Which channel gets credit? First-touch says the ad. Last-touch says the email. Multi-touch splits it. Nobody agrees on the right answer.",
-    "context": "Attribution models have been argued about for as long as digital marketing has existed. Google's deprecation of third-party cookies made the problem harder, not easier. Privacy regulations like GDPR and CCPA added legal constraints on top of the technical ones. The honest answer is that attribution is always an approximation, and the companies doing it well treat it as directional input rather than ground truth.",
-    "related_tools": [
-      "amplitude",
-      "mixpanel",
-      "attribution"
-    ],
-    "related_categories": [
-      "analytics"
-    ],
-    "deep_dive": {
-      "how_it_works": "Attribution assigns credit for a conversion across the touchpoints that preceded it. Last-touch gives all credit to the final click. First-touch rewards the channel that introduced the customer. Multi-touch models spread credit across several interactions, often with weights that fade over time. The models disagree with each other by design. Picking one and using it consistently matters more than picking the theoretically best one.",
-      "practical_uses": "Attribution data drives budget moves and channel reporting. If paid search takes credit for most closes and organic barely registers, you will shift spend accordingly. The same data feeds forecasts and team bonuses, which is where the stakes get real. Because people optimize toward whatever the model rewards, the choice of model shapes behavior across the whole marketing org.",
-      "choosing": "Match the model to your funnel length and data quality. SaaS with a long sales cycle needs multi-touch, because last-touch will always credit the final demo and starve the channels that started the pipeline. E-commerce with a short path can survive last-touch. If your data is incomplete, pick the simplest model that your tooling can populate reliably. A complex model fed by partial data is worse than a simple one that is complete.",
-      "common_mistakes": "The recurring failure is treating the model output as ground truth. Attribution is a report, not a measurement of reality. Cross-device gaps, walled gardens, and offline conversion all break the chain, and the model quietly assigns credit to whatever it can see. The second mistake is changing models mid-quarter, which makes the numbers incomparable and the teams argue about methodology instead of decisions.",
-      "ai_angle": "AI search and agentic advertising are making click-based attribution less reliable. ChatGPT answers questions without a click, and AI agents place media without a standard referrer. The industry is shifting from counting clicks to measuring outcomes: signups, revenue, and retention. That is harder to automate but far more honest, and it is where the tools are heading."
-    },
-    "related_posts": [
-      {
-        "slug": "multi-touch-attribution-was-always-a-fiction",
-        "title": "Multi-Touch Attribution Was Always a Fiction"
-      }
-    ]
-  },
-  {
     "slug": "deliverability",
     "term": "Email Deliverability",
     "short": "Deliverability",

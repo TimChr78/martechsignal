@@ -3,3 +3,5 @@
 # 301 -> 308 infinite loop site-wide. Do not re-add without testing a normal
 # trailing-slash URL (e.g. /tools/nocobase/) returns 200 first.
 
+# R3-H7 (2026-09-17, Tim): glossary merge - hard cannibalization
+/attribution/ /marketing-attribution-models/ 301

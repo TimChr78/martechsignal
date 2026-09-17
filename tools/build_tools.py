@@ -427,7 +427,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -1126,18 +1126,12 @@ def build_tool_page(t, cats, all_tools):
             # trigger (4 pages shipped ratingValue 4.5 + reviewCount 0). Emit
             # AggregateRating only when the scrape captured a real review count.
             _src = str(_er.get("source", "")).strip()
-            if _rc > 0:
-                _agg = {
-                    "@type": "AggregateRating",
-                    "ratingValue": _rv,
-                    "reviewCount": _rc,
-                    "bestRating": int(_er.get("max", 5))
-                }
-                if _src:
-                    _agg["sourceOrganization"] = {"@type": "Organization", "name": _src}
-                    if _er.get("url"):
-                        _agg["sourceOrganization"]["url"] = str(_er["url"])
-                schema["aggregateRating"] = _agg
+            # R3-H2 (2026-09-17, Tim): AggregateRating dropped SITEWIDE. The G2-sourced
+            # ratings are not validly attributable in schema (sourceOrganization is not
+            # legal on AggregateRating), so parsers read vendor review counts as ours.
+            # The visible "Third-party ratings" sidebar block (well-disclosed) is the
+            # only ratings surface now. Do not re-add without a real attribution chain.
+            _ = _src  # retained source parsing for the visible sidebar
     # Only emit offers.price when it is a real number. Custom/enterprise pricing
     # (price_from=None) must not emit price:0 - Google lifts that as a factual claim.
     # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the
@@ -1477,6 +1471,11 @@ def build_sitemap(tools, cats):
     contact_html = ROOT / "contact" / "index.html"
     if contact_html.exists():
         urls.append(("https://martechsignal.com/contact/", _lastmod(contact_html), "0.5"))
+
+    # Corrections log (R3-M20, 2026-09-17): public proof of the honesty policy
+    corr_html = ROOT / "corrections" / "index.html"
+    if corr_html.exists():
+        urls.append(("https://martechsignal.com/corrections/", _lastmod(corr_html), "0.5"))
 
     # About page
     about_html = ROOT / "about" / "index.html"
