@@ -1090,7 +1090,10 @@ def build_tool_page(t, cats, all_tools):
         _ers = float(_edr.get("score"))
     except (TypeError, ValueError):
         _ers = None
-    if _ers:
+    # R3-C4 (2026-09-17, Tim): no Review schema on self-listed pages - first-party
+    # opinion in a third-party review shape is the spammy-structured-markup risk.
+    # The visible editorial rating stays; only the machine claim is dropped.
+    if _ers and t.get("slug") != "claude-seo":
         _review = {
             "@type": "Review",
             "author": {

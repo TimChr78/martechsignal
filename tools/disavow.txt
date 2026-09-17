@@ -1,0 +1,9 @@
+# Disavow file for martechsignal.com (R3 C6, 2026-09-17)
+# 5 referring domains, all part of one injected spam link network
+# (identical date-stamped template paths, image-only links, empty anchors).
+# Upload at https://search.google.com/search-console (Links -> spammy links / disavow).
+domain:gunghapcafe.com
+domain:kaila.biz
+domain:pandorajewelry-officialsites.us
+domain:pmt-ae.com
+domain:webmaster-philippines.com
