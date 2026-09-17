@@ -17,6 +17,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import suggest_links
 
 ROOT = Path(__file__).resolve().parent.parent  # martechsignal/
+
+
+def _css_v() -> str:
+    """Cache-bust hash for style.css, computed from the file itself (R3-M18/L2:
+    the literal went stale and new rules never shipped to returning visitors)."""
+    import hashlib as _h
+    return _h.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
+
 TOOLS_DIR = ROOT / "tools"
 CATS_DIR = ROOT / "categories"
 
@@ -410,7 +418,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 {schema_block}
-<link rel="stylesheet" href="/style.css?v=b780159f">
+<link rel="stylesheet" href="/style.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -522,8 +530,10 @@ def build_hub(tools, cats):
         "itemListElement": []
     }
     active = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("status") == "active"]
+    # R3-M3 (wave 3): ListItem.item nodes instead of bare name+url
     schema["itemListElement"] = [
-        {"@type": "ListItem", "position": i+1, "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+        {"@type": "ListItem", "position": i+1,
+         "item": {"@type": "Thing", "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
         for i, t in enumerate(active)
     ]
 
@@ -1366,9 +1376,19 @@ def build_category_page(cat, tools):
                 "name": cat_h1(cat['name']),
                 "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
                 "numberOfItems": len(cat_tools),
+                # R3-M3 (2026-09-17, wave 3): items typed as the real thing being
+                # listed. Open-source tools are SoftwareApplication, SaaS is Product.
                 "itemListElement": [
                     {"@type": "ListItem", "position": i+1,
-                     "item": {"@type": "Thing", "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
+                     "item": ({"@type": "SoftwareApplication",
+                               "name": t["name"],
+                               "operatingSystem": "Web",
+                               "applicationCategory": "BusinessApplication",
+                               "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+                              if t.get("open_source")
+                              else {"@type": "Product",
+                                    "name": t["name"],
+                                    "url": f"https://martechsignal.com/tools/{t['slug']}/"})}
                     for i, t in enumerate(cat_tools)
                 ]
             }
@@ -1740,5 +1760,26 @@ def build_llms_txt(tools, cats):
     full_out.write_text("\n".join(full_lines))
     print(f"llms-full.txt: {full_out} ({len(full_lines)} lines)")
 
+
+
+def _audit_double_slash_hrefs():
+    """R3-L2 (wave 3): no generated page may ship a double-slash internal href.
+    The Cloudflare _redirects route for // URLs is unsafe (looped twice), so the
+    fix is at build time: crawl the generated tree, report, and normalize."""
+    import re as _re
+    fixed = 0
+    pat = _re.compile(r'href="(/[^"]*?//+[^"]*)"')
+    for p in ROOT.glob("*/index.html"):
+        s = p.read_text()
+        s2 = pat.sub(lambda m: 'href="' + _re.sub(r"(?<!:)/{2,}", "/", m.group(1)) + '"', s)
+        if s2 != s:
+            p.write_text(s2)
+            fixed += 1
+    return fixed
+
+
 if __name__ == "__main__":
+    _n = _audit_double_slash_hrefs()
+    if _n:
+        print(f'  L2: normalized double-slash hrefs on {_n} pages')
     main()
