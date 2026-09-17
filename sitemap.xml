@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://martechsignal.com/</loc><lastmod>2026-09-16</lastmod></url>
-  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-09-16</lastmod></url>
+  <url><loc>https://martechsignal.com/</loc><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://martechsignal.com/trending/</loc><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://martechsignal.com/checklist/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://martechsignal.com/blog/agents-identity-debt/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://martechsignal.com/blog/ai-agents-need-campaign-state/</loc><lastmod>2026-09-14</lastmod></url>
@@ -37,6 +37,7 @@
   <url><loc>https://martechsignal.com/blog/oss-martech-50-day-checkin/</loc><lastmod>2026-09-14</lastmod></url>
   <url><loc>https://martechsignal.com/blog/claude-seo-vs-codex-seo/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://martechsignal.com/blog/claude-seo-vs-semrush/</loc><lastmod>2026-09-16</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/claude-seo-vs-seonaut/</loc><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://martechsignal.com/tools/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://martechsignal.com/contact/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://martechsignal.com/about/</loc><lastmod>2026-09-16</lastmod></url>
@@ -220,5 +221,5 @@
   <url><loc>https://martechsignal.com/glossary/agentic-marketing/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/ai-search-visibility/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://martechsignal.com/glossary/aeo/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-09-16</lastmod></url>
+  <url><loc>https://martechsignal.com/blog/</loc><lastmod>2026-09-17</lastmod></url>
 </urlset>

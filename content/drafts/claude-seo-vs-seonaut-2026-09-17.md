@@ -2,7 +2,7 @@
 title: "Claude SEO vs Seonaut: which free SEO checker should you run"
 seo_title: "Claude SEO vs Seonaut: which free SEO checker wins"
 slug: claude-seo-vs-seonaut
-date: 2026-09-13
+date: 2026-09-17
 author: Tim Christensen
 tags: [SEO, Open Source]
 categories: [seo]
