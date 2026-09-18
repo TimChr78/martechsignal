@@ -180,6 +180,7 @@
 
 ## Analysis
 
+- [Five Claude SEO Scores, Four Graders: None Compare](https://martechsignal.com/blog/claude-seo-v231-four-graders/) (2026-09-18)
 - [Claude SEO vs Seonaut: which free SEO checker wins](https://martechsignal.com/blog/claude-seo-vs-seonaut/) (2026-09-17)
 - [Claude SEO vs Semrush: what a free audit replaces](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-16)
 - [Claude SEO vs Codex SEO: same audit, pick your agent](https://martechsignal.com/blog/claude-seo-vs-codex-seo/) (2026-09-15)

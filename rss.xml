@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:25:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 17:25:56 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Four Graders, One Site: What Five Claude SEO Scores Measure</title>
+      <link>https://martechsignal.com/blog/claude-seo-v231-four-graders/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-v231-four-graders/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description>We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.</description>
+    </item>
     <item>
       <title>Claude SEO vs Seonaut: which free SEO checker should you run</title>
       <link>https://martechsignal.com/blog/claude-seo-vs-seonaut/</link>
