@@ -1013,5 +1013,11 @@
     "url": "https://zapier.com/blog/feeds/latest/",
     "reason": "RSS blog post, not a tool candidate",
     "rejected_at": "2026-09-16"
+  },
+  {
+    "name": "The 6 best conversational AI platforms in 2026",
+    "url": "https://zapier.com/blog/feeds/latest/",
+    "reason": "RSS blog post, not a tool candidate",
+    "rejected_at": "2026-09-21"
   }
 ]
