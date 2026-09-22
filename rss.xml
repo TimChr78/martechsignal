@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 11:08:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 05:08:59 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>AI visibility advice, audited against 775 logged citations</title>
+      <link>https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>The AI-visibility industry has a product to sell you: a dashboard that counts how often ChatGPT mentions your brand. Search Engine Land just published two logged experiments that q</description>
+    </item>
     <item>
       <title>Salesforce's third no-code promise, audited</title>
       <link>https://martechsignal.com/blog/salesforce-third-no-code-promise/</link>
