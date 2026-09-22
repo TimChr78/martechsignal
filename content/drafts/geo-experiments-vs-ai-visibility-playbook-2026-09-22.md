@@ -8,7 +8,7 @@ tags: [AI Search, SEO, Automation]
 categories: [seo]
 ---
 
-The AI-visibility industry has a product to sell you: a dashboard that counts how often ChatGPT mentions your brand. Search Engine Land just published [two logged experiments](https://searchengineland.com/geo-experiments-challenge-conventional-ai-visibility-advice-488342) that quietly dismantle most of what that dashboard implies. 775 citation events, two brands, six platforms, months of manual query logs. The results contradict the standard GEO playbook in three places, and confirm one part of it that most people skip.
+775 logged AI citations just dismantled the standard GEO playbook. Search Engine Land published [two experiments](https://searchengineland.com/geo-experiments-challenge-conventional-ai-visibility-advice-488342) covering two brands, six platforms, and months of manual query logs. The AI-visibility industry sells you a dashboard that counts how often ChatGPT mentions your brand. The results contradict what that dashboard implies in three places, and confirm one part of the playbook that most people skip.
 
 ## What was actually measured
 
