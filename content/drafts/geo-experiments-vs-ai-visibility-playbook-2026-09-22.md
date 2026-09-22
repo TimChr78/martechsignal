@@ -8,7 +8,7 @@ tags: [AI Search, SEO, Automation]
 categories: [seo]
 ---
 
-775 logged AI citations just dismantled the standard GEO playbook. Search Engine Land ran two experiments across six AI platforms and two brands. Every query was typed and logged by hand, over months, with no monitoring vendor in the loop. The AI-visibility industry sells you a dashboard that counts how often ChatGPT mentions your brand. These results contradict what that dashboard implies in three places, and confirm one part of the playbook that most people skip. The [full write-up is here](https://searchengineland.com/geo-experiments-challenge-conventional-ai-visibility-advice-488342); this is the ops audit.
+775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries, no dashboards. The AI-visibility industry sells you a tool that counts how often ChatGPT mentions your brand. These results contradict what that count implies in three places, and confirm one part of the playbook that most people skip. The [full write-up is here](https://searchengineland.com/geo-experiments-challenge-conventional-ai-visibility-advice-488342); this is the ops audit.
 
 ## What was actually measured
 
