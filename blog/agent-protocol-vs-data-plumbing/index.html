@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agent protocol vs data plumbing: what actually fails</title>
+<meta name="description" content="MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Agent protocol vs data plumbing: what actually fails">
+<meta property="og:description" content="MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.">
+<meta property="og:url" content="https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/">
+<meta property="og:image" content="https://martechsignal.com/og/agent-protocol-vs-data-plumbing.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Your agent protocol matters less than your data plumbing",
+  "description": "MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/og.png"
+    }
+  },
+  "datePublished": "2026-09-23",
+  "dateModified": "2026-09-23",
+  "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
+  "image": "https://martechsignal.com/og/agent-protocol-vs-data-plumbing.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Your agent protocol matters less than your data plumbing",
+      "item": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/"
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<div id="progress" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<a class="back" href="/blog/">← ALL WRITING</a>
+<article>
+
+<p class="kicker">AUTOMATION · AI AGENTS · 7 MIN</p>
+<h1>Your agent protocol matters less than your data plumbing</h1>
+<p class="meta"><time datetime="2026-09-23">SEP 23, 2026</time></p>
+<div class="byline">
+  <span class="av">TC</span>
+  <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
+</div>
+
+<p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-salesforce-guide-answers-the-wrong-question-well">The Salesforce guide answers the wrong question well</a> · <a href="#even-the-protocol-s-own-costs-are-a-data-shape-problem">Even the protocol's own costs are a data-shape problem</a> · <a href="#the-85-number-with-its-conflict-of-interest-named">The 85% number, with its conflict of interest named</a> · <a href="#what-to-do-before-you-pick-anything">What to do before you pick anything</a> · <a href="#verdict">Verdict</a></nav>
+<p>MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.</p>
+
+<p>In late July I argued that <a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP rewrites the integration economics of the marketing stack</a>. Pairwise connectors collapse into one registration per tool, the O(n²) tax goes away, and suite lock-in gets weaker. I still believe that. What I underestimated is how fast the protocol layer would settle while the layer underneath it stayed broken.</p>
+
+<p>The past ten days proved the point from two directions at once. Hacker News filled up with MCP tooling: AgentDrive, persistent versioned file storage for agents, ProGantt, Gantt charts an agent can read and write, and Friday, a self-hosted persistent memory server for coding agents. Three launches inside a week, all speaking fluent MCP, none of them arguing about whether MCP is the right protocol. That debate is over in practice. Meanwhile WorkOS published the most useful MCP article of the month, and it is not about the protocol at all. It is about tokens, schemas, and the shape of your data.</p>
+
+<h2 id="the-salesforce-guide-answers-the-wrong-question-well">The Salesforce guide answers the wrong question well</h2>
+
+<p>Salesforce's architecture team published "Choosing Between MCP and APIs" in July, and it is genuinely good work. They walk a fictional B2B apparel brand through five requirements for exposing its systems to a third-party shopping agent: catalog data, pricing, live inventory, order placement, fulfillment updates.</p>
+
+<p>Here is what makes the piece useful and slightly deflating at the same time. The final architecture is a hybrid. Catalog pushes run as a daily batch job over an API, because catalog data is static. Pricing goes through an API with a service account, then crosses an MCP bridge so the agent can query it dynamically. Inventory reads hit the warehouse management system through the same bridge, because they need to be real time. Orders route straight to the ERP over an API, skipping Salesforce entirely to cut failure points. Fulfillment updates push out as API webhooks.</p>
+
+<p>Of those five decisions, almost none were protocol decisions. Every one of them was a data decision: which system holds the truth for this entity, how fresh it needs to be, and what path keeps it consistent. MCP versus REST was the last coat of paint. The architects spent their effort on where pricing lives and whether the warehouse system can answer in real time, and the protocol fell out of those answers.</p>
+
+<p>That is the pattern I keep seeing in production stacks too. Teams agonize over MCP support in their vendor evaluation, then discover their product feed updates nightly, their CRM has four competing definitions of "active customer," and nobody can say which system wins. An agent pointed at that mess does not fail because of the transport. It fails confidently, at machine speed, on stale numbers.</p>
+
+<h2 id="even-the-protocol-s-own-costs-are-a-data-shape-problem">Even the protocol's own costs are a data-shape problem</h2>
+
+<p>The WorkOS piece, "What an MCP server costs you in tokens," landed September 18 and quotes Anthropic's numbers directly. A typical multi-server setup spanning GitHub, Slack, Sentry, Grafana, and Splunk burns roughly 55,000 tokens on tool definitions before the model reads your request. Tool selection accuracy starts dropping somewhere between 30 and 50 available tools. And the fix Anthropic recommends for the worst case is code execution against a filesystem-shaped tool catalog, which took one worked example from 150,000 tokens to 2,000.</p>
+
+<p>That last number matters most. The biggest optimization in the MCP ecosystem right now is restructuring how tools and data are presented to the model. Not a new protocol, not a better client. Interface design around the shape of the data. The same article's rule for building servers is "design tools around what someone is trying to accomplish, not around your internal API structure," which is a data modeling instruction wearing a protocol costume.</p>
+
+<h2 id="the-85-number-with-its-conflict-of-interest-named">The 85% number, with its conflict of interest named</h2>
+
+<p>Fivetran's Agentic AI Readiness Index 2026 supplies the stat of the season: 85% of enterprises lack the data foundation to run agentic AI at scale. When I covered Fivetran in August I pushed back on the idea that you need to <a href="/blog/you-dont-need-new-data-stack-fivetran/">buy a new data stack</a> to fix this, and I would write the same post again today. Vendor research selling data plumbing will find plumbing problems. Fair.</p>
+
+<p>But strip out the pitch and the underlying breakdown is hard to argue with, because it matches what practitioners report. Fivetran surveyed enterprises and found 41% already run agents in production. Asked what holds them back, 42% said data quality and lineage, 39% said sovereignty and compliance, 39% said security and privacy. Talent and strategy ranked lower. Gartner, separately, estimates over 40% of agentic AI projects will be canceled by end of 2027, mostly because companies moved into use cases their data could not support.</p>
+
+<p>The most damning correlation in the index: among the 15% of organizations that call themselves fully prepared, 98% report strong confidence in agent ROI. Among the least prepared, confidence is 16%. Preparation and payoff move together, and the preparation Fivetran measures is automated data movement, lineage, interoperability, and governance. Three of those four are plumbing. None of them are protocol choices.</p>
+
+<h2 id="what-to-do-before-you-pick-anything">What to do before you pick anything</h2>
+
+<p>If you are mid-evaluation of agent tooling, the honest order of operations looks like this. First, pick the three or four entities your agent will actually act on: customers, orders, campaigns, inventory, whatever your use case touches. For each one, write down which system is the source of truth and how stale its data is allowed to be before a decision becomes wrong. If you cannot answer those two questions on paper, no protocol saves you.</p>
+
+<p>Second, get the freshness real. A nightly batch feed into a table an agent reads every five minutes is not a real time data source, it is a lie with a cron schedule. Third, give the agent a narrow interface shaped around outcomes, the way the WorkOS article prescribes and the way Salesforce's hybrid architecture ended up working. Fourth, and only fourth, decide how that interface is transported. By then MCP versus API is a small question with an obvious answer, usually both.</p>
+
+<p>You can do most of this without enterprise money. A self-hosted stack like the one in our <a href="/blog/open-source-martech-stack/">open source martech guide</a> covers the movement and storage layers, and a tool like <a href="/tools/nocobase/">NocoBase</a> gives you governed, lineage-visible business data that an MCP server can sit on top of without a data warehouse project. The bottleneck was never the software budget. It is the discipline of deciding what is true.</p>
+
+<h2 id="verdict">Verdict</h2>
+
+<div class="verdict win">
+<p>The protocol layer won. MCP launched a persistent file store, a memory server, and a Gantt tool in one week without anyone relitigating the standard. Pick MCP where dynamic agent access matters, plain APIs where batches and machine-to-machine writes are enough, and stop treating that choice as strategic.</p>
+</div>
+
+<div class="verdict lose">
+<p>The data layer is still losing. 85% of enterprises are not ready, the top blocker is data quality and lineage, and Gartner expects 40% of agent projects canceled by 2027. Every one of those failures will get blamed on AI. Most of them will be stale fields, duplicate records, and nobody knowing which system was right.</p>
+</div>
+
+<p>The connectivity debate turned out to be the easy half, and most teams have quietly finished having it. The data plumbing is the project that is still open, and it is the one Gartner's cancellation wave will actually be about. More on keeping the automation layer honest lives in our <a href="/categories/workflow-automation/">workflow automation coverage</a>.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI , Fivetran Just Proved It</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/workato/">Workato</a> — Enterprise AI governance plus integration and automation on one platform</li><li><a href="/tools/pipedream/">Pipedream</a> — Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps</li><li><a href="/tools/writer/">Writer</a> — Enterprise AI platform with Palmyra models, brand governance, and agents</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/mcp/">MCP</a></li></ul></section>
+
+<div class="cta-strip">
+<h3>One email. <span class="amber">Every Friday.</span></h3>
+<p>The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.</p>
+<a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
+</div>
+
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/adcreative-ai/">AdCreative.ai</a></p>
+</article>
+</main>
+<footer>
+  <div class="foot-in">
+    <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</footer>
+<script>
+(function(){
+  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.getElementById('progress');
+  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
+})();
+</script>
+</body>
+</html>
