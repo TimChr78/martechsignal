@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 05:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 05:10:49 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>The guardrails Google won't ship for your AI ad account</title>
+      <link>https://martechsignal.com/blog/google-ads-ai-guardrails/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/google-ads-ai-guardrails/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Two pieces of practitioner advice landed in the same week, from opposite ends of the industry. On the PPC Live podcast, Mike Ryan of Smarter Ecommerce walked through what happens w</description>
+    </item>
     <item>
       <title>Your agent protocol matters less than your data plumbing</title>
       <link>https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/</link>
