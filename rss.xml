@@ -5,14 +5,14 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 05:12:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 05:15:38 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>The guardrails Google won't ship for your AI ad account</title>
       <link>https://martechsignal.com/blog/google-ads-ai-guardrails/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/google-ads-ai-guardrails/</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Google ships AI ad automation faster than its safety reporting, so the guardrails for an AI-managed account are still something you build yourself. Two pieces of practitioner advic</description>
+      <description>Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job. Two pieces of practitioner</description>
     </item>
     <item>
       <title>Your agent protocol matters less than your data plumbing</title>
