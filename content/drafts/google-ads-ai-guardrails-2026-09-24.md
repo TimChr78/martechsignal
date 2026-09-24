@@ -8,7 +8,7 @@ tags: [Google Ads, AI, Automation, Advertising]
 categories: [advertising]
 ---
 
-Two pieces of practitioner advice landed in the same week, from opposite ends of the industry. On the PPC Live podcast, Mike Ryan of Smarter Ecommerce walked through what happens when AI Max meets an account nobody has fenced in. On MarTech, Optmyzr published a three-layer safety model for agents touching live ad budgets. Meanwhile Google itself spent the same stretch expanding AI Brief to seven more languages and promising a unified AI Max reporting view sometime later in 2026. Read the three side by side and a pattern shows up: the platform keeps shipping automation, and the safety layer stays something you build yourself.
+Google ships AI ad automation faster than its safety reporting, so the guardrails for an AI-managed account are still something you build yourself. Two pieces of practitioner advice landed in the same week to prove it, from opposite ends of the industry. On the PPC Live podcast, Mike Ryan of Smarter Ecommerce walked through what happens when AI Max meets an account nobody has fenced in. On MarTech, Optmyzr published a three-layer safety model for agents touching live ad budgets. Meanwhile Google itself spent the same stretch expanding AI Brief to seven more languages and promising a unified AI Max reporting view sometime later in 2026.
 
 We made this argument in August when [Google handed your ad budget to AI agents and kept you on the hook](/blog/google-ad-agents-control-gap/). A month later the control gap hasn't closed. It has gotten more specific, which is progress of a sort. Practitioners are now describing what the control layer actually contains.
 
