@@ -7930,5 +7930,53 @@
       "verdict": "A credible, governance-aware starter kit for GTM teams already living in Zapier-connected stacks and coding agents. Adopt the patterns even if you skip the skills; treat the workflows as templates to adapt, not drop-in automation."
     },
     "license": "MIT"
+  },
+  {
+    "slug": "warmbly",
+    "name": "Warmbly",
+    "tagline": "Open-source cold email platform with warmup, campaigns, unified inbox, and CRM",
+    "website": "https://warmbly.com",
+    "category": "email-marketing",
+    "pricing_model": "open-source",
+    "pricing_url": "https://warmbly.com/pricing/",
+    "price_from": 0,
+    "paid_from": 23,
+    "price_notes": "Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%.",
+    "ai_features": [
+      "AI agent steps in campaign sequences that branch on classified reply intent",
+      "Automatic reply classification (positive, out of office, unsubscribe, bounce) in the unified inbox",
+      "Agent-drafted follow-up replies",
+      "Advisory AI content check with deliverability score before sending"
+    ],
+    "integrations": [
+      "HubSpot",
+      "Slack",
+      "Zapier",
+      "REST API",
+      "Webhooks (HMAC-signed)",
+      "Gmail",
+      "Microsoft 365",
+      "SMTP"
+    ],
+    "github_repo": "warmbly/warmbly",
+    "github_stars": 316,
+    "open_source": true,
+    "license": "Apache-2.0",
+    "api_available": true,
+    "founded": 2026,
+    "hq": "London, UK",
+    "status": "active",
+    "date_added": "2026-09-24",
+    "date_updated": "2026-09-24",
+    "description": "Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It bundles warmup pools, multi-step campaigns, a shared reply inbox, analytics, and a small CRM into one self-hostable stack (Apache 2.0, built with Go, Rust, Elixir, and React). The audience is founders, agencies, and sales teams running outbound B2B, the same crowd paying Instantly or Smartlead for this workflow today.\n\nThe AI parts are narrower than the \"AI-native\" branding suggests. Campaign sequences can include AI agent steps that branch on classified reply intent. The unified inbox labels incoming replies as positive, out of office, unsubscribe, or bounce the moment they land, and holds agent drafts for follow-ups. A content checker scores template deliverability before you send, advisory only, it never blocks a campaign. Reply classification is the genuinely useful piece; the rest is assistive rather than autonomous.\n\nPricing splits cleanly in two. Self-hosting is free with no cloud dependency: a curl install script brings up Docker Compose with Postgres and Redis, and outbound mail leaves through each mailbox's own provider rather than Warmbly's servers. The hosted cloud has a free plan with 10 mailboxes, then Starter at $29/mo (150 sends/day), Grow at $89/mo (3,000 sends/day, adds CRM, A/B variants, and the API), and Business at $329/mo (15,000 sends/day, team roles, audit log). Watch the send caps: 150/day at Starter is thin next to similarly priced plans at Instantly, though annual billing shaves 20%.\n\nAgainst Smartlead or Instantly, the draw is self-hosting and the Apache 2.0 license. Your mailbox credentials and lead data never leave your own infrastructure, and you scale throughput by running more workers. The trade-off is youth: 316 GitHub stars as of September 2026, one company behind it (Mindroot Ltd, London), and no lead database included. The hosted competitors have years of deliverability tooling and B2B data you would have to source separately.\n\nIf you want managed cold email at volume and do not care where the servers live, the incumbents are more mature. If you are an agency that needs client outreach on your own hardware, or a product team that wants to embed sending behind an API with signed webhooks, Warmbly earns a Docker Compose run.",
+    "deep_dive": {
+      "hands_on": [
+        "Warmbly is the self-hostable answer to Instantly and Smartlead: warmup pools, rotating mailbox sends, a shared reply inbox, and a light CRM, all Apache 2.0. The architecture separates a control plane (Postgres, Redis, event bus) from Go workers that send through each mailbox's own provider, so throughput scales by adding workers and mail never routes through Warmbly's IPs.",
+        "The AI layer is reply classification plus agent steps in sequences, not autonomous campaign building. Self-hosting is genuinely free (one curl install, Docker Compose); the paid side is the hosted cloud, priced by daily send volume. We have not run an instance; this assessment comes from the repo, docs, and vendor pricing pages."
+      ],
+      "best_for": "Agencies and dev-heavy teams that want cold outreach data on their own infrastructure, or product teams embedding sending via API and signed webhooks.",
+      "not_for": "Teams that need a built-in B2B lead database, or anyone who wants a battle-tested managed sender and does not want to operate Postgres and Redis.",
+      "verdict": "The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you."
+    }
   }
 ]

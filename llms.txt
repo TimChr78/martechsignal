@@ -107,6 +107,7 @@
 - [React Email Editor](https://martechsignal.com/tools/react-email-editor/): Drag-n-Drop Email Editor Component for React.js (open source)
 - [Resend](https://martechsignal.com/tools/resend/): Developer-first email API built around React Email, batch sending, and agent tooling
 - [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
+- [Warmbly](https://martechsignal.com/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (open source)
 
 ### Marketing Automation
 
@@ -180,6 +181,9 @@
 
 ## Analysis
 
+- [Agent protocol vs data plumbing: what actually fails](https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/) (2026-09-23)
+- [AI visibility advice, audited against 775 logged citations](https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/) (2026-09-22)
+- [Salesforce's third no-code promise, audited](https://martechsignal.com/blog/salesforce-third-no-code-promise/) (2026-09-21)
 - [Five Claude SEO Scores, Four Graders: None Compare](https://martechsignal.com/blog/claude-seo-v231-four-graders/) (2026-09-18)
 - [Claude SEO vs Seonaut: which free SEO checker wins](https://martechsignal.com/blog/claude-seo-vs-seonaut/) (2026-09-17)
 - [Claude SEO vs Semrush: what a free audit replaces](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-16)
