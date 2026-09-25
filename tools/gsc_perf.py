@@ -29,7 +29,7 @@ import json, os, sys, datetime as dt
 PROPERTY = os.environ.get("GSC_PROPERTY", "sc-domain:martechsignal.com")
 KEY_PATH = os.environ.get("GSC_SERVICE_ACCOUNT_KEY",
                           "/home/hermes/.hermes/gsc-service-account.json")
-CACHE = "/opt/data/gsc-pages-28d.json"
+CACHE = "/home/hermes/.hermes/data/gsc-pages-28d.json"  # durable (opt/data is wiped on Hermes updates)
 # Repo-owned output dir for the weekly CTR loop (was /mnt/cache/appdata/n8n/...).
 REPORTS_DIR = os.environ.get("GSC_REPORTS_DIR", "/home/hermes/.hermes/data/reports")
 # Max rows per section in the markdown, keeps the report readable for the LLM.

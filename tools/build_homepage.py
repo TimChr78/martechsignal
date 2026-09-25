@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TOOLS_JSON = ROOT / "tools" / "tools.json"
 GH_HISTORY = ROOT / "tools" / "github-history.json"
-GSC_FILE = Path("/opt/data/gsc-pages-28d.json")
+GSC_FILE = Path("/home/hermes/.hermes/data/gsc-pages-28d.json")  # durable (opt/data is wiped on Hermes updates)
 INDEX = ROOT / "index.html"
 
 SHOW = 8  # tool rows shown on the front page
@@ -141,6 +141,10 @@ def main():
         sys.exit(1)
     # sanity: no other stale counts in headers
     new_html = new_html.replace('tools/">+92', f'tools/">+{total - SHOW}')
+    # hero stat + twitter meta were hand-maintained and rotted at 133; derive from total
+    new_html = re.sub(r'(id="s1">)\d+', rf'\g<1>{total}', new_html, count=1)
+    new_html = re.sub(r'(twitter:description" content=")\d+( AI marketing tools)',
+                      rf'\g<1>{total}\g<2>', new_html, count=1)
 
     if dry:
         print(section)

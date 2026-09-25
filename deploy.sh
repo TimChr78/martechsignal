@@ -62,8 +62,11 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # /categories/ and /authors/ index pages (R2 L-7: both returned 404).
     python3 tools/build_indexes.py || echo "⚠ index build failed (non-fatal)"
     # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
-    # Uses the cached /opt/data/gsc-pages-28d.json if present (refresh it with
-    # a fresh GSC searchanalytics pull); falls back to stars-only otherwise.
+    # Refresh the durable cache first (home/hermes/.hermes/data/gsc-pages-28d.json;
+    # /opt/data is wiped on Hermes updates). Non-fatal: falls back to stars-only.
+    if command -v uv >/dev/null 2>&1; then
+        uv run tools/gsc_perf.py 2>&1 | tail -2 || echo "⚠ GSC cache refresh failed (using existing cache)"
+    fi
     python3 tools/build_homepage.py || echo "⚠ homepage tool-index update failed (non-fatal)"
     # Per-post OG cards (Pillow venv; skip silently if venv missing)
     if [ -x /home/hermes/.hermes/venvs/imggen/bin/python ]; then
