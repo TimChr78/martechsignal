@@ -2149,7 +2149,7 @@
    "identifier": "urn:air:martechsignal.com:data:tools-json",
    "displayName": "MartechSignal tools.json (machine-readable)",
    "type": "application/json",
-   "url": "https://martechsignal.com/data/tools.json",
+   "url": "https://martechsignal.com/catalog-tools.json",
    "representativeQueries": [
     "martechsignal tool catalog data",
     "ai marketing tools dataset"
@@ -2159,7 +2159,7 @@
    "identifier": "urn:air:martechsignal.com:data:categories-json",
    "displayName": "MartechSignal categories.json (machine-readable)",
    "type": "application/json",
-   "url": "https://martechsignal.com/data/categories.json",
+   "url": "https://martechsignal.com/catalog-categories.json",
    "representativeQueries": [
     "martechsignal tool catalog data",
     "ai marketing tools dataset"

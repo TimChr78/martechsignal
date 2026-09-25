@@ -61,13 +61,15 @@ def build():
             "description": (c.get("description") or "")[:200],
             "representativeQueries": cat_queries(c),
         })
-    # Machine-readable data sources (url reference, value-or-reference §4.3)
+    # Machine-readable data sources (url reference, value-or-reference §4.3).
+    # Served as root catalog-*.json (llms-full.txt siblings): /data/ is correctly
+    # closed by .assetsignore (pipeline state), so manifest urls must not point there.
     for fname in ("tools.json", "categories.json"):
         entries.append({
             "identifier": f"urn:air:{PUBLISHER}:data:{fname.replace('.', '-')}",
             "displayName": f"MartechSignal {fname} (machine-readable)",
             "type": "application/json",
-            "url": f"https://martechsignal.com/data/{fname}",
+            "url": f"https://martechsignal.com/catalog-{fname}",
             "representativeQueries": ["martechsignal tool catalog data",
                                       "ai marketing tools dataset"],
         })
@@ -128,8 +130,7 @@ if __name__ == "__main__":
     text = json.dumps(m, ensure_ascii=False, indent=1)
     (OUT_DIR / "ard.json").write_text(text)
     (OUT_DIR / "ai-catalog.json").write_text(text)  # predecessor courtesy copy
-    # the two data-entry urls must resolve
-    (ROOT / "data").mkdir(exist_ok=True)
-    (ROOT / "data" / "tools.json").write_text(TOOLS_JSON.read_text())
-    (ROOT / "data" / "categories.json").write_text(CATS_JSON.read_text())
+    # the two data-entry urls must resolve (root copies; /data/ stays private)
+    (ROOT / "catalog-tools.json").write_text(TOOLS_JSON.read_text())
+    (ROOT / "catalog-categories.json").write_text(CATS_JSON.read_text())
     print(f"ard.json + ai-catalog.json written ({len(m['entries'])} entries, {len(text)} bytes)")

@@ -41,7 +41,10 @@
 # machinery beside them is excluded.
 /tools/*.py
 /tools/*.json
-/tools/*.md
+# NOTE (2026-09-25): was /tools/*.md — fnmatch's * crosses /, so it also ate the
+# A-1 mirror files tools/<slug>/index.md. The pattern's only real target is the
+# machinery doc below; keep this precise so page mirrors stay publishable.
+/tools/schema.md
 /tools/.indexnow-key
 /tools/__pycache__/
 
