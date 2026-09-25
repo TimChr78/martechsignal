@@ -6756,7 +6756,7 @@
     "tagline": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents",
     "website": "https://snowplow.io",
     "category": "analytics",
-    "pricing_model": "enterprise",
+    "pricing_model": "open-core",
     "pricing_url": null,
     "price_from": 0,
     "price_notes": "The open-source pipeline is free to self-host. Snowplow BDP Cloud is quoted by sales (verified Sep 2026).",

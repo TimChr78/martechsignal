@@ -4,7 +4,7 @@ Customer context infrastructure: behavioral event pipeline for warehouses and AI
 
 - Page: https://martechsignal.com/tools/snowplow/
 - Category: Analytics & Attribution
-- Pricing: Enterprise
+- Pricing: Free tier
 - Open source: yes (Apache-2.0)
 - Last verified: 2026-09-25
 
