@@ -109,6 +109,22 @@
 - [Twilio SendGrid](https://martechsignal.com/tools/sendgrid/): Scalable email delivery API with AI-powered deliverability and engagement tools
 - [Warmbly](https://martechsignal.com/tools/warmbly/): Open-source cold email platform with warmup, campaigns, unified inbox, and CRM (open source)
 
+### GEO & LLM Optimization
+
+- [AccuRanker](https://martechsignal.com/tools/accuranker/): Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
+- [Adobe LLM Optimizer](https://martechsignal.com/tools/adobe-llm-optimizer/): Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
+- [Ahrefs](https://martechsignal.com/tools/ahrefs/): Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Evertune](https://martechsignal.com/tools/evertune/): GEO visibility measurement with content activation and a ChatGPT Ad Agent
+- [Nightwatch](https://martechsignal.com/tools/nightwatch/): Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Nimt.ai](https://martechsignal.com/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [OtterlyAI](https://martechsignal.com/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Profound](https://martechsignal.com/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Rankscale](https://martechsignal.com/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+- [Scrunch](https://martechsignal.com/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+- [SISTRIX](https://martechsignal.com/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
+- [Trakkr](https://martechsignal.com/tools/trakkr/): AI visibility platform for brands and agencies: citations, perception, competitors
+- [Writesonic](https://martechsignal.com/tools/writesonic/): The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
+
 ### Marketing Automation
 
 - [ActiveCampaign](https://martechsignal.com/tools/activecampaign/): AI-powered marketing automation and CRM for small to mid-size businesses
@@ -264,6 +280,7 @@
 - [Chatbots & Conversational AI](https://martechsignal.com/categories/chatbots/)
 - [CRM](https://martechsignal.com/categories/crm/)
 - [Email Marketing](https://martechsignal.com/categories/email-marketing/)
+- [GEO & LLM Optimization](https://martechsignal.com/categories/geo-llm-visibility/)
 - [Marketing Automation](https://martechsignal.com/categories/marketing-automation/)
 - [Open-Source Tools](https://martechsignal.com/categories/open-source/)
 - [Personalization & CDP](https://martechsignal.com/categories/personalization/)

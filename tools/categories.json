@@ -183,7 +183,8 @@
       "postmark",
       "react-email-editor",
       "resend",
-      "sendgrid"
+      "sendgrid",
+      "warmbly"
     ],
     "intro": "Email marketing remains the channel with the highest measurable ROI and the lowest tolerance for error. This category splits into campaign senders, lifecycle automation engines, and deliverability specialists. The AI layer now drafts subject lines, predicts send times, and segments lists automatically. Deliverability is where tools truly differ. inbox placement depends on infrastructure choices most vendors do not advertise. We test sending mechanics, template flexibility, and how each platform handles list hygiene without you noticing."
   },
@@ -569,6 +570,177 @@
     "intro": "Keyword research, content optimization, and search visibility platforms. With AI answers reshaping search, we test which tools still earn their subscription."
   },
   {
+    "slug": "geo-llm-visibility",
+    "name": "GEO & LLM Optimization",
+    "description": "Track and improve how AI assistants mention, cite, and describe your brand",
+    "intro": "Monitoring and optimization tools for AI search: who cites you in ChatGPT, Perplexity and AI Overviews, what the answers say, and what to change about it.",
+    "hub": {
+      "meta": "Compare Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune, Nimt and Writesonic, plus the AI-visibility modules inside AccuRanker, Nightwatch, SISTRIX, Ahrefs and Adobe.",
+      "flow": [
+        {
+          "label": "PROMPT SET",
+          "sub": "questions buyers ask"
+        },
+        {
+          "label": "TRACK",
+          "sub": "mentions + citations"
+        },
+        {
+          "label": "DIAGNOSE",
+          "sub": "why them, not you",
+          "style": "ai"
+        },
+        {
+          "label": "FIX",
+          "sub": "content + sources",
+          "style": "ok"
+        }
+      ],
+      "lead": [
+        "For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.",
+        "Two kinds sit in this category. Specialists like Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune and Nimt do nothing but AI visibility: prompt tracking across engines, citation sources, share of voice against competitors, and in some cases the content fixes too. The established suites arrived later and bolted the same tracking onto products you may already run: AccuRanker's AccuLLM, the SISTRIX AI module, Ahrefs' Brand Radar, Adobe's LLM Optimizer inside Experience Cloud. Pricing splits along the same line. The specialists price by tracked prompts and brands, from EUR 29 a month for OtterlyAI up to USD 800 for Evertune's content-inclusive plan. The suite add-ons travel with plans you may already pay for, and the enterprise end quotes per account.",
+        "Buying advice: demand prompt-level data, not a vanity score. A share-of-voice number that cannot show which question produced it is decoration. Check how many engines are covered, how often prompts re-run (some plans track weekly, too slow for a news cycle), whether you get the cited sources or just the mention count, and whether the fix step is real work or a to-do list. The category is young and churny, so favor monthly billing until a tool earns the annual discount."
+      ],
+      "chooser": [
+        {
+          "if": "You want AI-visibility tracking at a price a single marketer can pay",
+          "then": [
+            {
+              "name": "OtterlyAI",
+              "slug": "otterlyai"
+            },
+            {
+              "name": "Rankscale",
+              "slug": "rankscale"
+            }
+          ],
+          "why": "OtterlyAI starts at EUR 29/mo with a public API; Rankscale meters by credit so spend tracks usage"
+        },
+        {
+          "if": "You want AI answers next to your rank data",
+          "then": [
+            {
+              "name": "AccuRanker",
+              "slug": "accuranker"
+            },
+            {
+              "name": "Nightwatch",
+              "slug": "nightwatch"
+            },
+            {
+              "name": "SISTRIX",
+              "slug": "sistrix"
+            },
+            {
+              "name": "Ahrefs",
+              "slug": "ahrefs"
+            }
+          ],
+          "why": "AccuLLM sits beside daily rank tracking; SISTRIX adds its Visibility Index; Ahrefs reads brand mentions out of a 450M-prompt index"
+        },
+        {
+          "if": "You run many brands and need per-brand pricing",
+          "then": [
+            {
+              "name": "Trakkr",
+              "slug": "trakkr"
+            }
+          ],
+          "why": "Growth covers one brand at USD 100/mo, Scale packs ten for USD 500/mo"
+        },
+        {
+          "if": "You want the fixes written, not just the gaps measured",
+          "then": [
+            {
+              "name": "Evertune",
+              "slug": "evertune"
+            },
+            {
+              "name": "Writesonic",
+              "slug": "writesonic"
+            },
+            {
+              "name": "Nimt.ai",
+              "slug": "nimt-ai"
+            }
+          ],
+          "why": "Evertune ships 25 AI-optimized articles a month, Writesonic pairs GEO tracking with its AI writer, Nimt's agent rewrites the sources"
+        },
+        {
+          "if": "You are enterprise and want it handled",
+          "then": [
+            {
+              "name": "Profound",
+              "slug": "profound"
+            },
+            {
+              "name": "Adobe LLM Optimizer",
+              "slug": "adobe-llm-optimizer"
+            }
+          ],
+          "why": "Quote-based with onboarding; Adobe routes through Experience Cloud"
+        }
+      ],
+      "groups": [
+        {
+          "label": "GEO-NATIVE PLATFORMS",
+          "slugs": [
+            "profound",
+            "scrunch",
+            "otterlyai",
+            "rankscale",
+            "trakkr",
+            "evertune",
+            "nimt-ai",
+            "writesonic"
+          ]
+        },
+        {
+          "label": "SUITE MODULES & ADD-ONS",
+          "slugs": [
+            "accuranker",
+            "nightwatch",
+            "sistrix",
+            "ahrefs",
+            "adobe-llm-optimizer"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "dashboard-cant-see-ai-search-5-layer-fix",
+          "title": "Your Dashboard Can't See AI Search | Here's the 5-Layer Fix",
+          "note": "The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks"
+        },
+        {
+          "slug": "link-building-wont-get-you-into-ai-answers",
+          "title": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
+          "note": "The off-page playbook that actually moves AI citations"
+        },
+        {
+          "slug": "google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows",
+          "title": "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.",
+          "note": "How two decades of SEO work became raw material for the answer engines"
+        }
+      ]
+    },
+    "tools": [
+      "accuranker",
+      "adobe-llm-optimizer",
+      "ahrefs",
+      "evertune",
+      "nightwatch",
+      "nimt-ai",
+      "otterlyai",
+      "profound",
+      "rankscale",
+      "scrunch",
+      "sistrix",
+      "trakkr",
+      "writesonic"
+    ]
+  },
+  {
     "slug": "workflow-automation",
     "name": "Workflow Automation",
     "description": "No-code/low-code automation platforms and iPaaS",
@@ -788,6 +960,7 @@
       "twenty",
       "umami",
       "wacrm",
+      "warmbly",
       "warpdrive",
       "zapier-gtm-cheat-codes"
     ],

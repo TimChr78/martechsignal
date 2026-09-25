@@ -7978,5 +7978,934 @@
       "not_for": "Teams that need a built-in B2B lead database, or anyone who wants a battle-tested managed sender and does not want to operate Postgres and Redis.",
       "verdict": "The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you."
     }
+  },
+  {
+    "slug": "accuranker",
+    "name": "AccuRanker",
+    "tagline": "Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews",
+    "website": "https://www.accuranker.com",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "AccuRanker is a rank tracking platform from Aarhus, Denmark. It does one job: it tells you where your keywords stand, updated daily, in the locations and languages you track. The feature set is built around that job. Keyword research with search intent, tagging, advanced filtering, SERP analysis, forecasting, and reporting with exports. Search Console and Google Analytics data sit next to position data in the same views. Every current plan includes unlimited users. Plans are metered by keyword count. Professional starts at EUR 224/month for 2,000 keywords, with 3,000 and 5,000 keyword slots on the same tier. Expert runs EUR 764/month and covers 10,000 to 25,000 keywords. Anything above 25,000 keywords is quoted by sales on Enterprise. Annual billing takes 10% off, and a 14-day refund policy applies from purchase. The AI feature is AccuLLM. It tracks brand performance in ChatGPT, Perplexity, AI Overviews and AI Mode: average rank across tracked prompts, total brand mentions, domain citations with the top cited pages, a sentiment score from 1 to 100, suggested prompts to track, and a competitor view across visibility, rank and sentiment. It also reports how often the LLMs run a web search for a tracked prompt, plus your share of total mentions and citations. Share numbers are the ones to watch, since AI answers give a fixed number of slots per response. Expert adds dynamic tagging, Tag Cloud, AI CTR, AI Search Volume and Looker Studio. Enterprise adds Google BigQuery, a write API, raw SERP HTML, unlimited domains and a dedicated CSM. There is also an AccuRanker MCP server for querying data from agents.",
+    "pricing_model": "subscription",
+    "price_from": 224,
+    "price_notes": "Professional EUR 224/mo entry (2,000 keywords; 3,000 and 5,000 slots on the same tier); Expert EUR 764/mo (10,000-25,000 keywords); Enterprise for 25K+ keywords quoted by sales. Annual billing is 10% off. 14-day refund policy.",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "AccuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "Google Analytics",
+      "Google BigQuery",
+      "Google Looker Studio",
+      "AccuRanker API",
+      "AccuRanker MCP"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.accuranker.com/pricing/",
+    "seo_title": "AccuRanker Review: Rank Tracking From EUR 224/mo",
+    "seo_description": "AccuRanker is a daily rank tracker with AccuLLM AI-visibility monitoring in ChatGPT, Perplexity, AI Overviews and AI Mode. Plans start at EUR 224/mo.",
+    "hq": "Aarhus, Denmark",
+    "deep_dive": {
+      "hands_on": [
+        "Using AccuRanker starts with slot planning. Keywords are the billing unit, so the practical question is which terms earn one. Typical setups split between head terms, brand terms, and a competitor monitoring set, then use tagging and advanced filtering to keep client or market reports readable. Daily updates run in every supported country, and data import from other rank trackers shortens migration. A 14-day refund policy from purchase makes the first fortnight a real evaluation window rather than a sunk cost.",
+        "Reporting is where the tiers separate. Professional covers daily updates, keyword research, search intent, tagging, filtering, Search Console and Analytics data, and exports. Expert adds dynamic tagging, a Tag Cloud, AI CTR, AI Search Volume estimates, Looker Studio and an unlimited read API. Enterprise adds BigQuery export, an unlimited write API, raw SERP HTML, unlimited domains and a named CSM. For teams piping rank data into a warehouse, Enterprise is the tier that includes it.",
+        "AccuLLM works like a small rank tracker aimed at LLM answers. You pick prompts to track, with suggestions offered per brand and business area, then read average rank, brand mentions, domain citations, sentiment on a 1 to 100 scale, and competitor benchmarks across visibility, rank and sentiment. Two derived numbers do the heavy lifting. The web search rate shows how often the LLM searched the web before answering, which tells you whether the answer is influenceable at all. Your share of mentions and citations shows whether you are gaining ground on competitors inside a fixed number of answer slots. Coverage is ChatGPT, Perplexity, AI Overviews and AI Mode, and tracked history starts when tracking starts."
+      ],
+      "verdict": "A focused rank tracker with a well-built LLM add-on, priced for teams that already know which keywords matter. Look elsewhere if you want a full SEO suite behind one login.",
+      "best_for": "Agencies and in-house teams that need daily rank data at keyword volumes they can name, and want LLM visibility tracked next to it under one unlimited-user account.",
+      "not_for": "Buyers who want keyword research, backlink data and site audits in the same subscription, or teams with large keyword lists that cannot justify EUR 764/month for 10,000 terms.",
+      "cons": [
+        "Entry price covers 2,000 keywords; the jump to Expert at EUR 764/month is the only route past 5,000.",
+        "AccuLLM covers four AI surfaces (ChatGPT, Perplexity, AI Overviews, AI Mode) and no others as of September 2026.",
+        "The product is rank tracking first; site audit, backlink and content tooling are not part of it."
+      ],
+      "pros_extra": [
+        "Unlimited users on all current plans, so seat count never drives the bill.",
+        "Enterprise adds BigQuery, a write API and raw SERP HTML for teams that warehouse their data.",
+        "A 14-day refund policy and import support from other rank trackers lower the switching risk."
+      ],
+      "faq_extra": [
+        [
+          "How much does AccuRanker cost?",
+          "Professional is listed at EUR 224/month for 2,000 keywords as of September 2026, and the tier also offers 3,000 and 5,000 keyword slots. Expert runs EUR 764/month for 10,000 keywords and scales to 25,000. Above 25,000 keywords is Enterprise, priced by sales. Annual billing takes 10% off, and a 14-day refund policy applies from the initial purchase."
+        ],
+        [
+          "What does AccuLLM track?",
+          "Brand performance in ChatGPT, Perplexity, AI Overviews and AI Mode: average rank across your tracked prompts, total brand mentions, domain citations and the top cited pages, sentiment scored 1 to 100, the web search rate behind each prompt, your share of mentions and citations, and competitor benchmarks across visibility, rank and sentiment."
+        ],
+        [
+          "Do I pay extra for team members?",
+          "No. AccuRanker states that all current plans include unlimited users. Enterprise additionally includes unlimited domains."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "nightwatch",
+    "name": "Nightwatch",
+    "tagline": "Rank tracking across Google and AI answers, priced by keyword with unlimited seats",
+    "website": "https://nightwatch.io",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Nightwatch is a rank tracker that prices by tracked keyword and puts its full toolkit on every plan with unlimited seats. Starter runs EUR 79/month, or EUR 948 billed yearly, for 500 keywords across 5 websites and 5 competitors per site. Professional (EUR 159/month) lifts that to 2,500 keywords and 25 websites. Agency (EUR 399/month) covers 7,500 keywords and 100 websites. Enterprise is custom from 20,000 keywords. Yearly billing is two months free across the board. Search coverage is the wide part: Google, YouTube, Bing, Yahoo, DuckDuckGo and Google Maps, with daily automated updates, real-time on-demand checks, 107,000+ locations across 190+ countries, and full SERP archives kept for three years. The AI side tracks prompts across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews. Each plan meters AI prompts and AI answers per month (1,500 answers on Starter, 15,000 on Agency), with sentiment analysis of how answers describe your brand and citation analysis of which sources they cite. Prompt Research shows which AI prompts your brand already appears in. Six tools ship on every plan, Starter included: Content Studio, Keyword Research, Prompt Research, the SEO MCP server, Site Audit and the Search Simulator. What changes by tier is volume: keyword research runs, SEO Agent credits, and pages per site audit. Looker Studio, white-label reports and API access arrive at Professional, and a dedicated account manager plus priority support at Agency. The SEO MCP server connects Claude, Cursor or ChatGPT to live rankings on any plan. Trials run 14 days without a credit card. The company states SOC 2 compliance, with SSO on Enterprise.",
+    "pricing_model": "subscription",
+    "price_from": 79,
+    "price_notes": "Starter EUR 79/mo (EUR 948 billed yearly), unlimited seats; Professional EUR 159/mo (EUR 1,908 yearly); Agency EUR 399/mo (EUR 4,788 yearly); Enterprise custom from 20,000 keywords. Yearly billing is two months free.",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "Prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis"
+    ],
+    "integrations": [
+      "Google Analytics",
+      "Google Looker Studio",
+      "Nightwatch API",
+      "SEO MCP server (Claude, Cursor, ChatGPT)"
+    ],
+    "api_available": true,
+    "pricing_url": "https://nightwatch.io/pricing/",
+    "seo_title": "Nightwatch Review: Rank & AI Tracking From EUR 79/mo",
+    "seo_description": "Nightwatch tracks Google, YouTube and Bing rankings plus AI answers in ChatGPT, Claude and Gemini. Unlimited seats on every plan, from EUR 79/mo.",
+    "hq": "Slovenj Gradec, Slovenia",
+    "deep_dive": {
+      "hands_on": [
+        "Setup is keyword-first. You add domains, pick locations and languages from a large location list, choose competitors per site, and the daily updates start. On-demand checks cover anything that needs current numbers. Because the billing unit is a tracked keyword and seats are unlimited, the planning question is keyword scope, not team size. That inverts the usual agency math: adding a colleague or a client viewer costs nothing, and a growing keyword list is what moves the bill. The 14-day trial needs no credit card, but it converts to a paid monthly subscription if it is not canceled, with reminder emails sent beforehand.",
+        "The AI tracking works like a prompt-based rank tracker. You define prompts, then Nightwatch collects answers against a monthly allowance: 1,500 on Starter, 4,500 on Professional, 15,000 on Agency. Sentiment analysis scores how positively answers describe the brand, and citation analysis shows which sources the answers lean on. Prompt Research inverts the flow and finds prompts the brand already surfaces in. A practical constraint: heavy prompt tracking on Starter eats the 1,500-answer allowance fast, and brands and URLs are tracked without limits against those answer caps.",
+        "The rest of the toolkit is shared across tiers and metered separately: keyword research runs (100 to 2,500 per month), SEO Agent credits (100 to 5,000), and site audit pages (1,000 to 100,000 per crawl). Reporting is built for client work. White-label reports and Looker Studio land at Professional, and API access arrives at the same tier, with custom rate limits at Agency. Agencies are the design center here: the seat policy, the white-labeling and the SERP API all point that way."
+      ],
+      "verdict": "A rank tracker with real AI-visibility coverage and pricing that does not punish team size. Starter caps will strain busy agencies, but the upgrade ladder is honest about what changes and what does not.",
+      "best_for": "Agencies and growing teams that track keywords across many sites and want Google rank data and AI answer tracking under one seat-free roof.",
+      "not_for": "Solo site owners carrying more than 500 keywords on a tight budget, or teams that need deep backlink and content research rather than tracking.",
+      "cons": [
+        "Starter is tight: 500 keywords, 5 websites and 1,500 AI answers per month.",
+        "Looker Studio, white-label reports and API access only arrive at Professional (EUR 159/month).",
+        "The trial converts to a paid subscription after 14 days unless canceled."
+      ],
+      "pros_extra": [
+        "Every plan, Starter included, ships the same six tools including the SEO MCP server.",
+        "Unlimited seats and unlimited tracked brands and URLs mean the bill follows keywords, not headcount.",
+        "Three years of SERP archives and on-demand checks sit alongside the daily updates."
+      ],
+      "faq_extra": [
+        [
+          "Does Nightwatch charge per user?",
+          "No. The pricing page states that every plan includes unlimited seats and no per-seat fees. You pay for tracked keywords and monthly usage volumes, not team size."
+        ],
+        [
+          "Which AI platforms can be tracked?",
+          "ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews, on every plan. Each plan also caps how many AI prompts you can track and how many AI answers are collected per month."
+        ],
+        [
+          "What happens when the free trial ends?",
+          "The trial runs 14 days with the full toolkit and no credit card required. If it is not canceled within those 14 days, Nightwatch bills a regular monthly subscription and sends reminder emails before the trial ends."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "sistrix",
+    "name": "SISTRIX",
+    "tagline": "German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis",
+    "website": "https://www.sistrix.com",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "SISTRIX is a German SEO suite from SISTRIX GmbH, organized in three modules: Google SEO, Visibility in AI Answers, and Amazon Marketplace. The Google module is built around the SISTRIX Visibility Index, which measures over 100 million domains across 30+ countries, with keyword discovery, domain and competitor analysis, a backlink index that includes Majestic data, and an on-page crawler that handles JavaScript and mobile viewports. The AI module tracks mentions, rankings and citations in AI search engines. The Amazon module covers product research across five countries, brand and retailer analysis, and category share checks. Pricing runs Start at EUR 119/month plus taxes, Plus at EUR 239, Professional at EUR 419, and Premium at EUR 799, all cancelable monthly. Tiers set user accounts (1, 3, 6, 12), projects (3, 15, 40, 100) and data history (3 months, 5 years, then the full 11 years on Professional and up). Extra users cost EUR 24.90 on Plus and above; the Start package cannot add users. Content tools (Content Assistant, Content Planner, Content Discovery, plagiarism checks) begin at Plus. Usage is metered beyond the flat tiers: results per analysis, monthly crawl budgets from 30,000 to 4,000,000 URLs, SERP update credits, content projects, and weekly export and API credits. The API is limited to Visibility Index data on Plus and opens fully on Professional. Alerts arrive by email or Slack. Reports go out as scheduled PDFs, with white-label reports at Professional. Invoices are issued in euros, annual subscriptions reduce the monthly rate, and a 14-day free trial includes personal onboarding.",
+    "pricing_model": "subscription",
+    "price_from": 119,
+    "price_notes": "Start EUR 119/mo plus taxes; Plus EUR 239/mo; Professional EUR 419/mo; Premium EUR 799/mo. Cancelable monthly; annual contracts reduce the monthly rate (no public figure). Extra users EUR 24.90 on Plus and above. 14-day free trial.",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "AI Visibility module: mentions, rankings and citations in AI search engines"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "Google Analytics",
+      "Slack",
+      "SISTRIX API"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.sistrix.com/pricing/",
+    "seo_title": "SISTRIX Review: SEO Suite With AI Visibility",
+    "seo_description": "SISTRIX is a German SEO suite built on the Visibility Index, with AI-answer tracking, Amazon analysis and an API. From EUR 119/mo plus taxes.",
+    "hq": "Germany",
+    "deep_dive": {
+      "hands_on": [
+        "Choosing a package is mostly a question of users, projects and history depth. Start gives one user, three projects and 3 months of data history with 10,000 results per analysis. Plus adds two more users, 15 projects, five years of history and the content tools. Professional opens the full 11-year history, the complete API and telephone support. Premium targets large teams with 12 users, roles and rights management, an audit log and VIP support. Since Start cannot add users later, a team of two already belongs on Plus.",
+        "Daily work centers on projects: on-page crawls against a monthly URL budget (30,000 on Start, 4 million on Premium), keyword tracking with SERP update credits, and Visibility Index analysis for any domain. Everything can be dropped into reports, dashboards and lists, which are metered per tier (3 sets on Start, 500 on Premium) and can be scheduled as daily or weekly PDFs by email. Alerts watch domains for important changes and notify by email or Slack. Export and API credits are counted weekly, 1,000 on Start up to 100,000 on Premium, so bulk data pulls need credit planning.",
+        "The AI Visibility module follows the same logic as the rest of the suite: mentions, rankings and citations in AI search engines, reported next to the classic Visibility Index. Onboarding is heavier than with a point tool. SISTRIX bundles seminars with its packages (one attendee per year on Start, twelve on Premium) and answers support requests during working hours by chat, with phone support at higher tiers. Support is English and German first, and invoices are always in euros."
+      ],
+      "verdict": "The reference tool for German and European search data, now carrying AI-visibility and Amazon modules in the same account. The metering of credits and add-ons rewards planning over impulse use.",
+      "best_for": "Agencies and in-house teams working across German and European search markets who want Visibility Index history, on-page crawling and AI-answer tracking in one subscription.",
+      "not_for": "Buyers who need a self-serve entry tool under EUR 100/month, or teams that dislike credit-based metering stacked on a flat subscription.",
+      "cons": [
+        "Start keeps only 3 months of history and 10,000 results per analysis, and cannot add users later.",
+        "Crawls, SERP updates, content projects and API credits are all metered, with per-unit add-on prices on top of the subscription.",
+        "Listed prices exclude taxes, and outside enterprise agreements invoices are issued in euros only."
+      ],
+      "pros_extra": [
+        "11 years of Visibility Index history on Professional and Premium.",
+        "Alerts by email or Slack, scheduled PDF reports, and white-label reports from Professional.",
+        "Monthly cancelation, with a 14-day free trial that includes personal onboarding."
+      ],
+      "faq_extra": [
+        [
+          "How much does SISTRIX cost?",
+          "Start is EUR 119/month plus taxes, Plus EUR 239, Professional EUR 419 and Premium EUR 799, all cancelable monthly. An annual subscription reduces the monthly rate, but the pricing page publishes no annual figure."
+        ],
+        [
+          "Does SISTRIX track visibility in AI search?",
+          "Yes. The Visibility in AI Answers module measures mentions, rankings and citations across AI search engines and sits in the same account as the Google and Amazon modules."
+        ],
+        [
+          "What does the SISTRIX API include?",
+          "Plus receives limited access covering only Visibility Index data. Professional and Premium open the full API and all features. Export and API credits are metered weekly per tier."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "ahrefs",
+    "name": "Ahrefs",
+    "tagline": "Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit",
+    "website": "https://ahrefs.com",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its AI-visibility product. It answers one question: when AI systems respond to questions in your market, does your brand show up, and do your pages get cited. Two modes cover that question. Custom Prompts tracks the exact buyer questions you define, checked daily, weekly or monthly per platform, and it is included with every paid Ahrefs plan from Lite up. The AI Visibility Index needs no setup: it maps any brand across 450M+ prompts modeled from real queries in the Ahrefs keyword database, with historical responses back to 2025. Four metrics anchor the reporting: mentions (how often the brand name appears in answer text), citations (how often AI links to your pages), AI share of voice against competitors, and estimated impressions weighted by the search demand behind each prompt. The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot; Custom Prompts adds Claude. Question sets are re-tested monthly on a 90-day window, and a search-query mode for AI Overviews and AI Mode tracks the keywords that trigger an AI answer inside Google itself. Brand Radar also follows the offsite sources that feed AI answers: YouTube videos and transcripts, TikTok, and Reddit results in Google. Two free companions, Web Analytics and Bot Analytics, show which pages AI search sends traffic to and when AI crawlers read them. Ahrefs plan pricing sat behind a cookie wall in September 2026 and could not be read, so no plan prices are listed here. The Brand Radar page itself states that Custom Prompts packages start at USD 50/month and the AI Visibility Index at USD 199/month.",
+    "pricing_model": "subscription",
+    "price_from": null,
+    "price_notes": "Plan pricing published at ahrefs.com/pricing; Brand Radar availability varies by plan (Sep 2026)",
+    "currency": null,
+    "open_source": false,
+    "ai_features": [
+      "Brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "Google Looker Studio",
+      "Ahrefs API",
+      "Ahrefs SEO MCP"
+    ],
+    "api_available": true,
+    "pricing_url": "https://ahrefs.com/pricing",
+    "seo_title": "Ahrefs Brand Radar: Track Brand Mentions in AI",
+    "seo_description": "Brand Radar tracks brand mentions and citations across ChatGPT, Perplexity, Gemini and AI Overviews, with 450M+ search-backed prompts behind its index.",
+    "hq": "Singapore",
+    "deep_dive": {
+      "hands_on": [
+        "There are two entry paths, and picking the wrong one wastes budget. Custom Prompts fits brands whose buyers ask narrow questions: you add the exact questions, optionally generate candidates from competitor comparisons and pricing signals Ahrefs collects, tag them by topic or funnel stage, and pick a cadence per platform. Data accumulates from the moment tracking starts. The AI Visibility Index fits market mapping: search any brand or category instantly, read share of voice and citations against competitors, and work back through topics and search demand to the pages AI leans on. The vendor notes the index draws on real search demand, so brands with little search volume may see thin coverage.",
+        "Metering is per check. Each prompt checked daily on one platform costs about one check per day: 5 prompts on 1 platform is 150 checks per month. Claude consumes 8 checks per update, so enabling it drains a budget roughly eight times faster than other surfaces. Paid plans bundle quotas (150 checks and 5 prompts on Lite, up to 600 and 20 on Advanced), larger Custom Prompts packages start at USD 50/month, and the AI Visibility Index starts at USD 199/month with 83 prompts per day, 2,500 checks per month and USD 0.020 per check overage. Those figures come from the Brand Radar page; plan-level pricing sits on a page that could not be read.",
+        "The daily output is trend-shaped rather than action-shaped: mentions, citations, share of voice and estimated impressions over time, plus fanout queries showing what the AI searched behind each prompt. Teams close the loop by matching cited domains and pages to their own content plans. Web Analytics reports AI-referred traffic, and Bot Analytics shows when AI crawlers read pages, both free while the bot side is in beta. Everything ties back to the wider Ahrefs toolkit (Site Explorer, Keywords Explorer, GSC Insights), so the practical cost question is whether the team is already inside Ahrefs."
+      ],
+      "verdict": "Brand Radar is the most data-backed AI-visibility tracker available, with indexes built from real search demand rather than synthetic prompts. Pricing opacity and its ties to the wider Ahrefs platform make it a natural add-on for existing customers first.",
+      "best_for": "Teams already paying for Ahrefs who want brand mentions, citations and share of voice across AI answers next to their SEO data, and market mappers benchmarking whole categories.",
+      "not_for": "Buyers who want a standalone, transparently priced AI-monitoring tool, or very new brands with little search demand, where the index can return thin coverage.",
+      "cons": [
+        "Ahrefs' plan pricing page would not load past its cookie wall in September 2026, so costs cannot be verified beyond the Brand Radar page's own figures.",
+        "Index coverage leans on search demand, which the vendor itself says can limit results for brands with little or no search volume.",
+        "Claude checks consume 8 checks per update, so prompt budgets run down fast with Claude enabled."
+      ],
+      "pros_extra": [
+        "Every paid plan from Lite up bundles a Custom Prompts quota, so light tracking costs nothing extra.",
+        "The AI Visibility Index needs no setup and reaches back to 2025 for any brand or category.",
+        "Metrics map to real search demand, so mentions and citations can be traced back to keywords and topics."
+      ],
+      "faq_extra": [
+        [
+          "What does Ahrefs Brand Radar cost?",
+          "Plan pricing lives at ahrefs.com/pricing, which was unreadable behind a cookie wall in September 2026. The Brand Radar page lists Custom Prompts as starting at USD 50/month and the AI Visibility Index at USD 199/month, and every paid plan from Lite up includes a daily prompt quota (5 prompts and 150 checks per month on Lite)."
+        ],
+        [
+          "How is AI visibility measured?",
+          "Brand Radar runs 450M+ search-backed prompts through AI platforms and stores the responses. Visibility is scored on mentions, citations, AI share of voice against competitors, and estimated impressions weighted by the search volume behind each prompt."
+        ],
+        [
+          "Which AI platforms are covered?",
+          "The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot. Custom Prompts adds Claude. YouTube, TikTok and Reddit visibility are included free while in beta."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "profound",
+    "name": "Profound",
+    "tagline": "Enterprise AI marketing platform: answer-engine visibility plus drafting agents",
+    "website": "https://www.tryprofound.com/",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. It started as an AI search visibility tool and now sells an AI Marketer: agents that draft content, social posts, PR corrections and sponsored answer campaigns from your brand's prompt and citation data. The monitoring half runs structured prompts across answer engines and records where your brand appears, which sources get cited, sentiment and competitor presence. The action half rewrites pages losing citations, builds pages for questions you have no answer for, and stages everything in your CMS as drafts for approval. A Context Manager stores brand knowledge so agents write from your positioning rather than generic model output. On the measurement side you also get Prompt Volumes (what users ask AI), Shopping tracking, and Agent Analytics for AI-sourced traffic across your domains.\n\nPricing is quote-based. A free trial runs 50 prompts daily for seven days on ChatGPT, Gemini and Google AI Overviews, and trial prompts cannot be customized. Enterprise is tailored: up to nine answer engines (ChatGPT, Perplexity, Google AI Mode, Gemini, Microsoft Copilot, DeepSeek, Claude, Google AI Overviews, Exa), custom prompt sets, unlimited history, CSV and JSON exports, an API, and SSO/SAML with SOC 2 compliance. The company raised a $180M Series D and lists open roles in New York, London, San Francisco, Boston and Singapore.\n\nThe buying question is scope. If you want a visibility dashboard, Profound now ships a marketing workbench with agents attached, priced for enterprise budgets. Teams that only need prompt tracking should compare the cheaper monitors in this category.",
+    "pricing_model": "enterprise",
+    "price_from": null,
+    "price_notes": "Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews.",
+    "currency": null,
+    "open_source": false,
+    "ai_features": [
+      "Answer-engine visibility tracking across up to 9 engines",
+      "Prompt Volumes demand data for AI queries",
+      "AI Marketer agents that draft content and campaigns",
+      "Agent Analytics for AI-sourced traffic",
+      "ChatGPT Shopping visibility tracking"
+    ],
+    "integrations": [
+      "Google Analytics",
+      "Google Cloud Platform",
+      "Amazon Web Services",
+      "Cloudflare",
+      "Akamai",
+      "WordPress"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.tryprofound.com/pricing",
+    "seo_title": "Profound Review: AI Marketing Platform | MartechSignal",
+    "seo_description": "Profound: enterprise AI marketing platform pairing answer-engine monitoring with drafting agents. Quote-based pricing. Compare features and top alternatives.",
+    "hq": "New York, USA",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Profound's own site and pricing pages in September 2026. We have not run the platform. Using it starts with a demo for enterprise pricing, then a workspace where the AI Marketer holds your Context Manager (positioning, product knowledge, brand guidelines) and agents handle recurring marketing work. The visibility side runs structured prompts daily across answer engines and reports citations, sentiment, rank and competitor presence. The action side is where the product parts ways with a plain monitoring tool. Agents rewrite pages with citation decay, build pages for unanswered questions, draft social posts and PR correction outreach, and stage sponsored answer campaigns for high-volume prompts where you never appear. Everything lands as drafts for human approval, and staging in your CMS is part of the workflow.",
+        "The trial is deliberately narrow: 50 prompts daily for seven days, fixed to ChatGPT, Gemini and Google AI Overviews, with a recommended prompt set you cannot customize. History is empty, and there are no exports or API on trial, so you cannot audit the data before buying. Worth knowing before you book the demo.",
+        "Enterprise covers up to nine engines including Perplexity, Claude, Copilot, DeepSeek, Google AI Mode and Exa, with custom prompt sets, all-time history, CSV and JSON exports, an API, and SSO/SAML plus SOC 2. Agent Analytics plugs into CDNs and clouds (Akamai, Cloudflare, Fastly, AWS, GCP, Netlify, Vercel) and Google Analytics to attribute AI-sourced traffic, which is the piece that answers whether any of this moved traffic. The operational question is review load. The pitch is that Profound finds the work, drafts it and pings you for approval. That pays off only if your team has bandwidth to review staged pages, ad copy and reporter emails every week."
+      ],
+      "verdict": "Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.",
+      "best_for": "Enterprise marketing teams that want AI visibility measurement and the drafting work that follows it in one platform. Also fits AEO, content and PR teams sharing the same prompt and citation data.",
+      "not_for": "Solo marketers or small teams that want public pricing, a self-serve plan, or a pure tracking dashboard. The trial is too short and too locked down to evaluate the data pipeline on its own.",
+      "cons": [
+        "No public pricing, and no exports or API on the trial, so you cannot audit data before a sales process",
+        "Trial prompts are fixed to a recommended set on three engines for seven days",
+        "The platform now bundles content, social and ad drafting agents, which is more surface area than a pure visibility tracker"
+      ],
+      "pros_extra": [
+        "Enterprise spans nine answer engines including Exa and DeepSeek, with all-time history and CSV/JSON exports",
+        "Agent Analytics ties CDN and cloud logs plus Google Analytics to AI-sourced traffic",
+        "SSO/SAML and SOC 2 compliance come with Enterprise"
+      ],
+      "faq_extra": [
+        [
+          "Is this the same company as profound.ai?",
+          "No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name."
+        ],
+        [
+          "How much does Profound cost?",
+          "Pricing is quote-based, sold as tailored Enterprise packages. A free trial runs 50 prompts daily for seven days on ChatGPT, Gemini and Google AI Overviews."
+        ],
+        [
+          "Can I customize the prompts Profound tracks?",
+          "Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts."
+        ],
+        [
+          "Does Profound only measure AI visibility?",
+          "No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "scrunch",
+    "name": "Scrunch",
+    "tagline": "The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents",
+    "website": "https://scrunch.com/",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Scrunch sells itself as the AI Customer Experience Platform. The product watches how AI agents and answer engines talk about your brand, then helps you fix what they find. Its Agent Experience Platform (AXP) serves optimized content to AI agents through Agent Pages, and the site diagnostics half audits how readable your site is to crawlers and agents. Monitoring and Citations tracks brand presence across ChatGPT, Perplexity, Google AI Overviews and Copilot on the Core plan, with sentiment, citations, funnel stage tagging and limited query fan-out. Insights turns gaps into recommendations, Shopping reports performance at the product level, and Agent Traffic shows which AI agents hit your site.\n\nCore costs $250 per month: 125 unique prompts, five site audits a month, one brand workspace, five user licenses, one country and five competitors. Enterprise is custom and covers nine models (adding Claude, Gemini, Meta AI, Google AI Mode and Grok), full site audits, AXP, API and MCP access, Looker Studio, SAML/OIDC SSO and a dedicated account team. A seven-day free trial runs Core, and a free AI visibility audit of any site returns in about 30 seconds with no credit card.\n\nThe company began building in 2023, left stealth in 2024 with $4M led by Mayfield, raised a $15M Series A in 2025 ($26M total), and was acquired by Sitecore in 2026. That ownership change matters for enterprise buyers weighing roadmap control.\n\nScrunch fits brands that want monitoring plus a way to change what agents see. If you only need prompt tracking, Core's $250 entry sits above several rivals in this directory.",
+    "pricing_model": "paid",
+    "price_from": 250,
+    "price_notes": "Core $250/mo (125 unique prompts, 5 site audits/mo, 1 brand workspace, 5 users, 4 LLMs). Enterprise custom (9 LLMs, AXP, API/MCP, Looker Studio, SSO). 7-day free trial on Core. Verified on scrunch.com/pricing Sep 2026.",
+    "currency": "USD",
+    "open_source": false,
+    "ai_features": [
+      "Brand monitoring and citation tracking across 4 to 9 LLMs",
+      "Agent Pages serving token-optimized content to AI agents",
+      "Site diagnostics for agent and crawler readability",
+      "Sentiment analysis and query fan-out tracking",
+      "AI agent traffic and crawler analytics"
+    ],
+    "integrations": [
+      "Google Looker Studio",
+      "MCP",
+      "Query API",
+      "CLI"
+    ],
+    "api_available": true,
+    "pricing_url": "https://scrunch.com/pricing/",
+    "seo_title": "Scrunch Review: AI Customer Experience | MartechSignal",
+    "seo_description": "Scrunch: AI search monitoring, citations and Agent Pages for AI agents. Core is $250/mo, Enterprise custom. Compare features, pricing and top alternatives.",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Scrunch's live site and pricing pages in September 2026. We have not run a workspace. Getting started is a free AI visibility audit of your site in about 30 seconds, then a seven-day Core trial. Core gives you 125 unique prompts across four models (ChatGPT, Perplexity, Google AI Overviews, Copilot), five site audits a month over a 25-page sitemap, five competitors, one country and one persona, plus sentiment, citations, funnel stage tagging and a little query fan-out. One page optimization a month and basic content generation sit under Optimize, so Core is mostly a measurement plan with a small fix budget.",
+        "The interesting product is AXP. Scrunch's pitch is that AI agents, not people, now read your site first. The demo on their homepage shows a page served to agents with a claimed 98.9 percent token reduction while humans see the normal version. Agent Pages deliver that optimized content, Agent Traffic shows which crawlers and agents hit you, and Site Diagnostics reports what agents cannot parse. All of it gates behind Enterprise, along with nine models instead of four, full site audits, custom prompts and workspaces, Looker Studio, Query API, MCP and SAML/OIDC SSO.",
+        "So the split is plain: $250 per month buys monitoring and benchmarks, and the agent-facing delivery layer needs a custom contract. That matters because the AXP story is the reason to pick Scrunch over a plain visibility tracker. Ownership is part of the evaluation too. Sitecore acquired Scrunch in 2026 after $26M in funding, so enterprise buyers get a larger parent's commercial terms and roadmap, while Core buyers get five seats, email support and self-serve onboarding."
+      ],
+      "verdict": "Scrunch pairs AI visibility monitoring with the ability to change what agents see, and that second half is the reason to shortlist it. Core at $250 per month is a monitoring plan; the AXP delivery layer needs an Enterprise contract. The 2026 Sitecore acquisition belongs in any long-term commitment discussion.",
+      "best_for": "Brands that want both measurement and control over what AI agents read on their site, and enterprise teams that can negotiate an AXP contract. Also fits teams benchmarking AI presence before a redesign.",
+      "not_for": "Buyers who want the agent-optimization layer at self-serve prices, since AXP is Enterprise-only. Teams wanting the cheapest prompt tracker will find Core's $250 entry high for four models and 125 prompts.",
+      "cons": [
+        "AXP, the agent-facing delivery layer that defines the product, is Enterprise-only",
+        "Core caps at four LLMs, one country, one persona, 25 sitemap pages and one page optimization a month",
+        "The 2026 Sitecore acquisition changes who controls roadmap and contracts"
+      ],
+      "pros_extra": [
+        "Monitoring, site diagnostics and agent-facing content delivery sit in one platform",
+        "A free 30-second AI visibility audit needs no credit card, and the trial runs seven days",
+        "Core includes five user licenses and email support with self-serve onboarding"
+      ],
+      "faq_extra": [
+        [
+          "How much does Scrunch cost?",
+          "Core is $250 per month with 125 unique prompts, five site audits a month, one brand workspace and five user licenses. Enterprise pricing is custom."
+        ],
+        [
+          "What is Scrunch AXP?",
+          "The Agent Experience Platform. It serves token-optimized content to AI agents through Agent Pages, shows agent traffic, and runs site diagnostics for agent readability. It is an Enterprise feature."
+        ],
+        [
+          "Who owns Scrunch?",
+          "Sitecore acquired Scrunch in 2026. Before that the company raised $26M: a $4M round in 2024 led by Mayfield and a $15M Series A in 2025 led by Decibel."
+        ],
+        [
+          "Which AI models does Scrunch track?",
+          "Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise adds Claude, Gemini, Meta AI, Google AI Mode and Grok."
+        ]
+      ]
+    },
+    "founded": 2023
+  },
+  {
+    "slug": "otterlyai",
+    "name": "OtterlyAI",
+    "tagline": "AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews",
+    "website": "https://otterly.ai/",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. Every plan includes daily tracking, unlimited team members, ChatGPT ads tracking, multi-country coverage in 50-plus markets, prompt research, a brand visibility index, domain ranking, link citation analysis and GEO audits. Reports cover brand coverage over time, average brand position and competitor mentions.\n\nPricing starts at EUR 29 per month for Lite with 15 search prompts and 1,000 GEO audits a month. Standard is EUR 189 with 100 prompts, unlimited workspaces, API and MCP access (2,000 requests each per month), Agent Analytics and a Looker Studio connector; packs of 100 extra prompts cost EUR 99. Premium is EUR 489 with 400 prompts and 10,000 GEO URL audits. Enterprise is custom from 1,000 prompts, with SSO and a quarterly GEO health check. Annual billing takes 15 percent off (EUR 25 / 160 / 422), and a 14-day trial needs no credit card.\n\nThe company is OtterlyAI GmbH in Persenbeug, Austria, founded by Thomas Peham, Josef Trauner and Klaus-M. Schremser. The product launched in October 2024, and Gartner named it a 2025 Cool Vendor for AI in Marketing.\n\nOtterlyAI is the entry-priced option in this batch: solo marketers can start at EUR 29 where rivals open at EUR 79 or USD 100 and up. The trade-off is that four engines come standard and the newer engines cost extra, so cross-engine coverage adds up.",
+    "pricing_model": "paid",
+    "price_from": 29,
+    "price_notes": "Lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026.",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "Daily brand mention and citation tracking",
+      "AI prompt research tool",
+      "Brand visibility index and domain ranking",
+      "GEO audits with recommendations",
+      "ChatGPT ads tracking"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Google AI Overviews",
+      "Perplexity",
+      "Microsoft Copilot",
+      "Google Looker Studio",
+      "MCP"
+    ],
+    "api_available": true,
+    "pricing_url": "https://otterly.ai/pricing",
+    "seo_title": "OtterlyAI Review: AI Search Monitoring | MartechSignal",
+    "seo_description": "OtterlyAI: AI search monitoring from EUR 29/mo. Track brand mentions and citations on ChatGPT, Perplexity, AI Overviews and Copilot. Compare top alternatives.",
+    "hq": "Persenbeug, Austria",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from OtterlyAI's site and pricing pages in September 2026. We have not run the tool. Signing up starts a 14-day trial with no credit card, and the dashboard is built around brand reports: coverage over time, brand mentions, average brand position and competitor comparison, filtered by tag (branded, non-branded, funnel stage), engine and country. Tracking runs daily on four base engines (ChatGPT, Google AI Overviews, Perplexity, Copilot) and Claude, Google AI Mode and Gemini are paid add-ons, so the engine count in your reports depends on what you bolt on.",
+        "Plan math is the main decision. Lite at EUR 29 covers 15 prompts, one workspace, three recommendations a week and 1,000 GEO audits a month. Standard at EUR 189 adds 100 prompts, unlimited workspaces and recommendations, 5,000 GEO URL audits, a Looker Studio connector, and 2,000 API plus 2,000 MCP requests a month. Packs of 100 extra prompts cost EUR 99. Premium at EUR 489 covers 400 prompts and 10,000 audits. Team seats are unlimited on every plan, which is unusual at this price and suits agencies that would otherwise pay per seat elsewhere.",
+        "Every plan carries the same analysis stack: prompt research, brand visibility index, domain ranking, link citation analysis, GEO audits with reports and export, multi-country support in 50-plus markets, and ChatGPT ads tracking. What changes between tiers is volume, API and MCP quotas, and workspaces, not features. Caveats from the pricing page itself: four engines come standard, so full seven-engine coverage costs extra on any tier, and the API access agencies usually want for client reporting starts at Standard, not Lite."
+      ],
+      "verdict": "OtterlyAI is the budget-friendly monitor in this batch, starting at EUR 29 per month with unlimited seats and daily tracking. It does measurement and GEO audits well and leaves content production to other tools. Watch the engine add-ons, since full seven-engine coverage costs more than the headline price.",
+      "best_for": "Solo marketers, small teams and agencies that want affordable daily AI search monitoring with unlimited seats, plus a public API for client reporting from the Standard tier up.",
+      "not_for": "Teams that need all seven tracked engines on the entry plan, or anyone looking for content generation or page optimization. Lite users who want automation will hit the API and MCP gate quickly.",
+      "cons": [
+        "Only four engines come standard; Claude, Google AI Mode and Gemini are paid add-ons",
+        "Lite caps at 15 prompts, one workspace and three recommendations a week",
+        "API and MCP access (2,000 requests per month each) start at Standard, so Lite is dashboard-only"
+      ],
+      "pros_extra": [
+        "EUR 29 per month is the lowest paid entry price among the platforms in this batch",
+        "Unlimited team members on every plan, which suits agencies",
+        "Public API docs at docs.otterly.ai, Looker Studio connector and 50-plus country coverage from Standard up"
+      ],
+      "faq_extra": [
+        [
+          "Is OtterlyAI the same as Otter.ai?",
+          "No. Otter.ai is a meeting transcription product. OtterlyAI (otterly.ai) is an AI search monitoring platform run by OtterlyAI GmbH in Austria."
+        ],
+        [
+          "How much does OtterlyAI cost?",
+          "Lite is EUR 29 per month with 15 search prompts, Standard EUR 189 with 100 prompts, Premium EUR 489 with 400 prompts. Extra 100-prompt packs cost EUR 99 and annual billing takes 15 percent off."
+        ],
+        [
+          "Which AI engines does OtterlyAI track?",
+          "ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot come standard. Claude, Google AI Mode and Gemini are paid add-ons."
+        ],
+        [
+          "Does OtterlyAI have an API?",
+          "Yes. Standard and above include API and MCP access (2,000 requests per month each on Standard, 5,000 on Premium), documented at docs.otterly.ai."
+        ]
+      ]
+    },
+    "founded": 2024
+  },
+  {
+    "slug": "rankscale",
+    "name": "Rankscale",
+    "tagline": "AI visibility tracking across 17+ answer engines for agencies and enterprise teams",
+    "website": "https://rankscale.ai/",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Rankscale is a Vienna-built AI visibility platform for agencies and enterprise teams. It tracks brand mentions, rankings, citations and sentiment across 17-plus answer engines, including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell. The feature set covers competitor analysis, sources box inspection, shopping and ad tracking in ChatGPT, Google AI Mode and Copilot, query fan-out (the internal searches engines run before answering), page audits with AI-readiness scoring, and prompt research that estimates demand through semantic reconstruction.\n\nMonitoring runs on credits. Each query to an AI engine costs a fraction of a credit, typically 0.25. Essentials starts at $20 per month. Pro is EUR 99 with 1,200 credits (up to 4,800 tracked answers), 10 brand dashboards and 50 page audits, and a seven-day trial. Growth is EUR 385 with 5,500 credits, 50 dashboards, 200 audits, white-label options, a REST API and agency benefits. Enterprise is EUR 780 with 12,000 credits and 100 dashboards. Yearly billing saves 15 percent, and unused credits roll over to a cap of two to three times the monthly allocation.\n\nRankscale GmbH says 1,000-plus active users and lists Bosch, UBS and Cartier on its customer wall. GA4 and Search Console connectors are beta.\n\nTwo honest caveats: credits make monthly cost harder to predict than fixed prompt caps, and features like Scout recommendations and the GA4 tie-in are marked beta. For agencies that want one price for every engine and Looker Studio exports, the credit model is the main thing to size before committing.",
+    "pricing_model": "paid",
+    "price_from": 99,
+    "price_notes": "Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026.",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "Visibility, citation and sentiment tracking across 17+ engines",
+      "Query fan-out retrieval insights",
+      "AI page audits with readiness scoring",
+      "Prompt volume estimation via semantic reconstruction",
+      "Shopping and ad share-of-voice tracking"
+    ],
+    "integrations": [
+      "Google Analytics 4",
+      "Google Search Console",
+      "Google Looker Studio",
+      "REST API",
+      "MCP"
+    ],
+    "api_available": true,
+    "pricing_url": "https://rankscale.ai/pricing",
+    "seo_title": "Rankscale Review: AI Visibility Platform | MartechSignal",
+    "seo_description": "Rankscale: AI visibility tracking across 17+ engines, credit-based from a lower Essentials tier. Query fan-out, page audits and Looker Studio. Compare top alternatives.",
+    "hq": "Vienna, Austria",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Rankscale's live site and pricing pages in September 2026. We have not run the platform. The workflow is credit-based: you create unlimited search terms, choose engines and regions per term, and pick a schedule from hourly to monthly. Each query to an AI engine burns a fraction of a credit (typically 0.25), so the plan credit pool, not a prompt cap, sets your tracking volume. Pro's 1,200 credits translate to up to 4,800 tracked answers per month, Growth's 5,500 to about 22,000, Enterprise's 12,000 to about 48,000. Unused credits roll over (2x on Pro, 3x on Growth and Enterprise) and you can top up mid-cycle.",
+        "That model rewards steady cadence over burst tracking. Run hourly checks on many prompts and credits disappear fast. Run daily checks on a focused prompt set and the same pool covers a lot. The credit calculator on their pricing page exists for that reason.",
+        "Beyond tracking, the platform covers competitor benchmarking, citation and sources-box analysis, sentiment by brand, topic and model, shopping cards in ChatGPT, Google AI Mode and Copilot, ad share of voice, and page audits with AI-readiness scoring (50 audits on Pro, 200 on Growth and Enterprise). Query fan-out shows the internal searches engines run before answering, and it ships on every plan. Prompt research estimates demand through semantic reconstruction rather than a panel number, with 10 free lookups a month on Growth. Two things to check in a trial: the Scout recommendations engine and the GA4/Search Console connectors are both labeled beta. REST API and white-label options gate at Growth (EUR 385), so agencies that need data exports land there, not Pro."
+      ],
+      "verdict": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.",
+      "best_for": "Agencies and multi-brand teams that want every major answer engine on one plan without per-engine upsells, plus exports and white-label reporting. Also fits teams that want research features like query fan-out alongside tracking.",
+      "not_for": "Buyers who want fixed, predictable monthly costs, since tracking volume depends on credit burn and engine mix. Teams needing GA4 or Search Console tie-ins today, since those connectors are beta.",
+      "cons": [
+        "Credit burn varies with engine mix and cadence, so monthly cost is less predictable than fixed prompt caps",
+        "Scout recommendations and the GA4/Search Console connectors are marked beta",
+        "REST API and white-label options gate at Growth (EUR 385 per month)"
+      ],
+      "pros_extra": [
+        "All 17-plus engines are included on every plan with no per-engine upsell",
+        "Unused credits roll over between cycles (up to 2x on Pro, 3x on Growth and Enterprise)",
+        "Query fan-out and page audits are included even on lower tiers"
+      ],
+      "faq_extra": [
+        [
+          "How does Rankscale pricing work?",
+          "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20."
+        ],
+        [
+          "Which AI engines does Rankscale cover?",
+          "17-plus engines including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell."
+        ],
+        [
+          "Is there a free trial?",
+          "Pro includes a seven-day trial with no charge until day seven. Yearly billing saves 15 percent and unused credits roll over."
+        ],
+        [
+          "Where is Rankscale based?",
+          "Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "trakkr",
+    "name": "Trakkr",
+    "tagline": "AI visibility platform for brands and agencies: citations, perception, competitors",
+    "website": "https://trakkr.ai/",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Trakkr is a London-made AI visibility platform for brands and agencies. It tracks where AI recommends you across eight models (ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek), then explains why and suggests fixes. The product splits into Citations (what AI reads about you, with crawler analytics and a live feed of prompts citing your domain), Perception (how AI understands your brand), Competitors (rankings and share of voice), Automations and an Agent that ranks suggested actions by expected impact. Free tools include an AI Query Scanner, an AI Site Grader, an llms.txt generator and a public visibility leaderboard.\n\nPricing is public, which is unusual in this batch. Growth is $100 per month per brand: daily tracking, 50 prompts per brand, all eight models, 25 articles a month and three seats, or $1,000 billed annually. Scale is $500 per month for 10 brands with 100 articles a month, API access and client portals, or $5,000 annually. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. The 14-day trial runs Growth and converts at $100 per month unless you cancel.\n\nTrakkr was founded by Mack Grenfell, who also founded Byword. Integrations run wide: Zapier, Slack, Google Sheets, Make, webhooks, Discord, Linear, Notion, WordPress, Shopify, Webflow, HubSpot and Airtable, plus a REST API and an MCP server for Claude, ChatGPT and Cursor.\n\nPer-brand pricing makes it cheap to start and costly to fan out. A 20-brand portfolio needs a custom quote rather than two Scale plans.",
+    "pricing_model": "paid",
+    "price_from": 100,
+    "price_notes": "Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public).",
+    "currency": "USD",
+    "open_source": false,
+    "ai_features": [
+      "Citation and AI crawler analytics",
+      "Perception analysis of how AI describes your brand",
+      "Competitor visibility rankings",
+      "Action recommendations ranked by expected impact",
+      "AI-written articles bundled with tracking"
+    ],
+    "integrations": [
+      "Zapier",
+      "Slack",
+      "Google Sheets",
+      "Notion",
+      "HubSpot",
+      "WordPress"
+    ],
+    "api_available": true,
+    "pricing_url": "https://trakkr.ai/pricing",
+    "seo_title": "Trakkr Review: AI Visibility for Brands | MartechSignal",
+    "seo_description": "Trakkr: AI visibility for brands and agencies. Citations, perception and competitor tracking across 8 models from $100/mo. Compare top alternatives.",
+    "hq": "London, UK",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Trakkr's site, pricing page and docs index in September 2026. We have not run the platform. The dashboard answers three questions in order: where AI recommends you (visibility score and rankings against competitors), why (perception and citation analysis, including which pages AI reads and crawler analytics for the bots hitting your site), and what to do (an action list where each item carries an expected impact score, ranked by ROI). The live conversation feed shows prompts citing your domain as they happen, which is the closest thing in this batch to watching AI search work in real time.",
+        "Onboarding is a domain field and a 14-day trial that runs the Growth plan. Growth is $100 per month for one brand with daily tracking, 50 prompts per brand and all eight models. There is an unusual addition: 25 AI-written articles per month are included (100 on Scale), so the subscription bundles content production with measurement. Trakkr also publishes free tools (AI Query Scanner, AI Site Grader, llms.txt generator) and live benchmarks (visibility leaderboard, AI traffic index), which is how most people will first touch the product.",
+        "Scale at $500 per month covers 10 brands with API access and client portals, which is where agencies land. Enterprise starts at $1,000 per month billed annually with unlimited brands and prompts, SSO and a security review. Three things to know before you start: pricing is per brand, so a portfolio of 20 brands needs a custom quote rather than two Scale plans; the prompt cap is fixed at 50 per brand with custom volume handled in Enterprise; and the trial auto-converts to the $100 Growth plan after 14 days unless you cancel."
+      ],
+      "verdict": "Trakkr is the transparent option in this batch: public per-brand pricing, eight models on every plan, and an action list that ranks fixes by expected impact. It bundles content articles with tracking, which suits teams that want measurement and output on one bill. Multi-brand portfolios should model the per-brand cost before scaling.",
+      "best_for": "Brands and agencies that want public pricing, daily tracking across eight AI models and a prioritized action list. Also fits teams that want some AI-written content bundled with their visibility data.",
+      "not_for": "Companies with many brands on tight budgets, since pricing is per brand and the 50-prompt cap per brand does not stretch. Teams needing unlimited prompts without an Enterprise contract.",
+      "cons": [
+        "Pricing is per brand, so costs scale linearly with a multi-brand portfolio",
+        "The prompt cap is fixed at 50 per brand; custom volume needs Enterprise",
+        "The 14-day trial auto-converts to the $100 per month Growth plan unless you cancel"
+      ],
+      "pros_extra": [
+        "Public pricing and a self-serve trial, no demo required",
+        "13 integrations including Zapier, Slack, Sheets, Notion, HubSpot and WordPress, plus REST API and MCP",
+        "Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying"
+      ],
+      "faq_extra": [
+        [
+          "How much does Trakkr cost?",
+          "Growth is $100 per month for one brand (50 prompts per brand, 8 models, 3 seats), Scale $500 per month for 10 brands, and Enterprise starts at $1,000 per month billed annually. Annual billing is $1,000 and $5,000 for Growth and Scale."
+        ],
+        [
+          "What does Trakkr track?",
+          "Citations (what AI reads about you), Perception (how AI describes your brand) and Competitors (rankings and share of voice) across ChatGPT, Perplexity, Claude, Gemini, Google, Grok, Meta AI and DeepSeek."
+        ],
+        [
+          "Does Trakkr produce content?",
+          "Growth includes 25 AI-written articles per month and Scale includes 100, alongside tracking. Trakkr also publishes free tools such as an llms.txt generator and an AI site grader."
+        ],
+        [
+          "Is Trakkr pricing public?",
+          "Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; custom volume, SSO and security review requirements go to Enterprise."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "evertune",
+    "name": "Evertune",
+    "tagline": "GEO visibility measurement with content activation and a ChatGPT Ad Agent",
+    "website": "https://www.evertune.ai",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Evertune is a marketing platform for brand discovery in AI search. It was founded in 2024 by early team members of The Trade Desk and is headquartered in New York City. The product runs in four steps. Explore uses a Prompt Agent to build your tracking strategy from EverPanel, the company's consumer panel of 150 million real user prompts. Measure samples each prompt up to 100 times per model and benchmarks your brand against every competitor in the category across 11 AI models. Act turns visibility gaps into work. An Insights and Action Agent prioritizes the moves, Content Studio writes AI-optimized articles, a site audit checks AI crawler access, and Partner Connect places your brand on third-party sources that AI models already cite. Advertise covers the paid side. The Ads Agent buys ChatGPT ads in the conversations where you are missing and retargets users after they leave the AI chat. Measurement mixes two data sources: direct API calls that show how base models perceive your brand before any live search, and consumer app data that shows what live search returns. The gap between them reveals how far your SEO actually moves the answers.\n\nPricing has two tiers. Pro costs $800 per month and includes 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles per month, three onboarding sessions, affiliate advertising partnerships, and AI retargeting. Enterprise pricing is custom and adds a dedicated AI Success Manager, customized onboarding, unlimited content generation, AI website optimization, AI bot analytics for your domain, and SSO. Both tiers are sold through a demo. In September 2026 Forrester named Evertune a Notable Vendor in its Q3 2026 answer engine optimization technologies report.",
+    "pricing_model": "paid",
+    "price_from": 800,
+    "price_notes": "Pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026).",
+    "currency": "USD",
+    "open_source": false,
+    "ai_features": [
+      "Each prompt sampled up to 100x per model",
+      "EverPanel consumer panel of 150M real user prompts",
+      "Insights and Action Agent that prioritizes visibility fixes",
+      "Content Studio for AI-optimized articles",
+      "Ads Agent for ChatGPT ads and AI retargeting"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Google AI Overviews"
+    ],
+    "api_available": false,
+    "pricing_url": "https://www.evertune.ai/pricing",
+    "seo_title": "Evertune Review: GEO + AI Ad Agent | MartechSignal",
+    "seo_description": "Evertune measures AI visibility across 11 models, writes AI-optimized articles, and runs ChatGPT ads. Pro from $800/mo. Pricing, features, alternatives.",
+    "hq": "New York, NY, USA",
+    "founded": 2024,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Evertune's site, pricing page, company overview, and help center in September 2026. We have not run the platform against a live brand.",
+        "Getting started is a sales process, not a signup. Pro includes three dedicated onboarding sessions, and Enterprise replaces those with customized onboarding plus a dedicated AI Success Manager. After that the work follows the site's four steps. The Prompt Agent proposes the prompts to track, drawing on topics from EverPanel, so the prompt set comes from observed consumer behavior instead of a brainstormed keyword list. You pick tracking frequency (daily, weekly, or monthly) and measurement runs each prompt up to 100 times per model. The dashboard reports a visibility score per model with competitor benchmarks and movement over time, along with sentiment and word association, source and citation analysis, and bot analysis of who crawls your domain.",
+        "The Act step is where the subscription turns into output. Pro caps you at 25 AI-optimized articles per month; Enterprise is unlimited. Content Studio writes them, the site audit flags blocked AI crawlers, and Partner Connect brokers placements on sources the models already cite. The Advertise step is the unusual part of this category. The Ads Agent sets up ChatGPT campaigns targeting conversations where your visibility is low, then retargets people after they exit the chat. The pricing page folds affiliate advertising partnerships and AI retargeting into Pro, but it does not say how media spend is billed on top of the subscription, so ask in the demo.",
+        "Two things separate this from single-sample trackers. Sampling 100 times per prompt gives scores with error bars rather than one lucky answer. The split between base model knowledge and live search responses shows whether your content is actually reaching the models. For teams that want GEO measurement tied to content and paid activation from one contract, that combination is rare at $800 per month."
+      ],
+      "verdict": "Evertune is one of the few GEO platforms that goes from measurement to media: it samples prompts across 11 AI models, writes content for the gaps, and buys ChatGPT ads where you are still missing. The Pro plan at $800 per month folds 25 AI-optimized articles into the subscription, so activation is not a separate purchase. Judge it as a GEO plus advertising platform, not a plain visibility dashboard.",
+      "best_for": "Mid-market and enterprise brands that want AI visibility measurement tied to content activation and paid AI inventory from a single vendor. Teams that prefer a prompt strategy built from consumer panel data rather than guessed keywords.",
+      "not_for": "Anyone who wants a cheap or self-serve visibility tracker; the entry plan is $800 per month and every plan is sold through a demo. Teams that need a public API or a self-hosted option, neither of which Evertune documents.",
+      "cons": [
+        "$800 per month is the floor and both tiers are demo-gated, with no free trial on the pricing page",
+        "No public API or self-serve signup is documented as of September 2026",
+        "How ad and affiliate media spend is billed on top of the subscription is not stated"
+      ],
+      "pros_extra": [
+        "Each prompt is sampled up to 100 times per model, so scores carry more weight than single-answer trackers",
+        "EverPanel grounds the tracking strategy in 150 million observed consumer prompts",
+        "Pro bundles 25 AI-optimized articles per month with the measurement product"
+      ],
+      "faq_extra": [
+        [
+          "What does Evertune cost?",
+          "Pro is $800 per month and includes 100,000 prompts tracked across 11 AI models plus 25 AI-optimized articles per month. Enterprise pricing is custom and adds a dedicated AI Success Manager, unlimited content generation, AI website optimization, and SSO. Both tiers are sold through a demo (Sep 2026)."
+        ],
+        [
+          "What is EverPanel?",
+          "EverPanel is Evertune's consumer panel of 150 million user prompts, weighted to reflect the broader internet. It shows what real users ask AI about your category, and the Prompt Agent builds your tracking strategy from those topics."
+        ],
+        [
+          "Which AI models does Evertune track?",
+          "The site lists ChatGPT, Gemini, Claude, Perplexity, Copilot, DeepSeek, Meta AI, Google AI Mode, and AI Overviews, and the pricing page refers to 11 AI models in total."
+        ],
+        [
+          "Does Evertune place ads in ChatGPT?",
+          "Yes. Evertune launched a ChatGPT Ad Agent that buys ads in conversations where your brand has low visibility and retargets users after they leave the AI chat. The Pro plan lists affiliate advertising partnerships and AI Retargeting among its included features."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "nimt-ai",
+    "name": "Nimt.ai",
+    "tagline": "AI search tracking across 8 models with an agent that writes, fixes, and outreaches",
+    "website": "https://nimt.ai",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. Tracking covers eight models (ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Overviews, Perplexity, Gemini, and Claude) and updates daily. The dashboard reports AI visibility, share of voice, ranking, sentiment, and an AI brand strength score. Citation tracking shows which pages and domains AI cites, with domain comparisons and query fan-out analysis for the sub-queries behind each answer. Competitor sets, projects, languages, and team members are unlimited on every plan, and coverage spans 230 countries.\n\nThe differentiator is the AI Search Agent. You delegate jobs to it in the web app or in Slack (Teams support is listed as coming soon), and it writes content, does on-page fixes and schema markup, runs off-page work such as PR and outreach, and takes on recurring jobs it performs without being asked. Changes wait for your approval before anything is published. A remote MCP server at api.nimt.ai/mcp exposes the same workspace to Claude, ChatGPT, Cursor, n8n, and other MCP clients, so agents can query your visibility data directly. The product also connects to 3,000+ tools including HubSpot, WordPress, Google Search Console, and Google Analytics.\n\nPricing is credit-based. New accounts get EUR 40 in free credits (a card is required), then the Flex plan costs EUR 79 per month for 10,000 credits and up to 72 tracked prompts per day. Everything the agent does spends credits, tracking steadily and content, audits, and outreach more heavily. Unused credits roll over and stay valid for two months. Enterprise is custom volume pricing on annual contracts with unlimited credits. Nimt was founded in Sweden by three co-founders from the agency and SaaS world.",
+    "pricing_model": "usage",
+    "price_from": 79,
+    "price_notes": "EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026).",
+    "currency": "EUR",
+    "open_source": false,
+    "ai_features": [
+      "AI Search Agent that writes content and fixes pages",
+      "Daily tracking across 8 AI models",
+      "Citation and source tracking with query fan-out analysis",
+      "MCP server for Claude, ChatGPT, Cursor, and n8n",
+      "Sentiment, share of voice, and AI brand strength metrics"
+    ],
+    "integrations": [
+      "Slack",
+      "MCP",
+      "Google Search Console",
+      "HubSpot",
+      "WordPress",
+      "Google Analytics"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.nimt.ai/pricing",
+    "seo_title": "Nimt.ai Review: AI Search Tracking + Agent | MartechSignal",
+    "seo_description": "Nimt.ai tracks AI search on 8 models and its agent writes content and fixes pages. Credits from EUR 79/mo. Features, pricing, and honest limits.",
+    "hq": "Sweden",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Nimt's site, pricing, about, and MCP pages in September 2026. We have not handed the agent a live workspace.",
+        "Setup is self-serve and starts with the EUR 40 credit grant. You enter a website, Nimt proposes prompts by category (the demo shows around 40 suggestions), and you pick which of the eight models to track and how often. The dashboard updates daily with visibility, share of voice, ranking, sentiment, and brand strength. A source tracker shows which pages AI cites most, including competitor citations and the sub-queries behind answers. Unlimited projects and competitor sets mean agencies can run client workspaces without per-seat math.",
+        "Then the work turns over to the agent. In the app or through the @Nimt Slack bot, you describe a goal and it produces content, page fixes, schema markup, and outreach, with an approval step before anything goes live. Recurring jobs are the practical draw: tell it to find losing prompts every Monday and it runs and reports back on that schedule. The honest operational question is credit burn. Tracking a prompt set is a steady monthly cost, while content, audits, and outreach are heavier, so a 10,000-credit Flex allowance can disappear faster than the plan comparison suggests. When credits run out, work pauses until renewal or a top-up.",
+        "Two frictions are worth naming. Starting free still requires a card, and the Slack app was still in Slack's review process as of September 2026, which surfaces an unapproved-app notice when the bot joins a workspace. Nimt says the app is functional during review. The MCP server is included in every plan with documented rate limits, and it is the cleanest path for teams that want visibility data inside Claude or Cursor instead of a dashboard."
+      ],
+      "verdict": "Nimt bets that tracking alone is a dead end and sells the execution with it: one subscription meters daily visibility data and an agent that writes, fixes, and outreaches, with no features locked behind higher tiers. Credit pricing at EUR 79 per month keeps the model simple, but heavy agent use will outrun 10,000 credits. Worth a trial if you want AI search work delegated, provided you keep the approval step on.",
+      "best_for": "In-house teams and agencies that want AI search tracking and hands-on execution from one vendor, and teams that live in Slack. Buyers who prefer usage-based credits over per-seat tiers.",
+      "not_for": "Teams that want a pure measurement tool with fixed per-seat pricing. Anyone uncomfortable letting an agent draft content and outreach under their brand, however gated.",
+      "cons": [
+        "Credit burn is uneven: tracking is steady, but content, audits, and outreach can exhaust 10,000 credits quickly",
+        "The Slack app was still in Slack's review process as of September 2026",
+        "Claiming the EUR 40 starter credits requires a payment card"
+      ],
+      "pros_extra": [
+        "No features are locked behind higher tiers; the agent, all eight models, and MCP access come with every plan",
+        "Unlimited users, projects, brands, and competitor sets on every plan",
+        "Unused credits roll over and stay valid for two months"
+      ],
+      "faq_extra": [
+        [
+          "How much does Nimt.ai cost?",
+          "Nimt starts with EUR 40 in free credits (a card is required), then EUR 79 per month for 10,000 credits on the Flex plan with up to 72 prompts tracked daily. Enterprise is custom volume pricing on annual contracts with unlimited credits (Sep 2026)."
+        ],
+        [
+          "What is a Nimt credit?",
+          "A credit is Nimt's unit of work. Tracking a prompt set uses a steady amount each month; content, audits, and outreach use more. Unused credits roll over and stay valid for two months, and work pauses if you run out before renewal."
+        ],
+        [
+          "Which AI models does Nimt track?",
+          "Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Overviews, Perplexity, Gemini, and Claude."
+        ],
+        [
+          "Does Nimt publish content automatically?",
+          "No. The agent drafts content, page fixes, and outreach, and you approve changes before anything is applied. It can also take on recurring jobs and report back in the app or Slack."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "tagline": "The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform",
+    "website": "https://writesonic.com",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. The platform tracks how AI answers mention your brand, then produces the articles and site audits meant to fix the gaps. Founded in 2021 by Samanyou Garg and part of Y Combinator's S21 batch, the company started as an AI writing tool and reoriented around AI search; the pricing page now leads with prompt and answer tracking rather than copy generation.\n\nPlans run in four tiers, priced per month and billed annually. Starter at $79 tracks 50 prompts and 50 answers daily across ChatGPT, Gemini, and Google AI Overviews, and adds 15 AI articles, 10 site audits of 100 pages each, and ads monitoring. Basic at $199 raises tracking to 100 prompts and 300 answers and includes 25 articles. Growth at $399 covers 200 prompts and 600 answers, adds sentiment analysis and a trial of the Action Center, and ships 50 articles. Enterprise is custom and opens the full surface: all 10 AI platforms (adding Perplexity, Claude, Grok, DeepSeek, Microsoft Copilot, Meta AI, and Google AI Mode), the full Action Center, AI search volume and trend insights, shopping and agentic commerce, SSO/SAML, and SOC 2 Type II, HIPAA, and GDPR compliance. Agentic workflows run on a trial basis on the lower tiers.\n\nThe integration story is wider than most GEO tools: 20+ native connections across CMS, CDN, and analytics, including WordPress, Google Search Console, Ahrefs, and Looker Studio, plus a public API and an MCP server. A free trial needs no credit card. Writesonic, Inc. runs as a remote team with a San Francisco address.",
+    "pricing_model": "paid",
+    "price_from": 79,
+    "price_notes": "Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026).",
+    "currency": "USD",
+    "open_source": false,
+    "ai_features": [
+      "Tracks brand mentions in AI answers across up to 10 AI platforms",
+      "AI article generation in monthly quotas (15 to 50)",
+      "Site audits sized per tier, 100 to 2,500 pages",
+      "Sentiment analysis and Action Center on higher tiers",
+      "Agentic workflows for visibility, content, and SEO tasks"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "Ahrefs",
+      "WordPress",
+      "Google Analytics",
+      "Looker Studio",
+      "Cloudflare"
+    ],
+    "api_available": true,
+    "pricing_url": "https://writesonic.com/pricing",
+    "seo_title": "Writesonic Review: GEO & AI Search Growth | MartechSignal",
+    "seo_description": "Writesonic's GEO product tracks AI answers, ships AI articles, and runs site audits. From $79/mo billed annually. Features, tiers, and honest limits.",
+    "hq": "San Francisco, CA, USA",
+    "founded": 2021,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Writesonic's pricing, integrations, and about pages in September 2026. We have not run a campaign through the platform.",
+        "The trial starts without a card, and the first task is prompt setup. Starter tracks 50 prompts and 50 answers per day across ChatGPT, Gemini, and Google AI Overviews. From there the loop is diagnose, produce, deploy. Site audits run in batches sized by tier (100 pages per audit on Starter, 1,200 on Basic, 2,500 on Growth), AI articles arrive in monthly quotas of 15, 25, or 50, and ads monitoring watches sponsored placements in AI answers.",
+        "The tier design shapes the experience more than the feature list does. Lower plans track three engines; all 10 are an Enterprise feature. Sentiment analysis appears at Growth, and the Action Center, the part that turns findings into on-page and off-page actions, is gated at Enterprise, with a trial allocation of five off-page and five on-page actions per month on Growth. Agentic workflow runs are metered too: 10 on Starter, 50 on Basic, 100 on Growth. So on the entry plan you get measurement plus content production, and the execution layer waits for a bigger contract.",
+        "Deployment is where Writesonic parts company with dashboard-only trackers. Integrations push fixes into CMSs such as WordPress, Sanity, and Contentful, pull data from Search Console and Ahrefs, and ship through CDN edges such as Vercel, Fastly, Cloudflare, and Akamai. The public API and MCP server open the same data to agents, and Enterprise plans add SSO/SAML alongside SOC 2 Type II, HIPAA, and GDPR coverage. For a brand team that wants visibility data, articles, and audits in one subscription, the Starter plan is the shortest path in this batch."
+      ],
+      "verdict": "Writesonic is the entry-level option in this batch that still bundles measurement, content, and audits: $79 per month billed annually buys daily tracking and 15 AI articles alongside the visibility dashboard. The limits are tier gates rather than missing features, since full engine coverage, sentiment, and the Action Center sit at Growth and Enterprise. It fits brands that want one subscription for GEO diagnosis and production and can live with three engines to start.",
+      "best_for": "Brand and growth teams that want AI visibility tracking bundled with AI article production and site audits from $79 per month billed annually. Teams that value CMS and CDN integrations for deploying fixes.",
+      "not_for": "Buyers who need all 10 AI platforms, sentiment analysis, or the full Action Center on day one; those gate to Growth and Enterprise. Agencies that want white-label reporting at the entry price.",
+      "cons": [
+        "All 10 AI platforms, sentiment analysis, and the full Action Center are Enterprise-level features",
+        "Agentic workflow runs are trial-limited on the lower tiers (10 to 100 runs)",
+        "Starter is a one-user, one-project plan"
+      ],
+      "pros_extra": [
+        "The entry plan bundles 15 AI articles and 10 site audits per month with daily tracking",
+        "20+ native integrations plus a public API and MCP server for agent access",
+        "The free trial needs no credit card"
+      ],
+      "faq_extra": [
+        [
+          "How much does Writesonic cost?",
+          "The GEO plans start at $79/mo billed annually (Starter), then Basic at $199 and Growth at $399; Enterprise is custom. Annual billing saves 20% versus monthly, and the free trial needs no credit card (Sep 2026)."
+        ],
+        [
+          "What is Writesonic's GEO product?",
+          "It is the For Brands side of Writesonic, positioned as an AI Search Growth Engine: track how AI platforms mention your brand, get AI articles and site audits to fix visibility gaps, and on higher tiers run sentiment analysis and agentic workflows."
+        ],
+        [
+          "Which AI platforms does Writesonic track?",
+          "Starter through Growth track ChatGPT, Gemini, and Google AI Overviews. Enterprise covers 10 platforms: ChatGPT, Perplexity, Claude, Gemini, Grok, DeepSeek, Microsoft Copilot, Meta AI, Google AI Mode, and Google AI Overviews."
+        ],
+        [
+          "Does Writesonic have an API?",
+          "Yes. Writesonic documents a public API and an MCP server, with 20+ native integrations across CMS, CDN, and analytics tools such as WordPress, Google Search Console, Ahrefs, and Looker Studio."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "adobe-llm-optimizer",
+    "name": "Adobe LLM Optimizer",
+    "tagline": "Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution",
+    "website": "https://business.adobe.com/products/brand-visibility.html",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. The product page now calls it Adobe Brand Visibility and keeps the old name in parentheses. It is Adobe's GEO offering inside Experience Cloud, built for enterprise teams that want AI visibility measurement, site fixes, and revenue attribution in one application.\n\nMeasurement covers ten LLM families including ChatGPT, Perplexity, Google AI Mode, Anthropic Claude, and Microsoft Copilot, with share-of-voice benchmarking against up to five competitors, more than 25 languages, and state and city level breakdowns. Adobe draws on nearly 300 million AI search prompts enriched with cross-platform clickstream data, and the product also shows how AI crawlers access your site, not just what the models say about it.\n\nThe action half is unusual. Optimizations deploy at the CDN edge, compatible with Fastly, Akamai, and Cloudflare, so site changes ship in minutes without engineering work and roll back instantly. Adobe states the changes target AI agent requests only, so human visitors and existing SEO signals are untouched. Technical fixes cover blocked crawlers, missing structured data, and 404s, and the product generates content for Wikipedia, YouTube, Reddit, and earned media to grow citation authority. Prioritized content briefs combine SEO authority with AI citation gaps and show where one content investment moves a whole topic cluster.\n\nAttribution ties back to the rest of Adobe. Native integration with Adobe Analytics and Customer Journey Analytics connects GEO work to revenue, with CDN log verification, controlled experimentation, and prompt-to-conversion tracking as the proof layer. Pricing is quote-based and sold through Adobe's sales team. The product works without Adobe Experience Manager.",
+    "pricing_model": "enterprise",
+    "price_from": null,
+    "price_notes": "Quote-based within Adobe Experience Cloud (Sep 2026)",
+    "currency": null,
+    "open_source": false,
+    "ai_features": [
+      "Share-of-voice tracking across ten LLM families",
+      "Nearly 300M AI search prompts enriched with clickstream data",
+      "CDN-edge optimizations served to AI agents only",
+      "Technical GEO fixes without engineering support",
+      "GEO revenue attribution inside Adobe Analytics"
+    ],
+    "integrations": [
+      "Adobe Analytics",
+      "Customer Journey Analytics",
+      "Adobe Experience Manager",
+      "Fastly",
+      "Akamai",
+      "Cloudflare"
+    ],
+    "api_available": false,
+    "pricing_url": "https://business.adobe.com/products/brand-visibility.html",
+    "seo_title": "Adobe LLM Optimizer Review: GEO | MartechSignal",
+    "seo_description": "Adobe LLM Optimizer (now Adobe Brand Visibility) measures AI answers and ships CDN-edge fixes. Quote-based in Experience Cloud. Features and limits.",
+    "hq": "San Jose, CA, USA",
+    "founded": 2025,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from Adobe's product page and the June 2025 launch announcement in September 2026. We have not run a pilot of the product.",
+        "Buying it starts with a sales conversation; there is no public pricing or signup. For an enterprise team the implementation spans three surfaces. First, measurement: you set a custom prompt strategy from the product's prompt corpus, then track share of voice across ten LLM families against up to five competitors, with language and regional breakdowns. Second, deployment: the product intercepts AI agent requests at the CDN layer (Fastly, Akamai, and Cloudflare are named as compatible) and serves optimized content without a CMS change or an engineering sprint, with instant rollback. Adobe states these optimizations affect AI agents only, so human visitors and existing SEO signals see no change. Third, proof: CDN logs confirm that AI bots read the updated content, and the numbers land in Adobe Analytics or Customer Journey Analytics, where GEO work sits next to revenue and conversions instead of in a separate report.",
+        "The workflow implications matter more than the feature list for a buyer. Content, PR, social, and affiliate teams share one workspace with automated issue routing, and briefs are prioritized by where a single investment moves a topic cluster. The product also generates content aimed at Wikipedia, YouTube, Reddit, and earned media, which is a different operating model from on-site publishing alone.",
+        "Two caveats belong in any evaluation. The attribution story assumes you run Adobe's analytics products; Adobe says the intelligence features work across stacks, but the revenue connection does not travel outside them. And the rename from LLM Optimizer to Brand Visibility is recent enough that contracts, documentation, and press coverage still use both names."
+      ],
+      "verdict": "Adobe Brand Visibility is the enterprise-native GEO play: it measures AI answers, ships fixes at the CDN edge without engineering, and reports impact where finance already looks. It is quote-based and clearly built for organizations with an Adobe analytics footprint. Outside that stack the measurement is still useful, but the attribution case weakens.",
+      "best_for": "Enterprises running Adobe Analytics or Customer Journey Analytics that want GEO measurement, fixes, and revenue attribution in one workflow. Organizations serving content through Fastly, Akamai, or Cloudflare.",
+      "not_for": "Teams that want transparent pricing, self-serve signup, or a standalone GEO tool outside the Adobe ecosystem. Smaller brands that cannot justify an enterprise sales process.",
+      "cons": [
+        "Quote-based with no public pricing or self-serve signup",
+        "The revenue attribution case leans on Adobe Analytics and Customer Journey Analytics",
+        "The rename from Adobe LLM Optimizer to Adobe Brand Visibility still splits coverage and contracts across two names"
+      ],
+      "pros_extra": [
+        "CDN-edge deployment works with Fastly, Akamai, and Cloudflare, so it is not locked to Adobe Experience Manager",
+        "Optimizations target AI agent requests only and roll back instantly",
+        "CDN log verification confirms AI bots actually read the changed content"
+      ],
+      "faq_extra": [
+        [
+          "What is Adobe LLM Optimizer?",
+          "It was the June 2025 launch name for Adobe's GEO product, now called Adobe Brand Visibility. It measures brand presence in AI-generated answers, deploys optimizations at the CDN edge, and connects visibility to revenue inside Adobe Analytics."
+        ],
+        [
+          "How much does Adobe LLM Optimizer cost?",
+          "Adobe publishes no pricing for it. The product is quote-based within Adobe Experience Cloud and sold through Adobe's sales team (Sep 2026)."
+        ],
+        [
+          "Which AI platforms does Adobe Brand Visibility track?",
+          "Ten LLM families, including ChatGPT, Perplexity, Google AI Mode, Anthropic Claude, and Microsoft Copilot, with competitive share-of-voice against up to five competitors and coverage in more than 25 languages."
+        ],
+        [
+          "Do I need Adobe Experience Manager to use it?",
+          "No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe says the intelligence and opportunity features run across tech stacks. The revenue attribution piece pairs with Adobe Analytics and Customer Journey Analytics."
+        ]
+      ]
+    }
   }
 ]
