@@ -181,6 +181,8 @@
 
 ## Analysis
 
+- [What LLM watermarking means for marketing automation](https://martechsignal.com/blog/watermark-provenance-tax-agents/) (2026-09-25)
+- [AI ad account guardrails Google won't ship](https://martechsignal.com/blog/google-ads-ai-guardrails/) (2026-09-24)
 - [Agent protocol vs data plumbing: what actually fails](https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/) (2026-09-23)
 - [AI visibility advice, audited against 775 logged citations](https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/) (2026-09-22)
 - [Salesforce's third no-code promise, audited](https://martechsignal.com/blog/salesforce-third-no-code-promise/) (2026-09-21)

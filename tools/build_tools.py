@@ -1170,6 +1170,16 @@ def build_tool_page(t, cats, all_tools):
             "availability": "https://schema.org/InStock"
         }
 
+    # R5 (2026-09-24): Google Product snippets requires Offer, Review, or
+    # AggregateRating on a product-type item. Enterprise/no-list-price tools
+    # get no offers (price:0 would be a false claim; vendor ratings were
+    # removed for attribution integrity; no editorial scores exist). Without
+    # one of the three the SoftwareApplication is always flagged invalid in
+    # GSC (17-item Product snippets spike, Sep 2026). Rule: never emit a
+    # product schema we cannot complete - drop it, keep breadcrumb + FAQ.
+    if "offers" not in schema:
+        schema = None
+
     breadcrumb = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -1196,7 +1206,7 @@ def build_tool_page(t, cats, all_tools):
     out.write_text(page_shell(
         seo_title,
         seo_desc,
-        f"/tools/{slug}/", body, [schema, breadcrumb, faq_schema], og_image=f"og/tools/{slug}.png"))
+        f"/tools/{slug}/", body, [x for x in (schema, breadcrumb, faq_schema) if x], og_image=f"og/tools/{slug}.png"))
     return out
 
 # ── Category pages ─────────────────────────────────────────────────
