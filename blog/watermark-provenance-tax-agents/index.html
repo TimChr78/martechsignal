@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>What LLM watermarking means for marketing automation</title>
-<meta name="description" content="Anthropic now watermarks every Claude response, and a new study shows the mark changes agent behavior: tool calls, arguments, refusals. A watermark is.">
+<meta name="description" content="Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="What LLM watermarking means for marketing automation">
-<meta property="og:description" content="Anthropic now watermarks every Claude response, and a new study shows the mark changes agent behavior: tool calls, arguments, refusals. A watermark is.">
+<meta property="og:description" content="Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.">
 <meta property="og:url" content="https://martechsignal.com/blog/watermark-provenance-tax-agents/">
 <meta property="og:image" content="https://martechsignal.com/og/watermark-provenance-tax-agents.png">
 <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "AI watermarks are now part of your agent's risk surface",
-  "description": "Anthropic now watermarks every Claude response, and a new study shows the mark changes agent behavior: tool calls, arguments, refusals. A watermark is.",
+  "description": "Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",
@@ -105,7 +105,9 @@
 </div>
 
 <p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-the-study-actually-found">What the study actually found</a> · <a href="#the-part-with-ad-spend-attached">The part with ad spend attached</a> · <a href="#what-to-change-in-your-stack-this-quarter">What to change in your stack this quarter</a></nav>
-<p>Anthropic now watermarks every Claude response, and a new study shows the mark changes agent behavior: tool calls, arguments, refusals. A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published <a href="https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior">"The Provenance Tax"</a>, a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.</p>
+<p>Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.</p>
+
+<p>A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published <a href="https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior">"The Provenance Tax"</a>, a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.</p>
 
 <p>If your marketing automation calls an LLM API that does anything with the answer, this study has an ops section you should care about. It isn't the section everyone has been arguing about.</p>
 

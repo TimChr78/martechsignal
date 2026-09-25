@@ -8,7 +8,9 @@ tags: [AI Content, AI Agents, Automation]
 categories: [agent-skills]
 ---
 
-Anthropic now watermarks every Claude response, and a new study shows the mark changes agent behavior: tool calls, arguments, refusals. A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published ["The Provenance Tax"](https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior), a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.
+Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.
+
+A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published ["The Provenance Tax"](https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior), a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.
 
 If your marketing automation calls an LLM API that does anything with the answer, this study has an ops section you should care about. It isn't the section everyone has been arguing about.
 
