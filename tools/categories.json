@@ -231,7 +231,199 @@
       "wacrm",
       "warpdrive"
     ],
-    "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: twenty-two systems, seventeen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one."
+    "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: twenty-three systems, seventeen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one.",
+    "hub": {
+      "meta": "Compare 23 CRM tools: Salesforce and HubSpot at the hosted end, Twenty and Frappe CRM at the self-hosted end, with the per-seat math in between.",
+      "flow": [
+        {
+          "label": "MAP",
+          "sub": "records before vendors"
+        },
+        {
+          "label": "AUTOMATE",
+          "sub": "scoring, drafts, follow-ups",
+          "style": "ai"
+        },
+        {
+          "label": "PICK",
+          "sub": "hosted, freemium, self-hosted"
+        },
+        {
+          "label": "AUDIT",
+          "sub": "what the AI changed",
+          "style": "ok"
+        }
+      ],
+      "lead": [
+        "A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.",
+        "The failure mode is the one this category has always had, now with higher stakes: the CRM is a graveyard of half-entered records, and every forecast built on it inherits the rot. AI makes that worse before it makes it better, since a scoring model trained on stale deal data will confidently rank your pipeline wrong. Buyers also keep paying per seat for fields nobody fills in. We covered the cost side in the Agentforce free-tier post and the data side in the CDP reckoning, where the warehouse eats the profile store. The 50-day open-source audit tracked which CRM projects actually ship.",
+        "The directory covers 23 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data."
+      ],
+      "chooser": [
+        {
+          "if": "You are an enterprise that wants one vendor for sales, service and marketing",
+          "then": [
+            {
+              "name": "Salesforce CRM",
+              "slug": "salesforce-crm"
+            },
+            {
+              "name": "HubSpot CRM",
+              "slug": "hubspot-crm"
+            }
+          ],
+          "why": "Salesforce runs the deepest customization and now ships Agentforce inside Enterprise contracts; HubSpot gives you a real free CRM and sells the upgrades as hubs"
+        },
+        {
+          "if": "You run a sales team that lives in the pipeline view and want to start cheap",
+          "then": [
+            {
+              "name": "Pipedrive",
+              "slug": "pipedrive"
+            },
+            {
+              "name": "Freshsales",
+              "slug": "freshsales"
+            }
+          ],
+          "why": "Pipedrive is deal-first with per-seat pricing from $14; Freshsales bundles phone, email and chat and adds Freddy AI scoring from the $39 Pro tier"
+        },
+        {
+          "if": "You want the CRM designed around AI agents instead of bolted-on assistants",
+          "then": [
+            {
+              "name": "Attio",
+              "slug": "attio"
+            },
+            {
+              "name": "Twenty",
+              "slug": "twenty"
+            },
+            {
+              "name": "Relaticle",
+              "slug": "relaticle"
+            }
+          ],
+          "why": "Attio enriches records in real time and drafts outreach as a hosted product; Twenty puts AI agents inside workflows and advertises a native MCP server on cloud workspaces; Relaticle exposes 37 MCP tools from a self-hosted Laravel app"
+        },
+        {
+          "if": "You want to self-host and stop paying per seat",
+          "then": [
+            {
+              "name": "Frappe CRM",
+              "slug": "frappe-crm"
+            },
+            {
+              "name": "EspoCRM",
+              "slug": "espocrm"
+            },
+            {
+              "name": "Warpdrive",
+              "slug": "warpdrive"
+            }
+          ],
+          "why": "Frappe CRM is AGPL with hosting from $5 a month if you outgrow your own box; EspoCRM adds workflows and BPM behind paid add-on packs; Warpdrive is the MIT Pipedrive alternative with Gmail sync and no seat billing"
+        },
+        {
+          "if": "You need ERP, invoicing and CRM in one system",
+          "then": [
+            {
+              "name": "Dolibarr ERP/CRM",
+              "slug": "dolibarr"
+            },
+            {
+              "name": "Ever Gauzy",
+              "slug": "ever-gauzy"
+            },
+            {
+              "name": "IDURAR ERP & CRM",
+              "slug": "idurar-erp-crm"
+            }
+          ],
+          "why": "Dolibarr is the modular PHP classic with stock and invoicing; Ever Gauzy adds HRM and time tracking; IDURAR bundles accounting and invoicing on Node and React"
+        },
+        {
+          "if": "You sell through WhatsApp or scrape leads to feed the pipeline",
+          "then": [
+            {
+              "name": "WaCRM",
+              "slug": "wacrm"
+            },
+            {
+              "name": "DeskcommCRM",
+              "slug": "deskcommcrm"
+            },
+            {
+              "name": "ProspectOS",
+              "slug": "prospectos"
+            }
+          ],
+          "why": "WaCRM is a MIT WhatsApp CRM with shared inbox, broadcasts and a bring-your-own-key reply assistant; DeskcommCRM adds selling agents with pre-send guardrails and spend caps; ProspectOS pulls leads from Google Maps and Instagram"
+        }
+      ],
+      "groups": [
+        {
+          "label": "HOSTED SAAS CRMs",
+          "slugs": [
+            "attio",
+            "freshsales",
+            "hubspot-crm",
+            "pipedrive",
+            "salesforce-crm"
+          ]
+        },
+        {
+          "label": "SELF-HOSTED OPEN SOURCE",
+          "slugs": [
+            "alphone",
+            "django-crm",
+            "dolibarr",
+            "espocrm",
+            "ever-gauzy",
+            "frappe-crm",
+            "idurar-erp-crm",
+            "krayin-crm",
+            "monica",
+            "suitecrm",
+            "warpdrive"
+          ]
+        },
+        {
+          "label": "AGENT-READY, MCP-NATIVE",
+          "slugs": [
+            "cordys-crm",
+            "macro",
+            "relaticle",
+            "twenty"
+          ]
+        },
+        {
+          "label": "OUTBOUND & CHANNEL",
+          "slugs": [
+            "deskcommcrm",
+            "prospectos",
+            "wacrm"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "salesforce-agentforce-free-marketing-ops",
+          "title": "Agentforce Is Free: What Marketing Ops Can Build",
+          "note": "What the free Agentforce credits in Salesforce Foundations actually let marketing ops ship"
+        },
+        {
+          "slug": "cdp-reckoning-warehouse-native",
+          "title": "The CDP Reckoning: Your Next CDP Is a Warehouse",
+          "note": "Why the warehouse is eating the profile store your CRM assumes it owns"
+        },
+        {
+          "slug": "oss-martech-50-day-checkin",
+          "title": "Fifty days of open-source MarTech, audited",
+          "note": "Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 50 days"
+        }
+      ]
+    }
   },
   {
     "slug": "content-ai",
@@ -456,7 +648,157 @@
       "revive-adserver",
       "smartly-io"
     ],
-    "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the seven platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over."
+    "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the nine platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over.",
+    "hub": {
+      "meta": "Compare 9 advertising tools: creative generators, autonomous bid platforms, automation, open-source ad serving. The question is who approves the spend.",
+      "flow": [
+        {
+          "label": "AUDIT",
+          "sub": "budget before agents"
+        },
+        {
+          "label": "GENERATE",
+          "sub": "creative at variant volume",
+          "style": "ai"
+        },
+        {
+          "label": "AUTOMATE",
+          "sub": "rules or full autonomy"
+        },
+        {
+          "label": "GATE",
+          "sub": "who approves the spend",
+          "style": "ok"
+        }
+      ],
+      "lead": [
+        "Paid media tooling used to be three separate jobs: make the creative, place the buy, read the report. The ad platforms are collapsing that into agents. Google handed budget decisions to AI inside Google Ads, Microsoft rolled out AI campaign automation for search, and OpenAI is building the agents that will do the buying. The tools here moved the same direction at different speeds. Smartly.io puts creative production, media buying, and measurement in one contract. Pencil routes generation across models from OpenAI, Google, Adobe, and Runway behind a no-train policy and IP indemnification. Madgicx redistributes budget across Meta ad sets in real time without asking.",
+        "The failure mode this category keeps producing is an agent spending money nobody approved, and our coverage here is strong because the vendors keep proving the point. Google Handed Your Ad Budget to AI Agents walked through Google's agentic rollout and the control gap it leaves open. OpenAI Isn't Building Ads. It's Building Agents made the case that the buying layer, not the ad format, is the story. AI ad account guardrails Google won't ship documents what you still have to build yourself, and Microsoft Just Removed the Steering Wheel From Search Ads shows the same drift from the other side. Platforms ship budget autonomy faster than the reporting to match, so the audit trail falls to you.",
+        "The 9 tools split three ways. Creative generation: AdCreative.ai turns brand assets into scored ad variations, Pencil generates text, image, and video under enterprise controls. Optimization and automation: Albert AI runs campaigns autonomously at enterprise spend, Madgicx is the Meta-only operating layer, Smartly.io consolidates creative, buying, and measurement, while Revealbot (Birch) and Opteo stay non-autonomous by design. Open-source ad tooling: Revive Adserver is the self-hosted ad server (hosted edition at revive-adserver.net), advertools the MIT-licensed Python toolkit for keyword and ad text analysis. Our reviews weight the control surface first: who approves spend, what the audit trail records, how fast you can stop it."
+      ],
+      "chooser": [
+        {
+          "if": "Your designer queue is the bottleneck and you need ad variants at volume",
+          "then": [
+            {
+              "name": "AdCreative.ai",
+              "slug": "adcreative-ai"
+            },
+            {
+              "name": "Pencil",
+              "slug": "pencil"
+            }
+          ],
+          "why": "Both generate scored ad creative from brand assets; AdCreative.ai starts at $39 per month with performance prediction per variant, Pencil adds enterprise governance and self-serve tiers from $14"
+        },
+        {
+          "if": "You want the platform to run campaigns without a daily operator",
+          "then": [
+            {
+              "name": "Albert AI",
+              "slug": "albert-ai"
+            },
+            {
+              "name": "Smartly.io",
+              "slug": "smartly-io"
+            }
+          ],
+          "why": "Albert executes optimizations autonomously across search, social, display and video at $50K+ monthly spend; Smartly consolidates creative, media buying and measurement across ten platforms, both quote-only on price"
+        },
+        {
+          "if": "You run serious Meta spend for ecommerce and want one operating layer",
+          "then": [
+            {
+              "name": "Madgicx",
+              "slug": "madgicx"
+            }
+          ],
+          "why": "Bundles autonomous budget allocation, AI audiences, creative generation and attribution for Meta only, priced from $49 per month and scaling with ad spend"
+        },
+        {
+          "if": "You want automation that only ever does what you wrote",
+          "then": [
+            {
+              "name": "Revealbot (Birch)",
+              "slug": "revealbot"
+            },
+            {
+              "name": "Opteo",
+              "slug": "opteo"
+            }
+          ],
+          "why": "Revealbot runs your rules across Meta, Google, TikTok and Snapchat from $49 per month; Opteo turns Google Ads findings into one-click improvements a human approves, from $129"
+        },
+        {
+          "if": "You want ad serving on infrastructure you control, with no per-impression cost",
+          "then": [
+            {
+              "name": "Revive Adserver",
+              "slug": "revive-adserver"
+            }
+          ],
+          "why": "The established open-source ad server, free to self-host with frequency capping, geotargeting and revenue reporting; a hosted edition is sold separately at revive-adserver.net"
+        },
+        {
+          "if": "You work in notebooks and want keyword and ad text analysis without SaaS",
+          "then": [
+            {
+              "name": "advertools",
+              "slug": "advertools"
+            }
+          ],
+          "why": "MIT-licensed Python package by Elias Dabbas: keyword generation, ad copy splitting and SERP imports landing straight in pandas DataFrames"
+        }
+      ],
+      "groups": [
+        {
+          "label": "CREATIVE GENERATION",
+          "slugs": [
+            "adcreative-ai",
+            "pencil"
+          ]
+        },
+        {
+          "label": "OPTIMIZATION AND AUTOMATION",
+          "slugs": [
+            "albert-ai",
+            "madgicx",
+            "opteo",
+            "revealbot",
+            "smartly-io"
+          ]
+        },
+        {
+          "label": "OPEN-SOURCE AD TOOLING",
+          "slugs": [
+            "advertools",
+            "revive-adserver"
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "slug": "google-ad-agents-control-gap",
+          "title": "Google Handed Your Ad Budget to AI Agents",
+          "note": "What Google's agentic rollout hands over, and the control gap it leaves in your account"
+        },
+        {
+          "slug": "openai-agent-ads-spending-without-you",
+          "title": "OpenAI Isn't Building Ads. It's Building Agents",
+          "note": "The ad format debate misses the story: OpenAI is building the agents that will do the buying"
+        },
+        {
+          "slug": "google-ads-ai-guardrails",
+          "title": "AI ad account guardrails Google won't ship",
+          "note": "Guardrails for an AI-managed Google Ads account are still a do-it-yourself job, documented here"
+        },
+        {
+          "slug": "microsoft-search-ads-steering-wheel",
+          "title": "Microsoft Just Removed the Steering Wheel From Search Ads",
+          "note": "Microsoft's AI campaign automation takes the operator out of search buying"
+        }
+      ]
+    }
   },
   {
     "slug": "personalization",
