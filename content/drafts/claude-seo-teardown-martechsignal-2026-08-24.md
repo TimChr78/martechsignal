@@ -14,7 +14,7 @@ This is the teardown of that run: what it found, where it fell down, and the foo
 
 ## What we actually ran
 
-The tool is [Claude SEO](/tools/claude-seo/) (AgriciDaniel/claude-seo, v2.2.4, MIT, roughly 14.8K GitHub stars as of this writing): 25 sub-skills and 18 sub-agents covering technical SEO, schema, E-E-A-T, backlinks, and AI search readiness, packaged for Claude Code.
+The tool is [Claude SEO](/tools/claude-seo/) (AgriciDaniel/claude-seo, v2.2.4, MIT, roughly 14.8K GitHub stars as of this writing): 25 sub-skills and 18 sub-agents covering technical SEO, schema, E-E-A-T, backlinks, and AI search readiness, packaged for [Claude Code](/blog/claude-seo-vs-codex-seo/).
 
 We did not pay Anthropic for this. Our Claude Code CLI is wired through OmniRoute to CommandCode's ox-alpha model, so the skill ran on third-party capacity with no subscription involved. The trade is speed: ox-alpha takes 60 to 160 seconds per turn. The skill also degrades honestly. With no Google API credentials it skips the agents that need them and says so in the report ("Credential Tier −1" is its phrase), and Common Crawl's free tier returned zero metrics for a domain this young. It audited what it could reach and told us what it could not.
 
@@ -85,4 +85,4 @@ The score is not the point. The remaining gaps the re-audit found (thin category
 
 Claude SEO is the strongest free [SEO](/categories/seo/) skill we have run, and it embarrassed our own deploy pipeline on our own site. Use it. Run it twice, a week apart, and assume the first report is incomplete. Strip the footer before it touches a client. We fixed everything the first audit named and the second crawl confirmed it, then found three new problems we still have to work through.
 
-See the full tool review and alternatives in our [Claude SEO directory entry](/tools/claude-seo/), and our [conversion rate optimization glossary](/glossary/cro/) if the thin-content scoring is news to you.
+See the full tool review and alternatives in our [Claude SEO directory entry](/tools/claude-seo/), the [Seonaut comparison](/blog/claude-seo-vs-seonaut/) if you want a second free checker, and our [conversion rate optimization glossary](/glossary/cro/) if the thin-content scoring is news to you.

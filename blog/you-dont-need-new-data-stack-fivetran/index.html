@@ -16,6 +16,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/">
+<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -105,7 +106,7 @@
 </div>
 
 <p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics & Attribution</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-the-legacy-stack-broke">What the legacy stack broke</a> · <a href="#four-years-of-roadmap-done-in-six-months">Four years of roadmap, done in six months</a> · <a href="#the-failure-data-points-the-same-direction">The failure data points the same direction</a> · <a href="#what-marketing-ops-should-copy-from-healthcare">What marketing ops should copy from healthcare</a> · <a href="#what-it-costs">What it costs</a> · <a href="#what-to-do-this-week">What to do this week</a></nav>
-<p>Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.</p>
+<p><a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">Every AI platform vendor wants to sell you the same story</a>: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.</p>
 
 <p>Earlier this month, Fivetran and data consultancy phData put out a post called <a href="https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform">"Building healthcare AI without rebuilding your data platform."</a> The title is the thesis. Healthcare is one of the most data-hostile industries that exists: thousands of vendor systems per organization, Epic instances nobody wants to touch, compliance review on every connector, and <a href="https://cthosp.org/daily-news-clip/37-of-hospitals-still-losing-money/">37% of hospitals running at a loss</a> or on margins under 2%. If you can make AI-ready data work there without a rebuild, the "you need a new platform" pitch gets a lot harder to defend anywhere else. Including in your marketing stack.</p>
 
@@ -125,9 +126,9 @@
 
 <p>The evidence is <a href="https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai">Inova Health</a>, a Northern Virginia health system with 26,000 employees and 4 million patient visits a year. Inova had data scattered across on-prem systems, Epic, SharePoint, flat files, and vendor APIs, with a backlog of pipeline requests that kept growing. Their modernization plan was scoped at four years.</p>
 
-<p>They standardized on Fivetran for ingestion, dbt for transformations, and Databricks as the destination, and finished in six months. The reported numbers: $800,000 in third-party spend eliminated, data movement costs cut up to 8x per terabyte per source, and a backlog of more than 500 pipeline requests cleared.</p>
+<p>They standardized on Fivetran for ingestion, dbt for transformations, and Databricks as the destination, and finished in six months. The reported numbers: $800,000 in <a href="/blog/martech-budget-bleeding-nobody-measuring/">third-party spend</a> eliminated, data movement costs cut up to 8x per terabyte per source, and a backlog of more than 500 pipeline requests cleared.</p>
 
-<p>One detail matters more than the headline. Inova's Adobe Experience Platform integration had been stalled for months on fragmented pipelines and complex APIs. With managed connectors, they had it running in under a week. That is a marketing system. The same bottleneck your team knows, solved by swapping custom engineering for a connector, not by buying a new platform.</p>
+<p>One detail matters more than the headline. Inova's Adobe Experience Platform integration had been stalled for months on fragmented pipelines and complex APIs. With <a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">managed connectors</a>, they had it running in under a week. That is a marketing system. The same bottleneck your team knows, solved by swapping custom engineering for a connector, not by buying a new platform.</p>
 
 <div class="callout">
 <p><strong>The numbers are vendor-reported.</strong> Inova's chief data and AI officer is on record backing them ("We accelerated a 4-year roadmap into 6 months"), and the case study is on Fivetran's site, so treat the figures as the best available rather than audited. The shape of the story, though, matches what Gartner and others report independently: the projects that stall are the ones that over-build.</p>

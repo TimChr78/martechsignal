@@ -1,0 +1,11 @@
+# Mixpanel | MartechSignal review
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+- Page: https://martechsignal.com/tools/mixpanel/
+- Category: Analytics & Attribution
+- Pricing: Freemium
+- Open source: no
+- Last verified: 2026-09-06
+
+Mixpanel is a product analytics platform built on an event-based data model: every user action is a discrete event with properties, which is what makes funnels, retention curves, and behavioral cohorts fast to query without SQL. Founded in 2009, it now brands itself a product intelligence platform for the AI era and sells four connected modules: analytics, session replay, experiments and feature flags, and metric trees. The current shift is Mixpanel AI, a layer of agents rather than a chat box. A Root Cause Analysis Agent diagnoses what changed and delivers the answer as a dashboard your team keeps working from, an Experiments Agent sets up statistically valid tests and interprets them, AI summaries and Magic Playlists group hundreds of session replays, and continuous monitoring surfaces insights before you think to ask. Governance sits alongside: a Context Engine and Verified Mode are meant to keep AI output grounded in defined data. Warehouse connectors sync data in from Snowflake, Databricks, BigQuery, and Redshift, and export pipelines push it back out; the docs publish an llms.txt and Markdown versions of every page. Pricing is usage-based and the free tier is smaller than older reviews claim. Free covers unlimited seats but 1 million events per month, 10,000 session replays, and 10 feature flags. Growth starts at $0, includes the first million free up to 20 million events, and the site's calculator shows $120 per month billed annually at 18 million events a year. Enterprise adds custom retention, first-party tracking domains, unlimited alerts and anomaly detection, and root cause analysis at up to a trillion events. Experiments and feature flags are now included on Free and Growth. The trade-offs are unchanged: cloud only, event naming discipline decides whether you get insight or noise, and cost tracks event volume. Choose it over Amplitude when self-serve speed matters more than warehouse-native architecture.

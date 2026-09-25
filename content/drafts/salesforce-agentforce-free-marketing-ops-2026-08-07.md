@@ -56,7 +56,7 @@ Prompt Builder ships in the free bundle, which makes this the cheapest build on 
 **The workflow.** A prompt template pulls live CRM fields into a draft brief: campaign name, target segment from your Data 360 streams, last campaign's performance, product notes. The marketing ops lead clicks, reads, edits, ships. The brief stops being a blank-page problem and becomes a review problem.
 :::
 
-Two rules make this useful instead of embarrassing. First, wire the template to real fields, not to vibes; a brief generated from empty merge fields reads like a ransom note assembled from a wiki. Second, keep a human as the last step. Salesforce's own small business content makes the same point in its human-AI collaboration material: people handle judgment and voice, the model handles the first draft. Nobody's campaign strategy ever survived an unedited LLM output, and this isn't the quarter to start trusting one.
+Two rules make this useful instead of embarrassing. First, [wire the template to real fields, not to vibes](/blog/ai-agents-need-campaign-state/); a brief generated from empty merge fields reads like a ransom note assembled from a wiki. Second, keep a human as the last step. Salesforce's own small business content makes the same point in its human-AI collaboration material: people handle judgment and voice, the model handles the first draft. Nobody's campaign strategy ever survived an [unedited LLM output](/blog/watermark-provenance-tax-agents/), and this isn't the quarter to start trusting one.
 
 ## Build #3: Slack and MCP, where it gets genuinely interesting
 
@@ -70,7 +70,7 @@ At the end of July, Salesforce's architecture blog laid out three ways to connec
 **The marketing ops version.** Your team lives in Slack. Slackbot's MCP client is now generally available, with 20+ partner apps live in the Slack Marketplace registry: Notion, Atlassian, Box, Canva, Docusign, Linear, Zoom. Point Slackbot at your Notion MCP server and "pull the launch checklist for campaign X" becomes a question in a thread instead of a tab hunt. Option 2 is the one that fits most marketing ops requests, because most of them never needed a CRM hop.
 :::
 
-The identity part is where people get hurt, so the design rules from Salesforce's own architects are worth repeating. External MCP servers have to support OAuth 2.0. Per-user authentication means every teammate needs their own account in the external system, and the agent inherits whatever access that person already has, nothing narrower. A service account fixes the scope but applies to everyone equally, so treat it as all-or-nothing. And when someone changes roles or leaves, the stored token does not revoke itself. A stale token is a live credential nobody watches.
+The [identity part is where people get hurt](/blog/agents-identity-debt/), so the design rules from Salesforce's own architects are worth repeating. External MCP servers have to support OAuth 2.0. Per-user authentication means every teammate needs their own account in the external system, and the agent inherits whatever access that person already has, nothing narrower. A service account fixes the scope but applies to everyone equally, so treat it as all-or-nothing. And when someone changes roles or leaves, the stored token does not revoke itself. A stale token is a live credential nobody watches.
 
 ## Build #4: The quiet one, segmentation plus 2,000 sends
 
@@ -117,6 +117,6 @@ The free tier has edges, and pretending otherwise wastes the runway:
 
 Strip the marketing off and Foundations reads as a land-grab with good manners. Salesforce is betting that once your team builds one working agent on free credits, the second agent gets budgeted instead of debated. For marketing ops, the bet can work in your favor, because the free pool is genuinely enough to settle the "should we even try agents" argument with evidence instead of opinions.
 
-The teams that come out ahead will treat this like what it is: a funded experiment with a hard cap. Build the smallest agent that removes a weekly chore, count the hours, and keep the credit meter in the same spreadsheet as everything else you measure.
+The teams that come out ahead will treat this like what it is: a funded experiment with a hard cap. Build the smallest agent that removes a weekly chore, count the hours, and keep the credit meter in the same spreadsheet as [everything else you measure](/blog/martech-budget-bleeding-nobody-measuring/).
 
 Browse the [MartechSignal tools directory](/tools/) for what's competing with Agentforce in your category before you decide the free credits settle the question. Free changes the risk. It doesn't change the due diligence.

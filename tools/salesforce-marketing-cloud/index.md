@@ -1,0 +1,11 @@
+# Salesforce Marketing Cloud | MartechSignal review
+
+Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
+
+- Page: https://martechsignal.com/tools/salesforce-marketing-cloud/
+- Category: Marketing Automation
+- Pricing: Enterprise
+- Open source: no
+- Last verified: 2026-09-06
+
+Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. Pricing, which used to be quote-only, is now published: Marketing Cloud Next Growth lists at $1,500 per org per month billed annually with Agentforce campaign creation, multi-channel journeys, forms, and landing pages, and Advanced lists at $3,250 per org per month, adding path experimentation and two-way conversations for SMS and WhatsApp. Salesforce Starter, at $25 per user per month, is the small-business entry with dynamic email marketing and analytics and a self-serve trial. Add-ons are priced separately and are not small: Personalization at $8,000 per month, Marketing Intelligence at $10,000, and Loyalty Management at $20,000, each billed annually per org, with existing-customer "+" editions from $1,250 to $15,000 per month. The AI layer is marketed as Agentforce rather than Einstein on the current pages: campaign creation, personalization decisioning, paid media optimization, AI campaign summaries, and loyalty promotion creation, with partner Qualified's Piper positioned as the AI SDR agent. Channels named on the product pages are email, SMS, and web, with Agentforce turning one-way sends into two-way conversations. For an org already on Salesforce CRM and Data 360 the case is straightforward. For everyone else, the costs are the edition price plus add-ons that can each exceed the base edition, annual billing paid in advance, and implementation work that assumes dedicated marketing operations staff.

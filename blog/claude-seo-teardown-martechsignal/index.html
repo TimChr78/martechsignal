@@ -16,6 +16,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://martechsignal.com/blog/claude-seo-teardown-martechsignal/">
+<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -111,7 +112,7 @@
 
 <h2 id="what-we-actually-ran">What we actually ran</h2>
 
-<p>The tool is <a href="/tools/claude-seo/">Claude SEO</a> (AgriciDaniel/claude-seo, v2.2.4, MIT, roughly 14.8K GitHub stars as of this writing): 25 sub-skills and 18 sub-agents covering technical SEO, schema, E-E-A-T, backlinks, and AI search readiness, packaged for Claude Code.</p>
+<p>The tool is <a href="/tools/claude-seo/">Claude SEO</a> (AgriciDaniel/claude-seo, v2.2.4, MIT, roughly 14.8K GitHub stars as of this writing): 25 sub-skills and 18 sub-agents covering technical SEO, schema, E-E-A-T, backlinks, and AI search readiness, packaged for <a href="/blog/claude-seo-vs-codex-seo/">Claude Code</a>.</p>
 
 <p>We did not pay Anthropic for this. Our Claude Code CLI is wired through OmniRoute to CommandCode's ox-alpha model, so the skill ran on third-party capacity with no subscription involved. The trade is speed: ox-alpha takes 60 to 160 seconds per turn. The skill also degrades honestly. With no Google API credentials it skips the agents that need them and says so in the report ("Credential Tier −1" is its phrase), and Common Crawl's free tier returned zero metrics for a domain this young. It audited what it could reach and told us what it could not.</p>
 
@@ -173,7 +174,7 @@
 
 <p>Claude SEO is the strongest free <a href="/categories/seo/">SEO</a> skill we have run, and it embarrassed our own deploy pipeline on our own site. Use it. Run it twice, a week apart, and assume the first report is incomplete. Strip the footer before it touches a client. We fixed everything the first audit named and the second crawl confirmed it, then found three new problems we still have to work through.</p>
 
-<p>See the full tool review and alternatives in our <a href="/tools/claude-seo/">Claude SEO directory entry</a>, and our <a href="/glossary/cro/">conversion rate optimization glossary</a> if the thin-content scoring is news to you.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/claude-seo-v231-four-graders/">Four Graders, One Site: What Five Claude SEO Scores Measure</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> — Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/ai-marketing-claude/">AI Marketing Suite</a> — 15-skill marketing suite for Claude Code with parallel agents and PDF reports</li><li><a href="/tools/claude-ads/">Claude Ads</a> — Paid-media operations skill for Claude Code covering 12 ad platforms</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li></ul></section>
+<p>See the full tool review and alternatives in our <a href="/tools/claude-seo/">Claude SEO directory entry</a>, the <a href="/blog/claude-seo-vs-seonaut/">Seonaut comparison</a> if you want a second free checker, and our <a href="/glossary/cro/">conversion rate optimization glossary</a> if the thin-content scoring is news to you.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/claude-seo-v231-four-graders/">Four Graders, One Site: What Five Claude SEO Scores Measure</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> — Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/ai-marketing-claude/">AI Marketing Suite</a> — 15-skill marketing suite for Claude Code with parallel agents and PDF reports</li><li><a href="/tools/claude-ads/">Claude Ads</a> — Paid-media operations skill for Claude Code covering 12 ad platforms</li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

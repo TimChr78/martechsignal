@@ -89,7 +89,7 @@ The platforms are not going to ship the audit layer unprompted, because the audi
 :::
 
 ::: wf-step
-**A decision log you can export.** Every spend-affecting change recorded with who or what made it and why, in a format you own. Google Ads change history exists; pull it on a schedule. For anything agent-driven, require the reasoning in writing as part of the action, not reconstructed afterward from a chat transcript.
+**A decision log you can export.** Every spend-affecting change recorded with who or what made it and why, in a format you own. Google Ads change history exists; pull it on a schedule. For anything agent-driven, require [the reasoning in writing as part of the action](/blog/watermark-provenance-tax-agents/), not reconstructed afterward from a chat transcript.
 :::
 
 ::: wf-step
@@ -108,7 +108,7 @@ The platforms are not going to ship the audit layer unprompted, because the audi
 
 If the platform's explanation of itself is compromised by design, the measurement has to come from somewhere the platform cannot reach.
 
-Cost per verified outcome, first. Conversions confirmed in your CRM or order system, not the pixel's self-report. The gap between platform-reported conversions and finance-recognized revenue is where most of the truth lives.
+Cost per verified outcome, first. Conversions confirmed in your CRM or order system, not the pixel's self-report. The gap between platform-reported conversions and finance-recognized revenue is where most of the truth lives. That gap is [the bleed nobody is measuring](/blog/martech-budget-bleeding-nobody-measuring/).
 
 Engagement quality, because clicks stopped meaning the same thing. The 17-second, 0.21% numbers from the ChatGPT test are a template: time on site and engaged sessions per user, pulled from your own analytics, compared channel against channel. A channel can win the click and lose the visit.
 

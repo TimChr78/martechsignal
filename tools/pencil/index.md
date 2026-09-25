@@ -1,0 +1,11 @@
+# Pencil | MartechSignal review
+
+AI-powered ad creative generation and performance prediction for paid media
+
+- Page: https://martechsignal.com/tools/pencil/
+- Category: Advertising & Paid Media
+- Pricing: From $14/mo
+- Open source: no
+- Last verified: 2026-09-06
+
+Pencil is a generative-AI creative platform that has grown from ad generation into what it now calls the AI operating system for marketing, operating under Pencil AI Limited with Brandtech Group branding still across the site. The product claim is orchestration: it aggregates AI models from OpenAI, Google, Adobe, Runway, and Bria in one layer, selects the right model per task, and wraps them in enterprise controls - a no-train policy, IP indemnification, regional data compliance across EU, US, and APAC, role-based access, brand safety guardrails, and SOC 2 Type II certification. Generation covers text, images, video, and ad creative, and the pricing page adds launch-and-track advertising natively on Facebook, Instagram, TikTok, YouTube, Google Display, DV360, and LinkedIn. Integrations follow the enterprise pattern rather than a marketplace: ad platforms (Meta, Google Ads, TikTok, LinkedIn, YouTube, DV360, CM360), DAM systems (Bynder and Orange Logic generally available, Adobe Workfront in closed beta, AEM coming soon), Monotype for fonts, and GWI for consumer research, with an Insights Agent built on that partnership. Pencil's own case studies name Experian, Diageo, L'Oreal, Barilla, and Japan Airlines. Pricing is now self-serve rather than enterprise-only: Core at $14 per month ($11 billed annually) with 50 generations, Growth at $55 ($44 annual) with 250 generations and unlimited workspaces, and Pro at custom pricing with unlimited generations, feed-based bulk generation, and the full governance terms. Generations are the metering unit, so creative volume rather than seats drives the bill. The honest caveats: the site leads with vendor-supplied outcome claims (50 percent lower production costs, 79 percent ROAS improvement), and the plan comparison table still marks several capabilities as coming soon, so confirm what is live before you commit. It suits brands shipping high ad-variant volumes under brand governance; a solo team running a few campaigns a quarter has cheaper options.

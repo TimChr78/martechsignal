@@ -1,0 +1,11 @@
+# MarketMuse | MartechSignal review
+
+AI-powered content strategy and optimization platform for SEO content teams
+
+- Page: https://martechsignal.com/tools/marketmuse/
+- Category: SEO & Search
+- Pricing: Paid
+- Open source: no
+- Last verified: 2026-09-07
+
+MarketMuse is an AI content strategy and optimization platform that approaches SEO from the top down: rather than scoring one article at a time, it inventories your entire site, models the topics you cover, and grades your coverage against competitors across all of them. It was founded in July 2013 by Aki Balogh, is based in Boston, and was acquired by Siteimprove in October 2024; along the way it bought the Grepwords keyword database in 2021 and holds a patent on semantic keyword analysis. The documented product is four applications: Optimize for writing and scoring against briefs, Research with seven named tools (Topic Navigator, Keywords, Questions, Reflect, SERP X-Ray, SERP Heatmap, Site Heatmap), Heatmap for site-wide coverage, and Connect for internal linking. Proprietary metrics include Personalized Difficulty, Topic Authority, Competitive Advantage, Content Score, and Page Authority. Generative AI is documented rather than implied: MarketMuse AI arrived in Optimize in October 2023 as an LLM-agnostic drafting layer, and Content Strategy AI followed in August 2024 with prescriptive documents the company says compress 50+ hours of analyst work into 15 minutes. Briefs come in nine types, from Comparison and FAQ Collection to How-to and Product Review. The trade-offs are real. There is no documented API and no integrations page: writing exports to Google Docs or Word, WordPress gets copy-paste via a Copy for Publishing button, and ChatGPT is the one documented third-party connection. Pricing is no longer self-serve either: the site lists Free, Optimize, Research, and Strategy plans, but every paid tier sits behind a Book a demo button, with limits published instead of dollars (the Free plan allows 10 queries a month; Strategy covers 10,000 tracked topics and 5 users). Public product momentum is thin, with the newest docs changelog entry dated February 2024. It fits content teams that need portfolio-level planning more than per-article nudging.

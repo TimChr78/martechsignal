@@ -1,0 +1,11 @@
+# Persado | MartechSignal review
+
+AI content creation and optimization platform for regulated financial services marketing
+
+- Page: https://martechsignal.com/tools/persado/
+- Category: AI Content & Copywriting
+- Pricing: Enterprise
+- Open source: no
+- Last verified: 2026-09-07
+
+Persado is an AI content platform for regulated marketing, and its 2026 site leads with new framing: the agentic creative agency for regulated brands, aimed squarely at financial services. The product surface is three named pillars, Create (generate compliant content at speed and scale), Optimize (score and improve every message before it ships), and Automate (personalize every send automatically via API), plus two 2025 launches: Persado Dynamic Email, which the company says cuts email operations time by up to 75%, and Persado Marketing Compliance AI, positioned as the first agentic AI platform built for financial services marketing and legal teams. Underneath sits a Performance Knowledge Base the company describes as 100,000+ message elements, a proprietary taxonomy categorized by emotional drivers, CTA types, and performance attributes, drawing on what the site claims is 1M+ A/B tests, 120K+ campaigns, and scoring against 150B+ customer interactions. Compliance is the sales argument: 20+ regulatory frameworks built into generation, including UDAAP, TILA, Reg Z, ECOA, and TCPA, brand voice guardrails, audit trails, and a stated zero post-deployment compliance incidents across 10+ years and 8 of the 10 largest U.S. banks. Channels are email (full message: subject, preheader, body, CTA), direct mail, web banners, social ads, SMS, and push through partner platforms, delivered via 121 documented integrations, 27 of them email and messaging platforms: Salesforce Marketing Cloud, Adobe Campaign Classic and Journey Optimizer, Braze, Oracle Eloqua and Responsys, and SAP Emarsys among them. Publicly named customers are banks: Bank of America, U.S. Bank, Ally, NatWest, Discover, TD Bank, LendingClub, and M&T Bank. Founded in 2012, headquartered in New York, and independent as Persado Inc. under co-founders Alex Vratskides and Assaf Baciu, it sells through demo requests only, with onboarding quoted at roughly four weeks and no published pricing.

@@ -150,7 +150,7 @@ def build_page():
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>Trending</span></nav>
 <section class="page-head">
   <h1>Open-source martech momentum</h1>
-  <p class="sub">Every morning we snapshot the GitHub stars of the {n_repos} open-source tools in the directory. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
+  <p class="sub">Every morning we snapshot the GitHub stars of the {n_repos} tracked open-source tools from the directory. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
   <p class="count">{n_repos} REPOS &middot; {len(hist)} DAILY SNAPSHOTS &middot; WINDOW {esc(d0)} TO {esc(d1)}</p>
 </section>
 <section class="trend-note">
@@ -175,7 +175,7 @@ def build_page():
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Open-Source MarTech Momentum",
-        "description": f"GitHub star momentum for {n_repos} open-source marketing tools, window {d0} to {d1}.",
+        "description": f"GitHub star momentum for {n_repos} tracked open-source marketing tools, window {d0} to {d1}.",
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "dateModified": d1,
@@ -194,7 +194,7 @@ def build_page():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
         "Open-Source MarTech Momentum: GitHub Stars | MartechSignal",
-        f"Daily GitHub star tracking for {n_repos} open-source marketing tools. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
+        f"Daily GitHub star tracking for {n_repos} tracked open-source marketing tools. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
         "/trending/", body, [schema, breadcrumb]))
     print(f"  \u2713 {out.relative_to(ROOT)}  ({len(hist)} snapshots, {n_repos} repos, window {d0}..{d1})")
     return out

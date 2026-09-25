@@ -12,7 +12,7 @@ The open-source alternative has quietly matured. Tools like [n8n](/tools/n8n/) (
 
 We went through our [directory of 23 open-source marketing tools](/categories/open-source/) and built a complete stack, category by category. Then we compared it against the commercial incumbents on cost, features, and the thing nobody talks about: **what "free" actually costs.**
 
-## 1. CRM — The Foundation
+## 1. CRM: The Foundation
 
 | Open Source | Stars | Cost | Commercial | Cost |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@ This is the most mature OSS category. **Plausible** and **Umami** have effective
 
 **Matomo** is the full GA replacement. Heatmaps, session recordings, form analytics, tag manager. It's what you deploy when legal says "no more Google."
 
-**Snowplow** is the data infrastructure layer. Event collection and enrichment that feeds your own data warehouse. It's what Segment charges $120+/mo for, self-hosted for free.
+**Snowplow** is the data infrastructure layer. Event collection and enrichment that [feeds your own data warehouse](/blog/you-dont-need-new-data-stack-fivetran/). It's what Segment charges $120+/mo for, self-hosted for free.
 
 > **✅ OSS Wins: Privacy & Ownership**
 
@@ -103,7 +103,7 @@ Contentful at $300/mo for what Strapi does free is the easiest ROI calculation i
 
 > **⚖️ Tie: Feature Parity, UX Gap**
 
-Chatwoot has the features. Intercom has the polish. Their Fin AI agent is genuinely the strongest on the market. For budget-conscious teams, Chatwoot is the move. For teams where support IS the product, Intercom's UX investment pays off.
+Chatwoot has the features. Intercom has the polish. Their [Fin AI agent](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/) is genuinely the strongest on the market. For budget-conscious teams, Chatwoot is the move. For teams where support IS the product, Intercom's UX investment pays off.
 
 ## The Real Cost Comparison
 
@@ -112,7 +112,7 @@ Here's what a complete martech stack costs for a 10-person marketing team managi
 | Function | Commercial | OSS Self-Hosted | OSS Cloud |
 |---|---|---|---|
 | CRM | $800/mo | $0 | $0 |
-| Email | $350/mo | $15/mo | — |
+| Email | $350/mo | $15/mo | n/a |
 | Automation | $70/mo | $0 | €20/mo |
 | Analytics | $288/mo | $0 | $9/mo |
 | CMS | $300/mo | $0 | $15/mo |
@@ -139,7 +139,7 @@ For most teams, the answer isn't all-OSS or all-commercial. It's:
 
 The open-source martech stack in 2026 is no longer a compromise. For CRM, email, analytics, automation, and content management, the OSS alternatives are **feature-competitive, actively maintained, and often better** on privacy and data ownership.
 
-The 97% cost savings is real. The trade-off is engineering time and operational responsibility. For teams with even one technical person, the math favors open source.
+The 97% cost savings is real. The trade-off is engineering time and operational responsibility. For [teams with even one technical person](/blog/nocobase-vs-nocodb-vs-budibase/), the math favors open source.
 
 The commercial vendors' moat is no longer features. It's **convenience, compliance, and AI models trained on proprietary data**. Choose them for those reasons, not because you think there's no alternative.
 
@@ -150,7 +150,7 @@ The commercial vendors' moat is no longer features. It's **convenience, complian
 </section><section class="related-tools">
 ## Related tools
 
-- [Cordys CRM](/tools/cordys-crm/) — Open-source AI CRM with built-in agents, conversational analytics, and private deployment- [Relaticle](/tools/relaticle/) — Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament- [ALwrity](/tools/alwrity/) — AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+- [Cordys CRM](/tools/cordys-crm/): Open-source AI CRM with built-in agents, conversational analytics, and private deployment- [Relaticle](/tools/relaticle/): Open-source CRM with native AI agent support, 30 MCP tools, REST API, Laravel & Filament- [ALwrity](/tools/alwrity/): AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 </section>
 
 ### Browse the Full Open-Source Stack

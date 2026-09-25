@@ -7,7 +7,7 @@ author: Tim Christensen
 tags: [AI, Data Stack, Marketing Operations]
 categories: [analytics]
 ---
-Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.
+[Every AI platform vendor wants to sell you the same story](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/): your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project with two commas and an eighteen-month timeline. Fivetran just published the counter-argument, with receipts.
 
 Earlier this month, Fivetran and data consultancy phData put out a post called ["Building healthcare AI without rebuilding your data platform."](https://www.fivetran.com/blog/building-healthcare-ai-without-rebuilding-your-data-platform) The title is the thesis. Healthcare is one of the most data-hostile industries that exists: thousands of vendor systems per organization, Epic instances nobody wants to touch, compliance review on every connector, and [37% of hospitals running at a loss](https://cthosp.org/daily-news-clip/37-of-hospitals-still-losing-money/) or on margins under 2%. If you can make AI-ready data work there without a rebuild, the "you need a new platform" pitch gets a lot harder to defend anywhere else. Including in your marketing stack.
 
@@ -29,9 +29,9 @@ None of that requires ripping out what you have. It requires replacing the hand-
 
 The evidence is [Inova Health](https://www.fivetran.com/case-studies/inova-health-compresses-4-year-roadmap-into-6-months-to-power-ai), a Northern Virginia health system with 26,000 employees and 4 million patient visits a year. Inova had data scattered across on-prem systems, Epic, SharePoint, flat files, and vendor APIs, with a backlog of pipeline requests that kept growing. Their modernization plan was scoped at four years.
 
-They standardized on Fivetran for ingestion, dbt for transformations, and Databricks as the destination, and finished in six months. The reported numbers: $800,000 in third-party spend eliminated, data movement costs cut up to 8x per terabyte per source, and a backlog of more than 500 pipeline requests cleared.
+They standardized on Fivetran for ingestion, dbt for transformations, and Databricks as the destination, and finished in six months. The reported numbers: $800,000 in [third-party spend](/blog/martech-budget-bleeding-nobody-measuring/) eliminated, data movement costs cut up to 8x per terabyte per source, and a backlog of more than 500 pipeline requests cleared.
 
-One detail matters more than the headline. Inova's Adobe Experience Platform integration had been stalled for months on fragmented pipelines and complex APIs. With managed connectors, they had it running in under a week. That is a marketing system. The same bottleneck your team knows, solved by swapping custom engineering for a connector, not by buying a new platform.
+One detail matters more than the headline. Inova's Adobe Experience Platform integration had been stalled for months on fragmented pipelines and complex APIs. With [managed connectors](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/), they had it running in under a week. That is a marketing system. The same bottleneck your team knows, solved by swapping custom engineering for a connector, not by buying a new platform.
 
 ::: callout
 **The numbers are vendor-reported.** Inova's chief data and AI officer is on record backing them ("We accelerated a 4-year roadmap into 6 months"), and the case study is on Fivetran's site, so treat the figures as the best available rather than audited. The shape of the story, though, matches what Gartner and others report independently: the projects that stall are the ones that over-build.

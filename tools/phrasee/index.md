@@ -1,0 +1,11 @@
+# Phrasee | MartechSignal review
+
+AI messaging content platform; rebranded as Jacquard in June 2024
+
+- Page: https://martechsignal.com/tools/phrasee/
+- Category: AI Content & Copywriting
+- Pricing: Enterprise
+- Open source: no
+- Last verified: 2026-09-07
+
+Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. The product intent is unchanged: AI-generated, brand-safe short-form marketing copy generated, predicted, and tested at enterprise send volumes. The current platform documents four engines (Language, Neural, Optimise, Contextual) and describes a neuro-symbolic architecture combining generative AI with deterministic rules for tone, structure, and compliance. Language enforces what the company calls strict, deterministic guardrails, style guides and AI tone-of-voice analysis keep output sounding like your copywriters, and Neural is described as trained on 60 billion data points from a decade of messaging experiments, with a claimed 66% win rate predicting top variants against human controls. Every send is documented as an A/B/N test where AI variants compete against a human control, allocated by a multi-armed bandit derivative. Channels on the live site are email, SMS, mobile push, in-app, web push, and ChatGPT apps; social ad copy, which Phrasee marketed in 2023, no longer appears. Two claims in our earlier record needed correcting. Ownership: Phrasee was never acquired by CM Group or Marigold. UK filings show a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners effective March 14, 2022, and the October 2023 event was founder-CEO Parry Malm leaving the board, not a management buyout. Brand controls: the tone-plus-vocabulary-plus-prohibited-language model we described is not the vendor's language; the documented mechanism is style guides, deterministic rules, and an approval process for vetting messages. Founded in London in 2015 by Parry Malm, Victoria Peppiatt, and Neil Yager, it reports 50+ customers, 200 billion sends, and 17M pounds raised. Pricing is quote-based, with no trial and no published price list.

@@ -1,0 +1,11 @@
+# Writer | MartechSignal review
+
+Enterprise AI platform with Palmyra models, brand governance, and agents
+
+- Page: https://martechsignal.com/tools/writer/
+- Category: AI Content & Copywriting
+- Pricing: Paid
+- Open source: no
+- Last verified: 2026-09-25
+
+Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. The Palmyra lineup is now X4, X5, and X6: X6 is described as the default agentic model with a 1M-token context window, published API pricing of $2 per million input tokens and $8 per million output tokens, and a claimed 8 hours of unsupervised task persistence, while X4 carries a documented deprecation date of November 18, 2026. Smaller Palmyra variants have been released as open weights on Hugging Face, including palmyra-mini and two thinking variants under Apache 2.0 in September 2025. On the application layer, WRITER Agent plans and executes work, an Agent Library lists more than 100 prebuilt agents, and AI Studio acts as the control plane for building and governing them. Governance is the real product: voice profiles, terminology lists, style guides, and Skills encode brand rules, and the company states that language is enforced before any reviewer sees a draft. Security posture is unusually explicit: no training on customer data, zero data retention by default, SOC 2 Type II plus ISO 27001, 27701, and 42001, HIPAA and PCI badges, and customer-managed encryption keys. Pricing changed materially in 2026: the plans page now shows a self-serve Starter tier with a 14-day trial capped at 5 users and no published per-seat price, plus quote-based Enterprise with Pro and Lite seat types. Founded in 2020 in San Francisco by May Habib and Waseem AlShikh, Writer reports $326M raised at a $1.9B valuation, and names KPMG, Intuit, Mars, Uber, Vanguard, and Salesforce among customers. Connectors reach into Salesforce, Snowflake, Databricks, Contentful, and Microsoft 365, so agents and answers ground in company data rather than general model knowledge, and the dev docs list LangChain and Amazon Bedrock entry points for engineering teams.

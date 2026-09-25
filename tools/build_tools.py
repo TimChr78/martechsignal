@@ -147,6 +147,9 @@ def pricing_section_html(t):
             else f", paid plans from {_price_money(sym, _entry)}/mo"
     elif paid:
         tail = f", paid plans start at {_price_money(sym, paid)}/mo"
+    # G-2 (v2.4.0 audit): bind the price claim to its verification date.
+    if tail and t.get("date_updated"):
+        tail += f" as of {esc(str(t['date_updated'])[:7])}"
     url = str(t.get("pricing_url") or "").strip()
     link = ""
     if url and url != "#":
@@ -411,6 +414,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:description" content="{esc(description)}">
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
+<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -702,7 +706,7 @@ def build_tool_page(t, cats, all_tools):
         "marketing-automation": ["marketing-automation", "customer-journey", "lead-scoring", "mql-sql"],
         "workflow-automation": ["workflow-automation", "agentic-marketing", "mcp", "ai-agent"],
         "crm": ["crm", "lead-scoring", "mql-sql", "customer-journey", "first-party-data"],
-        "analytics": ["attribution", "marketing-attribution-models", "first-party-data"],
+        "analytics": ["marketing-attribution-models", "first-party-data", "dmp"],
         "email-marketing": ["email-sequence", "deliverability"],
         "advertising": ["dsp", "dco", "programmatic-advertising", "cro"],
         "personalization": ["personalization", "cro", "first-party-data"],
@@ -1019,7 +1023,7 @@ def build_tool_page(t, cats, all_tools):
   <h1>{esc(t['name'])} Review</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated {esc(t.get('date_updated',''))}</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated {esc(t.get('date_updated',''))}</p>
 </section>
 <div class="detail">
   <div class="detail-main">
@@ -1067,6 +1071,12 @@ def build_tool_page(t, cats, all_tools):
         "name": t["name"],
         "description": t.get("tagline", ""),
         "url": t.get("website", ""),
+        # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
+        "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
+        # SX-2 (v2.4.0 audit): named author on every tool page — the site's one E-E-A-T lever.
+        "author": {"@type": "Person", "name": "Tim Christensen",
+                   "url": "https://martechsignal.com/authors/tim-christensen/",
+                   "@id": "https://martechsignal.com/authors/tim-christensen/#person"},
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         # M7: single org identity - defined once on the homepage, referenced everywhere.
@@ -1268,7 +1278,14 @@ def build_category_page(cat, tools):
         cards = "".join(tool_card_html(t) for t in cat_tools)
         intro_html = ""
         if cat.get("intro"):
-            intro_html = f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(cat["intro"])}</p>'
+            # C-1: intros may hold 2-3 paragraphs (blank-line separated string or
+            # list of strings); render one <p> per paragraph, single <p> otherwise.
+            _intro = cat["intro"]
+            _paras = _intro if isinstance(_intro, list) else re.split(r"\n\s*\n", _intro.strip())
+            intro_html = "".join(
+                f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(p.strip())}</p>'
+                for p in _paras if p.strip()
+            )
         body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{cat_h1(cat['name'])}</h1>
@@ -1678,17 +1695,18 @@ def build_llms_txt(tools, cats):
     """Generate llms.txt (site summary + structured inventory for AI crawlers)."""
     import re as _re
     cat_names = {c["slug"]: c["name"] for c in cats}
+    active = [t for t in tools if t.get("status") == "active"]
+    n_active = len(active)  # SX-4: every count claim derived from data, none hardcoded
     lines = [
         "# MartechSignal",
         "",
         "> Independent reviews of AI marketing automation tools. Structured audits of",
-        "> 100+ martech platforms | pricing, self-hosting, APIs, and which AI features",
+        f"> {n_active} martech platforms | pricing, self-hosting, APIs, and which AI features",
         "> actually ship. No sponsored rankings, no affiliate links.",
         "",
         "## Directory",
         "",
     ]
-    active = [t for t in tools if t.get("status") == "active"]
     by_cat = {}
     for t in active:
         by_cat.setdefault(t.get("category", "other"), []).append(t)
@@ -1737,12 +1755,19 @@ def build_llms_txt(tools, cats):
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
-    lines += ["", "## Links", "", "- [Blog](https://martechsignal.com/blog/)",
+    lines += ["", "## Links", "",
+              "- [Full content mirror](https://martechsignal.com/llms-full.txt)",
+              "- [Home](https://martechsignal.com/)",
+              "- [Blog](https://martechsignal.com/blog/)",
               "- [Tool directory](https://martechsignal.com/tools/)",
+              "- [Categories](https://martechsignal.com/categories/)",
+              "- [Trending open-source tools](https://martechsignal.com/trending/)",
               "- [Glossary](https://martechsignal.com/glossary/)",
               "- [Checklist](https://martechsignal.com/checklist/)",
               "- [About / editorial policy](https://martechsignal.com/about/)",
               "- [Author](https://martechsignal.com/authors/tim-christensen/)",
+              "- [Contact](https://martechsignal.com/contact/)",
+              "- [Corrections](https://martechsignal.com/corrections/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
     out.write_text("\n".join(lines))
@@ -1769,6 +1794,44 @@ def build_llms_txt(tools, cats):
     full_out = ROOT / "llms-full.txt"
     full_out.write_text("\n".join(full_lines))
     print(f"llms-full.txt: {full_out} ({len(full_lines)} lines)")
+
+    # A-1 (v2.4.0 audit): build-time Markdown mirror from the same source as
+    # llms-full.txt, served as <url>/index.md. Honesty note (from the audit): no
+    # primary source proves agents send Accept: text/markdown — this is a cheap
+    # bet on the channel, not a confirmed one.
+    md_n = 0
+    for cslug, ts in sorted(by_cat.items()):
+        for t in ts:
+            desc = (t.get("description") or "").strip()
+            md = [f"# {t['name']} | MartechSignal review", "",
+                  t.get("tagline", ""), "",
+                  f"- Page: https://martechsignal.com/tools/{t['slug']}/",
+                  f"- Category: {cat_names.get(cslug, cslug)}",
+                  f"- Pricing: {pricing_label(t)}",
+                  f"- Open source: {'yes (' + str(t.get('license')) + ')' if t.get('open_source') else 'no'}",
+                  f"- Last verified: {t.get('date_updated', '')}", ""]
+            for para in desc.split("\n"):
+                para = para.strip()
+                if para:
+                    md += [para, ""]
+            d = ROOT / "tools" / t["slug"]
+            if d.is_dir():
+                (d / "index.md").write_text("\n".join(md))
+                md_n += 1
+    for c in cats:
+        d = ROOT / "categories" / c["slug"]
+        if d.is_dir():
+            members = [x["name"] for x in active if x.get("category") == c["slug"]
+                       or (c["slug"] == "open-source" and x.get("open_source"))]
+            body = [f"# {c['name']} | MartechSignal category", "",
+                    c.get("description") or c.get("intro") or "", "",
+                    f"- Page: https://martechsignal.com/categories/{c['slug']}/",
+                    f"- Tools: {len(members)}", ""] + [f"- {n}" for n in sorted(members)]
+            (d / "index.md").write_text("\n".join(body))
+            md_n += 1
+    (ROOT / "index.md").write_text("\n".join(lines))
+    md_n += 1
+    print(f"A-1 markdown mirror: {md_n} .md files written")
 
 
 

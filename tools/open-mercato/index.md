@@ -1,0 +1,11 @@
+# Open Mercato | MartechSignal review
+
+Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
+
+- Page: https://martechsignal.com/tools/open-mercato/
+- Category: Agent Skills
+- Pricing: Open Source
+- Open source: yes (MIT)
+- Last verified: 2026-09-07
+
+Open Mercato is an MIT-licensed TypeScript framework that positions itself as an AI-engineering foundation for commerce, CRM, and ERP builds: business modules and platform conventions ship pre-decided, so human developers and AI coding agents build features instead of re-arguing architecture on every prompt. The pitch is starting at 80% done. The stack is a Yarn-workspaces monorepo on Next.js App Router with MikroORM, zod, Redis, and Meilisearch, and the core package ships catalog, sales (quoting, ordering, fulfillment, billing, payment gateways, shipping carriers), a CRM module with people, companies, deals, and activities, a customer self-service portal, checkout, workflows, business rules, custom entities, translations, dashboards, audit logs, and API keys. Multi-tenancy is the default posture: a directory module provisions tenants and organization trees, tenant and organization context propagates so queries filter themselves, and per-tenant field-level encryption uses AES-GCM. RBAC is two-layer, roles bundling module.action feature strings with per-user, per-tenant overrides. The AI story is documented rather than implied: the repo carries an AGENTS.md spec-first workflow, a standalone AI development harness with 192 evaluation cases and tool configuration for Claude Code, Codex, and Cursor, an in-product AI framework with typed module agents and a mutation-approval gate, and an MCP server exposing about 70 tools. An Enterprise Edition package adds SSO with OIDC and SCIM, MFA, and record locks outside the MIT core, with no published pricing. A public demo runs at demo.openmercato.com, sandboxes at sandboxes.openmercato.com, and community chat on Discord. Version 0.7.0 shipped on August 26, 2026, and the requirements are honest about weight: Node 24, PostgreSQL 17 with pgvector, Redis 7, and Meilisearch via Docker Compose. This is a foundation framework, not a product: compare it against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM.

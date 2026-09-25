@@ -1,0 +1,86 @@
+# Open-Source Tools | MartechSignal category
+
+The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation
+
+- Page: https://martechsignal.com/categories/open-source/
+- Tools: 79
+
+- AI Business Skills
+- AI Marketing Suite
+- ALwrity
+- Aaron Marketing Skills
+- AlphOne
+- Analytics Tracking Automation
+- Apache Unomi
+- Appsmith
+- BillionMail
+- Budibase
+- ChatbotX
+- Chatwoot
+- Claude Ads
+- Claude SEO
+- Cordys CRM
+- DeskcommCRM
+- Diffmode Growth Tactics
+- Digital Marketing Pro
+- Django CRM
+- Dolibarr ERP/CRM
+- Email Marketing Bible
+- EspoCRM
+- Eve Marketing Team Template
+- Ever Gauzy
+- Flagsmith
+- Frappe CRM
+- Ghost
+- Google Ads + Meta Ads + GA4 MCP
+- Growth Lab
+- GrowthBook
+- IDURAR ERP & CRM
+- Jitsu
+- Khoj
+- Krayin CRM
+- LangChain
+- LanguageTool
+- Laudspeaker
+- LibreTranslate
+- Line Harness
+- Listmonk
+- Macro
+- Maizzle
+- Marketing Studio
+- Matomo
+- Mautic
+- Monica
+- MultiPost
+- NocoBase
+- NocoDB
+- Notifo
+- Notifuse
+- Open Mercato
+- OpenClaw Marketing Skills
+- OpenOutreach
+- OpenSEO
+- Paperclip
+- Plausible Analytics
+- PostHog
+- Potato
+- Promptfoo
+- ProspectOS
+- React Email Editor
+- Relaticle
+- Revive Adserver
+- SEO Skill Bench
+- Seonaut
+- Snowplow
+- Strapi
+- SuiteCRM
+- ToolJet
+- Twenty
+- Umami
+- WaCRM
+- Warmbly
+- Warpdrive
+- Zapier GTM Cheat Codes
+- advertools
+- n8n
+- n8n Marketing Flows

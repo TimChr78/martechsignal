@@ -1,0 +1,11 @@
+# Umami | MartechSignal review
+
+Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
+
+- Page: https://martechsignal.com/tools/umami/
+- Category: Analytics & Attribution
+- Pricing: Open Source
+- Open source: yes (MIT)
+- Last verified: 2026-09-07
+
+Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,600 GitHub stars. It tracks pageviews, sessions, referrers, countries, devices, UTM parameters, and custom events without cookies and without collecting personal data, which is why sites use it to drop consent banners entirely. The v3 line has grown well past simple dashboards: session replay (v3.1, rrweb-based, off by default, replays kept 30 days), click and scroll heatmaps (v3.2), an attribution report with first-click and last-click models, funnels, retention, revenue, journey, and UTM reports, custom Boards dashboards, and TOTP two-factor auth, plus short links and tracking pixels on the cloud platform. Deployment is a Node.js app (18.18+) on PostgreSQL (12.14 minimum); v3 removed MySQL and MariaDB, and the docs publish a migration path through v2.19 for anyone still on MySQL. Install is docker compose up -d with a two-service file (app plus postgres:15-alpine) or pnpm install and pnpm run build from source; the build creates an admin/umami login you replace on first sign-in. Self-hosted instances keep an admin-only API, retain data indefinitely, and can turn off the app's anonymous telemetry with one environment variable. Cloud pricing is usage-based per event rather than per seat: Hobby is free to 100,000 events a month, Pro is $20 for 1 million, Business is $200 for 10 million with session replay, heatmaps, and the streaming API included, and Enterprise is custom. Self-hosted installs get the core analytics but not email reports or the streaming API. Compared with Google Analytics, Umami trades ad-ecosystem integrations and behavioral depth for a script the vendor puts under 2KB, no sampling, and full data ownership; compared with Matomo, it is lighter and less configurable. Best for developers and privacy-conscious marketing teams that want campaign and conversion numbers without surveillance overhead.

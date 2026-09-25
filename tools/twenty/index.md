@@ -1,0 +1,11 @@
+# Twenty | MartechSignal review
+
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+- Page: https://martechsignal.com/tools/twenty/
+- Category: CRM
+- Pricing: Open Source
+- Open source: yes (AGPL-3.0)
+- Last verified: 2026-09-07
+
+Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. Standard objects cover companies, people, opportunities, tasks, and notes, and custom objects get the same first-class treatment: API endpoints, views, permissions, and workflow triggers, with 20-plus field types, many-to-many relations, and no limits on objects or fields on any plan. The project is unusually honest about fit: its docs name startups with technical founders, agencies fluent in TypeScript, and privacy-conscious organizations that want to self-host, while pointing teams that want a CRM they never think about to Pipedrive or HubSpot. Documented AI is narrower than the tagline suggests: an AI chatbot with access to workspace data, AI agents inside workflows (enrichment from public sources, auto-drafting email replies), AI-built dashboards, and a native MCP server on cloud workspaces, which the site claims but the docs do not yet document. Integrations center on Gmail, Google Calendar, Outlook, and Microsoft Calendar, with IMAP, SMTP, and CalDAV for anything else, signed outbound webhooks on every object including custom ones, and a five-app marketplace (Slack, Exa, People Data Labs, and others). There is no mobile app and no static API reference, because each workspace has its own schema. Self-hosting is free and carries all Pro features on Docker Compose (2 GB RAM minimum, PostgreSQL 15 or newer, and losing ENCRYPTION_KEY loses every stored secret); premium features such as SSO and audit logs need a paid Enterprise key even self-hosted. Cloud Pro is $9 per user per month billed yearly, Organization is $19, and Enterprise starts at $50,000 a year. At 56,000-plus stars with several tagged releases a week, it is the fastest-moving CRM here, and it reads like it.

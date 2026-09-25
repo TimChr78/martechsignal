@@ -1,0 +1,4 @@
+Contact: https://martechsignal.com/contact/
+Expires: 2027-09-25T00:00:00.000Z
+Preferred-Languages: en
+Policy: https://martechsignal.com/terms/

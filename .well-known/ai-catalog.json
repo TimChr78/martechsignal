@@ -1,0 +1,2172 @@
+{
+ "specVersion": "1.0",
+ "publisher": "https://martechsignal.com/",
+ "entries": [
+  {
+   "identifier": "urn:air:martechsignal.com:tools:aaron-marketing-skills",
+   "displayName": "Aaron Marketing Skills review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/aaron-marketing-skills/",
+   "description": "120 marketing skills across 7 disciplines for Claude Code with auditor gates",
+   "representativeQueries": [
+    "open source aaron marketing skills",
+    "Aaron Marketing Skills pricing",
+    "Aaron Marketing Skills alternatives",
+    "agent skills tools like Aaron Marketing Skills"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:accuranker",
+   "displayName": "AccuRanker review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/accuranker/",
+   "description": "Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews",
+   "representativeQueries": [
+    "AccuRanker pricing",
+    "AccuRanker alternatives",
+    "geo llm visibility tools like AccuRanker"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:activecampaign",
+   "displayName": "ActiveCampaign review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/activecampaign/",
+   "description": "AI-powered marketing automation and CRM for small to mid-size businesses",
+   "representativeQueries": [
+    "ActiveCampaign pricing",
+    "ActiveCampaign alternatives",
+    "marketing automation tools like ActiveCampaign"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:adcreative-ai",
+   "displayName": "AdCreative.ai review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/adcreative-ai/",
+   "description": "AI platform generating high-converting ad creatives and social media post designs",
+   "representativeQueries": [
+    "AdCreative.ai pricing",
+    "AdCreative.ai alternatives",
+    "advertising tools like AdCreative.ai"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:adobe-llm-optimizer",
+   "displayName": "Adobe LLM Optimizer review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/adobe-llm-optimizer/",
+   "description": "Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution",
+   "representativeQueries": [
+    "Adobe LLM Optimizer pricing",
+    "Adobe LLM Optimizer alternatives",
+    "geo llm visibility tools like Adobe LLM Optimizer"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:adobe-marketo",
+   "displayName": "Adobe Marketo Engage review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/adobe-marketo/",
+   "description": "Enterprise B2B marketing automation with AI-driven lead management and engagement",
+   "representativeQueries": [
+    "Adobe Marketo Engage pricing",
+    "Adobe Marketo Engage alternatives",
+    "marketing automation tools like Adobe Marketo Engage"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:advertools",
+   "displayName": "advertools review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/advertools/",
+   "description": "Python toolkit for SEO and advertising analysis in pandas DataFrames",
+   "representativeQueries": [
+    "open source advertools",
+    "advertools pricing",
+    "advertools alternatives",
+    "advertising tools like advertools"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ahrefs",
+   "displayName": "Ahrefs review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ahrefs/",
+   "description": "Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit",
+   "representativeQueries": [
+    "Ahrefs pricing",
+    "Ahrefs alternatives",
+    "geo llm visibility tools like Ahrefs"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ai-business-skills",
+   "displayName": "AI Business Skills review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ai-business-skills/",
+   "description": "63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents",
+   "representativeQueries": [
+    "open source ai business skills",
+    "AI Business Skills pricing",
+    "AI Business Skills alternatives",
+    "agent skills tools like AI Business Skills"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ai-marketing-claude",
+   "displayName": "AI Marketing Suite review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ai-marketing-claude/",
+   "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
+   "representativeQueries": [
+    "open source ai marketing suite",
+    "AI Marketing Suite pricing",
+    "AI Marketing Suite alternatives",
+    "agent skills tools like AI Marketing Suite"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:albert-ai",
+   "displayName": "Albert AI review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/albert-ai/",
+   "description": "Autonomous AI platform that manages and optimizes digital advertising campaigns",
+   "representativeQueries": [
+    "Albert AI pricing",
+    "Albert AI alternatives",
+    "advertising tools like Albert AI"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:alphone",
+   "displayName": "AlphOne review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/alphone/",
+   "description": "Plugin-first CRM (source-available, Elastic 2.0) written in Go",
+   "representativeQueries": [
+    "open source alphone",
+    "AlphOne pricing",
+    "AlphOne alternatives",
+    "crm tools like AlphOne"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:alwrity",
+   "displayName": "ALwrity review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/alwrity/",
+   "description": "AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social",
+   "representativeQueries": [
+    "open source alwrity",
+    "ALwrity pricing",
+    "ALwrity alternatives",
+    "marketing automation tools like ALwrity"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:amplitude",
+   "displayName": "Amplitude review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/amplitude/",
+   "description": "AI-powered digital analytics platform for product and marketing teams",
+   "representativeQueries": [
+    "Amplitude pricing",
+    "Amplitude alternatives",
+    "analytics tools like Amplitude"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:analytics-tracking-automation",
+   "displayName": "Analytics Tracking Automation review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/analytics-tracking-automation/",
+   "description": "AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live",
+   "representativeQueries": [
+    "open source analytics tracking automation",
+    "Analytics Tracking Automation pricing",
+    "Analytics Tracking Automation alternatives",
+    "agent skills tools like Analytics Tracking Automation"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:anyword",
+   "displayName": "Anyword review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/anyword/",
+   "description": "AI copywriting platform with predictive performance scores for marketing content",
+   "representativeQueries": [
+    "Anyword pricing",
+    "Anyword alternatives",
+    "content ai tools like Anyword"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:apache-unomi",
+   "displayName": "Apache Unomi review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/apache-unomi/",
+   "description": "Apache's open-source customer data platform and personalization engine",
+   "representativeQueries": [
+    "open source apache unomi",
+    "Apache Unomi pricing",
+    "Apache Unomi alternatives",
+    "personalization tools like Apache Unomi"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:appsmith",
+   "displayName": "Appsmith review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/appsmith/",
+   "description": "Open-source platform for building admin panels and internal dashboards on your existing databases and APIs",
+   "representativeQueries": [
+    "open source appsmith",
+    "Appsmith pricing",
+    "Appsmith alternatives",
+    "workflow automation tools like Appsmith"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:attio",
+   "displayName": "Attio review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/attio/",
+   "description": "AI-native CRM with real-time data enrichment and agentic revenue workflows",
+   "representativeQueries": [
+    "Attio pricing",
+    "Attio alternatives",
+    "crm tools like Attio"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:attribution",
+   "displayName": "Attribution review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/attribution/",
+   "description": "AI-powered marketing attribution platform connecting ad spend to revenue",
+   "representativeQueries": [
+    "Attribution pricing",
+    "Attribution alternatives",
+    "analytics tools like Attribution"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:billionmail",
+   "displayName": "BillionMail review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/billionmail/",
+   "description": "Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free",
+   "representativeQueries": [
+    "open source billionmail",
+    "BillionMail pricing",
+    "BillionMail alternatives",
+    "email marketing tools like BillionMail"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:bloomreach",
+   "displayName": "Bloomreach review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/bloomreach/",
+   "description": "AI-powered commerce experience platform with search, personalization, and CDP",
+   "representativeQueries": [
+    "Bloomreach pricing",
+    "Bloomreach alternatives",
+    "marketing automation tools like Bloomreach"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:brandwatch",
+   "displayName": "Brandwatch review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/brandwatch/",
+   "description": "AI-powered consumer intelligence and social media management platform",
+   "representativeQueries": [
+    "Brandwatch pricing",
+    "Brandwatch alternatives",
+    "social media tools like Brandwatch"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:braze",
+   "displayName": "Braze review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/braze/",
+   "description": "Customer engagement platform with AI-powered real-time messaging across channels",
+   "representativeQueries": [
+    "Braze pricing",
+    "Braze alternatives",
+    "marketing automation tools like Braze"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:budibase",
+   "displayName": "Budibase review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/budibase/",
+   "description": "Open-source operations platform for building AI agents, apps and automations on your own data",
+   "representativeQueries": [
+    "open source budibase",
+    "Budibase pricing",
+    "Budibase alternatives",
+    "workflow automation tools like Budibase"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:buffer",
+   "displayName": "Buffer review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/buffer/",
+   "description": "Simple social media scheduling and analytics with AI-powered content tools",
+   "representativeQueries": [
+    "Buffer pricing",
+    "Buffer alternatives",
+    "social media tools like Buffer"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:chatbotx",
+   "displayName": "ChatbotX review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/chatbotx/",
+   "description": "Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation",
+   "representativeQueries": [
+    "open source chatbotx",
+    "ChatbotX pricing",
+    "ChatbotX alternatives",
+    "chatbots tools like ChatbotX"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:chatfuel",
+   "displayName": "Chatfuel review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/chatfuel/",
+   "description": "AI chatbot platform for automating customer conversations on messaging channels",
+   "representativeQueries": [
+    "Chatfuel pricing",
+    "Chatfuel alternatives",
+    "chatbots tools like Chatfuel"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:chatwoot",
+   "displayName": "Chatwoot review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/chatwoot/",
+   "description": "Open-source customer engagement suite with Captain AI and full self-hosting",
+   "representativeQueries": [
+    "open source chatwoot",
+    "Chatwoot pricing",
+    "Chatwoot alternatives",
+    "chatbots tools like Chatwoot"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:claude-ads",
+   "displayName": "Claude Ads review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/claude-ads/",
+   "description": "Paid-media operations skill for Claude Code covering 12 ad platforms",
+   "representativeQueries": [
+    "open source claude ads",
+    "Claude Ads pricing",
+    "Claude Ads alternatives",
+    "agent skills tools like Claude Ads"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:claude-seo",
+   "displayName": "Claude SEO review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/claude-seo/",
+   "description": "Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents",
+   "representativeQueries": [
+    "open source claude seo",
+    "Claude SEO pricing",
+    "Claude SEO alternatives",
+    "agent skills tools like Claude SEO"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:clearscope",
+   "displayName": "Clearscope review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/clearscope/",
+   "description": "AI-powered content optimization platform for SEO teams and content writers",
+   "representativeQueries": [
+    "Clearscope pricing",
+    "Clearscope alternatives",
+    "seo tools like Clearscope"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:clerk-io",
+   "displayName": "Clerk.io review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/clerk-io/",
+   "description": "AI-powered ecommerce personalization with search, recommendations, and email",
+   "representativeQueries": [
+    "Clerk.io pricing",
+    "Clerk.io alternatives",
+    "personalization tools like Clerk.io"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:codex-seo",
+   "displayName": "Codex SEO review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/codex-seo/",
+   "description": "Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations",
+   "representativeQueries": [
+    "Codex SEO pricing",
+    "Codex SEO alternatives",
+    "agent skills tools like Codex SEO"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:contentbot",
+   "displayName": "ContentBot review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/contentbot/",
+   "description": "AI content automation platform with workflows for blogs, ads, and social posts",
+   "representativeQueries": [
+    "ContentBot pricing",
+    "ContentBot alternatives",
+    "content ai tools like ContentBot"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:copy-ai",
+   "displayName": "Copy.ai review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/copy-ai/",
+   "description": "AI-powered GTM platform for sales and marketing content automation at scale",
+   "representativeQueries": [
+    "Copy.ai pricing",
+    "Copy.ai alternatives",
+    "content ai tools like Copy.ai"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:cordys-crm",
+   "displayName": "Cordys CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/cordys-crm/",
+   "description": "Open-source AI CRM with built-in agents, conversational analytics, and private deployment",
+   "representativeQueries": [
+    "open source cordys crm",
+    "Cordys CRM pricing",
+    "Cordys CRM alternatives",
+    "crm tools like Cordys CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:customer-io",
+   "displayName": "Customer.io review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/customer-io/",
+   "description": "Data-driven messaging platform for automated email, push, SMS, and in-app messages",
+   "representativeQueries": [
+    "Customer.io pricing",
+    "Customer.io alternatives",
+    "email marketing tools like Customer.io"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:deskcommcrm",
+   "displayName": "DeskcommCRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/deskcommcrm/",
+   "description": "Self-hosted open-source CRM with AI agents that sell through WhatsApp",
+   "representativeQueries": [
+    "open source deskcommcrm",
+    "DeskcommCRM pricing",
+    "DeskcommCRM alternatives",
+    "crm tools like DeskcommCRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:diffmode-growth-tactics",
+   "displayName": "Diffmode Growth Tactics review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/diffmode-growth-tactics/",
+   "description": "Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays",
+   "representativeQueries": [
+    "open source diffmode growth tactics",
+    "Diffmode Growth Tactics pricing",
+    "Diffmode Growth Tactics alternatives",
+    "agent skills tools like Diffmode Growth Tactics"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:digital-marketing-pro",
+   "displayName": "Digital Marketing Pro review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+   "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
+   "representativeQueries": [
+    "open source digital marketing pro",
+    "Digital Marketing Pro pricing",
+    "Digital Marketing Pro alternatives",
+    "agent skills tools like Digital Marketing Pro"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:django-crm",
+   "displayName": "Django CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/django-crm/",
+   "description": "Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting",
+   "representativeQueries": [
+    "open source django crm",
+    "Django CRM pricing",
+    "Django CRM alternatives",
+    "crm tools like Django CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:dolibarr",
+   "displayName": "Dolibarr ERP/CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/dolibarr/",
+   "description": "Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app",
+   "representativeQueries": [
+    "open source dolibarr erp/crm",
+    "Dolibarr ERP/CRM pricing",
+    "Dolibarr ERP/CRM alternatives",
+    "crm tools like Dolibarr ERP/CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:dynamic-yield",
+   "displayName": "Dynamic Yield review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/dynamic-yield/",
+   "description": "AI-powered personalization platform for web, mobile, and email experiences",
+   "representativeQueries": [
+    "Dynamic Yield pricing",
+    "Dynamic Yield alternatives",
+    "personalization tools like Dynamic Yield"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:email-marketing-bible",
+   "displayName": "Email Marketing Bible review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/email-marketing-bible/",
+   "description": "55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP",
+   "representativeQueries": [
+    "open source email marketing bible",
+    "Email Marketing Bible pricing",
+    "Email Marketing Bible alternatives",
+    "agent skills tools like Email Marketing Bible"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:espocrm",
+   "displayName": "EspoCRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/espocrm/",
+   "description": "Lightweight open-source CRM with sales automation, marketing tools, and customer management",
+   "representativeQueries": [
+    "open source espocrm",
+    "EspoCRM pricing",
+    "EspoCRM alternatives",
+    "crm tools like EspoCRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:eve-marketing-team",
+   "displayName": "Eve Marketing Team Template review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/eve-marketing-team/",
+   "description": "Open-source team of marketing agents on eve: lead, content, social, SEO, email",
+   "representativeQueries": [
+    "open source eve marketing team template",
+    "Eve Marketing Team Template pricing",
+    "Eve Marketing Team Template alternatives",
+    "agent skills tools like Eve Marketing Team Template"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ever-gauzy",
+   "displayName": "Ever Gauzy review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ever-gauzy/",
+   "description": "Open business management platform: ERP, CRM, HRM, ATS, and time tracking",
+   "representativeQueries": [
+    "open source ever gauzy",
+    "Ever Gauzy pricing",
+    "Ever Gauzy alternatives",
+    "crm tools like Ever Gauzy"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:evertune",
+   "displayName": "Evertune review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/evertune/",
+   "description": "GEO visibility measurement with content activation and a ChatGPT Ad Agent",
+   "representativeQueries": [
+    "Evertune pricing",
+    "Evertune alternatives",
+    "geo llm visibility tools like Evertune"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:flagsmith",
+   "displayName": "Flagsmith review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/flagsmith/",
+   "description": "Open-source feature flag and remote config platform with segment targeting",
+   "representativeQueries": [
+    "open source flagsmith",
+    "Flagsmith pricing",
+    "Flagsmith alternatives",
+    "personalization tools like Flagsmith"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:frappe-crm",
+   "displayName": "Frappe CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/frappe-crm/",
+   "description": "Fully featured, open source CRM",
+   "representativeQueries": [
+    "open source frappe crm",
+    "Frappe CRM pricing",
+    "Frappe CRM alternatives",
+    "crm tools like Frappe CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:frase",
+   "displayName": "Frase review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/frase/",
+   "description": "AI-powered SEO content platform for research, writing, and AI visibility tracking",
+   "representativeQueries": [
+    "Frase pricing",
+    "Frase alternatives",
+    "seo tools like Frase"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:freshsales",
+   "displayName": "Freshsales review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/freshsales/",
+   "description": "AI-powered CRM with built-in phone, email, and chat for sales teams",
+   "representativeQueries": [
+    "Freshsales pricing",
+    "Freshsales alternatives",
+    "crm tools like Freshsales"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ghost",
+   "displayName": "Ghost review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ghost/",
+   "description": "Open-source publishing platform with built-in newsletters, memberships, and AI tools",
+   "representativeQueries": [
+    "open source ghost",
+    "Ghost pricing",
+    "Ghost alternatives",
+    "content ai tools like Ghost"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:google-meta-ads-ga4-mcp",
+   "displayName": "Google Ads + Meta Ads + GA4 MCP review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
+   "description": "MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4",
+   "representativeQueries": [
+    "open source google ads + meta ads + ga4 mcp",
+    "Google Ads + Meta Ads + GA4 MCP pricing",
+    "Google Ads + Meta Ads + GA4 MCP alternatives",
+    "agent skills tools like Google Ads + Meta Ads + GA4 MCP"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:growth-lab",
+   "displayName": "Growth Lab review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/growth-lab/",
+   "description": "Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex",
+   "representativeQueries": [
+    "open source growth lab",
+    "Growth Lab pricing",
+    "Growth Lab alternatives",
+    "agent skills tools like Growth Lab"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:growthbook",
+   "displayName": "GrowthBook review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/growthbook/",
+   "description": "Open-source feature flags and A/B testing with a visual editor and attribute-based targeting",
+   "representativeQueries": [
+    "open source growthbook",
+    "GrowthBook pricing",
+    "GrowthBook alternatives",
+    "personalization tools like GrowthBook"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:heap",
+   "displayName": "Heap review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/heap/",
+   "description": "AI-powered product analytics with autocapture and digital experience insights",
+   "representativeQueries": [
+    "Heap pricing",
+    "Heap alternatives",
+    "analytics tools like Heap"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:hootsuite",
+   "displayName": "Hootsuite review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/hootsuite/",
+   "description": "Social media management platform with AI-powered scheduling and analytics",
+   "representativeQueries": [
+    "Hootsuite pricing",
+    "Hootsuite alternatives",
+    "social media tools like Hootsuite"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:hubspot-crm",
+   "displayName": "HubSpot CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/hubspot-crm/",
+   "description": "Free AI-powered CRM platform with sales, service, and marketing tools unified",
+   "representativeQueries": [
+    "HubSpot CRM pricing",
+    "HubSpot CRM alternatives",
+    "crm tools like HubSpot CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:hubspot-marketing-hub",
+   "displayName": "HubSpot Marketing Hub review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/hubspot-marketing-hub/",
+   "description": "All-in-one marketing automation with AI-powered content, email, and campaign tools",
+   "representativeQueries": [
+    "HubSpot Marketing Hub pricing",
+    "HubSpot Marketing Hub alternatives",
+    "marketing automation tools like HubSpot Marketing Hub"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:hypotenuse-ai",
+   "displayName": "Hypotenuse AI review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/hypotenuse-ai/",
+   "description": "AI content generation platform for ecommerce product descriptions and articles",
+   "representativeQueries": [
+    "Hypotenuse AI pricing",
+    "Hypotenuse AI alternatives",
+    "content ai tools like Hypotenuse AI"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:idurar-erp-crm",
+   "displayName": "IDURAR ERP & CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/idurar-erp-crm/",
+   "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React",
+   "representativeQueries": [
+    "open source idurar erp & crm",
+    "IDURAR ERP & CRM pricing",
+    "IDURAR ERP & CRM alternatives",
+    "crm tools like IDURAR ERP & CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:intercom",
+   "displayName": "Intercom review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/intercom/",
+   "description": "AI-first customer service platform with Fin AI agent and omnichannel messaging",
+   "representativeQueries": [
+    "Intercom pricing",
+    "Intercom alternatives",
+    "chatbots tools like Intercom"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:jasper",
+   "displayName": "Jasper review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/jasper/",
+   "description": "AI marketing content platform for creating on-brand copy, images, and campaigns",
+   "representativeQueries": [
+    "Jasper pricing",
+    "Jasper alternatives",
+    "content ai tools like Jasper"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:jitsu",
+   "displayName": "Jitsu review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/jitsu/",
+   "description": "Open-source Segment alternative for event capture and warehouse-first data pipelines",
+   "representativeQueries": [
+    "open source jitsu",
+    "Jitsu pricing",
+    "Jitsu alternatives",
+    "personalization tools like Jitsu"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:khoj",
+   "displayName": "Khoj review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/khoj/",
+   "description": "Self-hosted AI research and writing assistant that chats with your documents and automates content workflows",
+   "representativeQueries": [
+    "open source khoj",
+    "Khoj pricing",
+    "Khoj alternatives",
+    "content ai tools like Khoj"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:klaviyo",
+   "displayName": "Klaviyo review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/klaviyo/",
+   "description": "AI-powered email and SMS marketing platform built for ecommerce brands",
+   "representativeQueries": [
+    "Klaviyo pricing",
+    "Klaviyo alternatives",
+    "email marketing tools like Klaviyo"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:krayin-crm",
+   "displayName": "Krayin CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/krayin-crm/",
+   "description": "Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management",
+   "representativeQueries": [
+    "open source krayin crm",
+    "Krayin CRM pricing",
+    "Krayin CRM alternatives",
+    "crm tools like Krayin CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:langchain",
+   "displayName": "LangChain review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/langchain/",
+   "description": "Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools",
+   "representativeQueries": [
+    "open source langchain",
+    "LangChain pricing",
+    "LangChain alternatives",
+    "workflow automation tools like LangChain"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:languagetool",
+   "displayName": "LanguageTool review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/languagetool/",
+   "description": "Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages",
+   "representativeQueries": [
+    "open source languagetool",
+    "LanguageTool pricing",
+    "LanguageTool alternatives",
+    "content ai tools like LanguageTool"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:laudspeaker",
+   "displayName": "Laudspeaker review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/laudspeaker/",
+   "description": "Open-source customer engagement and product onboarding platform, alternative to Braze",
+   "representativeQueries": [
+    "open source laudspeaker",
+    "Laudspeaker pricing",
+    "Laudspeaker alternatives",
+    "marketing automation tools like Laudspeaker"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:libretranslate",
+   "displayName": "LibreTranslate review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/libretranslate/",
+   "description": "Open-source machine translation API for content localization, self-hostable and free of vendor lock-in",
+   "representativeQueries": [
+    "open source libretranslate",
+    "LibreTranslate pricing",
+    "LibreTranslate alternatives",
+    "content ai tools like LibreTranslate"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:line-harness",
+   "displayName": "Line Harness review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/line-harness/",
+   "description": "Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control",
+   "representativeQueries": [
+    "open source line harness",
+    "Line Harness pricing",
+    "Line Harness alternatives",
+    "marketing automation tools like Line Harness"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:listmonk",
+   "displayName": "Listmonk review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/listmonk/",
+   "description": "Open-source self-hosted newsletter and mailing list manager with a fast Go backend",
+   "representativeQueries": [
+    "open source listmonk",
+    "Listmonk pricing",
+    "Listmonk alternatives",
+    "email marketing tools like Listmonk"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:loops",
+   "displayName": "Loops review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/loops/",
+   "description": "Email marketing for SaaS: marketing, product, and transactional email in one tool",
+   "representativeQueries": [
+    "Loops pricing",
+    "Loops alternatives",
+    "email marketing tools like Loops"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:macro",
+   "displayName": "Macro review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/macro/",
+   "description": "Open source workspace with a self-updating, agent-driven CRM and shared AI team memory",
+   "representativeQueries": [
+    "open source macro",
+    "Macro pricing",
+    "Macro alternatives",
+    "crm tools like Macro"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:madgicx",
+   "displayName": "Madgicx review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/madgicx/",
+   "description": "AI-powered Meta ads optimization and creative workflow",
+   "representativeQueries": [
+    "Madgicx pricing",
+    "Madgicx alternatives",
+    "advertising tools like Madgicx"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:mailchimp",
+   "displayName": "Mailchimp review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/mailchimp/",
+   "description": "All-in-one marketing platform with AI-powered email, automation, and analytics",
+   "representativeQueries": [
+    "Mailchimp pricing",
+    "Mailchimp alternatives",
+    "email marketing tools like Mailchimp"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:maizzle",
+   "displayName": "Maizzle review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/maizzle/",
+   "description": "Modern email development framework using Tailwind CSS for responsive campaigns",
+   "representativeQueries": [
+    "open source maizzle",
+    "Maizzle pricing",
+    "Maizzle alternatives",
+    "email marketing tools like Maizzle"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:make",
+   "displayName": "Make review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/make/",
+   "description": "Visual automation platform for building complex workflows with AI agents and apps",
+   "representativeQueries": [
+    "Make pricing",
+    "Make alternatives",
+    "workflow automation tools like Make"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:manychat",
+   "displayName": "ManyChat review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/manychat/",
+   "description": "AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger",
+   "representativeQueries": [
+    "ManyChat pricing",
+    "ManyChat alternatives",
+    "chatbots tools like ManyChat"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:marketing-studio",
+   "displayName": "Marketing Studio review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/marketing-studio/",
+   "description": "Agent-driven marketing studio for Claude Code: launch assets from one command",
+   "representativeQueries": [
+    "open source marketing studio",
+    "Marketing Studio pricing",
+    "Marketing Studio alternatives",
+    "agent skills tools like Marketing Studio"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:marketmuse",
+   "displayName": "MarketMuse review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/marketmuse/",
+   "description": "AI-powered content strategy and optimization platform for SEO content teams",
+   "representativeQueries": [
+    "MarketMuse pricing",
+    "MarketMuse alternatives",
+    "seo tools like MarketMuse"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:matomo",
+   "displayName": "Matomo review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/matomo/",
+   "description": "Open-source web analytics platform with full data ownership and AI-powered insights",
+   "representativeQueries": [
+    "open source matomo",
+    "Matomo pricing",
+    "Matomo alternatives",
+    "analytics tools like Matomo"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:mautic",
+   "displayName": "Mautic review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/mautic/",
+   "description": "Open-source marketing automation platform with email, campaigns, and lead management",
+   "representativeQueries": [
+    "open source mautic",
+    "Mautic pricing",
+    "Mautic alternatives",
+    "marketing automation tools like Mautic"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:mixpanel",
+   "displayName": "Mixpanel review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/mixpanel/",
+   "description": "Product analytics platform with AI-powered insights for user behavior tracking",
+   "representativeQueries": [
+    "Mixpanel pricing",
+    "Mixpanel alternatives",
+    "analytics tools like Mixpanel"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:monica",
+   "displayName": "Monica review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/monica/",
+   "description": "Open-source personal CRM for tracking friends, family, and business relationships",
+   "representativeQueries": [
+    "open source monica",
+    "Monica pricing",
+    "Monica alternatives",
+    "crm tools like Monica"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:multipost-extension",
+   "displayName": "MultiPost review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/multipost-extension/",
+   "description": "Browser extension to publish content to multiple social media platforms with one click",
+   "representativeQueries": [
+    "open source multipost",
+    "MultiPost pricing",
+    "MultiPost alternatives",
+    "social media tools like MultiPost"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:n8n",
+   "displayName": "n8n review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/n8n/",
+   "description": "Open-source workflow automation platform with AI agent capabilities and 400+ nodes",
+   "representativeQueries": [
+    "open source n8n",
+    "n8n pricing",
+    "n8n alternatives",
+    "workflow automation tools like n8n"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:n8n-marketing-flows",
+   "displayName": "n8n Marketing Flows review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/n8n-marketing-flows/",
+   "description": "79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO",
+   "representativeQueries": [
+    "open source n8n marketing flows",
+    "n8n Marketing Flows pricing",
+    "n8n Marketing Flows alternatives",
+    "workflow automation tools like n8n Marketing Flows"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:nightwatch",
+   "displayName": "Nightwatch review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/nightwatch/",
+   "description": "Rank tracking across Google and AI answers, priced by keyword with unlimited seats",
+   "representativeQueries": [
+    "Nightwatch pricing",
+    "Nightwatch alternatives",
+    "geo llm visibility tools like Nightwatch"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:nimt-ai",
+   "displayName": "Nimt.ai review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/nimt-ai/",
+   "description": "AI search tracking across 8 models with an agent that writes, fixes, and outreaches",
+   "representativeQueries": [
+    "Nimt.ai pricing",
+    "Nimt.ai alternatives",
+    "geo llm visibility tools like Nimt.ai"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:nocobase",
+   "displayName": "NocoBase review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/nocobase/",
+   "description": "Open-source no-code platform with AI assistance for building business systems fast",
+   "representativeQueries": [
+    "open source nocobase",
+    "NocoBase pricing",
+    "NocoBase alternatives",
+    "workflow automation tools like NocoBase"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:nocodb",
+   "displayName": "NocoDB review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/nocodb/",
+   "description": "Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet",
+   "representativeQueries": [
+    "open source nocodb",
+    "NocoDB pricing",
+    "NocoDB alternatives",
+    "marketing automation tools like NocoDB"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:northbeam",
+   "displayName": "Northbeam review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/northbeam/",
+   "description": "AI-powered multi-touch attribution and marketing intelligence for ecommerce",
+   "representativeQueries": [
+    "Northbeam pricing",
+    "Northbeam alternatives",
+    "analytics tools like Northbeam"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:nosto",
+   "displayName": "Nosto review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/nosto/",
+   "description": "AI-powered ecommerce personalization with product recommendations and merchandising",
+   "representativeQueries": [
+    "Nosto pricing",
+    "Nosto alternatives",
+    "personalization tools like Nosto"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:notifo",
+   "displayName": "Notifo review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/notifo/",
+   "description": "Self-hosted multi-channel notification service for email, SMS, and web push",
+   "representativeQueries": [
+    "open source notifo",
+    "Notifo pricing",
+    "Notifo alternatives",
+    "email marketing tools like Notifo"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:notifuse",
+   "displayName": "Notifuse review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/notifuse/",
+   "description": "Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations",
+   "representativeQueries": [
+    "open source notifuse",
+    "Notifuse pricing",
+    "Notifuse alternatives",
+    "email marketing tools like Notifuse"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:open-mercato",
+   "displayName": "Open Mercato review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/open-mercato/",
+   "description": "Open-source TypeScript foundation for AI-built commerce, CRM, and ERP",
+   "representativeQueries": [
+    "open source open mercato",
+    "Open Mercato pricing",
+    "Open Mercato alternatives",
+    "agent skills tools like Open Mercato"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:openclaw-marketing-skills",
+   "displayName": "OpenClaw Marketing Skills review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/openclaw-marketing-skills/",
+   "description": "37 marketing skills for OpenClaw agents with live data connectors",
+   "representativeQueries": [
+    "open source openclaw marketing skills",
+    "OpenClaw Marketing Skills pricing",
+    "OpenClaw Marketing Skills alternatives",
+    "agent skills tools like OpenClaw Marketing Skills"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:openoutreach",
+   "displayName": "OpenOutreach review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/openoutreach/",
+   "description": "Open-source AI lead finder: describe your product and it finds and qualifies the leads",
+   "representativeQueries": [
+    "open source openoutreach",
+    "OpenOutreach pricing",
+    "OpenOutreach alternatives",
+    "email marketing tools like OpenOutreach"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:openseo",
+   "displayName": "OpenSEO review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/openseo/",
+   "description": "Open source alternative to Ahrefs and Semrush",
+   "representativeQueries": [
+    "open source openseo",
+    "OpenSEO pricing",
+    "OpenSEO alternatives",
+    "seo tools like OpenSEO"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:opteo",
+   "displayName": "Opteo review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/opteo/",
+   "description": "Continuous Google Ads monitoring with one-click improvements",
+   "representativeQueries": [
+    "Opteo pricing",
+    "Opteo alternatives",
+    "advertising tools like Opteo"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:ortto",
+   "displayName": "Ortto review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ortto/",
+   "description": "Customer data and marketing automation platform with journeys, CDP, and AI features",
+   "representativeQueries": [
+    "Ortto pricing",
+    "Ortto alternatives",
+    "marketing automation tools like Ortto"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:otterlyai",
+   "displayName": "OtterlyAI review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/otterlyai/",
+   "description": "AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews",
+   "representativeQueries": [
+    "OtterlyAI pricing",
+    "OtterlyAI alternatives",
+    "geo llm visibility tools like OtterlyAI"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:paperclip",
+   "displayName": "Paperclip review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/paperclip/",
+   "description": "Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit",
+   "representativeQueries": [
+    "open source paperclip",
+    "Paperclip pricing",
+    "Paperclip alternatives",
+    "workflow automation tools like Paperclip"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:pencil",
+   "displayName": "Pencil review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/pencil/",
+   "description": "AI-powered ad creative generation and performance prediction for paid media",
+   "representativeQueries": [
+    "Pencil pricing",
+    "Pencil alternatives",
+    "advertising tools like Pencil"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:persado",
+   "displayName": "Persado review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/persado/",
+   "description": "AI content creation and optimization platform for regulated financial services marketing",
+   "representativeQueries": [
+    "Persado pricing",
+    "Persado alternatives",
+    "content ai tools like Persado"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:phrasee",
+   "displayName": "Phrasee review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/phrasee/",
+   "description": "AI messaging content platform; rebranded as Jacquard in June 2024",
+   "representativeQueries": [
+    "Phrasee pricing",
+    "Phrasee alternatives",
+    "content ai tools like Phrasee"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:pipedream",
+   "displayName": "Pipedream review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/pipedream/",
+   "description": "Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps",
+   "representativeQueries": [
+    "Pipedream pricing",
+    "Pipedream alternatives",
+    "workflow automation tools like Pipedream"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:pipedrive",
+   "displayName": "Pipedrive review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/pipedrive/",
+   "description": "Sales-focused CRM with AI-powered pipeline management and deal forecasting",
+   "representativeQueries": [
+    "Pipedrive pricing",
+    "Pipedrive alternatives",
+    "crm tools like Pipedrive"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:plausible",
+   "displayName": "Plausible Analytics review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/plausible/",
+   "description": "Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics",
+   "representativeQueries": [
+    "open source plausible analytics",
+    "Plausible Analytics pricing",
+    "Plausible Analytics alternatives",
+    "analytics tools like Plausible Analytics"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:posthog",
+   "displayName": "PostHog review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/posthog/",
+   "description": "Open-source product analytics platform with session replay, feature flags, experiments, and surveys",
+   "representativeQueries": [
+    "open source posthog",
+    "PostHog pricing",
+    "PostHog alternatives",
+    "analytics tools like PostHog"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:postmark",
+   "displayName": "Postmark review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/postmark/",
+   "description": "Transactional email API with separated message streams, an MCP server, and published delivery numbers",
+   "representativeQueries": [
+    "Postmark pricing",
+    "Postmark alternatives",
+    "email marketing tools like Postmark"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:potato-ai-visibility",
+   "displayName": "Potato review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/potato-ai-visibility/",
+   "description": "Free local tool that measures brand mentions and citations in Claude's web-search answers",
+   "representativeQueries": [
+    "open source potato",
+    "Potato pricing",
+    "Potato alternatives",
+    "seo tools like Potato"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:predis-ai",
+   "displayName": "Predis.ai review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/predis-ai/",
+   "description": "AI-powered social media content generator for posts, videos, and ad creatives",
+   "representativeQueries": [
+    "Predis.ai pricing",
+    "Predis.ai alternatives",
+    "social media tools like Predis.ai"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:profound",
+   "displayName": "Profound review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/profound/",
+   "description": "Enterprise AI marketing platform: answer-engine visibility plus drafting agents",
+   "representativeQueries": [
+    "Profound pricing",
+    "Profound alternatives",
+    "geo llm visibility tools like Profound"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:promptfoo",
+   "displayName": "Promptfoo review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/promptfoo/",
+   "description": "Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming",
+   "representativeQueries": [
+    "open source promptfoo",
+    "Promptfoo pricing",
+    "Promptfoo alternatives",
+    "geo llm visibility tools like Promptfoo"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:prospectos",
+   "displayName": "ProspectOS review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/prospectos/",
+   "description": "Open-source lead prospecting CRM with Google Maps and Instagram scraping",
+   "representativeQueries": [
+    "open source prospectos",
+    "ProspectOS pricing",
+    "ProspectOS alternatives",
+    "crm tools like ProspectOS"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:rankscale",
+   "displayName": "Rankscale review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/rankscale/",
+   "description": "AI visibility tracking across 17+ answer engines for agencies and enterprise teams",
+   "representativeQueries": [
+    "Rankscale pricing",
+    "Rankscale alternatives",
+    "geo llm visibility tools like Rankscale"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:react-email-editor",
+   "displayName": "React Email Editor review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/react-email-editor/",
+   "description": "Drag-n-Drop Email Editor Component for React.js",
+   "representativeQueries": [
+    "open source react email editor",
+    "React Email Editor pricing",
+    "React Email Editor alternatives",
+    "email marketing tools like React Email Editor"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:relaticle",
+   "displayName": "Relaticle review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/relaticle/",
+   "description": "Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament",
+   "representativeQueries": [
+    "open source relaticle",
+    "Relaticle pricing",
+    "Relaticle alternatives",
+    "crm tools like Relaticle"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:resend",
+   "displayName": "Resend review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/resend/",
+   "description": "Developer-first email API built around React Email, batch sending, and agent tooling",
+   "representativeQueries": [
+    "Resend pricing",
+    "Resend alternatives",
+    "email marketing tools like Resend"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:revealbot",
+   "displayName": "Revealbot (Birch) review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/revealbot/",
+   "description": "AI-powered ad automation and rules engine for Meta, Google, and TikTok ads",
+   "representativeQueries": [
+    "Revealbot (Birch) pricing",
+    "Revealbot (Birch) alternatives",
+    "advertising tools like Revealbot (Birch)"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:revive-adserver",
+   "displayName": "Revive Adserver review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/revive-adserver/",
+   "description": "Free open source ad server for publishers, ad networks and advertisers",
+   "representativeQueries": [
+    "open source revive adserver",
+    "Revive Adserver pricing",
+    "Revive Adserver alternatives",
+    "advertising tools like Revive Adserver"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:salesforce-crm",
+   "displayName": "Salesforce CRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/salesforce-crm/",
+   "description": "Enterprise CRM platform with Einstein AI for sales, service, and marketing teams",
+   "representativeQueries": [
+    "Salesforce CRM pricing",
+    "Salesforce CRM alternatives",
+    "crm tools like Salesforce CRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:salesforce-marketing-cloud",
+   "displayName": "Salesforce Marketing Cloud review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/",
+   "description": "Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web",
+   "representativeQueries": [
+    "Salesforce Marketing Cloud pricing",
+    "Salesforce Marketing Cloud alternatives",
+    "marketing automation tools like Salesforce Marketing Cloud"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:scrunch",
+   "displayName": "Scrunch review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/scrunch/",
+   "description": "The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents",
+   "representativeQueries": [
+    "Scrunch pricing",
+    "Scrunch alternatives",
+    "geo llm visibility tools like Scrunch"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:segment",
+   "displayName": "Twilio Segment review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/segment/",
+   "description": "Customer data platform for collecting, unifying, and activating customer data",
+   "representativeQueries": [
+    "Twilio Segment pricing",
+    "Twilio Segment alternatives",
+    "personalization tools like Twilio Segment"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:semrush",
+   "displayName": "Semrush review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/semrush/",
+   "description": "All-in-one SEO and digital marketing platform with AI-powered insights and tools",
+   "representativeQueries": [
+    "Semrush pricing",
+    "Semrush alternatives",
+    "seo tools like Semrush"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:sendgrid",
+   "displayName": "Twilio SendGrid review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/sendgrid/",
+   "description": "Scalable email delivery API with AI-powered deliverability and engagement tools",
+   "representativeQueries": [
+    "Twilio SendGrid pricing",
+    "Twilio SendGrid alternatives",
+    "email marketing tools like Twilio SendGrid"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:seo-skill-bench",
+   "displayName": "SEO Skill Bench review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/seo-skill-bench/",
+   "description": "Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects",
+   "representativeQueries": [
+    "open source seo skill bench",
+    "SEO Skill Bench pricing",
+    "SEO Skill Bench alternatives",
+    "agent skills tools like SEO Skill Bench"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:seonaut",
+   "displayName": "Seonaut review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/seonaut/",
+   "description": "Open-source SEO crawler in Go for technical audits, self-hosted or cloud",
+   "representativeQueries": [
+    "open source seonaut",
+    "Seonaut pricing",
+    "Seonaut alternatives",
+    "seo tools like Seonaut"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:sistrix",
+   "displayName": "SISTRIX review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/sistrix/",
+   "description": "German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis",
+   "representativeQueries": [
+    "SISTRIX pricing",
+    "SISTRIX alternatives",
+    "geo llm visibility tools like SISTRIX"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:smartly-io",
+   "displayName": "Smartly.io review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/smartly-io/",
+   "description": "AI advertising platform spanning creative production, media buying, and measurement",
+   "representativeQueries": [
+    "Smartly.io pricing",
+    "Smartly.io alternatives",
+    "advertising tools like Smartly.io"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:snowplow",
+   "displayName": "Snowplow review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/snowplow/",
+   "description": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents",
+   "representativeQueries": [
+    "open source snowplow",
+    "Snowplow pricing",
+    "Snowplow alternatives",
+    "analytics tools like Snowplow"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:sprout-social",
+   "displayName": "Sprout Social review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/sprout-social/",
+   "description": "Enterprise social media management with AI-powered analytics and engagement tools",
+   "representativeQueries": [
+    "Sprout Social pricing",
+    "Sprout Social alternatives",
+    "social media tools like Sprout Social"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:strapi",
+   "displayName": "Strapi review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/strapi/",
+   "description": "Open-source headless CMS with AI-powered content management and API-first design",
+   "representativeQueries": [
+    "open source strapi",
+    "Strapi pricing",
+    "Strapi alternatives",
+    "content ai tools like Strapi"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:suitecrm",
+   "displayName": "SuiteCRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/suitecrm/",
+   "description": "Enterprise-grade open-source CRM with sales, marketing, and support automation",
+   "representativeQueries": [
+    "open source suitecrm",
+    "SuiteCRM pricing",
+    "SuiteCRM alternatives",
+    "crm tools like SuiteCRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:superlines",
+   "displayName": "Superlines review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/superlines/",
+   "description": "AI Search Intelligence platform for brands and agencies",
+   "representativeQueries": [
+    "Superlines pricing",
+    "Superlines alternatives",
+    "seo tools like Superlines"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:surfer-seo",
+   "displayName": "Surfer SEO review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/surfer-seo/",
+   "description": "AI-powered content optimization platform for SEO-driven article writing and audits",
+   "representativeQueries": [
+    "Surfer SEO pricing",
+    "Surfer SEO alternatives",
+    "seo tools like Surfer SEO"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:tealium",
+   "displayName": "Tealium review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/tealium/",
+   "description": "Enterprise customer data platform with real-time data orchestration and AI",
+   "representativeQueries": [
+    "Tealium pricing",
+    "Tealium alternatives",
+    "personalization tools like Tealium"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:tidio",
+   "displayName": "Tidio review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/tidio/",
+   "description": "AI-powered live chat and chatbot platform with Lyro AI agent for customer support",
+   "representativeQueries": [
+    "Tidio pricing",
+    "Tidio alternatives",
+    "chatbots tools like Tidio"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:tooljet",
+   "displayName": "ToolJet review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/tooljet/",
+   "description": "Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps",
+   "representativeQueries": [
+    "open source tooljet",
+    "ToolJet pricing",
+    "ToolJet alternatives",
+    "workflow automation tools like ToolJet"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:trakkr",
+   "displayName": "Trakkr review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/trakkr/",
+   "description": "AI visibility platform for brands and agencies: citations, perception, competitors",
+   "representativeQueries": [
+    "Trakkr pricing",
+    "Trakkr alternatives",
+    "geo llm visibility tools like Trakkr"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:tray-io",
+   "displayName": "Tray.io review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/tray-io/",
+   "description": "AI-powered integration platform for building custom automation and AI agents",
+   "representativeQueries": [
+    "Tray.io pricing",
+    "Tray.io alternatives",
+    "workflow automation tools like Tray.io"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:triple-whale",
+   "displayName": "Triple Whale review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/triple-whale/",
+   "description": "AI-powered ecommerce analytics and attribution platform for DTC brands",
+   "representativeQueries": [
+    "Triple Whale pricing",
+    "Triple Whale alternatives",
+    "analytics tools like Triple Whale"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:twenty",
+   "displayName": "Twenty review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/twenty/",
+   "description": "The open-source alternative to Salesforce, designed for AI with modern CRM workflows",
+   "representativeQueries": [
+    "open source twenty",
+    "Twenty pricing",
+    "Twenty alternatives",
+    "crm tools like Twenty"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:umami",
+   "displayName": "Umami review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/umami/",
+   "description": "Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps",
+   "representativeQueries": [
+    "open source umami",
+    "Umami pricing",
+    "Umami alternatives",
+    "analytics tools like Umami"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:wacrm",
+   "displayName": "WaCRM review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/wacrm/",
+   "description": "Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations",
+   "representativeQueries": [
+    "open source wacrm",
+    "WaCRM pricing",
+    "WaCRM alternatives",
+    "crm tools like WaCRM"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:warmbly",
+   "displayName": "Warmbly review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/warmbly/",
+   "description": "Open-source cold email platform with warmup, campaigns, unified inbox, and CRM",
+   "representativeQueries": [
+    "open source warmbly",
+    "Warmbly pricing",
+    "Warmbly alternatives",
+    "email marketing tools like Warmbly"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:warpdrive",
+   "displayName": "Warpdrive review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/warpdrive/",
+   "description": "Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box",
+   "representativeQueries": [
+    "open source warpdrive",
+    "Warpdrive pricing",
+    "Warpdrive alternatives",
+    "crm tools like Warpdrive"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:workato",
+   "displayName": "Workato review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/workato/",
+   "description": "Enterprise AI governance plus integration and automation on one platform",
+   "representativeQueries": [
+    "Workato pricing",
+    "Workato alternatives",
+    "workflow automation tools like Workato"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:writer",
+   "displayName": "Writer review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/writer/",
+   "description": "Enterprise AI platform with Palmyra models, brand governance, and agents",
+   "representativeQueries": [
+    "Writer pricing",
+    "Writer alternatives",
+    "content ai tools like Writer"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:writesonic",
+   "displayName": "Writesonic review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/writesonic/",
+   "description": "The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform",
+   "representativeQueries": [
+    "Writesonic pricing",
+    "Writesonic alternatives",
+    "geo llm visibility tools like Writesonic"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:zapier",
+   "displayName": "Zapier review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/zapier/",
+   "description": "No-code automation platform connecting 9,000+ apps with AI-powered workflows",
+   "representativeQueries": [
+    "Zapier pricing",
+    "Zapier alternatives",
+    "workflow automation tools like Zapier"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:zapier-gtm-cheat-codes",
+   "displayName": "Zapier GTM Cheat Codes review",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/",
+   "description": "Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof",
+   "representativeQueries": [
+    "open source zapier gtm cheat codes",
+    "Zapier GTM Cheat Codes pricing",
+    "Zapier GTM Cheat Codes alternatives",
+    "agent skills tools like Zapier GTM Cheat Codes"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:advertising",
+   "displayName": "Advertising & Paid Media",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/advertising/",
+   "description": "Ad creation, bidding, and campaign management",
+   "representativeQueries": [
+    "best advertising & paid media tools",
+    "advertising & paid media comparison",
+    "advertising & paid media software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:agent-skills",
+   "displayName": "Agent Skills",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/agent-skills/",
+   "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
+   "representativeQueries": [
+    "best agent skills tools",
+    "agent skills comparison",
+    "agent skills software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:analytics",
+   "displayName": "Analytics & Attribution",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/analytics/",
+   "description": "Marketing analytics, attribution, and reporting",
+   "representativeQueries": [
+    "best analytics & attribution tools",
+    "analytics & attribution comparison",
+    "analytics & attribution software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:chatbots",
+   "displayName": "Chatbots & Conversational AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/chatbots/",
+   "description": "Conversational AI for marketing and support, from social DM automation to per-resolution AI agents",
+   "representativeQueries": [
+    "best chatbots & conversational ai tools",
+    "chatbots & conversational ai comparison",
+    "chatbots & conversational ai software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:content-ai",
+   "displayName": "AI Content & Copywriting",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/content-ai/",
+   "description": "AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites",
+   "representativeQueries": [
+    "best ai content & copywriting tools",
+    "ai content & copywriting comparison",
+    "ai content & copywriting software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:crm",
+   "displayName": "CRM",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/crm/",
+   "description": "Customer relationship management and sales pipelines",
+   "representativeQueries": [
+    "best crm tools",
+    "crm comparison",
+    "crm software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:email-marketing",
+   "displayName": "Email Marketing",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/email-marketing/",
+   "description": "Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites",
+   "representativeQueries": [
+    "best email marketing tools",
+    "email marketing comparison",
+    "email marketing software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:geo-llm-visibility",
+   "displayName": "GEO & LLM Optimization",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/geo-llm-visibility/",
+   "description": "Track and improve how AI assistants mention, cite, and describe your brand",
+   "representativeQueries": [
+    "best geo & llm optimization tools",
+    "geo & llm optimization comparison",
+    "geo & llm optimization software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:marketing-automation",
+   "displayName": "Marketing Automation",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/marketing-automation/",
+   "description": "End-to-end campaign orchestration and workflow automation",
+   "representativeQueries": [
+    "best marketing automation tools",
+    "marketing automation comparison",
+    "marketing automation software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:open-source",
+   "displayName": "Open-Source Tools",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/open-source/",
+   "description": "The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation",
+   "representativeQueries": [
+    "best open-source tools tools",
+    "open-source tools comparison",
+    "open-source tools software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:personalization",
+   "displayName": "Personalization & CDP",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/personalization/",
+   "description": "Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization",
+   "representativeQueries": [
+    "best personalization & cdp tools",
+    "personalization & cdp comparison",
+    "personalization & cdp software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:seo",
+   "displayName": "SEO & Search",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/seo/",
+   "description": "Search optimization, keyword research, and content strategy",
+   "representativeQueries": [
+    "best seo & search tools",
+    "seo & search comparison",
+    "seo & search software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:social-media",
+   "displayName": "Social Media",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/social-media/",
+   "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
+   "representativeQueries": [
+    "best social media tools",
+    "social media comparison",
+    "social media software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:categories:workflow-automation",
+   "displayName": "Workflow Automation",
+   "type": "text/html",
+   "url": "https://martechsignal.com/categories/workflow-automation/",
+   "description": "No-code/low-code automation platforms and iPaaS",
+   "representativeQueries": [
+    "best workflow automation tools",
+    "workflow automation comparison",
+    "workflow automation software"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:data:tools-json",
+   "displayName": "MartechSignal tools.json (machine-readable)",
+   "type": "application/json",
+   "url": "https://martechsignal.com/data/tools.json",
+   "representativeQueries": [
+    "martechsignal tool catalog data",
+    "ai marketing tools dataset"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:data:categories-json",
+   "displayName": "MartechSignal categories.json (machine-readable)",
+   "type": "application/json",
+   "url": "https://martechsignal.com/data/categories.json",
+   "representativeQueries": [
+    "martechsignal tool catalog data",
+    "ai marketing tools dataset"
+   ]
+  }
+ ],
+ "trustManifest": {
+  "identity": "https://martechsignal.com/about/"
+ }
+}

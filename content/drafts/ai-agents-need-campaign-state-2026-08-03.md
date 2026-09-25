@@ -18,7 +18,7 @@ The failure point in AI marketing automation is not model quality. It is missing
 
 A campaign is more than a prompt. It is a set of facts that stay true across every touchpoint and every agent session: who the audience is, what the offer is, which contacts are suppressed, what cadence applies, what the brand allows, what the last test proved, and which channels this campaign is permitted to touch.
 
-Today that state lives in people's heads, in a Notion doc nobody updates, or scattered across six tools that do not talk to each other. When a human runs the campaign, they carry the context with them. When an agent runs it, the context evaporates at the end of every session.
+Today that state lives in people's heads, in a Notion doc nobody updates, or scattered across [six tools that do not talk to each other](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/). When a human runs the campaign, they carry the context with them. When an agent runs it, the context evaporates at the end of every session.
 
 ::: callout
 A prompt tells an agent what to do right now. Campaign state tells an agent what is true. Those are different jobs, and no amount of prompt engineering turns one into the other.
@@ -72,7 +72,7 @@ The right column is not a product. It is a file format and a discipline.
 
 The platforms would prefer you believe the answer is their agent. [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) and [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) are both racing to ship agentic features, and both will happily keep your state locked inside their walls. That is the business model. A campaign schema you own, in a format you control, is the one thing that lets you swap the agent underneath without rebuilding the operation.
 
-This is the same dynamic playing out across the stack. [Twilio Segment](/tools/segment/) already acts as the canonical customer-data layer for many teams. What is missing is the equivalent layer for campaign context: not customer profiles, but the operational facts that govern what an agent is allowed to do with them.
+This is the same dynamic playing out across the stack. [Twilio Segment](/tools/segment/) already acts as [the canonical customer-data layer](/blog/agents-identity-debt/) for many teams. What is missing is the equivalent layer for campaign context: not customer profiles, but the operational facts that govern what an agent is allowed to do with them.
 
 ## A minimum viable campaign schema
 

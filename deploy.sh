@@ -67,6 +67,9 @@ if [ "$DO_BUILD" -eq 1 ]; then
     if command -v uv >/dev/null 2>&1; then
         uv run tools/gsc_perf.py 2>&1 | tail -2 || echo "⚠ GSC cache refresh failed (using existing cache)"
     fi
+    # A-3 (v2.4.0 audit): ARD manifest (validated at build; schema errors would
+    # flip Lighthouse's ard-schema audit from N/A to failing)
+    uv run --with jsonschema python tools/build_ard.py --validate || { echo "⚠ ARD manifest INVALID — aborting deploy"; exit 1; }
     python3 tools/build_homepage.py || echo "⚠ homepage tool-index update failed (non-fatal)"
     # Per-post OG cards (Pillow venv; skip silently if venv missing)
     if [ -x /home/hermes/.hermes/venvs/imggen/bin/python ]; then

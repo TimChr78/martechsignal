@@ -5,7 +5,7 @@ slug: claude-seo-v231-four-graders
 date: 2026-09-18
 author: Tim Christensen
 tags: [AI, SEO, Agent Skills, Open Source]
-categories: [ai-tools]
+categories: [agent-skills]
 ---
 
 We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.

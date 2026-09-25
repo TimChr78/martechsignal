@@ -143,6 +143,10 @@ def main():
     new_html = new_html.replace('tools/">+92', f'tools/">+{total - SHOW}')
     # hero stat + twitter meta were hand-maintained and rotted at 133; derive from total
     new_html = re.sub(r'(id="s1">)\d+', rf'\g<1>{total}', new_html, count=1)
+    # SX-4: the posts stat was hand-maintained at 33; count published posts from blog/
+    n_posts = sum(1 for p in (ROOT / "blog").iterdir()
+                  if p.is_dir() and (p / "index.html").exists()) if (ROOT / "blog").is_dir() else 0
+    new_html = re.sub(r'(id="s2">)\d+', rf'\g<1>{n_posts}', new_html, count=1)
     new_html = re.sub(r'(twitter:description" content=")\d+( AI marketing tools)',
                       rf'\g<1>{total}\g<2>', new_html, count=1)
 

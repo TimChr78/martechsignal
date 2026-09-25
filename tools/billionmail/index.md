@@ -1,0 +1,11 @@
+# BillionMail | MartechSignal review
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+- Page: https://martechsignal.com/tools/billionmail/
+- Category: Email Marketing
+- Pricing: Open Source
+- Open source: yes (AGPL-3.0)
+- Last verified: 2026-09-07
+
+BillionMail is a fully self-hosted email stack in one open-source project: a Linux mail server built from Postfix, Dovecot and Rspamd, plus newsletter and email marketing tooling (campaign tasks, an HTML and drag-and-drop template builder, contact management, open and click tracking) and Roundcube webmail, all AGPL-3.0 with no paid tiers. Install it on a Linux box (the documented minimum is 1 core, 1 GB RAM and 20 GB disk, with outbound port 25) and you own sending, deliverability setup and data end to end: DNS helpers walk you through SPF, DKIM, DMARC and PTR records, Let's Encrypt certificates come free, and an IP warmup mode caps your sending rate while a domain builds reputation. For marketing teams the pitch is independence from per-contact SaaS pricing; the trade is that you run the mail server, watch the blocklists and handle upgrades yourself. The API surface is practical: a management API with Swagger documentation and a Send API with single and batch endpoints authenticated by API key, for triggering sends from your own systems, plus outbound SMTP relay support for AWS SES, Mailgun or a custom relay when you would rather not deliver directly. AI template generation is real but modest: since v4.0 you can generate email templates from a prompt, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi supported as configurable providers. Context worth weighing: the project started in February 2025 with a small core team, the last tagged release is v4.9 from December 2025 and the most recent commit landed in June 2026, so development has slowed sharply, and webhooks and journey automation are absent from the documented feature set. The homepage courts cold emailers with unlimited sending and no built-in speed limit, but the project's own framing is mail server plus newsletter plus campaigns. We have not run BillionMail; this assessment is based on the repository, the docs site and the release notes.

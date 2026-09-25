@@ -1,0 +1,11 @@
+# Customer.io | MartechSignal review
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+- Page: https://martechsignal.com/tools/customer-io/
+- Category: Email Marketing
+- Pricing: From $100/mo
+- Open source: no
+- Last verified: 2026-09-06
+
+Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. Founded in 2012 and headquartered in Portland, Oregon, it serves more than 9,000 brands and competes with Braze, Iterable, and OneSignal on event-triggered automation rather than list blasts. Data arrives through the Track and Data Pipelines APIs, SDKs for iOS, Android, React Native, Flutter, and JavaScript, or a warehouse path with reverse ETL; profiles can be tied to objects such as accounts or carts, with two object types on Essentials and ten on Premium. Journeys, the visual workflow builder, then trigger email, transactional email, push, in-app, SMS, native WhatsApp, LINE, and two-way webhooks, with anonymous messaging on higher tiers. The AI surface is where the product has moved most. An AI Agent, currently in beta, ships with execution skills on every plan: it can build segments, answer questions about your data, and run scheduled tasks called Routines, weekly on Essentials and daily on Premium. Journeys support LLM actions, the pricing page lists send-time optimization, and the docs cover email content analysis plus in-app message and survey suggestions. Customer.io also publishes an MCP server with setup guides for ChatGPT, Claude Desktop, Cursor, and Claude Code, along with a CLI and agent skill, so assistants can query the same platform your campaigns run on. Pricing is published rather than quoted: Essentials starts at $100/month billed monthly for 5,000 profiles and 1 million emails, Premium at $1,000/month billed yearly with custom volume, Enterprise by negotiation. Overages run $0.009 per profile, $0.12 per additional 1,000 emails, and $10 per 100,000 AI credits, and seats are unlimited on every plan. Startups that have raised under $10M get twelve months free. The trade-off is unchanged: it rewards teams with an event pipeline, and asks more instrumentation work than a CSV-upload email tool.

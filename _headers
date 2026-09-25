@@ -1,21 +1,19 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
+  # T-1 (v2.4.0 audit): the security headers and the HTML micro-cache MUST share ONE
+  # /* block. Cloudflare Pages replaces the whole block when a path pattern repeats —
+  # a second /* block with only Cache-Control silently dropped HSTS/CSP/XFO above.
+  Cache-Control: public, max-age=0, s-maxage=300, stale-while-revalidate=60
 
 /style.css
   Cache-Control: public, max-age=31536000, immutable
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
-# HTML: /*.html does NOT match pretty URLs (/tools/x/ has no .html in the request path),
-# which is why pages served DYNAMIC despite this rule existing (M-1 root cause).
-# Match everything, let the asset rules above override per-page (last match wins).
-# Edge caches HTML 5 min + serves stale up to 60s while revalidating; Pages still
-# invalidates on deploy, so deploys stay effectively instant.
-/*
-  Cache-Control: public, max-age=0, s-maxage=300, stale-while-revalidate=60
 /rss.xml
   Cache-Control: public, max-age=300
 /sitemap.xml

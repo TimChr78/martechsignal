@@ -1,0 +1,11 @@
+# Snowplow | MartechSignal review
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+- Page: https://martechsignal.com/tools/snowplow/
+- Category: Analytics & Attribution
+- Pricing: Enterprise
+- Open source: yes (Apache-2.0)
+- Last verified: 2026-09-25
+
+Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. Founded in 2012 by Alex Dean and Yali Sassoon, it names Strava, HelloFresh, Auto Trader, and Burberry among its customers. The tracking model is the enduring core: trackers send events that are validated against self-describing JSON schemas, with vendor, name, and version carried in an iglu: reference, invalid events routed out rather than silently accepted, and Iglu acting as the schema registry. Eighteen documented enrichments cover campaign attribution, bot detection, user-agent parsing, IP anonymization, PII pseudonymization, and currency conversion, and destinations include Snowflake, Databricks, BigQuery, Redshift, Delta Lake, and Apache Iceberg, plus Kafka, Kinesis, and Pub/Sub streams. Snowplow Console manages the pipeline, Snowplow Mini provides single-instance testing, and Event Studio and data model packs round out the tooling. Signals, launched in May 2025, is the AI-facing layer: a profiles store with a sub-10-millisecond API claim, an interventions engine driven by rules or machine learning, conversion, churn, and lifetime-value propensity predictions, and agentic context exposed through Python and Node SDKs. One licensing change matters more than any feature: since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement, and the documentation states the community edition is for testing and evaluation and must not be deployed in production; the paid Self-Hosted Pipeline plan exists specifically to remove that restriction. Components still release actively (enrich 6.13.1 in August 2026, the BSD-3 JavaScript tracker at 4.10.1). Pricing has no published figures: a 14-day full trial with no credit card, then quote-based managed and self-hosted plans priced on event volume and destinations.

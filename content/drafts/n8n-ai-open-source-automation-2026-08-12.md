@@ -8,7 +8,7 @@ note: "Draft reverse-built from the live page 2026-09-16 after the original was 
 ---
 In our [open-source martech stack analysis](/blog/open-source-martech-stack/), one tool kept surfacing: **n8n**. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent capabilities built in rather than bolted on, n8n outperforms its commercial competitors on both cost and capability.
 
-But "free" and "open source" don't mean "easy." n8n has a learning curve, a self-hosting requirement for the truly free tier, and AI features that are still rolling out. This piece walks through what n8n actually does for marketing teams, with real workflows, verified pricing, and honest trade-offs.
+But "free" and "open source" don't mean "easy." n8n has a learning curve, a self-hosting requirement for the truly free tier, and [AI features that are still rolling out](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/). This piece walks through what n8n actually does for marketing teams, with real workflows, verified pricing, and honest trade-offs.
 
 ## Why n8n Wins the Automation Category
 
@@ -157,9 +157,9 @@ n8n isn't a Zapier clone that happens to be open source. It's a different produc
 
 The trade-off is real: **n8n requires technical skills that most marketing teams don't have in-house.** The gap between "I can connect Gmail to Slack" and "I can build an AI lead scoring agent with error handling and fallback routing" is measured in weeks of learning, not hours. For solo marketers and small teams without technical support, n8n Cloud at &euro;20/mo is the smart entry point. You get 90% of the capability without the DevOps burden.
 
-But for any team with even one person who knows their way around a terminal, n8n self-hosted is the best value in martech. A $10/mo VPS replaces $200–500/mo in Zapier/Make subscriptions, and the AI capabilities turn automation from "move data from A to B" into "reason about data and take action." That's the difference between saving money and gaining capability.
+But for [any team with even one person who knows their way around a terminal](/blog/nocobase-vs-nocodb-vs-budibase/), n8n self-hosted is the best value in martech. A $10/mo VPS replaces $200–500/mo in Zapier/Make subscriptions, and the AI capabilities turn automation from "move data from A to B" into "reason about data and take action." That's the difference between saving money and gaining capability.
 
-In the [open-source stack we mapped out](/blog/open-source-martech-stack/), n8n was the glue. After spending real time with its AI workflows, pricing model, and community, the picture is clear: n8n is the *engine*. Build your stack around it, and you've got automation infrastructure that commercial vendors can't match on cost or flexibility.
+In the [open-source stack we mapped out](/blog/open-source-martech-stack/), n8n was the glue. [The fifty-day re-check](/blog/oss-martech-50-day-checkin/) covers what has shipped since. After spending real time with its AI workflows, pricing model, and community, the picture is clear: n8n is the *engine*. Build your stack around it, and you've got automation infrastructure that commercial vendors can't match on cost or flexibility.
 
 ### Build Your First n8n Workflow
 

@@ -16,6 +16,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/">
+<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -126,7 +127,7 @@
 
 <p>Three mechanical details make this worse, and all three are verifiable in Google's own documentation rather than folklore.</p>
 
-<p><strong>AI Overviews and AI Mode clicks are Organic Search, permanently.</strong> The <code>Referer</code> header a browser sends is <code>google.com/search</code> whether the result was a blue link or a citation inside an AI Overview. The rendering happened on Google's side and nothing about it crosses over to your analytics. Google's Default Channel Group reference says this explicitly: Organic Search includes AI Overviews and AI Mode. So your highest-volume AI surface is invisible in GA4 by construction. The GSC AI performance report is the only place it shows up, and that report gives impressions, pages, countries, and devices with no clicks and no query detail. A visibility count, not a performance report.</p>
+<p><strong>AI Overviews and AI Mode clicks are Organic Search, permanently.</strong> The <code>Referer</code> header a browser sends is <code>google.com/search</code> whether the result was a blue link or a citation inside an AI Overview. <a href="/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/">The rendering happened on Google's side</a> and nothing about it crosses over to your analytics. Google's Default Channel Group reference says this explicitly: Organic Search includes AI Overviews and AI Mode. So your highest-volume AI surface is invisible in GA4 by construction. The GSC AI performance report is the only place it shows up, and that report gives impressions, pages, countries, and devices with no clicks and no query detail. A visibility count, not a performance report.</p>
 
 <p><strong>ChatGPT's own UTM tagging can downgrade a session.</strong> OpenAI appends <code>utm_source=chatgpt.com</code> to many outbound links, often with no <code>utm_medium</code>. GA4's rule is that any UTM parameter makes it ignore the referrer, so a source-only tag can drop the session into Unassigned instead of AI Assistant. Worse than no tag at all. If your ChatGPT traffic looks mysteriously small, check Unassigned before concluding nobody is clicking.</p>
 
@@ -205,7 +206,7 @@
 
 <h2 id="what-the-funnel-will-probably-show-and-what-not-to-conclude">What the funnel will probably show, and what not to conclude</h2>
 
-<p>Set expectations now. AI referrals will arrive concentrated at awareness and evaluation, and thin at consideration. Chat assistants are good at explaining problems and good at building shortlists; the middle of the funnel happens inside the conversation itself, on a surface you will never see a click from. That is consistent with what Nifong's framework predicts on the visibility side and with the confidence-assembly pattern from <a href="/blog/dashboard-cant-see-ai-search-5-layer-fix/">part one</a>, where buyers bounce between AI, Google, and community sources before committing.</p>
+<p>Set expectations now. AI referrals will arrive concentrated at awareness and evaluation, and thin at consideration. Chat assistants are good at explaining problems and good at building shortlists; the middle of the funnel happens inside the conversation itself, on a surface you will never see a click from. That is consistent with what Nifong's framework predicts on the visibility side and with the confidence-assembly pattern from <a href="/blog/dashboard-cant-see-ai-search-5-layer-fix/">part one</a>, where buyers <a href="/blog/multi-touch-attribution-was-always-a-fiction/">bounce between AI, Google, and community sources before committing</a>.</p>
 
 <p>Three traps when reading the result. Don't compare stage conversion rates to organic search's; the populations differ and you will chase ghosts. Don't treat the awareness-page arrival count as the size of your AI influence, because the assistant answered questions about you all week without generating a single click. And don't let the custom channel group's growth become the KPI. The channel count is the floor, same as it was in layer 3. The funnel shape is the insight: where AI introduces you, where it drops you, and which page class to fix next.</p>
 

@@ -1,0 +1,11 @@
+# Krayin CRM | MartechSignal review
+
+Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
+
+- Page: https://martechsignal.com/tools/krayin-crm/
+- Category: CRM
+- Pricing: Open Source
+- Open source: yes (MIT)
+- Last verified: 2026-09-07
+
+Krayin CRM is an MIT-licensed, Laravel-native open-source CRM from Webkul, with 23,800-plus GitHub stars and a steady release rhythm: v2.2.5 shipped August 4, 2026, and the 2.2 branch took commits in September 2026. The current line requires PHP 8.3 or later and Laravel 12, with MySQL 8.0.32 or later, MariaDB 10.3 or later, and at least 3GB of RAM, so check the stack before installing. The feature set is broader than older reviews suggest: leads with multiple pipelines, quotes, activities, contacts and organizations, tags, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, email templates, a marketing package, and an import-export layer, with dashboard support for multiple pipelines added in 2.2.4. Two corrections to the common criticisms. Krayin does ship a workflow engine: the Automation package provides event triggers, conditions, and actions plus webhooks, though documentation for it is thin. And it does have a genuine AI feature, Magic AI, which creates leads from uploaded PDFs and images using an OpenRouter API key and ships as an official module rather than in core. What is still absent is lead scoring and predictive analytics; the marketing copy mentions sales forecasting without documenting a forecasting engine. Email handling is inbound-focused: a SendGrid Inbound Parse webhook turns mail to your domain into HTTP posts, or an IMAP driver polls an existing mailbox, with outbound mail on Laravel configuration. The REST API is a separate composer package with Sanctum bearer tokens and Swagger documentation, not something the base install ships with. Installation is composer create-project plus an artisan installer that prompts for app and database settings and seeds an admin account. Paid extras include a multi-tenant SaaS extension at $1,799 and vendor cloud hosting with no published prices. We have not run Krayin; this assessment is from the repository, the docs, and the site.

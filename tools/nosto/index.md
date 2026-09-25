@@ -1,0 +1,11 @@
+# Nosto | MartechSignal review
+
+AI-powered ecommerce personalization with product recommendations and merchandising
+
+- Page: https://martechsignal.com/tools/nosto/
+- Category: Personalization & CDP
+- Pricing: Enterprise
+- Open source: no
+- Last verified: 2026-09-07
+
+Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. It is sold as two modular suites. Product Experience Cloud covers personalized search, category merchandising, product recommendations, post-purchase upsell, dynamic bundles, and personalized emails; an AI Search product is labeled coming soon on the pricing page. Content Experience Cloud covers A/B testing and optimization, onsite content personalization, pop-ups, and shoppable UGC. The search module documents semantic search with vector embeddings, AI-suggested synonyms, merchandising rules keyed to margin, stock, and seasonality, and 27 languages out of the box; content and vector search carry alpha labels. Implementation is documented in detail: Nosto replicates the store catalog (one account per domain and language), a script tag plus page tagging feeds behavioral profiles, and published search go-live estimates run from 1-3 weeks (templates) to 4-8 weeks (API). GraphQL is the documented path into the intelligence engine; REST is legacy, used to push orders, products, and exchange rates, and stays mandatory for product updates in SPA builds. Rate limits are published in points, with a search request costing 600. Pricing is quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by the modules and support level, with AI bundled into every module and an optional Product Scalability Package carrying a 99.99% uptime SLA. There is no self-serve trial; qualified merchants get a proof of concept on their own store data. Founded in 2013 with eight offices including Helsinki, London, and New York, Nosto reports more than 1,500 brand customers and a 4.6/5 G2 rating. Its search line now includes the Austrian vendor Findologic, whose typo-tolerance docs sit in Nosto's help center beside its own.

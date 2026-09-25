@@ -10,3 +10,5 @@ Disallow: /*?
 Disallow: /tools/*?
 
 Sitemap: https://martechsignal.com/sitemap.xml
+# A-3 (v2.4.0 audit): ARD entry source (spec §5.1)
+Agentmap: https://martechsignal.com/.well-known/ard.json

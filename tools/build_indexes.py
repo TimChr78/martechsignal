@@ -25,7 +25,7 @@ def load():
 
 
 def build_categories(cats, tools):
-    total = len(tools)
+    total = len([t for t in tools if t.get("status", "active") == "active"])  # SX-4: acquired tools excluded from counts
     cards = []
     for c in sorted(cats, key=lambda x: x["name"]):
         n = len(c.get("tools") or [])

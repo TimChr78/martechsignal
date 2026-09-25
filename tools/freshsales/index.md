@@ -1,0 +1,11 @@
+# Freshsales | MartechSignal review
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+- Page: https://martechsignal.com/tools/freshsales/
+- Category: CRM
+- Pricing: Free tier
+- Open source: no
+- Last verified: 2026-09-06
+
+Freshsales is Freshworks' sales CRM, and its pitch is built-in capability: phone, email, chat, and sales sequences live in the product, so a sales team runs without bolt-ons. Freddy AI is the differentiator, and it is scoped narrowly enough to be credible: contact and intent scoring to surface which leads deserve attention, deal insights and recommendations on at-risk deals, AI writing help in email, and now the Freddy AI Agent as a paid add-on at $49 per 100 bot sessions. Pricing restructured recently and is lower than most reviews still state: Growth at $9 per user per month billed annually, covering kanban views, contact lifecycle stages, chat, email, and phone, email templates, and basic workflows; Pro at $39, adding contact scoring, deal insights, custom sales activities, territory management, and sales sequences; and Enterprise at $59, adding forecasting insights, field-level permissions, custom modules, sandbox, and audit logs. The AI you are paying for is tier-gated: scoring and deal insights start at Pro, not Growth. The permanent free plan no longer appears on the pricing page, so the entry point is a 21-day trial of the fully loaded product with no credit card. Freshworks reports 74,000-plus businesses using the CRM. What you get beyond the CRM is the ecosystem argument: Freshsales Suite bundles Freshmarketer so sales and marketing share one contact record, and Freshdesk, Freshchat, and the Freddy AI platform extend the same data into support and service. Sales campaigns for lead capture, qualification, routing, and tracking are part of the current pitch. The trade-offs are unchanged in kind: marketplace and integration depth trail HubSpot, AI scoring needs transaction history before it warms up, and enterprise process control sits below Salesforce. For a sales-led mid-market team that wants built-in communication channels and predictable per-seat pricing under HubSpot's, it is the pragmatic pick; marketing-led organizations will still want a dedicated marketing platform beside it.
