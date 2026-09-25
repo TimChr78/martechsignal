@@ -157,12 +157,21 @@ def gen_charts(tools, cats, out_dir):
         c = t.get("category") or "other"
         total[c] += 1
         if t.get("open_source"): oss[c] += 1
-    cats_sorted = sorted(total.keys(), key=lambda k: -total[k])[:12]
+    # R6 (2026-09-25): the open-source "category" is a meta-category that
+    # aggregates OSS tools from every other category. As a bar it double-counts
+    # tools already plotted elsewhere and is trivially 100% open source, so it
+    # is excluded here (it stays a real hub page). Also: the old [:12] cap
+    # silently dropped the two smallest categories while the subtitle claimed
+    # all tools. Show every real category and make the subtitle match the bars.
+    cats_sorted = sorted((k for k in total if k != "open-source"), key=lambda k: -total[k])
+    shown = sum(total[k] for k in cats_sorted)
+    oss_all = sum(1 for t in active if t.get("open_source"))
     W, H, LH = 1200, 630, 34
     top_pad, bot_pad = 130, 90
     img, d = base_canvas()
     d.text((80, 70), "Open-source share by category", font=font(40), fill=TEXT)
-    d.text((80, 122), f"{len(active)} tools · martechsignal.com directory", font=font(22), fill=MUTED)
+    d.text((80, 122), f"{shown} tools in {len(cats_sorted)} categories · martechsignal.com directory", font=font(22), fill=MUTED)
+    d.text((80, 152), f"open-source is a meta-category ({oss_all} OSS tools) and is excluded here", font=font(18), fill=MUTED)
     n = len(cats_sorted)
     # Two-line wrapped labels under each bar (readable at OG size; no truncation mid-word)
     label_fs = 14
@@ -217,14 +226,20 @@ def gen_charts(tools, cats, out_dir):
         lines = _wrap(c)
         y = baseline
         for ln in lines:
-            lw = d.textlength(ln, font=font(label_fs, bold=False))
-            d.text((x + bar_w/2 - lw/2, y), ln, font=font(label_fs, bold=False), fill=MUTED)
+            lf = font(label_fs, bold=False)
+            lw = d.textlength(ln, font=lf)
+            maxw = bar_w + gap - 6
+            if lw > maxw:  # shrink-to-fit so long single words don't collide
+                fs2 = max(10, int(label_fs * maxw / lw))
+                lf = font(fs2, bold=False)
+                lw = d.textlength(ln, font=lf)
+            d.text((x + bar_w/2 - lw/2, y), ln, font=lf, fill=MUTED)
             y += 19
-    # legend
-    d.rectangle([900, 480, 924, 500], fill=AMBER)
-    d.text((932, 482), "open source", font=font(20), fill=MUTED)
-    d.rectangle([900, 512, 924, 532], fill=DIM, outline=BORDER)
-    d.text((932, 514), "commercial", font=font(20), fill=MUTED)
+    # legend (top-right, clear of the short bars at the right end)
+    d.rectangle([900, 190, 924, 210], fill=AMBER)
+    d.text((932, 192), "open source", font=font(20), fill=MUTED)
+    d.rectangle([900, 222, 924, 242], fill=DIM, outline=BORDER)
+    d.text((932, 224), "commercial", font=font(20), fill=MUTED)
     out = out_dir / "oss-by-category.png"
     img.save(out, "PNG", optimize=True)
 
