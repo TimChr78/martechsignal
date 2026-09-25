@@ -42,15 +42,19 @@
 - [Amplitude](https://martechsignal.com/tools/amplitude/): AI-powered digital analytics platform for product and marketing teams
 - [Attribution](https://martechsignal.com/tools/attribution/): AI-powered marketing attribution platform connecting ad spend to revenue
 - [Heap](https://martechsignal.com/tools/heap/): AI-powered product analytics with autocapture and digital experience insights
+- [Matomo](https://martechsignal.com/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (open source)
 - [Mixpanel](https://martechsignal.com/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Northbeam](https://martechsignal.com/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
+- [Plausible Analytics](https://martechsignal.com/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (open source)
 - [Snowplow](https://martechsignal.com/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (open source)
 - [Triple Whale](https://martechsignal.com/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Umami](https://martechsignal.com/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (open source)
 
 ### Chatbots & Conversational AI
 
 - [ChatbotX](https://martechsignal.com/tools/chatbotx/): Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation (open source)
 - [Chatfuel](https://martechsignal.com/tools/chatfuel/): AI chatbot platform for automating customer conversations on messaging channels
+- [Chatwoot](https://martechsignal.com/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (open source)
 - [Intercom](https://martechsignal.com/tools/intercom/): AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [ManyChat](https://martechsignal.com/tools/manychat/): AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 - [Tidio](https://martechsignal.com/tools/tidio/): AI-powered live chat and chatbot platform with Lyro AI agent for customer support
@@ -60,10 +64,12 @@
 - [Anyword](https://martechsignal.com/tools/anyword/): AI copywriting platform with predictive performance scores for marketing content
 - [ContentBot](https://martechsignal.com/tools/contentbot/): AI content automation platform with workflows for blogs, ads, and social posts
 - [Copy.ai](https://martechsignal.com/tools/copy-ai/): AI-powered GTM platform for sales and marketing content automation at scale
+- [Ghost](https://martechsignal.com/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (open source)
 - [Hypotenuse AI](https://martechsignal.com/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Jasper](https://martechsignal.com/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
 - [Persado](https://martechsignal.com/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
 - [Phrasee](https://martechsignal.com/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
+- [Strapi](https://martechsignal.com/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (open source)
 - [Writer](https://martechsignal.com/tools/writer/): Enterprise AI platform with Palmyra models, brand governance, and agents
 
 ### CRM
@@ -97,6 +103,7 @@
 - [BillionMail](https://martechsignal.com/tools/billionmail/): Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free (open source)
 - [Customer.io](https://martechsignal.com/tools/customer-io/): Data-driven messaging platform for automated email, push, SMS, and in-app messages
 - [Klaviyo](https://martechsignal.com/tools/klaviyo/): AI-powered email and SMS marketing platform built for ecommerce brands
+- [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
 - [Loops](https://martechsignal.com/tools/loops/): Email marketing for SaaS: marketing, product, and transactional email in one tool
 - [Mailchimp](https://martechsignal.com/tools/mailchimp/): All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Maizzle](https://martechsignal.com/tools/maizzle/): Modern email development framework using Tailwind CSS for responsive campaigns (open source)
@@ -135,20 +142,10 @@
 - [HubSpot Marketing Hub](https://martechsignal.com/tools/hubspot-marketing-hub/): All-in-one marketing automation with AI-powered content, email, and campaign tools
 - [Laudspeaker](https://martechsignal.com/tools/laudspeaker/): Open-source customer engagement and product onboarding platform, alternative to Braze (open source)
 - [Line Harness](https://martechsignal.com/tools/line-harness/): Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control (open source)
+- [Mautic](https://martechsignal.com/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (open source)
 - [NocoDB](https://martechsignal.com/tools/nocodb/): Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet (open source)
 - [Ortto](https://martechsignal.com/tools/ortto/): Customer data and marketing automation platform with journeys, CDP, and AI features
 - [Salesforce Marketing Cloud](https://martechsignal.com/tools/salesforce-marketing-cloud/): Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
-
-### Open-Source Tools
-
-- [Chatwoot](https://martechsignal.com/tools/chatwoot/): Open-source customer engagement suite with Captain AI and full self-hosting (open source)
-- [Ghost](https://martechsignal.com/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (open source)
-- [Listmonk](https://martechsignal.com/tools/listmonk/): Open-source self-hosted newsletter and mailing list manager with a fast Go backend (open source)
-- [Matomo](https://martechsignal.com/tools/matomo/): Open-source web analytics platform with full data ownership and AI-powered insights (open source)
-- [Mautic](https://martechsignal.com/tools/mautic/): Open-source marketing automation platform with email, campaigns, and lead management (open source)
-- [Plausible Analytics](https://martechsignal.com/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (open source)
-- [Strapi](https://martechsignal.com/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (open source)
-- [Umami](https://martechsignal.com/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (open source)
 
 ### Personalization & CDP
 

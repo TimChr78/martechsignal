@@ -12,6 +12,7 @@
       "hubspot-marketing-hub",
       "laudspeaker",
       "line-harness",
+      "mautic",
       "nocodb",
       "ortto",
       "salesforce-marketing-cloud"
@@ -174,6 +175,7 @@
       "billionmail",
       "customer-io",
       "klaviyo",
+      "listmonk",
       "loops",
       "mailchimp",
       "maizzle",
@@ -227,10 +229,12 @@
       "anyword",
       "contentbot",
       "copy-ai",
+      "ghost",
       "hypotenuse-ai",
       "jasper",
       "persado",
       "phrasee",
+      "strapi",
       "writer"
     ],
     "intro": "Content AI tools generate, optimize, and score written material against search intent. The first wave produced interchangeable long-form generators; the current wave scores drafts against live SERP data and briefs writers on gaps. The honest limitation is shared by all of them: generated copy needs a human pass for accuracy and voice, and search engines reward experience signals that no generator fakes convincingly. We evaluate research quality, editing workflow fit, and how each tool handles verification instead of fluency."
@@ -243,10 +247,13 @@
       "amplitude",
       "attribution",
       "heap",
+      "matomo",
       "mixpanel",
       "northbeam",
+      "plausible",
       "snowplow",
-      "triple-whale"
+      "triple-whale",
+      "umami"
     ],
     "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict.",
     "hub": {
@@ -422,6 +429,7 @@
     "tools": [
       "chatbotx",
       "chatfuel",
+      "chatwoot",
       "intercom",
       "manychat",
       "tidio"
