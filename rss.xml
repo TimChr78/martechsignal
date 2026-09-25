@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 05:15:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 05:09:19 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>AI watermarks are now part of your agent's risk surface</title>
+      <link>https://martechsignal.com/blog/watermark-provenance-tax-agents/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/watermark-provenance-tax-agents/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>A watermark is supposed to mark content, not change it. That assumption quietly stopped holding this month. On September 17, security firm Lasso published "The Provenance Tax", a p</description>
+    </item>
     <item>
       <title>The guardrails Google won't ship for your AI ad account</title>
       <link>https://martechsignal.com/blog/google-ads-ai-guardrails/</link>
