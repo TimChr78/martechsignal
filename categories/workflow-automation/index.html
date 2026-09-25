@@ -215,7 +215,7 @@
 
 <div class="flow-strip reveal" aria-hidden="true"><div class="flow-step"><span class="flow-label">TRIGGER</span><span class="flow-sub">new deal in CRM</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">FILTER</span><span class="flow-sub">value &gt; $500</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ai"><span class="flow-label">AI AGENT</span><span class="flow-sub">draft the follow-up</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ok"><span class="flow-label">ACTION</span><span class="flow-sub">send + log result</span></div></div>
 
-<section class="hub-lead reveal"><p>Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.</p><p>The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice.</p><p>If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.</p></section>
+<section class="hub-lead reveal"><p>Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.</p><p>The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.</p><p>If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.</p></section>
 
 <section class="hub-chooser reveal">
   <h2>Which one fits</h2>
@@ -244,19 +244,29 @@
   <div class="chooser-then"><a class="pick" href="/tools/workato/">Workato</a> <a class="pick" href="/tools/tray-io/">Tray.io</a></div>
   <div class="chooser-why">Governance, SSO, and a contract legal will actually sign</div>
 </div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You would rather build the internal tools than buy them</div>
+  <div class="chooser-then"><a class="pick" href="/tools/appsmith/">Appsmith</a> <a class="pick" href="/tools/budibase/">Budibase</a> <a class="pick" href="/tools/nocobase/">NocoBase</a></div>
+  <div class="chooser-why">Open-source builders that turn your existing database into admin panels and automations; Budibase and NocoBase add no-code business apps and AI agents</div>
+</div>
 
 </section>
 
 <div class="hub-group reveal">
-  <div class="hub-group-label"><span>OPEN SOURCE / SELF-HOSTED</span><i></i><em>3</em></div>
-  <div class="tool-grid"><a class="tool-card" href="/tools/n8n/">
+  <div class="hub-group-label"><span>OPEN SOURCE / SELF-HOSTED</span><i></i><em>4</em></div>
+  <div class="tool-grid"><a class="tool-card" href="/tools/langchain/">
+  <div class="name">LangChain</div>
+  <div class="tagline">Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools</div>
+  <div class="meta"><span class="tag pricing">Open Source</span><span class="tag oss">OSS</span></div>
+</a>
+<a class="tool-card" href="/tools/n8n/">
   <div class="name">n8n</div>
   <div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div>
   <div class="meta"><span class="tag pricing">Open Source</span><span class="tag oss">OSS</span></div>
 </a>
-<a class="tool-card" href="/tools/langchain/">
-  <div class="name">LangChain</div>
-  <div class="tagline">Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools</div>
+<a class="tool-card" href="/tools/n8n-marketing-flows/">
+  <div class="name">n8n Marketing Flows</div>
+  <div class="tagline">79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO</div>
   <div class="meta"><span class="tag pricing">Open Source</span><span class="tag oss">OSS</span></div>
 </a>
 <a class="tool-card" href="/tools/paperclip/">
@@ -295,7 +305,9 @@
 </a>
 </div>
 </div>
-<div class="hub-group reveal"><div class="tool-grid"><a class="tool-card" href="/tools/appsmith/">
+<div class="hub-group reveal">
+  <div class="hub-group-label"><span>LOW-CODE INTERNAL BUILDERS</span><i></i><em>4</em></div>
+  <div class="tool-grid"><a class="tool-card" href="/tools/appsmith/">
   <div class="name">Appsmith</div>
   <div class="tagline">Open-source platform for building admin panels and internal dashboards on your existing databases and APIs</div>
   <div class="meta"><span class="tag pricing">Free tier</span><span class="tag oss">OSS</span></div>
@@ -304,11 +316,6 @@
   <div class="name">Budibase</div>
   <div class="tagline">Open-source operations platform for building AI agents, apps and automations on your own data</div>
   <div class="meta"><span class="tag pricing">Free tier</span><span class="tag oss">OSS</span></div>
-</a>
-<a class="tool-card" href="/tools/n8n-marketing-flows/">
-  <div class="name">n8n Marketing Flows</div>
-  <div class="tagline">79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO</div>
-  <div class="meta"><span class="tag pricing">Open Source</span><span class="tag oss">OSS</span></div>
 </a>
 <a class="tool-card" href="/tools/nocobase/">
   <div class="name">NocoBase</div>
@@ -320,7 +327,9 @@
   <div class="tagline">Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps</div>
   <div class="meta"><span class="tag pricing">Free tier</span><span class="tag oss">OSS</span></div>
 </a>
-</div></div>
+</div>
+</div>
+
 
 <section class="hub-reading reveal">
   <h2>Reading before you buy</h2>
