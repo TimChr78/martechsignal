@@ -1,6 +1,6 @@
 {
  "/mnt/user/dev/martechsignal/index.html": {
-  "fp": "9738f3a95c67321a",
+  "fp": "44f645276962a802",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/checklist/index.html": {
@@ -8,15 +8,15 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/blog/agents-identity-debt/index.html": {
-  "fp": "b6c837a0ffff8127",
+  "fp": "40e1168fa0bbd010",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/ai-agents-need-campaign-state/index.html": {
-  "fp": "a6170566b2d0aedf",
+  "fp": "b4c4220f8ff952b1",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/index.html": {
-  "fp": "f87327f2a64fa806",
+  "fp": "c49ad4931d88e489",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/index.html": {
@@ -36,8 +36,8 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/blog/open-source-martech-stack/index.html": {
-  "fp": "a158acad65062508",
-  "date": "2026-09-17"
+  "fp": "4a5dc6855e023fb5",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/openai-agent-ads-spending-without-you/index.html": {
   "fp": "1277a58e0715ae78",
@@ -60,7 +60,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/ci-tools-were-the-first-martech-category-ai-killed/index.html": {
-  "fp": "318cfaed0c05f031",
+  "fp": "7338426ba3a58833",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/you-dont-need-new-data-stack-fivetran/index.html": {
@@ -84,7 +84,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/index.html": {
-  "fp": "85de2bde6d7ae5b7",
+  "fp": "505d204b80d45e75",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/about/index.html": {
@@ -116,19 +116,19 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/amplitude/index.html": {
-  "fp": "e2ec0105aa6e61c3",
+  "fp": "977ef2fff94c152b",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/anyword/index.html": {
-  "fp": "b17a1efc8a14babc",
-  "date": "2026-09-17"
+  "fp": "05d8faf7cbd127ef",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/attio/index.html": {
   "fp": "ca810e4f704974e2",
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/attribution/index.html": {
-  "fp": "1d8282fb664b788f",
+  "fp": "05fd7fef46014fe9",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/billionmail/index.html": {
@@ -184,7 +184,7 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/dynamic-yield/index.html": {
-  "fp": "847f7ede8b974888",
+  "fp": "384271845020cd12",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/espocrm/index.html": {
@@ -204,7 +204,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/heap/index.html": {
-  "fp": "30c8ade0d0bb4be0",
+  "fp": "0f6ced96950f7670",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/hootsuite/index.html": {
@@ -220,8 +220,8 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/hypotenuse-ai/index.html": {
-  "fp": "85f427d1dc408fdb",
-  "date": "2026-09-17"
+  "fp": "9668c54763c13bf6",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/intercom/index.html": {
   "fp": "9e403316459fec6f",
@@ -268,7 +268,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/matomo/index.html": {
-  "fp": "569f5c5a72e6fe10",
+  "fp": "2b83d968e436402e",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/mautic/index.html": {
@@ -276,7 +276,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/mixpanel/index.html": {
-  "fp": "4b26652ef8b0067f",
+  "fp": "daba0ac1ba13700c",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/multipost-extension/index.html": {
@@ -292,7 +292,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/nosto/index.html": {
-  "fp": "2ac023d716a444f6",
+  "fp": "316ab39ae2178ab4",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/openoutreach/index.html": {
@@ -348,8 +348,8 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/revealbot/index.html": {
-  "fp": "a72ae042ff5a978c",
-  "date": "2026-09-17"
+  "fp": "cf9cfec55602e7c4",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/salesforce-crm/index.html": {
   "fp": "74bbbcb4ba47741d",
@@ -360,8 +360,8 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/segment/index.html": {
-  "fp": "a215fd466554ff73",
-  "date": "2026-09-17"
+  "fp": "886a3977495e20d5",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/semrush/index.html": {
   "fp": "f12aeff71b6f9948",
@@ -376,7 +376,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/smartly-io/index.html": {
-  "fp": "6ebd310f6c558dfa",
+  "fp": "a5871082bfb58ff2",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/snowplow/index.html": {
@@ -400,7 +400,7 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/tealium/index.html": {
-  "fp": "d514819e8411d67e",
+  "fp": "822d5f6fd11d79b7",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/tidio/index.html": {
@@ -420,7 +420,7 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/umami/index.html": {
-  "fp": "b725c21c2ad6300f",
+  "fp": "6e3e43e6241cdb67",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/wacrm/index.html": {
@@ -432,7 +432,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/writer/index.html": {
-  "fp": "b3eebf2f4fbf5338",
+  "fp": "cef4900f1b9dd492",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/zapier/index.html": {
@@ -544,11 +544,11 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/categories/content-ai/index.html": {
-  "fp": "b71dbaaa632ef3f8",
+  "fp": "86102b109393cf75",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/analytics/index.html": {
-  "fp": "d806499d68bd93a7",
+  "fp": "e299c66185e79277",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/social-media/index.html": {
@@ -556,12 +556,12 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/categories/advertising/index.html": {
-  "fp": "ed3ee3b5755dfa27",
-  "date": "2026-09-17"
+  "fp": "f3e1e0fc21ff5b27",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/personalization/index.html": {
-  "fp": "3d34e86f4b64d2a8",
-  "date": "2026-09-17"
+  "fp": "513679dae15f7f04",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/chatbots/index.html": {
   "fp": "616b6fa1d9e7b1cb",
@@ -576,8 +576,8 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/categories/open-source/index.html": {
-  "fp": "89138c0345b5aae0",
-  "date": "2026-09-24"
+  "fp": "1e11854a9f44ed44",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/agent-skills/index.html": {
   "fp": "aaa1249f53298442",
@@ -688,7 +688,7 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/blog/index.html": {
-  "fp": "b34a128a88bd3664",
+  "fp": "e3561c135e99d703",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/idurar-erp-crm/index.html": {
@@ -716,7 +716,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/autonomous-marketing-platform-label-contest/index.html": {
-  "fp": "28de09739d5e2962",
+  "fp": "29c2a459c9dec84a",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/contact/index.html": {
@@ -724,8 +724,8 @@
   "date": "2026-09-16"
  },
  "/mnt/user/dev/martechsignal/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/index.html": {
-  "fp": "678d4df80b1ebec3",
-  "date": "2026-09-17"
+  "fp": "d8f05ce6471cedf6",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/glossary/ai-agent/index.html": {
   "fp": "2f46394159ec26dd",
@@ -788,15 +788,15 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/blog/microsoft-search-ads-steering-wheel/index.html": {
-  "fp": "63168d3ee19a7592",
-  "date": "2026-09-17"
+  "fp": "0c0cb1ed9382cd3a",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/chatgpt-isnt-search-anymore-its-checkout/index.html": {
-  "fp": "a21091a4e9483c22",
+  "fp": "df81bec2e970df33",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/cdp-reckoning-warehouse-native/index.html": {
-  "fp": "51e119b8509557a0",
+  "fp": "8d542f0e842fffd0",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/warpdrive/index.html": {
@@ -812,19 +812,19 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/appsmith/index.html": {
-  "fp": "e7a045448aa3ebf4",
-  "date": "2026-09-17"
+  "fp": "dd342053a3090008",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/tooljet/index.html": {
-  "fp": "22a56d812bf5e79c",
-  "date": "2026-09-17"
+  "fp": "a3e4f2ff34f91dd4",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/nocodb/index.html": {
   "fp": "019e02a83895a9e4",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/autonomous-stack-loophole-approval-step/index.html": {
-  "fp": "c1d679e828980ec1",
+  "fp": "595b1ea1dfa1dd3d",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/superlines/index.html": {
@@ -836,11 +836,11 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/tools/madgicx/index.html": {
-  "fp": "cfcc4e9d59e5ec3a",
-  "date": "2026-09-17"
+  "fp": "bb828d1cc6ac2197",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/automation-blast-radius-audit/index.html": {
-  "fp": "f77f00cc2d2df26e",
+  "fp": "2d826da3a10d7c71",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/nocobase-vs-nocodb-vs-budibase/index.html": {
@@ -848,7 +848,7 @@
   "date": "2026-09-17"
  },
  "/mnt/user/dev/martechsignal/blog/ai-search-funnel-map-ga4-wont-give-you/index.html": {
-  "fp": "7eb8264d70da692e",
+  "fp": "ac1a85feaf3b6a1c",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/silent-failure-audit/index.html": {
@@ -860,8 +860,8 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/deskcommcrm/index.html": {
-  "fp": "e789a80bec00d76e",
-  "date": "2026-09-17"
+  "fp": "d0ca871ef6693652",
+  "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/oss-martech-50-day-checkin/index.html": {
   "fp": "8ad68afe95fb12b2",
@@ -876,7 +876,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/index.html": {
-  "fp": "46a9ca573eb40ed9",
+  "fp": "95b08d10e87ed20a",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/authors/index.html": {
@@ -904,7 +904,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/blog/agent-protocol-vs-data-plumbing/index.html": {
-  "fp": "9b903f66dc11b60e",
+  "fp": "f1d4c69aef79e0c2",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/warmbly/index.html": {
@@ -952,7 +952,7 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/trakkr/index.html": {
-  "fp": "486929cebae3d785",
+  "fp": "11c557bc8a5dfe23",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/evertune/index.html": {
@@ -968,11 +968,55 @@
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/tools/adobe-llm-optimizer/index.html": {
-  "fp": "dc16bf4ec978545c",
+  "fp": "51b6b48cb3aaeef8",
   "date": "2026-09-25"
  },
  "/mnt/user/dev/martechsignal/categories/geo-llm-visibility/index.html": {
-  "fp": "6533790df2ca5bcd",
+  "fp": "2770b1582ce43e2b",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/jitsu/index.html": {
+  "fp": "15062d890f33f7d7",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/apache-unomi/index.html": {
+  "fp": "60ac0307b7041139",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/growthbook/index.html": {
+  "fp": "7174e5ff230eff67",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/flagsmith/index.html": {
+  "fp": "7772c207e9dc2c4a",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/languagetool/index.html": {
+  "fp": "97830cf2a8dfd426",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/khoj/index.html": {
+  "fp": "567bf35d7cb31e98",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/libretranslate/index.html": {
+  "fp": "29246c1a74d6373f",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/posthog/index.html": {
+  "fp": "1bdfc750549b9fbd",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/revive-adserver/index.html": {
+  "fp": "0a650eff895cde7a",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/advertools/index.html": {
+  "fp": "887bcfd09429b8c4",
+  "date": "2026-09-25"
+ },
+ "/mnt/user/dev/martechsignal/tools/promptfoo/index.html": {
+  "fp": "800c38b5e8efb479",
   "date": "2026-09-25"
  }
 }

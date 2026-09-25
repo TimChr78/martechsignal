@@ -9,11 +9,13 @@
 ### Advertising & Paid Media
 
 - [AdCreative.ai](https://martechsignal.com/tools/adcreative-ai/): AI platform generating high-converting ad creatives and social media post designs
+- [advertools](https://martechsignal.com/tools/advertools/): Python toolkit for SEO and advertising analysis in pandas DataFrames (open source)
 - [Albert AI](https://martechsignal.com/tools/albert-ai/): Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Madgicx](https://martechsignal.com/tools/madgicx/): AI-powered Meta ads optimization and creative workflow
 - [Opteo](https://martechsignal.com/tools/opteo/): Continuous Google Ads monitoring with one-click improvements
 - [Pencil](https://martechsignal.com/tools/pencil/): AI-powered ad creative generation and performance prediction for paid media
 - [Revealbot (Birch)](https://martechsignal.com/tools/revealbot/): AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
+- [Revive Adserver](https://martechsignal.com/tools/revive-adserver/): Free open source ad server for publishers, ad networks and advertisers (open source)
 - [Smartly.io](https://martechsignal.com/tools/smartly-io/): AI advertising platform spanning creative production, media buying, and measurement
 
 ### Agent Skills
@@ -46,6 +48,7 @@
 - [Mixpanel](https://martechsignal.com/tools/mixpanel/): Product analytics platform with AI-powered insights for user behavior tracking
 - [Northbeam](https://martechsignal.com/tools/northbeam/): AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Plausible Analytics](https://martechsignal.com/tools/plausible/): Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics (open source)
+- [PostHog](https://martechsignal.com/tools/posthog/): Open-source product analytics platform with session replay, feature flags, experiments, and surveys (open source)
 - [Snowplow](https://martechsignal.com/tools/snowplow/): Customer context infrastructure: behavioral event pipeline for warehouses and AI agents (open source)
 - [Triple Whale](https://martechsignal.com/tools/triple-whale/): AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Umami](https://martechsignal.com/tools/umami/): Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps (open source)
@@ -67,6 +70,9 @@
 - [Ghost](https://martechsignal.com/tools/ghost/): Open-source publishing platform with built-in newsletters, memberships, and AI tools (open source)
 - [Hypotenuse AI](https://martechsignal.com/tools/hypotenuse-ai/): AI content generation platform for ecommerce product descriptions and articles
 - [Jasper](https://martechsignal.com/tools/jasper/): AI marketing content platform for creating on-brand copy, images, and campaigns
+- [Khoj](https://martechsignal.com/tools/khoj/): Self-hosted AI research and writing assistant that chats with your documents and automates content workflows (open source)
+- [LanguageTool](https://martechsignal.com/tools/languagetool/): Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages (open source)
+- [LibreTranslate](https://martechsignal.com/tools/libretranslate/): Open-source machine translation API for content localization, self-hostable and free of vendor lock-in (open source)
 - [Persado](https://martechsignal.com/tools/persado/): AI content creation and optimization platform for regulated financial services marketing
 - [Phrasee](https://martechsignal.com/tools/phrasee/): AI messaging content platform; rebranded as Jacquard in June 2024
 - [Strapi](https://martechsignal.com/tools/strapi/): Open-source headless CMS with AI-powered content management and API-first design (open source)
@@ -126,6 +132,7 @@
 - [Nimt.ai](https://martechsignal.com/tools/nimt-ai/): AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 - [OtterlyAI](https://martechsignal.com/tools/otterlyai/): AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Profound](https://martechsignal.com/tools/profound/): Enterprise AI marketing platform: answer-engine visibility plus drafting agents
+- [Promptfoo](https://martechsignal.com/tools/promptfoo/): Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming (open source)
 - [Rankscale](https://martechsignal.com/tools/rankscale/): AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 - [Scrunch](https://martechsignal.com/tools/scrunch/): The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 - [SISTRIX](https://martechsignal.com/tools/sistrix/): German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
@@ -149,8 +156,12 @@
 
 ### Personalization & CDP
 
+- [Apache Unomi](https://martechsignal.com/tools/apache-unomi/): Apache's open-source customer data platform and personalization engine (open source)
 - [Clerk.io](https://martechsignal.com/tools/clerk-io/): AI-powered ecommerce personalization with search, recommendations, and email
 - [Dynamic Yield](https://martechsignal.com/tools/dynamic-yield/): AI-powered personalization platform for web, mobile, and email experiences
+- [Flagsmith](https://martechsignal.com/tools/flagsmith/): Open-source feature flag and remote config platform with segment targeting (open source)
+- [GrowthBook](https://martechsignal.com/tools/growthbook/): Open-source feature flags and A/B testing with a visual editor and attribute-based targeting (open source)
+- [Jitsu](https://martechsignal.com/tools/jitsu/): Open-source Segment alternative for event capture and warehouse-first data pipelines (open source)
 - [Nosto](https://martechsignal.com/tools/nosto/): AI-powered ecommerce personalization with product recommendations and merchandising
 - [Tealium](https://martechsignal.com/tools/tealium/): Enterprise customer data platform with real-time data orchestration and AI
 - [Twilio Segment](https://martechsignal.com/tools/segment/): Customer data platform for collecting, unifying, and activating customer data

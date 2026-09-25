@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jitsu Review: Open Source Segment Alternative</title>
+<meta name="description" content="Jitsu: open-source Segment alternative for event capture, CDP profiles, and warehouse sync. Self-host free under MIT; cloud from 200k events/mo free.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="Jitsu Review: Open Source Segment Alternative">
+<meta property="og:description" content="Jitsu: open-source Segment alternative for event capture, CDP profiles, and warehouse sync. Self-host free under MIT; cloud from 200k events/mo free.">
+<meta property="og:url" content="https://martechsignal.com/tools/jitsu/">
+<meta property="og:image" content="https://martechsignal.com/og/tools/jitsu.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jitsu Review: Open Source Segment Alternative">
+<meta name="twitter:description" content="Jitsu: open-source Segment alternative for event capture, CDP profiles, and warehouse sync. Self-host free under MIT; cloud from 200k events/mo free.">
+<meta name="twitter:image" content="https://martechsignal.com/og/tools/jitsu.png">
+<link rel="canonical" href="https://martechsignal.com/tools/jitsu/">
+<meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
+<link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
+<link rel="dns-prefetch" href="https://analytics.martechsignal.com">
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/jitsu/#app",
+    "name": "Jitsu",
+    "description": "Open-source Segment alternative for event capture and warehouse-first data pipelines",
+    "url": "https://jitsu.com",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal",
+      "url": "https://martechsignal.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://martechsignal.com/og.png",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    "dateModified": "2026-09-25",
+    "datePublished": "2026-09-25",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://jitsu.com/pricing",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Personalization & CDP",
+        "item": "https://martechsignal.com/categories/personalization/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Jitsu",
+        "item": "https://martechsignal.com/tools/jitsu/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Jitsu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open-source Segment alternative for event capture and warehouse-first data pipelines. It ships with MCP Server for agent-driven setup, 5,091 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Jitsu cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Jitsu a good Personalization & CDP tool in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Jitsu bill events?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Captured events are free. What counts is the active event: an event delivered to at least one destination. The free plan includes 200k active events a month. Business at USD 99 includes 2 million, then USD 40 per additional million."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a monthly active sync?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A successful data transfer from a connector to a destination. Repeated syncs on the same connection within the period count once. Free allows one daily active sync; Business includes five monthly ones, with extra active syncs at USD 20 each."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can Jitsu replace Segment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy."
+        }
+      }
+    ]
+  }
+]</script>
+<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+</head>
+<body class="page-tools">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/personalization/">Personalization &amp; CDP</a></li> / <li><span aria-current="page">Jitsu</span></li></ol></nav>
+<section class="page-head">
+  <h1>Jitsu Review</h1>
+  <p class="sub">Open-source Segment alternative for event capture and warehouse-first data pipelines</p>
+  <p class="count">Personalization &amp; CDP · Freemium · OPEN SOURCE</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review · updated 2026-09-25</p>
+</section>
+<div class="detail">
+  <div class="detail-main">
+    <h2>Overview</h2>
+    <p>Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option.
+
+Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.</p>
+    
+    <h2>AI Capabilities</h2><ul class="feat-list"><li>MCP Server for agent-driven setup</li></ul>
+    <h2>Key Integrations</h2><div class="integ-list"><span>BigQuery</span><span>Snowflake</span><span>Google Analytics 4</span><span>HubSpot</span><span>Salesforce</span><span>Webhooks</span></div>
+    <section class="pricing-block"><h2>Pricing</h2><p>Jitsu is freemium, with a free tier to start.</p><p>Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://jitsu.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Jitsu">Jitsu pricing page</a>.</p></section>
+    <h2>Best for</h2><p>Teams collecting web and product events into a warehouse who want a pipeline they can self-host, and Segment users chasing lower volume costs or their own infrastructure.</p><h2>Not for</h2><p>Teams that need marketing automation or journey orchestration on top of the data. Jitsu moves and shapes events; everything downstream is a different product.</p><h2>Review notes</h2><p>Assessed from jitsu.com, the documentation, and the GitHub repository in September 2026 rather than from a deployed instance. The self-hosting docs offer a quick start and a separate production deployment guide, so the path from a laptop to a real setup is written down. Capture is a script tag or one of several SDK and API options, and the Segment proxy lets an existing Segment implementation point at Jitsu without a rewrite.</p><p>The billing model rewards careful pipeline design. Only events delivered to at least one destination count toward the allowance, and a Jitsu Function can drop noise before delivery. The edge cases matter: a function that splits one event into several counts each copy separately, and a filtering function that makes a fetch call still bills the event it ends up dropping. On the free plan the connector side is limited to one daily active sync, so anything beyond event streaming is a paid feature.</p><p>The destination catalog is broad at both ends. Warehouses (BigQuery, Snowflake, Redshift, Postgres, ClickHouse) and roughly a dozen SaaS tools are documented, and the functions runtime has npm access and key-value storage, which covers most transformation jobs that would otherwise need a separate worker. Identity stitching, profiles, sessions, and schema management are listed as first-class features rather than add-ons.</p><h2>Verdict</h2><p>The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.</p>
+    <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> MIT licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan.</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: MCP Server for agent-driven setup</td><td><span style="color:var(--red-text)">&#10007;</span> Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting.</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (5,091 GitHub stars)</td><td><span style="color:var(--red-text)">&#10007;</span> Community support is the open-source path; the repository is active but not huge at 5,091 stars.</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Captured events are unlimited and free on every plan, so ingest volume alone never drives cost.</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Self-hosting the MIT-licensed code carries no usage limits and no licence fee.</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product.</td><td></td></tr></tbody></table></section>
+    <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/personalization/">Personalization</a> <a href="/glossary/cro/">CRO</a> <a href="/glossary/first-party-data/">First-party data</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
+    <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Jitsu?</summary><p>Open-source Segment alternative for event capture and warehouse-first data pipelines. It ships with MCP Server for agent-driven setup, 5,091 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Jitsu cost?</summary><p>Jitsu is open source - MIT licensed and free to self-host; the public repository carries 5,091 stars; native integrations cover BigQuery, Snowflake, Google Analytics 4. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Jitsu a good Personalization &amp; CDP tool in 2026?</summary><p>The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.</p></details><details class="faq-item"><summary>How does Jitsu bill events?</summary><p>Captured events are free. What counts is the active event: an event delivered to at least one destination. The free plan includes 200k active events a month. Business at USD 99 includes 2 million, then USD 40 per additional million.</p></details><details class="faq-item"><summary>What is a monthly active sync?</summary><p>A successful data transfer from a connector to a destination. Repeated syncs on the same connection within the period count once. Free allows one daily active sync; Business includes five monthly ones, with extra active syncs at USD 20 each.</p></details><details class="faq-item"><summary>Can Jitsu replace Segment?</summary><p>It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/growthbook/"><div class="name">GrowthBook</div><div class="tagline">Open-source feature flags and A/B testing with a visual editor and attribute-based targeting</div></a><a class="tool-card" href="/tools/tealium/"><div class="name">Tealium</div><div class="tagline">Enterprise customer data platform with real-time data orchestration and AI</div></a><a class="tool-card" href="/tools/matomo/"><div class="name">Matomo</div><div class="tagline">Open-source web analytics platform with full data ownership and AI-powered insights</div></a><a class="tool-card" href="/tools/mixpanel/"><div class="name">Mixpanel</div><div class="tagline">Product analytics platform with AI-powered insights for user behavior tracking</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/chatgpt-isnt-search-anymore-its-checkout/">ChatGPT Isn't Search Anymore, It's Checkout</a></li><li><a href="/blog/dashboard-cant-see-ai-search-5-layer-fix/">Your Dashboard Can't See AI Search , Here's the 5-Layer Fix</a></li></ul></section>
+  </div>
+  <aside class="sidebar">
+    <div class="side-card">
+      <h3>Quick Facts</h3>
+      <dl>
+        <div class="side-row"><dt>Pricing</dt><dd>Freemium</dd></div>
+        <div class="side-row"><dt>Category</dt><dd><a href="/categories/personalization/">Personalization &amp; CDP</a></dd></div>
+        
+        
+        <div class="side-row"><dt>GitHub</dt><dd>★ 5091</dd></div>
+        <div class="side-row"><dt>Founded</dt><dd>2020</dd></div>
+        <div class="side-row"><dt>HQ</dt><dd>New York City, United States (YC S20)</dd></div>
+        <div class="side-row"><dt>API</dt><dd>Yes</dd></div>
+        <div class="side-row"><dt>Last verified</dt><dd><time datetime="2026-09-25">2026-09-25</time></dd></div>
+      </dl>
+    </div>
+    <div class="side-card">
+      <a class="btn-sm" href="https://jitsu.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Jitsu">Visit Jitsu →</a>
+      <div style="margin-top:.8rem"><a href="/categories/personalization/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Personalization &amp; CDP Tools →</a></div>
+    </div>
+    
+  </aside>
+</div>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>

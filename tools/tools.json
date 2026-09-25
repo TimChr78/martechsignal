@@ -8907,5 +8907,786 @@
         ]
       ]
     }
+  },
+  {
+    "slug": "jitsu",
+    "name": "Jitsu",
+    "tagline": "Open-source Segment alternative for event capture and warehouse-first data pipelines",
+    "website": "https://jitsu.com",
+    "category": "personalization",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option.\n\nBilling counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits.",
+    "currency": "USD",
+    "open_source": true,
+    "license": "MIT",
+    "github_repo": "jitsucom/jitsu",
+    "github_stars": 5091,
+    "ai_features": [
+      "MCP Server for agent-driven setup"
+    ],
+    "integrations": [
+      "BigQuery",
+      "Snowflake",
+      "Google Analytics 4",
+      "HubSpot",
+      "Salesforce",
+      "Webhooks"
+    ],
+    "api_available": true,
+    "pricing_url": "https://jitsu.com/pricing",
+    "seo_title": "Jitsu Review: Open Source Segment Alternative",
+    "seo_description": "Jitsu: open-source Segment alternative for event capture, CDP profiles, and warehouse sync. Self-host free under MIT; cloud from 200k events/mo free.",
+    "hq": "New York City, United States (YC S20)",
+    "founded": 2020,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from jitsu.com, the documentation, and the GitHub repository in September 2026 rather than from a deployed instance. The self-hosting docs offer a quick start and a separate production deployment guide, so the path from a laptop to a real setup is written down. Capture is a script tag or one of several SDK and API options, and the Segment proxy lets an existing Segment implementation point at Jitsu without a rewrite.",
+        "The billing model rewards careful pipeline design. Only events delivered to at least one destination count toward the allowance, and a Jitsu Function can drop noise before delivery. The edge cases matter: a function that splits one event into several counts each copy separately, and a filtering function that makes a fetch call still bills the event it ends up dropping. On the free plan the connector side is limited to one daily active sync, so anything beyond event streaming is a paid feature.",
+        "The destination catalog is broad at both ends. Warehouses (BigQuery, Snowflake, Redshift, Postgres, ClickHouse) and roughly a dozen SaaS tools are documented, and the functions runtime has npm access and key-value storage, which covers most transformation jobs that would otherwise need a separate worker. Identity stitching, profiles, sessions, and schema management are listed as first-class features rather than add-ons."
+      ],
+      "verdict": "The strongest option for teams that want Segment-like event collection with warehouse ownership and an open-source escape hatch. Read the active event rules before estimating the bill.",
+      "best_for": "Teams collecting web and product events into a warehouse who want a pipeline they can self-host, and Segment users chasing lower volume costs or their own infrastructure.",
+      "not_for": "Teams that need marketing automation or journey orchestration on top of the data. Jitsu moves and shapes events; everything downstream is a different product.",
+      "cons": [
+        "The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan.",
+        "Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting.",
+        "Community support is the open-source path; the repository is active but not huge at 5,091 stars."
+      ],
+      "pros_extra": [
+        "Captured events are unlimited and free on every plan, so ingest volume alone never drives cost.",
+        "Self-hosting the MIT-licensed code carries no usage limits and no licence fee.",
+        "Deployment covers Jitsu Cloud, managed single-tenant private cloud on GCP or AWS, and on-premises as one product."
+      ],
+      "faq_extra": [
+        [
+          "How does Jitsu bill events?",
+          "Captured events are free. What counts is the active event: an event delivered to at least one destination. The free plan includes 200k active events a month. Business at USD 99 includes 2 million, then USD 40 per additional million."
+        ],
+        [
+          "What is a monthly active sync?",
+          "A successful data transfer from a connector to a destination. Repeated syncs on the same connection within the period count once. Free allows one daily active sync; Business includes five monthly ones, with extra active syncs at USD 20 each."
+        ],
+        [
+          "Can Jitsu replace Segment?",
+          "It covers the same collection and routing job and the docs ship a Segment proxy for an existing implementation. Check the destination catalog against your stack before switching, since the list is warehouse-heavy."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "apache-unomi",
+    "name": "Apache Unomi",
+    "tagline": "Apache's open-source customer data platform and personalization engine",
+    "website": "https://unomi.apache.org",
+    "category": "personalization",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Apache Unomi is a Java customer data platform and personalization engine governed by the Apache Software Foundation, licensed Apache-2.0, with 375 stars on the apache/unomi repository. It runs as an OSGi application inside Apache Karaf and speaks HTTP REST with JSON payloads, managing user profiles, the events attached to those profiles, segments, scoring plans, and a rule system that fires actions when matching events arrive. The privacy REST API is the differentiator: integrators can build interfaces that let visitors see what has been collected, withdraw consent, anonymize past and future data, or delete a profile entirely. Unomi is also the reference implementation of the OASIS Context Server (CXS) specification for exchanging profile data between systems.\n\nThe documented quick start is a Docker Compose file pairing the apache/unomi image with Elasticsearch 7.10.2 and exposing ports 8181, 9443, and 8102 behind default karaf credentials. The site states plainly that this configuration is for discovery and not for production. The current stable release is 3.0.1, with 3.1.0 in development. Unomi is built to integrate with CMS, CRM, and mobile systems over its REST API, its storage layer works with Elasticsearch or MongoDB, and new conditions and actions are added as Karaf plugins rather than by forking the core.\n\nThere is no commercial cloud tier and no vendor selling support. Teams run it themselves and own the operations work. The project carries no licence fee and no paid feature tier, and the trade is a small community and a Java-heavy skill profile for full control over profile data.",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free self-hosted Apache project; no commercial cloud tier",
+    "currency": null,
+    "open_source": true,
+    "license": "Apache-2.0",
+    "github_repo": "apache/unomi",
+    "github_stars": 375,
+    "ai_features": [],
+    "integrations": [
+      "Apache Karaf",
+      "Elasticsearch",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "api_available": true,
+    "pricing_url": null,
+    "seo_title": "Apache Unomi Review: Open Source CDP",
+    "seo_description": "Apache Unomi: open-source customer data platform and personalization engine with built-in privacy controls. Free to self-host; no commercial cloud tier.",
+    "hq": "Apache Software Foundation (community-governed)",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from unomi.apache.org and the project manual in September 2026, not from a running deployment. The quick start is a Docker Compose file pairing apache/unomi with Elasticsearch 7.10.2, and the site warns that the configuration is meant for discovery rather than production. The stack underneath is Java, OSGi, and Apache Karaf, which sets the skill profile of whoever ends up running it.",
+        "The privacy story is the reason to look at Unomi at all. A privacy REST API backs consent management, data access requests, anonymization of past and future events, and full profile deletion, and none of it ships with a default UI. Teams get the endpoints and build the visitor-facing screens themselves. That is more work than a consent checkbox and more control than most CDPs hand over.",
+        "The project is the reference implementation of the OASIS Context Server specification, and extension happens by plugging new conditions and actions into Karaf. Version 3.0.1 is the current stable. The repository carries 375 stars, which is small for a CDP, so expect fewer third-party guides, fewer integrations off the shelf, and a narrower hiring pool than the commercial alternatives."
+      ],
+      "verdict": "A real CDP with privacy controls that you fully own and fully operate. The price is Java operations work and a small ecosystem, measured in attention rather than dollars.",
+      "best_for": "Organizations that need profile management and personalization on their own infrastructure, especially those with GDPR obligations and Java or OSGi skills in-house.",
+      "not_for": "Teams that want a hosted CDP with a marketer-facing admin UI, prebuilt integrations, or a vendor to call when something breaks.",
+      "cons": [
+        "No commercial cloud tier and no paid support exist, so every operational problem belongs to your team.",
+        "The quick start is a discovery setup; production hardening is documented but manual, and there is no default UI for privacy or configuration.",
+        "375 GitHub stars means a small contributor base and little third-party tooling around the core."
+      ],
+      "pros_extra": [
+        "The privacy REST API covers consent, anonymization, and profile deletion out of the box, with no paid tier in front of it.",
+        "Running on Karaf as an OSGi bundle makes new conditions and actions pluggable without forking the core.",
+        "Elasticsearch or MongoDB for storage and REST with JSON everywhere keeps the integration surface conventional."
+      ],
+      "faq_extra": [
+        [
+          "Is Apache Unomi free?",
+          "Yes. It is an Apache Software Foundation project under the Apache-2.0 licence. There is no commercial cloud tier, no paid plan, and no licence fee."
+        ],
+        [
+          "What does Unomi need to run?",
+          "Java and Apache Karaf, with Elasticsearch or MongoDB for storage. The documented quick start uses Docker Compose with Elasticsearch 7.10.2, and the site labels that setup as not suitable for production."
+        ],
+        [
+          "Does Unomi have an admin UI?",
+          "Not a marketer-facing one. Unomi is a REST server, and the privacy and configuration interfaces in particular are left to developers to expose, as the project documentation states."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "growthbook",
+    "name": "GrowthBook",
+    "tagline": "Open-source feature flags and A/B testing with a visual editor and attribute-based targeting",
+    "website": "https://www.growthbook.io",
+    "category": "personalization",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. Flags support attribute-based targeting and gradual rollouts, and every cloud plan includes unlimited flags, experiments, and traffic. The statistics engine runs frequentist and Bayesian analysis, and Pro adds multi-arm bandits, split URL tests, a power calculator, and customizable dashboards.\n\nCloud pricing starts at zero. Starter is free for up to 3 users and 1 project. Pro runs USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom and adds ramp schedules, approval workflows, SSO and SCIM, exportable audit logs, and a 99.99% uptime SLA. A managed warehouse is available for teams without their own: 1 million events a month on Starter, 2 million on Pro and then USD 30 per million. Supported warehouses include Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service.\n\nThe AI surface is real and dated. A hosted MCP server at mcp.growthbook.io connects to Claude, Cursor, and VS Code over OAuth so agents can create flags and read experiment results. The AI Visual Editor is a Pro feature, GrowthBook AI usage is metered per plan, and Enterprise can bring its own LLM provider. Version 5.1 added a Slack app and contextual bandits. Self-hosting is documented alongside cloud. The repository is MIT licensed except for three enterprise directories under a separate GrowthBook Enterprise License. The company was founded in 2020 by Graham McNicoll and Jeremy Dorn.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million.",
+    "currency": "USD",
+    "open_source": true,
+    "license": "MIT",
+    "github_repo": "growthbook/growthbook",
+    "github_stars": 8430,
+    "ai_features": [
+      "GrowthBook AI assistant (usage-metered per plan)",
+      "AI Visual Editor (Pro and up)",
+      "MCP Server for Claude, Cursor, and VS Code",
+      "Contextual bandits (Enterprise)"
+    ],
+    "integrations": [
+      "Snowflake",
+      "BigQuery",
+      "Databricks",
+      "ClickHouse",
+      "Trino",
+      "Slack"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.growthbook.io/pricing",
+    "seo_title": "GrowthBook Review: Open Source Feature Flags",
+    "seo_description": "GrowthBook: open-source feature flags and A/B testing, warehouse-native with a visual editor. Free tier; Pro at USD 40 per seat per month.",
+    "hq": null,
+    "founded": 2020,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from growthbook.io, docs.growthbook.io, the pricing page, and the repository in September 2026, without a live deployment. The product treats the data warehouse as the source of truth: Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service are supported, and a managed warehouse is offered for teams that do not have one.",
+        "The plan lines are clear and worth reading closely. Starter is free for three users and one project with unlimited flags, experiments, and traffic. Pro at USD 40 per seat a month adds the AI Visual Editor, multi-arm bandits, split URL tests, safe rollouts, and a power calculator. Enterprise adds contextual bandits, ramp schedules, approval workflows, SSO and SCIM, and audit log export. The managed warehouse allowance is 1 million events a month on Starter, 2 million on Pro and then USD 30 per million.",
+        "The AI work goes further than in most flag tools. The hosted MCP server connects to Claude, Cursor, and VS Code over OAuth with no API key and lets agents create flags and query experiment results. GrowthBook AI usage is metered per plan, and Enterprise can point it at its own LLM provider. One detail to note in procurement: the code is MIT except for three enterprise directories that carry a separate GrowthBook Enterprise License."
+      ],
+      "verdict": "The warehouse-native choice for teams that want experimentation math they can audit and feature flags in the same tool. Both the price and the licence are legible.",
+      "best_for": "Product and data teams running A/B tests against their own warehouse who also want feature flags, with a free tier that carries a small team.",
+      "not_for": "Teams shopping for a full product analytics suite or marketing automation, and buyers who need every feature under a pure open-source licence: the enterprise directories are separately licensed.",
+      "cons": [
+        "Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat.",
+        "The AI Visual Editor, bandits, and split URL tests sit on paid plans only.",
+        "Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core."
+      ],
+      "pros_extra": [
+        "Unlimited flags, experiments, and traffic on every plan, including the free one.",
+        "The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys.",
+        "Cloud and self-hosted are both documented deployment paths, and the warehouse stays on your infrastructure either way."
+      ],
+      "faq_extra": [
+        [
+          "How much does GrowthBook cost?",
+          "Starter is free for up to 3 users and 1 project. Pro is USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom. Managed warehouse events: 1 million a month on Starter, 2 million on Pro and then USD 30 per million."
+        ],
+        [
+          "What licence is GrowthBook under?",
+          "MIT for most of the repository. Three directories (packages/back-end/src/enterprise, packages/front-end/enterprise, and packages/shared/src/enterprise) are under a separate GrowthBook Enterprise License, which is why GitHub reports the overall licence as unclassified."
+        ],
+        [
+          "Does GrowthBook work without a data warehouse?",
+          "Yes. The managed warehouse option covers teams without one on cloud plans, and the self-hosted path lets you run the whole stack yourself."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "flagsmith",
+    "name": "Flagsmith",
+    "tagline": "Open-source feature flag and remote config platform with segment targeting",
+    "website": "https://www.flagsmith.com",
+    "category": "personalization",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,570 GitHub stars, operated commercially by Bullet Train Ltd out of London. Flags and remote config values are managed per environment, with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Governance carries much of the pitch: role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies. SDKs cover the usual server, web, and mobile stacks, an Edge API serves flags close to users, and real-time flag updates keep clients current. Deployment options are cloud, self-hosted, and private cloud, with data centers listed in East Ohio, London, California, Mumbai, Sydney, and Sao Paulo.\n\nCloud pricing has a free tier up to 50,000 API requests a month. The Scale plan is USD 50 per member per month as of September 2026, shown against a list price of 60 as a launch discount, and extra API calls start at USD 50 per million. Self-hosting the open-source code costs nothing.\n\nIntegrations run deep on the observability and delivery side: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. An MCP server lets AI tools manage flags in natural language, and change requests and approval workflows stay in the loop when they do. Flag hygiene automation is pitched as the fix for stale flags piling up.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free.",
+    "currency": "USD",
+    "open_source": true,
+    "license": "BSD-3-Clause",
+    "github_repo": "Flagsmith/flagsmith",
+    "github_stars": 6570,
+    "ai_features": [
+      "MCP Server for natural-language flag management",
+      "Automated flag hygiene",
+      "AI-assisted change-request workflows",
+      "Prompt and model A/B testing (Flagsmith for AI)"
+    ],
+    "integrations": [
+      "Datadog",
+      "Grafana",
+      "Jira",
+      "GitHub",
+      "Amplitude",
+      "Mixpanel"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.flagsmith.com/pricing",
+    "seo_title": "Flagsmith Review: Open Source Feature Flags",
+    "seo_description": "Flagsmith: open-source feature flags and remote config with segment targeting and change governance. Free tier up to 50k API requests a month.",
+    "hq": "London, United Kingdom (Bullet Train Ltd, 66 Paul St)",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from flagsmith.com, docs.flagsmith.com, the pricing page, and the repository in September 2026, without running an instance. The product is feature flags and remote config with segment targeting, A/B and multivariate testing, and identity evaluation against user traits. Deployment choices are cloud, self-hosted, and private cloud, and the commercial operator is Bullet Train Ltd, registered in London.",
+        "Governance is where Flagsmith puts its weight. Role-based access control, four-eyes change requests, scheduled flag changes, audit logs, and flag governance policies are documented as core features, and the customer logos on the site lean toward banks, insurers, and healthcare. Teams in regulated environments are clearly who the product is built for.",
+        "The integration catalog is one of the widest in this category: Datadog, Grafana, Dynatrace, New Relic, Sentry, GitHub, GitLab, Jira, Backstage, Amplitude, and Mixpanel all have native connections. The MCP server lets AI tools create segments, schedule flags, and run rollouts in natural language, with change request approvals still in the loop. Flag hygiene automation is the pitch for the usual problem of stale flags outliving their features."
+      ],
+      "verdict": "A flag platform with the change-control story that regulated teams ask for, priced below the big names, and self-hosting keeps the exit open.",
+      "best_for": "Engineering teams in finance, healthcare, or insurance that need change control, audit logs, and a self-hosted path alongside a cloud option.",
+      "not_for": "Teams whose main need is experimentation analytics. A/B and multivariate testing exist, but the statistics and warehouse tooling are lighter than a dedicated experimentation platform.",
+      "cons": [
+        "The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly.",
+        "Scale pricing is per member, so seat count drives the bill, and the September 2026 price is a launch discount against a USD 60 list.",
+        "Extra API calls start at USD 50 per million, which turns surprise traffic into a real line item."
+      ],
+      "pros_extra": [
+        "Native integrations span observability, delivery, and analytics, so flag changes land in tools teams already watch.",
+        "The MCP server puts change requests and approvals in the path when AI tools make flag changes.",
+        "Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud."
+      ],
+      "faq_extra": [
+        [
+          "How much does Flagsmith cost?",
+          "Cloud has a free tier up to 50,000 API requests a month. Scale is USD 50 per member per month as of September 2026, shown against a USD 60 list price as a launch discount, with extra API calls from USD 50 per million. Self-hosting is free."
+        ],
+        [
+          "Can Flagsmith be self-hosted?",
+          "Yes. The code is BSD-3-Clause on GitHub, and self-hosted and private cloud deployments are documented alongside the hosted cloud."
+        ],
+        [
+          "Does Flagsmith have an MCP server?",
+          "Yes. It lets AI tools manage flags, create segments, schedule changes, and automate flag hygiene in natural language, with change requests and approvals still in the loop."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "languagetool",
+    "name": "LanguageTool",
+    "tagline": "Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages",
+    "website": "https://languagetool.org",
+    "category": "content-ai",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,089 GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67.\n\nThe project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers.\n\nFor marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden (currency localized by vendor), Sep 2026",
+    "currency": null,
+    "open_source": true,
+    "license": "LGPL-2.1",
+    "github_repo": "languagetool-org/LanguageTool",
+    "github_stars": 15089,
+    "ai_features": [
+      "AI style and tone suggestions",
+      "Paraphrasing tool",
+      "AI-powered grammar and punctuation checking"
+    ],
+    "integrations": [
+      "Google Chrome",
+      "Mozilla Firefox",
+      "Microsoft Edge",
+      "Gmail",
+      "Microsoft Outlook",
+      "LibreOffice"
+    ],
+    "api_available": true,
+    "pricing_url": "https://languagetool.org/premium",
+    "seo_title": "LanguageTool Review: Open Source | MartechSignal",
+    "seo_description": "LanguageTool: open-source grammar and style checker for 30+ languages with AI tone suggestions and paraphrasing. Free to self-host; Premium from SEK 49.96/mo.",
+    "hq": "Hamburg, Germany",
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from languagetool.org, the add-on stores, and the GitHub repository rather than a self-hosted deployment. The stack is a Java server with rule-based and statistical checks plus an AI layer for style and tone, and the client list is wider than most writing tools manage: browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. The self-hosted server keeps every checked sentence on your own infrastructure, which is the reason privacy-minded teams run it at all.",
+        "The freemium split needs reading before budgeting. Self-hosting and the browser add-ons cost nothing. The AI style and tone suggestions, unlimited paraphrasing, and extra error detection live behind Premium, which the vendor served at SEK 49.96 per month for the entry tier in Sweden in September 2026, with higher tiers at SEK 58.25 and SEK 149.67. Currency is localized by the vendor, so the same plan shows up in other currencies at other numbers. The pricing page and a browser in the target market settle any question about what a given team would pay.",
+        "For content work it behaves as a second reader rather than an editor. It flags grammar and punctuation problems and suggests tone shifts before publication, across more than 30 languages, but it does not manage content, schedule posts, or translate. The quality of the AI suggestions is uneven across languages, and English gets the deepest treatment. Teams publishing in several languages with contributors of mixed fluency are the natural fit."
+      ],
+      "verdict": "The writing checker to run yourself when text cannot leave your infrastructure, and a solid free add-on stack when it can. Pay for Premium only if the AI style suggestions and paraphrasing land in daily use.",
+      "best_for": "Marketing and content teams publishing in multiple languages that want consistent grammar and style checking, with the option to self-host and keep text in-house.",
+      "not_for": "Teams that need translation, content management, or an editorial workflow with assignments and approvals. LanguageTool checks text; the rest of the pipeline is someone else's job.",
+      "cons": [
+        "The AI style and tone suggestions sit behind Premium, so the free tier is the rule-based checker plus basic add-ons",
+        "Suggestion depth varies by language, with English getting the most attention",
+        "Pricing is served in localized currency, so published figures differ by market and are hard to compare"
+      ],
+      "pros_extra": [
+        "The self-hosted server is free and keeps checked text on your own infrastructure",
+        "Client coverage is broad: browsers, mail clients, and office suites without a separate connector",
+        "LGPL-2.1 licensing allows use inside commercial products with modest obligations"
+      ],
+      "faq_extra": [
+        [
+          "Is LanguageTool free?",
+          "Yes for self-hosting and for the browser and mail add-ons. Premium features on languagetool.org, including the AI style and tone suggestions and unlimited paraphrasing, are paid; the entry tier was served at SEK 49.96 per month in Sweden in September 2026."
+        ],
+        [
+          "Does LanguageTool work offline?",
+          "The self-hosted server runs entirely on your own infrastructure, so checking can happen without sending text to languagetool.org. The official browser add-ons talk to the hosted service unless you point them at your own server."
+        ],
+        [
+          "Which languages does LanguageTool support?",
+          "More than 30, including English, German, French, Spanish, Portuguese, Dutch, Polish, Russian, and Ukrainian. Coverage depth differs by language, and the AI suggestions are strongest in English."
+        ],
+        [
+          "Can LanguageTool replace a human editor?",
+          "No. It catches grammar, punctuation, and spelling problems and offers style and tone suggestions, but it does not judge argument, structure, or brand fit. Treat it as a fast second pass before a human review."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "khoj",
+    "name": "Khoj",
+    "tagline": "Self-hosted AI research and writing assistant that chats with your documents and automates content workflows",
+    "website": "https://khoj.dev",
+    "category": "content-ai",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Khoj is a self-hosted AI research and writing assistant, licensed AGPL-3.0 with 37,497 GitHub stars. The project calls itself an AI second brain, and the feature list backs that up: it chats with local or online models such as Llama 3, Qwen, Gemma, GPT, Claude, Gemini, and DeepSeek, and answers questions drawn from the open web and your own documents, including images, PDFs, Markdown, org-mode files, Word documents, and Notion exports. Semantic search surfaces relevant files from that archive quickly.\n\nAccess points are wide for a self-hosted tool. There is a browser interface, a desktop app, mobile access, a WhatsApp channel, and plugins for Obsidian and Emacs. Custom agents carry their own knowledge, persona, model, and tools, and automated workflows deliver personal newsletters and smart notifications by email. Image generation and voice output are included. Self-hosting is free, and a hosted option called Khoj Cloud exists, though we found no public pricing page for it in September 2026; the main site is a thin landing shell that points at the app and the docs.\n\nFor content teams the practical value is document-grounded research and drafting: chat with your own archive of briefs, reports, and notes, then turn the answers into new copy. The AGPL-3.0 license means changes to a deployed instance carry source obligations, which matters before commercial use. Khoj fits teams that want AI assistance over private documents without sending those documents to a hosted model vendor.",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free self-hosted; Khoj Cloud available, no public pricing page found (Sep 2026)",
+    "currency": null,
+    "open_source": true,
+    "license": "AGPL-3.0",
+    "github_repo": "khoj-ai/khoj",
+    "github_stars": 37497,
+    "ai_features": [
+      "Chat with local and online LLMs",
+      "Document Q&A over images, PDFs, Markdown, Word, and Notion files",
+      "Custom agents with personas, knowledge, and tools",
+      "Automated research newsletters and smart notifications",
+      "Semantic document search"
+    ],
+    "integrations": [
+      "Obsidian",
+      "Emacs",
+      "WhatsApp",
+      "Notion"
+    ],
+    "api_available": true,
+    "pricing_url": null,
+    "seo_title": "Khoj Review: Open Source AI Assistant | MartechSignal",
+    "seo_description": "Khoj: self-hosted AI research and writing assistant that chats with your documents, builds custom agents, and automates research. Free to self-host (AGPL-3.0).",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from the GitHub repository, the project docs, and the hosted app rather than a full self-hosted deployment. Khoj indexes your documents, including PDFs, images, Markdown, org-mode, Word files, and Notion exports, then answers questions against that index with whichever model you connect. Local models through Ollama-style setups and hosted models from OpenAI, Anthropic, and Google are both supported, so a team can start with a hosted model and move to local inference later without changing tools.",
+        "The access surface is the part that stands out. A self-hosted assistant usually means a web page and nothing else; Khoj adds a desktop app, mobile access, WhatsApp, and plugins for Obsidian and Emacs. Custom agents take their own persona, knowledge base, model, and tools, and scheduled automations send research newsletters and smart notifications by email. That turns it from a chat window into a small content workflow engine, which is where the marketing use case lives: watch topics, gather sources, draft from your own archive.",
+        "The commercial picture is thin. Self-hosting is free under AGPL-3.0, Khoj Cloud exists as a hosted app, and no public pricing page surfaced in September 2026. The AGPL terms mean anyone deploying a modified version for external users owes source access, so legal review is worth the hour before it touches client work."
+      ],
+      "verdict": "A strong pick when the documents are the product: private research, drafting against your own archive, and automated topic watching, all on infrastructure you control. Budget setup time and model costs, and settle the license question before commercial deployment.",
+      "best_for": "Content and research teams that want AI help over private document collections, with custom agents and scheduled research automation running on their own infrastructure.",
+      "not_for": "Teams that want a polished hosted product with published pricing, guaranteed support, or compliance certifications. Khoj Cloud exists but publishes no price list, and the self-hosted route needs technical ownership.",
+      "cons": [
+        "No public pricing page for Khoj Cloud, so hosted costs cannot be budgeted from the website",
+        "AGPL-3.0 obligations attach to modified deployments serving external users",
+        "Self-hosting plus model setup takes real technical time before anyone writes a word"
+      ],
+      "pros_extra": [
+        "Runs against local models, so private documents never have to leave the building",
+        "Client coverage is unusually wide for a self-hosted assistant, including Obsidian, Emacs, and WhatsApp",
+        "Scheduled newsletters and smart notifications automate research collection that would otherwise be manual"
+      ],
+      "faq_extra": [
+        [
+          "Is Khoj free?",
+          "Self-hosting is free under AGPL-3.0. A hosted Khoj Cloud option exists, but no public pricing page was found in September 2026, so cloud costs have to be confirmed with the vendor."
+        ],
+        [
+          "What documents can Khoj read?",
+          "Images, PDFs, Markdown, org-mode files, Word documents, and Notion exports, plus the open web. It answers questions against indexed documents with semantic search."
+        ],
+        [
+          "Can Khoj run on local models?",
+          "Yes. It chats with local models alongside hosted ones from OpenAI, Anthropic, Google, and others, so document data can stay on your infrastructure end to end."
+        ],
+        [
+          "Does the license affect commercial use?",
+          "AGPL-3.0 covers the code. Using it internally is straightforward; deploying a modified version for outside users creates source disclosure obligations, which is worth a legal check first."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "libretranslate",
+    "name": "LibreTranslate",
+    "tagline": "Open-source machine translation API for content localization, self-hostable and free of vendor lock-in",
+    "website": "https://libretranslate.com",
+    "category": "content-ai",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "LibreTranslate is an open-source machine translation API, licensed AGPL-3.0 with 16,830 GitHub stars. It runs neural translation models through Argos Translate and serves them over a REST interface with automatic language detection, so it fits content localization pipelines that need translation as a service rather than as a website. You can self-host it with Docker or pip and run it offline, which keeps text away from third-party translation vendors and their retention policies.\n\nSelf-hosting is free. The hosted instance at libretranslate.com charges per character through an API key, but the site publishes no price page we could extract in September 2026, so hosted costs need confirming before anyone budgets for them. The API surface is documented with Swagger, and other software can point its translation backend at a LibreTranslate server; Mastodon is the common example, and public instances such as Disroot run on it.\n\nQuality is the honest trade-off. The models are smaller than the commercial engines from Google or DeepL, so output fits gisting, internal drafts, and support content better than publish-ready marketing copy in every language pair. Teams that want machine translation under their own control, with an API their code can call, get a working system at no licence cost and can layer human review on top for anything customer-facing.",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free self-hosted; hosted API billed per character on libretranslate.com (Sep 2026)",
+    "currency": null,
+    "open_source": true,
+    "license": "AGPL-3.0",
+    "github_repo": "LibreTranslate/LibreTranslate",
+    "github_stars": 16830,
+    "ai_features": [
+      "Neural machine translation via Argos Translate models",
+      "Automatic language detection",
+      "Self-hosted translation API"
+    ],
+    "integrations": [
+      "Mastodon",
+      "Argos Translate",
+      "OpenAPI/Swagger"
+    ],
+    "api_available": true,
+    "pricing_url": null,
+    "seo_title": "LibreTranslate Review: Open Source | MartechSignal",
+    "seo_description": "LibreTranslate: open-source machine translation API for content localization. Free to self-host with Docker; hosted API billed per character on libretranslate.com.",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from the GitHub repository, the API docs on libretranslate.com, and the admin documentation of tools that connect to it, rather than a benchmarked self-hosted deployment. The system is one service: neural models from Argos Translate behind a REST API with language detection, a Swagger-documented endpoint set, and a simple web form for spot checks. Docker and pip installs are both documented, and the server runs with no internet connection once models are present.",
+        "The pricing story is the clearest of the three translation options most teams compare. Self-hosting is free under AGPL-3.0, forever, including commercial use. The hosted API on libretranslate.com bills per character behind an API key, and no public price page could be extracted in September 2026, so the hosted route has to be quoted before it enters a budget. Running your own instance also fixes the cost question entirely, since the only spend is hardware.",
+        "On output quality the honest position is that it trails the large commercial engines. The models are compact and community-maintained, and they handle common language pairs well enough for drafts, internal communication, and support macros. Customer-facing marketing copy still wants human review or a stronger engine. Where it wins is control: no text leaves the server, no per-call metering, and other software can point at it directly. Mastodon admins use exactly that path for post translation, and the Swagger spec makes custom pipeline work routine."
+      ],
+      "verdict": "The translation API to run yourself when cost control and data handling matter more than peak quality. Good for drafts and internal content; keep human review for customer-facing copy.",
+      "best_for": "Teams building localization pipelines that want a free, self-hosted translation API with no per-character metering and no text leaving their infrastructure.",
+      "not_for": "Teams publishing translated marketing copy straight to customers in many languages. The models trail the commercial engines, and the hosted instance has no public price list.",
+      "cons": [
+        "Translation quality sits below the large commercial engines, especially in uncommon language pairs",
+        "The hosted API publishes no extractable price page, so per-character costs are unknown until quoted",
+        "Self-hosting demands GPU or CPU capacity that scales with volume, and translation is resource-heavy"
+      ],
+      "pros_extra": [
+        "Free to self-host under AGPL-3.0, including commercial use, with no per-character billing",
+        "Runs offline once models are downloaded, which settles data handling questions outright",
+        "The Swagger-documented REST API makes it a drop-in translation backend for other software"
+      ],
+      "faq_extra": [
+        [
+          "Is LibreTranslate free?",
+          "Yes to self-host, including for commercial use. The hosted API on libretranslate.com bills per character behind an API key, but the site had no extractable public price page in September 2026."
+        ],
+        [
+          "How good is its translation quality?",
+          "Solid for drafts, internal communication, and understanding content in other languages. It trails Google Translate and DeepL on polish, so customer-facing copy still passes a human editor."
+        ],
+        [
+          "Can LibreTranslate run offline?",
+          "Yes. Once the language models are on disk, the server works with no internet connection, which is the main reason teams pick it for sensitive content."
+        ],
+        [
+          "What connects to LibreTranslate?",
+          "Anything that can call a REST API. Mastodon is the best-known example, where admins point the post translation backend at a LibreTranslate instance, and the Swagger docs cover the rest."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "tagline": "Open-source product analytics platform with session replay, feature flags, experiments, and surveys",
+    "website": "https://posthog.com",
+    "category": "analytics",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "PostHog is an open-source product analytics platform with 39,933 GitHub stars. One install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, a data warehouse, data pipelines, and logs. The core code is MIT licensed, while the ee/ directory carries a separate enterprise license, so the openness is real but partial. The same product runs as PostHog Cloud in US and EU regions or self-hosted.\n\nPricing is usage-based credits on top of a free tier that renews every month for every product: 1M events, 5K session recordings, 1M feature flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and more, with no card required and usage stopping at the limits. Pay-as-you-go adds six projects, seven-year data retention, and unlimited usage. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026. The free tier is not a trial; the vendor says 97 percent of companies never pay.\n\nThe AI features are part of the product rather than a bolt-on. PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 free credits each month, while AI Observability and Evaluations track LLM usage and Replay Vision assists session review. Integrations cover Slack, GitHub, Zapier, Segment, Sentry, and HubSpot. For marketing and product teams that want funnels, retention, and experiments in one place, PostHog replaces a stack of separate tools and keeps the free tier large enough for real work.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Full free tier on every product every month; usage-based credits beyond it (Sep 2026)",
+    "currency": "USD",
+    "open_source": true,
+    "license": "MIT",
+    "github_repo": "PostHog/posthog",
+    "github_stars": 39933,
+    "ai_features": [
+      "PostHog AI assistant for natural language queries (500 free credits per month)",
+      "AI Observability and LLM Evaluations",
+      "Replay Vision for AI-assisted session replay review"
+    ],
+    "integrations": [
+      "Slack",
+      "GitHub",
+      "Zapier",
+      "Segment",
+      "Sentry",
+      "HubSpot"
+    ],
+    "api_available": true,
+    "pricing_url": "https://posthog.com/pricing",
+    "seo_title": "PostHog Review: Open Source | MartechSignal",
+    "seo_description": "PostHog: open-source product analytics with session replay, feature flags, experiments, and surveys. Full free tier every month; usage-based credits beyond it.",
+    "hq": "San Francisco, United States",
+    "founded": 2020,
+    "deep_dive": {
+      "hands_on": [
+        "Assessed from posthog.com/pricing, the documentation, and the GitHub repository rather than a production deployment. The scope is the surprise: event analytics, session replay, feature flags, experiments, surveys, error tracking, a data warehouse, data pipelines, and logs all live in one product with one signup. Teams that would otherwise buy an analytics tool, a replay tool, a flag service, and a survey tool separately get one bill and one tag.",
+        "The pricing page is unusually blunt. Every product gets a free allowance that resets monthly with no card on file: 1M analytics events, 5K recordings, 1M flag requests, 100K exceptions, 1,500 survey responses, 10GB of logs, and 1M data warehouse rows. Usage stops at the limits, so an unexpected traffic spike cannot produce a surprise invoice. Pay-as-you-go keeps the same free tier and adds six projects and seven-year retention; credit add-ons appeared as USD 5, 25, and 20 packs in September 2026, and the vendor says 97 percent of companies stay on the free plan.",
+        "The open-source claim needs its footnote. The repository is MIT except the ee/ directory, which carries its own enterprise license, and GitHub lists the license as non-standard for that reason. Self-hosting is possible, and cloud regions in the US and EU cover data residency questions. The AI layer earns its place: PostHog AI queries the data in plain language across web, Slack, desktop, and MCP, and AI Observability plus Evaluations track LLM product usage, which matters for teams shipping AI features of their own."
+      ],
+      "verdict": "The default choice for product and marketing analytics when one tool should cover funnels, replay, flags, and surveys. The free tier is large enough to run a real product on, and the per-product billing limits keep costs bounded.",
+      "best_for": "Product and growth teams that want analytics, session replay, feature flags, experiments, and surveys in one platform, starting free and scaling on usage.",
+      "not_for": "Organizations that need a fully permissive open-source stack in every component, or teams with strict procurement rules that rule out a partially proprietary codebase and cloud-first roadmap.",
+      "cons": [
+        "The ee/ directory is under a separate enterprise license, so the codebase is not wholly MIT",
+        "Usage-based pricing means costs track volume, and heavy session replay or event traffic moves the bill",
+        "Feature depth per product trails the focused specialists in each category"
+      ],
+      "pros_extra": [
+        "The monthly free tier covers every product and stops usage at the limits, so a spike cannot create a surprise invoice",
+        "One platform replaces several separate martech purchases with one tag and one billing page",
+        "US and EU cloud regions plus a self-hosted option cover most data residency conversations"
+      ],
+      "faq_extra": [
+        [
+          "Is PostHog really free?",
+          "The free tier renews every month for every product, including 1M events and 5K session recordings, with no card required and usage stopping at the limits. The vendor says 97 percent of companies use it without paying. Paid usage starts only past those limits."
+        ],
+        [
+          "Is PostHog open source?",
+          "Mostly. The core is MIT licensed; code under the ee/ directory carries a separate enterprise license. GitHub lists the repository license as non-standard for that reason. Self-hosting is supported."
+        ],
+        [
+          "How does PostHog pricing work?",
+          "Usage-based credits per product on top of the free allowances, with per-product billing limits so one runaway feature cannot blow the budget. Credit add-ons were shown as USD 5, 25, and 20 packs in September 2026."
+        ],
+        [
+          "What AI features does PostHog include?",
+          "PostHog AI answers questions about your data in plain language across web, Slack, desktop, and MCP, with 500 credits free each month. AI Observability and Evaluations track LLM usage, and Replay Vision assists session replay review."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "revive-adserver",
+    "name": "Revive Adserver",
+    "tagline": "Free open source ad server for publishers, ad networks and advertisers",
+    "website": "https://www.revive-adserver.com",
+    "category": "advertising",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Revive Adserver is a free, open source ad server for publishers, ad networks and advertisers who want to run their own ad serving. It is the direct descendant of PhpAdsNew and OpenX, maintained as a community project with backing from Aqua Platform. You install it on your own PHP and MySQL infrastructure, define advertisers, campaigns and banners, set up websites and zones, and paste invocation code into your pages. Ads can be served on websites, in apps and in video players.\n\nDelivery control covers the practical needs of direct-sold and house campaigns. Frequency capping, URL targeting and geotargeting decide who sees what. Geotargeting runs through a plugin that uses MaxMind GeoLite2 data, so accuracy depends on keeping that database current. Delivery rule sets apply reusable targeting across banners, which helps when one campaign runs across many zones. Reporting tracks requests, impressions, clicks and conversions, with CTR, conversion rates, revenue and eCPM broken out, plus conversion details like basket value and number of items purchased. Google AdSense can be served alongside your own inventory.\n\nThe trade-off is operational. You run the servers, apply updates and handle security advisories yourself. The documentation lives in a wiki with user, admin and developer guides covering installation, upgrades, delivery rules and plugin development. There is no commercial cloud tier from the project itself. A separate Hosted edition is sold at revive-adserver.net by Aqua Platform, the company behind the software, for teams that want the same ad server without running it. For ad serving on infrastructure you control, with no license fee and no per-impression cost, Revive is the established option.",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free self-hosted (GPL-2.0). A separate hosted edition is sold at revive-adserver.net (Aqua Platform); no public price (Sep 2026).",
+    "currency": null,
+    "open_source": true,
+    "license": "GPL-2.0",
+    "github_repo": "revive-adserver/revive-adserver",
+    "github_stars": 1505,
+    "ai_features": [],
+    "integrations": [
+      "MaxMind GeoLite2",
+      "Google AdSense",
+      "MySQL",
+      "PHP"
+    ],
+    "api_available": false,
+    "pricing_url": null,
+    "seo_title": "Revive Adserver Review: Self-Hosted Ad Serving",
+    "seo_description": "Revive Adserver is the free, open source ad server from the OpenX lineage. Self-host campaigns, banners, zones, geotargeting and conversion reporting at no cost.",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "Setting up Revive follows the classic ad server path. Admins create advertisers, then campaigns and banners under them, then websites and zones for placements, and finally link campaigns to zones and paste the invocation code into pages. The hierarchy is fixed and familiar to anyone who has used OpenX or similar systems. Banner types cover images, HTML and text, and the same install delivers into websites, apps and video players.",
+        "Delivery rules do the day-to-day work: frequency capping, URL targeting and geotargeting. Geotargeting runs through a plugin using MaxMind GeoLite2 data, so operators who care about geo accuracy keep that database updated. Delivery rule sets are reusable across banners, which saves repetition when one campaign spans many zones.",
+        "Reporting is built for billing conversations. Requests, impressions, clicks and conversions are tracked, with CTR, conversion rates, revenue and eCPM available and conversion details down to basket value and item counts. Google AdSense can run next to house inventory as a banner source. What the project does not provide is operations. Patching, backups and security advisories belong to the operator, and the docs are a wiki rather than a vendor support desk. Assessed from vendor docs and the project README."
+      ],
+      "verdict": "The dependable choice for ad serving on your own servers with no license fee and no per-impression cost. Expect to own the ops work.",
+      "best_for": "Publishers, ad networks and developers who want control of delivery, data and infrastructure, and who have the PHP and MySQL ops skills to run the stack.",
+      "not_for": "Teams that want a managed ad platform with vendor support, built-in demand or header bidding. Revive is a direct-sold and house-ads server.",
+      "cons": [
+        "You run the servers, apply updates and watch security advisories yourself.",
+        "Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates.",
+        "The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age."
+      ],
+      "pros_extra": [
+        "GPL-2.0 with no license fee and no per-impression charges.",
+        "Serves websites, apps and video players from one install.",
+        "A hosted edition at revive-adserver.net exists for teams that want the software without running it."
+      ],
+      "faq_extra": [
+        [
+          "Is Revive Adserver free?",
+          "Yes. The download edition is GPL-2.0 software with no license fee. A separate hosted edition is sold at revive-adserver.net by Aqua Platform, so you pay only if you want someone else to operate it."
+        ],
+        [
+          "What do I need to run it?",
+          "A PHP and MySQL stack. Installation, upgrade and configuration steps sit in the Administrator Guide on the project documentation site."
+        ],
+        [
+          "Does it support geotargeting?",
+          "Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 data; the project README lists GeoLite2 as a dependency."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "advertools",
+    "name": "advertools",
+    "tagline": "Python toolkit for SEO and advertising analysis in pandas DataFrames",
+    "website": "https://advertools.readthedocs.io",
+    "category": "advertising",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "advertools is a Python package by Elias Dabbas for online marketing analysis. Each function does one job, and the results land in pandas DataFrames. On the advertising side, kw_generate builds keyword lists from product and attribute combinations, and ad_from_string splits a long text into headline and description slots so ad copy can be assembled and checked at scale. urlytics breaks large URL sets into components for reporting, and the *_to_df helpers convert log files, XML sitemaps, robots.txt files and URL lists into DataFrames.\n\nThe SEO side is just as concrete. spider is a generic SEO crawler built on Scrapy, with full access to Scrapy settings for headers, user agents and crawl limits. robotstxt_to_df downloads robots.txt into a DataFrame, and the sitemap functions download and parse XML sitemaps. serp_goog and serp_yt import search results pages from Google and YouTube, with the search parameters needed for country and language splits. There are also modules for the Twitter and YouTube data APIs, a 3,000-plus emoji database, and extract_ functions that pull hashtags, mentions and emoji out of social text.\n\nVersion 0.18.0 added a Claude SERP analytics module, which points part of the toolkit at LLM answer data. The package installs from PyPI with pip install advertools, needs no account, and is MIT licensed. Docs live on Read the Docs, with notebooks on Kaggle for practice data. For marketers who work in notebooks rather than dashboards, it covers SERP, keyword, ad text and URL analysis without SaaS pricing.",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free MIT-licensed Python package",
+    "currency": null,
+    "open_source": true,
+    "license": "MIT",
+    "github_repo": "eliasdabbas/advertools",
+    "github_stars": 1464,
+    "ai_features": [
+      "Claude SERP analytics module (advertools.serp_claude), added in v0.18.0"
+    ],
+    "integrations": [
+      "Python pandas",
+      "Scrapy",
+      "Google Search API",
+      "YouTube Data API",
+      "Twitter/X API"
+    ],
+    "api_available": true,
+    "pricing_url": null,
+    "seo_title": "advertools Review: Python SEO & Ad Analysis Toolkit",
+    "seo_description": "advertools is a free MIT Python toolkit for SERP, keyword, ad text and URL analysis. Crawl sites, parse sitemaps, and work in pandas DataFrames.",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "advertools is a Python package, so the workflow starts with pip install advertools and ends with a DataFrame. The functions are narrow on purpose. kw_generate builds keyword lists from product and attribute combinations, ad_from_string splits a long text into headline and description slots for ad copy work, and urlytics parses large URL sets into components for reporting. None of this needs an account or a key.",
+        "SEO and SERP work sits in the other half of the toolkit. spider is a Scrapy-based crawler with full access to Scrapy settings. robotstxt_to_df and the sitemap functions turn robots.txt and XML sitemaps into DataFrames. serp_goog and serp_yt pull Google and YouTube results pages for analysis, with country and language parameters for market splits. Modules for the Twitter and YouTube data APIs round out the data sources, plus an emoji database and extract_ functions for hashtags, mentions and emoji in social text.",
+        "Version 0.18.0 added a Claude SERP analytics module, which points the toolkit at LLM answer data. For GEO and AI visibility work, the practical role is data preparation: assembling prompt and keyword sets, parsing answers and comparing brand mentions at scale in code. There is no tracking dashboard on top. Assessed from the project README and docs."
+      ],
+      "verdict": "A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.",
+      "best_for": "SEO and PPC practitioners comfortable in Python who want SERP, keyword, ad text and URL analysis without per-seat SaaS pricing.",
+      "not_for": "Marketers who want dashboards, scheduled reports or a no-code workflow. advertools is a library, and you build the output yourself.",
+      "cons": [
+        "There is no interface; every task starts in a notebook or a script.",
+        "SERP and social functions call external APIs, so quotas and billing come from Google, YouTube and Twitter rather than from advertools.",
+        "Docs are function-by-function reference pages; guided end-to-end workflows are sparse."
+      ],
+      "pros_extra": [
+        "MIT licensed and pip installable; the analysis functions themselves need no account or key.",
+        "Crawler built on Scrapy, so crawl behavior is fully configurable.",
+        "v0.18.0 added Claude SERP analytics, useful for LLM answer data."
+      ],
+      "faq_extra": [
+        [
+          "How much does advertools cost?",
+          "Nothing. It is MIT licensed and installs from PyPI with pip install advertools. Functions that call Google, YouTube or Twitter APIs inherit those providers' quotas and pricing."
+        ],
+        [
+          "Do I need to know Python?",
+          "Yes. The package returns pandas DataFrames, so the work happens in notebooks and scripts rather than in a web dashboard."
+        ],
+        [
+          "Can it help with GEO and AI visibility work?",
+          "It is a data toolkit rather than a tracking dashboard, but keyword generation, SERP parsing and the Claude SERP analytics module added in v0.18.0 cover the data-preparation side of that work."
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "promptfoo",
+    "name": "Promptfoo",
+    "tagline": "Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming",
+    "website": "https://promptfoo.dev",
+    "category": "geo-llm-visibility",
+    "status": "active",
+    "date_added": "2026-09-25",
+    "date_updated": "2026-09-25",
+    "description": "Promptfoo is an open source LLM evaluation toolkit, used by developers to test prompts and models and by marketing teams to track brand answers in AI search. The core is a CLI and a TypeScript library, both MIT licensed. You define prompt sets, providers and grading rules in YAML, run everything in one command, and get a comparison of how each model answered each prompt. Outputs are scored with assertions: exact match, contains, regex, similarity, and model-graded checks where one model grades another's answer. Results open in a local web viewer.\n\nFor generative engine optimization, Promptfoo is not a dedicated GEO dashboard and does not pretend to be one. What teams do is write a fixed set of buyer questions, run that set across ChatGPT, Perplexity and other models on a schedule, and grade whether their brand appears in each answer and what the answer claims. That yields prompt-level brand-answer tracking with developer tooling: versioned, repeatable and diffable between runs. There is no share-of-voice index or rank chart out of the box; tracking is only as good as the prompt set and grading rules you write.\n\nThe second major mode is red teaming. The CLI generates attack probes against an application and reports findings. Guardrails, an MCP proxy, model security and code scanning are separate products on the cloud side, and the hosted red team product shows a 10k probes per month limit. Everything so far runs locally at no cost. Promptfoo's cloud adds team and enterprise features, and as of September 2026 the pricing page lists no public price numbers.",
+    "pricing_model": "freemium",
+    "price_from": 0,
+    "price_notes": "Free open-source CLI; cloud/enterprise tiers on promptfoo.dev, no public numbers extracted (Sep 2026)",
+    "currency": null,
+    "open_source": true,
+    "license": "MIT",
+    "github_repo": "promptfoo/promptfoo",
+    "github_stars": 25453,
+    "ai_features": [
+      "Model-graded evals where one LLM scores another's answers",
+      "Automated red team probe generation against AI applications",
+      "Prompt runs across ChatGPT, Perplexity and other models with side-by-side comparison"
+    ],
+    "integrations": [
+      "OpenAI",
+      "Anthropic",
+      "Azure OpenAI",
+      "Amazon Bedrock",
+      "GitHub Actions"
+    ],
+    "api_available": true,
+    "pricing_url": "https://www.promptfoo.dev/pricing/",
+    "seo_title": "Promptfoo Review: LLM Evals for GEO Tracking",
+    "seo_description": "Promptfoo is an open source LLM eval toolkit: run prompt sets across ChatGPT, Perplexity and other models, grade answers, and track brand mentions for GEO.",
+    "hq": null,
+    "deep_dive": {
+      "hands_on": [
+        "Promptfoo is a developer eval toolkit, and the workflow shows it. Prompt sets, providers and grading rules live in YAML. One command runs every prompt against every model and grades the outputs with assertions: exact match, contains, regex, similarity, and model-graded checks where a judge model scores the answer. Results open in a local web viewer where answers can be compared side by side.",
+        "The GEO use case is a repurposing rather than a packaged feature. A marketing team writes a fixed set of buyer questions, runs them across ChatGPT, Perplexity and other models on a schedule, and scores whether the brand appears in each answer and what the answer says. That is prompt-level brand-answer tracking built on the same primitives developers use for regression tests. It is not a dedicated GEO dashboard. There is no rank index or share-of-voice UI out of the box, and the tracking is only as good as the prompt set and grading rules you write. Assessed from vendor docs.",
+        "Red teaming is the other big mode. The CLI generates attack probes against an application and reports vulnerabilities. The hosted red team product shows a 10k probes per month limit, and guardrails, an MCP proxy, model security and code scanning sit as separate cloud products. The eval engine itself runs locally under the MIT license; the cloud at promptfoo.dev adds team and enterprise features with no public price numbers listed as of September 2026."
+      ],
+      "verdict": "An eval framework that can double as GEO prompt tracking for teams willing to write YAML and grading rules. Not a substitute for a visibility dashboard.",
+      "best_for": "Developer-led teams and technical marketers who want prompt-level brand-answer tracking, model comparisons and red teaming in one toolkit.",
+      "not_for": "Marketers who want a no-code GEO dashboard with rank tracking, share-of-voice charts and scheduled reports.",
+      "cons": [
+        "GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it.",
+        "The 10k probes per month limit shown for hosted red teaming constrains large attack suites.",
+        "Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation."
+      ],
+      "pros_extra": [
+        "MIT license with a large open-source repo, so the eval engine can run fully local.",
+        "One tool covers prompt evals, model comparison and red teaming.",
+        "Assertion-based grading makes brand-answer checks repeatable and diffable across runs."
+      ],
+      "faq_extra": [
+        [
+          "Is Promptfoo free?",
+          "The core is MIT licensed and free to run locally. Promptfoo also sells cloud and enterprise tiers at promptfoo.dev, which listed no public price numbers as of September 2026."
+        ],
+        [
+          "Is Promptfoo a GEO tool?",
+          "It is an LLM eval toolkit. Marketers use it for GEO-style work by running fixed question sets across ChatGPT, Perplexity and other models and scoring brand mentions in the answers, but it does not ship a dedicated GEO dashboard."
+        ],
+        [
+          "What does red teaming include?",
+          "The CLI generates attack probes against an application and reports findings. The hosted red team product shows a 10k probes per month limit."
+        ]
+      ]
+    }
   }
 ]
