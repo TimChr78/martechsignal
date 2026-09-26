@@ -386,11 +386,19 @@ def screenshot_figure(slug, tool_name):
             what = f"{tool_name} homepage"
     else:
         what = f"{tool_name} homepage"
+    # M16 (2026-09-26): serve the WebP conversion (written next to the PNG by the
+    # batch converter) via <picture>, keeping the PNG as universal fallback.
+    webp_src = ""
+    if rel.endswith(".png"):
+        w = path.with_suffix(".webp")
+        if w.exists():
+            webp_src = f'<source type="image/webp" srcset="/{rel[:-4]}.webp">'
     return (
         '<figure class="tool-screenshot" style="margin:1.2rem 0">'
+        f'<picture>{webp_src}'
         f'<img src="/{rel}" alt="Screenshot of the {esc(tool_name)} homepage" '
         'width="1280" height="800" loading="lazy" '
-        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
+        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture>'
         f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
         f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '
         'belongs to its owner.</figcaption></figure>'
@@ -1032,7 +1040,7 @@ def build_tool_page(t, cats, all_tools):
   <h1>{esc(t['name'])} pricing &amp; plans</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
-  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated {esc(t.get('date_updated',''))}</p>
+  <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
 </section>
 <div class="detail">
