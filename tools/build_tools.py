@@ -215,6 +215,14 @@ def cat_h1(cat_name):
         return name
     return f"{name} Tools"
 
+# SX-6 pilot: slugs that have a published "<tool> alternatives" page (gates the
+# tool-page interlink so we never link a page that does not exist).
+try:
+    _ALT_SLUGS = {p["slug"] for p in json.loads(
+        (ROOT / "tools" / "alternatives-content.json").read_text())["pages"]}
+except Exception:
+    _ALT_SLUGS = set()
+
 def _seo_title_for(t, cats):
     # SX-1 (2026-09-25, decided by Tim): tool pages target owned intent
     # (pricing / plans / open-source), NOT "<tool> review" - that SERP is owned by
@@ -1025,6 +1033,7 @@ def build_tool_page(t, cats, all_tools):
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated {esc(t.get('date_updated',''))}</p>
+  {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
 </section>
 <div class="detail">
   <div class="detail-main">
@@ -1566,6 +1575,13 @@ def build_sitemap(tools, cats):
             gl_html = ROOT / "glossary" / gt["slug"] / "index.html"
             lm = _lastmod(gl_html) if gl_html.exists() else today
             urls.append((f"https://martechsignal.com/glossary/{gt['slug']}/", lm, "0.6"))
+
+    # Alternatives guides (SX-6 pilot)
+    alt_dir = ROOT / "alternatives"
+    if alt_dir.exists():
+        for d in sorted(alt_dir.iterdir()):
+            if (d / "index.html").exists():
+                urls.append((f"https://martechsignal.com/alternatives/{d.name}/", _lastmod(d / "index.html"), "0.7"))
 
     # Blog index
     if (blog_dir / "index.html").exists():

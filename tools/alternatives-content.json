@@ -1,0 +1,133 @@
+{
+  "pages": [
+    {
+      "slug": "hubspot-crm",
+      "title": "Best HubSpot CRM alternatives (2026)",
+      "seo_title": "HubSpot CRM Alternatives: 5 Options Compared (2026)",
+      "meta": "Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.",
+      "intro": [
+        "HubSpot CRM is free forever, quick to set up, and for a lot of small teams it is the right place to start. The case for switching appears as a company grows: automation, permissions, and reporting depth live on the higher tiers, and Sales Hub runs $20 per seat per month at Starter, $100 at Professional, and $150 at Enterprise. Across sales, service, and marketing seats that adds up fast, and the product is not open source, so there is no way to run it on your own infrastructure.",
+        "Two kinds of buyers usually end up on this page. One already runs a marketing stack and wants a CRM the sales team will adopt without paying for a suite around it. The other wants customer data on its own servers, with code access to the schema and no per-seat bill attached to every new colleague.",
+        "Before you switch, map your contact and deal records onto the new tool's data model and check which of HubSpot's native connections (Gmail, Outlook, Slack, Salesforce, Shopify, Stripe, Google Analytics) you truly rely on, since a thinner integration list means middleware. Also decide whether you can run a server in exchange for predictable pricing. Everything below comes from the vendors' own documentation; we have no account with any of these tools."
+      ],
+      "items": [
+        {
+          "slug": "twenty",
+          "best_for": "Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code.",
+          "not_for": "Teams that want a CRM they never think about; Twenty ships no mobile app and no static API reference, and its own docs point such teams to Pipedrive or HubSpot.",
+          "why": "Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on Docker Compose is free with all Pro features included. Cloud Pro costs $9 per user per month billed yearly, under HubSpot's $20 Sales Hub Starter seat, and no plan limits objects or fields. The scope is a CRM core (companies, people, opportunities, tasks, notes) with AI agents in workflows, not a marketing and service suite, so teams that leaned on HubSpot's free ticketing and campaign reporting will need other tools."
+        },
+        {
+          "slug": "espocrm",
+          "best_for": "Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed.",
+          "not_for": "Teams that want workflow automation and reports at no extra cost; both sit in the paid Advanced Pack, and the AI add-on is sold separately.",
+          "why": "EspoCRM is a self-hosted AGPLv3 CRM in development since 2011, and its free core covers accounts, contacts, leads, opportunities, cases, a knowledge base, customer portals, and mass email campaigns. Vendor cloud plans run from € 12.90 per user per month on Basic (minimum 3 users) to € 59 on Ultimate, each including the Advanced Pack. Where HubSpot bundles a broad suite and meters it per seat, EspoCRM keeps the core small and sells workflow automation, BPM, reports, telephony, and Google Workspace or Outlook sync as add-ons."
+        },
+        {
+          "slug": "suitecrm",
+          "best_for": "Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure.",
+          "not_for": "Teams that want native AI features or an official mobile app; SuiteCRM has neither.",
+          "why": "SuiteCRM is AGPLv3, forked from SugarCRM Community Edition, and its module list is the deepest in our CRM category: leads, quotes, invoices, contracts, campaigns, surveys, cases, reports, and projects, with workflow automation free in the core. Commercial options exist for teams that do not want to self-manage: hosting from 50 pounds per month with unlimited users, or SuiteASSURED from 3,350 pounds a year. HubSpot gives you a polished SaaS suite with AI writing and call transcription; SuiteCRM gives you modules and data control, and asks you to run PHP 8.2 to 8.4 with MariaDB or MySQL."
+        },
+        {
+          "slug": "pipedrive",
+          "best_for": "Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use.",
+          "not_for": "Teams that need native email marketing, landing pages, or campaign management; Pipedrive has none of those.",
+          "why": "Pipedrive is a paid SaaS CRM priced from $14 per user per month on Essential, with Advanced at $29, Professional at $59, and Enterprise at $79. It replaces HubSpot's sales side only: visual deal pipelines, web-to-lead forms, email sync, automated routing, and AI deal scoring, with no marketing or service hub behind it. For a team paying HubSpot's $100 Professional seat price mainly for pipeline work, the trade is lower seat cost and a sharper tool, at the cost of the all-in-one suite."
+        },
+        {
+          "slug": "frappe-crm",
+          "best_for": "Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack.",
+          "not_for": "Teams that need AI features; none appear in Frappe CRM's README, marketing site, or release notes.",
+          "why": "Frappe CRM is open source under AGPL-3.0, and no tier charges per user: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, and dedicated servers run $20 to $60 per month, all with unlimited leads, deals, and users. HubSpot meters by seat and gates automation and reporting depth behind higher hubs; Frappe CRM charges for hosting instead. Its integrations are narrower (Twilio, Exotel, WhatsApp through a third-party app, ERPNext, Meta Lead Ads), so it fits when a focused sales CRM beats a connected suite."
+        }
+      ]
+    },
+    {
+      "slug": "zapier",
+      "title": "Best Zapier alternatives (2026)",
+      "seo_title": "Zapier Alternatives: 5 Tools Compared (2026)",
+      "meta": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
+      "intro": [
+        "Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.",
+        "The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps only, no premium apps, and 15-minute polling. Professional starts at $19.99 per month billed annually at the 750 task tier, and Zapier's AI agents are metered separately in activities rather than tasks.",
+        "Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services."
+      ],
+      "items": [
+        {
+          "slug": "n8n",
+          "best_for": "Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host.",
+          "not_for": "Teams that want the widest possible app catalog with zero infrastructure to manage; n8n's library runs to 400+ nodes against Zapier's 9,000+ integrations.",
+          "why": "n8n runs on a fair-code model: self-hosting is free, cloud Starter is $20 per month, Pro is $50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process."
+        },
+        {
+          "slug": "make",
+          "best_for": "Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling.",
+          "not_for": "Teams that need self-hosting or unlimited execution; our own catalog points those teams at n8n.",
+          "why": "Make draws scenarios as a graph, so routers and error handling are visible rather than buried in configuration, and neither consumes credits. Billing moved to credits in August 2026: Free covers 1,000 credits a month with 2 active scenarios, Core is $9 a month, Pro $16, and Teams $29, each for 10,000 credits with a slider upward. For data-heavy work like CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier's per-task metering."
+        },
+        {
+          "slug": "pipedream",
+          "best_for": "Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it.",
+          "not_for": "Marketers who want a purely visual builder; Pipedream is built for people comfortable writing Node.js, Python, or Go.",
+          "why": "Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic is $29 a month for 2,000 credits and 20 million AI tokens, Advanced $49, and Connect $99, with a free tier of 100 credits a month. Any step can run arbitrary code, which Zapier's step model does not allow, and workflows can be deployed as MCP server endpoints that AI coding agents call directly. Advanced adds branching and parallelism controls, premium apps, and GitHub Sync for version-controlled deployment."
+        },
+        {
+          "slug": "tray-io",
+          "best_for": "Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available.",
+          "not_for": "Small automation projects; Tray.io sells through a demo or sales call, and its tiers are described by workspaces and log retention rather than published prices.",
+          "why": "Tray.io is an AI orchestration platform with 700-plus pre-built connectors, a connector SDK, on-premise connectivity, and API management. Usage is metered in Tasks across integration, automation, MCP, and agents, and HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons, all quote-based. Where Zapier sells self-serve tasks to individuals and teams, Tray.io sells a governed platform, which is the point when compliance is the reason you are leaving."
+        },
+        {
+          "slug": "budibase",
+          "best_for": "Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data.",
+          "not_for": "Teams whose workflows mostly move records between SaaS products; Budibase automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL.",
+          "why": "Budibase is an open-core operations platform where self-hosting is free with unlimited actions, apps, agents, and users in one workspace, and cloud Pro is $19 a month billed annually with metered actions. You connect data sources (PostgreSQL, MySQL, MongoDB, Google Sheets, REST), build interfaces in a visual builder, and wire multi-step automations, with AI agents in beta since March 2026. It replaces Zapier when the automation is an internal tool over your own data rather than a bridge between SaaS apps."
+        }
+      ]
+    },
+    {
+      "slug": "matomo",
+      "title": "Best Matomo alternatives (2026)",
+      "seo_title": "Matomo Alternatives: 5 Analytics Tools Compared (2026)",
+      "meta": "Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.",
+      "intro": [
+        "Matomo is the reference point for teams that want web analytics they own, and its core stays free forever under GPL v3 or later. Funnels, cohorts, custom reports, form analytics, A/B testing, heatmaps and session recordings, and multi-channel attribution are paid premium plugins, with On-Premise bundles running 275 euros a month for Team and 3,400 for Enterprise. Cloud starts at 22 euros a month for 50,000 hits and climbs with traffic. The self-hosted stack is a PHP and MySQL application that needs an archiving cron job above a few hundred visits a day.",
+        "The shortlist splits by what pushed you out. Lighter cookieless scripts suit teams that only need traffic and campaign numbers. Teams that live in funnels and retention are better served by product analytics suites. An event pipeline fits when raw behavioral data belongs in your own warehouse. Matomo still holds one ground the others do not: the consent-free position it claims through a CNIL listing, plus its commitment to keeping self-hosting free, so check whether your compliance case depends on either.",
+        "When you compare, check what each tool does with cookies and consent, whether your historical statistics need to come across, and which reports you open each week. The prices below are the vendors' published ones, and we hold no account with any of these tools."
+      ],
+      "items": [
+        {
+          "slug": "plausible",
+          "best_for": "Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection.",
+          "not_for": "Teams that need deep behavioral modeling, extensive attribution, or advertising integrations; Plausible trades those away for a simpler setup.",
+          "why": "Plausible is open source under AGPL and free to self-host, with managed cloud from $9 per month for 10,000 pageviews scaling with traffic. It reports pageviews, visitors, sources, devices, locations, and goals in one dashboard, while Matomo's funnels, cohorts, custom reports, form analytics, heatmaps, and A/B testing are paid premium plugins. Matomo is the more configurable platform with its tag manager and plugin bundles; Plausible is the lighter option with less operational burden."
+        },
+        {
+          "slug": "umami",
+          "best_for": "Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead.",
+          "not_for": "Teams that want a highly configurable analytics suite; compared with Matomo, Umami is lighter and less configurable.",
+          "why": "Umami is MIT licensed and free to self-host (a two-service docker compose file, Node.js on PostgreSQL), with cloud plans metered per event: Hobby free to 100,000 events a month, Pro $20 for 1 million, and Business $200 for 10 million. Version 3 reaches past simple dashboards with session replay, click and scroll heatmaps, funnels, retention, revenue, and UTM reports, several of which Matomo sells as premium plugins. The trade: self-hosted installs get core analytics but not email reports or the streaming API, and v3 dropped MySQL support."
+        },
+        {
+          "slug": "posthog",
+          "best_for": "Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work.",
+          "not_for": "Teams that only need simple pageview reporting; PostHog's breadth (flags, experiments, error tracking, a data warehouse) is more platform than a traffic dashboard.",
+          "why": "PostHog's core is MIT licensed, with an ee/ directory under a separate enterprise license, and one install covers event analytics, session replay, feature flags, A/B testing, surveys, error tracking, and logs. Pricing is usage-based credits above a free tier that renews every month for every product (1 million events, 5,000 session recordings, 1 million feature flag requests), running as PostHog Cloud in US and EU regions or self-hosted. Matomo's heatmap and session recording add-ons sit inside PostHog's free tier, but PostHog reports on product events rather than website visits and pageviews."
+        },
+        {
+          "slug": "snowplow",
+          "best_for": "Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools.",
+          "not_for": "Teams that want an out-of-the-box analytics dashboard; Snowplow is a pipeline, and its community edition is documented for testing and evaluation only.",
+          "why": "Snowplow validates every event against self-describing JSON schemas, routes invalid events out rather than silently accepting them, and delivers to Snowflake, Databricks, BigQuery, Redshift, Delta Lake, and Apache Iceberg. It replaces Matomo when the requirement is raw behavioral data in your own infrastructure rather than a hosted reporting interface, but plans are quote-based after a 14-day trial, and a license change in January 2024 means production self-hosting needs the paid Self-Hosted Pipeline plan. Matomo, by contrast, keeps its self-hosted core free permanently."
+        },
+        {
+          "slug": "amplitude",
+          "best_for": "Product and marketing teams that want funnels, retention, and experimentation without writing SQL, delivered as managed SaaS.",
+          "not_for": "Organizations that require self-hosting or open source; Amplitude is closed SaaS, and its Growth and Enterprise plans are quoted by sales.",
+          "why": "Amplitude's free plan includes 2 million events and 50,000 monthly tracked users per month with no time limit, while Plus starts at $0 and scales with event volume. Where Matomo counts pageviews and visits and sells funnels, cohorts, and A/B testing as premium plugins, Amplitude ships product analytics, experimentation, session replay, and audience activation in one suite, with a Warehouse Native option that queries Snowflake or Databricks directly. Mind the metering: monthly tracked users are counted alongside events, and overage bills at the plan's per-unit rate."
+        }
+      ]
+    }
+  ]
+}
