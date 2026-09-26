@@ -3,6 +3,7 @@ title: "I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed."
 seo_title: "I Ran Claude SEO on My Own Site. It Found What"
 slug: claude-seo-teardown-martechsignal
 date: 2026-08-24
+canonical: https://martechsignal.com/blog/claude-seo-v231-four-graders/
 author: Tim Christensen
 tags: [Agent Skills, SEO]
 categories: [agent-skills]
@@ -86,3 +87,5 @@ The score is not the point. The remaining gaps the re-audit found (thin category
 Claude SEO is the strongest free [SEO](/categories/seo/) skill we have run, and it embarrassed our own deploy pipeline on our own site. Use it. Run it twice, a week apart, and assume the first report is incomplete. Strip the footer before it touches a client. We fixed everything the first audit named and the second crawl confirmed it, then found three new problems we still have to work through.
 
 See the full tool review and alternatives in our [Claude SEO directory entry](/tools/claude-seo/), the [Seonaut comparison](/blog/claude-seo-vs-seonaut/) if you want a second free checker, and our [conversion rate optimization glossary](/glossary/cro/) if the thin-content scoring is news to you.
+
+This piece opened our Claude SEO coverage. The story continues in [Claude SEO v2.2.5 Re-Scored Us 61](/blog/claude-seo-v225-rescore-61-vs-92/) and [Four Graders, One Site](/blog/claude-seo-v231-four-graders/).

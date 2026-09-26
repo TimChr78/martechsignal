@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI policy | MartechSignal</title>
+<meta name="description" content="How AI systems may use MartechSignal: search and retrieval allowed, model training on our content is not permitted. The plain-language policy and the signals behind it.">
+<link rel="canonical" href="https://martechsignal.com/ai-policy/">
+<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebPage", "name": "AI policy | MartechSignal", "url": "https://martechsignal.com/ai-policy/", "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}}
+</script>
+<link rel="stylesheet" href="/style.css?v=b780159f">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">&#9646;</span></a>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+  </div>
+</header>
+<main class="wrap post-wrap" style="max-width:720px;margin:0 auto;padding:2rem 1.5rem 4rem">
+<nav class="crumb"><a href="/">Home</a> / <span>AI policy</span></nav>
+<article>
+<h1>AI policy</h1>
+<p>MartechSignal publishes for people first and for answer engines second. This page states, in plain terms, what AI systems may and may not do with our content. It was last updated on 2026-09-25.</p>
+<h2>The short version</h2>
+<ul>
+<li><strong>Search and indexing: yes.</strong> Building a search index and returning links with short excerpts is fine.</li>
+<li><strong>Retrieval, grounding, and AI answers: yes, with attribution.</strong> Pulling our content into a live answer (RAG, grounding, agent fetches on a user's request) is fine. Cite the page you took it from.</li>
+<li><strong>Training or fine-tuning models: no.</strong> Do not use our content to train or fine-tune a model.</li>
+<li><strong>Republishing our work as your own: no.</strong> The same rule we publish in our <a href="/terms/">terms of use</a>.</li>
+</ul>
+<h2>What the signals mean</h2>
+<p>We express this policy with the three content signals defined by the Cloudflare Content Signals Policy, and the same wording appears in our <a href="/robots.txt">robots.txt</a>:</p>
+<ul>
+<li><strong>search</strong> (we say yes): building a search index and providing search results, such as returning hyperlinks and short excerpts. Search does not include providing AI-generated search summaries.</li>
+<li><strong>ai-input</strong> (we say yes): inputting content into one or more AI models, such as retrieval augmented generation, grounding, or other real-time taking of content for generative AI answers.</li>
+<li><strong>ai-train</strong> (we say no): training or fine-tuning AI models.</li>
+</ul>
+<h2>How this is enforced</h2>
+<p>Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, and Amazonbot. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.</p>
+<h2>Why this line</h2>
+<p>Retrieval sends readers to the source. Training does not. We publish pricing research, benchmarks, and assessments so buyers can make better decisions, and a model trained on the corpus competes with the site that produced it. Allowing the first use and refusing the second is the honest split.</p>
+<h2>Getting permission</h2>
+<p>Want to train on the corpus, license it, or ask about a use this page does not cover? <a href="/contact/">Contact us</a>. Licensing is available; silence is not consent.</p>
+</article>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+    <p class="fine">&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>

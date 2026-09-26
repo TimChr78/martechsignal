@@ -48,7 +48,7 @@ def pricing_label(t):
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
-# Title:  "{Name} Review | {Pricing} | MartechSignal"        (primary)
+# Title:  "{Name} pricing: {Pricing} | MartechSignal"        (primary; SX-1)
 #   Try: "{Name} Review: {Category} | {Pricing} | MartechSignal" first;
 #   fallback without category if >60ch. For very long names we truncate
 #   the name part (never the suffix) to keep the pipe-brand intact.
@@ -216,24 +216,25 @@ def cat_h1(cat_name):
     return f"{name} Tools"
 
 def _seo_title_for(t, cats):
-    cat_map = {c["slug"]: c["name"] for c in cats}
+    # SX-1 (2026-09-25, decided by Tim): tool pages target owned intent
+    # (pricing / plans / open-source), NOT "<tool> review" - that SERP is owned by
+    # verified-review platforms the site structurally cannot compete with. Price in
+    # the title where it fits (evertune-pricing pattern), else a clean pricing head.
     name = t["name"]
-    cat_name = cat_map.get(t.get("category"), "")
     price = pricing_label(t)
     suffix = " | MartechSignal"
-    if cat_name:
-        cand = f"{name} Review: {cat_name}, {price}{suffix}"
-        if len(cand) <= 60:
-            return cand
-    cand2 = f"{name} Review: {price}{suffix}"
+    cand = f"{name} pricing: {price}{suffix}"
+    if len(cand) <= 60:
+        return cand
+    cand2 = f"{name} pricing & plans{suffix}"
     if len(cand2) <= 60:
         return cand2
-    overhead = len(f" Review: {price}{suffix}")
+    overhead = len(f" pricing{suffix}")
     budget = 60 - overhead
     if budget < 10:
         return cand2[:60]
     truncated_name = name[:budget].rsplit(" ", 1)[0] if " " in name[:budget] else name[:budget]
-    return f"{truncated_name} Review: {price}{suffix}"[:60]
+    return f"{truncated_name} pricing{suffix}"
 
 def _clip_meta_text(text, budget):
     """Cut meta text on a natural boundary (GSC follow-up 2026-09-13).
@@ -439,7 +440,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -1020,7 +1021,7 @@ def build_tool_page(t, cats, all_tools):
         external_ratings_html = ""
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
-  <h1>{esc(t['name'])} Review</h1>
+  <h1>{esc(t['name'])} pricing &amp; plans</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated {esc(t.get('date_updated',''))}</p>
@@ -1681,7 +1682,7 @@ def assert_factual_consistency(tools):
             problems.append(f"{slug}: FAQ claims free tier on {model} pricing")
         if t.get("name") and len(t.get("name","")) > 3:
             h1_ok = (f">{esc(t['name'])}</h1>" in html
-                     or f">{esc(t['name'])} Review</h1>" in html)
+                     or f">{esc(t['name'])} pricing &amp; plans</h1>" in html)
             if not h1_ok:
                 problems.append(f"{slug}: H1 does not match name '{t['name']}'")
     if problems:

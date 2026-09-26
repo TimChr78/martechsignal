@@ -2,6 +2,7 @@
 title: "Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right."
 slug: claude-seo-v225-rescore-61-vs-92
 date: 2026-08-28
+canonical: https://martechsignal.com/blog/claude-seo-v231-four-graders/
 author: Tim Christensen
 tags: [AI, SEO, Agent Skills, Quality]
 categories: [agent-skills]
@@ -79,3 +80,5 @@ Absolute scores are not comparable across grader versions. If you track an AI au
 v2.2.5 did not break our scorecard. It built us a harder one, and the harder one found a nav bar that was not there, prices that lied, and pages with no legal identity. The 92 was honest for what v2.2.4 could see. The 61 was honest for what v2.2.5 could see. From here on we only compare scores produced by the same version, and we say which version it was.
 
 Full history: the [v2.2.4 teardown](/blog/claude-seo-teardown-martechsignal/), the [Claude SEO directory entry](/tools/claude-seo/), and everything else we have written about [agent skills](/categories/agent-skills/) and [SEO](/categories/seo/).
+
+The next run is covered in [Four Graders, One Site](/blog/claude-seo-v231-four-graders/).

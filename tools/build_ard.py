@@ -46,7 +46,7 @@ def build():
     for t in sorted(tools, key=lambda x: x["slug"]):
         entries.append({
             "identifier": f"urn:air:{PUBLISHER}:tools:{t['slug']}",
-            "displayName": f"{t['name']} review",
+            "displayName": f"{t['name']} pricing & plans",
             "type": "text/html",
             "url": f"https://martechsignal.com/tools/{t['slug']}/",
             "description": (t.get("tagline") or "")[:200],
