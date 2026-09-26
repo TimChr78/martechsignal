@@ -1,0 +1,315 @@
+{
+  "rubric_version": "1.0",
+  "tools": [
+    {
+      "slug": "nocobase",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "The NocoBase pricing page publishes a full edition table: Community free with unlimited users and records, Standard at 800 USD and Professional at 8,000 USD as one-time licenses with a feature comparison, and only Enterprise is quote-only (nocobase.com/pricing)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Data-model-first building with configurable models, pages, workflow blocks and a plugin architecture covers the no-code baseline plus differentiators like server-side workflows, but there are no turnkey campaign senders in the box (tools.json deep_dive / nocobase.com)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "The core ships a REST API and webhooks with plugins for data sources and authentication, yet there are no turnkey marketing connectors and no marketplace catalog to count (tools.json deep_dive / nocobase.com)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Version 2.0 ships AI employees (assistant agents over your data models) and AI-powered building with coding agents, and the pricing page states most AI employee capabilities ship in the free Community Edition (nocobase.com/pricing, tools.json)."
+        },
+        "openness": {
+          "score": 7,
+          "evidence": "GitHub lists the repo under Apache-2.0, but the NocoBase License Agreement adds supplementary terms that prevail on conflict and forbid offering the software as a no-code or AI platform SaaS, so this is source-available rather than clean OSI (nocobase.com/en/agreement, GitHub nocobase/nocobase)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "24,400 GitHub stars, published release notes and a roadmap, documentation in about ten languages, and a named company (NocoBase Pte. Ltd., Singapore) selling commercial editions with support (GitHub nocobase/nocobase, nocobase.com)."
+        }
+      },
+      "verdict": "A serious self-hosted construction kit whose pricing page is unusually concrete, with real edition prices and a free unlimited community tier. The weak spots sit outside the core: thin marketing connectors and a license whose supplementary terms limit how far the open source label stretches.",
+      "score_total": 42
+    },
+    {
+      "slug": "segment",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Twilio publishes Free (1,000 monthly tracked users, 2 sources) and Team (120 USD per month for 10,000 MTUs with 10 to 12 USD per 1,000 MTU overages), but Business is custom and the differentiating add-ons Protocols, Unify and Engage have no public price (tools.json / Twilio pricing)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Connections, Reverse ETL from five warehouses and 452 catalogued destinations cover the CDP baseline and more, while Protocols, Unify and Engage add real depth that sits above the self-serve tiers (tools.json / Twilio docs)."
+        },
+        "integrations": {
+          "score": 9,
+          "evidence": "The docs catalog counts 452 destinations plus about 58 Reverse ETL and 13 object cloud sources with open APIs and server SDKs in a dozen languages, though marketing pages claim 550 to 750 in different places (tools.json / Twilio docs)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Predictions with four models, Predictive Audiences, Predictive Traits, Recommendations, Generative Audiences and Functions Co-Pilot all reached general availability in June 2025 (tools.json / Twilio docs)."
+        },
+        "openness": {
+          "score": 5,
+          "evidence": "The product is closed SaaS with no source available, but a full public API and SDKs exist and event data lands in the customer's own warehouse, which matches full export plus open API (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded in 2012 and acquired by Twilio for 3.2 billion USD in 2020, with documentation and pricing stamped current as of August 2026 (tools.json / twilio.com)."
+        }
+      },
+      "verdict": "The developer-first CDP with the widest countable destination catalog and unusually good documentation, priced so the parts that differentiate it sit above the self-serve tiers. Buyers get a strong pipeline at 120 USD a month and must contract for governance, identity resolution and activation.",
+      "score_total": 46
+    },
+    {
+      "slug": "hubspot-crm",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free CRM forever plus published per-seat Sales Hub prices (20, 100 and 150 USD) and hub pages offering free and premium plans are public, but the wider hub and add-on limit tables were not verifiable in our reads so this is scored conservatively (tools.json, hubspot.com/pricing)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Pipelines, deals, email logging, meeting scheduling, ticketing and campaign reporting cover the CRM baseline with real differentiators in the all-in-one hubs and Agent Hub (tools.json, hubspot.com)."
+        },
+        "integrations": {
+          "score": 9,
+          "evidence": "Named natives include Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe and Google Analytics, backed by the public App Marketplace at ecosystem.hubspot.com and an open API (tools.json, hubspot.com)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Shipped features include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler and AI content suggestions, plus Agent Hub for building and managing AI agents across the platform (tools.json, hubspot.com)."
+        },
+        "openness": {
+          "score": 5,
+          "evidence": "The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (tools.json, knowledge.hubspot.com)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded in 2006 and headquartered in Cambridge, with multi-hub Enterprise plans, a public app marketplace and a partner ecosystem behind the product (tools.json, hubspot.com)."
+        }
+      },
+      "verdict": "The default free entry CRM, strong on time-to-value and now stacking AI features and agents onto the same platform. Costs escalate quickly once workflows and higher limits are needed, and the all-in-one design deepens single-vendor lock-in.",
+      "score_total": 47
+    },
+    {
+      "slug": "matomo",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "matomo.org/pricing publishes Cloud from 22 EUR per month for 50,000 hits up to 14,850 EUR per month at 100 million hits and On-Premise bundles at 275, 1,450 and 3,400 EUR per month next to the free self-hosted core, with the small caveat that the static page shows a stale 29 EUR figure before scripts load (tools.json / matomo.org)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Core analytics, ecommerce tracking, goals, segments and the dashboard are free while funnels, cohorts, heatmaps, session recordings, A/B testing and attribution make up deep premium plugin coverage (tools.json / matomo.org)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (tools.json / matomo.org)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (tools.json / matomo.org)."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (tools.json / matomo.org)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded in 2007 with 21,851 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (tools.json / matomo.org)."
+        }
+      },
+      "verdict": "The pick when analytics data residency is a requirement rather than a preference, with an open core and a real premium plugin business behind it. Budget both operations time for self-hosting and plugin fees for the headline behavioral features.",
+      "score_total": 49
+    },
+    {
+      "slug": "nocodb",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "nocodb.com/pricing documents the whole ladder with limits: self-hosted free with unlimited records and seats, Cloud Free (3 users, 1,000 records), Plus at 12 USD, Business at 24 USD and Scale at 45 USD per seat billed annually, with Enterprise the only quote-only item (tools.json / nocodb.com)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Six core views, forms, per-role permissions, conditional webhooks and workflows over your own Postgres or MySQL cover the baseline with the bring-your-own-database design as differentiator, while timeline, gantt and AI features sit behind paid tiers (tools.json / nocodb.com docs)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "REST API v3 with Swagger and conditional webhooks cover programmatic access over Postgres, MySQL and SQLite, but Slack, Discord, SES and S3 arrive through a paid App Store and no broad native catalog exists (tools.json / nocodb.com docs)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "NocoAI generates schemas, tables, views and formulas from prompts, AI button and AI prompt field types ship on paid tiers, and an MCP server gives agents record-level access to a base (tools.json / nocodb.com docs)."
+        },
+        "openness": {
+          "score": 7,
+          "evidence": "The Sustainable Use License is fair-code and source-available with free self-hosting and unlimited seats, but it is not OSI-approved and forbids offering NocoDB to others as a hosted service (tools.json / nocodb.com docs)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "64,910 GitHub stars with calendar-versioned releases (2026.08.2 shipped September 3, 2026), full documentation and paid plans that carry support (tools.json / nocodb.com)."
+        }
+      },
+      "verdict": "The shortest self-hosted route from spreadsheet sprawl to permissioned, API-covered bases over a database you own, with pricing that is fully visible. The license is fair-code rather than open source, and the features teams often want most, AI fields and advanced views, are paid.",
+      "score_total": 45
+    },
+    {
+      "slug": "umami",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "umami.is/pricing documents every self-serve tier with limits: Hobby free to 100,000 events per month, Pro at 20 USD for 1 million events, Business at 200 USD for 10 million, per-event overage terms, plus free self-hosting under MIT (tools.json / umami.is)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Core analytics plus session replay (v3.1), heatmaps (v3.2), funnels, retention, revenue, journey, attribution and UTM reports cover the analytics baseline with cookieless tracking as the differentiator, though it stays lighter than Matomo on configuration (tools.json / umami.is docs)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "An API plus community plugins for ten platforms and API clients for Laravel, Python and Go make up the catalog, with no native marketing integrations documented (tools.json / umami.is integrations page)."
+        },
+        "ai_capability": {
+          "score": 0,
+          "evidence": "A search of the full documentation set, the README and every release from v3.0.3 to v3.3.1 found no AI feature of any kind, and the directory removed earlier AI claims as incorrect (tools.json deep_dive / umami.is docs)."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "MIT-licensed and self-hostable via a two-service Docker compose file, with data retained indefinitely and full ownership of the database (tools.json / umami.is docs)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Created in 2020 with 38,710 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (tools.json / umami.is)."
+        }
+      },
+      "verdict": "Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.",
+      "score_total": 40
+    },
+    {
+      "slug": "claude-seo",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "The skill is free and MIT-licensed with no paid tier, and the tool page documents the real usage cost of roughly 6 USD in API tokens per full audit, while the optional paid Skool mirror has no published price in our sources (tools.json / claude-seo.md)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "25 sub-skills, 18 specialist agents, 30 commands and 439 passing tests at v2.2.5 go past the skill-pack baseline with citability scoring, dependency tracking and explicit failure checks as differentiators (tools.json / claude-seo.md)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Five named integrations cover the surface: Claude Code, Google Search Console, DataForSEO, Firecrawl and Lighthouse, with no marketplace behind them (tools.json / claude-seo.md)."
+        },
+        "ai_capability": {
+          "score": 9,
+          "evidence": "The product is itself an agent harness: /seo audit coordinates up to 18 specialist agents across 25 sub-skills inside Claude Code (tools.json / claude-seo.md)."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (tools.json / claude-seo.md)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded in 2025 with 16,675 GitHub stars, 2,443 forks and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (tools.json)."
+        }
+      },
+      "verdict": "A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.",
+      "score_total": 43
+    },
+    {
+      "slug": "n8n",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "n8n.io/pricing publishes Starter at 20 EUR (2,500 workflow executions), Pro at 50 EUR (10,000) and Business at 667 EUR (40,000) with per-plan limits listed and self-hosting free, with Enterprise the only contact-sales tier (n8n.io/pricing, tools.json)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "More than 400 nodes, custom code steps, versioned workflows and AI agent nodes cover the automation baseline and more, with a near-unlimited ceiling offset by a real learning curve (tools.json / n8n.io)."
+        },
+        "integrations": {
+          "score": 10,
+          "evidence": "A 400-plus node catalog with community nodes covering the long tail, an open API, custom code steps and every integration included on all plans is the widest integration surface in this batch (tools.json, n8n.io/pricing)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "AI agent nodes and AI workflow features ship in the core product, and a documented MCP surface at n8n.io/mcp lets AI apps build and update n8n workflows (n8n.io/mcp, n8n.io/pricing, tools.json)."
+        },
+        "openness": {
+          "score": 7,
+          "evidence": "Source-available under n8n's fair-code license and fully self-hostable, but the license is not OSI-approved and restricts offering n8n as a commercial hosted service (n8n.io fair-code license docs, tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "203,890 GitHub stars, a Berlin company founded in 2019, cloud and Enterprise plans with dedicated support and an SLA, and a template ecosystem above 10,000 workflows (n8n.io/pricing, tools.json)."
+        }
+      },
+      "verdict": "The strongest overall score in this batch: owned automation with code-level control, huge integration breadth, published plan limits and a real AI agent surface. The cost is maintenance and a learning curve, and the fair-code license is not open source in the OSI sense.",
+      "score_total": 52
+    },
+    {
+      "slug": "dolibarr",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (tools.json / dolibarr.org)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (tools.json / dolibarr.org)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (tools.json / dolibarr.org)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (tools.json / dolibarr.org)."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (tools.json / dolibarr.org)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Calendar-versioned releases with 24.0.0 in August 2026, 7,596 GitHub stars, wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (tools.json / dolibarr.org)."
+        }
+      },
+      "verdict": "The pragmatic small-organization ERP/CRM: enable the modules you need, keep it for decades, and pay nothing for the core. Campaign automation is not the job here, and the interface and reporting show the project's age.",
+      "score_total": 44
+    },
+    {
+      "slug": "alphone",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (tools.json / GitHub gopherium/AlphOne)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (tools.json / GitHub gopherium/AlphOne)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (tools.json / GitHub gopherium/AlphOne)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (tools.json deep_dive / GitHub gopherium/AlphOne)."
+        },
+        "openness": {
+          "score": 7,
+          "evidence": "The backend is source-available under Elastic License 2.0 with an AGPLv3 frontend: free to self-host, not OSI open source, and forbidden as a hosted service offered to third parties (tools.json / GitHub gopherium/AlphOne)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded in 2026 with 176 GitHub stars and an active commit log, which places it at young-project maturity with no company or support track record behind it (tools.json / GitHub gopherium/AlphOne)."
+        }
+      },
+      "verdict": "An API-first CRM designed to be driven by n8n and AI agents, with MCP support that older CRMs lack. It is early: thin features, a small community and a split license that rules out resale, so judge it as a foundation rather than a finished product.",
+      "score_total": 29
+    }
+  ]
+}

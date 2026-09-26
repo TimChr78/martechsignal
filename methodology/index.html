@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology | MartechSignal</title>
+<meta name="description" content="How MartechSignal evaluates AI marketing automation tools: the evidence standard, the MartechSignal Score rubric, and the provenance of every data artifact we cite.">
+<link rel="canonical" href="https://martechsignal.com/methodology/">
+<meta property="og:title" content="Methodology | MartechSignal">
+<meta property="og:description" content="The evidence standard, the score rubric, and the provenance of every data artifact we cite.">
+<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://martechsignal.com/methodology/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
+<link rel="alternate" type="text/markdown" href="/llms.txt">
+<link rel="alternate" type="text/markdown" href="/methodology/index.md">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+<link rel="ard" type="application/ard+json" href="/.well-known/ard.json">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<style>
+:root{--bg:#fff;--ink:#111;--mut:#555;--line:#e3e3e3}
+@media(prefers-color-scheme:dark){:root{--bg:#0d0d0d;--ink:#f5f5f5;--mut:#9a9a9a;--line:#2a2a2a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px}
+h1{font-size:30px;line-height:1.2;margin:.2em 0 .3em}
+h2{font-size:20px;margin:2em 0 .5em}
+p,li{margin:.65em 0}
+a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.lede{font-size:18px;color:var(--mut)}
+.fine{color:var(--mut);font-size:13px}
+.foot-links{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;letter-spacing:.03em;text-transform:uppercase;margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line)}
+.byline{color:var(--mut);font-size:14px;margin:.4em 0 1em}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:.55em .6em;border-bottom:1px solid var(--line)}
+th{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+td.score{white-space:nowrap;font-variant-numeric:tabular-nums}
+@media (prefers-color-scheme:dark){a:hover{color:#fff}}
+@media (prefers-color-scheme:light){a:hover{color:#000}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <article>
+    <h1>Methodology</h1>
+    <p class="byline">By <a href="/authors/tim-christensen/">Tim Christensen</a> · updated <time datetime="2026-09-26">2026-09-26</time></p>
+    <p class="lede">Everything on MartechSignal follows one evidence standard and one scoring rubric. Both are published here so you can check our work.</p>
+
+    <h2>How we evaluate</h2>
+    <p>Every assessment is researched from public documentation, the source repository when the product is open, and vendor materials including pricing pages. We do not run the tools and we do not claim to. Where a page depends on a specific fact (a price, an integration count, a release cadence), the fact is stated with its source and its verification date.</p>
+    <p>What that standard gives us: prices only as the vendor publishes them, statistics only from the named source, and no synthetic performance data. What it costs us: we cannot tell you how a tool feels to use day to day. Where a question only hands-on testing can answer, the page says so.</p>
+    <p>Corrections are public. When a published claim is wrong, the fix ships with an entry on the <a href="/corrections/">corrections page</a> in the same change.</p>
+
+    <h2>The MartechSignal Score</h2>
+    <p>Each evaluated tool receives a 0-10 score on six pillars. The total is the sum of the six, reported out of 60. Every pillar score on a tool page carries a one-line evidence statement naming its source. A score without evidence is a defect.</p>
+    <table>
+      <thead><tr><th>Pillar</th><th>What it measures</th><th class="score">Anchor points</th></tr></thead>
+      <tbody>
+        <tr><td>Pricing transparency</td><td>Whether buyers can see real numbers before talking to sales.</td><td class="score">0: no public pricing · 3: quote-only pricing page · 5: entry price published · 7: full tier table with limits · 10: public tiers, limits, and documented free tier</td></tr>
+        <tr><td>Feature depth</td><td>Coverage against what the category baseline requires.</td><td class="score">3: core capability only · 5: baseline covered · 8: baseline plus real differentiators · 10: category-defining breadth</td></tr>
+        <tr><td>Integrations</td><td>Documented connection surface: API, native integrations, marketplace.</td><td class="score">0: none documented · 3: API or a few natives · 5: API plus 10-30 natives · 7: broad catalog and marketplace · 10: marketplace, open API, and iPaaS coverage</td></tr>
+        <tr><td>AI capability</td><td>Shipped AI features, not AI marketing copy.</td><td class="score">0: none · 3: mentioned but thin · 5: one real shipped feature · 7: several shipped features · 10: AI-native surface (agents, MCP, protocol-level)</td></tr>
+        <tr><td>Openness</td><td>Exit rights: source access, self-hosting, data portability.</td><td class="score">0: closed, no export · 3: data export exists · 5: full export and open API · 7: source-available or open-core · 10: open-source licence and self-hostable</td></tr>
+        <tr><td>Operational maturity</td><td>Whether the product is maintained like a product.</td><td class="score">0: unknown or abandoned · 3: young or single maintainer · 5: steady cadence · 7: multiple releases a year, real docs, real company · 10: enterprise cadence, SLAs, ecosystem</td></tr>
+      </tbody>
+    </table>
+    <p>The score is an editorial assessment against published anchors. It is not a lab benchmark, not a verified-buyer rating, and not influenced by vendors: we take no vendor money, run no affiliate links, and accept no payment for placement or scoring. Tools we cover include products we built ourselves; those pages say so on their face.</p>
+    <p>The pilot covers the 20 most-searched tools on the site. The rollout to the full catalog follows the same rubric.</p>
+
+    <h2>Data artifacts</h2>
+    <p>When a post cites a number we computed, the underlying artifact is published with its window and source so the query can be rerun.</p>
+    <p><strong>gsc-query-distribution-2026-05-29_2026-08-26.csv.</strong> Source: Google Search Console API (searchAnalytics.query), property sc-domain:martechsignal.com, webmasters scope, service-account auth. Window: 2026-05-29 through 2026-08-26 (90 days). Dimensions: query-level rows, no filters, up to 1,000 rows (417 returned; the API omits ultra-low-impression queries). Headline numbers cited on the site: 417 queries, 1,737 total impressions, 0 clicks site-wide in the window; 1,492 impressions (85.9%) at average position 51+. Caveat: average position is Google's mean over impressions in the window; day-by-day rank volatility is not visible in the export. Any GSC performance export filtered to the same dates produces the same shape.</p>
+
+    <h2>Corrections</h2>
+    <p>Published errors get public entries. See the <a href="/corrections/">corrections page</a> for the running log.</p>
+  </article>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+    <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
+  </div>
+</footer>
+</body>
+</html>

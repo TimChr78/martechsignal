@@ -1,0 +1,151 @@
+{
+  "pages": [
+    {
+      "slug": "open-source-crm",
+      "title": "Best open-source CRM tools (2026)",
+      "seo_title": "Best open-source CRM tools (2026)",
+      "meta": "Six open-source CRMs compared on licensing, pricing, AI features, and real maintenance costs, with a verdict and a skip-it line for each.",
+      "intro": [
+        "This list is for teams that want a CRM they can host themselves: founders tired of per-seat billing, agencies holding client data on their own servers, and ops leads whose compliance rules rule out someone else's cloud. Every pick is open_source: true in the martechsignal catalog.",
+        "The category comes straight from the catalog: a CRM entry must manage contacts, pipeline, and customer records as its core job. The six picks span what open-source CRM means in 2026, from a sales suite that outgrew SugarCRM to a personal relationship manager that refuses to sell anything.",
+        "Three checks decide most purchases. Read the license: AGPL, MIT, and fair-code terms differ on hosting it for your own customers. Find where free stops, since workflows, reports, and AI often hide behind paid extensions. Then count maintenance: runtime upgrades, databases, and the mail sync that breaks at 2 a.m."
+      ],
+      "items": [
+        {
+          "slug": "espocrm",
+          "assessment": "EspoCRM fits teams that want a lean sales CRM and will pay only for automation they use. The AGPLv3 core covers contacts, leads, opportunities, cases, a knowledge base, portals, mass email with target lists, web-to-lead forms, kanban, and a formula engine; version 10 added multiple pipelines and record locking. Workflow automation, the BPM designer, and reports live in the paid Advanced Pack, as do Google Workspace and Outlook sync. Vendor cloud runs from 12.90 euro per user monthly (Basic, minimum 3 users) to 59 euro (Ultimate, minimum 10). The Intelligence add-on, released August 2026, connects OpenAI, Gemini, Claude, or any OpenAI-compatible provider for summaries and an AI email composer. Release 10.0.7 shipped September 3, 2026.",
+          "verdict": "Best for lean sales teams that automate à la carte.",
+          "skip_if": "Skip it if free workflow automation or reports are requirements."
+        },
+        {
+          "slug": "suitecrm",
+          "assessment": "SuiteCRM has the deepest free module set here and the clearest answer to EspoCRM's pricing split: workflow automation and calculated fields ship in the core at no cost. The AGPLv3 project forked SugarCRM Community Edition and outlived it, maintained from Stirling, Scotland, with quotes, invoices, contracts, PDF templates, campaigns, surveys, cases, scheduled reports, and document management, plus Studio and Module Builder for no-code changes. Two release lines are current: 8.10.2 and 7.15.2 shipped together in July 2026, and 7.15 is an extended support release with security fixes published into 2028. The trade-offs are plain: no native AI in the documented feature set, no official mobile app, and a PHP 8.2 to 8.4 stack your team maintains.",
+          "verdict": "Best for teams that want the widest free feature set.",
+          "skip_if": "Skip it if you want native AI or an official mobile app."
+        },
+        {
+          "slug": "twenty",
+          "assessment": "Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitHub stars, TypeScript and NestJS on PostgreSQL, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for custom objects and logic functions. Self-hosting is free under AGPLv3 with all Pro features included; cloud Pro costs 9 dollars per user monthly billed yearly, Organization 19 dollars, Enterprise from 50,000 dollars per year. AI is narrow but documented: an AI chatbot over workspace data, AI agents inside workflows, AI-built dashboards, and a native MCP server on cloud workspaces. Its own docs name the fit: startups with technical founders, TypeScript-fluent agencies, and privacy-conscious organizations, and they point everyone else at Pipedrive or HubSpot.",
+          "verdict": "Best for technically fluent teams wanting a modern extensible CRM.",
+          "skip_if": "Skip it if nobody writes TypeScript or wants a Node stack."
+        },
+        {
+          "slug": "frappe-crm",
+          "assessment": "Frappe CRM is the affordability pick: free to self-host under AGPL-3.0, Frappe Cloud from 5 dollars per month per site, dedicated servers 20 to 60 dollars monthly, and no tier that charges per user, with unlimited leads, deals, and users. It runs on the Frappe framework behind ERPNext and moves fast: roughly 130 releases across 2025 and 2026, reaching v1.83.0 in September 2026. Every lead and deal is a Frappe document, so custom fields, custom statuses, and Python server scripts extend it the ERPNext way. Integrations are narrow and documented: Twilio and Exotel telephony with click-to-call, WhatsApp via a third-party app, ERPNext, and Meta Lead Ads. The interface is a Vue 3 app delivered as a progressive web app.",
+          "verdict": "Best for budget-conscious sales teams, especially ERPNext shops.",
+          "skip_if": "Skip it if you need a wide integration marketplace or native apps."
+        },
+        {
+          "slug": "krayin-crm",
+          "assessment": "Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user limits, 23,851 GitHub stars, v2.2.5 shipped August 4, 2026, with the 2.2 branch still taking commits. It covers leads with multiple pipelines, quotes, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, and email templates. Two corrections to common criticism: workflow automation exists (the Automation package provides event triggers, conditions, actions, and webhooks, though docs are thin), and real AI exists (Magic AI creates leads from uploaded PDFs and images using an OpenRouter key). Check the stack first: PHP 8.3 or later with Laravel 12, MySQL 8.0.32 or later, and 3GB of RAM minimum. Paid Webkul extensions include multi-tenant SaaS at 1,799 dollars.",
+          "verdict": "Best for Laravel shops that want room to extend a CRM.",
+          "skip_if": "Skip it without PHP 8.3 capacity or appetite for thin docs."
+        },
+        {
+          "slug": "monica",
+          "assessment": "Monica is a different kind of CRM: a personal relationship manager built for documenting people rather than selling to them, with notes, activities, reminders including automatic birthdays, gifts, calls, life events, and 27 languages per the README, organized into vaults. Self-hosting is free under AGPL; hosted Monica is one plan at 9 dollars per month or 90 dollars yearly with unlimited contacts and managed backups. The README is explicit that it is not a social network and has no built-in AI. One fact shapes adoption: the app codebase is dormant, with the last main-branch commit in August 2025 and the newest stable release v4.1.2 from May 2024, while a rebuild called Monica v3 is promised before the end of 2026.",
+          "verdict": "Best for relationship-led founders and community businesses.",
+          "skip_if": "Skip it if you need pipeline management or active releases."
+        }
+      ]
+    },
+    {
+      "slug": "workflow-automation-tools",
+      "title": "Best workflow automation tools (2026)",
+      "seo_title": "Best workflow automation tools (2026)",
+      "meta": "Six workflow automation platforms compared on billing units, self-hosting, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "This list is for marketing and operations teams buying automation in 2026: moving form submissions into a CRM, syncing campaign data between tools, and wiring AI agents into the same pipelines. The six picks come from the catalog workflow-automation category because automation is their core job, not a feature of an app builder.",
+        "The set spans the market on purpose: two no-code giants, a visual middleweight priced under 10 dollars, a developer platform, and two enterprise iPaaS vendors. These entries disagree about almost everything except the promise that software should talk to software without a human in the middle.",
+        "Three things decide the outcome. The billing unit: tasks, credits, compute time, or negotiated usage can change the cost of one workflow by an order of magnitude. Who runs the instance: self-hosting moves maintenance onto you and metered volume off the bill. And the AI meter, since agent activity is often billed apart from core automation."
+      ],
+      "items": [
+        {
+          "slug": "n8n",
+          "assessment": "n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 203,890 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.",
+          "verdict": "Best for self-hosted workflows with code steps and AI agents.",
+          "skip_if": "Skip it if you want zero maintenance and instant breadth."
+        },
+        {
+          "slug": "zapier",
+          "assessment": "Zapier is the catalog play: more than 9,000 app integrations, still the widest in this directory, and niche martech tools that lack an n8n node usually still ship a Zapier integration. Pricing is task-based and the definition matters: a task counts when an action successfully moves data, triggers and failed actions do not, but every step in a Zap counts, so a twenty-step workflow consumes about twenty tasks per run. Free covers 100 tasks monthly and two-step Zaps; Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Polling runs 15 minutes on Free, 2 on Professional, 1 on Team. Agents, Chatbots, Canvas, MCP, and Copilot sit on every plan, with agent activity billed separately at 400 activities a month free.",
+          "verdict": "Best for breadth and onboarding speed on niche integrations.",
+          "skip_if": "Skip it if task billing would punish your run volume."
+        },
+        {
+          "slug": "make",
+          "assessment": "Make, the platform formerly known as Integromat, is the visual middleweight: scenarios are drawn as a graph, so branching, looping, and error handling are visible instead of buried in configuration. Billing moved to credits in August 2026, and router modules plus the five error handlers consume none, which is kind to branching workflows. Free covers 1,000 credits monthly with 2 active scenarios; Core costs 9 dollars monthly, Pro 16 dollars, Teams 29 dollars, each including 10,000 credits with a slider up to 8 million, and unused credits expire at the billing term's end. AI Agents run on all plans, alongside Maia by Make, the AI Toolkit, and a Make MCP Server. Founded in Prague in 2012 and part of Celonis since 2020, it sits between Zapier and n8n.",
+          "verdict": "Best for branching visual workflows on a small-team budget.",
+          "skip_if": "Skip it if credit expiry beats a flat or self-hosted bill."
+        },
+        {
+          "slug": "pipedream",
+          "assessment": "Pipedream is the developer platform: more than 3,000 APIs behind a builder where any step can be a no-code action or arbitrary Node.js, Python, or Go code, plus 10,000 pre-built triggers and actions, a key-value data store, and GitHub Sync for version-controlled deployment. Pricing is credit-based because you pay for compute time: Free includes 100 credits monthly and 1 million AI tokens, Basic 29 dollars monthly with 2,000 credits, Advanced 49 dollars with unlimited workflows and accounts plus control-flow operators, Connect 99 dollars for teams embedding integrations in their own products. Any workflow can deploy as an MCP server that AI coding agents call directly. Founded 2019 and acquired by Workday in 2026, with SOC 2 Type II, HIPAA, and GDPR attestations on record.",
+          "verdict": "Best for developer teams wanting code steps and MCP endpoints.",
+          "skip_if": "Skip it if nobody will write code inside an automation step."
+        },
+        {
+          "slug": "workato",
+          "assessment": "Workato is the enterprise option, and the first thing to know is that pricing is fully demo-gated: the public page carries no numbers, just a usage-based model with a platform edition fee plus a usage fee in one billing unit across four cumulative editions, Standard through Workato One, the last adding agentic capabilities. The product splits into a Control Plane governing agents with role-based access, audit, and approval gates, and an Execution Plane doing integration, automation, API management, EDI, and document processing. The docs claim more than 1,000 connectors spanning Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake, and HubSpot. The AI layer is substantial: Agent Studio, role-based Genies for IT, Sales, HR, Support, and Marketing, the Acumen data scientist agent, and governed Enterprise MCP servers for Claude Desktop, ChatGPT, and Cursor.",
+          "verdict": "Best for enterprises governing agents and integration in one platform.",
+          "skip_if": "Skip it without an enterprise budget and a sales process."
+        },
+        {
+          "slug": "tray-io",
+          "assessment": "Tray.io trades as Tray.ai now and calls itself an AI orchestration platform rather than an iPaaS, and the 2026 shipping record backs the repositioning: Tray Headless arrived in June with plugins for Claude Code and Codex, MCP dynamic authentication and a Sync CLI followed in August, and Tray Helix is a managed runtime that puts AI-built apps into production with security controls and a named owner. The automation core stays familiar: service triggers, webhooks, or scheduled polls, conditional logic, callable workflows, and a data mapper over 700-plus pre-built connectors, with a connector SDK for gaps and on-premise connectivity. Pricing is not public: three tiers (Pro, Team, Enterprise) metered in Tasks across integration, automation, MCP, and agents. AI Palette ships on every plan; Merlin Agent Builder is a paid add-on.",
+          "verdict": "Best for AI app governance plus integration on one platform.",
+          "skip_if": "Skip it if transparent pricing or self-hosting is required."
+        }
+      ]
+    },
+    {
+      "slug": "ai-seo-tools",
+      "title": "Best AI SEO tools (2026)",
+      "seo_title": "Best AI SEO tools (2026)",
+      "meta": "Six AI SEO tools compared on pricing, AI features, and answer-engine visibility tracking, with a verdict and a skip-it line for each.",
+      "intro": [
+        "This list is for content and SEO teams buying AI tooling in 2026: people who need briefs drafted, pages scored, and a measurable read on whether ChatGPT or Google AI cites their brand. Every pick has documented AI features in the catalog, not an AI label on a marketing page.",
+        "The category splits in two along a line worth knowing before you shop. Content-optimization tools research, brief, draft, and score pages against what already ranks. Visibility tools measure what answer engines say about you. Several products now cover both halves, and the pricing shapes differ accordingly.",
+        "When buying, check three things. Which AI features are included versus metered, since drafts and AI steps are commonly capped or billed separately. Whether the tool researches topics or only optimizes against a keyword you chose. And what the visibility coverage lists, since tracking across ChatGPT, Gemini, Perplexity, and Google AI Overviews is not a given on entry plans."
+      ],
+      "items": [
+        {
+          "slug": "frase",
+          "assessment": "Frase relaunched in 2026 as what its docs call an agentic SEO and GEO platform, and it is materially different from the brief-and-editor tool older reviews describe. The loop runs: connect a site, audit up to your plan's page allowance, then let Frase Agent research a topic, draft in your brand voice, and publish through WordPress, Webflow, Sanity, or Wix. Content scores three ways on a 0 to 100 scale (EEAT, GEO, SEO), Content Guard monitors published pages with confidence-tagged fixes, and AI Visibility tracks cited URLs and share of voice across ChatGPT and Google AI on Starter, adding Perplexity on Professional and Claude and Gemini on Scale. Starter costs 39 dollars monthly billed yearly (49 dollars monthly, 1 seat, 10 articles), Professional 103 dollars, Scale 239 dollars. Every plan includes API, MCP, and CLI allowances.",
+          "verdict": "Best for research, drafting, publishing, and AI visibility in one loop.",
+          "skip_if": "Skip it if you need deep backlink or keyword-database research."
+        },
+        {
+          "slug": "surfer-seo",
+          "assessment": "Surfer SEO is the on-page optimization specialist: its Content Editor processes more than 500 on-page signals, analyzes the top 50 ranking pages for a keyword, and builds a content score from term frequency, heading structure, word count, and image count while you write, flagging missing and overused terms in real time. Surfer AI generates optimized drafts that score 60 to 70 or better on its own scale directly in the editor. Around that sit Keyword Research, SERP Analyzer, Content Planner, and Domain Planner modules, with Google Docs, WordPress, and Jasper integrations. Catalog pricing starts at 49 dollars monthly (Discovery), runs through Standard at 99 to 119 dollars and Pro at 182 to 219 dollars, topping out at Peace of Mind for 299 to 359 dollars. The documented criticism is focus: topic strategy still needs a research platform.",
+          "verdict": "Best for optimizing pages against live SERP patterns at scale.",
+          "skip_if": "Skip it if keyword discovery matters more than page optimization."
+        },
+        {
+          "slug": "semrush",
+          "assessment": "Semrush is the all-in-one platform: keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid ad intelligence, and AI search visibility under one subscription. The catalog records a keyword database of 25 billion keywords across 140-plus countries and a backlink index processing trillions of URLs. Core surfaces include Domain Overview, the Keyword Magic Tool, daily Position Tracking, a Site Audit crawler with 140-plus checks, and a Content Marketing Toolkit with topic research and templates. Documented AI covers a writing assistant, automated content briefs, Copilot conversational search, and AI visibility tracking. Pricing starts at 117 dollars monthly for Pro billed annually (140 dollars monthly), Guru at 250 dollars, Business at 500 dollars, and Semrush One at 199 dollars. The standing criticism is cost and complexity: most users touch a fraction of the features.",
+          "verdict": "Best for one subscription covering research, content, and competitor intel.",
+          "skip_if": "Skip it if you only need page-level optimization tooling."
+        },
+        {
+          "slug": "clearscope",
+          "assessment": "Clearscope is the editorial-workflow optimizer: it analyzes top-ranking pages for a target keyword and produces a brief of terms, entities, headings, and question patterns, then grades your draft against it in real time as you write. The differentiator is where it plugs in: Google Search Console and Google Docs, with a Content Decay feature that finds pages losing rankings and suggests updates based on what competitors added since your revision. Catalog AI features are content grading, keyword suggestions, draft generation, topic exploration, and content briefs, with 20 AI drafts included. Pricing is 129 dollars monthly for Essentials and 399 dollars for Business per the catalog, with custom Enterprise terms. It prices above Frase and Surfer and is bought for fit with existing editorial process; the standing criticism is exactly that price for freelancers and small teams.",
+          "verdict": "Best for teams living in Google Docs who grade while editing.",
+          "skip_if": "Skip it if the budget is small; comparable tools cost less."
+        },
+        {
+          "slug": "marketmuse",
+          "assessment": "MarketMuse approaches SEO from the top down: it inventories your site, models the topics you cover, and grades your coverage against competitors across all of them instead of scoring one article at a time. Founded 2013 in Boston and acquired by Siteimprove in October 2024, it holds a patent on semantic keyword analysis and publishes metrics including Personalized Difficulty, Topic Authority, and Content Score. Generative AI is documented rather than implied: MarketMuse AI arrived in Optimize in October 2023 as an LLM-agnostic drafting layer, Content Strategy AI followed in August 2024, and briefs come in nine types from Comparison and FAQ Collection to How-to. The trade-offs are concrete: no documented API and no integrations page, WordPress publishing is copy-paste, and pricing is demo-gated with limits published instead of dollars (Free allows 10 queries a month).",
+          "verdict": "Best for site-wide content strategy and topical coverage gaps.",
+          "skip_if": "Skip it if you need an API or self-serve pricing today."
+        },
+        {
+          "slug": "superlines",
+          "assessment": "Superlines is the visibility-side pick: an AI search intelligence platform that measures brand visibility across ChatGPT, Gemini, Perplexity, and Google AI Overviews, tracking 10-plus engines in total. Its stated differentiator is data collection from the real user-facing AI interfaces rather than API outputs, on the argument that the two can diverge; the practical claim is visibility data matching the answers buyers get. Everything is exposed through a UI, an API, and an MCP server, and an Action Center turns visibility gaps into tasks. Pricing starts at 79 euro monthly for three engines and 50 tracked prompts on one brand, Pro at 199 euro (150 prompts, 3 brands, site audits), Growth at 379 euro (300 prompts, 7 brands, API access), with a 7-day trial and 12 percent off annual billing. Helsinki-based, agency programs central to its go-to-market. Assess it as a GEO analytics layer.",
+          "verdict": "Best for tracking brand mentions inside AI answers at one place.",
+          "skip_if": "Skip it if you need briefs or page optimization features."
+        }
+      ]
+    }
+  ]
+}

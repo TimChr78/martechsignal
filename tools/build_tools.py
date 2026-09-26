@@ -456,7 +456,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -566,6 +566,43 @@ def build_hub(tools, cats):
     print(f"  ✓ {out.relative_to(ROOT)}")
 
 # ── Tool profile pages ─────────────────────────────────────────────
+
+def _offer_for(t):
+    """R5 schema state machine (2026-09-24, extended 2026-09-26 to list
+    items after GSC flagged category cards): returns a valid Offer built
+    only from the tool's real catalog price, or None. Never fabricates
+    price: 0 - enterprise / no-list-price tools return None and emitters
+    must fall back to non-product schema."""
+    _paid = t.get("paid_from")
+    _pf = t.get("price_from")
+    _cur = (t.get("currency") or "USD").strip().upper()
+    _url = str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com")
+    if _paid:
+        return {"@type": "Offer", "price": _paid, "priceCurrency": _cur,
+                "url": _url, "availability": "https://schema.org/InStock"}
+    if _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
+        return {"@type": "Offer", "price": _pf, "priceCurrency": _cur,
+                "url": _url, "availability": "https://schema.org/InStock"}
+    return None
+
+
+def _list_item_thing(t):
+    """ItemList item node: product-typed only when it carries a valid Offer
+    (Product snippets requires offers/review/aggregateRating); plain Thing
+    otherwise. R3-M3 wanted richer items; this keeps them valid."""
+    _offer = _offer_for(t)
+    if _offer:
+        node = ({"@type": "SoftwareApplication", "name": t["name"],
+                 "operatingSystem": "Web", "applicationCategory": "BusinessApplication",
+                 "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+                if t.get("open_source") else
+                {"@type": "Product", "name": t["name"],
+                 "url": f"https://martechsignal.com/tools/{t['slug']}/"})
+        node["offers"] = _offer
+        return node
+    return {"@type": "Thing", "name": t["name"],
+            "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+
 
 def build_tool_page(t, cats, all_tools):
     cat_map = {c["slug"]: c for c in cats}
@@ -1175,28 +1212,11 @@ def build_tool_page(t, cats, all_tools):
     # M3/M4 (model-comparison audit): freemium tools with a known paid entry emit the
     # paid entry price (paid_from), not 0 - "price: 0" on a tool the page itself quotes
     # at $49/mo is a machine-readable contradiction.
-    _pf = t.get("price_from")
-    _paid = t.get("paid_from")
-    # R2 M-4 (2026-09-08): respect the tool's actual currency (default USD).
-    _cur = (t.get("currency") or "USD").strip().upper()
-    if _paid:
-        schema["offers"] = {
-            "@type": "Offer",
-            "price": _paid,
-            "priceCurrency": _cur,
-            # R3-M24 (2026-09-16): an Offer without url+availability is an incomplete
-            # offer from a non-seller. Point at the vendor, mark as InStock=see vendor.
-            "url": str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com"),
-            "availability": "https://schema.org/InStock"
-        }
-    elif _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
-        schema["offers"] = {
-            "@type": "Offer",
-            "price": _pf,
-            "priceCurrency": _cur,
-            "url": str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com"),
-            "availability": "https://schema.org/InStock"
-        }
+    # R3-M24 (2026-09-16): an Offer without url+availability is an incomplete
+    # offer from a non-seller. Point at the vendor, mark as InStock=see vendor.
+    _offer = _offer_for(t)
+    if _offer:
+        schema["offers"] = _offer
 
     # R5 (2026-09-24): Google Product snippets requires Offer, Review, or
     # AggregateRating on a product-type item. Enterprise/no-list-price tools
@@ -1425,15 +1445,7 @@ def build_category_page(cat, tools):
                 # listed. Open-source tools are SoftwareApplication, SaaS is Product.
                 "itemListElement": [
                     {"@type": "ListItem", "position": i+1,
-                     "item": ({"@type": "SoftwareApplication",
-                               "name": t["name"],
-                               "operatingSystem": "Web",
-                               "applicationCategory": "BusinessApplication",
-                               "url": f"https://martechsignal.com/tools/{t['slug']}/"}
-                              if t.get("open_source")
-                              else {"@type": "Product",
-                                    "name": t["name"],
-                                    "url": f"https://martechsignal.com/tools/{t['slug']}/"})}
+                     "item": _list_item_thing(t)}
                     for i, t in enumerate(cat_tools)
                 ]
             }

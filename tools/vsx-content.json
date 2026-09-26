@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "slug": "n8n-vs-zapier",
+      "title": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
+      "seo_title": "n8n vs Zapier (2026): self-host or catalog",
+      "meta": "n8n vs Zapier compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a clear pick for each team.",
+      "a_slug": "n8n",
+      "b_slug": "zapier",
+      "intro": [
+        "The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.",
+        "Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow."
+      ],
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 203,890 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.",
+          "b": "Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch."
+        },
+        {
+          "heading": "Pricing",
+          "a": "Self-hosting is free under the fair-code license, and cloud plans run 20 dollars monthly on Starter and 50 dollars on Pro, with Enterprise custom. On your own hardware the bill is a server and someone's time, not per-run fees.",
+          "b": "Pricing is task-based: Free covers 100 tasks monthly and two-step Zaps, Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Every step in a Zap counts, so multi-step workflows burn volume fast. Agent activity bills separately: 400 activities a month free."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "n8n deploys in the cloud or self-hosted, and self-hosting is the point: data stays on your infrastructure and runs are not metered by the vendor. The cost is operational, including upgrades, backups, and queue management, all on your team.",
+          "b": "Zapier is a hosted service with no self-hosted edition, which removes maintenance from your plate and removes control over where data flows. Polling intervals set the pace: 15 minutes on Free, 2 minutes on Professional, 1 minute on Team and above."
+        },
+        {
+          "heading": "AI features",
+          "a": "AI agent nodes run inside workflows on top of LangChain, with AI data transformation, AI content generation, and AI-powered integrations documented alongside them. AI is a workflow step, so it composes with everything else you build instead of sitting in a separate product line.",
+          "b": "AI is a product line: Agents, Chatbots, Canvas, Zapier MCP, and Copilot appear on every plan with basic access, and AI by Zapier is excluded from Free. Agents are billed in activities rather than tasks, 400 a month free and 1,500 on Agents Pro."
+        },
+        {
+          "heading": "Integrations",
+          "a": "The node catalog counts 400-plus entries: Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, Notion, plus HTTP requests and custom code for anything missing. Community nodes widen it further, at the cost of vetting them yourself.",
+          "b": "More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.",
+          "b": "Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide."
+        }
+      ],
+      "pick_a_if": "Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.",
+      "pick_b_if": "Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server."
+    },
+    {
+      "slug": "nocodb-vs-nocobase",
+      "title": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
+      "seo_title": "NocoDB vs NocoBase (2026): data model ownership",
+      "meta": "NocoDB vs NocoBase compared on licensing, pricing, deployment, AI features, and integrations, with catalog facts and a balanced pick for each team.",
+      "a_slug": "nocodb",
+      "b_slug": "nocobase",
+      "intro": [
+        "Both projects promise the same escape from per-seat SaaS: keep operational data on your own server, in your own database, and stop renting a spreadsheet with permissions. They deliver in opposite directions. NocoDB is a layer over a database you already own; NocoBase is a platform where you define the data model first and assemble pages, workflows, and permissions around it.",
+        "The teams choosing between them are marketing ops and internal-tools owners with an engineer somewhere nearby, and the axis of difference is not a feature checklist. It is who owns the data model and how much construction work the tool expects from you. Get that judgment wrong and the cost surfaces later as a migration."
+      ],
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 64,910 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.",
+          "b": "NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking."
+        },
+        {
+          "heading": "Pricing",
+          "a": "Self-hosting is free with unlimited records and seats. Cloud runs Free (3 users, 1,000 records), Plus at 12 dollars per seat monthly billed annually, Business at 24 dollars with external DB connections and SAML SSO, Scale at 45 dollars, Enterprise custom. NocoAI features and App Store integrations are paid.",
+          "b": "The community edition is free to self-host, and commercial editions cover enterprise features and support. The catalog publishes no per-seat numbers for it. AI-assisted building and the workflow engine sit in the open offering, while rebranding, SSO, and advanced workflow features are commercial."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "A documented one-command compose stack (NocoDB, a background worker, Postgres, Redis) serves on port 8080, or the Docker image attaches to an existing Postgres through NC_DB. Minimum spec is 2 vCPU and 2 GB RAM. Read the license before features: the Sustainable Use License is fair-code, not OSI open source. Internal business use is free; offering it to others as a hosted service needs a commercial license.",
+          "b": "Self-hosted and plugin-based, with REST API and webhooks as the documented integration surface and a plugin architecture extending the platform. The licensing story is open-core: an Apache 2.0 kernel wrapped in the project's own agreement, with the community edition keeping NocoBase branding intact. Commercial editions add enterprise features and support."
+        },
+        {
+          "heading": "AI features",
+          "a": "NocoAI generates schema, tables, views, and formulas from prompts, and AI button and AI prompt field types extend rows, all in paid tiers. An MCP server gives external agents record-level access. AI here augments the spreadsheet surface rather than building systems.",
+          "b": "Version 2.0 adds AI employees: assistant-style agents working on top of your data models and the no-code interface, helping with configuration and answering questions over operational data. AI-assisted app building is listed as a core capability rather than an add-on."
+        },
+        {
+          "heading": "Integrations",
+          "a": "Postgres, MySQL, and SQLite underneath; REST APIs v3 with Swagger, conditional webhooks with custom payloads, an MCP server, and a paid App Store covering Slack, Discord, Mattermost, AWS SES, SMTP, and MailerSend. Because your schema stays SQL, other tools in the stack query it directly.",
+          "b": "The documented surface is REST API and webhooks, with plugins extending from there. The honest gap: no turnkey email or campaign-sender connectors in the box, which matters if you expect the platform to run campaigns rather than record them. Server-side workflows keep routing and notifications running without a browser open."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick NocoDB when the data already lives in Postgres or MySQL and you want a friendlier surface over it. The schema stays yours, plain SQL keeps working, and if NocoDB disappeared tomorrow your data would still be a database. It fits content calendars, launch checklists, and lead lists well.",
+          "b": "Pick NocoBase when you are building a system rather than decorating tables: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, a lightweight marketing data hub that keeps consent records in your own infrastructure. With an engineer nearby the learning curve buys structure."
+        }
+      ],
+      "pick_a_if": "Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.",
+      "pick_b_if": "Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front."
+    },
+    {
+      "slug": "matomo-vs-plausible",
+      "title": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+      "seo_title": "Matomo vs Plausible (2026): depth or simplicity",
+      "meta": "Matomo vs Plausible compared on pricing, self-hosting, AI features, and integrations, with catalog numbers only and a balanced pick for each team.",
+      "a_slug": "matomo",
+      "b_slug": "plausible",
+      "intro": [
+        "Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.",
+        "Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself."
+      ],
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "Matomo is an open-source analytics platform under GPL v3 or later, run on your own infrastructure or as cloud, with 5.13.0 released August 2026 and an active 6.x branch. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free, and the vendor claims 100 percent data ownership with unsampled reporting on every plan. Privacy is the reason teams pick it.",
+          "b": "Plausible is lightweight, privacy-friendly web analytics: pageviews, visitors, sources, devices, locations, and goals on one simple dashboard, without cookies or personal data collection. Launched in 2019 and based in Tallinn, it trades attribution depth and advertising integrations for a clean setup and low operational burden."
+        },
+        {
+          "heading": "Pricing",
+          "a": "The self-hosted core is free, and the feature split matters: funnels, cohorts, custom reports, form analytics, media analytics, A/B testing, heatmaps, session recordings, multi-channel attribution, roll-up reporting, and users flow are paid premium plugins. On-Premise bundles run 275 euro monthly (Team), 1,450 (Business), 3,400 (Enterprise), about 17 percent less billed annually. Cloud starts at 22 euro monthly for 50,000 hits and scales to 14,850 euro at 100 million. A 21-day Cloud trial applies.",
+          "b": "Self-hosted is free under the AGPL license, and cloud starts at 9 dollars monthly for 10,000 pageviews, scaling with traffic. There is no plugin upsell ladder and no premium bundle to decode: the product is the plan, which makes cost forecasting unusually simple."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Installation is a documented nine-step wizard: matomo.zip from builds.matomo.org, PHP 8.1 or newer with MySQL 8 or MariaDB 10.6, and an archiving cron job for sites above a few hundred visits a day. WordPress, Shopify, Google Tag Manager, the Google Analytics Importer, and consent tools (OneTrust, Cookiebot) are documented, and cloud data stays in Europe.",
+          "b": "Self-hosting is a small job: an AGPL codebase with 29,000 GitHub stars and a tracking script that weighs under a kilobyte on the page. Cookie-free operation removes the consent-banner question for analytics entirely. Integrations cover WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack."
+        },
+        {
+          "heading": "AI features",
+          "a": "Matomo's AI work measures AI traffic as much as it adds analysis. Version 5.12.0 added AI chatbot content-request and real-time reports, and an AI Agents report ships enabled on new instances. An AI Connector answers plain-language questions, and a free official MCP Server plugin connects Matomo to ChatGPT, Claude, and other MCP clients, with write actions gated behind approval.",
+          "b": "Plausible's AI features are modest and summary-shaped: AI-powered insights, anomaly detection, and traffic analysis that surface unusual patterns or summarize trends without building manual alerts. Nothing here pretends to replace analysis; it shortens the weekly read."
+        },
+        {
+          "heading": "Integrations",
+          "a": "WordPress, Matomo Tag Manager, Google Tag Manager, the Google Analytics Importer, Shopify, BigQuery, OneTrust, and Cookiebot, plus an API that is free on every plan and an ecommerce-focused tracking stack. More surfaces, more wiring.",
+          "b": "WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.",
+          "b": "Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer."
+        }
+      ],
+      "pick_a_if": "Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.",
+      "pick_b_if": "Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost."
+    }
+  ]
+}

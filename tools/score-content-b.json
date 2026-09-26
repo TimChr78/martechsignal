@@ -1,0 +1,315 @@
+{
+  "rubric_version": "1.0",
+  "tools": [
+    {
+      "slug": "twenty",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "tools.json price_notes publishes Cloud Pro at $9 per user per month billed yearly, Organization at $19, Enterprise from $50,000 a year, and free self-hosting, and the Twenty tool page documents no limits on objects or fields on any plan."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "The Twenty tool page documents standard CRM objects plus first-class custom objects with their own API endpoints, views, permissions, and workflow triggers and an apps SDK, which is category baseline plus real differentiators."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "tools.json lists Gmail, Google and Microsoft calendars, IMAP, SMTP, and CalDAV, signed webhooks, REST and GraphQL APIs, and a five-app marketplace including Slack and People Data Labs, which is an open API with a small native catalog and no iPaaS coverage documented."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "The Twenty tool page documents an AI chatbot over workspace data, AI agents inside workflows, and AI-built dashboards as shipped features, while its native MCP server is a site claim that the docs do not yet document."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "tools.json records an AGPL-3.0 license with free Docker Compose self-hosting that includes Pro features, which meets the OSI open source plus self-hostable anchor."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "tools.json reports about 56,500 GitHub stars and the Twenty tool page reports several tagged releases a week from a Paris-based company selling enterprise plans, which is beyond steady cadence though published SLA terms are not in our sources."
+        }
+      },
+      "score_total": 48,
+      "verdict": "Twenty pairs genuine open source code with published cloud pricing, so a team can price a rollout before talking to anyone. Its AI story is narrower than the marketing suggests and the native integration list is short, but for a technical team that wants a self-hosted CRM with real APIs it is the strongest all-round pick in this batch."
+    },
+    {
+      "slug": "monica",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "tools.json price_notes publishes the single hosted plan at $9 per month or $90 per year with unlimited contacts, managed backups, and data export plus free AGPL self-hosting, so the entire tier table is one fully documented row."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "The Monica tool page documents rich relationship records such as notes, activities, reminders, gifts, custom fields, and vaults but no sales pipeline, campaigns, or automation, so it covers only part of the CRM category baseline."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "tools.json lists zero native integrations and records only that an API exists, which matches the API or few natives anchor."
+        },
+        "ai_capability": {
+          "score": 0,
+          "evidence": "The Monica tool page states the README rules out a smart assistant and built-in AI by design, so no AI feature exists to score."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "tools.json records AGPL-3.0 with free self-hosting of the full application, which meets the OSI open source plus self-hostable anchor."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "The Monica tool page reports the last stable release was v4.1.2 in May 2024 and the main branch last saw a commit in August 2025, so release cadence has stalled even though the organization publishes rebuild updates in 2026."
+        }
+      },
+      "score_total": 28,
+      "verdict": "Monica is a polished personal relationship manager with honest documentation about what it does not do, including AI and sales pipelines. Adoption risk sits in the stalled release history, since the last stable release shipped in May 2024 while the promised v3 rebuild is still in beta."
+    },
+    {
+      "slug": "django-crm",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "tools.json price_notes states free MIT self-hosting with no user caps or feature paywall while Bottle CRM managed hosting prices are not published in our sources, so only the entry price is documented and the hosted tiers stay opaque."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "The Django CRM tool page documents leads through invoices plus a helpdesk with SLA timers, approvals, escalations, macros, and a knowledge base, and PostgreSQL row-level security multi-tenancy is a real differentiator."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "tools.json lists a REST API with an OpenAPI 3 schema plus Google OAuth, Amazon SES, and Sentry as the only named connections, which is the API or few natives anchor."
+        },
+        "ai_capability": {
+          "score": 1,
+          "evidence": "The Django CRM tool page documents that the project shipped an MCP server and then removed it, leaving agents to work as ordinary API clients with no shipped AI feature of its own."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "tools.json records an MIT license with free self-hosting and no feature paywall, which meets the OSI open source plus self-hostable anchor."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "tools.json reports about 2,400 GitHub stars with MicroPyramid as commercial backer and the Django CRM tool page documents full MkDocs and Read the Docs documentation, but no release cadence is published in our sources."
+        }
+      },
+      "score_total": 32,
+      "verdict": "Django CRM is a capable multi-tenant CRM with a real helpdesk and invoicing on top of an MIT license, and its database-level tenant isolation is a genuine differentiator. It scores low on AI and integrations because it ships neither, and the project documents that plainly instead of dressing it up."
+    },
+    {
+      "slug": "amplitude",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "The live Amplitude pricing page (fetched Sep 2026) publishes the full tier table with per-tier limits and a free plan of 2M events per month forever with no credit card, while Growth and Enterprise stay custom priced."
+        },
+        "feature_depth": {
+          "score": 9,
+          "evidence": "The live Amplitude pricing page shows every plan includes product analytics, session replay, experimentation, guides and surveys, and activation, and the Amplitude tool page adds Warehouse Native and heatmaps as differentiators, which is well past the analytics category baseline."
+        },
+        "integrations": {
+          "score": 9,
+          "evidence": "The live Amplitude integrations page (fetched Sep 2026) lists 159 results across sources, destinations, SDKs, event streaming, and a Marketplace category, and tools.json adds Zapier among named integrations, though iPaaS coverage beyond that is not documented in our sources."
+        },
+        "ai_capability": {
+          "score": 9,
+          "evidence": "The live Amplitude pricing page lists AI Agents and MCP on every plan including Free and the Amplitude tool page names Global Agent, Dashboard Agent, and Session Replay Agent with predictive audiences and anomaly detection, while the proactive Wave agent is not yet generally available."
+        },
+        "openness": {
+          "score": 5,
+          "evidence": "Amplitude is closed source per tools.json, but the live integrations page documents event streaming destinations including Amazon S3 and the Amplitude tool page documents Warehouse Native querying plus a public API, so export and an open API exist without source availability."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "tools.json records a 2012 founding, a San Francisco base, and a G2 rating of 4.5 from 3,865 reviews as of September 2026, which is enterprise-grade though published SLA terms are not in our sources."
+        }
+      },
+      "score_total": 49,
+      "verdict": "Amplitude is the most complete product in this batch, with a published tier table, a broad integration catalog, and named AI agents plus an MCP server on every plan. The cost of that depth is pricing that turns quote-only above the Plus plan and a closed codebase where data leaves only through documented exports and streams."
+    },
+    {
+      "slug": "cordys-crm",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "tools.json price_notes publishes free community self-hosting with a 1,000 API call per day cap and enterprise tiers at ¥30,000, ¥60,000, and ¥120,000 per year with flagship adding hot-standby high availability, though DataEase embedding costs are separate and unpublished."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "The Cordys CRM tool page documents the full lead-to-cash cycle from lead capture and routing through contracts, orders, and payment collection plus embedded BI and agent tooling, which is category baseline with real differentiators."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "tools.json lists only MaxKB, DataEase, MCP, and Docker as named integrations with the API capped in the free tier, which is the API or few natives anchor."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "tools.json and the Cordys CRM tool page document an MCP server with 11 tools exposed even in the free community edition, MaxKB sales agents connected over the API, and the enterprise CORDYS AI server-side agent, though much of the AI layer comes from sibling FIT2CLOUD products."
+        },
+        "openness": {
+          "score": 7,
+          "evidence": "The Cordys CRM tool page states the license is the FIT2CLOUD Open Source License, a GPLv3 variant that bars swapping the logo or copyright notices, so the code is source-available rather than OSI open source while self-hosting stays free."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "tools.json reports a 2025 founding with 2,704 GitHub stars and the Cordys CRM tool page reports 100,000 downloads within 25 days of the August 2025 public beta and shipped releases through v1.9.0, so the cadence is real but the product and its Chinese-first docs are young."
+        }
+      },
+      "score_total": 40,
+      "verdict": "Cordys CRM delivers lead-to-cash depth plus real agent and MCP support at no per-seat cost, which is rare among self-hosted CRMs. The license restricts rebranding so it is not plain open source, and most of the AI layer is assembled from sibling FIT2CLOUD products rather than built in."
+    },
+    {
+      "slug": "react-email-editor",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "The live Unlayer pricing page (fetched Sep 2026) publishes Free at $0 forever, Launch at $250 per month, Scale at $750, and Optimize at $2,000 with a full comparison table of per-tier limits and published credit pack rates such as 50,000 AI credits per $50 per month, leaving only Enterprise custom."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "The React Email Editor tool page documents 15 built-in content blocks, custom tools and blocks, merge tags, display conditions, device previews, and HTML plus design JSON export, which covers the embedded editor baseline with real differentiators."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "tools.json lists React, Angular, Vue, vanilla JavaScript, a Cloud API, OpenAI, and Anthropic as the named connections with no marketplace documented, which sits between the few natives and broad catalog anchors."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "The React Email Editor tool page documents a shipped AI Assistant with chat-driven edits, AI image generation, and an AI Template Importer plus a beta MCP server with 14 documented tools and agent skills for Claude Code, Codex, and Cursor."
+        },
+        "openness": {
+          "score": 5,
+          "evidence": "The React Email Editor tool page states exports return HTML and design JSON and the live Unlayer pricing page documents a Cloud API, but the MIT license covers only a thin wrapper around a hosted closed editor and self-hosting is Enterprise-only."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "The React Email Editor tool page reports wrapper versions 2.0.0 in July 2026 and 2.1.2 in August 2026 with real docs, and the live Unlayer pricing page adds SOC 2 Type II, a 99.9 percent uptime SLA, and Y Combinator backing."
+        }
+      },
+      "score_total": 41,
+      "verdict": "React Email Editor is a mature embedded builder with unusually clear pricing, per-tier limits, and published credit pack rates. The MIT license covers only a thin wrapper around a hosted editor, so teams that need a self-hosted builder should look elsewhere."
+    },
+    {
+      "slug": "frappe-crm",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "tools.json price_notes publishes free AGPL self-hosting plus Frappe Cloud hosting from $5 per month per site and dedicated servers from $20 to $60 per month, with unlimited leads, deals, and users documented on all plans."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "The Frappe CRM tool page documents kanban lead and deal management, web forms, custom fields and statuses, Python server scripts, and telephony with click-to-call and recording, which is category baseline plus the Frappe framework extensibility as a real differentiator."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "tools.json lists Twilio, Exotel, WhatsApp through a third-party app, ERPNext, and Meta Lead Ads as the documented natives with api_available marked false and no marketplace, which is a short native list worth just past the few natives anchor."
+        },
+        "ai_capability": {
+          "score": 0,
+          "evidence": "The Frappe CRM tool page states that no AI features appear in the README, marketing site, or release notes, so there is nothing to score."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "tools.json records AGPL-3.0 with free self-hosting on the Frappe framework stack, which meets the OSI open source plus self-hostable anchor."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "The Frappe CRM tool page reports roughly 130 releases across 2025 and 2026 reaching v1.83.0 in September 2026 with 41 pages of documentation, and tools.json records the Frappe company behind ERPNext as the backer."
+        }
+      },
+      "score_total": 38,
+      "verdict": "Frappe CRM combines a fast release cadence, real documentation, and free self-hosting with cheap hosting from the company behind ERPNext. It carries no AI features at all and its native integration list is short, so it fits teams that value extensibility over built-in automation."
+    },
+    {
+      "slug": "dynamic-yield",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 0,
+          "evidence": "tools.json price_notes and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request."
+        },
+        "feature_depth": {
+          "score": 9,
+          "evidence": "The Dynamic Yield tool page documents Experience Web campaigns and split testing, Recommendations with Algorithm Studio, Experience Email and Reconnect with a native email delivery channel, Audience Hub, and Rollout with gradual release and rollback, which is near category-defining breadth for personalization."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "tools.json lists eleven documented natives including Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, and mParticle plus the Experience API and Kotlin, Swift, and React Native SDKs, which is short of the marketplace anchor."
+        },
+        "ai_capability": {
+          "score": 9,
+          "evidence": "The Dynamic Yield tool page documents Experience OS Agents as a multi-agent system with five defined roles plus Shopping Muse, Predictive Targeting, and the NextML, AffinityML, and VisualML models, though no MCP-level protocol is documented."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "Dynamic Yield is closed source per tools.json, while the Dynamic Yield tool page documents a Parquet-formatted Daily Activity Stream at dy.dev and the Experience API, so data export exists but source availability does not."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "tools.json records a 2011 founding and Mastercard ownership since 2022, and the Dynamic Yield tool page reports MACH Alliance certification and deep technical documentation at dy.dev, though SLA terms are not published in our sources."
+        }
+      },
+      "score_total": 37,
+      "verdict": "Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process."
+    },
+    {
+      "slug": "sendgrid",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "The live Twilio Email API pricing page (fetched Sep 2026) publishes a 60-day free trial at 100 emails per day, Essentials from $19.95 per month for 50,000 to 100,000 emails, and Pro from $89.95 per month with per-tier limits on teammates, event webhooks, and email validation, while Premier is custom."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "The SendGrid tool page documents REST and SMTP sending, Handlebars dynamic templates, webhook event tracking, and seven official SDKs with only a builder, lists, segmentation, and basic automation on the marketing side, which is deep on delivery and thin on campaign features."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "tools.json lists Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment, and Snowflake as named integrations and the SendGrid tool page adds seven language SDKs plus the wider Twilio channel catalog, but no marketplace is documented in our sources."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "tools.json lists AI deliverability optimization, AI engagement insights, smart send-time optimization, and AI subject line testing as shipped features, which is multiple AI features short of an agent or protocol-level surface."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "SendGrid is closed source per tools.json with documented REST and SMTP APIs and webhook events on its tool page, but no data export path is documented in our sources so it scores between the export and full export plus open API anchors."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "tools.json records a 2009 founding, a $2 billion Twilio acquisition in 2018, and processing of tens of billions of emails per month, while the SendGrid tool page notes ongoing support quality complaints since the acquisition."
+        }
+      },
+      "score_total": 40,
+      "verdict": "Twilio SendGrid remains a proven email delivery platform with published entry pricing and clear per-tier limits on volume, teammates, and webhooks. The marketing campaign side is thin next to dedicated email platforms, and the free entry point is a 60-day trial rather than a permanent free tier."
+    },
+    {
+      "slug": "openoutreach",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "tools.json price_notes documents that the tool is free under GPLv3 with every external cost published, including BetterContact at one credit per verified work email and a free account of 40 credits with no card, though there are no paid tiers to compare."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "The OpenOutreach tool page documents discovery, qualification with a written reason per lead, agent-written openers, send guards for window, daily cap, and pacing, and CSV export shaped for Instantly and Smartlead, which covers the outreach workflow while depending on BetterContact for lead data."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "tools.json lists BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP and IMAP mailboxes, Google Workspace, Instantly and Smartlead export, and Claude Code, with api_available marked false so no public API is documented."
+        },
+        "ai_capability": {
+          "score": 9,
+          "evidence": "The OpenOutreach tool page documents an LLM that turns a product description into search keywords, an LLM that qualifies leads with written reasons, and an agent that writes openers, plus a Claude Code plugin and skills for Codex and Cursor, though no MCP server is documented."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "tools.json records a GPL-3.0 license with free self-hosting as a Python CLI, which meets the OSI open source plus self-hostable anchor."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "tools.json records no release history, founding, or company and the OpenOutreach tool page notes funding from affiliate links rather than subscriptions, so maturity stays at the young or single maintainer anchor despite about 2,950 GitHub stars."
+        }
+      },
+      "score_total": 41,
+      "verdict": "OpenOutreach is a genuinely AI-native lead finder under a free license, with every external cost documented down to per-email credit pricing. Its maturity is unproven, with no published release history or company behind it, and it depends on a third-party data provider for lead discovery."
+    }
+  ]
+}
