@@ -212,7 +212,7 @@
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "Founded in 2025 with 16,675 GitHub stars, 2,443 forks and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (tools.json)."
+          "evidence": "Founded in February 2026 with 17,737 GitHub stars, 2,599 forks (verified 2026-09-26) and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (tools.json)."
         }
       },
       "verdict": "A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.",

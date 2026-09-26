@@ -98,6 +98,9 @@ a { color: inherit }
 
 /* ---------- footer (shared) ---------- */
 footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
+/* A3 H-11 (2026-09-26): footer rows overlapped 4.8px, min gap 3.2px */
+.foot-links { display: flex; flex-wrap: wrap; gap: 8px }
+.foot-links a { padding: 14px 10px; margin: 0 }
 .page-home footer { padding: 2.6rem 0 2.2rem; margin-top: 1.2rem }
 .page-tools footer { margin-top: 2rem }
 .foot-in { max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; align-items: center }
@@ -119,9 +122,9 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .ghost:hover { color: var(--amber) }
 
 /* ---------- scroll reveal (shared) ---------- */
-html.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease }
+html.js .reveal:not(.in) { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease }
 .page-home .reveal { transform: translateY(22px) }
-.reveal.in { opacity: 1; transform: none }
+html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important }
   .reveal { opacity: 1; transform: none }
@@ -429,8 +432,6 @@ html.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .
    ============================================================ */
 
 /* scroll reveal */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease }
-.reveal.in { opacity: 1; transform: none }
 
 /* pipeline strip */
 .flow-strip { display: flex; align-items: stretch; gap: 0; margin: 2rem 0 .4rem; padding: 1.3rem 1.4rem; border: 1px solid var(--line2); border-radius: 10px; background: linear-gradient(180deg, rgba(15,27,49,.85), rgba(8,14,26,.6)); overflow-x: auto }

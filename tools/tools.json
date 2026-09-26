@@ -1341,7 +1341,7 @@
     "github_stars": 16675,
     "open_source": true,
     "api_available": true,
-    "founded": 2025,
+    "founded": "2026",
     "hq": null,
     "status": "active",
     "date_added": "2026-07-31",
@@ -1357,7 +1357,7 @@
       ],
       "requirements": "Python 3.10+ and Claude Code CLI. macOS, Linux, Windows (PowerShell installer available). Audits run locally; only Google API calls and optional providers leave your machine.",
       "stats": {
-        "github_stars": "16,675",
+        "github_stars": "17,737",
         "forks": "2,443",
         "sub_skills": 25,
         "agents": 18,
@@ -1405,7 +1405,7 @@
         ]
       ],
       "hands_on": [
-        "Ownership disclosure: we built Claude SEO. The results below come from running the tool on our own sites. This page is excluded from our scoring and Review schema so we never rate our own product in a search feature.",
+        "Ownership disclosure: Claude SEO is a third-party MIT project by AgriciDaniel (github.com/AgriciDaniel/claude-seo). MartechSignal has no affiliation with its author. The results below come from running the tool on our own production sites, and our audit pipeline depends on it. For that reason this page is excluded from our Review structured data (the MartechSignal Score panel is the standard catalog panel, shown unedited).",
         "We ran Claude SEO on our own production sites before writing this. On a 170-page marketing site it surfaced 96 findings in about five minutes; on a smaller transit-info site it flagged 87 findings across technical SEO, schema gaps, and citability issues like missing llms.txt. Both audits cost roughly six dollars of API tokens each.",
         "Findings are graded High/Medium/Low with dependency tracking, which matters when several fixes interact: schema work depends on markup cleanup, citability fixes depend on heading hierarchy. Re-running after fixing confirmed the score moved from 68 to 87 on one site. That verify-the-fix loop is the part most audit tools skip.",
         "The v2.2.5 release (August 2026) is a reliability and Google-currency pass: refreshed guidance through the August spam update, Preferred Sources, Search Console platform properties, and PageSpeed Insights Agentic Browsing, plus safer JSON-LD traversal and bounded Chromium accessibility-tree capture. Test count is up to 439. Nothing changed in the workflow, but the audit rules track Google's current guidance."

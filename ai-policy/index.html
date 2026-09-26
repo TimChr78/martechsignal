@@ -25,11 +25,12 @@
 <nav class="crumb"><a href="/">Home</a> / <span>AI policy</span></nav>
 <article>
 <h1>AI policy</h1>
-<p>MartechSignal publishes for people first and for answer engines second. This page states, in plain terms, what AI systems may and may not do with our content. It was last updated on 2026-09-25.</p>
+<p>MartechSignal publishes for people first and for answer engines second. This page states, in plain terms, what AI systems may and may not do with our content. It was last updated on 2026-09-26.</p>
 <h2>The short version</h2>
 <ul>
 <li><strong>Search and indexing: yes.</strong> Building a search index and returning links with short excerpts is fine.</li>
 <li><strong>Retrieval, grounding, and AI answers: yes, with attribution.</strong> Pulling our content into a live answer (RAG, grounding, agent fetches on a user's request) is fine. Cite the page you took it from.</li>
+<li><strong>One trade-off to know.</strong> Our robots.txt blocks Google-Extended. That token governs model training, but it also removes us from Gemini API and Vertex AI grounding pipelines. AI Overviews and the Gemini app are unaffected (those follow Googlebot, which we allow). We accept the trade: keeping our content out of model training is worth losing Vertex-based RAG citation. Added 2026-09-26.</li>
 <li><strong>Training or fine-tuning models: no.</strong> Do not use our content to train or fine-tune a model.</li>
 <li><strong>Republishing our work as your own: no.</strong> The same rule we publish in our <a href="/terms/">terms of use</a>.</li>
 </ul>

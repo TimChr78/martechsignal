@@ -364,7 +364,7 @@ def _seo_description_for(t, cats):
 # ── Shared HTML shell ──────────────────────────────────────────────
 
 SUB_STRIP = (
-    '<div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3>'
+    '<div class="sub-strip"><div><h3>Building your martech shortlist?</h3>'
     '<p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div>'
     '<a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>')
 
@@ -528,7 +528,7 @@ def build_hub(tools, cats):
         if not g_tools:
             continue
         g_cards = "".join(card_by_slug[t["slug"]] for t in sorted(g_tools, key=lambda x: x["name"].lower()))
-        grouped += (f'<section class="hub-group reveal">\n'
+        grouped += (f'<section class="hub-group">\n'
                     f'  <h2>{esc(c["name"])} <em>{len(g_tools)}</em></h2>\n'
                     f'  <div class="tool-grid">{g_cards}</div>\n'
                     f'</section>\n')
@@ -541,7 +541,7 @@ def build_hub(tools, cats):
     orphans = [t for t in tools if t.get("status") == "active" and t["slug"] not in listed]
     if orphans:
         o_cards = "".join(card_by_slug[t["slug"]] for t in sorted(orphans, key=lambda x: x["name"].lower()))
-        grouped += (f'<section class="hub-group reveal">\n  <h2>Other tools <em>{len(orphans)}</em></h2>\n'
+        grouped += (f'<section class="hub-group">\n  <h2>Other tools <em>{len(orphans)}</em></h2>\n'
                     f'  <div class="tool-grid">{o_cards}</div>\n</section>\n')
     _active_n = len([t for t in tools if t.get('status') == 'active'])
     assert len(listed) + len(orphans) == _active_n, (len(listed), len(orphans), _active_n)
@@ -557,7 +557,7 @@ def build_hub(tools, cats):
 <p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
-<div class="sub-strip reveal"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
+<div class="sub-strip"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
 <p class="sub">All {_active_n} tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.</p>
 {grouped}"""
 
@@ -1473,14 +1473,14 @@ def build_category_page(cat, tools):
                 continue
             grouped_slugs.update(g["slugs"])
             cards = "".join(tool_card_html(t) for t in g_tools)
-            groups_html += f"""<div class="hub-group reveal">
+            groups_html += f"""<div class="hub-group">
   <div class="hub-group-label"><span>{esc(g["label"])}</span><i></i><em>{len(g_tools)}</em></div>
   <div class="tool-grid">{cards}</div>
 </div>\n"""
         leftovers = [t for t in cat_tools if t["slug"] not in grouped_slugs]
         if leftovers:
             cards = "".join(tool_card_html(t) for t in leftovers)
-            groups_html += f'<div class="hub-group reveal"><div class="tool-grid">{cards}</div></div>'
+            groups_html += f'<div class="hub-group"><div class="tool-grid">{cards}</div></div>'
 
         reading = ""
         for r in hub.get("reading", []):
@@ -1505,9 +1505,9 @@ def build_category_page(cat, tools):
   <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
 
-<div class="flow-strip reveal" aria-hidden="true">{flow}</div>
+<div class="flow-strip" aria-hidden="true">{flow}</div>
 
-<section class="hub-lead reveal">{lead}</section>
+<section class="hub-lead">{lead}</section>
 {checklist_callout}
 <section class="hub-chooser reveal">
   <h2>Which one fits</h2>
