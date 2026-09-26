@@ -567,7 +567,71 @@ def build_hub(tools, cats):
 
 # ── Tool profile pages ─────────────────────────────────────────────
 
+_PILLAR_ORDER = ("pricing_transparency", "feature_depth", "integrations",
+                 "ai_capability", "openness", "operational_maturity")
+_PILLAR_LABELS = {
+    "pricing_transparency": "Pricing transparency",
+    "feature_depth": "Feature depth",
+    "integrations": "Integrations",
+    "ai_capability": "AI capability",
+    "openness": "Openness",
+    "operational_maturity": "Operational maturity",
+}
+# Score pilot (2026-09-26, decided by Tim, t_1f5b22be): editorial scores from
+# the two research batches; every score on the page carries its evidence line,
+# the rubric lives at /methodology/.
+_SCORES = {}
+for _sf in ("score-content-a.json", "score-content-b.json"):
+    _sp = ROOT / "tools" / _sf
+    if _sp.exists():
+        for _srec in json.loads(_sp.read_text())["tools"]:
+            _SCORES[_srec["slug"]] = _srec
+
+
+def _score_band(t):
+    # Visible score band for scored tools (extractable facts-first opening).
+    # Returns (html, review_schema_or_None). Review markup is emitted only for
+    # third-party tools: our own product (claude-seo) never carries review
+    # structured data (corrections 2026-09-16, self-serving review policy).
+    rec = _SCORES.get(t["slug"])
+    if not rec:
+        return "", None
+    rows = "".join(
+        '<tr><td>' + _PILLAR_LABELS[k] + '</td><td style="text-align:right">'
+        + str(rec["pillars"][k]["score"]) + '/10</td>'
+        + '<td>' + esc(rec["pillars"][k]["evidence"]) + '</td></tr>'
+        for k in _PILLAR_ORDER)
+    band = (
+        '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
+        'border:1px solid var(--line);border-radius:12px">'
+        '<h2 style="margin:0 0 .3rem">MartechSignal Score: ' + str(rec["score_total"]) + '/60</h2>'
+        '<p style="margin:.35rem 0">' + esc(rec["verdict"]) + '</p>'
+        '<div class="table-wrap" style="margin:.75rem 0"><table>'
+        '<thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>'
+        '<tbody>' + rows + '</tbody></table></div>'
+        '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored 2026-09-26 '
+        'against our published rubric: six pillars, 0-10 each. This is an editorial '
+        'assessment from documentation and vendor materials, not a lab benchmark or a '
+        'verified-buyer rating. The full rubric is on the <a href="/methodology/">'
+        'methodology page</a>.</p></section>')
+    review = None
+    if t["slug"] != "claude-seo":
+        review = {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Tim Christensen"},
+            "datePublished": "2026-09-26",
+            "reviewBody": rec["verdict"],
+            "itemReviewed": {"@type": "Thing", "name": t["name"],
+                             "url": "https://martechsignal.com/tools/" + t["slug"] + "/"},
+            "reviewRating": {"@type": "Rating", "ratingValue": rec["score_total"],
+                             "bestRating": 60, "worstRating": 0},
+        }
+    return band, review
+
+
 def _offer_for(t):
+
     """R5 schema state machine (2026-09-24, extended 2026-09-26 to list
     items after GSC flagged category cards): returns a valid Offer built
     only from the tool's real catalog price, or None. Never fabricates
@@ -1072,6 +1136,7 @@ def build_tool_page(t, cats, all_tools):
                                  + "".join(ext_lines) + note)
     else:
         external_ratings_html = ""
+    score_html, review_schema = _score_band(t)
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{esc(t['name'])} pricing &amp; plans</h1>
@@ -1080,6 +1145,7 @@ def build_tool_page(t, cats, all_tools):
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
 </section>
+{score_html}
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
@@ -1254,7 +1320,7 @@ def build_tool_page(t, cats, all_tools):
     out.write_text(page_shell(
         seo_title,
         seo_desc,
-        f"/tools/{slug}/", body, [x for x in (schema, breadcrumb, faq_schema) if x], og_image=f"og/tools/{slug}.png"))
+        f"/tools/{slug}/", body, [x for x in (schema, breadcrumb, faq_schema, review_schema) if x], og_image=f"og/tools/{slug}.png"))
     return out
 
 # ── Category pages ─────────────────────────────────────────────────
@@ -1602,6 +1668,14 @@ def build_sitemap(tools, cats):
         for d in sorted(alt_dir.iterdir()):
             if (d / "index.html").exists():
                 urls.append((f"https://martechsignal.com/alternatives/{d.name}/", _lastmod(d / "index.html"), "0.7"))
+
+    # Best-X + /vs/ pilots (2026-09-26)
+    for _prefix in ("best", "vs"):
+        _dir = ROOT / _prefix
+        if _dir.exists():
+            for d in sorted(_dir.iterdir()):
+                if (d / "index.html").exists():
+                    urls.append((f"https://martechsignal.com/{_prefix}/{d.name}/", _lastmod(d / "index.html"), "0.7"))
 
     # Blog index
     if (blog_dir / "index.html").exists():

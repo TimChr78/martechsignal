@@ -56,6 +56,8 @@ if [ "$DO_BUILD" -eq 1 ]; then
     python3 tools/build_trending.py || echo "⚠ trending build failed (non-fatal)"
     # SX-6 pilot: alternatives pages must exist before build_tools (sitemap + interlink)
     python3 tools/build_alternatives.py
+    # Best-X + /vs/ pilots (2026-09-26): same ordering rule
+    python3 tools/build_best_vsx.py
     python3 tools/build_tools.py
     # Glossary hub + term pages reuse page_shell from build_tools. This was previously
     # NOT run by deploy, so glossary pages drifted and never picked up site-wide changes
