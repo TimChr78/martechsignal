@@ -17,11 +17,11 @@ The two things that change: how much it costs to connect your stack, and whether
 
 Take a standard B2B lead enrichment pipeline. It touches five tools:
 
-- **[HubSpot](/tools/hubspot-crm/)** (CRM — contact records, deal stages)
-- **[Clay](https://www.clay.com/mcp)** (enrichment — firmographic data, intent signals)
-- **[Customer.io](/tools/customer-io/)** (email — triggered sequences)
-- **[Intercom](/tools/intercom/)** (chat — handoffs to SDRs)
-- **[Mixpanel](/tools/mixpanel/)** (behavioral data — page visits, signups)
+- **[HubSpot](/tools/hubspot-crm/)** (CRM - contact records, deal stages)
+- **[Clay](https://www.clay.com/mcp)** (enrichment - firmographic data, intent signals)
+- **[Customer.io](/tools/customer-io/)** (email - triggered sequences)
+- **[Intercom](/tools/intercom/)** (chat - handoffs to SDRs)
+- **[Mixpanel](/tools/mixpanel/)** (behavioral data - page visits, signups)
 
 <table class="cmp">
 <tr><th scope="col">Metric</th><th>Before MCP</th><th>After MCP</th></tr>
@@ -32,7 +32,7 @@ Take a standard B2B lead enrichment pipeline. It touches five tools:
 </tr>
 <tr>
   <td><strong>Maintenance surface</strong></td>
-  <td class="com-price">Auth rotation, rate limits, schema drift, error handling — per connector</td>
+  <td class="com-price">Auth rotation, rate limits, schema drift, error handling - per connector</td>
   <td class="oss-price">One registration per tool. Agent layer absorbs the rest.</td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ Take a standard B2B lead enrichment pipeline. It touches five tools:
 </tr>
 <tr>
   <td><strong>Middleware vendor</strong></td>
-  <td class="com-price">Tray, Workato, or custom middleware — $850–$2,000/mo</td>
+  <td class="com-price">Tray, Workato, or custom middleware - $850–$2,000/mo</td>
   <td class="oss-price">None. Agent is the middleware.</td>
 </tr>
 </table>

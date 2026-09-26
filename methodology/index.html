@@ -73,6 +73,9 @@ td.score{white-space:nowrap;font-variant-numeric:tabular-nums}
     <p>When a post cites a number we computed, the underlying artifact is published with its window and source so the query can be rerun.</p>
     <p><strong>gsc-query-distribution-2026-05-29_2026-08-26.csv.</strong> Source: Google Search Console API (searchAnalytics.query), property sc-domain:martechsignal.com, webmasters scope, service-account auth. Window: 2026-05-29 through 2026-08-26 (90 days). Dimensions: query-level rows, no filters, up to 1,000 rows (417 returned; the API omits ultra-low-impression queries). Headline numbers cited on the site: 417 queries, 1,737 total impressions, 0 clicks site-wide in the window; 1,492 impressions (85.9%) at average position 51+. Caveat: average position is Google's mean over impressions in the window; day-by-day rank volatility is not visible in the export. Any GSC performance export filtered to the same dates produces the same shape.</p>
 
+    <h2>OSS Momentum Tracker</h2>
+    <p>The <a href="/oss-momentum.json">momentum dataset</a> covers every catalog entry that names a public GitHub repository. Two real sources back it: fresh GitHub repository totals and release dates, and the measurement series from the git history of our public catalog (every committed snapshot of the tools file, dated by its commit). GitHub's star-timestamp endpoints are not accessible to this project, so each growth figure states its own snapshot-bounded window and snapshots are never interpolated. Entries without a recorded repository URL are listed as out of scope, never estimated.</p>
+
     <h2>Corrections</h2>
     <p>Published errors get public entries. See the <a href="/corrections/">corrections page</a> for the running log.</p>
   </article>

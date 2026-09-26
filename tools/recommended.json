@@ -52,7 +52,7 @@
   {
     "slug": "billionmail",
     "name": "BillionMail",
-    "tagline": "Open-source mail server, newsletter, and email marketing platform — fully self-hosted and free",
+    "tagline": "Open-source mail server, newsletter, and email marketing platform - fully self-hosted and free",
     "website": "http://www.billionmail.com/",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -202,7 +202,7 @@
   {
     "slug": "laudspeaker",
     "name": "Laudspeaker",
-    "tagline": "Open-source customer engagement and product onboarding platform — alternative to Braze",
+    "tagline": "Open-source customer engagement and product onboarding platform - alternative to Braze",
     "website": "https://laudspeaker.com/?ref=github",
     "category": "marketing-automation",
     "pricing_model": "open-source",
@@ -252,7 +252,7 @@
   {
     "slug": "openoutreach",
     "name": "OpenOutreach",
-    "tagline": "Agentic AI email automation — describe your product and target market, AI finds the leads",
+    "tagline": "Agentic AI email automation - describe your product and target market, AI finds the leads",
     "website": "https://openoutreach.app",
     "category": "email-marketing",
     "pricing_model": "open-source",
@@ -277,7 +277,7 @@
   {
     "slug": "bottlecrm",
     "name": "BottleCRM",
-    "tagline": "Open-source CRM for startups built with Django REST + SvelteKit — multi-tenant, self-hosted, free",
+    "tagline": "Open-source CRM for startups built with Django REST + SvelteKit - multi-tenant, self-hosted, free",
     "website": "https://bottlecrm.io",
     "category": "crm",
     "pricing_model": "open-source",
@@ -352,7 +352,7 @@
   {
     "slug": "relaticle",
     "name": "Relaticle",
-    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API — Laravel & Filament",
+    "tagline": "Open-source CRM with native AI agent support, 30 MCP tools, REST API - Laravel & Filament",
     "website": "https://relaticle.com",
     "category": "crm",
     "pricing_model": "open-source",
@@ -452,7 +452,7 @@
   {
     "slug": "chatbotx",
     "name": "ChatbotX",
-    "tagline": "Open-source ManyChat alternative built for AI — omnichannel chat marketing and automation",
+    "tagline": "Open-source ManyChat alternative built for AI - omnichannel chat marketing and automation",
     "website": "https://chatbotx.io/docs",
     "category": "chatbots",
     "pricing_model": "open-source",
@@ -477,7 +477,7 @@
   {
     "slug": "paperboy",
     "name": "Paperboy",
-    "tagline": "Email campaign delivery tool built with Go, inspired by GoHugo — fast and self-hosted",
+    "tagline": "Email campaign delivery tool built with Go, inspired by GoHugo - fast and self-hosted",
     "website": "https://www.paperboy.email/",
     "category": "email-marketing",
     "pricing_model": "open-source",

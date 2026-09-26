@@ -205,6 +205,7 @@
 
 ## Analysis
 
+- [Open-source martech momentum: the agent-skills layer wins](https://martechsignal.com/blog/oss-momentum-tracker-september-2026/) (2026-09-26)
 - [What LLM watermarking means for marketing automation](https://martechsignal.com/blog/watermark-provenance-tax-agents/) (2026-09-25)
 - [AI ad account guardrails Google won't ship](https://martechsignal.com/blog/google-ads-ai-guardrails/) (2026-09-24)
 - [Agent protocol vs data plumbing: what actually fails](https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/) (2026-09-23)

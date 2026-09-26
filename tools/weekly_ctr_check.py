@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""weekly_ctr_check.py — cannibalization + cap + length validator for CTR loop.
+"""weekly_ctr_check.py - cannibalization + cap + length validator for CTR loop.
 
 Usage:
   python3 tools/weekly_ctr_check.py --query "cordys crm" [--slug cordys-crm]
@@ -14,7 +14,7 @@ Reads:
   - /mnt/cache/appdata/n8n/data/reports/gsc-keywords-*.md (latest GSC rows, optional)
 
 Checks:
-  1. 5/week cap (ISO week) — counts pending+approved+deployed in state file.
+  1. 5/week cap (ISO week) - counts pending+approved+deployed in state file.
   2. Cannibalization: does 2+ pages already target the candidate query's keywords?
      Heuristic: token overlap against all page titles/H1s/taglines/intros.
      If overlap score > threshold and 2+ pages match, flag as HIGH risk.
@@ -66,7 +66,7 @@ def load_inventory():
             idx = child / "index.html"
             if child.is_dir() and idx.exists():
                 content = idx.read_text(errors="ignore")
-                m = re.search(r"<title>(.+?)(?:\s+—\s+Martech\s+Signal)?</title>", content)
+                m = re.search(r"<title>(.+?)(?:\s+-\s+Martech\s+Signal)?</title>", content)
                 title = html.unescape(m.group(1).strip()) if m else child.name
                 text = re.sub(r"<[^>]+>", " ", content)
                 text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
@@ -121,7 +121,7 @@ def cannibal_check(query, pages, threshold=0.08):
         return risk, [p for _,p in overlapping[:6]], note
     elif len(overlapping)==1:
         s,p = overlapping[0]
-        return "low", [p], f"1 page overlaps '{query}' ({p['slug']}:{s:.3f}) — no cannibalization, single owner."
+        return "low", [p], f"1 page overlaps '{query}' ({p['slug']}:{s:.3f}) - no cannibalization, single owner."
     else:
         # also surface top-1 even if below threshold for context
         if scored:
@@ -146,7 +146,7 @@ def validate_lengths(title, meta):
 def main():
     ap=argparse.ArgumentParser(description="weekly CTR cannibalization + cap + length check")
     ap.add_argument("--query", help="candidate query to check cannibalization")
-    ap.add_argument("--slug", help="target page slug (if known) — filters to that page")
+    ap.add_argument("--slug", help="target page slug (if known) - filters to that page")
     ap.add_argument("--title", help="proposed title to validate length")
     ap.add_argument("--meta", help="proposed meta to validate length")
     ap.add_argument("--cap-check", action="store_true", help="print cap status")
@@ -176,7 +176,7 @@ def main():
         if pending:
             print(f"Pending ({len(pending)}): " + ", ".join(f"{p.get('query')}->{p.get('slug')}" for p in pending))
         if used >=5:
-            print("CAP_REACHED — no new picks allowed this week.")
+            print("CAP_REACHED - no new picks allowed this week.")
             sys.exit(1)
         return
 
@@ -214,10 +214,10 @@ def main():
     errs=validate_lengths(args.title, args.meta)
     if args.title is not None:
         out["title"]=args.title; out["title_len"]=len(args.title)
-        print(f"Title: {len(args.title)}ch {'OK' if len(args.title)<=60 else 'OVER'} — {args.title!r}")
+        print(f"Title: {len(args.title)}ch {'OK' if len(args.title)<=60 else 'OVER'} - {args.title!r}")
     if args.meta is not None:
         out["meta"]=args.meta; out["meta_len"]=len(args.meta)
-        print(f"Meta:  {len(args.meta)}ch {'OK' if len(args.meta)<=155 else 'OVER'} — {args.meta[:100]!r}")
+        print(f"Meta:  {len(args.meta)}ch {'OK' if len(args.meta)<=155 else 'OVER'} - {args.meta[:100]!r}")
     if errs:
         print("LENGTH VIOLATIONS:")
         for e in errs: print(f"  ✗ {e}")

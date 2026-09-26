@@ -2,11 +2,11 @@
 """Generate branded media cards for every martechsignal.com entity.
 
 Outputs (1200x630 PNG, brand style: navy #080E1A / amber #FFB224):
-  og/tools/<slug>.png     — tool card: name, category, pricing, badges
-  og/categories/<slug>.png — category card
-  og/glossary/<slug>.png   — glossary card
-  og/charts/*.png          — data charts from tools.json
-  og/author-tim-christensen.png — author monogram
+  og/tools/<slug>.png     - tool card: name, category, pricing, badges
+  og/categories/<slug>.png - category card
+  og/glossary/<slug>.png   - glossary card
+  og/charts/*.png          - data charts from tools.json
+  og/author-tim-christensen.png - author monogram
 
 Run from repo root: .venv-imggen/bin/python tools/generate_media.py
 Wired into deploy.sh after build. Deterministic: regenerates only when data changes.

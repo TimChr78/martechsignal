@@ -1449,7 +1449,7 @@
   {
     "slug": "agent-skills",
     "name": "Agent Skills",
-    "description": "Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow",
+    "description": "Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow",
     "tools": [
       "aaron-marketing-skills",
       "ai-business-skills",

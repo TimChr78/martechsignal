@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""IndexNow submission for martechsignal.com — staged, NOT auto-fired.
+"""IndexNow submission for martechsignal.com - staged, NOT auto-fired.
 
 Usage:  python3 tools/indexnow_submit.py            # submit changed URLs from .lastmod.json
         python3 tools/indexnow_submit.py URL [URL]  # submit specific URLs
 
 Requires: the IndexNow key file deployed at /.well-known/indexnow-<key>.txt
-(placeholder below — replace with the real key on first run; Bing/IndexNow
+(placeholder below - replace with the real key on first run; Bing/IndexNow
 verify domain ownership by fetching that file).
 
 Also submits to Bing's IndexNow endpoint (same protocol). Google does NOT
-participate in IndexNow — for Google, use GSC URL Inspection + sitemap pings
+participate in IndexNow - for Google, use GSC URL Inspection + sitemap pings
 (already handled by deploy.sh / gsc_inspect.py --changed).
 """
 import json
@@ -71,7 +71,7 @@ def submit(urls: list[str]) -> None:
         with urllib.request.urlopen(req, timeout=30) as r:
             print(f"IndexNow: HTTP {r.status} for {len(urls)} URLs")
     except urllib.error.HTTPError as e:
-        print(f"IndexNow error: HTTP {e.code} — {e.read().decode()[:200]}")
+        print(f"IndexNow error: HTTP {e.code} - {e.read().decode()[:200]}")
 
 
 if __name__ == "__main__":

@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 07:10:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 14:48:36 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Where open-source martech momentum actually lives</title>
+      <link>https://martechsignal.com/blog/oss-momentum-tracker-september-2026/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/oss-momentum-tracker-september-2026/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <description>The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.</description>
+    </item>
     <item>
       <title>AI watermarks are now part of your agent's risk surface</title>
       <link>https://martechsignal.com/blog/watermark-provenance-tax-agents/</link>

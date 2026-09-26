@@ -73,7 +73,7 @@ def highlight_json(code: str) -> str:
 
     def tok(m: re.Match) -> str:
         quoted, ws, colon = m.group(1), m.group(2) or '', m.group(3)
-        if colon:  # a key — a quoted token followed by ':'
+        if colon:  # a key - a quoted token followed by ':'
             return f'<span class="k">{quoted}</span>{ws}<span class="p">:</span>'
         return f'<span class="s">{quoted}</span>{ws}'
 
@@ -191,7 +191,7 @@ def markdown_to_html(md: str) -> str:
             html_lines = [line]
             i += 1
             # Collect multi-line HTML blocks
-            while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|:::\s|[-—]{2,}$)', lines[i]):
+            while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|:::\s|[--]{2,}$)', lines[i]):
                 if '</' in lines[i] and not ('</' in html_lines[-1]):
                     html_lines.append(lines[i])
                     i += 1
@@ -202,8 +202,8 @@ def markdown_to_html(md: str) -> str:
             out.append('\n'.join(html_lines))
             continue
 
-        # Horizontal rule (--- or —)
-        if re.match(r'^[-—]{2,}$', line.strip()):
+        # Horizontal rule (--- or -)
+        if re.match(r'^[--]{2,}$', line.strip()):
             out.append('<hr>')
             i += 1
             continue
@@ -211,7 +211,7 @@ def markdown_to_html(md: str) -> str:
         # Blockquote-like (lines starting with >)
         # Paragraph (collect until blank line)
         para_lines = []
-        while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|[-—]{2,}$)', lines[i]):
+        while i < len(lines) and lines[i].strip() and not re.match(r'^(#{1,3}\s|-\s|[--]{2,}$)', lines[i]):
             para_lines.append(lines[i])
             i += 1
         if para_lines:
@@ -239,8 +239,8 @@ def inline_format(text: str) -> str:
     text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', text)
 
     # Em dash
-    text = text.replace('--', '—')
-    text = text.replace(' — ', ' — ')
+    text = text.replace('--', '-')
+    text = text.replace(' - ', ' - ')
 
     return text
 
@@ -283,7 +283,7 @@ def _clean_excerpt(text, limit=155):
         return text
     sp = text.rfind(" ", 0, limit - 1)
     text = text[:sp] if sp > 60 else text[:limit - 3]
-    return text.rstrip(" ,;:.—-") + "."
+    return text.rstrip(" ,;:.--") + "."
 
 def _date_modified(meta, date_str):
     """R2 M-7 (2026-09-08): dateModified must reflect real edits. Use the last git commit
@@ -333,7 +333,7 @@ def build_post(meta: dict, body_html: str) -> str:
     _src_cat = (_post_cats[0] if isinstance(_post_cats, list) and _post_cats else _post_cats) if _post_cats else None
     related_tools = suggest_links.suggest_tools_for_text(body_html, max_suggestions=3, exclude_slugs=existing_tool_slugs, source_category=_src_cat)
     if related_tools:
-        tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> — ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
+        tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> - ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
         body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'
         existing_tool_slugs.update(item['slug'] for item in related_tools)
 
@@ -369,7 +369,7 @@ def build_post(meta: dict, body_html: str) -> str:
     read_min = max(1, round(words / 200))
     tags = meta.get('tags', [])
     kicker = ' · '.join(t.upper() for t in tags[:2]) if tags else 'DEEP DIVE · MARTECH'
-    # Human byline — the site's named author (see footer/about); org stays in JSON-LD
+    # Human byline - the site's named author (see footer/about); org stays in JSON-LD
     byline = 'Tim Christensen'
 
     # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
@@ -698,7 +698,7 @@ def scan_existing_posts(draft_slugs: set) -> list:
         html_content = post_file.read_text()
 
         # Extract title from <title>...</title>
-        m = re.search(r'<title>(.+?)(?:\s+—\s+Martech\s+Signal)?</title>', html_content)
+        m = re.search(r'<title>(.+?)(?:\s+-\s+Martech\s+Signal)?</title>', html_content)
         title = html.unescape(m.group(1).strip()) if m else slug.replace('-', ' ').title()
 
         # Extract date from meta line "JUL 28, 2026" or fallback to datePublished JSON-LD
@@ -767,7 +767,7 @@ def update_homepage(posts: list, count: int = 4) -> bool:
         re.DOTALL,
     )
     if not pattern.search(content):
-        print("⚠ LATEST markers not found in index.html — homepage not updated.")
+        print("⚠ LATEST markers not found in index.html - homepage not updated.")
         return False
 
     new_content = pattern.sub(lambda m: m.group(1) + block + m.group(2), content)
@@ -839,7 +839,7 @@ def main():
 
     drafts = list(DRAFTS_DIR.glob('*.md')) if DRAFTS_DIR.is_dir() else []
     if not drafts:
-        print("No drafts found — refreshing index/homepage from existing posts.")
+        print("No drafts found - refreshing index/homepage from existing posts.")
 
     # Process each draft
     for draft_path in sorted(drafts):

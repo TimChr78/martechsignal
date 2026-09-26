@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""build_homepage.py — regenerate the front page Tool index section with grounded data.
+"""build_homepage.py - regenerate the front page Tool index section with grounded data.
 
 Grounding: GSC impressions (28d, primary) then GitHub stars (secondary).
 Counts: ALL {N} TOOLS + "+{N-8} MORE TOOLS" derived from tools.json active count.
@@ -7,7 +7,7 @@ Counts: ALL {N} TOOLS + "+{N-8} MORE TOOLS" derived from tools.json active count
 Reads:
   - tools/tools.json            (active slugs, names, categories, taglines)
   - tools/github-history.json   (latest snapshot stars)
-  - /opt/data/gsc-pages-28d.json (per-page GSC impressions; optional — falls back to
+  - /opt/data/gsc-pages-28d.json (per-page GSC impressions; optional - falls back to
     stars-only). Written by tools/gsc_perf.py as a list of {page, clicks,
     impressions, position} rows; a {url: {...}} dict is also accepted.
 
@@ -47,7 +47,7 @@ def load_gsc_impressions(path):
     try:
         raw = json.load(open(path))
     except Exception as ex:
-        print(f"  (GSC cache unreadable: {ex} — ranking on stars only)")
+        print(f"  (GSC cache unreadable: {ex} - ranking on stars only)")
         return {}
     out = {}
     if isinstance(raw, dict):
@@ -67,7 +67,7 @@ def load_gsc_impressions(path):
             if url:
                 out[url] = row.get("impressions", 0) or 0
     else:
-        print(f"  (GSC cache has unexpected type {type(raw).__name__} — ranking on stars only)")
+        print(f"  (GSC cache has unexpected type {type(raw).__name__} - ranking on stars only)")
         return {}
     return out
 
@@ -92,7 +92,7 @@ def main():
         gsc = load_gsc_impressions(GSC_FILE)
         print(f"  GSC: {len(gsc)} pages in {GSC_FILE.name}")
     else:
-        print(f"  GSC: {GSC_FILE} missing — ranking on stars only")
+        print(f"  GSC: {GSC_FILE} missing - ranking on stars only")
 
     rows = []
     for t in active:

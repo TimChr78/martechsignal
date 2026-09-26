@@ -31,6 +31,10 @@ The pilot covers the 20 most-searched tools on the site. The rollout to the full
 
 gsc-query-distribution-2026-05-29_2026-08-26.csv: Google Search Console API (searchAnalytics.query), property sc-domain:martechsignal.com, window 2026-05-29 through 2026-08-26 (90 days), query-level rows (417 returned). Headline numbers cited on the site: 417 queries, 1,737 total impressions, 0 clicks site-wide in the window; 1,492 impressions (85.9%) at average position 51+.
 
+## OSS Momentum Tracker
+
+The momentum dataset (oss-momentum.json) covers every catalog entry that names a public GitHub repository. Two real sources back it: fresh GitHub repository totals and release dates, and the measurement series from the git history of our public catalog. GitHub's star-timestamp endpoints are not accessible to this project, so each growth figure states its own snapshot-bounded window and snapshots are never interpolated. Entries without a recorded repository URL are out of scope, never estimated.
+
 ## Corrections
 
 Published errors get public entries on the corrections page.

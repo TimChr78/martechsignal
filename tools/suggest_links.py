@@ -158,7 +158,7 @@ def suggest_tools_for_text(text: str, max_suggestions: int = 3, exclude_slugs: s
     prefer_orphans: boost tools that currently receive zero links from any
     published blog post, so the internal-linking graph stays healthy and no
     tool page becomes an orphan. The boost only breaks ties between
-    comparable matches — relevance still dominates.
+    comparable matches - relevance still dominates.
     """
     if not TOOLS_JSON.exists():
         return []

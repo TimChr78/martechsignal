@@ -1,0 +1,484 @@
+{
+  "generated": "2026-09-26",
+  "title": "Martech OSS Momentum Tracker",
+  "method": "Two real sources, no estimates: fresh GitHub API repository totals and latest release dates (fetched 2026-09-26), plus the git history of this directory's public catalog (tools/tools.json in the MartechSignal repository) as the measurement series. GitHub star-timestamp endpoints are not accessible to this project, so every growth figure states its own snapshot-bounded window; snapshots are never interpolated. Repos without a recorded GitHub URL are out of scope.",
+  "tools": [
+    {
+      "slug": "claude-ads",
+      "repo": "AgriciDaniel/claude-ads",
+      "stars": 9576,
+      "last_release": "2026-09-10",
+      "growth": {
+        "window_days": 57,
+        "stars_added": 1857,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 7719
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 9143
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 9576
+        }
+      ]
+    },
+    {
+      "slug": "aaron-marketing-skills",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "stars": 2843,
+      "last_release": "2026-09-02",
+      "growth": {
+        "window_days": 57,
+        "stars_added": 361,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 2482
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 2758
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 2843
+        }
+      ]
+    },
+    {
+      "slug": "ai-marketing-claude",
+      "repo": "zubair-trabzada/ai-marketing-claude",
+      "stars": 2684,
+      "last_release": null,
+      "growth": {
+        "window_days": 57,
+        "stars_added": 442,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 2242
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 2628
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 2684
+        }
+      ]
+    },
+    {
+      "slug": "google-meta-ads-ga4-mcp",
+      "repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
+      "stars": 2635,
+      "last_release": null,
+      "growth": {
+        "window_days": 40,
+        "stars_added": 1577,
+        "from": "2026-08-17",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-17",
+          "stars": 1058
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 1672
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 2635
+        }
+      ]
+    },
+    {
+      "slug": "openclaw-marketing-skills",
+      "repo": "LeoYeAI/openclaw-marketing-skills",
+      "stars": 1045,
+      "last_release": null,
+      "growth": {
+        "window_days": 57,
+        "stars_added": -30,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 1075
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 1044
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 1045
+        }
+      ]
+    },
+    {
+      "slug": "digital-marketing-pro",
+      "repo": "indranilbanerjee/digital-marketing-pro",
+      "stars": 835,
+      "last_release": "2026-07-29",
+      "growth": {
+        "window_days": 57,
+        "stars_added": 165,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 670
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 804
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 835
+        }
+      ]
+    },
+    {
+      "slug": "ai-business-skills",
+      "repo": "minhnv0807/ai-business-skills",
+      "stars": 593,
+      "last_release": "2026-05-25",
+      "growth": {
+        "window_days": 57,
+        "stars_added": 80,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 513
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 572
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 593
+        }
+      ]
+    },
+    {
+      "slug": "eve-marketing-team",
+      "repo": "vercel-labs/marketing-team-eve-template",
+      "stars": 444,
+      "last_release": null,
+      "growth": {
+        "window_days": 26,
+        "stars_added": 13,
+        "from": "2026-08-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-31",
+          "stars": 431
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 435
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 444
+        }
+      ]
+    },
+    {
+      "slug": "zapier-gtm-cheat-codes",
+      "repo": "zapier/gtm-cheat-codes",
+      "stars": 339,
+      "last_release": null,
+      "growth": {
+        "window_days": 26,
+        "stars_added": 7,
+        "from": "2026-08-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-31",
+          "stars": 332
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 334
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 339
+        }
+      ]
+    },
+    {
+      "slug": "email-marketing-bible",
+      "repo": "CosmoBlk/email-marketing-bible",
+      "stars": 319,
+      "last_release": "2026-03-10",
+      "growth": {
+        "window_days": 57,
+        "stars_added": 68,
+        "from": "2026-07-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-07-31",
+          "stars": 251
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 291
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 319
+        }
+      ]
+    },
+    {
+      "slug": "marketing-studio",
+      "repo": "ucsandman/marketing-studio",
+      "stars": 248,
+      "last_release": null,
+      "growth": {
+        "window_days": 28,
+        "stars_added": 28,
+        "from": "2026-08-29",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "stars": 220
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 234
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 248
+        }
+      ]
+    },
+    {
+      "slug": "prospectos",
+      "repo": "nando0x/ProspectOS",
+      "stars": 226,
+      "last_release": "2026-07-27",
+      "growth": {
+        "window_days": 28,
+        "stars_added": 20,
+        "from": "2026-08-29",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "stars": 206
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 214
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 226
+        }
+      ]
+    },
+    {
+      "slug": "alphone",
+      "repo": "gopherium/AlphOne",
+      "stars": 177,
+      "last_release": "2026-09-25",
+      "growth": {
+        "window_days": 28,
+        "stars_added": -2,
+        "from": "2026-08-29",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "stars": 179
+        },
+        {
+          "date": "2026-09-07",
+          "stars": 176
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 177
+        }
+      ]
+    },
+    {
+      "slug": "n8n-marketing-flows",
+      "repo": "YuriCrystal/n8n-marketing-flows",
+      "stars": 177,
+      "last_release": null,
+      "growth": {
+        "window_days": 26,
+        "stars_added": 3,
+        "from": "2026-08-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-31",
+          "stars": 174
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 175
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 177
+        }
+      ]
+    },
+    {
+      "slug": "potato-ai-visibility",
+      "repo": "onism1767-creator/potato",
+      "stars": 168,
+      "last_release": "2026-06-22",
+      "growth": {
+        "window_days": 26,
+        "stars_added": 1,
+        "from": "2026-08-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-31",
+          "stars": 167
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 168
+        }
+      ]
+    },
+    {
+      "slug": "diffmode-growth-tactics",
+      "repo": "acogood/diffmode_free",
+      "stars": 162,
+      "last_release": "2026-06-05",
+      "growth": {
+        "window_days": 26,
+        "stars_added": 3,
+        "from": "2026-08-31",
+        "to": "2026-09-26"
+      },
+      "history": [
+        {
+          "date": "2026-08-31",
+          "stars": 159
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 161
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 162
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    "advertools",
+    "alwrity",
+    "analytics-tracking-automation",
+    "apache-unomi",
+    "appsmith",
+    "billionmail",
+    "budibase",
+    "chatbotx",
+    "chatwoot",
+    "claude-seo",
+    "cordys-crm",
+    "deskcommcrm",
+    "django-crm",
+    "dolibarr",
+    "espocrm",
+    "ever-gauzy",
+    "flagsmith",
+    "frappe-crm",
+    "ghost",
+    "growth-lab",
+    "growthbook",
+    "idurar-erp-crm",
+    "jitsu",
+    "khoj",
+    "krayin-crm",
+    "langchain",
+    "languagetool",
+    "laudspeaker",
+    "libretranslate",
+    "line-harness",
+    "listmonk",
+    "macro",
+    "maizzle",
+    "matomo",
+    "mautic",
+    "monica",
+    "multipost-extension",
+    "n8n",
+    "nocobase",
+    "nocodb",
+    "notifo",
+    "notifuse",
+    "open-mercato",
+    "openoutreach",
+    "openseo",
+    "paperclip",
+    "plausible",
+    "posthog",
+    "promptfoo",
+    "react-email-editor",
+    "relaticle",
+    "revive-adserver",
+    "seo-skill-bench",
+    "seonaut",
+    "snowplow",
+    "strapi",
+    "suitecrm",
+    "tooljet",
+    "twenty",
+    "umami",
+    "wacrm",
+    "warmbly",
+    "warpdrive"
+  ]
+}

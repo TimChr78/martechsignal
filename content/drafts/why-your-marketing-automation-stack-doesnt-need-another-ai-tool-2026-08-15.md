@@ -79,7 +79,7 @@ The vendors who survive this hype cycle will be the ones who embedded intelligen
 </section><section class="related-tools">
 ## Related tools
 
-- [Macro](/tools/macro/) — Open source workspace with a self-updating, agent-driven CRM and shared AI team memory- [Freshsales](/tools/freshsales/) — AI-powered CRM with built-in phone, email, and chat for sales teams- [Notifuse](/tools/notifuse/) — Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
+- [Macro](/tools/macro/) - Open source workspace with a self-updating, agent-driven CRM and shared AI team memory- [Freshsales](/tools/freshsales/) - AI-powered CRM with built-in phone, email, and chat for sales teams- [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 </section>
 
 ### Get this in your inbox, weekly.

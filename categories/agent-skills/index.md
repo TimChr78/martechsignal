@@ -1,6 +1,6 @@
 # Agent Skills | MartechSignal category
 
-Skills, plugins, and extensions for AI coding agents — what they automate in your marketing workflow
+Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow
 
 - Page: https://martechsignal.com/categories/agent-skills/
 - Tools: 18

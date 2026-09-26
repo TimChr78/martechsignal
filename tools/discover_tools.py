@@ -191,7 +191,7 @@ def log(msg):
     print(msg, file=sys.stderr)
 
 def main():
-    log(f"🔍 Tool Discovery Pipeline — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    log(f"🔍 Tool Discovery Pipeline - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     log(f"   GitHub token: {'✓ set' if GITHUB_TOKEN else '✗ not set (60 req/hr limit)'}")
     log("")
 
@@ -222,7 +222,7 @@ def main():
 
     # Deduplicate
     # (2026-09-16 fix: the rejected-filter used to run only on the merged queue,
-    # while the Telegram announcement printed the PRE-filter new_gh/new_rss —
+    # while the Telegram announcement printed the PRE-filter new_gh/new_rss -
     # so every run advertised items its own filter discarded seconds later.)
     new_gh = [c for c in gh_candidates if c["full_name"] not in prev_repos]
     new_rss = [c for c in rss_mentions if c["title"] not in prev_titles]
@@ -234,7 +234,7 @@ def main():
         try:
             rejected = json.loads(REJECTED_FILE.read_text())
         except Exception as e:
-            log(f"  ⚠ Could not parse rejected.json ({e}) — proceeding without it")
+            log(f"  ⚠ Could not parse rejected.json ({e}) - proceeding without it")
     rej_urls = set()
     for x in rejected:
         if not isinstance(x, dict):
@@ -299,7 +299,7 @@ def main():
         return (c.get("name") or "").lower() in rej_urls
 
     # Filter rejections from the NEW items (2026-09-16: filter new_gh/new_rss
-    # BEFORE both the announcement and the merge — previously the filter ran
+    # BEFORE both the announcement and the merge - previously the filter ran
     # only on the merged queue while the announcement printed the pre-filter
     # lists, so settled rejections were advertised every run and then dropped)
     pre_filter = len(new_gh) + len(new_rss)
@@ -333,7 +333,7 @@ def main():
 
     # stdout ONLY when there's something new (silent watchdog pattern)
     if new_gh or new_rss:
-        print(f"🔍 Tool Discovery — {len(new_gh)} new candidates + {len(new_rss)} mentions\n")
+        print(f"🔍 Tool Discovery - {len(new_gh)} new candidates + {len(new_rss)} mentions\n")
         if new_gh:
             print("🆕 Top GitHub discoveries:")
             for c in sorted(new_gh, key=lambda x: -x.get("stars", 0))[:10]:

@@ -1,4 +1,4 @@
-"""Test suite for build_tools.py — the martechsignal.com static site generator.
+"""Test suite for build_tools.py - the martechsignal.com static site generator.
 
 Run:  cd /opt/data/martechsignal && python3 -m pytest tools/test_build.py -v
 No external deps beyond pytest. Build runs once per session (~1s).
@@ -66,7 +66,7 @@ def read_page(rel_path):
 
 class TestDataIntegrity:
     def test_tools_json_loads(self, tools):
-        assert len(tools) > 50, f"Only {len(tools)} tools — data may be truncated"
+        assert len(tools) > 50, f"Only {len(tools)} tools - data may be truncated"
 
     def test_categories_json_loads(self, cats):
         assert len(cats) >= 10, f"Only {len(cats)} categories"

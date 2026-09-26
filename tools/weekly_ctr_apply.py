@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""weekly_ctr_apply.py — apply approved CTR title/meta changes.
+"""weekly_ctr_apply.py - apply approved CTR title/meta changes.
 
 Reads /home/hermes/.hermes/data/weekly-ctr-state.json.
 For each entry in approved[] (or pending with explicit --slugs), applies:
@@ -125,7 +125,7 @@ def apply_entry(entry, do_build=True):
     new_h1 = entry.get("new_h1")
     errs = validate_lengths(new_title, new_meta)
     if errs:
-        print(f"  ✗ length check failed for {slug}: {', '.join(errs)} — SKIP", file=sys.stderr)
+        print(f"  ✗ length check failed for {slug}: {', '.join(errs)} - SKIP", file=sys.stderr)
         return False
     if pt == "tool":
         tools = json.loads(TOOLS_JSON.read_text())
@@ -140,7 +140,7 @@ def apply_entry(entry, do_build=True):
                 if new_meta: t["seo_description"]=new_meta
                 # optional H1 is handled via name? For tools, H1 is the name; skip unless explicitly provided and different
                 if new_h1 and new_h1 != t.get("name"):
-                    print(f"  note: tool H1 tweak '{new_h1}' — tools use name as H1; updating name field too.", file=sys.stderr)
+                    print(f"  note: tool H1 tweak '{new_h1}' - tools use name as H1; updating name field too.", file=sys.stderr)
                     t["name"]=new_h1
                 break
         if not found:
@@ -152,7 +152,7 @@ def apply_entry(entry, do_build=True):
             print(f"    H1: {new_h1!r}")
         return True
     else:
-        # blog: try drafts first, fallback to a shadow frontmatter patch on the built dir is NOT the source — warn
+        # blog: try drafts first, fallback to a shadow frontmatter patch on the built dir is NOT the source - warn
         candidates = [
             DRAFTS_DIR / f"{slug}.md",
         ]
@@ -166,7 +166,7 @@ def apply_entry(entry, do_build=True):
             if p.exists():
                 target=p; break
         if target is None:
-            print(f"  ✗ blog draft not found for {slug} — checked: {', '.join(str(c) for c in candidates)}", file=sys.stderr)
+            print(f"  ✗ blog draft not found for {slug} - checked: {', '.join(str(c) for c in candidates)}", file=sys.stderr)
             print(f"    Blog posts on martechsignal are published from content/drafts/*.md via build_blog.py.", file=sys.stderr)
             print(f"    If this post is already published (blog/{slug}/index.html exists) but has no draft, create content/drafts/{slug}.md first or edit the source draft.", file=sys.stderr)
             return False
@@ -206,7 +206,7 @@ def cmd_apply(do_deploy=False, slugs=None):
     state = load_state()
     approved = state.get("approved", [])
     if not approved:
-        print("Nothing approved — run --approve <slug> or --approve-all first.")
+        print("Nothing approved - run --approve <slug> or --approve-all first.")
         return
     if slugs:
         approved = [e for e in approved if e["slug"] in set(slugs)]
@@ -267,7 +267,7 @@ def cmd_apply(do_deploy=False, slugs=None):
             print(out.stdout[-4000:])
             if out.returncode!=0:
                 print(out.stderr[-4000:], file=sys.stderr)
-                print("Deploy failed — deployed entries remain tracked but site not updated.", file=sys.stderr)
+                print("Deploy failed - deployed entries remain tracked but site not updated.", file=sys.stderr)
                 sys.exit(out.returncode)
         except Exception as e:
             print(f"deploy error: {e}", file=sys.stderr)

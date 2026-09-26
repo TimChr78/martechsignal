@@ -1029,7 +1029,7 @@ def build_tool_page(t, cats, all_tools):
             a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
         # MUSE 11: keep acronym category names (CRM, SEO, CDP) uppercase in the question
         # R3-M7 (2026-09-16): lowercase slugs leaked into FAQ text ("a good ai content &
-        # copywriting tool") — use the canonical display name, sentence-cased for prose.
+        # copywriting tool") - use the canonical display name, sentence-cased for prose.
         _cat_disp = _category_display(cat) or cat
         if not (_cat_disp.isupper() and 2 <= len(_cat_disp) <= 5):
             _cat_disp = _cat_disp[0].upper() + _cat_disp[1:]
@@ -1194,7 +1194,7 @@ def build_tool_page(t, cats, all_tools):
         "url": t.get("website", ""),
         # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
         "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
-        # SX-2 (v2.4.0 audit): named author on every tool page — the site's one E-E-A-T lever.
+        # SX-2 (v2.4.0 audit): named author on every tool page - the site's one E-E-A-T lever.
         "author": {"@type": "Person", "name": "Tim Christensen",
                    "url": "https://martechsignal.com/authors/tim-christensen/",
                    "@id": "https://martechsignal.com/authors/tim-christensen/#person"},
@@ -1908,7 +1908,7 @@ def build_llms_txt(tools, cats):
 
     # A-1 (v2.4.0 audit): build-time Markdown mirror from the same source as
     # llms-full.txt, served as <url>/index.md. Honesty note (from the audit): no
-    # primary source proves agents send Accept: text/markdown — this is a cheap
+    # primary source proves agents send Accept: text/markdown - this is a cheap
     # bet on the channel, not a confirmed one.
     md_n = 0
     for cslug, ts in sorted(by_cat.items()):
