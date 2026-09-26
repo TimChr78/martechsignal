@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Open-source customer engagement suite with Captain AI and full self-hosting",
     "url": "https://www.chatwoot.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/chatwoot/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 19,
       "priceCurrency": "USD",
       "url": "https://www.chatwoot.com/pricing",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Chatwoot a good Chatbots & Conversational AI tool in 2026?",
+        "name": "Is Chatwoot a good self-hosted Chatbots & Conversational AI tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The strongest self-hostable support inbox in open source, with real AI now bolted on behind a paid licence; budget for infrastructure and for writing your own integrations."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/chatwoot/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/chatbots/">Chatbots &amp; Conversational AI</a></li> / <li><span aria-current="page">Chatwoot</span></li></ol></nav>
 <section class="page-head">
-  <h1>Chatwoot pricing &amp; plans</h1>
+  <h1>Chatwoot pricing, self-hosting and support</h1>
   <p class="sub">Open-source customer engagement suite with Captain AI and full self-hosting</p>
   <p class="count">Chatbots &amp; Conversational AI · Open Source · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near 36,600 GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300,500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/chatwoot-2026-09.webp"><img src="/og/screenshots/chatwoot-2026-09.png" alt="Screenshot of the Chatwoot homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Chatwoot homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/chatwoot-2026-09.webp" alt="Screenshot of the Chatwoot homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Chatwoot homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Captain Assistant (AI chatbot)</li><li>Captain Copilot (agent assist)</li><li>Captain Memories (auto customer notes)</li><li>AI reply suggestions</li><li>AI conversation summarization</li><li>Smart FAQs content gap detection</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Slack</span><span>Linear</span><span>Dialogflow</span><span>Google Translate</span><span>Cloudflare RealtimeKit</span><span>LeadSquared</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Chatwoot is free to self-host, paid plans start at $19/mo as of 2026-09.</p><p>Community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.chatwoot.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Chatwoot">Chatwoot pricing page</a>.</p></section>
@@ -183,7 +168,7 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $19/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: captain Assistant (AI chatbot)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (36,644 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Slack, Linear, Dialogflow (6 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/chatbot/">Chatbot</a> <a href="/glossary/ai-agent/">AI Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Chatwoot?</summary><p>Open-source customer engagement suite with Captain AI and full self-hosting. It ships with captain Assistant (AI chatbot), 36,644 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Chatwoot cost?</summary><p>Chatwoot has a free tier; paid plans start at $19/mo.</p></details><details class="faq-item"><summary>Is Chatwoot a good Chatbots &amp; Conversational AI tool in 2026?</summary><p>The strongest self-hostable support inbox in open source, with real AI now bolted on behind a paid licence; budget for infrastructure and for writing your own integrations.</p></details><details class="faq-item"><summary>How much RAM and CPU does self-hosted Chatwoot need?</summary><p>The requirements page states 4GB RAM as the required minimum and 4 cores as the recommended minimum, each supporting up to 10,000 conversations a day, with 8GB and 8 cores supporting 20,000. It also asks for at least 1GB of swap, Redis 7.0 or higher, and Ruby 3.2 or later for source installs. Postgres is the only supported database, and the production compose image ships Postgres 16 with pgvector for the AI features.</p></details><details class="faq-item"><summary>Can I use Captain AI on a self-hosted Chatwoot instance?</summary><p>Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account&#x27;s Premium Features.</p></details><details class="faq-item"><summary>What do Chatwoot&#x27;s AI credits cover and how do they bill?</summary><p>Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Chatwoot?</summary><p>Open-source customer engagement suite with Captain AI and full self-hosting. It ships with captain Assistant (AI chatbot), 36,644 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Chatwoot cost?</summary><p>Chatwoot has a free tier; paid plans start at $19/mo.</p></details><details class="faq-item"><summary>Is Chatwoot a good self-hosted Chatbots &amp; Conversational AI tool in 2026?</summary><p>The strongest self-hostable support inbox in open source, with real AI now bolted on behind a paid licence; budget for infrastructure and for writing your own integrations.</p></details><details class="faq-item"><summary>How much RAM and CPU does self-hosted Chatwoot need?</summary><p>The requirements page states 4GB RAM as the required minimum and 4 cores as the recommended minimum, each supporting up to 10,000 conversations a day, with 8GB and 8 cores supporting 20,000. It also asks for at least 1GB of swap, Redis 7.0 or higher, and Ruby 3.2 or later for source installs. Postgres is the only supported database, and the production compose image ships Postgres 16 with pgvector for the AI features.</p></details><details class="faq-item"><summary>Can I use Captain AI on a self-hosted Chatwoot instance?</summary><p>Yes, but not on the free community edition: the guide lists Chatwoot Enterprise Edition with a paid plan and a valid OpenAI API key as prerequisites. The default model is gpt-4o-mini and a self-hosted OpenAI-compatible endpoint can be supplied instead, and the docs note that in a self-hosted setup Captain only sends data to the model you choose. Captain has to be enabled in the Super Admin Console and then toggled on in the account&#x27;s Premium Features.</p></details><details class="faq-item"><summary>What do Chatwoot&#x27;s AI credits cover and how do they bill?</summary><p>Every Captain action consumes 1 credit per message because a fixed model configuration is used, and the documented credit-consuming actions include assistant responses, Copilot lookups, editor actions such as rephrase, summarize, and suggest a reply, label suggestions, workflow model calls, and audio transcription. Paid cloud plans include 300 credits monthly on Startups, 500 on Business, and 800 on Enterprise, additional credits bill at $20 per 1,000, and purchased credits expire after 6 months and require an active subscription.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/intercom/"><div class="name">Intercom</div><div class="tagline">AI-first customer service platform with Fin AI agent and omnichannel messaging</div></a><a class="tool-card" href="/tools/tidio/"><div class="name">Tidio</div><div class="tagline">AI-powered live chat and chatbot platform with Lyro AI agent for customer support</div></a><a class="tool-card" href="/tools/cordys-crm/"><div class="name">Cordys CRM</div><div class="tagline">Open-source AI CRM with built-in agents, conversational analytics, and private deployment</div></a><a class="tool-card" href="/tools/scrunch/"><div class="name">Scrunch</div><div class="tagline">The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li></ul></section>
   </div>
   <aside class="sidebar">

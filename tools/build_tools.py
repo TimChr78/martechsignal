@@ -223,6 +223,21 @@ try:
 except Exception:
     _ALT_SLUGS = set()
 
+def _tool_h1(t):
+    """A2 M3 (2026-09-26): the H1 skeleton was identical on all 158 pages (L17
+    shares the root). Vary the phrasing by pricing class: same honest claim,
+    different query surface, tool name always leads."""
+    pm = t.get("pricing_model") or "paid"
+    n = esc(t["name"])
+    return {
+        "paid": f"{n} pricing &amp; plans",
+        "freemium": f"{n} pricing: free tier and paid plans",
+        "open-source": f"{n} pricing, self-hosting and support",
+        "open-core": f"{n} pricing: open core and paid tiers",
+        "free": f"{n}: what it costs to run",
+    }.get(pm, f"{n} pricing &amp; plans")
+
+
 def _seo_title_for(t, cats):
     # SX-1 (2026-09-25, decided by Tim): tool pages target owned intent
     # (pricing / plans / open-source), NOT "<tool> review" - that SERP is owned by
@@ -388,17 +403,18 @@ def screenshot_figure(slug, tool_name):
         what = f"{tool_name} homepage"
     # M16 (2026-09-26): serve the WebP conversion (written next to the PNG by the
     # batch converter) via <picture>, keeping the PNG as universal fallback.
-    webp_src = ""
+    # A2 L5 (2026-09-26): the WebP is the served primary (universal support since
+    # 2020) so crawlers stop reading the PNG fallback; the PNG remains on disk.
+    img_src = rel
     if rel.endswith(".png"):
         w = path.with_suffix(".webp")
         if w.exists():
-            webp_src = f'<source type="image/webp" srcset="/{rel[:-4]}.webp">'
+            img_src = f"{rel[:-4]}.webp"
     return (
         '<figure class="tool-screenshot" style="margin:1.2rem 0">'
-        f'<picture>{webp_src}'
-        f'<img src="/{rel}" alt="Screenshot of the {esc(tool_name)} homepage" '
+        f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage" '
         'width="1280" height="800" loading="lazy" '
-        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture>'
+        'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
         f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
         f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '
         'belongs to its owner.</figcaption></figure>'
@@ -436,9 +452,12 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 {schema_block}
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
 <link rel="stylesheet" href="/style.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
@@ -446,7 +465,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
@@ -619,7 +638,12 @@ def _score_band(t):
         review = {
             "@context": "https://schema.org",
             "@type": "Review",
-            "author": {"@type": "Person", "name": "Tim Christensen"},
+            "author": {"@type": "Person", "name": "Tim Christensen",
+                       "url": "https://martechsignal.com/authors/tim-christensen/",
+                       "@id": "https://martechsignal.com/authors/tim-christensen/#person"},
+            "publisher": {"@type": "Organization",
+                          "@id": "https://martechsignal.com/#organization",
+                          "name": "MartechSignal"},
             "datePublished": "2026-09-26",
             "reviewBody": rec["verdict"],
             "itemReviewed": {"@type": "Thing", "name": t["name"],
@@ -641,31 +665,48 @@ def _offer_for(t):
     _pf = t.get("price_from")
     _cur = (t.get("currency") or "USD").strip().upper()
     _url = str(t.get("pricing_url") or t.get("website") or "https://martechsignal.com")
+    # A2 M5 (2026-09-26): availability dropped - software has no stock. priceValidUntil
+    # added on a conservative horizon (quarterly price re-verification cadence).
+    _pvu = "2026-12-31"
+    def _offer(price):
+        return {"@type": "Offer", "price": price, "priceCurrency": _cur,
+                "url": _url, "priceValidUntil": _pvu}
     if _paid:
-        return {"@type": "Offer", "price": _paid, "priceCurrency": _cur,
-                "url": _url, "availability": "https://schema.org/InStock"}
-    if _pf is not None and (_pf > 0 or t.get("pricing_model") in ("free", "freemium", "open-source", "open-core")):
-        return {"@type": "Offer", "price": _pf, "priceCurrency": _cur,
-                "url": _url, "availability": "https://schema.org/InStock"}
+        return _offer(_paid)
+    if _pf is not None and _pf > 0:
+        return _offer(_pf)
+    # A2 M5: price: 0 only where "Free" is literally true: a genuinely free
+    # product, or the open-source edition of one (the paid_from branch above
+    # already prefers a real paid entry when one exists). Freemium SaaS with
+    # paid tiers must NOT claim price: 0 - Google can surface it as "Free".
+    # No paid price on record -> no Offer (and the R5 drop rule then applies).
+    if _pf == 0 and (t.get("pricing_model") == "free" or t.get("open_source")):
+        return _offer(0)
     return None
 
 
 def _list_item_thing(t):
     """ItemList item node: product-typed only when it carries a valid Offer
-    (Product snippets requires offers/review/aggregateRating); plain Thing
-    otherwise. R3-M3 wanted richer items; this keeps them valid."""
+    (Product snippets requires offers/review/aggregateRating); plain reference
+    otherwise. R3-M3 wanted richer items; this keeps them valid.
+    A2 M8 (2026-09-26): every node now carries image + description (the bundled
+    validator's real complaint was missing-product-image). The mixed typing is
+    INTENTIONAL: the offers gate is the state machine keeping Google's
+    Product-snippets report valid (GSC incident 2026-09-26) - SoftwareApplication
+    without an offer re-triggers 'Either offers, review, or aggregateRating should
+    be specified'."""
     _offer = _offer_for(t)
+    _base = {"name": t["name"], "description": t.get("tagline", ""),
+             "image": f"https://martechsignal.com/og/tools/{t['slug']}.png",
+             "url": f"https://martechsignal.com/tools/{t['slug']}/"}
     if _offer:
-        node = ({"@type": "SoftwareApplication", "name": t["name"],
-                 "operatingSystem": "Web", "applicationCategory": "BusinessApplication",
-                 "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+        node = ({**_base, "@type": "SoftwareApplication",
+                 "operatingSystem": "Web", "applicationCategory": "BusinessApplication"}
                 if t.get("open_source") else
-                {"@type": "Product", "name": t["name"],
-                 "url": f"https://martechsignal.com/tools/{t['slug']}/"})
+                {**_base, "@type": "Product"})
         node["offers"] = _offer
         return node
-    return {"@type": "Thing", "name": t["name"],
-            "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+    return {**_base, "@type": "Thing"}
 
 
 def build_tool_page(t, cats, all_tools):
@@ -1033,7 +1074,17 @@ def build_tool_page(t, cats, all_tools):
         _cat_disp = _category_display(cat) or cat
         if not (_cat_disp.isupper() and 2 <= len(_cat_disp) <= 5):
             _cat_disp = _cat_disp[0].upper() + _cat_disp[1:]
-        q3 = f"Is {name} a good {_cat_disp} tool in 2026?"
+        # A2 M3 (2026-09-26): the FAQ question set was identical on all 158 pages;
+        # vary the third question by pricing class (same honest claim, different
+        # query surface). L17 shares this root.
+        _pm = t.get("pricing_model") or "paid"
+        q3 = {
+            "paid": f"Is {name} worth paying for in 2026?",
+            "freemium": f"Is {name} worth it past the free tier?",
+            "open-source": f"Is {name} a good self-hosted {_cat_disp} tool in 2026?",
+            "open-core": f"Is {name} a good self-hosted {_cat_disp} tool in 2026?",
+            "free": f"What does running {name} actually cost?",
+        }.get(_pm, f"Is {name} a good {_cat_disp} tool in 2026?")
         # F-H13: the answer must be per-tool, not a sitewide template. Prefer the tool's
         # own verdict from its deep dive; fall back to concrete facts (stars, OSS, price).
         verdict = ((t.get("deep_dive") or {}).get("verdict") or "").strip()
@@ -1139,7 +1190,7 @@ def build_tool_page(t, cats, all_tools):
     score_html, review_schema = _score_band(t)
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
-  <h1>{esc(t['name'])} pricing &amp; plans</h1>
+  <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
@@ -1194,29 +1245,15 @@ def build_tool_page(t, cats, all_tools):
         "url": t.get("website", ""),
         # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
         "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
-        # SX-2 (v2.4.0 audit): named author on every tool page - the site's one E-E-A-T lever.
-        "author": {"@type": "Person", "name": "Tim Christensen",
-                   "url": "https://martechsignal.com/authors/tim-christensen/",
-                   "@id": "https://martechsignal.com/authors/tim-christensen/#person"},
+        # A2 H4 (2026-09-26): author/publisher REMOVED from the app node - it claimed
+        # Tim Christensen wrote and MartechSignal published Zapier and 157 other
+        # products. The named author now lives on the critic Review layer only (the
+        # site's E-E-A-T lever stays, on the entity it actually describes).
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
-        # M7: single org identity - defined once on the homepage, referenced everywhere.
-        # R2 M-11 (2026-09-09): a bare @id pointed at a node that does not exist on tool
-        # pages (only 33 pages sitewide carry the Organization block), so the reference
-        # was dangling exactly where rich results matter. Emit a minimal, self-contained
-        # publisher that still keys to the canonical @id.
-        "publisher": {
-            "@type": "Organization",
-            "@id": "https://martechsignal.com/#organization",
-            "name": "MartechSignal",
-            "url": "https://martechsignal.com/",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://martechsignal.com/og.png",
-                "width": 1200,
-                "height": 630,
-            },
-        },
+        # A2 H4 (2026-09-26): publisher also REMOVED here - it claimed MartechSignal
+        # made the app. The publisher now lives on the critic Review layer, keyed to
+        # the canonical Organization @id (defined on the homepage).
     }
     if t.get("date_updated"):
         schema["dateModified"] = t["date_updated"]
@@ -1366,6 +1403,13 @@ def category_meta(cat, cat_tools, hub):
 
 
 def build_category_page(cat, tools):
+    # A2 C1: per-category links into the comparison layer.
+    _CAT_GUIDE = {
+        "crm": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/open-source-crm/">Best open-source CRM</a> &middot; <a href="/alternatives/hubspot-crm/">HubSpot CRM alternatives</a></p>',
+        "marketing-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/workflow-automation-tools/">Best workflow automation tools</a> &middot; <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a> &middot; <a href="/alternatives/zapier/">Zapier alternatives</a></p>',
+        "content-ai": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/ai-seo-tools/">Best AI SEO tools</a></p>',
+        "open-source": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/vs/matomo-vs-plausible/">Matomo vs Plausible</a> &middot; <a href="/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a> &middot; <a href="/alternatives/matomo/">Matomo alternatives</a></p>',
+    }
     if cat["slug"] == "open-source":
         # Show ALL open-source tools regardless of primary category
         cat_tools = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("open_source") and t.get("status") == "active"]
@@ -1521,6 +1565,9 @@ def build_category_page(cat, tools):
     out_dir = CATS_DIR / cat["slug"]
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
+    # A2 C1 (2026-09-26): category pages link their comparison guide (the
+    # commercial layer was orphaned).
+    body = _CAT_GUIDE.get(cat["slug"], "") + body
     out.write_text(page_shell(
         f"{cat_h1(cat['name'])} | MartechSignal",
         category_meta(cat, cat_tools, hub),
@@ -1561,6 +1608,14 @@ def _lastmod(path):
     if not p.exists():
         return _dt.datetime.now().strftime("%Y-%m-%d")
     html = p.read_text()
+    # A2 M1 (2026-09-26): prefer the page's own declared content date (JSON-LD
+    # dateModified / article:modified_time). The accurate date exists on every
+    # page; wiring it in beats any file-derived stamp (Google discounts lastmod
+    # that is not verifiably content-accurate).
+    m = _re.search(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', html) or \
+        _re.search(r'article:modified_time"\s+content="([0-9]{4}-[0-9]{2}-[0-9]{2})', html)
+    if m:
+        return m.group(1)
     html = _re.sub(r"<lastmod>[^<]*</lastmod>", "", html)
     html = _re.sub(r'<section class="related-reading">.*?</section>', "", html, flags=_re.S)
     html = _re.sub(r"/style\.css\?v=[a-f0-9]{8}", "/style.css", html)
@@ -1668,6 +1723,15 @@ def build_sitemap(tools, cats):
         for d in sorted(alt_dir.iterdir()):
             if (d / "index.html").exists():
                 urls.append((f"https://martechsignal.com/alternatives/{d.name}/", _lastmod(d / "index.html"), "0.7"))
+
+    # A2 M4 (2026-09-26): /methodology/ and /ai-policy/ are indexable and
+    # globally linked but were missing from the sitemap. A2 C1: the /best/ and
+    # /vs/ hub pages join them (they were absent too, leaving the commercial
+    # layer no sitemap-listed entry point).
+    for _static in ("methodology", "ai-policy", "best", "vs"):
+        _sp = ROOT / _static / "index.html"
+        if _sp.exists():
+            urls.append((f"https://martechsignal.com/{_static}/", _lastmod(_sp), "0.5"))
 
     # Best-X + /vs/ pilots (2026-09-26)
     for _prefix in ("best", "vs"):
@@ -1791,8 +1855,9 @@ def assert_factual_consistency(tools):
         if paid_custom and "has a free tier" in html:
             problems.append(f"{slug}: FAQ claims free tier on {model} pricing")
         if t.get("name") and len(t.get("name","")) > 3:
-            h1_ok = (f">{esc(t['name'])}</h1>" in html
-                     or f">{esc(t['name'])} pricing &amp; plans</h1>" in html)
+            # A2 M3: H1 phrasing varies by pricing class; the invariant is that the
+            # tool name leads the H1.
+            h1_ok = re.search(r'<h1>[^<]{0,6}' + re.escape(esc(t['name'])), html) is not None
             if not h1_ok:
                 problems.append(f"{slug}: H1 does not match name '{t['name']}'")
     if problems:
@@ -1881,6 +1946,18 @@ def build_llms_txt(tools, cats):
               "- [Corrections](https://martechsignal.com/corrections/)",
               "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
     out = ROOT / "llms.txt"
+    # A2 H7 (2026-09-26): the catalog datasets were reachable only by agents that
+    # already knew the ARD spec - surface them in the machine-readable index.
+    # A2 L11: the surfaces count different scopes; say so once, with derived numbers.
+    _records = len(tools)
+    _retired = _records - n_active
+    lines += [
+        "## Machine-readable data",
+        "",
+        f"- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). {_records} records = {n_active} active + {_retired} non-active; the directory above lists only active tools",
+        "- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows",
+        "",
+    ]
     out.write_text("\n".join(lines))
     print(f"llms.txt: {out} ({len(lines)} lines)")
 
@@ -1942,6 +2019,27 @@ def build_llms_txt(tools, cats):
             md_n += 1
     (ROOT / "index.md").write_text("\n".join(lines))
     md_n += 1
+    # A2 H7 (2026-09-26): every rendered page gets a markdown mirror (the audit
+    # found /vs/, /best/, /tools/, /blog/ and /ai-policy/ returning 404 on
+    # index.md while other sections served one). Generic extract: title,
+    # description and canonical from the rendered head.
+    for _idx in sorted(ROOT.rglob("index.html")):
+        if "deploy-out" in _idx.parts or ".well-known" in _idx.parts:
+            continue
+        if (_idx.parent / "index.md").exists():
+            continue
+        _html = _idx.read_text()
+        import re as _re2
+        _t = _re2.search(r"<title>(.*?)</title>", _html)
+        _d = _re2.search(r'name="description" content="(.*?)"', _html)
+        _c = _re2.search(r'rel="canonical" href="(.*?)"', _html)
+        _url = _c.group(1) if _c else f"https://martechsignal.com/{_idx.parent.relative_to(ROOT).as_posix().strip('.')}/"
+        (_idx.parent / "index.md").write_text("\n".join([
+            f"# {_t.group(1) if _t else _idx.parent.name}", "",
+            _d.group(1) if _d else "", "",
+            f"- Page: {_url}",
+            "- Format: markdown mirror of the page above", ""]))
+        md_n += 1
     print(f"A-1 markdown mirror: {md_n} .md files written")
 
 

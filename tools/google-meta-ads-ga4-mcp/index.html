@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4",
     "url": "https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp",
     "mainEntityOfPage": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-08-17",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.get-ryze.ai/payment-setup",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Google Ads + Meta Ads + GA4 MCP a good Agent Skills tool in 2026?",
+        "name": "Is Google Ads + Meta Ads + GA4 MCP worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "High-value tooling for performance teams already running agents and MCP. Keep human approval on every write."
@@ -158,21 +142,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/google-meta-ads-ga4-mcp/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/agent-skills/">Agent Skills</a></li> / <li><span aria-current="page">Google Ads + Meta Ads + GA4 MCP</span></li></ol></nav>
 <section class="page-head">
-  <h1>Google Ads + Meta Ads + GA4 MCP pricing &amp; plans</h1>
+  <h1>Google Ads + Meta Ads + GA4 MCP pricing: free tier and paid plans</h1>
   <p class="sub">MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4</p>
   <p class="count">Agent Skills · Freemium · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -189,7 +174,7 @@ Day to day, the value is in cross-platform work that usually means exporting CSV
 Setup is remote rather than local. You add an endpoint URL to claude_desktop_config.json, Cursor, Windsurf, ChatGPT connectors, or n8n&#x27;s MCP node. There&#x27;s no local code to run and no API keys to manage in config files, but the endpoint comes from Ryze AI (Meow AI, LLC), the company behind the repo. The code is MIT licensed and free, but the hosted server is tied to Ryze&#x27;s trial and paid plans, so treat this as freemium infrastructure rather than a standalone open-source deployment. The repo launched in April 2026 and picked up over 1,000 stars quickly; most of that momentum is marketing from Ryze&#x27;s blog, which is worth keeping in mind.
 
 Versus the official Google Ads MCP server, this one trades vendor independence for reach and write access. Versus the Claude Ads skill pack already in this directory, the roles differ: Claude Ads is the analyst that audits and plans, while this MCP server is the plumbing that lets any MCP-compatible agent reach live accounts. If you run an agent stack around n8n or Claude Code and manage spend on both Google and Meta, it&#x27;s the fastest way to give your agents hands on the ad accounts. Just remember that hands can also delete things.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/google-meta-ads-ga4-mcp-2026-09.webp"><img src="/og/screenshots/google-meta-ads-ga4-mcp-2026-09.png" alt="Screenshot of the Google Ads + Meta Ads + GA4 MCP homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Google Ads + Meta Ads + GA4 MCP homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/google-meta-ads-ga4-mcp-2026-09.webp" alt="Screenshot of the Google Ads + Meta Ads + GA4 MCP homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Google Ads + Meta Ads + GA4 MCP homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>250+ MCP tools for campaign management, analytics, and optimization</li><li>Natural-language campaign creation and pausing across Google and Meta</li><li>Keyword Planner research with volume, CPC, and competition data</li><li>Cross-platform ROAS analysis correlating ad spend with GA4 conversions</li><li>Scheduled actions and audit reports via ChatGPT, Claude, or n8n</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Google Ads</span><span>Meta Ads</span><span>GA4</span><span>ChatGPT</span><span>Claude</span><span>Claude Code</span><span>Cursor</span><span>Windsurf</span><span>n8n</span><span>Codex CLI</span><span>Gemini CLI</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Google Ads + Meta Ads + GA4 MCP is freemium, with a free tier to start.</p><p>MIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans).</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.get-ryze.ai/payment-setup" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Google Ads + Meta Ads + GA4 MCP">Google Ads + Meta Ads + GA4 MCP pricing page</a>.</p></section>
@@ -197,8 +182,8 @@ Versus the official Google Ads MCP server, this one trades vendor independence f
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> MIT licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: 250+ MCP tools for campaign management, analytics, and optimization</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (1,672 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Google Ads, Meta Ads, GA4 (11 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/mcp/">MCP</a> <a href="/glossary/agentic-marketing/">Agentic Marketing</a> <a href="/glossary/ai-agent/">AI Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Google Ads + Meta Ads + GA4 MCP?</summary><p>MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. It ships with 250+ MCP tools for campaign management, analytics, and optimization, 1,672 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Google Ads + Meta Ads + GA4 MCP cost?</summary><p>Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 1,672 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Google Ads + Meta Ads + GA4 MCP a good Agent Skills tool in 2026?</summary><p>High-value tooling for performance teams already running agents and MCP. Keep human approval on every write.</p></details><details class="faq-item"><summary>How many tools does the Google Ads + Meta Ads + GA4 MCP server expose?</summary><p>The README claims 250+ tools across three APIs: 150+ for Google Ads, covering campaign management, Keyword Planner research, bidding and budgets, audiences, extensions, experiments, negative keywords, labels, and conversion tracking; 80+ for Meta Ads, covering campaigns, ad sets, creatives, audiences, lead gen, catalogs, and insights; and 20+ for GA4, covering reporting, audiences, property config, attribution, and key events. A separate six tool research set handles search, webpage analysis, stock images, and landing page fetches. Those are the README&#x27;s own numbers, not a tool by tool count of ours.</p></details><details class="faq-item"><summary>What credentials do I need to set it up?</summary><p>Fewer than three ad APIs would suggest. There is no Google Ads client file, no Meta access token, and no GA4 service account JSON to manage. Setup points your client at the hosted endpoint connector.get-ryze.ai/mcp, and auth is OAuth 2.1 with PKCE, so you connect your Google and Meta accounts on first use. The README states the server stores no ad data or credentials. It is MIT licensed, but no self host path is documented; the repo reads as a hosted endpoint rather than a local install.</p></details><details class="faq-item"><summary>Can it edit campaigns, or is it read only?</summary><p>The README claims full read and write across all three platforms and contrasts that with the official Google Ads MCP, which it describes as read only. Writes are gated: the README says the server is read only by default and that write operations require explicit confirmation. That is documented rather than independently tested, so keep a human approving anything that moves budget.</p></details><details class="faq-item"><summary>How much does it cost?</summary><p>Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server itself is free, with you paying only for the AI assistant you use and your ad spend. The hosted endpoint is run by Ryze AI, whose own plans start at $89 a month for Paid ads Autopilot with a 7 day free trial and scale to $1,499 for Ecom Autopilot. If you want only the MCP connection and not Ryze&#x27;s managed services, confirm what the free path covers before you build on it.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/claude-ads/"><div class="name">Claude Ads</div><div class="tagline">Paid-media operations skill for Claude Code covering 12 ad platforms</div></a><a class="tool-card" href="/tools/openclaw-marketing-skills/"><div class="name">OpenClaw Marketing Skills</div><div class="tagline">37 marketing skills for OpenClaw agents with live data connectors</div></a><a class="tool-card" href="/tools/claude-seo/"><div class="name">Claude SEO</div><div class="tagline">Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents</div></a><a class="tool-card" href="/tools/albert-ai/"><div class="name">Albert AI</div><div class="tagline">Autonomous AI platform that manages and optimizes digital advertising campaigns</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li><li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Google Ads + Meta Ads + GA4 MCP?</summary><p>MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4. It ships with 250+ MCP tools for campaign management, analytics, and optimization, 1,672 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Google Ads + Meta Ads + GA4 MCP cost?</summary><p>Google Ads + Meta Ads + GA4 MCP is open source - MIT licensed and free to self-host; the public repository carries 1,672 stars; native integrations cover Google Ads, Meta Ads, GA4. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Google Ads + Meta Ads + GA4 MCP worth it past the free tier?</summary><p>High-value tooling for performance teams already running agents and MCP. Keep human approval on every write.</p></details><details class="faq-item"><summary>How many tools does the Google Ads + Meta Ads + GA4 MCP server expose?</summary><p>The README claims 250+ tools across three APIs: 150+ for Google Ads, covering campaign management, Keyword Planner research, bidding and budgets, audiences, extensions, experiments, negative keywords, labels, and conversion tracking; 80+ for Meta Ads, covering campaigns, ad sets, creatives, audiences, lead gen, catalogs, and insights; and 20+ for GA4, covering reporting, audiences, property config, attribution, and key events. A separate six tool research set handles search, webpage analysis, stock images, and landing page fetches. Those are the README&#x27;s own numbers, not a tool by tool count of ours.</p></details><details class="faq-item"><summary>What credentials do I need to set it up?</summary><p>Fewer than three ad APIs would suggest. There is no Google Ads client file, no Meta access token, and no GA4 service account JSON to manage. Setup points your client at the hosted endpoint connector.get-ryze.ai/mcp, and auth is OAuth 2.1 with PKCE, so you connect your Google and Meta accounts on first use. The README states the server stores no ad data or credentials. It is MIT licensed, but no self host path is documented; the repo reads as a hosted endpoint rather than a local install.</p></details><details class="faq-item"><summary>Can it edit campaigns, or is it read only?</summary><p>The README claims full read and write across all three platforms and contrasts that with the official Google Ads MCP, which it describes as read only. Writes are gated: the README says the server is read only by default and that write operations require explicit confirmation. That is documented rather than independently tested, so keep a human approving anything that moves budget.</p></details><details class="faq-item"><summary>How much does it cost?</summary><p>Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server itself is free, with you paying only for the AI assistant you use and your ad spend. The hosted endpoint is run by Ryze AI, whose own plans start at $89 a month for Paid ads Autopilot with a 7 day free trial and scale to $1,499 for Ecom Autopilot. If you want only the MCP connection and not Ryze&#x27;s managed services, confirm what the free path covers before you build on it.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/claude-ads/"><div class="name">Claude Ads</div><div class="tagline">Paid-media operations skill for Claude Code covering 12 ad platforms</div></a><a class="tool-card" href="/tools/openclaw-marketing-skills/"><div class="name">OpenClaw Marketing Skills</div><div class="tagline">37 marketing skills for OpenClaw agents with live data connectors</div></a><a class="tool-card" href="/tools/claude-seo/"><div class="name">Claude SEO</div><div class="tagline">Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents</div></a><a class="tool-card" href="/tools/albert-ai/"><div class="name">Albert AI</div><div class="tagline">Autonomous AI platform that manages and optimizes digital advertising campaigns</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</a></li><li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP Rewrites the Integration Economics of Your Marketing Stack</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

@@ -1,6 +1,6 @@
 ---
 title: "Link Building Won't Get You Into AI Answers. Community Signals Will."
-seo_title: "Link Building Won't Get You Into AI Answers"
+seo_title: "Community Signals Beat Links for AI Answers"
 slug: link-building-wont-get-you-into-ai-answers
 date: 2026-08-25
 author: Tim Christensen

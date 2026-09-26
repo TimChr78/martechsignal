@@ -24,9 +24,30 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
+    "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
+    "inLanguage": "en",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "n8n",
+        "url": "https://n8n.io"
+      },
+      {
+        "@type": "Thing",
+        "name": "Zapier",
+        "url": "https://zapier.com"
+      }
+    ]
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -52,14 +73,15 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/vs/n8n-vs-zapier/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
@@ -69,6 +91,12 @@
 <p>The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.</p>
 <p>Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.</p>
 <p class="vs-links"><a href="/tools/n8n/">n8n assessment</a> · <a href="/tools/zapier/">Zapier assessment</a></p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Dimension</th><th scope="col">n8n</th><th scope="col">Zapier</th></tr></thead><tbody>
+<tr><th scope="row">Pricing</th><td>Open Source</td><td>Freemium</td></tr>
+<tr><th scope="row">Open source</th><td>yes</td><td>no</td></tr>
+<tr><th scope="row">Integrations listed</th><td>[&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;]</td><td>[&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;]</td></tr>
+<tr><th scope="row">Public API</th><td>yes</td><td>yes</td></tr>
+</tbody></table></div>
 <h2>Positioning</h2>
 <p><strong>n8n:</strong> n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 203,890 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.</p>
 <p><strong>Zapier:</strong> Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch.</p>
@@ -84,12 +112,11 @@
 <h2>Integrations</h2>
 <p><strong>n8n:</strong> The node catalog counts 400-plus entries: Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, Notion, plus HTTP requests and custom code for anything missing. Community nodes widen it further, at the cost of vetting them yourself.</p>
 <p><strong>Zapier:</strong> More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan.</p>
-<h2>Who should pick which</h2>
+<h2>Decision notes</h2>
 <p><strong>n8n:</strong> Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.</p>
 <p><strong>Zapier:</strong> Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide.</p>
 <h2>Who should pick which</h2>
-<p><strong>Pick n8n if:</strong> Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.</p>
-<p><strong>Pick Zapier if:</strong> Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.</p>
+<dl class="vs-verdict"><dt>Pick n8n if</dt><dd>Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.</dd><dt>Pick Zapier if</dt><dd>Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>
 </main>
 <footer>

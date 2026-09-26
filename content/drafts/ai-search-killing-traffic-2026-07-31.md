@@ -1,6 +1,6 @@
 ---
 title: "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows."
-seo_title: "Google Doesn't Need Your Site Anymore. You Taught It"
+seo_title: "You Taught Google Everything It Knows"
 date: 2026-07-31
 author: Tim Christensen
 tags: [AI Search, AI Overviews, SEO, Zero-Click, Organic Traffic, Content Strategy]

@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet",
     "url": "https://nocodb.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/nocodb/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-09-05",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://nocodb.com/pricing",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is NocoDB a good Marketing Automation tool in 2026?",
+        "name": "Is NocoDB a good self-hosted Marketing Automation tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers."
@@ -154,7 +138,14 @@
     "@type": "Review",
     "author": {
       "@type": "Person",
-      "name": "Tim Christensen"
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
     "reviewBody": "The shortest self-hosted route from spreadsheet sprawl to permissioned, API-covered bases over a database you own, with pricing that is fully visible. The license is fair-code rather than open source, and the features teams often want most, AI fields and advanced views, are paid.",
@@ -171,21 +162,22 @@
     }
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/nocodb/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/marketing-automation/">Marketing Automation</a></li> / <li><span aria-current="page">NocoDB</span></li></ol></nav>
 <section class="page-head">
-  <h1>NocoDB pricing &amp; plans</h1>
+  <h1>NocoDB pricing: open core and paid tiers</h1>
   <p class="sub">Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet</p>
   <p class="count">Marketing Automation · Free tier · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -196,7 +188,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 64,880 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/nocodb-2026-09.webp"><img src="/og/screenshots/nocodb-2026-09.png" alt="Screenshot of the NocoDB homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">NocoDB homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/nocodb-2026-09.webp" alt="Screenshot of the NocoDB homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">NocoDB homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>NocoAI prompt-based schema, table, view and formula generation (paid)</li><li>AI button and AI prompt field types (paid)</li><li>MCP server for record-level agent access</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span><span>REST APIs (v3) with Swagger</span><span>Conditional webhooks with custom payloads</span><span>MCP server</span><span>Slack / Discord / Mattermost (paid App Store)</span><span>AWS SES / SMTP / MailerSend (paid App Store)</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>NocoDB is open core: the self-hosted version is free.</p><p>Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://nocodb.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="NocoDB">NocoDB pricing page</a>.</p></section>
@@ -204,8 +196,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (64,910 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include PostgreSQL, MySQL, SQLite (8 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/marketing-automation/">Marketing automation</a> <a href="/glossary/customer-journey/">Customer journey</a> <a href="/glossary/lead-scoring/">Lead scoring</a> <a href="/glossary/mql-sql/">MQL / SQL</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is NocoDB?</summary><p>Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does NocoDB cost?</summary><p>NocoDB is source-available rather than open source - Free to self-host; the public repository carries 64,910 stars; native integrations cover PostgreSQL, MySQL, SQLite. Check the licence terms before commercial use.</p></details><details class="faq-item"><summary>Is NocoDB a good Marketing Automation tool in 2026?</summary><p>The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.</p></details><details class="faq-item"><summary>Is NocoDB open source?</summary><p>Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n&#x27;s. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.</p></details><details class="faq-item"><summary>NocoDB vs Airtable: what do you gain?</summary><p>Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable&#x27;s polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.</p></details><details class="faq-item"><summary>Can NocoDB use my existing Postgres or MySQL database?</summary><p>Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/ever-gauzy/"><div class="name">Ever Gauzy</div><div class="tagline">Open business management platform: ERP, CRM, HRM, ATS, and time tracking</div></a><a class="tool-card" href="/tools/twenty/"><div class="name">Twenty</div><div class="tagline">The open-source alternative to Salesforce, designed for AI with modern CRM workflows</div></a><a class="tool-card" href="/tools/line-harness/"><div class="name">Line Harness</div><div class="tagline">Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control</div></a><a class="tool-card" href="/tools/appsmith/"><div class="name">Appsmith</div><div class="tagline">Open-source platform for building admin panels and internal dashboards on your existing databases and APIs</div></a><a class="tool-card" href="/tools/mautic/"><div class="name">Mautic</div><div class="tagline">Open-source marketing automation platform with email, campaigns, and lead management</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">Where NocoDB sits against NocoBase and Budibase</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is NocoDB?</summary><p>Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does NocoDB cost?</summary><p>NocoDB is source-available rather than open source - Free to self-host; the public repository carries 64,910 stars; native integrations cover PostgreSQL, MySQL, SQLite. Check the licence terms before commercial use.</p></details><details class="faq-item"><summary>Is NocoDB a good self-hosted Marketing Automation tool in 2026?</summary><p>The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.</p></details><details class="faq-item"><summary>Is NocoDB open source?</summary><p>Not in the OSI sense. The code is published under the Sustainable Use License, a fair-code, source-available license: you can use and modify it for internal business purposes and self-host free with unlimited records and seats, but you cannot offer it to third parties as a hosted service, and redistribution is limited to free, non-commercial use. It is the same class of license as n8n&#x27;s. If your procurement or policy requirements name OSI-approved licenses, NocoDB does not qualify.</p></details><details class="faq-item"><summary>NocoDB vs Airtable: what do you gain?</summary><p>Ownership and cost structure. Your data lives in your own Postgres or MySQL, self-hosting is free with unlimited seats, and every field is reachable through REST APIs and conditional webhooks. You give up Airtable&#x27;s polish, interface depth and native integration catalog. On NocoDB Cloud the free tier holds three editors and 1,000 records and paid plans start at $12 per seat monthly billed annually. One gating detail surprises people: external database connections need the Business plan on cloud, so bring-your-own-Postgres is effectively a self-hosting feature.</p></details><details class="faq-item"><summary>Can NocoDB use my existing Postgres or MySQL database?</summary><p>Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/ever-gauzy/"><div class="name">Ever Gauzy</div><div class="tagline">Open business management platform: ERP, CRM, HRM, ATS, and time tracking</div></a><a class="tool-card" href="/tools/twenty/"><div class="name">Twenty</div><div class="tagline">The open-source alternative to Salesforce, designed for AI with modern CRM workflows</div></a><a class="tool-card" href="/tools/line-harness/"><div class="name">Line Harness</div><div class="tagline">Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control</div></a><a class="tool-card" href="/tools/appsmith/"><div class="name">Appsmith</div><div class="tagline">Open-source platform for building admin panels and internal dashboards on your existing databases and APIs</div></a><a class="tool-card" href="/tools/mautic/"><div class="name">Mautic</div><div class="tagline">Open-source marketing automation platform with email, campaigns, and lead management</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">Where NocoDB sits against NocoBase and Budibase</a></li><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

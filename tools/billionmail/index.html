@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free",
     "url": "https://www.billionmail.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/billionmail/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.billionmail.com",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is BillionMail a good Email Marketing tool in 2026?",
+        "name": "Is BillionMail a good self-hosted Email Marketing tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/billionmail/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/email-marketing/">Email Marketing</a></li> / <li><span aria-current="page">BillionMail</span></li></ol></nav>
 <section class="page-head">
-  <h1>BillionMail pricing &amp; plans</h1>
+  <h1>BillionMail pricing, self-hosting and support</h1>
   <p class="sub">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</p>
   <p class="count">Email Marketing · Open Source · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>BillionMail is a fully self-hosted email stack in one open-source project: a Linux mail server built from Postfix, Dovecot and Rspamd, plus newsletter and email marketing tooling (campaign tasks, an HTML and drag-and-drop template builder, contact management, open and click tracking) and Roundcube webmail, all AGPL-3.0 with no paid tiers. Install it on a Linux box (the documented minimum is 1 core, 1 GB RAM and 20 GB disk, with outbound port 25) and you own sending, deliverability setup and data end to end: DNS helpers walk you through SPF, DKIM, DMARC and PTR records, Let&#x27;s Encrypt certificates come free, and an IP warmup mode caps your sending rate while a domain builds reputation. For marketing teams the pitch is independence from per-contact SaaS pricing; the trade is that you run the mail server, watch the blocklists and handle upgrades yourself. The API surface is practical: a management API with Swagger documentation and a Send API with single and batch endpoints authenticated by API key, for triggering sends from your own systems, plus outbound SMTP relay support for AWS SES, Mailgun or a custom relay when you would rather not deliver directly. AI template generation is real but modest: since v4.0 you can generate email templates from a prompt, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi supported as configurable providers. Context worth weighing: the project started in February 2025 with a small core team, the last tagged release is v4.9 from December 2025 and the most recent commit landed in June 2026, so development has slowed sharply, and webhooks and journey automation are absent from the documented feature set. The homepage courts cold emailers with unlimited sending and no built-in speed limit, but the project&#x27;s own framing is mail server plus newsletter plus campaigns. This assessment is based on the repository, the docs site and the release notes.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/billionmail-2026-09.webp"><img src="/og/screenshots/billionmail-2026-09.png" alt="Screenshot of the BillionMail homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">BillionMail homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/billionmail-2026-09.webp" alt="Screenshot of the BillionMail homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">BillionMail homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi)</li><li>AI website profiling for brand-aware templates</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Postfix</span><span>Dovecot</span><span>Rspamd</span><span>Roundcube webmail</span><span>SMTP relay (AWS SES, Mailgun, custom)</span><span>REST management API with Swagger</span><span>Send API (single and batch)</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>BillionMail is free to self-host under the AGPL-3.0 licence.</p><p>Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance.</p></section>
@@ -183,8 +168,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AGPL-3.0 licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (15,568 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Postfix, Dovecot, Rspamd (7 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is BillionMail?</summary><p>Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. It ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi), 15,568 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does BillionMail cost?</summary><p>BillionMail is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 15,568 stars; native integrations cover Postfix, Dovecot, Rspamd. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is BillionMail a good Email Marketing tool in 2026?</summary><p>A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.</p></details><details class="faq-item"><summary>Is BillionMail really free, and is there a paid plan?</summary><p>The software is AGPL-3.0 with no Pro, Enterprise or cloud edition: there is no pricing page because every feature ships in the single free project. The only paid offering is a done-for-you deployment package listed on the support page at $98.9 per instance with seven days of support. Your real costs are infrastructure and deliverability: a server with outbound port 25, DNS records, warmup time and blocklist monitoring.</p></details><details class="faq-item"><summary>BillionMail vs Listmonk: which self-hosted sender should you pick?</summary><p>Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQL, strong at lists and campaign sending, but it is not a mail server, so you bring your own SMTP provider. BillionMail is the whole stack: Postfix, Dovecot and Rspamd plus campaigns, contacts, templates, DNS and DMARC tooling, IP warmup and webmail, so you can deliver directly from your own IPs. Pick Listmonk for simplicity and a long, steady release history; pick BillionMail when owning the mail server itself, mailboxes included, is the point and you accept a younger project whose development has slowed.</p></details><details class="faq-item"><summary>Does BillionMail have AI features?</summary><p>One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/listmonk/"><div class="name">Listmonk</div><div class="tagline">Open-source self-hosted newsletter and mailing list manager with a fast Go backend</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/mailchimp/"><div class="name">Mailchimp</div><div class="tagline">All-in-one marketing platform with AI-powered email, automation, and analytics</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is BillionMail?</summary><p>Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. It ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi), 15,568 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does BillionMail cost?</summary><p>BillionMail is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 15,568 stars; native integrations cover Postfix, Dovecot, Rspamd. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is BillionMail a good self-hosted Email Marketing tool in 2026?</summary><p>A genuinely complete open-source mail server with a usable campaign layer on top, priced at zero and paid for in operations time. Judge the stalled commit cadence as seriously as the feature list.</p></details><details class="faq-item"><summary>Is BillionMail really free, and is there a paid plan?</summary><p>The software is AGPL-3.0 with no Pro, Enterprise or cloud edition: there is no pricing page because every feature ships in the single free project. The only paid offering is a done-for-you deployment package listed on the support page at $98.9 per instance with seven days of support. Your real costs are infrastructure and deliverability: a server with outbound port 25, DNS records, warmup time and blocklist monitoring.</p></details><details class="faq-item"><summary>BillionMail vs Listmonk: which self-hosted sender should you pick?</summary><p>Listmonk is a lean newsletter and mailing-list manager: one Go binary, PostgreSQL, strong at lists and campaign sending, but it is not a mail server, so you bring your own SMTP provider. BillionMail is the whole stack: Postfix, Dovecot and Rspamd plus campaigns, contacts, templates, DNS and DMARC tooling, IP warmup and webmail, so you can deliver directly from your own IPs. Pick Listmonk for simplicity and a long, steady release history; pick BillionMail when owning the mail server itself, mailboxes included, is the point and you accept a younger project whose development has slowed.</p></details><details class="faq-item"><summary>Does BillionMail have AI features?</summary><p>One documented one: AI email template generation, added in v4.0, where you describe the email and the editor produces a template, with Anthropic, OpenAI, Gemini, DeepSeek, Grok and Kimi as configurable providers, plus website profiling that pulls brand details from a domain. There is no documented send-time optimization or predictive sending; scheduling is a plain send-time field, and timing quality comes from warmup and rate limits rather than a model. You must configure your own provider key, since AI features stay disabled until a model is set up.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/listmonk/"><div class="name">Listmonk</div><div class="tagline">Open-source self-hosted newsletter and mailing list manager with a fast Go backend</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/mailchimp/"><div class="name">Mailchimp</div><div class="tagline">All-in-one marketing platform with AI-powered email, automation, and analytics</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

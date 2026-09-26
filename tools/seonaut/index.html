@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Open-source SEO crawler in Go for technical audits, self-hosted or cloud",
     "url": "https://seonaut.org",
     "mainEntityOfPage": "https://martechsignal.com/tools/seonaut/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 9,
       "priceCurrency": "USD",
       "url": "https://seonaut.org/",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Seonaut a good SEO & Search tool in 2026?",
+        "name": "Is Seonaut a good self-hosted SEO & Search tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A lean, honest, self-hosted technical crawler with 79 documented issue checks; no JS rendering, no API, and a slow-but-alive commit pace."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/seonaut/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/seo/">SEO &amp; Search</a></li> / <li><span aria-current="page">Seonaut</span></li></ol></nav>
 <section class="page-head">
-  <h1>Seonaut pricing &amp; plans</h1>
+  <h1>Seonaut pricing, self-hosting and support</h1>
   <p class="sub">Open-source SEO crawler in Go for technical audits, self-hosted or cloud</p>
   <p class="count">SEO &amp; Search · Open Source · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>SEOnaut is an MIT-licensed SEO crawler written in Go, self-hosted with Docker and MySQL, and also offered as a hosted service with a free Lite tier (one project, 500 URLs per project) and a $9-per-month Growth plan (five projects, 10,000 URLs, recurring audits), billed through Stripe with one month free on annual plans; the site claims more than 3,000 professionals use it. The code defines 79 issue types across page-level and site-wide checks: broken links and redirects including loops, missing or duplicate meta tags, heading order, hreflang problems, image and alt-text audits for accessibility, content quality, canonical tags, orphan and dead-end pages, HTTPS checks, and TTFB and timeout detection. Documented crawl options include bypassing robots.txt, following nofollow links, crawling from sitemaps or subdomains, checking external links, basic-auth crawls, and WACZ archive creation. Results land in Apache ECharts dashboards with CSV, sitemap, and WACZ exports, and the crawler identifies itself as SEOnautBot/1.0. The honest limits shape who should adopt it: there is no JavaScript rendering, since no headless browser exists in the codebase, so client-rendered pages will audit badly; there is no API, because all routes are session-based web UI; there is no team or role model, with single-user projects in the schema; and no AI features appear anywhere in the product or its site. Maintenance is active but unhurried: 900-plus commits since 2022, the most recent in May 2026, and no tagged releases, so installs track the :latest container image. Source builds need Go 1.25 and the compose file runs MySQL 8.4, serving plain HTTP on port 9000 with signup rather than a default account. Against Screaming Frog the trade is direct: no license cost and repeatable self-hosted audits, in exchange for JS rendering and a commercial feature set.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/seonaut-2026-09.webp"><img src="/og/screenshots/seonaut-2026-09.png" alt="Screenshot of the Seonaut homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Seonaut homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/seonaut-2026-09.webp" alt="Screenshot of the Seonaut homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Seonaut homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     
     
     <section class="pricing-block"><h2>Pricing</h2><p>Seonaut is free to self-host under the MIT licence, paid plans start at $9/mo as of 2026-09.</p><p>MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://seonaut.org/" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Seonaut">Seonaut pricing page</a>.</p></section>
@@ -183,8 +168,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> MIT licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $9/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Actively developed - latest release No tagged releases; ships as the :latest container image</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/seo/">SEO</a> <a href="/glossary/aeo/">AEO</a> <a href="/glossary/ai-search-visibility/">AI Visibility</a> <a href="/glossary/utm-parameters/">UTM parameters</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Seonaut?</summary><p>Open-source SEO crawler in Go for technical audits, self-hosted or cloud. It ships with 782 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Seonaut cost?</summary><p>Seonaut has a free tier; paid plans start at $9/mo.</p></details><details class="faq-item"><summary>Is Seonaut a good SEO &amp; Search tool in 2026?</summary><p>A lean, honest, self-hosted technical crawler with 79 documented issue checks; no JS rendering, no API, and a slow-but-alive commit pace.</p></details><details class="faq-item"><summary>Does SEOnaut render JavaScript?</summary><p>No. The codebase has no headless browser dependency, and JavaScript rendering appears nowhere in the feature list; the crawler fetches HTML directly. Sites built as client-rendered single-page apps will show empty content, missing links, and phantom issues, because the crawler sees what curl sees. Server-rendered sites, static sites, and sites using pre-rendering audit fine. If your audit targets a React or Vue application without SSR, you need a JS-rendering crawler, and this is not one.</p></details><details class="faq-item"><summary>Is SEOnaut free, and what do the cloud plans cost?</summary><p>The self-hosted Community edition is MIT-licensed and free, including commercial use per the support page. The hosted service at app.seonaut.org has two tiers: Lite is free with one project and up to 500 URLs per project, and Growth is $9 per month for five projects, 10,000 URLs per project, and recurring audits, billed through Stripe with one month free on annual plans. The practical difference beyond limits is scheduling: recurring audits are a Growth feature, while self-hosted users set up their own cron-triggered crawls.</p></details><details class="faq-item"><summary>Does SEOnaut compare to Screaming Frog?</summary><p>On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool&#x27;s strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/openseo/"><div class="name">OpenSEO</div><div class="tagline">Open source alternative to Ahrefs and Semrush</div></a><a class="tool-card" href="/tools/scrunch/"><div class="name">Scrunch</div><div class="tagline">The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</div></a><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/salesforce-marketing-cloud/"><div class="name">Salesforce Marketing Cloud</div><div class="tagline">Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web</div></a><a class="tool-card" href="/tools/marketmuse/"><div class="name">MarketMuse</div><div class="tagline">AI-powered content strategy and optimization platform for SEO content teams</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Seonaut?</summary><p>Open-source SEO crawler in Go for technical audits, self-hosted or cloud. It ships with 782 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Seonaut cost?</summary><p>Seonaut has a free tier; paid plans start at $9/mo.</p></details><details class="faq-item"><summary>Is Seonaut a good self-hosted SEO &amp; Search tool in 2026?</summary><p>A lean, honest, self-hosted technical crawler with 79 documented issue checks; no JS rendering, no API, and a slow-but-alive commit pace.</p></details><details class="faq-item"><summary>Does SEOnaut render JavaScript?</summary><p>No. The codebase has no headless browser dependency, and JavaScript rendering appears nowhere in the feature list; the crawler fetches HTML directly. Sites built as client-rendered single-page apps will show empty content, missing links, and phantom issues, because the crawler sees what curl sees. Server-rendered sites, static sites, and sites using pre-rendering audit fine. If your audit targets a React or Vue application without SSR, you need a JS-rendering crawler, and this is not one.</p></details><details class="faq-item"><summary>Is SEOnaut free, and what do the cloud plans cost?</summary><p>The self-hosted Community edition is MIT-licensed and free, including commercial use per the support page. The hosted service at app.seonaut.org has two tiers: Lite is free with one project and up to 500 URLs per project, and Growth is $9 per month for five projects, 10,000 URLs per project, and recurring audits, billed through Stripe with one month free on annual plans. The practical difference beyond limits is scheduling: recurring audits are a Growth feature, while self-hosted users set up their own cron-triggered crawls.</p></details><details class="faq-item"><summary>Does SEOnaut compare to Screaming Frog?</summary><p>On core technical auditing, more than you might expect: broken links, redirect chains and loops, missing and duplicate metas, heading structure, hreflang, canonical tags, alt text, orphan and dead-end pages, and response-time checks, with 79 issue types in code and ECharts dashboards. The gaps are the commercial tool&#x27;s strengths: no JavaScript rendering, no API, no team features, no integrated keyword or log-file analysis, and no tagged releases. The project itself makes no comparison claims; it positions as created by SEOs for everyone rather than as a Screaming Frog competitor. For a no-cost, self-hosted crawl of server-rendered sites, it covers the technical layer; for client-facing audits of JS-heavy sites, a rendering crawler remains the safer choice.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/openseo/"><div class="name">OpenSEO</div><div class="tagline">Open source alternative to Ahrefs and Semrush</div></a><a class="tool-card" href="/tools/scrunch/"><div class="name">Scrunch</div><div class="tagline">The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</div></a><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/salesforce-marketing-cloud/"><div class="name">Salesforce Marketing Cloud</div><div class="tagline">Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web</div></a><a class="tool-card" href="/tools/marketmuse/"><div class="name">MarketMuse</div><div class="tagline">AI-powered content strategy and optimization platform for SEO content teams</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

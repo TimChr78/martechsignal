@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -62,24 +64,28 @@
           "@type": "ListItem",
           "position": 1,
           "item": {
-            "@type": "Thing",
             "name": "Brandwatch",
-            "url": "https://martechsignal.com/tools/brandwatch/"
+            "description": "AI-powered consumer intelligence and social media management platform",
+            "image": "https://martechsignal.com/og/tools/brandwatch.png",
+            "url": "https://martechsignal.com/tools/brandwatch/",
+            "@type": "Thing"
           }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-            "@type": "Product",
             "name": "Buffer",
+            "description": "Simple social media scheduling and analytics with AI-powered content tools",
+            "image": "https://martechsignal.com/og/tools/buffer.png",
             "url": "https://martechsignal.com/tools/buffer/",
+            "@type": "Product",
             "offers": {
               "@type": "Offer",
               "price": 5,
               "priceCurrency": "USD",
               "url": "https://buffer.com/pricing",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2026-12-31"
             }
           }
         },
@@ -87,15 +93,17 @@
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@type": "Product",
             "name": "Hootsuite",
+            "description": "Social media management platform with AI-powered scheduling and analytics",
+            "image": "https://martechsignal.com/og/tools/hootsuite.png",
             "url": "https://martechsignal.com/tools/hootsuite/",
+            "@type": "Product",
             "offers": {
               "@type": "Offer",
               "price": 99,
               "priceCurrency": "USD",
               "url": "https://www.hootsuite.com/plans",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2026-12-31"
             }
           }
         },
@@ -103,17 +111,19 @@
           "@type": "ListItem",
           "position": 4,
           "item": {
-            "@type": "SoftwareApplication",
             "name": "MultiPost",
+            "description": "Browser extension to publish content to multiple social media platforms with one click",
+            "image": "https://martechsignal.com/og/tools/multipost-extension.png",
+            "url": "https://martechsignal.com/tools/multipost-extension/",
+            "@type": "SoftwareApplication",
             "operatingSystem": "Web",
             "applicationCategory": "BusinessApplication",
-            "url": "https://martechsignal.com/tools/multipost-extension/",
             "offers": {
               "@type": "Offer",
               "price": 0,
               "priceCurrency": "USD",
               "url": "https://multipost.app",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2026-12-31"
             }
           }
         },
@@ -121,15 +131,17 @@
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@type": "Product",
             "name": "Predis.ai",
+            "description": "AI-powered social media content generator for posts, videos, and ad creatives",
+            "image": "https://martechsignal.com/og/tools/predis-ai.png",
             "url": "https://martechsignal.com/tools/predis-ai/",
+            "@type": "Product",
             "offers": {
               "@type": "Offer",
               "price": 19,
               "priceCurrency": "USD",
               "url": "https://predis.ai/pricing/",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2026-12-31"
             }
           }
         },
@@ -137,15 +149,17 @@
           "@type": "ListItem",
           "position": 6,
           "item": {
-            "@type": "Product",
             "name": "Sprout Social",
+            "description": "Enterprise social media management with AI-powered analytics and engagement tools",
+            "image": "https://martechsignal.com/og/tools/sprout-social.png",
             "url": "https://martechsignal.com/tools/sprout-social/",
+            "@type": "Product",
             "offers": {
               "@type": "Offer",
               "price": 249,
               "priceCurrency": "USD",
               "url": "https://sproutsocial.com/pricing/",
-              "availability": "https://schema.org/InStock"
+              "priceValidUntil": "2026-12-31"
             }
           }
         }
@@ -153,14 +167,15 @@
     }
   ]
 }</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/categories/social-media/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>

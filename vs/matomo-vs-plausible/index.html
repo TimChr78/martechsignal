@@ -24,9 +24,30 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+    "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
+    "inLanguage": "en",
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Matomo",
+        "url": "https://matomo.org"
+      },
+      {
+        "@type": "Thing",
+        "name": "Plausible Analytics",
+        "url": "https://plausible.io"
+      }
+    ]
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -52,14 +73,15 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/vs/matomo-vs-plausible/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
@@ -69,6 +91,12 @@
 <p>Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.</p>
 <p>Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.</p>
 <p class="vs-links"><a href="/tools/matomo/">Matomo assessment</a> · <a href="/tools/plausible/">Plausible Analytics assessment</a></p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Dimension</th><th scope="col">Matomo</th><th scope="col">Plausible Analytics</th></tr></thead><tbody>
+<tr><th scope="row">Pricing</th><td>Open Source</td><td>Open Source</td></tr>
+<tr><th scope="row">Open source</th><td>yes</td><td>yes</td></tr>
+<tr><th scope="row">Integrations listed</th><td>[&#x27;WordPress&#x27;, &#x27;Matomo Tag Manager&#x27;, &#x27;Google Tag Manager&#x27;, &#x27;Google Analytics Importer&#x27;, &#x27;Shopify&#x27;, &#x27;BigQuery&#x27;, &#x27;OneTrust&#x27;, &#x27;Cookiebot&#x27;]</td><td>[&#x27;WordPress&#x27;, &#x27;Ghost&#x27;, &#x27;Webflow&#x27;, &#x27;Zapier&#x27;, &#x27;Google Search Console&#x27;, &#x27;Slack&#x27;]</td></tr>
+<tr><th scope="row">Public API</th><td>yes</td><td>yes</td></tr>
+</tbody></table></div>
 <h2>Positioning</h2>
 <p><strong>Matomo:</strong> Matomo is an open-source analytics platform under GPL v3 or later, run on your own infrastructure or as cloud, with 5.13.0 released August 2026 and an active 6.x branch. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free, and the vendor claims 100 percent data ownership with unsampled reporting on every plan. Privacy is the reason teams pick it.</p>
 <p><strong>Plausible Analytics:</strong> Plausible is lightweight, privacy-friendly web analytics: pageviews, visitors, sources, devices, locations, and goals on one simple dashboard, without cookies or personal data collection. Launched in 2019 and based in Tallinn, it trades attribution depth and advertising integrations for a clean setup and low operational burden.</p>
@@ -84,12 +112,11 @@
 <h2>Integrations</h2>
 <p><strong>Matomo:</strong> WordPress, Matomo Tag Manager, Google Tag Manager, the Google Analytics Importer, Shopify, BigQuery, OneTrust, and Cookiebot, plus an API that is free on every plan and an ecommerce-focused tracking stack. More surfaces, more wiring.</p>
 <p><strong>Plausible Analytics:</strong> WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams.</p>
-<h2>Who should pick which</h2>
+<h2>Decision notes</h2>
 <p><strong>Matomo:</strong> Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.</p>
 <p><strong>Plausible Analytics:</strong> Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer.</p>
 <h2>Who should pick which</h2>
-<p><strong>Pick Matomo if:</strong> Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.</p>
-<p><strong>Pick Plausible Analytics if:</strong> Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.</p>
+<dl class="vs-verdict"><dt>Pick Matomo if</dt><dd>Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.</dd><dt>Pick Plausible Analytics if</dt><dd>Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>
 </main>
 <footer>

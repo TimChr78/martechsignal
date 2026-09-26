@@ -1,6 +1,6 @@
 ---
 title: "Claude SEO vs Semrush: what a free audit replaces, and what it does not"
-seo_title: "Claude SEO vs Semrush: what a free audit replaces"
+seo_title: "Claude SEO vs Semrush: What It Replaces and What Not"
 slug: claude-seo-vs-semrush
 date: 2026-09-16
 author: Tim Christensen

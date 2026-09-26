@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents",
     "url": "https://snowplow.io",
     "mainEntityOfPage": "https://martechsignal.com/tools/snowplow/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-25",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://snowplow.io",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Snowplow a good Analytics & Attribution tool in 2026?",
+        "name": "Is Snowplow a good self-hosted Analytics & Attribution tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The deepest behavioral-event infrastructure for teams that own their data pipeline, now priced and licensed like enterprise software rather than the free open-source project it once was."
@@ -142,21 +126,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/snowplow/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/analytics/">Analytics &amp; Attribution</a></li> / <li><span aria-current="page">Snowplow</span></li></ol></nav>
 <section class="page-head">
-  <h1>Snowplow pricing &amp; plans</h1>
+  <h1>Snowplow pricing: open core and paid tiers</h1>
   <p class="sub">Customer context infrastructure: behavioral event pipeline for warehouses and AI agents</p>
   <p class="count">Analytics &amp; Attribution · Free tier · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-25">2026-09-25</time></p>
@@ -167,7 +152,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. Founded in 2012 by Alex Dean and Yali Sassoon, it names Strava, HelloFresh, Auto Trader, and Burberry among its customers. The tracking model is the enduring core: trackers send events that are validated against self-describing JSON schemas, with vendor, name, and version carried in an iglu: reference, invalid events routed out rather than silently accepted, and Iglu acting as the schema registry. Eighteen documented enrichments cover campaign attribution, bot detection, user-agent parsing, IP anonymization, PII pseudonymization, and currency conversion, and destinations include Snowflake, Databricks, BigQuery, Redshift, Delta Lake, and Apache Iceberg, plus Kafka, Kinesis, and Pub/Sub streams. Snowplow Console manages the pipeline, Snowplow Mini provides single-instance testing, and Event Studio and data model packs round out the tooling. Signals, launched in May 2025, is the AI-facing layer: a profiles store with a sub-10-millisecond API claim, an interventions engine driven by rules or machine learning, conversion, churn, and lifetime-value propensity predictions, and agentic context exposed through Python and Node SDKs. One licensing change matters more than any feature: since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement, and the documentation states the community edition is for testing and evaluation and must not be deployed in production; the paid Self-Hosted Pipeline plan exists specifically to remove that restriction. Components still release actively (enrich 6.13.1 in August 2026, the BSD-3 JavaScript tracker at 4.10.1). Pricing has no published figures: a 14-day full trial with no credit card, then quote-based managed and self-hosted plans priced on event volume and destinations.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/snowplow-2026-09.webp"><img src="/og/screenshots/snowplow-2026-09.png" alt="Screenshot of the Snowplow homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Snowplow homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/snowplow-2026-09.webp" alt="Screenshot of the Snowplow homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Snowplow homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Signals real-time profiles with propensity predictions</li><li>Intent detection</li><li>Agentic context for AI agents</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Snowflake</span><span>Databricks</span><span>BigQuery</span><span>Redshift</span><span>Delta Lake</span><span>Apache Iceberg</span><span>Kafka</span><span>Kinesis</span><span>Google Pub/Sub</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Snowplow is open core: the self-hosted version is free.</p><p>The open-source pipeline is free to self-host. Snowplow BDP Cloud is quoted by sales (verified Sep 2026).</p></section>
@@ -175,7 +160,7 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Apache-2.0 licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: signals real-time profiles with propensity predictions</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (7,031 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Snowflake, Databricks, BigQuery (9 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/marketing-attribution-models/">Attribution models</a> <a href="/glossary/first-party-data/">First-party data</a> <a href="/glossary/dmp/">DMP</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Snowplow?</summary><p>Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. It ships with signals real-time profiles with propensity predictions, 7,031 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Snowplow cost?</summary><p>Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,031 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Snowplow a good Analytics &amp; Attribution tool in 2026?</summary><p>The deepest behavioral-event infrastructure for teams that own their data pipeline, now priced and licensed like enterprise software rather than the free open-source project it once was.</p></details><details class="faq-item"><summary>Is Snowplow still open source?</summary><p>Partly, and the details matter. The GitHub repo badge says Apache-2.0, but the README states that since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement v1.1, which restricts commercial use, and the self-hosted docs say the community edition is for testing and evaluation and must not be deployed in production. Components released before 2024 keep Apache terms but get no security patches. The JavaScript tracker remains BSD-3-Clause, as are some client libraries. In practical terms: you can still inspect everything and self-host for evaluation, but production self-hosting requires a paid plan, which is why the pricing page lists a Self-Hosted Pipeline option described as removing the non-commercial restriction.</p></details><details class="faq-item"><summary>What is Snowplow Signals?</summary><p>Signals, launched in May 2025, is Snowplow&#x27;s real-time context layer and the home of its AI-facing features. It combines a profiles store serving customer context with a published sub-10-millisecond p95 API claim, an interventions engine that triggers on rules or machine learning, and propensity predictions for conversion, churn, and lifetime value. It also exposes agentic context, meaning AI agents can read customer state at runtime through Python and Node SDKs. It sits downstream of the event pipeline: behavioral events feed profiles, profiles feed interventions and agents. If you are not building real-time personalization or agent-driven experiences, Signals is the part of the platform you can ignore.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Snowplow?</summary><p>Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. It ships with signals real-time profiles with propensity predictions, 7,031 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Snowplow cost?</summary><p>Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,031 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Snowplow a good self-hosted Analytics &amp; Attribution tool in 2026?</summary><p>The deepest behavioral-event infrastructure for teams that own their data pipeline, now priced and licensed like enterprise software rather than the free open-source project it once was.</p></details><details class="faq-item"><summary>Is Snowplow still open source?</summary><p>Partly, and the details matter. The GitHub repo badge says Apache-2.0, but the README states that since January 8, 2024, new core pipeline releases ship under the Snowplow Limited Use License Agreement v1.1, which restricts commercial use, and the self-hosted docs say the community edition is for testing and evaluation and must not be deployed in production. Components released before 2024 keep Apache terms but get no security patches. The JavaScript tracker remains BSD-3-Clause, as are some client libraries. In practical terms: you can still inspect everything and self-host for evaluation, but production self-hosting requires a paid plan, which is why the pricing page lists a Self-Hosted Pipeline option described as removing the non-commercial restriction.</p></details><details class="faq-item"><summary>What is Snowplow Signals?</summary><p>Signals, launched in May 2025, is Snowplow&#x27;s real-time context layer and the home of its AI-facing features. It combines a profiles store serving customer context with a published sub-10-millisecond p95 API claim, an interventions engine that triggers on rules or machine learning, and propensity predictions for conversion, churn, and lifetime value. It also exposes agentic context, meaning AI agents can read customer state at runtime through Python and Node SDKs. It sits downstream of the event pipeline: behavioral events feed profiles, profiles feed interventions and agents. If you are not building real-time personalization or agent-driven experiences, Signals is the part of the platform you can ignore.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/mixpanel/"><div class="name">Mixpanel</div><div class="tagline">Product analytics platform with AI-powered insights for user behavior tracking</div></a><a class="tool-card" href="/tools/tealium/"><div class="name">Tealium</div><div class="tagline">Enterprise customer data platform with real-time data orchestration and AI</div></a><a class="tool-card" href="/tools/amplitude/"><div class="name">Amplitude</div><div class="tagline">AI-powered digital analytics platform for product and marketing teams</div></a><a class="tool-card" href="/tools/segment/"><div class="name">Twilio Segment</div><div class="tagline">Customer data platform for collecting, unifying, and activating customer data</div></a><a class="tool-card" href="/tools/attribution/"><div class="name">Attribution</div><div class="tagline">AI-powered marketing attribution platform connecting ad spend to revenue</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li><li><a href="/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/">Why Your Marketing Stack Doesn't Need Another AI Tool</a></li></ul></section>
   </div>
   <aside class="sidebar">

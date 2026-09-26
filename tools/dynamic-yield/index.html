@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -140,7 +142,14 @@
     "@type": "Review",
     "author": {
       "@type": "Person",
-      "name": "Tim Christensen"
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
     "reviewBody": "Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.",
@@ -157,14 +166,15 @@
     }
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/dynamic-yield/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
@@ -177,7 +187,7 @@
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-06">2026-09-06</time></p>
   
 </section>
-<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;border:1px solid var(--line);border-radius:12px"><h2 style="margin:0 0 .3rem">MartechSignal Score: 37/60</h2><p style="margin:.35rem 0">Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.</p><div class="table-wrap" style="margin:.75rem 0"><table><thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead><tbody><tr><td>Pricing transparency</td><td style="text-align:right">0/10</td><td>tools.json price_notes and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request.</td></tr><tr><td>Feature depth</td><td style="text-align:right">9/10</td><td>The Dynamic Yield tool page documents Experience Web campaigns and split testing, Recommendations with Algorithm Studio, Experience Email and Reconnect with a native email delivery channel, Audience Hub, and Rollout with gradual release and rollback, which is near category-defining breadth for personalization.</td></tr><tr><td>Integrations</td><td style="text-align:right">6/10</td><td>tools.json lists eleven documented natives including Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, and mParticle plus the Experience API and Kotlin, Swift, and React Native SDKs, which is short of the marketplace anchor.</td></tr><tr><td>AI capability</td><td style="text-align:right">9/10</td><td>The Dynamic Yield tool page documents Experience OS Agents as a multi-agent system with five defined roles plus Shopping Muse, Predictive Targeting, and the NextML, AffinityML, and VisualML models, though no MCP-level protocol is documented.</td></tr><tr><td>Openness</td><td style="text-align:right">4/10</td><td>Dynamic Yield is closed source per tools.json, while the Dynamic Yield tool page documents a Parquet-formatted Daily Activity Stream at dy.dev and the Experience API, so data export exists but source availability does not.</td></tr><tr><td>Operational maturity</td><td style="text-align:right">9/10</td><td>tools.json records a 2011 founding and Mastercard ownership since 2022, and the Dynamic Yield tool page reports MACH Alliance certification and deep technical documentation at dy.dev, though SLA terms are not published in our sources.</td></tr></tbody></table></div><p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the <a href="/methodology/">methodology page</a>.</p></section>
+<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;border:1px solid var(--line);border-radius:12px"><h2 style="margin:0 0 .3rem">MartechSignal Score: 37/60</h2><p style="margin:.35rem 0">Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.</p><div class="table-wrap" style="margin:.75rem 0"><table><thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead><tbody><tr><td>Pricing transparency</td><td style="text-align:right">0/10</td><td>the pricing block and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request.</td></tr><tr><td>Feature depth</td><td style="text-align:right">9/10</td><td>The Dynamic Yield tool page documents Experience Web campaigns and split testing, Recommendations with Algorithm Studio, Experience Email and Reconnect with a native email delivery channel, Audience Hub, and Rollout with gradual release and rollback, which is near category-defining breadth for personalization.</td></tr><tr><td>Integrations</td><td style="text-align:right">6/10</td><td>tools.json lists eleven documented natives including Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, and mParticle plus the Experience API and Kotlin, Swift, and React Native SDKs, which is short of the marketplace anchor.</td></tr><tr><td>AI capability</td><td style="text-align:right">9/10</td><td>The Dynamic Yield tool page documents Experience OS Agents as a multi-agent system with five defined roles plus Shopping Muse, Predictive Targeting, and the NextML, AffinityML, and VisualML models, though no MCP-level protocol is documented.</td></tr><tr><td>Openness</td><td style="text-align:right">4/10</td><td>Dynamic Yield is closed source per tools.json, while the Dynamic Yield tool page documents a Parquet-formatted Daily Activity Stream at dy.dev and the Experience API, so data export exists but source availability does not.</td></tr><tr><td>Operational maturity</td><td style="text-align:right">9/10</td><td>tools.json records a 2011 founding and Mastercard ownership since 2022, and the Dynamic Yield tool page reports MACH Alliance certification and deep technical documentation at dy.dev, though SLA terms are not published in our sources.</td></tr></tbody></table></div><p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the <a href="/methodology/">methodology page</a>.</p></section>
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
@@ -188,7 +198,7 @@ Implementation follows a documented six-step path: create sections, sync a produ
 The capability surface is broad and app names have shifted. Experience Web handles on-site campaigns and split testing, Recommendations and Algorithm Studio cover merchandising, Experience Email and Reconnect handle campaign and triggered messaging (Reconnect gained a native email delivery channel in September 2025), Audience Hub manages segmentation, and Rollout adds gradual feature release with rollback. AI features are named: Experience OS Agents is a multi-agent system with five defined roles (Personalization Expert, Designer, Developer, Copywriter, Analyst), Shopping Muse is the generative conversational commerce product now exposed as a server-side API, Predictive Targeting automates audience selection, and NextML, AffinityML, and VisualML handle ranking, affinity, and visual similarity.
 
 Pricing is not published: the pricing URL redirects to a Mastercard product page and every path ends at contact sales or a demo request. The vendor claims eight consecutive Gartner Magic Quadrant leader placements, 80 million personalized sessions daily, and MACH Alliance certification. Documented integrations include Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, mParticle, and several email service providers.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/dynamic-yield-2026-09.webp"><img src="/og/screenshots/dynamic-yield-2026-09.png" alt="Screenshot of the Dynamic Yield homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Dynamic Yield homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/dynamic-yield-2026-09.webp" alt="Screenshot of the Dynamic Yield homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Dynamic Yield homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Experience OS Agents (multi-agent copilot)</li><li>Shopping Muse conversational commerce</li><li>Predictive Targeting</li><li>NextML deep learning ranking</li><li>AffinityML affinity scoring</li><li>VisualML visual similarity</li><li>Copywriter generative copy</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Shopify</span><span>Salesforce Commerce Cloud</span><span>commercetools</span><span>Magento 2</span><span>SAP Hybris</span><span>mParticle</span><span>SendGrid</span><span>Mailchimp</span><span>Listrak</span><span>Smartling</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Dynamic Yield is sold on quote-based enterprise contracts.</p><p>No published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.dynamicyield.com/pricing/" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Dynamic Yield">Dynamic Yield pricing page</a>.</p></section>

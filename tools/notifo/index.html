@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Self-hosted multi-channel notification service for email, SMS, and web push",
     "url": "https://notifo.io",
     "mainEntityOfPage": "https://martechsignal.com/tools/notifo/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-08-21",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://notifo.io",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Notifo a good Email Marketing tool in 2026?",
+        "name": "Is Notifo a good self-hosted Email Marketing tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/notifo/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/email-marketing/">Email Marketing</a></li> / <li><span aria-current="page">Notifo</span></li></ol></nav>
 <section class="page-head">
-  <h1>Notifo pricing &amp; plans</h1>
+  <h1>Notifo pricing, self-hosting and support</h1>
   <p class="sub">Self-hosted multi-channel notification service for email, SMS, and web push</p>
   <p class="count">Email Marketing · Open Source · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Notifo is an open-source notification service that puts email, SMS, web push, mobile push, in-app sockets and a WhatsApp messaging channel behind one API, with a management UI for templates, users, subscriptions and projects. It comes from the Squidex team: the README says it was originally developed for Squidex Headless CMS, and the license is MIT. The feature set is practitioner-grade rather than campaign-grade: MJML and Liquid email templates, hierarchical topic subscriptions (a user can follow a path like clothes/shoes/nike and set preferences per topic), per-channel message queues with retries, configurable send delays that work as aggregation windows, confirmation modes from none to explicit, and read and confirmed tracking. Provider support is specific rather than pluggable: Amazon SES for email, MessageBird for SMS, Firebase for mobile push, a custom-built web-push implementation, and sockets for real-time in-page delivery; a JavaScript plugin adds a notification overlay to your web app. Storage is MongoDB only, with Redis optional as a SignalR backplane. The integration surface is documented and live: a REST API with an OpenAPI spec served by the app, a .NET SDK on NuGet (Notifo.SDK 1.7.5) and a TypeScript SDK on npm (@notifo/notifo 2.0.2). The maintenance picture needs a hard look before you build on it. Code commits continue (the most recent, a security fix, landed in August 2026, and the backend moved to .NET 10 in June), but the last tagged release and the published Docker images date to November 2022, so the squidex/notifo image you can pull is years behind main, and the wiki&#x27;s notifo/notifo image name no longer exists on Docker Hub. A hosted instance runs at app.notifo.io and the marketing site mentions usage-based pricing, but no pricing page is live, so treat self-hosting as the only documented path. This assessment is based on the repository, wiki and published documentation.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/notifo-2026-09.webp"><img src="/og/screenshots/notifo-2026-09.png" alt="Screenshot of the Notifo homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Notifo homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/notifo-2026-09.webp" alt="Screenshot of the Notifo homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Notifo homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     
     <h2>Key Integrations</h2><div class="integ-list"><span>Amazon SES (email)</span><span>MessageBird (SMS)</span><span>Firebase Cloud Messaging (mobile push)</span><span>Custom web push</span><span>SignalR web sockets</span><span>REST API with OpenAPI</span><span>Notifo.SDK (.NET)</span><span>@notifo/notifo (TypeScript)</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Notifo is free to self-host under the MIT licence.</p><p>MIT licensed, free to self-host. A hosted instance runs at app.notifo.io, but no live pricing page exists, so self-hosting is the only documented path.</p></section>
@@ -183,8 +168,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> MIT licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push) (8 listed)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Notifo?</summary><p>Self-hosted multi-channel notification service for email, SMS, and web push. It ships with 880 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Notifo cost?</summary><p>Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Notifo a good Email Marketing tool in 2026?</summary><p>Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.</p></details><details class="faq-item"><summary>Is Notifo still maintained?</summary><p>Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself.</p></details><details class="faq-item"><summary>Does Notifo work with SendGrid, Mailgun or Twilio?</summary><p>Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.</p></details><details class="faq-item"><summary>Notifo vs Notifuse: are they the same thing?</summary><p>No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo&#x27;s job.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/mautic/"><div class="name">Mautic</div><div class="tagline">Open-source marketing automation platform with email, campaigns, and lead management</div></a><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</div></a><a class="tool-card" href="/tools/listmonk/"><div class="name">Listmonk</div><div class="tagline">Open-source self-hosted newsletter and mailing list manager with a fast Go backend</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/watermark-provenance-tax-agents/">AI watermarks are now part of your agent's risk surface</a></li><li><a href="/blog/multi-touch-attribution-was-always-a-fiction/">Multi-Touch Attribution Was Always a Fiction</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Notifo?</summary><p>Self-hosted multi-channel notification service for email, SMS, and web push. It ships with 880 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Notifo cost?</summary><p>Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Notifo a good self-hosted Email Marketing tool in 2026?</summary><p>Well-designed notification middleware with a genuine multi-channel model, undermined by a release gap: code moves, but the last release and images are from 2022. Build from source or look elsewhere.</p></details><details class="faq-item"><summary>Is Notifo still maintained?</summary><p>Partly, and the distinction matters. Commits continue: the most recent landed in August 2026 (a security fix) and the backend was migrated to .NET 10 in June 2026. But the last tagged release is 1.3.0 from November 2022, and the Docker Hub images under squidex/notifo were last pushed about four years ago, so nothing installable reflects the recent work. With 879 stars and a small maintainer group, treat it as a project you may need to build and patch yourself.</p></details><details class="faq-item"><summary>Does Notifo work with SendGrid, Mailgun or Twilio?</summary><p>Not as documented providers. Email goes through Amazon SES, SMS through MessageBird, and mobile push through Firebase, with web push custom-built; the README explicitly asks for contributions toward other email providers. There is no Twilio or SendGrid integration in the configuration or documentation. If those providers are requirements, you would need to write the integration yourself, or front Notifo with an SMTP relay that hides the provider behind SES-compatible SMTP settings.</p></details><details class="faq-item"><summary>Notifo vs Notifuse: are they the same thing?</summary><p>No, they are unrelated projects with confusingly similar names. Notifo (notifo-io/notifo) is a C#/.NET multi-channel notification service under MIT, built by the Squidex team, covering email, SMS, web push, mobile push and in-app sockets behind one API. Notifuse (notifuse/notifuse) is a Go-based self-hosted email marketing and transactional platform with a paid cloud, positioned against Mailchimp and Brevo. If you want campaign and newsletter sending, you want Notifuse or similar; if you want an API for product notifications, that is Notifo&#x27;s job.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/mautic/"><div class="name">Mautic</div><div class="tagline">Open-source marketing automation platform with email, campaigns, and lead management</div></a><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/listmonk/"><div class="name">Listmonk</div><div class="tagline">Open-source self-hosted newsletter and mailing list manager with a fast Go backend</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/watermark-provenance-tax-agents/">AI watermarks are now part of your agent's risk surface</a></li><li><a href="/blog/multi-touch-attribution-was-always-a-fiction/">Multi-Touch Attribution Was Always a Fiction</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

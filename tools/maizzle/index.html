@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Modern email development framework using Tailwind CSS for responsive campaigns",
     "url": "https://maizzle.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/maizzle/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-08-21",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://maizzle.com",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Maizzle a good Email Marketing tool in 2026?",
+        "name": "What does running Maizzle actually cost?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/maizzle/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/email-marketing/">Email Marketing</a></li> / <li><span aria-current="page">Maizzle</span></li></ol></nav>
 <section class="page-head">
-  <h1>Maizzle pricing &amp; plans</h1>
+  <h1>Maizzle: what it costs to run</h1>
   <p class="sub">Modern email development framework using Tailwind CSS for responsive campaigns</p>
   <p class="count">Email Marketing · Free · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Maizzle is an MIT-licensed email development framework that compiles Tailwind CSS into email-safe HTML, and version 6, released in June 2026 after 26 release candidates and a complete rewrite, runs on Vite with Vue templates and Tailwind CSS 4. You write Tailwind classes in Vue single-file components, and the build runs a configurable pipeline of transformers: CSS inlining, unused CSS removal, minification, six-digit hex conversion, link and attribute handling, all of which are on by default in v6. The output is production HTML with inlined styles and Outlook fallbacks that you upload to your ESP or hand to a sending service. More than 30 documented components cover responsive layouts, buttons that survive Outlook, dark-mode images, and VML background pieces through dedicated Outlook components; the project claims render testing against Apple Mail, Gmail, Yahoo, and Outlook with compatibility over 95% of email clients. The v6 dev server adds live preview with hot reload, device resizing, dark-mode emulation, compatibility checks that link out to caniemail.com data, command-palette search, and test email sending. Scaffolding is one command (npx maizzle new), environments are config files rather than flags, and a render() and build() API plus a Vite plugin cover Laravel, Nuxt, SvelteKit, and Astro integration. Deployment guides exist for Nodemailer, SendGrid, Mailgun, Postmark, Resend, SES, and Cloudflare, with migration guides from React Email and MJML, and the docs publish an agent skill for coding assistants. Scope stays honest: Maizzle builds templates, it does not send campaigns, manage lists, or report analytics, and there is no visual editor; Mailviews, the commercial template product, is separate. Developers maintaining many templates get versioned, reviewable email code, and marketers who want drag-and-drop need a different category of tool.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/maizzle-2026-09.webp"><img src="/og/screenshots/maizzle-2026-09.png" alt="Screenshot of the Maizzle homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Maizzle homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/maizzle-2026-09.webp" alt="Screenshot of the Maizzle homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Maizzle homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     
     
     
@@ -183,7 +168,7 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Open-source licensing with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (2,855 GitHub stars)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Maizzle?</summary><p>Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Maizzle cost?</summary><p>Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Maizzle a good Email Marketing tool in 2026?</summary><p>The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.</p></details><details class="faq-item"><summary>Does Maizzle support Tailwind CSS v4?</summary><p>Yes, starting with Maizzle 6 (GA June 9, 2026), which the upgrade guide describes as a complete rewrite powered by Vite, Vue, and Tailwind CSS 4. Tailwind ships as a bundled @maizzle/tailwindcss email config, configured through @import and @theme blocks inside style tags instead of a tailwind.config.js file, and it replaces the v5-era tailwindcss-preset-email package. If you are on Maizzle 5, Tailwind v4 is the reason to plan the v6 migration, alongside the move to Vue single-file components.</p></details><details class="faq-item"><summary>How does Maizzle handle Outlook?</summary><p>Through dedicated components and build-time conditioning rather than runtime hacks. Maizzle provides Outlook, NotOutlook, OutlookBg, and Vml components for conditional markup and vector backgrounds, and the transformer pipeline handles the client-hostile parts automatically: CSS inlining, six-digit hex color conversion, shorthand CSS expansion, and attribute-to-style mapping. The project states its templates are render-tested against Apple Mail, Gmail, Yahoo, and Outlook and claims compatibility with over 95% of email clients. You still need your own testing discipline for specific client quirks; Maizzle removes the mechanical work, not the need to verify.</p></details><details class="faq-item"><summary>Can I migrate from MJML or React Email to Maizzle?</summary><p>Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Maizzle?</summary><p>Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Maizzle cost?</summary><p>Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>What does running Maizzle actually cost?</summary><p>The strongest answer for developer-maintained email templates in 2026, now on Tailwind 4 and Vite; budget migration time from v5, and keep a separate tool for sending and analytics.</p></details><details class="faq-item"><summary>Does Maizzle support Tailwind CSS v4?</summary><p>Yes, starting with Maizzle 6 (GA June 9, 2026), which the upgrade guide describes as a complete rewrite powered by Vite, Vue, and Tailwind CSS 4. Tailwind ships as a bundled @maizzle/tailwindcss email config, configured through @import and @theme blocks inside style tags instead of a tailwind.config.js file, and it replaces the v5-era tailwindcss-preset-email package. If you are on Maizzle 5, Tailwind v4 is the reason to plan the v6 migration, alongside the move to Vue single-file components.</p></details><details class="faq-item"><summary>How does Maizzle handle Outlook?</summary><p>Through dedicated components and build-time conditioning rather than runtime hacks. Maizzle provides Outlook, NotOutlook, OutlookBg, and Vml components for conditional markup and vector backgrounds, and the transformer pipeline handles the client-hostile parts automatically: CSS inlining, six-digit hex color conversion, shorthand CSS expansion, and attribute-to-style mapping. The project states its templates are render-tested against Apple Mail, Gmail, Yahoo, and Outlook and claims compatibility with over 95% of email clients. You still need your own testing discipline for specific client quirks; Maizzle removes the mechanical work, not the need to verify.</p></details><details class="faq-item"><summary>Can I migrate from MJML or React Email to Maizzle?</summary><p>Both paths are documented on the docs site as migration guides, alongside deployment guides for Nodemailer, SendGrid, Mailgun, Postmark, Resend, AWS SES, and Cloudflare. The v5-to-v6 upgrade guide is the more demanding read for existing Maizzle users: templates become Vue single-file components, configuration consolidates into maizzle.config.ts and defineConfig(), several components were renamed or removed, and the build key flattened to the root. Coming from MJML or React Email is a fresh start with npx maizzle new rather than a conversion, which the guides treat as the normal path.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/loops/"><div class="name">Loops</div><div class="tagline">Email marketing for SaaS: marketing, product, and transactional email in one tool</div></a><a class="tool-card" href="/tools/sendgrid/"><div class="name">Twilio SendGrid</div><div class="tagline">Scalable email delivery API with AI-powered deliverability and engagement tools</div></a><a class="tool-card" href="/tools/notifo/"><div class="name">Notifo</div><div class="tagline">Self-hosted multi-channel notification service for email, SMS, and web push</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/martech-budget-bleeding-nobody-measuring/">Your Martech Budget Is Bleeding and Nobody's Measuring It</a></li><li><a href="/blog/claude-seo-v231-four-graders/">Four Graders, One Site: What Five Claude SEO Scores Measure</a></li></ul></section>
   </div>
   <aside class="sidebar">

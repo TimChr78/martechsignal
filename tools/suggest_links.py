@@ -396,3 +396,48 @@ def suggest_category_fill(text: str, max_suggestions: int = 2, exclude_slugs: se
         if len(out) >= max_suggestions:
             break
     return out
+
+
+_COMMERCIAL_CACHE = None
+
+
+def get_commercial_pages() -> list:
+    """A2 C1 (2026-09-26): the /best/, /vs/ and /alternatives/ commercial layer had
+    zero inbound internal links (six of nine pages orphaned). These guides join the
+    linking pool so every post can point at the comparison page its text matches."""
+    global _COMMERCIAL_CACHE
+    if _COMMERCIAL_CACHE is not None:
+        return _COMMERCIAL_CACHE
+    import re
+    root = Path(__file__).resolve().parent.parent
+    items = []
+    for prefix in ("alternatives", "best", "vs"):
+        d = root / prefix
+        if not d.is_dir():
+            continue
+        for sub in sorted(d.iterdir()):
+            f = sub / "index.html"
+            if not f.exists():
+                continue
+            html = f.read_text()
+            m = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+            title = re.sub(r"<[^>]+>", "", m.group(1)).strip() if m else sub.name.replace("-", " ").title()
+            items.append({"url": f"/{prefix}/{sub.name}/", "title": title,
+                          "kw": keywords(extract_text(html))})
+    _COMMERCIAL_CACHE = items
+    return items
+
+
+def suggest_commercial_for_text(text: str, max_suggestions: int = 2) -> list:
+    """Deterministic affinity match between a post and the commercial guides.
+    Pure function of content (no rotation) so builds stay byte-stable."""
+    items = get_commercial_pages()
+    if not items:
+        return []
+    draft_kw = keywords(text)
+    scored = sorted(((score_overlap(draft_kw, it["kw"]), it["url"], it) for it in items),
+                    key=lambda s: (-s[0], s[1]))
+    out = [it for sc, _, it in scored if sc > 0][:max_suggestions]
+    if not out:
+        out = [it for _, _, it in scored[:max_suggestions]]
+    return out

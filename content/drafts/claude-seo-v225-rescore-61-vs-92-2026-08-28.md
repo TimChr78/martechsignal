@@ -2,7 +2,6 @@
 title: "Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right."
 slug: claude-seo-v225-rescore-61-vs-92
 date: 2026-08-28
-canonical: https://martechsignal.com/blog/claude-seo-v231-four-graders/
 author: Tim Christensen
 tags: [AI, SEO, Agent Skills, Quality]
 categories: [agent-skills]

@@ -213,7 +213,7 @@
 - [Salesforce's third no-code promise, audited](https://martechsignal.com/blog/salesforce-third-no-code-promise/) (2026-09-21)
 - [Five Claude SEO Scores, Four Graders: None Compare](https://martechsignal.com/blog/claude-seo-v231-four-graders/) (2026-09-18)
 - [Claude SEO vs Seonaut: which free SEO checker wins](https://martechsignal.com/blog/claude-seo-vs-seonaut/) (2026-09-17)
-- [Claude SEO vs Semrush: what a free audit replaces](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-16)
+- [Claude SEO vs Semrush: What It Replaces and What Not](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-16)
 - [Claude SEO vs Codex SEO: same audit, pick your agent](https://martechsignal.com/blog/claude-seo-vs-codex-seo/) (2026-09-15)
 - [Fifty days of open-source MarTech, audited](https://martechsignal.com/blog/oss-martech-50-day-checkin/) (2026-09-14)
 - [Most of your marketing AI agents should be if/then](https://martechsignal.com/blog/determinism-audit/) (2026-09-11)
@@ -228,20 +228,20 @@
 - [Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.](https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/) (2026-08-28)
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) (2026-08-27)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/) (2026-08-26)
-- [Link Building Won't Get You Into AI Answers](https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/) (2026-08-25)
-- [I Ran Claude SEO on My Own Site. It Found What](https://martechsignal.com/blog/claude-seo-teardown-martechsignal/) (2026-08-24)
+- [Community Signals Beat Links for AI Answers](https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/) (2026-08-25)
+- [Claude SEO on My Own Site: What Our Pipeline Missed](https://martechsignal.com/blog/claude-seo-teardown-martechsignal/) (2026-08-24)
 - [Your Dashboard Can't See AI Search: 5-Layer Fix](https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/) (2026-08-22)
 - [Deliverability in the AI-Spam Era Is a Content Problem](https://martechsignal.com/blog/deliverability-ai-spam-content-problem/) (2026-08-21)
-- [You Don't Need a New Data Stack for AI , Fivetran](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
+- [Fivetran Proved You Don't Need a New Data Stack](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
 - [CI Tools: The First Category AI Killed](https://martechsignal.com/blog/ci-tools-were-the-first-martech-category-ai-killed/) (2026-08-18)
 - [Google Handed Your Ad Budget to AI Agents](https://martechsignal.com/blog/google-ad-agents-control-gap/) (2026-08-17)
 - [Multi-Touch Attribution Was Always a Fiction](https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/) (2026-08-14)
 - [Your Agents Are Only as Smart as Your Identity Debt](https://martechsignal.com/blog/agents-identity-debt/) (2026-08-13)
 - [Agentforce Is Free: What Marketing Ops Can Build](https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/) (2026-08-07)
 - [Your Martech Budget Is Bleeding and Nobody's Me](https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/) (2026-08-06)
-- [OpenAI Isn't Building Ads. It's Building Agents](https://martechsignal.com/blog/openai-agent-ads-spending-without-you/) (2026-08-05)
+- [OpenAI Is Building Agents That Spend Without You](https://martechsignal.com/blog/openai-agent-ads-spending-without-you/) (2026-08-05)
 - [AI Agents Need Campaign State, Not Prompts](https://martechsignal.com/blog/ai-agents-need-campaign-state/) (2026-08-03)
-- [Google Doesn't Need Your Site Anymore. You Taught It](https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/) (2026-07-31)
+- [You Taught Google Everything It Knows](https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/) (2026-07-31)
 - [Claude Cowork is eating the edges of your martech stack](https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/) (2026-07-30)
 - [MCP Rewrites the Integration Economics of Your Stack](https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/) (2026-07-29)
 - [n8n + AI: The Open-Source Automation Engine](https://martechsignal.com/blog/n8n-ai-open-source-automation/) (2026-07-28)
@@ -312,3 +312,8 @@
 - [Contact](https://martechsignal.com/contact/)
 - [Corrections](https://martechsignal.com/corrections/)
 - [RSS feed](https://martechsignal.com/rss.xml)
+
+## Machine-readable data
+
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 160 records = 158 active + 2 non-active; the directory above lists only active tools
+- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

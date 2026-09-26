@@ -1,6 +1,6 @@
 ---
 title: "OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You."
-seo_title: "OpenAI Isn't Building Ads. It's Building Agents"
+seo_title: "OpenAI Is Building Agents That Spend Without You"
 slug: openai-agent-ads-spending-without-you
 date: 2026-08-05
 author: Tim Christensen

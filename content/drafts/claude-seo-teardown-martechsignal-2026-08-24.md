@@ -1,9 +1,8 @@
 ---
 title: "I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed."
-seo_title: "I Ran Claude SEO on My Own Site. It Found What"
+seo_title: "Claude SEO on My Own Site: What Our Pipeline Missed"
 slug: claude-seo-teardown-martechsignal
 date: 2026-08-24
-canonical: https://martechsignal.com/blog/claude-seo-v231-four-graders/
 author: Tim Christensen
 tags: [Agent Skills, SEO]
 categories: [agent-skills]

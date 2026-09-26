@@ -5,3 +5,4 @@
 
 # R3-H7 (2026-09-17, Tim): glossary merge - hard cannibalization
 /glossary/attribution/ /glossary/marketing-attribution-models/ 301
+/tools.json /catalog-tools.json 301

@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Scalable email delivery API with AI-powered deliverability and engagement tools",
     "url": "https://sendgrid.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/sendgrid/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-08-28",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 19.95,
       "priceCurrency": "USD",
       "url": "https://www.twilio.com/en-us/products/email-api/pricing",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Twilio SendGrid a good Email Marketing tool in 2026?",
+        "name": "Is Twilio SendGrid worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work."
@@ -130,7 +114,14 @@
     "@type": "Review",
     "author": {
       "@type": "Person",
-      "name": "Tim Christensen"
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
     "reviewBody": "Twilio SendGrid remains a proven email delivery platform with published entry pricing and clear per-tier limits on volume, teammates, and webhooks. The marketing campaign side is thin next to dedicated email platforms, and the free entry point is a 60-day trial rather than a permanent free tier.",
@@ -147,21 +138,22 @@
     }
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/sendgrid/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/email-marketing/">Email Marketing</a></li> / <li><span aria-current="page">Twilio SendGrid</span></li></ol></nav>
 <section class="page-head">
-  <h1>Twilio SendGrid pricing &amp; plans</h1>
+  <h1>Twilio SendGrid pricing: free tier and paid plans</h1>
   <p class="sub">Scalable email delivery API with AI-powered deliverability and engagement tools</p>
   <p class="count">Email Marketing · Freemium</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-08-28">2026-08-28</time></p>
@@ -171,8 +163,8 @@
 <div class="detail">
   <div class="detail-main">
     <h2>Overview</h2>
-    <p>Twilio SendGrid is one of the largest email delivery platforms in the world, processing tens of billions of emails per month for customers including Uber, Spotify, and Yelp. Founded in 2009 and acquired by Twilio in 2018 for $2 billion, SendGrid provides both transactional email delivery via API/SMTP and marketing email capabilities through its Marketing Campaigns product. The Email API is its core: developers integrate via REST or SMTP, using dynamic templates with Handlebars syntax, webhook-based event tracking, and SDKs in Python, Node.js, Ruby, PHP, Go, C#, and Java. The Marketing Campaigns side includes a drag-and-drop email builder, contact list management, segmentation, and basic automation. SendGrid&#x27;s entry offer is a free trial of 100 emails/day for 60 days, not a permanent free tier (verified against Twilio&#x27;s pricing page in September 2026); the Essentials plan starts at $19.95/month for 50,000 emails/month, with a dedicated IP available at the Pro tier ($89.95/month for 100,000 emails). Its main advantages are scale (proven at billions of messages), language support breadth, and Twilio ecosystem integration (mixing email with SMS, Voice, and WhatsApp via Twilio&#x27;s platform). The downsides: the product has grown complex over 15 years, the UI can feel dated compared to newer entrants like Resend, and support quality has been an ongoing complaint since the Twilio acquisition. For teams already in the Twilio ecosystem or sending high-volume transactional email, SendGrid remains a safe, proven choice. For teams starting fresh with a modern stack, Resend or Postmark may offer a sharper developer experience at similar price points.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/sendgrid-2026-09.webp"><img src="/og/screenshots/sendgrid-2026-09.png" alt="Screenshot of the Twilio SendGrid homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Twilio SendGrid homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <p>Twilio SendGrid is one of the largest email delivery platforms in the world, processing tens of billions of emails per month for customers including Uber, Spotify, and Yelp. Founded in 2009 and acquired by Twilio in 2018 for $2 billion, SendGrid provides both transactional email delivery via API/SMTP and marketing email capabilities through its Marketing Campaigns product. The Email API is its core: developers integrate via REST or SMTP, using dynamic templates with Handlebars syntax, webhook-based event tracking, and SDKs in Python, Node.js, Ruby, PHP, Go, C#, and Java. The Marketing Campaigns side includes a drag-and-drop email builder, contact list management, segmentation, and basic automation. SendGrid&#x27;s entry offer is a free trial of 100 emails/day for 60 days, not a permanent free tier (verified against Twilio&#x27;s pricing page in September 2026); the Essentials plan starts at $19.95/month for 50,000 emails/month, with a dedicated IP available on the custom-quoted Pro tier. Its main advantages are scale (proven at billions of messages), language support breadth, and Twilio ecosystem integration (mixing email with SMS, Voice, and WhatsApp via Twilio&#x27;s platform). The downsides: the product has grown complex over 15 years, the UI can feel dated compared to newer entrants like Resend, and support quality has been an ongoing complaint since the Twilio acquisition. For teams already in the Twilio ecosystem or sending high-volume transactional email, SendGrid remains a safe, proven choice. For teams starting fresh with a modern stack, Resend or Postmark may offer a sharper developer experience at similar price points.</p>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/sendgrid-2026-09.webp" alt="Screenshot of the Twilio SendGrid homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Twilio SendGrid homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>AI deliverability optimization</li><li>AI engagement insights</li><li>Smart send-time optimization</li><li>AI subject line testing</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Twilio</span><span>Salesforce</span><span>Shopify</span><span>Zapier</span><span>Slack</span><span>WordPress</span><span>Segment</span><span>Snowflake</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Twilio SendGrid is freemium, with a free tier to start, paid plans start at $19.95/mo as of 2026-08.</p><p>Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.twilio.com/en-us/products/email-api/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Twilio SendGrid">Twilio SendGrid pricing page</a>.</p></section>
@@ -180,8 +172,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: AI deliverability optimization</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $19.95/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include Twilio, Salesforce, Shopify (8 listed)</td><td><span style="color:var(--red-text)">&#10007;</span> Closed source - no self-hosting option</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Twilio SendGrid?</summary><p>Scalable email delivery API with AI-powered deliverability and engagement tools. It ships with AI deliverability optimization, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Twilio SendGrid cost?</summary><p>Twilio SendGrid has a free tier; paid plans start at $19.95/mo.</p></details><details class="faq-item"><summary>Is Twilio SendGrid a good Email Marketing tool in 2026?</summary><p>Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a><a class="tool-card" href="/tools/mailchimp/"><div class="name">Mailchimp</div><div class="tagline">All-in-one marketing platform with AI-powered email, automation, and analytics</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/klaviyo/"><div class="name">Klaviyo</div><div class="tagline">AI-powered email and SMS marketing platform built for ecommerce brands</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li><li><a href="/blog/geo-experiments-vs-ai-visibility-playbook/">AI visibility advice, audited against 775 logged citations</a></li><li><a href="/blog/oss-momentum-tracker-september-2026/">Where open-source martech momentum actually lives</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Twilio SendGrid?</summary><p>Scalable email delivery API with AI-powered deliverability and engagement tools. It ships with AI deliverability optimization, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Twilio SendGrid cost?</summary><p>Twilio SendGrid has a free tier; paid plans start at $19.95/mo.</p></details><details class="faq-item"><summary>Is Twilio SendGrid worth it past the free tier?</summary><p>Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/mailchimp/"><div class="name">Mailchimp</div><div class="tagline">All-in-one marketing platform with AI-powered email, automation, and analytics</div></a><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/klaviyo/"><div class="name">Klaviyo</div><div class="tagline">AI-powered email and SMS marketing platform built for ecommerce brands</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li><li><a href="/blog/geo-experiments-vs-ai-visibility-playbook/">AI visibility advice, audited against 775 logged citations</a></li><li><a href="/blog/oss-momentum-tracker-september-2026/">Where open-source martech momentum actually lives</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

@@ -6,7 +6,7 @@ Everything on MartechSignal follows one evidence standard and one scoring rubric
 
 ## How we evaluate
 
-Every assessment is researched from public documentation, the source repository when the product is open, and vendor materials including pricing pages. We do not run the tools and we do not claim to. Where a page depends on a specific fact (a price, an integration count, a release cadence), the fact is stated with its source and its verification date.
+Every assessment is researched from public documentation, the source repository when the product is open, and vendor materials including pricing pages. Running the tools is not our default and we do not claim it. Where a page does report hands-on work, that page says exactly what was run and discloses any relationship to the product on its face. Where a page depends on a specific fact (a price, an integration count, a release cadence), the fact is stated with its source and its verification date.
 
 Prices appear only as the vendor publishes them, statistics only from the named source, and no synthetic performance data. Where a question only hands-on testing can answer, the page says so.
 

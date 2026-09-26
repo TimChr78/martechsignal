@@ -153,6 +153,11 @@ def main():
     if dry:
         print(section)
         return
+    # A2 L1 (2026-09-26): the homepage cache-bust literal went stale again; sync it
+    # to the same md5[:8] scheme page_shell uses so it can never drift.
+    import hashlib as _h
+    _cv = _h.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
+    new_html = re.sub(r'style\.css\?v=[a-f0-9]+', f'style.css?v={_cv}', new_html, count=1)
     INDEX.write_text(new_html)
     print(f"Homepage tool index rewritten: {total} total, top rows: "
           + ", ".join(f"{r['slug']}({r['impr']} impr/{r['stars']}*)" for r in picks))

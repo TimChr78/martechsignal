@@ -335,6 +335,13 @@ def build_post(meta: dict, body_html: str) -> str:
     if related_tools:
         tlinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['name'], quote=False) + '</a> - ' + html.escape(item.get('tagline',''), quote=False) + '</li>' for item in related_tools)
         body_html += '<section class="related-tools"><h2>Related tools</h2><ul>' + tlinks + '</ul></section>'
+
+    # A2 C1 (2026-09-26): comparison guides join the post-linking layer (the
+    # /best/ + /vs/ + /alternatives/ pages were orphaned with zero inlinks).
+    commercial = suggest_links.suggest_commercial_for_text(body_html, max_suggestions=2)
+    if commercial:
+        clinks = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in commercial)
+        body_html += '<section class="related-reading"><h2>Comparison guides</h2><ul>' + clinks + '</ul></section>'
         existing_tool_slugs.update(item['slug'] for item in related_tools)
 
     # Blog -> Glossary: suggest up to 2 glossary terms via keyword overlap
@@ -384,6 +391,13 @@ def build_post(meta: dict, body_html: str) -> str:
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
         "image": f"https://martechsignal.com/og/{slug}.png",
+        # A2 M7 (2026-09-26): link the post into the Blog node and carry the
+        # article fields Google's article cluster reads.
+        "isPartOf": {"@type": "Blog",
+                     "@id": "https://martechsignal.com/blog/#blog"},
+        "inLanguage": "en",
+        "wordCount": len(re.sub(r"<[^>]+>", " ", body_html).split()),
+        "articleSection": ", ".join(meta.get("categories") or ([meta["category"]] if meta.get("category") else []) or []),
     }
     breadcrumb_schema = {
         "@context": "https://schema.org",
@@ -414,6 +428,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{canon}">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/blog/{slug}/index.md">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
@@ -435,7 +450,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <div id="progress" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
@@ -445,6 +460,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
+<img class="post-hero" src="/og/{slug}.png" alt="" width="1200" height="630" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
 <p class="meta"><time datetime="{date_str}">{date_display}</time></p>
 <div class="byline">
   <span class="av">TC</span>
@@ -520,9 +536,11 @@ def build_index(posts: list) -> str:
     item_list = {
         "@context": "https://schema.org",
         "@type": "Blog",
+        "@id": "https://martechsignal.com/blog/#blog",
         "name": "MartechSignal Blog",
         "url": "https://martechsignal.com/blog/",
         "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
+        "inLanguage": "en",
         "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "blogPost": [
             {
@@ -530,6 +548,7 @@ def build_index(posts: list) -> str:
                 "headline": p['title'],
                 "url": f"https://martechsignal.com/blog/{p.get('slug', slugify(p['title']))}/",
                 "datePublished": p['date'],
+                "isPartOf": {"@id": "https://martechsignal.com/blog/#blog"},
             }
             for p in posts_sorted
         ],
@@ -574,7 +593,7 @@ def build_index(posts: list) -> str:
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>

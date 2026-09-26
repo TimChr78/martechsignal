@@ -6,7 +6,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 9,
-          "evidence": "tools.json price_notes publishes Cloud Pro at $9 per user per month billed yearly, Organization at $19, Enterprise from $50,000 a year, and free self-hosting, and the Twenty tool page documents no limits on objects or fields on any plan."
+          "evidence": "the pricing block publishes Cloud Pro at $9 per user per month billed yearly, Organization at $19, Enterprise from $50,000 a year, and free self-hosting, and the Twenty tool page documents no limits on objects or fields on any plan."
         },
         "feature_depth": {
           "score": 8,
@@ -37,7 +37,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 8,
-          "evidence": "tools.json price_notes publishes the single hosted plan at $9 per month or $90 per year with unlimited contacts, managed backups, and data export plus free AGPL self-hosting, so the entire tier table is one fully documented row."
+          "evidence": "the pricing block publishes the single hosted plan at $9 per month or $90 per year with unlimited contacts, managed backups, and data export plus free AGPL self-hosting, so the entire tier table is one fully documented row."
         },
         "feature_depth": {
           "score": 4,
@@ -68,7 +68,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 5,
-          "evidence": "tools.json price_notes states free MIT self-hosting with no user caps or feature paywall while Bottle CRM managed hosting prices are not published in our sources, so only the entry price is documented and the hosted tiers stay opaque."
+          "evidence": "the pricing block states free MIT self-hosting with no user caps or feature paywall while Bottle CRM managed hosting prices are not published in our sources, so only the entry price is documented and the hosted tiers stay opaque."
         },
         "feature_depth": {
           "score": 8,
@@ -130,7 +130,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 8,
-          "evidence": "tools.json price_notes publishes free community self-hosting with a 1,000 API call per day cap and enterprise tiers at ¥30,000, ¥60,000, and ¥120,000 per year with flagship adding hot-standby high availability, though DataEase embedding costs are separate and unpublished."
+          "evidence": "the pricing block publishes free community self-hosting with a 1,000 API call per day cap and enterprise tiers at ¥30,000, ¥60,000, and ¥120,000 per year with flagship adding hot-standby high availability, though DataEase embedding costs are separate and unpublished."
         },
         "feature_depth": {
           "score": 8,
@@ -192,7 +192,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 8,
-          "evidence": "tools.json price_notes publishes free AGPL self-hosting plus Frappe Cloud hosting from $5 per month per site and dedicated servers from $20 to $60 per month, with unlimited leads, deals, and users documented on all plans."
+          "evidence": "the pricing block publishes free AGPL self-hosting plus Frappe Cloud hosting from $5 per month per site and dedicated servers from $20 to $60 per month, with unlimited leads, deals, and users documented on all plans."
         },
         "feature_depth": {
           "score": 8,
@@ -223,7 +223,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 0,
-          "evidence": "tools.json price_notes and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request."
+          "evidence": "the pricing block and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request."
         },
         "feature_depth": {
           "score": 9,
@@ -285,7 +285,7 @@
       "pillars": {
         "pricing_transparency": {
           "score": 8,
-          "evidence": "tools.json price_notes documents that the tool is free under GPLv3 with every external cost published, including BetterContact at one credit per verified work email and a free account of 40 credits with no card, though there are no paid tiers to compare."
+          "evidence": "the pricing block documents that the tool is free under GPLv3 with every external cost published, including BetterContact at one credit per verified work email and a free account of 40 credits with no card, though there are no paid tiers to compare."
         },
         "feature_depth": {
           "score": 7,

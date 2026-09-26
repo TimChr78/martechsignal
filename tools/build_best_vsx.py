@@ -104,6 +104,14 @@ def build_best():
     return built
 
 
+def _plabel(t):
+    try:
+        from build_tools import pricing_label
+        return pricing_label(t)
+    except Exception:
+        return str(t.get("price_notes") or t.get("price_from") or "see page")
+
+
 def build_vs():
     data = json.loads(VSX.read_text())
     tools_by_slug = _load_tools()
@@ -118,13 +126,36 @@ def build_vs():
             body.append(f"<p>{esc(para)}</p>")
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
+        # A2 H6 (2026-09-26): the copy promises "the catalog numbers below" - this
+        # table is those numbers, straight from the catalog (no invented figures).
+        rows = [
+            ("Pricing", _plabel(a), _plabel(b)),
+            ("Open source", "yes" if a.get("open_source") else "no",
+             "yes" if b.get("open_source") else "no"),
+            ("Integrations listed", str(a.get("integrations") or "not listed"),
+             str(b.get("integrations") or "not listed")),
+            ("Public API", "yes" if a.get("api_available") else "no",
+             "yes" if b.get("api_available") else "no"),
+        ]
+        body.append('<div class="table-wrap"><table><thead><tr>'
+                    f'<th scope="col">Dimension</th><th scope="col">{esc(a["name"])}</th>'
+                    f'<th scope="col">{esc(b["name"])}</th></tr></thead><tbody>')
+        for label, av, bv in rows:
+            body.append(f'<tr><th scope="row">{esc(label)}</th><td>{esc(str(av))}</td><td>{esc(str(bv))}</td></tr>')
+        body.append('</tbody></table></div>')
         for sec in page["sections"]:
-            body.append(f'<h2>{esc(sec["heading"])}</h2>')
+            # A2 L17: a content section repeating the verdict heading broke
+            # heading-based navigation; fold it under a distinct heading.
+            h = sec["heading"]
+            if h.strip().lower() == "who should pick which":
+                h = "Decision notes"
+            body.append(f'<h2>{esc(h)}</h2>')
             body.append(f'<p><strong>{esc(a["name"])}:</strong> {esc(sec["a"])}</p>')
             body.append(f'<p><strong>{esc(b["name"])}:</strong> {esc(sec["b"])}</p>')
         body.append(f'<h2>Who should pick which</h2>')
-        body.append(f'<p><strong>Pick {esc(a["name"])} if:</strong> {esc(page["pick_a_if"])}</p>')
-        body.append(f'<p><strong>Pick {esc(b["name"])} if:</strong> {esc(page["pick_b_if"])}</p>')
+        body.append('<dl class="vs-verdict">'
+                    f'<dt>Pick {esc(a["name"])} if</dt><dd>{esc(page["pick_a_if"])}</dd>'
+                    f'<dt>Pick {esc(b["name"])} if</dt><dd>{esc(page["pick_b_if"])}</dd></dl>')
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
                     '<a href="/methodology/">how we evaluate</a>.</p>')
@@ -141,11 +172,24 @@ def build_vs():
                  "item": f"https://martechsignal.com/vs/{page['slug']}/"},
             ],
         }
+        # A2 H6: the comparison page declares its primary entity pair (plain
+        # references - the offers-gated state machine governs product typing).
+        entity = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": page["title"],
+            "url": f"https://martechsignal.com/vs/{page['slug']}/",
+            "inLanguage": "en",
+            "about": [
+                {"@type": "Thing", "name": a["name"], "url": a.get("website", "")},
+                {"@type": "Thing", "name": b["name"], "url": b.get("website", "")},
+            ],
+        }
         out_dir = VS_DIR / page["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(page_shell(
             page["seo_title"], page["meta"], f"/vs/{page['slug']}/",
-            "\n".join(body), [breadcrumb]))
+            "\n".join(body), [entity, breadcrumb]))
         built.append(page["slug"])
     print(f"vs pages built: {len(built)} ({', '.join(built)})")
     return built

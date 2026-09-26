@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Open source workspace with a self-updating, agent-driven CRM and shared AI team memory",
     "url": "https://macro.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/macro/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-08-13",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 40,
       "priceCurrency": "USD",
       "url": "https://macro.com/pricing",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Macro a good CRM tool in 2026?",
+        "name": "Is Macro worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project's age."
@@ -142,21 +126,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/macro/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/crm/">CRM</a></li> / <li><span aria-current="page">Macro</span></li></ol></nav>
 <section class="page-head">
-  <h1>Macro pricing &amp; plans</h1>
+  <h1>Macro pricing: free tier and paid plans</h1>
   <p class="sub">Open source workspace with a self-updating, agent-driven CRM and shared AI team memory</p>
   <p class="count">CRM · Freemium · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -167,7 +152,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Macro is an open-source workspace that folds email, chat, docs, tasks, calls, and a CRM into one app, built in Rust and SolidJS with the speed obsession to show for it. The premise is that AI agents are only as good as the context they can see, and team context is scattered across a dozen SaaS tools. The whole product sits in the repo: the README says fully open source, not open core, under AGPL-3.0, a switch from the Business Source License made on May 31, 2026, so the license is only months old. The CRM is the part marketing teams will ask about first, and the docs are precise about what it is. Contact and company records build themselves from your team&#x27;s email: a contact appears when a teammate messages an external person, and companies roll up by email domain. There is no separate deal entity. Pipeline stages from Lead through Customer and Churned live on company records with Stage, Owner, Revenue, and Last Interaction properties, and the docs state plainly that while records create themselves, stages are all manual. Around the CRM sit Signal and Noise email triage, drafting in your voice that sends only on approval, team memory rebuilt nightly from the day&#x27;s activity, agents that take a task and report back, calls recorded and transcribed into that memory, and an MCP server outside agents reach with a one-line connection command. Pricing is free for personal use and $40 per seat per month for the first five seats, then $80 per seat, with no free team plan; team-level agent memory and auto-shared email and CRM are paid features. The security posture is unusually strong for a project this young: SOC 2 Type II, ISO 27001, HIPAA with a BAA, GDPR, and US plus EU data regions. This assessment is from the repository, the docs, and the site.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/macro-2026-09.webp"><img src="/og/screenshots/macro-2026-09.png" alt="Screenshot of the Macro homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Macro homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/macro-2026-09.webp" alt="Screenshot of the Macro homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Macro homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Agent-driven CRM that builds contact and company records from your team&#x27;s email</li><li>Pipeline stages on company records (no deal entity); stage moves are manual</li><li>Team-level agent memory rebuilt nightly from workspace activity (paid)</li><li>Signal/Noise email triage with auto-tagging</li><li>Email drafting in your voice that sends only on approval</li><li>Agents that take tasks, close them, and report back, on a schedule if you want</li><li>Calls recorded and transcribed into team memory</li><li>MCP server exposing unified workspace search, including PDFs parsed from attachments</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>Gmail</span><span>Google Workspace</span><span>GitHub</span><span>MCP</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Macro is freemium, with a free tier to start, paid plans from $40/mo as of 2026-09.</p><p>Free for personal use (Sent with Macro signature, storage and AI limits). Teams: $40/seat/mo for the first 5 seats, then $80/seat; no free team plan. Team memory and shared email/CRM are paid. Self-hosting is free under AGPL-3.0.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://macro.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Macro">Macro pricing page</a>.</p></section>
@@ -175,8 +160,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AGPL-3.0 licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> Paid plans start at $40/mo once past the free tier</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: agent-driven CRM that builds contact and company records from your team&#x27;s email</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (4,268 GitHub stars)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/crm/">CRM</a> <a href="/glossary/lead-scoring/">Lead scoring</a> <a href="/glossary/mql-sql/">MQL / SQL</a> <a href="/glossary/customer-journey/">Customer journey</a> <a href="/glossary/first-party-data/">First-party data</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Macro?</summary><p>Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. It ships with agent-driven CRM that builds contact and company records from your team&#x27;s email, 4,268 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Macro cost?</summary><p>Macro has a free tier; paid plans start at $40/mo.</p></details><details class="faq-item"><summary>Is Macro a good CRM tool in 2026?</summary><p>A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project&#x27;s age.</p></details><details class="faq-item"><summary>Macro vs Attio: which should a sales team pick?</summary><p>Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.</p></details><details class="faq-item"><summary>Can you self-host Macro?</summary><p>Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/paperclip/"><div class="name">Paperclip</div><div class="tagline">Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</div></a><a class="tool-card" href="/tools/eve-marketing-team/"><div class="name">Eve Marketing Team Template</div><div class="tagline">Open-source team of marketing agents on eve: lead, content, social, SEO, email</div></a><a class="tool-card" href="/tools/cordys-crm/"><div class="name">Cordys CRM</div><div class="tagline">Open-source AI CRM with built-in agents, conversational analytics, and private deployment</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/automation-blast-radius-audit/">Before your next automation, run the blast radius audit</a></li><li><a href="/blog/determinism-audit/">Most of your marketing AI agents should be if/then</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Macro?</summary><p>Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. It ships with agent-driven CRM that builds contact and company records from your team&#x27;s email, 4,268 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Macro cost?</summary><p>Macro has a free tier; paid plans start at $40/mo.</p></details><details class="faq-item"><summary>Is Macro worth it past the free tier?</summary><p>A genuinely open-source workspace whose CRM is a byproduct of team email: real for contact capture and context, not yet a pipeline tool. The license is new, the pace is fast, and the compliance posture is far ahead of the project&#x27;s age.</p></details><details class="faq-item"><summary>Macro vs Attio: which should a sales team pick?</summary><p>Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.</p></details><details class="faq-item"><summary>Can you self-host Macro?</summary><p>Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/freshsales/"><div class="name">Freshsales</div><div class="tagline">AI-powered CRM with built-in phone, email, and chat for sales teams</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/paperclip/"><div class="name">Paperclip</div><div class="tagline">Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit</div></a><a class="tool-card" href="/tools/eve-marketing-team/"><div class="name">Eve Marketing Team Template</div><div class="tagline">Open-source team of marketing agents on eve: lead, content, social, SEO, email</div></a><a class="tool-card" href="/tools/cordys-crm/"><div class="name">Cordys CRM</div><div class="tagline">Open-source AI CRM with built-in agents, conversational analytics, and private deployment</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li><li><a href="/blog/automation-blast-radius-audit/">Before your next automation, run the blast radius audit</a></li><li><a href="/blog/google-ads-ai-guardrails/">The guardrails Google won't ship for your AI ad account</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

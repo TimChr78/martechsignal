@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 14:48:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 18:16:21 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Where open-source martech momentum actually lives</title>
@@ -197,7 +197,7 @@
       <description>Two years ago the email go-to-market playbook was a DNS checklist: publish SPF, sign with DKIM, throw up a DMARC record, and your mail got to the inbox. That playbook is now table </description>
     </item>
     <item>
-      <title>You Don't Need a New Data Stack for AI , Fivetran Just Proved It</title>
+      <title>You Don't Need a New Data Stack for AI. Fivetran Just Proved It</title>
       <link>https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>

@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Open-source platform for building admin panels and internal dashboards on your existing databases and APIs",
     "url": "https://appsmith.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/appsmith/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-09-05",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "USD",
       "url": "https://www.appsmith.com/pricing",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is Appsmith a good Workflow Automation tool in 2026?",
+        "name": "Is Appsmith a good self-hosted Workflow Automation tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/appsmith/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/workflow-automation/">Workflow Automation</a></li> / <li><span aria-current="page">Appsmith</span></li></ol></nav>
 <section class="page-head">
-  <h1>Appsmith pricing &amp; plans</h1>
+  <h1>Appsmith pricing: open core and paid tiers</h1>
   <p class="sub">Open-source platform for building admin panels and internal dashboards on your existing databases and APIs</p>
   <p class="count">Workflow Automation · Free tier · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 40,826 stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/appsmith-2026-09.webp"><img src="/og/screenshots/appsmith-2026-09.png" alt="Screenshot of the Appsmith homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Appsmith homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/appsmith-2026-09.webp" alt="Screenshot of the Appsmith homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">Appsmith homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     <h2>AI Capabilities</h2><ul class="feat-list"><li>Ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3)</li><li>Appsmith AI datasource (deprecated; ends September 30, 2026)</li></ul>
     <h2>Key Integrations</h2><div class="integ-list"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Snowflake</span><span>Redshift</span><span>DynamoDB</span><span>Elasticsearch</span><span>S3</span><span>HubSpot</span><span>Salesforce</span><span>Google Sheets</span><span>Airtable</span><span>REST / GraphQL</span></div>
     <section class="pricing-block"><h2>Pricing</h2><p>Appsmith is open core: the self-hosted version is free.</p><p>Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.appsmith.com/pricing" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="Appsmith">Appsmith pricing page</a>.</p></section>
@@ -183,7 +168,7 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> Apache-2.0 licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (40,849 GitHub stars)</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Native integrations include PostgreSQL, MySQL, MongoDB (13 listed)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/workflow-automation/">Workflow automation</a> <a href="/glossary/agentic-marketing/">Agentic Marketing</a> <a href="/glossary/mcp/">MCP</a> <a href="/glossary/ai-agent/">AI Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Appsmith?</summary><p>Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. It ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3), 40,849 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Appsmith cost?</summary><p>Appsmith is open source - Apache-2.0 licensed and free to self-host; the public repository carries 40,849 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Appsmith a good Workflow Automation tool in 2026?</summary><p>The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.</p></details><details class="faq-item"><summary>Is Appsmith free for commercial use?</summary><p>Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.</p></details><details class="faq-item"><summary>Appsmith vs Retool: what&#x27;s the difference?</summary><p>Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith&#x27;s own comparison content frames itself as the developer-centric, open-source alternative to Retool&#x27;s closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.</p></details><details class="faq-item"><summary>Which databases and SaaS tools does Appsmith connect to?</summary><p>Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.</p></details></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Appsmith?</summary><p>Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. It ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3), 40,849 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Appsmith cost?</summary><p>Appsmith is open source - Apache-2.0 licensed and free to self-host; the public repository carries 40,849 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Appsmith a good self-hosted Workflow Automation tool in 2026?</summary><p>The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.</p></details><details class="faq-item"><summary>Is Appsmith free for commercial use?</summary><p>Yes, for the community edition: the repo is Apache 2.0, so self-hosting for internal business use costs nothing, with no seat limits in the license itself. What is paid is the edition rather than the right to use it. The recommended appsmith-ee image is the commercial build on a free plan, and features such as SAML or OIDC SSO, SCIM provisioning, audit logs, custom roles and private app embedding unlock on Business ($15 per user monthly) or Enterprise (from $2,500 per month for 100 users). Install the appsmith-ce image if you want only what the open-source repo carries.</p></details><details class="faq-item"><summary>Appsmith vs Retool: what&#x27;s the difference?</summary><p>Retool is a hosted commercial platform; Appsmith is Apache 2.0 and self-hostable, so the app runtime and your data stay on your infrastructure and the community edition carries no per-builder fee. Appsmith&#x27;s own comparison content frames itself as the developer-centric, open-source alternative to Retool&#x27;s closed source and scaling costs. The practical trade: Retool gives you a managed service with polished connectors and support out of the box, while Appsmith gives you ownership and git-based workflows but you run the container, the upgrades and the 8 GB host yourself.</p></details><details class="faq-item"><summary>Which databases and SaaS tools does Appsmith connect to?</summary><p>Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server, Oracle, Snowflake, Redshift, Databricks, DynamoDB, Firestore, Elasticsearch, Redis, ArangoDB, S3 and SMTP, plus any REST or GraphQL API. SaaS connectors cover HubSpot, Salesforce, Google Sheets, Google Drive, Airtable, Jira, Notion, Mixpanel, Monday.com, Linear, GitHub, Gmail and Outlook, among others. Marketing teams usually pair it with a warehouse or call ad platform APIs directly rather than expecting deep native marketing connectors; the queries are SQL or JavaScript you write.</p></details></section>
     <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/tooljet/"><div class="name">ToolJet</div><div class="tagline">Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps</div></a><a class="tool-card" href="/tools/budibase/"><div class="name">Budibase</div><div class="tagline">Open-source operations platform for building AI agents, apps and automations on your own data</div></a><a class="tool-card" href="/tools/n8n/"><div class="name">n8n</div><div class="tagline">Open-source workflow automation platform with AI agent capabilities and 400+ nodes</div></a><a class="tool-card" href="/tools/jitsu/"><div class="name">Jitsu</div><div class="tagline">Open-source Segment alternative for event capture and warehouse-first data pipelines</div></a><a class="tool-card" href="/tools/n8n-marketing-flows/"><div class="name">n8n Marketing Flows</div><div class="tagline">79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li><li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">NocoBase vs NocoDB vs Budibase: pick by team shape</a></li></ul></section>
   </div>
   <aside class="sidebar">

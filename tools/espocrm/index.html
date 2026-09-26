@@ -24,8 +24,10 @@
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
     "@context": "https://schema.org",
@@ -35,26 +37,8 @@
     "description": "Lightweight open-source CRM with sales automation, marketing tools, and customer management",
     "url": "https://www.espocrm.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/espocrm/",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal",
-      "url": "https://martechsignal.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
-        "width": 1200,
-        "height": 630
-      }
-    },
     "dateModified": "2026-09-07",
     "datePublished": "2026-07-27",
     "offers": {
@@ -62,7 +46,7 @@
       "price": 0,
       "priceCurrency": "EUR",
       "url": "https://www.espocrm.com/cloud/",
-      "availability": "https://schema.org/InStock"
+      "priceValidUntil": "2026-12-31"
     }
   },
   {
@@ -117,7 +101,7 @@
       },
       {
         "@type": "Question",
-        "name": "Is EspoCRM a good CRM tool in 2026?",
+        "name": "Is EspoCRM a good self-hosted CRM tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans."
@@ -150,21 +134,22 @@
     ]
   }
 ]</script>
-<link rel="stylesheet" href="/style.css?v=8a8e521c">
+<link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/espocrm/index.md">
+<link rel="stylesheet" href="/style.css?v=708a7b2c">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
-    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="cursor">▮</span></a>
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
     <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 <nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/crm/">CRM</a></li> / <li><span aria-current="page">EspoCRM</span></li></ol></nav>
 <section class="page-head">
-  <h1>EspoCRM pricing &amp; plans</h1>
+  <h1>EspoCRM pricing, self-hosting and support</h1>
   <p class="sub">Lightweight open-source CRM with sales automation, marketing tools, and customer management</p>
   <p class="count">CRM · Open Source · OPEN SOURCE</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="2026-09-07">2026-09-07</time></p>
@@ -175,7 +160,7 @@
   <div class="detail-main">
     <h2>Overview</h2>
     <p>EspoCRM is a self-hosted CRM under AGPLv3 that has been in development since 2011, started in Ukraine and now owned by EspoCRM, Inc., a Delaware corporation, and it moves fast: 10.0.7 shipped on September 3, 2026, three months after the 10.0 line landed. The free core covers accounts, contacts, leads, opportunities, cases, a knowledge base, customer portals, mass email campaigns with target lists and mail merge, web-to-lead forms, kanban, and a formula engine with dynamic logic for calculated fields and conditional UI; version 10 added multiple pipelines, record locking, and categories for custom entity types. What the free edition leaves out matters when you compare it with commercial CRMs: workflow automation, the business process management designer, and reports are paid extensions sold together as the Advanced Pack, as are VoIP and Twilio telephony, Google Workspace and Outlook sync, and the AI add-on. That add-on, called Intelligence and first released in August 2026, connects to OpenAI, Gemini, Claude, or any OpenAI-compatible provider and adds summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, which is the only AI surface in the product. Integration work is well served: a documented REST API at api/v1 with an OpenAPI spec since version 9.3 and official API clients in PHP, JavaScript, Python, Rust, Java, Go, and Zig. Requirements are PHP 8.3 through 8.5 with MySQL 8 or later, MariaDB 10.3 or later, or PostgreSQL 15 or later, plus an optional WebSocket daemon for real-time updates. Installation is an archive with a browser wizard, a shell script with Let&#x27;s Encrypt options, or Docker. Vendor-hosted cloud plans run from € 12.90 per user monthly on Basic to € 59 on Ultimate, each including the Advanced Pack. This assessment is from the repository, the docs, and the vendor site.</p>
-    <figure class="tool-screenshot" style="margin:1.2rem 0"><picture><source type="image/webp" srcset="/og/screenshots/espocrm-2026-09.webp"><img src="/og/screenshots/espocrm-2026-09.png" alt="Screenshot of the EspoCRM homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"></picture><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">EspoCRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
+    <figure class="tool-screenshot" style="margin:1.2rem 0"><img src="/og/screenshots/espocrm-2026-09.webp" alt="Screenshot of the EspoCRM homepage" width="1280" height="800" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)"><figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">EspoCRM homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.</figcaption></figure>
     
     
     <section class="pricing-block"><h2>Pricing</h2><p>EspoCRM is free to self-host under the AGPL-3.0 licence.</p><p>Free to self-host under AGPLv3. Paid: extension add-ons (Advanced Pack bundles reports, workflows, BPM; Intelligence is the AI add-on); prices not published on site. Vendor cloud from € 12.90/user/mo (Basic, min 3 users) to € 59 (Ultimate, min 10), all plans include the Advanced Pack.</p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Current plans and limits live on the <a href="https://www.espocrm.com/cloud/" target="_blank" rel="noopener" data-umami-event="Pricing section click" data-umami-event-tool="EspoCRM">EspoCRM pricing page</a>.</p></section>
@@ -183,8 +168,8 @@
     <section class="pros-cons"><h2>Pros and cons</h2><table><thead><tr><th>Pros</th><th>Cons</th></tr></thead><tbody><tr><td><span style="color:var(--ok-text)">&#10003;</span> AGPL-3.0 licence with free self-hosting</td><td><span style="color:var(--red-text)">&#10007;</span> No hands-on test - this assessment is based on vendor documentation and the public repository</td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> API access for custom integrations</td><td></td></tr><tr><td><span style="color:var(--ok-text)">&#10003;</span> Established community (3,332 GitHub stars)</td><td></td></tr></tbody></table></section>
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/crm/">CRM</a> <a href="/glossary/lead-scoring/">Lead scoring</a> <a href="/glossary/mql-sql/">MQL / SQL</a> <a href="/glossary/customer-journey/">Customer journey</a> <a href="/glossary/first-party-data/">First-party data</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip reveal"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
-    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is EspoCRM?</summary><p>Lightweight open-source CRM with sales automation, marketing tools, and customer management. It ships with 3,332 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does EspoCRM cost?</summary><p>EspoCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 3,332 stars. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is EspoCRM a good CRM tool in 2026?</summary><p>A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.</p></details><details class="faq-item"><summary>Does EspoCRM have AI features?</summary><p>Not in the free core. AI arrives through the paid Intelligence extension, first released August 3, 2026, with version 1.1.0 on August 14 adding custom OpenAI-compatible providers. Documented capabilities cover OpenAI, Gemini, and Claude integrations, record and email summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, plus usage logging and quotas. There are no AI agents, and the docs have no AI section outside the extensions area, so treat AI as an add-on decision rather than a core feature.</p></details><details class="faq-item"><summary>Is EspoCRM free? What do the paid parts cost?</summary><p>The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in €: Basic € 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise € 22.00 (minimum 5, 10GB), and Ultimate € 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions.</p></details><details class="faq-item"><summary>EspoCRM vs SuiteCRM: which open-source CRM fits better?</summary><p>Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM&#x27;s advantage is module depth and longevity on legacy PHP deployments; EspoCRM&#x27;s is development pace, with the 10.0 line shipped in July 2026.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/krayin-crm/"><div class="name">Krayin CRM</div><div class="tagline">Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management</div></a><a class="tool-card" href="/tools/suitecrm/"><div class="name">SuiteCRM</div><div class="tagline">Enterprise-grade open-source CRM with sales, marketing, and support automation</div></a><a class="tool-card" href="/tools/deskcommcrm/"><div class="name">DeskcommCRM</div><div class="tagline">Self-hosted open-source CRM with AI agents that sell through WhatsApp</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/ever-gauzy/"><div class="name">Ever Gauzy</div><div class="tagline">Open business management platform: ERP, CRM, HRM, ATS, and time tracking</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/silent-failure-audit/">Check outputs, not logs: the silent-failure audit</a></li><li><a href="/blog/cdp-reckoning-warehouse-native/">The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For</a></li></ul></section>
+    <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is EspoCRM?</summary><p>Lightweight open-source CRM with sales automation, marketing tools, and customer management. It ships with 3,332 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does EspoCRM cost?</summary><p>EspoCRM is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 3,332 stars. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is EspoCRM a good self-hosted CRM tool in 2026?</summary><p>A fast-moving, well-documented self-hosted CRM whose free core covers the sales and support basics, with the automation, reporting, and AI depth sitting in paid extensions and cloud plans.</p></details><details class="faq-item"><summary>Does EspoCRM have AI features?</summary><p>Not in the free core. AI arrives through the paid Intelligence extension, first released August 3, 2026, with version 1.1.0 on August 14 adding custom OpenAI-compatible providers. Documented capabilities cover OpenAI, Gemini, and Claude integrations, record and email summarization, intelligent paste, an AI email composer, and formula functions for classification, data extraction, and summaries, plus usage logging and quotas. There are no AI agents, and the docs have no AI section outside the extensions area, so treat AI as an add-on decision rather than a core feature.</p></details><details class="faq-item"><summary>Is EspoCRM free? What do the paid parts cost?</summary><p>The self-hosted edition is free under AGPLv3 with no user limits in the license. The paid layer is extensions: the Advanced Pack bundles reports, workflows, and the BPM designer, and other add-ons cover VoIP and Twilio, Google Workspace, Outlook, Mailchimp, Stripe, and Zoom. Extension prices are not published on espocrm.com. Vendor cloud hosting is published in €: Basic € 12.90 per user monthly (minimum 3 users, 3GB storage each), Enterprise € 22.00 (minimum 5, 10GB), and Ultimate € 59.00 (minimum 10, 400GB, dedicated IP), with every plan including the Advanced Pack and official extensions.</p></details><details class="faq-item"><summary>EspoCRM vs SuiteCRM: which open-source CRM fits better?</summary><p>Both are AGPL-licensed PHP applications you self-host, and both cover accounts, contacts, leads, opportunities, cases, and campaigns. The difference is where the automation lives: SuiteCRM ships its workflow engine free in the core, while EspoCRM gates workflows, BPM, and reports behind the paid Advanced Pack, and instead gives you a cleaner interface, multiple pipelines, and a much more complete API story with an OpenAPI spec and clients in seven languages. SuiteCRM&#x27;s advantage is module depth and longevity on legacy PHP deployments; EspoCRM&#x27;s is development pace, with the 10.0 line shipped in July 2026.</p></details></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/krayin-crm/"><div class="name">Krayin CRM</div><div class="tagline">Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management</div></a><a class="tool-card" href="/tools/suitecrm/"><div class="name">SuiteCRM</div><div class="tagline">Enterprise-grade open-source CRM with sales, marketing, and support automation</div></a><a class="tool-card" href="/tools/deskcommcrm/"><div class="name">DeskcommCRM</div><div class="tagline">Self-hosted open-source CRM with AI agents that sell through WhatsApp</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/ever-gauzy/"><div class="name">Ever Gauzy</div><div class="tagline">Open business management platform: ERP, CRM, HRM, ATS, and time tracking</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li><li><a href="/blog/deliverability-ai-spam-content-problem/">Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">

@@ -221,6 +221,21 @@ def build_term_page(term, tools_map, all_terms):
         title = f"{title_term2} | Definition | MartechSignal"
         if len(title) > 60:
             title = f"{title_term2} | Definition"
+    # A2 L9 (2026-09-26): related terms had no mutual linking structure.
+    import re as _re, html as _html
+    _tok = set(_re.findall(r'[a-z]{4,}', (term.get('term', '') + ' ' + (term.get('short') or '')).lower()))
+    _see = []
+    for _o in all_terms:
+        if _o.get('slug') == term.get('slug'):
+            continue
+        _ot = set(_re.findall(r'[a-z]{4,}', (_o.get('term', '') + ' ' + (_o.get('short') or '')).lower()))
+        if len(_tok & _ot) >= 1:
+            _see.append(_o)
+        if len(_see) >= 3:
+            break
+    if _see:
+        _links = ''.join(f'<li><a href="/glossary/{_o["slug"]}/">{_html.escape(_o.get("short") or _o["term"])}</a></li>' for _o in _see)
+        body += '<section class="seealso"><h2>See also</h2><ul>' + _links + '</ul></section>'
     out.write_text(page_shell(
         title,
         f"{term['definition'][:155]}",

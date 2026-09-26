@@ -7,7 +7,6 @@ Allow: /
 # the cache-busted stylesheet before the query-string disallow.
 Allow: /style.css*
 Disallow: /*?
-Disallow: /tools/*?
 
 # A-2 (2026-09-25, decided by the site owner): AI retrieval and grounding are
 # welcome (with attribution); model training on this content is not permitted.
