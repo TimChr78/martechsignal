@@ -552,7 +552,7 @@ def build_hub(tools, cats):
   <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
-<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" loading="lazy" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
+<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" fetchpriority="high" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
 <p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
@@ -1616,18 +1616,11 @@ def _lastmod(path):
         _re.search(r'article:modified_time"\s+content="([0-9]{4}-[0-9]{2}-[0-9]{2})', html)
     if m:
         return m.group(1)
-    html = _re.sub(r"<lastmod>[^<]*</lastmod>", "", html)
-    html = _re.sub(r'<section class="related-reading">.*?</section>', "", html, flags=_re.S)
-    html = _re.sub(r"/style\.css\?v=[a-f0-9]{8}", "/style.css", html)
-    fp = _hl.sha256(html.encode()).hexdigest()[:16]
-    store = _load_lastmod_store()
-    key = str(p)
-    prev = store.get(key)
-    if prev and prev.get("fp") == fp:
-        return prev["date"]
-    date = _dt.datetime.fromtimestamp(p.stat().st_mtime).strftime("%Y-%m-%d")
-    store[key] = {"fp": fp, "date": date}
-    return date
+    # A3 H-2 (2026-09-26): a page with no declared content date OMITS <lastmod>
+    # entirely. The v240c audit caught 87 URLs carrying build stamps; Google
+    # prefers no lastmod over an inaccurate one. Pages with real declared dates
+    # (posts, tools) keep theirs via the JSON-LD match above.
+    return ""
 
 def build_sitemap(tools, cats):
     today = datetime.now().strftime("%Y-%m-%d")
@@ -1678,6 +1671,9 @@ def build_sitemap(tools, cats):
     # About page
     about_html = ROOT / "about" / "index.html"
     urls.append((f"https://martechsignal.com/about/", _lastmod(about_html) if about_html.exists() else today, "0.5"))
+    # A3 M-23 (2026-09-26): indexable policy pages belong in the sitemap.
+    urls.append(("https://martechsignal.com/privacy/", "", "0.3"))
+    urls.append(("https://martechsignal.com/terms/", "", "0.3"))
 
     # Author page
     author_html = ROOT / "authors" / "tim-christensen" / "index.html"
@@ -1720,6 +1716,10 @@ def build_sitemap(tools, cats):
     # Alternatives guides (SX-6 pilot)
     alt_dir = ROOT / "alternatives"
     if alt_dir.exists():
+        # H-4: the section hub joins the sitemap like /best/ and /vs/ (A2 C1).
+        alt_idx = alt_dir / "index.html"
+        if alt_idx.exists():
+            urls.append(("https://martechsignal.com/alternatives/", _lastmod(alt_idx), "0.7"))
         for d in sorted(alt_dir.iterdir()):
             if (d / "index.html").exists():
                 urls.append((f"https://martechsignal.com/alternatives/{d.name}/", _lastmod(d / "index.html"), "0.7"))
@@ -1750,7 +1750,8 @@ def build_sitemap(tools, cats):
     # urls tuples keep the third slot for compatibility; it is no longer emitted.
     entries = []
     for loc, lastmod, _priority in urls:
-        entries.append(f"  <url><loc>{loc}</loc><lastmod>{lastmod}</lastmod></url>")
+        lm = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+        entries.append(f"  <url><loc>{loc}</loc>{lm}</url>")
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

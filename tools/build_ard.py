@@ -73,6 +73,84 @@ def build():
             "representativeQueries": ["martechsignal tool catalog data",
                                       "ai marketing tools dataset"],
         })
+    # A3 H-5 (2026-09-26): walk the built tree so every published page has an
+    # entry. The v240c audit found 92 URLs missing (blog posts, glossary terms,
+    # the best/vs/alternatives listicles, core pages). Discovering from the
+    # rendered pages keeps the manifest honest as the site grows.
+    import re as _re
+
+    def _page_info(index_path):
+        html = index_path.read_text()
+        m = _re.search(r"<title>([^<]+)</title>", html)
+        title = (m.group(1) if m else index_path.parent.name).strip()
+        title = _re.sub(r"\s*[|\u00b7]\s*MarTechSignal.*$", "", title, flags=_re.I).strip() or title
+        d = _re.search(r'<meta name="description" content="([^"]{0,200})"', html)
+        return title, (d.group(1) if d else "")
+
+    def _queries(kind, words, title):
+        if kind == "glossary":
+            return [f"what is {words}", f"{words} definition", f"{words} in martech"]
+        if kind == "vs":
+            return [title.lower(), words + " comparison"]
+        if kind == "alternatives":
+            return [title.lower(), words + " alternatives"]
+        if kind == "best":
+            return [title.lower(), words + " pricing comparison"]
+        return [title.lower(), words]
+
+    def _walk(kind, folder, ns, extra_q=None):
+        base = ROOT / folder
+        if not base.is_dir():
+            return
+        for index_path in sorted(base.glob("*/index.html")):
+            slug = index_path.parent.name
+            title, desc = _page_info(index_path)
+            words = " ".join(slug.split("-"))
+            qs = _queries(kind, words, title)
+            entries.append({
+                "identifier": f"urn:air:{PUBLISHER}:{ns}:{slug}",
+                "displayName": title,
+                "type": "text/html",
+                "url": f"https://martechsignal.com/{folder}/{slug}/",
+                "description": desc,
+                "representativeQueries": qs[:5],
+            })
+
+    _walk("blog", "blog", "blog")
+    _walk("glossary", "glossary", "glossary")
+    _walk("best", "best", "best")
+    _walk("vs", "vs", "vs")
+    _walk("alternatives", "alternatives", "alternatives")
+
+    # Core hand pages (always present, curated queries).
+    core = {
+        "about": (["about martechsignal", "who runs martechsignal"],
+                  "Who is behind MartechSignal and how the catalog is researched"),
+        "methodology": (["martechsignal methodology", "how martechsignal verifies tools",
+                         "tool verification process"],
+                        "How every tool page is researched, dated, and priced"),
+        "checklist": (["ai marketing tool checklist", "martech tool selection checklist"],
+                      "A field checklist for choosing AI marketing tools"),
+        "ai-policy": (["martechsignal ai policy", "llm usage policy site"],
+                      "Content policy for AI systems: citation, grounding, and training"),
+        "corrections": (["martechsignal corrections", "site errata"], "Published corrections"),
+        "authors": (["martechsignal authors", "who writes martechsignal"], "Author hub"),
+        "privacy": (["martechsignal privacy policy", "martechsignal data handling"], "Privacy policy"),
+        "terms": (["martechsignal terms of service", "martechsignal usage terms"], "Terms of service"),
+    }
+    for slug, (qs, desc) in core.items():
+        p = ROOT / slug / "index.html"
+        if p.exists():
+            title, pdesc = _page_info(p)
+            entries.append({
+                "identifier": f"urn:air:{PUBLISHER}:pages:{slug}",
+                "displayName": title,
+                "type": "text/html",
+                "url": f"https://martechsignal.com/{slug}/",
+                "description": pdesc or desc,
+                "representativeQueries": qs[:5],
+            })
+
     manifest = {
         "specVersion": "1.0",
         "publisher": f"https://{PUBLISHER}/",

@@ -58,6 +58,9 @@ if [ "$DO_BUILD" -eq 1 ]; then
     python3 tools/build_alternatives.py
     # Best-X + /vs/ pilots (2026-09-26): same ordering rule
     python3 tools/build_best_vsx.py
+    # H-4: /best/, /vs/, /alternatives/ section hub indexes must exist before
+    # build_tools (the sitemap scan reads them). Same ordering rule again.
+    python3 tools/build_hubs.py
     python3 tools/build_tools.py
     # Glossary hub + term pages reuse page_shell from build_tools. This was previously
     # NOT run by deploy, so glossary pages drifted and never picked up site-wide changes

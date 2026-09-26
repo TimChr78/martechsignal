@@ -59,7 +59,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 546,
+  "wordCount": 1432,
   "articleSection": "agent-skills"
 }
 </script>
@@ -105,39 +105,81 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">OPEN SOURCE · DATA · 3 MIN</p>
+<p class="kicker">OPEN SOURCE · DATA · 7 MIN</p>
 <h1>Where open-source martech momentum actually lives</h1>
-<img class="post-hero" src="/og/oss-momentum-tracker-september-2026.png" alt="" width="1200" height="630" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<img class="post-hero" src="/og/oss-momentum-tracker-september-2026.png" alt="Where open-source martech momentum actually lives" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
 <p class="meta"><time datetime="2026-09-26">SEP 26, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p>
+<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-top-of-the-board">The top of the board</a> · <a href="#the-full-board">The full board</a> · <a href="#the-rest-is-quiet">The rest is quiet</a> · <a href="#why-the-skill-layer-wins-the-attention">Why the skill layer wins the attention</a> · <a href="#is-the-growth-rate-holding">Is the growth rate holding</a> · <a href="#what-would-change-this-picture">What would change this picture</a> · <a href="#what-we-publish-and-how">What we publish and how</a></nav>
 <p>The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.</p>
 
 <p>We track 79 active open-source tools in the <a href="/tools/">directory</a>. Sixteen of them name a public GitHub repository, and those sixteen now have a <a href="/oss-momentum.json">published momentum dataset</a> behind them. Every number below is a snapshot or a snapshot-bounded delta as of 26 September 2026. Nothing is estimated.</p>
 
-<h2>The top of the board</h2>
+<h2 id="the-top-of-the-board">The top of the board</h2>
 
 <p><a href="/tools/claude-ads/">claude-ads</a> leads with 9,576 stars and 1,857 of them arrived in the last 57 days. <a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a> is the sharper curve: 2,635 stars total, 1,577 of them inside a 40-day window. <a href="/tools/ai-marketing-claude/">ai-marketing-claude</a> added 442 over 57 days to reach 2,684, and <a href="/tools/aaron-marketing-skills/">aaron-marketing-skills</a> added 361 to reach 2,843.</p>
 
 <p>Read those four together and the shape is hard to miss. All four are agent skill repositories: collections of instructions, prompts, and small tools that teach a coding or marketing agent to run campaigns, audit accounts, or interpret ad data. None of them is a platform you deploy. They are the layer you install into an agent you already run.</p>
 
-<h2>The rest is quiet</h2>
+<h2 id="the-full-board">The full board</h2>
+
+<p>Here is the complete tracked set. Growth windows differ per row because each one is bounded by the catalog snapshots we actually hold, never by interpolation. Stars are totals as of 26 September 2026.</p>
+
+<div class="table-wrap"><table><thead><tr><th>Project</th><th>Stars</th><th>Change</th><th>Window</th><th>Latest release</th></tr></thead><tbody><tr><td><a href="/tools/claude-ads/">claude-ads</a></td><td>9,576</td><td>+1,857</td><td>57 days</td><td>2026-09-10</td></tr><tr><td><a href="/tools/aaron-marketing-skills/">aaron-marketing-skills</a></td><td>2,843</td><td>+361</td><td>57 days</td><td>2026-09-02</td></tr><tr><td><a href="/tools/ai-marketing-claude/">ai-marketing-claude</a></td><td>2,684</td><td>+442</td><td>57 days</td><td>none recorded</td></tr><tr><td><a href="/tools/google-meta-ads-ga4-mcp/">google-meta-ads-ga4-mcp</a></td><td>2,635</td><td>+1,577</td><td>40 days</td><td>none recorded</td></tr><tr><td><a href="/tools/openclaw-marketing-skills/">openclaw-marketing-skills</a></td><td>1,045</td><td>-30</td><td>57 days</td><td>none recorded</td></tr><tr><td><a href="/tools/digital-marketing-pro/">digital-marketing-pro</a></td><td>835</td><td>+165</td><td>57 days</td><td>2026-07-29</td></tr><tr><td><a href="/tools/ai-business-skills/">ai-business-skills</a></td><td>593</td><td>+80</td><td>57 days</td><td>2026-05-25</td></tr><tr><td><a href="/tools/eve-marketing-team/">eve-marketing-team</a></td><td>444</td><td>+13</td><td>26 days</td><td>none recorded</td></tr><tr><td><a href="/tools/zapier-gtm-cheat-codes/">zapier-gtm-cheat-codes</a></td><td>339</td><td>+7</td><td>26 days</td><td>none recorded</td></tr><tr><td><a href="/tools/email-marketing-bible/">email-marketing-bible</a></td><td>319</td><td>+68</td><td>57 days</td><td>2026-03-10</td></tr><tr><td><a href="/tools/marketing-studio/">marketing-studio</a></td><td>248</td><td>+28</td><td>28 days</td><td>none recorded</td></tr><tr><td><a href="/tools/prospectos/">prospectos</a></td><td>226</td><td>+20</td><td>28 days</td><td>2026-07-27</td></tr><tr><td><a href="/tools/alphone/">alphone</a></td><td>177</td><td>-2</td><td>28 days</td><td>2026-09-25</td></tr><tr><td><a href="/tools/n8n-marketing-flows/">n8n-marketing-flows</a></td><td>177</td><td>+3</td><td>26 days</td><td>none recorded</td></tr><tr><td><a href="/tools/potato-ai-visibility/">potato-ai-visibility</a></td><td>168</td><td>+1</td><td>26 days</td><td>2026-06-22</td></tr><tr><td><a href="/tools/diffmode-growth-tactics/">diffmode-growth-tactics</a></td><td>162</td><td>+3</td><td>26 days</td><td>2026-06-05</td></tr></tbody></table></div>
+
+<p>A note on release dates: "none recorded" means the repository has no GitHub release objects, not that nothing shipped. Several of these projects commit daily and simply never cut a release. We report what the API returns and do not read intent into the gap.</p>
+
+<h2 id="the-rest-is-quiet">The rest is quiet</h2>
 
 <p>The remaining projects in the tracked set moved slowly or not at all. Several sat within a few dozen stars of their earlier snapshot across the full window. One went backwards: <a href="/tools/openclaw-marketing-skills/">openclaw-marketing-skills</a> dropped 30 stars over 57 days, from 1,075 to 1,045. Un-starring is real data, so it stays in the tracker.</p>
 
+<h2 id="why-the-skill-layer-wins-the-attention">Why the skill layer wins the attention</h2>
+
+<p>Three properties of agent skill repositories explain the pattern, and none of them is about quality.</p>
+
+<p>They install in a minute. A platform asks for a deployment, a database, and a migration path. A skills pack asks for a folder. The distance between hearing about a project and running it is near zero, and stars accumulate in that distance.</p>
+
+<p>They ride an existing habit. People who install agent skills already live in a coding or agent environment all day. The install happens where their hands already are. Marketing platforms ask the same people to open a new tab, create an account, and connect billing.</p>
+
+<p>They are cheap to try and cheap to leave. No contract, no seat count, no data migration. That cuts both ways, which is exactly what the openclaw row shows. A skills pack that stops being useful loses its stars as quickly as it gained them.</p>
+
+<p>None of this says the platform layer is in trouble. The tracked platforms quietly hold their numbers, and one harden-and-ship cycle later they still hold the durable part of the stack: the data model, the sending infrastructure, the audit trail. Attention flows to what is new and cheap to try. Value accumulates in what is hard to replace. Two different curves, and conflating them is how teams end up with forty skills and no CRM.</p>
+
+<h2 id="is-the-growth-rate-holding">Is the growth rate holding</h2>
+
+<p>The history column carries middle snapshots for the leading repositories, so we can split their windows into two segments and check direction. The comparison is crude with one middle point per repo, but crude and real beats smooth and invented.</p>
+
+<p>claude-ads added 1,424 stars between 31 July and 10 September, about 35 a day, then 433 in the following 16 days, about 27 a day. Decelerating. It remains the fastest absolute grower on the board and the curve is bending down at the same time.</p>
+
+<p>google-meta-ads-ga4-mcp shows the opposite shape. Its entire 1,577-star window sits inside 40 days with no earlier snapshot to compare against, which means we joined its story mid-flight. Roughly 39 stars a day from a repository that had 1,058 in mid-August is a steeper relative climb than claude-ads even at its peak rate.</p>
+
+<p>aaron-marketing-skills added 276 stars in 41 days and 85 in the 16 after, around 6.7 stars a day falling to 5.3. A steady, quiet accumulation with no wave to ride.</p>
+
+<p>Read the direction, not just the totals. Two of the three leaders are decelerating from a high base while the newest curve is still steep. That is the normal shape of attention moving through a layer: the first movers hold the volume, the newest entrant holds the slope, and the totals keep looking impressive right up until the month-over-month change says otherwise. Watch the next snapshot before treating any of these three as a trend.</p>
+
+<h2 id="what-would-change-this-picture">What would change this picture</h2>
+
+<p>A thesis you cannot lose is not worth publishing, so here is what would break this one.</p>
+
+<p>If the next snapshot shows one of the four leading skill repos flat or negative over a window of 60 days or more, the wave has crested and this post becomes the record of a peak. If platform repositories start adding stars at the same rate as skill packs while keeping their release cadence, the attention argument is wrong and something else is driving adoption. And if the 63 catalog entries that record no repository URL turn out to hold the real momentum, our coverage gap is the story and this table is a biased sample.</p>
+
+<p>We will publish the next run even if it contradicts this one. The dataset history is append-only and the negative numbers stay in it.</p>
+
 <p>That contrast is the finding. The platform layer of open-source martech, tools that store contacts, send campaigns, or analyze traffic, is where the durable value lives. It is not where the attention flows. In 2026 the adoption wave shows up as agent capability first.</p>
 
-<h2>What we publish and how</h2>
+<h2 id="what-we-publish-and-how">What we publish and how</h2>
 
 <p>The <a href="/oss-momentum.json">dataset</a> gives, per repository: current stars, latest release date, a per-row growth figure with its own window, and the full snapshot history we measured. Two real sources back it. GitHub's repository API provided the fresh totals and release dates. The measurement series comes from the <a href="https://github.com/TimChr78/martechsignal">git history of our own public catalog</a>: every committed snapshot of the tools file, dated by its commit. Anyone can rerun that extraction and get the same series.</p>
 
 <p>Two limits, stated plainly. GitHub's star-timestamp endpoints are not accessible to this project, so growth windows are bounded by our snapshot dates and each row says which window it covers. And only repositories named in a catalog entry are tracked; 63 open-source entries do not record a repository URL and sit outside the dataset rather than being guessed at.</p>
 
-<p>We will refresh the tracker as the catalog snapshots accumulate. If a project in your stack is missing its repository URL, that is a fix worth sending us through the <a href="/contact/">contact page</a>.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li><li><a href="/tools/tealium/">Tealium</a> - Enterprise customer data platform with real-time data orchestration and AI</li><li><a href="/tools/posthog/">PostHog</a> - Open-source product analytics platform with session replay, feature flags, experiments, and surveys</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li><li><a href="/vs/n8n-vs-zapier/">n8n vs Zapier (2026): self-hosted depth or catalog breadth</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/dmp/">DMP</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
+<p>One more mechanic worth knowing. The growth series is stitched from dated snapshots of our own public tools file, committed to the catalog repository as the work happened. Six snapshot dates sit behind the rows above, between 31 July and 26 September. A row whose window says 26 days simply has no earlier snapshot to measure against. We would rather give you a short honest window than a long invented one.</p>
+
+<p>We will refresh the tracker as the catalog snapshots accumulate. If a project in your stack is missing its repository URL, that is a fix worth sending us through the <a href="/contact/">contact page</a>.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li><li><a href="/blog/autonomous-marketing-platform-label-contest/">Autonomous Marketing Platforms Are Real. The Name Is Wrong.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li><li><a href="/tools/postmark/">Postmark</a> - Transactional email API with separated message streams, an MCP server, and published delivery numbers</li><li><a href="/tools/posthog/">PostHog</a> - Open-source product analytics platform with session replay, feature flags, experiments, and surveys</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li><li><a href="/vs/n8n-vs-zapier/">n8n vs Zapier (2026): self-hosted depth or catalog breadth</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/dmp/">DMP</a></li><li><a href="/glossary/dsp/">DSP</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

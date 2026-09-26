@@ -315,6 +315,14 @@ def build_post(meta: dict, body_html: str) -> str:
     seo_title = meta.get('seo_title') or title
     date_str = meta.get('date', datetime.now().strftime('%Y-%m-%d'))
     date_display = datetime.strptime(date_str, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+    # A3 H-2 (2026-09-26): when dateModified differs from published, SHOW both
+    # dates on the page so the visible date and the schema can never contradict.
+    _dm = _date_modified(meta, date_str)
+    if _dm and _dm != date_str:
+        _ud = datetime.strptime(_dm, '%Y-%m-%d').strftime('%b %d, %Y').upper()
+        upd = f' · Updated <time datetime="{_dm}">{_ud}</time>'
+    else:
+        upd = ''
     slug = meta.get('slug') or slugify(title)
     # CL-2 (2026-09-25): optional frontmatter canonical override (cluster consolidation)
     canon = meta.get('canonical') or f"https://martechsignal.com/blog/{slug}/"
@@ -460,8 +468,8 @@ def build_post(meta: dict, body_html: str) -> str:
 
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
-<img class="post-hero" src="/og/{slug}.png" alt="" width="1200" height="630" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
-<p class="meta"><time datetime="{date_str}">{date_display}</time></p>
+<img class="post-hero" src="/og/{slug}.png" alt="{title}" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">{byline}</a></b></span>

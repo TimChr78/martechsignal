@@ -22,6 +22,13 @@ BUILD_SCRIPT = ROOT / "tools" / "build_tools.py"
 @pytest.fixture(scope="session")
 def build():
     """Run the build once; all tests validate its output."""
+    # H-4: hub indexes are a build input to build_tools (its sitemap scan reads
+    # them), so build_hubs runs first, mirroring deploy.sh ordering.
+    hubs = subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "build_hubs.py")],
+        capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+    )
+    assert hubs.returncode == 0, f"Hub build failed:\n{hubs.stderr}"
     r = subprocess.run(
         [sys.executable, str(BUILD_SCRIPT)],
         capture_output=True, text=True, timeout=60, cwd=str(ROOT),
@@ -327,3 +334,87 @@ class TestSitemap:
         tree = ET.parse(str(sm))  # raises on malformed XML
         root = tree.getroot()
         assert "urlset" in root.tag
+
+
+# ── 9. Section hub indexes (/best/, /vs/, /alternatives/) ────────────
+
+class TestSectionHubs:
+    """H-4: the three section hubs must exist, link their live children,
+    carry consistent schema and be editorially clean. Children come from the
+    same content JSONs the child builders render, so a child removed from a
+    content JSON must disappear from its hub here too."""
+
+    SECTIONS = {
+        "best": "bestx-content.json",
+        "vs": "vsx-content.json",
+        "alternatives": "alternatives-content.json",
+    }
+
+    def _children(self, content_file):
+        pages = json.loads((ROOT / "tools" / content_file).read_text())["pages"]
+        return pages
+
+    def test_hubs_exist(self, build):
+        for sec in self.SECTIONS:
+            assert (ROOT / sec / "index.html").is_file(), f"Missing hub: /{sec}/"
+            assert (ROOT / sec / "index.md").is_file(), f"Missing hub mirror: /{sec}/index.md"
+
+    def test_hub_self_canonical_and_meta(self, build):
+        for sec in self.SECTIONS:
+            html = (ROOT / sec / "index.html").read_text()
+            m = re.search(r'rel="canonical" href="([^"]+)"', html)
+            assert m and m.group(1) == f"https://martechsignal.com/{sec}/", \
+                f"/{sec}/ hub canonical wrong: {m and m.group(1)}"
+            assert 'name="description"' in html, f"/{sec}/ hub missing meta description"
+            assert "<h1>" in html, f"/{sec}/ hub missing h1"
+
+    def test_hub_links_all_children(self, build):
+        for sec, content_file in self.SECTIONS.items():
+            html = (ROOT / sec / "index.html").read_text()
+            for p in self._children(content_file):
+                url = f"/{sec}/{p['slug']}/"
+                assert url in html, f"Hub /{sec}/ missing child link {url}"
+                assert (ROOT / sec / p["slug"] / "index.html").is_file(), \
+                    f"Hub /{sec}/ links {url} but child page does not exist"
+                assert p["title"] in html, f"Hub /{sec}/ missing child title '{p['title']}'"
+
+    def test_hub_schema_shapes_and_completeness(self, build):
+        for sec in self.SECTIONS:
+            html = (ROOT / sec / "index.html").read_text()
+            blocks = re.findall(
+                r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+            nodes = []
+            for b in blocks:
+                d = json.loads(b)
+                nodes += d if isinstance(d, list) else [d]
+            types = [n["@type"] for n in nodes]
+            assert "CollectionPage" in types, f"/{sec}/ hub: no CollectionPage node"
+            assert "BreadcrumbList" in types, f"/{sec}/ hub: no BreadcrumbList"
+            for n in nodes:
+                if n["@type"] == "CollectionPage":
+                    assert n["url"] == f"https://martechsignal.com/{sec}/"
+                    # R5 completeness: hasPart entries are plain WebPages with
+                    # name+url; hub never emits product-typed nodes (no
+                    # offers/review on a hub).
+                    parts = n.get("hasPart") or []
+                    assert parts, f"/{sec}/ hub: empty hasPart"
+                    for p in parts:
+                        assert p["@type"] == "WebPage" and p.get("name") and p.get("url")
+                if n["@type"] == "BreadcrumbList":
+                    pos = [i["position"] for i in n["itemListElement"]]
+                    assert pos == sorted(pos) and pos[0] == 1
+
+    def test_hub_editorial_rules(self, build):
+        banned = ["\u2014", "\u2013", "\u201c", "\u201d", "\u2018", "\u2019",
+                  "delve", "crucial", "leverage"]
+        for sec in self.SECTIONS:
+            html = (ROOT / sec / "index.html").read_text()
+            low = html.lower()
+            for bad in banned:
+                assert bad not in low, f"/{sec}/ hub contains banned token {bad!r}"
+
+    def test_sitemap_lists_hubs(self, build):
+        sm = (ROOT / "sitemap.xml").read_text()
+        for sec in self.SECTIONS:
+            assert f"https://martechsignal.com/{sec}/</loc>" in sm, \
+                f"Sitemap missing hub /{sec}/"
