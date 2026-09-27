@@ -311,7 +311,7 @@
 - [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
 - [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
 - [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
-- [Zapier Alternatives: 5 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
+- [Zapier Alternatives: 10 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
 
 ## Site
 

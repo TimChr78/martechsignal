@@ -9,6 +9,7 @@ Runs BEFORE build_tools.py in deploy.sh so the sitemap scan and the tool-page
 interlink see the generated pages.
 """
 import json
+import re
 from pathlib import Path
 
 from build_tools import page_shell, esc, ROOT, pricing_label
@@ -75,6 +76,10 @@ def build():
     tools_by_slug = {t["slug"]: t for t in tools}
     built = []
     for page in data["pages"]:
+        # self-healing title counts (2026-09-27): a stale "5 Tools Compared" survived
+        # a 10-item expansion once. Counts derive from the items list now.
+        page["seo_title"] = re.sub(r"\d+(?= Tools Compared)", str(len(page["items"])),
+                                   page.get("seo_title") or "")
         target = tools_by_slug[page["slug"]]
         body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / '
                 f'<span>{esc(target["name"])} alternatives</span></nav>',
