@@ -71,6 +71,8 @@ Enterprise workflow automation inside the Microsoft Power Platform
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
+Re-check pending: pricing last verified 2026-09-05 (22 days ago).
+
 ## NocoBase review (2026): pricing, AI features, verdict
 
 Open-source no-code platform with AI assistance for building business systems fast

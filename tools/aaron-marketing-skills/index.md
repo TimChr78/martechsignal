@@ -53,6 +53,8 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Aaron Marketing Skills
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates

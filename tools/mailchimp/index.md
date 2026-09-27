@@ -57,6 +57,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Mailchimp
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Mailchimp review (2026): pricing, AI features, verdict
 
 All-in-one marketing platform with AI-powered email, automation, and analytics

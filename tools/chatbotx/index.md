@@ -48,6 +48,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - ChatbotX
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## ChatbotX review (2026): pricing, AI features, verdict
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation

@@ -53,6 +53,8 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Tidio
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Tidio review (2026): pricing, AI features, verdict
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support

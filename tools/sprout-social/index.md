@@ -49,6 +49,8 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Sprout Social review (2026): pricing, AI features, verdict
 
 Enterprise social media management with AI-powered analytics and engagement tools
@@ -130,8 +132,8 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)

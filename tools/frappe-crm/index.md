@@ -180,7 +180,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools)

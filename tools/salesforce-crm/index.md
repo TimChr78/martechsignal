@@ -52,6 +52,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Salesforce CRM
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Salesforce CRM review (2026): pricing, AI features, verdict
 
 Enterprise CRM platform with Einstein AI for sales, service, and marketing teams

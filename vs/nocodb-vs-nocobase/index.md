@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;PostgreSQL&#x27;, &#x27;MySQL&#x27;, &#x27;SQLite&#x27;, &#x27;REST APIs (v3) with Swagger&#x27;, &#x27;Conditional webhooks with custom payloads&#x27;, &#x27;MCP server&#x27;, &#x27;Slack / Discord / Mattermost (paid App Store)&#x27;, &#x27;AWS SES / SMTP / MailerSend (paid App Store)&#x27;] | [&#x27;REST API&#x27;, &#x27;Webhooks&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | NocoDB | NocoBase |
+| --- | --- | --- |
+| Cost basis | Cloud per seat, or free unlimited self-host | Free self-host; commercial editions quoted |
+| Free tier | Cloud Free for 3 users and 1,000 records; self-host unlimited (Sustainable Use License) | Self-hosted, open source |
+| Entry paid | Cloud Plus $12/seat/mo billed annually | No public price table; enterprise editions and support are quoted |
+| At 10 people | Cloud Plus: 10 x $12/mo billed annually = $120/mo. Self-hosted runs all 10 on your own hardware at no license cost. | Budget from a quote. The free community edition runs the core, and paid tiers buy permissions, workflows, and support around it. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick NocoDB if:** Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 - **Pick NocoBase if:** Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 
@@ -20,6 +29,10 @@ Both projects promise the same escape from per-seat SaaS: keep operational data 
 The teams choosing between them are marketing ops and internal-tools owners with an engineer somewhere nearby, and the axis of difference is not a feature checklist. It is who owns the data model and how much construction work the tool expects from you. Get that judgment wrong and the cost surfaces later as a migration.
 
 [NocoDB assessment](/tools/nocodb/) · [NocoBase assessment](/tools/nocobase/)
+
+## Priced at volume
+
+Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +64,23 @@ The teams choosing between them are marketing ops and internal-tools owners with
 
 **NocoBase:** The documented surface is REST API and webhooks, with plugins extending from there. The honest gap: no turnkey email or campaign-sender connectors in the box, which matters if you expect the platform to run campaigns rather than record them. Server-side workflows keep routing and notifications running without a browser open.
 
+## Lock-in and exit cost
+
+**NocoDB:** Your rows sit in your own database, so data lock-in is close to zero. What you rebuild elsewhere is the layer above: views, forms, and the API contracts your scripts call.
+
+**NocoBase:** Same story on data, different story on the paid editions. Permissions and workflow configuration live in the product, so a move means re-implementing them against the next tool.
+
 ## Decision notes
 
 **NocoDB:** Pick NocoDB when the data already lives in Postgres or MySQL and you want a friendlier surface over it. The schema stays yours, plain SQL keeps working, and if NocoDB disappeared tomorrow your data would still be a database. It fits content calendars, launch checklists, and lead lists well.
 
 **NocoBase:** Pick NocoBase when you are building a system rather than decorating tables: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, a lightweight marketing data hub that keeps consent records in your own infrastructure. With an engineer nearby the learning curve buys structure.
+
+## Migration cost
+
+These tools both sit on your own database, which helps less than you would think. Schemas recreate cleanly, but views, forms, and permission sets are product-specific and get rebuilt by hand.
+
+The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.
 
 ## Who should pick which
 
@@ -70,7 +95,7 @@ Prices and features here come from each vendor's own published materials as cata
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

@@ -53,6 +53,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Klaviyo
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Klaviyo review (2026): pricing, AI features, verdict
 
 AI-powered email and SMS marketing platform built for ecommerce brands

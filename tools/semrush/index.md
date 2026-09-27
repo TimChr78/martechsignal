@@ -52,6 +52,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Semrush
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Semrush review (2026): pricing, AI features, verdict
 
 All-in-one SEO and digital marketing platform with AI-powered insights and tools

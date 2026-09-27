@@ -53,6 +53,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - HubSpot Marketing Hub
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## HubSpot Marketing Hub review (2026): pricing, AI features, verdict
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools

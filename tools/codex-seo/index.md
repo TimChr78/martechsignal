@@ -53,6 +53,8 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Codex SEO review (2026): pricing, AI features, verdict
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations

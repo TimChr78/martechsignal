@@ -49,6 +49,8 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Guides](/guides/)
 - [Agent Skills](/categories/agent-skills/)
 - Digital Marketing Pro
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 KIND: Guide (not an end-to-end platform)
 
 ## Digital Marketing Pro review (2026): pricing, AI features, verdict

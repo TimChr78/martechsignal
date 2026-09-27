@@ -53,6 +53,8 @@ AI content creation and optimization platform for regulated financial services m
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Jasper
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Jasper review (2026): pricing, AI features, verdict
 
 AI marketing content platform for creating on-brand copy, images, and campaigns

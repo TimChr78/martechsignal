@@ -74,7 +74,7 @@
     "hq": "Chicago, IL, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-27",
     "description": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Founded in 2003 and headquartered in Chicago, it serves over 150,000 customers worldwide. The visual automation builder lets marketers create multi-step workflows triggered by page visits, email opens, form submissions, and custom events. The integrated CRM includes lead scoring, deal tracking, and pipeline management, so marketing and sales teams work from the same data without a separate tool. In 2025, ActiveCampaign introduced Active Intelligence, a suite of AI agents that automate campaign optimization, send-time prediction, and content personalization. The platform connects to 900+ third-party tools including Shopify, Salesforce, WordPress, and Facebook Ads. Pricing starts at $15/month for the Starter plan with email marketing and basic automation; the Plus plan at $49/month adds landing pages, lead scoring, and Facebook Custom Audiences. ActiveCampaign's main differentiator is the depth of automation at its price point. Where Mailchimp and HubSpot offer simpler branching logic, ActiveCampaign supports complex if/then/else paths, split automations, and goal-based workflows that most competitors reserve for enterprise tiers. The trade-off is a steeper learning curve and a UI that prioritizes capability over simplicity.",
     "seo_description": "ActiveCampaign: AI-powered marketing automation and CRM for small to mid-size businesses. Starts at $15/mo.",
     "deep_dive": {
@@ -149,7 +149,7 @@
     "pricing_model": "enterprise",
     "pricing_url": "https://business.adobe.com/products/marketo/pricing.html",
     "price_from": 895,
-    "price_notes": "Custom pricing; Select/Prime/Ultimate tiers; annual contracts required",
+    "price_notes": "Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required",
     "ai_features": [
       "AI lead scoring",
       "Predictive audiences",
@@ -174,7 +174,7 @@
     "hq": "San Jose, CA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-27",
     "description": "Adobe Marketo Engage is the leading B2B marketing automation platform for enterprises running complex, long-cycle demand generation programs. Founded in 2006 and acquired by Adobe in 2018 for $4.75 billion, it sits inside the Adobe Experience Cloud alongside analytics, content management, and personalization tools. Marketo's core strengths are lead management and account-based marketing (ABM). It scores and routes leads based on behavioral and demographic signals, nurtures prospects through multi-touch campaigns across email, web, events, and ads, and attributes pipeline and revenue back to specific marketing activities. The platform handles the complexity that SMB-focused tools cannot: multi-region data compliance, complex lead-to-account matching, and integrations with enterprise CRM systems like Salesforce and Microsoft Dynamics. Adobe is adding AI features through its Agentic Lead Orchestration engine, which uses AI to suggest journey paths and content on a visual canvas. Marketo competes directly with Oracle Eloqua in the enterprise B2B space and increasingly overlaps with HubSpot's enterprise tier. Pricing is custom-quoted but typically starts in the $1,000-$3,000/month range, putting it firmly in enterprise territory. The main criticisms are its dated UI, slow pace of innovation compared to newer platforms, and the complexity of its integration with the broader Adobe ecosystem. For organizations already committed to Adobe's stack, the integrations justify the overhead. For teams evaluating standalone MAPs, HubSpot and ActiveCampaign offer more modern experiences at lower cost.",
     "seo_description": "Adobe Marketo Engage: Enterprise B2B marketing automation with AI-driven lead management and engagement. Enterprise pricing; demo required.",
     "deep_dive": {
@@ -1261,7 +1261,7 @@
     "founded": "2026",
     "status": "active",
     "date_added": "2026-07-31",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-27",
     "description": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). A full-site audit that would take a consultant a full day finishes in minutes. The output is a prioritized action plan where every recommendation carries the observation it rests on, its dependencies, and an explicit \"how would we know this failed?\" check. That last part matters. Most SEO tools tell you what's wrong. Claude SEO tells you what's wrong, why it matters, and how you'd verify the fix worked.\n\nThe AI-search angle is what separates this from a Screaming Frog crawl. Claude SEO scores your content for citability by AI answer engines: whether your pages have self-contained 134-167 word answer blocks, question-based heading hierarchy, and the structured data that makes LLMs cite you instead of your competitor. It checks for IPTC TrainedAlgorithmicMedia metadata on AI-generated images, llms.txt files, and agent-friendly page structure per web.dev guidance. If you're optimizing for a world where Google's AI Overviews and ChatGPT answers replace traditional blue links, this is the audit tool built for that reality.\n\nIt's free and MIT-licensed. The catch is you need Claude Code (Anthropic's paid CLI/IDE product) to run it, so you're paying for API tokens. A full audit on a 200-page site burns through a meaningful chunk of tokens. There's also a private community mirror on Skool (AI Marketing Hub Pro) that gets early features, but the public repo is fully functional. Version 2.2.5 ships 439 passing tests, which is unusual rigor for a skill pack.\n\nCompared to doing this manually with Screaming Frog, Ahrefs, and a spreadsheet, Claude SEO collapses the workflow into one command. Compared to SaaS audit tools like Sitebulb or Lumar, it's more flexible and cheaper, but you lose the polished dashboards and historical tracking. It's best for SEO agencies running 5+ client sites who want weekly automated audits instead of quarterly manual ones, and for in-house SEO leads who want a second pair of eyes before executive reviews. If you don't use Claude Code, look at Codex SEO, the same author's port for OpenAI's Codex.",
     "seo_description": "Claude SEO runs 25 sub-skills and parallel audit agents inside Claude Code. Free, MIT-licensed. We ran it on two production sites.",
     "deep_dive": {
@@ -2781,7 +2781,7 @@
     "pricing_model": "freemium",
     "pricing_url": "https://www.hubspot.com/pricing/crm",
     "price_from": 0,
-    "price_notes": "Free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo",
+    "price_notes": "Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo",
     "ai_features": [
       "AI email writer",
       "Predictive lead scoring",
@@ -2806,7 +2806,7 @@
     "hq": "Cambridge, MA, USA",
     "status": "active",
     "date_added": "2026-07-27",
-    "date_updated": "2026-08-28",
+    "date_updated": "2026-09-27",
     "description": "Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It supports pipeline management, deal tracking, email logging, meeting scheduling, ticketing, and campaign reporting, with native connections to Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe, and Google Analytics. The platform is a fit for startups, small businesses, and mid-market teams that need an accessible system of record without managing separate tools for outreach, support, and analytics. An open API allows custom integrations, although the product itself is not open source.\n\nHubSpot's main differentiator is its combination of a free CRM forever plan with optional paid hubs that scale as teams grow. Sales Hub Starter starts at $20 per seat per month, Professional at $100, and Enterprise at $150, with higher tiers adding automation, permissions, and reporting depth. Its AI capabilities include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler, and AI content suggestions, which help reduce manual work across sales and service conversations. Compared with alternatives such as Salesforce, Pipedrive, or Zoho CRM, HubSpot tends to emphasize ease of use and cross-team alignment more than deep enterprise customization. It is best for growing businesses that want a free-to-start CRM with practical AI features and room to expand into marketing and service tools.",
     "seo_description": "HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. Free tier available.",
     "deep_dive": {
@@ -4228,7 +4228,7 @@
     "pricing_model": "open-source",
     "pricing_url": "https://n8n.io/pricing/",
     "price_from": 0,
-    "price_notes": "Self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom",
+    "price_notes": "Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom",
     "ai_features": [
       "AI agent nodes",
       "AI workflow automation",

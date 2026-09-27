@@ -55,6 +55,8 @@ Visual automation platform for building complex workflows with AI agents and app
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## LangChain review (2026): pricing, AI features, verdict
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools

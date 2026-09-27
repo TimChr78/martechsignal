@@ -56,6 +56,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Intercom
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Intercom review (2026): pricing, AI features, verdict
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging

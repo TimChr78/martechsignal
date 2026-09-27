@@ -49,6 +49,8 @@ Simple social media scheduling and analytics with AI-powered content tools
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Hootsuite review (2026): pricing, AI features, verdict
 
 Social media management platform with AI-powered scheduling and analytics
@@ -130,8 +132,8 @@ The right call for multi-team, multi-brand social programs with governance needs
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)

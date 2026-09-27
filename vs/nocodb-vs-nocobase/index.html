@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -104,6 +104,15 @@
 <tr><th scope="row">Integrations listed</th><td>[&#x27;PostgreSQL&#x27;, &#x27;MySQL&#x27;, &#x27;SQLite&#x27;, &#x27;REST APIs (v3) with Swagger&#x27;, &#x27;Conditional webhooks with custom payloads&#x27;, &#x27;MCP server&#x27;, &#x27;Slack / Discord / Mattermost (paid App Store)&#x27;, &#x27;AWS SES / SMTP / MailerSend (paid App Store)&#x27;]</td><td>[&#x27;REST API&#x27;, &#x27;Webhooks&#x27;]</td></tr>
 <tr><th scope="row">Public API</th><td>yes</td><td>yes</td></tr>
 </tbody></table></div>
+<h2>Priced at volume</h2>
+<p class="alt-back">Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor pricing pages.</p>
+<div class="table-wrap"><table class="cmp"><thead><tr><th scope="col">Scenario</th><th scope="col">NocoDB</th><th scope="col">NocoBase</th></tr></thead><tbody>
+<tr><th scope="row">Cost basis</th><td>Cloud per seat, or free unlimited self-host</td><td>Free self-host; commercial editions quoted</td></tr>
+<tr><th scope="row">Free tier</th><td>Cloud Free for 3 users and 1,000 records; self-host unlimited (Sustainable Use License)</td><td>Self-hosted, open source</td></tr>
+<tr><th scope="row">Entry paid</th><td>Cloud Plus $12/seat/mo billed annually</td><td>No public price table; enterprise editions and support are quoted</td></tr>
+<tr><th scope="row">At 10 people</th><td>Cloud Plus: 10 x $12/mo billed annually = $120/mo. Self-hosted runs all 10 on your own hardware at no license cost.</td><td>Budget from a quote. The free community edition runs the core, and paid tiers buy permissions, workflows, and support around it.</td></tr>
+<tr><th scope="row">Checked</th><td>2026-09-27</td><td>2026-09-27</td></tr>
+</tbody></table></div>
 <h2>Positioning</h2>
 <p><strong>NocoDB:</strong> NocoDB turns Postgres or MySQL you already run into an Airtable-style workspace: grids, forms, kanban, calendar, and map views over your existing tables, with per-role permissions, webhooks, and REST APIs. At 64,910 GitHub stars it is the larger project. Its natural home is the spreadsheet sprawl behind campaign ops: content calendars, launch checklists, partner trackers, lead lists.</p>
 <p><strong>NocoBase:</strong> NocoBase is a no-code platform for assembling business systems: CRMs, approval flows, content operations, and dashboards, built data-model-first from configurable collections, pages, and workflow blocks, extended through a plugin architecture that reaches nearly everything including UI blocks. Version 2.0 adds AI employees. It expects data-model thinking rather than grid thinking.</p>
@@ -119,9 +128,15 @@
 <h2>Integrations</h2>
 <p><strong>NocoDB:</strong> Postgres, MySQL, and SQLite underneath; REST APIs v3 with Swagger, conditional webhooks with custom payloads, an MCP server, and a paid App Store covering Slack, Discord, Mattermost, AWS SES, SMTP, and MailerSend. Because your schema stays SQL, other tools in the stack query it directly.</p>
 <p><strong>NocoBase:</strong> The documented surface is REST API and webhooks, with plugins extending from there. The honest gap: no turnkey email or campaign-sender connectors in the box, which matters if you expect the platform to run campaigns rather than record them. Server-side workflows keep routing and notifications running without a browser open.</p>
+<h2>Lock-in and exit cost</h2>
+<p><strong>NocoDB:</strong> Your rows sit in your own database, so data lock-in is close to zero. What you rebuild elsewhere is the layer above: views, forms, and the API contracts your scripts call.</p>
+<p><strong>NocoBase:</strong> Same story on data, different story on the paid editions. Permissions and workflow configuration live in the product, so a move means re-implementing them against the next tool.</p>
 <h2>Decision notes</h2>
 <p><strong>NocoDB:</strong> Pick NocoDB when the data already lives in Postgres or MySQL and you want a friendlier surface over it. The schema stays yours, plain SQL keeps working, and if NocoDB disappeared tomorrow your data would still be a database. It fits content calendars, launch checklists, and lead lists well.</p>
 <p><strong>NocoBase:</strong> Pick NocoBase when you are building a system rather than decorating tables: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, a lightweight marketing data hub that keeps consent records in your own infrastructure. With an engineer nearby the learning curve buys structure.</p>
+<h2>Migration cost</h2>
+<p>These tools both sit on your own database, which helps less than you would think. Schemas recreate cleanly, but views, forms, and permission sets are product-specific and get rebuilt by hand.</p>
+<p>The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.</p>
 <h2>Who should pick which</h2>
 <dl class="vs-verdict"><dt>Pick NocoDB if</dt><dd>Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.</dd><dt>Pick NocoBase if</dt><dd>Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>

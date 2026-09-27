@@ -50,6 +50,8 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Claude Ads
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Claude Ads review (2026): pricing, AI features, verdict
 
 Paid-media operations skill for Claude Code covering 12 ad platforms

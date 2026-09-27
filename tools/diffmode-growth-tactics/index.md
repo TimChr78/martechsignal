@@ -53,6 +53,8 @@ Open-source team of marketing agents on eve: lead, content, social, SEO, email
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays

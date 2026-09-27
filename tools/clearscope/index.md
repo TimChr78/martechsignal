@@ -49,6 +49,8 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Clearscope
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Clearscope review (2026): pricing, AI features, verdict
 
 AI-powered content optimization platform for SEO teams and content writers

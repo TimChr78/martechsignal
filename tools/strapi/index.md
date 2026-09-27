@@ -51,6 +51,8 @@ AI-first digital marketing platform for content strategy, generation, publishing
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Strapi
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Strapi review (2026): pricing, AI features, verdict
 
 Open-source headless CMS with AI-powered content management and API-first design

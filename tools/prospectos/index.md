@@ -50,6 +50,8 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 ## ProspectOS review (2026): pricing, AI features, verdict
 
 Open-source lead prospecting CRM with Google Maps and Instagram scraping

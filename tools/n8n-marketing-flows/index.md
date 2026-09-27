@@ -53,6 +53,8 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO

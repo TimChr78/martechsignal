@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -104,6 +104,15 @@
 <tr><th scope="row">Integrations listed</th><td>[&#x27;WordPress&#x27;, &#x27;Matomo Tag Manager&#x27;, &#x27;Google Tag Manager&#x27;, &#x27;Google Analytics Importer&#x27;, &#x27;Shopify&#x27;, &#x27;BigQuery&#x27;, &#x27;OneTrust&#x27;, &#x27;Cookiebot&#x27;]</td><td>[&#x27;WordPress&#x27;, &#x27;Ghost&#x27;, &#x27;Webflow&#x27;, &#x27;Zapier&#x27;, &#x27;Google Search Console&#x27;, &#x27;Slack&#x27;]</td></tr>
 <tr><th scope="row">Public API</th><td>yes</td><td>yes</td></tr>
 </tbody></table></div>
+<h2>Priced at volume</h2>
+<p class="alt-back">Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 on vendor pricing pages.</p>
+<div class="table-wrap"><table class="cmp"><thead><tr><th scope="col">Scenario</th><th scope="col">Matomo</th><th scope="col">Plausible Analytics</th></tr></thead><tbody>
+<tr><th scope="row">Cost basis</th><td>Cloud priced by hits; self-hosted core is free (GPL v3+)</td><td>Cloud priced by monthly pageviews; self-hosted is free (AGPL)</td></tr>
+<tr><th scope="row">Free tier</th><td>Self-hosted core, free forever</td><td>Self-hosted, free forever</td></tr>
+<tr><th scope="row">Entry paid</th><td>On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier</td><td>Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews</td></tr>
+<tr><th scope="row">At 10K pageviews/mo</th><td>Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month.</td><td>Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate.</td></tr>
+<tr><th scope="row">Checked</th><td>2026-09-27</td><td>2026-09-27</td></tr>
+</tbody></table></div>
 <h2>Positioning</h2>
 <p><strong>Matomo:</strong> Matomo is an open-source analytics platform under GPL v3 or later, run on your own infrastructure or as cloud, with 5.13.0 released August 2026 and an active 6.x branch. Core analytics, ecommerce tracking, goals, segments, a customizable dashboard, and an API are free, and the vendor claims 100 percent data ownership with unsampled reporting on every plan. Privacy is the reason teams pick it.</p>
 <p><strong>Plausible Analytics:</strong> Plausible is lightweight, privacy-friendly web analytics: pageviews, visitors, sources, devices, locations, and goals on one simple dashboard, without cookies or personal data collection. Launched in 2019 and based in Tallinn, it trades attribution depth and advertising integrations for a clean setup and low operational burden.</p>
@@ -119,9 +128,15 @@
 <h2>Integrations</h2>
 <p><strong>Matomo:</strong> WordPress, Matomo Tag Manager, Google Tag Manager, the Google Analytics Importer, Shopify, BigQuery, OneTrust, and Cookiebot, plus an API that is free on every plan and an ecommerce-focused tracking stack. More surfaces, more wiring.</p>
 <p><strong>Plausible Analytics:</strong> WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams.</p>
+<h2>Lock-in and exit cost</h2>
+<p><strong>Matomo:</strong> Self-hosted Matomo keeps raw data in your own database, so the exit is an export of tables you already own. Cloud customers trade that control for convenience.</p>
+<p><strong>Plausible Analytics:</strong> Self-hosted Plausible is as portable as Matomo. On Cloud, the aggregation and history stay with the vendor, so leaving means starting fresh metrics elsewhere.</p>
 <h2>Decision notes</h2>
 <p><strong>Matomo:</strong> Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.</p>
 <p><strong>Plausible Analytics:</strong> Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer.</p>
+<h2>Migration cost</h2>
+<p>Both sides will move your tags in an afternoon and your history in a week, if at all. Exports and APIs differ in shape, so decide which reports must keep their history and which can restart from the cutover date.</p>
+<p>The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.</p>
 <h2>Who should pick which</h2>
 <dl class="vs-verdict"><dt>Pick Matomo if</dt><dd>Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.</dd><dt>Pick Plausible Analytics if</dt><dd>Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>

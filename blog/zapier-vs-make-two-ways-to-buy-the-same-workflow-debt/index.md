@@ -113,7 +113,7 @@ Our workflow automation directory breaks down Zapier, Make, n8n, and the rest by
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -168,7 +168,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2026,
+  "wordCount": 2030,
   "articleSection": "workflow-automation"
 }
 ```

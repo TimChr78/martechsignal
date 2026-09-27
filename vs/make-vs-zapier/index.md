@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | Make | Zapier |
+| --- | --- | --- |
+| Cost basis | Operations per month (credits) | Successful tasks |
+| Free tier | 1,000 credits per month, 2 active scenarios | 100 tasks per month, 2-step Zaps |
+| Entry paid | Core $9/mo for 10,000 credits (annual billing) | Professional from $19.99/mo |
+| At 10K tasks/mo | Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run. | Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick Make if:** Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
 - **Pick Zapier if:** Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
 
@@ -19,7 +28,13 @@ Make and Zapier end up on the same shortlist. Make, the platform formerly known 
 
 Most decisions here come down to price and fit. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
+Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.
+
 [Make assessment](/tools/make/) · [Zapier assessment](/tools/zapier/)
+
+## Priced at volume
+
+Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +66,23 @@ Most decisions here come down to price and fit. The figures below are the catalo
 
 **Zapier:** 8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify.
 
+## Lock-in and exit cost
+
+**Make:** Scenarios export as JSON blueprints you can archive. Run history stays with the vendor, so keep your own records if audit trails matter to you.
+
+**Zapier:** Zapier holds the logic and the history. Exports cover documentation at best, so leaving means re-implementing every active Zap wherever you land.
+
 ## Decision notes
 
 **Make:** Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
 
 **Zapier:** Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
+
+## Migration cost
+
+Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make&#x27;s tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.
+
+The reverse move has its own tax. Zapier&#x27;s formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.
 
 ## Who should pick which
 

@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Salesforce CRM&#x27;, &#x27;Data 360 (Data Cloud)&#x27;, &#x27;Slack&#x27;, &#x27;Tableau&#x27;, &#x27;MuleSoft&#x27;, &#x27;Snowflake&#x27;, &#x27;Shopify&#x27;, &#x27;Google Ads&#x27;, &#x27;Meta Ads&#x27;] | [&#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;Shopify&#x27;, &#x27;WordPress&#x27;, &#x27;Gmail&#x27;, &#x27;Outlook&#x27;, &#x27;Stripe&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | Salesforce Marketing Cloud | HubSpot Marketing Hub |
+| --- | --- | --- |
+| Cost basis | Per-org bundles billed annually, plus add-ons | Per seat and hub tier |
+| Free tier | None; pricing runs through sales | Free CRM forever |
+| Entry paid | Marketing Cloud Next Growth $1,500/mo billed annually; Starter $25/user/mo for smaller setups | Marketing Hub Starter $20/mo |
+| At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick Salesforce Marketing Cloud if:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
 - **Pick HubSpot Marketing Hub if:** Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 
@@ -20,6 +29,10 @@ Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlis
 Most decisions here come down to how it bills. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 [Salesforce Marketing Cloud assessment](/tools/salesforce-marketing-cloud/) · [HubSpot Marketing Hub assessment](/tools/hubspot-marketing-hub/)
+
+## Priced at volume
+
+Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +64,23 @@ Most decisions here come down to how it bills. The figures below are the catalog
 
 **HubSpot Marketing Hub:** 8 listed integrations, including salesforce, slack, zapier, shopify, and wordpress.
 
+## Lock-in and exit cost
+
+**Salesforce Marketing Cloud:** Marketing Cloud data extensions, journeys, and AMPscript form their own dialect. Teams that leave run both systems in parallel for months, usually with an implementation partner holding the map.
+
+**HubSpot Marketing Hub:** Exports cover contacts and deals, but workflows, custom objects, and reporting history get rebuilt. Annual commitments apply either way, so read the exit terms before the start date.
+
 ## Decision notes
 
 **Salesforce Marketing Cloud:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
 
 **HubSpot Marketing Hub:** Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
+
+## Migration cost
+
+This migration is a project, not a weekend. Salesforce data extensions have to be mapped onto HubSpot objects, journeys become workflows, and AMPscript gets rewritten as HubSpot modules or dropped. Teams that lived in Marketing Cloud usually keep an implementation partner on the calendar through the first campaign cycle.
+
+Budget for what does not migrate. Attribution history rarely survives intact, so agree up front which reporting periods live where. Reverse migrations are worse: leaving HubSpot for Marketing Cloud means rebuilding scoring, forms, and lead routing from scratch.
 
 ## Who should pick which
 

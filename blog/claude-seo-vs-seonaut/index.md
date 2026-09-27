@@ -85,7 +85,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best CRM tools (2026): 8 compared](/best/ai-crm-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -142,7 +142,7 @@ More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1572,
+  "wordCount": 1575,
   "articleSection": "seo"
 }
 ```

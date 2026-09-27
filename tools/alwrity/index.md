@@ -53,6 +53,8 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## ALwrity review (2026): pricing, AI features, verdict
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
@@ -119,8 +121,8 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 ### Pricing

@@ -54,6 +54,8 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
 Agent-driven marketing studio for Claude Code: launch assets from one command

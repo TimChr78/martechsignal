@@ -53,6 +53,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 KIND: Utility (not an end-to-end platform)
 
 ## Eve Marketing Team Template review (2026): pricing, AI features, verdict

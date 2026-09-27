@@ -49,6 +49,8 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 - [Tools](/tools/)
 - [Personalization &amp; CDP](/categories/personalization/)
 - Tealium
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Tealium review (2026): pricing, AI features, verdict
 
 Enterprise customer data platform with real-time data orchestration and AI
@@ -132,8 +134,8 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)

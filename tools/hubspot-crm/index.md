@@ -15,13 +15,13 @@
 | --- | --- |
 | &#10003; AI capabilities: AI email writer | &#10007; Paid plans start at $20/mo once past the free tier |
 | &#10003; Native integrations include Gmail, Outlook, Slack (8 listed) | &#10007; Closed source - no self-hosting option |
-| &#10003; Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $20/seat/mo; Professiona) |  |
+| &#10003; Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annua) |  |
 
 **What is HubSpot CRM?**
 Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does HubSpot CRM cost?**
-HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is HubSpot CRM worth it past the free tier?**
 Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply.
@@ -31,9 +31,9 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 - **Founded:** 2006
 - **HQ:** Cambridge, MA, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-09-27
 
-**Verdict:** HubSpot CRM is a freemium in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** HubSpot CRM is a freemium in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Salesforce CRM
 
@@ -69,7 +69,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
@@ -108,9 +108,9 @@ HubSpot CRM homepage, captured September 2026. Vendor page shown as a dated refe
 - Google Analytics
 ## Pricing
 
-HubSpot CRM is freemium, with a free tier to start, paid plans start at $20/mo as of 2026-08.
+HubSpot CRM is freemium, with a free tier to start, paid plans start at $20/mo as of 2026-09.
 
-Free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo
+Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo
 
 Current plans and limits live on the [HubSpot CRM pricing page](https://www.hubspot.com/pricing/crm).
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply.
 
@@ -154,8 +154,8 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai Crm Tools](/best/ai-crm-tools)
@@ -179,7 +179,7 @@ Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai
     "mainEntityOfPage": "https://martechsignal.com/tools/hubspot-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -236,7 +236,7 @@ Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai
         "name": "How much does HubSpot CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
         }
       },
       {

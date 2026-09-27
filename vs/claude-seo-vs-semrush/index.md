@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Claude Code&#x27;, &#x27;Google Search Console&#x27;, &#x27;DataForSEO&#x27;, &#x27;Firecrawl&#x27;, &#x27;Lighthouse&#x27;] | [&#x27;Google Analytics&#x27;, &#x27;Google Search Console&#x27;, &#x27;WordPress&#x27;, &#x27;Zapier&#x27;, &#x27;Slack&#x27;, &#x27;HubSpot&#x27;, &#x27;Salesforce&#x27;, &#x27;Looker Studio&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | Claude SEO | Semrush |
+| --- | --- | --- |
+| Cost basis | Free software; you pay your model provider and your time | Per seat subscription |
+| Free tier | MIT-licensed, unlimited use | Limited free account |
+| Entry paid | Optional Skool community mirror, priced by its owner | Pro $117/mo billed annually ($140 month-to-month) |
+| At volume | Audits cost tokens and attention, not credits. Run as many as the work needs. | Guru $250/mo and Business $500/mo lift the project and keyword quotas. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick Claude SEO if:** Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 - **Pick Semrush if:** Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
 
@@ -19,7 +28,13 @@ Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Cod
 
 Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
+These two barely share a budget line. Semrush is a subscription suite with a large database behind it. claude-seo is free software that runs inside a coding session and audits one site at a time. Teams that keep both usually split the work: rank tracking and keyword research in one, technical audits in the other.
+
 [Claude SEO assessment](/tools/claude-seo/) · [Semrush assessment](/tools/semrush/)
+
+## Priced at volume
+
+Cost picture for a year of continuous use. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +66,23 @@ Most decisions here come down to where it runs, how it bills, and how deep the A
 
 **Semrush:** 8 listed integrations, including google analytics, google search console, wordpress, zapier, and slack.
 
+## Lock-in and exit cost
+
+**Claude SEO:** There is nothing to leave. Audits are files, the license is MIT, and your data sits wherever you put it. The risk runs the other way: no vendor roadmap, and the tool moves at open-source speed.
+
+**Semrush:** Keywords and projects export, but the position history you have accumulated lives on their servers. Rebuild it elsewhere and the continuity starts from zero.
+
 ## Decision notes
 
 **Claude SEO:** Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 
 **Semrush:** Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
+
+## Migration cost
+
+There is no data migration here because claude-seo keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.
+
+The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.
 
 ## Who should pick which
 

@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | n8n | Zapier |
+| --- | --- | --- |
+| Cost basis | Workflow executions on Cloud; unlimited runs when self-hosted | Successful tasks |
+| Free tier | Community Edition self-hosted, free and unlimited (fair-code) | 100 tasks per month, 2-step Zaps |
+| Entry paid | Cloud Starter 20 EUR/mo billed annually (2.5K executions) | Professional from $19.99/mo |
+| At 10K tasks/mo | Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy. | Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick n8n if:** Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.
 - **Pick Zapier if:** Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.
 
@@ -20,6 +29,10 @@ The real difference here is not a feature checklist. It is where your automation
 Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.
 
 [n8n assessment](/tools/n8n/) · [Zapier assessment](/tools/zapier/)
+
+## Priced at volume
+
+Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +64,23 @@ Teams usually arrive at this comparison after hitting one of two walls: a Zapier
 
 **Zapier:** More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan.
 
+## Lock-in and exit cost
+
+**n8n:** The lock-in is mild. Workflows export as JSON, the license lets you keep running the software, and the data lives in your own database. What you own is the maintenance: upgrades, backups, and the 3am page when a credential expires.
+
+**Zapier:** Zapier stores the logic, so the platform holds the keys. Zaps do not export to any rival and the run history stays behind when you leave. Treat the exit as a rebuild project.
+
 ## Decision notes
 
 **n8n:** Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.
 
 **Zapier:** Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide.
+
+## Migration cost
+
+Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.
+
+Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier&#x27;s vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.
 
 ## Who should pick which
 
@@ -70,7 +95,7 @@ Prices and features here come from each vendor's own published materials as cata
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

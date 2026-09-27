@@ -52,6 +52,8 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
+Re-check pending: pricing last verified 2026-09-03 (24 days ago).
+
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects

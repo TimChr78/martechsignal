@@ -53,6 +53,8 @@ Product analytics platform with AI-powered insights for user behavior tracking
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Triple Whale
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Triple Whale review (2026): pricing, AI features, verdict
 
 AI-powered ecommerce analytics and attribution platform for DTC brands

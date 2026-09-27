@@ -49,6 +49,8 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Potato
+Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+
 KIND: Utility (not an end-to-end platform)
 
 ## Potato review (2026): pricing, AI features, verdict

@@ -52,6 +52,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Pipedrive
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Pipedrive review (2026): pricing, AI features, verdict
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting

@@ -53,6 +53,8 @@ Aaron Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Growth Lab review (2026): pricing, AI features, verdict
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex

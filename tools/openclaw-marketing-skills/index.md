@@ -50,6 +50,8 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
 37 marketing skills for OpenClaw agents with live data connectors

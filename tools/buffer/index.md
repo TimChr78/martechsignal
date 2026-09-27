@@ -53,6 +53,8 @@ AI-powered consumer intelligence and social media management platform
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Buffer review (2026): pricing, AI features, verdict
 
 Simple social media scheduling and analytics with AI-powered content tools
@@ -130,9 +132,9 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)

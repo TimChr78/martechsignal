@@ -62,8 +62,8 @@ The audit artifacts are archived with their raw finding tables, the site's [meth
 - [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
 ## Comparison guides
 
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 - [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)

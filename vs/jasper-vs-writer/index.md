@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Chrome&#x27;, &#x27;Surfer SEO&#x27;, &#x27;Zapier&#x27;, &#x27;HubSpot&#x27;, &#x27;WordPress&#x27;, &#x27;Webflow&#x27;, &#x27;Canva&#x27;, &#x27;Google Docs&#x27;] | [&#x27;Slack&#x27;, &#x27;Google Workspace&#x27;, &#x27;Microsoft 365&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Contentful&#x27;, &#x27;Chrome extension&#x27;, &#x27;Microsoft Word&#x27;, &#x27;Figma&#x27;, &#x27;Snowflake&#x27;, &#x27;Databricks&#x27;, &#x27;Webflow&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | Jasper | Writer |
+| --- | --- | --- |
+| Cost basis | Per seat subscription | Quote-based |
+| Free tier | No free tier in the published table | No public price table for anonymous visitors |
+| Entry paid | Creator $39/mo billed annually ($49 month-to-month), one seat | Custom quote (verified Sep 2026) |
+| For a team | Pro at $59/mo billed annually ($69 month-to-month) is the published step up. Business is custom. | Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick Jasper if:** Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
 - **Pick Writer if:** Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 
@@ -19,7 +28,13 @@ Jasper and Writer end up on the same shortlist. Jasper is the most recognized na
 
 Most decisions here come down to price and fit. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
+Both sell AI writing to marketing departments, and both pitch governance harder than generation. Jasper publishes its prices and sells self-serve. Writer keeps the price table behind a conversation and sells to companies that start with a security review. That difference predicts the rest of the comparison.
+
 [Jasper assessment](/tools/jasper/) · [Writer assessment](/tools/writer/)
+
+## Priced at volume
+
+Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +66,23 @@ Most decisions here come down to price and fit. The figures below are the catalo
 
 **Writer:** 12 listed integrations, including slack, google workspace, microsoft 365, salesforce, and hubspot.
 
+## Lock-in and exit cost
+
+**Jasper:** The exit cost is re-creating the template and brand voice library, since exports cover documents rather than the setup that made them.
+
+**Writer:** Writer locks in governance rather than content. Style guides, knowledge sources, and approval flows are configured work and none of it is portable. The writing itself is yours.
+
 ## Decision notes
 
 **Jasper:** Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
 
 **Writer:** Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
+
+## Migration cost
+
+Prompt and template libraries do not travel between these platforms, so plan to rebuild them. Jasper&#x27;s brand voice setup and Writer&#x27;s style guardrails solve the same problem with different inputs, which means re-uploading the same source material into the new shape.
+
+The admin side is the boring half of the work: SSO, seat provisioning, and approval workflows all get re-created. For regulated teams the governance rewrite usually costs more than the template work.
 
 ## Who should pick which
 

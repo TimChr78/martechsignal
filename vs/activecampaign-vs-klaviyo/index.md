@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;Shopify&#x27;, &#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;WooCommerce&#x27;, &#x27;Stripe&#x27;, &#x27;HubSpot&#x27;, &#x27;Google Analytics&#x27;] | [&#x27;Shopify&#x27;, &#x27;WooCommerce&#x27;, &#x27;BigCommerce&#x27;, &#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;Stripe&#x27;, &#x27;Google Analytics&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | ActiveCampaign | Klaviyo |
+| --- | --- | --- |
+| Cost basis | Contact tiers plus plan level | Contact count plus channels used |
+| Free tier | No free plan; 14-day trial | Free up to 250 contacts and 500 emails per month |
+| Entry paid | Starter $15/mo | Paid starts around $20/mo and scales with contacts |
+| At 1,000 contacts | Starter $15/mo is the entry tier; automation depth lives on Plus $49/mo and Professional $79/mo. | The free plan stops at 250 contacts, so 1,000 contacts is on the paid ladder starting near $20/mo. SMS and push add separate channel fees. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick ActiveCampaign if:** Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.
 - **Pick Klaviyo if:** Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
 
@@ -19,7 +28,13 @@ ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines
 
 Most decisions here come down to how it bills. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
+The choice usually lands on one question: how much of the customer relationship lives in the tool. ActiveCampaign wants to run email, SMS, and a light CRM in one place. Klaviyo wants to own the ecommerce messaging stack and the data underneath it. The pricing pages will not decide this for you; the contact tiers look similar and the shape of the product does not.
+
 [ActiveCampaign assessment](/tools/activecampaign/) · [Klaviyo assessment](/tools/klaviyo/)
+
+## Priced at volume
+
+Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +66,23 @@ Most decisions here come down to how it bills. The figures below are the catalog
 
 **Klaviyo:** 8 listed integrations, including shopify, woocommerce, bigcommerce, salesforce, and slack.
 
+## Lock-in and exit cost
+
+**ActiveCampaign:** ActiveCampaign exports contacts and campaign reports. Automations, lead scoring, and tracking setup stay behind. List ownership is clear and the CRM data is standard fields.
+
+**Klaviyo:** Klaviyo&#x27;s lock-in is its data model. Profiles carry event streams that power flows and segments, and rival platforms rarely ingest them cleanly. Ecommerce teams accept this because the revenue reporting is hard to give up.
+
 ## Decision notes
 
 **ActiveCampaign:** Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.
 
 **Klaviyo:** Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
+
+## Migration cost
+
+Moving lists is the easy afternoon. ActiveCampaign automations do not export into Klaviyo flows, so every welcome series, win-back, and abandoned-cart path gets rebuilt and re-verified, and template styling has to be redone in the new editor.
+
+Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing 50,000 contacts and mailing them on day one.
 
 ## Who should pick which
 

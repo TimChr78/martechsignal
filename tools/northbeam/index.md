@@ -49,6 +49,8 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Northbeam
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Northbeam review (2026): pricing, AI features, verdict
 
 AI-powered multi-touch attribution and marketing intelligence for ecommerce

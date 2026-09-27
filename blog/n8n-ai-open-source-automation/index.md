@@ -181,7 +181,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -236,7 +236,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2476,
+  "wordCount": 2478,
   "articleSection": ""
 }
 ```

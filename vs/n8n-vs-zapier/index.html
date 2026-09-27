@@ -30,7 +30,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",
@@ -104,6 +104,15 @@
 <tr><th scope="row">Integrations listed</th><td>[&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;]</td><td>[&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;]</td></tr>
 <tr><th scope="row">Public API</th><td>yes</td><td>yes</td></tr>
 </tbody></table></div>
+<h2>Priced at volume</h2>
+<p class="alt-back">Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.</p>
+<div class="table-wrap"><table class="cmp"><thead><tr><th scope="col">Scenario</th><th scope="col">n8n</th><th scope="col">Zapier</th></tr></thead><tbody>
+<tr><th scope="row">Cost basis</th><td>Workflow executions on Cloud; unlimited runs when self-hosted</td><td>Successful tasks</td></tr>
+<tr><th scope="row">Free tier</th><td>Community Edition self-hosted, free and unlimited (fair-code)</td><td>100 tasks per month, 2-step Zaps</td></tr>
+<tr><th scope="row">Entry paid</th><td>Cloud Starter 20 EUR/mo billed annually (2.5K executions)</td><td>Professional from $19.99/mo</td></tr>
+<tr><th scope="row">At 10K tasks/mo</th><td>Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy.</td><td>Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung.</td></tr>
+<tr><th scope="row">Checked</th><td>2026-09-27</td><td>2026-09-27</td></tr>
+</tbody></table></div>
 <h2>Positioning</h2>
 <p><strong>n8n:</strong> n8n is an open-source workflow automation platform built for technical marketing and operations teams: a visual builder over 400-plus nodes with custom code steps and API access. Founded 2019 in Berlin, it sells flexibility and control, backed by 203,890 GitHub stars, the largest community in the category. The trade is setup and maintenance effort.</p>
 <p><strong>Zapier:</strong> Zapier is the platform most people mean when they say connect two tools without writing code. Founded 2011 in San Francisco, it leads with breadth and onboarding speed: the default for form-to-CRM handoffs and lead-to-Slack alerts. Customization depth is not the pitch.</p>
@@ -119,9 +128,15 @@
 <h2>Integrations</h2>
 <p><strong>n8n:</strong> The node catalog counts 400-plus entries: Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, Notion, plus HTTP requests and custom code for anything missing. Community nodes widen it further, at the cost of vetting them yourself.</p>
 <p><strong>Zapier:</strong> More than 9,000 apps, the widest catalog in this directory. The niche martech tools that lack an n8n node usually still ship a Zapier integration, which is the practical reason many teams land here. Premium apps are excluded from the Free plan.</p>
+<h2>Lock-in and exit cost</h2>
+<p><strong>n8n:</strong> The lock-in is mild. Workflows export as JSON, the license lets you keep running the software, and the data lives in your own database. What you own is the maintenance: upgrades, backups, and the 3am page when a credential expires.</p>
+<p><strong>Zapier:</strong> Zapier stores the logic, so the platform holds the keys. Zaps do not export to any rival and the run history stays behind when you leave. Treat the exit as a rebuild project.</p>
 <h2>Decision notes</h2>
 <p><strong>n8n:</strong> Pick n8n when volume is predictable and heavy, when workflows need branching, code steps, or self-hosted data control, or when a platform team can own the instance. Flat cloud plans and free self-hosting reward trading maintenance for meter-free runs.</p>
 <p><strong>Zapier:</strong> Pick Zapier when speed matters more than cost at scale: a marketing team wiring tools together this week, a dependency on apps only Zapier connects, or an organization with nobody to run infrastructure. The catalog is the product, and it is genuinely wide.</p>
+<h2>Migration cost</h2>
+<p>Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.</p>
+<p>Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier&#x27;s vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.</p>
 <h2>Who should pick which</h2>
 <dl class="vs-verdict"><dt>Pick n8n if</dt><dd>Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.</dd><dt>Pick Zapier if</dt><dd>Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>

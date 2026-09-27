@@ -50,6 +50,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Notifuse review (2026): pricing, AI features, verdict
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -135,7 +137,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Related reading
 
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts

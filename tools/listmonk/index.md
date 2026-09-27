@@ -54,6 +54,8 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Listmonk review (2026): pricing, AI features, verdict
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
@@ -129,7 +131,7 @@ The strongest self-hosted mailing platform we have run; bring your own forms and
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 

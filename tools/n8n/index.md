@@ -22,7 +22,7 @@
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does n8n cost?**
-n8n has a free tier; paid plans start at $20/mo. Self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+n8n has a free tier; paid plans start at $20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is n8n a good self-hosted Workflow Automation tool in 2026?**
 The right choice when you want owned automation with code-level control and no per-task tax.
@@ -106,7 +106,7 @@ n8n homepage, captured September 2026. Vendor page shown as a dated reference ca
 
 n8n is free to self-host, paid plans start at $20/mo as of 2026-09.
 
-Self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom
+Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom
 
 Current plans and limits live on the [n8n pricing page](https://n8n.io/pricing/).
 
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-n8n has a free tier; paid plans start at $20/mo. Self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+n8n has a free tier; paid plans start at $20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 The right choice when you want owned automation with code-level control and no per-task tax.
 
@@ -234,7 +234,7 @@ Related guides: [n8n in Zapier alternatives](/alternatives/zapier) · [n8n vs Za
         "name": "How much does n8n cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n has a free tier; paid plans start at $20/mo. Self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "n8n has a free tier; paid plans start at $20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 \u20ac/mo billed annually (2.5K executions); Pro 50 \u20ac/mo billed annually; Business 667 \u20ac/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
         }
       },
       {

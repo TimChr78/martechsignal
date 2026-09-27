@@ -51,6 +51,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Ghost
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Ghost review (2026): pricing, AI features, verdict
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools

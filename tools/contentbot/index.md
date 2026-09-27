@@ -53,6 +53,8 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - ContentBot
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## ContentBot review (2026): pricing, AI features, verdict
 
 AI content automation platform with workflows for blogs, ads, and social posts
@@ -133,7 +135,7 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

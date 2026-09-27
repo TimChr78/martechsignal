@@ -72,12 +72,27 @@
   <div class="detail">
     <div class="detail-main">
       <h2>What this site is</h2>
-      <p>MartechSignal is an independent review and teardown of AI marketing automation tools. I read the documentation, the pricing pages, and the source, and write up what the marketing rarely says: what the tool actually does, what it costs, and where it falls short. No sponsored rankings, no affiliate links, no paid placement.</p>
+      <p>MartechSignal is an independent review and teardown of AI marketing automation tools. I read the documentation, the pricing pages, and the source, and write up what the marketing rarely says: what the tool actually does, what it costs, and where it falls short. No sponsored rankings, no affiliate links, no paid placement. The pages carry dates because the facts move. When a number goes stale past its window, the page says so until someone checks it again.</p>
       <h2>Background</h2>
       <p>I work as a martech product owner at a Nordic insurer, which means the reviews here come from running marketing technology in production rather than writing about it from a distance. The day job shapes the questions: does this tool hold up at scale, does the pricing survive contact with a real renewal, can our team operate it without a dedicated specialist.</p>
       <h2>How I test</h2>
       <p>Each tool page starts with the vendor's own documentation, source repository, and pricing pages. Hands-on checks happen only where a page says so on its face, with the exact method stated next to the claim. Where a tool needs credentials I do not have, the review says so instead of guessing. Every page carries the date it was last verified.</p>
-      <h2>Contact</h2>
+      <h2>Reading the badges</h2>
+<p>Three labels do most of the honesty work on this site. The desk-research badge means the page was assembled from documentation, source, and pricing pages with dated sources, not from a login. The verification date on a tool page tells you when its numbers were last checked at the source. The hands-on block, where one exists, names the environment and the method so the claim can be repeated. If a page carries none of those, read its numbers as vendor claims and check them yourself before signing anything.</p>
+<p>The goal is simple: every claim here should carry a date or a source, and the pages that fail that test get fixed rather than defended.</p>
+
+<h2>Verification log</h2>
+<p>Short, dated, and checkable:</p>
+<ul>
+<li><strong>2026-09-27:</strong> pricing re-checked at the source for ActiveCampaign, Adobe Marketo, HubSpot, n8n, and claude-seo. Three corrections landed: a missing Marketo package, HubSpot annual rates, and n8n's billing currency.</li>
+<li><strong>2026-09-26 to 2026-09-27:</strong> claude-seo run repeatedly against martechsignal.com itself. A 170-page audit surfaced 96 findings in about five minutes at roughly six dollars of API tokens per run. The method and numbers are on the tool page and in the benchmark post.</li>
+</ul>
+<p>Pages with hands-on claims say so on their face and name the method. Everything else in the directory is desk research, and the badge says that too.</p>
+
+<h2>How this site is built</h2>
+<p>The directory is generated from structured catalog records rather than typed page by page, which is why the same fields show up in the same order everywhere: pricing model, real entry cost, integrations, licence, verification date. Comparisons pull the same numbers, so a source check that changes a record changes every page quoting it in the same build. The pages carry machine-readable twins as well, because agents read review sites too.</p>
+
+<h2>Contact</h2>
       <p>Found an error or a tool that deserves a teardown? Open an issue on the <a href="https://github.com/timchr78/martechsignal" style="color:var(--amber)">site repository</a> or connect on <a href="https://www.linkedin.com/in/tchristensen78" style="color:var(--amber)">LinkedIn</a>.</p>
     </div>
     <aside class="sidebar">
@@ -89,7 +104,7 @@
   </div>
 <h2>Why the day job stays unnamed</h2>
 <p>I do martech product ownership for an employer this site will never name. Naming the company would make every review read like vendor advocacy or internal politics. The arrangement is strict: the employer has no stake, no say, and no sight line into what gets published here. When a tool I have used at work shows up in the directory, the write-up is still desk research with dated sources, and the desk-review badge says so.</p>
-<p>Bylined on <a href="/blog/">42 posts</a> so far, and every tool page in the directory carries the verification date behind its numbers. The research rules are public on the <a href="/methodology/">methodology</a> page, including the source-claim rule.</p>
+<p>Bylined on <a href="/blog/">40 posts</a> so far, and every tool page in the directory carries the verification date behind its numbers. The research rules are public on the <a href="/methodology/">methodology</a> page, including the source-claim rule.</p>
 </main>
 <footer class="site-footer">
   <div class="footer-inner">

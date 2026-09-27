@@ -151,6 +151,17 @@ def build_vs():
         for label, av, bv in rows:
             body.append(f'<tr><th scope="row">{esc(label)}</th><td>{esc(str(av))}</td><td>{esc(str(bv))}</td></tr>')
         body.append('</tbody></table></div>')
+        pt = page.get("price_table")
+        if pt:
+            body.append('<h2>Priced at volume</h2>')
+            body.append(f'<p class="alt-back">{esc(pt["unit"])}. All figures checked '
+                        f'{esc(pt.get("checked", "2026-09-27"))} on vendor pricing pages.</p>')
+            body.append('<div class="table-wrap"><table class="cmp"><thead><tr>'
+                        f'<th scope="col">Scenario</th><th scope="col">{esc(a["name"])}</th>'
+                        f'<th scope="col">{esc(b["name"])}</th></tr></thead><tbody>')
+            for label, av, bv in pt["rows"]:
+                body.append(f'<tr><th scope="row">{esc(label)}</th><td>{esc(av)}</td><td>{esc(bv)}</td></tr>')
+            body.append('</tbody></table></div>')
         for sec in page["sections"]:
             # A2 L17: a content section repeating the verdict heading broke
             # heading-based navigation; fold it under a distinct heading.
@@ -160,6 +171,10 @@ def build_vs():
             body.append(f'<h2>{esc(h)}</h2>')
             body.append(f'<p><strong>{esc(a["name"])}:</strong> {esc(sec["a"])}</p>')
             body.append(f'<p><strong>{esc(b["name"])}:</strong> {esc(sec["b"])}</p>')
+        if page.get("migration"):
+            body.append('<h2>Migration cost</h2>')
+            for para in page["migration"]:
+                body.append(f'<p>{esc(para)}</p>')
         body.append(f'<h2>Who should pick which</h2>')
         body.append('<dl class="vs-verdict">'
                     f'<dt>Pick {esc(a["name"])} if</dt><dd>{esc(page["pick_a_if"])}</dd>'

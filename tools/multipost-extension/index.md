@@ -49,6 +49,8 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - MultiPost
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## MultiPost review (2026): pricing, AI features, verdict
 
 Browser extension to publish content to multiple social media platforms with one click
@@ -109,8 +111,8 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 ### Pricing

@@ -49,6 +49,8 @@ AI-powered Meta ads optimization and creative workflow
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - AdCreative.ai
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 
 AI platform generating high-converting ad creatives and social media post designs

@@ -8,6 +8,15 @@
 | Integrations listed | [&#x27;WordPress&#x27;, &#x27;Matomo Tag Manager&#x27;, &#x27;Google Tag Manager&#x27;, &#x27;Google Analytics Importer&#x27;, &#x27;Shopify&#x27;, &#x27;BigQuery&#x27;, &#x27;OneTrust&#x27;, &#x27;Cookiebot&#x27;] | [&#x27;WordPress&#x27;, &#x27;Ghost&#x27;, &#x27;Webflow&#x27;, &#x27;Zapier&#x27;, &#x27;Google Search Console&#x27;, &#x27;Slack&#x27;] |
 | Public API | yes | yes |
 
+
+| Scenario | Matomo | Plausible Analytics |
+| --- | --- | --- |
+| Cost basis | Cloud priced by hits; self-hosted core is free (GPL v3+) | Cloud priced by monthly pageviews; self-hosted is free (AGPL) |
+| Free tier | Self-hosted core, free forever | Self-hosted, free forever |
+| Entry paid | On-Premise premium bundles from 275 EUR/mo (Team); Cloud starts above the 50,000-hit tier | Starter $9/mo ($7.50/mo billed yearly) for up to 10K monthly pageviews |
+| At 10K pageviews/mo | Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month. | Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate. |
+| Checked | 2026-09-27 | 2026-09-27 |
+
 - **Pick Matomo if:** Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
 - **Pick Plausible Analytics if:** Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 
@@ -20,6 +29,10 @@ Both are open-source web analytics for teams that would rather not hand visitor 
 Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.
 
 [Matomo assessment](/tools/matomo/) · [Plausible Analytics assessment](/tools/plausible/)
+
+## Priced at volume
+
+Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 on vendor pricing pages.
 
 ## Positioning
 
@@ -51,11 +64,23 @@ Teams choosing between them are usually content sites, privacy-conscious startup
 
 **Plausible Analytics:** WordPress, Ghost, Webflow, Zapier, Google Search Console, and Slack, plus API access for custom reporting. Fewer surfaces, faster to connect, and enough for most content sites and small marketing teams.
 
+## Lock-in and exit cost
+
+**Matomo:** Self-hosted Matomo keeps raw data in your own database, so the exit is an export of tables you already own. Cloud customers trade that control for convenience.
+
+**Plausible Analytics:** Self-hosted Plausible is as portable as Matomo. On Cloud, the aggregation and history stay with the vendor, so leaving means starting fresh metrics elsewhere.
+
 ## Decision notes
 
 **Matomo:** Pick Matomo when you need funnels, heatmaps, session recordings, A/B testing, or multi-channel attribution and want them in the same self-hosted platform, or when ecommerce tracking and consent-free use claims are buying requirements. Budget for the premium plugins or a cloud bill that grows with hits.
 
 **Plausible Analytics:** Pick Plausible when the honest answer is that you check top pages, referrers, and goals a few times a week. Content sites, startups, and agencies get reliable numbers, cookie-free by default, at 9 dollars monthly cloud or free self-hosted, and none of the suite complexity to administer.
+
+## Migration cost
+
+Both sides will move your tags in an afternoon and your history in a week, if at all. Exports and APIs differ in shape, so decide which reports must keep their history and which can restart from the cutover date.
+
+The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.
 
 ## Who should pick which
 
@@ -70,7 +95,7 @@ Prices and features here come from each vendor's own published materials as cata
     "@context": "https://schema.org",
     "@type": "WebPage",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-27",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

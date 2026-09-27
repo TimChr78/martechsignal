@@ -100,8 +100,8 @@ Our directory breaks marketing tools down by what they measure, what they integr
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Comparison guides
 
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 - [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)

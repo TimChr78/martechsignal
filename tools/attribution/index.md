@@ -53,6 +53,8 @@ Open-source product analytics platform with session replay, feature flags, exper
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Attribution
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Attribution review (2026): pricing, AI features, verdict
 
 AI-powered marketing attribution platform connecting ad spend to revenue

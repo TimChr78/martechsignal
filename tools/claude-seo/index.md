@@ -74,7 +74,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - **Agents:** 18
 - **Commands:** 30
 
-**Verdict:** Claude SEO is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Claude SEO is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Codex SEO
 
@@ -106,7 +106,7 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 
 Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -263,7 +263,7 @@ Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools)
     "mainEntityOfPage": "https://martechsignal.com/tools/claude-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",

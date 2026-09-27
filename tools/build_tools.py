@@ -1509,6 +1509,16 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     # r6 M-2: visible kind label for non-platform entries
     if t.get("kind"):
         body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">KIND: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
+    # r6 M-8: visible auto-flag when pricing facts are past the 21-day window.
+    import datetime as _dt2
+    _du = t.get("date_updated")
+    if _du and (t.get("price_notes") or t.get("price_from") not in (None, "")):
+        try:
+            _age2 = (_dt2.date.today() - _dt2.date.fromisoformat(_du)).days
+        except ValueError:
+            _age2 = -1
+        if _age2 > 21:
+            body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Re-check pending: pricing last verified {_du} ({_age2} days ago).</p>', 1)
     out.write_text(page_shell(
         seo_title,
         seo_desc,
@@ -2003,6 +2013,34 @@ def main():
                  '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
                  f'<ul>{gi}</ul>'))
         print(f"Guides ({len(guides)}): /guides/")
+
+    
+    # r6 M-8 (2026-09-27): rolling 21-day re-verification on anything priced.
+    # Pages past 21 days are auto-flagged here and listed in tools/stale-pricing.json.
+    import datetime as _dt
+    _today = _dt.date.today()
+    _stale = []
+    for _t in tools:
+        if not _t.get("price_notes") and _t.get("price_from") in (None, ""):
+            continue
+        _du = _t.get("date_updated")
+        if not _du:
+            continue
+        try:
+            _age = (_today - _dt.date.fromisoformat(_du)).days
+        except ValueError:
+            continue
+        if _age > 21:
+            _stale.append({"slug": _t["slug"], "name": _t["name"],
+                           "date_updated": _du, "days_stale": _age})
+    (TOOLS_DIR / "stale-pricing.json").write_text(
+        json.dumps({"checked": _today.isoformat(), "window_days": 21,
+                    "stale": _stale}, indent=2))
+    if _stale:
+        print(f"STALE-PRICING: {len(_stale)} pages past 21 days: "
+              + ", ".join(f'{s["slug"]}({s["days_stale"]}d)' for s in _stale))
+    else:
+        print("STALE-PRICING: all priced pages within 21 days")
 
     print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + {n_hubs} hub")
 

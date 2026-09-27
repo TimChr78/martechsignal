@@ -157,8 +157,8 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

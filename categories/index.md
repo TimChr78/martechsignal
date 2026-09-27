@@ -90,6 +90,62 @@ No-code/low-code automation platforms and iPaaS
 
 All 14 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
+## [AI Content &amp; Copywriting](/categories/content-ai/)
+
+AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites. Includes [Anyword](/tools/anyword/), [ContentBot](/tools/contentbot/), [Copy.ai](/tools/copy-ai/).
+
+## [Advertising &amp; Paid Media](/categories/advertising/)
+
+Ad creation, bidding, and campaign management. Includes [AdCreative.ai](/tools/adcreative-ai/), [advertools](/tools/advertools/), [Albert AI](/tools/albert-ai/).
+
+## [Agent Skills](/categories/agent-skills/)
+
+Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [AI Business Skills](/tools/ai-business-skills/), [Analytics Tracking Automation](/tools/analytics-tracking-automation/).
+
+## [Analytics &amp; Attribution](/categories/analytics/)
+
+Marketing analytics, attribution, and reporting. Includes [Amplitude](/tools/amplitude/), [Attribution](/tools/attribution/), [Heap](/tools/heap/).
+
+## [CRM](/categories/crm/)
+
+Customer relationship management and sales pipelines. Includes [AlphOne](/tools/alphone/), [Attio](/tools/attio/), [Cordys CRM](/tools/cordys-crm/).
+
+## [Chatbots &amp; Conversational AI](/categories/chatbots/)
+
+Conversational AI for marketing and support, from social DM automation to per-resolution AI agents. Includes [ChatbotX](/tools/chatbotx/), [Chatfuel](/tools/chatfuel/), [Chatwoot](/tools/chatwoot/).
+
+## [Email Marketing](/categories/email-marketing/)
+
+Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites. Includes [BillionMail](/tools/billionmail/), [Customer.io](/tools/customer-io/), [Klaviyo](/tools/klaviyo/).
+
+## [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+
+Track and improve how AI assistants mention, cite, and describe your brand. Includes [AccuRanker](/tools/accuranker/), [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/), [Ahrefs](/tools/ahrefs/).
+
+## [Marketing Automation](/categories/marketing-automation/)
+
+End-to-end campaign orchestration and workflow automation. Includes [ActiveCampaign](/tools/activecampaign/), [Adobe Marketo Engage](/tools/adobe-marketo/), [ALwrity](/tools/alwrity/).
+
+## [Open-Source Tools](/categories/open-source/)
+
+The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+
+## [Personalization &amp; CDP](/categories/personalization/)
+
+Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
+
+## [SEO &amp; Search](/categories/seo/)
+
+Search optimization, keyword research, and content strategy. Includes [Clearscope](/tools/clearscope/), [Frase](/tools/frase/), [MarketMuse](/tools/marketmuse/).
+
+## [Social Media](/categories/social-media/)
+
+Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites. Includes [Brandwatch](/tools/brandwatch/), [Buffer](/tools/buffer/), [Hootsuite](/tools/hootsuite/).
+
+## [Workflow Automation](/categories/workflow-automation/)
+
+No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/activepieces/), [Appsmith](/tools/appsmith/), [Budibase](/tools/budibase/).
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

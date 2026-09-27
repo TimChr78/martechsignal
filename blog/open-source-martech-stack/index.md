@@ -179,7 +179,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ## Comparison guides
 
 - [Best Open-Source Tools tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Best Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -234,7 +234,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1490,
+  "wordCount": 1495,
   "articleSection": ""
 }
 ```

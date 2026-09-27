@@ -49,6 +49,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Copy.ai
+Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+
 ## Copy.ai review (2026): pricing, AI features, verdict
 
 AI-powered GTM platform for sales and marketing content automation at scale

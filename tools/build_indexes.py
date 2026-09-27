@@ -36,11 +36,26 @@ def build_categories(cats, tools):
             f'<div class="tagline">{desc}</div>'
             f'<div class="tagline">{n} tool{"s" if n != 1 else ""}</div></a>'
         )
+    by_slug = {t["slug"]: t["name"] for t in tools}
+    depth = []
+    for c in sorted(cats, key=lambda x: x["name"]):
+        names = [by_slug.get(s, s) for s in (c.get("tools") or [])]
+        picks = names[:3]
+        links = ", ".join(
+            '<a href="/tools/%s/">%s</a>' % (s, esc(by_slug.get(s, s)))
+            for s in (c.get("tools") or [])[:3])
+        lead = esc(c.get("description") or "")
+        tail = (" Includes %s." % links) if links else ""
+        depth.append(
+            f'<section class="cat-depth"><h2><a href="/categories/{c["slug"]}/">{esc(c["name"])}</a></h2>'
+            f'<p>{lead}.{tail}</p></section>'
+        )
     body = (
         '<header class="page-head"><h1>Categories</h1>'
         f'<p class="lede">All {len(cats)} categories across the {total}-tool directory. '
         'Each category page lists its tools with licence, stars and a plain summary of what it does.</p></header>'
         f'<div class="tool-grid">{"".join(cards)}</div>'
+        f'<div class="cat-depth-list">{"".join(depth)}</div>'
     )
     schema = {
         "@context": "https://schema.org",
