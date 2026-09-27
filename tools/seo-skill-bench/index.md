@@ -28,10 +28,6 @@ Zapier GTM Cheat Codes
 
 Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
-
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
@@ -39,6 +35,10 @@ Aaron Marketing Skills
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
 Claude Ads
 

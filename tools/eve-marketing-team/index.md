@@ -37,9 +37,9 @@ Resend
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-Digital Marketing Pro
+Claude SEO
 
-158-skill AI marketing plugin for agencies with EU AI Act compliance
+Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 
 Codex SEO
 
@@ -53,6 +53,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
+KIND: Utility (not an end-to-end platform)
+
 ## Eve Marketing Team Template review (2026): pricing, AI features, verdict
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email

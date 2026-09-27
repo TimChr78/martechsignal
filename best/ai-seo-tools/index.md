@@ -104,7 +104,7 @@ Ahrefs is the Singapore-based SEO data company known for its web index, and Bran
 
 **you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

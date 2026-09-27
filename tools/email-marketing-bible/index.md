@@ -29,10 +29,6 @@ Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
 SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
@@ -40,6 +36,10 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+Resend
+
+Developer-first email API built around React Email, batch sending, and agent tooling
 
 Analytics Tracking Automation
 
@@ -53,6 +53,8 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
+KIND: Agent Skill (not an end-to-end platform)
+
 ## Email Marketing Bible review (2026): pricing, AI features, verdict
 
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
@@ -134,8 +136,8 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)

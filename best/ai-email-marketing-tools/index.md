@@ -84,7 +84,7 @@ Warmbly is an open-source cold email platform that sends from mailboxes you alre
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

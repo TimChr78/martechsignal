@@ -49,6 +49,8 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Potato
+KIND: Utility (not an end-to-end platform)
+
 ## Potato review (2026): pricing, AI features, verdict
 
 Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers

@@ -47,9 +47,9 @@ Workato
 
 Enterprise AI governance plus integration and automation on one platform
 
-Digital Marketing Pro
+Pipedream
 
-158-skill AI marketing plugin for agencies with EU AI Act compliance
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
 Budibase
 

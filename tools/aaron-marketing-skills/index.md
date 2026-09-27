@@ -29,17 +29,17 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
-
 SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+OpenClaw Marketing Skills
+
+37 marketing skills for OpenClaw agents with live data connectors
+
+Zapier GTM Cheat Codes
+
+Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Claude SEO
 

@@ -72,6 +72,17 @@ def price_label(t):
 def sha(data: str) -> str:
     return hashlib.sha256(data.encode()).hexdigest()
 
+
+
+def _media_tools():
+    """r6 M-2: tool cards for the catalog AND the /guides/ entries."""
+    out = []
+    for name in ("tools.json", "guides.json"):
+        p = Path(__file__).resolve().parent / name
+        if p.exists():
+            out.extend(json.load(open(p)))
+    return out
+
 def gen_tool_card(t, d_out):
     name = t["name"]
     cat = (t.get("category") or "").replace("-", " ").title()
@@ -258,7 +269,7 @@ def main():
     (OUT / "authors").mkdir(parents=True, exist_ok=True)
 
     n_t = n_c = n_g = 0
-    for t in active:
+    for t in _media_tools():
         gen_tool_card(t, tdir / f"{t['slug']}.png"); n_t += 1
     counts = {}
     for t in active:

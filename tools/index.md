@@ -144,12 +144,6 @@ AI Business Skills
 
 Open SourceDesk-reviewedAgent SkillsOSS
 
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Open SourceDesk-reviewedAgent SkillsOSS
-
 Analytics Tracking Automation
 
 AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
@@ -177,12 +171,6 @@ FreeDesk-reviewedAgent Skills
 Diffmode Growth Tactics
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-
-Open SourceDesk-reviewedAgent SkillsOSS
-
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
 
 Open SourceDesk-reviewedAgent SkillsOSS
 
@@ -978,9 +966,9 @@ FreemiumDesk-reviewedWorkflow Automation
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-162 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
+160 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
 
-Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 80 of them, with daily snapshots since Aug 25, 2026.
+Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 78 of them, with daily snapshots since Aug 25, 2026.
 
 A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The [marketing automation checklist](/checklist/) walks the 12 questions that decide it, and scores your answers in the browser.
 
@@ -990,13 +978,13 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 162 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 160 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content &amp; Copywriting *13*
 
 ## Advertising &amp; Paid Media *9*
 
-## Agent Skills *18*
+## Agent Skills *16*
 
 ## Analytics &amp; Attribution *11*
 
@@ -1029,7 +1017,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
   "@type": "ItemList",
   "name": "AI Marketing Tool Directory",
   "description": "Curated directory of AI-powered marketing automation tools",
-  "numberOfItems": 162,
+  "numberOfItems": 160,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -1136,16 +1124,6 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
       "position": 11,
       "item": {
         "@type": "SoftwareApplication",
-        "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
-        "name": "AI Marketing Suite",
-        "url": "https://martechsignal.com/tools/ai-marketing-claude/"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 12,
-      "item": {
-        "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/albert-ai/#app",
         "name": "Albert AI",
         "url": "https://martechsignal.com/tools/albert-ai/"
@@ -1153,7 +1131,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 12,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/alphone/#app",
@@ -1163,7 +1141,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 13,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/alwrity/#app",
@@ -1173,7 +1151,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 14,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/amplitude/#app",
@@ -1183,7 +1161,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 15,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#app",
@@ -1193,7 +1171,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 16,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/anyword/#app",
@@ -1203,7 +1181,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 17,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/apache-unomi/#app",
@@ -1213,7 +1191,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 18,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/appsmith/#app",
@@ -1223,7 +1201,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 19,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/attio/#app",
@@ -1233,7 +1211,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 20,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/attribution/#app",
@@ -1243,7 +1221,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 21,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/billionmail/#app",
@@ -1253,7 +1231,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 22,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/bloomreach/#app",
@@ -1263,7 +1241,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 23,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/brandwatch/#app",
@@ -1273,7 +1251,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 24,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/braze/#app",
@@ -1283,7 +1261,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 25,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/budibase/#app",
@@ -1293,7 +1271,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 26,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/buffer/#app",
@@ -1303,7 +1281,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 27,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/chatbotx/#app",
@@ -1313,7 +1291,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 28,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/chatfuel/#app",
@@ -1323,7 +1301,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 29,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/chatwoot/#app",
@@ -1333,7 +1311,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 31,
+      "position": 30,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/claude-ads/#app",
@@ -1343,7 +1321,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 32,
+      "position": 31,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/claude-seo/#app",
@@ -1353,7 +1331,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 33,
+      "position": 32,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/clearscope/#app",
@@ -1363,7 +1341,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 34,
+      "position": 33,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/clerk-io/#app",
@@ -1373,7 +1351,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 35,
+      "position": 34,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/codex-seo/#app",
@@ -1383,7 +1361,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 36,
+      "position": 35,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/contentbot/#app",
@@ -1393,7 +1371,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 37,
+      "position": 36,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/copy-ai/#app",
@@ -1403,7 +1381,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 38,
+      "position": 37,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/cordys-crm/#app",
@@ -1413,7 +1391,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 39,
+      "position": 38,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/customer-io/#app",
@@ -1423,7 +1401,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 40,
+      "position": 39,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/deskcommcrm/#app",
@@ -1433,7 +1411,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 41,
+      "position": 40,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
@@ -1443,17 +1421,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 42,
-      "item": {
-        "@type": "SoftwareApplication",
-        "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
-        "name": "Digital Marketing Pro",
-        "url": "https://martechsignal.com/tools/digital-marketing-pro/"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 43,
+      "position": 41,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/django-crm/#app",
@@ -1463,7 +1431,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 44,
+      "position": 42,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/dolibarr/#app",
@@ -1473,7 +1441,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 45,
+      "position": 43,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
@@ -1483,7 +1451,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 44,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
@@ -1493,7 +1461,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 45,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/espocrm/#app",
@@ -1503,7 +1471,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 46,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
@@ -1513,7 +1481,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 47,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/ever-gauzy/#app",
@@ -1523,7 +1491,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 48,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/evertune/#app",
@@ -1533,7 +1501,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 49,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/flagsmith/#app",
@@ -1543,7 +1511,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 50,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/frappe-crm/#app",
@@ -1553,7 +1521,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 51,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/frase/#app",
@@ -1563,7 +1531,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 52,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/freshsales/#app",
@@ -1573,7 +1541,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 53,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/ghost/#app",
@@ -1583,7 +1551,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 54,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
@@ -1593,7 +1561,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 55,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/growth-lab/#app",
@@ -1603,7 +1571,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 56,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/growthbook/#app",
@@ -1613,7 +1581,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 57,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/heap/#app",
@@ -1623,7 +1591,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 60,
+      "position": 58,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/hootsuite/#app",
@@ -1633,7 +1601,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 61,
+      "position": 59,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/hubspot-crm/#app",
@@ -1643,7 +1611,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 62,
+      "position": 60,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
@@ -1653,7 +1621,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 63,
+      "position": 61,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
@@ -1663,7 +1631,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 64,
+      "position": 62,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/idurar-erp-crm/#app",
@@ -1673,7 +1641,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 65,
+      "position": 63,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/ifttt/#app",
@@ -1683,7 +1651,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 66,
+      "position": 64,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/intercom/#app",
@@ -1693,7 +1661,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 67,
+      "position": 65,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/jasper/#app",
@@ -1703,7 +1671,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 68,
+      "position": 66,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/jitsu/#app",
@@ -1713,7 +1681,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 69,
+      "position": 67,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/khoj/#app",
@@ -1723,7 +1691,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 70,
+      "position": 68,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/klaviyo/#app",
@@ -1733,7 +1701,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 71,
+      "position": 69,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/krayin-crm/#app",
@@ -1743,7 +1711,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 72,
+      "position": 70,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/langchain/#app",
@@ -1753,7 +1721,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 73,
+      "position": 71,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/languagetool/#app",
@@ -1763,7 +1731,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 74,
+      "position": 72,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/laudspeaker/#app",
@@ -1773,7 +1741,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 75,
+      "position": 73,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/libretranslate/#app",
@@ -1783,7 +1751,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 76,
+      "position": 74,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/line-harness/#app",
@@ -1793,7 +1761,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 77,
+      "position": 75,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/listmonk/#app",
@@ -1803,7 +1771,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 78,
+      "position": 76,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/loops/#app",
@@ -1813,7 +1781,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 77,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/macro/#app",
@@ -1823,7 +1791,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 78,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/madgicx/#app",
@@ -1833,7 +1801,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 79,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/mailchimp/#app",
@@ -1843,7 +1811,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 80,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/maizzle/#app",
@@ -1853,7 +1821,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 81,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/make/#app",
@@ -1863,7 +1831,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 84,
+      "position": 82,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/manychat/#app",
@@ -1873,7 +1841,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 83,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/marketing-studio/#app",
@@ -1883,7 +1851,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 84,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/marketmuse/#app",
@@ -1893,7 +1861,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 85,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/matomo/#app",
@@ -1903,7 +1871,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 86,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/mautic/#app",
@@ -1913,7 +1881,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 87,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/power-automate/#app",
@@ -1923,7 +1891,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 88,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/mixpanel/#app",
@@ -1933,7 +1901,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 89,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/monica/#app",
@@ -1943,7 +1911,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 90,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/multipost-extension/#app",
@@ -1953,7 +1921,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 91,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/n8n/#app",
@@ -1963,7 +1931,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 92,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#app",
@@ -1973,7 +1941,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 93,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/nightwatch/#app",
@@ -1983,7 +1951,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 96,
+      "position": 94,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/nimt-ai/#app",
@@ -1993,7 +1961,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 97,
+      "position": 95,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/nocobase/#app",
@@ -2003,7 +1971,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 98,
+      "position": 96,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/nocodb/#app",
@@ -2013,7 +1981,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 99,
+      "position": 97,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/northbeam/#app",
@@ -2023,7 +1991,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 98,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/nosto/#app",
@@ -2033,7 +2001,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 101,
+      "position": 99,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/notifo/#app",
@@ -2043,7 +2011,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 102,
+      "position": 100,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/notifuse/#app",
@@ -2053,7 +2021,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 103,
+      "position": 101,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/open-mercato/#app",
@@ -2063,7 +2031,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 102,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
@@ -2073,7 +2041,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 105,
+      "position": 103,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/openoutreach/#app",
@@ -2083,7 +2051,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 106,
+      "position": 104,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/openseo/#app",
@@ -2093,7 +2061,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 107,
+      "position": 105,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/opteo/#app",
@@ -2103,7 +2071,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 108,
+      "position": 106,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/ortto/#app",
@@ -2113,7 +2081,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 109,
+      "position": 107,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/otterlyai/#app",
@@ -2123,7 +2091,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 110,
+      "position": 108,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
@@ -2133,7 +2101,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 111,
+      "position": 109,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/paperclip/#app",
@@ -2143,7 +2111,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 112,
+      "position": 110,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/pencil/#app",
@@ -2153,7 +2121,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 113,
+      "position": 111,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/persado/#app",
@@ -2163,7 +2131,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 114,
+      "position": 112,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/phrasee/#app",
@@ -2173,7 +2141,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 113,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/pipedream/#app",
@@ -2183,7 +2151,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 114,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/pipedrive/#app",
@@ -2193,7 +2161,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 115,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/plausible/#app",
@@ -2203,7 +2171,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 116,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/posthog/#app",
@@ -2213,7 +2181,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 117,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/postmark/#app",
@@ -2223,7 +2191,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 120,
+      "position": 118,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/potato-ai-visibility/#app",
@@ -2233,7 +2201,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 121,
+      "position": 119,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/predis-ai/#app",
@@ -2243,7 +2211,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 122,
+      "position": 120,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/profound/#app",
@@ -2253,7 +2221,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 123,
+      "position": 121,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/promptfoo/#app",
@@ -2263,7 +2231,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 124,
+      "position": 122,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/prospectos/#app",
@@ -2273,7 +2241,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 125,
+      "position": 123,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/rankscale/#app",
@@ -2283,7 +2251,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 126,
+      "position": 124,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/react-email-editor/#app",
@@ -2293,7 +2261,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 127,
+      "position": 125,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/relaticle/#app",
@@ -2303,7 +2271,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 128,
+      "position": 126,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/resend/#app",
@@ -2313,7 +2281,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 129,
+      "position": 127,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/revealbot/#app",
@@ -2323,7 +2291,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 130,
+      "position": 128,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/revive-adserver/#app",
@@ -2333,7 +2301,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 131,
+      "position": 129,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
@@ -2343,7 +2311,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 132,
+      "position": 130,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
@@ -2353,7 +2321,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 133,
+      "position": 131,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/scrunch/#app",
@@ -2363,7 +2331,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 134,
+      "position": 132,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/semrush/#app",
@@ -2373,7 +2341,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 135,
+      "position": 133,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
@@ -2383,7 +2351,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 136,
+      "position": 134,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/seonaut/#app",
@@ -2393,7 +2361,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 137,
+      "position": 135,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/sistrix/#app",
@@ -2403,7 +2371,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 138,
+      "position": 136,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/smartly-io/#app",
@@ -2413,7 +2381,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 139,
+      "position": 137,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/snowplow/#app",
@@ -2423,7 +2391,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 140,
+      "position": 138,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/sprout-social/#app",
@@ -2433,7 +2401,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 141,
+      "position": 139,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/strapi/#app",
@@ -2443,7 +2411,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 142,
+      "position": 140,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/suitecrm/#app",
@@ -2453,7 +2421,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 143,
+      "position": 141,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/superlines/#app",
@@ -2463,7 +2431,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 144,
+      "position": 142,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/surfer-seo/#app",
@@ -2473,7 +2441,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 145,
+      "position": 143,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/tealium/#app",
@@ -2483,7 +2451,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 146,
+      "position": 144,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/tidio/#app",
@@ -2493,7 +2461,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 147,
+      "position": 145,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/tooljet/#app",
@@ -2503,7 +2471,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 148,
+      "position": 146,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/trakkr/#app",
@@ -2513,7 +2481,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 149,
+      "position": 147,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/tray-io/#app",
@@ -2523,7 +2491,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 150,
+      "position": 148,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/triple-whale/#app",
@@ -2533,7 +2501,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 151,
+      "position": 149,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/twenty/#app",
@@ -2543,7 +2511,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 152,
+      "position": 150,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/segment/#app",
@@ -2553,7 +2521,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 153,
+      "position": 151,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/sendgrid/#app",
@@ -2563,7 +2531,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 154,
+      "position": 152,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/umami/#app",
@@ -2573,7 +2541,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 155,
+      "position": 153,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/wacrm/#app",
@@ -2583,7 +2551,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 156,
+      "position": 154,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/warmbly/#app",
@@ -2593,7 +2561,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 157,
+      "position": 155,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/warpdrive/#app",
@@ -2603,7 +2571,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 158,
+      "position": 156,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/workato/#app",
@@ -2613,7 +2581,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 159,
+      "position": 157,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/writer/#app",
@@ -2623,7 +2591,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 160,
+      "position": 158,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/writesonic/#app",
@@ -2633,7 +2601,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 161,
+      "position": 159,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/zapier/#app",
@@ -2643,7 +2611,7 @@ Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/
     },
     {
       "@type": "ListItem",
-      "position": 162,
+      "position": 160,
       "item": {
         "@type": "SoftwareApplication",
         "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",

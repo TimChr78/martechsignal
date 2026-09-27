@@ -37,13 +37,9 @@ Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-AI Marketing Suite
+SEO Skill Bench
 
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

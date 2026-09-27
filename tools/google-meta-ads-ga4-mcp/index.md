@@ -62,6 +62,8 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Google Ads + Meta Ads + GA4 MCP
+KIND: Utility (not an end-to-end platform)
+
 ## Google Ads + Meta Ads + GA4 MCP review (2026): pricing, AI features, verdict
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4

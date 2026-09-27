@@ -2,7 +2,7 @@
 
 [Browse the tools](/tools/) [See what is trending](/trending/) [Take the readiness checklist](/checklist/) [Get the newsletter](/#subscribe)
 
-162TOOLS AUDITED
+160TOOLS AUDITED
 
 40POSTS PUBLISHED
 
@@ -28,7 +28,7 @@ Advertising &amp; Paid Media
 
 Agent Skills
 
-18 tools
+16 tools
 
 Analytics &amp; Attribution
 
@@ -56,7 +56,7 @@ Marketing Automation
 
 Open-Source Tools
 
-80 tools
+78 tools
 
 Personalization &amp; CDP
 
@@ -102,7 +102,7 @@ Google ships AI ad automation faster than it ships the safety reporting to match
 
 ## How to read the directory
 
-The directory holds **162 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **20** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+The directory holds **160 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **20** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
 
 Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
 

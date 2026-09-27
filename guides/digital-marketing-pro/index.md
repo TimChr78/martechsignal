@@ -41,18 +41,16 @@ SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
-Diffmode Growth Tactics
-
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
-- [Tools](/tools/)
+- [Guides](/guides/)
 - [Agent Skills](/categories/agent-skills/)
 - Digital Marketing Pro
+KIND: Guide (not an end-to-end platform)
+
 ## Digital Marketing Pro review (2026): pricing, AI features, verdict
 
 158-skill AI marketing plugin for agencies with EU AI Act compliance
@@ -148,15 +146,15 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools)
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
+    "@id": "https://martechsignal.com/guides/digital-marketing-pro/#app",
     "name": "Digital Marketing Pro",
     "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
     "image": "https://martechsignal.com/og/tools/digital-marketing-pro.png",
-    "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+    "url": "https://martechsignal.com/guides/digital-marketing-pro/",
     "sameAs": [
       "https://github.com/indranilbanerjee/digital-marketing-pro"
     ],
-    "mainEntityOfPage": "https://martechsignal.com/tools/digital-marketing-pro/",
+    "mainEntityOfPage": "https://martechsignal.com/guides/digital-marketing-pro/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-08-28",
@@ -195,7 +193,7 @@ Related guides: [Agent Skills Tools](/best/agent-skills-tools)
         "@type": "ListItem",
         "position": 4,
         "name": "Digital Marketing Pro",
-        "item": "https://martechsignal.com/tools/digital-marketing-pro/"
+        "item": "https://martechsignal.com/guides/digital-marketing-pro/"
       }
     ]
   },

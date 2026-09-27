@@ -26,7 +26,13 @@ VS_DIR = ROOT / "vs"
 
 def _load_tools():
     tools = json.loads((ROOT / "tools" / "tools.json").read_text())
-    return {t["slug"]: t for t in tools}
+    out = {t["slug"]: t for t in tools}
+    # r6 M-2: guides resolve too (they may appear in /best/ lineups), but the
+    # platform count excludes them (kind == "Guide").
+    gp = ROOT / "tools" / "guides.json"
+    if gp.exists():
+        out.update({t["slug"]: t for t in json.loads(gp.read_text())})
+    return out
 
 
 def build_best():
@@ -68,7 +74,7 @@ def build_best():
         body.append(
             '<p class="alt-back">Every price quoted here comes from the vendor\'s own '
             'pricing page as catalogued on the tool page. Browse <a href="/tools/">all '
-            f'{len([t for t in tools_by_slug.values() if t.get("status") == "active"])} tools</a> '
+            f'{len([t for t in tools_by_slug.values() if t.get("status") == "active" and t.get("kind") != "Guide"])} tools</a> '
             'or read <a href="/methodology/">how we evaluate</a>.</p>')
 
         schema = {

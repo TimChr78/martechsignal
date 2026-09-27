@@ -11,3 +11,7 @@
 /blog/claude-seo-teardown-martechsignal/  /blog/claude-seo-benchmark/  301
 /blog/claude-seo-v225-rescore-61-vs-92/  /blog/claude-seo-benchmark/  301
 /blog/claude-seo-v231-four-graders/  /blog/claude-seo-benchmark/  301
+
+# r6 M-2 (2026-09-27): topic pages live under /guides/, outside the /tools/ taxonomy
+/tools/ai-marketing-claude/ /guides/ai-marketing-claude/ 301
+/tools/digital-marketing-pro/ /guides/digital-marketing-pro/ 301

@@ -30,10 +30,6 @@ Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
 SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
@@ -41,6 +37,14 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Growth Lab
+
+Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+
+Diffmode Growth Tactics
+
+Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
@@ -126,8 +130,8 @@ The most complete open-source take on agent-produced launch assets, with a real 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

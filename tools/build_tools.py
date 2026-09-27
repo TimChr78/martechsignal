@@ -578,7 +578,7 @@ def build_hub(tools, cats):
 <h2>Browse by category</h2>
 <nav class="cat-nav">{pills}</nav>
 <div class="sub-strip"><div><h2>Evaluating tools for your stack?</h2><p>The weekly newsletter tracks this category: one teardown, one workflow, no fluff.</p></div><a class="btn" href="/#subscribe" data-umami-event="Hub subscribe click">Subscribe</a></div>
-<p class="sub">All {_active_n} tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.</p>
+<p class="sub">All {_active_n} tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.</p> + " Four entries are agent-skill packs or utilities rather than end-to-end platforms. Each carries a kind label."
 {grouped}"""
 
     schema = {
@@ -589,7 +589,7 @@ def build_hub(tools, cats):
         "numberOfItems": len([t for t in tools if t.get("status") == "active"]),
         "itemListElement": []
     }
-    active = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("status") == "active"]
+    active = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("status") == "active" and t.get("kind") != "Guide"]
     # R3-M3 (wave 3): ListItem.item nodes instead of bare name+url
     schema["itemListElement"] = [
         {"@type": "ListItem", "position": i+1,
@@ -618,6 +618,7 @@ def build_hub(tools, cats):
         '</select></label><span class="filter-count" id="flt-count" aria-live="polite"></span></div>')
     body = body.replace("</h1>", "</h1>" + FILTER_BAR, 1)
     out = TOOLS_DIR / "index.html"
+
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
         f"Browse {len(active)} curated AI marketing automation tools across 14 categories - open-source and SaaS, with assessments desk-researched from vendor.",
@@ -797,7 +798,7 @@ def _list_item_thing(t):
     return {**_base, "@type": "SoftwareApplication"}
 
 
-def build_tool_page(t, cats, all_tools):
+def build_tool_page(t, cats, all_tools, base="tools"):
     cat_map = {c["slug"]: c for c in cats}
     c = cat_map.get(t["category"], {})
     slug = t["slug"]
@@ -829,7 +830,7 @@ def build_tool_page(t, cats, all_tools):
             _have.add(_rid)
     related_html = ""
     if related:
-        items = "".join(f'<a class="tool-card" href="/tools/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
+        items = "".join(f'<a class="tool-card" href="/{base}/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
         related_html = f'<h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
 
     source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
@@ -1327,7 +1328,7 @@ def build_tool_page(t, cats, all_tools):
         + (f'The catalog documents {_cap}. ' if _cap else '')
         + f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
         + '<span class="tag desk">Desk-reviewed</span></div>')
-    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
+    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
@@ -1380,16 +1381,16 @@ def build_tool_page(t, cats, all_tools):
     schema = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
+        "@id": f"https://martechsignal.com/{base}/{t['slug']}/#app",
         "name": t["name"],
         "description": t.get("tagline", ""),
         # A3 M-3 (2026-09-26): the image asset already existed in the category
         # nodes; the tool page's own app node now carries it too.
         "image": f"https://martechsignal.com/og/tools/{t['slug']}.png",
-        "url": f"https://martechsignal.com/tools/{t['slug']}/",
+        "url": f"https://martechsignal.com/{base}/{t['slug']}/",
         "sameAs": ([t["website"]] if t.get("website") else []),
         # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
-        "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
+        "mainEntityOfPage": f"https://martechsignal.com/{base}/{t['slug']}/",
         # A2 H4 (2026-09-26): author/publisher REMOVED from the app node - it claimed
         # Tim Christensen wrote and MartechSignal published Zapier and 157 other
         # products. The named author now lives on the critic Review layer only (the
@@ -1486,7 +1487,7 @@ def build_tool_page(t, cats, all_tools):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"},
             {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://martechsignal.com/tools/"},
             {"@type": "ListItem", "position": 3, "name": c.get("name", ""), "item": f"https://martechsignal.com/categories/{t['category']}/"},
-            {"@type": "ListItem", "position": 4, "name": t["name"], "item": f"https://martechsignal.com/tools/{slug}/"}
+            {"@type": "ListItem", "position": 4, "name": t["name"], "item": f"https://martechsignal.com/{base}/{slug}/"}
         ]
     }
 
@@ -1499,16 +1500,19 @@ def build_tool_page(t, cats, all_tools):
     guides = _guide_links(t)
     if guides:
         body += '<p class="alt-back">Related guides: ' + ' \u00b7 '.join(guides) + '</p>'
-    out_dir = TOOLS_DIR / slug
+    out_dir = ROOT / base / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
     # SEO title/meta: prefer persisted seo_* fields; otherwise generate via helpers (≤60/≤155, Review+Category+Pricing)
     seo_title = t.get("seo_title") or _seo_title_for(t, cats)
     seo_desc = t.get("seo_description") or _seo_description_for(t, cats)
+    # r6 M-2: visible kind label for non-platform entries
+    if t.get("kind"):
+        body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">KIND: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
     out.write_text(page_shell(
         seo_title,
         seo_desc,
-        f"/tools/{slug}/", body, [x for x in (schema, breadcrumb, faq_schema, review_schema) if x], og_image=f"og/tools/{slug}.png"))
+        f"/{base}/{slug}/", body, [x for x in (schema, breadcrumb, faq_schema, review_schema) if x], og_image=f"og/tools/{slug}.png"))
     return out
 
 # ── Category pages ─────────────────────────────────────────────────
@@ -1838,6 +1842,15 @@ def build_sitemap(tools, cats):
             tool_html = TOOLS_DIR / t["slug"] / "index.html"
             lm = _lastmod(tool_html) if tool_html.exists() else today
             urls.append((f"https://martechsignal.com/tools/{t['slug']}/", lm, "0.7"))
+    gjson = TOOLS_DIR / "guides.json"
+    if gjson.exists():
+        for t in json.load(open(gjson)):
+            g_html = ROOT / "guides" / t["slug"] / "index.html"
+            lm = _lastmod(g_html) if g_html.exists() else today
+            urls.append((f"https://martechsignal.com/guides/{t['slug']}/", lm, "0.7"))
+        gu = ROOT / "guides" / "index.html"
+        if gu.exists():
+            urls.append(("https://martechsignal.com/guides/", _lastmod(gu), "0.6"))
 
     # Category pages
     for c in cats:
@@ -1917,7 +1930,7 @@ def build_sitemap(tools, cats):
 
 def main():
     tools, cats = load()
-    active = [t for t in tools if t.get("status") == "active"]
+    active = [t for t in tools if t.get("status") == "active" and t.get("kind") != "Guide"]
     print(f"Building tool directory: {len(active)} active tools, {len(cats)} categories\n")
 
     # R2 H-2 guaranteed coverage: closed-form reservation computed purely from
@@ -1969,6 +1982,28 @@ def main():
             print(f"  · {c['slug']} (empty, skipped)")
 
     n_hubs = sum(1 for c in cats if c.get("hub"))
+    
+    # r6 M-2 (2026-09-27): catalog guides live outside the /tools/ taxonomy.
+    gpath = TOOLS_DIR / "guides.json"
+    if gpath.exists():
+        guides = json.load(open(gpath))
+        for t in guides:
+            build_tool_page(t, cats, tools, base="guides")
+        gi = "\n".join(
+            f'    <li><a href="/guides/{g["slug"]}/">{esc(g["name"])}</a> - {esc(g.get("tagline", ""))}</li>'
+            for g in guides)
+        gdir = ROOT / "guides"
+        gdir.mkdir(exist_ok=True)
+        (gdir / "index.html").write_text(page_shell(
+            title="Catalog guides",
+            description="Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.",
+            canonical="https://martechsignal.com/guides/",
+            body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><span aria-current="page">Guides</span></li></ol></nav>'
+                 '<section class="page-head"><h1>Catalog guides</h1>'
+                 '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
+                 f'<ul>{gi}</ul>'))
+        print(f"Guides ({len(guides)}): /guides/")
+
     print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + {n_hubs} hub")
 
     sync_date_modified()  # M9: before sitemap so <lastmod> covers every family
@@ -2016,7 +2051,7 @@ def build_llms_txt(tools, cats):
     """Generate llms.txt (site summary + structured inventory for AI crawlers)."""
     import re as _re
     cat_names = {c["slug"]: c["name"] for c in cats}
-    active = [t for t in tools if t.get("status") == "active"]
+    active = [t for t in tools if t.get("status") == "active" and t.get("kind") != "Guide"]
     n_active = len(active)  # SX-4: every count claim derived from data, none hardcoded
     lines = [
         "# MartechSignal",

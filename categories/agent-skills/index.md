@@ -50,17 +50,11 @@ IF You want to verify a skill works before you trust it
 
 An open benchmark that scores Claude Code SEO skills against fixture sites with planted defects, so claims have a scoreboard
 
-SEO AND CONTENT SKILLS***8*
+SEO AND CONTENT SKILLS***7*
 
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-Open SourceDesk-reviewedOSS
-
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
 
 Open SourceDesk-reviewedOSS
 
@@ -100,7 +94,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Open SourceDesk-reviewedOSS
 
-CAMPAIGN AND ASSET SKILLS***10*
+CAMPAIGN AND ASSET SKILLS***9*
 
 AI Business Skills
 
@@ -117,12 +111,6 @@ Open SourceDesk-reviewedOSS
 Claude Ads
 
 Paid-media operations skill for Claude Code covering 12 ad platforms
-
-Open SourceDesk-reviewedOSS
-
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
 
 Open SourceDesk-reviewedOSS
 
@@ -183,7 +171,7 @@ Why agent-to-tool protocols change what integrations should cost
 
 Compare 22 agent skills and MCP tools for Claude Code and Codex: SEO audits, ad ops, email, launch assets. No per-skill subscription.
 
-18 TOOLS IN THIS CATEGORY
+16 TOOLS IN THIS CATEGORY
 
 Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
 
@@ -229,7 +217,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
       "@type": "ItemList",
       "name": "Agent Skills Tools",
       "description": "Compare 22 agent skills and MCP tools for Claude Code and Codex: SEO audits, ad ops, email, launch assets. No per-skill subscription.",
-      "numberOfItems": 18,
+      "numberOfItems": 16,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -259,18 +247,6 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
           "@type": "ListItem",
           "position": 3,
           "item": {
-            "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
-            "name": "AI Marketing Suite",
-            "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
-            "image": "https://martechsignal.com/og/tools/ai-marketing-claude.png",
-            "url": "https://martechsignal.com/tools/ai-marketing-claude/",
-            "@type": "SoftwareApplication"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "item": {
             "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#app",
             "name": "Analytics Tracking Automation",
             "description": "AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live",
@@ -281,7 +257,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-ads/#app",
             "name": "Claude Ads",
@@ -293,7 +269,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-seo/#app",
             "name": "Claude SEO",
@@ -305,7 +281,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/codex-seo/#app",
             "name": "Codex SEO",
@@ -317,7 +293,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
             "name": "Diffmode Growth Tactics",
@@ -329,19 +305,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 9,
-          "item": {
-            "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
-            "name": "Digital Marketing Pro",
-            "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
-            "image": "https://martechsignal.com/og/tools/digital-marketing-pro.png",
-            "url": "https://martechsignal.com/tools/digital-marketing-pro/",
-            "@type": "SoftwareApplication"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 10,
+          "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
             "name": "Email Marketing Bible",
@@ -353,7 +317,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
             "name": "Eve Marketing Team Template",
@@ -365,7 +329,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
             "name": "Google Ads + Meta Ads + GA4 MCP",
@@ -377,7 +341,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/growth-lab/#app",
             "name": "Growth Lab",
@@ -389,7 +353,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/marketing-studio/#app",
             "name": "Marketing Studio",
@@ -401,7 +365,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/open-mercato/#app",
             "name": "Open Mercato",
@@ -413,7 +377,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
             "name": "OpenClaw Marketing Skills",
@@ -425,7 +389,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
             "name": "SEO Skill Bench",
@@ -437,7 +401,7 @@ This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-a
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
             "name": "Zapier GTM Cheat Codes",

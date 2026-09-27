@@ -37,22 +37,20 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
-Digital Marketing Pro
+SEO Skill Bench
 
-158-skill AI marketing plugin for agencies with EU AI Act compliance
-
-Eve Marketing Team Template
-
-Open-source team of marketing agents on eve: lead, content, social, SEO, email
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
-- [Tools](/tools/)
+- [Guides](/guides/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Marketing Suite
+KIND: Guide (not an end-to-end platform)
+
 ## AI Marketing Suite review (2026): pricing, AI features, verdict
 
 15-skill marketing suite for Claude Code with parallel agents and PDF reports
@@ -139,15 +137,15 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
+    "@id": "https://martechsignal.com/guides/ai-marketing-claude/#app",
     "name": "AI Marketing Suite",
     "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
     "image": "https://martechsignal.com/og/tools/ai-marketing-claude.png",
-    "url": "https://martechsignal.com/tools/ai-marketing-claude/",
+    "url": "https://martechsignal.com/guides/ai-marketing-claude/",
     "sameAs": [
       "https://github.com/zubair-trabzada/ai-marketing-claude"
     ],
-    "mainEntityOfPage": "https://martechsignal.com/tools/ai-marketing-claude/",
+    "mainEntityOfPage": "https://martechsignal.com/guides/ai-marketing-claude/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-08-28",
@@ -186,7 +184,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
         "@type": "ListItem",
         "position": 4,
         "name": "AI Marketing Suite",
-        "item": "https://martechsignal.com/tools/ai-marketing-claude/"
+        "item": "https://martechsignal.com/guides/ai-marketing-claude/"
       }
     ]
   },

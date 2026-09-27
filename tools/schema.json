@@ -97,6 +97,13 @@
     },
     "date_verified": {
       "type": "string"
+    },
+    "kind": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Non-platform label: Agent Skill, Utility, or Guide (guides live at /guides/)."
     }
   },
   "additionalProperties": true

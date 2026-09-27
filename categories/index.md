@@ -16,7 +16,7 @@ Agent Skills
 
 Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow
 
-18 tools
+16 tools
 
 Analytics &amp; Attribution
 
@@ -58,7 +58,7 @@ Open-Source Tools
 
 The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation
 
-80 tools
+78 tools
 
 Personalization &amp; CDP
 
@@ -88,7 +88,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 14 categories across the 162-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 14 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

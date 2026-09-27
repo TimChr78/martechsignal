@@ -37,9 +37,9 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Digital Marketing Pro
+Eve Marketing Team Template
 
-158-skill AI marketing plugin for agencies with EU AI Act compliance
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
 OpenClaw Marketing Skills
 

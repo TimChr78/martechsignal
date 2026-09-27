@@ -24,12 +24,6 @@ AI Business Skills
 
 Open SourceDesk-reviewedOSS
 
-AI Marketing Suite
-
-15-skill marketing suite for Claude Code with parallel agents and PDF reports
-
-Open SourceDesk-reviewedOSS
-
 AlphOne
 
 Plugin-first CRM (source-available, Elastic 2.0) written in Go
@@ -111,12 +105,6 @@ Open SourceDesk-reviewedOSS
 Diffmode Growth Tactics
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
-
-Open SourceDesk-reviewedOSS
-
-Digital Marketing Pro
-
-158-skill AI marketing plugin for agencies with EU AI Act compliance
 
 Open SourceDesk-reviewedOSS
 
@@ -497,7 +485,7 @@ The failure mode is reading the license price as the total price. Free self-host
 
 Judge these repos the way you would a hire: upgrade discipline, API completeness, documentation, and whether the community would survive the founding company leaving. Start by replacing the layer your stack is missing or overpaying for, not the whole stack at once. The directory&#x27;s own split shows where open source is strongest: eighteen CRM systems, seventeen agent-skill packs, and eight each in workflow automation and email marketing. The buying question is never can it send email. It is who runs the server, and what breaks when nobody is watching.
 
-80 TOOLS IN THIS CATEGORY
+78 TOOLS IN THIS CATEGORY
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
@@ -533,7 +521,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
       "@type": "ItemList",
       "name": "Open-Source Tools",
       "description": "The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation",
-      "numberOfItems": 80,
+      "numberOfItems": 78,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -587,18 +575,6 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
           "@type": "ListItem",
           "position": 5,
           "item": {
-            "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
-            "name": "AI Marketing Suite",
-            "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
-            "image": "https://martechsignal.com/og/tools/ai-marketing-claude.png",
-            "url": "https://martechsignal.com/tools/ai-marketing-claude/",
-            "@type": "SoftwareApplication"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "item": {
             "@id": "https://martechsignal.com/tools/alphone/#app",
             "name": "AlphOne",
             "description": "Plugin-first CRM (source-available, Elastic 2.0) written in Go",
@@ -609,7 +585,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/alwrity/#app",
             "name": "ALwrity",
@@ -621,7 +597,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#app",
             "name": "Analytics Tracking Automation",
@@ -633,7 +609,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/apache-unomi/#app",
             "name": "Apache Unomi",
@@ -645,7 +621,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/appsmith/#app",
             "name": "Appsmith",
@@ -657,7 +633,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/billionmail/#app",
             "name": "BillionMail",
@@ -669,7 +645,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/budibase/#app",
             "name": "Budibase",
@@ -681,7 +657,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/chatbotx/#app",
             "name": "ChatbotX",
@@ -693,7 +669,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/chatwoot/#app",
             "name": "Chatwoot",
@@ -705,7 +681,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-ads/#app",
             "name": "Claude Ads",
@@ -717,7 +693,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-seo/#app",
             "name": "Claude SEO",
@@ -729,7 +705,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/cordys-crm/#app",
             "name": "Cordys CRM",
@@ -741,7 +717,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 17,
           "item": {
             "@id": "https://martechsignal.com/tools/deskcommcrm/#app",
             "name": "DeskcommCRM",
@@ -753,7 +729,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 18,
           "item": {
             "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
             "name": "Diffmode Growth Tactics",
@@ -765,19 +741,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 20,
-          "item": {
-            "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
-            "name": "Digital Marketing Pro",
-            "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
-            "image": "https://martechsignal.com/og/tools/digital-marketing-pro.png",
-            "url": "https://martechsignal.com/tools/digital-marketing-pro/",
-            "@type": "SoftwareApplication"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 21,
+          "position": 19,
           "item": {
             "@id": "https://martechsignal.com/tools/django-crm/#app",
             "name": "Django CRM",
@@ -789,7 +753,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 20,
           "item": {
             "@id": "https://martechsignal.com/tools/dolibarr/#app",
             "name": "Dolibarr ERP/CRM",
@@ -801,7 +765,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 21,
           "item": {
             "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
             "name": "Email Marketing Bible",
@@ -813,7 +777,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 22,
           "item": {
             "@id": "https://martechsignal.com/tools/espocrm/#app",
             "name": "EspoCRM",
@@ -825,7 +789,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 23,
           "item": {
             "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
             "name": "Eve Marketing Team Template",
@@ -837,7 +801,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 24,
           "item": {
             "@id": "https://martechsignal.com/tools/ever-gauzy/#app",
             "name": "Ever Gauzy",
@@ -849,7 +813,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 25,
           "item": {
             "@id": "https://martechsignal.com/tools/flagsmith/#app",
             "name": "Flagsmith",
@@ -861,7 +825,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 26,
           "item": {
             "@id": "https://martechsignal.com/tools/frappe-crm/#app",
             "name": "Frappe CRM",
@@ -873,7 +837,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 27,
           "item": {
             "@id": "https://martechsignal.com/tools/ghost/#app",
             "name": "Ghost",
@@ -885,7 +849,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 28,
           "item": {
             "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
             "name": "Google Ads + Meta Ads + GA4 MCP",
@@ -897,7 +861,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 29,
           "item": {
             "@id": "https://martechsignal.com/tools/growth-lab/#app",
             "name": "Growth Lab",
@@ -909,7 +873,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 30,
           "item": {
             "@id": "https://martechsignal.com/tools/growthbook/#app",
             "name": "GrowthBook",
@@ -921,7 +885,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 31,
           "item": {
             "@id": "https://martechsignal.com/tools/idurar-erp-crm/#app",
             "name": "IDURAR ERP & CRM",
@@ -933,7 +897,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 32,
           "item": {
             "@id": "https://martechsignal.com/tools/jitsu/#app",
             "name": "Jitsu",
@@ -945,7 +909,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 33,
           "item": {
             "@id": "https://martechsignal.com/tools/khoj/#app",
             "name": "Khoj",
@@ -957,7 +921,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 34,
           "item": {
             "@id": "https://martechsignal.com/tools/krayin-crm/#app",
             "name": "Krayin CRM",
@@ -969,7 +933,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 35,
           "item": {
             "@id": "https://martechsignal.com/tools/langchain/#app",
             "name": "LangChain",
@@ -981,7 +945,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 36,
           "item": {
             "@id": "https://martechsignal.com/tools/languagetool/#app",
             "name": "LanguageTool",
@@ -993,7 +957,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 37,
           "item": {
             "@id": "https://martechsignal.com/tools/laudspeaker/#app",
             "name": "Laudspeaker",
@@ -1005,7 +969,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 38,
           "item": {
             "@id": "https://martechsignal.com/tools/libretranslate/#app",
             "name": "LibreTranslate",
@@ -1017,7 +981,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 39,
           "item": {
             "@id": "https://martechsignal.com/tools/line-harness/#app",
             "name": "Line Harness",
@@ -1029,7 +993,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 40,
           "item": {
             "@id": "https://martechsignal.com/tools/listmonk/#app",
             "name": "Listmonk",
@@ -1041,7 +1005,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 41,
           "item": {
             "@id": "https://martechsignal.com/tools/macro/#app",
             "name": "Macro",
@@ -1053,7 +1017,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 42,
           "item": {
             "@id": "https://martechsignal.com/tools/maizzle/#app",
             "name": "Maizzle",
@@ -1065,7 +1029,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 43,
           "item": {
             "@id": "https://martechsignal.com/tools/marketing-studio/#app",
             "name": "Marketing Studio",
@@ -1077,7 +1041,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 44,
           "item": {
             "@id": "https://martechsignal.com/tools/matomo/#app",
             "name": "Matomo",
@@ -1089,7 +1053,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 45,
           "item": {
             "@id": "https://martechsignal.com/tools/mautic/#app",
             "name": "Mautic",
@@ -1101,7 +1065,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 46,
           "item": {
             "@id": "https://martechsignal.com/tools/monica/#app",
             "name": "Monica",
@@ -1113,7 +1077,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 47,
           "item": {
             "@id": "https://martechsignal.com/tools/multipost-extension/#app",
             "name": "MultiPost",
@@ -1125,7 +1089,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 48,
           "item": {
             "@id": "https://martechsignal.com/tools/n8n/#app",
             "name": "n8n",
@@ -1137,7 +1101,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 51,
+          "position": 49,
           "item": {
             "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#app",
             "name": "n8n Marketing Flows",
@@ -1149,7 +1113,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 52,
+          "position": 50,
           "item": {
             "@id": "https://martechsignal.com/tools/nocobase/#app",
             "name": "NocoBase",
@@ -1161,7 +1125,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 53,
+          "position": 51,
           "item": {
             "@id": "https://martechsignal.com/tools/nocodb/#app",
             "name": "NocoDB",
@@ -1173,7 +1137,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 54,
+          "position": 52,
           "item": {
             "@id": "https://martechsignal.com/tools/notifo/#app",
             "name": "Notifo",
@@ -1185,7 +1149,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 55,
+          "position": 53,
           "item": {
             "@id": "https://martechsignal.com/tools/notifuse/#app",
             "name": "Notifuse",
@@ -1197,7 +1161,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 56,
+          "position": 54,
           "item": {
             "@id": "https://martechsignal.com/tools/open-mercato/#app",
             "name": "Open Mercato",
@@ -1209,7 +1173,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 57,
+          "position": 55,
           "item": {
             "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
             "name": "OpenClaw Marketing Skills",
@@ -1221,7 +1185,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 58,
+          "position": 56,
           "item": {
             "@id": "https://martechsignal.com/tools/openoutreach/#app",
             "name": "OpenOutreach",
@@ -1233,7 +1197,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 59,
+          "position": 57,
           "item": {
             "@id": "https://martechsignal.com/tools/openseo/#app",
             "name": "OpenSEO",
@@ -1245,7 +1209,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 60,
+          "position": 58,
           "item": {
             "@id": "https://martechsignal.com/tools/paperclip/#app",
             "name": "Paperclip",
@@ -1257,7 +1221,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 61,
+          "position": 59,
           "item": {
             "@id": "https://martechsignal.com/tools/plausible/#app",
             "name": "Plausible Analytics",
@@ -1269,7 +1233,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 62,
+          "position": 60,
           "item": {
             "@id": "https://martechsignal.com/tools/posthog/#app",
             "name": "PostHog",
@@ -1281,7 +1245,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 63,
+          "position": 61,
           "item": {
             "@id": "https://martechsignal.com/tools/potato-ai-visibility/#app",
             "name": "Potato",
@@ -1293,7 +1257,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 64,
+          "position": 62,
           "item": {
             "@id": "https://martechsignal.com/tools/promptfoo/#app",
             "name": "Promptfoo",
@@ -1305,7 +1269,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 65,
+          "position": 63,
           "item": {
             "@id": "https://martechsignal.com/tools/prospectos/#app",
             "name": "ProspectOS",
@@ -1317,7 +1281,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 66,
+          "position": 64,
           "item": {
             "@id": "https://martechsignal.com/tools/react-email-editor/#app",
             "name": "React Email Editor",
@@ -1329,7 +1293,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 67,
+          "position": 65,
           "item": {
             "@id": "https://martechsignal.com/tools/relaticle/#app",
             "name": "Relaticle",
@@ -1341,7 +1305,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 68,
+          "position": 66,
           "item": {
             "@id": "https://martechsignal.com/tools/revive-adserver/#app",
             "name": "Revive Adserver",
@@ -1353,7 +1317,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 69,
+          "position": 67,
           "item": {
             "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
             "name": "SEO Skill Bench",
@@ -1365,7 +1329,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 70,
+          "position": 68,
           "item": {
             "@id": "https://martechsignal.com/tools/seonaut/#app",
             "name": "Seonaut",
@@ -1377,7 +1341,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 71,
+          "position": 69,
           "item": {
             "@id": "https://martechsignal.com/tools/snowplow/#app",
             "name": "Snowplow",
@@ -1389,7 +1353,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 72,
+          "position": 70,
           "item": {
             "@id": "https://martechsignal.com/tools/strapi/#app",
             "name": "Strapi",
@@ -1401,7 +1365,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 73,
+          "position": 71,
           "item": {
             "@id": "https://martechsignal.com/tools/suitecrm/#app",
             "name": "SuiteCRM",
@@ -1413,7 +1377,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 74,
+          "position": 72,
           "item": {
             "@id": "https://martechsignal.com/tools/tooljet/#app",
             "name": "ToolJet",
@@ -1425,7 +1389,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 75,
+          "position": 73,
           "item": {
             "@id": "https://martechsignal.com/tools/twenty/#app",
             "name": "Twenty",
@@ -1437,7 +1401,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 76,
+          "position": 74,
           "item": {
             "@id": "https://martechsignal.com/tools/umami/#app",
             "name": "Umami",
@@ -1449,7 +1413,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 77,
+          "position": 75,
           "item": {
             "@id": "https://martechsignal.com/tools/wacrm/#app",
             "name": "WaCRM",
@@ -1461,7 +1425,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 78,
+          "position": 76,
           "item": {
             "@id": "https://martechsignal.com/tools/warmbly/#app",
             "name": "Warmbly",
@@ -1473,7 +1437,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 79,
+          "position": 77,
           "item": {
             "@id": "https://martechsignal.com/tools/warpdrive/#app",
             "name": "Warpdrive",
@@ -1485,7 +1449,7 @@ Judge these repos the way you would a hire: upgrade discipline, API completeness
         },
         {
           "@type": "ListItem",
-          "position": 80,
+          "position": 78,
           "item": {
             "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
             "name": "Zapier GTM Cheat Codes",

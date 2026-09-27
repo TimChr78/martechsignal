@@ -84,7 +84,7 @@ Evertune is a marketing platform for brand discovery in AI search. paid pricing 
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

@@ -41,6 +41,10 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
+Eve Marketing Team Template
+
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
 [More Agent Skills Tools →](/categories/agent-skills/)
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)

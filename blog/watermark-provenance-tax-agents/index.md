@@ -65,9 +65,9 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
-- [Digital Marketing Pro](/tools/digital-marketing-pro/) - 158-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 - [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Comparison guides
 
 - [Best Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
@@ -126,7 +126,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1462,
+  "wordCount": 1463,
   "articleSection": "agent-skills"
 }
 ```

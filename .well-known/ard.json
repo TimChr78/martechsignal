@@ -127,19 +127,6 @@
    ]
   },
   {
-   "identifier": "urn:air:martechsignal.com:tools:ai-marketing-claude",
-   "displayName": "AI Marketing Suite pricing & plans",
-   "type": "text/html",
-   "url": "https://martechsignal.com/tools/ai-marketing-claude/",
-   "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
-   "representativeQueries": [
-    "open source ai marketing suite",
-    "AI Marketing Suite pricing",
-    "AI Marketing Suite alternatives",
-    "agent skills tools like AI Marketing Suite"
-   ]
-  },
-  {
    "identifier": "urn:air:martechsignal.com:tools:albert-ai",
    "displayName": "Albert AI pricing & plans",
    "type": "text/html",
@@ -511,19 +498,6 @@
     "Diffmode Growth Tactics pricing",
     "Diffmode Growth Tactics alternatives",
     "agent skills tools like Diffmode Growth Tactics"
-   ]
-  },
-  {
-   "identifier": "urn:air:martechsignal.com:tools:digital-marketing-pro",
-   "displayName": "Digital Marketing Pro pricing & plans",
-   "type": "text/html",
-   "url": "https://martechsignal.com/tools/digital-marketing-pro/",
-   "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
-   "representativeQueries": [
-    "open source digital marketing pro",
-    "Digital Marketing Pro pricing",
-    "Digital Marketing Pro alternatives",
-    "agent skills tools like Digital Marketing Pro"
    ]
   },
   {
