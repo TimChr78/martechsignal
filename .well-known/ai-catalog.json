@@ -1,6 +1,6 @@
 {
  "specVersion": "1.0",
- "publisher": "https://martechsignal.com/",
+ "host": "martechsignal.com",
  "entries": [
   {
    "identifier": "urn:air:martechsignal.com:tools:aaron-marketing-skills",
@@ -2336,36 +2336,14 @@
    ]
   },
   {
-   "identifier": "urn:air:martechsignal.com:blog:claude-seo-teardown-martechsignal",
-   "displayName": "Claude SEO on My Own Site: What Our Pipeline Missed",
+   "identifier": "urn:air:martechsignal.com:blog:claude-seo-benchmark",
+   "displayName": "Claude SEO benchmark: the living score tracker",
    "type": "text/html",
-   "url": "https://martechsignal.com/blog/claude-seo-teardown-martechsignal/",
-   "description": "This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a.",
+   "url": "https://martechsignal.com/blog/claude-seo-benchmark/",
+   "description": "Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one.",
    "representativeQueries": [
-    "claude seo on my own site: what our pipeline missed",
-    "claude seo teardown martechsignal"
-   ]
-  },
-  {
-   "identifier": "urn:air:martechsignal.com:blog:claude-seo-v225-rescore-61-vs-92",
-   "displayName": "Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.",
-   "type": "text/html",
-   "url": "https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/",
-   "description": "On August 24, the open-source Claude SEO skill scored martechsignal.com 92/100. We published the full teardown, patted ourselves on the back, and moved.",
-   "representativeQueries": [
-    "claude seo v2.2.5 re-scored us 61. both audits were right.",
-    "claude seo v225 rescore 61 vs 92"
-   ]
-  },
-  {
-   "identifier": "urn:air:martechsignal.com:blog:claude-seo-v231-four-graders",
-   "displayName": "Five Claude SEO Scores, Four Graders: None Compare",
-   "type": "text/html",
-   "url": "https://martechsignal.com/blog/claude-seo-v231-four-graders/",
-   "description": "We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.",
-   "representativeQueries": [
-    "five claude seo scores, four graders: none compare",
-    "claude seo v231 four graders"
+    "claude seo benchmark: the living score tracker",
+    "claude seo benchmark"
    ]
   },
   {
@@ -3025,6 +3003,94 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:best:agent-skills-tools",
+   "displayName": "Best Agent Skills tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/agent-skills-tools/",
+   "description": "8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best agent skills tools (2026): 8 compared",
+    "agent skills tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-advertising-tools",
+   "displayName": "Best Advertising &amp; Paid Media tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-advertising-tools/",
+   "description": "8 advertising &amp; paid media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best advertising &amp; paid media tools (2026): 8 compared",
+    "ai advertising tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-chatbot-tools",
+   "displayName": "Best Chatbots &amp; Conversational AI tools (2026): 6 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-chatbot-tools/",
+   "description": "6 chatbots &amp; conversational ai tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best chatbots &amp; conversational ai tools (2026): 6 compared",
+    "ai chatbot tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-content-copywriting-tools",
+   "displayName": "Best AI Content &amp; Copywriting tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-content-copywriting-tools/",
+   "description": "8 ai content &amp; copywriting tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best ai content &amp; copywriting tools (2026): 8 compared",
+    "ai content copywriting tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-crm-tools",
+   "displayName": "Best CRM tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-crm-tools/",
+   "description": "8 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best crm tools (2026): 8 compared",
+    "ai crm tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-email-marketing-tools",
+   "displayName": "Best Email Marketing tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-email-marketing-tools/",
+   "description": "8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best email marketing tools (2026): 8 compared",
+    "ai email marketing tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-marketing-automation-tools",
+   "displayName": "Best Marketing Automation tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-marketing-automation-tools/",
+   "description": "8 marketing automation tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best marketing automation tools (2026): 8 compared",
+    "ai marketing automation tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-personalization-tools",
+   "displayName": "Best Personalization &amp; CDP tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-personalization-tools/",
+   "description": "8 personalization &amp; cdp tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best personalization &amp; cdp tools (2026): 8 compared",
+    "ai personalization tools pricing comparison"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:best:ai-seo-tools",
    "displayName": "Best AI SEO tools for AI visibility (2026)",
    "type": "text/html",
@@ -3033,6 +3099,39 @@
    "representativeQueries": [
     "best ai seo tools for ai visibility (2026)",
     "ai seo tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:ai-social-media-tools",
+   "displayName": "Best Social Media tools (2026): 6 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/ai-social-media-tools/",
+   "description": "6 social media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best social media tools (2026): 6 compared",
+    "ai social media tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:geo-llm-visibility-tools",
+   "displayName": "Best GEO &amp; LLM Optimization tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/geo-llm-visibility-tools/",
+   "description": "8 geo &amp; llm optimization tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best geo &amp; llm optimization tools (2026): 8 compared",
+    "geo llm visibility tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:best:marketing-analytics-tools",
+   "displayName": "Best Analytics &amp; Attribution tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/marketing-analytics-tools/",
+   "description": "8 analytics &amp; attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best analytics &amp; attribution tools (2026): 8 compared",
+    "marketing analytics tools pricing comparison"
    ]
   },
   {
@@ -3047,6 +3146,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:best:open-source-marketing-tools",
+   "displayName": "Best Open-Source Tools tools (2026): 8 compared",
+   "type": "text/html",
+   "url": "https://martechsignal.com/best/open-source-marketing-tools/",
+   "description": "8 open-source tools tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+   "representativeQueries": [
+    "best open-source tools tools (2026): 8 compared",
+    "open source marketing tools pricing comparison"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:best:workflow-automation-tools",
    "displayName": "Best workflow automation tools (2026)",
    "type": "text/html",
@@ -3055,6 +3165,50 @@
    "representativeQueries": [
     "best workflow automation tools (2026)",
     "workflow automation tools pricing comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:activecampaign-vs-klaviyo",
+   "displayName": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
+   "description": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "activecampaign vs klaviyo (2026): pricing and ai",
+    "activecampaign vs klaviyo comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:claude-seo-vs-semrush",
+   "displayName": "Claude SEO vs Semrush (2026): pricing and AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
+   "description": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "claude seo vs semrush (2026): pricing and ai",
+    "claude seo vs semrush comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:jasper-vs-writer",
+   "displayName": "Jasper vs Writer (2026): pricing and AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/jasper-vs-writer/",
+   "description": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "jasper vs writer (2026): pricing and ai",
+    "jasper vs writer comparison"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:vs:make-vs-zapier",
+   "displayName": "Make vs Zapier (2026): pricing and AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/make-vs-zapier/",
+   "description": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "make vs zapier (2026): pricing and ai",
+    "make vs zapier comparison"
    ]
   },
   {
@@ -3091,6 +3245,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:vs:salesforce-marketing-cloud-vs-hubspot",
+   "displayName": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing and AI",
+   "type": "text/html",
+   "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
+   "description": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+   "representativeQueries": [
+    "salesforce marketing cloud vs hubspot marketing hub (2026): pricing and ai",
+    "salesforce marketing cloud vs hubspot comparison"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:alternatives:hubspot-crm",
    "displayName": "HubSpot CRM Alternatives: 5 Options Compared (2026)",
    "type": "text/html",
@@ -3114,12 +3279,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:alternatives:zapier",
-   "displayName": "Zapier Alternatives: 5 Tools Compared (2026)",
+   "displayName": "Zapier Alternatives: 10 Tools Compared (2026)",
    "type": "text/html",
    "url": "https://martechsignal.com/alternatives/zapier/",
    "description": "Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.",
    "representativeQueries": [
-    "zapier alternatives: 5 tools compared (2026)",
+    "zapier alternatives: 10 tools compared (2026)",
     "zapier alternatives"
    ]
   },
@@ -3139,7 +3304,7 @@
    "displayName": "Methodology",
    "type": "text/html",
    "url": "https://martechsignal.com/methodology/",
-   "description": "How MartechSignal evaluates AI marketing automation tools: the evidence standard, the MartechSignal Score rubric, and the provenance of every data artifact we cite.",
+   "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six pillars. Desk research with dated verification; no sponsored rankings; corrections are logged.",
    "representativeQueries": [
     "martechsignal methodology",
     "how martechsignal verifies tools",
@@ -3212,8 +3377,5 @@
     "martechsignal usage terms"
    ]
   }
- ],
- "trustManifest": {
-  "identity": "https://martechsignal.com/about/"
- }
+ ]
 }

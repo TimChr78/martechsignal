@@ -1,13 +1,214 @@
-# Laudspeaker | MartechSignal review
+# Laudspeaker review (2026): pricing, AI features, verdict
+
+
+| Pros | Cons |
+| --- | --- |
+| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; API access for custom integrations |  |
+| &#10003; AI capabilities: AI-powered messaging |  |
+| &#10003; Established community (2,622 GitHub stars) |  |
+
+**What is Laudspeaker?**
+Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+**How much does Laudspeaker cost?**
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,622 stars. You pay in server time and maintenance, not licences.
+
+**Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?**
+The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
+
+- **Pricing:** Open Source
+- **Category:** [Marketing Automation](/categories/marketing-automation/)
+- **GitHub:** ★ 2622
+- **API:** Yes
+- **Last verified:** 2026-08-28
+
+**Verdict:** Laudspeaker is a open source in Marketing Automation, a public API, self-hosting. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+
+Braze
+
+Customer engagement platform with AI-powered real-time messaging across channels
+
+ChatbotX
+
+Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Ortto
+
+Customer data and marketing automation platform with journeys, CDP, and AI features
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+[More Marketing Automation Tools →](/categories/marketing-automation/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+- [Home](/)
+- [Tools](/tools/)
+- [Marketing Automation](/categories/marketing-automation/)
+- Laudspeaker
+## Laudspeaker review (2026): pricing, AI features, verdict
 
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
-- Page: https://martechsignal.com/tools/laudspeaker/
-- Category: Marketing Automation
-- Pricing: Open Source
-- Open source: yes (MIT)
-- Last verified: 2026-08-28
+Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
 
-Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,600 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API.
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
-The platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.
+[How we review](/methodology/) · No affiliate links
+
+## Overview
+
+Designed as an open-source customer engagement and product onboarding platform, Laudspeaker helps teams automate lifecycle messaging without locking their data into a proprietary stack. It supports behavioral triggers, customer journey automation, and AI-powered messaging, allowing marketers and product teams to build sequences such as welcome flows, activation campaigns, re-engagement emails, in-app messages, and lifecycle nudges based on user actions. Because the platform is self-hostable and has an active GitHub presence with more than 2,600 stars, engineering teams can inspect the codebase, extend functionality, and connect it directly to their own data infrastructure through its API. The platform is aimed at startups, technical growth teams, and companies that want more control over their marketing automation stack than a closed SaaS tool typically provides. Its open-source model is the main differentiator: while commercial alternatives such as Braze offer polished hosted infrastructure and enterprise support, Laudspeaker offers a lower-cost entry point and greater flexibility for teams willing to manage deployment and maintenance. Pricing includes a free open-source self-hosted option, with cloud plans available for organizations that prefer managed hosting. AI capabilities are practical rather than experimental, focusing on message generation, trigger-based automation, and journey orchestration. Best for technical marketing and product teams that need an open-source alternative to Braze for customer engagement, onboarding automation, and behavioral messaging.
+
+## AI Capabilities
+
+- AI-powered messaging
+- Behavioral triggers
+- Customer journey automation
+## Pricing
+
+Laudspeaker is free to self-host under the MIT licence.
+
+Free open-source self-hosted; cloud plans available
+
+## Review notes
+
+Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+
+Laudspeaker is the open-source Braze alternative: self-hosted customer engagement with behavioral triggers, journey automation, welcome and activation flows, re-engagement emails, and in-app messages, with data that stays yours and an API your engineers can extend. More than 2,600 stars and an active repo keep it alive, and cloud plans exist if you prefer managed hosting over running it yourself. The onboarding flows cover the standard product-led growth playbook out of the box.
+
+The open-source bargain applies: deployment, maintenance, and reliability land on your team, and the message templates and channel coverage are thinner than Braze&#x27;s catalog. It suits technical growth teams and privacy-constrained companies where lock-in is the bigger risk than ops effort. Non-technical marketers will bounce off the setup, and enterprises that need support should stay hosted. Judge your team&#x27;s ability to run services before choosing self-hosted over cloud.
+
+## Verdict
+
+The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
+
+## Pros and cons
+
+## Related concepts
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [Customer journey](/glossary/customer-journey/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+Full definitions in the [martech glossary](/glossary/).
+
+### Building your martech shortlist?
+
+The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
+
+## Frequently asked questions
+
+Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,622 stars. You pay in server time and maintenance, not licences.
+
+The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted.
+
+## Similar Tools
+
+## Related reading
+
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+### Quick Facts
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/laudspeaker/#app",
+    "name": "Laudspeaker",
+    "description": "Open-source customer engagement and product onboarding platform, alternative to Braze",
+    "image": "https://martechsignal.com/og/tools/laudspeaker.png",
+    "url": "https://martechsignal.com/tools/laudspeaker/",
+    "sameAs": [
+      "https://laudspeaker.com/?ref=github"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/laudspeaker/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-08-28",
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://laudspeaker.com/?ref=github",
+      "priceValidUntil": "2026-12-31"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Marketing Automation",
+        "item": "https://martechsignal.com/categories/marketing-automation/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Laudspeaker",
+        "item": "https://martechsignal.com/tools/laudspeaker/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Laudspeaker?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Laudspeaker cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,622 stars. You pay in server time and maintenance, not licences."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Laudspeaker a good self-hosted Marketing Automation tool in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The open-source Braze alternative for technical growth teams that want data ownership. Others go hosted."
+        }
+      }
+    ]
+  }
+]
+```

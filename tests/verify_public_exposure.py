@@ -33,7 +33,7 @@ PUBLIC_PAGES = [
     "/llms.txt", "/tools/", "/tools/nocobase/", "/blog/", "/blog/index.html",
     "/glossary/", "/glossary/aeo/", "/categories/", "/authors/tim-christensen/",
     "/checklist/", "/trending/", "/about/", "/contact/", "/privacy/", "/terms/",
-    "/fonts/archivo-400.woff2", "/og.png",
+    "/fonts/archivo-var.woff2", "/og.png",
     "/.well-known/indexnow-da88cd820092dc919206516858cd73d9.txt",
 ]
 

@@ -1,25 +1,458 @@
-# Agent Skills | MartechSignal category
+# Agent Skills Tools
 
-Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow
+INSTALLclone + load into agent
 
-- Page: https://martechsignal.com/categories/agent-skills/
-- Tools: 18
+**
 
-- AI Business Skills
-- AI Marketing Suite
-- Aaron Marketing Skills
-- Analytics Tracking Automation
-- Claude Ads
-- Claude SEO
-- Codex SEO
-- Diffmode Growth Tactics
-- Digital Marketing Pro
-- Email Marketing Bible
-- Eve Marketing Team Template
-- Google Ads + Meta Ads + GA4 MCP
-- Growth Lab
-- Marketing Studio
-- Open Mercato
-- OpenClaw Marketing Skills
-- SEO Skill Bench
-- Zapier GTM Cheat Codes
+RUNpoint it at a real project
+
+**
+
+VERIFYcheck the output against the site
+
+**
+
+WIRE INscheduled, not one-off
+
+IF You want SEO audits and content fixes running inside your terminal
+
+[Claude SEO](/tools/claude-seo/)
+
+25 sub-skills and up to 15 parallel agents; the 12,800-star (15,700 today) audit machine
+
+IF Your team runs OpenAI Codex, not Claude Code
+
+[Codex SEO](/tools/codex-seo/)
+
+The same audit surface as a TOML agent suite with deterministic runners
+
+IF You manage paid media across multiple ad platforms
+
+[Claude Ads](/tools/claude-ads/) [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
+
+Claude Ads audits and plans 12 platforms; the MCP server gives agents hands on live accounts
+
+IF You want a launch asset suite without a designer or a video editor
+
+[Marketing Studio](/tools/marketing-studio/)
+
+One command renders logo reveals, product demos and launch video from brand tokens
+
+IF You want SEO and growth loops that run on a schedule, not ad hoc
+
+[Growth Lab](/tools/growth-lab/)
+
+Closes the loop: research, publish, ping IndexNow, read performance, repeat
+
+IF You want to verify a skill works before you trust it
+
+[SEO Skill Bench](/tools/seo-skill-bench/)
+
+An open benchmark that scores Claude Code SEO skills against fixture sites with planted defects, so claims have a scoreboard
+
+SEO AND CONTENT SKILLS***8*
+
+Aaron Marketing Skills
+
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+Open SourceDesk-reviewedOSS
+
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+Open SourceDesk-reviewedOSS
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+
+Open SourceDesk-reviewedOSS
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+FreeDesk-reviewed
+
+Diffmode Growth Tactics
+
+Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
+
+Open SourceDesk-reviewedOSS
+
+Email Marketing Bible
+
+55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
+
+Open SourceDesk-reviewedOSS
+
+Growth Lab
+
+Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+
+Open SourceDesk-reviewedOSS
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+
+Open SourceDesk-reviewedOSS
+
+CAMPAIGN AND ASSET SKILLS***10*
+
+AI Business Skills
+
+63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
+
+Open SourceDesk-reviewedOSS
+
+Analytics Tracking Automation
+
+AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
+
+Open SourceDesk-reviewedOSS
+
+Claude Ads
+
+Paid-media operations skill for Claude Code covering 12 ad platforms
+
+Open SourceDesk-reviewedOSS
+
+Digital Marketing Pro
+
+158-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Open SourceDesk-reviewedOSS
+
+Eve Marketing Team Template
+
+Open-source team of marketing agents on eve: lead, content, social, SEO, email
+
+Open SourceDesk-reviewedOSS
+
+Google Ads + Meta Ads + GA4 MCP
+
+MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+FreemiumDesk-reviewedOSS
+
+Marketing Studio
+
+Agent-driven marketing studio for Claude Code: launch assets from one command
+
+Open SourceDesk-reviewedOSS
+
+Open Mercato
+
+Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
+
+Open SourceDesk-reviewedOSS
+
+OpenClaw Marketing Skills
+
+37 marketing skills for OpenClaw agents with live data connectors
+
+Open SourceDesk-reviewedOSS
+
+Zapier GTM Cheat Codes
+
+Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+
+Open SourceDesk-reviewedOSS
+
+Claude Cowork is eating the edges of your martech stack
+
+Where the desktop agent layer is heading, and why the skill ecosystem nobody planned matters
+
+Autonomous Marketing Platforms Are Real. The Name Is Wrong.
+
+How to compare agents on budget authority, state, approval gates and audit trails
+
+MCP Rewrites the Integration Economics of Your Marketing Stack
+
+Why agent-to-tool protocols change what integrations should cost
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+- [Home](/)
+- [Tools](/tools/)
+- Agent Skills
+## Agent Skills Tools
+
+Compare 22 agent skills and MCP tools for Claude Code and Codex: SEO audits, ad ops, email, launch assets. No per-skill subscription.
+
+18 TOOLS IN THIS CATEGORY
+
+Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
+
+The speed is not an accident. These packs skip the distribution problem that SaaS never solved: a 55,000-word skill file costs nothing to ship, so quality is decided by issue discipline and documentation, not by a sales team. The trade is that the burden moved to you. Nobody validates a skill&#x27;s output, nobody holds its hand, and some packs quietly append self-promotion to their results. Provenance is the whole game, which is why every review in this directory comes from installing the pack and shipping something with it.
+
+This directory covers 22 tools, from the 15,000-star Claude SEO that runs a 25-agent audit pipeline, to Marketing Studio that renders launch assets from one command. Claude Ads manages 12 ad platforms. The Email Marketing Bible packs 908 sources into a single file. The MCP server gives agents read and write control of Google Ads, Meta Ads and GA4. Install them on a Saturday, verify everything they output, and you have replaced work that used to require a tool contract.
+
+## Which one fits
+
+## Reading before you buy
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://martechsignal.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://martechsignal.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Agent Skills",
+          "item": "https://martechsignal.com/categories/agent-skills/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Agent Skills Tools",
+      "description": "Compare 22 agent skills and MCP tools for Claude Code and Codex: SEO audits, ad ops, email, launch assets. No per-skill subscription.",
+      "numberOfItems": 18,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/aaron-marketing-skills/#app",
+            "name": "Aaron Marketing Skills",
+            "description": "120 marketing skills across 7 disciplines for Claude Code with auditor gates",
+            "image": "https://martechsignal.com/og/tools/aaron-marketing-skills.png",
+            "url": "https://martechsignal.com/tools/aaron-marketing-skills/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/ai-business-skills/#app",
+            "name": "AI Business Skills",
+            "description": "63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents",
+            "image": "https://martechsignal.com/og/tools/ai-business-skills.png",
+            "url": "https://martechsignal.com/tools/ai-business-skills/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
+            "name": "AI Marketing Suite",
+            "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
+            "image": "https://martechsignal.com/og/tools/ai-marketing-claude.png",
+            "url": "https://martechsignal.com/tools/ai-marketing-claude/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#app",
+            "name": "Analytics Tracking Automation",
+            "description": "AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live",
+            "image": "https://martechsignal.com/og/tools/analytics-tracking-automation.png",
+            "url": "https://martechsignal.com/tools/analytics-tracking-automation/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://martechsignal.com/tools/claude-ads/#app",
+            "name": "Claude Ads",
+            "description": "Paid-media operations skill for Claude Code covering 12 ad platforms",
+            "image": "https://martechsignal.com/og/tools/claude-ads.png",
+            "url": "https://martechsignal.com/tools/claude-ads/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://martechsignal.com/tools/claude-seo/#app",
+            "name": "Claude SEO",
+            "description": "Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents",
+            "image": "https://martechsignal.com/og/tools/claude-seo.png",
+            "url": "https://martechsignal.com/tools/claude-seo/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@id": "https://martechsignal.com/tools/codex-seo/#app",
+            "name": "Codex SEO",
+            "description": "Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations",
+            "image": "https://martechsignal.com/og/tools/codex-seo.png",
+            "url": "https://martechsignal.com/tools/codex-seo/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
+            "name": "Diffmode Growth Tactics",
+            "description": "Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays",
+            "image": "https://martechsignal.com/og/tools/diffmode-growth-tactics.png",
+            "url": "https://martechsignal.com/tools/diffmode-growth-tactics/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
+            "name": "Digital Marketing Pro",
+            "description": "158-skill AI marketing plugin for agencies with EU AI Act compliance",
+            "image": "https://martechsignal.com/og/tools/digital-marketing-pro.png",
+            "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
+            "name": "Email Marketing Bible",
+            "description": "55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP",
+            "image": "https://martechsignal.com/og/tools/email-marketing-bible.png",
+            "url": "https://martechsignal.com/tools/email-marketing-bible/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
+            "name": "Eve Marketing Team Template",
+            "description": "Open-source team of marketing agents on eve: lead, content, social, SEO, email",
+            "image": "https://martechsignal.com/og/tools/eve-marketing-team.png",
+            "url": "https://martechsignal.com/tools/eve-marketing-team/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
+            "name": "Google Ads + Meta Ads + GA4 MCP",
+            "description": "MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4",
+            "image": "https://martechsignal.com/og/tools/google-meta-ads-ga4-mcp.png",
+            "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@id": "https://martechsignal.com/tools/growth-lab/#app",
+            "name": "Growth Lab",
+            "description": "Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex",
+            "image": "https://martechsignal.com/og/tools/growth-lab.png",
+            "url": "https://martechsignal.com/tools/growth-lab/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@id": "https://martechsignal.com/tools/marketing-studio/#app",
+            "name": "Marketing Studio",
+            "description": "Agent-driven marketing studio for Claude Code: launch assets from one command",
+            "image": "https://martechsignal.com/og/tools/marketing-studio.png",
+            "url": "https://martechsignal.com/tools/marketing-studio/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@id": "https://martechsignal.com/tools/open-mercato/#app",
+            "name": "Open Mercato",
+            "description": "Open-source TypeScript foundation for AI-built commerce, CRM, and ERP",
+            "image": "https://martechsignal.com/og/tools/open-mercato.png",
+            "url": "https://martechsignal.com/tools/open-mercato/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
+            "name": "OpenClaw Marketing Skills",
+            "description": "37 marketing skills for OpenClaw agents with live data connectors",
+            "image": "https://martechsignal.com/og/tools/openclaw-marketing-skills.png",
+            "url": "https://martechsignal.com/tools/openclaw-marketing-skills/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
+            "name": "SEO Skill Bench",
+            "description": "Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects",
+            "image": "https://martechsignal.com/og/tools/seo-skill-bench.png",
+            "url": "https://martechsignal.com/tools/seo-skill-bench/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
+            "name": "Zapier GTM Cheat Codes",
+            "description": "Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof",
+            "image": "https://martechsignal.com/og/tools/zapier-gtm-cheat-codes.png",
+            "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/",
+            "@type": "SoftwareApplication"
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/#webpage", "dateModified": "2026-09-27"}
+```

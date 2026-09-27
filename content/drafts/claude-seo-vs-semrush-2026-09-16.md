@@ -38,7 +38,7 @@ Neither tool is a complete answer, and the table shows why. Claude SEO has no da
 
 **Ongoing monitoring and history: Semrush.** Position tracking runs daily, and historical data and scheduled audits sit on the higher tiers. Claude SEO produces a point-in-time report with no UI and no storage beyond what you keep. If your question is "how did we move this month," Claude SEO cannot answer it, because it did not record last month.
 
-**Audit depth per run: Claude SEO.** Our [Claude SEO teardown](/blog/claude-seo-teardown-martechsignal/) found real defects the deploy pipeline had shipped for weeks, and every finding carried the evidence behind it, its dependencies, and a check for whether the fix worked. Semrush's site audit covers a large rule set and is built for monitoring many sites, but it reports issues rather than arguing a priority order.
+**Audit depth per run: Claude SEO.** Our [Claude SEO teardown](/blog/claude-seo-benchmark/) found real defects the deploy pipeline had shipped for weeks, and every finding carried the evidence behind it, its dependencies, and a check for whether the fix worked. Semrush's site audit covers a large rule set and is built for monitoring many sites, but it reports issues rather than arguing a priority order.
 
 **AI search readiness: Claude SEO.** The skill scores content for citability by AI answer engines, checks for self-contained answer blocks and llms.txt, and grades the structured data that makes a model cite you rather than a competitor. Semrush tracks AI visibility across a market, which is a measurement job. The two are complementary, and the skill is the more useful of them when the question is "what do I change on this page."
 

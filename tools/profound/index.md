@@ -1,15 +1,244 @@
-# Profound | MartechSignal review
+# Profound review (2026): pricing, AI features, verdict
+
+
+| Pros | Cons |
+| --- | --- |
+| &#10003; AI capabilities: answer-engine visibility tracking across up to 9 engines | &#10007; Closed source - no self-hosting option |
+| &#10003; Native integrations include Google Analytics, Google Cloud Platform, Amazon Web Services (6 listed) | &#10007; Enterprise pricing is quote-based - no public numbers |
+| &#10003; Enterprise spans nine answer engines including Exa and DeepSeek, with all-time history and CSV/JSON exports | &#10007; No public pricing, and no exports or API on the trial, so you cannot audit data before a sales process |
+| &#10003; Agent Analytics ties CDN and cloud logs plus Google Analytics to AI-sourced traffic | &#10007; Trial prompts are fixed to a recommended set on three engines for seven days |
+| &#10003; SSO/SAML and SOC 2 compliance come with Enterprise | &#10007; The platform now bundles content, social and ad drafting agents, which is more surface area than a pure visibility tracker |
+
+**What is Profound?**
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents. It ships with answer-engine visibility tracking across up to 9 engines, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+**How much does Profound cost?**
+Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
+
+**Is Profound a good Geo &amp; Llm Optimization tool in 2026?**
+Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.
+
+**Is this the same company as profound.ai?**
+No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name.
+
+**Can I customize the prompts Profound tracks?**
+Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts.
+
+**Does Profound only measure AI visibility?**
+No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns.
+
+- **Pricing:** Enterprise
+- **Category:** [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- **HQ:** New York, USA
+- **API:** Yes
+- **Last verified:** 2026-09-25
+
+**Verdict:** Profound is a enterprise in GEO &amp; LLM Optimization, a public API. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+
+Rankscale
+
+AI visibility tracking across 17+ answer engines for agencies and enterprise teams
+
+OtterlyAI
+
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+
+Scrunch
+
+The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Ahrefs
+
+Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+
+[More GEO &amp; LLM Optimization Tools →](/categories/geo-llm-visibility/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+- [Home](/)
+- [Tools](/tools/)
+- [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/)
+- Profound
+## Profound review (2026): pricing, AI features, verdict
 
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
-- Page: https://martechsignal.com/tools/profound/
-- Category: GEO & LLM Optimization
-- Pricing: Enterprise
-- Open source: no
-- Last verified: 2026-09-25
+GEO &amp; LLM Optimization · Enterprise Desk-reviewed
 
-Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. It started as an AI search visibility tool and now sells an AI Marketer: agents that draft content, social posts, PR corrections and sponsored answer campaigns from your brand's prompt and citation data. The monitoring half runs structured prompts across answer engines and records where your brand appears, which sources get cited, sentiment and competitor presence. The action half rewrites pages losing citations, builds pages for questions you have no answer for, and stages everything in your CMS as drafts for approval. A Context Manager stores brand knowledge so agents write from your positioning rather than generic model output. On the measurement side you also get Prompt Volumes (what users ask AI), Shopping tracking, and Agent Analytics for AI-sourced traffic across your domains.
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
-Pricing is quote-based. A free trial runs 50 prompts daily for seven days on ChatGPT, Gemini and Google AI Overviews, and trial prompts cannot be customized. Enterprise is tailored: up to nine answer engines (ChatGPT, Perplexity, Google AI Mode, Gemini, Microsoft Copilot, DeepSeek, Claude, Google AI Overviews, Exa), custom prompt sets, unlimited history, CSV and JSON exports, an API, and SSO/SAML with SOC 2 compliance. The company raised a $180M Series D and lists open roles in New York, London, San Francisco, Boston and Singapore.
+[How we review](/methodology/) · No affiliate links
 
-The buying question is scope. If you want a visibility dashboard, Profound now ships a marketing workbench with agents attached, priced for enterprise budgets. Teams that only need prompt tracking should compare the cheaper monitors in this category.
+## Overview
+
+Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. It started as an AI search visibility tool and now sells an AI Marketer: agents that draft content, social posts, PR corrections and sponsored answer campaigns from your brand&#x27;s prompt and citation data. The monitoring half runs structured prompts across answer engines and records where your brand appears, which sources get cited, sentiment and competitor presence. The action half rewrites pages losing citations, builds pages for questions you have no answer for, and stages everything in your CMS as drafts for approval. A Context Manager stores brand knowledge so agents write from your positioning rather than generic model output. On the measurement side you also get Prompt Volumes (what users ask AI), Shopping tracking, and Agent Analytics for AI-sourced traffic across your domains. Pricing is quote-based. A free trial runs 50 prompts daily for seven days on ChatGPT, Gemini and Google AI Overviews, and trial prompts cannot be customized. Enterprise is tailored: up to nine answer engines (ChatGPT, Perplexity, Google AI Mode, Gemini, Microsoft Copilot, DeepSeek, Claude, Google AI Overviews, Exa), custom prompt sets, unlimited history, CSV and JSON exports, an API, and SSO/SAML with SOC 2 compliance. The company raised a $180M Series D and lists open roles in New York, London, San Francisco, Boston and Singapore. The buying question is scope. If you want a visibility dashboard, Profound now ships a marketing workbench with agents attached, priced for enterprise budgets. Teams that only need prompt tracking should compare the cheaper monitors in this category.
+
+## AI Capabilities
+
+- Answer-engine visibility tracking across up to 9 engines
+- Prompt Volumes demand data for AI queries
+- AI Marketer agents that draft content and campaigns
+- Agent Analytics for AI-sourced traffic
+- ChatGPT Shopping visibility tracking
+## Key Integrations
+
+- Google Analytics
+- Google Cloud Platform
+- Amazon Web Services
+- Cloudflare
+- Akamai
+- WordPress
+## Pricing
+
+Profound is sold on quote-based enterprise contracts.
+
+Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews.
+
+Current plans and limits live on the [Profound pricing page](https://www.tryprofound.com/pricing).
+
+## Best for
+
+Enterprise marketing teams that want AI visibility measurement and the drafting work that follows it in one platform. Also fits AEO, content and PR teams sharing the same prompt and citation data.
+
+## Not for
+
+Solo marketers or small teams that want public pricing, a self-serve plan, or a pure tracking dashboard. The trial is too short and too locked down to evaluate the data pipeline on its own.
+
+## Review notes
+
+Assessed from Profound&#x27;s own site and pricing pages in September 2026.Using it starts with a demo for enterprise pricing, then a workspace where the AI Marketer holds your Context Manager (positioning, product knowledge, brand guidelines) and agents handle recurring marketing work. The visibility side runs structured prompts daily across answer engines and reports citations, sentiment, rank and competitor presence. The action side is where the product parts ways with a plain monitoring tool. Agents rewrite pages with citation decay, build pages for unanswered questions, draft social posts and PR correction outreach, and stage sponsored answer campaigns for high-volume prompts where you never appear. Everything lands as drafts for human approval, and staging in your CMS is part of the workflow.
+
+The trial is deliberately narrow: 50 prompts daily for seven days, fixed to ChatGPT, Gemini and Google AI Overviews, with a recommended prompt set you cannot customize. History is empty, and there are no exports or API on trial, so you cannot audit the data before buying. Worth knowing before you book the demo.
+
+Enterprise covers up to nine engines including Perplexity, Claude, Copilot, DeepSeek, Google AI Mode and Exa, with custom prompt sets, all-time history, CSV and JSON exports, an API, and SSO/SAML plus SOC 2. Agent Analytics plugs into CDNs and clouds (Akamai, Cloudflare, Fastly, AWS, GCP, Netlify, Vercel) and Google Analytics to attribute AI-sourced traffic, which is the piece that answers whether any of this moved traffic. The operational question is review load. The pitch is that Profound finds the work, drafts it and pings you for approval. That pays off only if your team has bandwidth to review staged pages, ad copy and reporter emails every week.
+
+## Verdict
+
+Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.
+
+## Pros and cons
+
+### Building your martech shortlist?
+
+The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
+
+## Frequently asked questions
+
+Enterprise AI marketing platform: answer-engine visibility plus drafting agents. It ships with answer-engine visibility tracking across up to 9 engines, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
+
+Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use.
+
+No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name.
+
+Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts.
+
+No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns.
+
+## Similar Tools
+
+## Related reading
+
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+### Quick Facts
+
+Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "GEO & LLM Optimization",
+        "item": "https://martechsignal.com/categories/geo-llm-visibility/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Profound",
+        "item": "https://martechsignal.com/tools/profound/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Profound?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Enterprise AI marketing platform: answer-engine visibility plus drafting agents. It ships with answer-engine visibility tracking across up to 9 engines, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Profound cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Profound uses enterprise pricing, so the number depends on your volume and contract. Quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews. Our last verified read of the pricing model was 2026-09-25; the vendor's pricing page carries the current quote criteria."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Profound a good Geo & Llm Optimization tool in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Profound is the enterprise pick of this batch: nine-engine monitoring plus agents that do the follow-up work, sold by quote after a narrow seven-day trial. Buy it when AI search is a funded program with headcount, not a side experiment. Teams that only need visibility numbers will pay for drafting agents they do not use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this the same company as profound.ai?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. This entry covers Profound at tryprofound.com, the AI marketing platform for answer engine visibility. It is a different company from other products using the Profound name."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I customize the prompts Profound tracks?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not on trial. Trial users get a recommended prompt set based on their industry. Enterprise plans can edit, disable and add prompts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Profound only measure AI visibility?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent Analytics) with agents that draft content, social posts, PR corrections and sponsored answer campaigns."
+        }
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/#webpage", "dateModified": "2026-09-25"}
+```

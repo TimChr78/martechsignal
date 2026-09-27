@@ -112,8 +112,9 @@ def build_page():
     window = f"{fmt_day(d0)} to {fmt_day(d1)}, 2026"
     n_repos = len(rows)
     _tools = json.loads((ROOT / "tools" / "tools.json").read_text())
-    total_n = len(_tools)
-    oss_n = sum(1 for x in _tools if x.get("open_source"))
+    _act = [x for x in _tools if x.get("status", "active") == "active"]
+    total_n = len(_act)
+    oss_n = sum(1 for x in _act if x.get("open_source"))
     min_days = MIN_DAYS
 
     movers = sorted(rows, key=lambda r: r["pct"], reverse=True)[:MOVERS_N]

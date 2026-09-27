@@ -1,14 +1,34 @@
 # Fifty days of open-source MarTech, audited
 
+
+| Project | Releases since Jul 26 | The notable one |
+| --- | --- | --- |
+| [n8n](/tools/n8n/) | 41 | Crossed 200,000 stars; 2.39 line |
+| [Ghost](/tools/ghost/) | 11 | v6.63.0, Node 24 support |
+| [Strapi](/tools/strapi/) | 7 | v5.53.0 |
+| [Twenty](/tools/twenty/) | ~10 | v2.39.0, workflow error handling |
+| [Frappe CRM](/tools/frappe-crm/) | 6 | v1.83.0 |
+| [Chatwoot](/tools/chatwoot/) | 3 | v4.17.0, WhatsApp deep-dive |
+| [Mautic](/tools/mautic/) | 1 | 7.2.0 Lynx Edition |
+| [Matomo](/tools/matomo/) | 1 beta | 6.0.0-b1, first major since 5.0 |
+
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
+✓ The July stack bet held
+
 OPEN SOURCE · MARTECH · 7 MIN
 
-Home · Blog · Fifty days of open-source MarTech, audited
+## Fifty days of open-source MarTech, audited
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Fifty days of open-source MarTech, audited
 
 SEP 14, 2026
 
-Filed under Open-Source Tools · Workflow Automation
+Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
-Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.
+Fifty days after [the open-source MarTech stack](/blog/open-source-martech-stack/) piece, this is the first re-check: what shipped, what stalled, and where the energy went.
 
 The original argument was that every layer of a marketing stack, from automation to analytics to CRM, now has a self-hosted option good enough to run production work on. The reasonable response to that piece is the one I have been testing since. Stacks age. Tools stall. Maintainers burn out. So for the last 50 days (July 26 to September 14) I have been taking daily snapshots of the GitHub repos behind that piece, and this is the full check: fifty days of releases, pushes, and star movement across everything we track.
 
@@ -20,61 +40,140 @@ Release counts come from the GitHub releases API between July 26 and September 1
 
 ## The CRM shelf got crowded
 
-If one category defined the window, it was CRM. Mautic shipped 7.2.0 "Lynx Edition" on September 2, and the changelog reads like a team that has been listening to campaign builders: an infinite canvas in the campaign builder, spacebar-drag for moving around it, and the ability to stop a campaign from sending past a chosen date and time. They are small features aimed at real operator pain. Mautic remains the closest thing open source has to a marketing automation suite with CRM built in.
+If one category defined the window, it was CRM. [Mautic](/tools/mautic/) shipped 7.2.0 "Lynx Edition" on September 2, and the changelog reads like a team that has been listening to campaign builders: an infinite canvas in the campaign builder, spacebar-drag for moving around it, and the ability to stop a campaign from sending past a chosen date and time. They are small features aimed at real operator pain. Mautic remains the closest thing open source has to a marketing automation suite with CRM built in.
 
-Twenty, which bills itself on GitHub as "the open alternative to Salesforce, designed for AI", cut roughly ten tagged releases in the window and closed it on v2.39.0. It added 1,190 stars in the final 21 days, the largest gain of anything we track outside the automation repos. Frappe CRM shipped six releases, v1.80.0 through v1.83.0, and passed 3,500 stars on the way.
+[Twenty](/tools/twenty/), which bills itself on GitHub as "the open alternative to Salesforce, designed for AI", cut roughly ten tagged releases in the window and closed it on v2.39.0. It added 1,190 stars in the final 21 days, the largest gain of anything we track outside the automation repos. [Frappe CRM](/tools/frappe-crm/) shipped six releases, v1.80.0 through v1.83.0, and passed 3,500 stars on the way.
 
-Then there is the bottom of the market, which is where the energy sits. WACRM, a self-hosted CRM template for WhatsApp with a shared inbox, contacts, and sales pipelines, went from a first commit in April to roughly 2,300 stars by mid-September. Cordys CRM, an AI-first CRM from the team behind the 1Panel hosting panel, crossed 2,700 stars with private deployment as the headline feature. Ten of the thirteen CRM and ERP-adjacent repos we track pushed code in the window's final week alone.
+Then there is the bottom of the market, which is where the energy sits. [WACRM](/tools/wacrm/), a self-hosted CRM template for WhatsApp with a shared inbox, contacts, and sales pipelines, went from a first commit in April to roughly 2,300 stars by mid-September. Cordys CRM, an AI-first CRM from the team behind the 1Panel hosting panel, crossed 2,700 stars with private deployment as the headline feature. Ten of the thirteen CRM and ERP-adjacent repos we track pushed code in the window's final week alone.
 
 That last number is the tell. In July, Twenty was a proof-of-scale mention at 53,000 stars. Fifty days later it is the flag bearer of a contested category with entrants attacking from every direction: WhatsApp-first, AI-first, suite-first. Nobody has consolidated the shelf, which is why it deserves a shortlist instead of a default.
 
 ## Matomo finally moved
 
-The analytics layer supplied the quiet surprise. Matomo tagged 6.0.0-b1 on September 7, its first major version since 5.0 arrived in December 2023, and pushed 5.14 alphas almost daily around it. Major versions on analytics infrastructure rarely make headlines, but they matter more than feature posts. A 6.0 means schema changes, extension authors retesting their plugins, and an upgrade path that self-hosters need to plan for. Anyone running Matomo on their own hardware should read the beta notes before the stable release lands, not after.
+The analytics layer supplied the quiet surprise. Matomo tagged 6.0.0-b1 on September 7, its first major version since 5.0 arrived in December 2023, and pushed 5.14 alphas almost daily around it. Major versions on analytics infrastructure rarely make headlines, but they matter more than feature posts. A 6.0 means schema changes, extension authors retesting their plugins, and an upgrade path that self-hosters need to plan for. Anyone running [Matomo](/tools/matomo/) on their own hardware should read the beta notes before the stable release lands, not after.
 
-The rest of the analytics pack moved too. Umami shipped v3.3.0 and v3.3.1 in August. Plausible cut no release in fifty days and still added around 300 stars, a reminder that in this layer an empty release log is not the same as a dead project. The contrast with SaaS analytics, where the pricing page changes quarterly and the changelog is a marketing page, keeps getting harder to ignore.
+The rest of the analytics pack moved too. [Umami](/tools/umami/) shipped v3.3.0 and v3.3.1 in August. [Plausible](/tools/plausible/) cut no release in fifty days and still added around 300 stars, a reminder that in this layer an empty release log is not the same as a dead project. The contrast with SaaS analytics, where the pricing page changes quarterly and the changelog is a marketing page, keeps getting harder to ignore.
 
 ## n8n treats shipping as a habit
 
-n8n published 41 releases between July 26 and September 14, closing the window on the 2.39 line. It crossed 200,000 GitHub stars somewhere between our July post (198,000) and the first snapshot on August 25. Per-release notes are mostly fixes, and that is the point. Forty-one releases in fifty days is a cadence, and cadence is what your deployment inherits: bug fixes for the nodes you depend on arrive in days, not quarters.
+[n8n](/tools/n8n/) published 41 releases between July 26 and September 14, closing the window on the 2.39 line. It crossed 200,000 GitHub stars somewhere between our July post (198,000) and the first snapshot on August 25. Per-release notes are mostly fixes, and that is the point. Forty-one releases in fifty days is a cadence, and cadence is what your deployment inherits: bug fixes for the nodes you depend on arrive in days, not quarters.
 
-The habit is spreading. Ghost shipped 11 releases, including Node 24 support in v6.63.0. Strapi cut 7 releases up to v5.53.0. Chatwoot used v4.17.0 to go deep on WhatsApp: Cloud API and Twilio template management, campaign delivery tracking, and a Freshdesk importer for teams migrating off that platform. For the stack argument from July, this section is the load-bearing one. Cadence is the difference between adopting a project and adopting a liability.
+The habit is spreading. [Ghost](/tools/ghost/) shipped 11 releases, including Node 24 support in v6.63.0. [Strapi](/tools/strapi/) cut 7 releases up to v5.53.0. [Chatwoot](/tools/chatwoot/) used v4.17.0 to go deep on WhatsApp: Cloud API and Twilio template management, campaign delivery tracking, and a Freshdesk importer for teams migrating off that platform. For the stack argument from July, this section is the load-bearing one. Cadence is the difference between adopting a project and adopting a liability.
 
 ## The agent layer built a supply chain
 
-The newest shelf is also the fastest moving. claude-seo, a universal SEO skill for Claude Code, grew from 15,100 to nearly 16,900 stars in the final 21 days, and its sibling claude-ads added another 700. The same maintainer added roughly 2,500 stars across the two repos in three weeks. google-meta-ads-ga4-mcp, an MCP server that puts Google Ads, Meta Ads, and GA4 behind one interface for agents, grew 66 percent in the same 21 days, from about 1,100 to 1,800 stars. New to our tracking this month: openseo, an open-source alternative to Semrush and Ahrefs that arrived at 18,600 stars.
+The newest shelf is also the fastest moving. [claude-seo](/tools/claude-seo/), a universal SEO skill for Claude Code, grew from 15,100 to nearly 16,900 stars in the final 21 days, and its sibling [claude-ads](/tools/claude-ads/) added another 700. The same maintainer added roughly 2,500 stars across the two repos in three weeks. [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/), an MCP server that puts Google Ads, Meta Ads, and GA4 behind one interface for agents, grew 66 percent in the same 21 days, from about 1,100 to 1,800 stars. New to our tracking this month: [openseo](/tools/openseo/), an open-source alternative to Semrush and Ahrefs that arrived at 18,600 stars.
 
-Underneath it, langchain worked through a run of alphas in late August and shipped langchain 1.4.0 stable on September 3. And Open Mercato used its v0.7.0 release on August 26 to describe something I have not seen from a CRM project before: a development harness where AI agents build, test, and judge applications end to end, with enforced spec phases, generated locale validation, and privacy-gated session sharing. The framing is agent-native CRM. At 1,700 stars it is early, but the release notes read like the team is building for a buyer who never opens the UI. I covered the adjacent platform shift, agent tooling eating the edges of the martech stack, in the Claude Cowork piece; this window is what the same shift looks like from the open-source side.
+Underneath it, [langchain](/tools/langchain/) worked through a run of alphas in late August and shipped langchain 1.4.0 stable on September 3. And [Open Mercato](/tools/open-mercato/) used its v0.7.0 release on August 26 to describe something I have not seen from a CRM project before: a development harness where AI agents build, test, and judge applications end to end, with enforced spec phases, generated locale validation, and privacy-gated session sharing. The framing is agent-native CRM. At 1,700 stars it is early, but the release notes read like the team is building for a buyer who never opens the UI. I covered the adjacent platform shift, agent tooling eating the edges of the martech stack, in [the Claude Cowork piece](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/); this window is what the same shift looks like from the open-source side.
 
 I remain genuinely unsure how much of the agent-skills boom is durable infrastructure and how much is the current fashion. The star curves say people care. The fastest mover being an ads-data MCP suggests the near-term value is boring and real: agents pulling campaign data without a human copy-pasting CSVs between platforms.
 
 ## What I would do with this
 
-The July stack argument holds, with one amendment: the CRM line item has become a shortlist decision. WhatsApp-heavy sales teams should look at WACRM. Teams escaping Salesforce pricing should keep Twenty at the top of the list. Marketing-automation-first teams should stay on Mautic, which just shipped its strongest release in a while. If you want to see where CRMs go when agents are the primary user, Open Mercato is the most interesting experiment running.
+The July stack argument holds, with one amendment: the CRM line item has become a shortlist decision. WhatsApp-heavy sales teams should look at [WACRM](/tools/wacrm/). Teams escaping Salesforce pricing should keep [Twenty](/tools/twenty/) at the top of the list. Marketing-automation-first teams should stay on [Mautic](/tools/mautic/), which just shipped its strongest release in a while. If you want to see where CRMs go when agents are the primary user, [Open Mercato](/tools/open-mercato/) is the most interesting experiment running.
 
-Wait for the Matomo 6 stable tag before touching production analytics, but read the beta notes now. Everything else in the window is housekeeping you can adopt on your own schedule. The full tool-by-tool version of the stack argument lives in the original piece, everything from this beat is filed under open source and workflow automation, and the CRM contenders sit in the CRM directory.
+Wait for the Matomo 6 stable tag before touching production analytics, but read the beta notes now. Everything else in the window is housekeeping you can adopt on your own schedule. The full tool-by-tool version of the stack argument lives in [the original piece](/blog/open-source-martech-stack/), everything from this beat is filed under [open source](/categories/open-source/) and [workflow automation](/categories/workflow-automation/), and the CRM contenders sit in [the CRM directory](/categories/crm/).
 
 Every layer we recommended shipped during the window. CRM and agent tooling, the least settled layers, moved fastest of all.
 
-Tools linked in this post: n8n · Mautic · Twenty · Frappe CRM · WACRM · Matomo · Umami · Plausible · Ghost · Strapi · Chatwoot · claude-seo · claude-ads · google-meta-ads-ga4-mcp · openseo · langchain · Open Mercato
+Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Twenty](/tools/twenty/) · [Frappe CRM](/tools/frappe-crm/) · [WACRM](/tools/wacrm/) · [Matomo](/tools/matomo/) · [Umami](/tools/umami/) · [Plausible](/tools/plausible/) · [Ghost](/tools/ghost/) · [Strapi](/tools/strapi/) · [Chatwoot](/tools/chatwoot/) · [claude-seo](/tools/claude-seo/) · [claude-ads](/tools/claude-ads/) · [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) · [openseo](/tools/openseo/) · [langchain](/tools/langchain/) · [Open Mercato](/tools/open-mercato/)
 
 ## Related reading
 
-- Where open-source martech momentum actually lives
-- Open-Source Martech Stack vs $5K/mo Subscriptions
-- Your AI Marketing Agent Doesn't Need Better Prompts
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
-- Relaticle - Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
-- DeskcommCRM - Self-hosted open-source CRM with AI agents that sell through WhatsApp
-- Tray.io - AI-powered integration platform for building custom automation and AI agents
+- [Relaticle](/tools/relaticle/) - Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+- [DeskcommCRM](/tools/deskcommcrm/) - Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Tray.io](/tools/tray-io/) - AI-powered integration platform for building custom automation and AI agents
 ## Comparison guides
 
-- Best HubSpot CRM alternatives (2026)
-- Best open-source CRM tools (2026)
+- [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
+- [Best open-source CRM tools (2026)](/best/open-source-crm/)
 ## Glossary terms
 
-- Marketing ops
+- [AI Agent](/glossary/ai-agent/)
+- [Marketing ops](/glossary/marketing-ops/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
+
+**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Fifty days of open-source MarTech, audited",
+  "description": "Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-09-14",
+  "dateModified": "2026-09-14",
+  "mainEntityOfPage": "https://martechsignal.com/blog/oss-martech-50-day-checkin/",
+  "image": "https://martechsignal.com/og/oss-martech-50-day-checkin.png",
+  "citation": [],
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1477,
+  "articleSection": "open-source, workflow-automation"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fifty days of open-source MarTech, audited",
+      "item": "https://martechsignal.com/blog/oss-martech-50-day-checkin/"
+    }
+  ]
+}
+```

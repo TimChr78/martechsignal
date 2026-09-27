@@ -1,5 +1,29 @@
 # Corrections
 
+2026-09-26
+
+2026-09-26
+
+2026-09-26
+
+2026-09-26
+
+2026-09-26
+
+2026-09-16
+
+2026-09-16
+
+2026-09-14
+
+2026-09-13
+
+2026-09-16
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Corrections
+
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
 Claude SEO ownership disclosure, founding date, and star count
@@ -41,3 +65,20 @@ Three Claude SEO comparison posts were published without approval by a pipeline 
 Review markup on this site's own tool page
 
 Our Claude SEO review carried review-structured data for our own product. We removed the markup; the editorial text remains, clearly labelled.
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Corrections",
+  "url": "https://martechsignal.com/corrections/",
+  "description": "Public corrections log for martechsignal.com."
+}
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-27"}
+```

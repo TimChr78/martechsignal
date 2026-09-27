@@ -1,5 +1,31 @@
 # Search Engine Optimization (SEO)
 
+Clearscope
+
+AI-powered content optimization platform for SEO teams and content writers
+
+ALwrity
+
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+
+Codex SEO
+
+Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Search Engine Optimization (SEO)
+
+GLOSSARY
+
+## Definition
+
 SEO is the practice of improving a website&#x27;s visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).
 
 ## Why it matters
@@ -30,8 +56,61 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
 
 ## Related terms
 
-AI content · AI Visibility · AEO
+[AI content](/glossary/ai-content-generation/) · [AI Visibility](/glossary/ai-search-visibility/) · [AEO](/glossary/aeo/)
 
-SEO &amp; Search Agent Skills
+### Categories
 
-- AI Visibility
+[SEO &amp; Search](/categories/seo/) [Agent Skills](/categories/agent-skills/)
+
+## See also
+
+- [DCO](/glossary/dco/)
+- [CRO](/glossary/cro/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Search Engine Optimization (SEO)",
+    "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/seo/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SEO",
+        "item": "https://martechsignal.com/glossary/seo/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/#webpage", "dateModified": "2026-09-27"}
+```

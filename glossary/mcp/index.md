@@ -1,5 +1,23 @@
 # Model Context Protocol (MCP)
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Model Context Protocol (MCP)
+
+GLOSSARY
+
+## Definition
+
 The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.
 
 ## Why it matters
@@ -18,6 +36,8 @@ Marketing teams use MCP servers to give agents safe access to internal data: cam
 
 Prefer MCP servers that are idempotent and read-heavy for first deployments. A server that can only read and report cannot break production data; once trust is established, add write-capable servers one at a time.
 
+## The numbers
+
 Scale math: an agent that checks six data sources before each decision, running once per hour, makes roughly 4,300 tool calls per week per agent. Against metered MCP or search quotas, that is the difference between a rounding error and a budget line - design polling frequency before launch, not after. MCP servers are mostly free and open source, so the bill lands elsewhere: the API calls behind each tool and the model tokens spent deciding which tool to call. Those usage costs vary by vendor. When you compare this against a per-task iPaaS platform, count the developer time to host and patch the servers, because the license savings are real and the maintenance is yours.
 
 ## Common mistakes
@@ -32,10 +52,60 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 ## Related terms
 
-Marketing automation · MQL / SQL · ABM · Lead scoring · Marketing ops
+[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
 
 ## Seen in the wild
 
-OpenAI Isn&amp;#x27;t Building Ads. It&amp;#x27;s Building Agents
+[OpenAI Isn&amp;#x27;t Building Ads. It&amp;#x27;s Building Agents](/blog/openai-agent-ads-spending-without-you/)
 
-Workflow Automation Marketing Automation
+### Categories
+
+[Workflow Automation](/categories/workflow-automation/) [Marketing Automation](/categories/marketing-automation/)
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Model Context Protocol (MCP)",
+    "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/mcp/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "MCP",
+        "item": "https://martechsignal.com/glossary/mcp/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/#webpage", "dateModified": "2026-09-27"}
+```

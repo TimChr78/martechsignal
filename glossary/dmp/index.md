@@ -1,5 +1,23 @@
 # Data Management Platform (DMP)
 
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Data Management Platform (DMP)
+
+GLOSSARY
+
+## Definition
+
 A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.
 
 ## Why it matters
@@ -30,6 +48,61 @@ AI-driven advertising reduced the DMP&#x27;s role further. DSPs now build and op
 
 ## Related terms
 
-CDP · CRO · UTM parameters · Customer journey · Marketing ops
+[CDP](/glossary/cdp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Marketing ops](/glossary/marketing-ops/)
 
-Analytics &amp; Attribution
+### Categories
+
+[Analytics &amp; Attribution](/categories/analytics/)
+
+## See also
+
+- [CDP](/glossary/cdp/)
+- [CRM](/glossary/crm/)
+- [DSP](/glossary/dsp/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Data Management Platform (DMP)",
+    "description": "A data management platform collects and organizes audience data, mostly anonymous, cookie-based identifiers, for use in programmatic advertising. Advertisers use DMPs to build audience segments and push them to demand-side platforms for ad targeting.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/dmp/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "DMP",
+        "item": "https://martechsignal.com/glossary/dmp/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/#webpage", "dateModified": "2026-09-27"}
+```

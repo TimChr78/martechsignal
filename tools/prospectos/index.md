@@ -1,11 +1,219 @@
-# ProspectOS | MartechSignal review
+# ProspectOS review (2026): pricing, AI features, verdict
+
+
+| Pros | Cons |
+| --- | --- |
+| &#10003; MIT licence with free self-hosting | &#10007; Young project (214 GitHub stars) - smaller community and plugin ecosystem |
+| &#10003; AI capabilities: lead discovery | &#10007; Short native integration list - plan for API work |
+| &#10003; Native integrations include Google Maps, Instagram (2 listed) |  |
+
+**What is ProspectOS?**
+Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+**How much does ProspectOS cost?**
+ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
+
+**Is ProspectOS a good self-hosted CRM tool in 2026?**
+A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
+
+- **Pricing:** Open Source
+- **Category:** [CRM](/categories/crm/)
+- **GitHub:** ★ 214
+- **Founded:** 2026
+- **HQ:** Open source
+- **API:** Yes
+- **Last verified:** 2026-08-31
+
+**Verdict:** ProspectOS is a open source in CRM, a public API, self-hosting. The catalog documents 2 AI features, 2 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+
+Chatfuel
+
+AI chatbot platform for automating customer conversations on messaging channels
+
+Line Harness
+
+Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
+
+Cordys CRM
+
+Open-source AI CRM with built-in agents, conversational analytics, and private deployment
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+[More CRM Tools →](/categories/crm/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+- [Home](/)
+- [Tools](/tools/)
+- [CRM](/categories/crm/)
+- ProspectOS
+## ProspectOS review (2026): pricing, AI features, verdict
 
 Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
-- Page: https://martechsignal.com/tools/prospectos/
-- Category: CRM
-- Pricing: Open Source
-- Open source: yes (MIT)
-- Last verified: 2026-08-31
+CRM · Open Source · OPEN SOURCE Desk-reviewed
 
-ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with 206 stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
+
+[How we review](/methodology/) · No affiliate links
+
+## Overview
+
+ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company&#x27;s website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project&#x27;s own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms&#x27; terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with 206 stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.
+
+ProspectOS homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
+
+## AI Capabilities
+
+- Lead discovery
+- Contact enrichment
+## Key Integrations
+
+- Google Maps
+- Instagram
+## Pricing
+
+ProspectOS is free to self-host under the MIT licence.
+
+Free and open source (MIT). Self-hosted; scraping APIs may have their own costs.
+
+Current plans and limits live on the [ProspectOS pricing page](https://github.com/nando0x/ProspectOS).
+
+## Review notes
+
+Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+
+The README is unusually candid: a dedicated &#x27;before you use&#x27; section spells out that the tool scrapes Google Maps and Instagram, that Instagram access uses your personal account through instagrapi with a documented risk of security checkpoints or bans, and that the WhatsApp cockpit only passively reads a chat window you open yourself. That transparency makes evaluation easier, since the operational risks are the product&#x27;s most important features. All claims here come from the repository documentation.
+
+The scope is deliberately narrow and local: businesses without websites or with poor ones, approached via WhatsApp with an AI-drafted message and a PDF diagnosis. For a web-design freelancer that is a genuine end-to-end workflow. The Instagram module is optional but account-risk-bearing, and the tool runs on your machine by design, so there is no SaaS convenience layer or team features.
+
+## Verdict
+
+A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
+
+## Pros and cons
+
+## Related concepts
+
+- [CRM](/glossary/crm/)
+- [Lead scoring](/glossary/lead-scoring/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Customer journey](/glossary/customer-journey/)
+- [First-party data](/glossary/first-party-data/)
+Full definitions in the [martech glossary](/glossary/).
+
+### Building your martech shortlist?
+
+The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
+
+## Frequently asked questions
+
+Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+
+ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
+
+A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS.
+
+## Similar Tools
+
+## Related reading
+
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+### Quick Facts
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/prospectos/#app",
+    "name": "ProspectOS",
+    "description": "Open-source lead prospecting CRM with Google Maps and Instagram scraping",
+    "image": "https://martechsignal.com/og/tools/prospectos.png",
+    "url": "https://martechsignal.com/tools/prospectos/",
+    "sameAs": [
+      "https://github.com/nando0x/ProspectOS"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/prospectos/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-08-31",
+    "datePublished": "2026-08-29",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "USD",
+      "url": "https://github.com/nando0x/ProspectOS",
+      "priceValidUntil": "2026-12-31"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "CRM",
+        "item": "https://martechsignal.com/categories/crm/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "ProspectOS",
+        "item": "https://martechsignal.com/tools/prospectos/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is ProspectOS?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does ProspectOS cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is ProspectOS a good self-hosted CRM tool in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A working, well-tested local prospecting tool with unusually honest documentation about its scraping risks. Suitable for individual freelancers who accept the terms-of-service exposure; not a team tool, and not compliant-by-design with Google or Instagram ToS."
+        }
+      }
+    ]
+  }
+]
+```

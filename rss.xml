@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:26:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 12:13:10 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Claude SEO benchmark: every score we have earned, and what each one measured</title>
+      <link>https://martechsignal.com/blog/claude-seo-benchmark/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-benchmark/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually me</description>
+    </item>
     <item>
       <title>Where open-source martech momentum actually lives</title>
       <link>https://martechsignal.com/blog/oss-momentum-tracker-september-2026/</link>
@@ -48,13 +55,6 @@
       <guid isPermaLink="true">https://martechsignal.com/blog/salesforce-third-no-code-promise/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
       <description>Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week. Campaign Agent, which turns a stated goal into a live cam</description>
-    </item>
-    <item>
-      <title>Four Graders, One Site: What Five Claude SEO Scores Measure</title>
-      <link>https://martechsignal.com/blog/claude-seo-v231-four-graders/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-v231-four-graders/</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <description>We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.</description>
     </item>
     <item>
       <title>Claude SEO vs Seonaut: which free SEO checker should you run</title>
@@ -148,13 +148,6 @@
       <description>Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI Max globally, a suite that le</description>
     </item>
     <item>
-      <title>Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</title>
-      <link>https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>On August 24, the open-source Claude SEO skill scored martechsignal.com 92/100. We published the full teardown, patted ourselves on the back, and moved on. Two days later we update</description>
-    </item>
-    <item>
       <title>Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</title>
       <link>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</guid>
@@ -176,14 +169,7 @@
       <description>Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility actually comes from, and the </description>
     </item>
     <item>
-      <title>I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</title>
-      <link>https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-teardown-martechsignal/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description>This site reviews martech tools for a living. On August 23 we pointed a free, open-source agent skill at our own production domain, and it found a sitewide og:image 404 that our de</description>
-    </item>
-    <item>
-      <title>Your Dashboard Can't See AI Search , Here's the 5-Layer Fix</title>
+      <title>Your Dashboard Can't See AI Search, Here's the 5-Layer Fix</title>
       <link>https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>

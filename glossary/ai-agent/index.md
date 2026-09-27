@@ -1,5 +1,27 @@
 # AI Agent
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+Workato
+
+Enterprise AI governance plus integration and automation on one platform
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## AI Agent
+
+GLOSSARY
+
+## Definition
+
 An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.
 
 ## Why it matters
@@ -18,6 +40,8 @@ Common deployments include campaign state monitoring (watching spend and pacing 
 
 Evaluate agents by their failure containment, not their demo. Ask what happens when an integration breaks mid-run, how actions are reviewed, and what the rollback story is. Vendors who cannot answer those questions are selling a demo, not a product.
 
+## The numbers
+
 Rollout math worth knowing: teams that run agents in suggest-and-approve mode for their first month report approval rates climbing from roughly 40-60% to 80-90% as policies tighten - the agent learns constraints from the approval pattern. Budget containment matters more: agents acting within a hard-capped budget cannot do more damage than the cap. Vendors price agents on usage, per action, per run, or per credit, plus seats for the humans supervising them, and rates vary by vendor. Whatever the unit, price out your expected action volume before launch and set a hard cap at the billing layer, not inside the agent&#x27;s own settings, because a limit the agent can edit is a suggestion.
 
 ## Common mistakes
@@ -32,10 +56,60 @@ This entry is about AI by definition; the practical note is that agent quality c
 
 ## Related terms
 
-Marketing automation · MQL / SQL · ABM · Lead scoring · Marketing ops
+[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
 
 ## Seen in the wild
 
-AI Agents Need Campaign State, Not Prompts · Autonomous Marketing Platforms Are Real. The Name Is Wrong. · Google Handed Your Ad Budget to AI Agents
+[AI Agents Need Campaign State, Not Prompts](/blog/ai-agents-need-campaign-state/) · [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/) · [Google Handed Your Ad Budget to AI Agents](/blog/google-ad-agents-control-gap/)
 
-Marketing Automation Workflow Automation
+### Categories
+
+[Marketing Automation](/categories/marketing-automation/) [Workflow Automation](/categories/workflow-automation/)
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "AI Agent",
+    "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/ai-agent/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI Agent",
+        "item": "https://martechsignal.com/glossary/ai-agent/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/#webpage", "dateModified": "2026-09-27"}
+```

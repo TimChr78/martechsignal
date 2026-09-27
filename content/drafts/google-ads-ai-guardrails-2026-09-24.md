@@ -1,4 +1,5 @@
 ---
+sources: [Mike Ryan on AI Max mistakes (PPC Live)|https://www.lunio.ai/blog/5-ai-max-mistakes, Optmyzr safety model on MarTech|https://martech.org/ai-agents-cant-help-if-they-cant-see-your-marketing-data/]
 title: "The guardrails Google won't ship for your AI ad account"
 seo_title: "AI ad account guardrails Google won't ship"
 slug: google-ads-ai-guardrails
@@ -8,7 +9,7 @@ tags: [Google Ads, AI, Automation, Advertising]
 categories: [advertising]
 ---
 
-Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job. Two pieces of practitioner advice landed in the same week to prove it, from opposite ends of the industry. On the PPC Live podcast, Mike Ryan of Smarter Ecommerce walked through what happens when AI Max meets an account nobody has fenced in. On MarTech, Optmyzr published a three-layer safety model for agents touching live ad budgets. Meanwhile Google itself spent the same stretch expanding AI Brief to seven more languages and promising a unified AI Max reporting view sometime later in 2026.
+Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job. Two pieces of practitioner advice landed in the same week to prove it, from opposite ends of the industry. On the PPC Live podcast, [Mike Ryan of Smarter Ecommerce](https://www.lunio.ai/blog/5-ai-max-mistakes) walked through what happens when AI Max meets an account nobody has fenced in. On [MarTech](https://martech.org/ai-agents-cant-help-if-they-cant-see-your-marketing-data/), [Optmyzr](https://www.optmyzr.com/) published a three-layer safety model for agents touching live ad budgets. Meanwhile Google itself spent the same stretch expanding AI Brief to seven more languages and promising a unified AI Max reporting view sometime later in 2026.
 
 We made this argument in August when [Google handed your ad budget to AI agents and kept you on the hook](/blog/google-ad-agents-control-gap/). A month later the control gap hasn't closed. It has gotten more specific, which is progress of a sort. Practitioners are now describing what the control layer actually contains.
 

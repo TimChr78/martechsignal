@@ -1,5 +1,31 @@
 # Workflow Automation (iPaaS)
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+Tray.io
+
+AI-powered integration platform for building custom automation and AI agents
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Workflow Automation (iPaaS)
+
+GLOSSARY
+
+## Definition
+
 Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.
 
 ## Why it matters
@@ -18,6 +44,8 @@ Teams automate lead routing, data syncing between the CRM and the data warehouse
 
 Choose by who operates it. Visual platforms like Make and Zapier fit marketing teams without developers. Node-based engines like n8n fit teams that can version and deploy code, and they eliminate per-task pricing. Check how errors surface: a good platform fails loudly, with retries and logs, because silent failures are what destroy trust in automation. Also check data residency if your stacks cross borders.
 
+## The numbers
+
 Cost comparison at real scale: a 10-step workflow running 500 times daily costs roughly $30-90 per month on Zapier&#x27;s task pricing, near zero self-hosting n8n on existing infrastructure, and $9-60 on Make depending on operation counts. The hidden variable is failure handling - retries, error branches, and dead-task cleanup are where each platform&#x27;s free tier quietly stops being usable.
 
 ## Common mistakes
@@ -32,8 +60,59 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 
 ## Related terms
 
-Marketing ops · AI Agent · MCP · Agentic Marketing
+[Marketing ops](/glossary/marketing-ops/) · [AI Agent](/glossary/ai-agent/) · [MCP](/glossary/mcp/) · [Agentic Marketing](/glossary/agentic-marketing/)
 
-Workflow Automation
+### Categories
 
-- Marketing automation
+[Workflow Automation](/categories/workflow-automation/)
+
+## See also
+
+- [Marketing automation](/glossary/marketing-automation/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Workflow Automation (iPaaS)",
+    "description": "Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/workflow-automation/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Workflow automation",
+        "item": "https://martechsignal.com/glossary/workflow-automation/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/#webpage", "dateModified": "2026-09-27"}
+```

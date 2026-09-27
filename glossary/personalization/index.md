@@ -1,5 +1,27 @@
 # Website Personalization
 
+Clerk.io
+
+AI-powered ecommerce personalization with search, recommendations, and email
+
+Bloomreach
+
+AI-powered commerce experience platform with search, personalization, and CDP
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Website Personalization
+
+GLOSSARY
+
+## Definition
+
 Website personalization changes what a visitor sees based on who they are or what they&#x27;ve done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.
 
 ## Why it matters
@@ -30,6 +52,56 @@ AI changed personalization from rules to prediction. Models score each visitor i
 
 ## Related terms
 
-CDP · CRO · UTM parameters · Customer journey · Attribution models
+[CDP](/glossary/cdp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Attribution models](/glossary/marketing-attribution-models/)
 
-Personalization &amp; CDP
+### Categories
+
+[Personalization &amp; CDP](/categories/personalization/)
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Website Personalization",
+    "description": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/personalization/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Personalization",
+        "item": "https://martechsignal.com/glossary/personalization/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/#webpage", "dateModified": "2026-09-27"}
+```

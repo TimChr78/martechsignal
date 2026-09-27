@@ -96,3 +96,5 @@ The hidden cost at every tier is the same one: the person who maintains the Dock
 One warning for all three: none of them sends email or runs ads out of the box. They orchestrate and track. The ESP, the ad platforms, and the connectors between them stay in the rest of your stack, which is exactly the point. You own the operational data and the workflows around it, and you stop renting the middle of your own stack by the seat.
 
 More of this category in our [workflow automation](/categories/workflow-automation/) coverage, including the full reviews of all five tools in this post.
+
+Down to two already? The pairwise version of this fight lives on [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/), with the transactional detail this page deliberately skips.

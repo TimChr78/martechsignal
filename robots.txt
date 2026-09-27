@@ -33,27 +33,35 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 # to it at all, so each group below is complete on its own. Search crawlers and
 # user-triggered fetch agents are intentionally unnamed and keep the `*` rules.
 User-agent: GPTBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: ClaudeBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: Google-Extended
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: CCBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: Applebot-Extended
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: meta-externalagent
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: Bytespider
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: Amazonbot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 Sitemap: https://martechsignal.com/sitemap.xml
@@ -64,7 +72,9 @@ Agentmap: https://martechsignal.com/.well-known/ard.json
 # Grounding/retrieval agents (Google-Extended keeps grounding open per /ai-policy/,
 # Meta-WebIndexer and Meta-ExternalFetcher stay allowed) are unaffected.
 User-agent: cohere-ai
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 User-agent: Diffbot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /

@@ -1,0 +1,199 @@
+{
+  "best": [
+    {
+      "h2": "What best means on this site",
+      "paras": [
+        "<em>Best</em> is a shortlist claim and this site treats it like one. A tool earns the label by surviving the same six-pillar rubric everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Every scored tool shows its numbers with the date we last checked them against the vendor's own documentation. The rest of the directory stays catalog research with a desk-review badge, because dressing up desk research as lab testing is the fastest way to poison a shortlist. The <a href=\"/methodology/\">methodology</a> carries the rules, including the source-claim rule: a claim without a named source does not ship.",
+        "No vendor pays for placement, and none pays for removal. That is not a purity flex. It is the only configuration where a skip-it line can be trusted. When a tool we like has a real weakness, the weakness gets the same sentence length as the strength, and the verdict block sits above the fold so nobody has to hunt for the bottom line."
+      ]
+    },
+    {
+      "h2": "How to build a shortlist that survives contact with your stack",
+      "paras": [
+        "Start with the constraint you cannot negotiate. Regulated data? Residency and audit trails decide before features do. Two people on the team? Onboarding time beats the tenth integration every time. An open-source mandate? The licence tag on each tool page becomes your first filter and everything else turns secondary. Tools that win on paper and lose on your constraints are the most expensive kind of free.",
+        "Next, match the pricing model to how you actually buy. A usage-based tool with a friendly entry price can pass a quiet month and fail a launch month. A per-seat platform punishes exactly the cross-team rollout that was supposed to pay for it. The pricing block on every <a href=\"/tools/\">tool page</a> states the model, the starting price, and the verification date, so the arithmetic happens before anyone schedules a demo. Where a price is not published, the page says contact sales instead of inventing a number.",
+        "Then run the integration check against reality rather than the logo wall. The integrations listed are the ones the vendor documents. Whether the two-way sync you need lives in the free tier is a different question and it hides in the pricing notes. This work is unglamorous and it is where most switching costs grow while nobody watches."
+      ]
+    },
+    {
+      "h2": "How the scores move when the catalog does",
+      "paras": [
+        "Scores are not a photograph; they are a dated reading. When a vendor republishes a pricing page, ships an integration, or archives a changelog entry, the number on the page moves with it and the verification date moves with the number. The n8n star count is the house example. Three different figures had settled into our own pages before a single repository check flushed them out and re-stamped the date. That check is the reason every figure here carries one.",
+        "This also means a shortlist built six months ago deserves one re-reading before it reaches procurement. Prices drift upward more often than features drift downward, and the tools whose pages show the oldest verification dates are the ones most likely to have moved. The date is doing work. Read it."
+      ]
+    },
+    {
+      "h2": "The six pillars, and how to read them",
+      "paras": [
+        "<strong>Pricing transparency.</strong> Published prices, dated. A page scores well when a stranger can reconstruct the cost model without a sales call. Contact-sales-only pricing is not a crime; it is just expensive to compare, and the score reflects exactly that.",
+        "<strong>Feature depth.</strong> Breadth that matters after month one. Ten shallow features lose to four deep ones, and the assessment text names the depth rather than counting menu items.",
+        "<strong>Integrations.</strong> Documented connections, weighted by whether they are native, tiered, or paid add-ons. The count is the catalog's field, so it moves when the vendor moves.",
+        "<strong>AI capability.</strong> Working AI features with a documented boundary, not a chatbot bolted onto the pricing page. Descriptions name the actual capability: what generates, what recommends, what merely labels.",
+        "<strong>Openness.</strong> Source availability, open standards, data portability. For procurement in regulated or public sectors this pillar is the shortlist gate, and the licence tag makes it filterable.",
+        "<strong>Operational maturity.</strong> Uptime history, support model, security posture, and how the company handles incidents. Boring infrastructure is a feature, and the assessments treat it as one."
+      ]
+    },
+    {
+      "h2": "Use cases we see most",
+      "paras": [
+        "<strong>For lean teams.</strong> Buy fewer tools and connect them well. A <a href=\"/categories/workflow-automation/\">workflow automation</a> platform usually beats buying native integrations you touch twice a year, and the <a href=\"/blog/open-source-martech-stack/\">open-source martech stack</a> write-up shows how far a small budget travels when the core is self-hosted.",
+        "<strong>For AI search visibility work.</strong> When buyers asking an LLM becomes an acquisition channel, general SEO suites treat it as a side quest. The <a href=\"/categories/geo-llm-visibility/\">AI visibility category</a> exists for that gap. Read the <a href=\"/blog/ai-search-funnel-map-ga4-wont-give-you/\">AI search funnel map</a> first; the tools make twice as much sense once the measurement model is in place.",
+        "<strong>For regulated industries.</strong> Openness stops being a philosophy and becomes a procurement requirement. Open-source and open-standard tools shorten vendor review, and the directory's licence tags build that shortlist directly. The skip-it lines on closed platforms are written for exactly this trade-off.",
+        "<strong>For teams carrying workflow debt.</strong> When half the stack exists to automate the other half, the pages under <a href=\"/vs/\">/vs/</a> price the consolidation honestly, and the <a href=\"/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/\">workflow debt</a> piece explains when two tools doing one job is the actual problem to solve.",
+        "<strong>For platform consolidations.</strong> When two categories of spend are really one workflow, evaluate the combined cost before evaluating either tool. The <a href=\"/vs/\">comparison pages</a> price pairwise consolidations, and the multi-category platforms in the catalog have their category footprints written on their pages."
+      ]
+    },
+    {
+      "h2": "Mistakes that cost real money",
+      "paras": [
+        "Picking the brand your last job used. Tool quality drifts between jobs because teams, data, and budgets differ. The rubric is portable. Muscle memory is not.",
+        "Treating feature lists as checklists. Every listed feature carries a gap between documented and working inside your stack. Budget for that gap explicitly, and prefer tools whose pages admit where the boundaries are. A feature the vendor hedges is worth two they celebrate.",
+        "Skipping the free tier. Where one exists, it is the only hands-on evidence in the entire process. This site is desk-reviewed on purpose, and the trial is the part it cannot do for you. Two weeks of your own data beats any review, including these.",
+        "Confusing a demo with evidence. A demo proves the vendor can tell a story about their product. The only evidence in this whole process is your data in their system doing your job, which is a different thing with a different calendar and a different budget line."
+      ]
+    },
+    {
+      "h2": "Where to go next",
+      "paras": [
+        "Every category has its own <a href=\"/best/\">best-of page</a> with the shortlist logic applied to that shelf. The <a href=\"/tools/\">tool index</a> carries every entry with category, price-model, and licence filters, and the <a href=\"/checklist/\">selection checklist</a> turns the process into one afternoon's work.",
+        "The blog keeps the longer arguments in the open, including <a href=\"/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/\">why the stack rarely needs another AI tool</a> and the <a href=\"/blog/oss-momentum-tracker-september-2026/\">open-source momentum tracker</a> for where the self-hostable market is heading."
+      ]
+    },
+    {
+      "h2": "Reading a verdict without getting sold",
+      "paras": [
+        "The verdict block answers the buyer question, not the product question. It states the entry price with its currency and date, the feature boundary in plain words, and the situation where this tool is the wrong purchase. The third part is the one to read twice. A verdict that never names a wrong-fit buyer is marketing wearing a review's clothes.",
+        "The skip-it line then does something vendor pages cannot: it tells you when to close the tab. Pricing model mismatches, onboarding assumptions, tiered-feature traps all get named in one sentence so the next tool on the shortlist gets a fair hearing."
+      ]
+    }
+  ],
+  "vs": [
+    {
+      "h2": "What a comparison page is for",
+      "paras": [
+        "A comparison page answers one transactional question: two tools, one budget line, which one survives your constraints. It is the wrong format for category research and the right format for a bake-off that has already narrowed to two names. These pages exist for that second moment, after the shortlist work on <a href=\"/best/\">/best/</a> is done and before procurement asks for a recommendation with a reason attached.",
+        "Each page states its own scope at the top: what the pair shares, where they genuinely differ, and who should walk away. The verdict block carries the catalog's live numbers with their verification dates, so a pricing argument on the page can be checked rather than believed."
+      ]
+    },
+    {
+      "h2": "How these comparisons are built",
+      "paras": [
+        "Both sides get the same rubric and the same treatment length. Pricing models are laid out side by side from the catalog fields, integrations come from what the vendors document, and AI capabilities are named by what they actually do instead of what the launch post promised. Where a figure is unknown on one side, the page says so instead of smoothing the gap. Asymmetry in a comparison is information, and quieting it is how vendor comparison pages quietly lie.",
+        "Every tool here is desk-reviewed: vendor documentation, pricing pages, changelogs, and repository signals. That is a documented-evidence review, not a hands-on test, and the pages carry that badge so the evidence class is visible. Where hands-on evidence exists in the <a href=\"/blog/\">blog</a>, the pages link it.",
+        "Length parity matters more than it sounds. When one side gets two paragraphs and the other gets four, the page has started recommending without saying so. These pages hold both sides to the same treatment and put every asymmetry in its own sentence where a reader can weigh it."
+      ]
+    },
+    {
+      "h2": "Pricing models side by side without lying",
+      "paras": [
+        "Lining up two starting prices is the easiest way to make a comparison page lie without a single false sentence. A usage-based tool's entry price and a per-seat platform's entry price measure different things, and the smaller number usually belongs to the model that will bill you more later. The pages therefore put the model label next to the price everywhere the price appears.",
+        "The honest comparison runs both models against your own numbers: last quarter's volume for usage pricing, next year's headcount plan for seat pricing. Where a tier gates the feature that made the shortlist, the pages say which tier and what it costs, because the entry price and the working price are two different prices on every platform with more than two tiers."
+      ]
+    },
+    {
+      "h2": "How to run the bake-off",
+      "paras": [
+        "Write the non-negotiables first. Residency, audit logging, a specific integration's two-way sync, seat economics at your real headcount. Every bake-off that went wrong in hindsight skipped this step and compared the wrong surfaces for two weeks.",
+        "Match pricing models to buying reality before comparing prices. Usage-based against per-seat is not a price comparison; it is a bet on your own growth curve. Run both models against last quarter's actual volumes and the argument resolves itself. The pricing blocks on the two tool pages carry the verified starting prices and the model labels to do this arithmetic.",
+        "Price the migration, not just the subscription. Export formats, integration rebuilds, contract timing, and the retraining week nobody puts on the pricing page all belong in the comparison. A thirty-dollar monthly delta loses to one integration rebuilt by hand, every time.",
+        "Migration cost belongs on the comparison even though it lives outside both products. Export formats, integration rebuilds, and contract timing get their own treatment in the <a href=\"/alternatives/\">alternatives guides</a>, and the pairwise pages link there instead of pretending the move is free."
+      ]
+    },
+    {
+      "h2": "The pairs we cover",
+      "paras": [
+        "The pairwise pages cover the contests that show up most in real evaluations: <a href=\"/vs/n8n-vs-zapier/\">n8n vs Zapier</a>, <a href=\"/vs/nocodb-vs-nocobase/\">NocoDB vs NocoBase</a>, <a href=\"/vs/hubspot-vs-salesforce/\">HubSpot vs Salesforce</a>, <a href=\"/vs/claude-seo-vs-semrush/\">Claude SEO vs Semrush</a>, <a href=\"/vs/salesforce-mc-vs-hubspot/\">Salesforce Marketing Cloud vs HubSpot</a>, <a href=\"/vs/make-vs-zapier/\">Make vs Zapier</a>, <a href=\"/vs/activecampaign-vs-klaviyo/\">ActiveCampaign vs Klaviyo</a>, and <a href=\"/vs/jasper-vs-writer/\">Jasper vs Writer</a>. Each carries the same rubric and the same honesty rules.",
+        "Three-way and team-shape questions belong to the blog instead. When NocoBase, NocoDB, and Budibase all fit and the real question is who will operate them, read the <a href=\"/blog/nocobase-vs-nocodb-vs-budibase/\">pick-by-team-shape</a> piece rather than forcing a pairwise answer. Same for workflow debt: <a href=\"/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/\">Zapier vs Make</a> in long form covers the cost shapes the pairwise page can only summarize.",
+        "Pair selection follows reader demand rather than category symmetry. NocoDB against NocoBase earns a page because those two show up together in real evaluations; a comparison of two tools nobody weighs against each other is page length without a reader. When a pair is missing from the shelf, that is usually the answer to whether it should exist."
+      ]
+    },
+    {
+      "h2": "What the skip-it line is for",
+      "paras": [
+        "Each comparison page ends with walk-away conditions for both sides, and the lines are specific on purpose. Not every team, not every stack: the actual failure shape, like seat-based pricing on a rollout that adds forty occasional users, or a self-hosted option for a team without anyone to run it. A skip-it line you can recognize your situation in is worth more than a score out of ten.",
+        "The same applies when the real question is sequencing. If tool A is this year's purchase and tool B is next year's, a comparison forces a simultaneity neither plan has. Say so in the ticket instead, and let the page serve the year you are actually buying for."
+      ]
+    },
+    {
+      "h2": "When a comparison is the wrong tool",
+      "paras": [
+        "If more than two candidates are alive, a comparison page will rank them by accident and you will inherit that accident. Go back to category pages and shortlist properly. If neither side passes your non-negotiables, the honest answer is neither, and the alternatives pages exist for exactly that outcome.",
+        "If the decision is really about build versus buy, the pair is wrong entirely. No comparison of two SaaS tools answers whether the workflow should live in your warehouse at all, and pretending otherwise is how teams buy their third automation platform."
+      ]
+    },
+    {
+      "h2": "Where to go next",
+      "paras": [
+        "The <a href=\"/tools/\">tool index</a> has the full catalog with filters for category, price model, and licence. When neither side wins, the <a href=\"/alternatives/\">alternatives pages</a> name the exit routes, and the <a href=\"/methodology/\">methodology</a> documents every rule these pages follow."
+      ]
+    },
+    {
+      "h2": "After the decision",
+      "paras": [
+        "Once the choice lands, write down why in the ticket. The tools rotate faster than the decisions, and the comparison that mattered at selection time becomes the reference for the renewal conversation a year later, when the price has moved and the memory of the trade-off has not survived. The verification dates on the page make that future conversation concrete: here is what we knew, here is when we knew it."
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "h2": "When switching is justified",
+      "paras": [
+        "Switching costs real money even when the subscription math looks clean, so the first question is not which alternative. It is whether anything forces the move. Three things usually do. A price change that lands on your renewal date and rewrites the business case. A roadmap that quietly reprioritizes away from your use case, which you can see in the changelog faster than in the newsletter. Or a control problem: data residency, export limits, an integration that only exists in the tier above the one you bought.",
+        "The fourth reason is smaller and more common than anyone admits: the tool won and stopped earning it. When the workflow is stable and the product is coasting, the catalog's operational maturity pillar is where the rot shows first. Support response drifts, incidents get blog-shaped handling, and the pricing page gains tiers rather than features. None of that is visible in year one and all of it is visible in year three.",
+        "If none of these apply, staying is usually correct. Alternatives pages exist to price a move when one is warranted, not to make churn feel like strategy.",
+        "Price is the worst of these reasons and the most quoted one. A repricing that doubles the bill still loses to a migration that eats a quarter of one engineer's calendar, which is why the arithmetic here always includes the move itself. Control problems win the argument almost every time they appear; cost problems win about half the time."
+      ]
+    },
+    {
+      "h2": "How to read an alternatives page here",
+      "paras": [
+        "Every page names the tool people are leaving before it names the exits. That order matters: the reasons to leave get stated as criteria, then each alternative is matched against those criteria rather than against a generic feature grid. The comparison blocks pull live catalog numbers with their verification dates, so the pricing row on the page is checkable evidence instead of marketing copy.",
+        "The pages carry a desk-review badge like everything else here: documented evidence, not a hands-on migration log. Where the blog has run something close to hands-on, like the <a href=\"/blog/open-source-martech-stack/\">open-source martech stack</a> series, the pages link it so the evidence classes stay distinguishable.",
+        "Read the dates before the arguments. An alternatives page built on a six-month-old pricing row is arguing with a product that no longer exists, and the verification dates make that visible instead of hidden."
+      ]
+    },
+    {
+      "h2": "Migration costs nobody puts on the pricing page",
+      "paras": [
+        "Data export is the first bill. Not the act of exporting, which every vendor screenshots for their docs, but the shape of what comes out: history truncated at ninety days, automations as JSON with private app references, or templates that lose their connections on import. Test the export before you shortlist, not after you sign. One dry-run export answers more than a week of comparison reading.",
+        "Integration rebuilds are the second bill and usually the larger one. The five-line integration that took an afternoon to configure takes an afternoon to find again in the new tool's vocabulary, and the twentieth one does not. Count the live integrations first; the number is always higher than the team remembers, and the <a href=\"/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/\">integration economics</a> piece explains why the rebuild curve bites harder than the rebuild quote.",
+        "Timing is the third bill. Contract end dates, mid-term exit clauses, and the double-running month where both systems are live belong in the plan before the shortlist exists. Teams that skip this pay for two platforms for a quarter and call it a migration. The <a href=\"/blog/automation-blast-radius-audit/\">blast radius audit</a> is the cheapest way to find what breaks on cut-over day.",
+        "The evidence class stays visible throughout, like everywhere on this site. Migration guidance here is documented reasoning from vendor docs and public postmortems, marked as a desk review rather than a hands-on migration log, because claiming otherwise would make the one honest page in the process dishonest."
+      ]
+    },
+    {
+      "h2": "The contract calendar",
+      "paras": [
+        "Every exit has a date on it before it has a destination. Auto-renewal windows, notice periods, and mid-term repricing clauses decide when a move can start, and the calendar is usually the real constraint on the project. The useful move is to set the notice-deadline reminder now and work backwards from it: dry-run export first, shortlist second, migration third, cut-over with a buffer week for the integration that always needs one.",
+        "Double-running is not waste if it is planned; it is waste if it is discovered. Budget one overlap month explicitly, name what runs where during it, and decide the cut-over criteria before the overlap starts. Teams that treat the overlap as a line item finish migrations. Teams that treat it as embarrassment run both platforms until the renewal forces the question.",
+        "Retraining is the fourth bill and the one teams round to zero. The workflow muscle memory of the old tool does not transfer; it actively interferes for the first month. Plan the quiet week, and pick the pilot workflow accordingly: something real enough to matter and contained enough that relearning it twice is affordable."
+      ]
+    },
+    {
+      "h2": "What to demand from the exit",
+      "paras": [
+        "Leaving well beats arriving well. Before the notice goes out, collect everything the incumbent will not hand over afterwards: full export in machine-readable formats, the integration inventory with their configurations, automation definitions with their private app references resolved, and the incident and invoice history for your own records. Most of this is free today and unavailable or slow after the account closes.",
+        "Then say why you left, in writing, to the vendor. It costs ten minutes and it is the only feedback channel that carries a renewal-sized number. Some of the better pricing pages in this catalog changed because someone wrote that email."
+      ]
+    },
+    {
+      "h2": "The hubs we cover",
+      "paras": [
+        "The alternatives pages cover the exits teams ask about most, including <a href=\"/alternatives/zapier/\">Zapier alternatives</a>, <a href=\"/alternatives/hubspot-crm/\">HubSpot CRM alternatives</a>, and the rest of the shelf under <a href=\"/alternatives/\">/alternatives/</a>. Each page keeps the target tool's criteria in view while it prices the exits, so the comparison stays honest about what the incumbent did well.",
+        "Open-source exits deserve their own note here. When the driver is control rather than price, the licence tag on each <a href=\"/tools/\">tool page</a> shortlists the self-hostable side of the market directly, and the open-source entries in the catalog carry repository signals with their own verification dates."
+      ]
+    },
+    {
+      "h2": "Where to go next",
+      "paras": [
+        "Shortlist logic lives on <a href=\"/best/\">/best/</a>, pairwise finals live on <a href=\"/vs/\">/vs/</a>, and the full catalog with category, price-model, and licence filters lives in the <a href=\"/tools/\">tool index</a>. The <a href=\"/checklist/\">selection checklist</a> turns the whole process into one afternoon, and the <a href=\"/methodology/\">methodology</a> documents every rule these pages follow, including the one that matters most for exits: a claim without a named source does not ship."
+      ]
+    },
+    {
+      "h2": "Going back",
+      "paras": [
+        "A migration that fails should fail cheap, which is a design choice made during the move, not during the panic. Keep the old account readable until the new workflow has survived one full business cycle, and treat the first renewal of the new tool as the real go or no-go rather than the cut-over date. Coming back is not defeat; it is the export working in the other direction."
+      ]
+    }
+  ]
+}

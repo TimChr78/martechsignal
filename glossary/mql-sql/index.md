@@ -1,5 +1,27 @@
 # MQL / SQL
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)
+
+GLOSSARY
+
+## Definition
+
 An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.
 
 ## Why it matters
@@ -18,6 +40,8 @@ The MQL to SQL conversion rate is the health metric between marketing and sales.
 
 The stage definitions should be written down and reviewed quarterly. Start with the easiest rule that predicts a demo, then tighten by looking at which behaviors precede closed deals. Scoring models with explicit points for job title, company size, and product activity beat black-box models because they can be audited and tuned. If the model cannot be explained to the sales team, it will not survive first contact with them.
 
+## The numbers
+
 Handoff benchmarks worth knowing: typical B2B MQL-to-SQL conversion runs 13-20%, and SQL-to-close around 20-30%. If your MQL volume doubled but SQL count stayed flat, marketing qualified more people that sales does not want - a targeting problem no scoring tweak will fix. The fastest diagnostic is a 20-minute audit of ten rejected leads with whoever rejected them.
 
 ## Common mistakes
@@ -32,9 +56,61 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 ## Related terms
 
-CRM · Marketing automation · Deliverability · ABM · Customer journey
+[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/)
 
-CRM Marketing Automation
+### Categories
 
-- Marketing automation
-- Lead scoring
+[CRM](/categories/crm/) [Marketing Automation](/categories/marketing-automation/)
+
+## See also
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [ABM](/glossary/abm/)
+- [Lead scoring](/glossary/lead-scoring/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
+    "description": "An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/mql-sql/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "MQL / SQL",
+        "item": "https://martechsignal.com/glossary/mql-sql/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mql-sql/#webpage", "dateModified": "2026-09-27"}
+```

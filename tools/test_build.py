@@ -418,3 +418,34 @@ class TestSectionHubs:
         for sec in self.SECTIONS:
             assert f"https://martechsignal.com/{sec}/</loc>" in sm, \
                 f"Sitemap missing hub /{sec}/"
+
+
+class TestCatalogSchema:
+    """M21 (2026-09-27): the machine-readable catalog validates in CI against the
+    published schema.json so field names cannot drift apart again."""
+
+    def test_catalog_record_shapes(self):
+        import json as _j
+        schema = _j.loads((ROOT / "tools" / "schema.json").read_text())
+        data = _j.loads((ROOT / "tools" / "tools.json").read_text())
+        required = schema["required"]
+        props = schema["properties"]
+        banned_aliases = {"url", "github", "pricing"}
+        for rec in data:
+            for key in required:
+                assert key in rec, f"{rec.get('slug')}: missing required field {key}"
+            for key in banned_aliases:
+                assert key not in rec, f"{rec.get('slug')}: legacy alias field {key}"
+            for key, val in rec.items():
+                if key in props and "type" in props[key]:
+                    allowed = props[key]["type"]
+                    allowed = [allowed] if isinstance(allowed, str) else allowed
+                    ok = any(
+                        (ty == "string" and isinstance(val, str))
+                        or (ty in ("integer", "number") and isinstance(val, (int, float)) and not isinstance(val, bool))
+                        or (ty == "boolean" and isinstance(val, bool))
+                        or (ty == "array" and isinstance(val, list))
+                        or (ty == "null" and val is None)
+                        for ty in allowed
+                    )
+                    assert ok, f"{rec['slug']}.{key}: {type(val).__name__} not in {allowed}"

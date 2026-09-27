@@ -1,4 +1,5 @@
 ---
+sources: [Fivetran Agentic AI Readiness Index 2026|https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index, Gartner: 40% of agentic AI projects canceled by 2027|https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027]
 title: "Your agent protocol matters less than your data plumbing"
 seo_title: "Agent protocol vs data plumbing: what actually fails"
 slug: agent-protocol-vs-data-plumbing
@@ -7,7 +8,7 @@ author: Tim Christensen
 tags: [Automation, AI Agents, MCP]
 categories: [workflow-automation]
 ---
-MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them. The plumbing is the problem.
+MCP keeps winning the protocol argument while 85% of enterprises, by [Fivetran's count](https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index), run agents on data that cannot support them. The plumbing is the problem.
 
 In late July I argued that [MCP rewrites the integration economics of the marketing stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/). Pairwise connectors collapse into one registration per tool, the O(n²) tax goes away, and suite lock-in gets weaker. I still believe that. What I underestimated is how fast the protocol layer would settle while the layer underneath it stayed broken.
 
@@ -31,9 +32,9 @@ That last number matters most. The biggest optimization in the MCP ecosystem rig
 
 ## The 85% number, with its conflict of interest named
 
-Fivetran's Agentic AI Readiness Index 2026 supplies the stat of the season: 85% of enterprises lack the data foundation to run agentic AI at scale. When I covered Fivetran in August I pushed back on the idea that you need to [buy a new data stack](/blog/you-dont-need-new-data-stack-fivetran/) to fix this, and I would write the same post again today. Vendor research selling data plumbing will find plumbing problems. Fair.
+[Fivetran's Agentic AI Readiness Index 2026](https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index) supplies the stat of the season: 85% of enterprises lack the data foundation to run agentic AI at scale. When I covered Fivetran in August I pushed back on the idea that you need to [buy a new data stack](/blog/you-dont-need-new-data-stack-fivetran/) to fix this, and I would write the same post again today. Vendor research selling data plumbing will find plumbing problems. Fair.
 
-But strip out the pitch and the underlying breakdown is hard to argue with, because it matches what practitioners report. Fivetran surveyed enterprises and found 41% already run agents in production. Asked what holds them back, 42% said data quality and lineage, 39% said sovereignty and compliance, 39% said security and privacy. Talent and strategy ranked lower. Gartner, separately, estimates over 40% of agentic AI projects will be canceled by end of 2027, mostly because companies moved into use cases their data could not support.
+But strip out the pitch and the underlying breakdown is hard to argue with, because it matches what practitioners report. Fivetran surveyed enterprises and found 41% already run agents in production. Asked what holds them back, 42% said data quality and lineage, 39% said sovereignty and compliance, 39% said security and privacy. Talent and strategy ranked lower. [Gartner](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027), separately, estimates over 40% of agentic AI projects will be canceled by end of 2027, mostly because companies moved into use cases their data could not support.
 
 The most damning correlation in the index: among the 15% of organizations that call themselves fully prepared, 98% report strong confidence in agent ROI. Among the least prepared, confidence is 16%. Preparation and payoff move together, and the preparation Fivetran measures is automated data movement, lineage, interoperability, and governance. Three of those four are plumbing. None of them are protocol choices.
 

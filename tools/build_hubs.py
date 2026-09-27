@@ -28,6 +28,7 @@ Runs BEFORE build_tools.py in deploy.sh: the sitemap scan reads the generated
 index.html files.
 """
 import json
+from pathlib import Path
 
 from build_tools import page_shell, esc, ROOT
 
@@ -63,6 +64,15 @@ def _hub(section, h1, seo_title, meta, intro, children):
     for para in intro:
         _check_clean(para, f"{section}/intro")
         body.append(f"<p>{para}</p>")
+    # M15 (2026-09-27): expanded guide sections (criteria, use cases, process).
+    # Content lives in tools/hub-guides.json so the humanizer pass has one home.
+    _guides = json.loads((Path(__file__).resolve().parent / "hub-guides.json").read_text())
+    for _sec in _guides.get(section, []):
+        _check_clean(_sec["h2"], f"{section}/guide-h2")
+        body.append(f"<h2>{esc(_sec['h2'])}</h2>")
+        for para in _sec["paras"]:
+            _check_clean(para, f"{section}/guide-para")
+            body.append(f"<p>{para}</p>")
     items = "".join(
         f'<li><a href="{c["url"]}">{esc(c["title"])}</a><br>{esc(c["meta"])}</li>'
         for c in children)

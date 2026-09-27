@@ -1,5 +1,27 @@
 # Customer Data Platform (CDP)
 
+Twilio Segment
+
+Customer data platform for collecting, unifying, and activating customer data
+
+Snowplow
+
+Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Customer Data Platform (CDP)
+
+GLOSSARY
+
+## Definition
+
 A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.
 
 ## Why it matters
@@ -18,6 +40,8 @@ Teams use CDPs for cross-channel personalization, identity resolution, and real-
 
 The market split is now obvious. Standalone CDPs like Tealium, Segment, and mParticle charge for compute and identity resolution. Warehouse-native approaches, where the CDP layer runs on top of Snowflake or BigQuery, reuse infrastructure you may already own. Before buying, count your data sources and your identity rules. A small stack with clean keys may not need identity resolution at all, which makes the warehouse-native path dramatically cheaper.
 
+## The numbers
+
 Budget reality: standalone CDPs typically run $40,000 to $150,000 per year before usage overages; warehouse-native deployments shift most of that into existing Snowflake or BigQuery spend plus an activation tool. Identity resolution quality varies enough that vendors publish match-rate ranges rather than guarantees - ask for the range on your own sample file before signing anything. Pricing is usually a platform fee plus usage on profiles or events, and the usage tier is what surprises teams, because adding one new event stream can move you into the next bracket. Implementation is quoted separately and varies by vendor. Warehouse-native setups bill differently: you pay your cloud compute plus an activation license, which is cheaper at low volumes and less predictable at high ones.
 
 ## Common mistakes
@@ -32,6 +56,61 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
 
 ## Related terms
 
-DMP · CRO · UTM parameters · Customer journey · Personalization
+[DMP](/glossary/dmp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Personalization](/glossary/personalization/)
 
-Analytics &amp; Attribution
+### Categories
+
+[Analytics &amp; Attribution](/categories/analytics/)
+
+## See also
+
+- [CRM](/glossary/crm/)
+- [DMP](/glossary/dmp/)
+- [DSP](/glossary/dsp/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Customer Data Platform (CDP)",
+    "description": "A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/cdp/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "CDP",
+        "item": "https://martechsignal.com/glossary/cdp/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/#webpage", "dateModified": "2026-09-27"}
+```

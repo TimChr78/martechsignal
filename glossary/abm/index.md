@@ -1,5 +1,23 @@
 # Account-Based Marketing (ABM)
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Account-Based Marketing (ABM)
+
+GLOSSARY
+
+## Definition
+
 Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.
 
 ## Why it matters
@@ -30,9 +48,61 @@ AI helps ABM in two concrete places. Intent detection reads hundreds of signals 
 
 ## Related terms
 
-CRM · Marketing automation · MQL / SQL · Customer journey · Lead scoring
+[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/)
 
-Marketing Automation CRM
+### Categories
 
-- Marketing automation
-- Marketing ops
+[Marketing Automation](/categories/marketing-automation/) [CRM](/categories/crm/)
+
+## See also
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [Marketing ops](/glossary/marketing-ops/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Account-Based Marketing (ABM)",
+    "description": "Account-based marketing flips the traditional funnel. Instead of generating a large volume of leads and filtering down, you identify the specific accounts you want to win and build personalized campaigns for each one. Marketing and sales work the same target list from day one.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/abm/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "ABM",
+        "item": "https://martechsignal.com/glossary/abm/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/abm/#webpage", "dateModified": "2026-09-27"}
+```

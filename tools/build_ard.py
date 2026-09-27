@@ -151,11 +151,15 @@ def build():
                 "representativeQueries": qs[:5],
             })
 
+    # M11 (2026-09-27): spec 1.0 root = specVersion/host/entries only (the pinned
+    # schema rejects additional properties at path 'root'). The publisher identity
+    # and trustManifest are preserved in ARD_TRUST below and published as the side
+    # file /.well-known/ard-trust.json (the AGTP binding carries trustManifest, not
+    # the manifest root; removed from root per the official ard-spec schema).
     manifest = {
         "specVersion": "1.0",
-        "publisher": f"https://{PUBLISHER}/",
+        "host": PUBLISHER,
         "entries": entries,
-        "trustManifest": {"identity": f"https://{PUBLISHER}/about/"},
     }
     return manifest
 
@@ -207,6 +211,14 @@ if __name__ == "__main__":
     OUT_DIR.mkdir(exist_ok=True)
     text = json.dumps(m, ensure_ascii=False, indent=1)
     (OUT_DIR / "ard.json").write_text(text)
+
+    (ROOT / ".well-known" / "ard-trust.json").write_text(json.dumps({
+
+        "publisher": f"https://{PUBLISHER}/",
+
+        "trustManifest": {"identity": f"https://{PUBLISHER}/about/"},
+
+    }, indent=2))
     (OUT_DIR / "ai-catalog.json").write_text(text)  # predecessor courtesy copy
     # the two data-entry urls must resolve (root copies; /data/ stays private)
     (ROOT / "catalog-tools.json").write_text(TOOLS_JSON.read_text())

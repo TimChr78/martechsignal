@@ -1,5 +1,27 @@
 # Lead Scoring
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Lead Scoring
+
+GLOSSARY
+
+## Definition
+
 Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.
 
 ## Why it matters
@@ -18,6 +40,8 @@ Scoring decides who sales calls and who stays in nurture. Without it, reps cherr
 
 Start with explicit rules, not a machine-learned model. A transparent scorecard with ten weighted signals can be tuned by the team that owns it. Move to predictive scoring only after the rule-based version has data to learn from, and the model&#x27;s decisions can still be explained. The tooling spans the CRM&#x27;s built-in scorer, marketing automation platforms, and dedicated scoring products. Pick the one where the score is visible, because invisible scores get mistrusted.
 
+## The numbers
+
 Calibration check: in a healthy scoring model, roughly 25-40% of marketing-qualified leads convert to sales opportunities within 90 days. Below 20% means the threshold is too loose; above 50% usually means sales is quietly ignoring scores and cherry-picking. Track that one conversion rate quarterly instead of debating individual score weights - it catches drift faster than any model review. Scoring itself is rarely priced alone. It ships inside marketing automation platforms priced per contact or per seat, and standalone AI scoring tools price per record scored or per seat. All of it varies by vendor. The bigger number is the one sales and marketing must agree on: what score threshold converts a lead into a sales-accepted one, and how fast it must be worked.
 
 ## Common mistakes
@@ -32,10 +56,63 @@ Predictive scoring finds patterns humans miss: a lead that reads three specific 
 
 ## Related terms
 
-CRM · Marketing automation · Deliverability · MQL / SQL · ABM
+[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/)
 
 ## Seen in the wild
 
-Your Dashboard Can&amp;#x27;t See AI Search: 5-Layer Fix · n8n + AI: The Open-Source Automation Engine · Open-Source Martech Stack vs $5K/mo Subscriptions
+[Your Dashboard Can&amp;#x27;t See AI Search: 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/) · [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/) · [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 
-CRM Marketing Automation
+### Categories
+
+[CRM](/categories/crm/) [Marketing Automation](/categories/marketing-automation/)
+
+## See also
+
+- [MQL / SQL](/glossary/mql-sql/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Lead Scoring",
+    "description": "Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/lead-scoring/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lead scoring",
+        "item": "https://martechsignal.com/glossary/lead-scoring/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/#webpage", "dateModified": "2026-09-27"}
+```

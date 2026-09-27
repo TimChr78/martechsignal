@@ -1,5 +1,27 @@
 # Attribution models
 
+Attribution
+
+AI-powered marketing attribution platform connecting ad spend to revenue
+
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Attribution Models (First-Touch, Last-Touch, Multi-Touch)
+
+GLOSSARY
+
+## Definition
+
 An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.
 
 ## Why it matters
@@ -18,6 +40,8 @@ Attribution data drives channel budget allocation, campaign reporting, and perfo
 
 Match model complexity to data quality. If conversion data is incomplete, the fanciest data-driven model just overfits the noise; a simple first- or last-touch model is more honest. Tools range from platform-native (Google Analytics) to dedicated suites like Rockerbox that fold in offline and walled-garden data. Before buying, ask what the tool does with the data it cannot see, because every attribution tool hides a guess there.
 
+## The numbers
+
 What changes in practice: moving from last-touch to data-driven attribution typically shifts credit toward mid-funnel touchpoints by 10-30% of converted revenue, which reorders your channel leaderboard without changing a single ad. The number that matters more is return on ad spend stability - models that swing more than about 20% month to month are telling you the sample is too thin, not that performance changed. Attribution tooling is priced per event volume or per monthly tracked users, and enterprise suites bundle it into an analytics contract, so pricing varies by vendor. The cheaper experiment is free: run one model&#x27;s rules in a spreadsheet over a quarter of converted paths before you buy anything. If two models give you the same channel ranking, the tool will not change your decisions, only your vocabulary.
 
 ## Common mistakes
@@ -32,8 +56,59 @@ AI search and agentic media buying broke click-based attribution further. When C
 
 ## Related terms
 
-CDP · DMP · CRO · UTM parameters · Customer journey
+[CDP](/glossary/cdp/) · [DMP](/glossary/dmp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/)
 
-Analytics &amp; Attribution
+### Categories
 
-- First-party data
+[Analytics &amp; Attribution](/categories/analytics/)
+
+## See also
+
+- [First-party data](/glossary/first-party-data/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Attribution Models (First-Touch, Last-Touch, Multi-Touch)",
+    "description": "An attribution model is the rule that decides which marketing touchpoint gets credit for a conversion. First-touch credits the first interaction. Last-touch credits the final one before purchase. Linear splits credit equally. Time-decay gives more weight to recent touches. Position-based (U-shaped) gives 40% to first and last, 20% to everything in between.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/marketing-attribution-models/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Attribution models",
+        "item": "https://martechsignal.com/glossary/marketing-attribution-models/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/#webpage", "dateModified": "2026-09-27"}
+```

@@ -44,7 +44,7 @@ def build_hub(terms):
 
     alpha_nav = '<div class="alpha-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0">'
     for letter in sorted(letters.keys()):
-        alpha_nav += f'<a href="#{letter}" style="font:600 .85rem var(--mono);color:var(--amber);text-decoration:none;padding:.2rem .5rem;border:1px solid var(--border);border-radius:4px">{letter}</a>'
+        alpha_nav += f'<a href="#{letter}" style="font:600 .85rem var(--mono);color:var(--amber);text-decoration:none;padding:.2rem .5rem;border:1px solid var(--line2);border-radius:4px">{letter}</a>'
     alpha_nav += '</div>'
 
     # Term cards grouped by letter

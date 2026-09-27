@@ -1,5 +1,27 @@
 # Email Sequence (Drip Campaign)
 
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Email Sequence (Drip Campaign)
+
+GLOSSARY
+
+## Definition
+
 An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.
 
 ## Why it matters
@@ -30,8 +52,59 @@ AI now drafts sequence copy, predicts send times, and picks subject lines from h
 
 ## Related terms
 
-Marketing automation · Deliverability · MQL / SQL · Lead scoring · Marketing ops
+[Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [MQL / SQL](/glossary/mql-sql/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
 
-Email Marketing
+### Categories
 
-- Deliverability
+[Email Marketing](/categories/email-marketing/)
+
+## See also
+
+- [Deliverability](/glossary/deliverability/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Email Sequence (Drip Campaign)",
+    "description": "An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/email-sequence/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Email sequence",
+        "item": "https://martechsignal.com/glossary/email-sequence/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/#webpage", "dateModified": "2026-09-27"}
+```

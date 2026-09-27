@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Agent protocol vs data plumbing: what actually fails</title>
 <meta name="description" content="MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran&#x27;s count, run agents on data that cannot support them. The plumbing is the.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Agent protocol vs data plumbing: what actually fails">
@@ -16,17 +16,13 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/">
-<link rel="alternate" type="text/markdown" href="https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/index.md">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
-<script type="application/ld+json">
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "speakable": {
@@ -60,15 +56,27 @@
     }
   },
   "datePublished": "2026-09-23",
-  "dateModified": "2026-09-23",
+  "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
   "image": "https://martechsignal.com/og/agent-protocol-vs-data-plumbing.png",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Fivetran Agentic AI Readiness Index 2026",
+      "url": "https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Gartner: 40% of agentic AI projects canceled by 2027",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027"
+    }
+  ],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1579,
+  "wordCount": 1581,
   "articleSection": "workflow-automation"
 }
 </script>
@@ -98,8 +106,11 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
+<link rel="stylesheet" href="/style.min.css?v=d891b1d6">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js" defer></script>
+
+<link rel="alternate" type="text/markdown" href="/blog/agent-protocol-vs-data-plumbing/index.md" title="Markdown mirror">
 </head>
 <body class="page-post">
 <div class="bg" aria-hidden="true"></div>
@@ -107,7 +118,7 @@
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -116,16 +127,17 @@
 
 <p class="kicker">AUTOMATION · AI AGENTS · 8 MIN</p>
 <h1>Your agent protocol matters less than your data plumbing</h1>
-<img class="post-hero" src="/og/agent-protocol-vs-data-plumbing.png" alt="Your agent protocol matters less than your data plumbing" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<img class="post-hero" src="/og/hero-agent-protocol-vs-data-plumbing.webp" alt="Your agent protocol matters less than your data plumbing" width="800" height="420" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
 <p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Your agent protocol matters less than your data plumbing</p>
-<p class="meta"><time datetime="2026-09-23">SEP 23, 2026</time></p>
+<p class="meta"><time datetime="2026-09-23">SEP 23, 2026</time> · Updated <time datetime="2026-09-27">SEP 27, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
 <p class="meta filed-cat">Filed under <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-salesforce-guide-answers-the-wrong-question-well">The Salesforce guide answers the wrong question well</a> · <a href="#even-the-protocol-s-own-costs-are-a-data-shape-problem">Even the protocol's own costs are a data-shape problem</a> · <a href="#the-85-number-with-its-conflict-of-interest-named">The 85% number, with its conflict of interest named</a> · <a href="#what-to-do-before-you-pick-anything">What to do before you pick anything</a> · <a href="#what-good-plumbing-looks-like-first">What good plumbing looks like first</a> · <a href="#the-failure-mode-nobody-demos">The failure mode nobody demos</a> · <a href="#verdict">Verdict</a></nav>
-<p>MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them. The plumbing is the problem.</p>
+<p>MCP keeps winning the protocol argument while 85% of enterprises, by <a href="https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index">Fivetran's count</a>, run agents on data that cannot support them. The plumbing is the problem.</p>
 
 <p>In late July I argued that <a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP rewrites the integration economics of the marketing stack</a>. Pairwise connectors collapse into one registration per tool, the O(n²) tax goes away, and suite lock-in gets weaker. I still believe that. What I underestimated is how fast the protocol layer would settle while the layer underneath it stayed broken.</p>
 
@@ -149,9 +161,9 @@
 
 <h2 id="the-85-number-with-its-conflict-of-interest-named">The 85% number, with its conflict of interest named</h2>
 
-<p>Fivetran's Agentic AI Readiness Index 2026 supplies the stat of the season: 85% of enterprises lack the data foundation to run agentic AI at scale. When I covered Fivetran in August I pushed back on the idea that you need to <a href="/blog/you-dont-need-new-data-stack-fivetran/">buy a new data stack</a> to fix this, and I would write the same post again today. Vendor research selling data plumbing will find plumbing problems. Fair.</p>
+<p><a href="https://www.fivetran.com/resources/reports/the-2026-agentic-ai-readiness-index">Fivetran's Agentic AI Readiness Index 2026</a> supplies the stat of the season: 85% of enterprises lack the data foundation to run agentic AI at scale. When I covered Fivetran in August I pushed back on the idea that you need to <a href="/blog/you-dont-need-new-data-stack-fivetran/">buy a new data stack</a> to fix this, and I would write the same post again today. Vendor research selling data plumbing will find plumbing problems. Fair.</p>
 
-<p>But strip out the pitch and the underlying breakdown is hard to argue with, because it matches what practitioners report. Fivetran surveyed enterprises and found 41% already run agents in production. Asked what holds them back, 42% said data quality and lineage, 39% said sovereignty and compliance, 39% said security and privacy. Talent and strategy ranked lower. Gartner, separately, estimates over 40% of agentic AI projects will be canceled by end of 2027, mostly because companies moved into use cases their data could not support.</p>
+<p>But strip out the pitch and the underlying breakdown is hard to argue with, because it matches what practitioners report. Fivetran surveyed enterprises and found 41% already run agents in production. Asked what holds them back, 42% said data quality and lineage, 39% said sovereignty and compliance, 39% said security and privacy. Talent and strategy ranked lower. <a href="https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027">Gartner</a>, separately, estimates over 40% of agentic AI projects will be canceled by end of 2027, mostly because companies moved into use cases their data could not support.</p>
 
 <p>The most damning correlation in the index: among the 15% of organizations that call themselves fully prepared, 98% report strong confidence in agent ROI. Among the least prepared, confidence is 16%. Preparation and payoff move together, and the preparation Fivetran measures is automated data movement, lineage, interoperability, and governance. Three of those four are plumbing. None of them are protocol choices.</p>
 
@@ -199,19 +211,9 @@
 <footer>
   <div class="foot-in">
     <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
-<script>
-(function(){
-  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var bar=document.getElementById('progress');
-  if(bar){addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';},{passive:true});}
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.1});
-    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
-  }else{document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});}
-})();
-</script>
+
 </body>
 </html>

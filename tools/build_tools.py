@@ -48,7 +48,7 @@ def pricing_label(t):
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
-# Title:  "{Name} pricing: {Pricing} | MartechSignal"        (primary; SX-1)
+# Title:  "{Name} review (2026): pricing, AI features, verdict"  (H6 run#5: review intent)
 #   Try: "{Name} Review: {Category} | {Pricing} | MartechSignal" first;
 #   fallback without category if >60ch. For very long names we truncate
 #   the name part (never the suffix) to keep the pipe-brand intact.
@@ -230,12 +230,12 @@ def _tool_h1(t):
     pm = t.get("pricing_model") or "paid"
     n = esc(t["name"])
     return {
-        "paid": f"{n} pricing &amp; plans",
-        "freemium": f"{n} pricing: free tier and paid plans",
-        "open-source": f"{n} pricing, self-hosting and support",
-        "open-core": f"{n} pricing: open core and paid tiers",
-        "free": f"{n}: what it costs to run",
-    }.get(pm, f"{n} pricing &amp; plans")
+        "paid": f"{n} review (2026): pricing, AI features, verdict",
+        "freemium": f"{n} review (2026): pricing, AI features, verdict",
+        "open-source": f"{n} review (2026): pricing, AI features, verdict",
+        "open-core": f"{n} review (2026): pricing, AI features, verdict",
+        "free": f"{n} review (2026): pricing, AI features, verdict",
+    }.get(pm, f"{n} review (2026): pricing, AI features, verdict")
 
 
 def _seo_title_for(t, cats):
@@ -246,10 +246,10 @@ def _seo_title_for(t, cats):
     name = t["name"]
     price = pricing_label(t)
     suffix = " | MartechSignal"
-    cand = f"{name} pricing: {price}{suffix}"
+    cand = f"{name} review (2026): pricing, AI features, verdict{suffix}"
     if len(cand) <= 60:
         return cand
-    cand2 = f"{name} pricing & plans{suffix}"
+    cand2 = f"{name} review (2026): pricing, AI features, verdict"
     if len(cand2) <= 60:
         return cand2
     overhead = len(f" pricing{suffix}")
@@ -326,7 +326,7 @@ def _seo_description_for(t, cats):
         price_phrase = "Enterprise pricing; demo required."
     elif t.get("price_from") is not None:
         if t.get("price_from"):
-            price_phrase = f"Starts at ${t['price_from']}/mo."
+            price_phrase = f"Starts at {_money(t['price_from'], t)}."
         elif t.get("pricing_model") in ("freemium", "free", "open-core"):
             price_phrase = "Free tier available."
         else:
@@ -445,7 +445,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{esc(title)}">
@@ -459,36 +459,34 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:description" content="{esc(description)}">
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
-<link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
 <link rel="alternate" type="text/markdown" href="{canonical.rstrip('/')}/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
-{schema_block}
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
 <link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js" defer></script>
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav" aria-label="Primary"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
 {body}
 </main>
-<footer>
+<footer aria-label="Footer">
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -518,11 +516,12 @@ def build_hub(tools, cats):
     for t in sorted(tools, key=lambda x: x["name"].lower()):
         if t.get("status") != "active": continue
         c = cat_map.get(t["category"], {})
-        tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>'
+        tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span><span class="tag desk">Desk-reviewed</span>'
         tags += f'<span class="tag cat">{esc(c.get("name", t["category"]))}</span>'
         if t.get("open_source"):
             tags += '<span class="tag oss">OSS</span>'
-        card_html = f"""<a class="tool-card" href="/tools/{t['slug']}/">
+        _pm = t.get("pricing_model") or ("free" if t.get("price_from") == 0 else "unspecified")
+        card_html = f"""<a class="tool-card" data-cat="{t['category']}" data-price="{_pm}" data-licence="{'open' if t.get('open_source') else 'proprietary'}" href="/tools/{t['slug']}/">
   <div class="name">{esc(t['name'])}</div>
   <div class="tagline">{esc(t.get('tagline',''))}</div>
   <div class="meta">{tags}</div>
@@ -590,10 +589,30 @@ def build_hub(tools, cats):
         for i, t in enumerate(active)
     ]
 
+    _scored = [(s, _SCORES[s].get('name') or s) for s in _SCORES]
+    if _scored:
+        body += ('<p class="alt-back">Scored on the six-pillar rubric: '
+                 + ', '.join(f'<a href="/tools/{s}/">{esc(nm)}</a>' for s, nm in sorted(_scored))
+                 + '</p>')
+    # M10 (2026-09-27): client-side directory filter (category / price model /
+    # licence). Rendered hidden: with JS off the full list stays browsable. The
+    # options are server-rendered from the catalog so nothing is invented client-side.
+    _pm_buckets = sorted({(x.get("pricing_model") or ("free" if x.get("price_from") == 0 else "unspecified")) for x in tools if x.get("status") == "active"})
+    FILTER_BAR = ('<div class="tool-filter" id="tool-filter" hidden>'
+        '<label>Category <select id="flt-cat"><option value="">All categories</option>'
+        + ''.join(f'<option value="{esc(c["slug"])}">{esc(c["name"])}</option>' for c in cats)
+        + '</select></label>'
+        '<label>Price model <select id="flt-price"><option value="">All models</option>'
+        + ''.join(f'<option value="{esc(p)}">{esc(p.title())}</option>' for p in _pm_buckets)
+        + '</select></label>'
+        '<label>Licence <select id="flt-licence"><option value="">All</option>'
+        '<option value="open">Open source</option><option value="proprietary">Proprietary</option>'
+        '</select></label><span class="filter-count" id="flt-count" aria-live="polite"></span></div>')
+    body = body.replace("</h1>", "</h1>" + FILTER_BAR, 1)
     out = TOOLS_DIR / "index.html"
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
-        f"Browse {len(active)} curated AI marketing automation tools across 13 categories - open-source and SaaS, with hands-on assessments, pricing notes, and integrations for each.",
+        f"Browse {len(active)} curated AI marketing automation tools across 13 categories - open-source and SaaS, with assessments desk-researched from vendor documentation, with dated pricing notes and integrations. Nobody pays for rankings, and nothing here is a hands-on test.",
         "/tools/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 
@@ -619,6 +638,14 @@ for _sf in ("score-content-a.json", "score-content-b.json"):
         for _srec in json.loads(_sp.read_text())["tools"]:
             _SCORES[_srec["slug"]] = _srec
 
+
+
+def _money(p, t):
+    """M21 honesty: catalog prices carry a currency field (USD/EUR). Never stamp
+    another currency's symbol on a number."""
+    _cur = (t.get("currency") or "USD")
+    _sym = {"USD": "$", "EUR": "\u20ac"}.get(_cur, _cur + " ")
+    return f"{_sym}{p}/mo"
 
 def _score_band(t):
     # Visible score band for scored tools (extractable facts-first opening).
@@ -661,8 +688,8 @@ def _score_band(t):
             "reviewBody": rec["verdict"],
             "itemReviewed": {"@type": "SoftwareApplication", "@id": f"https://martechsignal.com/tools/{t['slug']}/#app", "name": t["name"],
                              "url": "https://martechsignal.com/tools/" + t["slug"] + "/"},
-            "reviewRating": {"@type": "Rating", "ratingValue": rec["score_total"],
-                             "bestRating": 60, "worstRating": 0},
+            "reviewRating": {"@type": "Rating", "ratingValue": round(rec["score_total"] / 12, 1),
+                             "bestRating": 5, "worstRating": 1},
         }
     return band, review
 
@@ -680,20 +707,32 @@ for _e in _j.loads((ROOT / "tools" / "bestx-content.json").read_text()).get("pag
         _BEST_MAP.setdefault(_it["slug"], []).append(_e["slug"])
 
 
+
+_ALT_TARGETS = ['hubspot-crm', 'matomo', 'zapier']
+_ALT_ITEMS = {}
+for _p, _sl in {"twenty": ["hubspot-crm"], "espocrm": ["hubspot-crm"], "suitecrm": ["hubspot-crm"], "pipedrive": ["hubspot-crm"], "frappe-crm": ["hubspot-crm"], "n8n": ["zapier"], "make": ["zapier"], "pipedream": ["zapier"], "tray-io": ["zapier"], "budibase": ["zapier"], "pabbly-connect": ["zapier"], "power-automate": ["zapier"], "ifttt": ["zapier"], "activepieces": ["zapier"], "workato": ["zapier"], "plausible": ["matomo"], "umami": ["matomo"], "posthog": ["matomo"], "snowplow": ["matomo"], "amplitude": ["matomo"]}.items():
+    _ALT_ITEMS[_p] = _sl
+
+
 def _guide_links(t):
     links = []
+    if t["slug"] in _ALT_TARGETS:
+        links.append(f'<a href="/alternatives/{t["slug"]}/">Alternatives to {esc(t["name"])}</a>')
+    for _pg in _ALT_ITEMS.get(t["slug"], []):
+        links.append(f'<a href="/alternatives/{_pg}">{esc(t["name"])} in {_pg.replace("-", " ").title()} alternatives</a>')
     for vs in _VS_MAP.get(t["slug"], []):
         a, b = vs.split("-vs-")
         other = b if a == t["slug"] else a
-        links.append(f'<a href="/vs/{vs}/">{t["name"]} vs {other.replace("-", " ").title()}</a>')
+        links.append(f'<a href="/vs/{vs}">{esc(t["name"])} vs {other.replace("-", " ").title()}</a>')
     for bs in _BEST_MAP.get(t["slug"], []):
-        links.append(f'<a href="/best/{bs}/">{bs.replace("-", " ").title()}</a>')
+        links.append(f'<a href="/best/{bs}">{bs.replace("-", " ").title()}</a>')
     seen, out = set(), []
     for l in links:
         if l not in seen:
             seen.add(l)
             out.append(l)
     return out
+
 
 def _offer_for(t):
 
@@ -919,13 +958,13 @@ def build_tool_page(t, cats, all_tools):
     _terms = _CAT_TERMS.get(t["category"], [])
     glossary_html = ""
     if _terms:
-        _links = " ".join(
-            f'<a href="/glossary/{_term}/">{esc(_glossary_display(_term))}</a>'
+        _links = "".join(
+            f'<li><a href="/glossary/{_term}/">{esc(_glossary_display(_term))}</a></li>'
             for _term in _terms
         )
         glossary_html = (
             '<section class="related-concepts"><h2>Related concepts</h2>'
-            f'<p class="integ-list">{_links}</p>'
+            f'<ul class="integ-list">{_links}</ul>'
             '<p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">'
             'Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>'
         )
@@ -933,8 +972,8 @@ def build_tool_page(t, cats, all_tools):
     # integrations
     integ_html = ""
     if t.get("integrations"):
-        items = "".join(f"<span>{esc(i)}</span>" for i in t["integrations"])
-        integ_html = f'<h2>Key Integrations</h2><div class="integ-list">{items}</div>'
+        items = "".join(f"<li>{esc(i)}</li>" for i in t["integrations"])
+        integ_html = f'<h2>Key Integrations</h2><ul class="integ-list">{items}</ul>'
 
     # Body Pricing section (empty string when the record has too little pricing detail)
     pricing_html = pricing_section_html(t)
@@ -1071,7 +1110,12 @@ def build_tool_page(t, cats, all_tools):
         q2 = f"How much does {name} cost?"
         if t.get("paid_from"):
             # freemium with a known paid entry: quote both sides of the freemium split
-            a2 = f"{name} has a free tier; paid plans start at ${t['paid_from']}/mo."
+            _pn = (t.get("price_notes") or "").strip().rstrip(".")
+            _vd = t.get("date_verified") or t.get("date_updated") or "September 2026"
+            a2 = (f"{name} has a free tier; paid plans start at {_money(t['paid_from'], t)}. "
+                  + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                  + f"We last checked both ends of that split on {_vd}. The pricing section "
+                    "above shows what the free tier actually covers.")
         elif t.get("open_source"):
             # R2 L-1 (2026-09-08): source-available tools (alphone: Elastic 2.0) must not
             # be called open source here - the license sidebar says otherwise.
@@ -1093,21 +1137,38 @@ def build_tool_page(t, cats, all_tools):
             if str(t.get("pricing_model") or "") in ("open-core", "freemium"):
                 _bits.append("a paid hosted tier exists if you would rather not run the servers")
             elif t.get("paid_from"):
-                _bits.append(f"managed hosting starts at ${t['paid_from']}/mo")
+                _bits.append(f"managed hosting starts at {_money(t['paid_from'], t)}")
             if "elastic license" in _rec or "source-available" in _rec:
                 a2 = (f"{name} is source-available rather than open source - "
                       f"{'; '.join(_bits[:3])}. Check the licence terms before commercial use.")
             else:
                 a2 = f"{name} is open source - {'; '.join(_bits[:3])}. You pay in server time and maintenance, not licences."
         elif t.get("price_from") is not None:
+            _pn = (t.get("price_notes") or "").strip().rstrip(".")
+            _vd = t.get("date_verified") or t.get("date_updated") or "September 2026"
             if t.get("price_from"):
-                a2 = f"{name} starts at ${t['price_from']}/mo."
+                a2 = (f"{name} starts at {_money(t['price_from'], t)}"
+                      + (f". {_pn[0].upper() + _pn[1:]}" if _pn else "")
+                      + f". We last checked that price on {_vd}. "
+                      "The pricing section above lists every plan we can verify, "
+                      "including annual-billing differences where the vendor publishes them.")
             elif t.get("pricing_model") in ("freemium", "free", "open-core"):
-                a2 = f"{name} has a free tier. Paid plans unlock higher limits."
+                a2 = (f"{name} has a free tier, so you can run a real evaluation before paying. "
+                      + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                      + f"We last checked the plan structure on {_vd}; paid tiers mainly raise "
+                        "limits rather than unlocking core features.")
             else:
-                a2 = f"{name} is free to use."
+                a2 = (f"{name} is free to use at its published limits. "
+                      + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                      + f"We last checked the terms on {_vd}. If the vendor later adds paid "
+                        "tiers, the pricing section above will show them first.")
         else:
-            a2 = f"{name} uses {price.lower()} pricing. See the vendor's pricing page for current plans."
+            _pn = (t.get("price_notes") or "").strip().rstrip(".")
+            _vd = t.get("date_verified") or t.get("date_updated") or "September 2026"
+            a2 = (f"{name} uses {price.lower()} pricing, so the number depends on your volume "
+                  "and contract. " + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                  + f"Our last verified read of the pricing model was {_vd}; the vendor's "
+                    "pricing page carries the current quote criteria.")
         # MUSE 11: keep acronym category names (CRM, SEO, CDP) uppercase in the question
         # R3-M7 (2026-09-16): lowercase slugs leaked into FAQ text ("a good ai content &
         # copywriting tool") - use the canonical display name, sentence-cased for prose.
@@ -1227,15 +1288,38 @@ def build_tool_page(t, cats, all_tools):
                                  + "".join(ext_lines) + note)
     else:
         external_ratings_html = ""
+    disclosure_html = '<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>'
     score_html, review_schema = _score_band(t)
+    _bits = [f"{esc(pricing_label(t)).lower()} in {esc(c.get('name',''))}"]
+    _ain = len(t.get('ai_features') or [])
+    if t.get('api_available'):
+        _bits.append('a public API')
+    if t.get('open_source'):
+        _bits.append('self-hosting')
+    _caps = ([f"{_ain} AI features"] if _ain else [])
+    if t.get('integrations'):
+        _caps.append(f"{len(t['integrations'])} integrations")
+    if t.get('api_available'):
+        _caps.append('a public API')
+    if t.get('open_source'):
+        _caps.append('a self-hosting path')
+    _cap = (', '.join(_caps[:-1]) + ' and ' + _caps[-1]) if len(_caps) > 1 else (_caps[0] if _caps else '')
+    _vdate = esc(t.get('date_verified') or t.get('date_updated') or '')
+    verdict_html = ('<div class="verdict"><strong>Verdict:</strong> ' + esc(t['name'])
+        + ' is a ' + ', '.join(_bits) + '. '
+        + (f'The catalog documents {_cap}. ' if _cap else '')
+        + f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
+        + '<span class="tag desk">Desk-reviewed</span></div>')
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
-  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''}</p>
+  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} <span class="tag desk">Desk-reviewed</span></p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
 </section>
+{disclosure_html}
+{verdict_html}
 {score_html}
 <div class="detail">
   <div class="detail-main">
@@ -1285,7 +1369,8 @@ def build_tool_page(t, cats, all_tools):
         # A3 M-3 (2026-09-26): the image asset already existed in the category
         # nodes; the tool page's own app node now carries it too.
         "image": f"https://martechsignal.com/og/tools/{t['slug']}.png",
-        "url": t.get("website", ""),
+        "url": f"https://martechsignal.com/tools/{t['slug']}/",
+        "sameAs": ([t["website"]] if t.get("website") else []),
         # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
         "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
         # A2 H4 (2026-09-26): author/publisher REMOVED from the app node - it claimed
@@ -1299,7 +1384,7 @@ def build_tool_page(t, cats, all_tools):
         # the canonical Organization @id (defined on the homepage).
     }
     if t.get("date_updated"):
-        schema["dateModified"] = t["date_updated"]
+        schema["dateModified"] = t.get("date_updated") or t.get("date_added") or schema.get("datePublished", "2026-09-27")
     if t.get("date_added"):
         schema["datePublished"] = t["date_added"]
     # R2 M-12 (2026-09-09): the site's own editorial rating was the one first-party
@@ -1409,7 +1494,7 @@ def build_tool_page(t, cats, all_tools):
 # ── Category pages ─────────────────────────────────────────────────
 
 def tool_card_html(t):
-    tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>'
+    tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span><span class="tag desk">Desk-reviewed</span>'
     if t.get("open_source"):
         tags += '<span class="tag oss">OSS</span>'
     return f"""<a class="tool-card" href="/tools/{t['slug']}/">
@@ -1567,16 +1652,7 @@ def build_category_page(cat, tools):
   {reading}
 </section>
 
-<script>
-(function() {{
-  var els = document.querySelectorAll('.reveal');
-  if (!('IntersectionObserver' in window)) {{ els.forEach(function(e) {{ e.classList.add('in'); }}); return; }}
-  var io = new IntersectionObserver(function(entries) {{
-    entries.forEach(function(en) {{ if (en.isIntersecting) {{ en.target.classList.add('in'); io.unobserve(en.target); }} }});
-  }}, {{ threshold: 0.12 }});
-  els.forEach(function(e) {{ io.observe(e); }});
-}})();
-</script>"""
+"""
 
     # M1/MUSE 12 (model-comparison audit): category pages lacked BreadcrumbList, and
     # ItemList ListItems used name+url instead of the richer item->Thing pattern.
@@ -1874,6 +1950,7 @@ def main():
     n_hubs = sum(1 for c in cats if c.get("hub"))
     print(f"\nDone! {len(active)} tool pages + {len(cats)} categories + {n_hubs} hub")
 
+    sync_date_modified()  # M9: before sitemap so <lastmod> covers every family
     # Sitemap
     build_sitemap(tools, cats)
 
@@ -2071,8 +2148,7 @@ def build_llms_txt(tools, cats):
                     md += [para, ""]
             d = ROOT / "tools" / t["slug"]
             if d.is_dir():
-                (d / "index.md").write_text("\n".join(md))
-                md_n += 1
+                pass  # H10 (2026-09-27): full-parity mirror owned by build_md_mirrors.py
     for c in cats:
         d = ROOT / "categories" / c["slug"]
         if d.is_dir():
@@ -2082,8 +2158,7 @@ def build_llms_txt(tools, cats):
                     c.get("description") or c.get("intro") or "", "",
                     f"- Page: https://martechsignal.com/categories/{c['slug']}/",
                     f"- Tools: {len(members)}", ""] + [f"- {n}" for n in sorted(members)]
-            (d / "index.md").write_text("\n".join(body))
-            md_n += 1
+            pass  # H10: category mirror owned by build_md_mirrors.py
     # A3 M-6 (2026-09-27): /index.md is the HOMEPAGE mirror, generated from the
     # rendered homepage by tools/build_md_mirrors.py. This writer used to copy the
     # llms lines there, so agents requesting the homepage markdown got the whole
@@ -2104,13 +2179,8 @@ def build_llms_txt(tools, cats):
         _d = _re2.search(r'name="description" content="(.*?)"', _html)
         _c = _re2.search(r'rel="canonical" href="(.*?)"', _html)
         _url = _c.group(1) if _c else f"https://martechsignal.com/{_idx.parent.relative_to(ROOT).as_posix().strip('.')}/"
-        (_idx.parent / "index.md").write_text("\n".join([
-            f"# {_t.group(1) if _t else _idx.parent.name}", "",
-            _d.group(1) if _d else "", "",
-            f"- Page: {_url}",
-            "- Format: markdown mirror of the page above", ""]))
-        md_n += 1
-    print(f"A-1 markdown mirror: {md_n} .md files written")
+        pass  # H10: thin stub retired; build_md_mirrors.py writes every mirror
+    print(f"A-1 markdown mirrors: owned by build_md_mirrors.py (H10 full parity); llms.txt + llms-full.txt still written here")
 
 
 
@@ -2130,20 +2200,130 @@ def _audit_double_slash_hrefs():
     return fixed
 
 
-def minify_css():
-    """perf (2026-09-27): ship style.min.css; style.css stays the readable source."""
-    import re as _re
-    src = (ROOT / "style.css").read_text()
-    out = _re.sub(r"/\*.*?\*/", "", src, flags=_re.S)
-    out = _re.sub(r"\s+", " ", out)
-    out = _re.sub(r"\s*([{}:;,>])\s*", r"\1", out)
-    out = out.replace(";}", "}")
-    (ROOT / "style.min.css").write_text(out)
 
+def refresh_homepage_counts():
+    """H4 (2026-09-27): the homepage's tool/scored/oss counts derive from data on
+    every build so the surfaces can never contradict again."""
+    import re as _re
+    _tools = json.loads((ROOT / "tools" / "tools.json").read_text())
+    _act = [x for x in _tools if x.get("status", "active") == "active"]
+    _n, _oss = len(_act), sum(1 for x in _act if x.get("open_source"))
+    _scored = len(_SCORES)
+    _p = ROOT / "index.html"
+    _s = _p.read_text()
+    _s, _c1 = _re.subn(r"(<b>)\d+(</b> martech tools</b> audited)", rf"\g<1>{_n}\g<2>", _s)
+    _s, _c2 = _re.subn(r"(<b>)\d+(</b> carry the full six-pillar score panel)",
+                       rf"\g<1>{_scored}\g<2>", _s)
+    _s, _c3 = _re.subn(r'(Open-Source Tools</div><div class="tagline">)\d+ of \d+ tools',
+                       rf"\g<1>{_oss} of {_n} tools", _s)
+    if _c1 or _c2 or _c3:
+        _p.write_text(_s)
+        print(f"  H4: homepage counts refreshed ({_n} tools, {_scored} scored, {_oss} oss)")
+
+
+
+def minify_css():
+    """M1 (2026-09-27): faithful minify. Comments and whitespace only; rule and
+    brace structure survive (parity asserted) so the bundle cannot drift again."""
+    src = (ROOT / "style.css").read_text()
+    out = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
+    out = re.sub(r"\s+", " ", out)
+    out = re.sub(r" *([{}};]) *", r"\1", out)
+    out = out.replace(";}", "}")
+    _bare = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
+    assert _bare.count("{") == out.count("{") and _bare.count("}") == out.count("}"), \
+        "M1: minify lost rules"
+    (ROOT / "style.min.css").write_text(out.strip())
+    return out.strip()
+
+
+def sync_stylesheet_links():
+    """M1: every HTML file points at the one bundle with the artifact's own hash."""
+    import hashlib as _h
+    _hash = _h.sha256((ROOT / "style.min.css").read_bytes()).hexdigest()[:8]
+    _n = 0
+    for _p in ROOT.rglob("*.html"):
+        if "deploy-out" in _p.parts or ".well-known" in _p.parts:
+            continue
+        _s = _p.read_text()
+        _new, _c = re.subn(r'href="/style(?:\.min)?\.css\?v=[a-f0-9]*"',
+                           f'href="/style.min.css?v={_hash}"', _s)
+        if _c:
+            _p.write_text(_new)
+            _n += _c
+    print(f"M1: {_n} stylesheet links -> style.min.css?v={_hash}")
+
+
+
+def sync_md_alternates():
+    """L16 (2026-09-27): exactly one text/markdown alternate, only when the
+    sibling index.md exists."""
+    _n = 0
+    for _p in ROOT.rglob("index.html"):
+        if "deploy-out" in _p.parts or ".well-known" in _p.parts:
+            continue
+        _s = _p.read_text()
+        _s2 = re.sub(r'\s*<link rel="alternate" type="text/markdown"[^>]*>', "", _s)
+        if (_p.parent / "index.md").exists():
+            _rel = "/" + _p.parent.relative_to(ROOT).as_posix().strip(".") + "/"
+            if _rel == "//":
+                _rel = "/"
+            _link = (f'\n<link rel="alternate" type="text/markdown" '
+                     f'href="{_rel}index.md" title="Markdown mirror">')
+            _s2 = _s2.replace("</head>", _link + "\n</head>", 1)
+        if _s2 != _s:
+            _p.write_text(_s2)
+            _n += 1
+    print(f"L16: {_n} pages normalized to <=1 markdown alternate")
+
+
+
+def sync_date_modified():
+    """M9 (2026-09-27): every page publishes a dateModified so the sitemap keeps
+    <lastmod>. Date source order: the page's own datePublished, the visible <time>,
+    then the file's real git history (the house rule from build_blog R2 M-7). No
+    invented dates: pages with none of the above keep no dateModified."""
+    import re as _re
+    import subprocess as _sp
+    _n = 0
+    for _p in ROOT.rglob("index.html"):
+        if "deploy-out" in _p.parts or ".well-known" in _p.parts:
+            continue
+        _s = _p.read_text()
+        if "dateModified" in _s or "ld+json" not in _s:
+            continue
+        _val = None
+        _m = _re.search(r'"datePublished"\s*:\s*"([^"]+)"', _s)
+        if _m:
+            _val = _m.group(1)
+        if not _val:
+            _m = _re.search(r'<time[^>]*datetime="([^"]+)"', _s)
+            if _m:
+                _val = _m.group(1)[:10]
+        if not _val:
+            try:
+                _rel = _p.relative_to(ROOT).as_posix()
+                _out = _sp.run(["git", "log", "-1", "--format=%cs", "--", _rel],
+                               cwd=ROOT, capture_output=True, text=True, timeout=15).stdout.strip()
+                _val = _out or None
+            except Exception:
+                _val = None
+        if not _val:
+            continue
+        _url = "https://martechsignal.com/" + _p.parent.relative_to(ROOT).as_posix().strip(".") + "/"
+        if _url == "https://martechsignal.com//":
+            _url = "https://martechsignal.com/"
+        _block = ('<script type="application/ld+json">{"@context": "https://schema.org", '
+                  '"@type": "WebPage", "@id": "' + _url + '#webpage", '
+                  '"dateModified": "' + _val + '"}</script>')
+        _p.write_text(_s.replace("</head>", _block + "\n</head>", 1))
+        _n += 1
+    print(f"M9: dateModified published on {_n} pages (sitemap lastmod follows)")
 
 if __name__ == "__main__":
-    _n = _audit_double_slash_hrefs()
-    if _n:
-        print(f'  L2: normalized double-slash hrefs on {_n} pages')
+    sync_date_modified()
+    refresh_homepage_counts()
     minify_css()
     main()
+    sync_stylesheet_links()
+    sync_md_alternates()

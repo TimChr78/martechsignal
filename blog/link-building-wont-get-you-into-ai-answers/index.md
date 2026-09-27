@@ -1,12 +1,18 @@
 # Community Signals Beat Links for AI Answers
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 SEO · AI SEARCH · 8 MIN
 
-Home · Blog · Link Building Won't Get You Into AI Answers. Community Signals Will.
+## Link Building Won&#x27;t Get You Into AI Answers. Community Signals Will.
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Link Building Won't Get You Into AI Answers. Community Signals Will.
 
 AUG 25, 2026 · Updated SEP 26, 2026
 
-Filed under SEO & Search
+Filed under [SEO & Search](/categories/seo/)
 
 Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility actually comes from, and the picture is uncomfortable for an industry that still bills by the backlink.
 
@@ -25,9 +31,9 @@ Milenova's piece makes the complementary point from the link side. Backlinks are
 
 ## The budget is pointed at the wrong bucket
 
-Here is the part that should sting. Digital PR targets publishers. Review campaigns target review platforms. Those are the two smaller buckets in the citation data, and they are where most authority-building budgets go, because marketers know what a plan for them looks like. The largest outside source class in the sample gets the least deliberate investment. Indig's own phrase: most marketing pros are not sure what a plan for it even looks like.
+Here is the part that should sting. Digital PR targets publishers. Review campaigns target review platforms. Those are the two smaller buckets in the citation data, and they are where most [authority-building budgets](/blog/martech-budget-bleeding-nobody-measuring/) go, because marketers know what a plan for them looks like. The largest outside source class in the sample gets the least deliberate investment. Indig's own phrase: most marketing pros are not sure what a plan for it even looks like.
 
-Consider what the prompts tell you about how buyers actually ask. More than half of the SaaS-related prompts in the study used commercial language, but only 1.5% named a vendor brand. Buyers are asking "what should I use for X" long before they ask "is Vendor Y any good." If your off-page strategy only activates when someone searches your name, you arrive after the answer has been assembled.
+Consider what the prompts tell you about how buyers actually ask. More than half of the SaaS-related prompts in the study used commercial language, but only 1.5% named a vendor brand. Buyers are asking "what should I use for X" long before they ask "is Vendor Y any good." If your off-page strategy only activates when someone searches your name, you arrive [after the answer has been assembled](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/).
 
 And the composition of that 17% floor is not what most people assume. Wikipedia, Reddit, and LinkedIn account for 99% of UGC citations in the sample. Wikipedia alone carries 10 to 14 points of the 17-point floor, and it is the one place where deliberate action is least available to you. You do not campaign on Wikipedia. You make sure the trade press, original research, and primary documentation its editors rely on exist and are accurate.
 
@@ -45,31 +51,112 @@ Indig's piece and the volatility data together produce a fairly specific playboo
 
 1. Find which platforms your category feeds. Run your highest-intent prompts in the engines your buyers use and record which UGC domains appear. In some categories it is Reddit and YouTube. In others it is a Discord server, a Stack Exchange site, or one trade forum. The 17% average is a bucket; the composition is local to your topic. 2. Show up as a person, not a logo. A named author with a byline outperforms the same content under a brand account in Indig's third-party signals research, and LinkedIn's own testing pointed the same way. Communities treat a person as a participant and a logo as an advertiser. 3. Answer the questions your support queue already sees. Ticket logs, sales call transcripts, and in-app search hold the exact phrasing buyers use. In a forum, that question is already asked and sitting there unanswered. 4. Correct the record in place. A 2023 thread claiming you lack a feature you shipped last year stays retrievable and keeps feeding answers. Reply in the thread with a dated correction and a link to the change; removal requests rarely land and deleting the thread deletes the context AI reads from. Set alerts on brand plus category terms. F5Bot covers Reddit and Hacker News, Syften covers Discord and Slack. 5. Pull customer language onto your own pages. One of Indig's related studies found 44.2% of citations come from the first 30% of a page. Real third-party review quotes, with links to source, belong near the top of your most-cited pages. 6. Keep link building, and change what you ask for. Milenova's blended model still applies: explicit asks for links to commercial pages, assets that earn links on their own, and PR pitched at the story rather than the link. Given the correlation data, requesting the brand mention even when no link follows is no longer a consolation prize.
 
-One measurement trap before you build a dashboard. Google added platform properties to Search Console on July 7 covering Instagram, TikTok, X, and YouTube. Reddit and LinkedIn, the two platforms doing the most work in the citation data, are not on the list. The feature reports visibility in Google Search and Discover, not AI answers. A team that wires these up and calls the output AI visibility measurement is measuring the wrong surface with real numbers, which is worse than measuring nothing. Track UGC-sourced citations as one number and platform composition as a second, and read our breakdown of why most dashboards cannot see AI search for the measurement layers underneath.
+One measurement trap before you build a dashboard. Google added platform properties to Search Console on July 7 covering Instagram, TikTok, X, and YouTube. Reddit and LinkedIn, the two platforms doing the most work in the citation data, are not on the list. The feature reports visibility in Google Search and Discover, not AI answers. A team that wires these up and calls the output AI visibility measurement is measuring the wrong surface with real numbers, which is worse than measuring nothing. Track UGC-sourced citations as one number and platform composition as a second, and read our breakdown of [why most dashboards cannot see AI search](/blog/dashboard-cant-see-ai-search-5-layer-fix/) for the measurement layers underneath.
 
 What you do not do is buy reviews, astroturf threads, or rent an army of accounts. Indig says it plainly: short-term tactic, long-term brand damage. The strongest community signal is the one you did not write, which means giving customers and power users something worth posting on their own. Early access to data, a free tool, a number they can quote in an argument. That is as close to ownership as this bucket gets.
 
-Links still rank pages on Google, and nothing in either article says otherwise. But the currency for AI answers has shifted from the links you acquire to the community presence you accumulate, and the industry's pricing model has not caught up. Fund community as a standing line item, spread it across platforms like a portfolio, and expect it to take about a year to hold a floor. Budget for the floor, not for a campaign, and check the rest of our SEO coverage as the measurement tooling catches up.
+## Verdict
+
+Links still rank pages on Google, and nothing in either article says otherwise. But the currency for AI answers has shifted from the links you acquire to the community presence you accumulate, and the industry's pricing model has not caught up. Fund community as a standing line item, spread it across platforms like a portfolio, and expect it to take about a year to hold a floor. Budget for the floor, not for a campaign, and check the rest of our [SEO coverage](/categories/seo/) as the measurement tooling catches up.
 
 ## Related reading
 
-- Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook
-- ChatGPT Isn't Search Anymore, It's Checkout
-- Your Dashboard Can't See AI Search , Here's the 5-Layer Fix
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ## Related tools
 
-- Ahrefs - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
-- Superlines - AI Search Intelligence platform for brands and agencies
-- Semrush - All-in-one SEO and digital marketing platform with AI-powered insights and tools
+- [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
+- [Superlines](/tools/superlines/) - AI Search Intelligence platform for brands and agencies
+- [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
 ## Comparison guides
 
-- Best AI SEO tools for AI visibility (2026)
-- NocoDB vs NocoBase (2026): spreadsheet layer or system builder
+- [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
+- [Best GEO &amp;amp; LLM Optimization tools (2026): 8 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
-- AI Visibility
+- [SEO](/glossary/seo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: Pabbly Connect
+More from the directory: [OpenOutreach](/tools/openoutreach/)
+
+**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
+  "description": "Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-08-25",
+  "dateModified": "2026-09-26",
+  "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
+  "image": "https://martechsignal.com/og/link-building-wont-get-you-into-ai-answers.png",
+  "citation": [],
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1551,
+  "articleSection": "seo"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Link Building Won't Get You Into AI Answers. Community Signals Will.",
+      "item": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/"
+    }
+  ]
+}
+```

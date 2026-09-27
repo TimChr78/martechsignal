@@ -37,6 +37,8 @@
 html { scroll-behavior: smooth }
 body { background: var(--bg); color: var(--text); font-family: var(--body); line-height: 1.65; -webkit-font-smoothing: antialiased }
 img.post-figure { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; margin: .5rem 0 }
+.verdict { border: 1px solid var(--line); border-left: 3px solid var(--amber); border-radius: 10px; padding: .85rem 1.05rem; margin: .9rem 0; font-size: .92rem; line-height: 1.55 }
+.tag.desk { background: transparent; color: var(--muted); border: 1px solid var(--line) }
 .page-post body, body.page-post { line-height: 1.7 }
 ::selection { background: var(--amber); color: #141005 }
 a { color: inherit }
@@ -90,7 +92,9 @@ a { color: inherit }
 .mast-right { display: flex; align-items: center; gap: 1.1rem }
 .live { display: inline-flex; align-items: center; gap: .45rem; font: 600 0.8rem var(--mono); letter-spacing: .14em; color: var(--green); border: 1px solid rgba(61,220,151,.35); padding: .32rem .7rem; border-radius: 99px; background: rgba(61,220,151,.07) }
 .live i { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 1.6s ease-in-out infinite }
-@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(61,220,151,.5) } 55% { box-shadow: 0 0 0 6px rgba(61,220,151,0) } }
+.pulse-dot { position: relative }
+.pulse-dot::after { content: ""; position: absolute; inset: -2px; border: 2px solid rgba(61,220,151,.5); border-radius: inherit; animation: pulse 2.2s ease-out infinite; will-change: opacity, transform }
+@keyframes pulse { 0% { opacity: .6; transform: scale(.85) } 55% { opacity: 0; transform: scale(1.5) } 100% { opacity: 0; transform: scale(1.5) } }
 .mast-date { font: 500 0.8rem var(--mono); letter-spacing: .12em; color: var(--muted) }
 @media (max-width: 560px) { .mast-date { display: none } }
 
@@ -108,7 +112,7 @@ footer { border-top: 1px solid var(--line); padding: 2.2rem 0 }
 .foot-links { display: flex; gap: 1.6rem; flex-wrap: wrap; align-items: center }
 .foot-links a { font: 600 0.8rem var(--mono); letter-spacing: .12em; color: var(--muted); text-decoration: none; transition: color .2s }
 .foot-links a:hover { color: var(--amber) }
-.fine { font: 500 0.8rem var(--mono); letter-spacing: .12em; color: #5A6C8F }
+.fine { font: 500 0.8rem var(--mono); letter-spacing: .12em; color: #7A8CB0 }
 
 /* ---------- buttons (shared) ---------- */
 .btn { display: inline-block; background: var(--amber); color: #141005; font: 700 .92rem var(--body); text-decoration: none; padding: .75rem 1.5rem; border-radius: 6px; transition: transform .2s, box-shadow .2s }
@@ -625,3 +629,14 @@ html, body { overflow-x: clip }
   padding: 12px 6px;
   margin: -12px -6px;
 }
+
+ul.integ-list { list-style: none; padding: 0; margin: .5rem 0 }
+ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
+
+.disclosure-strip { font: 500 .78rem var(--mono); letter-spacing: .06em; color: var(--muted); margin: .5rem 0 0 }
+
+.tool-card.is-hidden,.hub-group.is-hidden{display:none}
+.tool-filter{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:1rem 0;padding:.7rem .9rem;border:1px solid var(--rule);border-radius:10px}
+.tool-filter label{display:flex;align-items:center;gap:.4rem;font:600 .8rem var(--mono)}
+.tool-filter select{font:500 .85rem inherit;padding:.3rem .5rem;border:1px solid var(--rule);border-radius:8px;background:transparent}
+.filter-count{margin-left:auto;font:400 .8rem var(--mono)}

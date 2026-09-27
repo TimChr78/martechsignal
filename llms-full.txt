@@ -209,13 +209,13 @@
 
 ## Analysis
 
+- [Claude SEO benchmark: the living score tracker](https://martechsignal.com/blog/claude-seo-benchmark/) (2026-09-27)
 - [Open-source martech momentum: the agent-skills layer wins](https://martechsignal.com/blog/oss-momentum-tracker-september-2026/) (2026-09-26)
 - [What LLM watermarking means for marketing automation](https://martechsignal.com/blog/watermark-provenance-tax-agents/) (2026-09-25)
 - [AI ad account guardrails Google won't ship](https://martechsignal.com/blog/google-ads-ai-guardrails/) (2026-09-24)
 - [Agent protocol vs data plumbing: what actually fails](https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/) (2026-09-23)
 - [AI visibility advice, audited against 775 logged citations](https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/) (2026-09-22)
 - [Salesforce's third no-code promise, audited](https://martechsignal.com/blog/salesforce-third-no-code-promise/) (2026-09-21)
-- [Five Claude SEO Scores, Four Graders: None Compare](https://martechsignal.com/blog/claude-seo-v231-four-graders/) (2026-09-18)
 - [Claude SEO vs Seonaut: which free SEO checker wins](https://martechsignal.com/blog/claude-seo-vs-seonaut/) (2026-09-17)
 - [Claude SEO vs Semrush: What It Replaces and What Not](https://martechsignal.com/blog/claude-seo-vs-semrush/) (2026-09-16)
 - [Claude SEO vs Codex SEO: same audit, pick your agent](https://martechsignal.com/blog/claude-seo-vs-codex-seo/) (2026-09-15)
@@ -229,11 +229,9 @@
 - [The CDP Reckoning: Your Next CDP Is a Warehouse](https://martechsignal.com/blog/cdp-reckoning-warehouse-native/) (2026-09-02)
 - [ChatGPT Isn't Search Anymore, It's Checkout](https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/) (2026-09-01)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/) (2026-08-31)
-- [Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.](https://martechsignal.com/blog/claude-seo-v225-rescore-61-vs-92/) (2026-08-28)
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) (2026-08-27)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/) (2026-08-26)
 - [Community Signals Beat Links for AI Answers](https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/) (2026-08-25)
-- [Claude SEO on My Own Site: What Our Pipeline Missed](https://martechsignal.com/blog/claude-seo-teardown-martechsignal/) (2026-08-24)
 - [Your Dashboard Can't See AI Search: 5-Layer Fix](https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/) (2026-08-22)
 - [Deliverability in the AI-Spam Era Is a Content Problem](https://martechsignal.com/blog/deliverability-ai-spam-content-problem/) (2026-08-21)
 - [Fivetran Proved You Don't Need a New Data Stack](https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/) (2026-08-20)
@@ -303,12 +301,29 @@
 
 ## Guides and comparisons
 
+- [Best Agent Skills tools (2026): 8 compared](https://martechsignal.com/best/agent-skills-tools/)
+- [Best Advertising &amp; Paid Media tools (2026): 8 compared](https://martechsignal.com/best/ai-advertising-tools/)
+- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/)
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](https://martechsignal.com/best/ai-content-copywriting-tools/)
+- [Best CRM tools (2026): 8 compared](https://martechsignal.com/best/ai-crm-tools/)
+- [Best Email Marketing tools (2026): 8 compared](https://martechsignal.com/best/ai-email-marketing-tools/)
+- [Best Marketing Automation tools (2026): 8 compared](https://martechsignal.com/best/ai-marketing-automation-tools/)
+- [Best Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/)
 - [Best AI SEO tools for AI visibility (2026)](https://martechsignal.com/best/ai-seo-tools/)
+- [Best Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/)
+- [Best GEO &amp; LLM Optimization tools (2026): 8 compared](https://martechsignal.com/best/geo-llm-visibility-tools/)
+- [Best Analytics &amp; Attribution tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/)
 - [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/)
+- [Best Open-Source Tools tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/)
 - [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/)
+- [ActiveCampaign vs Klaviyo (2026): pricing and AI](https://martechsignal.com/vs/activecampaign-vs-klaviyo/)
+- [Claude SEO vs Semrush (2026): pricing and AI](https://martechsignal.com/vs/claude-seo-vs-semrush/)
+- [Jasper vs Writer (2026): pricing and AI](https://martechsignal.com/vs/jasper-vs-writer/)
+- [Make vs Zapier (2026): pricing and AI](https://martechsignal.com/vs/make-vs-zapier/)
 - [Matomo vs Plausible (2026): depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/)
 - [n8n vs Zapier (2026): self-host or catalog](https://martechsignal.com/vs/n8n-vs-zapier/)
 - [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
+- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing and AI](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/)
 - [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
 - [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
 - [Zapier Alternatives: 10 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
@@ -1023,7 +1038,7 @@ The honest caveat is the platform gravity. Flows, connections, and custom connec
 
 [n8n](https://martechsignal.com/tools/n8n/) , Open Source. Open source.
 Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.
-The platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 198,000 GitHub stars (203,890 at last verification), is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.
+The platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,000 GitHub stars (203,890 at last verification), is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.
 Compared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at $20 per month on Starter and $50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.
 
 [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/) , Open Source. Open source.

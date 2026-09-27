@@ -176,6 +176,726 @@
       ],
       "date_published": "2026-09-26",
       "date_updated": "2026-09-26"
+    },
+    {
+      "slug": "ai-marketing-automation-tools",
+      "title": "Best Marketing Automation tools (2026): 8 compared",
+      "seo_title": "Best Marketing Automation tools (2026): 8 compared",
+      "meta": "8 marketing automation tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The marketing automation list below holds 8 tools out of 12 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "nocodb",
+          "verdict": "Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "ortto",
+          "verdict": "Best for marketing automation teams that want ai subject line recommendations and ai content generation suggestions, starting at $199/mo.",
+          "assessment": "Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. paid pricing starts at $199/mo, and starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "salesforce-marketing-cloud",
+          "verdict": "Best for marketing automation teams that want agentforce campaign creation and agentforce personalization decisioning, starting at $1500/mo.",
+          "assessment": "Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06). The catalog documents 5 AI features, 9 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "activecampaign",
+          "verdict": "Best for marketing automation teams that want ai content generation and predictive sending, starting at $15/mo.",
+          "assessment": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. paid pricing starts at $15/mo, and starter $15/mo, Plus $49/mo, Professional €79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "adobe-marketo",
+          "verdict": "Best for marketing automation teams that want ai lead scoring and predictive audiences, starting at $895/mo.",
+          "assessment": "Adobe Marketo Engage is the leading B2B marketing automation platform for enterprises running complex, long-cycle demand generation programs. enterprise pricing starts at $895/mo, and custom pricing; Select/Prime/Ultimate tiers; annual contracts required (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "bloomreach",
+          "verdict": "Best for marketing automation teams that want loomi ai search and ai product recommendations, with pricing quoted per contract.",
+          "assessment": "Bloomreach is an AI-first digital experience platform built for ecommerce and retail companies that need personalization at scale. Pricing is enterprise and quoted per contract, and custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "braze",
+          "verdict": "Best for marketing automation teams that want brazeai intelligent timing and ai channel optimization, with pricing quoted per contract.",
+          "assessment": "Braze is a cross-channel customer engagement platform built for enterprises that treat customer communication as a strategic advantage rather than a cost center. Pricing is enterprise and quoted per contract, and custom pricing based on MAUs and message volume; enterprise contracts typical (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "hubspot-marketing-hub",
+          "verdict": "Best for marketing automation teams that want ai content assistant and predictive lead scoring, with a free starting tier.",
+          "assessment": "Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-email-marketing-tools",
+      "title": "Best Email Marketing tools (2026): 8 compared",
+      "seo_title": "Best Email Marketing tools (2026): 8 compared",
+      "meta": "8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The email marketing list below holds 8 tools out of 15 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "openoutreach",
+          "verdict": "Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.",
+          "assessment": "OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.",
+          "skip_if": "you need a  or pu"
+        },
+        {
+          "slug": "react-email-editor",
+          "verdict": "Best for email marketing teams that want ai assistant chat editing and ai image generation and can host it themselves, with a free starting tier.",
+          "assessment": "React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.",
+          "skip_if": "you need a  or pu"
+        },
+        {
+          "slug": "sendgrid",
+          "verdict": "Best for email marketing teams that want ai deliverability optimization and ai engagement insights, with a free starting tier.",
+          "assessment": "Twilio SendGrid is one of the largest email delivery platforms in the world, processing tens of billions of emails per month for customers including Uber, Spotify, and Yelp. It starts free, and free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom (verified 2026-08-28). The catalog documents 4 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "customer-io",
+          "verdict": "Best for email marketing teams that want ai segment builder and send-time optimization, starting at $100/mo.",
+          "assessment": "Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. paid pricing starts at $100/mo, and essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats (verified 2026-09-06). The catalog documents 6 AI features, 11 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "notifuse",
+          "verdict": "Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Notifuse is a self-hosted email platform for newsletters, marketing campaigns, and transactional email. It starts free, and self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "klaviyo",
+          "verdict": "Best for email marketing teams that want ai subject line assistant and predictive analytics, with a free starting tier.",
+          "assessment": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "mailchimp",
+          "verdict": "Best for email marketing teams that want ai content optimizer and ai subject line helper, with a free starting tier.",
+          "assessment": "Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. It starts free, and free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "warmbly",
+          "verdict": "Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.",
+          "assessment": "Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It starts free, and free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter €29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20% (verified 2026-09-24). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-crm-tools",
+      "title": "Best CRM tools (2026): 8 compared",
+      "seo_title": "Best CRM tools (2026): 8 compared",
+      "meta": "8 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The crm list below holds 8 tools out of 23 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "dolibarr",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Dolibarr ERP/CRM is a French open-source business suite that manages contacts, quotes, invoices, orders, stock, agenda, HR, and accounting in one PHP application, usable standalone or over the web. It starts free, and free to self-host under GPL-3+ with no user limits. Commercial ready-to-run cloud offerings are listed at saas.dolibarr.org; paid third-party addons are sold on Dolistore (verified 2026-09-06). The catalog documents 4 AI features, 9 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "hubspot-crm",
+          "verdict": "Best for CRM teams that want ai email writer and predictive lead scoring, with a free starting tier.",
+          "assessment": "Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It starts free, and free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "twenty",
+          "verdict": "Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier.",
+          "assessment": "Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "cordys-crm",
+          "verdict": "Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier.",
+          "assessment": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It starts free, and community edition free and self-hosted (GPLv3-based license, API capped at 1,000 calls/day). Enterprise edition: annual subscription published at ¥30,000 / ¥60,000 / ¥120,000 per year by company revenue, no per-seat fees, flagship adds hot-standby HA. DataEase embedding requires a DataEase commercial edition (verified 2026-09-07). The catalog documents 5 AI features, 4 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "django-crm",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built on Django REST Framework with a Svelte 5 and SvelteKit frontend and a Flutter app for iOS and Android, all sharing one backend and one documented REST API. It starts free, and free open-source self-hosting under MIT with no user caps or feature paywall; Bottle CRM sells managed hosting, with vertical packs and demo data layered on the open core (verified 2026-09-06). The catalog documents 5 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu or do"
+        },
+        {
+          "slug": "frappe-crm",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. It starts free, and free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud (verified 2026-09-06). The catalog documents 5 integrations and a self-hosting path.",
+          "skip_if": "you need a  or pu"
+        },
+        {
+          "slug": "alphone",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. It starts free, and free to self-host. Split license: backend under Elastic License 2.0 (source-available, not OSI open source), check terms for commercial use (verified 2026-09-06). The catalog documents a public API and a self-hosting path.",
+          "skip_if": "you need pu or do"
+        },
+        {
+          "slug": "monica",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Monica is an open-source personal relationship manager, the project's own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. It starts free, and self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier (verified 2026-09-07). The catalog documents a public API and a self-hosting path.",
+          "skip_if": "you need pu or do"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-content-copywriting-tools",
+      "title": "Best AI Content & Copywriting tools (2026): 8 compared",
+      "seo_title": "Best AI Content & Copywriting tools (2026): 8 compared",
+      "meta": "8 ai content & copywriting tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The ai content & copywriting list below holds 8 tools out of 13 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "writer",
+          "verdict": "Best for AI content & copywriting teams that want ai content generation and knowledge graph grounding, with pricing quoted per contract.",
+          "assessment": "Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 12 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "persado",
+          "verdict": "Best for AI content & copywriting teams that want persado dynamic email and persado marketing compliance ai, with pricing quoted per contract.",
+          "assessment": "Persado is an AI content platform for regulated marketing, and its 2026 site leads with new framing: the agentic creative agency for regulated brands, aimed squarely at financial services. Pricing is enterprise and quoted per contract, and enterprise custom pricing; focused on regulated industries (finserv, retail, travel) (verified 2026-09-07). The catalog documents 5 AI features, 10 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "phrasee",
+          "verdict": "Best for AI content & copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.",
+          "assessment": "Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. Pricing is enterprise and quoted per contract, and enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation (verified 2026-09-07). The catalog documents 4 AI features and 12 integrations.",
+          "skip_if": "you need to or a "
+        },
+        {
+          "slug": "jasper",
+          "verdict": "Best for AI content & copywriting teams that want ai copy generation and brand voice training, starting at $49/mo.",
+          "assessment": "Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "anyword",
+          "verdict": "Best for AI content & copywriting teams that want predictive performance score and ai copy generation, starting at $39/mo.",
+          "assessment": "Anyword is an AI copywriting platform built around a single, measurable proposition: predict how well your copy will perform before you send it. paid pricing starts at $39/mo, and starter $39/mo (annual) or $49/mo; Data-Driven €79/mo (annual) or €99/mo; 7-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "copy-ai",
+          "verdict": "Best for AI content & copywriting teams that want ai copy generation and ai workflow automation, with a free starting tier.",
+          "assessment": "Copy.ai started in 2020 as an AI copywriting tool but has undergone one of the sharper strategic pivots in the AI marketing space, repositioning as a GTM AI platform that orchestrates sales and marketing workflows rather than just generating text. It starts free, and free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "hypotenuse-ai",
+          "verdict": "Best for AI content & copywriting teams that want ai article generation and ai product descriptions, starting at $56/mo.",
+          "assessment": "Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built specifically for ecommerce brands managing large product catalogs. paid pricing starts at $56/mo, and essential $56/mo (annual) or $87/mo; custom enterprise plans available (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "strapi",
+          "verdict": "Best for AI content & copywriting teams that want ai content generation and ai content workflows and can host it themselves, with a free starting tier.",
+          "assessment": "Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. It starts free, and self-hosted free (MIT); Cloud Developer free; Pro €99/mo; Team $499/mo; Enterprise custom (verified 2026-08-28). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "marketing-analytics-tools",
+      "title": "Best Analytics & Attribution tools (2026): 8 compared",
+      "seo_title": "Best Analytics & Attribution tools (2026): 8 compared",
+      "meta": "8 analytics & attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The analytics & attribution list below holds 8 tools out of 11 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "amplitude",
+          "verdict": "Best for analytics & attribution teams that want ai root cause analysis and predictive analytics, with a free starting tier.",
+          "assessment": "Amplitude is a digital analytics platform built on events: each action a user takes in a product becomes an event with properties, so teams can read funnels, retention, and feature adoption without writing SQL. It starts free, and free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "matomo",
+          "verdict": "Best for analytics & attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier.",
+          "assessment": "Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "umami",
+          "verdict": "Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,600 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu or do"
+        },
+        {
+          "slug": "mixpanel",
+          "verdict": "Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.",
+          "assessment": "Mixpanel is a product analytics platform built on an event-based data model: every user action is a discrete event with properties, which is what makes funnels, retention curves, and behavioral cohorts fast to query without SQL. It starts free, and free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth (verified 2026-09-06). The catalog documents 5 AI features, 10 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "triple-whale",
+          "verdict": "Best for analytics & attribution teams that want ai attribution modeling and ai anomaly detection, starting at $59/mo.",
+          "assessment": "Triple Whale is an AI-powered ecommerce analytics and attribution platform built for Shopify merchants. paid pricing starts at $59/mo, and conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "heap",
+          "verdict": "Best for analytics & attribution teams that want ai autocapture and ai session replay analysis, with a free starting tier.",
+          "assessment": "Heap is a digital insights platform that takes a fundamentally different approach to analytics. It starts free, and free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "northbeam",
+          "verdict": "Best for analytics & attribution teams that want ai multi-touch attribution and ai creative analytics, with pricing quoted per contract.",
+          "assessment": "Northbeam is a marketing intelligence and attribution platform built specifically for ecommerce and direct-to-consumer (DTC) brands. Pricing is enterprise and quoted per contract, and custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "snowplow",
+          "verdict": "Best for analytics & attribution teams that want intent detection and can host it themselves, with a free starting tier.",
+          "assessment": "Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. It starts free, and the open-source pipeline is free to self-host. Snowplow BDP Cloud is quoted by sales (verified Sep 2026) (verified 2026-09-25). The catalog documents 3 AI features, 9 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-social-media-tools",
+      "title": "Best Social Media tools (2026): 6 compared",
+      "seo_title": "Best Social Media tools (2026): 6 compared",
+      "meta": "6 social media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The social media list below holds 6 tools out of 6 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "hootsuite",
+          "verdict": "Best for social media teams that want ai caption generation and ai best-time-to-post, starting at €99/mo.",
+          "assessment": "Hootsuite is one of the oldest social media management platforms, and it has grown from a simple multi-account scheduler into a full social media management suite. paid pricing starts at €99/mo, and standard €99/mo; Professional $149/mo (annual €99/mo); Team and Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "sprout-social",
+          "verdict": "Best for social media teams that want ai assist for replies and ai social listening, starting at $249/mo.",
+          "assessment": "Sprout Social is a premium social media management platform that positions itself as the tool for brands that treat social media as a customer care and intelligence channel, not just a broadcasting platform. paid pricing starts at $249/mo, and standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "brandwatch",
+          "verdict": "Best for social media teams that want ai sentiment analysis and ai image recognition, with pricing quoted per contract.",
+          "assessment": "Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Pricing is enterprise and quoted per contract, and custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "predis-ai",
+          "verdict": "Best for social media teams that want ai post generation and ai video ads, with a free starting tier.",
+          "assessment": "Predis.ai is an AI-first social media content creation platform. It starts free, and free plan available; Core $19/mo; Pro and Agency tiers; annual discounts (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "buffer",
+          "verdict": "Best for social media teams that want ai assistant for posts and ai hashtag generator, with a free starting tier.",
+          "assessment": "Buffer is a social media management platform known for simplicity and accessibility. It starts free, and free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial (verified 2026-08-28). The catalog documents 4 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "multipost-extension",
+          "verdict": "Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.",
+          "assessment": "MultiPost (multipost.social) is a social media scheduling and automation tool focused on simplicity, reliability, and affordability. It starts free, and free open-source browser extension (verified 2026-08-28). The catalog documents 2 AI features, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-advertising-tools",
+      "title": "Best Advertising & Paid Media tools (2026): 8 compared",
+      "seo_title": "Best Advertising & Paid Media tools (2026): 8 compared",
+      "meta": "8 advertising & paid media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The advertising & paid media list below holds 8 tools out of 9 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "revealbot",
+          "verdict": "Best for advertising & paid media teams that want bïrch ai workflow layer and automated rules and strategies, starting at $49/mo.",
+          "assessment": "Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion worth knowing before you compare it to anything. paid pricing starts at $49/mo, and essential $49/mo, Pro €99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events (verified 2026-09-07). The catalog documents 4 AI features, 12 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "pencil",
+          "verdict": "Best for advertising & paid media teams that want gwi-powered insights agent, starting at $14/mo.",
+          "assessment": "Pencil is a generative-AI creative platform that has grown from ad generation into what it now calls the AI operating system for marketing, operating under Pencil AI Limited with Brandtech Group branding still across the site. paid pricing starts at $14/mo, and core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats (verified 2026-09-06). The catalog documents 5 AI features and 11 integrations.",
+          "skip_if": "you need to or a "
+        },
+        {
+          "slug": "smartly-io",
+          "verdict": "Best for advertising & paid media teams that want smartly brand pulse measurement and creative predictive potential, with pricing quoted per contract.",
+          "assessment": "Smartly.io, now branded simply Smartly, is an AI advertising platform that puts creative production, media buying, and measurement in one system for large advertisers. Pricing is enterprise and quoted per contract, and not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo (verified 2026-09-06). The catalog documents 5 AI features, 10 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "adcreative-ai",
+          "verdict": "Best for advertising & paid media teams that want ai ad creative generation and ai performance scoring, starting at $39/mo.",
+          "assessment": "AdCreative.ai is an AI ad creative generation platform that produces converting ad creatives (images, videos, and copy) at scale. paid pricing starts at $39/mo, and starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "albert-ai",
+          "verdict": "Best for advertising & paid media teams that want autonomous campaign management and ai budget allocation, with pricing quoted per contract.",
+          "assessment": "Albert AI is an autonomous digital advertising platform that markets itself as \"self-driving\" for paid media. Pricing is enterprise and quoted per contract, and enterprise custom pricing; percentage of ad spend model; demo required (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "madgicx",
+          "verdict": "Best for advertising & paid media teams that want the job covered in one platform, starting at $49/mo.",
+          "assessment": "Madgicx is an all-in-one Meta ads platform - the vendor calls it an Ecom Ad Cloud - combining optimization, AI-generated ad creative, and marketing attribution in one subscription. paid pricing starts at $49/mo, and entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from <$1K to $30K+. Free trial ($0) available (verified 2026-09-07). The catalog documents 5 AI features and 4 integrations.",
+          "skip_if": "you need to or a "
+        },
+        {
+          "slug": "advertools",
+          "verdict": "Best for advertising & paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "advertools is a Python package by Elias Dabbas for online marketing analysis. It starts free, and free MIT-licensed Python package (verified 2026-09-25). The catalog documents 1 AI features, 5 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "opteo",
+          "verdict": "Best for advertising & paid media teams that want the job covered in one platform, starting at $129/mo.",
+          "assessment": "Opteo is a Google Ads monitoring and improvement layer that sits on top of your existing account. paid pricing starts at $129/mo, and basic $129/mo (10 accounts, $25,000 spend/mo, live chat, 24hr refresh); Professional $249/mo (25 accounts, $100,000 spend/mo, priority support, 12hr refresh). Enterprise by quote. 14-day free trial (verified 2026-09-07). The catalog documents 3 AI features and 2 integrations.",
+          "skip_if": "you need to or a "
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-personalization-tools",
+      "title": "Best Personalization & CDP tools (2026): 8 compared",
+      "seo_title": "Best Personalization & CDP tools (2026): 8 compared",
+      "meta": "8 personalization & cdp tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The personalization & cdp list below holds 8 tools out of 9 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "dynamic-yield",
+          "verdict": "Best for personalization & CDP teams that want shopping muse conversational commerce and predictive targeting, with pricing quoted per contract.",
+          "assessment": "Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Pricing is enterprise and quoted per contract, and no published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts (verified 2026-09-06). The catalog documents 7 AI features, 10 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "segment",
+          "verdict": "Best for personalization & CDP teams that want predictive audiences and predictive traits, with a free starting tier.",
+          "assessment": "Twilio Segment is a developer-first customer data platform: SDKs and server libraries send events to one API, and Segment routes them to analytics tools, ad platforms, and warehouses. It starts free, and free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026 (verified 2026-09-06). The catalog documents 6 AI features, 10 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "nosto",
+          "verdict": "Best for personalization & CDP teams that want predictive product recommendations and visual ai product tagging, with pricing quoted per contract.",
+          "assessment": "Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store's volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "clerk-io",
+          "verdict": "Best for personalization & CDP teams that want ai product recommendations and ai site search, starting at €119/mo.",
+          "assessment": "Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "tealium",
+          "verdict": "Best for personalization & CDP teams that want ai audience segmentation and ai data enrichment, with pricing quoted per contract.",
+          "assessment": "Tealium is an independent enterprise Customer Data Platform (CDP) built around the Tealium Customer Data Hub, a suite of integrated products covering tag management, real-time data collection, audience building, and API-driven data access. Pricing is enterprise and quoted per contract, and enterprise custom pricing; annual contracts; tag management and CDP modules (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "flagsmith",
+          "verdict": "Best for personalization & CDP teams that want automated flag hygiene and ai-assisted change-request workflows and can host it themselves, with a free starting tier.",
+          "assessment": "Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,570 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "growthbook",
+          "verdict": "Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "jitsu",
+          "verdict": "Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "ai-chatbot-tools",
+      "title": "Best Chatbots & Conversational AI tools (2026): 6 compared",
+      "seo_title": "Best Chatbots & Conversational AI tools (2026): 6 compared",
+      "meta": "6 chatbots & conversational ai tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The chatbots & conversational ai list below holds 6 tools out of 6 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "intercom",
+          "verdict": "Best for chatbots & conversational AI teams that want fin ai agent and ai copilot for agents, starting at €29/mo.",
+          "assessment": "Intercom is an AI-first customer service platform built around Fin AI Agent, its proprietary AI that resolves customer questions, triages complex issues, and proactively engages users. paid pricing starts at €29/mo, and essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "chatwoot",
+          "verdict": "Best for chatbots & conversational AI teams that want ai reply suggestions and ai conversation summarization and can host it themselves, with a free starting tier.",
+          "assessment": "Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. It starts free, and community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "tidio",
+          "verdict": "Best for chatbots & conversational AI teams that want lyro ai agent and ai chatbot builder, with a free starting tier.",
+          "assessment": "Tidio is an all-in-one customer service platform designed for growing businesses, combining live chat, an AI chatbot (Lyro), and a shared inbox in a single interface. It starts free, and free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "chatfuel",
+          "verdict": "Best for chatbots & conversational AI teams that want ai chatbot builder and ai auto-replies, starting at $39/mo.",
+          "assessment": "Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. paid pricing starts at $39/mo, and starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "manychat",
+          "verdict": "Best for chatbots & conversational AI teams that want ai flow builder and ai keyword triggers, with a free starting tier.",
+          "assessment": "ManyChat is the dominant chat marketing platform for social-first businesses, specializing in automating conversations on Instagram Direct Messages, Facebook Messenger, WhatsApp, and SMS. It starts free, and free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "chatbotx",
+          "verdict": "Best for chatbots & conversational AI teams that want agentic ai chat marketing and ai-powered omnichannel messaging and can host it themselves, with a free starting tier.",
+          "assessment": "Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven chat marketing and automation across multiple messaging channels. It starts free, and free open-source; self-hosted (verified 2026-08-28). The catalog documents 3 AI features, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "geo-llm-visibility-tools",
+      "title": "Best GEO & LLM Optimization tools (2026): 8 compared",
+      "seo_title": "Best GEO & LLM Optimization tools (2026): 8 compared",
+      "meta": "8 geo & llm optimization tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The geo & llm optimization list below holds 8 tools out of 14 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "nimt-ai",
+          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
+          "assessment": "Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. usage pricing starts at €79/mo, and eUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "otterlyai",
+          "verdict": "Best for GEO & LLM optimization teams that want ai prompt research tool and geo audits with recommendations, starting at €29/mo.",
+          "assessment": "OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. paid pricing starts at €29/mo, and lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026 (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "trakkr",
+          "verdict": "Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.",
+          "assessment": "Trakkr is a London-made AI visibility platform for brands and agencies. paid pricing starts at $100/mo, and growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "writesonic",
+          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
+          "assessment": "Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. paid pricing starts at €79/mo, and starter €79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "profound",
+          "verdict": "Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract.",
+          "assessment": "Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. Pricing is enterprise and quoted per contract, and quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
+          "skip_if": "you need to or pu"
+        },
+        {
+          "slug": "rankscale",
+          "verdict": "Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.",
+          "assessment": "Rankscale is a Vienna-built AI visibility platform for agencies and enterprise teams. paid pricing starts at €99/mo, and pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026 (verified 2026-09-25). The catalog documents 5 AI features, 5 integrations, and a public API.",
+          "skip_if": "you need to"
+        },
+        {
+          "slug": "adobe-llm-optimizer",
+          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, with pricing quoted per contract.",
+          "assessment": "Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. Pricing is enterprise and quoted per contract, and quote-based within Adobe Experience Cloud (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 6 integrations.",
+          "skip_if": "you need to or a "
+        },
+        {
+          "slug": "evertune",
+          "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at $800/mo.",
+          "assessment": "Evertune is a marketing platform for brand discovery in AI search. paid pricing starts at $800/mo, and pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 5 integrations.",
+          "skip_if": "you need to or a "
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "open-source-marketing-tools",
+      "title": "Best Open-Source Tools tools (2026): 8 compared",
+      "seo_title": "Best Open-Source Tools tools (2026): 8 compared",
+      "meta": "8 open-source tools tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The open-source tools list below holds 8 tools out of 80 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "dolibarr",
+          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Dolibarr ERP/CRM is a French open-source business suite that manages contacts, quotes, invoices, orders, stock, agenda, HR, and accounting in one PHP application, usable standalone or over the web. It starts free, and free to self-host under GPL-3+ with no user limits. Commercial ready-to-run cloud offerings are listed at saas.dolibarr.org; paid third-party addons are sold on Dolistore (verified 2026-09-06). The catalog documents 4 AI features, 9 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "n8n",
+          "verdict": "Best for workflow automation teams that want ai agent nodes and ai workflow automation and can host it themselves, with a free starting tier.",
+          "assessment": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. It starts free, and self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "openoutreach",
+          "verdict": "Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.",
+          "assessment": "OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.",
+          "skip_if": "you need a  or pu"
+        },
+        {
+          "slug": "matomo",
+          "verdict": "Best for analytics & attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier.",
+          "assessment": "Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "nocodb",
+          "verdict": "Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "react-email-editor",
+          "verdict": "Best for email marketing teams that want ai assistant chat editing and ai image generation and can host it themselves, with a free starting tier.",
+          "assessment": "React Email Editor is Unlayer's official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.",
+          "skip_if": "you need a  or pu"
+        },
+        {
+          "slug": "twenty",
+          "verdict": "Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier.",
+          "assessment": "Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "claude-seo",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "agent-skills-tools",
+      "title": "Best Agent Skills tools (2026): 8 compared",
+      "seo_title": "Best Agent Skills tools (2026): 8 compared",
+      "meta": "8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
+      "intro": [
+        "The agent skills list below holds 8 tools out of 18 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
+        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+      ],
+      "items": [
+        {
+          "slug": "claude-seo",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "claude-ads",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Claude Ads is a paid-media operations skill that runs inside Claude Code. It starts free, and free, MIT-licensed. Runs inside Claude Code. API costs for Claude apply (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "google-meta-ads-ga4-mcp",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. It starts free, and mIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans) (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "digital-marketing-pro",
+          "verdict": "Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.",
+          "assessment": "Digital Marketing Pro is the heaviest skill pack in this category: 158 skills, 24 specialist agents, 18 commands, and 86 scripts. It starts free, and free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "email-marketing-bible",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It starts free, and free and open source. Works with Claude Code, Claude Desktop, and MCP-compatible agents (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "zapier-gtm-cheat-codes",
+          "verdict": "Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
+          "assessment": "GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "eve-marketing-team",
+          "verdict": "Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.",
+          "assessment": "Eve Marketing Team Template is Vercel's starter for running a five-person marketing team as software. It starts free, and free, MIT-licensed. Runs on eve (eve.dev); deploys to Vercel. You pay only for the AI model + SaaS connectors (Notion, Resend, Typefully) (verified 2026-08-31). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        },
+        {
+          "slug": "openclaw-marketing-skills",
+          "verdict": "Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.",
+          "assessment": "OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. It starts free, and free, MIT-licensed. Runs on OpenClaw agents. Cloud hosting available via MyClaw.ai (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.",
+          "skip_if": "you need pu"
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
     }
   ]
 }

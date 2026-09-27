@@ -1,5 +1,27 @@
 # Customer Journey Mapping
 
+Amplitude
+
+AI-powered digital analytics platform for product and marketing teams
+
+Mixpanel
+
+Product analytics platform with AI-powered insights for user behavior tracking
+
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Customer Journey Mapping
+
+GLOSSARY
+
+## Definition
+
 A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.
 
 ## Why it matters
@@ -30,6 +52,60 @@ AI agents make journey orchestration practical at scale, sending the right messa
 
 ## Related terms
 
-CDP · CRM · DMP · MQL / SQL · ABM
+[CDP](/glossary/cdp/) · [CRM](/glossary/crm/) · [DMP](/glossary/dmp/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/)
 
-Analytics &amp; Attribution CRM
+### Categories
+
+[Analytics &amp; Attribution](/categories/analytics/) [CRM](/categories/crm/)
+
+## See also
+
+- [CDP](/glossary/cdp/)
+- [CRM](/glossary/crm/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Customer Journey Mapping",
+    "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/customer-journey/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Customer journey",
+        "item": "https://martechsignal.com/glossary/customer-journey/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/#webpage", "dateModified": "2026-09-27"}
+```

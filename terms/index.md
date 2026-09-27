@@ -1,6 +1,12 @@
 # Terms of Use
 
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Terms of Use
+
 Read the site for free, use your judgment on decisions, and don't scrape it destructively or republish it as your own work.
+
+## The reviews
 
 Every review reflects research done at the time marked on the page ("Last verified"). Software pricing and features change faster than any reviewer can re-check every page weekly, so verify pricing on the vendor's site before buying anything. The reviews are editorial assessments, not guarantees of product performance.
 
@@ -21,3 +27,14 @@ Product names mentioned in reviews belong to their respective owners. Their use 
 This policy may change as the site evolves. The "Last verified" date below marks the current version.
 
 Last verified: 2026-08-26
+
+&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "name": "Terms of Use | MartechSignal", "url": "https://martechsignal.com/terms/", "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}}
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/terms/#webpage", "dateModified": "2026-08-26"}
+```

@@ -1,6 +1,6 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
@@ -11,6 +11,10 @@
   Cache-Control: public, max-age=0, s-maxage=300, stale-while-revalidate=60
   CDN-Cache-Control: max-age=300
 
+/site.js
+  Cache-Control: public, max-age=3600
+/style.min.css
+  Cache-Control: public, max-age=31536000, immutable
 /style.css
   Cache-Control: public, max-age=31536000, immutable
 /fonts/*

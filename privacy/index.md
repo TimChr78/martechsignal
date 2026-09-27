@@ -1,5 +1,9 @@
 # Privacy Policy
 
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Privacy Policy
+
 MartechSignal runs without accounts, without login walls, and without ads. That design choice does most of the work of a long privacy policy, but here is what you should know.
 
 ## What we collect
@@ -14,6 +18,21 @@ The pages load one third-party resource class: fonts from Google Fonts. That req
 
 Vendor links (the "Visit" buttons on tool reviews) go directly to the vendor's website. We don't insert redirect trackers, so we never know whether you clicked, and we couldn't tie it to you if we did.
 
+## Newsletter
+
 If you subscribe to the weekly newsletter, we store your email address with our newsletter provider for exactly one purpose: sending you the newsletter. Every issue carries an unsubscribe link that removes you immediately. Your email is never sold or shared.
 
+## Contact
+
 Questions about this policy can go through the site's GitHub repository discussions.
+
+&copy; 2026 MARTECHSIGNAL &middot; THE AI IN MARKETING AUTOMATION
+
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "name": "Privacy Policy | MartechSignal", "url": "https://martechsignal.com/privacy/", "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}}
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/privacy/#webpage", "dateModified": "2026-09-26"}
+```

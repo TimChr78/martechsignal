@@ -1,5 +1,23 @@
 # Agentic Marketing
 
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Make
+
+Visual automation platform for building complex workflows with AI agents and apps
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Agentic Marketing
+
+GLOSSARY
+
+## Definition
+
 Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.
 
 ## Why it matters
@@ -18,6 +36,8 @@ Early production uses: budget pacing within hard caps, creative variant rotation
 
 Vendors claiming agentic behavior should show the guardrail surface: where limits are set, how actions are logged, and what the intervention path looks like. If the answer is a chat prompt, it is assistance with better marketing.
 
+## The numbers
+
 Scope discipline: teams report stable results delegating 10-25% of decisions to agents initially, expanding as verification matures. Attempting majority delegation in quarter one correlates with rollback. Measure decision quality, not decision volume - the useful metric is error rate per delegated process, tracked weekly. Agentic pricing is usually usage-based: credits or per-action fees layered on a platform subscription, and rates vary by vendor. Salesforce&#x27;s Agentforce credits are one concrete example: one agent action consumes 20 credits priced at $0.10 each. Budget for the supervision too, because someone has to read the audit log. The cheap first step is delegating a single process for one month and comparing its decisions against what your team would have done.
 
 ## Common mistakes
@@ -32,12 +52,65 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 
 ## Related terms
 
-Marketing automation · MQL / SQL · ABM · Lead scoring · Marketing ops
+[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
 
 ## Seen in the wild
 
-Your Agents Are Only as Smart as Your Identity Debt · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
+[Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/) · [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 
-Marketing Automation
+### Categories
 
-- Marketing automation
+[Marketing Automation](/categories/marketing-automation/)
+
+## See also
+
+- [Marketing automation](/glossary/marketing-automation/)
+- [MQL / SQL](/glossary/mql-sql/)
+- [ABM](/glossary/abm/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Agentic Marketing",
+    "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/agentic-marketing/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Agentic Marketing",
+        "item": "https://martechsignal.com/glossary/agentic-marketing/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/#webpage", "dateModified": "2026-09-27"}
+```

@@ -1,14 +1,20 @@
 # AI visibility advice, audited against 775 logged citations
 
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 AI SEARCH · SEO · 7 MIN
 
-Home · Blog · AI visibility advice, audited against 775 logged citations
+## AI visibility advice, audited against 775 logged citations
 
-SEP 22, 2026
+[How we review](/methodology/) · No affiliate links
 
-Filed under SEO & Search
+[Home](/) · [Blog](/blog/) · AI visibility advice, audited against 775 logged citations
 
-775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards. The AI-visibility industry sells you a tool that counts how often ChatGPT mentions your brand. These results contradict what that count implies in three places, and confirm one part of the playbook that most people skip. The full write-up is here; this is the ops audit.
+SEP 22, 2026 · Updated SEP 27, 2026
+
+Filed under [SEO & Search](/categories/seo/)
+
+775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards. The AI-visibility industry sells you a tool that counts how often ChatGPT mentions your brand. These results contradict what that count implies in three places, and confirm one part of the playbook that most people skip. The [full write-up is here](https://searchengineland.com/geo-experiments-challenge-conventional-ai-visibility-advice-488342); this is the ops audit.
 
 ## What was actually measured
 
@@ -36,7 +42,7 @@ This changes the budget math. A GEO program is not a set of placements you buy o
 
 ## Contradiction three: the citation count is not the outcome
 
-This one connects directly to the AI-search funnel map we built earlier this month. The experiments logged citations and referral traffic separately, and the two lists barely overlap. Indie Hackers produced the most citations of any source and flat referral traffic. TechBullion produced fewer citations and grew sessions from 1 to 64. One low-volume Perplexity referral became a paying customer, on the platform with the fewest appearances in the entire test.
+This one connects directly to [the AI-search funnel map we built earlier this month](/blog/ai-search-funnel-map-ga4-wont-give-you/). The experiments logged citations and referral traffic separately, and the two lists barely overlap. Indie Hackers produced the most citations of any source and flat referral traffic. TechBullion produced fewer citations and grew sessions from 1 to 64. One low-volume Perplexity referral became a paying customer, on the platform with the fewest appearances in the entire test.
 
 Across the 30-day window, 18.5% of new users arrived via referral traffic and another 3.25% through GA4's AI Assistant channel. Just over one fifth of new users, from a brand that did not exist in AI answers 30 days earlier. That is the number a CFO cares about. The citation count on your Semrush or Peec dashboard is, at best, a leading indicator of it, and these logs show how loose that leading indicator is.
 
@@ -60,29 +66,108 @@ The other limit is that measurement cannot see the counterfactual. We can count 
 
 ## What changes Monday morning
 
-1. Build your outreach list from observed citations. Run your 15 commercial keywords through ChatGPT, Gemini, Claude, Perplexity, and AI Mode, log every source, rank by frequency, pitch that list. Ignore DR-sorted prospect spreadsheets. 2. Split your content budget toward earned placements. The agency covering these results moved 25-30% of client content budget from net-new owned posts to guest contributions and third-party comparison mentions. 3. Track citations monthly at minimum, expecting decay. Half your citing sources will be gone in 30 days. Treat it like rank tracking, not like a quarterly audit. The measurement layers in our 5-layer dashboard fix apply here unchanged: segment the AI referrals, treat counts as a floor, and reconcile against revenue, not citations. 4. Report referral sessions and pipeline, never citation volume, to whoever signs the checks. One Perplexity referral beat a thousand Indie Hackers mentions in the only currency that matters.
+1. Build your outreach list from observed citations. Run your 15 commercial keywords through ChatGPT, Gemini, Claude, Perplexity, and AI Mode, log every source, rank by frequency, pitch that list. Ignore DR-sorted prospect spreadsheets. 2. Split your content budget toward earned placements. The agency covering these results moved 25-30% of client content budget from net-new owned posts to guest contributions and third-party comparison mentions. 3. Track citations monthly at minimum, expecting decay. Half your citing sources will be gone in 30 days. Treat it like rank tracking, not like a quarterly audit. The measurement layers in [our 5-layer dashboard fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/) apply here unchanged: segment the AI referrals, treat counts as a floor, and reconcile against revenue, not citations. 4. Report referral sessions and pipeline, never citation volume, to whoever signs the checks. One Perplexity referral beat a thousand Indie Hackers mentions in the only currency that matters.
 
 The AI-visibility dashboards will keep selling the count, because the count goes up when you do what they recommend. These logs suggest the count is the least interesting number in the room.
 
 ## Related reading
 
-- Your Dashboard Can't See AI Search , Here's the 5-Layer Fix
-- Link Building Won't Get You Into AI Answers. Community Signals Will.
-- Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Related tools
 
-- OtterlyAI - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
-- Potato - Free local tool that measures brand mentions and citations in Claude's web-search answers
-- Nightwatch - Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
+- [Potato](/tools/potato-ai-visibility/) - Free local tool that measures brand mentions and citations in Claude's web-search answers
+- [Nightwatch](/tools/nightwatch/) - Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 ## Comparison guides
 
-- Best AI SEO tools for AI visibility (2026)
-- Matomo vs Plausible (2026): analytics depth or a dashboard that stays small
+- [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
+- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
-- AI Visibility
+- [SEO](/glossary/seo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: Madgicx
+More from the directory: [LanguageTool](/tools/languagetool/)
+
+**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "AI visibility advice, audited against 775 logged citations",
+  "description": "775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-09-22",
+  "dateModified": "2026-09-27",
+  "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
+  "image": "https://martechsignal.com/og/geo-experiments-vs-ai-visibility-playbook.png",
+  "citation": [],
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 1485,
+  "articleSection": "seo"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AI visibility advice, audited against 775 logged citations",
+      "item": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/"
+    }
+  ]
+}
+```

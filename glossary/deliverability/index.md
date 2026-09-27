@@ -1,5 +1,27 @@
 # Email Deliverability
 
+ActiveCampaign
+
+AI-powered marketing automation and CRM for small to mid-size businesses
+
+BillionMail
+
+Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
+
+Customer.io
+
+Data-driven messaging platform for automated email, push, SMS, and in-app messages
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Email Deliverability
+
+GLOSSARY
+
+## Definition
+
 Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.
 
 ## Why it matters
@@ -18,6 +40,8 @@ Teams manage deliverability through authentication (SPF, DKIM, DMARC), list hygi
 
 Choosing a sender is part of it, but the biggest lever is your own domain reputation, which no provider can buy for you. For cold outreach look for dedicated sending infrastructure and warmup tooling. For lifecycle email the all-in-one platforms handle authentication for you. Whatever you pick, demand clear reporting on bounces, complaints, and blocks. A provider that hides those numbers is hiding a problem.
 
+## The numbers
+
 The thresholds that matter: Google and Yahoo now expect spam-complaint rates under 0.3% with sub-0.1% as the safe zone, plus SPF/DKIM/DMARC alignment - unauthenticated mail at bulk volume simply stops arriving. Warm-up math matters too: new dedicated IPs earn roughly double their daily volume every few days; jumping straight to full list sends is how entire domains get burned in week one. Most email platforms bundle sending with a per-contact or per-send price, and some charge extra for dedicated IPs, dedicated domains, or validation add-ons. Pricing varies by vendor. The real cost is volume discipline: cleaning a stale list shrinks the contact count you pay for, which is the rare case where doing the right thing also cuts your bill.
 
 ## Common mistakes
@@ -32,8 +56,59 @@ AI-spam changes deliverability because receivers now classify generated content 
 
 ## Related terms
 
-Marketing automation · MQL / SQL · Lead scoring · Email sequence · Marketing ops
+[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [Lead scoring](/glossary/lead-scoring/) · [Email sequence](/glossary/email-sequence/) · [Marketing ops](/glossary/marketing-ops/)
 
-Email Marketing
+### Categories
 
-- Email sequence
+[Email Marketing](/categories/email-marketing/)
+
+## See also
+
+- [Email sequence](/glossary/email-sequence/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Email Deliverability",
+    "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/deliverability/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Deliverability",
+        "item": "https://martechsignal.com/glossary/deliverability/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/#webpage", "dateModified": "2026-09-27"}
+```

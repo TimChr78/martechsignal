@@ -1,12 +1,29 @@
 # Zapier vs. Make: Two Ways to Buy the Same Workflow Debt
 
+
+|  | Zapier | Make |
+| --- | --- | --- |
+| Free tier | 100 tasks/mo, two-step Zaps only | 1,000 credits/mo, 2 active scenarios, 15-minute schedule floor |
+| Entry paid plan | Professional from $19.99/mo annual ($29.99 monthly), 750 tasks included | Core $9/mo for 10,000 credits |
+| Team tier | ~$69/mo per user, annual | Teams $29/mo for 10,000 credits |
+| App catalog | 9,000+ | 3,000+ |
+| What counts | Every action step that moves data, including AI steps, code, and SDK calls | Every module action, including AI toolkit calls; code runs bill 2 credits per second |
+| AI agent layer | Agents Pro: $400 billed annually ($33.33/mo) for 1,500 automated behaviors/mo, separate from core plans | AI Agents (beta) on all plans, metered in the same credits, via Make's AI provider or your own LLM key |
+| Workflow export | JSON export documented for Team and Enterprise accounts | Blueprint JSON export/import on every plan |
+
+TC **[Tim Christensen](/authors/tim-christensen/)**
+
 AUTOMATION · ZAPIER · 10 MIN
 
-Home · Blog · Zapier vs. Make: Two Ways to Buy the Same Workflow Debt
+## Zapier vs. Make: Two Ways to Buy the Same Workflow Debt
+
+[How we review](/methodology/) · No affiliate links
+
+[Home](/) · [Blog](/blog/) · Zapier vs. Make: Two Ways to Buy the Same Workflow Debt
 
 AUG 27, 2026 · Updated SEP 13, 2026
 
-Filed under Workflow Automation
+Filed under [Workflow Automation](/categories/workflow-automation/)
 
 Zapier's pricing page now opens with the headline "AI orchestration plans that scale with you." Make's nav leads with Maia, a conversational tool that builds your automations and AI agents for you. The two biggest names in no-code automation are racing toward the same destination, and that destination is bolting AI agents onto the exact duct-tape problem they were both built to fix.
 
@@ -20,13 +37,13 @@ Neither pick endorses the model underneath. Both platforms bill you every time y
 
 ## The meter is the product
 
-Pricing verified from zapier.com/pricing and make.com/en/pricing on August 27, 2026:
+Pricing verified from [zapier.com/pricing](https://zapier.com/pricing) and [make.com/en/pricing](https://www.make.com/en/pricing) on August 27, 2026:
 
 Now the math both vendors hope you skip. Take one ordinary lead-intake workflow: webhook in, enrich, add to CRM, Slack the team, log to a sheet. Five action steps. If it fires 1,000 times in a month, that is 5,000 tasks on Zapier, which is nearly seven times the allowance in the base Professional plan. On Make the same month burns 5,000 credits, half of a $9 Core plan.
 
 The platforms differ on price, but they agree on the mechanism that matters. Every successful run costs money. The lead that converts, the row that syncs, the ticket that routes: each one drops a coin in the meter. Your bill goes up when your automation works. That is the inverse of every other piece of infrastructure you buy, and neither company has any incentive to change it. Zapier made the commitment explicit this year with a pricing-page announcement that AI steps, code steps, and SDK calls now all follow the same task-based model. The new AI layer is not an escape from the meter. It is a new thing to feed the meter.
 
-Winner on unit cost: Make. Core is $9/mo for 10,000 credits, and the five-step lead-intake workflow above burns half of that in a 1,000-run month. The same month nearly exhausts a $19.99 Zapier Professional plan. Zapier's per-task price falls as tiers climb, so the advantage does flip at volume, but it flips only after you have already rented the meter.
+**Winner on unit cost: Make.** Core is $9/mo for 10,000 credits, and the five-step lead-intake workflow above burns half of that in a 1,000-run month. The same month nearly exhausts a $19.99 Zapier Professional plan. Zapier's per-task price falls as tiers climb, so the advantage does flip at volume, but it flips only after you have already rented the meter.
 
 ## The rot is not a bug
 
@@ -42,7 +59,7 @@ Both vendors looked at a system of fragile, hand-maintained connections and deci
 
 Zapier sells Agents Pro at $400 billed annually for 1,500 automated behaviors per month, and it is a separate line item from your core plan. Make's AI Agents are in beta and run through the same credit pool as everything else, on Make's AI provider or your own LLM key. The pricing differs. The structure does not: every action the agent takes is another task or credit, billed at the same rate as the workflow underneath it.
 
-An agent does not repair brittle automation. It consumes it, faster, with judgment you cannot audit after the fact. If the connection under the agent silently changes shape, you now have a system that takes wrong actions at machine speed and bills you for each one. We have written before about what happens when agents act on state they cannot see, and the problem is worse when every mistaken action costs real money.
+An agent does not repair brittle automation. It consumes it, faster, with judgment you cannot audit after the fact. If the connection under the agent silently changes shape, you now have a system that takes wrong actions at machine speed and bills you for each one. We have written before about what happens when [agents act on state they cannot see](/blog/ai-agents-need-campaign-state/), and the problem is worse when every mistaken action costs real money.
 
 ## Which exit costs less
 
@@ -50,56 +67,135 @@ The lazy version of this article says you cannot get your data out. That is outd
 
 Make lets you export any scenario as a blueprint JSON on every plan, including Free, and import it elsewhere. Zapier documents JSON export of Zap workflows, with the full feature described for Team and Enterprise accounts. So the files can leave. What cannot leave:
 
-1. Connections. Neither export carries your credentials or app connections. Every integration gets re-authenticated wherever you land. 2. Format portability. Zapier JSON does not run on Make, and Make blueprints do not run on n8n. Migration converters exist, but they are community projects, not vendor features. 3. Reimplementation time. Multi-step logic, filters, paths, and error routes get rebuilt by a human either way, because the export describes what the workflow says, not what it means.
+1. **Connections.** Neither export carries your credentials or app connections. Every integration gets re-authenticated wherever you land. 2. **Format portability.** Zapier JSON does not run on Make, and Make blueprints do not run on n8n. Migration converters exist, but they are community projects, not vendor features. 3. **Reimplementation time.** Multi-step logic, filters, paths, and error routes get rebuilt by a human either way, because the export describes what the workflow says, not what it means.
 
 On that scorecard Make is the cheaper exit. Blueprint export on all tiers and a $9 entry point mean the smallest users can walk away with almost nothing sunk. Zapier's exit is heavier where the platform is strongest: deep multi-step Zaps, the 9,000-app long tail, and team-owned libraries. Neither exit is free, because neither one hands over the maintenance history. The debt travels with you as a to-do list.
 
 One correction to the cheapness myth, because it cuts the other way at volume. Zapier's per-task rate gets cheaper as tiers climb, and at the big tiers it undercuts Make's credit price per action. Make wins at the low end. Zapier wins the race to the bottom. Both models still bill every success, which is the part that never changes.
 
-Winner on leaving: Make. Blueprint export runs on every plan, Free included, so the smallest users walk away with almost nothing sunk. Zapier documents export for Team and Enterprise accounts, which means the users with the most to lose are the ones the exit was built for.
+**Winner on leaving: Make.** Blueprint export runs on every plan, Free included, so the smallest users walk away with almost nothing sunk. Zapier documents export for Team and Enterprise accounts, which means the users with the most to lose are the ones the exit was built for.
 
 ## Which should you pick
 
 Three reader shapes, since "it depends" is not an answer:
 
-- Solo marketer running fewer than five workflows. Make. The free tier's 1,000 credits cover light use, and $9 buys 10,000 credits, which is the cheapest way to find out what your own volume costs before you commit to a tier.
-- Team with workflows spread across niche apps. Zapier. Count the apps you need before you count the price. A platform connecting 9,000 apps ends arguments that Make's 3,000 cannot, and reimplementation is the expensive half of any migration.
-- Anyone whose automation bill is approaching a part-time contractor. Neither. Move the workflows to a self-hosted n8n instance, keep the JSON in git, and pay for a server instead of a meter. The maintenance does not vanish, it changes owner.
+- **Solo marketer running fewer than five workflows.** Make. The free tier's 1,000 credits cover light use, and $9 buys 10,000 credits, which is the cheapest way to find out what your own volume costs before you commit to a tier.
+- **Team with workflows spread across niche apps.** Zapier. Count the apps you need before you count the price. A platform connecting 9,000 apps ends arguments that Make's 3,000 cannot, and reimplementation is the expensive half of any migration.
+- **Anyone whose automation bill is approaching a part-time contractor.** Neither. Move the workflows to a self-hosted n8n instance, keep the JSON in git, and pay for a server instead of a meter. The maintenance does not vanish, it changes owner.
 ## The counterpoint shipped this week
 
-While both vendors priced their agents, n8n shipped version 2.36.0 on August 18, and the release notes read like a rebuttal. The Schedule Trigger node gained an "If Execution Is Missed" option with a per-node grace period, so the platform itself now catches up runs missed during downtime instead of dropping them. The AI side got hardening rather than marketing: the agent HTTP Request tool configuration was locked down, human-in-the-loop approval resumes were fixed, and agents gained writable workspaces and deeper MCP access.
+While both vendors priced their agents, n8n shipped [version 2.36.0](https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0) on August 18, and the release notes read like a rebuttal. The Schedule Trigger node gained an "If Execution Is Missed" option with a per-node grace period, so the platform itself now catches up runs missed during downtime instead of dropping them. The AI side got hardening rather than marketing: the agent HTTP Request tool configuration was locked down, human-in-the-loop approval resumes were fixed, and agents gained writable workspaces and deeper MCP access.
 
-That is the difference between owning the tool and renting it. A self-hosted n8n instance, 203,000 GitHub stars and free for internal use under its fair-code license, has no meter. Your workflow is a JSON file you can keep in git, diff, and take anywhere, and when an API changes you fix it once for yourself instead of waiting on a vendor's connector queue. We broke down the platform's economics and limits in our n8n write-up, and it sits in the workflow automation category hub alongside everything else we track.
+That is the difference between owning the tool and renting it. A self-hosted n8n instance, 203,000 GitHub stars and free for internal use under its fair-code license, has no meter. Your workflow is a JSON file you can keep in git, diff, and take anywhere, and when an API changes you fix it once for yourself instead of waiting on a vendor's connector queue. We broke down the platform's economics and limits in our [n8n write-up](/blog/n8n-ai-open-source-automation/), and it sits in the [workflow automation category hub](/categories/workflow-automation/) alongside everything else we track.
 
 The honest caveat: self-hosting does not delete the maintenance, it relocates it. You trade a subscription for a server, upgrades, and someone on call. For a solo marketer with three zaps, Zapier or Make is the right call, and Make's credit math is the better deal. The debt only becomes a problem at scale, which is precisely where both platforms want you.
 
-The verdict: both bills come due. Zapier and Make are competent products with different prices and the same business model: you rent the connections, you pay per success, and the AI layer adds a second meter on top. Make is cheaper to run and cheaper to leave. Zapier has the catalog to justify itself if your workflows live in its long tail. The question to ask before signing is not "which features" but "what does year three cost when these workflows double," because the pricing model guarantees the answer goes up. If the answer scares you, the exit with no meter is the one you host yourself.
+**The verdict: both bills come due.** Zapier and Make are competent products with different prices and the same business model: you rent the connections, you pay per success, and the AI layer adds a second meter on top. Make is cheaper to run and cheaper to leave. Zapier has the catalog to justify itself if your workflows live in its long tail. The question to ask before signing is not "which features" but "what does year three cost when these workflows double," because the pricing model guarantees the answer goes up. If the answer scares you, the exit with no meter is the one you host yourself.
 
 ### Compare automation platforms before the meter starts running
 
 Our workflow automation directory breaks down Zapier, Make, n8n, and the rest by pricing model, integration depth, and what you actually own when you leave.
 
-Sources: Zapier pricing (retrieved Aug 27, 2026) · Make pricing (retrieved Aug 27, 2026) · n8n 2.36.0 release notes (Aug 18, 2026) · r/MarketingAutomation: client automations that break in production (Aug 21, 2026) · r/nocode: Nocode is getting too expensive (Mar 2026) · Make scenario blueprints documentation · Zapier import/export documentation
+**Sources:** [Zapier pricing (retrieved Aug 27, 2026)](https://zapier.com/pricing) · [Make pricing (retrieved Aug 27, 2026)](https://www.make.com/en/pricing) · [n8n 2.36.0 release notes (Aug 18, 2026)](https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.0) · [r/MarketingAutomation: client automations that break in production (Aug 21, 2026)](https://reddit.com/r/MarketingAutomation/comments/1vu7agv/for_everyone_running_client_automations_on) · [r/nocode: Nocode is getting too expensive (Mar 2026)](https://www.reddit.com/r/nocode/comments/1sj58j8/nocode_is_getting_too_expensive_and_nobody_wants/) · [Make scenario blueprints documentation](https://help.make.com/blueprints) · [Zapier import/export documentation](https://help.zapier.com/hc/en-us/articles/8496308481933-Import-and-export-Zap-workflows-in-your-Team-or-Enterprise-account)
 
-Tools linked in this post: Zapier, Make, n8n, Pipedream, Tray.io.
+**Tools linked in this post:** [Zapier](/tools/zapier/), [Make](/tools/make/), [n8n](/tools/n8n/), [Pipedream](/tools/pipedream/), [Tray.io](/tools/tray-io/).
 
 ## Related reading
 
-- n8n + AI: The Open-Source Automation Engine
-- Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.
-- NocoBase vs NocoDB vs Budibase: pick by team shape
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Related tools
 
-- Activepieces - Open-source workflow automation with a free cloud tier and on-prem hosting
-- Paperclip - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
-- Microsoft Power Automate - Enterprise workflow automation inside the Microsoft Power Platform
+- [Activepieces](/tools/activepieces/) - Open-source workflow automation with a free cloud tier and on-prem hosting
+- [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
+- [Microsoft Power Automate](/tools/power-automate/) - Enterprise workflow automation inside the Microsoft Power Platform
 ## Comparison guides
 
-- Best Zapier alternatives (2026)
-- Best workflow automation tools (2026)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
-- Workflow automation
+- [Workflow automation](/glossary/workflow-automation/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
+
+**MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
+
+
+```json
+{
+  "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
+  "@type": "BlogPosting",
+  "headline": "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt",
+  "description": "Zapier's pricing page now opens with the headline \"AI orchestration plans that scale with you.\" Make's nav leads with Maia, a conversational tool that.",
+  "author": {
+    "@type": "Person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "sameAs": [
+      "https://www.linkedin.com/in/tchristensen78",
+      "https://github.com/timchr78"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
+    "name": "MartechSignal",
+    "url": "https://martechsignal.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://martechsignal.com/logo.png"
+    }
+  },
+  "datePublished": "2026-08-27",
+  "dateModified": "2026-09-13",
+  "mainEntityOfPage": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
+  "image": "https://martechsignal.com/og/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt.png",
+  "citation": [],
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://martechsignal.com/blog/#blog"
+  },
+  "inLanguage": "en",
+  "wordCount": 2026,
+  "articleSection": "workflow-automation"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://martechsignal.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://martechsignal.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt",
+      "item": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/"
+    }
+  ]
+}
+```

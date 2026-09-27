@@ -1,3 +1,16 @@
+
+
+def _png_dims(src):
+    import struct
+    try:
+        p = ROOT / src.lstrip("/")
+        with open(p, "rb") as f:
+            head = f.read(24)
+        if head[12:16] == b"IHDR":
+            return struct.unpack(">II", head[16:24])
+    except Exception:
+        pass
+    return 1200, 630
 #!/usr/bin/env python3
 """Build blog posts from drafts and regenerate the blog index.
 
@@ -235,9 +248,12 @@ def inline_format(text: str) -> str:
     text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
     # Inline code
     text = re.sub(r'`(.+?)`', r'<code>\1</code>', text)
-    # Images (M-16: posts can carry figures)
-    text = re.sub(r'!\[(.+?)\]\((.+?)\)',
-                  r'<img class="post-figure" src="\2" alt="\1" loading="lazy">', text)
+    # Images (M-16: posts can carry figures; L2: real width/height from the PNG)
+    def _img_repl(_m):
+        _w, _h = _png_dims(_m.group(2))
+        return (f'<img class="post-figure" width="{_w}" height="{_h}" '
+                f'src="{_m.group(2)}" alt="{_m.group(1)}" loading="lazy">')
+    text = re.sub(r'!\[(.+?)\]\((.+?)\)', _img_repl, text)
     # Links
     text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', text)
 
@@ -390,6 +406,14 @@ def build_post(meta: dict, body_html: str) -> str:
     # Human byline - the site's named author (see footer/about); org stays in JSON-LD
     byline = 'Tim Christensen'
 
+    # M6 (2026-09-27): cited works from frontmatter `sources: [name|url, ...]`
+    _srcs = meta.get("sources") or []
+    if isinstance(_srcs, str):
+        _srcs = [_srcs.strip("[]")]
+    _cit_list = [{"@type": "CreativeWork", "name": x.split("|", 1)[0].strip().strip("'\""),
+                  "url": x.split("|", 1)[1].strip().strip("'\"")}
+                 for x in _srcs if "|" in x]
+
     # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
     article_schema = {
         "@context": "https://schema.org",
@@ -403,6 +427,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
         "image": f"https://martechsignal.com/og/{slug}.png",
+        "citation": _cit_list,
         # A2 M7 (2026-09-26): link the post into the Blog node and carry the
         # article fields Google's article cluster reads.
         "isPartOf": {"@type": "Blog",
@@ -429,7 +454,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(seo_title)}</title>
 <meta name="description" content="{html.escape(_clean_excerpt(excerpt))}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{html.escape(seo_title)}">
@@ -445,12 +470,9 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
-<script type="application/ld+json">
+<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
 </script>
 <script type="application/ld+json">
@@ -458,6 +480,7 @@ def build_post(meta: dict, body_html: str) -> str:
 </script>
 <link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
+<script src="/site.js" defer></script>
 </head>
 <body class="page-post">
 <div class="bg" aria-hidden="true"></div>
@@ -465,7 +488,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -474,7 +497,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
-<img class="post-hero" src="/og/{slug}.png" alt="{title}" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="800" height="420" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
 <p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · {title}</p>
 <p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>
 <div class="byline">
@@ -496,20 +519,10 @@ def build_post(meta: dict, body_html: str) -> str:
 <footer>
   <div class="foot-in">
     <p><b>MartechSignal</b>, written by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a></p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
-<script>
-(function(){{
-  var reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var bar=document.getElementById('progress');
-  if(bar){{addEventListener('scroll',function(){{var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';}},{{passive:true}});}}
-  if('IntersectionObserver' in window){{
-    var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('in');io.unobserve(e.target);}}}});}},{{threshold:.1}});
-    document.querySelectorAll('.reveal').forEach(function(el){{io.observe(el);}});
-  }}else{{document.querySelectorAll('.reveal').forEach(function(el){{el.classList.add('in');}});}}
-}})();
-</script>
+
 </body>
 </html>"""
 
@@ -578,7 +591,7 @@ def build_index(posts: list) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blog | MartechSignal</title>
 <meta name="description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Blog | MartechSignal">
@@ -600,7 +613,9 @@ def build_index(posts: list) -> str:
 <link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
-</head>
+<script type="application/ld+json">{{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}}, {{"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"}}]}}</script>
+  <script src="/site.js" defer></script>
+  </head>
 <body class="page-blog-index">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
@@ -651,15 +666,10 @@ def build_index(posts: list) -> str:
 <footer>
   <div class="foot-in">
     <p>© {datetime.now().year} MartechSignal · by Tim Christensen</p>
-    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="foot-links"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">Tim Christensen</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </footer>
-<script>
-if('IntersectionObserver' in window){{
-  var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('in');io.unobserve(e.target);}}}});}},{{threshold:.1}});
-  document.querySelectorAll('.reveal').forEach(function(el){{io.observe(el);}});
-}}else{{document.querySelectorAll('.reveal').forEach(function(el){{el.classList.add('in');}});}}
-</script>
+
 </body>
 </html>"""
 

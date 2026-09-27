@@ -143,6 +143,246 @@
       "pick_b_if": "Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.",
       "date_published": "2026-09-26",
       "date_updated": "2026-09-26"
+    },
+    {
+      "slug": "claude-seo-vs-semrush",
+      "title": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
+      "seo_title": "Claude SEO vs Semrush (2026): pricing and AI",
+      "meta": "Claude SEO versus Semrush on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+      "a_slug": "claude-seo",
+      "b_slug": "semrush",
+      "intro": [
+        "Claude SEO and Semrush end up on the same shortlist. Claude SEO turns Claude Code into an SEO audit machine. Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility.",
+        "Most decisions here come down to where it runs, how it bills, and how deep the AI features go. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+      ],
+      "pick_a_if": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
+      "pick_b_if": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.",
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "Claude SEO turns Claude Code into an SEO audit machine. You type /seo audit and it spawns up to 15 specialist agents in parallel, each covering a different discipline: technical SEO, content quality, E-E-A-T signals, Schema.org markup, Core Web Vitals, local SEO, ecommerce SEO, international SEO, and AI search optimization (what Google calls GEO). It was founded in 2026. Its repository carries 16,675 stars.",
+          "b": "Semrush is the closest thing the SEO industry has to an operating system: a platform that spans keyword research, competitive analysis, rank tracking, site auditing, content optimization, link building, paid advertising intelligence, social media management, and increasingly, AI search visibility. Founded in 2008 and headquartered in Boston, Semrush serves over 10 million users from freelancers to enterprise marketing teams. It was founded in 2008."
+        },
+        {
+          "heading": "Pricing",
+          "a": "It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28).",
+          "b": "paid pricing starts at $117/mo, and pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo (verified 2026-08-28)."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Open source with the code in AgriciDaniel/claude-seo. Your team runs the service and applies its own upgrades, and nothing meters your task volume.",
+          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+        },
+        {
+          "heading": "AI features",
+          "a": "5 documented AI features on its pricing page and docs.",
+          "b": "6 documented AI features, including ai content optimizer, ai keyword research, ai site audit, ai competitive analysis, and ai writing assistant."
+        },
+        {
+          "heading": "Integrations",
+          "a": "5 listed integrations, including claude code, google search console, dataforseo, firecrawl, and lighthouse.",
+          "b": "8 listed integrations, including google analytics, google search console, wordpress, zapier, and slack."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick Claude SEO if you can host it yourself and want code-level control, starting free.",
+          "b": "Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo."
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "salesforce-marketing-cloud-vs-hubspot",
+      "title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+      "seo_title": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing and AI",
+      "meta": "Salesforce Marketing Cloud versus HubSpot Marketing Hub on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+      "a_slug": "salesforce-marketing-cloud",
+      "b_slug": "hubspot-marketing-hub",
+      "intro": [
+        "Salesforce Marketing Cloud and HubSpot Marketing Hub end up on the same shortlist. Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform.",
+        "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+      ],
+      "pick_a_if": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
+      "pick_b_if": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.",
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. The current structure splits by motion: Marketing Cloud Next is the flagship, sold as Growth and Advanced editions per org; the B2C Agentic Marketing Platform carries the legacy Engagement (formerly ExactTarget) install base; B2B runs on Account Engagement, the former Pardot, or the Account Engagement+ edition; and Data 360 is the customer data platform underneath. It was founded in 1999.",
+          "b": "Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It is designed for small businesses, growing marketing teams, and enterprises that want to connect website activity, contact records, and revenue reporting without assembling multiple point tools. It was founded in 2006."
+        },
+        {
+          "heading": "Pricing",
+          "a": "enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06).",
+          "b": "It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28)."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+        },
+        {
+          "heading": "AI features",
+          "a": "5 documented AI features, including agentforce campaign creation, agentforce personalization decisioning, agentforce paid media optimization, ai campaign summaries, and agentforce loyalty promotion creation.",
+          "b": "5 documented AI features, including ai content assistant, predictive lead scoring, ai email subject lines, chatbot builder, and ai campaign recommendations."
+        },
+        {
+          "heading": "Integrations",
+          "a": "9 listed integrations, including salesforce crm, data 360 (data cloud), slack, tableau, and mulesoft.",
+          "b": "8 listed integrations, including salesforce, slack, zapier, shopify, and wordpress."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.",
+          "b": "Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free."
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "make-vs-zapier",
+      "title": "Make vs Zapier (2026): pricing, AI features, verdict",
+      "seo_title": "Make vs Zapier (2026): pricing and AI",
+      "meta": "Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+      "a_slug": "make",
+      "b_slug": "zapier",
+      "intro": [
+        "Make and Zapier end up on the same shortlist. Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Zapier is the automation platform most people mean when they say they want to connect two tools without writing code.",
+        "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+      ],
+      "pick_a_if": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
+      "pick_b_if": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.",
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "Make, the platform formerly known as Integromat, sits between Zapier's simplicity and n8n's depth. Founded in Prague in 2012 and acquired by Celonis in 2020, it is where technical marketing teams land when a linear editor stops being enough: scenarios are drawn as a graph, so branching, looping, and error handling are visible rather than buried in configuration.\n\nBilling changed in August 2026, when credits replaced operations as the unit of account. It was founded in 2012.",
+          "b": "Zapier is the automation platform most people mean when they say they want to connect two tools without writing code. It lists more than 9,000 app integrations, still the widest catalogue in this directory, and the niche martech tools that lack an n8n node or a Make module usually still have a Zapier integration. It was founded in 2011."
+        },
+        {
+          "heading": "Pricing",
+          "a": "It starts free, and free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams €29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-07).",
+          "b": "It starts free, and free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual) (verified 2026-09-07)."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+        },
+        {
+          "heading": "AI features",
+          "a": "5 documented AI features, including ai agents, ai workflow suggestions, ai data transformation, ai content generation, and ai error handling.",
+          "b": "5 documented AI features, including ai workflow builder, ai data formatting, ai chatbot builder, and ai agents."
+        },
+        {
+          "heading": "Integrations",
+          "a": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify.",
+          "b": "8 listed integrations, including slack, gmail, salesforce, hubspot, and shopify."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.",
+          "b": "Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free."
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "activecampaign-vs-klaviyo",
+      "title": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
+      "seo_title": "ActiveCampaign vs Klaviyo (2026): pricing and AI",
+      "meta": "ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+      "a_slug": "activecampaign",
+      "b_slug": "klaviyo",
+      "intro": [
+        "ActiveCampaign and Klaviyo end up on the same shortlist. ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento.",
+        "Most decisions here come down to how it bills. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+      ],
+      "pick_a_if": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
+      "pick_b_if": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.",
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Founded in 2003 and headquartered in Chicago, it serves over 150,000 customers worldwide. It was founded in 2003.",
+          "b": "Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. Founded in 2012 in Boston and taken public in 2023, Klaviyo's competitive advantage is its data model: instead of treating customers as email addresses in a list, it builds rich profiles from purchase history, browsing behavior, and predicted lifetime value. It was founded in 2012."
+        },
+        {
+          "heading": "Pricing",
+          "a": "paid pricing starts at $15/mo, and starter $15/mo, Plus $49/mo, Professional €79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28).",
+          "b": "It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28)."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+        },
+        {
+          "heading": "AI features",
+          "a": "5 documented AI features, including ai content generation, predictive sending, ai win probability, ai subject line suggestions, and smart automation.",
+          "b": "5 documented AI features, including ai subject line assistant, predictive analytics, ai send-time optimization, ai product recommendations, and ai content generation."
+        },
+        {
+          "heading": "Integrations",
+          "a": "8 listed integrations, including shopify, salesforce, slack, zapier, and woocommerce.",
+          "b": "8 listed integrations, including shopify, woocommerce, bigcommerce, salesforce, and slack."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.",
+          "b": "Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free."
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
+    },
+    {
+      "slug": "jasper-vs-writer",
+      "title": "Jasper vs Writer (2026): pricing, AI features, verdict",
+      "seo_title": "Jasper vs Writer (2026): pricing and AI",
+      "meta": "Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.",
+      "a_slug": "jasper",
+      "b_slug": "writer",
+      "intro": [
+        "Jasper and Writer end up on the same shortlist. Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform.",
+        "Most decisions here come down to price and fit. The figures below are the catalog's last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test."
+      ],
+      "pick_a_if": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
+      "pick_b_if": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.",
+      "sections": [
+        {
+          "heading": "Positioning",
+          "a": "Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. The platform now offers over 100 specialized AI agents for content creation, campaign management, brand governance, and analytics, organized around marketing workflows rather than isolated content pieces. It was founded in 2021.",
+          "b": "Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. The Palmyra lineup is now X4, X5, and X6: X6 is described as the default agentic model with a 1M-token context window, published API pricing of $2 per million input tokens and $8 per million output tokens, and a claimed 8 hours of unsupervised task persistence, while X4 carries a documented deprecation date of November 18, 2026. It was founded in 2020."
+        },
+        {
+          "heading": "Pricing",
+          "a": "paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).",
+          "b": "Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25)."
+        },
+        {
+          "heading": "Deployment and self-hosting",
+          "a": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage.",
+          "b": "Hosted only. The vendor runs the infrastructure and bills by seats, tasks, or usage."
+        },
+        {
+          "heading": "AI features",
+          "a": "5 documented AI features, including ai copy generation, brand voice training, ai image generation, ai campaign workflows, and ai content repurposing.",
+          "b": "5 documented AI features, including ai content generation and knowledge graph grounding."
+        },
+        {
+          "heading": "Integrations",
+          "a": "8 listed integrations, including chrome, surfer seo, zapier, hubspot, and wordpress.",
+          "b": "12 listed integrations, including slack, google workspace, microsoft 365, salesforce, and hubspot."
+        },
+        {
+          "heading": "Who should pick which",
+          "a": "Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.",
+          "b": "Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team."
+        }
+      ],
+      "date_published": "2026-09-27",
+      "date_updated": "2026-09-27"
     }
   ]
 }

@@ -19,7 +19,7 @@
     ],
     "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally.",
     "hub": {
-      "meta": "Compare ActiveCampaign, HubSpot, Braze, Marketo and 8 more marketing automation platforms on workflow power and guardrails. This is where AI autonomy landed first.",
+      "meta": "Compare ActiveCampaign, HubSpot, Braze, Marketo and 8 more marketing automation platforms on workflow power and guardrails. This is where AI autonomy landed.",
       "flow": [
         {
           "label": "MAP",
@@ -465,7 +465,7 @@
     ],
     "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict.",
     "hub": {
-      "meta": "Compare 11 analytics and attribution tools, from self-hosted Matomo and Snowplow to enterprise suites. One half tracks what users do; the other argues about ad dollars.",
+      "meta": "Compare 11 analytics and attribution tools, from self-hosted Matomo and Snowplow to enterprise suites. One half tracks what users do; the other argues about ad.",
       "flow": [
         {
           "label": "INSTRUMENT",
@@ -999,7 +999,7 @@
     "description": "Track and improve how AI assistants mention, cite, and describe your brand",
     "intro": "Monitoring and optimization tools for AI search: who cites you in ChatGPT, Perplexity and AI Overviews, what the answers say, and what to change about it.",
     "hub": {
-      "meta": "Compare Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune, Nimt and Writesonic, plus the AI-visibility modules inside AccuRanker, Nightwatch, SISTRIX, Ahrefs and Adobe. Promptfoo covers the open-source case.",
+      "meta": "Compare Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune, Nimt and Writesonic, plus the AI-visibility modules inside AccuRanker, Nightwatch, SISTRIX.",
       "flow": [
         {
           "label": "PROMPT SET",

@@ -1,4 +1,22 @@
-# Zapier Alternatives: 5 Tools Compared (2026)
+# Zapier Alternatives: 10 Tools Compared (2026)
+
+
+| Tool | Price | Billing model | Self-host | Best for |
+| --- | --- | --- | --- | --- |
+| [n8n](/tools/n8n/) | Open Source | Contract | Yes | Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host. |
+| [Make](/tools/make/) | Freemium | Contract | No | Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling. |
+| [Pipedream](/tools/pipedream/) | From $29/mo | Credits, monthly | No | Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it. |
+| [Tray.io](/tools/tray-io/) | Enterprise | Contract, usage-based | No | Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available. |
+| [Budibase](/tools/budibase/) | Free tier | Monthly plans, billed yearly | Yes | Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data. |
+| [Pabbly Connect](/tools/pabbly-connect/) | From $16/mo | Task tiers, yearly or one-time | No | Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription. |
+| [Microsoft Power Automate](/tools/power-automate/) | From $15/mo | Per bot, billed yearly | No | Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages. |
+| [IFTTT](/tools/ifttt/) | Freemium | Monthly plans, billed yearly | No | Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd. |
+| [Activepieces](/tools/activepieces/) | Freemium | Contract | Yes | Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative. |
+| [Workato](/tools/workato/) | Enterprise | Contract, usage-based | No | Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies. |
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Best Zapier alternatives (2026)
 
 Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.
 
@@ -8,76 +26,212 @@ Before you move, list the apps each workflow touches and confirm the replacement
 
 The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor&#x27;s own pricing page with its verification date on the tool&#x27;s review page.
 
+## [n8n](/tools/n8n/)
+
 Open Source OSS
 
-Best for: Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host.
+**Best for:** Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host.
 
-Not for: Teams that want the widest possible app catalog with zero infrastructure to manage; n8n&#x27;s library runs to 400+ nodes against Zapier&#x27;s 9,000+ integrations.
+**Not for:** Teams that want the widest possible app catalog with zero infrastructure to manage; n8n&#x27;s library runs to 400+ nodes against Zapier&#x27;s 9,000+ integrations.
 
 n8n runs on a fair-code model: self-hosting is free, cloud Starter is $20 per month, Pro is $50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process.
 
-Best for: Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling.
+## [Make](/tools/make/)
 
-Not for: Teams that need self-hosting or unlimited execution; our own catalog points those teams at n8n.
+Freemium
+
+**Best for:** Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling.
+
+**Not for:** Teams that need self-hosting or unlimited execution; our own catalog points those teams at n8n.
 
 Make draws scenarios as a graph, so routers and error handling are visible rather than buried in configuration, and neither consumes credits. Billing moved to credits in August 2026: Free covers 1,000 credits a month with 2 active scenarios, Core is $9 a month, Pro $16, and Teams $29, each for 10,000 credits with a slider upward. For data-heavy work like CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier&#x27;s per-task metering.
 
-Best for: Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it.
+## [Pipedream](/tools/pipedream/)
 
-Not for: Marketers who want a purely visual builder; Pipedream is built for people comfortable writing Node.js, Python, or Go.
+From $29/mo
+
+**Best for:** Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it.
+
+**Not for:** Marketers who want a purely visual builder; Pipedream is built for people comfortable writing Node.js, Python, or Go.
 
 Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic is $29 a month for 2,000 credits and 20 million AI tokens, Advanced $49, and Connect $99, with a free tier of 100 credits a month. Any step can run arbitrary code, which Zapier&#x27;s step model does not allow, and workflows can be deployed as MCP server endpoints that AI coding agents call directly. Advanced adds branching and parallelism controls, premium apps, and GitHub Sync for version-controlled deployment.
 
-Best for: Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available.
+## [Tray.io](/tools/tray-io/)
 
-Not for: Small automation projects; Tray.io sells through a demo or sales call, and its tiers are described by workspaces and log retention rather than published prices.
+Enterprise
+
+**Best for:** Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available.
+
+**Not for:** Small automation projects; Tray.io sells through a demo or sales call, and its tiers are described by workspaces and log retention rather than published prices.
 
 Tray.io is an AI orchestration platform with 700-plus pre-built connectors, a connector SDK, on-premise connectivity, and API management. Usage is metered in Tasks across integration, automation, MCP, and agents, and HIPAA, SSO, regional hosting, and Tray IDP are paid add-ons, all quote-based. Where Zapier sells self-serve tasks to individuals and teams, Tray.io sells a governed platform, which is the point when compliance is the reason you are leaving.
 
+## [Budibase](/tools/budibase/)
+
 Free tier OSS
 
-Best for: Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data.
+**Best for:** Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data.
 
-Not for: Teams whose workflows mostly move records between SaaS products; Budibase automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL.
+**Not for:** Teams whose workflows mostly move records between SaaS products; Budibase automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL.
 
 Budibase is an open-core operations platform where self-hosting is free with unlimited actions, apps, agents, and users in one workspace, and cloud Pro is $19 a month billed annually with metered actions. You connect data sources (PostgreSQL, MySQL, MongoDB, Google Sheets, REST), build interfaces in a visual builder, and wire multi-step automations, with AI agents in beta since March 2026. It replaces Zapier when the automation is an internal tool over your own data rather than a bridge between SaaS apps.
 
-## Pabbly Connect
+## [Pabbly Connect](/tools/pabbly-connect/)
 
-Best for: Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription.
+From $16/mo
 
-Not for: Teams that need governance tooling, deep observability, or AI woven into the builder rather than sold as a separate product.
+**Best for:** Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription.
+
+**Not for:** Teams that need governance tooling, deep observability, or AI woven into the builder rather than sold as a separate product.
 
 Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmetic: task tiers from $16/month billed yearly and a $349 lifetime license change the total-cost picture for anyone keeping workflows alive for years. The platform layer around those workflows is thinner than the incumbents&#x27;, so the savings come with trade-offs.
 
-## Microsoft Power Automate
+## [Microsoft Power Automate](/tools/power-automate/)
 
-Best for: Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages.
+From $15/mo
 
-Not for: Teams outside the Microsoft estate, or anyone whose use case needs unattended RPA at scale and cannot absorb per-bot pricing.
+**Best for:** Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages.
+
+**Not for:** Teams outside the Microsoft estate, or anyone whose use case needs unattended RPA at scale and cannot absorb per-bot pricing.
 
 Microsoft Power Automate wins on proximity: SharePoint, Dataverse, and Office connectors no third party can match. Verified pricing is $15 per user per month for Premium, with unattended bots at $150/month each. That per-bot line is where budgets surprise people, so model it before committing.
 
-Best for: Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd.
+## [IFTTT](/tools/ifttt/)
 
-Not for: Multi-step business processes. There is no real branching, no data transformation worth the name, and lower tiers throttle run speed.
+Freemium
+
+**Best for:** Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd.
+
+**Not for:** Multi-step business processes. There is no real branching, no data transformation worth the name, and lower tiers throttle run speed.
 
 IFTTT is the cheapest way into the category and the only one that reaches consumer devices at all. Pro runs $2.99/month billed annually for 20 Applets. Treat it as connectivity at the edges of a stack, not as the automation platform for it.
 
-## Activepieces
+## [Activepieces](/tools/activepieces/)
 
 Freemium OSS
 
-Best for: Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative.
+**Best for:** Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative.
 
-Not for: Teams chasing the largest possible app catalog or enterprise SSO on an entry budget. SSO starts at the $200/month tier.
+**Not for:** Teams chasing the largest possible app catalog or enterprise SSO on an entry budget. SSO starts at the $200/month tier.
 
 The most honest pricing page in the category: the same product runs on their cloud or your servers, the free tier is real (100 credits a day, no card), and Plus is $20/month flat for 10,000 credits rather than a per-task staircase. For agent-curious teams, MCP and API access ship even on free.
 
-Best for: Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies.
+## [Workato](/tools/workato/)
 
-Not for: Small and mid-sized teams. There are no published prices at all, which tells you everything about who the buyer is supposed to be.
+Enterprise
+
+**Best for:** Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies.
+
+**Not for:** Small and mid-sized teams. There are no published prices at all, which tells you everything about who the buyer is supposed to be.
 
 Workato appears in nearly every ranking list as the enterprise anchor. We will not repeat the widely circulated starting price that its own site does not publish; the honest entry is the model itself: usage-based with a platform fee, quoted per contract.
 
-Read the full assessment of Zapier, or browse all workflow automation tools.
+Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow automation tools](/categories/workflow-automation/).
+
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Zapier alternatives (2026)",
+    "datePublished": "2026-09-26",
+    "dateModified": "2026-09-26",
+    "author": {
+      "@type": "Person",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/"
+    },
+    "numberOfItems": 10,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "n8n",
+        "url": "https://martechsignal.com/tools/n8n/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Make",
+        "url": "https://martechsignal.com/tools/make/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pipedream",
+        "url": "https://martechsignal.com/tools/pipedream/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Tray.io",
+        "url": "https://martechsignal.com/tools/tray-io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Budibase",
+        "url": "https://martechsignal.com/tools/budibase/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Pabbly Connect",
+        "url": "https://martechsignal.com/tools/pabbly-connect/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Microsoft Power Automate",
+        "url": "https://martechsignal.com/tools/power-automate/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "IFTTT",
+        "url": "https://martechsignal.com/tools/ifttt/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Activepieces",
+        "url": "https://martechsignal.com/tools/activepieces/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Workato",
+        "url": "https://martechsignal.com/tools/workato/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tools",
+        "item": "https://martechsignal.com/tools/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Zapier alternatives",
+        "item": "https://martechsignal.com/alternatives/zapier/"
+      }
+    ]
+  }
+]
+```

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Marketing Automation Checklist: 12 questions, 2 phases | MartechSignal</title>
 <meta name="description" content="A 12-question marketing automation checklist in two phases - rollout readiness before you deploy, agent readiness before you automate. Score it, print it, copy it.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23080E1A'/%3E%3Crect x='9' y='7' width='14' height='18' rx='2' fill='%23FFB224'/%3E%3C/svg%3E">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="Marketing Automation Rollout Readiness Checklist | MartechSignal">
@@ -22,10 +22,9 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<script type="application/ld+json">{
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Marketing Automation Rollout Readiness Checklist",
@@ -99,7 +98,7 @@
     ]
   }
 }</script>
-<link rel="stylesheet" href="/style.css?v=b780159f">
+<link rel="stylesheet" href="/style.min.css?v=d891b1d6">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <style>
 .check-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:2.2rem;max-width:1100px;margin:0 auto;padding:0 1.5rem 3rem}
@@ -127,14 +126,17 @@
 }
 </style>
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
-<link rel="alternate" type="text/markdown" href="/checklist/index.md">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/checklist/#webpage", "dateModified": "2026-09-27"}</script>
+<script src="/site.js" defer></script>
+
+<link rel="alternate" type="text/markdown" href="/checklist/index.md" title="Markdown mirror">
 </head>
 <body class="page-tools">
 <div class="bg" aria-hidden="true"></div>
 <header class="masthead">
   <div class="wrap mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -187,43 +189,10 @@ prints as a clean one-sheet checklist. Or copy your results below.</p>
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
-<script>
-(function(){
-  var boxes=[].slice.call(document.querySelectorAll('.check-item input'));
-  var fill=document.getElementById('score-fill'),count=document.getElementById('score-count'),verdict=document.getElementById('score-verdict');
-  function verdictFor(n){return n>=11?'Rollout-ready. Agents are a upgrade away, not a leap.':n>=8?'Solid. Close the gaps before automating on top.':n>=5?'Half-ready. Agents will amplify the gaps as much as the work.':n>=1?'Early. Fix the data and guardrails first.':'Start at the top of Phase 1.';}
-  function update(){
-    var n=boxes.filter(function(b){return b.checked}).length;
-    count.textContent=n;fill.style.width=(n/12*100)+'%';verdict.textContent=verdictFor(n);
-  }
-  boxes.forEach(function(b){b.addEventListener('change',update)});
-  document.getElementById('copy-btn').addEventListener('click',function(){
-    var lines=['## Marketing Automation Rollout Readiness - '+new Date().toISOString().slice(0,10),'','Score: '+document.getElementById('score-count').textContent+'/12',''];
-    var phase='';
-    document.querySelectorAll('.check-grid h2').forEach(function(h2){
-      phase=h2.textContent;
-      var sec=['', '### '+phase.replace(/Phase (\d) - /,'Phase $1: ')];
-      var item=h2.nextElementSibling;
-      while(item&&!(item.nodeName==='H2')){
-        var cb=item.querySelector('input');
-        if(cb){var label=item.querySelector('span').textContent;
-          sec.push('- ['+(cb.checked?'x':' ')+'] '+label);}
-        item=item.nextElementSibling;
-      }
-      lines.push.apply(lines,sec);
-    });
-    lines.push('','Scored at martechsignal.com/checklist/');
-    var text=lines.join('\n');
-    if(navigator.clipboard){navigator.clipboard.writeText(text).then(function(){
-      var b=document.getElementById('copy-btn');var t=b.textContent;b.textContent='Copied!';
-      setTimeout(function(){b.textContent=t;},1600);});}
-    else{window.prompt('Copy your results:',text);}
-  });
-})();
-</script>
+
 </body>
 </html>

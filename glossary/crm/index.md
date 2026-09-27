@@ -1,5 +1,35 @@
 # Customer Relationship Management (CRM)
 
+HubSpot CRM
+
+Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+Salesforce CRM
+
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+Attio
+
+AI-native CRM with real-time data enrichment and agentic revenue workflows
+
+EspoCRM
+
+Lightweight open-source CRM with sales automation, marketing tools, and customer management
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
+
+[Browse all tools →](/tools/)
+
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+
+## Customer Relationship Management (CRM)
+
+GLOSSARY
+
+## Definition
+
 A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.
 
 ## Why it matters
@@ -18,6 +48,8 @@ Mid-market teams typically use a CRM for pipeline forecasting, territory assignm
 
 Compare CRMs on data model, integration depth, and per-seat cost, not on AI feature count. The market splits into three shapes. Salesforce and HubSpot sell platform CRM with ecosystems around them. Freshworks, Pipedrive, and Zoho compete on price and ease of use. Open-source options like Twenty and EspoCRM give you the schema and the server. If your team lives in email and spreadsheets today, a lighter tool beats a platform you will not configure.
 
+## The numbers
+
 Self-hosted CRM economics: the software license is free but plan on $20-80 per month for hosting plus migration time measured in weeks. Per-seat SaaS at $14-25 per user per month looks cheap until headcount doubles; a 30-seat team crosses the 5-year point where self-hosting pays for itself somewhere between seats 15 and 25, assuming anyone on staff can run Docker and a backup schedule. Beyond seats, budget for implementation and data migration, which vendors quote separately and which vary widely. Add-ons are where the bill grows: marketing modules, sandbox environments, API call limits, and extra storage are typically priced as separate tiers, and pricing varies by vendor. Negotiate these before you sign, because the price per seat is the part vendors compete on and the rest is where they make margin.
 
 ## Common mistakes
@@ -32,6 +64,61 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 
 ## Related terms
 
-MQL / SQL · ABM · Customer journey · Lead scoring · Marketing ops
+[MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
 
-- Customer journey
+### Categories
+
+[CRM](/categories/crm/)
+
+## See also
+
+- [CDP](/glossary/cdp/)
+- [DMP](/glossary/dmp/)
+- [Customer journey](/glossary/customer-journey/)
+© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
+
+
+```json
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "name": "Customer Relationship Management (CRM)",
+    "description": "A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Martech Glossary",
+      "url": "https://martechsignal.com/glossary/"
+    },
+    "url": "https://martechsignal.com/glossary/crm/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://martechsignal.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Glossary",
+        "item": "https://martechsignal.com/glossary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "CRM",
+        "item": "https://martechsignal.com/glossary/crm/"
+      }
+    ]
+  }
+]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/crm/#webpage", "dateModified": "2026-09-27"}
+```

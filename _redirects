@@ -6,3 +6,8 @@
 # R3-H7 (2026-09-17, Tim): glossary merge - hard cannibalization
 /glossary/attribution/ /glossary/marketing-attribution-models/ 301
 /tools.json /catalog-tools.json 301
+
+/authors/  /authors/tim-christensen/  301
+/blog/claude-seo-teardown-martechsignal/  /blog/claude-seo-benchmark/  301
+/blog/claude-seo-v225-rescore-61-vs-92/  /blog/claude-seo-benchmark/  301
+/blog/claude-seo-v231-four-graders/  /blog/claude-seo-benchmark/  301
