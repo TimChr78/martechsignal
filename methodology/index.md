@@ -78,5 +78,5 @@ Published errors get public entries. See the [corrections page](/corrections/) f
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/methodology/#webpage", "dateModified": "2026-09-26"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/methodology/#webpage", "dateModified": "2026-09-27"}
 ```

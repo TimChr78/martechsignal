@@ -251,7 +251,14 @@ def inline_format(text: str) -> str:
     # Images (M-16: posts can carry figures; L2: real width/height from the PNG)
     def _img_repl(_m):
         _w, _h = _png_dims(_m.group(2))
-        return (f'<img class="post-figure" width="{_w}" height="{_h}" '
+        # r6 M-11: responsive variants alongside the source (same stem, -480/-800).
+        _srcset = ""
+        _img_p = Path(_m.group(2).lstrip("/"))
+        if (ROOT / _img_p.parent / (_img_p.stem + "-480" + _img_p.suffix)).exists():
+            _d, _n, _x = _img_p.parent.as_posix(), _img_p.stem, _img_p.suffix
+            _srcset = (f' srcset="/{_d}/{_n}-480{_x} 480w, /{_d}/{_n}-800{_x} 800w, '
+                       f'{_m.group(2)} {_w}w" sizes="(max-width:700px) 100vw, 1100px"')
+        return (f'<img class="post-figure" width="{_w}" height="{_h}"{_srcset} '
                 f'src="{_m.group(2)}" alt="{_m.group(1)}" loading="lazy">')
     text = re.sub(r'!\[(.+?)\]\((.+?)\)', _img_repl, text)
     # Links
@@ -497,7 +504,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
-<img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="800" height="420" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
+<img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="1200" height="630" srcset="/og/hero-{slug}-480.webp 480w, /og/hero-{slug}-800.webp 800w, /og/hero-{slug}.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
 <p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · {title}</p>
 <p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>
 <div class="byline">

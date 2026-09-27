@@ -411,9 +411,16 @@ def screenshot_figure(slug, tool_name):
         w = path.with_suffix(".webp")
         if w.exists():
             img_src = f"{rel[:-4]}.webp"
+    # r6 M-11: responsive variants of the served file (same stem, -480/-800).
+    _sp_img = Path(img_src)
+    _sset = ""
+    if (ROOT / _sp_img.parent / (_sp_img.stem + "-480" + _sp_img.suffix)).exists():
+        _d, _n, _x = _sp_img.parent.as_posix(), _sp_img.stem, _sp_img.suffix
+        _sset = (f' srcset="/{_d}/{_n}-480{_x} 480w, /{_d}/{_n}-800{_x} 800w, '
+                 f'/{_d}/{_n}{_x} 1280w" sizes="(max-width:700px) 100vw, 372px"')
     return (
         '<figure class="tool-screenshot" style="margin:1.2rem 0">'
-        f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage" '
+        f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage"{_sset} '
         'width="1280" height="800" loading="lazy" '
         'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
         f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
@@ -2252,20 +2259,29 @@ def minify_css():
 
 
 def sync_stylesheet_links():
-    """M1: every HTML file points at the one bundle with the artifact's own hash."""
+    """M1: every HTML file points at the one bundle with the artifact's own hash.
+
+    r6 M-3 (2026-09-27): site.js rides the same sweep. An unversioned tag plus
+    max-age=3600 kept stale is-in builds alive in visitors' browsers."""
     import hashlib as _h
     _hash = _h.sha256((ROOT / "style.min.css").read_bytes()).hexdigest()[:8]
+    _jhash = _h.sha256((ROOT / "site.js").read_bytes()).hexdigest()[:8]
     _n = 0
+    _nj = 0
     for _p in ROOT.rglob("*.html"):
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
             continue
         _s = _p.read_text()
         _new, _c = re.subn(r'href="/style(?:\.min)?\.css\?v=[a-f0-9]*"',
                            f'href="/style.min.css?v={_hash}"', _s)
-        if _c:
+        _new, _cj = re.subn(r'<script src="/site\.js(?:\?v=[a-f0-9]+)?" defer>',
+                            f'<script src="/site.js?v={_jhash}" defer>', _new)
+        if _c or _cj:
             _p.write_text(_new)
             _n += _c
+            _nj += _cj
     print(f"M1: {_n} stylesheet links -> style.min.css?v={_hash}")
+    print(f"M1-JS: {_nj} script tags -> site.js?v={_jhash}")
 
 
 
