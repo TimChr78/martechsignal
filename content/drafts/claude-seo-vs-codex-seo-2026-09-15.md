@@ -45,6 +45,14 @@ The table hides one thing worth stating plainly: neither product is a SaaS platf
 
 **What you pay: a tie that is not really a tie.** Both suites are free software. Claude SEO is MIT licensed; Codex SEO is free to use under a proprietary licence. The cost sits in the agent platform behind each and the API tokens every run consumes. If your team already pays for one of the two agents, that recurring bill is the only number that matters, and adding the other platform just to get an SEO audit is the expensive choice.
 
+## What this comparison does not measure
+
+Neither tool has a data index. That is the honest boundary around everything above. Neither one knows your backlink profile from its own servers, neither holds keyword volumes, and neither can tell you what competitors rank for. Those questions belong to platforms that spent years and budgets building datasets, and no amount of agent reasoning fabricates a substitute for one.
+
+The other shared limitation is failure honesty. Auditor agents occasionally produce a finding that sounds right and is not there: a selector that does not exist, a claim about a page it never fetched. We have published such a case against our own tool rather than quietly deleting it, and any team running either of these should treat every generated finding as a hypothesis to verify before acting on it. The check is cheap. The finding that survives the check is worth having.
+
+What the runs do cost is time and tokens, and both of these are per-run products rather than subscriptions. For a quarterly audit of one site that shape works. For continuous monitoring of fifty URLs, it does not, and you want a platform with a schedule instead.
+
 ## Which should you pick
 
 **You already run Claude Code.** Stay with [Claude SEO](/tools/claude-seo/). It is the original, it is open source, and it is the version that every third-party comparison, benchmark, and tutorial is describing. Adding Codex to save nothing makes no sense.

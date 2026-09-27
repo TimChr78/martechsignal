@@ -20,13 +20,14 @@
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/resend.png">
 <link rel="canonical" href="https://martechsignal.com/tools/resend/">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/markdown" href="/tools/resend/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
@@ -35,6 +36,7 @@
     "@id": "https://martechsignal.com/tools/resend/#app",
     "name": "Resend",
     "description": "Developer-first email API built around React Email, batch sending, and agent tooling",
+    "image": "https://martechsignal.com/og/tools/resend.png",
     "url": "https://resend.com",
     "mainEntityOfPage": "https://martechsignal.com/tools/resend/",
     "applicationCategory": "BusinessApplication",
@@ -135,7 +137,7 @@
   }
 ]</script>
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/resend/index.md">
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -169,7 +171,7 @@
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
     <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Resend?</summary><p>Developer-first email API built around React Email, batch sending, and agent tooling. It ships with AI Email Editor with brand-voice drafting, 19,722 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Resend cost?</summary><p>Resend has a free tier; paid plans start at $20/mo.</p></details><details class="faq-item"><summary>Is Resend worth it past the free tier?</summary><p>The most developer-native platform in email, with an honest free tier, real agent tooling, and a published limit sheet; check the transactional versus marketing split before committing either budget.</p></details><details class="faq-item"><summary>What are Resend&#x27;s rate limits and batch limits?</summary><p>The API allows 10 requests per second per team with no burst allowance; exceeding it returns 429, and Resend says it can raise the limit for trusted senders on request. Batch sending accepts up to 100 emails in a single call, and each batch counts as one request against the rate limit, but attachments are not supported on the batch endpoint. Per-email attachments cap at 40MB after base64 encoding, and a hard limit of 5x your monthly quota applies to sending.</p></details><details class="faq-item"><summary>Is Resend free, and what does the free tier include?</summary><p>The transactional free plan includes 3,000 emails a month with a 100-per-day cap, 3 verified domains, 5 AI credits, and 10,000 automation runs a month. Pro is $20 a month for 50,000 emails, Scale publishes tiers from $90 for 100,000 to $1,150 for 2.5 million, and Enterprise is custom, with a 99.99% uptime SLA. Marketing email is a separate, contact-based subscription starting at $40 a month for 5,000 contacts. There are no annual discounts; the pricing FAQ answers that question with a plain no.</p></details><details class="faq-item"><summary>Does Resend work with AI agents and coding tools?</summary><p>Yes, and it is one of the better-documented cases in email. Resend hosts an MCP server at mcp.resend.com/mcp with OAuth, ships an official Claude plugin (claude plugin install resend@claude-plugins-official), and documents a Resend skill and a React Email skill alongside a CLI. Clients listed in the docs include Claude Code, Claude, Cursor, Codex, Copilot, Windsurf, and Warp. The changelog shows steady investment: an official MCP server in April 2026, a remote MCP server in July, and an official Cursor plugin in August.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a><a class="tool-card" href="/tools/loops/"><div class="name">Loops</div><div class="tagline">Email marketing for SaaS: marketing, product, and transactional email in one tool</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li></ul></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/react-email-editor/"><div class="name">React Email Editor</div><div class="tagline">Drag-n-Drop Email Editor Component for React.js</div></a><a class="tool-card" href="/tools/customer-io/"><div class="name">Customer.io</div><div class="tagline">Data-driven messaging platform for automated email, push, SMS, and in-app messages</div></a><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a><a class="tool-card" href="/tools/loops/"><div class="name">Loops</div><div class="tagline">Email marketing for SaaS: marketing, product, and transactional email in one tool</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/cdp-reckoning-warehouse-native/">The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -188,7 +190,7 @@
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://resend.com" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Resend">Visit Resend →</a>
-      <div style="margin-top:.8rem"><a href="/categories/email-marketing/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Email Marketing Tools →</a></div>
+      <div style="margin-top:.8rem"><a href="/categories/email-marketing/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More Email Marketing Tools →</a></div>
     </div>
     
   </aside>
@@ -197,7 +199,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>

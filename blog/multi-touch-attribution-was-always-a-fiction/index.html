@@ -21,12 +21,21 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
   "@type": "BlogPosting",
   "headline": "Multi-Touch Attribution Was Always a Fiction",
   "description": "On Sept. 2, the MarTech Conference ran a free session called \"Marketing without signals: How to perform when the data disappears.\" The session copy told.",
@@ -47,7 +56,7 @@
     "url": "https://martechsignal.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   },
   "datePublished": "2026-08-14",
@@ -59,7 +68,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1303,
+  "wordCount": 1587,
   "articleSection": "analytics"
 }
 </script>
@@ -89,7 +98,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -105,16 +114,17 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">ANALYTICS · ATTRIBUTION · 7 MIN</p>
+<p class="kicker">ANALYTICS · ATTRIBUTION · 8 MIN</p>
 <h1>Multi-Touch Attribution Was Always a Fiction</h1>
 <img class="post-hero" src="/og/multi-touch-attribution-was-always-a-fiction.png" alt="Multi-Touch Attribution Was Always a Fiction" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Multi-Touch Attribution Was Always a Fiction</p>
 <p class="meta"><time datetime="2026-08-14">AUG 14, 2026</time> · Updated <time datetime="2026-09-13">SEP 13, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics & Attribution</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-same-conversion-six-different-truths">The same conversion, six different truths</a> · <a href="#the-definition-assumed-the-problem-away">The definition assumed the problem away</a> · <a href="#why-the-theater-survived">Why the theater survived</a> · <a href="#what-signal-loss-actually-exposed">What signal loss actually exposed</a> · <a href="#what-to-track-instead">What to track instead</a></nav>
+<p class="meta filed-cat">Filed under <a href="/categories/analytics/">Analytics & Attribution</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-same-conversion-six-different-truths">The same conversion, six different truths</a> · <a href="#the-definition-assumed-the-problem-away">The definition assumed the problem away</a> · <a href="#why-the-theater-survived">Why the theater survived</a> · <a href="#what-signal-loss-actually-exposed">What signal loss actually exposed</a> · <a href="#the-numbers-the-models-needed-never-existed">The numbers the models needed never existed</a> · <a href="#what-to-say-when-someone-asks-for-attribution">What to say when someone asks for attribution</a> · <a href="#what-to-track-instead">What to track instead</a></nav>
 <p>On Sept. 2, the MarTech Conference ran a free session called "Marketing without signals: How to perform when the data disappears." The session copy told the story the industry had settled on. For years, marketing teams built their playbooks on an abundance of granular signals: clicks, third-party cookies, device identifiers, deterministic conversion paths. Privacy rules, platform walled gardens, and AI intermediaries ate all of it. Now teams have to learn to perform without the data.</p>
 
 <p>It's a clean story. I don't buy it. Signal loss did not break marketing measurement. It made visible what multi-touch attribution never measured in the first place.</p>
@@ -147,6 +157,18 @@
 
 <p>Elusive. The house organ of the measurement category just told you the category was a chase.</p>
 
+<h2 id="the-numbers-the-models-needed-never-existed">The numbers the models needed never existed</h2>
+
+<p>It is worth being precise about what signal loss removed, because the usual story gets it backwards. Multi-touch attribution did not lose accuracy as privacy tightened. It never had the inputs its outputs implied. The models needed every touch resolved to one person across every channel and device, in order, forever. That identity graph was never complete, even in the cookie era. Mobile resets, shared devices, logged-out browsing, and channel gaps made sure of that.</p>
+
+<p>What the industry lost in 2021 was not measurement. It was the illusion of measurement, plus enough signal to hide the gaps. The models filled the holes with weighting schemes and position rules, printed confident fractions to two decimal places, and everyone agreed to treat allocation convention as observation. The fiction predates the signal loss by a decade. Signal loss just made it impossible to keep a straight face.</p>
+
+<h2 id="what-to-say-when-someone-asks-for-attribution">What to say when someone asks for attribution</h2>
+
+<p>The question will come from finance, and it deserves a direct answer rather than a model. Reported attribution is an allocation rule, not a measurement. The same conversion under six rules gives six answers, and the spread between them is the honest measure of how much the number knows.</p>
+
+<p>What does measure is incrementality: holdouts, geo splits, and staged rollouts that answer the only question a budget decision needs, which is what happens when the spend stops or starts. A brand that runs two clean holdout tests a year knows more about its marketing than a brand that has looked at every attribution dashboard ever built. Say the allocation number is fine as a reporting convention, fund the tests, and let the tests argue with the model.</p>
+
 <h2 id="what-to-track-instead">What to track instead</h2>
 
 <p>Which channel gets credit was never the useful question. The useful question was whether the marketing moved the outcome. That's incrementality, and it has a method: split the audience, expose one group, hold the other back, compare. The Search Engine Land example: the exposed group completes 1,000 purchases, the control completes 800. The campaign's lift is 200. An attribution model could claim all 1,000.</p>
@@ -176,7 +198,7 @@
 <a class="btn" href="/categories/analytics/">BROWSE ANALYTICS & ATTRIBUTION TOOLS →</a>
 </div>
 
-<p><strong>Sources:</strong> <a href="https://martech.org/marketing-without-signals-how-to-perform-when-the-data-disappears/">MarTech: Marketing without signals: How to perform when the data disappears</a> · <a href="https://searchengineland.com/attribution-vs-incrementality-both-483741">Search Engine Land: Attribution vs. incrementality: Why you need both</a> · <a href="https://en.wikipedia.org/wiki/Attribution_%28marketing%29">Wikipedia: Attribution (marketing)</a> · <a href="https://martech.org/what-is-marketing-attribution/">MarTech: What is marketing attribution? Models and best practices</a> · <a href="https://www.salesforce.com/blog/agentic-marketing-optimization/">Salesforce: Why Marketers Need to Move Beyond Attribution and Embrace Agentic Optimization</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li><li><a href="/blog/agents-identity-debt/">Your Agents Are Only as Smart as Your Identity Debt</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/attribution/">Attribution</a> - AI-powered marketing attribution platform connecting ad spend to revenue</li><li><a href="/tools/northbeam/">Northbeam</a> - AI-powered multi-touch attribution and marketing intelligence for ecommerce</li><li><a href="/tools/triple-whale/">Triple Whale</a> - AI-powered ecommerce analytics and attribution platform for DTC brands</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/alternatives/matomo/">Best Matomo alternatives (2026)</a></li><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
+<p><strong>Sources:</strong> <a href="https://martech.org/marketing-without-signals-how-to-perform-when-the-data-disappears/">MarTech: Marketing without signals: How to perform when the data disappears</a> · <a href="https://searchengineland.com/attribution-vs-incrementality-both-483741">Search Engine Land: Attribution vs. incrementality: Why you need both</a> · <a href="https://en.wikipedia.org/wiki/Attribution_%28marketing%29">Wikipedia: Attribution (marketing)</a> · <a href="https://martech.org/what-is-marketing-attribution/">MarTech: What is marketing attribution? Models and best practices</a> · <a href="https://www.salesforce.com/blog/agentic-marketing-optimization/">Salesforce: Why Marketers Need to Move Beyond Attribution and Embrace Agentic Optimization</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/martech-budget-bleeding-nobody-measuring/">Your Martech Budget Is Bleeding and Nobody's Measuring It</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li><li><a href="/blog/you-dont-need-new-data-stack-fivetran/">You Don't Need a New Data Stack for AI. Fivetran Just Proved It</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/attribution/">Attribution</a> - AI-powered marketing attribution platform connecting ad spend to revenue</li><li><a href="/tools/northbeam/">Northbeam</a> - AI-powered multi-touch attribution and marketing intelligence for ecommerce</li><li><a href="/tools/triple-whale/">Triple Whale</a> - AI-powered ecommerce analytics and attribution platform for DTC brands</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/alternatives/zapier/">Best Zapier alternatives (2026)</a></li><li><a href="/alternatives/matomo/">Best Matomo alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/marketing-attribution-models/">Attribution models</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
@@ -184,6 +206,7 @@
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/writesonic/">Writesonic</a></p>
 </article>
 </main>
 <footer>

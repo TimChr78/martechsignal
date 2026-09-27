@@ -20,13 +20,14 @@
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/open-mercato.png">
 <link rel="canonical" href="https://martechsignal.com/tools/open-mercato/">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/markdown" href="/tools/open-mercato/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
@@ -35,6 +36,7 @@
     "@id": "https://martechsignal.com/tools/open-mercato/#app",
     "name": "Open Mercato",
     "description": "Open-source TypeScript foundation for AI-built commerce, CRM, and ERP",
+    "image": "https://martechsignal.com/og/tools/open-mercato.png",
     "url": "https://www.openmercato.com/",
     "mainEntityOfPage": "https://martechsignal.com/tools/open-mercato/",
     "applicationCategory": "BusinessApplication",
@@ -135,7 +137,7 @@
   }
 ]</script>
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/open-mercato/index.md">
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -169,7 +171,7 @@
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/mcp/">MCP</a> <a href="/glossary/agentic-marketing/">Agentic Marketing</a> <a href="/glossary/ai-agent/">AI Agent</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
     <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Open Mercato?</summary><p>Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. It ships with AI development harness with 192 evaluation cases, 1,715 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Open Mercato cost?</summary><p>Open Mercato is open source - MIT licensed and free to self-host; the public repository carries 1,715 stars. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Open Mercato a good self-hosted Agent Skills tool in 2026?</summary><p>A credible AI-first foundation for engineering-led commerce and CRM builds; early, fast-moving, and not a turnkey product.</p></details><details class="faq-item"><summary>Is Open Mercato a ready-to-use CRM or ERP?</summary><p>No, and the project says so itself: it is a foundation framework, with the pitch that business modules and conventions are pre-decided so you start at 80% and build the differentiating 20%. The core CRM module does ship with people, companies, deals, and activities, plus a customer self-service portal, and a demo with sample CRM data loads during yarn initialize, so you can see working software at demo.openmercato.com. But the intended comparison is against starting a Next.js commerce project from scratch, not against Shopify or a configured CRM, and evaluation should assume engineering work.</p></details><details class="faq-item"><summary>How does Open Mercato work with Claude Code, Codex, or Cursor?</summary><p>The framework is built around agent tooling. The repo&#x27;s AGENTS.md defines a spec-first workflow (designs live in .ai/specs/ as dated markdown files) with Always, Ask-First, and Never rules, and CLAUDE.md simply points at it. The standalone project generator emits an AI development harness with guides, skills, and tool-specific configuration for Codex, Claude Code, and Cursor, backed by 192 evaluation cases and a sandboxed release gate. At runtime, a documented MCP server exposes about 70 tools for agent access, and shared skills install with npx skills add open-mercato/skills. In-product, an AI framework provides typed module agents with a mutation-approval gate before AI-driven changes land.</p></details><details class="faq-item"><summary>What does Open Mercato cost to run?</summary><p>The core is MIT-licensed and free to self-host, including all documented core modules, so costs are your infrastructure (PostgreSQL 17 with pgvector, Redis 7, Meilisearch) and engineering time. A separate Enterprise Edition package adds SSO with OIDC and SCIM 2.0, MFA, sudo re-authentication, and record locks, and ships outside the MIT core; no price is published anywhere on the site or docs. The site mentions community and commercial support tiers without amounts, so enterprise pricing and support are quote-based by absence of a published list.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/deskcommcrm/"><div class="name">DeskcommCRM</div><div class="tagline">Self-hosted open-source CRM with AI agents that sell through WhatsApp</div></a><a class="tool-card" href="/tools/budibase/"><div class="name">Budibase</div><div class="tagline">Open-source operations platform for building AI agents, apps and automations on your own data</div></a><a class="tool-card" href="/tools/scrunch/"><div class="name">Scrunch</div><div class="tagline">The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</div></a><a class="tool-card" href="/tools/intercom/"><div class="name">Intercom</div><div class="tagline">AI-first customer service platform with Fin AI agent and omnichannel messaging</div></a><a class="tool-card" href="/tools/ai-business-skills/"><div class="name">AI Business Skills</div><div class="tagline">63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</a></li><li><a href="/blog/cdp-reckoning-warehouse-native/">The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For</a></li></ul></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/deskcommcrm/"><div class="name">DeskcommCRM</div><div class="tagline">Self-hosted open-source CRM with AI agents that sell through WhatsApp</div></a><a class="tool-card" href="/tools/budibase/"><div class="name">Budibase</div><div class="tagline">Open-source operations platform for building AI agents, apps and automations on your own data</div></a><a class="tool-card" href="/tools/scrunch/"><div class="name">Scrunch</div><div class="tagline">The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</div></a><a class="tool-card" href="/tools/intercom/"><div class="name">Intercom</div><div class="tagline">AI-first customer service platform with Fin AI agent and omnichannel messaging</div></a><a class="tool-card" href="/tools/ai-business-skills/"><div class="name">AI Business Skills</div><div class="tagline">63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/salesforce-third-no-code-promise/">Salesforce's third no-code promise, audited</a></li><li><a href="/blog/salesforce-agentforce-free-marketing-ops/">Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -188,7 +190,7 @@
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://www.openmercato.com/" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Open Mercato">Visit Open Mercato →</a>
-      <div style="margin-top:.8rem"><a href="/categories/agent-skills/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Agent Skills Tools →</a></div>
+      <div style="margin-top:.8rem"><a href="/categories/agent-skills/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More Agent Skills Tools →</a></div>
     </div>
     
   </aside>
@@ -197,7 +199,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>

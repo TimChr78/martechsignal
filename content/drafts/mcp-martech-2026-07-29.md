@@ -118,6 +118,16 @@ MCP hands the baton to the agent layer. The platform becomes dumb plumbing, a da
 
 An open protocol doesn't ask permission. Once your data is accessible through MCP, the agent layer is what matters, and no single vendor owns that layer. The vendors that adapt become better data stores with better MCP endpoints. The ones that stall will find agents interacting with them through community-built servers that skipped every limitation the vendor intended.
 
+## What the rewiring costs while it is happening
+
+Nobody puts the transition in the pricing model, so here it is. For the months between "we signed the platform" and "the agents run reliably", two systems run in parallel. The old integrations keep working because revenue depends on them. The new tool calls run beside them, and someone maintains the mapping between the two vocabularies, field names, endpoints, and error codes that describe the same events differently.
+
+The expensive part is not the mapping. It is the identity layer underneath it. An agent calling a tool is only as correct as the customer identifier it passes, and most stacks hold three versions of that identifier with no arbiter. The team that skips this work gets an agent that is confidently wrong at scale, sending the right campaign to the wrong record. The team that does it gets plumbing that outlives every tool in the diagram.
+
+Budget the parallel period in quarters, not weeks, and staff it like production work. The integration economics do get rewritten. The bill arrives during the rewrite, not after.
+
+One more line item: the documentation debt. Every tool call an agent makes becomes an interface your team did not write and now has to understand when it breaks at 2 a.m. The teams that survive this quietly keep a human-readable contract per call, what it takes, what it returns, what a failure means. The teams that do not discover the contract exists only in the model's behavior.
+
 ## What This Means for Your Stack
 
 If you're running a mid-market marketing stack today, MCP changes your decision calculus in three specific ways:

@@ -21,12 +21,21 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
   "@type": "BlogPosting",
   "headline": "Claude SEO vs Codex SEO: same audit, pick the agent you already pay for",
   "description": "Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for.",
@@ -47,7 +56,7 @@
     "url": "https://martechsignal.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   },
   "datePublished": "2026-09-15",
@@ -59,7 +68,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1174,
+  "wordCount": 1367,
   "articleSection": "agent-skills"
 }
 </script>
@@ -89,7 +98,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -105,16 +114,17 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">AGENT SKILLS · SEO · 6 MIN</p>
+<p class="kicker">AGENT SKILLS · SEO · 7 MIN</p>
 <h1>Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</h1>
 <img class="post-hero" src="/og/claude-seo-vs-codex-seo.png" alt="Claude SEO vs Codex SEO: same audit, pick the agent you already pay for" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</p>
 <p class="meta"><time datetime="2026-09-15">SEP 15, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p>
+<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-comparison-at-a-glance">The comparison at a glance</a> · <a href="#factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</a> · <a href="#what-this-comparison-does-not-measure">What this comparison does not measure</a> · <a href="#which-should-you-pick">Which should you pick</a></nav>
 <p>Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. <a href="/tools/claude-seo/">Claude SEO</a> and <a href="/tools/codex-seo/">Codex SEO</a> are ports of each other rather than rivals in the usual sense, and that is precisely why the comparison matters. If you went looking for SEO tools for Claude and landed on a Codex option, or the reverse, the tiebreaker is the runtime, not the feature list.</p>
 
 <p>Codex SEO is the OpenAI Codex port of the Claude skill, built by the same author, AgriciDaniel. It covers the same surface, from technical audits and on-page analysis through E-E-A-T, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering, because it tracks the Claude skill as its upstream. What it does not share is the codebase, the licence, or the community. Those three differences are where the decision lives.</p>
@@ -123,13 +133,13 @@
 <p>Most readers should pick <strong>Claude SEO</strong>. It is the upstream project that the Codex port synchronizes to, its MIT licence lets you read and fork every skill, and its community is far larger. Choose <strong>Codex SEO</strong> only if your team already runs OpenAI Codex and would rather not add a second agent platform. In that case the SEO output is the same and the integration is native to the tool you already use, which is a real advantage in itself.</p>
 </div>
 
-<h2>The comparison at a glance</h2>
+<h2 id="the-comparison-at-a-glance">The comparison at a glance</h2>
 
 <div class="table-wrap"><table><thead><tr><th>Decision factor</th><th>Claude SEO</th><th>Codex SEO</th></tr></thead><tbody><tr><td>Methodology</td><td>Upstream reference: 25 sub-skills and 18 agents</td><td>Port synchronized to Claude SEO at a pinned commit; 26 workflows and 24 TOML agents</td></tr><tr><td>Runtime</td><td>Claude Code, interactive sessions</td><td>OpenAI Codex, with deterministic headless runners</td></tr><tr><td>Licence</td><td>MIT, fully open source</td><td>Proprietary, free to use, no self-hosting</td></tr><tr><td>Integrations</td><td>Claude Code, Google Search Console, DataForSEO, Firecrawl, Lighthouse</td><td>OpenAI Codex, Google Search Console, DataForSEO, Firecrawl, Gemini</td></tr><tr><td>Running cost</td><td>Free skill, plus Claude Code API tokens per audit</td><td>Free to use, plus Codex API tokens per audit</td></tr><tr><td>Community</td><td>Established base, roughly 16,675 GitHub stars</td><td>Smaller base, a few hundred stars</td></tr><tr><td>Best fit</td><td>Teams on Claude Code</td><td>Teams on Codex</td></tr><tr><td>Interface</td><td>Terminal only, no dashboard</td><td>Terminal and headless runners, no dashboard</td></tr></tbody></table></div>
 
 <p>The table hides one thing worth stating plainly: neither product is a SaaS platform. There is no dashboard, no rank history, and no scheduled report in your inbox unless you build the schedule yourself. Both are skills you install into a coding agent, which is why the runtime question dominates everything else here.</p>
 
-<h2>Factor by factor: who wins and why</h2>
+<h2 id="factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</h2>
 
 <p><strong>Methodology and coverage: Claude SEO.</strong> The Codex suite is not an independent invention. It synchronizes to the Claude skill at a pinned upstream commit, which makes Claude SEO the reference implementation where new skills and fixes land first. The port ships a comparable set of 26 workflows, but by design it is always tracking a target that has already moved.</p>
 
@@ -143,7 +153,15 @@
 
 <p><strong>What you pay: a tie that is not really a tie.</strong> Both suites are free software. Claude SEO is MIT licensed; Codex SEO is free to use under a proprietary licence. The cost sits in the agent platform behind each and the API tokens every run consumes. If your team already pays for one of the two agents, that recurring bill is the only number that matters, and adding the other platform just to get an SEO audit is the expensive choice.</p>
 
-<h2>Which should you pick</h2>
+<h2 id="what-this-comparison-does-not-measure">What this comparison does not measure</h2>
+
+<p>Neither tool has a data index. That is the honest boundary around everything above. Neither one knows your backlink profile from its own servers, neither holds keyword volumes, and neither can tell you what competitors rank for. Those questions belong to platforms that spent years and budgets building datasets, and no amount of agent reasoning fabricates a substitute for one.</p>
+
+<p>The other shared limitation is failure honesty. Auditor agents occasionally produce a finding that sounds right and is not there: a selector that does not exist, a claim about a page it never fetched. We have published such a case against our own tool rather than quietly deleting it, and any team running either of these should treat every generated finding as a hypothesis to verify before acting on it. The check is cheap. The finding that survives the check is worth having.</p>
+
+<p>What the runs do cost is time and tokens, and both of these are per-run products rather than subscriptions. For a quarterly audit of one site that shape works. For continuous monitoring of fifty URLs, it does not, and you want a platform with a schedule instead.</p>
+
+<h2 id="which-should-you-pick">Which should you pick</h2>
 
 <p><strong>You already run Claude Code.</strong> Stay with <a href="/tools/claude-seo/">Claude SEO</a>. It is the original, it is open source, and it is the version that every third-party comparison, benchmark, and tutorial is describing. Adding Codex to save nothing makes no sense.</p>
 
@@ -153,7 +171,7 @@
 
 <p>One caution for both. Neither suite verifies its own scoring, and we have documented Claude SEO scores moving between grader versions on an unchanged site, from 96 under v2.2.4 to 61 under v2.2.5 within a day. Pin the version you install, keep the reports, and compare a site against its own past runs. A single audit is a snapshot, not a certification that the work is finished.</p>
 
-<p>We have run <a href="/tools/claude-seo/">Claude SEO</a> on production sites and reported the results in full. The <a href="/tools/codex-seo/">Codex SEO</a> assessment draws on public documentation, the repository, and vendor pages; we have not run this tool.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li><li><a href="/tools/digital-marketing-pro/">Digital Marketing Pro</a> - 158-skill AI marketing plugin for agencies with EU AI Act compliance</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li><li><a href="/vs/n8n-vs-zapier/">n8n vs Zapier (2026): self-hosted depth or catalog breadth</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/dsp/">DSP</a></li><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
+<p>We have run <a href="/tools/claude-seo/">Claude SEO</a> on production sites and reported the results in full. The <a href="/tools/codex-seo/">Codex SEO</a> assessment draws on public documentation, the repository, and vendor pages; we have not run this tool.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/google-ad-agents-control-gap/">Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/zapier-gtm-cheat-codes/">Zapier GTM Cheat Codes</a> - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof</li><li><a href="/tools/digital-marketing-pro/">Digital Marketing Pro</a> - 158-skill AI marketing plugin for agencies with EU AI Act compliance</li><li><a href="/tools/growth-lab/">Growth Lab</a> - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/alternatives/zapier/">Best Zapier alternatives (2026)</a></li><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/ai-agent/">AI Agent</a></li><li><a href="/glossary/dsp/">DSP</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
@@ -161,7 +179,7 @@
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
-<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/jasper/">Jasper</a></p>
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/idurar-erp-crm/">IDURAR ERP &amp; CRM</a></p>
 </article>
 </main>
 <footer>

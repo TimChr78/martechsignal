@@ -44,6 +44,14 @@ Neither tool is a complete answer, and the table shows why. Claude SEO has no da
 
 **Team access and reporting: Semrush.** Dashboards, eight listed integrations including Google Analytics and WordPress, and white-label reporting on the Business tier. Claude SEO is terminal-only, which is a feature for a developer and a wall for a marketing team that needs something presentable on a Friday.
 
+## The category problem
+
+The honest answer to "which one wins" is that the question mixes two categories. Semrush is a data platform with an index: backlink graphs, keyword volumes, historical positions, ad spend estimates. It answers questions that require having watched the web for years. Claude SEO is an audit agent with no index at all. It answers questions about one site it can read right now, and it answers them by reasoning across the whole site at once.
+
+The overlap people compare is the site audit, and that overlap is real but shallow. Semrush crawls and flags against a rule set it maintains. The agent crawls, judges, and can write the fix. Neither replaces the other's core. A team without backlink data cannot synthesize it from an agent session no matter how good the reasoning is, and a team with Semrush still has to write its own fixes.
+
+The cost shapes are not comparable either. One is a seat-based subscription that pays for whether or not you use it this month. The other is per-run compute that scales with audits you actually run. The right mix for most teams is the boring one: pay for the data once, run the agent where judgment is the bottleneck, and stop asking either tool to be the other.
+
 ## Which should you pick
 
 **An in-house SEO lead with a site to grow and people to report to.** Buy [Semrush](/tools/semrush/). Rank tracking, backlink monitoring, and keyword research are recurring needs, and the platform covers all three plus the reporting that keeps the budget approved.

@@ -1,7 +1,7 @@
 # MartechSignal
 
-> Independent reviews of AI marketing automation tools. Structured audits of
-> 158 martech platforms | pricing, self-hosting, APIs, and which AI features
+> Independent reviews of AI marketing automation tools. Structured research on
+> 162 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -189,13 +189,17 @@
 
 ### Workflow Automation
 
+- [Activepieces](https://martechsignal.com/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting (open source)
 - [Appsmith](https://martechsignal.com/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (open source)
 - [Budibase](https://martechsignal.com/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (open source)
+- [IFTTT](https://martechsignal.com/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices
 - [LangChain](https://martechsignal.com/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (open source)
 - [Make](https://martechsignal.com/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Microsoft Power Automate](https://martechsignal.com/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform
 - [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
 - [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
 - [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
+- [Pabbly Connect](https://martechsignal.com/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option
 - [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (open source)
 - [Pipedream](https://martechsignal.com/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
@@ -297,6 +301,27 @@
 - [Social Media](https://martechsignal.com/categories/social-media/)
 - [Workflow Automation](https://martechsignal.com/categories/workflow-automation/)
 
+## Guides and comparisons
+
+- [Best AI SEO tools for AI visibility (2026)](https://martechsignal.com/best/ai-seo-tools/)
+- [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/)
+- [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/)
+- [Matomo vs Plausible (2026): depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/)
+- [n8n vs Zapier (2026): self-host or catalog](https://martechsignal.com/vs/n8n-vs-zapier/)
+- [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
+- [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
+- [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
+- [Zapier Alternatives: 5 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
+
+## Site
+
+- [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy
+- [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced
+- [Authors](https://martechsignal.com/authors/)
+- [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; training model weights on this corpus is not permitted
+- [Checklist](https://martechsignal.com/checklist/): tool selection checklist
+- [Corrections](https://martechsignal.com/corrections/): published errata
+
 ## Links
 
 - [Full content mirror](https://martechsignal.com/llms-full.txt)
@@ -315,7 +340,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 160 records = 158 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 164 records = 162 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 
 ### Advertising & Paid Media
@@ -965,11 +990,21 @@ Sprout Social is widely considered the strongest option for customer care throug
 
 ### Workflow Automation
 
+[Activepieces](https://martechsignal.com/tools/activepieces/) , Freemium. Open source.
+Activepieces is an open-source automation platform that treats self-hosting as a first-class option rather than an enterprise footnote. The same product runs on their cloud, on your own servers, or fully air-gapped, and the pricing page says so in plain words instead of hiding it behind a sales call.
+The commercial model is built on credits with flat monthly prices: Plus at $20/month buys 10,000 credits and up to five users with no per-task staircase, and overage runs $0.007 per credit. Teams that outgrow it move to the $200/month Team tier for 50,000 credits, 25 users, and SSO. The free tier is real rather than a trial: 100 credits a day, unlimited flows, no card required.
+The AI story is the interesting part for agent-curious teams. Flows, agents, and tables live in one builder, MCP and API access ship on the free tier, and the paid tiers let you bring your own model keys instead of paying a markup on tokens. For a team that wants automation infrastructure it can actually inspect and move, this is one of the few honest options in the category.
+
 [Appsmith](https://martechsignal.com/tools/appsmith/) , Free tier. Open source.
 Appsmith is an open-source low-code platform for building admin panels, internal dashboards and operational apps on the databases and APIs you already run: drag-and-drop interfaces wired to SQL or JavaScript queries, with git-based version control, environments and role-based access on top. The repo is Apache 2.0, and at 40,826 stars with roughly 380 contributors it is the largest project in the internal-tools class we cover; releases land steadily (v2.3 shipped August 13, 2026). One licensing detail matters before you install: the docs recommend the appsmith-ee image, which is the commercial edition with a free plan, and you swap to appsmith-ce for the pure community build, so the edition you run is a choice at install time. For marketing operations the draw is consolidation: campaign metrics from ad platform APIs, lead-quality views beside the CRM, and approval panels wired to the warehouse, all in one tab and all self-hosted so lead and consent data stays in-house. The connector list is wide: PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Redshift, DynamoDB, Elasticsearch, Redis, S3 and Firestore, plus SaaS integrations including HubSpot, Salesforce, Google Sheets, Airtable, Jira, Notion and Mixpanel, and any REST or GraphQL API. AI help is in the community edition since v2.3: Ask AI writes SQL and JavaScript in the editor once an admin enables a provider, while the older Appsmith AI datasource reaches end of life on September 30, 2026. Trade-offs: it is a developer-leaning tool, so someone comfortable with SQL and JS should own it; the default Docker install wants 8 GB of RAM on the host and outbound access to cs.appsmith.com; and there are no marketing-specific templates, so the first useful app is on you. Pricing is per user: free for five cloud users, Business at $15 per user monthly, Enterprise from $2,500 per month for 100 users. This assessment is based on the documented architecture and public materials.
 
 [Budibase](https://martechsignal.com/tools/budibase/) , Free tier. Open source.
 Budibase is an open-source operations platform for building internal apps, automations and AI agents on your own data, and its 2026 direction is agents first: the repo now bills it as AI agents, automations and apps that run your operations, model agnostic. You connect data sources, build interfaces in a visual builder, wire multi-step automations and, since the agents beta of March 2026, define agents as an LLM with instructions, tools, memory and structured outputs that can read rows, write rows and trigger automations, with per-tool run-as permissions and Slack or Microsoft Teams escalation when a human needs to approve. Model support is open rather than bundled: Anthropic, OpenAI, Google, Mistral, Groq, OpenRouter or any OpenAI-compatible endpoint, including locally hosted models. Licensing is layered: the repo's own guidelines say Budibase is GPLv3 overall, the client and component libraries are MPL 2.0, paid features live in a packages/pro folder under a Business Source License that converts to GPLv3 after four years, and apps you build are not GPL-restricted. Self-hosting free is real: one all-in-one Docker image rated at 2 cores and 6 GB of RAM, a compose cluster for production, or a Helm chart published to an OCI registry. Marketing teams reach for it on the same builds as its peers: lead-routing consoles, campaign budget trackers, content approval queues and dashboards that join ad platform data with CRM records. One behavior to plan around: automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL. External data sources documented include PostgreSQL, MySQL, MongoDB, SQL Server, Oracle, Snowflake, Elasticsearch, DynamoDB, Firestore, S3, Google Sheets and REST. Cloud plans start at $19 monthly billed annually with metered actions, and self-hosted open source has unlimited actions and users in a single workspace. This assessment is based on the documented architecture and public materials.
+
+[IFTTT](https://martechsignal.com/tools/ifttt/) , Freemium.
+IFTTT is the oldest name in this comparison and the one aimed at a different room. Its Applet model connects a trigger in one service to an action in another with no builder to learn, and the service catalogue reaches into consumer devices that business-focused platforms ignore entirely.
+Verified plans: the free tier runs two Applets with unlimited runs at standard speeds, Pro at $2.99/month billed annually lifts the cap to 20 Applets with multi-action steps and webhooks, and Pro+ at $8.99/month billed annually goes unlimited with AI services, query and filter code, and multiple accounts per service. The yearly billing is the price that matters; the monthly rates are markedly higher.
+For marketing teams, the honest read is that IFTTT is a connectivity tool, not an automation platform. There is no branching to design, no data transformation worth the name, and the run speeds on lower tiers are throttled by design. It earns its place at the edges: social listening triggers, device events, quick personal workflows where a full platform would be absurd.
 
 [LangChain](https://martechsignal.com/tools/langchain/) , Open Source. Open source.
 LangChain is the open-source framework that most AI agent implementations sit on top of, including n8n's AI Agent node. Founded in 2022 and headquartered in San Francisco, it provides the building blocks for chaining LLM calls, giving agents access to tools, and managing structured output from language models. For marketing automation, LangChain isn't a tool you point and click. It's a developer framework. But it's the engine inside many of the tools that marketers do use: n8n's AI Agent nodes run on LangChain, as do many custom marketing AI implementations. The framework provides standardized ways to connect LLMs to APIs, databases, and search tools, which is what makes AI agents in martech possible rather than just hype. The key concepts (chains for linked LLM calls, agents that decide which tools to call, retrieval for searching knowledge bases) directly enable the lead scoring, content generation, and data enrichment workflows that marketing teams build on platforms like n8n. LangChain's ecosystem includes LangSmith for observability and testing, LangGraph for stateful multi-actor applications, and a growing library of integrations. Unless you're a developer building custom AI pipelines, you won't use LangChain directly. But if you're evaluating a tool's AI capabilities, knowing whether it sits on LangChain (like n8n) versus a proprietary implementation tells you something about flexibility, community support, and upgrade paths. With 100K+ GitHub stars and a massive contributor community, LangChain is the closest thing to a standard for AI agent frameworks.
@@ -980,6 +1015,11 @@ Billing changed in August 2026, when credits replaced operations as the unit of 
 Plans are Free ($0, 1,000 credits a month, 2 active scenarios, a 15 minute minimum interval, 5 MB files), Core at $9 a month, Pro at $16, and Teams at $29, each for 10,000 credits a month with a slider running from 10,000 up to 8M+ credits, and Enterprise quoted. Annual billing saves 15% or more. Paid tiers raise maximum execution to 40 minutes, lift file limits to 100 to 500 MB, allow 5 GB of data transfer per 10,000 credits, and extend log storage to 30 or 60 days. No step or module limit is published.
 AI is a stated product line: Make AI Agents are available on all plans, alongside Maia by Make, the AI Toolkit, the Make MCP Server, and a Code App billed at 2 credits per second.
 For data heavy marketing work such as CRM syncs and contact enrichment, where one module iterates over many rows, credits cost less than Zapier's per task metering. Teams that need self hosting or unlimited execution should look at n8n instead.
+
+[Microsoft Power Automate](https://martechsignal.com/tools/power-automate/) , From $15/mo.
+Power Automate is the workflow layer of Microsoft's Power Platform, and its real competitor is not Zapier but the question of whether your organization already lives in Microsoft 365. Where it wins, it wins on proximity: connectors to SharePoint, Dataverse, and the Office suite that no third party can match, plus the governance surface that enterprise IT departments already know how to audit.
+Verified pricing on the vendor's page: Premium at $15 per user per month paid yearly covers cloud flows and attended RPA. Unattended robotic process automation is priced per bot at $150/month, and Microsoft-hosted bots at $215/month. The per-bot pricing is where teams get surprised, so capacity planning matters more here than in task-priced competitors.
+The honest caveat is the platform gravity. Flows, connections, and custom connectors accumulate inside the tenant, the licensing model rewards staying, and building outside the Microsoft estate means paying premium prices for convenience you may not need. Inside that estate, though, it is the shortest path between an event in Outlook and an action in the rest of your stack.
 
 [n8n](https://martechsignal.com/tools/n8n/) , Open Source. Open source.
 Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.
@@ -994,6 +1034,11 @@ The directory already has an n8n entry for the platform itself. This is a templa
 
 [NocoBase](https://martechsignal.com/tools/nocobase/) , Free tier. Open source.
 NocoBase is an open-source, self-hosted no-code platform for assembling business systems: CRMs, approval flows, content operations, internal dashboards, from configurable data models, pages and workflow blocks. Its plugin architecture and AI-assisted building put it closer to a marketing-ops construction kit than a fixed automation tool: you compose the campaign-management system you want rather than accept the one shipped. Everything is built data-model-first: define structures, then assemble interfaces and workflows around them, with the plugin architecture extending nearly everything including UI blocks. For marketing teams the practical use is operational infrastructure generic tools handle poorly: lead routing with audit trails, campaign and UTM trackers joined to results, content approval chains, and lightweight marketing data hubs that keep consent records and lead history inside your own infrastructure. That last part matters for EU teams with GDPR obligations, and for anyone tired of per-seat pricing on operational data. Server-side workflows keep routing, enrichment and notifications running without a browser open. The platform is actively developed with significant investment in its plugin ecosystem, and at 23,700-plus GitHub stars it is among the most-starred projects in this directory. Version 2.0 adds AI employees: assistant-style agents working on top of your data models and the no-code interface, which helps with configuration and answering questions over operational data. The honest trade-off is the learning curve: data-model thinking is required, not optional, which puts it a step steeper than Airtable-class tools, and there are no turnkey email or campaign-sender connectors in the box. For marketing operations teams with an engineer anywhere nearby, that trade buys systems that match their process. For pure self-serve no-code expectations, it will feel like work. Chinese and English communities are both large, with documentation in six-plus languages.
+
+[Pabbly Connect](https://martechsignal.com/tools/pabbly-connect/) , From $16/mo.
+Pabbly Connect competes on price structure rather than feature count. Where most automation platforms bill per task run on a monthly subscription that resets with the calendar, Pabbly sells task volume in yearly tiers and, uniquely in this comparison, a one-time lifetime license at $349.
+The pricing is a slider from 10,000 tasks a month at $16/month billed yearly up to $254/month at the largest listed volume. That makes the cost model predictable for teams with steady automation loads and worth modeling before committing, because the lifetime deal changes the math for anyone planning to keep a workflow running for years.
+The trade-offs sit in the platform layer around the workflows. The catalog's research found fewer of the governance and observability features that enterprise buyers take for granted, and the AI tooling is a separate Pabbly product rather than something woven into the builder. For a small team automating a known set of processes at high volume, the arithmetic is genuinely hard to beat.
 
 [Paperclip](https://martechsignal.com/tools/paperclip/) , Freemium. Open source.
 Paperclip is an open-source control plane for running a team of AI agents like a company: a Node.js server with a React UI that models org charts, goals, budgets, and governance instead of workflows. Its README is explicit: not an agent framework, not a workflow builder, not a chatbot, not a single-agent tool. Agents run wherever they already run (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Hermes, Grok, Kimi Code, or an OpenClaw gateway) and connect through adapters; if it can receive a heartbeat, the docs say, it's hired. The structure is a strict tree: every agent except the CEO has exactly one manager, and the CEO reports to you. Governance is the product. Agents cannot hire without filing a hire request into your approval queue, the CEO cannot move tasks to in progress until you approve its strategy, and budgets warn at 80% and hard-stop at 100%, pausing the scope until you raise the cap or the month resets. Every mutation produces a permanent activity record, config changes are revisioned, and one deployment can run unlimited companies with data isolation. Two details matter for anyone expecting an always-on swarm. Interval heartbeats are off by default: agents stay dormant until a task, a comment, a manual wake, or a routine arrives. And Paperclip pushes no outbound webhooks, so Slack alerting means a routine that polls. Model spend is yours: you bring provider keys, Paperclip tracks the cache-adjusted cost each agent accrues, and the docs estimate $3-15 a month for a moderately active worker. Self-hosting is free under MIT (Node.js 24.11+, pnpm 9.15+, embedded PostgreSQL, any 1 vCPU 2 GB VPS), the hosted cloud is one flat € 10/month plan with unlimited companies and EU hosting, and prebuilt company templates range from a five-agent engineering team to a 167-agent agency. At 80,187 stars with calendar-versioned releases every week or two, it is among the most active agent-management projects available.

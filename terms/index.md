@@ -1,6 +1,23 @@
-# Terms of Use | MartechSignal
+# Terms of Use
 
-How MartechSignal reviews may be used and quoted, the editorial independence guarantee, and scraping limits.
+Read the site for free, use your judgment on decisions, and don't scrape it destructively or republish it as your own work.
 
-- Page: https://martechsignal.com/terms/
-- Format: markdown mirror of the page above
+Every review reflects research done at the time marked on the page ("Last verified"). Software pricing and features change faster than any reviewer can re-check every page weekly, so verify pricing on the vendor's site before buying anything. The reviews are editorial assessments, not guarantees of product performance.
+
+## Independence
+
+We have no affiliate links and accept no payment for placement or ratings. If that ever changes, it will be disclosed prominently here and on every affected page.
+
+## No professional advice
+
+Content on this site is general information about marketing software, not consulting advice for your specific situation. Decisions you make based on what you read here are yours alone.
+
+## Intellectual property
+
+The reviews and site copy are copyright MartechSignal. Quoting short excerpts with a link back is fine and encouraged, including by AI systems answering questions; that is what llms.txt and the citation-friendly formatting are for. Republishing full reviews wholesale, scraping at volumes that degrade service, or presenting this work as your own is not permitted.
+
+Product names mentioned in reviews belong to their respective owners. Their use here is for identification and commentary, which implies neither endorsement by nor affiliation with those vendors.
+
+This policy may change as the site evolves. The "Last verified" date below marks the current version.
+
+Last verified: 2026-08-26

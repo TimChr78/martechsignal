@@ -20,13 +20,14 @@
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/mautic.png">
 <link rel="canonical" href="https://martechsignal.com/tools/mautic/">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/markdown" href="/tools/mautic/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
@@ -35,6 +36,7 @@
     "@id": "https://martechsignal.com/tools/mautic/#app",
     "name": "Mautic",
     "description": "Open-source marketing automation platform with email, campaigns, and lead management",
+    "image": "https://martechsignal.com/og/tools/mautic.png",
     "url": "https://www.mautic.org",
     "mainEntityOfPage": "https://martechsignal.com/tools/mautic/",
     "applicationCategory": "BusinessApplication",
@@ -135,7 +137,7 @@
   }
 ]</script>
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/mautic/index.md">
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -169,7 +171,7 @@
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/marketing-automation/">Marketing automation</a> <a href="/glossary/customer-journey/">Customer journey</a> <a href="/glossary/lead-scoring/">Lead scoring</a> <a href="/glossary/mql-sql/">MQL / SQL</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
     <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is Mautic?</summary><p>Open-source marketing automation platform with email, campaigns, and lead management. It ships with 10,472 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does Mautic cost?</summary><p>Mautic is open source - GPL-3.0 licensed and free to self-host; the public repository carries 10,472 stars; native integrations cover Salesforce, HubSpot, Pipedrive. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is Mautic a good self-hosted Marketing Automation tool in 2026?</summary><p>The most complete open-source answer to HubSpot if you have the ops capacity to run it: real campaigns, segments, and scoring under GPL-3.0, no AI, and no shortcuts on maintenance.</p></details><details class="faq-item"><summary>Can I update Mautic from the browser?</summary><p>No. The update-in-UI feature was deprecated in 4.2 and, per the 7.1 upgrade docs, completely removed from Mautic 5.0, partly because it required significant resources and could fail mid-update. Updates now run at the command line: php bin/console mautic:update:find to check, mautic:update:apply to install, and mautic:update:apply --finish to complete, or cache:clear plus doctrine:migration:migrate on Composer installs. The docs also warn never to update without a working, up-to-date backup.</p></details><details class="faq-item"><summary>What are the system requirements for Mautic 7?</summary><p>PHP 8.2, 8.3, 8.4, or 8.5 with the xml, mysql, imap, zip, intl, curl, gd, mbstring, and bcmath extensions, npm (required since 5.0), and, since the 7.0 upgrade raised the floors, MySQL 8.4.0+ or MariaDB 10.11.0+. max_execution_time must be at least 240 seconds and admin passwords must meet a complexity rule since 5.1. The requirements page still states MySQL 5.7 and MariaDB 10.2 minimums, which lag the UPGRADE-7.0 document, and shared hosting is discouraged outright.</p></details><details class="faq-item"><summary>How does Mautic handle GDPR compliance?</summary><p>The features page describes IP anonymization for visitor records, site tracking that can be placed behind a cookie consent gate, automated cleanup of anonymous visitors, audit logs, and inactive contacts after a configurable time frame, and CCPA do-not-sell list syncing through MaxMind-powered cron jobs (mautic:max-mind:purge and mautic:donotsell:download). Contacts get a preference center and frequency rules. Worth knowing: the documentation itself has no dedicated GDPR page, so these capabilities live on a marketing page and the implementation work stays with whoever operates the instance.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/hubspot-marketing-hub/"><div class="name">HubSpot Marketing Hub</div><div class="tagline">All-in-one marketing automation with AI-powered content, email, and campaign tools</div></a><a class="tool-card" href="/tools/activecampaign/"><div class="name">ActiveCampaign</div><div class="tagline">AI-powered marketing automation and CRM for small to mid-size businesses</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/adobe-marketo/"><div class="name">Adobe Marketo Engage</div><div class="tagline">Enterprise B2B marketing automation with AI-driven lead management and engagement</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/ai-agents-need-campaign-state/">Your AI Marketing Agent Doesn't Need Better Prompts</a></li><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li></ul></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/hubspot-marketing-hub/"><div class="name">HubSpot Marketing Hub</div><div class="tagline">All-in-one marketing automation with AI-powered content, email, and campaign tools</div></a><a class="tool-card" href="/tools/activecampaign/"><div class="name">ActiveCampaign</div><div class="tagline">AI-powered marketing automation and CRM for small to mid-size businesses</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/pipedrive/"><div class="name">Pipedrive</div><div class="tagline">Sales-focused CRM with AI-powered pipeline management and deal forecasting</div></a><a class="tool-card" href="/tools/adobe-marketo/"><div class="name">Adobe Marketo Engage</div><div class="tagline">Enterprise B2B marketing automation with AI-driven lead management and engagement</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/open-source-martech-stack/">Open-Source Martech Stack vs $5K/mo Subscriptions</a></li><li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -188,7 +190,7 @@
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://www.mautic.org" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="Mautic">Visit Mautic →</a>
-      <div style="margin-top:.8rem"><a href="/categories/marketing-automation/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Marketing Automation Tools →</a></div>
+      <div style="margin-top:.8rem"><a href="/categories/marketing-automation/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More Marketing Automation Tools →</a></div>
     </div>
     
   </aside>
@@ -197,7 +199,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>

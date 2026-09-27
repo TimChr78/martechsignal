@@ -9536,5 +9536,155 @@
         ]
       ]
     }
+  },
+  {
+    "slug": "activepieces",
+    "name": "Activepieces",
+    "tagline": "Open-source workflow automation with a free cloud tier and on-prem hosting",
+    "website": "https://www.activepieces.com",
+    "category": "workflow-automation",
+    "pricing_model": "freemium",
+    "pricing_url": "https://www.activepieces.com/pricing",
+    "price_from": 0,
+    "paid_from": 20,
+    "price_notes": "Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27.",
+    "ai_features": [
+      "Chat-to-automation builder",
+      "AI agents",
+      "MCP and API access",
+      "Bring your own AI keys"
+    ],
+    "integrations": [
+      "Slack",
+      "Gmail",
+      "Google Sheets",
+      "Notion",
+      "HubSpot",
+      "OpenAI"
+    ],
+    "github_repo": "activepieces/activepieces",
+    "open_source": true,
+    "api_available": true,
+    "status": "active",
+    "date_added": "2026-09-27",
+    "date_updated": "2026-09-27",
+    "description": "Activepieces is an open-source automation platform that treats self-hosting as a first-class option rather than an enterprise footnote. The same product runs on their cloud, on your own servers, or fully air-gapped, and the pricing page says so in plain words instead of hiding it behind a sales call.\n\nThe commercial model is built on credits with flat monthly prices: Plus at $20/month buys 10,000 credits and up to five users with no per-task staircase, and overage runs $0.007 per credit. Teams that outgrow it move to the $200/month Team tier for 50,000 credits, 25 users, and SSO. The free tier is real rather than a trial: 100 credits a day, unlimited flows, no card required.\n\nThe AI story is the interesting part for agent-curious teams. Flows, agents, and tables live in one builder, MCP and API access ship on the free tier, and the paid tiers let you bring your own model keys instead of paying a markup on tokens. For a team that wants automation infrastructure it can actually inspect and move, this is one of the few honest options in the category.",
+    "seo_description": "Activepieces: open-source workflow automation with a free cloud tier, flat credit pricing from $20/mo, and first-class self-hosting.",
+    "deep_dive": {
+      "hands_on": [
+        "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
+      ]
+    }
+  },
+  {
+    "slug": "pabbly-connect",
+    "name": "Pabbly Connect",
+    "tagline": "Task-priced integration platform with a one-time lifetime purchase option",
+    "website": "https://www.pabbly.com/connect/",
+    "category": "workflow-automation",
+    "pricing_model": "paid",
+    "pricing_url": "https://www.pabbly.com/connect/#pricing",
+    "price_from": 16,
+    "paid_from": 16,
+    "price_notes": "Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27.",
+    "ai_features": [
+      "AI workflow builder (Pabbly AgenticAI, sold separately)"
+    ],
+    "integrations": [
+      "Google Sheets",
+      "Salesforce",
+      "HubSpot",
+      "Mailchimp",
+      "Slack"
+    ],
+    "open_source": false,
+    "api_available": true,
+    "status": "active",
+    "date_added": "2026-09-27",
+    "date_updated": "2026-09-27",
+    "description": "Pabbly Connect competes on price structure rather than feature count. Where most automation platforms bill per task run on a monthly subscription that resets with the calendar, Pabbly sells task volume in yearly tiers and, uniquely in this comparison, a one-time lifetime license at $349.\n\nThe pricing is a slider from 10,000 tasks a month at $16/month billed yearly up to $254/month at the largest listed volume. That makes the cost model predictable for teams with steady automation loads and worth modeling before committing, because the lifetime deal changes the math for anyone planning to keep a workflow running for years.\n\nThe trade-offs sit in the platform layer around the workflows. The catalog's research found fewer of the governance and observability features that enterprise buyers take for granted, and the AI tooling is a separate Pabbly product rather than something woven into the builder. For a small team automating a known set of processes at high volume, the arithmetic is genuinely hard to beat.",
+    "seo_description": "Pabbly Connect: task-based integration platform, $16/mo for 10,000 tasks billed yearly, plus a $349 one-time lifetime license.",
+    "deep_dive": {
+      "hands_on": [
+        "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
+      ]
+    }
+  },
+  {
+    "slug": "power-automate",
+    "name": "Microsoft Power Automate",
+    "tagline": "Enterprise workflow automation inside the Microsoft Power Platform",
+    "website": "https://powerautomate.microsoft.com",
+    "category": "workflow-automation",
+    "pricing_model": "paid",
+    "pricing_url": "https://powerautomate.microsoft.com/en-us/pricing/",
+    "price_from": 15,
+    "paid_from": 15,
+    "price_notes": "Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27.",
+    "ai_features": [
+      "Copilot-assisted flow building",
+      "AI Builder document processing",
+      "Agentic flows"
+    ],
+    "integrations": [
+      "Microsoft 365",
+      "SharePoint",
+      "Dataverse",
+      "Salesforce",
+      "SAP",
+      "Google Drive"
+    ],
+    "open_source": false,
+    "api_available": true,
+    "founded": 2016,
+    "hq": "Redmond, WA, USA",
+    "status": "active",
+    "date_added": "2026-09-27",
+    "date_updated": "2026-09-27",
+    "description": "Power Automate is the workflow layer of Microsoft's Power Platform, and its real competitor is not Zapier but the question of whether your organization already lives in Microsoft 365. Where it wins, it wins on proximity: connectors to SharePoint, Dataverse, and the Office suite that no third party can match, plus the governance surface that enterprise IT departments already know how to audit.\n\nVerified pricing on the vendor's page: Premium at $15 per user per month paid yearly covers cloud flows and attended RPA. Unattended robotic process automation is priced per bot at $150/month, and Microsoft-hosted bots at $215/month. The per-bot pricing is where teams get surprised, so capacity planning matters more here than in task-priced competitors.\n\nThe honest caveat is the platform gravity. Flows, connections, and custom connectors accumulate inside the tenant, the licensing model rewards staying, and building outside the Microsoft estate means paying premium prices for convenience you may not need. Inside that estate, though, it is the shortest path between an event in Outlook and an action in the rest of your stack.",
+    "seo_description": "Microsoft Power Automate: Power Platform workflows, Premium $15/user/month yearly, unattended RPA $150/bot/month. Enterprise automation inside Microsoft 365.",
+    "deep_dive": {
+      "hands_on": [
+        "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
+      ]
+    }
+  },
+  {
+    "slug": "ifttt",
+    "name": "IFTTT",
+    "tagline": "Consumer-friendly automation connecting apps and smart devices",
+    "website": "https://ifttt.com",
+    "category": "workflow-automation",
+    "pricing_model": "freemium",
+    "pricing_url": "https://ifttt.com/plans",
+    "price_from": 0,
+    "paid_from": 2.99,
+    "price_notes": "Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27.",
+    "ai_features": [
+      "AI services on Pro+",
+      "Query and filter code steps"
+    ],
+    "integrations": [
+      "Gmail",
+      "Google Sheets",
+      "Twitter",
+      "Discord",
+      "Webhooks",
+      "YouTube"
+    ],
+    "open_source": false,
+    "api_available": true,
+    "founded": 2010,
+    "hq": "San Francisco, CA, USA",
+    "status": "active",
+    "date_added": "2026-09-27",
+    "date_updated": "2026-09-27",
+    "description": "IFTTT is the oldest name in this comparison and the one aimed at a different room. Its Applet model connects a trigger in one service to an action in another with no builder to learn, and the service catalogue reaches into consumer devices that business-focused platforms ignore entirely.\n\nVerified plans: the free tier runs two Applets with unlimited runs at standard speeds, Pro at $2.99/month billed annually lifts the cap to 20 Applets with multi-action steps and webhooks, and Pro+ at $8.99/month billed annually goes unlimited with AI services, query and filter code, and multiple accounts per service. The yearly billing is the price that matters; the monthly rates are markedly higher.\n\nFor marketing teams, the honest read is that IFTTT is a connectivity tool, not an automation platform. There is no branching to design, no data transformation worth the name, and the run speeds on lower tiers are throttled by design. It earns its place at the edges: social listening triggers, device events, quick personal workflows where a full platform would be absurd.",
+    "seo_description": "IFTTT: automation for apps and smart devices. Free with 2 Applets, Pro $2.99/mo, Pro+ $8.99/mo billed annually.",
+    "deep_dive": {
+      "hands_on": [
+        "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
+      ]
+    }
   }
 ]

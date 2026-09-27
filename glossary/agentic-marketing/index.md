@@ -1,6 +1,43 @@
-# Agentic Marketing | Definition | MartechSignal
+# Agentic Marketing
 
-Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, con
+Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.
 
-- Page: https://martechsignal.com/glossary/agentic-marketing/
-- Format: markdown mirror of the page above
+## Why it matters
+
+The term crystallized as vendors needed language distinct from generic AI features. Agentic implies goals plus constraints: you set the objective and the guardrails, the agent operates inside them. Critics note the boundary between an agentic feature and a plain automated rule is often marketing copy rather than architecture.
+
+## How it works
+
+Agentic deployments start from a process inventory: which marketing decisions are repetitive, verifiable, and bounded. Those become agent-owned processes with explicit success metrics and guardrails. Everything else stays human-led with AI assistance. The architecture question is never whether agents can do the work but whether failures are detectable fast enough to bound the damage. You pick one process with a clear success metric and a bounded blast radius, like budget reallocation inside a fixed daily cap, and give the agent ownership of it with an audit log. Everything runs against shared state, campaign settings, audience definitions, suppression lists, so the agent is not improvising from a prompt. When the log shows decisions you cannot reconstruct, shrink the scope before you expand it.
+
+## Practical uses
+
+Early production uses: budget pacing within hard caps, creative variant rotation against holdout tests, suppression-list synchronization across platforms, and anomaly-triggered campaign pauses. Content generation remains mostly AI-assisted rather than agentic because verification is expensive.
+
+## How to choose
+
+Vendors claiming agentic behavior should show the guardrail surface: where limits are set, how actions are logged, and what the intervention path looks like. If the answer is a chat prompt, it is assistance with better marketing.
+
+Scope discipline: teams report stable results delegating 10-25% of decisions to agents initially, expanding as verification matures. Attempting majority delegation in quarter one correlates with rollback. Measure decision quality, not decision volume - the useful metric is error rate per delegated process, tracked weekly. Agentic pricing is usually usage-based: credits or per-action fees layered on a platform subscription, and rates vary by vendor. Salesforce&#x27;s Agentforce credits are one concrete example: one agent action consumes 20 credits priced at $0.10 each. Budget for the supervision too, because someone has to read the audit log. The cheap first step is delegating a single process for one month and comparing its decisions against what your team would have done.
+
+## Common mistakes
+
+Agentic rollouts fail most often from vague objectives. Give an agent raise ROAS with no constraint and it optimizes into tiny, weird audiences; the fix is minimum-volume floors and creative diversity requirements, written down before launch. Agentic marketing is not marketing automation with a new label. Automation executes steps you designed; an agent chooses steps inside constraints you set. The confusion works both ways: vendors call plain automation agentic, and teams expect automation-style predictability from agents that adapt. Judge any pitch on the control surface instead: budget caps, state access, what runs unreviewed, and what the audit trail records.
+
+## What changed with AI
+
+The agentic label is itself an AI-era phenomenon, and it is becoming table stakes in vendor messaging. The audit question for any agentic claim: what decision did this system make last week that a rule could not have?
+
+## Tools in this space
+
+## Related terms
+
+Marketing automation · MQL / SQL · ABM · Lead scoring · Marketing ops
+
+## Seen in the wild
+
+Your Agents Are Only as Smart as Your Identity Debt · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
+
+Marketing Automation
+
+- Marketing automation

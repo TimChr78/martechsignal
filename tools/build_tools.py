@@ -426,6 +426,18 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
     schema_block = ""
     if schema_json:
         schema_block = f'<script type="application/ld+json">{json.dumps(schema_json, indent=2)}</script>'
+    # A3 M-2 (2026-09-27): the breadcrumb tag lives in the base template now, so
+    # every page that renders a trail also ships a BreadcrumbList (four pages had
+    # visible trails with no markup). Pages that already pass one are skipped.
+    if not (schema_json and "BreadcrumbList" in json.dumps(schema_json)):
+        segs = [s for s in canonical.strip("/").split("/") if s]
+        names = ["Home"] + [s.replace("-", " ").title() for s in segs]
+        urls = ["https://martechsignal.com/"] + [
+            "https://martechsignal.com/" + "/".join(segs[: i + 1]) + "/" for i in range(len(segs))]
+        crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u}
+                                     for i, (n, u) in enumerate(zip(names, urls))]}
+        schema_block += f'<script type="application/ld+json">{json.dumps(crumb, indent=2)}</script>'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -448,17 +460,18 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/markdown" href="{canonical.rstrip('/')}/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 {schema_block}
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
-<link rel="stylesheet" href="/style.css?v={_css_v()}">
+<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -475,7 +488,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -573,7 +586,7 @@ def build_hub(tools, cats):
     # R3-M3 (wave 3): ListItem.item nodes instead of bare name+url
     schema["itemListElement"] = [
         {"@type": "ListItem", "position": i+1,
-         "item": {"@type": "Thing", "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
+         "item": {"@type": "SoftwareApplication", "@id": f"https://martechsignal.com/tools/{t['slug']}/#app", "name": t["name"], "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
         for i, t in enumerate(active)
     ]
 
@@ -646,13 +659,41 @@ def _score_band(t):
                           "name": "MartechSignal"},
             "datePublished": "2026-09-26",
             "reviewBody": rec["verdict"],
-            "itemReviewed": {"@type": "Thing", "name": t["name"],
+            "itemReviewed": {"@type": "SoftwareApplication", "@id": f"https://martechsignal.com/tools/{t['slug']}/#app", "name": t["name"],
                              "url": "https://martechsignal.com/tools/" + t["slug"] + "/"},
             "reviewRating": {"@type": "Rating", "ratingValue": rec["score_total"],
                              "bestRating": 60, "worstRating": 0},
         }
     return band, review
 
+
+
+# A3 M-20 (2026-09-27): commercial guide links on tool pages (the audit found
+# /tools/n8n/ not linking its own comparison). Maps derive from the content files.
+_VS_MAP = {"n8n": ["n8n-vs-zapier"], "zapier": ["n8n-vs-zapier"],
+           "nocodb": ["nocodb-vs-nocobase"], "nocobase": ["nocodb-vs-nocobase"],
+           "matomo": ["matomo-vs-plausible"], "plausible": ["matomo-vs-plausible"]}
+_BEST_MAP = {}
+import json as _j
+for _e in _j.loads((ROOT / "tools" / "bestx-content.json").read_text()).get("pages", []):
+    for _it in _e.get("items", []):
+        _BEST_MAP.setdefault(_it["slug"], []).append(_e["slug"])
+
+
+def _guide_links(t):
+    links = []
+    for vs in _VS_MAP.get(t["slug"], []):
+        a, b = vs.split("-vs-")
+        other = b if a == t["slug"] else a
+        links.append(f'<a href="/vs/{vs}/">{t["name"]} vs {other.replace("-", " ").title()}</a>')
+    for bs in _BEST_MAP.get(t["slug"], []):
+        links.append(f'<a href="/best/{bs}/">{bs.replace("-", " ").title()}</a>')
+    seen, out = set(), []
+    for l in links:
+        if l not in seen:
+            seen.add(l)
+            out.append(l)
+    return out
 
 def _offer_for(t):
 
@@ -696,17 +737,16 @@ def _list_item_thing(t):
     without an offer re-triggers 'Either offers, review, or aggregateRating should
     be specified'."""
     _offer = _offer_for(t)
-    _base = {"name": t["name"], "description": t.get("tagline", ""),
+    _base = {"@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
+             "name": t["name"], "description": t.get("tagline", ""),
              "image": f"https://martechsignal.com/og/tools/{t['slug']}.png",
              "url": f"https://martechsignal.com/tools/{t['slug']}/"}
-    if _offer:
-        node = ({**_base, "@type": "SoftwareApplication",
-                 "operatingSystem": "Web", "applicationCategory": "BusinessApplication"}
-                if t.get("open_source") else
-                {**_base, "@type": "Product"})
-        node["offers"] = _offer
-        return node
-    return {**_base, "@type": "Thing"}
+    # A3 M-1 (2026-09-27): one entity, one type, one @id on lists. Category and
+    # index nodes consolidate on SoftwareApplication referencing the detail
+    # page's #app @id instead of re-declaring full nodes (drops the duplicated
+    # offer JSON that bloated the /tools/ block). The detail page keeps the
+    # GSC-validated M5 state machine (Product when a real offer exists).
+    return {**_base, "@type": "SoftwareApplication"}
 
 
 def build_tool_page(t, cats, all_tools):
@@ -1172,7 +1212,7 @@ def build_tool_page(t, cats, all_tools):
             f'<div class="side-row"><dt>{esc(str(er.get("source","")))} rating</dt>'
             f'<dd>{esc(str(er.get("score","")))}/{esc(str(er.get("max",5)))}{esc(count_s)}'
             f' · <a href="{esc(str(er.get("url","#")))}" target="_blank" rel="noopener nofollow">source</a>'
-            f'<br><span style="font-size:.68rem;color:var(--muted)">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
+            f'<br><span style="font-size:.8rem;color:var(--muted)">as of {esc(str(er.get("as_of","")))}</span></dd></div>'
         )
     if ext_lines:
         # R2 C-2 (2026-09-08): the old wording ("we rate only tools we run") directly
@@ -1180,7 +1220,7 @@ def build_tool_page(t, cats, all_tools):
         # State plainly whose ratings these are; link the methodology for the policy.
         srcs = sorted({str(er.get("source", "")).strip() for er in t.get("external_ratings") if er.get("source")})
         src_txt = "/".join(srcs) if srcs else "third-party platforms"
-        note = ('<div class="side-row" style="font-size:.68rem;color:var(--muted)">'
+        note = ('<div class="side-row" style="font-size:.8rem;color:var(--muted)">'
                 f'Ratings shown are third-party ({esc(src_txt)}), not MartechSignal\'s. '
                 'Our hands-on assessment is disclosed on this page.</div>')
         external_ratings_html = ('<div class="side-row"><dt style="font-weight:700">Third-party ratings</dt></div>'
@@ -1229,7 +1269,7 @@ def build_tool_page(t, cats, all_tools):
     </div>
     <div class="side-card">
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
-      <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
+      <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>
     {"" if pricing_html else pricing_card(t)}
   </aside>
@@ -1242,6 +1282,9 @@ def build_tool_page(t, cats, all_tools):
         "@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
         "name": t["name"],
         "description": t.get("tagline", ""),
+        # A3 M-3 (2026-09-26): the image asset already existed in the category
+        # nodes; the tool page's own app node now carries it too.
+        "image": f"https://martechsignal.com/og/tools/{t['slug']}.png",
         "url": t.get("website", ""),
         # S-2 (v2.4.0 audit): anchor the app entity to this page; url stays at the vendor.
         "mainEntityOfPage": f"https://martechsignal.com/tools/{t['slug']}/",
@@ -1348,6 +1391,9 @@ def build_tool_page(t, cats, all_tools):
         "mainEntity": _faq_for(t, c)
     }
 
+    guides = _guide_links(t)
+    if guides:
+        body += '<p class="alt-back">Related guides: ' + ' \u00b7 '.join(guides) + '</p>'
     out_dir = TOOLS_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     out = out_dir / "index.html"
@@ -1877,7 +1923,7 @@ def build_llms_txt(tools, cats):
     lines = [
         "# MartechSignal",
         "",
-        "> Independent reviews of AI marketing automation tools. Structured audits of",
+        "> Independent reviews of AI marketing automation tools. Structured research on",
         f"> {n_active} martech platforms | pricing, self-hosting, APIs, and which AI features",
         "> actually ship. No sponsored rankings, no affiliate links.",
         "",
@@ -1932,6 +1978,26 @@ def build_llms_txt(tools, cats):
     lines += ["", "## Categories", ""]
     for c in sorted(cats, key=lambda x: x["name"].lower()):
         lines.append(f"- [{c['name']}](https://martechsignal.com/categories/{c['slug']}/)")
+    # A3 M-9 (2026-09-27): the guides/comparisons and site pages were missing
+    # from llms.txt (12 sitemap URLs), and the policy was unreadable to agents.
+    lines += ["", "## Guides and comparisons", ""]
+    for fam, label in (("best", "Best"), ("vs", "Versus"), ("alternatives", "Alternatives")):
+        fam_dir = ROOT / fam
+        if fam_dir.is_dir():
+            for child in sorted(fam_dir.iterdir()):
+                f = child / "index.html"
+                if child.is_dir() and f.exists():
+                    m = _re.search(r"<title>([^<]+)</title>", f.read_text())
+                    ttl = (m.group(1) if m else child.name).split("|")[0].split("\u00b7")[0].strip()
+                    lines.append(f"- [{ttl}](https://martechsignal.com/{fam}/{child.name}/)")
+    lines += ["", "## Site", "",
+              "- [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy",
+              "- [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced",
+              "- [Authors](https://martechsignal.com/authors/)",
+              "- [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; "
+              "training model weights on this corpus is not permitted",
+              "- [Checklist](https://martechsignal.com/checklist/): tool selection checklist",
+              "- [Corrections](https://martechsignal.com/corrections/): published errata"]
     lines += ["", "## Links", "",
               "- [Full content mirror](https://martechsignal.com/llms-full.txt)",
               "- [Home](https://martechsignal.com/)",
@@ -2018,7 +2084,10 @@ def build_llms_txt(tools, cats):
                     f"- Tools: {len(members)}", ""] + [f"- {n}" for n in sorted(members)]
             (d / "index.md").write_text("\n".join(body))
             md_n += 1
-    (ROOT / "index.md").write_text("\n".join(lines))
+    # A3 M-6 (2026-09-27): /index.md is the HOMEPAGE mirror, generated from the
+    # rendered homepage by tools/build_md_mirrors.py. This writer used to copy the
+    # llms lines there, so agents requesting the homepage markdown got the whole
+    # catalog. llms.txt and llms-full.txt remain this function's job.
     md_n += 1
     # A2 H7 (2026-09-26): every rendered page gets a markdown mirror (the audit
     # found /vs/, /best/, /tools/, /blog/ and /ai-policy/ returning 404 on
@@ -2061,8 +2130,20 @@ def _audit_double_slash_hrefs():
     return fixed
 
 
+def minify_css():
+    """perf (2026-09-27): ship style.min.css; style.css stays the readable source."""
+    import re as _re
+    src = (ROOT / "style.css").read_text()
+    out = _re.sub(r"/\*.*?\*/", "", src, flags=_re.S)
+    out = _re.sub(r"\s+", " ", out)
+    out = _re.sub(r"\s*([{}:;,>])\s*", r"\1", out)
+    out = out.replace(";}", "}")
+    (ROOT / "style.min.css").write_text(out)
+
+
 if __name__ == "__main__":
     _n = _audit_double_slash_hrefs()
     if _n:
         print(f'  L2: normalized double-slash hrefs on {_n} pages')
+    minify_css()
     main()

@@ -75,6 +75,8 @@ def build_best():
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": page["title"],
+            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             "numberOfItems": len(items),
             "itemListElement": [
                 {"@type": "ListItem", "position": i + 1,
@@ -177,6 +179,8 @@ def build_vs():
         entity = {
             "@context": "https://schema.org",
             "@type": "WebPage",
+            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             "name": page["title"],
             "url": f"https://martechsignal.com/vs/{page['slug']}/",
             "inLanguage": "en",

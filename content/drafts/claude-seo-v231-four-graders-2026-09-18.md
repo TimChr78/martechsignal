@@ -81,6 +81,12 @@ The September 16 report produced four changes we shipped inside 24 hours.
 
 4. We dropped self-serving Review schema from our own pages. Marking up our directory's reviews as if they were third-party endorsements is the kind of thing Google's guidelines name explicitly.
 
+## Why graders disagree, and why that is the finding
+
+Four graders, one audit, and a spread wide enough to change decisions. The disagreement is not a scandal. It is what happens when three things vary at once. The rubric differs: what each grader weights as a category, and how it treats the same measured fact. The weights differ: the same sub-scores produce different totals when a rubric values links or schema differently. And the model behind the grade differs, because a reasoning grade is a judgment call with a temperature whether or not anyone names it.
+
+The useful reading of the spread is the uncertainty band. A tool that reports one number without its band is not more accurate than four graders. It is less honest. When the same site scores meaningfully differently depending on the instrument, the policy decision should not hinge on which instrument you happened to run, and any fix list worth acting on should be stable across the band. Ours mostly was, which is the part of the experiment that actually mattered.
+
 ## Who should run this tool
 
 ::: verdict warn

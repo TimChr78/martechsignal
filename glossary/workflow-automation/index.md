@@ -1,6 +1,39 @@
-# Workflow Automation (iPaaS) | Definition | MartechSignal
+# Workflow Automation (iPaaS)
 
-Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, send
+Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.
 
-- Page: https://martechsignal.com/glossary/workflow-automation/
-- Format: markdown mirror of the page above
+## Why it matters
+
+The category split into two camps: no-code platforms (Zapier, Make) that anyone can use, and developer-oriented tools (n8n, Pipedream) that offer more control at the cost of setup time. The no-code tools are great for simple, linear workflows. They get expensive and fragile when you need branching logic, error handling, or high volume. The developer tools have a steeper on-ramp but don&#x27;t charge per task, which changes the math at scale.
+
+## How it works
+
+Workflow automation platforms connect apps and run business processes without coding. You chain triggers, conditions, and actions into an automation: a new row in a spreadsheet triggers an email, a form submission creates a contact and posts a note. Classic tools do this through a visual editor. The newer class treats automation as code, with workflows stored in a repo and executed by an engine you can run yourself. Both share the same promise: rules that run without a human pressing buttons.
+
+## Practical uses
+
+Teams automate lead routing, data syncing between the CRM and the data warehouse, cross-tool notifications, and campaign operations. The biggest wins are integrations that used to run on spreadsheets and copy-paste. Automation also reduces the lag between systems, so a lead gets a follow-up minutes after signing up instead of a week later. The practical boundary is that each new step multiplies the places something can silently break.
+
+## How to choose
+
+Choose by who operates it. Visual platforms like Make and Zapier fit marketing teams without developers. Node-based engines like n8n fit teams that can version and deploy code, and they eliminate per-task pricing. Check how errors surface: a good platform fails loudly, with retries and logs, because silent failures are what destroy trust in automation. Also check data residency if your stacks cross borders.
+
+Cost comparison at real scale: a 10-step workflow running 500 times daily costs roughly $30-90 per month on Zapier&#x27;s task pricing, near zero self-hosting n8n on existing infrastructure, and $9-60 on Make depending on operation counts. The hidden variable is failure handling - retries, error branches, and dead-task cleanup are where each platform&#x27;s free tier quietly stops being usable.
+
+## Common mistakes
+
+The classic failure is over-automating before the underlying data is clean, so the errors get automated too, at scale and at speed. The second is building on a platform without thinking about the exit: every connector you depend on is a migration project later. The third is ignoring maintenance. Automations rot quietly as APIs change, and a broken automation is worse than none because nobody remembers what it was supposed to do.
+
+## What changed with AI
+
+AI agents turned automation from deterministic rules into goal-based prompts. Instead of wiring each step, you state an outcome and the agent picks the tools and the order. The trade-off is observability: a rule chain can be audited line by line, an agent&#x27;s decisions often cannot. Teams that keep approval gates on external messages and spend get the advantage without losing the audit trail. n8n and Make both ship AI nodes to bridge both worlds.
+
+## Tools in this space
+
+## Related terms
+
+Marketing ops · AI Agent · MCP · Agentic Marketing
+
+Workflow Automation
+
+- Marketing automation

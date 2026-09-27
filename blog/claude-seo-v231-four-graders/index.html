@@ -21,12 +21,21 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
   "@type": "BlogPosting",
   "headline": "Four Graders, One Site: What Five Claude SEO Scores Measure",
   "description": "We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.",
@@ -47,7 +56,7 @@
     "url": "https://martechsignal.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   },
   "datePublished": "2026-09-18",
@@ -59,7 +68,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1230,
+  "wordCount": 1405,
   "articleSection": "agent-skills"
 }
 </script>
@@ -89,7 +98,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -105,16 +114,17 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">AI · SEO · 6 MIN</p>
+<p class="kicker">AI · SEO · 7 MIN</p>
 <h1>Four Graders, One Site: What Five Claude SEO Scores Measure</h1>
 <img class="post-hero" src="/og/claude-seo-v231-four-graders.png" alt="Four Graders, One Site: What Five Claude SEO Scores Measure" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Four Graders, One Site: What Five Claude SEO Scores Measure</p>
 <p class="meta"><time datetime="2026-09-18">SEP 18, 2026</time> · Updated <time datetime="2026-09-25">SEP 25, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-five-scores-and-which-grader-produced-them">The five scores, and which grader produced them</a> · <a href="#what-v2-3-1-actually-said">What v2.3.1 actually said</a> · <a href="#the-5-100-that-mattered-more-than-the-76-6">The 5/100 that mattered more than the 76.6</a> · <a href="#v2-2-6-through-v2-3-1-fixes-self-hosters-should-read">v2.2.6 through v2.3.1: fixes self-hosters should read</a> · <a href="#what-we-fixed-on-our-own-site-within-a-day">What we fixed on our own site within a day</a> · <a href="#who-should-run-this-tool">Who should run this tool</a></nav>
+<p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-five-scores-and-which-grader-produced-them">The five scores, and which grader produced them</a> · <a href="#what-v2-3-1-actually-said">What v2.3.1 actually said</a> · <a href="#the-5-100-that-mattered-more-than-the-76-6">The 5/100 that mattered more than the 76.6</a> · <a href="#v2-2-6-through-v2-3-1-fixes-self-hosters-should-read">v2.2.6 through v2.3.1: fixes self-hosters should read</a> · <a href="#what-we-fixed-on-our-own-site-within-a-day">What we fixed on our own site within a day</a> · <a href="#why-graders-disagree-and-why-that-is-the-finding">Why graders disagree, and why that is the finding</a> · <a href="#who-should-run-this-tool">Who should run this tool</a></nav>
 <p>We have pointed the open-source Claude SEO skill at martechsignal.com five times since August. Scores: 83, 61, 74.6, 80, 76.6. None of them compare.</p>
 
 <p>That last sentence is the whole argument, so here is the defense. Four grading setups produced those five numbers: v2.2.4, v2.2.5, the September R2 re-audit, and v2.3.1. <a href="/tools/claude-seo/">Claude SEO</a> rewrites its gates, specialists, and rubric weights with most releases, so every version bump changes what the number means. Treat the score like a credit rating and you will read a tool upgrade as your site getting worse. We made that mistake publicly in August. Five audits later, we have a cleaner model: the score is an instrument reading, and instruments get recalibrated.</p>
@@ -165,6 +175,12 @@
 
 <p>4. We dropped self-serving Review schema from our own pages. Marking up our directory's reviews as if they were third-party endorsements is the kind of thing Google's guidelines name explicitly.</p>
 
+<h2 id="why-graders-disagree-and-why-that-is-the-finding">Why graders disagree, and why that is the finding</h2>
+
+<p>Four graders, one audit, and a spread wide enough to change decisions. The disagreement is not a scandal. It is what happens when three things vary at once. The rubric differs: what each grader weights as a category, and how it treats the same measured fact. The weights differ: the same sub-scores produce different totals when a rubric values links or schema differently. And the model behind the grade differs, because a reasoning grade is a judgment call with a temperature whether or not anyone names it.</p>
+
+<p>The useful reading of the spread is the uncertainty band. A tool that reports one number without its band is not more accurate than four graders. It is less honest. When the same site scores meaningfully differently depending on the instrument, the policy decision should not hinge on which instrument you happened to run, and any fix list worth acting on should be stable across the band. Ours mostly was, which is the part of the experiment that actually mattered.</p>
+
 <h2 id="who-should-run-this-tool">Who should run this tool</h2>
 
 <div class="verdict warn">
@@ -173,7 +189,7 @@
 
 <p>Five audits in, the pattern is consistent: the findings keep giving us work we act on, and the score keeps being the least dependable part of the report.</p>
 
-<p>One sourcing note. Every score in this post comes from an audit we ran against our own production site, and the category and E-E-A-T figures are from the saved September 16 v2.3.1 report.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/claude-ads/">Claude Ads</a> - Paid-media operations skill for Claude Code covering 12 ad platforms</li><li><a href="/tools/ai-marketing-claude/">AI Marketing Suite</a> - 15-skill marketing suite for Claude Code with parallel agents and PDF reports</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li><li><a href="/vs/n8n-vs-zapier/">n8n vs Zapier (2026): self-hosted depth or catalog breadth</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
+<p>One sourcing note. Every score in this post comes from an audit we ran against our own production site, and the category and E-E-A-T figures are from the saved September 16 v2.3.1 report.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/claude-ads/">Claude Ads</a> - Paid-media operations skill for Claude Code covering 12 ad platforms</li><li><a href="/tools/nightwatch/">Nightwatch</a> - Rank tracking across Google and AI answers, priced by keyword with unlimited seats</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/workflow-automation-tools/">Best workflow automation tools (2026)</a></li><li><a href="/vs/n8n-vs-zapier/">n8n vs Zapier (2026): self-hosted depth or catalog breadth</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/cdp/">CDP</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

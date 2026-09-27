@@ -49,6 +49,24 @@ Change what you measure. Sessions were the currency of the old deal. In the new 
 
 Most of all, build the owned channel: the email list, the RSS feed, the community. Publish on a CMS you control like [Ghost](/tools/ghost/) and capture the reader before the search engine can. That is traffic Google cannot take.
 
+## Three mechanisms, not one
+
+The phrase "training data and citation fodder" hides a distinction that decides what you do next. Three different things happen to your content, and only one of them can pay you back.
+
+Training is what happened to the corpus: your pages shaped model weights once, at training time, and nothing you publish now un-teaches it. Nothing you do changes it either. It is settled history.
+
+Retrieval is what happens at answer time. The engine searches live pages, reads some of them, and assembles a response. This is a game you can still play, and every structural fix in the section above targets it.
+
+Citation is what happens when the assembled answer names you. It is the only one of the three that routes anything back: the Seer data behind this post's middle section is the measurement, cited brands earning 120% more clicks per impression than uncited ones on the same query. Being trained on never sent you traffic. Being retrieved without a citation sends none either.
+
+## What survives
+
+The traffic that keeps arriving after an AI Overview appears has the same few properties. Branded queries, because the searcher wants you and the answer layer cannot substitute for you. Transactional and local intent, where the answer layer is thin so far. Tools and utilities, because a calculator or a generator is something you use rather than something you read, and usage does not summarize well.
+
+And primary data. Numbers nobody else has cannot be synthesized from the other ten pages in the corpus. When a model needs a figure that exists only on your page, the citation writes itself. That is the whole argument for publishing your own measurement, ugly methodology and honest gaps included. Publish the raw tables and the method notes alongside the narrative too, because the reproducible version of a claim is the one that gets cited, and the version with a method section survives the fact-check that comes after.
+
+Checking which bucket your traffic lives in takes one query export. Pull your search queries from Search Console, split branded from non-branded, and compare the impressions-to-clicks ratio on informational queries over the last six months. Impressions that hold steady while clicks fall is the signature of the answer layer taking the click while still reading your page. It is also the earliest honest signal you get, months before anyone's dashboard turns red. If the branded share of your clicks has been rising, that is not a recovery. That is the survival bucket growing because the other one is shrinking.
+
 ## The new terms
 
 I do not think this is malice, exactly. Google is a business making a rational call. The answer is worth more than the link, and it got the answer from you, for free, for fifteen years. Marketing teams that keep optimizing for the click are paying rent on a building that was condemned.

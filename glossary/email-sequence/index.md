@@ -1,6 +1,37 @@
-# Email Sequence (Drip Campaign) | Definition | MartechSignal
+# Email Sequence (Drip Campaign)
 
-An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your produc
+An email sequence is a series of automated emails sent on a schedule or triggered by behavior. A welcome sequence introduces new subscribers to your product. A nurture sequence educates leads over weeks. A win-back sequence tries to re-engage customers who stopped opening.
 
-- Page: https://martechsignal.com/glossary/email-sequence/
-- Format: markdown mirror of the page above
+## Why it matters
+
+The drip campaign got its name from the idea of slowly dripping information into a prospect&#x27;s inbox. The format works because it&#x27;s low effort for the sender and predictable for the recipient. The failure mode is writing seven emails that say the same thing in slightly different words. The sequences that perform well have a clear reason for each email to exist and a clear exit condition, the subscriber bought, replied, or explicitly said stop.
+
+## How it works
+
+An email sequence is a set of emails sent automatically at intervals or after triggers. The classic form is a drip campaign: welcome emails, onboarding steps, or follow-ups spaced over days. Modern sequences branch on behavior: a click moves the contact into a different next email, an open triggers a delay. The engine that runs them tracks each contact&#x27;s position and decides what to send from the campaign logic.
+
+## Practical uses
+
+Sequences drive onboarding, win-back, cart recovery, and nurture programs. The build order matters: start with the highest-intent trigger (welcome after signup), then add branches driven by real behavior. Deliverability is where sequences live or die; a sequence delivered straight to the inbox outperforms a brilliant one that lands in spam. Metrics to watch are per-step completion and conversion, not sends.
+
+## How to choose
+
+The platform decision hinges on where your data lives and whether you need code-level control. All-in-one tools like ActiveCampaign or Customer.io handle segmentation and automation in one UI. n8n plus a simple email API gives full control for teams that already run pipelines. If you need transactional + marketing sends in one place, look for a sender with strong API and reputation management rather than just pretty templates.
+
+## Common mistakes
+
+The most common mistake is building a long sequence nobody reads, burning domain reputation on low engagement. The second is hard-coding assumptions: a sequence built for summer deals running unchanged in January. The third is ignoring the unsubscribed and already-converted segments, so happy customers get pitched things they just bought. Sequence hygiene is the same as list hygiene, just applied per flow.
+
+## What changed with AI
+
+AI now drafts sequence copy, predicts send times, and picks subject lines from historical engagement. The useful application is personalization at scale: each branch of the flow can get a variant adapted to what the contact has done. The caution is that AI-generated volume lowers engagement if the copy feels templated, and filters notice. Keep the strategy human, use the model for variation and testing.
+
+## Tools in this space
+
+## Related terms
+
+Marketing automation · Deliverability · MQL / SQL · Lead scoring · Marketing ops
+
+Email Marketing
+
+- Deliverability

@@ -47,6 +47,14 @@ That JavaScript gap is worth pausing on. Neither tool renders a JavaScript-heavy
 
 **Infrastructure burden: Claude SEO.** Seonaut needs Docker and MySQL, and the project ships no tagged releases, so installs track the latest container image and upgrades mean pulling it. Claude SEO has no server to maintain. This is the mirror image of the interface factor, and for a solo developer it can be the deciding one.
 
+## The crawler gap
+
+Naming aside, the class difference here is a crawler versus a reader. A crawler like Seonaut walks the link graph with a queue, records response codes, redirect chains, canonical conflicts, and crawl depth, and can do it across a site of any size without an opinion about any of the pages. That coverage is real engineering and no agent session replicates it. The agent reads what it fetches and reasons about what it finds, which is a different axis entirely.
+
+The practical split falls along that line. Questions of enumeration and integrity, what exists, what is broken, what is orphaned, belong to the crawler. Questions of judgment, whether the page answers its query, whether the structure supports the claim, whether the fix is worth making, belong to the reader. Teams that try to push one tool onto the other's axis get either a thin crawl or an expensive enumeration.
+
+Run both if the site is large. Run the reader first if it is small and the question is quality, because a hundred correct URLs with weak answers is a content problem no crawl report will surface.
+
 ## Which should you pick
 
 **You are in Claude Code and want to know what to fix first.** Use [Claude SEO](/tools/claude-seo/). Run it against your own domain, work the prioritized list, and re-run after the fixes. The token cost is the price of the reasoning, and it is far below a consultant day rate.

@@ -21,12 +21,21 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
   "@type": "BlogPosting",
   "headline": "Claude SEO vs Seonaut: which free SEO checker should you run",
   "description": "Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill.",
@@ -47,7 +56,7 @@
     "url": "https://martechsignal.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   },
   "datePublished": "2026-09-17",
@@ -59,7 +68,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1380,
+  "wordCount": 1571,
   "articleSection": "seo"
 }
 </script>
@@ -89,7 +98,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -105,16 +114,17 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">SEO · OPEN SOURCE · 7 MIN</p>
+<p class="kicker">SEO · OPEN SOURCE · 8 MIN</p>
 <h1>Claude SEO vs Seonaut: which free SEO checker should you run</h1>
 <img class="post-hero" src="/og/claude-seo-vs-seonaut.png" alt="Claude SEO vs Seonaut: which free SEO checker should you run" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Claude SEO vs Seonaut: which free SEO checker should you run</p>
 <p class="meta"><time datetime="2026-09-17">SEP 17, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/seo/">SEO & Search</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-comparison-at-a-glance">The comparison at a glance</a> · <a href="#factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</a> · <a href="#which-should-you-pick">Which should you pick</a></nav>
+<p class="meta filed-cat">Filed under <a href="/categories/seo/">SEO & Search</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-comparison-at-a-glance">The comparison at a glance</a> · <a href="#factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</a> · <a href="#the-crawler-gap">The crawler gap</a> · <a href="#which-should-you-pick">Which should you pick</a></nav>
 <p>Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. <a href="/tools/claude-seo/">Claude SEO</a> is an agent skill that reasons about a site inside Claude Code and hands back a prioritized fix list. <a href="/tools/seonaut/">Seonaut</a> is a Go crawler you point at a domain and get a rule-by-rule report from. If you want a free SEO checker, you are choosing between an analyst and an instrument.</p>
 
 <p>The distinction matters because the two fail in opposite directions. An instrument is deterministic: crawl the same site twice, get the same findings, in the same export format. An analyst is not: it reads, prioritizes, and explains, and you pay for the thinking in API tokens. Decide which half of the job you need, and the higher cost of one option or the other stops being the deciding factor.</p>
@@ -145,6 +155,14 @@
 
 <p><strong>Infrastructure burden: Claude SEO.</strong> Seonaut needs Docker and MySQL, and the project ships no tagged releases, so installs track the latest container image and upgrades mean pulling it. Claude SEO has no server to maintain. This is the mirror image of the interface factor, and for a solo developer it can be the deciding one.</p>
 
+<h2 id="the-crawler-gap">The crawler gap</h2>
+
+<p>Naming aside, the class difference here is a crawler versus a reader. A crawler like Seonaut walks the link graph with a queue, records response codes, redirect chains, canonical conflicts, and crawl depth, and can do it across a site of any size without an opinion about any of the pages. That coverage is real engineering and no agent session replicates it. The agent reads what it fetches and reasons about what it finds, which is a different axis entirely.</p>
+
+<p>The practical split falls along that line. Questions of enumeration and integrity, what exists, what is broken, what is orphaned, belong to the crawler. Questions of judgment, whether the page answers its query, whether the structure supports the claim, whether the fix is worth making, belong to the reader. Teams that try to push one tool onto the other's axis get either a thin crawl or an expensive enumeration.</p>
+
+<p>Run both if the site is large. Run the reader first if it is small and the question is quality, because a hundred correct URLs with weak answers is a content problem no crawl report will surface.</p>
+
 <h2 id="which-should-you-pick">Which should you pick</h2>
 
 <p><strong>You are in Claude Code and want to know what to fix first.</strong> Use <a href="/tools/claude-seo/">Claude SEO</a>. Run it against your own domain, work the prioritized list, and re-run after the fixes. The token cost is the price of the reasoning, and it is far below a consultant day rate.</p>
@@ -155,7 +173,7 @@
 
 <p>A last note for anyone running either tool on a client's site. Seonaut identifies itself in server logs as SEOnautBot/1.0, so a client with alerting will see the crawl. Claude SEO appends its author's community links to major deliverables, so strip that before anything leaves the building. Both are free, and both come with a governance detail worth knowing before the first run.</p>
 
-<p>The Seonaut side of this comparison draws on the GitHub repository, seonaut.org, and the project's install documentation; we have not run a crawl with it. The Claude SEO scores and costs come from audits we ran on our own production site.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/potato-ai-visibility/">Potato</a> - Free local tool that measures brand mentions and citations in Claude's web-search answers</li><li><a href="/tools/ai-marketing-claude/">AI Marketing Suite</a> - 15-skill marketing suite for Claude Code with parallel agents and PDF reports</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/alternatives/matomo/">Best Matomo alternatives (2026)</a></li><li><a href="/alternatives/hubspot-crm/">Best HubSpot CRM alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
+<p>The Seonaut side of this comparison draws on the GitHub repository, seonaut.org, and the project's install documentation; we have not run a crawl with it. The Claude SEO scores and costs come from audits we ran on our own production site.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-teardown-martechsignal/">I Ran Claude SEO on My Own Site. It Found What Our Pipeline Missed.</a></li><li><a href="/blog/claude-seo-vs-semrush/">Claude SEO vs Semrush: what a free audit replaces, and what it does not</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/seo-skill-bench/">SEO Skill Bench</a> - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects</li><li><a href="/tools/scrunch/">Scrunch</a> - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</li><li><a href="/tools/claude-ads/">Claude Ads</a> - Paid-media operations skill for Claude Code covering 12 ad platforms</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/alternatives/hubspot-crm/">Best HubSpot CRM alternatives (2026)</a></li><li><a href="/alternatives/matomo/">Best Matomo alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/social-listening/">Social listening</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
@@ -163,7 +181,7 @@
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
-<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/languagetool/">LanguageTool</a></p>
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/jasper/">Jasper</a></p>
 </article>
 </main>
 <footer>

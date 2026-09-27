@@ -30,6 +30,45 @@ def alt_card(item, tools_by_slug):
 """
 
 
+
+
+
+def _billing_label(t):
+    """Categorical billing model derived from the catalog's verified price notes.
+    Deliberately labels, not numbers (the number rule: only the cost display)."""
+    n = (t.get("price_notes") or "").lower()
+    if "no published prices" in n or "custom" in n:
+        return "Contract, usage-based" if "usage" in n else "Contract"
+    unit = ("Task tiers" if "task" in n else
+            "Credits" if "credit" in n else
+            "Per bot" if "bot/month" in n or "per bot" in n else
+            "Per user" if "user/month" in n or "per user" in n else
+            "Flat fee" if "flat" in n else "Monthly plans")
+    if "lifetime" in n:
+        return unit + ", yearly or one-time"
+    if "billed yearly" in n or "annual" in n or "paid yearly" in n:
+        return unit + ", billed yearly"
+    return unit + ", monthly"
+
+
+def matrix_table(page, tools_by_slug):
+    """H-6 (2026-09-27): the scannable comparison the finding asked for."""
+    rows = []
+    for item in page["items"]:
+        t = tools_by_slug[item["slug"]]
+        self_host = "Yes" if t.get("open_source") else "No"
+        rows.append(
+            f'<tr><td><a href="/tools/{t["slug"]}/">{esc(t["name"])}</a></td>'
+            f'<td>{esc(pricing_label(t))}</td>'
+            f'<td>{esc(_billing_label(t))}</td>'
+            f'<td>{self_host}</td>'
+            f'<td>{esc(item["best_for"])}</td></tr>')
+    return (
+        '<table class="alt-matrix"><caption>Compared on the axes that decide the '
+        'purchase. Prices as catalogued on each vendor pricing page.</caption><thead><tr>'
+        '<th>Tool</th><th>Price</th><th>Billing model</th><th>Self-host</th><th>Best for</th>'
+        '</tr></thead><tbody>' + "".join(rows) + "</tbody></table>")
+
 def build():
     data = json.loads(CONTENT.read_text())
     tools = json.loads((ROOT / "tools" / "tools.json").read_text())
@@ -42,6 +81,7 @@ def build():
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
+        body.append(matrix_table(page, tools_by_slug))
         for item in page["items"]:
             assert item["slug"] in tools_by_slug, f"unknown item slug {item['slug']}"
             assert item["slug"] != page["slug"], "target listed as its own alternative"
@@ -57,6 +97,8 @@ def build():
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": page["title"],
+            "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
+            "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             "numberOfItems": len(items),
             "itemListElement": [
                 {"@type": "ListItem", "position": i + 1,
@@ -72,7 +114,10 @@ def build():
                  "item": "https://martechsignal.com/"},
                 {"@type": "ListItem", "position": 2, "name": "Tools",
                  "item": "https://martechsignal.com/tools/"},
-                {"@type": "ListItem", "position": 3, "name": page["title"],
+                # A3 M-2c (2026-09-27): the schema label must match the visible
+                # trail ("HubSpot CRM alternatives"), not the page title with the
+                # "Best ... (2026)" wrapper Google would show as the SERP crumb.
+                {"@type": "ListItem", "position": 3, "name": (page["title"][5:] if page["title"].startswith("Best ") else page["title"]).removesuffix(" (2026)").strip(),
                  "item": f"https://martechsignal.com/alternatives/{page['slug']}/"},
             ],
         }

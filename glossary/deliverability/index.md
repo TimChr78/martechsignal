@@ -1,6 +1,39 @@
-# Email Deliverability | Definition | MartechSignal
+# Email Deliverability
 
-Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication r
+Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.
 
-- Page: https://martechsignal.com/glossary/deliverability/
-- Format: markdown mirror of the page above
+## Why it matters
+
+Deliverability used to be a dark art. You&#x27;d warm up an IP address over weeks, monitor blacklist status, and pray. The big mailbox providers, Gmail, Microsoft, Yahoo, now publish clearer requirements, and Google&#x27;s 2024 bulk sender guidelines forced a lot of companies to finally set up DMARC. The tools in this space have gotten better at telling you why an email bounced instead of just that it did.
+
+## How it works
+
+Email deliverability is the measure of whether your messages reach the inbox instead of spam. It is decided by the receivers: Gmail, Outlook, and Yahoo run rules that score every sender on reputation, engagement, and infrastructure. Key inputs are your domain&#x27;s sending history, spam complaints, bounces, unsubscribes, and how many recipients open, reply, or delete without reading. The provider you send through matters, but the reputation belongs to your domain. You build reputation by sending wanted mail at a steady volume, and the receivers&#x27; filters respond by letting more of it through. Every send updates your standing on the signals receivers watch: complaint rate, bounce rate, trap hits, and engagement broken out by mailbox provider. When something goes wrong, the fix is usually upstream, list hygiene or content relevance, not a new sending tool.
+
+## Practical uses
+
+Teams manage deliverability through authentication (SPF, DKIM, DMARC), list hygiene, and engagement-focused sending. Warmup routines gradually increase volume for new domains. Monitoring looks at inbox placement tests and complaint rates per campaign. The business impact is direct: a 2% drop in deliverability can dent revenue more than a price change, because it silently removes a slice of every campaign&#x27;s reach.
+
+## How to choose
+
+Choosing a sender is part of it, but the biggest lever is your own domain reputation, which no provider can buy for you. For cold outreach look for dedicated sending infrastructure and warmup tooling. For lifecycle email the all-in-one platforms handle authentication for you. Whatever you pick, demand clear reporting on bounces, complaints, and blocks. A provider that hides those numbers is hiding a problem.
+
+The thresholds that matter: Google and Yahoo now expect spam-complaint rates under 0.3% with sub-0.1% as the safe zone, plus SPF/DKIM/DMARC alignment - unauthenticated mail at bulk volume simply stops arriving. Warm-up math matters too: new dedicated IPs earn roughly double their daily volume every few days; jumping straight to full list sends is how entire domains get burned in week one. Most email platforms bundle sending with a per-contact or per-send price, and some charge extra for dedicated IPs, dedicated domains, or validation add-ons. Pricing varies by vendor. The real cost is volume discipline: cleaning a stale list shrinks the contact count you pay for, which is the rare case where doing the right thing also cuts your bill.
+
+## Common mistakes
+
+The classic failure is buying a new tool and expecting it to fix a burned domain. Reputation follows the domain, not the software. The second mistake is sending to stale lists out of habit, which raises complaints and drags the whole domain down. The third is ignoring authentication until a provider flags it. DMARC alone prevents the worst kinds of spoofing damage. Delivery and deliverability are not the same thing. A delivered message landed on the receiving server; a deliverable message reached the inbox. A bounce report tells you about the first, not the second. Teams also confuse email validation with deliverability: validating an address at signup reduces bounces but does nothing for a domain that already has a complaint problem. And a dedicated IP is not automatically better. If your sending volume is low and irregular, a shared IP with good neighbors beats a cold dedicated one.
+
+## What changed with AI
+
+AI-spam changes deliverability because receivers now classify generated content at scale. Volume reinforces volume: AI makes bulk mail cheaper, filters get stricter, and engagement signals matter more. Tools that generate email copy need human review not just for voice but because hyper-personalized-sounding spam is exactly what filters now penalize. Keep engagement high and volume honest, and the AI layer stays an asset instead of a liability.
+
+## Tools in this space
+
+## Related terms
+
+Marketing automation · MQL / SQL · Lead scoring · Email sequence · Marketing ops
+
+Email Marketing
+
+- Email sequence

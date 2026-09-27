@@ -62,6 +62,7 @@ if [ "$DO_BUILD" -eq 1 ]; then
     # build_tools (the sitemap scan reads them). Same ordering rule again.
     python3 tools/build_hubs.py
     python3 tools/build_tools.py
+python3 tools/build_md_mirrors.py
     # Glossary hub + term pages reuse page_shell from build_tools. This was previously
     # NOT run by deploy, so glossary pages drifted and never picked up site-wide changes
     # (found as a stale 10-link footer during R2 M-6). Failure is non-fatal.

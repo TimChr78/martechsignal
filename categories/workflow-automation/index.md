@@ -3,13 +3,17 @@
 No-code/low-code automation platforms and iPaaS
 
 - Page: https://martechsignal.com/categories/workflow-automation/
-- Tools: 13
+- Tools: 17
 
+- Activepieces
 - Appsmith
 - Budibase
+- IFTTT
 - LangChain
 - Make
+- Microsoft Power Automate
 - NocoBase
+- Pabbly Connect
 - Paperclip
 - Pipedream
 - ToolJet

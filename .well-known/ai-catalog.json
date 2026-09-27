@@ -40,6 +40,19 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:activepieces",
+   "displayName": "Activepieces pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/activepieces/",
+   "description": "Open-source workflow automation with a free cloud tier and on-prem hosting",
+   "representativeQueries": [
+    "open source activepieces",
+    "Activepieces pricing",
+    "Activepieces alternatives",
+    "workflow automation tools like Activepieces"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:adcreative-ai",
    "displayName": "AdCreative.ai pricing & plans",
    "type": "text/html",
@@ -791,6 +804,18 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:ifttt",
+   "displayName": "IFTTT pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/ifttt/",
+   "description": "Consumer-friendly automation connecting apps and smart devices",
+   "representativeQueries": [
+    "IFTTT pricing",
+    "IFTTT alternatives",
+    "workflow automation tools like IFTTT"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:intercom",
    "displayName": "Intercom pricing & plans",
    "type": "text/html",
@@ -1333,6 +1358,18 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:pabbly-connect",
+   "displayName": "Pabbly Connect pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/pabbly-connect/",
+   "description": "Task-priced integration platform with a one-time lifetime purchase option",
+   "representativeQueries": [
+    "Pabbly Connect pricing",
+    "Pabbly Connect alternatives",
+    "workflow automation tools like Pabbly Connect"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:paperclip",
    "displayName": "Paperclip pricing & plans",
    "type": "text/html",
@@ -1454,6 +1491,18 @@
     "Potato pricing",
     "Potato alternatives",
     "seo tools like Potato"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:tools:power-automate",
+   "displayName": "Microsoft Power Automate pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/power-automate/",
+   "description": "Enterprise workflow automation inside the Microsoft Power Platform",
+   "representativeQueries": [
+    "Microsoft Power Automate pricing",
+    "Microsoft Power Automate alternatives",
+    "workflow automation tools like Microsoft Power Automate"
    ]
   },
   {
@@ -2170,7 +2219,7 @@
    "displayName": "Agent protocol vs data plumbing: what actually fails",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/",
-   "description": "MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.",
+   "description": "MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran&#x27;s count, run agents on data that cannot support them. The plumbing is the.",
    "representativeQueries": [
     "agent protocol vs data plumbing: what actually fails",
     "agent protocol vs data plumbing"

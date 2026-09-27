@@ -21,12 +21,21 @@
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelectors": [
+      "h1",
+      "article h2"
+    ]
+  },
   "@type": "BlogPosting",
   "headline": "Claude SEO vs Semrush: what a free audit replaces, and what it does not",
   "description": "One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system.",
@@ -47,7 +56,7 @@
     "url": "https://martechsignal.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   },
   "datePublished": "2026-09-16",
@@ -59,7 +68,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1216,
+  "wordCount": 1425,
   "articleSection": "seo"
 }
 </script>
@@ -89,7 +98,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -105,16 +114,17 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">SEO · AGENT SKILLS · 6 MIN</p>
+<p class="kicker">SEO · AGENT SKILLS · 7 MIN</p>
 <h1>Claude SEO vs Semrush: what a free audit replaces, and what it does not</h1>
 <img class="post-hero" src="/og/claude-seo-vs-semrush.png" alt="Claude SEO vs Semrush: what a free audit replaces, and what it does not" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · Claude SEO vs Semrush: what a free audit replaces, and what it does not</p>
 <p class="meta"><time datetime="2026-09-16">SEP 16, 2026</time> · Updated <time datetime="2026-09-26">SEP 26, 2026</time></p>
 <div class="byline">
   <span class="av">TC</span>
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/seo/">SEO & Search</a></p>
+<p class="meta filed-cat">Filed under <a href="/categories/seo/">SEO & Search</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-comparison-at-a-glance">The comparison at a glance</a> · <a href="#factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</a> · <a href="#the-category-problem">The category problem</a> · <a href="#which-should-you-pick">Which should you pick</a></nav>
 <p>One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracking, backlinks, competitive intelligence, and reporting, all in one subscription. Comparing <a href="/tools/claude-seo/">Claude SEO</a> and <a href="/tools/semrush/">Semrush</a> as if they were the same product class is the mistake almost everyone makes before they look at the actual jobs. The useful question is which jobs each one finishes, and which of those jobs you are paying for.</p>
 
 <p>The cost gap makes the comparison feel lopsided: a free MIT skill against a platform that starts at $117 per month billed annually. But the free tool is not a smaller version of the paid one. It does a different thing, and knowing where the line falls saves you either a wasted subscription or a technical audit your platform will not run.</p>
@@ -123,13 +133,13 @@
 <p>Most readers should pick <strong>Semrush</strong>. Day-to-day SEO work is mostly recurring: tracking rankings, watching backlinks, researching keywords, and reporting to someone who does not open a terminal. Claude SEO does none of that. It wins the one job it was built for, a deep technical and AI-search audit of a site, and it does that job for the cost of API tokens. Buy Semrush for the platform work and keep Claude SEO for the audit, or defer the subscription until you need the data layer.</p>
 </div>
 
-<h2>The comparison at a glance</h2>
+<h2 id="the-comparison-at-a-glance">The comparison at a glance</h2>
 
 <div class="table-wrap"><table><thead><tr><th>Decision factor</th><th>Claude SEO</th><th>Semrush</th></tr></thead><tbody><tr><td>Cost</td><td>Free MIT skill; you pay API tokens per audit, roughly $6 per site in our runs</td><td>From $117/mo billed annually (Pro); Guru $250/mo; Business $500/mo; Semrush One $199/mo</td></tr><tr><td>Data it owns</td><td>None; it reads public sources and crawls on demand</td><td>A keyword database of 25 billion keywords across more than 140 countries, plus a backlink index and a site crawler with 140-plus checks</td></tr><tr><td>Ongoing monitoring</td><td>Point-in-time audits; no UI and no stored history</td><td>Daily position tracking, historical data on higher tiers, and scheduled crawls</td></tr><tr><td>Audit depth</td><td>Evidence-linked findings with dependencies and an explicit check for whether a fix worked</td><td>A technical crawler that flags issues across a large rule set, aimed at monitoring rather than a written action plan</td></tr><tr><td>AI search readiness</td><td>Scores pages for citability by AI answer engines, checks llms.txt and the structured data LLMs cite</td><td>Tracks AI visibility alongside traditional search, from a dashboard angle</td></tr><tr><td>Who can use it</td><td>Developers and SEO practitioners already in Claude Code</td><td>Any marketer, with dashboards, integrations, and client-ready reporting</td></tr><tr><td>Integrations</td><td>Claude Code, Google Search Console, DataForSEO, Firecrawl, Lighthouse</td><td>Google Analytics, Google Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce, Looker Studio</td></tr></tbody></table></div>
 
 <p>Neither tool is a complete answer, and the table shows why. Claude SEO has no database to stand on. Semrush has no terminal command that hands you a written, falsifiable fix list. The overlap is the site crawler, and even there the output shapes differ.</p>
 
-<h2>Factor by factor: who wins and why</h2>
+<h2 id="factor-by-factor-who-wins-and-why">Factor by factor: who wins and why</h2>
 
 <p><strong>Upfront cost: Claude SEO.</strong> The skill is free and MIT licensed, and our full-site audits on sites of 90 to 170 pages ran about five minutes and roughly six dollars each in API tokens. Semrush starts at $117 per month billed annually. For a one-off audit on a developer's machine, there is no contest.</p>
 
@@ -143,7 +153,15 @@
 
 <p><strong>Team access and reporting: Semrush.</strong> Dashboards, eight listed integrations including Google Analytics and WordPress, and white-label reporting on the Business tier. Claude SEO is terminal-only, which is a feature for a developer and a wall for a marketing team that needs something presentable on a Friday.</p>
 
-<h2>Which should you pick</h2>
+<h2 id="the-category-problem">The category problem</h2>
+
+<p>The honest answer to "which one wins" is that the question mixes two categories. Semrush is a data platform with an index: backlink graphs, keyword volumes, historical positions, ad spend estimates. It answers questions that require having watched the web for years. Claude SEO is an audit agent with no index at all. It answers questions about one site it can read right now, and it answers them by reasoning across the whole site at once.</p>
+
+<p>The overlap people compare is the site audit, and that overlap is real but shallow. Semrush crawls and flags against a rule set it maintains. The agent crawls, judges, and can write the fix. Neither replaces the other's core. A team without backlink data cannot synthesize it from an agent session no matter how good the reasoning is, and a team with Semrush still has to write its own fixes.</p>
+
+<p>The cost shapes are not comparable either. One is a seat-based subscription that pays for whether or not you use it this month. The other is per-run compute that scales with audits you actually run. The right mix for most teams is the boring one: pay for the data once, run the agent where judgment is the bottleneck, and stop asking either tool to be the other.</p>
+
+<h2 id="which-should-you-pick">Which should you pick</h2>
 
 <p><strong>An in-house SEO lead with a site to grow and people to report to.</strong> Buy <a href="/tools/semrush/">Semrush</a>. Rank tracking, backlink monitoring, and keyword research are recurring needs, and the platform covers all three plus the reporting that keeps the budget approved.</p>
 
@@ -153,7 +171,7 @@
 
 <p>One thing neither tool does is tell you whether a fix moved the needle. Claude SEO gives you a falsifiability check and a leading indicator to watch; Semrush gives you the trend line after the fact. Pair the audit with the tracking and you have both halves, which is the honest answer for most teams paying for one.</p>
 
-<p>The Semrush side of this comparison draws on the vendor's published documentation, its pricing page, and our <a href="/tools/semrush/">directory assessment</a>; we have not run it inside this comparison. The Claude SEO numbers come from audits we ran on our own production site.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/nightwatch/">Nightwatch</a> - Rank tracking across Google and AI answers, priced by keyword with unlimited seats</li><li><a href="/tools/openseo/">OpenSEO</a> - Open source alternative to Ahrefs and Semrush</li><li><a href="/tools/otterlyai/">OtterlyAI</a> - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/ai-seo-tools/">Best AI SEO tools for AI visibility (2026)</a></li><li><a href="/vs/matomo-vs-plausible/">Matomo vs Plausible (2026): analytics depth or a dashboard that stays small</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/ai-search-visibility/">AI Visibility</a></li></ul></section>
+<p>The Semrush side of this comparison draws on the vendor's published documentation, its pricing page, and our <a href="/tools/semrush/">directory assessment</a>; we have not run it inside this comparison. The Claude SEO numbers come from audits we ran on our own production site.</p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li><li><a href="/blog/claude-seo-v225-rescore-61-vs-92/">Claude SEO v2.2.5 Re-Scored Us 61. Both Audits Were Right.</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/openseo/">OpenSEO</a> - Open source alternative to Ahrefs and Semrush</li><li><a href="/tools/nightwatch/">Nightwatch</a> - Rank tracking across Google and AI answers, priced by keyword with unlimited seats</li><li><a href="/tools/scrunch/">Scrunch</a> - The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/best/ai-seo-tools/">Best AI SEO tools for AI visibility (2026)</a></li><li><a href="/alternatives/zapier/">Best Zapier alternatives (2026)</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/seo/">SEO</a></li><li><a href="/glossary/ai-search-visibility/">AI Visibility</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>
@@ -161,7 +179,7 @@
 <a class="btn" href="/#subscribe" data-umami-event="Blog subscribe click">SUBSCRIBE →</a>
 </div>
 
-<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/khoj/">Khoj</a></p>
+<p class="more-tools" style="font-size:.85rem;color:var(--muted)">More from the directory: <a href="/tools/ifttt/">IFTTT</a></p>
 </article>
 </main>
 <footer>

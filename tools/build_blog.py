@@ -235,6 +235,9 @@ def inline_format(text: str) -> str:
     text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
     # Inline code
     text = re.sub(r'`(.+?)`', r'<code>\1</code>', text)
+    # Images (M-16: posts can carry figures)
+    text = re.sub(r'!\[(.+?)\]\((.+?)\)',
+                  r'<img class="post-figure" src="\2" alt="\1" loading="lazy">', text)
     # Links
     text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', text)
 
@@ -390,11 +393,12 @@ def build_post(meta: dict, body_html: str) -> str:
     # JSON-LD: Article + BreadcrumbList (Google starter guide: structured data for title/breadcrumb)
     article_schema = {
         "@context": "https://schema.org",
+        "speakable": {"@type": "SpeakableSpecification", "cssSelectors": ["h1", "article h2"]},
         "@type": "BlogPosting",
         "headline": title,
         "description": _clean_excerpt(excerpt),
         "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
-        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/og.png"}},
+        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "datePublished": date_str,
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
@@ -441,16 +445,18 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
 </script>
 <script type="application/ld+json">
 {json.dumps(breadcrumb_schema, indent=2)}
 </script>
-<link rel="stylesheet" href="/style.css?v={_css_v()}">
+<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-post">
@@ -469,6 +475,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
 <img class="post-hero" src="/og/{slug}.png" alt="{title}" width="1200" height="630" fetchpriority="high" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
+<p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · {title}</p>
 <p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>
 <div class="byline">
   <span class="av">TC</span>
@@ -590,10 +597,7 @@ def build_index(posts: list) -> str:
 <link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v={_css_v()}">
+<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>

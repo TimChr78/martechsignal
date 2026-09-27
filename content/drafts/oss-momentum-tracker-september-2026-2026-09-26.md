@@ -17,6 +17,10 @@ We track 79 active open-source tools in the [directory](/tools/). Sixteen of the
 
 Read those four together and the shape is hard to miss. All four are agent skill repositories: collections of instructions, prompts, and small tools that teach a coding or marketing agent to run campaigns, audit accounts, or interpret ad data. None of them is a platform you deploy. They are the layer you install into an agent you already run.
 
+![The twelve fastest-growing open-source martech repositories by star growth over the six-week window](/og/charts/oss-momentum.png)
+
+*The twelve fastest movers by percentage star growth across the full window. The table below carries every repository with its exact numbers.*
+
 ## The full board
 
 Here is the complete tracked set. Growth windows differ per row because each one is bounded by the catalog snapshots we actually hold, never by interpolation. Stars are totals as of 26 September 2026.

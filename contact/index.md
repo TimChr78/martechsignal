@@ -1,6 +1,7 @@
-# Contact | MartechSignal
+# Contact
 
-Corrections, tips, vendor news, or questions about how MartechSignal tests tools. Email tim@martechsignal.com or use the contact form.
+Corrections, tips, vendor news worth a look, or questions about how we test. I read everything sent here.
 
-- Page: https://martechsignal.com/contact/
-- Format: markdown mirror of the page above
+Email works best: tim@martechsignal.com. The form below opens your own email client with the message pre-filled; nothing is stored on this site.
+
+No database behind this form: the button just drafts the email in your client, so nothing you type reaches this server. Expect a reply within a couple of days.

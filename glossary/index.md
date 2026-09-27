@@ -1,6 +1,5 @@
-# Marketing Technology Glossary | MartechSignal
+# Marketing Technology Glossary
 
-Plain-English definitions of 29 marketing technology terms, linked to real tools in our directory.
+Plain-English definitions of marketing technology terms. No jargon explaining jargon.
 
-- Page: https://martechsignal.com/glossary/
-- Format: markdown mirror of the page above
+29 TERMS · LINKED TO 83 TOOLS

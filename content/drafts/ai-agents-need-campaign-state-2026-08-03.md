@@ -99,6 +99,26 @@ The format matters less than the contract. Every agent, every [n8n](/tools/n8n/)
 A mediocre model with clean campaign state will outperform a frontier model with no state on anything that runs more than once. You can swap the model next quarter and lose nothing. The state is what you keep.
 :::
 
+## What the demo skips
+
+The trick works because the human in the demo is the state machine. She remembers that segment A already got the first email, that variant two won the last test, that the webinar list is still quarantined after the send error in June. She carries the campaign in her head and hands the agent one clean instruction at a time.
+
+Run the same demo without her and it falls apart on the second task. The agent drafts a second first-touch email to the same segment because nothing told it the first one went out. It picks the losing variant because the test result lives in a screenshot nobody parsed. Statelessness is not a quirk of early agents. It is the default, and every campaign decision the operator has ever made is invisible to a system that starts from zero each session.
+
+## Where campaign state lives today
+
+Ask where the campaign actually lives and you get four partial answers. The CRM holds contact fields and maybe a last-touch stamp. The email platform holds its own send log and nothing about the other channels. The planning spreadsheet holds the intended sequence, updated by hand until it is not. Slack holds every decision that mattered, in scrollback.
+
+Four systems, four versions, none authoritative. An agent that wants one true answer needs four integrations and a reconciliation layer, which is exactly the plumbing cost that the demo never mentions. The schema in the section above is small because it has to be: pick the fields that keep those four sources from contradicting each other and leave everything else where it is. The minimum is not a blueprint for a new system. It is a treaty between the systems you already run.
+
+## State outlives the tools
+
+Here is the part vendors leave out of the pricing page. Tools churn. The email platform gets replaced in eighteen months, the CRM gets consolidated after the acquisition, and the agent framework you chose this quarter will be the legacy integration nobody wants to touch next year. Campaign state is the only piece of the stack that should survive all of it.
+
+That flips the build decision. If state lives inside whichever tool is currently winning, every migration is a memory wipe and every renewal negotiation holds your history hostage. If state lives in a layer you own, even a boring table of segments, sends, and decisions with dates attached, then every tool including the agents becomes replaceable infrastructure.
+
+The vendors will not hand you this because state is their lock-in by another name. The minimum schema above is small enough to maintain by hand, which is the point. Whatever survives tool churn should be boring, portable, and yours.
+
 ## The Monday test
 
 Pick one live campaign. Create a single context file for it, `campaigns/spring-reactivation/context.json`, with the fields above. Wire one automation, whether that is an [n8n](/tools/n8n/) workflow, a [Zapier](/tools/zapier/) zap, or a [Customer.io](/tools/customer-io/) recipe, to read that file before it generates copy or segments an audience. Add a hard stop if `offer.expires` is in the past or a required field is blank.

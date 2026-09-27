@@ -111,6 +111,10 @@ def build_page():
     hist, rows, d0, d1 = load_data()
     window = f"{fmt_day(d0)} to {fmt_day(d1)}, 2026"
     n_repos = len(rows)
+    _tools = json.loads((ROOT / "tools" / "tools.json").read_text())
+    total_n = len(_tools)
+    oss_n = sum(1 for x in _tools if x.get("open_source"))
+    min_days = MIN_DAYS
 
     movers = sorted(rows, key=lambda r: r["pct"], reverse=True)[:MOVERS_N]
 
@@ -150,7 +154,7 @@ def build_page():
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>Trending</span></nav>
 <section class="page-head">
   <h1>Open-source martech momentum</h1>
-  <p class="sub">Every morning we snapshot the GitHub stars of the {n_repos} tracked open-source tools from the directory. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
+  <p class="sub">Every morning we snapshot the GitHub stars of every open-source tool in our catalog that lists a public GitHub repository ({n_repos} of {oss_n} open-source catalog tools, {oss_n} of {total_n} catalog tools overall). A repository needs {min_days} daily snapshots before it appears on this page, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
   <p class="count">{n_repos} REPOS &middot; {len(hist)} DAILY SNAPSHOTS &middot; WINDOW {esc(d0)} TO {esc(d1)}</p>
 </section>
 <section class="trend-note">
@@ -175,7 +179,7 @@ def build_page():
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Open-Source MarTech Momentum",
-        "description": f"GitHub star momentum for {n_repos} tracked open-source marketing tools, window {d0} to {d1}.",
+        "description": f"GitHub star momentum for the {n_repos} tracked open-source catalog tools (of {oss_n} open-source tools, {total_n} catalog tools overall), window {d0} to {d1}.",
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "dateModified": d1,
@@ -194,7 +198,7 @@ def build_page():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
         "Open-Source MarTech Momentum: GitHub Stars | MartechSignal",
-        f"Daily GitHub star tracking for {n_repos} tracked open-source marketing tools. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
+        f"Daily GitHub star snapshots for {n_repos} of the {oss_n} open-source tools in the MartechSignal catalog (of {total_n} tools overall) - the ones with a public GitHub repository and enough snapshot history to chart. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
         "/trending/", body, [schema, breadcrumb]))
     print(f"  \u2713 {out.relative_to(ROOT)}  ({len(hist)} snapshots, {n_repos} repos, window {d0}..{d1})")
     return out

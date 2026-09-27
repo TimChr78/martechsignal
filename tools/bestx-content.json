@@ -47,7 +47,9 @@
           "verdict": "Best for relationship-led founders and community businesses.",
           "skip_if": "Skip it if you need pipeline management or active releases."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "workflow-automation-tools",
@@ -96,7 +98,9 @@
           "verdict": "Best for AI app governance plus integration on one platform.",
           "skip_if": "Skip it if transparent pricing or self-hosting is required."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "ai-seo-tools",
@@ -169,7 +173,9 @@
           "verdict": "Best if you already pay for Ahrefs and want the AI question answered from your existing stack.",
           "skip_if": "you are buying GEO as a standalone capability: you would be paying for a whole SEO suite."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     }
   ]
 }

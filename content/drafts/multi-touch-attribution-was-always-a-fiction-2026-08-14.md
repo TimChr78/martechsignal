@@ -40,6 +40,18 @@ The gap between buyer behavior and what marketing tools observe was always there
 
 Elusive. The house organ of the measurement category just told you the category was a chase.
 
+## The numbers the models needed never existed
+
+It is worth being precise about what signal loss removed, because the usual story gets it backwards. Multi-touch attribution did not lose accuracy as privacy tightened. It never had the inputs its outputs implied. The models needed every touch resolved to one person across every channel and device, in order, forever. That identity graph was never complete, even in the cookie era. Mobile resets, shared devices, logged-out browsing, and channel gaps made sure of that.
+
+What the industry lost in 2021 was not measurement. It was the illusion of measurement, plus enough signal to hide the gaps. The models filled the holes with weighting schemes and position rules, printed confident fractions to two decimal places, and everyone agreed to treat allocation convention as observation. The fiction predates the signal loss by a decade. Signal loss just made it impossible to keep a straight face.
+
+## What to say when someone asks for attribution
+
+The question will come from finance, and it deserves a direct answer rather than a model. Reported attribution is an allocation rule, not a measurement. The same conversion under six rules gives six answers, and the spread between them is the honest measure of how much the number knows.
+
+What does measure is incrementality: holdouts, geo splits, and staged rollouts that answer the only question a budget decision needs, which is what happens when the spend stops or starts. A brand that runs two clean holdout tests a year knows more about its marketing than a brand that has looked at every attribution dashboard ever built. Say the allocation number is fine as a reporting convention, fund the tests, and let the tests argue with the model.
+
 ## What to track instead
 
 Which channel gets credit was never the useful question. The useful question was whether the marketing moved the outcome. That's incrementality, and it has a method: split the audience, expose one group, hold the other back, compare. The Search Engine Land example: the exposed group completes 1,000 purchases, the control completes 800. The campaign's lift is 200. An attribution model could claim all 1,000.

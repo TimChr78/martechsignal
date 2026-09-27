@@ -44,7 +44,9 @@
         }
       ],
       "pick_a_if": "Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.",
-      "pick_b_if": "Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server."
+      "pick_b_if": "Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.",
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "nocodb-vs-nocobase",
@@ -90,7 +92,9 @@
         }
       ],
       "pick_a_if": "Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.",
-      "pick_b_if": "Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front."
+      "pick_b_if": "Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.",
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "matomo-vs-plausible",
@@ -136,7 +140,9 @@
         }
       ],
       "pick_a_if": "Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.",
-      "pick_b_if": "Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost."
+      "pick_b_if": "Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.",
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     }
   ]
 }

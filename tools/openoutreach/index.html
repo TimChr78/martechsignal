@@ -20,13 +20,14 @@
 <meta name="twitter:image" content="https://martechsignal.com/og/tools/openoutreach.png">
 <link rel="canonical" href="https://martechsignal.com/tools/openoutreach/">
 <link rel="ard" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/markdown" href="/tools/openoutreach/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/archivo-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">[
   {
@@ -35,6 +36,7 @@
     "@id": "https://martechsignal.com/tools/openoutreach/#app",
     "name": "OpenOutreach",
     "description": "Open-source AI lead finder: describe your product and it finds and qualifies the leads",
+    "image": "https://martechsignal.com/og/tools/openoutreach.png",
     "url": "https://openoutreach.app",
     "mainEntityOfPage": "https://martechsignal.com/tools/openoutreach/",
     "applicationCategory": "BusinessApplication",
@@ -158,7 +160,8 @@
     "datePublished": "2026-09-26",
     "reviewBody": "OpenOutreach is a genuinely AI-native lead finder under a free license, with every external cost documented down to per-email credit pricing. Its maturity is unproven, with no published release history or company behind it, and it depends on a third-party data provider for lead discovery.",
     "itemReviewed": {
-      "@type": "Thing",
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/openoutreach/#app",
       "name": "OpenOutreach",
       "url": "https://martechsignal.com/tools/openoutreach/"
     },
@@ -171,7 +174,7 @@
   }
 ]</script>
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com/tools/openoutreach/index.md">
-<link rel="stylesheet" href="/style.css?v=11f4435c">
+<link rel="stylesheet" href="/style.min.css?v=6d6e11d2">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 </head>
 <body class="page-tools">
@@ -205,7 +208,7 @@
     <section class="related-concepts"><h2>Related concepts</h2><p class="integ-list"><a href="/glossary/email-sequence/">Email sequence</a> <a href="/glossary/deliverability/">Deliverability</a></p><p style="font-size:.8rem;color:var(--muted);margin:.4rem 0 0">Full definitions in the <a href="/glossary/">martech glossary</a>.</p></section>
     <div class="sub-strip"><div><h3>Building your martech shortlist?</h3><p>The weekly newsletter: one tool teardown, one workflow, no fluff. Free.</p></div><a class="btn" href="/#subscribe" data-umami-event="Tool subscribe click">Subscribe</a></div>
     <section class="faq-block"><h2>Frequently asked questions</h2><details class="faq-item"><summary>What is OpenOutreach?</summary><p>Open-source AI lead finder: describe your product and it finds and qualifies the leads. It ships with LLM keyword generation from your product description, 2,952 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.</p></details><details class="faq-item"><summary>How much does OpenOutreach cost?</summary><p>OpenOutreach is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,952 stars; native integrations cover BetterContact (Lead Finder), OpenAI, Anthropic. You pay in server time and maintenance, not licences.</p></details><details class="faq-item"><summary>Is OpenOutreach a good self-hosted Email Marketing tool in 2026?</summary><p>A different shape of cold-outreach tool: lead finding with written reasons instead of a list to upload, priced in data-provider credits rather than seats, and candid about which parts are still experimental.</p></details><details class="faq-item"><summary>Is OpenOutreach an Instantly or Smartlead alternative?</summary><p>It solves the other half of the problem. OpenOutreach finds and qualifies leads and can send from your own mailbox, but it also exports a CSV with columns already shaped for Instantly and Smartlead importers (email, first_name, last_name, company, title, website, linkedin_url, reason, lead_id, qualified_at) with no column mapping. A common pattern is OpenOutreach for sourcing and a dedicated sequencer for sending at volume.</p></details><details class="faq-item"><summary>Is OpenOutreach safe for cold email and GDPR?</summary><p>The project is explicit that the obligations stay with you: the legal notice covers data-controller duties and sender responsibility and states use at your own risk with no liability assumed. The README argues the tool has zero platform-ToS surface because it is browserless and holds no social-network accounts. Self-hosting keeps prospect data on your servers, which is what makes it interesting for EU teams, but lawful basis, suppression lists, and warm-up are still yours to manage.</p></details><details class="faq-item"><summary>How does OpenOutreach decide which leads to qualify next?</summary><p>With a Gaussian Process over 384 dimensional FastEmbed profile embeddings. When negative verdicts outnumber positive ones it exploits, taking the profile with the highest predicted fit probability; otherwise it explores using a BALD score, which favours profiles the model is most uncertain about. Passing qualification gates the paid email lookup. Cold start is seeded with synthetic ideal profiles that are flagged as synthetic and never contacted or exported. The README is candid that this loop is an active experiment not yet shown to beat picking at random.</p></details><details class="faq-item"><summary>What does an OpenOutreach export look like?</summary><p>One CSV written to stdout with email, first_name, last_name, company, title, website, linkedin_url, reason, lead_id, and qualified_at. There is no score column by design: the written reason carries the qualification instead. The shape matches Instantly and Smartlead importers without column mapping, so the handoff is a file redirect rather than a transformation. In Docker you get a container that runs one job and exits with no open ports, which suits a scheduled pipeline rather than a dashboard.</p></details></section>
-    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/eve-marketing-team/"><div class="name">Eve Marketing Team Template</div><div class="tagline">Open-source team of marketing agents on eve: lead, content, social, SEO, email</div></a><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/claude-seo-vs-codex-seo/">Claude SEO vs Codex SEO: same audit, pick the agent you already pay for</a></li></ul></section>
+    <h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))"><a class="tool-card" href="/tools/billionmail/"><div class="name">BillionMail</div><div class="tagline">Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free</div></a><a class="tool-card" href="/tools/notifuse/"><div class="name">Notifuse</div><div class="tagline">Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations</div></a><a class="tool-card" href="/tools/resend/"><div class="name">Resend</div><div class="tagline">Developer-first email API built around React Email, batch sending, and agent tooling</div></a><a class="tool-card" href="/tools/eve-marketing-team/"><div class="name">Eve Marketing Team Template</div><div class="tagline">Open-source team of marketing agents on eve: lead, content, social, SEO, email</div></a><a class="tool-card" href="/tools/postmark/"><div class="name">Postmark</div><div class="tagline">Transactional email API with separated message streams, an MCP server, and published delivery numbers</div></a></div><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/openai-agent-ads-spending-without-you/">OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.</a></li><li><a href="/blog/claude-seo-vs-seonaut/">Claude SEO vs Seonaut: which free SEO checker should you run</a></li><li><a href="/blog/link-building-wont-get-you-into-ai-answers/">Link Building Won't Get You Into AI Answers. Community Signals Will.</a></li></ul></section>
   </div>
   <aside class="sidebar">
     <div class="side-card">
@@ -224,7 +227,7 @@
     </div>
     <div class="side-card">
       <a class="btn-sm" href="https://openoutreach.app" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="OpenOutreach">Visit OpenOutreach →</a>
-      <div style="margin-top:.8rem"><a href="/categories/email-marketing/" style="font:600 .72rem var(--mono);color:var(--muted);text-decoration:none">More Email Marketing Tools →</a></div>
+      <div style="margin-top:.8rem"><a href="/categories/email-marketing/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More Email Marketing Tools →</a></div>
     </div>
     
   </aside>
@@ -233,7 +236,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>

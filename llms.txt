@@ -1,7 +1,7 @@
 # MartechSignal
 
-> Independent reviews of AI marketing automation tools. Structured audits of
-> 158 martech platforms | pricing, self-hosting, APIs, and which AI features
+> Independent reviews of AI marketing automation tools. Structured research on
+> 162 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -189,13 +189,17 @@
 
 ### Workflow Automation
 
+- [Activepieces](https://martechsignal.com/tools/activepieces/): Open-source workflow automation with a free cloud tier and on-prem hosting (open source)
 - [Appsmith](https://martechsignal.com/tools/appsmith/): Open-source platform for building admin panels and internal dashboards on your existing databases and APIs (open source)
 - [Budibase](https://martechsignal.com/tools/budibase/): Open-source operations platform for building AI agents, apps and automations on your own data (open source)
+- [IFTTT](https://martechsignal.com/tools/ifttt/): Consumer-friendly automation connecting apps and smart devices
 - [LangChain](https://martechsignal.com/tools/langchain/): Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools (open source)
 - [Make](https://martechsignal.com/tools/make/): Visual automation platform for building complex workflows with AI agents and apps
+- [Microsoft Power Automate](https://martechsignal.com/tools/power-automate/): Enterprise workflow automation inside the Microsoft Power Platform
 - [n8n](https://martechsignal.com/tools/n8n/): Open-source workflow automation platform with AI agent capabilities and 400+ nodes (open source)
 - [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/): 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO (open source)
 - [NocoBase](https://martechsignal.com/tools/nocobase/): Open-source no-code platform with AI assistance for building business systems fast (open source)
+- [Pabbly Connect](https://martechsignal.com/tools/pabbly-connect/): Task-priced integration platform with a one-time lifetime purchase option
 - [Paperclip](https://martechsignal.com/tools/paperclip/): Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit (open source)
 - [Pipedream](https://martechsignal.com/tools/pipedream/): Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 - [ToolJet](https://martechsignal.com/tools/tooljet/): Open-source low-code platform for internal tools: prompt or build admin panels (open source)
@@ -297,6 +301,27 @@
 - [Social Media](https://martechsignal.com/categories/social-media/)
 - [Workflow Automation](https://martechsignal.com/categories/workflow-automation/)
 
+## Guides and comparisons
+
+- [Best AI SEO tools for AI visibility (2026)](https://martechsignal.com/best/ai-seo-tools/)
+- [Best open-source CRM tools (2026)](https://martechsignal.com/best/open-source-crm/)
+- [Best workflow automation tools (2026)](https://martechsignal.com/best/workflow-automation-tools/)
+- [Matomo vs Plausible (2026): depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/)
+- [n8n vs Zapier (2026): self-host or catalog](https://martechsignal.com/vs/n8n-vs-zapier/)
+- [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
+- [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
+- [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
+- [Zapier Alternatives: 5 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
+
+## Site
+
+- [About](https://martechsignal.com/about/): who runs MartechSignal and the editorial policy
+- [Methodology](https://martechsignal.com/methodology/): how tools are researched, dated and priced
+- [Authors](https://martechsignal.com/authors/)
+- [AI content policy](https://martechsignal.com/ai-policy/): citation and grounding are welcome; training model weights on this corpus is not permitted
+- [Checklist](https://martechsignal.com/checklist/): tool selection checklist
+- [Corrections](https://martechsignal.com/corrections/): published errata
+
 ## Links
 
 - [Full content mirror](https://martechsignal.com/llms-full.txt)
@@ -315,5 +340,5 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 160 records = 158 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 164 records = 162 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

@@ -59,3 +59,12 @@ Disallow: /
 Sitemap: https://martechsignal.com/sitemap.xml
 # A-3 (v2.4.0 audit): ARD entry source (spec §5.1)
 Agentmap: https://martechsignal.com/.well-known/ard.json
+
+# A3 M-22 (2026-09-27): training-adjacent data collectors named explicitly.
+# Grounding/retrieval agents (Google-Extended keeps grounding open per /ai-policy/,
+# Meta-WebIndexer and Meta-ExternalFetcher stay allowed) are unaffected.
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /

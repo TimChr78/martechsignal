@@ -41,7 +41,9 @@
           "not_for": "Teams that need AI features; none appear in Frappe CRM's README, marketing site, or release notes.",
           "why": "Frappe CRM is open source under AGPL-3.0, and no tier charges per user: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, and dedicated servers run $20 to $60 per month, all with unlimited leads, deals, and users. HubSpot meters by seat and gates automation and reporting depth behind higher hubs; Frappe CRM charges for hosting instead. Its integrations are narrower (Twilio, Exotel, WhatsApp through a third-party app, ERPNext, Meta Lead Ads), so it fits when a focused sales CRM beats a connected suite."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "zapier",
@@ -51,7 +53,8 @@
       "intro": [
         "Zapier connects more apps than anything else in this directory, and most teams never need to leave it. The teams that search for alternatives usually share one of two complaints. Task metering counts every step and every external connector call, so a twenty step workflow consumes roughly twenty tasks per run and multi-step automations get expensive quickly. Or they need branching logic, self-hosting, or real code inside a step, none of which the linear editor is built for.",
         "The free plan shows the shape of the pricing: 100 tasks a month, two-step Zaps only, no premium apps, and 15-minute polling. Professional starts at $19.99 per month billed annually at the 750 task tier, and Zapier's AI agents are metered separately in activities rather than tasks.",
-        "Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services."
+        "Before you move, list the apps each workflow touches and confirm the replacement covers the niche ones: tools without an n8n node or a Make module usually have a Zapier integration, not the reverse. Then recount every workflow step by step, because tasks, credits, and compute time are different meters and a lower sticker price can hide a larger bill. As everywhere on this site, the figures come from vendors' published material and we hold no account with any of these services.",
+        "The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page."
       ],
       "items": [
         {
@@ -83,8 +86,40 @@
           "best_for": "Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data.",
           "not_for": "Teams whose workflows mostly move records between SaaS products; Budibase automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL.",
           "why": "Budibase is an open-core operations platform where self-hosting is free with unlimited actions, apps, agents, and users in one workspace, and cloud Pro is $19 a month billed annually with metered actions. You connect data sources (PostgreSQL, MySQL, MongoDB, Google Sheets, REST), build interfaces in a visual builder, and wire multi-step automations, with AI agents in beta since March 2026. It replaces Zapier when the automation is an internal tool over your own data rather than a bridge between SaaS apps."
+        },
+        {
+          "slug": "pabbly-connect",
+          "best_for": "Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription.",
+          "not_for": "Teams that need governance tooling, deep observability, or AI woven into the builder rather than sold as a separate product.",
+          "why": "Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmetic: task tiers from $16/month billed yearly and a $349 lifetime license change the total-cost picture for anyone keeping workflows alive for years. The platform layer around those workflows is thinner than the incumbents', so the savings come with trade-offs."
+        },
+        {
+          "slug": "power-automate",
+          "best_for": "Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages.",
+          "not_for": "Teams outside the Microsoft estate, or anyone whose use case needs unattended RPA at scale and cannot absorb per-bot pricing.",
+          "why": "Microsoft Power Automate wins on proximity: SharePoint, Dataverse, and Office connectors no third party can match. Verified pricing is $15 per user per month for Premium, with unattended bots at $150/month each. That per-bot line is where budgets surprise people, so model it before committing."
+        },
+        {
+          "slug": "ifttt",
+          "best_for": "Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd.",
+          "not_for": "Multi-step business processes. There is no real branching, no data transformation worth the name, and lower tiers throttle run speed.",
+          "why": "IFTTT is the cheapest way into the category and the only one that reaches consumer devices at all. Pro runs $2.99/month billed annually for 20 Applets. Treat it as connectivity at the edges of a stack, not as the automation platform for it."
+        },
+        {
+          "slug": "activepieces",
+          "best_for": "Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative.",
+          "not_for": "Teams chasing the largest possible app catalog or enterprise SSO on an entry budget. SSO starts at the $200/month tier.",
+          "why": "The most honest pricing page in the category: the same product runs on their cloud or your servers, the free tier is real (100 credits a day, no card), and Plus is $20/month flat for 10,000 credits rather than a per-task staircase. For agent-curious teams, MCP and API access ship even on free."
+        },
+        {
+          "slug": "workato",
+          "best_for": "Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies.",
+          "not_for": "Small and mid-sized teams. There are no published prices at all, which tells you everything about who the buyer is supposed to be.",
+          "why": "Workato appears in nearly every ranking list as the enterprise anchor. We will not repeat the widely circulated starting price that its own site does not publish; the honest entry is the model itself: usage-based with a platform fee, quoted per contract."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     },
     {
       "slug": "matomo",
@@ -127,7 +162,9 @@
           "not_for": "Organizations that require self-hosting or open source; Amplitude is closed SaaS, and its Growth and Enterprise plans are quoted by sales.",
           "why": "Amplitude's free plan includes 2 million events and 50,000 monthly tracked users per month with no time limit, while Plus starts at $0 and scales with event volume. Where Matomo counts pageviews and visits and sells funnels, cohorts, and A/B testing as premium plugins, Amplitude ships product analytics, experimentation, session replay, and audience activation in one suite, with a Warehouse Native option that queries Snowflake or Databricks directly. Mind the metering: monthly tracked users are counted alongside events, and overage bills at the plan's per-unit rate."
         }
-      ]
+      ],
+      "date_published": "2026-09-26",
+      "date_updated": "2026-09-26"
     }
   ]
 }

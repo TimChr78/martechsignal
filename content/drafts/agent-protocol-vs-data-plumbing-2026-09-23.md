@@ -7,7 +7,7 @@ author: Tim Christensen
 tags: [Automation, AI Agents, MCP]
 categories: [workflow-automation]
 ---
-MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.
+MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them. The plumbing is the problem.
 
 In late July I argued that [MCP rewrites the integration economics of the marketing stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/). Pairwise connectors collapse into one registration per tool, the O(n²) tax goes away, and suite lock-in gets weaker. I still believe that. What I underestimated is how fast the protocol layer would settle while the layer underneath it stayed broken.
 
@@ -44,6 +44,18 @@ If you are mid-evaluation of agent tooling, the honest order of operations looks
 Second, get the freshness real. A nightly batch feed into a table an agent reads every five minutes is not a real time data source, it is a lie with a cron schedule. Third, give the agent a narrow interface shaped around outcomes, the way the WorkOS article prescribes and the way Salesforce's hybrid architecture ended up working. Fourth, and only fourth, decide how that interface is transported. By then MCP versus API is a small question with an obvious answer, usually both.
 
 You can do most of this without enterprise money. A self-hosted stack like the one in our [open source martech guide](/blog/open-source-martech-stack/) covers the movement and storage layers, and a tool like [NocoBase](/tools/nocobase/) gives you governed, lineage-visible business data that an MCP server can sit on top of without a data warehouse project. The bottleneck was never the software budget. It is the discipline of deciding what is true.
+
+## What good plumbing looks like first
+
+Before any protocol choice, the data layer needs properties that are boring to list and expensive to skip. Stable identifiers that mean the same customer in the CRM, the billing system, and the event stream. Timestamps with timezones attached, so an agent does not send the Tuesday campaign on Monday evening. An event vocabulary agreed before the tools are picked, because "trial started" and "trial_activated" in two systems is two different stories. Contracts tested like code, so schema drift fails a pipeline instead of a customer.
+
+Each item prevents one specific agent failure: the wrong-customer send, the timezone drift, the duplicate record, the confident wrong answer. None of these make a good demo. All of them decide whether an agent run at scale is an asset or an incident queue.
+
+## The failure mode nobody demos
+
+The expensive failure is not the agent that crashes. Crashes are honest and visible. It is the agent that succeeds at the wrong task because the data was internally consistent and wrong, a duplicated account, a mislabeled subscription tier, a currency column without its unit. The run reports success, the dashboard turns green, and the error compounds quietly until a human notices in a report three weeks later.
+
+That failure is invisible to every protocol benchmark, and it is the one the plumbing work is actually for.
 
 ## Verdict
 

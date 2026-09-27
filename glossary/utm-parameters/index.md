@@ -1,6 +1,35 @@
-# UTM Parameters | Definition | MartechSignal
+# UTM Parameters
 
-UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign
+UTM parameters are tags appended to URLs to track where traffic comes from. A URL like example.com/page?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=summer-sale tells your analytics platform that the visit came from a summer sale email campaign. Without them, all your email traffic shows up as &#x27;direct&#x27; and you learn nothing.
 
-- Page: https://martechsignal.com/glossary/utm-parameters/
-- Format: markdown mirror of the page above
+## Why it matters
+
+UTMs were invented by Urchin Tracking Module, the analytics company Google acquired in 2005 to build Google Analytics. The naming convention stuck. The problem was never the technology, it&#x27;s that someone has to decide on a taxonomy and enforce it. Half the companies I&#x27;ve looked at have three different people tagging campaigns three different ways, and the analytics data is a mess as a result.
+
+## How it works
+
+UTM parameters are extra tags appended to a URL that tell your analytics where a visit came from. A link becomes example.com/page?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=launch. The analytics tool parses the parameters and attributes the visit to that source, medium, and campaign. They are the cheapest attribution system in marketing: no SDK, no consent, just links. The whole system depends on people using them consistently.
+
+## Practical uses
+
+Teams tag every outbound campaign channel so the reports separate newsletter, social, paid, and partner traffic. UTMs also give UTM-clustered custom reports and let you compare campaigns side by side. The discipline is the value: when campaigns share one naming convention, the analytics read cleanly and the attribution debate gets quieter. They are also the raw material for cross-channel spend analysis.
+
+## How to choose
+
+There is no UTM product to buy; the choice is process. Decide the parameter order and naming convention once, document it, and enforce it in the tools that build links. Link builders and shorteners that auto-add UTMs reduce the human error rate. For teams with a data warehouse, UTMs plus server-side tracking give the cleanest raw layer for models and reporting.
+
+## Common mistakes
+
+The classic failure is inconsistent naming, so one campaign shows up as five sources in the reports. The second is parameter bloat, with tags so verbose they break in some systems or get truncated in social shares. The third is treating UTM data as exact: they are guides, not ground truth, and sessions from direct traffic will always hide some untagged links. Fix the convention before blaming the analytics.
+
+## What changed with AI
+
+AI models eat UTM data, so quality in, quality out. Agents that optimize channel budgets rely on the attribution layer UTMs feed, and inconsistent tags quietly bias the model. Generative link builders now offer automatic UTM tagging, which removes the manual step but only works if the naming rules are defined first. AI does not fix attribution; it makes clean attribution more valuable.
+
+## Tools in this space
+
+## Related terms
+
+CDP · DMP · CRO · Customer journey · Personalization
+
+Analytics &amp; Attribution

@@ -3,12 +3,13 @@
 The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation
 
 - Page: https://martechsignal.com/categories/open-source/
-- Tools: 79
+- Tools: 80
 
 - AI Business Skills
 - AI Marketing Suite
 - ALwrity
 - Aaron Marketing Skills
+- Activepieces
 - AlphOne
 - Analytics Tracking Automation
 - Apache Unomi

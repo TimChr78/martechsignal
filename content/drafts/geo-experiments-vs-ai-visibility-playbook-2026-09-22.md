@@ -52,6 +52,12 @@ Before you reallocate budget on this, the honest caveats. The researcher runs an
 
 None of that makes the data worthless. It makes it directional. Directional is still better than what the advice industry sells, which is theory and screenshots.
 
+## What the sample cannot tell you
+
+The audit that closes this post audits itself first, so: the numbers above come from one site, a named set of commercial queries, and a handful of answer engines over a window measured in weeks. Citations move on engine update cycles that nobody outside the labs schedules, and a rerun a month later can reorder everything. The direction of the three contradictions holds up across reruns better than any single figure does, and the figures are the kind of evidence that needs repeating before it becomes a practice.
+
+The other limit is that measurement cannot see the counterfactual. We can count what the engines cite after changes land. We cannot see the version of this site that made no changes, which means every causal claim in the playbook remains a hypothesis wearing a number. The honest status of the whole GEO content discipline is exactly that: hypotheses with early numbers, waiting on the next two quarters of measurement to confirm or embarrass them.
+
 ## What changes Monday morning
 
 1. Build your outreach list from observed citations. Run your 15 commercial keywords through ChatGPT, Gemini, Claude, Perplexity, and AI Mode, log every source, rank by frequency, pitch that list. Ignore DR-sorted prospect spreadsheets.

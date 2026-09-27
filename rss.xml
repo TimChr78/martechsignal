@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2026 22:43:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:26:37 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Where open-source martech momentum actually lives</title>
@@ -33,7 +33,7 @@
       <link>https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/agent-protocol-vs-data-plumbing/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>MCP keeps winning the protocol argument while 85% of enterprises run agents on data that cannot support them. The plumbing is the problem.</description>
+      <description>MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them. The plumbing is the problem.</description>
     </item>
     <item>
       <title>AI visibility advice, audited against 775 logged citations</title>
