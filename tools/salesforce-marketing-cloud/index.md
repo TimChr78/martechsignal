@@ -1,4 +1,4 @@
-# Salesforce Marketing pricing
+# Salesforce Marketing Cloud pricing
 
 
 | Pros | Cons |
@@ -64,6 +64,10 @@ Marketing Automation · Enterprise Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Salesforce Marketing Cloud &#8594;](https://www.salesforce.com/products/marketing-cloud/)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

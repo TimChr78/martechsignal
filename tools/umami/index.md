@@ -78,6 +78,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Umami &#8594;](https://umami.is)
+
 ## MartechSignal Score: 40/60
 
 Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.
@@ -313,9 +315,9 @@ Related guides: [Umami in Matomo alternatives](/alternatives/matomo) · [Marketi
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.3,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

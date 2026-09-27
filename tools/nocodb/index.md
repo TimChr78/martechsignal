@@ -82,6 +82,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit NocoDB &#8594;](https://nocodb.com)
+
 ## MartechSignal Score: 45/60
 
 The shortest self-hosted route from spreadsheet sprawl to permissioned, API-covered bases over a database you own, with pricing that is fully visible. The license is fair-code rather than open source, and the features teams often want most, AI fields and advanced views, are paid.
@@ -327,9 +329,9 @@ Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase) · [Ai Marketing Au
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.8,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 45,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

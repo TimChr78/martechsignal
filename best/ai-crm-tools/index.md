@@ -26,7 +26,7 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [HubSpot CRM](/tools/hubspot-crm/)
 
@@ -34,7 +34,7 @@ Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM bring
 
 **Verdict:** Best for CRM teams that want ai email writer and predictive lead scoring, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Twenty](/tools/twenty/)
 
@@ -42,7 +42,7 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 
 **Verdict:** Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Cordys CRM](/tools/cordys-crm/)
 
@@ -50,7 +50,7 @@ Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software
 
 **Verdict:** Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Django CRM](/tools/django-crm/)
 
@@ -58,7 +58,7 @@ Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu or do**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Frappe CRM](/tools/frappe-crm/)
 
@@ -66,7 +66,7 @@ Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need a or pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [AlphOne](/tools/alphone/)
 
@@ -74,7 +74,7 @@ AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST A
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu or do**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Monica](/tools/monica/)
 
@@ -82,7 +82,7 @@ Monica is an open-source personal relationship manager, the project&#x27;s own t
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu or do**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

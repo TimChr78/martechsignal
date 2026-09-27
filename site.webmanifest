@@ -1,0 +1,1 @@
+{"name": "MartechSignal", "short_name": "MartechSignal", "start_url": "/", "display": "browser", "background_color": "#080e1a", "theme_color": "#e6b13f", "icons": [{"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}, {"src": "/favicon.png", "sizes": "96x96", "type": "image/png", "purpose": "any"}]}

@@ -81,6 +81,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Django CRM &#8594;](https://bottlecrm.io)
+
 ## MartechSignal Score: 32/60
 
 Django CRM is a capable multi-tenant CRM with a real helpdesk and invoicing on top of an MIT license, and its database-level tenant isolation is a genuine differentiator. It scores low on AI and integrations because it ships neither, and the project documents that plainly instead of dressing it up.
@@ -315,9 +317,9 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 2.7,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

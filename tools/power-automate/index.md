@@ -1,4 +1,4 @@
-# Microsoft Power pricing
+# Microsoft Power Automate pricing
 
 
 | Pros | Cons |
@@ -58,6 +58,10 @@ Workflow Automation · From $15/mo Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

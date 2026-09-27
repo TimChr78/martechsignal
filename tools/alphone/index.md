@@ -70,6 +70,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit AlphOne &#8594;](https://github.com/gopherium/AlphOne)
+
 ## MartechSignal Score: 29/60
 
 An API-first CRM designed to be driven by n8n and AI agents, with MCP support that older CRMs lack. It is early: thin features, a small community and a split license that rules out resale, so judge it as a foundation rather than a finished product.
@@ -263,9 +265,9 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 2.4,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 29,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

@@ -1,4 +1,4 @@
-# AI Business pricing
+# AI Business Skills pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

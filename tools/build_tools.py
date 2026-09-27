@@ -252,12 +252,13 @@ def _seo_title_for(t, cats):
     cand2 = f"{name} review (2026): pricing, AI features, verdict"
     if len(cand2) <= 60:
         return cand2
-    overhead = len(f" pricing{suffix}")
-    budget = 60 - overhead
-    if budget < 10:
-        return cand2[:60]
-    truncated_name = name[:budget].rsplit(" ", 1)[0] if " " in name[:budget] else name[:budget]
-    return f"{truncated_name} pricing{suffix}"
+    # r6 C-2 (2026-09-27): the clamp used to cut the product NAME ("HubSpot
+    # Marketing pricing"). The name is never cut now; suffixes drop first.
+    for cand3 in (f"{name} pricing{suffix}", f"{name} pricing",
+                  f"{name} review (2026): pricing", f"{name} pricing & plans"):
+        if len(cand3) <= 60:
+            return cand3
+    return f"{name} review (2026)"[:57]
 
 def _clip_meta_text(text, budget):
     """Cut meta text on a natural boundary (GSC follow-up 2026-09-13).
@@ -564,7 +565,7 @@ def build_hub(tools, cats):
   <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
   <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
 </section>
-<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" fetchpriority="high" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
+<img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
 <p style="max-width:680px;color:var(--muted);margin:.6rem 0 0;font-size:.92rem">A directory tells you what exists. It does not tell you whether your stack can hand work to an agent. The <a href="/checklist/">marketing automation checklist</a> walks the 12 questions that decide it, and scores your answers in the browser.</p>
 <h2>Browse by category</h2>
@@ -612,7 +613,7 @@ def build_hub(tools, cats):
     out = TOOLS_DIR / "index.html"
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
-        f"Browse {len(active)} curated AI marketing automation tools across 13 categories - open-source and SaaS, with assessments desk-researched from vendor documentation, with dated pricing notes and integrations. Nobody pays for rankings, and nothing here is a hands-on test.",
+        f"Browse {len(active)} curated AI marketing automation tools across 14 categories - open-source and SaaS, with assessments desk-researched from vendor.",
         "/tools/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 
@@ -688,8 +689,9 @@ def _score_band(t):
             "reviewBody": rec["verdict"],
             "itemReviewed": {"@type": "SoftwareApplication", "@id": f"https://martechsignal.com/tools/{t['slug']}/#app", "name": t["name"],
                              "url": "https://martechsignal.com/tools/" + t["slug"] + "/"},
-            "reviewRating": {"@type": "Rating", "ratingValue": round(rec["score_total"] / 12, 1),
-                             "bestRating": 5, "worstRating": 1},
+            # r6 H-4 (2026-09-27): the rating must equal the /60 number VISIBLE on the page
+                        "reviewRating": {"@type": "Rating", "ratingValue": rec["score_total"],
+                             "bestRating": 60, "worstRating": 0},
         }
     return band, review
 
@@ -1290,6 +1292,14 @@ def build_tool_page(t, cats, all_tools):
         external_ratings_html = ""
     disclosure_html = '<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>'
     score_html, review_schema = _score_band(t)
+    if not score_html:
+        # r6 M-6 (2026-09-27): unscored pages say so on the page.
+        score_html = ('<p class="unscored-note">Not yet scored against the rubric; '
+                      'scored pages show six pillars.</p>')
+    # r6 L-11 (2026-09-27): the real CTA belongs above the fold, in the verdict block.
+    if t.get("website"):
+        score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '
+                      f'rel="noopener" target="_blank">Visit {t["name"]} &#8594;</a></p>') + score_html
     _bits = [f"{esc(pricing_label(t)).lower()} in {esc(c.get('name',''))}"]
     _ain = len(t.get('ai_features') or [])
     if t.get('api_available'):
@@ -1456,8 +1466,11 @@ def build_tool_page(t, cats, all_tools):
     # one of the three the SoftwareApplication is always flagged invalid in
     # GSC (17-item Product snippets spike, Sep 2026). Rule: never emit a
     # product schema we cannot complete - drop it, keep breadcrumb + FAQ.
-    if "offers" not in schema:
-        schema = None
+    # r6 H-5 (2026-09-27): the SoftwareApplication entity is now ALWAYS emitted
+    # (20 contact-sales tools lost their entity entirely to the old drop rule).
+    # `offers` still ships only for real, published prices (0 = free, per the M5
+    # refine): no fabricated prices for no-list-price vendors, house rule wins
+    # over the audit's optional Offer suggestion.
 
     breadcrumb = {
         "@context": "https://schema.org",
@@ -1739,10 +1752,7 @@ def _lastmod(path):
     if m:
         return m.group(1)
     # A3 H-2 (2026-09-26): a page with no declared content date OMITS <lastmod>
-    # entirely. The v240c audit caught 87 URLs carrying build stamps; Google
-    # prefers no lastmod over an inaccurate one. Pages with real declared dates
-    # (posts, tools) keep theirs via the JSON-LD match above.
-    return ""
+    return None
 
 def build_sitemap(tools, cats):
     today = datetime.now().strftime("%Y-%m-%d")
@@ -1794,8 +1804,12 @@ def build_sitemap(tools, cats):
     about_html = ROOT / "about" / "index.html"
     urls.append((f"https://martechsignal.com/about/", _lastmod(about_html) if about_html.exists() else today, "0.5"))
     # A3 M-23 (2026-09-26): indexable policy pages belong in the sitemap.
-    urls.append(("https://martechsignal.com/privacy/", "", "0.3"))
-    urls.append(("https://martechsignal.com/terms/", "", "0.3"))
+    # r6 L-8 (2026-09-27): both carry real dateModified declarations; wire them
+    # like every other page instead of leaving the lastmod blank.
+    priv_html = ROOT / "privacy" / "index.html"
+    terms_html = ROOT / "terms" / "index.html"
+    urls.append(("https://martechsignal.com/privacy/", _lastmod(priv_html) if priv_html.exists() else "", "0.3"))
+    urls.append(("https://martechsignal.com/terms/", _lastmod(terms_html) if terms_html.exists() else "", "0.3"))
 
     # Author page
     author_html = ROOT / "authors" / "tim-christensen" / "index.html"
@@ -2292,22 +2306,25 @@ def sync_date_modified():
         _s = _p.read_text()
         if "dateModified" in _s or "ld+json" not in _s:
             continue
+        # r6 M-4/M-5 (2026-09-27): the REAL last-edit date wins. Declared dates
+        # (datePublished / <time>) are fallbacks, not authorities: generator-stamped
+        # "today" was leaking into dateModified and sitemap lastmod on 43 URLs.
         _val = None
-        _m = _re.search(r'"datePublished"\s*:\s*"([^"]+)"', _s)
-        if _m:
-            _val = _m.group(1)
+        try:
+            _rel = _p.relative_to(ROOT).as_posix()
+            _out = _sp.run(["git", "log", "-1", "--format=%cs", "--", _rel],
+                           cwd=ROOT, capture_output=True, text=True, timeout=15).stdout.strip()
+            _val = _out or None
+        except Exception:
+            _val = None
+        if not _val:
+            _m = _re.search(r'"datePublished"\s*:\s*"([^"]+)"', _s)
+            if _m:
+                _val = _m.group(1)
         if not _val:
             _m = _re.search(r'<time[^>]*datetime="([^"]+)"', _s)
             if _m:
                 _val = _m.group(1)[:10]
-        if not _val:
-            try:
-                _rel = _p.relative_to(ROOT).as_posix()
-                _out = _sp.run(["git", "log", "-1", "--format=%cs", "--", _rel],
-                               cwd=ROOT, capture_output=True, text=True, timeout=15).stdout.strip()
-                _val = _out or None
-            except Exception:
-                _val = None
         if not _val:
             continue
         _url = "https://martechsignal.com/" + _p.parent.relative_to(ROOT).as_posix().strip(".") + "/"

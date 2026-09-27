@@ -11,7 +11,7 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "WebPage", "name": "AI policy | MartechSignal", "url": "https://martechsignal.com/ai-policy/", "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}}
 </script>
-<link rel="stylesheet" href="/style.min.css?v=d891b1d6">
+<link rel="stylesheet" href="/style.min.css?v=29eeb414">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/ai-policy/#webpage", "dateModified": "2026-09-26"}</script>
 <script src="/site.js" defer></script>
 
@@ -46,12 +46,14 @@
 <li><strong>ai-train</strong> (we say no): training or fine-tuning AI models.</li>
 </ul>
 <h2>How this is enforced</h2>
-<p>Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, and Amazonbot. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.</p>
+<p>Anthropic runs three separately controlled crawlers: ClaudeBot collects training data and stays blocked here; Claude-User and Claude-SearchBot handle retrieval and search and stay open. That split is why the same robots.txt can say yes to AI answers and no to training without contradicting itself.</p>
+  <p>Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, and Amazonbot. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.</p>
 <h2>Why this line</h2>
 <p>Retrieval sends readers to the source. Training does not. We publish pricing research, benchmarks, and assessments so buyers can make better decisions, and a model trained on the corpus competes with the site that produced it. Allowing the first use and refusing the second is the honest split.</p>
 <h2>Getting permission</h2>
 <p>Want to train on the corpus, license it, or ask about a use this page does not cover? <a href="/contact/">Contact us</a>. Licensing is available; silence is not consent.</p>
-</article>
+<p>Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap points agents at the machine-readable catalog in /.well-known/ard.json. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.</p>
+  </article>
 </main>
 <footer>
   <div class="wrap">

@@ -26,7 +26,7 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Claude Ads](/tools/claude-ads/)
 
@@ -34,7 +34,7 @@ Claude Ads is a paid-media operations skill that runs inside Claude Code. It sta
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
 
@@ -42,7 +42,7 @@ google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google A
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
@@ -50,7 +50,7 @@ Digital Marketing Pro is the heaviest skill pack in this category: 158 skills, 2
 
 **Verdict:** Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Email Marketing Bible](/tools/email-marketing-bible/)
 
@@ -58,7 +58,7 @@ Email Marketing Bible is what happens when someone who ran an email SaaS (Smartr
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
@@ -66,7 +66,7 @@ GTM Cheat Codes is the skill library Zapier&#x27;s own go-to-market teams use wi
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Eve Marketing Team Template](/tools/eve-marketing-team/)
 
@@ -74,7 +74,7 @@ Eve Marketing Team Template is Vercel&#x27;s starter for running a five-person m
 
 **Verdict:** Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)
 
@@ -82,7 +82,7 @@ OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skill
 
 **Verdict:** Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

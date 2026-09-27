@@ -1,4 +1,4 @@
-# HubSpot Marketing pricing
+# HubSpot Marketing Hub pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Marketing Automation · Freemium Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit HubSpot Marketing Hub &#8594;](https://www.hubspot.com/products/marketing)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -133,7 +137,7 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 

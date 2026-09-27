@@ -84,6 +84,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Frappe CRM &#8594;](https://frappe.io/crm)
+
 ## MartechSignal Score: 38/60
 
 Frappe CRM combines a fast release cadence, real documentation, and free self-hosting with cheap hosting from the company behind ERPNext. It carries no AI features at all and its native integration list is short, so it fits teams that value extensibility over built-in automation.
@@ -328,9 +330,9 @@ Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-c
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.2,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

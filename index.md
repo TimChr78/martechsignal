@@ -80,14 +80,6 @@ AI MARKETING AUTOMATION · WEEKLY
 
 Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.
 
-The directory holds **162 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **20** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
-
-Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
-
-Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.
-
-Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.
-
 ## Latest writing
 
 ### Claude SEO benchmark: every score we have earned, and what each one measured
@@ -107,6 +99,16 @@ Anthropic watermarks every Claude response now, and a new study shows the mark c
 Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job. Two pieces of practitioner
 
 ## Tool index
+
+## How to read the directory
+
+The directory holds **162 martech tools** audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. **20** carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.
+
+Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.
+
+Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.
+
+Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.
 
 ## Browse by category
 
@@ -132,7 +134,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
       "url": "https://martechsignal.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
+        "url": "https://martechsignal.com/logo.png",
         "width": 1200,
         "height": 630
       },

@@ -1,4 +1,4 @@
-# Adobe LLM pricing
+# Adobe LLM Optimizer pricing
 
 
 | Pros | Cons |
@@ -70,6 +70,10 @@ GEO &amp; LLM Optimization · Enterprise Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Adobe LLM Optimizer &#8594;](https://business.adobe.com/products/brand-visibility.html)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -156,6 +160,23 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools]
 [
   {
     "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#app",
+    "name": "Adobe LLM Optimizer",
+    "description": "Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution",
+    "image": "https://martechsignal.com/og/tools/adobe-llm-optimizer.png",
+    "url": "https://martechsignal.com/tools/adobe-llm-optimizer/",
+    "sameAs": [
+      "https://business.adobe.com/products/brand-visibility.html"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/adobe-llm-optimizer/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-25",
+    "datePublished": "2026-09-25"
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       {
@@ -231,8 +252,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools]
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#webpage", "dateModified": "2026-09-25"}
 ```

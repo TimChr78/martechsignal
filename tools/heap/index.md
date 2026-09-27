@@ -63,6 +63,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Heap &#8594;](https://www.heap.io)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Heap is a digital insights platform that takes a fundamentally different approach to analytics. Instead of requiring manual event tagging before you can analyze user behavior, **Heap auto-captures every user interaction** (every click, pageview, form fill, swipe, and scroll) from the moment it&#x27;s installed. This &quot;capture everything, analyze later&quot; philosophy eliminates the frustration of discovering you need data on a feature you didn&#x27;t tag six months ago. Acquired by Contentsquare in 2023, Heap now combines its auto-capture product analytics with Contentsquare&#x27;s digital experience analytics (heatmaps, zone-based click analysis, frustration scoring) under one platform. The platform&#x27;s core features include: **auto-captured event analytics** (retroactive analysis, where you define events after data is collected), **funnel and conversion analysis** (with automatic drop-off insights), **cohort and retention analysis** (group users by any property or behavior), **session replay** (watch individual user sessions with console log integration for debugging), **journey analysis** (map actual user paths through the product), and **no-code event definitions**, so product managers can define events in a visual interface without engineering support. Heap&#x27;s &quot;Illuminations&quot; feature uses AI to automatically surface statistically significant patterns and anomalies in user behavior. Heap is best suited for product teams that want to reduce the cycle time between &quot;I have a question about user behavior&quot; and &quot;I have data to answer it&quot; by eliminating the engineering bottleneck of event tagging. It integrates with Salesforce, Marketo, Intercom, Optimizely, and data warehouses via native connectors. Pricing starts at approximately $3,000-5,000+/year for startups (Growth plan) and scales to enterprise contracts based on session volume. Heap competes with Amplitude (event-based product analytics, requires instrumentation), Mixpanel (event-based, smaller-scale), and PostHog (open-source with auto-capture). Its win scenario is the team that wants analytics without the instrumentation overhead: install once, ask questions later.
@@ -145,6 +149,23 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
 [
   {
     "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/heap/#app",
+    "name": "Heap",
+    "description": "AI-powered product analytics with autocapture and digital experience insights",
+    "image": "https://martechsignal.com/og/tools/heap.png",
+    "url": "https://martechsignal.com/tools/heap/",
+    "sameAs": [
+      "https://www.heap.io"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/heap/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-08-28",
+    "datePublished": "2026-07-27"
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       {
@@ -204,8 +225,4 @@ Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/heap/#webpage", "dateModified": "2026-08-28"}
 ```

@@ -26,7 +26,7 @@ Dynamic Yield by Mastercard is an enterprise personalization platform built arou
 
 **Verdict:** Best for personalization &amp; CDP teams that want shopping muse conversational commerce and predictive targeting, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Twilio Segment](/tools/segment/)
 
@@ -34,7 +34,7 @@ Twilio Segment is a developer-first customer data platform: SDKs and server libr
 
 **Verdict:** Best for personalization &amp; CDP teams that want predictive audiences and predictive traits, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Nosto](/tools/nosto/)
 
@@ -42,7 +42,7 @@ Nosto is a commerce experience platform for online stores, built around a shared
 
 **Verdict:** Best for personalization &amp; CDP teams that want predictive product recommendations and visual ai product tagging, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Clerk.io](/tools/clerk-io/)
 
@@ -50,7 +50,7 @@ Clerk.io is an AI ecommerce personalization platform that helps online stores op
 
 **Verdict:** Best for personalization &amp; CDP teams that want ai product recommendations and ai site search, starting at €119/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Tealium](/tools/tealium/)
 
@@ -58,7 +58,7 @@ Tealium is an independent enterprise Customer Data Platform (CDP) built around t
 
 **Verdict:** Best for personalization &amp; CDP teams that want ai audience segmentation and ai data enrichment, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Flagsmith](/tools/flagsmith/)
 
@@ -66,7 +66,7 @@ Flagsmith is an open-source feature flag and remote configuration platform, BSD-
 
 **Verdict:** Best for personalization &amp; CDP teams that want automated flag hygiene and ai-assisted change-request workflows and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [GrowthBook](/tools/growthbook/)
 
@@ -74,7 +74,7 @@ GrowthBook is an open-source feature flag and A/B testing platform with 8,430 Gi
 
 **Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Jitsu](/tools/jitsu/)
 
@@ -82,7 +82,7 @@ Jitsu is an open-source event collection and data pipeline platform, MIT license
 
 **Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

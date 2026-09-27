@@ -20,7 +20,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-OPEN SOURCE · WORKFLOW AUTOMATION · 9 MIN
+OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
 
 ## NocoBase vs NocoDB vs Budibase: pick by team shape
 
@@ -28,7 +28,7 @@ OPEN SOURCE · WORKFLOW AUTOMATION · 9 MIN
 
 [Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape
 
-SEP 09, 2026
+SEP 09, 2026 · Updated SEP 27, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -115,7 +115,7 @@ Down to two already? The pairwise version of this fight lives on [NocoDB vs Noco
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Open-Source Tools tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -161,7 +161,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-09-09",
+  "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": "https://martechsignal.com/og/nocobase-vs-nocodb-vs-budibase.png",
   "citation": [],
@@ -170,7 +170,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1899,
+  "wordCount": 1901,
   "articleSection": "workflow-automation"
 }
 ```

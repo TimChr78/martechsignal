@@ -81,6 +81,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Twilio Segment &#8594;](https://segment.com)
+
 ## MartechSignal Score: 46/60
 
 The developer-first CDP with the widest countable destination catalog and unusually good documentation, priced so the parts that differentiate it sit above the self-serve tiers. Buyers get a strong pipeline at 120 USD a month and must contract for governance, identity resolution and activation.
@@ -334,9 +336,9 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.8,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 46,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

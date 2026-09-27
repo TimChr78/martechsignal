@@ -1,4 +1,4 @@
-# Ahrefs Brand Radar: Track Brand Mentions in AI
+# Ahrefs review (2026): pricing, AI features, verdict
 
 
 | Pros | Cons |
@@ -67,6 +67,10 @@ GEO &amp; LLM Optimization · From $129/mo Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Ahrefs &#8594;](https://ahrefs.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

@@ -44,7 +44,7 @@ Migration cost belongs on the comparison even though it lives outside both produ
 
 ## The pairs we cover
 
-The pairwise pages cover the contests that show up most in real evaluations: [n8n vs Zapier](/vs/n8n-vs-zapier/), [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/), [HubSpot vs Salesforce](/vs/hubspot-vs-salesforce/), [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/), [Salesforce Marketing Cloud vs HubSpot](/vs/salesforce-mc-vs-hubspot/), [Make vs Zapier](/vs/make-vs-zapier/), [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/), and [Jasper vs Writer](/vs/jasper-vs-writer/). Each carries the same rubric and the same honesty rules.
+The pairwise pages cover the contests that show up most in real evaluations: [n8n vs Zapier](/vs/n8n-vs-zapier/), [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/), [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/), [Make vs Zapier](/vs/make-vs-zapier/), [ActiveCampaign vs Klaviyo](/vs/activecampaign-vs-klaviyo/), [Jasper vs Writer](/vs/jasper-vs-writer/). Each carries the same rubric and the same honesty rules.
 
 Three-way and team-shape questions belong to the blog instead. When NocoBase, NocoDB, and Budibase all fit and the real question is who will operate them, read the [pick-by-team-shape](/blog/nocobase-vs-nocodb-vs-budibase/) piece rather than forcing a pairwise answer. Same for workflow debt: [Zapier vs Make](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/) in long form covers the cost shapes the pairwise page can only summarize.
 

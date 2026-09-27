@@ -59,6 +59,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Clearscope &#8594;](https://www.clearscope.io)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Clearscope is a content optimization platform that helps writers and SEO teams create content that comprehensively covers a topic as search engines expect. Rather than generating content from scratch, Clearscope analyzes the top-ranking pages for a target keyword and produces a content brief showing the terms, entities, headings, and question patterns those pages use. Its real-time Content Grade scores your draft against that brief, updating as you write so you can see which concepts you still need to address. Founded in 2016 and based in Austin, Texas, Clearscope competes with Surfer SEO, MarketMuse, and Frase in the content optimization category. Its key differentiator is its integration with Google Search Console and Google Docs: the Content Decay feature identifies pages that are losing rankings and suggests updates based on what competitors have added since your last revision. AI Drafts can generate full content briefs or initial drafts, with allocation varying by plan. Pricing starts at $129/month for the Essentials plan with 10 content reports and Google Docs integration; the Business plan at $399/month adds unlimited reports, GSC integration, and team features. Clearscope is priced higher than Frase and Surfer but appeals to enterprise content teams that value its cleaner UI and stronger integration with existing editorial workflows. The main criticism is the price: for freelancers and small teams, Frase offers similar capability for less.
@@ -126,8 +130,8 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

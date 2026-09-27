@@ -63,6 +63,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Surfer SEO &#8594;](https://surferseo.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Surfer SEO is one of the most widely used on-page content optimization tools, processing over 500 on-page signals to reverse-engineer what makes top-ranking pages successful for a given keyword. Founded in 2017 and based in Poland, Surfer moved early to make NLP-driven content optimization accessible to non-technical marketers and grew through aggressive content marketing and an active affiliate program. Its Content Editor is the flagship feature: you enter a primary keyword, and Surfer analyzes the top 50 ranking pages to build a content score based on term frequency, heading structure, word count, image count, and structural patterns. As you write, the editor shows which terms you&#x27;re missing, which you&#x27;re overusing, and how your content score changes in real time. Surfer AI can generate fully optimized drafts that score 60-70+ on its scale directly in the editor. Additional tools include a Keyword Research module, a SERP Analyzer, a Content Planner, and a Domain Planner for site-level content strategy. Integrations include Google Docs, WordPress, and Jasper (for AI writing with Surfer optimization). Pricing starts at $49-59/month for Discovery; Standard runs $99-119/month; Pro at $182-219/month adds API access and higher article limits; Peace of Mind at $299-359/month is the top tier; custom enterprise plans are available. Surfer competes directly with Clearscope (more enterprise, higher price) and Frase (more affordable, AI search features). Its main criticism is that it is optimization-focused rather than research-focused: for keyword discovery and topic strategy, you still need Ahrefs, Semrush, or MarketMuse.
@@ -132,8 +136,8 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

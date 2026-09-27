@@ -320,7 +320,7 @@ def _date_modified(meta, date_str):
             pass
         try:
             import datetime as _dt
-            return _dt.datetime.fromtimestamp(_os.path.getmtime(dp)).strftime('%Y-%m-%d')
+            return date_str  # r6 M-5: mtime is not a copy change; publish date is the honest floor
         except Exception:
             pass
     return date_str

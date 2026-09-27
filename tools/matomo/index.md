@@ -85,6 +85,8 @@ Looking for options? [Best Matomo alternatives](/alternatives/matomo/)
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Matomo &#8594;](https://matomo.org)
+
 ## MartechSignal Score: 49/60
 
 The pick when analytics data residency is a requirement rather than a preference, with an open core and a real premium plugin business behind it. Budget both operations time for self-hosting and plugin fees for the headline behavioral features.
@@ -338,9 +340,9 @@ Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Pl
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 4.1,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 49,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

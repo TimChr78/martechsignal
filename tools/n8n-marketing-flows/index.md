@@ -1,4 +1,4 @@
-# n8n Marketing pricing
+# n8n Marketing Flows pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Workflow Automation · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit n8n Marketing Flows &#8594;](https://github.com/YuriCrystal/n8n-marketing-flows)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

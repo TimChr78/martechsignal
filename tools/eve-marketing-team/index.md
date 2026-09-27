@@ -1,4 +1,4 @@
-# Eve Marketing Team Template, Free n8n Pack
+# Eve Marketing Team Template pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Eve Marketing Team Template &#8594;](https://github.com/vercel-labs/marketing-team-eve-template)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

@@ -81,6 +81,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit NocoBase &#8594;](https://www.nocobase.com)
+
 ## MartechSignal Score: 42/60
 
 A serious self-hosted construction kit whose pricing page is unusually concrete, with real edition prices and a free unlimited community tier. The weak spots sit outside the core: thin marketing connectors and a license whose supplementary terms limit how far the open source label stretches.
@@ -311,9 +313,9 @@ Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.5,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

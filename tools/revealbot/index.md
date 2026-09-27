@@ -1,4 +1,4 @@
-# Revealbot pricing
+# Revealbot (Birch) pricing
 
 
 | Pros | Cons |
@@ -80,6 +80,10 @@ Advertising &amp; Paid Media · From $49/mo Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Revealbot (Birch) &#8594;](https://bir.ch)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

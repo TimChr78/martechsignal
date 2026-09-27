@@ -8,13 +8,13 @@
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window) || reduced) {
-    els.forEach(function (el) { el.classList.add('is-in'); });
+    els.forEach(function (el) { el.classList.add('in'); });
     return;
   }
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
       if (e.isIntersecting) {
-        e.target.classList.add('is-in');
+        e.target.classList.add('in');
         io.unobserve(e.target);
       }
     });

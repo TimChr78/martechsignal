@@ -36,9 +36,20 @@ User-agent: GPTBot
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
+# Anthropic runs three crawlers (support.claude.com, verified 2026-09-27):
+# ClaudeBot collects training data, Claude-User fetches pages when a Claude
+# user asks a question, Claude-SearchBot indexes for search. The training
+# crawler stays blocked; the retrieval pair stays open, so the ai-input=yes
+# declaration on /ai-policy/ is enforced exactly as declared.
 User-agent: ClaudeBot
-Content-Signal: search=yes, ai-input=yes, ai-train=no
+Content-Signal: ai-train=no
 Disallow: /
+
+User-agent: Claude-User
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+User-agent: Claude-SearchBot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 User-agent: Google-Extended
 Content-Signal: search=yes, ai-input=yes, ai-train=no

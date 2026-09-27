@@ -1,4 +1,4 @@
-# AI Marketing pricing
+# AI Marketing Suite pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

@@ -71,6 +71,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Phrasee &#8594;](https://www.jacquard.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. The product intent is unchanged: AI-generated, brand-safe short-form marketing copy generated, predicted, and tested at enterprise send volumes. The current platform documents four engines (Language, Neural, Optimise, Contextual) and describes a neuro-symbolic architecture combining generative AI with deterministic rules for tone, structure, and compliance. Language enforces what the company calls strict, deterministic guardrails, style guides and AI tone-of-voice analysis keep output sounding like your copywriters, and Neural is described as trained on 60 billion data points from a decade of messaging experiments, with a claimed 66% win rate predicting top variants against human controls. Every send is documented as an A/B/N test where AI variants compete against a human control, allocated by a multi-armed bandit derivative. Channels on the live site are email, SMS, mobile push, in-app, web push, and ChatGPT apps; social ad copy, which Phrasee marketed in 2023, no longer appears. Two claims in our earlier record needed correcting. Ownership: Phrasee was never acquired by CM Group or Marigold. UK filings show a majority investment by capital D, Morgan Stanley Expansion Capital, and Keyhaven Capital Partners effective March 14, 2022, and the October 2023 event was founder-CEO Parry Malm leaving the board, not a management buyout. Brand controls: the tone-plus-vocabulary-plus-prohibited-language model we described is not the vendor&#x27;s language; the documented mechanism is style guides, deterministic rules, and an approval process for vetting messages. Founded in London in 2015 by Parry Malm, Victoria Peppiatt, and Neil Yager, it reports 50+ customers, 200 billion sends, and 17M pounds raised. Pricing is quote-based, with no trial and no published price list.
@@ -170,8 +174,8 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
@@ -181,6 +185,23 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
 
 ```json
 [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/phrasee/#app",
+    "name": "Phrasee",
+    "description": "AI messaging content platform; rebranded as Jacquard in June 2024",
+    "image": "https://martechsignal.com/og/tools/phrasee.png",
+    "url": "https://martechsignal.com/tools/phrasee/",
+    "sameAs": [
+      "https://www.jacquard.com"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/phrasee/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-07",
+    "datePublished": "2026-07-27"
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -266,8 +287,4 @@ Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tool
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/#webpage", "dateModified": "2026-09-07"}
 ```

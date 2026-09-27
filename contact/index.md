@@ -36,7 +36,7 @@ This inbox has one reader with a day job, so give it two or three business days 
     "url": "https://martechsignal.com/",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   }
 }

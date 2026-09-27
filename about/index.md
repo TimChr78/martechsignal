@@ -54,7 +54,7 @@ Corrections, tips, and tool suggestions: reach Tim through the site or on [Linke
     ],
     "logo": {
       "@type": "ImageObject",
-      "url": "https://martechsignal.com/og.png"
+      "url": "https://martechsignal.com/logo.png"
     }
   }
 }

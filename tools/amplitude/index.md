@@ -91,6 +91,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Amplitude &#8594;](https://amplitude.com)
+
 ## MartechSignal Score: 49/60
 
 Amplitude is the most complete product in this batch, with a published tier table, a broad integration catalog, and named AI agents plus an MCP server on every plan. The cost of that depth is pricing that turns quote-only above the Plus plan and a closed codebase where data leaves only through documented exports and streams.
@@ -201,6 +203,23 @@ Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo) · [Mar
 
 ```json
 [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/amplitude/#app",
+    "name": "Amplitude",
+    "description": "AI-powered digital analytics platform for product and marketing teams",
+    "image": "https://martechsignal.com/og/tools/amplitude.png",
+    "url": "https://martechsignal.com/tools/amplitude/",
+    "sameAs": [
+      "https://amplitude.com"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/amplitude/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-25",
+    "datePublished": "2026-07-27"
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -333,14 +352,10 @@ Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo) · [Mar
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 4.1,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 49,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/amplitude/#webpage", "dateModified": "2026-09-26"}
 ```

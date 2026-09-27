@@ -1,4 +1,4 @@
-# Diffmode Growth pricing
+# Diffmode Growth Tactics pricing
 
 
 | Pros | Cons |
@@ -58,6 +58,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Diffmode Growth Tactics &#8594;](https://github.com/acogood/diffmode_free)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

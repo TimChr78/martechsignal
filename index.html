@@ -36,7 +36,7 @@
       "url": "https://martechsignal.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://martechsignal.com/og.png",
+        "url": "https://martechsignal.com/logo.png",
         "width": 1200,
         "height": 630
       },
@@ -65,7 +65,7 @@
     }
   ]
 }</script>
-<link rel="stylesheet" href="/style.min.css?v=d891b1d6">
+<link rel="stylesheet" href="/style.min.css?v=29eeb414">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <style>
 /* ── Concept D homepage ── */
@@ -135,8 +135,13 @@
 html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity .5s,transform .5s}
 .reveal.in{opacity:1;transform:none}
 @media(max-width:760px){
+  .wrap{padding-left:20px;padding-right:20px}
   .hero{padding:2.2rem 1.05rem 1.5rem}
   .hero-ctas a:nth-of-type(2),.hero-ctas a:nth-of-type(3){display:none}
+
+.hero-cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:start}
+.hero-side .stats-card{border:1px solid var(--border);border-radius:14px;padding:1.3rem 1.5rem;display:grid;gap:1rem;background:var(--panel)}
+@media(max-width:1080px){.hero-cols{grid-template-columns:1fr}}
   .stories,.tool-index{grid-template-columns:1fr}
   .stats-in{grid-template-columns:1fr}
   .sub-form{flex-direction:column}
@@ -151,6 +156,7 @@ html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity
 <noscript><style>.reveal{opacity:1;transform:none;transition:none}</style></noscript>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/#webpage", "dateModified": "2026-09-27"}</script>
 <script src="/site.js" defer></script>
+<link rel="manifest" href="/site.webmanifest">
 
 <link rel="alternate" type="text/markdown" href="/index.md" title="Markdown mirror">
 </head>
@@ -168,26 +174,25 @@ html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity
 
 <main>
 <section class="hero">
-  <p class="hero-kicker">AI MARKETING AUTOMATION · WEEKLY</p>
-  <h1>AI Marketing Tools, Researched. <span class="hl">Your stack isn't ready.</span></h1>
-  <p>Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
-  <p style="max-width:62ch;margin-top:.7rem">The directory holds <b>162 martech tools</b> audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. <b>20</b> carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.</p>
-  <p style="max-width:62ch;margin-top:1rem">Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.</p>
-  <p style="max-width:62ch;margin-top:1rem">Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.</p>
-  <p style="max-width:62ch;margin-top:1rem">Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.</p>
-  <div class="hero-ctas" style="margin-top:1.6rem;display:flex;gap:.9rem;flex-wrap:wrap">
+  <div class="hero-cols">
+    <div class="hero-copy">
+      <p class="hero-kicker">AI MARKETING AUTOMATION · WEEKLY</p>
+      <h1>AI Marketing Tools, Researched. <span class="hl">Your stack isn't ready.</span></h1>
+      <p>Every week we audit the AI marketing automation landscape, the agents, the workflows, the vendor lock-in, and tell you what actually works. No sponsored rankings. No press-release rewrites.</p>
+      <div class="hero-ctas" style="margin-top:1.6rem;display:flex;gap:.9rem;flex-wrap:wrap">
     <a class="btn" href="/tools/">Browse the tools</a>
     <a class="btn" href="/trending/" style="background:transparent;border:1px solid var(--amber);color:var(--amber)">See what is trending</a>
     <a class="btn" href="/checklist/" style="background:transparent;border:1px solid var(--amber);color:var(--amber)">Take the readiness checklist</a>
     <a class="btn" href="/#subscribe" style="background:transparent;border:1px solid var(--amber);color:var(--amber)">Get the newsletter</a>
   </div>
-</section>
-
-<section class="stats-band">
-  <div class="stats-in">
-    <div class="stat"><span class="num" id="s1">162</span><span class="lbl">TOOLS AUDITED</span></div>
+    </div>
+    <aside class="hero-side">
+      <div class="stats-card">
+        <div class="stat"><span class="num" id="s1">162</span><span class="lbl">TOOLS AUDITED</span></div>
     <div class="stat"><span class="num" id="s2">40</span><span class="lbl">POSTS PUBLISHED</span></div>
     <div class="stat"><span class="num" id="s3">12</span><span class="lbl">CHECKLIST QUESTIONS</span></div>
+      </div>
+    </aside>
   </div>
 </section>
 
@@ -242,6 +247,16 @@ html.js .reveal:not(.in){opacity:0;transform:translateY(16px);transition:opacity
     <a class="tool-row" href="/tools/claude-seo/"><span class="name">Claude SEO</span><span class="take">Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents</span><span class="tag">AGENT SKILLS</span></a>
   </div>
   <a class="more-tools" href="/tools/">+154 MORE TOOLS →</a>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>How to read the directory</h2>
+  </div>
+  <p style="max-width:62ch;max-width:62ch">The directory holds <b>162 martech tools</b> audited against one published rubric: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. <b>20</b> carry the full six-pillar score panel; those pages are linked from the tool index. Every claim on a tool page cites its source, or says plainly that we have not verified it. When we get something wrong, the corrections log records the date and the fix.</p>
+  <p style="max-width:62ch;margin-top:1rem">Every number in the directory carries a date. Prices, integration counts, AI feature lists, star counts: each one shows the day we last checked it against the vendor's own documentation. When a number moves, the page moves with it. The n8n star count is the obvious example. Three different figures had settled into our own pages before we re-checked the repository and re-stamped the date.</p>
+  <p style="max-width:62ch;margin-top:1rem">Scores use the same six pillars everywhere: pricing transparency, feature depth, integrations, AI capability, openness, and operational maturity. Some tools carry the full score; the tool index links them. The rest of the directory is catalog research, and the pages say so instead of dressing up as lab tests. Nobody pays for a listing, and nobody pays to leave.</p>
+  <p style="max-width:62ch;margin-top:1rem">Use the directory for shortlists. Read the pricing line before the sales page, and skip anything whose skip-it line matches your situation. It does not replace a trial. The gap between a documented feature and a working one in your own stack is exactly the size of your own data.</p>
 </section>
 
 <!-- categories-strip:start (generated by tools/build_indexes.py) -->

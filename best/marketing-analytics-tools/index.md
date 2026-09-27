@@ -26,7 +26,7 @@ Amplitude is a digital analytics platform built on events: each action a user ta
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai root cause analysis and predictive analytics, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Matomo](/tools/matomo/)
 
@@ -34,7 +34,7 @@ Matomo is an open-source web analytics platform you run on your own infrastructu
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Umami](/tools/umami/)
 
@@ -42,7 +42,7 @@ Umami is an open-source, cookieless web analytics platform you can self-host und
 
 **Verdict:** Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu or do**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Mixpanel](/tools/mixpanel/)
 
@@ -50,7 +50,7 @@ Mixpanel is a product analytics platform built on an event-based data model: eve
 
 **Verdict:** Best for analytics &amp; attribution teams that want the job covered in one platform, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Triple Whale](/tools/triple-whale/)
 
@@ -58,7 +58,7 @@ Triple Whale is an AI-powered ecommerce analytics and attribution platform built
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai attribution modeling and ai anomaly detection, starting at $59/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Heap](/tools/heap/)
 
@@ -66,7 +66,7 @@ Heap is a digital insights platform that takes a fundamentally different approac
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai autocapture and ai session replay analysis, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Northbeam](/tools/northbeam/)
 
@@ -74,7 +74,7 @@ Northbeam is a marketing intelligence and attribution platform built specificall
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai multi-touch attribution and ai creative analytics, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Snowplow](/tools/snowplow/)
 
@@ -82,7 +82,7 @@ Snowplow is behavioral event infrastructure that has repositioned itself for the
 
 **Verdict:** Best for analytics &amp; attribution teams that want intent detection and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

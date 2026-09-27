@@ -71,6 +71,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit n8n &#8594;](https://n8n.io)
+
 ## MartechSignal Score: 52/60
 
 The strongest overall score in this batch: owned automation with code-level control, huge integration breadth, published plan limits and a real AI agent surface. The cost is maintenance and a learning curve, and the fair-code license is not open source in the OSI sense.
@@ -269,9 +271,9 @@ Related guides: [n8n in Zapier alternatives](/alternatives/zapier) · [n8n vs Za
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 4.3,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 52,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

@@ -73,6 +73,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Twilio SendGrid &#8594;](https://sendgrid.com)
+
 ## MartechSignal Score: 40/60
 
 Twilio SendGrid remains a proven email delivery platform with published entry pricing and clear per-tier limits on volume, teammates, and webhooks. The marketing campaign side is thin next to dedicated email platforms, and the free entry point is a 60-day trial rather than a permanent free tier.
@@ -265,9 +267,9 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.3,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

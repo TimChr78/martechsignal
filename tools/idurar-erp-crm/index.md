@@ -1,4 +1,4 @@
-# IDURAR ERP &amp; pricing
+# IDURAR ERP &amp; CRM pricing
 
 
 | Pros | Cons |
@@ -66,6 +66,10 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit IDURAR ERP & CRM &#8594;](https://cloud.idurarapp.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

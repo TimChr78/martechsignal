@@ -87,6 +87,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Monica &#8594;](https://monicahq.com)
+
 ## MartechSignal Score: 28/60
 
 Monica is a polished personal relationship manager with honest documentation about what it does not do, including AI and sales pipelines. Adoption risk sits in the stalled release history, since the last stable release shipped in May 2024 while the promised v3 rebuild is still in beta.
@@ -343,9 +345,9 @@ Related guides: [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 2.3,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 28,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

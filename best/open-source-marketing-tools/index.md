@@ -26,7 +26,7 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [n8n](/tools/n8n/)
 
@@ -34,7 +34,7 @@ Built as a flexible, open-source automation framework, n8n lets marketing, opera
 
 **Verdict:** Best for workflow automation teams that want ai agent nodes and ai workflow automation and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [OpenOutreach](/tools/openoutreach/)
 
@@ -42,7 +42,7 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 
 **Verdict:** Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
 
-**you need a or pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Matomo](/tools/matomo/)
 
@@ -50,7 +50,7 @@ Matomo is an open-source web analytics platform you run on your own infrastructu
 
 **Verdict:** Best for analytics &amp; attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [NocoDB](/tools/nocodb/)
 
@@ -58,7 +58,7 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 
 **Verdict:** Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [React Email Editor](/tools/react-email-editor/)
 
@@ -66,7 +66,7 @@ React Email Editor is Unlayer&#x27;s official React component for embedding a dr
 
 **Verdict:** Best for email marketing teams that want ai assistant chat editing and ai image generation and can host it themselves, with a free starting tier.
 
-**you need a or pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Twenty](/tools/twenty/)
 
@@ -74,7 +74,7 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 
 **Verdict:** Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Claude SEO](/tools/claude-seo/)
 
@@ -82,7 +82,7 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

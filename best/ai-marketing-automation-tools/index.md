@@ -26,7 +26,7 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 
 **Verdict:** Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
-**you need pu**
+**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Ortto](/tools/ortto/)
 
@@ -34,7 +34,7 @@ Ortto is a customer data and marketing automation platform that began life as Au
 
 **Verdict:** Best for marketing automation teams that want ai subject line recommendations and ai content generation suggestions, starting at $199/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
 
@@ -42,7 +42,7 @@ Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product 
 
 **Verdict:** Best for marketing automation teams that want agentforce campaign creation and agentforce personalization decisioning, starting at $1500/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [ActiveCampaign](/tools/activecampaign/)
 
@@ -50,7 +50,7 @@ ActiveCampaign combines marketing automation, email marketing, and CRM in one pl
 
 **Verdict:** Best for marketing automation teams that want ai content generation and predictive sending, starting at $15/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Adobe Marketo Engage](/tools/adobe-marketo/)
 
@@ -58,7 +58,7 @@ Adobe Marketo Engage is the leading B2B marketing automation platform for enterp
 
 **Verdict:** Best for marketing automation teams that want ai lead scoring and predictive audiences, starting at $895/mo.
 
-**you need to**
+**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Bloomreach](/tools/bloomreach/)
 
@@ -66,7 +66,7 @@ Bloomreach is an AI-first digital experience platform built for ecommerce and re
 
 **Verdict:** Best for marketing automation teams that want loomi ai search and ai product recommendations, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Braze](/tools/braze/)
 
@@ -74,7 +74,7 @@ Braze is a cross-channel customer engagement platform built for enterprises that
 
 **Verdict:** Best for marketing automation teams that want brazeai intelligent timing and ai channel optimization, with pricing quoted per contract.
 
-**you need to or pu**
+**Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/)
 
@@ -82,7 +82,7 @@ Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing
 
 **Verdict:** Best for marketing automation teams that want ai content assistant and predictive lead scoring, with a free starting tier.
 
-**you need to or pu**
+**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 162 tools](/tools/) or read [how we evaluate](/methodology/).
 

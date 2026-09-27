@@ -10,7 +10,7 @@ GOOGLE ADS · AI · 7 MIN
 
 [Home](/) · [Blog](/blog/) · The guardrails Google won't ship for your AI ad account
 
-SEP 24, 2026
+SEP 24, 2026 · Updated SEP 27, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -135,7 +135,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     }
   },
   "datePublished": "2026-09-24",
-  "dateModified": "2026-09-24",
+  "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
   "image": "https://martechsignal.com/og/google-ads-ai-guardrails.png",
   "citation": [

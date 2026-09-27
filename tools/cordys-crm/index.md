@@ -92,6 +92,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Cordys CRM &#8594;](https://cordys.cn)
+
 ## MartechSignal Score: 40/60
 
 Cordys CRM delivers lead-to-cash depth plus real agent and MCP support at no per-seat cost, which is rare among self-hosted CRMs. The license restricts rebranding so it is not plain open source, and most of the AI layer is assembled from sibling FIT2CLOUD products rather than built in.
@@ -344,9 +346,9 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.3,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

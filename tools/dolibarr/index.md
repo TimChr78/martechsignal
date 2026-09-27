@@ -1,4 +1,4 @@
-# Dolibarr pricing
+# Dolibarr ERP/CRM pricing
 
 
 | Pillar | Score | Evidence |
@@ -77,6 +77,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Dolibarr ERP/CRM &#8594;](https://www.dolibarr.org)
 
 ## MartechSignal Score: 44/60
 
@@ -322,9 +324,9 @@ Related guides: [Ai Crm Tools](/best/ai-crm-tools) · [Open Source Marketing Too
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.7,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 44,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

@@ -82,7 +82,7 @@ The Semrush side of this comparison draws on the vendor's published documentatio
 ## Comparison guides
 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
-- [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -139,7 +139,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1430,
+  "wordCount": 1429,
   "articleSection": "seo"
 }
 ```

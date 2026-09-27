@@ -86,8 +86,8 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -142,7 +142,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1414,
+  "wordCount": 1411,
   "articleSection": "marketing-automation"
 }
 ```

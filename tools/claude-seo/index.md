@@ -110,6 +110,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Claude SEO &#8594;](https://claude-seo.md/)
+
 ## MartechSignal Score: 43/60
 
 A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.

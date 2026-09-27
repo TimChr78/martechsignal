@@ -60,6 +60,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit ProspectOS &#8594;](https://github.com/nando0x/ProspectOS)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company&#x27;s website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project&#x27;s own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms&#x27; terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with 206 stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.

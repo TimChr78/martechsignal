@@ -1,4 +1,4 @@
-# Zapier GTM Cheat pricing
+# Zapier GTM Cheat Codes pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Zapier GTM Cheat Codes &#8594;](https://github.com/zapier/gtm-cheat-codes)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

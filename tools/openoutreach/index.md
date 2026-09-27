@@ -85,6 +85,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit OpenOutreach &#8594;](https://openoutreach.app)
+
 ## MartechSignal Score: 41/60
 
 OpenOutreach is a genuinely AI-native lead finder under a free license, with every external cost documented down to per-email credit pricing. Its maturity is unproven, with no published release history or company behind it, and it depends on a third-party data provider for lead discovery.
@@ -185,7 +187,7 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 ## Related reading
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
@@ -336,9 +338,9 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools) · [O
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.4,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 41,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

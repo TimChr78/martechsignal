@@ -63,6 +63,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Attribution &#8594;](https://www.attributionapp.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Attribution (attributionapp.com) is a marketing attribution platform that connects ad spend to revenue through multi-touch attribution (MTA), incrementality testing, and marketing mix modeling (MMM). Where general-purpose analytics tools show correlation, Attribution focuses specifically on **causation**, measuring which marketing activities actually drive conversions and revenue, with fully auditable data trails and customizable attribution models. The platform supports both B2B (longer sales cycles, multiple stakeholders) and DTC (shorter funnels, direct attribution) use cases with separate modeling approaches for each. Key capabilities include: **multi-touch attribution models** (first-touch, last-touch, linear, time-decay, U-shaped, W-shaped, and fully custom weighting), **incrementality testing** to measure the true lift from marketing spend versus what would have happened organically, **media mix modeling** (MMM) for strategic budget allocation across channels, and **predictive budget optimization** using machine learning to forecast returns on future spend allocations. All attribution data is **raw-exportable**: customers can download the underlying data powering every attribution model and verify the math independently, a transparency feature rare in the attribution space. Attribution integrates with Salesforce, HubSpot, Google Ads, Meta Ads, LinkedIn Ads, Slack, and Marketo, with API access for custom integrations. Pricing is enterprise-tier (custom quotes, typically $1,000-5,000+/mo depending on ad spend volume and model complexity), though smaller plans exist for SMBs. Founded in 2016 and based in San Francisco, Attribution competes with Northbeam and Triple Whale (ecommerce-focused attribution), Dreamdata (B2B attribution), and Rockerbox (multi-touch attribution). It is best suited for mid-to-large marketing teams that want auditable attribution with the flexibility to customize models rather than accepting a black-box attribution score.
@@ -141,6 +145,23 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 [
   {
     "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/attribution/#app",
+    "name": "Attribution",
+    "description": "AI-powered marketing attribution platform connecting ad spend to revenue",
+    "image": "https://martechsignal.com/og/tools/attribution.png",
+    "url": "https://martechsignal.com/tools/attribution/",
+    "sameAs": [
+      "https://www.attributionapp.com"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/attribution/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-08-28",
+    "datePublished": "2026-07-27"
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       {
@@ -200,8 +221,4 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attribution/#webpage", "dateModified": "2026-08-28"}
 ```

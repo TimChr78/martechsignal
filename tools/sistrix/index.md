@@ -65,6 +65,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit SISTRIX &#8594;](https://www.sistrix.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 SISTRIX is a German SEO suite from SISTRIX GmbH, organized in three modules: Google SEO, Visibility in AI Answers, and Amazon Marketplace. The Google module is built around the SISTRIX Visibility Index, which measures over 100 million domains across 30+ countries, with keyword discovery, domain and competitor analysis, a backlink index that includes Majestic data, and an on-page crawler that handles JavaScript and mobile viewports. The AI module tracks mentions, rankings and citations in AI search engines. The Amazon module covers product research across five countries, brand and retailer analysis, and category share checks. Pricing runs Start at EUR 119/month plus taxes, Plus at EUR 239, Professional at EUR 419, and Premium at EUR 799, all cancelable monthly. Tiers set user accounts (1, 3, 6, 12), projects (3, 15, 40, 100) and data history (3 months, 5 years, then the full 11 years on Professional and up). Extra users cost EUR 24.90 on Plus and above; the Start package cannot add users. Content tools (Content Assistant, Content Planner, Content Discovery, plagiarism checks) begin at Plus. Usage is metered beyond the flat tiers: results per analysis, monthly crawl budgets from 30,000 to 4,000,000 URLs, SERP update credits, content projects, and weekly export and API credits. The API is limited to Visibility Index data on Plus and opens fully on Professional. Alerts arrive by email or Slack. Reports go out as scheduled PDFs, with white-label reports at Professional. Invoices are issued in euros, annual subscriptions reduce the monthly rate, and a 14-day free trial includes personal onboarding.
@@ -131,7 +135,7 @@ Plus receives limited access covering only Visibility Index data. Professional a
 ## Related reading
 
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 

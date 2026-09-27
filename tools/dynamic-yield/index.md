@@ -91,6 +91,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Dynamic Yield &#8594;](https://www.dynamicyield.com)
+
 ## MartechSignal Score: 37/60
 
 Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.
@@ -210,6 +212,23 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
 
 ```json
 [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
+    "name": "Dynamic Yield",
+    "description": "AI-powered personalization platform for web, mobile, and email experiences",
+    "image": "https://martechsignal.com/og/tools/dynamic-yield.png",
+    "url": "https://martechsignal.com/tools/dynamic-yield/",
+    "sameAs": [
+      "https://www.dynamicyield.com"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/dynamic-yield/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-06",
+    "datePublished": "2026-07-27"
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -342,14 +361,10 @@ Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.1,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dynamic-yield/#webpage", "dateModified": "2026-09-26"}
 ```

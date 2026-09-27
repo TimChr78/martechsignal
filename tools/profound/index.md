@@ -69,6 +69,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit Profound &#8594;](https://www.tryprofound.com/)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. It started as an AI search visibility tool and now sells an AI Marketer: agents that draft content, social posts, PR corrections and sponsored answer campaigns from your brand&#x27;s prompt and citation data. The monitoring half runs structured prompts across answer engines and records where your brand appears, which sources get cited, sentiment and competitor presence. The action half rewrites pages losing citations, builds pages for questions you have no answer for, and stages everything in your CMS as drafts for approval. A Context Manager stores brand knowledge so agents write from your positioning rather than generic model output. On the measurement side you also get Prompt Volumes (what users ask AI), Shopping tracking, and Agent Analytics for AI-sourced traffic across your domains. Pricing is quote-based. A free trial runs 50 prompts daily for seven days on ChatGPT, Gemini and Google AI Overviews, and trial prompts cannot be customized. Enterprise is tailored: up to nine answer engines (ChatGPT, Perplexity, Google AI Mode, Gemini, Microsoft Copilot, DeepSeek, Claude, Google AI Overviews, Exa), custom prompt sets, unlimited history, CSV and JSON exports, an API, and SSO/SAML with SOC 2 compliance. The company raised a $180M Series D and lists open roles in New York, London, San Francisco, Boston and Singapore. The buying question is scope. If you want a visibility dashboard, Profound now ships a marketing workbench with agents attached, priced for enterprise budgets. Teams that only need prompt tracking should compare the cheaper monitors in this category.
@@ -141,8 +145,8 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
@@ -152,6 +156,23 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools]
 
 ```json
 [
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/profound/#app",
+    "name": "Profound",
+    "description": "Enterprise AI marketing platform: answer-engine visibility plus drafting agents",
+    "image": "https://martechsignal.com/og/tools/profound.png",
+    "url": "https://martechsignal.com/tools/profound/",
+    "sameAs": [
+      "https://www.tryprofound.com/"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/profound/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-25",
+    "datePublished": "2026-09-25"
+  },
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -237,8 +258,4 @@ Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools]
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/profound/#webpage", "dateModified": "2026-09-25"}
 ```

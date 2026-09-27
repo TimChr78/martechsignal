@@ -1,4 +1,4 @@
-# Email Marketing pricing
+# Email Marketing Bible pricing
 
 
 | Pros | Cons |
@@ -62,6 +62,10 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)
+
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 

@@ -84,6 +84,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Twenty &#8594;](https://twenty.com)
+
 ## MartechSignal Score: 48/60
 
 Twenty pairs genuine open source code with published cloud pricing, so a team can price a rollout before talking to anyone. Its AI story is narrower than the marketing suggests and the native integration list is short, but for a technical team that wants a self-hosted CRM with real APIs it is the strongest all-round pick in this batch.
@@ -329,9 +331,9 @@ Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm) 
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 4.0,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 48,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

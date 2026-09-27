@@ -63,6 +63,10 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [How we review](/methodology/) Â· No affiliate links
 
+[Visit Braze &#8594;](https://www.braze.com)
+
+Not yet scored against the rubric; scored pages show six pillars.
+
 ## Overview
 
 Braze is a cross-channel customer engagement platform built for enterprises that treat customer communication as a strategic advantage rather than a cost center. Founded in 2011 as Appboy (a mobile marketing tool) and rebranded in 2017, Braze went public in 2021 and now competes directly with Salesforce Marketing Cloud, Adobe Campaign, and Iterable for the enterprise engagement market. The platform&#x27;s core thesis is that customer engagement should be coordinated across all channels at once rather than managed in silos. Braze orchestrates email, push notifications, in-app messages, SMS, WhatsApp, web messaging, and paid ad audiences from a single platform, using real-time behavioral data to decide which message goes to which channel at which moment. Its Canvas feature lets marketers build multi-step, multi-channel customer journeys with AI-powered experimentation that automatically tests and optimizes send times, channel selection, and content variants. Braze serves large consumer brands like Peloton, Grubhub, and HBO Max, with a product built for billions of messages per month. The platform competes on technical capability: its APIs, data processing speed, and segmentation engine are built for developer and data science teams, not just marketers. Pricing is custom-quoted and scales with monthly active users and message volume, putting it in enterprise territory. The main limitation is vertical focus: Braze excels at consumer engagement (media, retail, food delivery) but lacks the B2B lead management and ABM features that Marketo and HubSpot provide.
@@ -146,6 +150,23 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
 [
   {
     "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "@id": "https://martechsignal.com/tools/braze/#app",
+    "name": "Braze",
+    "description": "Customer engagement platform with AI-powered real-time messaging across channels",
+    "image": "https://martechsignal.com/og/tools/braze.png",
+    "url": "https://martechsignal.com/tools/braze/",
+    "sameAs": [
+      "https://www.braze.com"
+    ],
+    "mainEntityOfPage": "https://martechsignal.com/tools/braze/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "dateModified": "2026-08-28",
+    "datePublished": "2026-07-27"
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
       {
@@ -205,8 +226,4 @@ Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-to
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/braze/#webpage", "dateModified": "2026-08-28"}
 ```

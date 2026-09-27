@@ -75,6 +75,8 @@ Looking for options? [Best HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
 [How we review](/methodology/) · No affiliate links
 
+[Visit HubSpot CRM &#8594;](https://www.hubspot.com/products/crm)
+
 ## MartechSignal Score: 47/60
 
 The default free entry CRM, strong on time-to-value and now stacking AI features and agents onto the same platform. Costs escalate quickly once workflows and higher limits are needed, and the all-in-one design deepens single-vendor lock-in.
@@ -271,9 +273,9 @@ Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.9,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 47,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

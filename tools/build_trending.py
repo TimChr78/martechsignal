@@ -2,15 +2,7 @@
 """Build trending/index.html for martechsignal.com.
 
 Reads tools/github-history.json (daily snapshots written by github_snapshot.py)
-and tools/tools.json (names, categories, tool-page links) and generates a
-static momentum page: weekly movers table, per-repo sparklines, and per-category
-leaderboards. No external JS; sparklines are inline SVG.
-
-Editorial guardrails (Tim's standing rules):
-  - The measurement window is stated on the page, every table row carries it.
-  - A repo needs >= MIN_DAYS snapshots to appear anywhere on the page.
-  - No extrapolation, no projections, plain numbers only.
-"""
+and tools/tools.json."""
 import html
 import json
 import sys
@@ -180,7 +172,7 @@ def build_page():
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "name": "Open-Source MarTech Momentum",
-        "description": f"GitHub star momentum for the {n_repos} tracked open-source catalog tools (of {oss_n} open-source tools, {total_n} catalog tools overall), window {d0} to {d1}.",
+        "description": f"GitHub star momentum for {n_repos} tracked open-source martech tools, with daily snapshots and verified star counts.",
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "dateModified": d1,
@@ -199,7 +191,7 @@ def build_page():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
         "Open-Source MarTech Momentum: GitHub Stars | MartechSignal",
-        f"Daily GitHub star snapshots for {n_repos} of the {oss_n} open-source tools in the MartechSignal catalog (of {total_n} tools overall) - the ones with a public GitHub repository and enough snapshot history to chart. Weekly movers, sparklines, and category leaderboards over the stated snapshot window.",
+        f"Daily GitHub star snapshots for {n_repos} open-source martech tools: weekly movers, sparklines, and category leaderboards.",
         "/trending/", body, [schema, breadcrumb]))
     print(f"  \u2713 {out.relative_to(ROOT)}  ({len(hist)} snapshots, {n_repos} repos, window {d0}..{d1})")
     return out

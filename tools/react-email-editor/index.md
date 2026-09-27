@@ -1,4 +1,4 @@
-# React Email pricing
+# React Email Editor pricing
 
 
 | Pillar | Score | Evidence |
@@ -84,6 +84,8 @@ Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
 [How we review](/methodology/) · No affiliate links
+
+[Visit React Email Editor &#8594;](https://unlayer.com/)
 
 ## MartechSignal Score: 41/60
 
@@ -337,9 +339,9 @@ Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools) · [O
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 3.4,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": 41,
+      "bestRating": 60,
+      "worstRating": 0
     }
   }
 ]

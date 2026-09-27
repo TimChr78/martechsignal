@@ -201,7 +201,7 @@ The same 34 snapshots, grouped by directory category and ordered by percentage g
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Open-Source MarTech Momentum",
-    "description": "GitHub star momentum for the 69 tracked open-source catalog tools (of 80 open-source tools, 162 catalog tools overall), window 2026-08-25 to 2026-09-27.",
+    "description": "GitHub star momentum for 69 tracked open-source martech tools, with daily snapshots and verified star counts.",
     "url": "https://martechsignal.com/trending/",
     "isPartOf": {
       "@type": "WebSite",
