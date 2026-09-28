@@ -148,6 +148,9 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+## Also featured in
+
+- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &mdash; Social teams that want listening and engagement behind a polished UI
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)

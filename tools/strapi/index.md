@@ -152,6 +152,9 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+## Also featured in
+
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Teams that want a headless CMS with AI inside their own stack
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

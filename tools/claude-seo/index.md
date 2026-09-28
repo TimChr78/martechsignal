@@ -234,6 +234,11 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+## Also featured in
+
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best for Claude Code users who want SEO audits run by agents instead of dashboards.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/) &mdash; Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 ### Quick Facts
 
 ### Project stats

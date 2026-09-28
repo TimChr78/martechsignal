@@ -148,6 +148,9 @@ The right call for multi-team, multi-brand social programs with governance needs
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+## Also featured in
+
+- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &mdash; Teams running many accounts that need scheduling which survives staff turnover
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)

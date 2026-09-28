@@ -16,6 +16,15 @@ Digital Marketing Pro is open source - MIT licensed and free to self-host; the p
 **Is Digital Marketing Pro a good self-hosted Agent Skills tool in 2026?**
 Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
 
+**Does Digital Marketing Pro have an API?**
+Yes. The catalog records a public API for Digital Marketing Pro, so custom integrations are possible. The Key Integrations section shows what ships natively.
+
+- **Founded:** 2025
+- **Licence:** MIT
+- **Public API:** yes
+- **Catalogued integrations:** 8
+- **GitHub stars:** 837
+
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
 - **GitHub:** â˜… 837
@@ -65,7 +74,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Digital Marketing Pro &#8594;](https://github.com/indranilbanerjee/digital-marketing-pro)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## Catalog facts: Digital Marketing Pro
+
+Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -163,6 +176,8 @@ Digital Marketing Pro is open source - MIT licensed and free to self-host; the p
 
 Reasonable scaffolding for agent-run campaign planning; brings process, not magic.
 
+Yes. The catalog records a public API for Digital Marketing Pro, so custom integrations are possible. The Key Integrations section shows what ships natively.
+
 ## Similar Tools
 
 ## Related reading
@@ -170,6 +185,9 @@ Reasonable scaffolding for agent-run campaign planning; brings process, not magi
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+## Also featured in
+
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
@@ -263,6 +281,14 @@ One email when a new tool review lands, nothing else.
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Reasonable scaffolding for agent-run campaign planning; brings process, not magic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Digital Marketing Pro have an API?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The catalog records a public API for Digital Marketing Pro, so custom integrations are possible. The Key Integrations section shows what ships natively."
         }
       }
     ]

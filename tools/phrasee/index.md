@@ -194,6 +194,9 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+## Also featured in
+
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

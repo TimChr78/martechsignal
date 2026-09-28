@@ -191,6 +191,9 @@ The features page describes IP anonymization for visitor records, site tracking 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+## Also featured in
+
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Marketing teams that want HubSpot-class automation they can host themselves
 ### Quick Facts
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

@@ -170,6 +170,10 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+## Also featured in
+
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for teams that want the widest free feature set.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Sales teams that want a mature, enterprise-shaped CRM they control
 ### Quick Facts
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

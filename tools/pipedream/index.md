@@ -130,6 +130,9 @@ The automation platform for developers who want code control with SaaS convenien
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+## Also featured in
+
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for developer teams wanting code steps and MCP endpoints.
 ### Quick Facts
 
 Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)

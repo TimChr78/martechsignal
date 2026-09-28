@@ -155,6 +155,9 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+## Also featured in
+
+- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Small shops adding live chat and an AI agent cheaply
 ### Quick Facts
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)

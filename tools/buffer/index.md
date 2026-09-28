@@ -151,6 +151,9 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+## Also featured in
+
+- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &mdash; Creators that want scheduling priced per channel, not per seat
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)

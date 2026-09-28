@@ -155,6 +155,9 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+## Also featured in
+
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

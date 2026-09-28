@@ -159,6 +159,9 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+## Also featured in
+
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Small businesses that want the shortest path from idea to send
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

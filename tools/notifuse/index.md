@@ -156,6 +156,9 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+## Also featured in
+
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

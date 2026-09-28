@@ -198,6 +198,9 @@ We found no Surfer integration in Frase&#x27;s integrations page or docs index; 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+## Also featured in
+
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best for small content teams that want research, briefs and drafting in one tool.
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

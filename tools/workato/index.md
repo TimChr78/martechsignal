@@ -181,6 +181,9 @@ Yes, for training. The Workato Automation Institute&#x27;s certificate programs 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+## Also featured in
+
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for enterprises governing agents and integration in one platform.
 ### Quick Facts
 
 ### Pricing

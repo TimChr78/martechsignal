@@ -176,6 +176,9 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 - [How NocoBase compares with NocoDB and Budibase for self-hosted marketing ops](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+## Also featured in
+
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) &mdash; Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 ### Quick Facts
 
 Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)

@@ -167,6 +167,9 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+## Also featured in
+
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Teams that want their experiment engine as open as their stack
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

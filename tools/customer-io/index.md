@@ -180,6 +180,9 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+## Also featured in
+
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Lifecycle teams writing behavior-triggered journeys on their own data
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

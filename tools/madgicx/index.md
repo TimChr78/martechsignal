@@ -159,6 +159,9 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+## Also featured in
+
+- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) &mdash; Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $49/mo.
 ### Quick Facts
 
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)

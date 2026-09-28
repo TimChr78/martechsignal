@@ -150,6 +150,9 @@ The analytics tool we recommend by default for content and marketing sites; powe
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+## Also featured in
+
+- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/) &mdash; Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 ### Quick Facts
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo/) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible/)

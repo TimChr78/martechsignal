@@ -149,6 +149,9 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+## Also featured in
+
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Newsletter and lifecycle email at one list price, with no per-contact billing
 ### Quick Facts
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)

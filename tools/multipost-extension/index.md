@@ -129,6 +129,9 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+## Also featured in
+
+- [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) &mdash; Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 ### Pricing

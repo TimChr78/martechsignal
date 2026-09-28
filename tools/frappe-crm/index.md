@@ -185,6 +185,9 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+## Also featured in
+
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for budget-conscious sales teams, especially ERPNext shops.
 ### Quick Facts
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

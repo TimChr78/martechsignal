@@ -149,6 +149,9 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+## Also featured in
+
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

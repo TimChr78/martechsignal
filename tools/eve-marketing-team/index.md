@@ -154,6 +154,9 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+## Also featured in
+
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

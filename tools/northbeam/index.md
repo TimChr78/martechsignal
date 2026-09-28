@@ -152,6 +152,9 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+## Also featured in
+
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; DTC brands whose incrementality questions deserve real modeling
 ### Quick Facts
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)

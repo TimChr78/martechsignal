@@ -155,6 +155,9 @@ The most complete open-source cold email stack we have listed, but young (316 st
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+## Also featured in
+
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)

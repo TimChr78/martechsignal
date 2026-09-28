@@ -158,6 +158,9 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+## Also featured in
+
+- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) &mdash; Best free CRM, and the natural next step when the free tier starts to bite.
 ### Quick Facts
 
 Related guides: [Alternatives to HubSpot CRM](/alternatives/hubspot-crm/) · [Ai Crm Tools](/best/ai-crm-tools/)

@@ -16,6 +16,12 @@ AI Marketing Suite is open source - MIT licensed and free to self-host; the publ
 **Is AI Marketing Suite a good self-hosted Agent Skills tool in 2026?**
 Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.
 
+- **Founded:** 2025
+- **Licence:** MIT
+- **Public API:** no
+- **Catalogued integrations:** 1
+- **GitHub stars:** 2,628
+
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
 - **GitHub:** â˜… 2628
@@ -65,7 +71,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## Catalog facts: AI Marketing Suite
+
+Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

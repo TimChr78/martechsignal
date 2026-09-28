@@ -180,6 +180,9 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+## Also featured in
+
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for lean sales teams that automate à la carte.
 ### Quick Facts
 
 Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/)

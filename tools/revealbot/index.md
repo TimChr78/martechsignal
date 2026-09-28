@@ -205,6 +205,9 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+## Also featured in
+
+- [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) &mdash; Media buyers that trust rules they wrote more than black boxes
 ### Quick Facts
 
 Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)

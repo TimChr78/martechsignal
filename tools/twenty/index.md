@@ -194,6 +194,10 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+## Also featured in
+
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for technically fluent teams wanting a modern extensible CRM.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; CRM teams that want open source without accepting feature poverty
 ### Quick Facts
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

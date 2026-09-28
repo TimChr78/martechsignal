@@ -16,6 +16,8 @@ Zoho CRM has a free tier, so you can run a real evaluation before paying. Free f
 **Is Zoho CRM worth it past the free tier?**
 Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down where it fits in a modern martech stack.
 
+- **Catalogued integrations:** 6
+
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
 - **API:** No
@@ -65,7 +67,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Zoho CRM &#8594;](https://www.zoho.com/crm/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## Catalog facts: Zoho CRM
+
+Not yet scored against the rubric, so no verdict here. This is everything the catalog holds on the tool, verified against vendor sources.
+
+The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -122,6 +128,9 @@ Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+## Also featured in
+
+- [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) &mdash; Best value for small teams that want a full suite without an enterprise bill.
 ### Quick Facts
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools/)

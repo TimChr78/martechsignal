@@ -977,6 +977,45 @@ def _list_item_thing(t):
     return {**_base, "@type": "SoftwareApplication"}
 
 
+def _featured_in(slug):
+    """M21 (r9, 2026-09-28): (url, title, verdict) for every best/vs/
+    alternatives page featuring `slug`, cached per build. Verdicts are our own
+    published editorial, so quoting them adds grounded depth."""
+    global _FEATURED_CACHE
+    if "_FEATURED_CACHE" not in globals():
+        _FEATURED_CACHE = {}
+    if slug in _FEATURED_CACHE:
+        return _FEATURED_CACHE[slug]
+    out = {}
+    try:
+        for p in json.loads((TOOLS_DIR / "bestx-content.json").read_text())["pages"]:
+            for it in p.get("items", []):
+                if it.get("slug") == slug and it.get("verdict"):
+                    out[f"/best/{p['slug']}/"] = (p.get("title", p["slug"]), it["verdict"])
+    except (OSError, ValueError, KeyError):
+        pass
+    try:
+        for p in json.loads((TOOLS_DIR / "vsx-content.json").read_text())["pages"]:
+            if slug in (p.get("a_slug"), p.get("b_slug")):
+                _side = p.get("pick_a_if") if slug == p.get("a_slug") else p.get("pick_b_if")
+                _v = (str(_side or "") or str(p.get("neither") or "")).strip()
+                if _v:
+                    out[f"/vs/{p['slug']}/"] = (p.get("title", p["slug"]), _v)
+    except (OSError, ValueError, KeyError):
+        pass
+    try:
+        for p in json.loads((TOOLS_DIR / "alternatives-content.json").read_text())["pages"]:
+            for it in p.get("items", []):
+                _s = it.get("slug") if isinstance(it, dict) else it
+                _v = it.get("verdict") if isinstance(it, dict) else ""
+                if _s == slug and _v:
+                    out[f"/alternatives/{p['slug']}/"] = (p.get("title", p["slug"]), _v)
+    except (OSError, ValueError, KeyError):
+        pass
+    _FEATURED_CACHE[slug] = [(u, ti, v) for u, (ti, v) in out.items()]
+    return _FEATURED_CACHE[slug]
+
+
 def build_tool_page(t, cats, all_tools, base="tools"):
     cat_map = {c["slug"]: c for c in cats}
     c = cat_map.get(t["category"], {})
@@ -1036,6 +1075,17 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     if related_posts:
         links = ''.join('<li><a href="' + html.escape(item['url'], quote=True) + '">' + html.escape(item['title'], quote=False) + '</a></li>' for item in related_posts)
         related_html += '<section class="related-reading"><h2>Related reading</h2><ul>' + links + '</ul></section>'
+
+    # M21 (r9, 2026-09-28): "Also featured in" box. Every appearance of this
+    # tool in our own best/vs/alternatives pages, quoted from the published
+    # verdicts — grounded depth for tier-B pages, useful context for all.
+    _feat = _featured_in(slug)
+    if _feat:
+        _fl = "".join(
+            f'<li><a href="{u}">{esc(ti)}</a> &mdash; {esc(v)}</li>'
+            for u, ti, v in _feat)
+        related_html += ('<section class="related-reading"><h2>Also featured in</h2>'
+                         f'<ul>{_fl}</ul></section>')
 
     # AI features
     ai_html = ""
@@ -1437,6 +1487,40 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                 _sent = re.split(r"(?<=[.!?])\s+", _rich)
                 _lead = " ".join(_sent[:2]).strip()
                 faqs[1]["acceptedAnswer"]["text"] = _lead if len(_lead) > 90 else _rich
+        # M21 (r9, 2026-09-28): tier-B depth. Unscored pages get up to two extra
+        # catalog-grounded Q&As drawn from fields the core three answers do not
+        # already cover (API, integration list, release recency). Skipped when
+        # the fact already appears on the page; never more than two, so the
+        # FAQ stays a FAQ instead of becoming a second review.
+        if not _SCORES.get(t["slug"]):
+            _covered = " ".join(
+                q["name"] + " " + q["acceptedAnswer"]["text"] for q in faqs).lower()
+            _extra = []
+            if (t.get("api_available") and "api" not in _covered
+                    and len(_extra) < 2):
+                _extra.append((
+                    f"Does {name} have an API?",
+                    f"Yes. The catalog records a public API for {name}, so custom "
+                    f"integrations are possible. The Key Integrations section shows "
+                    f"what ships natively."))
+            _ints = t.get("integrations") or []
+            if (len(_ints) >= 3 and "integrat" not in _covered
+                    and len(_extra) < 2):
+                _extra.append((
+                    f"What does {name} integrate with?",
+                    f"This page documents {len(_ints)} integrations, including "
+                    f"{', '.join(str(x) for x in _ints[:3])}. The Key Integrations "
+                    f"section lists all of them."))
+            if (t.get("last_release") and "release" not in _covered
+                    and "maintain" not in _covered and len(_extra) < 2):
+                _extra.append((
+                    f"Is {name} still actively developed?",
+                    f"The most recent release in our catalog is {t['last_release']}. "
+                    f"For the full history, check the vendor changelog linked from "
+                    f"the official site."))
+            for q, a in _extra:
+                faqs.append({"@type": "Question", "name": q,
+                             "acceptedAnswer": {"@type": "Answer", "text": a}})
         return faqs
 
     faqs = _faq_for(t, c)
@@ -1490,9 +1574,41 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     disclosure_html = '<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>'
     score_html, review_schema = _score_band(t)
     if not score_html:
-        # r6 M-6 (2026-09-27): unscored pages say so on the page.
-        score_html = ('<p class="unscored-note">Not yet scored against the rubric; '
-                      'scored pages show six pillars.</p>')
+        # M21 (r9, 2026-09-28): unscored tier-B pages get a grounded facts box
+        # instead of a one-line note. Every fact comes from the catalog record;
+        # nothing is assessed, scored, or recommended here.
+        _facts = []
+        if t.get("founded"):
+            _facts.append(f'<dt>Founded</dt><dd>{esc(str(t["founded"]))}</dd>')
+        if t.get("hq"):
+            _facts.append(f'<dt>Headquarters</dt><dd>{esc(t["hq"])}</dd>')
+        if t.get("license"):
+            _facts.append(f'<dt>Licence</dt><dd>{esc(t["license"])}</dd>')
+        if t.get("api_available") is not None:
+            _facts.append('<dt>Public API</dt><dd>'
+                          + ("yes" if t.get("api_available") else "no") + "</dd>")
+        _nint = len(t.get("integrations") or [])
+        if _nint:
+            _facts.append(f"<dt>Catalogued integrations</dt><dd>{_nint}</dd>")
+        if t.get("github_stars"):
+            _facts.append(f'<dt>GitHub stars</dt><dd>{t["github_stars"]:,}</dd>')
+        if t.get("last_release"):
+            _facts.append(f'<dt>Last release</dt><dd>{esc(t["last_release"])}</dd>')
+        if _facts:
+            score_html = (
+                '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
+                'border:1px solid var(--line);border-radius:12px">'
+                '<h2 style="margin:0 0 .3rem">Catalog facts: '
+                + esc(t["name"]) + '</h2>'
+                '<p style="margin:.35rem 0">Not yet scored against the rubric, so no verdict here. '
+                'This is everything the catalog holds on the tool, verified against vendor sources.</p>'
+                '<dl>' + "".join(f"<div>{f}</div>" for f in _facts) + "</dl>"
+                '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">The full rubric is on the '
+                '<a href="/methodology/">methodology page</a>.</p></section>')
+        else:
+            # r6 M-6 (2026-09-27): unscored pages say so on the page.
+            score_html = ('<p class="unscored-note">Not yet scored against the rubric; '
+                          'scored pages show six pillars.</p>')
     # r6 L-11 (2026-09-27): the real CTA belongs above the fold, in the verdict block.
     if t.get("website"):
         score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '

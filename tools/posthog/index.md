@@ -181,6 +181,9 @@ PostHog AI answers questions about your data in plain language across web, Slack
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+## Also featured in
+
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) &mdash; the real questions are about product usage, and you want flags and experiments beside the funnel.
 ### Quick Facts
 
 Related guides: [PostHog in Matomo alternatives](/alternatives/matomo/)

@@ -192,6 +192,9 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+## Also featured in
+
+- [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for relationship-led founders and community businesses.
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm/)

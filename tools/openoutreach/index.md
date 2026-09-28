@@ -193,6 +193,10 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+## Also featured in
+
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Email marketing teams that want agent-written openers and self-hosting
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

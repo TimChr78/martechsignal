@@ -173,6 +173,9 @@ The CLI generates attack probes against an application and reports findings. The
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+## Also featured in
+
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best free entry point, provided someone on the team can run a CLI.
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools/)

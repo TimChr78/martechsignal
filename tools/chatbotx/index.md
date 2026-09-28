@@ -130,6 +130,9 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+## Also featured in
+
+- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Developers that want ManyChat&#x27;s playbook as source code
 ### Quick Facts
 
 ### Pricing

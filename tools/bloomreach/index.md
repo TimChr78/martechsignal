@@ -153,6 +153,9 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+## Also featured in
+
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Commerce brands that want content, search and campaigns in one engine
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

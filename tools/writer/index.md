@@ -197,6 +197,10 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+## Also featured in
+
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Enterprises that put brand governance ahead of raw output
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/) &mdash; Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)

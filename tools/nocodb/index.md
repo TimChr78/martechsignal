@@ -192,6 +192,10 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+## Also featured in
+
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/) &mdash; Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 ### Quick Facts
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)

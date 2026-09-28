@@ -161,6 +161,11 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+## Also featured in
+
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for branching visual workflows on a small-team budget.
+- [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/) &mdash; Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) &mdash; your builders are operators who want the clearest visual canvas and a free tier to start in.
 ### Quick Facts
 
 Related guides: [Make in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)

@@ -192,6 +192,9 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+## Also featured in
+
+- [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Teams that want an open-source inbox with AI help included
 ### Quick Facts
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)

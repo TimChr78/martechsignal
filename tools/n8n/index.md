@@ -158,6 +158,12 @@ The right choice when you want owned automation with code-level control and no p
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+## Also featured in
+
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for self-hosted workflows with code steps and AI agents.
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Workflow teams that want automation they can audit line by line
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/) &mdash; Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/) &mdash; you want self-hosting, code steps and billing that rewards complex workflows.
 ### Quick Facts
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

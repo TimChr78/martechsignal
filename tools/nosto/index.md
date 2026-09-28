@@ -197,6 +197,9 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+## Also featured in
+
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/) &mdash; Merchants that want recommendations their merchandisers can steer
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

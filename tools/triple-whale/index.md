@@ -156,6 +156,9 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+## Also featured in
+
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; DTC operators that want a daily attribution answer, dashboards included
 ### Quick Facts
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)

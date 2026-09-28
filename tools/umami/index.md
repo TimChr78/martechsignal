@@ -178,6 +178,9 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+## Also featured in
+
+- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 ### Quick Facts
 
 Related guides: [Umami in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)

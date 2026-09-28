@@ -916,3 +916,42 @@ def test_category_pages_link_their_spokes():
         if not linked:
             orphans.append((url, sorted(c for c in cats if c)))
     assert not orphans, f"spoke pages unlinked from their categories: {orphans[:6]}"
+
+
+def test_unscored_pages_carry_facts_box():
+    """M21 (r9, 2026-09-28): unscored tier-B pages get a grounded Catalog
+    facts box (no invented verdict); scored pages keep the score band."""
+    zoho = (ROOT / "tools" / "zoho-crm" / "index.html").read_text()
+    assert "Catalog facts:" in zoho, "tier-B page missing facts box"
+    assert "no verdict here" in zoho, "facts box must disclaim assessment"
+    scored = (ROOT / "tools" / "listmonk" / "index.html").read_text()
+    assert "MartechSignal Score:" in scored, "scored page lost score band"
+    assert "Catalog facts:" not in scored, "scored page wrongly got facts box"
+
+
+def test_tierb_faq_extras_are_grounded():
+    """M21 (r9, 2026-09-28): tier-B FAQ extras cap at 2 (3 core + <=2) and any
+    release string cited in the FAQ resolves against tools.json."""
+    import json as _json
+    import re as _re
+    tools = {t["slug"]: t for t in
+             _json.loads((ROOT / "tools" / "tools.json").read_text())}
+    zoho = (ROOT / "tools" / "zoho-crm" / "index.html").read_text()
+    m = _re.search(r"Frequently asked questions(.*?)(?:Similar Tools|Related reading)",
+                   zoho, re.S)
+    assert m, "FAQ section missing on tier-B page"
+    n_q = len(_re.findall(r"<details", m.group(1)))
+    assert 3 <= n_q <= 5, f"tier-B FAQ should be 3 core + <=2 extras, got {n_q}"
+    t = tools["zoho-crm"]
+    if t.get("last_release") and "release" in m.group(1).lower():
+        assert str(t["last_release"]) in m.group(1), \
+            "release FAQ cites a string absent from the catalog"
+
+
+def test_featured_in_box_quotes_own_verdicts():
+    """M21 (r9, 2026-09-28): tool pages link their best/vs/alternatives
+    appearances, quoting our own published verdicts (grounded depth)."""
+    zoho = (ROOT / "tools" / "zoho-crm" / "index.html").read_text()
+    assert "Also featured in" in zoho, "tier-B page missing featured-in box"
+    assert "/best/ai-crm-tools/" in zoho, "known appearance unlinked"
+    assert "Best value for small teams" in zoho, "verdict quote missing"

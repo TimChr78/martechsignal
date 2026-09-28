@@ -141,6 +141,9 @@ The open-source Braze alternative for technical growth teams that want data owne
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+## Also featured in
+
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Lifecycle messaging and onboarding journeys that live outside the CRM
 ### Quick Facts
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)
