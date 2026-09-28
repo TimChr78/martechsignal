@@ -127,7 +127,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
   },
   "@type": "BlogPosting",
   "headline": "The AI-search funnel map GA4 won't give you",
-  "description": "Two things landed since we published the 5-layer fix for dashboards that can't see AI search. On May 13, Google shipped a native AI Assistant channel in.",
+  "description": "Two things landed since we published the 5-layer fix for dashboards that can't see AI search. On May 13, Google shipped a native AI Assistant.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

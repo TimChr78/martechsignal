@@ -762,3 +762,54 @@ def test_money_pages_carry_per_tool_media():
         if f.is_file() and "/og/tools/" not in f.read_text(errors="ignore"):
             bad.append((f"categories/{cat}", "grid carries no media"))
     assert not bad, f"money pages missing per-tool media: {bad[:8]}"
+
+
+def test_serp_lengths_rendered():
+    """L3 (r9, 2026-09-28): titles/descriptions are measured on the RENDERED
+    tag, not the raw string - esc()/html.escape() expand quotes to entities
+    (react-email-editor shipped a 163-char description from a raw-fits cut)."""
+    import re as _re
+    bad_t, bad_d = [], []
+    for f in sorted((ROOT).glob("**/index.html")):
+        if "deploy-out" in str(f):
+            continue
+        h = f.read_text(errors="ignore")
+        t = _re.search(r"<title>(.*?)</title>", h)
+        d = _re.search(r'name="description" content="(.*?)"', h)
+        if t and len(t.group(1)) > 65:
+            bad_t.append((str(f.relative_to(ROOT)), len(t.group(1))))
+        if d and len(d.group(1)) > 160:
+            bad_d.append((str(f.relative_to(ROOT)), len(d.group(1))))
+    assert not bad_t, f"titles over 65 chars: {bad_t[:6]}"
+    assert not bad_d, f"descriptions over 160 chars: {bad_d[:6]}"
+
+
+def test_blog_nav_matches_shared():
+    """M13 (r9, 2026-09-28): blog hub + posts dropped CATEGORIES/GLOSSARY from
+    the masthead. Both blog templates must carry the shared 8-item nav."""
+    bad = []
+    for f in list((ROOT / "blog").glob("*/index.html")) + [ROOT / "blog" / "index.html"]:
+        if not f.is_file():
+            continue
+        h = f.read_text(errors="ignore")
+        for need in ('/categories/', '/glossary/'):
+            if need not in h:
+                bad.append((str(f.relative_to(ROOT)), f"nav missing {need}"))
+    assert not bad, f"blog nav gaps: {bad[:6]}"
+
+
+def test_catalog_feed_envelope():
+    """M14/M15 (r9, 2026-09-28): catalog-tools.json ships as a dataset envelope
+    (generated/license/recordCount/records), every record with a nullable
+    page_url; acquired records name their successor."""
+    import json as _json
+    feed = _json.loads((ROOT / "catalog-tools.json").read_text())
+    for k in ("generated", "license", "recordCount", "records"):
+        assert k in feed, f"envelope missing {k}"
+    assert feed["recordCount"] == len(feed["records"])
+    bad = [r.get("slug") for r in feed["records"] if "page_url" not in r]
+    assert not bad, f"records without page_url: {bad[:4]}"
+    acq = [r for r in feed["records"] if r.get("status") != "active"]
+    assert acq, "expected non-active records in feed"
+    assert all(r.get("successor_slug") for r in acq), (
+        f"acquired records without successor: {[r.get('slug') for r in acq]}")

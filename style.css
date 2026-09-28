@@ -387,7 +387,7 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 .tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.2rem; padding: 1.8rem 0 }
 .tool-card { background: var(--card); border: 1px solid var(--line2); border-radius: 10px; padding: 1.4rem 1.5rem; text-decoration: none; transition: border-color .25s, transform .25s, box-shadow .25s; display: flex; flex-direction: column; gap: .6rem }
 .tool-card:hover { border-color: var(--amber); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(2,6,16,.5) }
-.tool-card .name { font: 700 1.1rem var(--body); letter-spacing: -.01em }
+.tool-card .name { font: 700 1.1rem var(--body); letter-spacing: -.01em; margin: 0 }
 .tool-card .tagline { color: var(--muted); font-size: .9rem; line-height: 1.5; flex: 1 }
 .tool-card .meta { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center }
 /* H8 (r9, 2026-09-28): fact-card media on money pages. Fluid images, never

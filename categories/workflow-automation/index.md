@@ -2,25 +2,17 @@
 
 OPEN SOURCE / SELF-HOSTED***4*
 
-LangChain
-
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
 Open SourceDesk-reviewedOSS
-
-n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Open SourceDesk-reviewedOSS
 
-n8n Marketing Flows
-
 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 
 Open SourceDesk-reviewedOSS
-
-Paperclip
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
@@ -28,31 +20,21 @@ FreemiumDesk-reviewedOSS
 
 COMMERCIAL***5*
 
-Zapier
-
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 FreemiumDesk-reviewed
-
-Make
 
 Visual automation platform for building complex workflows with AI agents and apps
 
 FreemiumDesk-reviewed
 
-Pipedream
-
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
 From $29/moDesk-reviewed
 
-Tray.io
-
 AI-powered integration platform for building custom automation and AI agents
 
 EnterpriseDesk-reviewed
-
-Workato
 
 Enterprise AI governance plus integration and automation on one platform
 
@@ -60,49 +42,33 @@ EnterpriseDesk-reviewed
 
 LOW-CODE INTERNAL BUILDERS***4*
 
-Appsmith
-
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
 Free tierDesk-reviewedOSS
-
-Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
 Free tierDesk-reviewedOSS
 
-NocoBase
-
 Open-source no-code platform with AI assistance for building business systems fast
 
 Free tierDesk-reviewedOSS
-
-ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
 Free tierDesk-reviewedOSS
 
-Activepieces
-
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
 FreemiumDesk-reviewedOSS
-
-IFTTT
 
 Consumer-friendly automation connecting apps and smart devices
 
 FreemiumDesk-reviewed
 
-Microsoft Power Automate
-
 Enterprise workflow automation inside the Microsoft Power Platform
 
 From $15/moDesk-reviewed
-
-Pabbly Connect
 
 Task-priced integration platform with a one-time lifetime purchase option
 
@@ -170,7 +136,7 @@ Claude Cowork is eating the edges of your martech stack
 
 Where the agent orchestration layer is heading next
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -180,6 +146,40 @@ Where the agent orchestration layer is heading next
 Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.
 
 17 TOOLS IN THIS CATEGORY
+
+### LangChain
+
+### n8n
+
+### n8n Marketing Flows
+
+### Paperclip
+
+### Zapier
+
+### Make
+
+### Pipedream
+
+### Tray.io
+
+### Workato
+
+### Appsmith
+
+### Budibase
+
+### NocoBase
+
+### ToolJet
+
+### Activepieces
+
+### IFTTT
+
+### Microsoft Power Automate
+
+### Pabbly Connect
 
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) &middot; [automation strategy](/guides/workflow-automation-strategy/)
 

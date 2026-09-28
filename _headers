@@ -1,5 +1,7 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-site
   Content-Security-Policy: default-src 'self'; script-src 'self' https://analytics.martechsignal.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https://martechsignal.com; connect-src 'self' https://analytics.martechsignal.com https://cloudflareinsights.com https://app.kit.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://app.kit.com
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   X-Content-Type-Options: nosniff
@@ -29,6 +31,9 @@
   Cache-Control: public, max-age=3600
 /llms-full.txt
   Cache-Control: public, max-age=3600
+# M16 (r9): the ARD data entry declares application/ai-catalog+json.
+/catalog-tools.json
+  Content-Type: application/ai-catalog+json
 
 # r7 H18 (2026-09-28): the Markdown mirrors stay available to LLM retrieval
 # (llms-full.txt is the retrieval entry point) but leave the indexable set —

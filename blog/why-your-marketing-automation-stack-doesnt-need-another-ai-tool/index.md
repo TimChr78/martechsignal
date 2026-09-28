@@ -2,7 +2,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-RECOVERED · 7 MIN
+UPDATED · 7 MIN
 
 ## Why Your Marketing Stack Doesn&#x27;t Need Another AI Tool
 

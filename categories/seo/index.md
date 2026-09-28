@@ -2,13 +2,9 @@
 
 OPEN SOURCE / SELF-HOSTED***2*
 
-OpenSEO
-
 Open source alternative to Ahrefs and Semrush
 
 Open SourceDesk-reviewedOSS
-
-Seonaut
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
@@ -16,31 +12,21 @@ Open SourceDesk-reviewedOSS
 
 COMMERCIAL***5*
 
-Semrush
-
 All-in-one SEO and digital marketing platform with AI-powered insights and tools
 
 From $117/moDesk-reviewed
-
-Clearscope
 
 AI-powered content optimization platform for SEO teams and content writers
 
 From $129/moDesk-reviewed
 
-MarketMuse
-
 AI-powered content strategy and optimization platform for SEO content teams
 
 PaidDesk-reviewed
 
-Surfer SEO
-
 AI-powered content optimization platform for SEO-driven article writing and audits
 
 From $49/moDesk-reviewed
-
-Frase
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking
 
@@ -48,13 +34,9 @@ From $39/moDesk-reviewed
 
 AI SEARCH VISIBILITY***2*
 
-Potato
-
 Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
 
 Open SourceDesk-reviewedOSS
-
-Superlines
 
 AI Search Intelligence platform for brands and agencies
 
@@ -122,7 +104,7 @@ Link Building Won&#x27;t Get You Into AI Answers. Community Signals Will.
 
 The off-page playbook that actually moves AI citations
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -132,6 +114,24 @@ The off-page playbook that actually moves AI citations
 SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. 9 tools with verified pricing.
 
 9 TOOLS IN THIS CATEGORY
+
+### OpenSEO
+
+### Seonaut
+
+### Semrush
+
+### Clearscope
+
+### MarketMuse
+
+### Surfer SEO
+
+### Frase
+
+### Potato
+
+### Superlines
 
 SEO used to have a scoreboard: rank, click, conversion. The answer engines ate it. When an AI Overview or ChatGPT finishes the question, the visitor never comes, and your dashboard records a clean-looking impression instead of a lost click. The job split in two: still earn the rank, and also get cited in the answer. Most tools in this category were built for the first half and are still catching up on the second.
 

@@ -10,7 +10,7 @@
 | Openness | Exit rights: source access, self-hosting, data portability. | 0: closed, no export · 3: data export exists · 5: full export and open API · 7: source-available or open-core · 10: open-source licence and self-hostable |
 | Operational maturity | Whether the product is maintained like a product. | 0: unknown or abandoned · 3: young or single maintainer · 5: steady cadence · 7: multiple releases a year, real docs, real company · 10: enterprise cadence, SLAs, ecosystem |
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 ## Methodology
 
@@ -32,7 +32,7 @@ Each evaluated tool receives a 0-10 score on six pillars. The total is the sum o
 
 The score is an editorial assessment against published anchors. It is not a lab benchmark, not a verified-buyer rating, and not influenced by vendors: we take no vendor money, run no affiliate links, and accept no payment for placement or scoring. Tools we cover include products we built ourselves; those pages say so on their face.
 
-The pilot covers the 20 most-searched tools on the site. The rollout to the full catalog follows the same rubric.
+The pilot covered the 20 most-searched tools on the site. The rollout since now covers the full catalog: every active tool page carries the same six-pillar MartechSignal Score out of 60 (the one named exception is [Zoho CRM](/tools/zoho-crm/), not yet scored against the rubric). Verification dates and price sources sit on each tool page; the rubric below is the same one they were all judged against.
 
 ## Data artifacts
 
@@ -80,7 +80,11 @@ Published errors get public entries. See the [corrections page](/corrections/) f
     "name": "How we evaluate",
     "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six pillars: the rubric, the review policy, and the corrections process.",
     "url": "https://martechsignal.com/methodology/",
-    "dateModified": "2026-09-27"
+    "dateModified": "2026-09-28"
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

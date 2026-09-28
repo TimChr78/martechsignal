@@ -2,31 +2,21 @@
 
 PRODUCT BEHAVIOR***5*
 
-Amplitude
-
 AI-powered digital analytics platform for product and marketing teams
 
 FreemiumDesk-reviewed
-
-Heap
 
 AI-powered product analytics with autocapture and digital experience insights
 
 FreemiumDesk-reviewed
 
-Mixpanel
-
 Product analytics platform with AI-powered insights for user behavior tracking
 
 FreemiumDesk-reviewed
 
-PostHog
-
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
 FreemiumDesk-reviewedOSS
-
-Snowplow
 
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
@@ -34,19 +24,13 @@ Free tierDesk-reviewedOSS
 
 AD SPEND ATTRIBUTION***3*
 
-Attribution
-
 AI-powered marketing attribution platform connecting ad spend to revenue
 
 EnterpriseDesk-reviewed
 
-Northbeam
-
 AI-powered multi-touch attribution and marketing intelligence for ecommerce
 
 EnterpriseDesk-reviewed
-
-Triple Whale
 
 AI-powered ecommerce analytics and attribution platform for DTC brands
 
@@ -54,19 +38,13 @@ From $59/moDesk-reviewed
 
 SELF-HOSTED WEB ANALYTICS***3*
 
-Matomo
-
 Open-source web analytics platform with full data ownership and AI-powered insights
 
 Open SourceDesk-reviewedOSS
 
-Plausible Analytics
-
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
 Open SourceDesk-reviewedOSS
-
-Umami
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
@@ -134,7 +112,7 @@ You Don&#x27;t Need a New Data Stack for AI | Fivetran Just Proved It
 
 The warehouse you own is the measurement backbone; skip the rebuild pitch
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -144,6 +122,28 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
 Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.
 
 11 TOOLS IN THIS CATEGORY
+
+### Amplitude
+
+### Heap
+
+### Mixpanel
+
+### PostHog
+
+### Snowplow
+
+### Attribution
+
+### Northbeam
+
+### Triple Whale
+
+### Matomo
+
+### Plausible Analytics
+
+### Umami
 
 Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.
 

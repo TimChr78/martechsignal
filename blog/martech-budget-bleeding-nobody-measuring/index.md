@@ -140,7 +140,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
   },
   "@type": "BlogPosting",
   "headline": "Your Martech Budget Is Bleeding and Nobody's Measuring It",
-  "description": "A food pantry worker posted on r/MarketingAutomation last week with a problem I can't stop thinking about. Her organization runs on $60,000 a year and.",
+  "description": "A food pantry worker posted on r/MarketingAutomation last week with a problem I can't stop thinking about. Her organization runs on.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

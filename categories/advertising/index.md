@@ -2,13 +2,9 @@
 
 CREATIVE GENERATION***2*
 
-AdCreative.ai
-
 AI platform generating high-converting ad creatives and social media post designs
 
 From $20/moDesk-reviewed
-
-Pencil
 
 AI-powered ad creative generation and performance prediction for paid media
 
@@ -16,31 +12,21 @@ From $11/moDesk-reviewed
 
 OPTIMIZATION AND AUTOMATION***5*
 
-Albert AI
-
 Autonomous AI platform that manages and optimizes digital advertising campaigns
 
 EnterpriseDesk-reviewed
-
-Madgicx
 
 AI-powered Meta ads optimization and creative workflow
 
 From $49/moDesk-reviewed
 
-Opteo
-
 Continuous Google Ads monitoring with one-click improvements
 
 From $129/moDesk-reviewed
 
-Revealbot (Birch)
-
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
 From $49/moDesk-reviewed
-
-Smartly.io
 
 AI advertising platform spanning creative production, media buying, and measurement
 
@@ -48,13 +34,9 @@ EnterpriseDesk-reviewed
 
 OPEN-SOURCE AD TOOLING***2*
 
-advertools
-
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Open SourceDesk-reviewedOSS
-
-Revive Adserver
 
 Free open source ad server for publishers, ad networks and advertisers
 
@@ -126,7 +108,7 @@ Microsoft Just Removed the Steering Wheel From Search Ads
 
 Microsoft&#x27;s AI campaign automation takes the operator out of search buying
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -136,6 +118,24 @@ Microsoft&#x27;s AI campaign automation takes the operator out of search buying
 Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.
 
 9 TOOLS IN THIS CATEGORY
+
+### AdCreative.ai
+
+### Pencil
+
+### Albert AI
+
+### Madgicx
+
+### Opteo
+
+### Revealbot (Birch)
+
+### Smartly.io
+
+### advertools
+
+### Revive Adserver
 
 **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/) &middot; [Best AI advertising tools](/best/ai-advertising-tools/)
 

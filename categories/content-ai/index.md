@@ -1,84 +1,58 @@
 # AI Content &amp; Copywriting Tools
 
-Anyword
-
 AI copywriting platform with predictive performance scores for marketing content
 
 From $39/moDesk-reviewed
-
-ContentBot
 
 AI content automation platform with workflows for blogs, ads, and social posts
 
 FreemiumDesk-reviewed
 
-Copy.ai
-
 AI-powered GTM platform for sales and marketing content automation at scale
 
 FreemiumDesk-reviewed
-
-Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
 Open SourceDesk-reviewedOSS
 
-Hypotenuse AI
-
 AI content generation platform for ecommerce product descriptions and articles
 
 From $56/moDesk-reviewed
-
-Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
 From $39/moDesk-reviewed
 
-Khoj
-
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
 Open SourceDesk-reviewedOSS
-
-LanguageTool
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
 FreemiumDesk-reviewedOSS
 
-LibreTranslate
-
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
 Open SourceDesk-reviewedOSS
-
-Persado
 
 AI content creation and optimization platform for regulated financial services marketing
 
 EnterpriseDesk-reviewed
 
-Phrasee
-
 AI messaging content platform; rebranded as Jacquard in June 2024
 
 EnterpriseDesk-reviewed
-
-Strapi
 
 Open-source headless CMS with AI-powered content management and API-first design
 
 Open SourceDesk-reviewedOSS
 
-Writer
-
 Enterprise AI platform with Palmyra models, brand governance, and agents
 
 PaidDesk-reviewed
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -88,6 +62,32 @@ PaidDesk-reviewed
 AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites
 
 13 TOOLS IN THIS CATEGORY
+
+### Anyword
+
+### ContentBot
+
+### Copy.ai
+
+### Ghost
+
+### Hypotenuse AI
+
+### Jasper
+
+### Khoj
+
+### LanguageTool
+
+### LibreTranslate
+
+### Persado
+
+### Phrasee
+
+### Strapi
+
+### Writer
 
 **Compare:** [Best AI SEO tools](/best/ai-seo-tools/) &middot; **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 

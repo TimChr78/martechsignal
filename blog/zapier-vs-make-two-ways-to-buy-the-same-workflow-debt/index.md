@@ -139,7 +139,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   },
   "@type": "BlogPosting",
   "headline": "Two ways to buy the same workflow debt: task-metered and operations-metered",
-  "description": "Zapier's pricing page now opens with the headline \"AI orchestration plans that scale with you.\" Make's nav leads with Maia, a conversational tool that.",
+  "description": "Zapier's pricing page now opens.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

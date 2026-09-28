@@ -54,7 +54,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-RECOVERED · 8 MIN
+UPDATED · 8 MIN
 
 ## Open-Source Martech Stack vs $5K/mo Subscriptions
 
@@ -170,7 +170,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
@@ -238,7 +238,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1536,
+  "wordCount": 1535,
   "articleSection": ""
 }
 ```

@@ -2,7 +2,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-RECOVERED · 12 MIN
+UPDATED · 12 MIN
 
 ## n8n + AI: The Open-Source Automation Engine
 

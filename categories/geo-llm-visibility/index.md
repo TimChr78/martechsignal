@@ -2,49 +2,33 @@
 
 GEO-NATIVE PLATFORMS***8*
 
-Profound
-
 Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 EnterpriseDesk-reviewed
-
-Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
 
 From $250/moDesk-reviewed
 
-OtterlyAI
-
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
 From $29/moDesk-reviewed
-
-Rankscale
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
 From $99/moDesk-reviewed
 
-Trakkr
-
 AI visibility platform for brands and agencies: citations, perception, competitors
 
 From $100/moDesk-reviewed
-
-Evertune
 
 GEO visibility measurement with content activation and a ChatGPT Ad Agent
 
 From $800/moDesk-reviewed
 
-Nimt.ai
-
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
 From $79/moDesk-reviewed
-
-Writesonic
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
@@ -52,39 +36,27 @@ From $79/moDesk-reviewed
 
 SUITE MODULES &amp; ADD-ONS***5*
 
-AccuRanker
-
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
 From $224/moDesk-reviewed
-
-Nightwatch
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
 From $79/moDesk-reviewed
 
-SISTRIX
-
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
 From $119/moDesk-reviewed
 
-Ahrefs
-
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 
 From $129/moDesk-reviewed
-
-Adobe LLM Optimizer
 
 Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 
 EnterpriseDesk-reviewed
 
 OPEN-SOURCE / DIY***1*
-
-Promptfoo
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
@@ -152,7 +124,7 @@ Google Doesn&#x27;t Need Your Site Anymore. You Taught It Everything It Knows.
 
 How two decades of SEO work became raw material for the answer engines
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -162,6 +134,34 @@ How two decades of SEO work became raw material for the answer engines
 AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. 14 reviewed with dated facts.
 
 14 TOOLS IN THIS CATEGORY
+
+### Profound
+
+### Scrunch
+
+### OtterlyAI
+
+### Rankscale
+
+### Trakkr
+
+### Evertune
+
+### Nimt.ai
+
+### Writesonic
+
+### AccuRanker
+
+### Nightwatch
+
+### SISTRIX
+
+### Ahrefs
+
+### Adobe LLM Optimizer
+
+### Promptfoo
 
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
 

@@ -2,43 +2,29 @@
 
 SEO AND CONTENT SKILLS***7*
 
-Aaron Marketing Skills
-
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Open SourceDesk-reviewedOSS
-
-Claude SEO
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 Open SourceHands-onOSS
 
-Codex SEO
-
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
 FreeDesk-reviewed
-
-Diffmode Growth Tactics
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
 Open SourceDesk-reviewedOSS
 
-Email Marketing Bible
-
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 
 Open SourceDesk-reviewedOSS
 
-Growth Lab
-
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 
 Open SourceDesk-reviewedOSS
-
-SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
@@ -46,55 +32,37 @@ Open SourceDesk-reviewedOSS
 
 CAMPAIGN AND ASSET SKILLS***9*
 
-AI Business Skills
-
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
 Open SourceDesk-reviewedOSS
-
-Analytics Tracking Automation
 
 AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Open SourceDesk-reviewedOSS
 
-Claude Ads
-
 Paid-media operations skill for Claude Code covering 12 ad platforms
 
 Open SourceDesk-reviewedOSS
-
-Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
 Open SourceDesk-reviewedOSS
 
-Google Ads + Meta Ads + GA4 MCP
-
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 FreemiumDesk-reviewedOSS
-
-Marketing Studio
 
 Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Open SourceDesk-reviewedOSS
 
-Open Mercato
-
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Open SourceDesk-reviewedOSS
 
-OpenClaw Marketing Skills
-
 37 marketing skills for OpenClaw agents with live data connectors
 
 Open SourceDesk-reviewedOSS
-
-Zapier GTM Cheat Codes
 
 Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
@@ -162,7 +130,7 @@ MCP Rewrites the Integration Economics of Your Marketing Stack
 
 Why agent-to-tool protocols change what integrations should cost
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -172,6 +140,38 @@ Why agent-to-tool protocols change what integrations should cost
 Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 16 reviewed.
 
 16 TOOLS IN THIS CATEGORY
+
+### Aaron Marketing Skills
+
+### Claude SEO
+
+### Codex SEO
+
+### Diffmode Growth Tactics
+
+### Email Marketing Bible
+
+### Growth Lab
+
+### SEO Skill Bench
+
+### AI Business Skills
+
+### Analytics Tracking Automation
+
+### Claude Ads
+
+### Eve Marketing Team Template
+
+### Google Ads + Meta Ads + GA4 MCP
+
+### Marketing Studio
+
+### Open Mercato
+
+### OpenClaw Marketing Skills
+
+### Zapier GTM Cheat Codes
 
 Agent skills are installable capabilities for AI agents. A skill is a folder of markdown, scripts and prompts you load into Claude Code, Codex or OpenClaw, and it changes what the agent can do: run an SEO audit, operate ad accounts, build launch assets. No seat fee, no dashboard, no vendor to call. The category barely existed two years ago, and it is now the fastest-moving layer of martech. Six of the ten fastest-growing open-source repos we track sit in this category, and the biggest mover of the week, Claude SEO, out-grew n8n and LangChain combined.
 

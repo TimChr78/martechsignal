@@ -3373,7 +3373,7 @@
         "Listmonk is what you pick when the mailing list is the product: one Go binary plus Postgres, a million-subscriber capacity on modest hardware, and an API for everything. Campaign templating uses Go templates, bounce and complaint webhooks are built in, and subscriber imports handle hundreds of thousands of rows without breaking a sweat.",
         "It is infrastructure, not a marketing suite. No automation journeys, no landing pages, no sign-up form builders beyond a basic embed. Teams pair it with their own forms and workflow tools. If you want an ESP you administer rather than rent, this is the strongest open-source option available."
       ],
-      "verdict": "The strongest self-hosted mailing platform we have run; bring your own forms and workflows."
+      "verdict": "The strongest self-hosted mailing platform in this catalog; bring your own forms and workflows."
     },
     "license": "AGPL-3.0"
   },

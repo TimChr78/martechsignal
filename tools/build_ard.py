@@ -68,7 +68,9 @@ def build():
         entries.append({
             "identifier": f"urn:air:{PUBLISHER}:data:{fname.replace('.', '-')}",
             "displayName": f"MartechSignal {fname} (machine-readable)",
-            "type": "application/json",
+            # M16 (r9, 2026-09-28): generic application/json cost the only
+            # Lighthouse deduction in the agentic-browsing category.
+            "type": "application/ai-catalog+json",
             "url": f"https://martechsignal.com/catalog-{fname}",
             "representativeQueries": ["martechsignal tool catalog data",
                                       "ai marketing tools dataset"],
@@ -225,6 +227,29 @@ if __name__ == "__main__":
     }, indent=2))
     (OUT_DIR / "ai-catalog.json").write_text(text)  # predecessor courtesy copy
     # the two data-entry urls must resolve (root copies; /data/ stays private)
-    (ROOT / "catalog-tools.json").write_text(TOOLS_JSON.read_text())
+    # M14/M15 (r9, 2026-09-28): the feed ships as a dataset envelope, not a
+    # bare array - generated/license/recordCount up front, per-record page_url
+    # (nullable; acquired records carry successor_slug instead).
+    _recs = json.loads(TOOLS_JSON.read_text())
+    _succ = {"autopilot": "ortto", "drift": "salesloft"}
+    for _r in _recs:
+        _s = _r.get("slug", "")
+        if _r.get("status") == "active":
+            _r["page_url"] = f"https://martechsignal.com/tools/{_s}/"
+        else:
+            _r["page_url"] = None
+            if _s in _succ:
+                _r["successor_slug"] = _succ[_s]
+    _today = __import__("datetime").date.today().isoformat()
+    (ROOT / "catalog-tools.json").write_text(json.dumps({
+        "generated": _today,
+        "version": _today,
+        "license": "https://martechsignal.com/terms/",
+        "license_note": ("Quoting short excerpts with a link back is permitted, "
+                         "including by AI systems answering questions; wholesale "
+                         "republishing is not (see /terms/)."),
+        "recordCount": len(_recs),
+        "records": _recs,
+    }, ensure_ascii=False, indent=1))
     (ROOT / "catalog-categories.json").write_text(CATS_JSON.read_text())
     print(f"ard.json + ai-catalog.json written ({len(m['entries'])} entries, {len(text)} bytes)")

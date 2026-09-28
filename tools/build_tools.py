@@ -321,6 +321,10 @@ def _ends_on_function_word(text):
 def _seo_description_for(t, cats):
     cat_map = {c["slug"]: c["name"] for c in cats}
     name = t["name"]
+    # L3 (r9, 2026-09-28): page_shell escapes the description into the meta
+    # tag, so quotes expand to entities AFTER this composer runs. Budget the
+    # escaped length or raw-fits-but-rendered-long descriptions (163 chars on
+    # react-email-editor, zapier-gtm-cheat-codes) slip through.
     tagline = (t.get("tagline") or "").strip()
     if not tagline or len(tagline) < 10:
         desc = (t.get("description") or "").strip()
@@ -362,9 +366,9 @@ def _seo_description_for(t, cats):
     # which shipped dangling fragments to the SERP, e.g.
     #   "Ghost: Open-source publishing platform with built-in."
     #   "Krayin CRM: Free open-source Laravel CRM for SMEs and."
-    if len(f"{name}: {tagline_sent} {price_phrase}{tail}") <= 155:
+    if len(esc(f"{name}: {tagline_sent} {price_phrase}{tail}")) <= 155:
         return f"{name}: {tagline_sent} {price_phrase}{tail}"
-    if len(f"{name}: {tagline_sent} {price_phrase}") <= 155:
+    if len(esc(f"{name}: {tagline_sent} {price_phrase}")) <= 155:
         return f"{name}: {tagline_sent} {price_phrase}"
     # Only now clip the tagline, and only on a clean boundary with no tail to pay for.
     overhead = len(f"{name}:  {price_phrase}") + 1
@@ -374,11 +378,11 @@ def _seo_description_for(t, cats):
         if trunc and not _ends_on_function_word(trunc):
             ts = trunc + "." if not trunc.endswith((".", "!", "?")) else trunc
             cand = f"{name}: {ts} {price_phrase}"
-            if len(cand) <= 155:
+            if len(esc(cand)) <= 155:
                 return cand
     # Final fallback: name + pricing only. Never cut mid-phrase to keep the tail.
     cand = f"{name}: {price_phrase}"
-    if len(cand) <= 155:
+    if len(esc(cand)) <= 155:
         return cand
     cut = cand[:152].rsplit(" ", 1)[0].rstrip(" ,;:")
     return cut + "." if not cut.endswith((".", "!", "?")) else cut
@@ -532,7 +536,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{esc(title)}">
@@ -547,6 +551,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -572,7 +577,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer aria-label="Footer">
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/llms.txt">AI CATALOG</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -708,7 +713,21 @@ def build_hub(tools, cats):
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
         f"Browse {len(active)} curated AI marketing automation tools across {len(cats)} categories - open-source and SaaS, with assessments desk-researched from vendor.",
-        "/tools/", body, schema))
+        "/tools/", body, [schema, {
+            # M14 (r9, 2026-09-28): the machine-readable twin of this directory
+            # as a typed Dataset (the feed itself carries the license envelope).
+            "@context": "https://schema.org",
+            "@type": "Dataset",
+            "name": "MartechSignal tool catalog",
+            "description": "Machine-readable catalog of AI marketing tools: pricing, license, hosting and open-source status.",
+            "url": "https://martechsignal.com/catalog-tools.json",
+            "license": "https://martechsignal.com/terms/",
+            "distribution": [{
+                "@type": "DataDownload",
+                "contentUrl": "https://martechsignal.com/catalog-tools.json",
+                "encodingFormat": "application/ai-catalog+json",
+            }],
+        }]))
     print(f"  ✓ {out.relative_to(ROOT)}")
 
 # ── Tool profile pages ─────────────────────────────────────────────
@@ -1513,7 +1532,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} {_review_tag(t)}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
-  <p class="cta-early" style="margin-top:.9rem"><a class="btn" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} &#8594;</a></p>
+  {('<p class="cta-early" style="margin-top:.9rem"><a href="' + esc(t.get('website','#')) + '" target="_blank" rel="noopener">Visit ' + esc(t["name"]) + ' &#8594;</a></p>') if t.get('website') else ''}
 </section>
 {disclosure_html}
 {verdict_html}
@@ -1685,6 +1704,14 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     # SEO title/meta: prefer persisted seo_* fields; otherwise generate via helpers (≤60/≤155, Review+Category+Pricing)
     seo_title = t.get("seo_title") or _seo_title_for(t, cats)
     seo_desc = t.get("seo_description") or _seo_description_for(t, cats)
+    # L3 (r9): persisted seo_* fields bypass the composers, so enforce the
+    # rendered-length budgets here too (two records shipped 163-char metas).
+    if len(esc(seo_title)) > 60:
+        seo_title = _clip_meta_text(seo_title, 56)
+    while len(esc(seo_desc)) > 155 and len(seo_desc) > 40:
+        seo_desc = _clip_meta_text(seo_desc, len(seo_desc) - 10)
+    if not seo_desc.endswith((".", "!", "?")):
+        seo_desc = seo_desc.rstrip(" ,;:-") + "."
     # r6 M-2: visible kind label for non-platform entries
     if t.get("kind"):
         body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">KIND: {esc(t["kind"])} (not an end-to-end platform)</p>', 1)
@@ -1728,7 +1755,7 @@ def tool_card_html(t):
     if t.get("open_source"):
         tags += '<span class="tag oss">OSS</span>'
     return f"""<a class="tool-card" href="/tools/{t['slug']}/">
-  <div class="name">{esc(t['name'])}</div>
+  <h3 class="name">{esc(t['name'])}</h3>
   {_tool_fact_img(t)}
   <div class="tagline">{esc(t.get('tagline',''))}</div>
   <div class="meta">{tags}</div>

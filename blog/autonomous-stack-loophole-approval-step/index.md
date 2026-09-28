@@ -115,7 +115,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
   },
   "@type": "BlogPosting",
   "headline": "Your autonomous stack's loophole is the approval step you deleted",
-  "description": "MarTech published a piece on August 31 called \"The terrifying loophole in your autonomous tech stack\". The loophole is real. Agents pass campaign data.",
+  "description": "MarTech published a piece on August 31 called \"The terrifying loophole in your autonomous tech.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

@@ -340,13 +340,19 @@ def _build_toc_and_chip(body_html: str, categories=None):
 
 
 def _clean_excerpt(text, limit=155):
-    """Word-boundary meta excerpt with terminal punctuation; no mid-word cuts (audit H-3)."""
+    """Word-boundary meta excerpt with terminal punctuation; no mid-word cuts (audit H-3).
+    L3 (r9): callers escape the result into the meta tag, so quotes expand to
+    entities after clipping. Re-shrink until the ESCAPED text fits the limit."""
     text = " ".join((text or "").split())
-    if len(text) <= limit:
+    if len(html.escape(text)) <= limit:
         return text
-    sp = text.rfind(" ", 0, limit - 1)
-    text = text[:sp] if sp > 60 else text[:limit - 3]
-    return text.rstrip(" ,;:.--") + "."
+    while True:
+        sp = text.rfind(" ", 0, limit - 1)
+        text = text[:sp] if sp > 60 else text[:limit - 3]
+        text = text.rstrip(" ,;:.--") + "."
+        if len(html.escape(text)) <= limit or len(text) < 40:
+            return text
+        limit = len(text) - 5
 
 def _date_modified(meta, date_str):
     """R2 M-7 (2026-09-08): dateModified must reflect real edits. Use the last git commit
@@ -446,7 +452,10 @@ def build_post(meta: dict, body_html: str) -> str:
     words = len(re.sub(r'<[^>]+>', ' ', body_html).split())
     read_min = max(1, round(words / 200))
     tags = meta.get('tags', [])
-    kicker = ' · '.join(t.upper() for t in tags[:2]) if tags else 'DEEP DIVE · MARTECH'
+    # L11 (r9): 'recovered' is a pipeline-internal tag (recovered drafts); it
+    # must never render as a kicker. Display it as Updated.
+    _kick = [('Updated' if t.lower() == 'recovered' else t) for t in tags[:2]]
+    kicker = ' · '.join(t.upper() for t in _kick) if _kick else 'DEEP DIVE · MARTECH'
     # Human byline - the site's named author (see footer/about); org stays in JSON-LD
     byline = 'Tim Christensen'
 
@@ -500,8 +509,9 @@ def build_post(meta: dict, body_html: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(seo_title)}</title>
 <meta name="description" content="{html.escape(_clean_excerpt(excerpt))}">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="article">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
 <meta property="og:site_name" content="MartechSignal">
 <meta property="og:title" content="{html.escape(seo_title)}">
 <meta property="og:description" content="{html.escape(_clean_excerpt(excerpt))}">
@@ -534,7 +544,7 @@ def build_post(meta: dict, body_html: str) -> str:
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">
@@ -637,9 +647,10 @@ def build_index(posts: list) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blog | MartechSignal</title>
 <meta name="description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MartechSignal">
+<link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
 <meta property="og:title" content="Blog | MartechSignal">
 <meta property="og:description" content="Deep-dives, tool teardowns, and hot takes on AI in marketing automation.">
 <meta property="og:url" content="https://martechsignal.com/blog/">
@@ -667,7 +678,7 @@ def build_index(posts: list) -> str:
 <header class="masthead">
   <div class="mast-in">
     <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
-    <nav class="mast-nav"><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+    <nav class="mast-nav"><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a><a href="/blog/">BLOG</a><a href="/#subscribe">SUBSCRIBE</a></nav>
   </div>
 </header>
 <main class="wrap">

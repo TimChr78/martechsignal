@@ -13,6 +13,17 @@ from datetime import datetime
 
 from build_tools import page_shell, esc, ROOT, _category_display, _json_block_dates
 
+
+def _meta_155(text):
+    """L3 (r9, 2026-09-28): page_shell escapes the meta into the tag, so a raw
+    [:155] cut renders longer when the definition carries & or quotes
+    (utm-parameters shipped 163). Shrink until the escaped text fits."""
+    text = " ".join((text or "").split())
+    while len(esc(text)) > 155 and len(text) > 40:
+        sp = text.rfind(" ", 0, len(text) - 5)
+        text = (text[:sp] if sp > 60 else text[:len(text) - 10]).rstrip(" ,;:.") + "."
+    return text
+
 TOOLS_DIR = ROOT / "tools"
 GLOSSARY_DIR = ROOT / "glossary"
 
@@ -312,7 +323,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
         body += '<section class="seealso"><h2>See also</h2><ul>' + _links + '</ul></section>'
     out.write_text(page_shell(
         title,
-        f"{term['definition'][:155]}",
+        _meta_155(term["definition"]),
         f"/glossary/{slug}/", body, [schema, breadcrumb], og_image=f"og/glossary/{slug}.png"))
     return out
 

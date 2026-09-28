@@ -2,43 +2,29 @@
 
 SUITE PLATFORMS***7*
 
-ActiveCampaign
-
 AI-powered marketing automation and CRM for small to mid-size businesses
 
 From $15/moDesk-reviewed
-
-Adobe Marketo Engage
 
 Enterprise B2B marketing automation with AI-driven lead management and engagement
 
 EnterpriseDesk-reviewed
 
-Bloomreach
-
 AI-powered commerce experience platform with search, personalization, and CDP
 
 EnterpriseDesk-reviewed
-
-Braze
 
 Customer engagement platform with AI-powered real-time messaging across channels
 
 EnterpriseDesk-reviewed
 
-HubSpot Marketing Hub
-
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
 FreemiumDesk-reviewed
 
-Ortto
-
 Customer data and marketing automation platform with journeys, CDP, and AI features
 
 From $199/moDesk-reviewed
-
-Salesforce Marketing Cloud
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
 
@@ -46,31 +32,21 @@ EnterpriseDesk-reviewed
 
 POINT + OPEN-SOURCE TOOLS***5*
 
-ALwrity
-
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
 Open SourceDesk-reviewedOSS
-
-Laudspeaker
 
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
 Open SourceDesk-reviewedOSS
 
-Line Harness
-
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
 Open SourceDesk-reviewedOSS
 
-Mautic
-
 Open-source marketing automation platform with email, campaigns, and lead management
 
 Open SourceDesk-reviewedOSS
-
-NocoDB
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
@@ -142,7 +118,7 @@ Check outputs, not logs: the silent-failure audit
 
 The category thesis in practice: audit what agents actually sent, not what logs claim
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -152,6 +128,30 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.
 
 12 TOOLS IN THIS CATEGORY
+
+### ActiveCampaign
+
+### Adobe Marketo Engage
+
+### Bloomreach
+
+### Braze
+
+### HubSpot Marketing Hub
+
+### Ortto
+
+### Salesforce Marketing Cloud
+
+### ALwrity
+
+### Laudspeaker
+
+### Line Harness
+
+### Mautic
+
+### NocoDB
 
 **Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 

@@ -1,42 +1,30 @@
 # Chatbots &amp; Conversational AI Tools
 
-ChatbotX
-
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
 Open SourceDesk-reviewedOSS
-
-Chatfuel
 
 AI chatbot platform for automating customer conversations on messaging channels
 
 From $39/moDesk-reviewed
 
-Chatwoot
-
 Open-source customer engagement suite with Captain AI and full self-hosting
 
 Open SourceDesk-reviewedOSS
-
-Intercom
 
 AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 From $29/moDesk-reviewed
 
-ManyChat
-
 AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger
 
 FreemiumDesk-reviewed
-
-Tidio
 
 AI-powered live chat and chatbot platform with Lyro AI agent for customer support
 
 FreemiumDesk-reviewed
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -46,6 +34,18 @@ FreemiumDesk-reviewed
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
 
 6 TOOLS IN THIS CATEGORY
+
+### ChatbotX
+
+### Chatfuel
+
+### Chatwoot
+
+### Intercom
+
+### ManyChat
+
+### Tidio
 
 Chatbots split along one line: are you selling in the DMs or answering after the sale? ManyChat and Chatfuel automate marketing conversations on Instagram, WhatsApp, and Messenger. ChatbotX is the open-source ManyChat alternative you can self-host. On the support side, Tidio pairs live chat with bot builders, and Chatwoot ships an open-source engagement suite with its Captain AI assistant, copilot, and automatic customer notes. Intercom sells Fin as the front line of support.
 

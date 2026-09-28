@@ -127,7 +127,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
   },
   "@type": "BlogPosting",
   "headline": "Claude Cowork is eating the edges of your martech stack",
-  "description": "For the past three years, marketing ops teams have been promised \"AI-powered automation\" by every vendor in the stack. You know how that went. Chatbots.",
+  "description": "For the past three years, marketing ops teams have been promised \"AI-powered.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

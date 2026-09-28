@@ -1,60 +1,42 @@
 # Personalization &amp; CDP Tools
 
-Apache Unomi
-
 Apache&#x27;s open-source customer data platform and personalization engine
 
 Open SourceDesk-reviewedOSS
-
-Clerk.io
 
 AI-powered ecommerce personalization with search, recommendations, and email
 
 From $119/moDesk-reviewed
 
-Dynamic Yield
-
 AI-powered personalization platform for web, mobile, and email experiences
 
 EnterpriseDesk-reviewed
-
-Flagsmith
 
 Open-source feature flag and remote config platform with segment targeting
 
 FreemiumDesk-reviewedOSS
 
-GrowthBook
-
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
 FreemiumDesk-reviewedOSS
-
-Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
 FreemiumDesk-reviewedOSS
 
-Nosto
-
 AI-powered ecommerce personalization with product recommendations and merchandising
 
 EnterpriseDesk-reviewed
-
-Tealium
 
 Enterprise customer data platform with real-time data orchestration and AI
 
 EnterpriseDesk-reviewed
 
-Twilio Segment
-
 Customer data platform for collecting, unifying, and activating customer data
 
 FreemiumDesk-reviewed
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -64,6 +46,24 @@ FreemiumDesk-reviewed
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
 
 9 TOOLS IN THIS CATEGORY
+
+### Apache Unomi
+
+### Clerk.io
+
+### Dynamic Yield
+
+### Flagsmith
+
+### GrowthBook
+
+### Jitsu
+
+### Nosto
+
+### Tealium
+
+### Twilio Segment
 
 Personalization stacks in three layers, and most failed projects bought the top one first. The data layer collects and unifies who the visitor is: Twilio Segment, Tealium, Jitsu, Apache Unomi. The experimentation layer runs tests and gates features: GrowthBook, Flagsmith. The experience layer decides what each visitor sees: Dynamic Yield, Nosto, Clerk.io. The pitch is simple: a returning customer should not see the same homepage as a first-time visitor. The layers above only work on clean identity data underneath.
 

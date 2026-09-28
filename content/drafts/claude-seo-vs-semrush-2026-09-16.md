@@ -1,7 +1,7 @@
 ---
 title: "What a free SEO audit replaces in your Semrush stack, and what it does not"
 seo_title: "What a Free SEO Audit Replaces (and What It Does Not)"
-slug: what-claude-seo-replaces
+slug: what-free-seo-audit-replaces
 date: 2026-09-16
 author: Tim Christensen
 tags: [SEO, Agent Skills]

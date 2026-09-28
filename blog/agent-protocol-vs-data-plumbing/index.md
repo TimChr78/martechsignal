@@ -111,7 +111,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
   },
   "@type": "BlogPosting",
   "headline": "Your agent protocol matters less than your data plumbing",
-  "description": "MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support them. The plumbing is the.",
+  "description": "MCP keeps winning the protocol argument while 85% of enterprises, by Fivetran's count, run agents on data that cannot support.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

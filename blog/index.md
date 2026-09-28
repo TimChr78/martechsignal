@@ -29,7 +29,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
 - [ 07 AI visibility advice, audited against 775 logged citations 2026-09-22 775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards. The AI-visibility industry se → ](/blog/geo-experiments-vs-ai-visibility-playbook/)
 - [ 08 Salesforce's third no-code promise, audited 2026-09-21 Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week. Campaign Agent, which turns a stated goal into a live cam → ](/blog/salesforce-third-no-code-promise/)
 - [ 09 Claude SEO vs Seonaut: which free SEO checker should you run 2026-09-17 Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill that reasons about a site ins → ](/blog/claude-seo-vs-seonaut/)
-- [ 10 What a free SEO audit replaces in your Semrush stack, and what it does not 2026-09-16 &amp;gt; Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day. The corrections log carries the full en → ](/blog/what-claude-seo-replaces/)
+- [ 10 What a free SEO audit replaces in your Semrush stack, and what it does not 2026-09-16 &amp;gt; Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day. The corrections log carries the full en → ](/blog/what-free-seo-audit-replaces/)
 - [ 11 Claude SEO vs Codex SEO: same audit, pick the agent you already pay for 2026-09-15 Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. Claude SEO and Codex SEO are → ](/blog/claude-seo-vs-codex-seo/)
 - [ 12 Fifty days of open-source MarTech, audited 2026-09-14 Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went. → ](/blog/oss-martech-50-day-checkin/)
 - [ 13 Most of your marketing AI agents should be if/then 2026-09-11 An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter said it would matter for r → ](/blog/determinism-audit/)
@@ -164,7 +164,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
     {
       "@type": "BlogPosting",
       "headline": "What a free SEO audit replaces in your Semrush stack, and what it does not",
-      "url": "https://martechsignal.com/blog/what-claude-seo-replaces/",
+      "url": "https://martechsignal.com/blog/what-free-seo-audit-replaces/",
       "datePublished": "2026-09-16",
       "isPartOf": {
         "@id": "https://martechsignal.com/blog/#blog"

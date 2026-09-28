@@ -133,10 +133,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   },
   "datePublished": "2026-09-16",
   "dateModified": "2026-09-28",
-  "mainEntityOfPage": "https://martechsignal.com/blog/what-claude-seo-replaces/",
+  "mainEntityOfPage": "https://martechsignal.com/blog/what-free-seo-audit-replaces/",
   "image": {
     "@type": "ImageObject",
-    "url": "https://martechsignal.com/og/what-claude-seo-replaces.png",
+    "url": "https://martechsignal.com/og/what-free-seo-audit-replaces.png",
     "width": 1200,
     "height": 630
   },
@@ -171,7 +171,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
       "@type": "ListItem",
       "position": 3,
       "name": "What a free SEO audit replaces in your Semrush stack, and what it does not",
-      "item": "https://martechsignal.com/blog/what-claude-seo-replaces/"
+      "item": "https://martechsignal.com/blog/what-free-seo-audit-replaces/"
     }
   ]
 }

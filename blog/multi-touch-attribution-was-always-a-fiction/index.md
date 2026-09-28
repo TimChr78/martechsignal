@@ -121,7 +121,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
   },
   "@type": "BlogPosting",
   "headline": "Multi-Touch Attribution Was Always a Fiction",
-  "description": "On Sept. 2, the MarTech Conference ran a free session called \"Marketing without signals: How to perform when the data disappears.\" The session copy told.",
+  "description": "On Sept. 2, the MarTech Conference ran a free session called \"Marketing without signals: How to perform when the data.",
   "author": {
     "@type": "Person",
     "name": "Tim Christensen",

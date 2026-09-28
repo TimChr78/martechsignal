@@ -91,8 +91,13 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
 
 Sitemap: https://martechsignal.com/sitemap.xml
+# M17 (r9, 2026-09-28): machine-readable catalog entry points for AI systems.
+# (Plain comments, not directives - crawlers ignore unknown lines per RFC 9309.)
 # A-3 (v2.4.0 audit): ARD entry source (spec §5.1)
-Agentmap: https://martechsignal.com/.well-known/ard.json
+# Agentmap: https://martechsignal.com/.well-known/ard.json
+# (L5, r9: 'Agentmap:' is not a standard robots.txt directive and trips the
+# Lighthouse robots-txt validator. The ARD manifest is still discoverable via
+# <link rel="ard"> in every page head, so this stays a comment.)
 
 # A3 M-22 (2026-09-27): training-adjacent data collectors named explicitly.
 # Google-Extended is deliberately BLOCKED (training refusal wins over Gemini

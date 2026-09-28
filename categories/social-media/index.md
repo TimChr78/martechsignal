@@ -1,42 +1,30 @@
 # Social Media Tools
 
-Brandwatch
-
 AI-powered consumer intelligence and social media management platform
 
 EnterpriseDesk-reviewed
-
-Buffer
 
 Simple social media scheduling and analytics with AI-powered content tools
 
 FreemiumDesk-reviewed
 
-Hootsuite
-
 Social media management platform with AI-powered scheduling and analytics
 
 From $99/moDesk-reviewed
-
-MultiPost
 
 Browser extension to publish content to multiple social media platforms with one click
 
 Open SourceDesk-reviewedOSS
 
-Predis.ai
-
 AI-powered social media content generator for posts, videos, and ad creatives
 
 FreemiumDesk-reviewed
-
-Sprout Social
 
 Enterprise social media management with AI-powered analytics and engagement tools
 
 From $249/moDesk-reviewed
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -46,6 +34,18 @@ From $249/moDesk-reviewed
 Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites
 
 6 TOOLS IN THIS CATEGORY
+
+### Brandwatch
+
+### Buffer
+
+### Hootsuite
+
+### MultiPost
+
+### Predis.ai
+
+### Sprout Social
 
 Social tools cover publishing, listening, and reporting, and the prices vary far more than the features do. Buffer charges $5 per channel a month on Essentials and $10 on Team, with a free plan for 3 channels. Hootsuite starts at $99 a month and its Professional plan runs $149. Sprout Social starts at $249 per seat and its next tier $399, so the price ladder inside the suites is steeper than it looks. MultiPost, the open-source browser extension, publishes to multiple platforms in one click and adapts the copy per platform, for free.
 

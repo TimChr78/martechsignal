@@ -1,474 +1,318 @@
 # Open-Source Tools
 
-Aaron Marketing Skills
-
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Open SourceDesk-reviewedOSS
-
-Activepieces
 
 Open-source workflow automation with a free cloud tier and on-prem hosting
 
 FreemiumDesk-reviewedOSS
 
-advertools
-
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
 Open SourceDesk-reviewedOSS
-
-AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
 Open SourceDesk-reviewedOSS
 
-AlphOne
-
 Plugin-first CRM (source-available, Elastic 2.0) written in Go
 
 Open SourceDesk-reviewedOSS
-
-ALwrity
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
 Open SourceDesk-reviewedOSS
 
-Analytics Tracking Automation
-
 AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 
 Open SourceDesk-reviewedOSS
-
-Apache Unomi
 
 Apache&#x27;s open-source customer data platform and personalization engine
 
 Open SourceDesk-reviewedOSS
 
-Appsmith
-
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
 Free tierDesk-reviewedOSS
-
-BillionMail
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
 Open SourceDesk-reviewedOSS
 
-Budibase
-
 Open-source operations platform for building AI agents, apps and automations on your own data
 
 Free tierDesk-reviewedOSS
-
-ChatbotX
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
 Open SourceDesk-reviewedOSS
 
-Chatwoot
-
 Open-source customer engagement suite with Captain AI and full self-hosting
 
 Open SourceDesk-reviewedOSS
-
-Claude Ads
 
 Paid-media operations skill for Claude Code covering 12 ad platforms
 
 Open SourceDesk-reviewedOSS
 
-Claude SEO
-
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 Open SourceHands-onOSS
-
-Cordys CRM
 
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment
 
 FreemiumDesk-reviewedOSS
 
-DeskcommCRM
-
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
 Open SourceDesk-reviewedOSS
-
-Diffmode Growth Tactics
 
 Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
 Open SourceDesk-reviewedOSS
 
-Django CRM
-
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
 Open SourceDesk-reviewedOSS
-
-Dolibarr ERP/CRM
 
 Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app
 
 Open SourceDesk-reviewedOSS
 
-Email Marketing Bible
-
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
 
 Open SourceDesk-reviewedOSS
-
-EspoCRM
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
 
 Open SourceDesk-reviewedOSS
 
-Eve Marketing Team Template
-
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
 Open SourceDesk-reviewedOSS
-
-Ever Gauzy
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
 Open SourceDesk-reviewedOSS
 
-Flagsmith
-
 Open-source feature flag and remote config platform with segment targeting
 
 FreemiumDesk-reviewedOSS
-
-Frappe CRM
 
 Fully featured, open source CRM
 
 Open SourceDesk-reviewedOSS
 
-Ghost
-
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
 Open SourceDesk-reviewedOSS
-
-Google Ads + Meta Ads + GA4 MCP
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 FreemiumDesk-reviewedOSS
 
-Growth Lab
-
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 
 Open SourceDesk-reviewedOSS
-
-GrowthBook
 
 Open-source feature flags and A/B testing with a visual editor and attribute-based targeting
 
 FreemiumDesk-reviewedOSS
 
-IDURAR ERP &amp; CRM
-
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 Open SourceDesk-reviewedOSS
-
-Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
 
 FreemiumDesk-reviewedOSS
 
-Khoj
-
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
 Open SourceDesk-reviewedOSS
-
-Krayin CRM
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 
 Open SourceDesk-reviewedOSS
 
-LangChain
-
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
 Open SourceDesk-reviewedOSS
-
-LanguageTool
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
 FreemiumDesk-reviewedOSS
 
-Laudspeaker
-
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
 Open SourceDesk-reviewedOSS
-
-LibreTranslate
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
 Open SourceDesk-reviewedOSS
 
-Line Harness
-
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
 Open SourceDesk-reviewedOSS
-
-Listmonk
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
 Open SourceDesk-reviewedOSS
 
-Macro
-
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
 
 FreemiumDesk-reviewedOSS
-
-Maizzle
 
 Modern email development framework using Tailwind CSS for responsive campaigns
 
 FreeDesk-reviewedOSS
 
-Marketing Studio
-
 Agent-driven marketing studio for Claude Code: launch assets from one command
 
 Open SourceDesk-reviewedOSS
-
-Matomo
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
 Open SourceDesk-reviewedOSS
 
-Mautic
-
 Open-source marketing automation platform with email, campaigns, and lead management
 
 Open SourceDesk-reviewedOSS
-
-Monica
 
 Open-source personal CRM for tracking friends, family, and business relationships
 
 Open SourceDesk-reviewedOSS
 
-MultiPost
-
 Browser extension to publish content to multiple social media platforms with one click
 
 Open SourceDesk-reviewedOSS
-
-n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Open SourceDesk-reviewedOSS
 
-n8n Marketing Flows
-
 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 
 Open SourceDesk-reviewedOSS
-
-NocoBase
 
 Open-source no-code platform with AI assistance for building business systems fast
 
 Free tierDesk-reviewedOSS
 
-NocoDB
-
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet
 
 Free tierDesk-reviewedOSS
-
-Notifo
 
 Self-hosted multi-channel notification service for email, SMS, and web push
 
 Open SourceDesk-reviewedOSS
 
-Notifuse
-
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
 Open SourceDesk-reviewedOSS
-
-Open Mercato
 
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 Open SourceDesk-reviewedOSS
 
-OpenClaw Marketing Skills
-
 37 marketing skills for OpenClaw agents with live data connectors
 
 Open SourceDesk-reviewedOSS
-
-OpenOutreach
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
 Open SourceDesk-reviewedOSS
 
-OpenSEO
-
 Open source alternative to Ahrefs and Semrush
 
 Open SourceDesk-reviewedOSS
-
-Paperclip
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 
 FreemiumDesk-reviewedOSS
 
-Plausible Analytics
-
 Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
 Open SourceDesk-reviewedOSS
-
-PostHog
 
 Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
 FreemiumDesk-reviewedOSS
 
-Potato
-
 Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
 
 Open SourceDesk-reviewedOSS
-
-Promptfoo
 
 Open source LLM eval toolkit for prompt testing, brand-answer tracking and red teaming
 
 FreemiumDesk-reviewedOSS
 
-ProspectOS
-
 Open-source lead prospecting CRM with Google Maps and Instagram scraping
 
 Open SourceDesk-reviewedOSS
-
-React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
 
 Open SourceDesk-reviewedOSS
 
-Relaticle
-
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
 
 Open SourceDesk-reviewedOSS
-
-Revive Adserver
 
 Free open source ad server for publishers, ad networks and advertisers
 
 Open SourceDesk-reviewedOSS
 
-SEO Skill Bench
-
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 Open SourceDesk-reviewedOSS
-
-Seonaut
 
 Open-source SEO crawler in Go for technical audits, self-hosted or cloud
 
 Open SourceDesk-reviewedOSS
 
-Snowplow
-
 Customer context infrastructure: behavioral event pipeline for warehouses and AI agents
 
 Free tierDesk-reviewedOSS
-
-Strapi
 
 Open-source headless CMS with AI-powered content management and API-first design
 
 Open SourceDesk-reviewedOSS
 
-SuiteCRM
-
 Enterprise-grade open-source CRM with sales, marketing, and support automation
 
 Open SourceDesk-reviewedOSS
-
-ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
 Free tierDesk-reviewedOSS
 
-Twenty
-
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows
 
 Open SourceDesk-reviewedOSS
-
-Umami
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
 Open SourceDesk-reviewedOSS
 
-WaCRM
-
 Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 
 Open SourceDesk-reviewedOSS
-
-Warmbly
 
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Open SourceDesk-reviewedOSS
 
-Warpdrive
-
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
 Open SourceDesk-reviewedOSS
-
-Zapier GTM Cheat Codes
 
 Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Open SourceDesk-reviewedOSS
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -478,6 +322,162 @@ Open SourceDesk-reviewedOSS
 78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.
 
 78 TOOLS IN THIS CATEGORY
+
+### Aaron Marketing Skills
+
+### Activepieces
+
+### advertools
+
+### AI Business Skills
+
+### AlphOne
+
+### ALwrity
+
+### Analytics Tracking Automation
+
+### Apache Unomi
+
+### Appsmith
+
+### BillionMail
+
+### Budibase
+
+### ChatbotX
+
+### Chatwoot
+
+### Claude Ads
+
+### Claude SEO
+
+### Cordys CRM
+
+### DeskcommCRM
+
+### Diffmode Growth Tactics
+
+### Django CRM
+
+### Dolibarr ERP/CRM
+
+### Email Marketing Bible
+
+### EspoCRM
+
+### Eve Marketing Team Template
+
+### Ever Gauzy
+
+### Flagsmith
+
+### Frappe CRM
+
+### Ghost
+
+### Google Ads + Meta Ads + GA4 MCP
+
+### Growth Lab
+
+### GrowthBook
+
+### IDURAR ERP &amp; CRM
+
+### Jitsu
+
+### Khoj
+
+### Krayin CRM
+
+### LangChain
+
+### LanguageTool
+
+### Laudspeaker
+
+### LibreTranslate
+
+### Line Harness
+
+### Listmonk
+
+### Macro
+
+### Maizzle
+
+### Marketing Studio
+
+### Matomo
+
+### Mautic
+
+### Monica
+
+### MultiPost
+
+### n8n
+
+### n8n Marketing Flows
+
+### NocoBase
+
+### NocoDB
+
+### Notifo
+
+### Notifuse
+
+### Open Mercato
+
+### OpenClaw Marketing Skills
+
+### OpenOutreach
+
+### OpenSEO
+
+### Paperclip
+
+### Plausible Analytics
+
+### PostHog
+
+### Potato
+
+### Promptfoo
+
+### ProspectOS
+
+### React Email Editor
+
+### Relaticle
+
+### Revive Adserver
+
+### SEO Skill Bench
+
+### Seonaut
+
+### Snowplow
+
+### Strapi
+
+### SuiteCRM
+
+### ToolJet
+
+### Twenty
+
+### Umami
+
+### WaCRM
+
+### Warmbly
+
+### Warpdrive
+
+### Zapier GTM Cheat Codes
 
 **Compare:** [Matomo vs Plausible](/vs/matomo-vs-plausible/) &middot; [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) &middot; [Matomo alternatives](/alternatives/matomo/)
 

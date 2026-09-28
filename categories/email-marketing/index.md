@@ -1,96 +1,66 @@
 # Email Marketing Tools
 
-BillionMail
-
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
 Open SourceDesk-reviewedOSS
-
-Customer.io
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages
 
 From $100/moDesk-reviewed
 
-Klaviyo
-
 AI-powered email and SMS marketing platform built for ecommerce brands
 
 FreemiumDesk-reviewed
-
-Listmonk
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
 Open SourceDesk-reviewedOSS
 
-Loops
-
 Email marketing for SaaS: marketing, product, and transactional email in one tool
 
 FreemiumDesk-reviewed
-
-Mailchimp
 
 All-in-one marketing platform with AI-powered email, automation, and analytics
 
 FreemiumDesk-reviewed
 
-Maizzle
-
 Modern email development framework using Tailwind CSS for responsive campaigns
 
 FreeDesk-reviewedOSS
-
-Notifo
 
 Self-hosted multi-channel notification service for email, SMS, and web push
 
 Open SourceDesk-reviewedOSS
 
-Notifuse
-
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
 Open SourceDesk-reviewedOSS
-
-OpenOutreach
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
 Open SourceDesk-reviewedOSS
 
-Postmark
-
 Transactional email API with separated message streams, an MCP server, and published delivery numbers
 
 FreemiumDesk-reviewed
-
-React Email Editor
 
 Drag-n-Drop Email Editor Component for React.js
 
 Open SourceDesk-reviewedOSS
 
-Resend
-
 Developer-first email API built around React Email, batch sending, and agent tooling
 
 FreemiumDesk-reviewed
-
-Twilio SendGrid
 
 Scalable email delivery API with AI-powered deliverability and engagement tools
 
 FreemiumDesk-reviewed
 
-Warmbly
-
 Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 
 Open SourceDesk-reviewedOSS
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -100,6 +70,36 @@ Open SourceDesk-reviewedOSS
 Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
 
 15 TOOLS IN THIS CATEGORY
+
+### BillionMail
+
+### Customer.io
+
+### Klaviyo
+
+### Listmonk
+
+### Loops
+
+### Mailchimp
+
+### Maizzle
+
+### Notifo
+
+### Notifuse
+
+### OpenOutreach
+
+### Postmark
+
+### React Email Editor
+
+### Resend
+
+### Twilio SendGrid
+
+### Warmbly
 
 Email tools split into three layers, and buying the wrong one is the expensive mistake here. Campaign platforms like Mailchimp and Klaviyo build newsletters and automated flows. Lifecycle engines like Customer.io and Loops trigger messages off product events. Delivery APIs like Postmark, Resend, and Twilio SendGrid simply move the mail and price on volume. Feature-comparing all fifteen tools in this category compares things that do not compete with each other.
 
