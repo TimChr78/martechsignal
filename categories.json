@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "slug": "marketing-automation",
+      "name": "Marketing Automation",
+      "url": "https://martechsignal.com/categories/marketing-automation/",
+      "description": "End-to-end campaign orchestration and workflow automation",
+      "tool_count": 12
+    },
+    {
+      "slug": "email-marketing",
+      "name": "Email Marketing",
+      "url": "https://martechsignal.com/categories/email-marketing/",
+      "description": "Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites",
+      "tool_count": 15
+    },
+    {
+      "slug": "crm",
+      "name": "CRM",
+      "url": "https://martechsignal.com/categories/crm/",
+      "description": "Customer relationship management and sales pipelines",
+      "tool_count": 23
+    },
+    {
+      "slug": "content-ai",
+      "name": "AI Content & Copywriting",
+      "url": "https://martechsignal.com/categories/content-ai/",
+      "description": "AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites",
+      "tool_count": 13
+    },
+    {
+      "slug": "analytics",
+      "name": "Analytics & Attribution",
+      "url": "https://martechsignal.com/categories/analytics/",
+      "description": "Marketing analytics, attribution, and reporting",
+      "tool_count": 11
+    },
+    {
+      "slug": "social-media",
+      "name": "Social Media",
+      "url": "https://martechsignal.com/categories/social-media/",
+      "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
+      "tool_count": 6
+    },
+    {
+      "slug": "advertising",
+      "name": "Advertising & Paid Media",
+      "url": "https://martechsignal.com/categories/advertising/",
+      "description": "Ad creation, bidding, and campaign management",
+      "tool_count": 9
+    },
+    {
+      "slug": "personalization",
+      "name": "Personalization & CDP",
+      "url": "https://martechsignal.com/categories/personalization/",
+      "description": "Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization",
+      "tool_count": 9
+    },
+    {
+      "slug": "chatbots",
+      "name": "Chatbots & Conversational AI",
+      "url": "https://martechsignal.com/categories/chatbots/",
+      "description": "Conversational AI for marketing and support, from social DM automation to per-resolution AI agents",
+      "tool_count": 6
+    },
+    {
+      "slug": "seo",
+      "name": "SEO & Search",
+      "url": "https://martechsignal.com/categories/seo/",
+      "description": "Search optimization, keyword research, and content strategy",
+      "tool_count": 9
+    },
+    {
+      "slug": "geo-llm-visibility",
+      "name": "GEO & LLM Optimization",
+      "url": "https://martechsignal.com/categories/geo-llm-visibility/",
+      "description": "Track and improve how AI assistants mention, cite, and describe your brand",
+      "tool_count": 14
+    },
+    {
+      "slug": "workflow-automation",
+      "name": "Workflow Automation",
+      "url": "https://martechsignal.com/categories/workflow-automation/",
+      "description": "No-code/low-code automation platforms and iPaaS",
+      "tool_count": 17
+    },
+    {
+      "slug": "agent-skills",
+      "name": "Agent Skills",
+      "url": "https://martechsignal.com/categories/agent-skills/",
+      "description": "Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow",
+      "tool_count": 16
+    }
+  ],
+  "generated_from": "tools/categories.json"
+}

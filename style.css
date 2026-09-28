@@ -647,6 +647,16 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
 .disclosure-strip { font: 500 .78rem var(--mono); letter-spacing: .06em; color: var(--muted); margin: .5rem 0 0 }
 
 .tool-card.is-hidden,.hub-group.is-hidden{display:none}
+/* r7 M13 (2026-09-28): tap targets >= 24px for navigational links */
+.crumb a,.footer a,.alt-back a,.back,.hub-links a,.post-list a{display:inline-block;padding-block:5px}
+.mast-nav a{display:inline-block;padding-block:4px}
+/* r7 M20 (2026-09-28): desktop breakpoint above 880px - long posts put the
+   mini-TOC in a sticky right rail so the measure gutter is no longer dead
+   space; the 40rem reading measure itself is preserved (L15). */
+@media (min-width:1200px){
+  .page-post article:has(.mini-toc){display:grid;grid-template-columns:40rem 1fr;column-gap:2.6rem}
+  .page-post article>.mini-toc{grid-column:2;grid-row:1/max-content;position:sticky;top:5rem;height:max-content;margin:0}
+}
 .tool-filter{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:1rem 0;padding:.7rem .9rem;border:1px solid var(--rule);border-radius:10px}
 .tool-filter label{display:flex;align-items:center;gap:.4rem;font:600 .8rem var(--mono)}
 .tool-filter select{font:500 .85rem inherit;padding:.3rem .5rem;border:1px solid var(--rule);border-radius:8px;background:transparent}

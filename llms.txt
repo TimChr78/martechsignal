@@ -293,7 +293,6 @@
 - [Email Marketing](https://martechsignal.com/categories/email-marketing/)
 - [GEO & LLM Optimization](https://martechsignal.com/categories/geo-llm-visibility/)
 - [Marketing Automation](https://martechsignal.com/categories/marketing-automation/)
-- [Open-Source Tools](https://martechsignal.com/categories/open-source/)
 - [Personalization & CDP](https://martechsignal.com/categories/personalization/)
 - [SEO & Search](https://martechsignal.com/categories/seo/)
 - [Social Media](https://martechsignal.com/categories/social-media/)

@@ -2112,18 +2112,6 @@
    ]
   },
   {
-   "identifier": "urn:air:martechsignal.com:categories:open-source",
-   "displayName": "Open-Source Tools",
-   "type": "text/html",
-   "url": "https://martechsignal.com/categories/open-source/",
-   "description": "The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation",
-   "representativeQueries": [
-    "best open-source tools tools",
-    "open-source tools comparison",
-    "open-source tools software"
-   ]
-  },
-  {
    "identifier": "urn:air:martechsignal.com:categories:personalization",
    "displayName": "Personalization & CDP",
    "type": "text/html",

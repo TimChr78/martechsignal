@@ -966,7 +966,7 @@ FreemiumDesk-reviewedWorkflow Automation
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-160 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
+160 TOOLS · 13 CATEGORIES · UPDATED WEEKLY
 
 Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 78 of them, with daily snapshots since Aug 25, 2026.
 

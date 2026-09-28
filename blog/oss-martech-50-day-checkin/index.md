@@ -26,7 +26,7 @@ OPEN SOURCE · MARTECH · 7 MIN
 
 SEP 14, 2026
 
-Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
+Filed under [Open Source](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
 Fifty days after [the open-source MarTech stack](/blog/open-source-martech-stack/) piece, this is the first re-check: what shipped, what stalled, and where the energy went.
 

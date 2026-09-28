@@ -54,10 +54,6 @@ Marketing Automation
 
 12 tools
 
-Open-Source Tools
-
-78 tools
-
 Personalization &amp; CDP
 
 9 tools
@@ -112,7 +108,7 @@ Use the directory for shortlists. Read the pricing line before the sales page, a
 
 ## Browse by category
 
-The directory covers 14 categories. Each one lists its tools with licence, stars and a plain summary of what the tool does.
+The directory covers 13 categories. Each one lists its tools with licence, stars and a plain summary of what the tool does.
 
 [All categories](/categories/) · [Full tool directory](/tools/)
 

@@ -682,7 +682,7 @@ def build_hub(tools, cats):
 
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
-        f"Browse {len(active)} curated AI marketing automation tools across 14 categories - open-source and SaaS, with assessments desk-researched from vendor.",
+        f"Browse {len(active)} curated AI marketing automation tools across {len(cats)} categories - open-source and SaaS, with assessments desk-researched from vendor.",
         "/tools/", body, schema))
     print(f"  ✓ {out.relative_to(ROOT)}")
 

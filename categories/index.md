@@ -54,12 +54,6 @@ End-to-end campaign orchestration and workflow automation
 
 12 tools
 
-Open-Source Tools
-
-The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation
-
-78 tools
-
 Personalization &amp; CDP
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
@@ -88,7 +82,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 14 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 13 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content &amp; Copywriting](/categories/content-ai/)
 
@@ -126,10 +120,6 @@ Track and improve how AI assistants mention, cite, and describe your brand. Incl
 
 End-to-end campaign orchestration and workflow automation. Includes [ActiveCampaign](/tools/activecampaign/), [Adobe Marketo Engage](/tools/adobe-marketo/), [ALwrity](/tools/alwrity/).
 
-## [Open-Source Tools](/categories/open-source/)
-
-The self-hosted martech stack: every open-source tool in the directory, across CRM, analytics, email, content, and automation. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
-
 ## [Personalization &amp; CDP](/categories/personalization/)
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
@@ -155,7 +145,7 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
   "@type": "CollectionPage",
   "name": "Categories",
   "url": "https://martechsignal.com/categories/",
-  "description": "All 14 tool categories in the MartechSignal directory."
+  "description": "All 13 tool categories in the MartechSignal directory."
 }
 ```
 

@@ -19,7 +19,7 @@ AGENT SKILLS · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · Autonomous Marketing Platforms Are Real. The Name Is Wrong.
 
-AUG 26, 2026 · Updated SEP 25, 2026
+AUG 26, 2026 · Updated SEP 28, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -165,7 +165,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     }
   },
   "datePublished": "2026-08-26",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": "https://martechsignal.com/og/autonomous-marketing-platform-label-contest.png",
   "isPartOf": {
