@@ -116,49 +116,57 @@
           "slug": "semrush",
           "verdict": "Best for SEO teams that want audits, rank tracking and content scoring in one suite.",
           "assessment": "Semrush covers the classic SEO loop: site audits, keyword research, backlink data and content optimization, with an AI content optimizer on top. Entry is Pro at $117 a month billed annually ($140 month to month), and the price climbs steeply at the Guru and Business tiers. It measures traditional rankings well and treats AI answers as a bolt-on rather than the core.",
-          "skip_if": "Skip it if you only need content scoring: Clearscope or Frase cost less and do one job."
+          "skip_if": "Skip it if you only need content scoring: Clearscope or Frase cost less and do one job.",
+          "unverified": "how the AI-answer bolt-on compares with dedicated visibility trackers at the same budget."
         },
         {
           "slug": "clearscope",
           "verdict": "Best for content teams that grade drafts against search intent all day.",
           "assessment": "Clearscope grades content against what already ranks, with AI content grading and 20 AI drafts included on the Business tier. Essentials starts at $129 a month, and the jump to $399 is steep for small teams. It is a content tool with no rank tracking and no technical audits.",
-          "skip_if": "Skip it if you need rank tracking or site audits: you will still need a suite beside it."
+          "skip_if": "Skip it if you need rank tracking or site audits: you will still need a suite beside it.",
+          "unverified": "grading stability across languages other than English, where the corpus is thinner."
         },
         {
           "slug": "surfer-seo",
           "verdict": "Best for writers who want a live content score while drafting.",
           "assessment": "Surfer scores a draft against the live SERP as you write, and the Audit tool explains why a page underperforms. Discovery starts around $49-59 a month, and real use lands on Standard at $99-119. The scoring model rewards topical coverage over clever phrasing.",
-          "skip_if": "Skip it if you chase AI-answer visibility: Surfer is built for classic blue-link SERPs."
+          "skip_if": "Skip it if you chase AI-answer visibility: Surfer is built for classic blue-link SERPs.",
+          "unverified": "whether score gains hold after the SERP settles; the model rewards topical coverage, not outcomes."
         },
         {
           "slug": "frase",
           "verdict": "Best for small content teams that want research, briefs and drafting in one tool.",
           "assessment": "Frase researches the SERP, builds briefs and drafts content, starting at $39 a month on the yearly Starter plan with 10 articles. Professional at $103 adds seats and unlimited articles, and the Frase Agent handles routine SEO tasks. It bundles AI visibility tracking too, which most content tools ignore.",
-          "skip_if": "Skip it if you need enterprise workflows or backlink data: Frase is a content tool at a content-tool price."
+          "skip_if": "Skip it if you need enterprise workflows or backlink data: Frase is a content tool at a content-tool price.",
+          "unverified": "draft quality on technical subjects without a source document in the brief."
         },
         {
           "slug": "ahrefs",
           "assessment": "Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its answer to AI visibility: when AI systems respond to questions in your category, does your brand appear, and who gets cited instead. Lite costs 129 dollars a month, Standard 249, Advanced 449, and Enterprise is quoted (verified September 2026). The AI tracking rides on the full suite rather than selling alone.",
           "verdict": "Best if you already pay for Ahrefs and want the AI question answered from your existing stack.",
-          "skip_if": "you are buying GEO as a standalone capability: you would be paying for a whole SEO suite."
+          "skip_if": "you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.",
+          "unverified": "the AI-visibility coverage depth against the dedicated trackers listed on our GEO page."
         },
         {
           "slug": "promptfoo",
           "assessment": "Promptfoo is an open source LLM evaluation toolkit that developers use to test prompts and models and marketing teams use to track brand answers in AI search. The core is a free CLI you run yourself, with brand-answer tracking and red teaming built from the same machinery. Cloud and enterprise tiers exist on promptfoo.dev with no public numbers (September 2026). It is the only tool here you can run without a sales call.",
           "verdict": "Best free entry point, provided someone on the team can run a CLI.",
-          "skip_if": "you want a managed dashboard out of the box: this is a toolkit, not a product tour."
+          "skip_if": "you want a managed dashboard out of the box: this is a toolkit, not a product tour.",
+          "unverified": "how model-graded evals hold up across graders; different graders disagree on the same answers."
         },
         {
           "slug": "claude-seo",
           "verdict": "Best for Claude Code users who want SEO audits run by agents instead of dashboards.",
           "assessment": "Claude SEO is a free, MIT-licensed skill with 25 sub-skills and 20 specialist agents covering technical SEO, E-E-A-T, schema and GEO/AEO. It runs inside your own Claude Code session, so the analysis reads your site directly and costs API tokens instead of subscriptions. Ours reviews every tool page on this site.",
-          "skip_if": "Skip it if you do not use an agent coding tool: the skill has no standalone interface."
+          "skip_if": "Skip it if you do not use an agent coding tool: the skill has no standalone interface.",
+          "unverified": "long-haul drift on sites with heavy JavaScript rendering, where crawl depth decides the audit."
         },
         {
           "slug": "codex-seo",
           "verdict": "Best for Codex CLI users who want scripted SEO workflows.",
           "assessment": "Codex SEO packages 26 SEO workflows with 24 TOML agent profiles and API integrations, built for the Codex CLI first. It is free to use, though the bundled licence is proprietary courtesy of the author, so check it before commercial redistribution.",
-          "skip_if": "Skip it if you want a permissive licence or a dashboard: the licence is proprietary and the surface is a CLI."
+          "skip_if": "Skip it if you want a permissive licence or a dashboard: the licence is proprietary and the surface is a CLI.",
+          "unverified": "workflow stability across Codex CLI releases, which the suite tracks closely."
         }
       ],
       "date_published": "2026-09-26",
@@ -302,37 +310,43 @@
           "slug": "attio",
           "verdict": "Best for startups that want a CRM shaped around their own data model.",
           "assessment": "Attio rebuilds the CRM around flexible data models and AI assistance, and it shows in the product: objects and relationships bend to your business instead of the other way round. Entry is free for 3 seats, Plus runs $29 per seat a month and Pro $69, all billed annually. It is young, which means fewer enterprise guardrails than the incumbents.",
-          "skip_if": "Skip it if you need enterprise compliance paperwork on day one: Salesforce and HubSpot are further along there."
+          "skip_if": "Skip it if you need enterprise compliance paperwork on day one: Salesforce and HubSpot are further along there.",
+          "unverified": "the migration tooling against large Salesforce exports, and seat pricing after the first contract year."
         },
         {
           "slug": "hubspot-crm",
           "verdict": "Best free CRM, and the natural next step when the free tier starts to bite.",
           "assessment": "HubSpot's CRM is free forever for unlimited users, with Sales Hub Starter from $15 per seat a month billed annually. The AI features (forecasting, conversation intelligence, content assistants) deepen as the tiers rise. The catch is the ladder: once you are on Professional or Enterprise, the per-seat price climbs fast and contracts are annual.",
-          "skip_if": "Skip it if you want a la carte pricing: HubSpot works best when you buy into the whole platform."
+          "skip_if": "Skip it if you want a la carte pricing: HubSpot works best when you buy into the whole platform.",
+          "unverified": "real effective per-seat cost on annual contracts above Starter, where list prices move with the deal."
         },
         {
           "slug": "salesforce-crm",
           "verdict": "Best for enterprises that need the CRM everything else integrates with.",
           "assessment": "Salesforce is the enterprise standard, with Einstein AI woven through forecasting, scoring and email capture. Starter begins at $25 per user a month and Enterprise at $165, and real deployments land well above that once you add the AI add-ons and the implementation partner. Nothing else matches its integration surface.",
-          "skip_if": "Skip it if you have fewer than fifty seats and no dedicated admin: the platform costs more to run than to buy."
+          "skip_if": "Skip it if you have fewer than fifty seats and no dedicated admin: the platform costs more to run than to buy.",
+          "unverified": "total cost of ownership with Einstein add-ons and a partner implementation folded in."
         },
         {
           "slug": "zoho-crm",
           "verdict": "Best value for small teams that want a full suite without an enterprise bill.",
           "assessment": "Zoho CRM covers pipeline automation with its Zia AI assistant, free for 3 users and EUR 14 per user a month on Standard. Professional at EUR 23 adds workflow automation and AI, and the wider Zoho suite (mail, books, desk) attaches cheaply. The interface is denser than Attio's or HubSpot's.",
-          "skip_if": "Skip it if design polish is the buying criterion: the product trades looks for price."
+          "skip_if": "Skip it if design polish is the buying criterion: the product trades looks for price.",
+          "unverified": "support responsiveness on the lower tiers, and the upgrade path friction at the 20-seat mark."
         },
         {
           "slug": "pipedrive",
           "verdict": "Best for small sales teams that live in one pipeline view.",
           "assessment": "Pipedrive is a pipeline tool first, with AI sales assistance and forecasting layered on. Essential starts at $14 per user a month and the tiers climb to $59 for Professional. It does one job cleanly, which keeps adoption costs near zero.",
-          "skip_if": "Skip it if marketing and service sit in the same system: Pipedrive is a sales tool, not a suite."
+          "skip_if": "Skip it if marketing and service sit in the same system: Pipedrive is a sales tool, not a suite.",
+          "unverified": "how the AI forecasting behaves on short, noisy pipelines where most SMB deals live."
         },
         {
           "slug": "freshsales",
           "verdict": "Best for budget-conscious teams that still want AI lead scoring.",
           "assessment": "Freshsales (Freshworks CRM) bundles Freddy AI for lead scoring and forecasting, starting at $9 per user a month on Growth. Pro at $39 adds custom modules and more automation. The entry price is the lowest of the commercial set here, and the product covers phone and chat channels out of the box.",
-          "skip_if": "Skip it if you need deep custom objects: the data model thins out at scale."
+          "skip_if": "Skip it if you need deep custom objects: the data model thins out at scale.",
+          "unverified": "custom-object behaviour at scale, and how Freddy scoring holds up on thin data."
         }
       ],
       "date_published": "2026-09-27",
@@ -701,55 +715,64 @@
           "slug": "nimt-ai",
           "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
           "assessment": "Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. usage pricing starts at €79/mo, and eUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
-          "skip_if": "Skip it if your volume swings hard and you need one predictable bill; usage pricing punishes exactly that."
+          "skip_if": "Skip it if your volume swings hard and you need one predictable bill; usage pricing punishes exactly that.",
+          "unverified": "how the crawl footprint maps to real answer-engine traffic from EU regions. The sampling depth is not published."
         },
         {
           "slug": "otterlyai",
           "verdict": "Teams starting GEO measurement at an entry price",
           "assessment": "OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. paid pricing starts at €29/mo, and lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026 (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
-          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+          "unverified": "the sampling method behind the citation counts, and how counts behave for brands with thin answer coverage."
         },
         {
           "slug": "trakkr",
           "verdict": "Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.",
           "assessment": "Trakkr is a London-made AI visibility platform for brands and agencies. paid pricing starts at $100/mo, and growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
-          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+          "unverified": "how the day-over-day mention deltas hold up for prompts with few citations, where noise is highest."
         },
         {
           "slug": "writesonic",
           "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.",
           "assessment": "Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. paid pricing starts at €79/mo, and starter €79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
-          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+          "unverified": "how the generative optimization recommendations perform outside the engines the vendor demos."
         },
         {
           "slug": "profound",
           "verdict": "Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract.",
           "assessment": "Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. Pricing is enterprise and quoted per contract, and quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.",
-          "skip_if": "Skip it if you buy on a credit card; the pricing conversation assumes a procurement process."
+          "skip_if": "Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.",
+          "unverified": "the weighting behind the visibility index, and how comparable scores are across different industries."
         },
         {
           "slug": "rankscale",
           "verdict": "Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.",
           "assessment": "Rankscale is a Vienna-built AI visibility platform for agencies and enterprise teams. paid pricing starts at €99/mo, and pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026 (verified 2026-09-25). The catalog documents 5 AI features, 5 integrations, and a public API.",
-          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+          "unverified": "how citation counts reconcile with the other trackers here; the sampling windows are not published."
         },
         {
           "slug": "adobe-llm-optimizer",
           "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, with pricing quoted per contract.",
           "assessment": "Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. Pricing is enterprise and quoted per contract, and quote-based within Adobe Experience Cloud (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 6 integrations.",
-          "skip_if": "Skip it if you buy on a credit card; the pricing conversation assumes a procurement process."
+          "skip_if": "Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.",
+          "unverified": "how the optimizer behaves outside Adobe-served properties, and what the entry commitment costs."
         },
         {
           "slug": "evertune",
           "verdict": "Best for GEO & LLM optimization teams that want the job covered in one platform, starting at $800/mo.",
           "assessment": "Evertune is a marketing platform for brand discovery in AI search. paid pricing starts at $800/mo, and pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 5 integrations.",
-          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics."
+          "skip_if": "Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.",
+          "unverified": "whether sentiment scoring stays stable for brands with polarised coverage. Small samples swing it."
         },
         {
           "slug": "scrunch",
           "assessment": "Scrunch sells itself as an AI customer experience platform: it watches how AI agents and answer engines talk about your brand, then helps you fix what they find. Core costs 250 dollars a month: 125 unique prompts, 5 site audits a month, 1 brand workspace, 5 users, and 4 LLMs. Enterprise is custom and widens coverage to 9 LLMs. The distinguishing move is on the receiving side: it audits and prepares your site for AI agents that fetch pages on a user's behalf.",
           "verdict": "Best for brands that want measurement and AI-crawler readiness in one product.",
-          "skip_if": "you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone."
+          "skip_if": "you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.",
+          "unverified": "how the AI shopping visibility scores map to real purchase influence in an answer engine."
         }
       ],
       "date_published": "2026-09-27",

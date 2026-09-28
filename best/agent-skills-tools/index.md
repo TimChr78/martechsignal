@@ -20,6 +20,12 @@ Eighteen agent-skill packs are catalogued; eight are worth installing first. We 
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Claude SEO](/tools/claude-seo/)
 
 Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.
@@ -29,6 +35,8 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Claude Ads](/tools/claude-ads/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/)
 
 google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. It starts free, and mIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans) (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, a public API, and a self-hosting path.
@@ -49,6 +59,8 @@ google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google A
 Vendor: [Official site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) · [Pricing](https://www.get-ryze.ai/payment-setup) · [GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://github.com/indranilbanerjee/digital-marketing-pr
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Email Marketing Bible](/tools/email-marketing-bible/)
 
 Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It starts free, and free and open source. Works with Claude Code, Claude Desktop, and MCP-compatible agents (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -69,6 +83,8 @@ Email Marketing Bible is what happens when someone who ran an email SaaS (Smartr
 Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [GitHub](https://github.com/CosmoBlk/email-marketing-bible)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](h
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Eve Marketing Team Template](/tools/eve-marketing-team/)
 
 Eve Marketing Team Template is Vercel&#x27;s starter for running a five-person marketing team as software. It starts free, and free, MIT-licensed. Runs on eve (eve.dev); deploys to Vercel. You pay only for the AI model + SaaS connectors (Notion, Resend, Typefully) (verified 2026-08-31). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://github.com/vercel-labs/marketing-team-eve-templa
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)
 
 OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. It starts free, and free, MIT-licensed. Runs on OpenClaw agents. Cloud hosting available via MyClaw.ai (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
@@ -99,6 +119,8 @@ OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skill
 Vendor: [Official site](https://github.com/LeoYeAI/openclaw-marketing-skills) · [GitHub](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

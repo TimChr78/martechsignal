@@ -20,6 +20,12 @@ The best AI SEO tools split into two jobs. This page covers the classic one: sit
 
 We catalogued every tool here and verified pricing against each vendor&#x27;s own pages. The rankings come from fit to the job above and how transparent each product is about what it does.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Semrush](/tools/semrush/)
 
 Semrush covers the classic SEO loop: site audits, keyword research, backlink data and content optimization, with an AI content optimizer on top. Entry is Pro at $117 a month billed annually ($140 month to month), and the price climbs steeply at the Guru and Business tiers. It measures traditional rankings well and treats AI answers as a bolt-on rather than the core.
@@ -29,6 +35,8 @@ Semrush covers the classic SEO loop: site audits, keyword research, backlink dat
 Vendor: [Official site](https://www.semrush.com) · [Pricing](https://www.semrush.com/pricing/)
 
 **Skip it if you only need content scoring: Clearscope or Frase cost less and do one job.**
+
+**What we could not verify:** how the AI-answer bolt-on compares with dedicated visibility trackers at the same budget.
 
 ## [Clearscope](/tools/clearscope/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://www.clearscope.io) · [Pricing](https://www.clea
 
 **Skip it if you need rank tracking or site audits: you will still need a suite beside it.**
 
+**What we could not verify:** grading stability across languages other than English, where the corpus is thinner.
+
 ## [Surfer SEO](/tools/surfer-seo/)
 
 Surfer scores a draft against the live SERP as you write, and the Audit tool explains why a page underperforms. Discovery starts around $49-59 a month, and real use lands on Standard at $99-119. The scoring model rewards topical coverage over clever phrasing.
@@ -49,6 +59,8 @@ Surfer scores a draft against the live SERP as you write, and the Audit tool exp
 Vendor: [Official site](https://surferseo.com) · [Pricing](https://surferseo.com/pricing/)
 
 **Skip it if you chase AI-answer visibility: Surfer is built for classic blue-link SERPs.**
+
+**What we could not verify:** whether score gains hold after the SERP settles; the model rewards topical coverage, not outcomes.
 
 ## [Frase](/tools/frase/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://www.frase.io) · [Pricing](https://www.frase.io/
 
 **Skip it if you need enterprise workflows or backlink data: Frase is a content tool at a content-tool price.**
 
+**What we could not verify:** draft quality on technical subjects without a source document in the brief.
+
 ## [Ahrefs](/tools/ahrefs/)
 
 Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its answer to AI visibility: when AI systems respond to questions in your category, does your brand appear, and who gets cited instead. Lite costs 129 dollars a month, Standard 249, Advanced 449, and Enterprise is quoted (verified September 2026). The AI tracking rides on the full suite rather than selling alone.
@@ -69,6 +83,8 @@ Ahrefs is the Singapore-based SEO data company known for its web index, and Bran
 Vendor: [Official site](https://ahrefs.com) · [Pricing](https://ahrefs.com/pricing)
 
 **you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
+
+**What we could not verify:** the AI-visibility coverage depth against the dedicated trackers listed on our GEO page.
 
 ## [Promptfoo](/tools/promptfoo/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://promptfoo.dev) · [Pricing](https://www.promptfo
 
 **you want a managed dashboard out of the box: this is a toolkit, not a product tour.**
 
+**What we could not verify:** how model-graded evals hold up across graders; different graders disagree on the same answers.
+
 ## [Claude SEO](/tools/claude-seo/)
 
 Claude SEO is a free, MIT-licensed skill with 25 sub-skills and 20 specialist agents covering technical SEO, E-E-A-T, schema and GEO/AEO. It runs inside your own Claude Code session, so the analysis reads your site directly and costs API tokens instead of subscriptions. Ours reviews every tool page on this site.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/A
 
 **Skip it if you do not use an agent coding tool: the skill has no standalone interface.**
 
+**What we could not verify:** long-haul drift on sites with heavy JavaScript rendering, where crawl depth decides the audit.
+
 ## [Codex SEO](/tools/codex-seo/)
 
 Codex SEO packages 26 SEO workflows with 24 TOML agent profiles and API integrations, built for the Codex CLI first. It is free to use, though the bundled licence is proprietary courtesy of the author, so check it before commercial redistribution.
@@ -99,6 +119,8 @@ Codex SEO packages 26 SEO workflows with 24 TOML agent profiles and API integrat
 Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](https://github.com/AgriciDaniel/codex-seo)
 
 **Skip it if you want a permissive licence or a dashboard: the licence is proprietary and the surface is a CLI.**
+
+**What we could not verify:** workflow stability across Codex CLI releases, which the suite tracks closely.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

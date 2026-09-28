@@ -18,6 +18,12 @@ All six social media tools in the directory are listed; the category is that new
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Hootsuite](/tools/hootsuite/)
 
 Hootsuite is one of the oldest social media management platforms, and it has grown from a simple multi-account scheduler into a full social media management suite. paid pricing starts at €99/mo, and standard €99/mo; Professional $149/mo (annual €99/mo); Team and Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -27,6 +33,8 @@ Hootsuite is one of the oldest social media management platforms, and it has gro
 Vendor: [Official site](https://www.hootsuite.com) · [Pricing](https://www.hootsuite.com/plans)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Sprout Social](/tools/sprout-social/)
 
@@ -38,6 +46,8 @@ Vendor: [Official site](https://sproutsocial.com) · [Pricing](https://sproutsoc
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Brandwatch](/tools/brandwatch/)
 
 Brandwatch, a Cision company, is an AI social media intelligence and consumer insights platform that combines social media management, consumer intelligence, and influencer marketing into a single suite. Pricing is enterprise and quoted per contract, and custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.
@@ -47,6 +57,8 @@ Brandwatch, a Cision company, is an AI social media intelligence and consumer in
 Vendor: [Official site](https://www.brandwatch.com) · [Pricing](https://www.brandwatch.com/plans/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Predis.ai](/tools/predis-ai/)
 
@@ -58,6 +70,8 @@ Vendor: [Official site](https://predis.ai) · [Pricing](https://predis.ai/pricin
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Buffer](/tools/buffer/)
 
 Buffer is a social media management platform known for simplicity and accessibility. It starts free, and free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial (verified 2026-08-28). The catalog documents 4 AI features, 6 integrations, and a public API.
@@ -68,6 +82,8 @@ Vendor: [Official site](https://buffer.com) · [Pricing](https://buffer.com/pric
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [MultiPost](/tools/multipost-extension/)
 
 MultiPost (multipost.social) is a social media scheduling and automation tool focused on simplicity, reliability, and affordability. It starts free, and free open-source browser extension (verified 2026-08-28). The catalog documents 2 AI features, a public API, and a self-hosting path.
@@ -77,6 +93,8 @@ MultiPost (multipost.social) is a social media scheduling and automation tool fo
 Vendor: [Official site](https://multipost.app) · [GitHub](https://github.com/leaperone/MultiPost-Extension)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

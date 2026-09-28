@@ -20,6 +20,12 @@ Fifteen email marketing tools are catalogued; these eight make the shortlist. We
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [OpenOutreach](/tools/openoutreach/)
 
 OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.
@@ -29,6 +35,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com/eracle/OpenOutreach)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [React Email Editor](/tools/react-email-editor/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/p
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Twilio SendGrid](/tools/sendgrid/)
 
 Twilio SendGrid is one of the largest email delivery platforms in the world, processing tens of billions of emails per month for customers including Uber, Spotify, and Yelp. It starts free, and free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom (verified 2026-08-28). The catalog documents 4 AI features, 8 integrations, and a public API.
@@ -49,6 +59,8 @@ Twilio SendGrid is one of the largest email delivery platforms in the world, pro
 Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.com/en-us/products/email-api/pricing)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Customer.io](/tools/customer-io/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://customer.io) · [Pricing](https://customer.io/pr
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Notifuse](/tools/notifuse/)
 
 Notifuse is a self-hosted email platform for newsletters, marketing campaigns, and transactional email. It starts free, and self-hosted free (AGPL-3.0, all features). Cloud from $19/mo (2,500 contacts); BYO ESP, unlimited sends (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.
@@ -69,6 +83,8 @@ Notifuse is a self-hosted email platform for newsletters, marketing campaigns, a
 Vendor: [Official site](https://www.notifuse.com) · [Pricing](https://www.notifuse.com/pricing) · [GitHub](https://github.com/Notifuse/notifuse)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Klaviyo](/tools/klaviyo/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviy
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Mailchimp](/tools/mailchimp/)
 
 Mailchimp is the most recognized name in email marketing, serving over 11 million users from solopreneurs to mid-market businesses. It starts free, and free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://mailchimp.com) · [Pricing](https://mailchimp.co
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Warmbly](/tools/warmbly/)
 
 Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It starts free, and free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter €29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20% (verified 2026-09-24). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -99,6 +119,8 @@ Warmbly is an open-source cold email platform that sends from mailboxes you alre
 Vendor: [Official site](https://warmbly.com) · [Pricing](https://warmbly.com/pricing/) · [GitHub](https://github.com/warmbly/warmbly)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

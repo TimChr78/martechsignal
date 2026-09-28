@@ -20,6 +20,12 @@ The category comes straight from the catalog: a CRM entry must manage contacts, 
 
 Three checks decide most purchases. Read the license: AGPL, MIT, and fair-code terms differ on hosting it for your own customers. Find where free stops, since workflows, reports, and AI often hide behind paid extensions. Then count maintenance: runtime upgrades, databases, and the mail sync that breaks at 2 a.m.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [EspoCRM](/tools/espocrm/)
 
 EspoCRM fits teams that want a lean sales CRM and will pay only for automation they use. The AGPLv3 core covers contacts, leads, opportunities, cases, a knowledge base, portals, mass email with target lists, web-to-lead forms, kanban, and a formula engine; version 10 added multiple pipelines and record locking. Workflow automation, the BPM designer, and reports live in the paid Advanced Pack, as do Google Workspace and Outlook sync. Vendor cloud runs from 12.90 euro per user monthly (Basic, minimum 3 users) to 59 euro (Ultimate, minimum 10). The Intelligence add-on, released August 2026, connects OpenAI, Gemini, Claude, or any OpenAI-compatible provider for summaries and an AI email composer. Release 10.0.7 shipped September 3, 2026.
@@ -29,6 +35,8 @@ EspoCRM fits teams that want a lean sales CRM and will pay only for automation t
 Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocrm.com/cloud/) · [GitHub](https://github.com/espocrm/espocrm)
 
 **Skip it if free workflow automation or reports are requirements.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [SuiteCRM](/tools/suitecrm/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 **Skip it if you want native AI or an official mobile app.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Twenty](/tools/twenty/)
 
 Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitHub stars, TypeScript and NestJS on PostgreSQL, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for custom objects and logic functions. Self-hosting is free under AGPLv3 with all Pro features included; cloud Pro costs 9 dollars per user monthly billed yearly, Organization 19 dollars, Enterprise from 50,000 dollars per year. AI is narrow but documented: an AI chatbot over workspace data, AI agents inside workflows, AI-built dashboards, and a native MCP server on cloud workspaces. Its own docs name the fit: startups with technical founders, TypeScript-fluent agencies, and privacy-conscious organizations, and they point everyone else at Pipedrive or HubSpot.
@@ -49,6 +59,8 @@ Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitH
 Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
 
 **Skip it if nobody writes TypeScript or wants a Node stack.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Frappe CRM](/tools/frappe-crm/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 **Skip it if you need a wide integration marketplace or native apps.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Krayin CRM](/tools/krayin-crm/)
 
 Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user limits, 23,851 GitHub stars, v2.2.5 shipped August 4, 2026, with the 2.2 branch still taking commits. It covers leads with multiple pipelines, quotes, products and warehouses, unlimited custom fields, role-based access control, embeddable web-to-lead forms, and email templates. Two corrections to common criticism: workflow automation exists (the Automation package provides event triggers, conditions, actions, and webhooks, though docs are thin), and real AI exists (Magic AI creates leads from uploaded PDFs and images using an OpenRouter key). Check the stack first: PHP 8.3 or later with Laravel 12, MySQL 8.0.32 or later, and 3GB of RAM minimum. Paid Webkul extensions include multi-tenant SaaS at 1,799 dollars.
@@ -70,6 +84,8 @@ Vendor: [Official site](https://krayincrm.com) · [Pricing](https://krayincrm.co
 
 **Skip it without PHP 8.3 capacity or appetite for thin docs.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Monica](/tools/monica/)
 
 Monica is a different kind of CRM: a personal relationship manager built for documenting people rather than selling to them, with notes, activities, reminders including automatic birthdays, gifts, calls, life events, and 27 languages per the README, organized into vaults. Self-hosting is free under AGPL; hosted Monica is one plan at 9 dollars per month or 90 dollars yearly with unlimited contacts and managed backups. The README is explicit that it is not a social network and has no built-in AI. One fact shapes adoption: the app codebase is dormant, with the last main-branch commit in August 2025 and the newest stable release v4.1.2 from May 2024, while a rebuild called Monica v3 is promised before the end of 2026.
@@ -79,6 +95,8 @@ Monica is a different kind of CRM: a personal relationship manager built for doc
 Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/monicahq/monica)
 
 **Skip it if you need pipeline management or active releases.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

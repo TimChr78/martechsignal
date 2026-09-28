@@ -23,6 +23,12 @@ Everything here is desk-researched from vendor documentation and our own catalog
 
 If you want the classic SEO stack instead (audits, content scoring, rank tracking), the AI SEO tools page covers that side of the job.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Nimt.ai](/tools/nimt-ai/)
 
 Nimt.ai is an AI search tool from Sweden that combines tracking with an agent that does the fixing work. usage pricing starts at €79/mo, and eUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
@@ -32,6 +38,8 @@ Nimt.ai is an AI search tool from Sweden that combines tracking with an agent th
 Vendor: [Official site](https://nimt.ai) · [Pricing](https://www.nimt.ai/pricing)
 
 **Skip it if your volume swings hard and you need one predictable bill; usage pricing punishes exactly that.**
+
+**What we could not verify:** how the crawl footprint maps to real answer-engine traffic from EU regions. The sampling depth is not published.
 
 ## [OtterlyAI](/tools/otterlyai/)
 
@@ -43,6 +51,8 @@ Vendor: [Official site](https://otterly.ai/) · [Pricing](https://otterly.ai/pri
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** the sampling method behind the citation counts, and how counts behave for brands with thin answer coverage.
+
 ## [Trakkr](/tools/trakkr/)
 
 Trakkr is a London-made AI visibility platform for brands and agencies. paid pricing starts at $100/mo, and growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands &amp; prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
@@ -52,6 +62,8 @@ Trakkr is a London-made AI visibility platform for brands and agencies. paid pri
 Vendor: [Official site](https://trakkr.ai/) · [Pricing](https://trakkr.ai/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** how the day-over-day mention deltas hold up for prompts with few citations, where noise is highest.
 
 ## [Writesonic](/tools/writesonic/)
 
@@ -63,6 +75,8 @@ Vendor: [Official site](https://writesonic.com) · [Pricing](https://writesonic.
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** how the generative optimization recommendations perform outside the engines the vendor demos.
+
 ## [Profound](/tools/profound/)
 
 Profound is an enterprise AI marketing platform built around what consumers ask AI and what answer engines cite. Pricing is enterprise and quoted per contract, and quote-based; contact sales (Sep 2026). Free trial runs 50 prompts daily for 7 days on ChatGPT, Gemini and Google AI Overviews (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
@@ -72,6 +86,8 @@ Profound is an enterprise AI marketing platform built around what consumers ask 
 Vendor: [Official site](https://www.tryprofound.com/) · [Pricing](https://www.tryprofound.com/pricing)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** the weighting behind the visibility index, and how comparable scores are across different industries.
 
 ## [Rankscale](/tools/rankscale/)
 
@@ -83,6 +99,8 @@ Vendor: [Official site](https://rankscale.ai/) · [Pricing](https://rankscale.ai
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** how citation counts reconcile with the other trackers here; the sampling windows are not published.
+
 ## [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
 
 Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. Pricing is enterprise and quoted per contract, and quote-based within Adobe Experience Cloud (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 6 integrations.
@@ -92,6 +110,8 @@ Adobe LLM Optimizer is the name Adobe launched this product under in June 2025. 
 Vendor: [Official site](https://business.adobe.com/products/brand-visibility.html) · [Pricing](https://business.adobe.com/products/brand-visibility.html)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** how the optimizer behaves outside Adobe-served properties, and what the entry commitment costs.
 
 ## [Evertune](/tools/evertune/)
 
@@ -103,6 +123,8 @@ Vendor: [Official site](https://www.evertune.ai) · [Pricing](https://www.evertu
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** whether sentiment scoring stays stable for brands with polarised coverage. Small samples swing it.
+
 ## [Scrunch](/tools/scrunch/)
 
 Scrunch sells itself as an AI customer experience platform: it watches how AI agents and answer engines talk about your brand, then helps you fix what they find. Core costs 250 dollars a month: 125 unique prompts, 5 site audits a month, 1 brand workspace, 5 users, and 4 LLMs. Enterprise is custom and widens coverage to 9 LLMs. The distinguishing move is on the receiving side: it audits and prepares your site for AI agents that fetch pages on a user&#x27;s behalf.
@@ -112,6 +134,8 @@ Scrunch sells itself as an AI customer experience platform: it watches how AI ag
 Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/pricing/)
 
 **you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
+
+**What we could not verify:** how the AI shopping visibility scores map to real purchase influence in an answer engine.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

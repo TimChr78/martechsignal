@@ -20,6 +20,12 @@ Nine paid-media tools are catalogued, and eight sit below. We picked them on cap
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Revealbot (Birch)](/tools/revealbot/)
 
 Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion worth knowing before you compare it to anything. paid pricing starts at $49/mo, and essential $49/mo, Pro €99/mo, tiered by monthly ad spend across connected accounts; Enterprise quoted; 14-day free trial with no card; annual billing gives 12 months for the price of 10; Hub tracking priced per event; Signals Gateway Hub (server-side Meta tracking) free to 10K events/mo, up to $499/mo at 150M events (verified 2026-09-07). The catalog documents 4 AI features, 12 integrations, and a public API.
@@ -29,6 +35,8 @@ Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion 
 Vendor: [Official site](https://bir.ch) · [Pricing](https://bir.ch/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Pencil](/tools/pencil/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://trypencil.com) · [Pricing](https://trypencil.co
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Smartly.io](/tools/smartly-io/)
 
 Smartly.io, now branded simply Smartly, is an AI advertising platform that puts creative production, media buying, and measurement in one system for large advertisers. Pricing is enterprise and quoted per contract, and not published. No rate card appears on the site and the /pricing URL returns a 404; the only path is a demo request via smartly.io/get-demo (verified 2026-09-06). The catalog documents 5 AI features, 10 integrations, and a public API.
@@ -49,6 +59,8 @@ Smartly.io, now branded simply Smartly, is an AI advertising platform that puts 
 Vendor: [Official site](https://www.smartly.io) · [Pricing](https://www.smartly.io/get-demo)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [AdCreative.ai](/tools/adcreative-ai/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://www.adcreative.ai) · [Pricing](https://www.adcr
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Albert AI](/tools/albert-ai/)
 
 Albert AI is an autonomous digital advertising platform that markets itself as &quot;self-driving&quot; for paid media. Pricing is enterprise and quoted per contract, and enterprise custom pricing; percentage of ad spend model; demo required (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.
@@ -69,6 +83,8 @@ Albert AI is an autonomous digital advertising platform that markets itself as &
 Vendor: [Official site](https://albert.ai) · [Pricing](https://albert.ai/contact/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Madgicx](/tools/madgicx/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://madgicx.com/) · [Pricing](https://madgicx.com/p
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [advertools](/tools/advertools/)
 
 advertools is a Python package by Elias Dabbas for online marketing analysis. It starts free, and free MIT-licensed Python package (verified 2026-09-25). The catalog documents 1 AI features, 5 integrations, a public API, and a self-hosting path.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://advertools.readthedocs.io) · [GitHub](https://g
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Opteo](/tools/opteo/)
 
 Opteo is a Google Ads monitoring and improvement layer that sits on top of your existing account. paid pricing starts at $129/mo, and basic $129/mo (10 accounts, $25,000 spend/mo, live chat, 24hr refresh); Professional $249/mo (25 accounts, $100,000 spend/mo, priority support, 12hr refresh). Enterprise by quote. 14-day free trial (verified 2026-09-07). The catalog documents 3 AI features and 2 integrations.
@@ -99,6 +119,8 @@ Opteo is a Google Ads monitoring and improvement layer that sits on top of your 
 Vendor: [Official site](https://opteo.com/) · [Pricing](https://opteo.com/pricing/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

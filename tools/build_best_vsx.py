@@ -60,6 +60,15 @@ def build_best():
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
 
+        # r8 H4 (2026-09-28): the honesty is the differentiator - say exactly what
+        # was checked and when, above the first tool entry. Never fabricated testing.
+        body.append('<aside class="verify-box"><h2>What we checked and when</h2>'
+            '<p>Pricing checked 2026-09-28 against each vendor\'s own pricing page · '
+            'API availability confirmed from public documentation · Integrations read from '
+            'vendor listings and source repositories. Not installed and not benchmarked: '
+            'this is desk research with dates on it.</p>'
+            '<p>What we could not verify is called out under each tool below.</p></aside>')
+
         # Comparison table with verdicts (the card's spec) from catalog facts only.
         rows = []
         for it in items:
@@ -82,6 +91,7 @@ def build_best():
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
   <p><strong>{esc(it['skip_if'])}</strong></p>
+  <p class="meta unverified"><strong>What we could not verify:</strong> {esc(it.get('unverified', 'installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.'))}</p>
 </section>""")
         body.append(
             '<p class="alt-back">Every price quoted here comes from the vendor\'s own '

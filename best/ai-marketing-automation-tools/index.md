@@ -20,6 +20,12 @@ The directory tracks twelve marketing automation platforms, and these eight are 
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [NocoDB](/tools/nocodb/)
 
 NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -29,6 +35,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pricing) · [GitHub](https://github.com/nocodb/nocodb)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Ortto](/tools/ortto/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://ortto.com) · [Pricing](https://ortto.com/starte
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
 
 Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06). The catalog documents 5 AI features, 9 integrations, and a public API.
@@ -49,6 +59,8 @@ Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product 
 Vendor: [Official site](https://www.salesforce.com/products/marketing-cloud/) · [Pricing](https://www.salesforce.com/products/marketing-cloud/pricing/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [ActiveCampaign](/tools/activecampaign/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://www.activecampaign.com) · [Pricing](https://www
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Adobe Marketo Engage](/tools/adobe-marketo/)
 
 Adobe Marketo Engage is the leading B2B marketing automation platform for enterprises running complex, long-cycle demand generation programs. enterprise pricing starts at $895/mo, and custom pricing; Select/Prime/Ultimate tiers; annual contracts required (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -69,6 +83,8 @@ Adobe Marketo Engage is the leading B2B marketing automation platform for enterp
 Vendor: [Official site](https://business.adobe.com/products/marketo.html) · [Pricing](https://business.adobe.com/products/marketo/pricing.html)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Bloomreach](/tools/bloomreach/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://www.bloomreach.com) · [Pricing](https://www.blo
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Braze](/tools/braze/)
 
 Braze is a cross-channel customer engagement platform built for enterprises that treat customer communication as a strategic advantage rather than a cost center. Pricing is enterprise and quoted per contract, and custom pricing based on MAUs and message volume; enterprise contracts typical (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://www.braze.com) · [Pricing](https://www.braze.co
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/)
 
 Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -99,6 +119,8 @@ Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing
 Vendor: [Official site](https://www.hubspot.com/products/marketing) · [Pricing](https://www.hubspot.com/pricing/marketing)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

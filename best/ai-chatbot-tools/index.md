@@ -18,6 +18,12 @@ Every chatbot tool we track - all six of them - appears below. We picked them on
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Intercom](/tools/intercom/)
 
 Intercom is an AI-first customer service platform built around Fin AI Agent, its proprietary AI that resolves customer questions, triages complex issues, and proactively engages users. paid pricing starts at €29/mo, and essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -27,6 +33,8 @@ Intercom is an AI-first customer service platform built around Fin AI Agent, its
 Vendor: [Official site](https://www.intercom.com) · [Pricing](https://www.intercom.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Chatwoot](/tools/chatwoot/)
 
@@ -38,6 +46,8 @@ Vendor: [Official site](https://www.chatwoot.com) · [Pricing](https://www.chatw
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Tidio](/tools/tidio/)
 
 Tidio is an all-in-one customer service platform designed for growing businesses, combining live chat, an AI chatbot (Lyro), and a shared inbox in a single interface. It starts free, and free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -47,6 +57,8 @@ Tidio is an all-in-one customer service platform designed for growing businesses
 Vendor: [Official site](https://www.tidio.com) · [Pricing](https://www.tidio.com/pricing/)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Chatfuel](/tools/chatfuel/)
 
@@ -58,6 +70,8 @@ Vendor: [Official site](https://chatfuel.com) · [Pricing](https://chatfuel.com/
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [ManyChat](/tools/manychat/)
 
 ManyChat is the dominant chat marketing platform for social-first businesses, specializing in automating conversations on Instagram Direct Messages, Facebook Messenger, WhatsApp, and SMS. It starts free, and free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.
@@ -68,6 +82,8 @@ Vendor: [Official site](https://manychat.com) · [Pricing](https://manychat.com/
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [ChatbotX](/tools/chatbotx/)
 
 Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven chat marketing and automation across multiple messaging channels. It starts free, and free open-source; self-hosted (verified 2026-08-28). The catalog documents 3 AI features, a public API, and a self-hosting path.
@@ -77,6 +93,8 @@ Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven c
 Vendor: [Official site](https://chatbotx.io/docs) · [GitHub](https://github.com/ChatbotXIO/ChatbotX)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

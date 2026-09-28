@@ -129,7 +129,7 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 ### Pricing

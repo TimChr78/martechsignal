@@ -20,6 +20,12 @@ Eighty open-source tools carry the badge in the directory. These eight are where
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Dolibarr ERP/CRM](/tools/dolibarr/)
 
 Dolibarr ERP/CRM is a French open-source business suite that manages contacts, quotes, invoices, orders, stock, agenda, HR, and accounting in one PHP application, usable standalone or over the web. It starts free, and free to self-host under GPL-3+ with no user limits. Commercial ready-to-run cloud offerings are listed at saas.dolibarr.org; paid third-party addons are sold on Dolistore (verified 2026-09-06). The catalog documents 4 AI features, 9 integrations, a public API, and a self-hosting path.
@@ -29,6 +35,8 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 Vendor: [Official site](https://www.dolibarr.org) · [GitHub](https://github.com/Dolibarr/dolibarr)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [n8n](/tools/n8n/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [OpenOutreach](/tools/openoutreach/)
 
 OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts the usual cold-email workflow: you do not bring a list. It starts free, and free, GPLv3, self-hosted. You pay your own LLM keys and mailbox, plus BetterContact credits for discovery (1 credit per verified work email; free account includes 40 credits, no card) (verified 2026-09-07). The catalog documents 5 AI features, 9 integrations, and a self-hosting path.
@@ -49,6 +59,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com/eracle/OpenOutreach)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Matomo](/tools/matomo/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [NocoDB](/tools/nocodb/)
 
 NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -69,6 +83,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pricing) · [GitHub](https://github.com/nocodb/nocodb)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [React Email Editor](/tools/react-email-editor/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/p
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Twenty](/tools/twenty/)
 
 Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pric
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Claude SEO](/tools/claude-seo/)
 
 Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.
@@ -99,6 +119,8 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

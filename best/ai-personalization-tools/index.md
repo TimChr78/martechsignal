@@ -20,6 +20,12 @@ Eight of the nine personalization and CDP tools made this list. We picked them o
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Dynamic Yield](/tools/dynamic-yield/)
 
 Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Pricing is enterprise and quoted per contract, and no published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts (verified 2026-09-06). The catalog documents 7 AI features, 10 integrations, and a public API.
@@ -29,6 +35,8 @@ Dynamic Yield by Mastercard is an enterprise personalization platform built arou
 Vendor: [Official site](https://www.dynamicyield.com) · [Pricing](https://www.dynamicyield.com/pricing/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Twilio Segment](/tools/segment/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Nosto](/tools/nosto/)
 
 Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store&#x27;s volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.
@@ -49,6 +59,8 @@ Nosto is a commerce experience platform for online stores, built around a shared
 Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.com/pricing/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Clerk.io](/tools/clerk-io/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://www.clerk.io) · [Pricing](https://www.clerk.io/
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Tealium](/tools/tealium/)
 
 Tealium is an independent enterprise Customer Data Platform (CDP) built around the Tealium Customer Data Hub, a suite of integrated products covering tag management, real-time data collection, audience building, and API-driven data access. Pricing is enterprise and quoted per contract, and enterprise custom pricing; annual contracts; tag management and CDP modules (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
@@ -69,6 +83,8 @@ Tealium is an independent enterprise Customer Data Platform (CDP) built around t
 Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pricing/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Flagsmith](/tools/flagsmith/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flag
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [GrowthBook](/tools/growthbook/)
 
 GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Jitsu](/tools/jitsu/)
 
 Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
@@ -99,6 +119,8 @@ Jitsu is an open-source event collection and data pipeline platform, MIT license
 Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricing) · [GitHub](https://github.com/jitsucom/jitsu)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

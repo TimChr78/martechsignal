@@ -20,6 +20,12 @@ Thirteen content and copywriting tools are catalogued. Eight made the list. We p
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [Writer](/tools/writer/)
 
 Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 12 integrations, and a public API.
@@ -29,6 +35,8 @@ Writer is an enterprise AI platform built around its own Palmyra model family ra
 Vendor: [Official site](https://writer.com) · [Pricing](https://writer.com/plans/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Persado](/tools/persado/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://www.persado.com) · [Pricing](https://www.persad
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Phrasee](/tools/phrasee/)
 
 Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluation of Jacquard: phrasee.co redirects to jacquard.com and the legal entity is Jacquard Group Limited. Pricing is enterprise and quoted per contract, and enterprise, quote-based; no published price list and no trial. Last published terms (2023) described flexible enterprise pricing, billed annually, unlimited seats and content creation (verified 2026-09-07). The catalog documents 4 AI features and 12 integrations.
@@ -49,6 +59,8 @@ Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluat
 Vendor: [Official site](https://www.jacquard.com) · [Pricing](https://www.jacquard.com/book-a-demo/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Jasper](/tools/jasper/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.a
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Anyword](/tools/anyword/)
 
 Anyword is an AI copywriting platform built around a single, measurable proposition: predict how well your copy will perform before you send it. paid pricing starts at $39/mo, and starter $39/mo (annual) or $49/mo; Data-Driven €79/mo (annual) or €99/mo; 7-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.
@@ -69,6 +83,8 @@ Anyword is an AI copywriting platform built around a single, measurable proposit
 Vendor: [Official site](https://www.anyword.com) · [Pricing](https://www.anyword.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Copy.ai](/tools/copy-ai/)
 
@@ -80,6 +96,8 @@ Vendor: [Official site](https://www.copy.ai) · [Pricing](https://www.copy.ai/pr
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Hypotenuse AI](/tools/hypotenuse-ai/)
 
 Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built specifically for ecommerce brands managing large product catalogs. paid pricing starts at $56/mo, and essential $56/mo (annual) or $87/mo; custom enterprise plans available (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.
@@ -90,6 +108,8 @@ Vendor: [Official site](https://www.hypotenuse.ai) · [Pricing](https://www.hypo
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Strapi](/tools/strapi/)
 
 Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. It starts free, and self-hosted free (MIT); Cloud Developer free; Pro €99/mo; Team $499/mo; Enterprise custom (verified 2026-08-28). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
@@ -99,6 +119,8 @@ Developed in Paris and launched in 2015, Strapi is an open-source headless CMS t
 Vendor: [Official site](https://strapi.io) · [Pricing](https://strapi.io/pricing) · [GitHub](https://github.com/strapi/strapi)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 

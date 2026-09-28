@@ -20,6 +20,12 @@ The set spans the market on purpose: two no-code giants, a visual middleweight p
 
 Three things decide the outcome. The billing unit: tasks, credits, compute time, or negotiated usage can change the cost of one workflow by an order of magnitude. Who runs the instance: self-hosting moves maintenance onto you and metered volume off the bill. And the AI meter, since agent activity is often billed apart from core automation.
 
+## What we checked and when
+
+Pricing checked 2026-09-28 against each vendor's own pricing page · API availability confirmed from public documentation · Integrations read from vendor listings and source repositories. Not installed and not benchmarked: this is desk research with dates on it.
+
+What we could not verify is called out under each tool below.
+
 ## [n8n](/tools/n8n/)
 
 n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 203,890 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.
@@ -29,6 +35,8 @@ n8n is the open-source end of this list: self-hosted at no cost under a fair-cod
 Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
 
 **Skip it if you want zero maintenance and instant breadth.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Zapier](/tools/zapier/)
 
@@ -40,6 +48,8 @@ Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pric
 
 **Skip it if task billing would punish your run volume.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Make](/tools/make/)
 
 Make, the platform formerly known as Integromat, is the visual middleweight: scenarios are drawn as a graph, so branching, looping, and error handling are visible instead of buried in configuration. Billing moved to credits in August 2026, and router modules plus the five error handlers consume none, which is kind to branching workflows. Free covers 1,000 credits monthly with 2 active scenarios; Core costs 9 dollars monthly, Pro 16 dollars, Teams 29 dollars, each including 10,000 credits with a slider up to 8 million, and unused credits expire at the billing term&#x27;s end. AI Agents run on all plans, alongside Maia by Make, the AI Toolkit, and a Make MCP Server. Founded in Prague in 2012 and part of Celonis since 2020, it sits between Zapier and n8n.
@@ -49,6 +59,8 @@ Make, the platform formerly known as Integromat, is the visual middleweight: sce
 Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
 
 **Skip it if credit expiry beats a flat or self-hosted bill.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 ## [Pipedream](/tools/pipedream/)
 
@@ -60,6 +72,8 @@ Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.co
 
 **Skip it if nobody will write code inside an automation step.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Workato](/tools/workato/)
 
 Workato is the enterprise option, and the first thing to know is that pricing is fully demo-gated: the public page carries no numbers, just a usage-based model with a platform edition fee plus a usage fee in one billing unit across four cumulative editions, Standard through Workato One, the last adding agentic capabilities. The product splits into a Control Plane governing agents with role-based access, audit, and approval gates, and an Execution Plane doing integration, automation, API management, EDI, and document processing. The docs claim more than 1,000 connectors spanning Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake, and HubSpot. The AI layer is substantial: Agent Studio, role-based Genies for IT, Sales, HR, Support, and Marketing, the Acumen data scientist agent, and governed Enterprise MCP servers for Claude Desktop, ChatGPT, and Cursor.
@@ -70,6 +84,8 @@ Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workat
 
 **Skip it without an enterprise budget and a sales process.**
 
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
+
 ## [Tray.io](/tools/tray-io/)
 
 Tray.io trades as Tray.ai now and calls itself an AI orchestration platform rather than an iPaaS, and the 2026 shipping record backs the repositioning: Tray Headless arrived in June with plugins for Claude Code and Codex, MCP dynamic authentication and a Sync CLI followed in August, and Tray Helix is a managed runtime that puts AI-built apps into production with security controls and a named owner. The automation core stays familiar: service triggers, webhooks, or scheduled polls, conditional logic, callable workflows, and a data mapper over 700-plus pre-built connectors, with a connector SDK for gaps and on-premise connectivity. Pricing is not public: three tiers (Pro, Team, Enterprise) metered in Tasks across integration, automation, MCP, and agents. AI Palette ships on every plan; Merlin Agent Builder is a paid add-on.
@@ -79,6 +95,8 @@ Tray.io trades as Tray.ai now and calls itself an AI orchestration platform rath
 Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 **Skip it if transparent pricing or self-hosting is required.**
+
+**What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
