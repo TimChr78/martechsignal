@@ -18,7 +18,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Search Engine Optimization (SEO)
 
@@ -60,7 +60,7 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
 
 ### Categories
 
-[SEO &amp; Search](/categories/seo/) [Agent Skills](/categories/agent-skills/)
+[SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)
 
 ## See also
 

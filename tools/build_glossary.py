@@ -16,6 +16,34 @@ from build_tools import page_shell, esc, ROOT, _category_display
 TOOLS_DIR = ROOT / "tools"
 GLOSSARY_DIR = ROOT / "glossary"
 
+# r7 H12 (2026-09-28): category -> commercial page map, so every glossary entry
+# links outward to the comparison layer and its topic hub.
+_BEST_FOR = {
+    "analytics": "marketing-analytics-tools",
+    "workflow-automation": "workflow-automation-tools",
+    "crm": "ai-crm-tools",
+    "marketing-automation": "ai-marketing-automation-tools",
+    "geo-llm-visibility": "geo-llm-visibility-tools",
+    "seo": "ai-seo-tools",
+    "content-ai": "ai-content-copywriting-tools",
+    "email-marketing": "ai-email-marketing-tools",
+    "advertising": "ai-advertising-tools",
+    "personalization": "ai-personalization-tools",
+    "social-media": "ai-social-media-tools",
+    "chatbots": "ai-chatbot-tools",
+    "open-source": "open-source-marketing-tools",
+    "agent-skills": "agent-skills-tools",
+}
+_GUIDES_FOR = {
+    "geo-llm-visibility": (("generative-engine-optimization", "GEO guide"),),
+    "workflow-automation": (("mcp-agent-protocols", "MCP and agent protocols"),
+                            ("workflow-automation-strategy", "Automation strategy")),
+    "marketing-automation": (("workflow-automation-strategy", "Automation strategy"),),
+    "seo": (("ai-seo-tooling", "AI SEO tooling"),),
+    "content-ai": (("ai-seo-tooling", "AI SEO tooling"),),
+    "advertising": (("agentic-ai-advertising", "Agentic advertising"),),
+}
+
 
 def load():
     terms = json.loads((TOOLS_DIR / "glossary.json").read_text())
@@ -112,6 +140,14 @@ def build_term_page(term, tools_map, all_terms):
     cat_html = ""
     for cat_slug in term.get("related_categories", []):
         cat_html += f'<a class="cat-pill" href="/categories/{cat_slug}/">{esc(_category_display(cat_slug))}</a> '
+        # r7 H12 (2026-09-28): the definitional layer reached 0 commercial pages
+        # across 30 entries. Each entry now reaches its /best/ comparison and the
+        # relevant topic hub.
+        _b = _BEST_FOR.get(cat_slug)
+        if _b:
+            cat_html += f'<a class="cat-pill" href="/best/{_b}/">Best {_category_display(cat_slug)} tools</a> '
+        for _gslug, _gname in _GUIDES_FOR.get(cat_slug, ()):
+            cat_html += f'<a class="cat-pill" href="/guides/{_gslug}/">{esc(_gname)}</a> '
 
     # Related terms (other glossary entries sharing tools or categories)
     related_terms = []

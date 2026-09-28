@@ -10,7 +10,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Social Listening
 
@@ -48,7 +48,7 @@ LLMs improved listening analysis substantially: they read nuance that keyword se
 
 ### Categories
 
-[Social Media](/categories/social-media/)
+[Social Media](/categories/social-media/) [Best Social Media tools](/best/ai-social-media-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

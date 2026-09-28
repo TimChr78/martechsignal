@@ -14,7 +14,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)
 
@@ -60,7 +60,7 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 ### Categories
 
-[CRM](/categories/crm/) [Marketing Automation](/categories/marketing-automation/)
+[CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)
 
 ## See also
 

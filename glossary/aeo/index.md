@@ -14,7 +14,7 @@ AI-powered content optimization platform for SEO-driven article writing and audi
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Answer Engine Optimization (AEO)
 
@@ -64,7 +64,7 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
 
 ### Categories
 
-[SEO &amp; Search](/categories/seo/)
+[SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
 ## See also
 

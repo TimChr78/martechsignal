@@ -14,7 +14,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## AI Content Generation
 
@@ -56,7 +56,7 @@ The recursion problem is live: models trained on generated content degrade, and 
 
 ### Categories
 
-[AI Content &amp; Copywriting](/categories/content-ai/)
+[AI Content &amp; Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

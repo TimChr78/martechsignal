@@ -14,7 +14,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Conversion Rate Optimization (CRO)
 
@@ -60,7 +60,7 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
 
 ### Categories
 
-[Analytics &amp; Attribution](/categories/analytics/) [Personalization &amp; CDP](/categories/personalization/)
+[Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization &amp; CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)
 
 ## See also
 

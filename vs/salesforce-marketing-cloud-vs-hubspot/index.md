@@ -20,7 +20,7 @@
 - **Pick Salesforce Marketing Cloud if:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
 - **Pick HubSpot Marketing Hub if:** Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict
 

@@ -6,7 +6,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Programmatic Advertising
 
@@ -52,7 +52,7 @@ AI now sets bids, builds audiences, and writes ad variations inside the DSP. Aut
 
 ### Categories
 
-[Advertising &amp; Paid Media](/categories/advertising/)
+[Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

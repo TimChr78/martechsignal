@@ -432,6 +432,58 @@ def screenshot_figure(slug, tool_name):
     )
 
 
+
+def _blame_edit_dates():
+    """r7 H15 (2026-09-28): per-record content edit dates from git blame.
+
+    dateModified used to carry the price re-verification stamp, so 103/291 URLs
+    restamped to audit-day with no revision (the audit: 'Google learns the field
+    is meaningless'). The honest value is when the record's lines last changed.
+    One blame pass over tools.json; each record takes the max author date over
+    its line span (slug line -> next record's slug line)."""
+    try:
+        out = subprocess.run(["git", "blame", "--line-porcelain", "HEAD", "--", "tools/tools.json"],
+                             capture_output=True, text=True, cwd=str(ROOT))
+        lines = (ROOT / "tools" / "tools.json").read_text().splitlines()
+        span_start = {}
+        order = []
+        for n, ln in enumerate(lines):
+            m = re.search(r'"slug":\s*"([a-z0-9-]+)"', ln)
+            if m:
+                span_start[m.group(1)] = n
+                order.append((n, m.group(1)))
+        dates = {}   # line number -> YYYY-MM-DD
+        cur_date = None
+        cur_final = None
+        pending_final = None
+        for ln in out.stdout.splitlines():
+            if re.match(r'^[0-9a-f]{40} \d+ \d+', ln):
+                pending_final = int(ln.split()[2])
+                cur_final = pending_final
+            elif ln.startswith('author-time '):
+                import datetime as _dt
+                cur_date = _dt.datetime.fromtimestamp(int(ln.split()[1]), _dt.timezone.utc).strftime('%Y-%m-%d')
+                if cur_final is not None and cur_date:
+                    dates[cur_final] = cur_date
+        result = {}
+        for i, (n, slug) in enumerate(order):
+            end = order[i + 1][0] if i + 1 < len(order) else len(lines)
+            ds = [dates.get(k) for k in range(n, end) if dates.get(k)]
+            if ds:
+                result[slug] = max(ds)
+        return result
+    except Exception:
+        return {}
+
+
+_BLAME_DATES = None
+
+def _record_edit_date(slug, fallback):
+    global _BLAME_DATES
+    if _BLAME_DATES is None:
+        _BLAME_DATES = _blame_edit_dates()
+    return _BLAME_DATES.get(slug) or fallback
+
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
     # r7 C5 (2026-09-27): some callers pass absolute URLs; never double the base.
     if canonical.startswith('http'):
@@ -502,7 +554,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer aria-label="Footer">
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -1432,7 +1484,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         # the canonical Organization @id (defined on the homepage).
     }
     if t.get("date_updated"):
-        schema["dateModified"] = t.get("date_updated") or t.get("date_added") or schema.get("datePublished", "2026-09-27")
+        schema["dateModified"] = _record_edit_date(t["slug"], t.get("date_updated") or t.get("date_added") or schema.get("datePublished", "2026-09-27"))
     if t.get("date_added"):
         schema["datePublished"] = t["date_added"]
     # R2 M-12 (2026-09-09): the site's own editorial rating was the one first-party

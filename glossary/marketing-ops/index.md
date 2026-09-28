@@ -18,7 +18,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Marketing Operations (MarketingOps)
 
@@ -60,7 +60,7 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
 
 ### Categories
 
-[Marketing Automation](/categories/marketing-automation/) [Workflow Automation](/categories/workflow-automation/)
+[Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
 ## See also
 

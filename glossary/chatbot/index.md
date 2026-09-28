@@ -14,7 +14,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Chatbot (Conversational AI)
 
@@ -52,7 +52,7 @@ LLM chatbots made the category credible for open dialogue, and agent platforms n
 
 ### Categories
 
-[Chatbots &amp; Conversational AI](/categories/chatbots/)
+[Chatbots &amp; Conversational AI](/categories/chatbots/) [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

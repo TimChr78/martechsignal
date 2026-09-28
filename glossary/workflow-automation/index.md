@@ -18,7 +18,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Workflow Automation (iPaaS)
 
@@ -64,7 +64,7 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 
 ### Categories
 
-[Workflow Automation](/categories/workflow-automation/)
+[Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)
 
 ## See also
 

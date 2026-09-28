@@ -10,7 +10,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 [Browse all tools →](/tools/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Dynamic Creative Optimization (DCO)
 
@@ -52,7 +52,7 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
 
 ### Categories
 
-[Advertising &amp; Paid Media](/categories/advertising/) [AI Content &amp; Copywriting](/categories/content-ai/)
+[Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content &amp; Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)
 
 ## See also
 

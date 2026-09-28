@@ -20,7 +20,7 @@
 
 2026-09-16
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Corrections
 
@@ -40,7 +40,7 @@ The checklist page carried structured data for 12 question-and-answer pairs that
 
 Open-source tool count on the trending page
 
-The trending page claimed 69 open-source tools in the catalog while the catalog held 138 tools at the time (a total, not an open-source count). The page had a hard-coded number. It now states the count derived from the catalog data at build time. Counts elsewhere on the site now carry their denominator explicitly: the canonical open-source count is every catalog tool whose data is flagged open source (a public repository under an open or source-available license), currently 80 of 164 catalog tools as of 2026-09-27, and the /trending/ tracker states that it charts the subset with a public GitHub repository and enough snapshot history.
+The trending page claimed 69 open-source tools in the catalog while the catalog held 138 tools at the time (a total, not an open-source count). The page had a hard-coded number. It now states the count derived from the catalog data at build time. Counts elsewhere on the site now carry their denominator explicitly: the canonical open-source count is every catalog tool whose data is flagged open source (a public repository under an open or source-available license), currently 80 of the 160 active catalog tools as of 2026-09-27, and the /trending/ tracker states that it charts the subset with a public GitHub repository and enough snapshot history.
 
 Tool count on the front page
 
