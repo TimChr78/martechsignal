@@ -29,6 +29,10 @@ Claude SEO
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
@@ -36,10 +40,6 @@ AI Business Skills
 Growth Lab
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-
-OpenClaw Marketing Skills
-
-37 marketing skills for OpenClaw agents with live data connectors
 
 Zapier GTM Cheat Codes
 

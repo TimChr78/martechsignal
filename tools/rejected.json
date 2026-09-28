@@ -1051,5 +1051,17 @@
   "reason": "LLM QA/eval framework with weak marketing positioning; promptfoo covers the GEO prompt-tracking case",
   "rejected_at": "2026-09-25",
   "resurfaced": 1
+ },
+ {
+  "name": "State of Commerce Report Takeaways For Startups and SMBs",
+  "url": "https://www.salesforce.com/blog/feed/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-09-28"
+ },
+ {
+  "name": "The 9 best AI tools for social media management in 2026",
+  "url": "https://zapier.com/blog/feeds/latest/",
+  "reason": "RSS blog post, not a tool candidate",
+  "rejected_at": "2026-09-28"
  }
 ]

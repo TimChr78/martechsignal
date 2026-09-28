@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 160 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 161 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -27,6 +27,7 @@
 - [Claude SEO](https://martechsignal.com/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents (open source)
 - [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Diffmode Growth Tactics](https://martechsignal.com/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays (open source)
+- [Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/): 163-skill marketing plugin running full 12-part brand strategy engagements in coding agents (open source)
 - [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)
 - [Eve Marketing Team Template](https://martechsignal.com/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (open source)
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
@@ -353,7 +354,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 162 records = 160 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 163 records = 161 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 
 ### Advertising & Paid Media
@@ -436,6 +437,13 @@ Diffmode Growth Tactics is a free skill pack for Claude Code and Codex that runs
 The mechanism is the interesting part. The pipeline never asks the model to invent a tactic. It asks it to research, mine, and combine. Mechanisms are paired blind, before analysis, so the model cannot reverse-engineer its way back to the obvious answer. Then four gates reject output: if an average B2B marketer would recommend it, it dies. If stripping the adjectives leaves a conventional action, it dies. If a single mechanism could have produced it alone, it dies. Ten tactics that all say write content die. What survives gets a day-1, day-7, day-30 plan and a can-a-competitor-copy-this-in-30-days check. One documented run mined 24 mechanisms from 18 case studies and kept 6 unconventional tactics.
 Setup is a Claude Code or Codex install plus an LLM API key. No account, no SaaS. The run produces a styled report in your browser and everything is reusable, competitor read, buyer map, tactic cards. The skills are plain markdown files, so you can read exactly what the pipeline does and audit it.
 It will not run itself. The output is strategy on a page, not executed campaigns, and the quality depends on your market having enough public case studies to mine. A brand-new niche with no documented growth stories will produce thinner results. It is aimed at technical founders and growth people who already use coding agents. If you want a managed growth consultant instead of a 90-minute local run, the SaaS planning tools in this directory are the alternative.
+
+[Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/) , Open Source. Open source.
+Digital Marketing Pro is a plugin with 163 marketing skills and 24 specialist agents that runs inside coding agents: Claude Code, OpenAI Codex, Cursor, GitHub Copilot CLI, Hermes, and roughly 35 other harnesses that adopted the Agent Skills open standard. What separates it from most skill packs is that it is not a loose pile of prompts. Every brand goes through the same fixed 12-part strategy flow. You run /digital-marketing-pro:engagement, and about an hour later you have 50 to 60 canonical files per brand: market research, segmentation, positioning, a 12-month growth plan, channel strategies, ad copy, and AI creative briefs. The maintainer puts API spend at $15 to $40 per full engagement on Opus-class models, which sounds about right for that file count.
+A good chunk of this is real tooling rather than prompt dressing. There are Python scripts behind the skills: SERP-overlap keyword clustering (now Unicode-aware after a German compound-word bug surfaced in issue #11), backlink gap analysis, and a /check gate that scans drafts for hallucinations, unsupported claims, and brand-voice drift before anything ships. Eight HTTP connectors (Slack, HubSpot, Klaviyo, SendGrid, Brevo, Customer.io, Mailchimp, Ahrefs) fire real API calls with audit logging, and a doctor command shows what is wired versus what still needs setup. C2PA content provenance signing and EU AI Act Article 50 disclosure clauses are built into the creative-brief skills, which matters if you market into the EU. The repo carries over 400 stdlib tests, unusual for a marketing skill pack.
+Setup is one command on the canonical path: /plugin marketplace add indranilbanerjee/neels-plugins, then install. Non-technical marketers can go through the Anthropic Cowork UI instead and never open a terminal; outputs persist to the team's Google Drive. Since the skills are plain SKILL.md files, Goose, OpenHands, Gemini CLI, and others can consume the skills/ folder directly with no platform-specific manifest. Python stdlib only, no third-party dependencies, MIT licensed, no telemetry.
+The honest limitation: 50 to 60 documents per brand is a lot to review, and consistent structure is not the same as quality. The flow has a Client Validation Document as its one mandatory stop, and a decision matrix maps client pushback to selective v2 re-runs, so the design anticipates this. But if you run one brand and want a quick campaign brief, this is overkill. It is aimed squarely at agencies and in-house teams juggling 50 to 200 brands, where the point is that every engagement looks the same so handoffs work and quality is auditable across the portfolio.
+Against claude-seo in this directory, which concentrates on SEO with 25 sub-skills and 18 agents, DMP covers the whole funnel: strategy, content, paid media, CRM, analytics, and compliance. It is also slower to first value. At 837 stars, 137 commits, 61 tagged releases, and a v3.31.1 that reproduced and fixed all five open community issues with regression tests, it is one of the most actively maintained marketing skill packs on GitHub right now.
 
 [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/) , Open Source. Open source.
 Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It's not a prompt pack. It's a knowledge base with 908 cited sources, 19 industry playbooks, and 47 curated email designs. Install it and your AI agent stops guessing about email. It knows what a good open rate is for your vertical, why your emails land in spam, and which flow to build first for a DTC skincare brand doing $2M/year.

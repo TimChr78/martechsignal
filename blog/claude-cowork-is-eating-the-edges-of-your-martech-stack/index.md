@@ -95,9 +95,9 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
+- [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
 - [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
-- [Jasper](/tools/jasper/) - AI marketing content platform for creating on-brand copy, images, and campaigns
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
@@ -158,7 +158,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1629,
+  "wordCount": 1632,
   "articleSection": "agent-skills"
 }
 ```

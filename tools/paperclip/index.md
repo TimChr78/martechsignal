@@ -39,6 +39,10 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 Zapier GTM Cheat Codes
 
 Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -46,10 +50,6 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 Workato
 
 Enterprise AI governance plus integration and automation on one platform
-
-Pipedream
-
-Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
 Budibase
 

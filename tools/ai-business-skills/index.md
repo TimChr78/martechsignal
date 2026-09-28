@@ -37,9 +37,9 @@ Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
-SEO Skill Bench
+Digital Marketing Pro
 
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

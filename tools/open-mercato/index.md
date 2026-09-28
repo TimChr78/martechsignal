@@ -44,13 +44,13 @@ Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
-
-Intercom
-
-AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 AI Business Skills
 

@@ -37,9 +37,9 @@ OpenClaw Marketing Skills
 
 37 marketing skills for OpenClaw agents with live data connectors
 
-Zapier GTM Cheat Codes
+Digital Marketing Pro
 
-Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
 
 Claude SEO
 

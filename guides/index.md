@@ -35,5 +35,5 @@ Longer reference pages that support the directory. These are not tools, so they 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/guides/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/guides/#webpage", "dateModified": "2026-09-28"}
 ```

@@ -29,6 +29,10 @@ Claude SEO
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
@@ -36,10 +40,6 @@ Aaron Marketing Skills
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

@@ -501,6 +501,19 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:tools:digital-marketing-pro",
+   "displayName": "Digital Marketing Pro pricing & plans",
+   "type": "text/html",
+   "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+   "description": "163-skill marketing plugin running full 12-part brand strategy engagements in coding agents",
+   "representativeQueries": [
+    "open source digital marketing pro",
+    "Digital Marketing Pro pricing",
+    "Digital Marketing Pro alternatives",
+    "agent skills tools like Digital Marketing Pro"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:tools:django-crm",
    "displayName": "Django CRM pricing & plans",
    "type": "text/html",

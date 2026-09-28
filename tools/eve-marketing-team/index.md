@@ -25,6 +25,10 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 
 **Verdict:** Eve Marketing Team Template is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 Email Marketing Bible
 
 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP
@@ -36,10 +40,6 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 Resend
 
 Developer-first email API built around React Email, batch sending, and agent tooling
-
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
 
 Codex SEO
 
@@ -136,7 +136,7 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 

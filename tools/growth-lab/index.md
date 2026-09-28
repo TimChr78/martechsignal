@@ -29,6 +29,10 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
+Digital Marketing Pro
+
+163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+
 SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
@@ -36,10 +40,6 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 Claude SEO
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
-
-AI Business Skills
-
-63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
 Aaron Marketing Skills
 
