@@ -119,7 +119,9 @@ def build_homepage_strip(cats):
         '<section class="section">\n'
         '<h2>Browse by category</h2>\n'
         f'<p class="lede">The directory covers {len(cats)} categories. '
-        'Each one lists its tools with licence, stars and a plain summary of what the tool does.</p>\n'
+        'Each one lists its tools with licence, stars snapshotted from the '
+        '<a href="https://docs.github.com/en/rest" rel="noopener">GitHub API</a> '
+        'and a plain summary of what it does.</p>\n'
         f'<div class="tool-grid">{"".join(cards)}</div>\n'
         '<p class="lede"><a href="/categories/">All categories</a> · <a href="/tools/">Full tool directory</a></p>\n'
         "</section>\n"
