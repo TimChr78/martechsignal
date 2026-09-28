@@ -569,6 +569,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
 <link rel="stylesheet" href="/style.min.css?v={_css_v()}">

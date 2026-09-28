@@ -1031,3 +1031,17 @@ def test_tool_hero_image_priority_and_sizes():
         assert w in fig, f"M6: srcset missing {w}"
     assert "662px" in fig, "M7: sizes must name the 662px slot"
     assert "372px" not in fig, "M7: stale 372px sizes still present"
+
+
+def test_font_payload_is_minimal_and_preloaded():
+    """M3/M4 (r9, 2026-09-28): only shipped mono weights (500/600) keep
+    @font-face; the 400 file is gone; both shipped weights are preloaded so
+    none is discovered late."""
+    css = (ROOT / "style.css").read_text()
+    assert "spline-sans-mono-400" not in css, "dead 400 @font-face still shipped"
+    assert not (ROOT / "fonts" / "spline-sans-mono-400.woff2").exists(), \
+        "dead 400 font file still on disk"
+    for tpl in ("tools/n8n/index.html", "blog/claude-seo-benchmark/index.html"):
+        html = (ROOT / tpl).read_text()
+        for w in ("spline-sans-mono-500.woff2", "spline-sans-mono-600.woff2"):
+            assert f'preload" href="/fonts/{w}"' in html, f"{tpl} misses {w} preload"
