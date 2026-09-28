@@ -886,3 +886,33 @@ def test_best_table_columns_follow_variance():
     geo = (ROOT / "best" / "geo-llm-visibility-tools" / "index.html").read_text()
     assert "<th>Open source</th>" not in geo, "geo keeps constant OSS column"
     assert "<th>Public API</th>" in geo, "geo missing varying API column"
+
+
+def test_category_pages_link_their_spokes():
+    """M26 (r9, 2026-09-28): every vs/alternatives/best page must be linked
+    from the category page(s) of its tools. No orphaned spokes."""
+    import json as _json
+    import re as _re
+    tools = _json.loads((ROOT / "tools" / "tools.json").read_text())
+    toc = {t["slug"]: t for t in tools}
+    want = {}
+    for p in _json.loads((ROOT / "tools" / "vsx-content.json").read_text())["pages"]:
+        for s in (p.get("a_slug"), p.get("b_slug")):
+            if s and s in toc:
+                want.setdefault(f"/vs/{p['slug']}/", set()).add(toc[s].get("category"))
+    for p in _json.loads((ROOT / "tools" / "alternatives-content.json").read_text())["pages"]:
+        if p.get("slug") in toc:
+            want.setdefault(f"/alternatives/{p['slug']}/", set()).add(toc[p["slug"]].get("category"))
+    for p in _json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]:
+        cats = {toc[i["slug"]].get("category") for i in p.get("items", [])
+                if i.get("slug") in toc}
+        if cats:
+            want.setdefault(f"/best/{p['slug']}/", set()).update(cats)
+    orphans = []
+    for url, cats in want.items():
+        linked = any(
+            url in (ROOT / "categories" / c / "index.html").read_text()
+            for c in cats if c and (ROOT / "categories" / c).exists())
+        if not linked:
+            orphans.append((url, sorted(c for c in cats if c)))
+    assert not orphans, f"spoke pages unlinked from their categories: {orphans[:6]}"

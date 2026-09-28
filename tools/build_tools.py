@@ -1793,16 +1793,62 @@ def category_meta(cat, cat_tools, hub):
 
 
 def build_category_page(cat, tools):
-    # A2 C1: per-category links into the comparison layer.
+    # M26 (r9, 2026-09-28): comparison links are data-driven, not a hardcoded
+    # map. Every vs / alternatives / best page whose tools sit in this
+    # category is linked, so no spoke page is more than one click away.
+    _tools_by_slug = {t["slug"]: t for t in tools}
+    _members = {t["slug"] for t in tools
+                if (t.get("open_source") if cat["slug"] == "open-source"
+                    else t.get("category") == cat["slug"])
+                and t.get("status") == "active"}
+    _cmp = []
+    try:
+        _vsx = json.loads((TOOLS_DIR / "vsx-content.json").read_text())["pages"]
+        for p in _vsx:
+            _pair = {p.get("a_slug"), p.get("b_slug")} & _members
+            if _pair:
+                _names = " vs ".join(
+                    _tools_by_slug.get(s, {}).get("name", s) for s in
+                    (p.get("a_slug"), p.get("b_slug")) if s)
+                _cmp.append(
+                    f'<a href="/vs/{p["slug"]}/">{esc(_names or p["slug"])}</a>')
+    except (OSError, ValueError, KeyError):
+        pass
+    try:
+        _altx = json.loads((TOOLS_DIR / "alternatives-content.json").read_text())["pages"]
+        for p in _altx:
+            if p.get("slug") in _members:
+                _cmp.append(
+                    f'<a href="/alternatives/{p["slug"]}/">'
+                    f'{esc(_tools_by_slug.get(p["slug"], {}).get("name", p["slug"]))} alternatives</a>')
+    except (OSError, ValueError, KeyError):
+        pass
+    try:
+        _bestx = json.loads((TOOLS_DIR / "bestx-content.json").read_text())["pages"]
+        for p in _bestx:
+            if any((i.get("slug") if isinstance(i, dict) else i) in _members
+                   for i in p.get("items", [])):
+                _cmp.append(f'<a href="/best/{p["slug"]}/">{esc(p["title"])}</a>')
+    except (OSError, ValueError, KeyError):
+        pass
+    # Editorial guide links stay hand-placed (no data source maps guides to
+    # categories); comparison links above are fully automatic.
     _CAT_GUIDE = {
-        "crm": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/open-source-crm/">Best open-source CRM</a> &middot; <a href="/alternatives/hubspot-crm/">HubSpot CRM alternatives</a></p>',
-        "marketing-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/workflow-automation-tools/">Best workflow automation tools</a> &middot; <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a> &middot; <a href="/alternatives/zapier/">Zapier alternatives</a> &middot; <b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a></p>',
-        "content-ai": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/ai-seo-tools/">Best AI SEO tools</a> &middot; <b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a></p>',
-        "advertising": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a> &middot; <a href="/best/ai-advertising-tools/">Best AI advertising tools</a></p>',
-        "workflow-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a></p>',
-        "open-source": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/vs/matomo-vs-plausible/">Matomo vs Plausible</a> &middot; <a href="/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a> &middot; <a href="/alternatives/matomo/">Matomo alternatives</a></p>',
-        "geo-llm-visibility": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a></p>',
+        "marketing-automation": '<b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
+        "content-ai": '<b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a>',
+        "advertising": '<b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a>',
+        "workflow-automation": '<b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a>',
+        "geo-llm-visibility": '<b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a>',
     }
+    _guide_bit = _CAT_GUIDE.get(cat["slug"], "")
+    _cat_guide = ""
+    if _cmp or _guide_bit:
+        _bits = ""
+        if _cmp:
+            _bits += "<b>Compare:</b> " + " &middot; ".join(_cmp)
+        if _guide_bit:
+            _bits += (" &middot; " if _bits else "") + _guide_bit
+        _cat_guide = f'<p style="margin:.6rem 0 1rem;font-size:.92rem">{_bits}</p>'
     if cat["slug"] == "open-source":
         # Show ALL open-source tools regardless of primary category
         cat_tools = [t for t in sorted(tools, key=lambda x: x["name"].lower()) if t.get("open_source") and t.get("status") == "active"]
@@ -1824,7 +1870,6 @@ def build_category_page(cat, tools):
     # with the biggest catalogued followings, straight from verified fields.
     _vend = [t for t in cat_tools if t.get("website")]
     _vend.sort(key=lambda x: (-(int(x.get("github_stars") or 0)), x["name"].lower()))
-    _cat_guide = _CAT_GUIDE.get(cat["slug"], "")
     _vendor_line = ""
     if _vend[:3]:
         _vendor_line = ('<p class="meta out-links">Vendors in this category: '
