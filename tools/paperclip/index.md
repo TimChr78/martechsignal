@@ -39,10 +39,6 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Digital Marketing Pro
-
-163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
-
 Zapier GTM Cheat Codes
 
 Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -50,6 +46,10 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 Workato
 
 Enterprise AI governance plus integration and automation on one platform
+
+Pipedream
+
+Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
 Budibase
 
@@ -180,8 +180,8 @@ Create an agent whose adapter is claude_local. Claude Code must be installed and
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

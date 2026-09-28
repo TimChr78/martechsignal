@@ -4,17 +4,17 @@
 
 160TOOLS AUDITED
 
-40POSTS PUBLISHED
+41POSTS PUBLISHED
 
 12CHECKLIST QUESTIONS
 
-BLOG · 2026-09-2701
+BLOG · 2026-09-2801
 
-BLOG · 2026-09-2602
+BLOG · 2026-09-2702
 
-BLOG · 2026-09-2503
+BLOG · 2026-09-2603
 
-BLOG · 2026-09-2404
+BLOG · 2026-09-2504
 
 [NocoBaseOpen-source no-code platform with AI assistance for building business systems fastAUTOMATION](/tools/nocobase/) [Twilio SegmentCustomer data platform for collecting, unifying, and activating customer dataPERSONALIZATION](/tools/segment/) [HubSpot CRMFree AI-powered CRM platform with sales, service, and marketing tools unifiedCRM](/tools/hubspot-crm/) [MatomoOpen-source web analytics platform with full data ownership and AI-powered insightsANALYTICS](/tools/matomo/) [NocoDBFree, self-hostable Airtable alternative that turns any database into a smart spreadsheetMARKETING AUTO](/tools/nocodb/) [n8nOpen-source workflow automation platform with AI agent capabilities and 400+ nodesAUTOMATION](/tools/n8n/) [UmamiOpen-source, cookieless web analytics with real-time dashboards, session replay, and heatmapsANALYTICS](/tools/umami/) [Dolibarr ERP/CRMModular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP appCRM](/tools/dolibarr/)
 
@@ -82,6 +82,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
+
+Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification c
+
 ### Claude SEO benchmark: every score we have earned, and what each one measured
 
 Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually me
@@ -93,10 +97,6 @@ The fastest-accumulating open-source projects in our catalog are not platforms. 
 ### AI watermarks are now part of your agent's risk surface
 
 Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.
-
-### The guardrails Google won't ship for your AI ad account
-
-Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job. Two pieces of practitioner
 
 ## Tool index
 

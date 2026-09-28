@@ -66,9 +66,9 @@ Frappe CRM
 
 Fully featured, open source CRM
 
-n8n
+Tealium
 
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+Enterprise customer data platform with real-time data orchestration and AI
 
 Dolibarr ERP/CRM
 
@@ -179,8 +179,8 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools)

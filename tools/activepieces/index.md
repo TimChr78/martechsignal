@@ -27,13 +27,13 @@ Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
 Zapier
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Workato
 
@@ -122,8 +122,8 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 ## Related reading
 
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier)

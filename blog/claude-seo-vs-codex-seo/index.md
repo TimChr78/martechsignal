@@ -77,9 +77,9 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
-- [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+- [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
@@ -140,7 +140,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1370,
+  "wordCount": 1372,
   "articleSection": "agent-skills"
 }
 ```

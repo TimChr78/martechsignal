@@ -30,10 +30,6 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Digital Marketing Pro
-
-163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
-
 Google Ads + Meta Ads + GA4 MCP
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
@@ -41,6 +37,10 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
@@ -131,8 +131,8 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)

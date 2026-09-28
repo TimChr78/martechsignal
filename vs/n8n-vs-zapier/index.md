@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Open Source | Freemium |
 | Open source | yes | no |
-| Integrations listed | 8 listed: Slack, Gmail, Salesforce, HubSpot (+4 more) | 8 listed: Slack, Gmail, Salesforce, HubSpot (+4 more) |
+| Integrations listed | 8 listed: Slack, Google Sheets, Gmail, Airtable (+4 more) | 8 listed: Salesforce, HubSpot, Slack, Microsoft Dynamics 365 (+4 more) |
 | Public API | yes | yes |
 
 

@@ -101,7 +101,3 @@ AI models eat UTM data, so quality in, quality out. Agents that optimize channel
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/utm-parameters/#webpage", "dateModified": "2026-09-27"}
-```

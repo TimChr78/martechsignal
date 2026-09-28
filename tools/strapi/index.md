@@ -27,13 +27,13 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 
 **Verdict:** Strapi is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
 Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Jasper
 

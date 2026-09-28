@@ -179,7 +179,3 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
   ]
 }
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/#webpage", "dateModified": "2026-09-27"}
-```

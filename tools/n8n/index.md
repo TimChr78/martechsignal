@@ -16,7 +16,7 @@
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $20/mo once past the free tier |
 | &#10003; AI capabilities: AI agent nodes |  |
 | &#10003; Established community (206,100 GitHub stars) |  |
-| &#10003; Native integrations include Slack, Gmail, Salesforce (8 listed) |  |
+| &#10003; Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 **What is n8n?**
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
@@ -45,13 +45,13 @@ NocoBase
 
 Open-source no-code platform with AI assistance for building business systems fast
 
+Zapier
+
+No-code automation platform connecting 9,000+ apps with AI-powered workflows
+
 Tray.io
 
 AI-powered integration platform for building custom automation and AI agents
-
-Make
-
-Visual automation platform for building complex workflows with AI agents and apps
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
@@ -95,13 +95,13 @@ n8n homepage, captured September 2026. Vendor page shown as a dated reference ca
 ## Key Integrations
 
 - Slack
-- Gmail
-- Salesforce
-- HubSpot
-- Shopify
-- Stripe
 - Google Sheets
+- Gmail
+- Airtable
 - Notion
+- Postgres
+- Telegram
+- HubSpot
 ## Pricing
 
 n8n is free to self-host, paid plans start at $20/mo as of 2026-09.
@@ -152,8 +152,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier) · [n8n vs Zapier](/vs/n8n-vs-zapier) · [Workflow Automation Tools](/best/workflow-automation-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)

@@ -4,14 +4,14 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI assist for replies | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Salesforce, HubSpot (8 listed) |  |
+| &#10003; Native integrations include Salesforce, Zendesk, Shopify (8 listed) |  |
 | &#10003; API access for custom integrations |  |
 
 **What is Sprout Social?**
 Enterprise social media management with AI-powered analytics and engagement tools. It ships with AI assist for replies, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Sprout Social cost?**
-Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Sprout Social worth paying for in 2026?**
 Best-in-class workflow and reporting for serious social teams; hard to justify below five seats.
@@ -21,9 +21,9 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 - **Founded:** 2010
 - **HQ:** Chicago, IL, USA
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-09-27
 
-**Verdict:** Sprout Social is a tool in Social Media with paid plans starting at $249/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Sprout Social is a tool in Social Media with paid plans starting at $249/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hootsuite
 
@@ -49,15 +49,13 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
-
 ## Sprout Social review (2026): pricing, AI features, verdict
 
 Enterprise social media management with AI-powered analytics and engagement tools
 
 Social Media · From $249/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -80,17 +78,17 @@ Sprout Social homepage, captured September 2026. Vendor page shown as a dated re
 - AI content suggestions
 ## Key Integrations
 
-- Slack
 - Salesforce
-- HubSpot
-- Zapier
+- Zendesk
 - Shopify
-- Google Analytics
 - Canva
-- Meta Business Suite
+- Google Analytics
+- Google Drive
+- Dropbox
+- Yelp
 ## Pricing
 
-Sprout Social is sold on paid plans, from $249/mo as of 2026-08.
+Sprout Social is sold on paid plans, from $249/mo as of 2026-09.
 
 Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial
 
@@ -123,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Enterprise social media management with AI-powered analytics and engagement tools. It ships with AI assist for replies, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 Best-in-class workflow and reporting for serious social teams; hard to justify below five seats.
 
@@ -157,7 +155,7 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
     "mainEntityOfPage": "https://martechsignal.com/tools/sprout-social/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -214,7 +212,7 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
         "name": "How much does Sprout Social cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
+          "text": "Sprout Social starts at $249/mo. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
         }
       },
       {

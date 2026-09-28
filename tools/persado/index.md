@@ -38,6 +38,10 @@ Bloomreach
 
 AI-powered commerce experience platform with search, personalization, and CDP
 
+Hootsuite
+
+Social media management platform with AI-powered scheduling and analytics
+
 Anyword
 
 AI copywriting platform with predictive performance scores for marketing content
@@ -45,10 +49,6 @@ AI copywriting platform with predictive performance scores for marketing content
 Braze
 
 Customer engagement platform with AI-powered real-time messaging across channels
-
-HubSpot Marketing Hub
-
-All-in-one marketing automation with AI-powered content, email, and campaign tools
 
 ContentBot
 
@@ -175,8 +175,8 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)

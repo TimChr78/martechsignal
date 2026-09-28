@@ -97,7 +97,3 @@ LLM chatbots made the category credible for open dialogue, and agent platforms n
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/chatbot/#webpage", "dateModified": "2026-09-27"}
-```

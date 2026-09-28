@@ -110,7 +110,3 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-ops/#webpage", "dateModified": "2026-09-27"}
-```

@@ -108,7 +108,3 @@ AI-spam changes deliverability because receivers now classify generated content 
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/#webpage", "dateModified": "2026-09-27"}
-```

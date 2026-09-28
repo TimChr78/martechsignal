@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 161 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 160 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -27,7 +27,6 @@
 - [Claude SEO](https://martechsignal.com/tools/claude-seo/): Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents (open source)
 - [Codex SEO](https://martechsignal.com/tools/codex-seo/): Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 - [Diffmode Growth Tactics](https://martechsignal.com/tools/diffmode-growth-tactics/): Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays (open source)
-- [Digital Marketing Pro](https://martechsignal.com/tools/digital-marketing-pro/): 163-skill marketing plugin running full 12-part brand strategy engagements in coding agents (open source)
 - [Email Marketing Bible](https://martechsignal.com/tools/email-marketing-bible/): 55K-word email marketing skill with 908 sources, 19 playbooks, and ESP control via MCP (open source)
 - [Eve Marketing Team Template](https://martechsignal.com/tools/eve-marketing-team/): Open-source team of marketing agents on eve: lead, content, social, SEO, email (open source)
 - [Google Ads + Meta Ads + GA4 MCP](https://martechsignal.com/tools/google-meta-ads-ga4-mcp/): MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4 (open source)
@@ -208,6 +207,7 @@
 
 ## Analysis
 
+- [IAB agentic buying rules land before ad stacks can honor them](https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/) (2026-09-28)
 - [Claude SEO benchmark: the living score tracker](https://martechsignal.com/blog/claude-seo-benchmark/) (2026-09-27)
 - [Open-source martech momentum: the agent-skills layer wins](https://martechsignal.com/blog/oss-momentum-tracker-september-2026/) (2026-09-26)
 - [What LLM watermarking means for marketing automation](https://martechsignal.com/blog/watermark-provenance-tax-agents/) (2026-09-25)
@@ -354,5 +354,5 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 163 records = 161 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 162 records = 160 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

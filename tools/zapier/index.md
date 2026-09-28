@@ -5,14 +5,14 @@
 | --- | --- |
 | &#10003; AI capabilities: AI workflow builder | &#10007; Paid plans start at $19.99/mo once past the free tier |
 | &#10003; G2 rating 4.5/5 | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Gmail, Salesforce (8 listed) |  |
+| &#10003; Native integrations include Salesforce, HubSpot, Slack (8 listed) |  |
 | &#10003; Free tier to evaluate before committing (Free (100 tasks/mo, 2-step Zaps); Professional $19) |  |
 
 **What is Zapier?**
 No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Zapier cost?**
-Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Zapier worth it past the free tier?**
 Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt.
@@ -35,21 +35,21 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 - **Founded:** 2011
 - **HQ:** San Francisco, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Last verified:** 2026-09-27
 
-**Verdict:** Zapier is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Zapier is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Pabbly Connect
-
-Task-priced integration platform with a one-time lifetime purchase option
-
 n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Pabbly Connect
+
+Task-priced integration platform with a one-time lifetime purchase option
 
 Activepieces
 
@@ -75,7 +75,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
@@ -100,14 +100,14 @@ Zapier homepage, captured September 2026. Vendor page shown as a dated reference
 - AI agents
 ## Key Integrations
 
-- Slack
-- Gmail
 - Salesforce
 - HubSpot
-- Shopify
-- Stripe
-- Google Sheets
-- Notion
+- Slack
+- Microsoft Dynamics 365
+- Microsoft Teams
+- Zendesk
+- Jira
+- NetSuite
 ## Pricing
 
 Zapier is freemium, with a free tier to start, paid plans start at $19.99/mo as of 2026-09.
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt.
 
@@ -163,8 +163,8 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8N](/vs/n8n-vs-zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
@@ -188,7 +188,7 @@ Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8
     "mainEntityOfPage": "https://martechsignal.com/tools/zapier/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -245,7 +245,7 @@ Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8
         "name": "How much does Zapier cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
         }
       },
       {

@@ -3,15 +3,15 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: AI agents | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; Native integrations include Slack, Gmail, Salesforce (8 listed) | &#10007; Closed source - no self-hosting option |
+| &#10003; API access for custom integrations | &#10007; Paid plans start at $9/mo once past the free tier |
+| &#10003; AI capabilities: AI agents | &#10007; Closed source - no self-hosting option |
 | &#10003; Free tier to evaluate before committing (Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro) |  |
 
 **What is Make?**
-Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Make cost?**
-Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Make worth it past the free tier?**
 Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.
@@ -33,25 +33,25 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - **Founded:** 2012
 - **HQ:** Prague, Czech Republic
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Last verified:** 2026-09-27
 
-**Verdict:** Make is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
-
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+**Verdict:** Make is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 
-Budibase
-
-Open-source operations platform for building AI agents, apps and automations on your own data
-
 Zapier
 
 No-code automation platform connecting 9,000+ apps with AI-powered workflows
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Budibase
+
+Open-source operations platform for building AI agents, apps and automations on your own data
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
@@ -67,7 +67,7 @@ Visual automation platform for building complex workflows with AI agents and app
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,16 +88,6 @@ Make homepage, captured September 2026. Vendor page shown as a dated reference c
 - AI data transformation
 - AI content generation
 - AI error handling
-## Key Integrations
-
-- Slack
-- Gmail
-- Salesforce
-- HubSpot
-- Shopify
-- Stripe
-- Google Sheets
-- Notion
 ## Pricing
 
 Make is freemium, with a free tier to start, paid plans start at $9/mo as of 2026-09.
@@ -134,9 +124,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 Pick Make over Zapier when you need branching logic and want to pay per operation instead of per task.
 
@@ -153,8 +143,8 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
@@ -178,7 +168,7 @@ Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow
     "mainEntityOfPage": "https://martechsignal.com/tools/make/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -227,7 +217,7 @@ Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow
         "name": "What is Make?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Visual automation platform for building complex workflows with AI agents and apps. It ships with AI agents, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -235,7 +225,7 @@ Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow
         "name": "How much does Make cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "Make has a free tier; paid plans start at $9/mo. Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
         }
       },
       {

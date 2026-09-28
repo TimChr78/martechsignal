@@ -172,7 +172,7 @@ AI Content &amp; Copywriting***2*
 
 ## Open-source martech momentum
 
-Every morning we snapshot the GitHub stars of every open-source tool in our catalog that lists a public GitHub repository (67 of 79 open-source catalog tools, 79 of 161 catalog tools overall). A repository needs 5 daily snapshots before it appears on this page, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Sep 28, 2026, tracked since Aug 25, 2026.
+Every morning we snapshot the GitHub stars of every open-source tool in our catalog that lists a public GitHub repository (67 of 78 open-source catalog tools, 78 of 160 catalog tools overall). A repository needs 5 daily snapshots before it appears on this page, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window Aug 25 to Sep 28, 2026, tracked since Aug 25, 2026.
 
 67 REPOS &middot; 35 DAILY SNAPSHOTS &middot; WINDOW 2026-08-25 TO 2026-09-28
 

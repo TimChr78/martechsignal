@@ -37,9 +37,9 @@ Hypotenuse AI
 
 AI content generation platform for ecommerce product descriptions and articles
 
-n8n
+ALwrity
 
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
 [More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
 
@@ -133,8 +133,8 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)

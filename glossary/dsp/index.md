@@ -97,7 +97,3 @@ DSPs now advertise autonomous bidding agents that manage campaigns without human
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dsp/#webpage", "dateModified": "2026-09-27"}
-```

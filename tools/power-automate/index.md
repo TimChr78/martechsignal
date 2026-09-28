@@ -25,6 +25,10 @@ Strengths include an API for custom integrations. The full review breaks down wh
 
 **Verdict:** Microsoft Power Automate is a tool in Workflow Automation with paid plans starting at $15/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
+Zapier
+
+No-code automation platform connecting 9,000+ apps with AI-powered workflows
+
 Workato
 
 Enterprise AI governance plus integration and automation on one platform
@@ -36,10 +40,6 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 Pipedream
 
 Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-
-Zapier
-
-No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 

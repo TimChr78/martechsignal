@@ -110,7 +110,3 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/#webpage", "dateModified": "2026-09-27"}
-```

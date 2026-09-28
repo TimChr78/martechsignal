@@ -37,9 +37,9 @@ ActiveCampaign
 
 AI-powered marketing automation and CRM for small to mid-size businesses
 
-HubSpot Marketing Hub
+Hootsuite
 
-All-in-one marketing automation with AI-powered content, email, and campaign tools
+Social media management platform with AI-powered scheduling and analytics
 
 Laudspeaker
 

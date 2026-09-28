@@ -3,15 +3,15 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AI capabilities: freddy AI contact and intent scoring (Pro and up) | &#10007; Paid plans start at $9/mo once past the free tier |
-| &#10003; Native integrations include Slack, Zapier, Google Workspace (8 listed) | &#10007; Closed source - no self-hosting option |
+| &#10003; API access for custom integrations | &#10007; Paid plans start at $9/mo once past the free tier |
+| &#10003; AI capabilities: freddy AI contact and intent scoring (Pro and up) | &#10007; Closed source - no self-hosting option |
 | &#10003; API access for custom integrations |  |
 
 **What is Freshsales?**
-AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Freshsales cost?**
-Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Freshsales worth paying for in 2026?**
 The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
@@ -27,9 +27,9 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - **Founded:** 2010
 - **HQ:** San Mateo, CA, USA
 - **API:** Yes
-- **Last verified:** 2026-09-06
+- **Last verified:** 2026-09-27
 
-**Verdict:** Freshsales is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Freshsales is a tool in CRM with a free tier. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedrive
 
@@ -59,15 +59,13 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Freshsales
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
-
 ## Freshsales review (2026): pricing, AI features, verdict
 
 AI-powered CRM with built-in phone, email, and chat for sales teams
 
 CRM · Free tier Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -88,16 +86,6 @@ Freshsales homepage, captured September 2026. Vendor page shown as a dated refer
 - AI email writing assistance
 - Freddy AI Agent add-on, $49 per 100 bot sessions
 - Forecasting insights (Enterprise)
-## Key Integrations
-
-- Slack
-- Zapier
-- Google Workspace
-- Microsoft 365
-- Mailchimp
-- HubSpot
-- Stripe
-- Calendly
 ## Pricing
 
 Freshsales is free to use, paid plans start at $9/mo as of 2026-09.
@@ -150,9 +138,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
 
@@ -165,8 +153,8 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
@@ -188,7 +176,7 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
     "mainEntityOfPage": "https://martechsignal.com/tools/freshsales/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-06",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -237,7 +225,7 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
         "name": "What is Freshsales?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered CRM with built-in phone, email, and chat for sales teams. It ships with freddy AI contact and intent scoring (Pro and up), an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -245,7 +233,7 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
         "name": "How much does Freshsales cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
+          "text": "Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
         }
       },
       {

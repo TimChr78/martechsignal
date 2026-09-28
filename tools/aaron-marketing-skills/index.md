@@ -37,9 +37,9 @@ OpenClaw Marketing Skills
 
 37 marketing skills for OpenClaw agents with live data connectors
 
-Digital Marketing Pro
+Zapier GTM Cheat Codes
 
-163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
+Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 
 Claude SEO
 
@@ -132,8 +132,8 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

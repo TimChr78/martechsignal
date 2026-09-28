@@ -80,10 +80,6 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
-Digital Marketing Pro
-
-163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
-
 Claude Ads
 
 Paid-media operations skill for Claude Code covering 12 ad platforms
@@ -91,6 +87,10 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 Growth Lab
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
+
+SEO Skill Bench
+
+Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
@@ -230,8 +230,8 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
 ### Project stats

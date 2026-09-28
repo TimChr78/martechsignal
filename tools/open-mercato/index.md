@@ -44,13 +44,13 @@ Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-Digital Marketing Pro
-
-163-skill marketing plugin running full 12-part brand strategy engagements in coding agents
-
 Scrunch
 
 The AI Customer Experience Platform: monitor, optimize and serve your site to AI agents
+
+Intercom
+
+AI-first customer service platform with Fin AI agent and omnichannel messaging
 
 AI Business Skills
 
@@ -162,8 +162,8 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

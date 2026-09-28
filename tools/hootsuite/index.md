@@ -4,14 +4,14 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI caption generation | &#10007; Closed source - no self-hosting option |
-| &#10003; Native integrations include Slack, Canva, Zapier (8 listed) |  |
+| &#10003; Native integrations include Canva, Salesforce, HubSpot (8 listed) |  |
 | &#10003; API access for custom integrations |  |
 
 **What is Hootsuite?**
 Social media management platform with AI-powered scheduling and analytics. It ships with AI caption generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Hootsuite cost?**
-Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Hootsuite worth paying for in 2026?**
 The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it.
@@ -21,9 +21,9 @@ The right call for multi-team, multi-brand social programs with governance needs
 - **Founded:** 2008
 - **HQ:** Vancouver, Canada
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-09-27
 
-**Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Sprout Social
 
@@ -49,15 +49,13 @@ Simple social media scheduling and analytics with AI-powered content tools
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
-
 ## Hootsuite review (2026): pricing, AI features, verdict
 
 Social media management platform with AI-powered scheduling and analytics
 
 Social Media · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -80,17 +78,17 @@ Hootsuite homepage, captured September 2026. Vendor page shown as a dated refere
 - AI content recommendations
 ## Key Integrations
 
-- Slack
 - Canva
-- Zapier
 - Salesforce
 - HubSpot
-- Shopify
+- Slack
+- Adobe
 - Google Analytics
-- Meta Business Suite
+- Shopify
+- Dropbox
 ## Pricing
 
-Hootsuite is sold on paid plans, from $99/mo as of 2026-08.
+Hootsuite is sold on paid plans, from $99/mo as of 2026-09.
 
 Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom
 
@@ -123,7 +121,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Social media management platform with AI-powered scheduling and analytics. It ships with AI caption generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it.
 
@@ -157,7 +155,7 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
     "mainEntityOfPage": "https://martechsignal.com/tools/hootsuite/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -214,7 +212,7 @@ Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
         "name": "How much does Hootsuite cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
+          "text": "Hootsuite starts at $99/mo. Standard $99/mo; Professional $149/mo (annual $99/mo); Team and Enterprise custom. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
         }
       },
       {

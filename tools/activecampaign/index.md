@@ -30,10 +30,6 @@ HubSpot Marketing Hub
 
 All-in-one marketing automation with AI-powered content, email, and campaign tools
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
 Adobe Marketo Engage
 
 Enterprise B2B marketing automation with AI-driven lead management and engagement
@@ -41,6 +37,10 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 HubSpot CRM
 
 Free AI-powered CRM platform with sales, service, and marketing tools unified
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 ALwrity
 

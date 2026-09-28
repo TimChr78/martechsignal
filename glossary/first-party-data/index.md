@@ -114,7 +114,3 @@ AI agents depend on first-party data more than any previous marketing stack. A p
   }
 ]
 ```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/#webpage", "dateModified": "2026-09-27"}
-```

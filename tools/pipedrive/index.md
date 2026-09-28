@@ -5,13 +5,13 @@
 | --- | --- |
 | &#10003; AI capabilities: AI sales assistant | &#10007; Closed source - no self-hosting option |
 | &#10003; G2 rating 4.3/5 |  |
-| &#10003; Native integrations include Slack, Zapier, Google Workspace (8 listed) |  |
+| &#10003; Native integrations include Google, Microsoft, Outlook (8 listed) |  |
 
 **What is Pipedrive?**
 Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Pipedrive cost?**
-Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Pipedrive worth paying for in 2026?**
 The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back.
@@ -22,17 +22,17 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - **Founded:** 2010
 - **HQ:** Tallinn, Estonia
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-09-27
 
-**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
-
-Freshsales
-
-AI-powered CRM with built-in phone, email, and chat for sales teams
+**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Salesforce CRM
 
 Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
+
+Freshsales
+
+AI-powered CRM with built-in phone, email, and chat for sales teams
 
 HubSpot CRM
 
@@ -52,15 +52,13 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Pipedrive
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
-
 ## Pipedrive review (2026): pricing, AI features, verdict
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting
 
 CRM · From $14/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
 [How we review](/methodology/) · No affiliate links
 
@@ -83,17 +81,17 @@ Pipedrive homepage, captured September 2026. Vendor page shown as a dated refere
 - Smart lead routing
 ## Key Integrations
 
-- Slack
+- Google
+- Microsoft
+- Outlook
+- QuickBooks
 - Zapier
-- Google Workspace
-- Microsoft 365
-- Mailchimp
-- HubSpot
-- Stripe
-- Calendly
+- Asana
+- DocuSign
+- WhatsApp
 ## Pricing
 
-Pipedrive is sold on paid plans, from $14/mo as of 2026-08.
+Pipedrive is sold on paid plans, from $14/mo as of 2026-09.
 
 Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo
 
@@ -130,7 +128,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 The easiest CRM to get a sales team to actually adopt; add-on pricing is where complexity creeps back.
 
@@ -139,8 +137,8 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-crm)
@@ -164,7 +162,7 @@ Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-cr
     "mainEntityOfPage": "https://martechsignal.com/tools/pipedrive/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -221,7 +219,7 @@ Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-cr
         "name": "How much does Pipedrive cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
+          "text": "Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
         }
       },
       {

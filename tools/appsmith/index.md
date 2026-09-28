@@ -42,13 +42,13 @@ Budibase
 
 Open-source operations platform for building AI agents, apps and automations on your own data
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
 Jitsu
 
 Open-source Segment alternative for event capture and warehouse-first data pipelines
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 n8n Marketing Flows
 

@@ -47,9 +47,9 @@ Notifuse
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
 
-Pipedrive
+Albert AI
 
-Sales-focused CRM with AI-powered pipeline management and deal forecasting
+Autonomous AI platform that manages and optimizes digital advertising campaigns
 
 Adobe Marketo Engage
 

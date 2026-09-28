@@ -42,9 +42,9 @@ Appsmith
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
-Make
+n8n
 
-Visual automation platform for building complex workflows with AI agents and apps
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Tray.io
 
@@ -177,7 +177,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
 Related guides: [Budibase in Zapier alternatives](/alternatives/zapier)
