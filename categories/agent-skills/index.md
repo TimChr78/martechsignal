@@ -62,7 +62,7 @@ Claude SEO
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 Codex SEO
 

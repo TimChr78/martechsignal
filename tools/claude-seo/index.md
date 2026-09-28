@@ -104,7 +104,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
-Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
+Agent Skills · Open Source · OPEN SOURCE Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 

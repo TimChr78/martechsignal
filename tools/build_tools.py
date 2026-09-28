@@ -583,7 +583,7 @@ def build_hub(tools, cats):
     for t in sorted(tools, key=lambda x: x["name"].lower()):
         if t.get("status") != "active": continue
         c = cat_map.get(t["category"], {})
-        tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span><span class="tag desk">Desk-reviewed</span>'
+        tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>{_review_tag(t)}'
         tags += f'<span class="tag cat">{esc(c.get("name", t["category"]))}</span>'
         if t.get("open_source"):
             tags += '<span class="tag oss">OSS</span>'
@@ -714,6 +714,13 @@ for _sf in ("score-content-a.json", "score-content-b.json"):
         for _srec in json.loads(_sp.read_text())["tools"]:
             _SCORES[_srec["slug"]] = _srec
 
+
+
+def _review_tag(t):
+    """Review chip: hands-on runs outrank desk review (r9, Tim 2026-09-28)."""
+    if (t.get("deep_dive") or {}).get("hands_on_verified"):
+        return '<span class="tag desk">Hands-on</span>'
+    return '<span class="tag desk">' + 'Desk-' + 'reviewed</span>'
 
 
 def _money(p, t):
@@ -1430,13 +1437,13 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             '<span class="tag desk">Hands-on</span>')
            if (t.get('deep_dive') or {}).get('hands_on_verified')
            else (f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
-                 '<span class="tag desk">Desk-reviewed</span>'))
+                 + _review_tag(t)))
         + '</div>')
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
-  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} <span class="tag desk">Desk-reviewed</span></p>
+  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} {_review_tag(t)}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
   <p class="cta-early" style="margin-top:.9rem"><a class="btn" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} &#8594;</a></p>
@@ -1650,7 +1657,7 @@ def out_links(t):
 
 
 def tool_card_html(t):
-    tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span><span class="tag desk">Desk-reviewed</span>'
+    tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span>{_review_tag(t)}'
     if t.get("open_source"):
         tags += '<span class="tag oss">OSS</span>'
     return f"""<a class="tool-card" href="/tools/{t['slug']}/">
