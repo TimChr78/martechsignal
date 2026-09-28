@@ -23,7 +23,7 @@ A strong specialist for bulk product catalog content at scale. General writing n
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Hypotenuse AI is a from $56/mo in AI Content &amp; Copywriting, a public API. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Hypotenuse AI is a tool in AI Content &amp; Copywriting with paid plans starting at $56/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Jasper
 
@@ -53,7 +53,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Hypotenuse AI review (2026): pricing, AI features, verdict
 

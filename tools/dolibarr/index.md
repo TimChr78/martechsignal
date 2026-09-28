@@ -42,7 +42,7 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Dolibarr ERP/CRM is a open source in CRM, a public API, self-hosting. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Dolibarr ERP/CRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Krayin CRM
 
@@ -68,6 +68,8 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Dolibarr ERP/CRM
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 
 Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app

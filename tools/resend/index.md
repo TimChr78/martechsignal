@@ -34,7 +34,7 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Resend is a freemium in Email Marketing, a public API. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Resend is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 React Email Editor
 

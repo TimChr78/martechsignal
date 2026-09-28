@@ -32,7 +32,7 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Loops is a freemium in Email Marketing, a public API. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Loops is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Notifuse
 

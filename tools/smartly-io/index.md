@@ -29,7 +29,7 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Smartly.io is a enterprise in Advertising &amp; Paid Media, a public API. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Smartly.io is a tool in Advertising &amp; Paid Media with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 
@@ -55,6 +55,8 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Smartly.io
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Smartly.io review (2026): pricing, AI features, verdict
 
 AI advertising platform spanning creative production, media buying, and measurement

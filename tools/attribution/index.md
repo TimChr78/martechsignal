@@ -23,7 +23,7 @@ Reasonable middle ground between spreadsheet attribution and enterprise suites l
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Attribution is a enterprise in Analytics &amp; Attribution, a public API. The catalog documents 4 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Attribution is a tool in Analytics &amp; Attribution with custom pricing. The catalog documents 4 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Northbeam
 
@@ -53,7 +53,7 @@ Open-source product analytics platform with session replay, feature flags, exper
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Attribution
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Attribution review (2026): pricing, AI features, verdict
 

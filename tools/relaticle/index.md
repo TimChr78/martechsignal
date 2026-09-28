@@ -32,7 +32,7 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Relaticle is a open source in CRM, a public API, self-hosting. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Relaticle is a tool in CRM with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Django CRM
 

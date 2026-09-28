@@ -25,7 +25,7 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Klaviyo is a freemium in Email Marketing, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Klaviyo is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Triple Whale
 
@@ -53,7 +53,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Klaviyo
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Klaviyo review (2026): pricing, AI features, verdict
 

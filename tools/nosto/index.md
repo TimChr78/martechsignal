@@ -32,7 +32,7 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Nosto is a enterprise in Personalization &amp; CDP, a public API. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nosto is a tool in Personalization &amp; CDP with custom pricing. The catalog documents 5 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Clerk.io
 

@@ -24,7 +24,7 @@ The most complete open-source take on agent-produced launch assets, with a real 
 - **API:** No
 - **Last verified:** 2026-08-31
 
-**Verdict:** Marketing Studio is a open source in Agent Skills, self-hosting. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Marketing Studio is a tool in Agent Skills with free and open source. The catalog documents 4 AI features, 2 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 Aaron Marketing Skills
 
@@ -54,7 +54,7 @@ Free Claude Code/Codex pipeline that mines case studies and rejects obvious grow
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 ## Marketing Studio review (2026): pricing, AI features, verdict
 

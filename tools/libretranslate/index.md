@@ -37,7 +37,7 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** LibreTranslate is a open source in AI Content &amp; Copywriting, a public API, self-hosting. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LibreTranslate is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Strapi
 

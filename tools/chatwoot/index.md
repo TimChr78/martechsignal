@@ -34,7 +34,7 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Chatwoot is a open source in Chatbots &amp; Conversational AI, a public API, self-hosting. The catalog documents 6 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Chatwoot is a tool in Chatbots &amp; Conversational AI with free and open source. The catalog documents 6 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Intercom
 

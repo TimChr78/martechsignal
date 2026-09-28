@@ -30,7 +30,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Warpdrive is a open source in CRM, self-hosting. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Warpdrive is a tool in CRM with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Twenty
 

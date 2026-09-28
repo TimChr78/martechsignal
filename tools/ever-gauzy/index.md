@@ -31,7 +31,7 @@ Yes, and it is the platform&#x27;s anchor module. The README lists employee time
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Ever Gauzy is a open source in CRM, a public API, self-hosting. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ever Gauzy is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 NocoDB
 

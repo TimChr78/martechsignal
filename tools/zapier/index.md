@@ -37,7 +37,7 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Zapier is a freemium in Workflow Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Zapier is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedream
 

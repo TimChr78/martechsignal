@@ -34,7 +34,7 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** OtterlyAI is a from $29/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OtterlyAI is a tool in GEO &amp; LLM Optimization with paid plans starting at $29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nightwatch
 

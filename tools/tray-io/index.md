@@ -35,7 +35,7 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Tray.io is a enterprise in Workflow Automation, a public API. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Tray.io is a tool in Workflow Automation with custom pricing. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 
@@ -61,6 +61,8 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Tray.io review (2026): pricing, AI features, verdict
 
 AI-powered integration platform for building custom automation and AI agents

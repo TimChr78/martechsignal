@@ -33,7 +33,7 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 - **API:** No
 - **Last verified:** 2026-09-25
 
-**Verdict:** Revive Adserver is a open source in Advertising &amp; Paid Media, self-hosting. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Revive Adserver is a tool in Advertising &amp; Paid Media with free and open source. The catalog documents 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Google Ads + Meta Ads + GA4 MCP
 

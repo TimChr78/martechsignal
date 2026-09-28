@@ -23,7 +23,7 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Triple Whale is a from $59/mo in Analytics &amp; Attribution, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Triple Whale is a tool in Analytics &amp; Attribution with paid plans starting at $59/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Northbeam
 
@@ -53,7 +53,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Triple Whale
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Triple Whale review (2026): pricing, AI features, verdict
 

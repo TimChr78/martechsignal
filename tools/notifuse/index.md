@@ -24,7 +24,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Notifuse is a open source in Email Marketing, a public API, self-hosting. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Notifuse is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Loops
 
@@ -50,7 +50,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Notifuse review (2026): pricing, AI features, verdict
 

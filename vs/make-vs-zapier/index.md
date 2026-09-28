@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Freemium | Freemium |
 | Open source | no | no |
-| Integrations listed | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] | [&#x27;Slack&#x27;, &#x27;Gmail&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Shopify&#x27;, &#x27;Stripe&#x27;, &#x27;Google Sheets&#x27;, &#x27;Notion&#x27;] |
+| Integrations listed | 8 listed: Slack, Gmail, Salesforce, HubSpot (+4 more) | 8 listed: Slack, Gmail, Salesforce, HubSpot (+4 more) |
 | Public API | yes | yes |
 
 

@@ -31,7 +31,7 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 - **API:** No
 - **Last verified:** 2026-09-25
 
-**Verdict:** Adobe LLM Optimizer is a enterprise in GEO &amp; LLM Optimization. The catalog documents 5 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Adobe LLM Optimizer is a tool in GEO &amp; LLM Optimization with custom pricing. The catalog documents 5 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nimt.ai
 

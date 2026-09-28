@@ -24,7 +24,7 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Intercom is a from $29/mo in Chatbots &amp; Conversational AI, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Intercom is a tool in Chatbots &amp; Conversational AI with paid plans starting at $29/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tidio
 
@@ -56,7 +56,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Intercom
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Intercom review (2026): pricing, AI features, verdict
 

@@ -23,7 +23,7 @@ The largest verified free template pack for n8n marketing automation, with a gen
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** n8n Marketing Flows is a open source in Workflow Automation, a public API, self-hosting. The catalog documents 5 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** n8n Marketing Flows is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 
@@ -53,7 +53,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 

@@ -21,7 +21,7 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Madgicx is a from $49/mo in Advertising &amp; Paid Media. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Madgicx is a tool in Advertising &amp; Paid Media with paid plans starting at $49/mo. The catalog documents 5 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 

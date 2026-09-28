@@ -24,7 +24,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Claude Ads is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Claude SEO
 
@@ -50,7 +50,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Claude Ads
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Claude Ads review (2026): pricing, AI features, verdict
 

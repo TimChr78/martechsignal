@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Open Source | From $117/mo |
 | Open source | yes | no |
-| Integrations listed | [&#x27;Claude Code&#x27;, &#x27;Google Search Console&#x27;, &#x27;DataForSEO&#x27;, &#x27;Firecrawl&#x27;, &#x27;Lighthouse&#x27;] | [&#x27;Google Analytics&#x27;, &#x27;Google Search Console&#x27;, &#x27;WordPress&#x27;, &#x27;Zapier&#x27;, &#x27;Slack&#x27;, &#x27;HubSpot&#x27;, &#x27;Salesforce&#x27;, &#x27;Looker Studio&#x27;] |
+| Integrations listed | 5 listed: Claude Code, Google Search Console, DataForSEO, Firecrawl (+1 more) | 8 listed: Google Analytics, Google Search Console, WordPress, Zapier (+4 more) |
 | Public API | yes | yes |
 
 

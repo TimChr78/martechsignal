@@ -1308,12 +1308,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     if t.get("website"):
         score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '
                       f'rel="noopener" target="_blank">Visit {t["name"]} &#8594;</a></p>') + score_html
-    _bits = [f"{esc(pricing_label(t)).lower()} in {esc(c.get('name',''))}"]
     _ain = len(t.get('ai_features') or [])
-    if t.get('api_available'):
-        _bits.append('a public API')
-    if t.get('open_source'):
-        _bits.append('self-hosting')
     _caps = ([f"{_ain} AI features"] if _ain else [])
     if t.get('integrations'):
         _caps.append(f"{len(t['integrations'])} integrations")
@@ -1322,9 +1317,18 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     if t.get('open_source'):
         _caps.append('a self-hosting path')
     _cap = (', '.join(_caps[:-1]) + ' and ' + _caps[-1]) if len(_caps) > 1 else (_caps[0] if _caps else '')
+    _pl = t.get('price_from')
+    if t.get('open_source') and (_pl in (0, None)):
+        _price_frag = 'free and open source'
+    elif _pl == 0:
+        _price_frag = 'a free tier'
+    elif _pl is None:
+        _price_frag = 'custom pricing'
+    else:
+        _price_frag = f'paid plans starting at ${_pl}/mo'
     _vdate = esc(t.get('date_verified') or t.get('date_updated') or '')
     verdict_html = ('<div class="verdict"><strong>Verdict:</strong> ' + esc(t['name'])
-        + ' is a ' + ', '.join(_bits) + '. '
+        + f' is a tool in {esc(c.get("name",""))} with {_price_frag}. '
         + (f'The catalog documents {_cap}. ' if _cap else '')
         + f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
         + '<span class="tag desk">Desk-reviewed</span></div>')

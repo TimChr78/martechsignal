@@ -23,7 +23,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Buffer is a freemium in Social Media, a public API. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Buffer is a tool in Social Media with a free tier. The catalog documents 4 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Sprout Social
 
@@ -53,7 +53,7 @@ AI-powered consumer intelligence and social media management platform
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Buffer review (2026): pricing, AI features, verdict
 
@@ -133,8 +133,8 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)

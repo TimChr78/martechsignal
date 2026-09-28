@@ -23,7 +23,7 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Predis.ai is a freemium in Social Media, a public API. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Predis.ai is a tool in Social Media with a free tier. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hootsuite
 
@@ -49,7 +49,7 @@ Browser extension to publish content to multiple social media platforms with one
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Predis.ai
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Predis.ai review (2026): pricing, AI features, verdict
 

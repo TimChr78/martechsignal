@@ -32,7 +32,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** advertools is a open source in Advertising &amp; Paid Media, a public API, self-hosting. The catalog documents 1 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** advertools is a tool in Advertising &amp; Paid Media with free and open source. The catalog documents 1 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 AccuRanker
 

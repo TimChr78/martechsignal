@@ -24,7 +24,7 @@ Unmatched depth for complex sales organizations; count the total cost before com
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Salesforce CRM is a enterprise in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Salesforce CRM is a tool in CRM with paid plans starting at $25/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 HubSpot CRM
 
@@ -52,7 +52,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Salesforce CRM
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Salesforce CRM review (2026): pricing, AI features, verdict
 

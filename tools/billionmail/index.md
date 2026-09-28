@@ -33,7 +33,7 @@ One documented one: AI email template generation, added in v4.0, where you descr
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** BillionMail is a open source in Email Marketing, a public API, self-hosting. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** BillionMail is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Notifuse
 

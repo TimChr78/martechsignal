@@ -45,7 +45,7 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Twilio Segment is a freemium in Personalization &amp; CDP, a public API. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Twilio Segment is a tool in Personalization &amp; CDP with a free tier. The catalog documents 6 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 
@@ -71,6 +71,8 @@ Product analytics platform with AI-powered insights for user behavior tracking
 - [Tools](/tools/)
 - [Personalization &amp; CDP](/categories/personalization/)
 - Twilio Segment
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Twilio Segment review (2026): pricing, AI features, verdict
 
 Customer data platform for collecting, unifying, and activating customer data

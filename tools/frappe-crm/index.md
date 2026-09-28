@@ -44,7 +44,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 - **API:** No
 - **Last verified:** 2026-09-06
 
-**Verdict:** Frappe CRM is a open source in CRM, self-hosting. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Frappe CRM is a tool in CRM with free and open source. The catalog documents 5 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Cordys CRM
 
@@ -74,6 +74,8 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
 Fully featured, open source CRM

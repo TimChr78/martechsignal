@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | From $49/mo | Paid |
 | Open source | no | no |
-| Integrations listed | [&#x27;Chrome&#x27;, &#x27;Surfer SEO&#x27;, &#x27;Zapier&#x27;, &#x27;HubSpot&#x27;, &#x27;WordPress&#x27;, &#x27;Webflow&#x27;, &#x27;Canva&#x27;, &#x27;Google Docs&#x27;] | [&#x27;Slack&#x27;, &#x27;Google Workspace&#x27;, &#x27;Microsoft 365&#x27;, &#x27;Salesforce&#x27;, &#x27;HubSpot&#x27;, &#x27;Contentful&#x27;, &#x27;Chrome extension&#x27;, &#x27;Microsoft Word&#x27;, &#x27;Figma&#x27;, &#x27;Snowflake&#x27;, &#x27;Databricks&#x27;, &#x27;Webflow&#x27;] |
+| Integrations listed | 8 listed: Chrome, Surfer SEO, Zapier, HubSpot (+4 more) | 12 listed: Slack, Google Workspace, Microsoft 365, Salesforce (+8 more) |
 | Public API | yes | yes |
 
 

@@ -23,7 +23,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ManyChat is a freemium in Chatbots &amp; Conversational AI, a public API. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ManyChat is a tool in Chatbots &amp; Conversational AI with a free tier. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Chatfuel
 
@@ -49,7 +49,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - ManyChat
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## ManyChat review (2026): pricing, AI features, verdict
 

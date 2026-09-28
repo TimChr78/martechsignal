@@ -21,7 +21,7 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 - **API:** Yes
 - **Last verified:** 2026-09-27
 
-**Verdict:** Activepieces is a freemium in Workflow Automation, a public API, self-hosting. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Activepieces is a tool in Workflow Automation with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedream
 

@@ -24,7 +24,7 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Semrush is a from $117/mo in SEO &amp; Search, a public API. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Semrush is a tool in SEO &amp; Search with paid plans starting at $117/mo. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Surfer SEO
 
@@ -52,7 +52,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Semrush
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Semrush review (2026): pricing, AI features, verdict
 

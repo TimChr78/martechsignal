@@ -34,7 +34,7 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Mixpanel is a freemium in Analytics &amp; Attribution, a public API. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Mixpanel is a tool in Analytics &amp; Attribution with a free tier. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Heap
 
@@ -66,6 +66,8 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Mixpanel
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Mixpanel review (2026): pricing, AI features, verdict
 
 Product analytics platform with AI-powered insights for user behavior tracking

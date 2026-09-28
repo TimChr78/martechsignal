@@ -23,7 +23,7 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ALwrity is a open source in Marketing Automation, a public API, self-hosting. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ALwrity is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Predis.ai
 
@@ -53,7 +53,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 

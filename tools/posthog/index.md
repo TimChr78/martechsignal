@@ -40,7 +40,7 @@ PostHog AI answers questions about your data in plain language across web, Slack
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** PostHog is a freemium in Analytics &amp; Attribution, a public API, self-hosting. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** PostHog is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Mixpanel
 

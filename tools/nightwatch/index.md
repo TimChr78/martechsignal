@@ -32,7 +32,7 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Nightwatch is a from $79/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nightwatch is a tool in GEO &amp; LLM Optimization with paid plans starting at $79/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 AccuRanker
 

@@ -33,7 +33,7 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 - **API:** Yes
 - **Last verified:** 2026-09-27
 
-**Verdict:** HubSpot CRM is a freemium in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** HubSpot CRM is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Salesforce CRM
 

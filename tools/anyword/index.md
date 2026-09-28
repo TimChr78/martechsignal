@@ -23,7 +23,7 @@ Valuable when you need an instant, numbers-based copy check across many channels
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Anyword is a from $39/mo in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Anyword is a tool in AI Content &amp; Copywriting with paid plans starting at $39/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hootsuite
 
@@ -53,7 +53,7 @@ Open-source machine translation API for content localization, self-hostable and 
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Anyword
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Anyword review (2026): pricing, AI features, verdict
 

@@ -23,7 +23,7 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Surfer SEO is a from $49/mo in SEO &amp; Search, a public API. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Surfer SEO is a tool in SEO &amp; Search with paid plans starting at $49/mo. The catalog documents 6 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Clearscope
 
@@ -53,7 +53,7 @@ Open source alternative to Ahrefs and Semrush
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Surfer SEO
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Surfer SEO review (2026): pricing, AI features, verdict
 

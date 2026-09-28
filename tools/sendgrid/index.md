@@ -33,7 +33,7 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Twilio SendGrid is a freemium in Email Marketing, a public API. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Twilio SendGrid is a tool in Email Marketing with a free tier. The catalog documents 4 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Postmark
 
@@ -63,7 +63,7 @@ AI-powered email and SMS marketing platform built for ecommerce brands
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Twilio SendGrid
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Twilio SendGrid review (2026): pricing, AI features, verdict
 

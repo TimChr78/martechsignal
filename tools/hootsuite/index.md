@@ -23,7 +23,7 @@ The right call for multi-team, multi-brand social programs with governance needs
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Hootsuite is a from $99/mo in Social Media, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Hootsuite is a tool in Social Media with paid plans starting at $99/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Sprout Social
 
@@ -49,7 +49,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Hootsuite
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Hootsuite review (2026): pricing, AI features, verdict
 

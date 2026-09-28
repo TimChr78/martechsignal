@@ -25,7 +25,7 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Ghost is a open source in AI Content &amp; Copywriting, a public API, self-hosting. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ghost is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Strapi
 
@@ -51,7 +51,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Ghost
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Ghost review (2026): pricing, AI features, verdict
 

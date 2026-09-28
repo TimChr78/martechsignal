@@ -2,9 +2,12 @@ User-agent: *
 Allow: /
 # Block crawlable parameterized duplicates of list endpoints (audit v2.2.5 M-3).
 # Clean URLs stay fully crawlable; only query-string variants are disallowed.
-# R2 H-1 (2026-09-08): the page-level CSS link is /style.css?v=<hash>, which matched
-# this disallow - Googlebot could not fetch the only stylesheet. Explicitly re-allow
-# the cache-busted stylesheet before the query-string disallow.
+# R2 H-1 (2026-09-08): allow the page assets past Disallow: /*?.
+# r7 C1 (2026-09-27): the site renamed style.css to style.min.css and added
+# versioned /site.js; the allow rules must name the files the HTML actually cites
+# (RFC 9309 longest-match, so these beat Disallow: /*? for their ?v= URLs).
+Allow: /style.min.css*
+Allow: /site.js*
 Allow: /style.css*
 Disallow: /*?
 

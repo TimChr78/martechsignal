@@ -52,7 +52,7 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Cordys CRM is a freemium in CRM, a public API, self-hosting. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Cordys CRM is a tool in CRM with free and open source. The catalog documents 5 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Twenty
 

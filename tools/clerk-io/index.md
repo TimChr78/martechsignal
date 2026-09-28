@@ -23,7 +23,7 @@ Solid modular pick for mid-size stores with traffic to feed the models. Thin cat
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Clerk.io is a from $119/mo in Personalization &amp; CDP, a public API. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Clerk.io is a tool in Personalization &amp; CDP with paid plans starting at $119/mo. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nosto
 

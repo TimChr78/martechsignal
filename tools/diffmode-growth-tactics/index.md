@@ -23,7 +23,7 @@ A clever use of coding agents for growth ideation with a real anti-generic mecha
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** Diffmode Growth Tactics is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Diffmode Growth Tactics is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 Growth Lab
 
@@ -53,7 +53,7 @@ Open-source team of marketing agents on eve: lead, content, social, SEO, email
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Diffmode Growth Tactics
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 ## Diffmode Growth Tactics review (2026): pricing, AI features, verdict
 

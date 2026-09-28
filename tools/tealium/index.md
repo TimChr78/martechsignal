@@ -23,7 +23,7 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Tealium is a enterprise in Personalization &amp; CDP, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Tealium is a tool in Personalization &amp; CDP with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Clerk.io
 
@@ -49,7 +49,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 - [Tools](/tools/)
 - [Personalization &amp; CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Tealium review (2026): pricing, AI features, verdict
 

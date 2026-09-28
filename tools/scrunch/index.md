@@ -32,7 +32,7 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Scrunch is a from $250/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Scrunch is a tool in GEO &amp; LLM Optimization with paid plans starting at $250/mo. The catalog documents 5 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Profound
 

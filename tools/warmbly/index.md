@@ -24,7 +24,7 @@ The most complete open-source cold email stack we have listed, but young (316 st
 - **API:** Yes
 - **Last verified:** 2026-09-24
 
-**Verdict:** Warmbly is a open source in Email Marketing, a public API, self-hosting. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Warmbly is a tool in Email Marketing with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-24. This is a desk review, not a hands-on test. Desk-reviewed
 
 Notifuse
 

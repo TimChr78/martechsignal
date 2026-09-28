@@ -30,7 +30,7 @@ Signals, launched in May 2025, is Snowplow&#x27;s real-time context layer and th
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Snowplow is a free tier in Analytics &amp; Attribution, a public API, self-hosting. The catalog documents 3 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Snowplow is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 3 AI features, 9 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Mixpanel
 

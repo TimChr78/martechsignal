@@ -23,7 +23,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Email Marketing Bible is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Email Marketing Bible is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Eve Marketing Team Template
 
@@ -53,7 +53,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 KIND: Agent Skill (not an end-to-end platform)
 

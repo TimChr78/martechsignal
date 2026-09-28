@@ -36,7 +36,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Line Harness is a open source in Marketing Automation, a public API, self-hosting. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Line Harness is a tool in Marketing Automation with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Salesforce Marketing Cloud
 

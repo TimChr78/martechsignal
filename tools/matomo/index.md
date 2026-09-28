@@ -47,7 +47,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Matomo is a open source in Analytics &amp; Attribution, a public API, self-hosting. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Matomo is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Plausible Analytics
 
@@ -73,6 +73,8 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Matomo
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Matomo review (2026): pricing, AI features, verdict
 
 Open-source web analytics platform with full data ownership and AI-powered insights

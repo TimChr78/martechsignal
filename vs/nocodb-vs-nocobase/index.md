@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Free tier | Free tier |
 | Open source | yes | yes |
-| Integrations listed | [&#x27;PostgreSQL&#x27;, &#x27;MySQL&#x27;, &#x27;SQLite&#x27;, &#x27;REST APIs (v3) with Swagger&#x27;, &#x27;Conditional webhooks with custom payloads&#x27;, &#x27;MCP server&#x27;, &#x27;Slack / Discord / Mattermost (paid App Store)&#x27;, &#x27;AWS SES / SMTP / MailerSend (paid App Store)&#x27;] | [&#x27;REST API&#x27;, &#x27;Webhooks&#x27;] |
+| Integrations listed | 8 listed: PostgreSQL, MySQL, SQLite, REST APIs (v3) with Swagger (+4 more) | 2 listed: REST API, Webhooks |
 | Public API | yes | yes |
 
 

@@ -23,7 +23,7 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Copy.ai is a freemium in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Copy.ai is a tool in AI Content &amp; Copywriting with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Jasper
 
@@ -49,7 +49,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Copy.ai
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Copy.ai review (2026): pricing, AI features, verdict
 

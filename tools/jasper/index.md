@@ -23,7 +23,7 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Jasper is a from $49/mo in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Jasper is a tool in AI Content &amp; Copywriting with paid plans starting at $49/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 ContentBot
 
@@ -53,7 +53,7 @@ AI content creation and optimization platform for regulated financial services m
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Jasper
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Jasper review (2026): pricing, AI features, verdict
 

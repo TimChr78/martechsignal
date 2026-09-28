@@ -23,7 +23,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** MultiPost is a open source in Social Media, a public API, self-hosting. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** MultiPost is a tool in Social Media with free and open source. The catalog documents 2 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hootsuite
 
@@ -49,7 +49,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - MultiPost
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## MultiPost review (2026): pricing, AI features, verdict
 

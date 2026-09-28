@@ -31,7 +31,7 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Postmark is a freemium in Email Marketing, a public API. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Postmark is a tool in Email Marketing with a free tier. The catalog documents 3 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Resend
 

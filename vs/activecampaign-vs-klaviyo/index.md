@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | From $15/mo | Freemium |
 | Open source | no | no |
-| Integrations listed | [&#x27;Shopify&#x27;, &#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;WooCommerce&#x27;, &#x27;Stripe&#x27;, &#x27;HubSpot&#x27;, &#x27;Google Analytics&#x27;] | [&#x27;Shopify&#x27;, &#x27;WooCommerce&#x27;, &#x27;BigCommerce&#x27;, &#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;Stripe&#x27;, &#x27;Google Analytics&#x27;] |
+| Integrations listed | 8 listed: Shopify, Salesforce, Slack, Zapier (+4 more) | 8 listed: Shopify, WooCommerce, BigCommerce, Salesforce (+4 more) |
 | Public API | yes | yes |
 
 

@@ -33,7 +33,7 @@ Not a marketer-facing one. Unomi is a REST server, and the privacy and configura
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Apache Unomi is a open source in Personalization &amp; CDP, a public API, self-hosting. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Apache Unomi is a tool in Personalization &amp; CDP with free and open source. The catalog documents 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 

@@ -23,7 +23,7 @@ Promising for teams ready to run self-hosted SEO loops with agent review. Everyo
 - **API:** No
 - **Last verified:** 2026-08-28
 
-**Verdict:** Growth Lab is a open source in Agent Skills, self-hosting. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Growth Lab is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Codex SEO
 
@@ -53,7 +53,7 @@ Aaron Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Growth Lab
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Growth Lab review (2026): pricing, AI features, verdict
 

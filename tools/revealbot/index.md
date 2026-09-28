@@ -41,7 +41,7 @@ An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Co
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Revealbot (Birch) is a from $49/mo in Advertising &amp; Paid Media, a public API. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Revealbot (Birch) is a tool in Advertising &amp; Paid Media with paid plans starting at $49/mo. The catalog documents 4 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 

@@ -24,7 +24,7 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** OpenClaw Marketing Skills is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OpenClaw Marketing Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Codex SEO
 
@@ -50,7 +50,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 

@@ -25,7 +25,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Plausible Analytics is a open source in Analytics &amp; Attribution, a public API, self-hosting. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Plausible Analytics is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Matomo
 
@@ -51,7 +51,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 

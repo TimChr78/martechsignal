@@ -28,7 +28,7 @@ Yes. Brandtech Group branding appears across the site, the legal entity in the f
 - **API:** No
 - **Last verified:** 2026-09-06
 
-**Verdict:** Pencil is a from $14/mo in Advertising &amp; Paid Media. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Pencil is a tool in Advertising &amp; Paid Media with paid plans starting at $14/mo. The catalog documents 5 AI features and 11 integrations. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 
@@ -54,6 +54,8 @@ AI platform generating high-converting ad creatives and social media post design
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Pencil
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Pencil review (2026): pricing, AI features, verdict
 
 AI-powered ad creative generation and performance prediction for paid media

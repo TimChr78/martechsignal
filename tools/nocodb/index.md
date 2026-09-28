@@ -42,7 +42,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** NocoDB is a free tier in Marketing Automation, a public API, self-hosting. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** NocoDB is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Ever Gauzy
 

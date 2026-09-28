@@ -32,7 +32,7 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Ahrefs is a from $129/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ahrefs is a tool in GEO &amp; LLM Optimization with paid plans starting at $129/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 

@@ -45,7 +45,7 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** OpenOutreach is a open source in Email Marketing, self-hosting. The catalog documents 5 AI features, 9 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OpenOutreach is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 9 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 BillionMail
 

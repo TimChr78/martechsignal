@@ -33,7 +33,7 @@ The features page describes IP anonymization for visitor records, site tracking 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Mautic is a open source in Marketing Automation, a public API, self-hosting. The catalog documents 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Mautic is a tool in Marketing Automation with free and open source. The catalog documents 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 HubSpot Marketing Hub
 

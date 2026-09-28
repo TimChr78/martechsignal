@@ -32,7 +32,7 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Ortto is a from $199/mo in Marketing Automation, a public API. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Ortto is a tool in Marketing Automation with paid plans starting at $199/mo. The catalog documents 6 AI features, 13 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 HubSpot Marketing Hub
 

@@ -23,7 +23,7 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Braze is a enterprise in Marketing Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Braze is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Laudspeaker
 
@@ -53,7 +53,7 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Braze
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Braze review (2026): pricing, AI features, verdict
 

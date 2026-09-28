@@ -32,7 +32,7 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Persado is a enterprise in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Persado is a tool in AI Content &amp; Copywriting with custom pricing. The catalog documents 5 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Bloomreach
 

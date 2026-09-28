@@ -31,7 +31,7 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Phrasee is a enterprise in AI Content &amp; Copywriting. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Phrasee is a tool in AI Content &amp; Copywriting with custom pricing. The catalog documents 4 AI features and 12 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hypotenuse AI
 

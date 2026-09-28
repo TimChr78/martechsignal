@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Enterprise | Freemium |
 | Open source | no | no |
-| Integrations listed | [&#x27;Salesforce CRM&#x27;, &#x27;Data 360 (Data Cloud)&#x27;, &#x27;Slack&#x27;, &#x27;Tableau&#x27;, &#x27;MuleSoft&#x27;, &#x27;Snowflake&#x27;, &#x27;Shopify&#x27;, &#x27;Google Ads&#x27;, &#x27;Meta Ads&#x27;] | [&#x27;Salesforce&#x27;, &#x27;Slack&#x27;, &#x27;Zapier&#x27;, &#x27;Shopify&#x27;, &#x27;WordPress&#x27;, &#x27;Gmail&#x27;, &#x27;Outlook&#x27;, &#x27;Stripe&#x27;] |
+| Integrations listed | 9 listed: Salesforce CRM, Data 360 (Data Cloud), Slack, Tableau (+5 more) | 8 listed: Salesforce, Slack, Zapier, Shopify (+4 more) |
 | Public API | yes | yes |
 
 

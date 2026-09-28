@@ -23,7 +23,7 @@ Strong for enterprise media teams with large budgets and mature conversion track
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Albert AI is a enterprise in Advertising &amp; Paid Media, a public API. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Albert AI is a tool in Advertising &amp; Paid Media with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Madgicx
 
@@ -49,7 +49,7 @@ AI-powered ad creative generation and performance prediction for paid media
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Albert AI
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Albert AI review (2026): pricing, AI features, verdict
 

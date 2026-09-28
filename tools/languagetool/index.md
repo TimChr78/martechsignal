@@ -39,7 +39,7 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** LanguageTool is a freemium in AI Content &amp; Copywriting, a public API, self-hosting. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LanguageTool is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Ghost
 

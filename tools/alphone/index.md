@@ -34,7 +34,7 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** AlphOne is a open source in CRM, a public API, self-hosting. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AlphOne is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 DeskcommCRM
 
@@ -60,6 +60,8 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - AlphOne
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## AlphOne review (2026): pricing, AI features, verdict
 
 Plugin-first CRM (source-available, Elastic 2.0) written in Go

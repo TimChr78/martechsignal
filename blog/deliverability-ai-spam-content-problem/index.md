@@ -86,7 +86,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Related tools
 
 - [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -152,7 +152,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1746,
+  "wordCount": 1745,
   "articleSection": "email-marketing"
 }
 ```

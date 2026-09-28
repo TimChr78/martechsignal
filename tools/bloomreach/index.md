@@ -23,7 +23,7 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Bloomreach is a enterprise in Marketing Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Bloomreach is a tool in Marketing Automation with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nosto
 
@@ -49,7 +49,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Bloomreach review (2026): pricing, AI features, verdict
 

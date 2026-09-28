@@ -35,7 +35,7 @@ The CLI generates attack probes against an application and reports findings. The
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Promptfoo is a freemium in GEO &amp; LLM Optimization, a public API, self-hosting. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Promptfoo is a tool in GEO &amp; LLM Optimization with free and open source. The catalog documents 3 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nightwatch
 

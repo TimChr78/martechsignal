@@ -23,7 +23,7 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** Eve Marketing Team Template is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Eve Marketing Team Template is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 Email Marketing Bible
 
@@ -53,7 +53,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Eve Marketing Team Template
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 KIND: Utility (not an end-to-end platform)
 

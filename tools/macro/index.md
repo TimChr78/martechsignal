@@ -30,7 +30,7 @@ Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focu
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Macro is a freemium in CRM, a public API, self-hosting. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Macro is a tool in CRM with paid plans starting at $40/mo. The catalog documents 8 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Freshsales
 

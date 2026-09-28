@@ -36,7 +36,7 @@ Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall inc
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Rankscale is a from $99/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Rankscale is a tool in GEO &amp; LLM Optimization with paid plans starting at $99/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 

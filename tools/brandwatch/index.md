@@ -23,7 +23,7 @@ The listening leader for enterprise consumer-intelligence teams. Posting-only te
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Brandwatch is a enterprise in Social Media, a public API. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Brandwatch is a tool in Social Media with custom pricing. The catalog documents 5 AI features, 7 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Sprout Social
 
@@ -49,7 +49,7 @@ Browser extension to publish content to multiple social media platforms with one
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Brandwatch
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Brandwatch review (2026): pricing, AI features, verdict
 

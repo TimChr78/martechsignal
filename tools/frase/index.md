@@ -30,7 +30,7 @@ We found no Surfer integration in Frase&#x27;s integrations page or docs index; 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Frase is a from $39/mo in SEO &amp; Search, a public API. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Frase is a tool in SEO &amp; Search with paid plans starting at $39/mo. The catalog documents 8 AI features, 14 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Clearscope
 

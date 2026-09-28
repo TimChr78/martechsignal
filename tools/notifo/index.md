@@ -32,7 +32,7 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Notifo is a open source in Email Marketing, a public API, self-hosting. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Notifo is a tool in Email Marketing with free and open source. The catalog documents 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Customer.io
 

@@ -23,7 +23,7 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Superlines is a from $79/mo in SEO &amp; Search, a public API. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Superlines is a tool in SEO &amp; Search with paid plans starting at $79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Profound
 

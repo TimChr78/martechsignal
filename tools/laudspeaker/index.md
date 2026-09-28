@@ -23,7 +23,7 @@ The open-source Braze alternative for technical growth teams that want data owne
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Laudspeaker is a open source in Marketing Automation, a public API, self-hosting. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Laudspeaker is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Braze
 
@@ -53,7 +53,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Laudspeaker review (2026): pricing, AI features, verdict
 

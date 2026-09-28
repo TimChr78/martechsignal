@@ -32,7 +32,7 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** OpenSEO is a open source in SEO &amp; Search, self-hosting. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OpenSEO is a tool in SEO &amp; Search with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Semrush
 
@@ -156,7 +156,7 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 ## Related reading
 
 - [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 

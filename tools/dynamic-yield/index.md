@@ -51,7 +51,7 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Dynamic Yield is a enterprise in Personalization &amp; CDP, a public API. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Dynamic Yield is a tool in Personalization &amp; CDP with custom pricing. The catalog documents 7 AI features, 10 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nosto
 
@@ -81,6 +81,8 @@ Apache&#x27;s open-source customer data platform and personalization engine
 - [Tools](/tools/)
 - [Personalization &amp; CDP](/categories/personalization/)
 - Dynamic Yield
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 
 AI-powered personalization platform for web, mobile, and email experiences

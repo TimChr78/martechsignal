@@ -23,7 +23,7 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** Potato is a open source in SEO &amp; Search, a public API, self-hosting. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Potato is a tool in SEO &amp; Search with free and open source. The catalog documents 5 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 OtterlyAI
 
@@ -49,7 +49,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 KIND: Utility (not an end-to-end platform)
 

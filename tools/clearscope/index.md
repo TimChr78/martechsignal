@@ -23,7 +23,7 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Clearscope is a from $129/mo in SEO &amp; Search, a public API. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Clearscope is a tool in SEO &amp; Search with paid plans starting at $129/mo. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Surfer SEO
 
@@ -49,7 +49,7 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Clearscope
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Clearscope review (2026): pricing, AI features, verdict
 

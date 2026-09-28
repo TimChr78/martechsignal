@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Pricing | Open Source | Open Source |
 | Open source | yes | yes |
-| Integrations listed | [&#x27;WordPress&#x27;, &#x27;Matomo Tag Manager&#x27;, &#x27;Google Tag Manager&#x27;, &#x27;Google Analytics Importer&#x27;, &#x27;Shopify&#x27;, &#x27;BigQuery&#x27;, &#x27;OneTrust&#x27;, &#x27;Cookiebot&#x27;] | [&#x27;WordPress&#x27;, &#x27;Ghost&#x27;, &#x27;Webflow&#x27;, &#x27;Zapier&#x27;, &#x27;Google Search Console&#x27;, &#x27;Slack&#x27;] |
+| Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: WordPress, Ghost, Webflow, Zapier (+2 more) |
 | Public API | yes | yes |
 
 

@@ -29,7 +29,7 @@ Yes, for training. The Workato Automation Institute&#x27;s certificate programs 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Workato is a enterprise in Workflow Automation, a public API. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Workato is a tool in Workflow Automation with custom pricing. The catalog documents 6 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedream
 

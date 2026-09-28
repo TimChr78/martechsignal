@@ -35,7 +35,7 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Make is a freemium in Workflow Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Make is a tool in Workflow Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 

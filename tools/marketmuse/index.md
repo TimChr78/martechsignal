@@ -31,7 +31,7 @@ A query is spent when you enter a focus topic into one of the applications (Rese
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** MarketMuse is a paid in SEO &amp; Search. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** MarketMuse is a tool in SEO &amp; Search with custom pricing. The catalog documents 4 AI features and 4 integrations. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Surfer SEO
 

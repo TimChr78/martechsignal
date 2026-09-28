@@ -25,7 +25,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** LangChain is a open source in Workflow Automation, a public API, self-hosting. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 
@@ -55,7 +55,7 @@ Visual automation platform for building complex workflows with AI agents and app
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## LangChain review (2026): pricing, AI features, verdict
 

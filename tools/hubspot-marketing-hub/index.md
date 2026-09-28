@@ -25,7 +25,7 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** HubSpot Marketing Hub is a freemium in Marketing Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** HubSpot Marketing Hub is a tool in Marketing Automation with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 ActiveCampaign
 
@@ -53,7 +53,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - HubSpot Marketing Hub
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## HubSpot Marketing Hub review (2026): pricing, AI features, verdict
 

@@ -23,7 +23,7 @@ Strengths include an API for custom integrations. The full review breaks down wh
 - **API:** Yes
 - **Last verified:** 2026-09-27
 
-**Verdict:** Microsoft Power Automate is a from $15/mo in Workflow Automation, a public API. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Microsoft Power Automate is a tool in Workflow Automation with paid plans starting at $15/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Workato
 

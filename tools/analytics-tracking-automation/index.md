@@ -23,7 +23,7 @@ Free and fast if tracking keeps slipping through the cracks. Review every schema
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Analytics Tracking Automation is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Analytics Tracking Automation is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 AI Business Skills
 
@@ -49,7 +49,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Analytics Tracking Automation
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 

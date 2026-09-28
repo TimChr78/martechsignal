@@ -41,7 +41,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Django CRM is a open source in CRM, a public API, self-hosting. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Django CRM is a tool in CRM with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 SuiteCRM
 
@@ -71,6 +71,8 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Django CRM review (2026): pricing, AI features, verdict
 
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting

@@ -32,7 +32,7 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** ToolJet is a free tier in Workflow Automation, a public API, self-hosting. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ToolJet is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Appsmith
 

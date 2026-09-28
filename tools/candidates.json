@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "source": "github",
+    "name": "digital-marketing-pro",
+    "full_name": "indranilbanerjee/digital-marketing-pro",
+    "description": "An open-source AI marketing operating system for strategy, SEO, AEO/GEO, paid media, content, CRM, and analytics - grounded in brand context, human approval, and verifiable outputs.",
+    "stars": 837,
+    "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+    "homepage": "https://indranil.in",
+    "topics": [
+      "aeo",
+      "agent-skills",
+      "ai-marketing",
+      "c2pa",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "content-marketing",
+      "copilot-cli-plugin",
+      "cursor-plugin",
+      "eu-ai-act",
+      "gemini-cli-extension",
+      "geo",
+      "google-antigravity",
+      "hermes-plugin",
+      "marketing-agency",
+      "marketing-automation",
+      "openai-codex",
+      "openclaw-plugin",
+      "seo"
+    ],
+    "language": "Python",
+    "last_push": "2026-09-07T10:21:26Z",
+    "discovered": "2026-09-28T06:00:14.817118"
+  },
+  {
+    "source": "rss:Salesforce",
+    "title": "State of Commerce Report Takeaways For Startups and SMBs",
+    "feed_url": "https://www.salesforce.com/blog/feed/",
+    "discovered": "2026-09-28T06:00:37.434005"
+  },
+  {
+    "source": "rss:Zapier",
+    "title": "The 9 best AI tools for social media management in 2026",
+    "feed_url": "https://zapier.com/blog/feeds/latest/",
+    "discovered": "2026-09-28T06:00:37.890052"
+  }
+]

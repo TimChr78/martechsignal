@@ -23,7 +23,7 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Heap is a freemium in Analytics &amp; Attribution, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Heap is a tool in Analytics &amp; Attribution with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Mixpanel
 
@@ -53,7 +53,7 @@ AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Heap
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Heap review (2026): pricing, AI features, verdict
 

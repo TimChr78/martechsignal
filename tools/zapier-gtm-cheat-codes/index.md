@@ -23,7 +23,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 - **API:** Yes
 - **Last verified:** 2026-08-31
 
-**Verdict:** Zapier GTM Cheat Codes is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Zapier GTM Cheat Codes is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-31. This is a desk review, not a hands-on test. Desk-reviewed
 
 AI Business Skills
 
@@ -53,7 +53,7 @@ OpenClaw Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (27 days ago).
+Re-check pending: pricing last verified 2026-08-31 (28 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 

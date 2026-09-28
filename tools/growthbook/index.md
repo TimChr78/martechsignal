@@ -33,7 +33,7 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** GrowthBook is a freemium in Personalization &amp; CDP, a public API, self-hosting. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** GrowthBook is a tool in Personalization &amp; CDP with free and open source. The catalog documents 4 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Flagsmith
 

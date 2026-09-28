@@ -23,7 +23,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 - **API:** Yes
 - **Last verified:** 2026-09-27
 
-**Verdict:** Adobe Marketo Engage is a enterprise in Marketing Automation, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Adobe Marketo Engage is a tool in Marketing Automation with paid plans starting at $895/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Bloomreach
 

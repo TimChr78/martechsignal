@@ -29,7 +29,7 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** SuiteCRM is a open source in CRM, a public API, self-hosting. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** SuiteCRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Django CRM
 

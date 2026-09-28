@@ -29,7 +29,7 @@ Plus receives limited access covering only Visibility Index data. Professional a
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** SISTRIX is a from $119/mo in GEO &amp; LLM Optimization, a public API. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** SISTRIX is a tool in GEO &amp; LLM Optimization with paid plans starting at $119/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Rankscale
 

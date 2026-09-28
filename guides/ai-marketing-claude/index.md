@@ -23,7 +23,7 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 - **API:** No
 - **Last verified:** 2026-08-28
 
-**Verdict:** AI Marketing Suite is a open source in Agent Skills, self-hosting. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Claude SEO
 
@@ -49,7 +49,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Guides](/guides/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Marketing Suite
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 KIND: Guide (not an end-to-end platform)
 

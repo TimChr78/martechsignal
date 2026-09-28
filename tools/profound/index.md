@@ -33,7 +33,7 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Profound is a enterprise in GEO &amp; LLM Optimization, a public API. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Profound is a tool in GEO &amp; LLM Optimization with custom pricing. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Rankscale
 

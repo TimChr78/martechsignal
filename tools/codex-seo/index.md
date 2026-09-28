@@ -23,7 +23,7 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Codex SEO is a free in Agent Skills, a public API. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Codex SEO is a tool in Agent Skills with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Claude SEO
 
@@ -53,7 +53,7 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Codex SEO review (2026): pricing, AI features, verdict
 

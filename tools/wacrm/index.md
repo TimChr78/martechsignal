@@ -40,7 +40,7 @@ Automations and flows never run. The container schedules nothing internally, so 
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** WaCRM is a open source in CRM, a public API, self-hosting. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** WaCRM is a tool in CRM with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 DeskcommCRM
 

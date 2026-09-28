@@ -23,7 +23,7 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Chatfuel is a from $39/mo in Chatbots &amp; Conversational AI, a public API. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Chatfuel is a tool in Chatbots &amp; Conversational AI with paid plans starting at $39/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 ManyChat
 
@@ -49,7 +49,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Chatfuel
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Chatfuel review (2026): pricing, AI features, verdict
 

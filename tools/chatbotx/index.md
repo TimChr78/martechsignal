@@ -22,7 +22,7 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ChatbotX is a open source in Chatbots &amp; Conversational AI, a public API, self-hosting. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ChatbotX is a tool in Chatbots &amp; Conversational AI with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Chatfuel
 
@@ -48,7 +48,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - ChatbotX
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## ChatbotX review (2026): pricing, AI features, verdict
 

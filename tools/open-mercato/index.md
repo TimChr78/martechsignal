@@ -34,7 +34,7 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Open Mercato is a open source in Agent Skills, a public API, self-hosting. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Open Mercato is a tool in Agent Skills with free and open source. The catalog documents 3 AI features, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 DeskcommCRM
 

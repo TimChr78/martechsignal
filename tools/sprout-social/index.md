@@ -23,7 +23,7 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Sprout Social is a from $249/mo in Social Media, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Sprout Social is a tool in Social Media with paid plans starting at $249/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Hootsuite
 
@@ -49,7 +49,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Sprout Social
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Sprout Social review (2026): pricing, AI features, verdict
 

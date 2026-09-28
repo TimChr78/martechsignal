@@ -23,7 +23,7 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Northbeam is a enterprise in Analytics &amp; Attribution, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Northbeam is a tool in Analytics &amp; Attribution with custom pricing. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Triple Whale
 
@@ -49,7 +49,7 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Northbeam
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Northbeam review (2026): pricing, AI features, verdict
 

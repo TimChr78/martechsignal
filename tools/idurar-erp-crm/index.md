@@ -31,7 +31,7 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** IDURAR ERP &amp; CRM is a open source in CRM, a public API, self-hosting. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** IDURAR ERP &amp; CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Frappe CRM
 

@@ -44,7 +44,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Twenty is a open source in CRM, a public API, self-hosting. The catalog documents 4 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Twenty is a tool in CRM with free and open source. The catalog documents 4 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Cordys CRM
 

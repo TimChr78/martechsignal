@@ -74,7 +74,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - **Agents:** 18
 - **Commands:** 30
 
-**Verdict:** Claude SEO is a open source in Agent Skills, a public API, self-hosting. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Codex SEO
 

@@ -42,7 +42,7 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Umami is a open source in Analytics &amp; Attribution, a public API, self-hosting. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Umami is a tool in Analytics &amp; Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 PostHog
 

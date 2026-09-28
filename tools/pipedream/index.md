@@ -19,7 +19,7 @@ The automation platform for developers who want code control with SaaS convenien
 - **API:** No
 - **Last verified:** 2026-09-25
 
-**Verdict:** Pipedream is a from $29/mo in Workflow Automation. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Pipedream is a tool in Workflow Automation with paid plans starting at $29/mo. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 

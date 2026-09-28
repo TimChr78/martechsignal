@@ -25,7 +25,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Strapi is a open source in AI Content &amp; Copywriting, a public API, self-hosting. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Strapi is a tool in AI Content &amp; Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 n8n
 
@@ -51,7 +51,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 

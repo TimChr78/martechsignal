@@ -30,7 +30,7 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 - **API:** No
 - **Last verified:** 2026-09-07
 
-**Verdict:** Maizzle is a free in Email Marketing, self-hosting. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Maizzle is a tool in Email Marketing with free and open source. The catalog documents a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 BillionMail
 

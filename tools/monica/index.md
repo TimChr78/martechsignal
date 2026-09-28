@@ -47,7 +47,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Monica is a open source in CRM, a public API, self-hosting. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Monica is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Ever Gauzy
 

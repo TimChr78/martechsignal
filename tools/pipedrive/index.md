@@ -24,7 +24,7 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Pipedrive is a from $14/mo in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Pipedrive is a tool in CRM with paid plans starting at $14/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Freshsales
 
@@ -52,7 +52,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Pipedrive
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Pipedrive review (2026): pricing, AI features, verdict
 

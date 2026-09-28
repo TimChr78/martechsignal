@@ -23,7 +23,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Attio is a freemium in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Attio is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 
@@ -53,7 +53,7 @@ Open-source lead prospecting CRM with Google Maps and Instagram scraping
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Attio
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Attio review (2026): pricing, AI features, verdict
 

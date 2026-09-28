@@ -120,6 +120,18 @@ def _plabel(t):
         return str(t.get("price_notes") or t.get("price_from") or "see page")
 
 
+def _integ_cell(t):
+    """r7 C3: show integration names readably, never a raw Python list repr."""
+    v = t.get("integrations")
+    if not v:
+        return "not listed"
+    if isinstance(v, list):
+        names = ", ".join(str(i) for i in v[:4])
+        more = f" (+{len(v) - 4} more)" if len(v) > 4 else ""
+        return f"{len(v)} listed: {names}{more}"
+    return str(v)
+
+
 def build_vs():
     data = json.loads(VSX.read_text())
     tools_by_slug = _load_tools()
@@ -140,8 +152,7 @@ def build_vs():
             ("Pricing", _plabel(a), _plabel(b)),
             ("Open source", "yes" if a.get("open_source") else "no",
              "yes" if b.get("open_source") else "no"),
-            ("Integrations listed", str(a.get("integrations") or "not listed"),
-             str(b.get("integrations") or "not listed")),
+            ("Integrations listed", _integ_cell(a), _integ_cell(b)),
             ("Public API", "yes" if a.get("api_available") else "no",
              "yes" if b.get("api_available") else "no"),
         ]

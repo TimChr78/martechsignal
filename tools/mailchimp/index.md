@@ -25,7 +25,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Mailchimp is a freemium in Email Marketing, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Mailchimp is a tool in Email Marketing with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Klaviyo
 
@@ -57,7 +57,7 @@ Ratings shown are third-party (G2), not MartechSignal's. Our hands-on assessment
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Mailchimp
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Mailchimp review (2026): pricing, AI features, verdict
 

@@ -29,7 +29,7 @@ Only at the small end. Starter Suite and Pro Suite carry a &#x27;try for free&#x
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Salesforce Marketing Cloud is a enterprise in Marketing Automation, a public API. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Salesforce Marketing Cloud is a tool in Marketing Automation with paid plans starting at $1500/mo. The catalog documents 5 AI features, 9 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Bloomreach
 
@@ -55,6 +55,8 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Salesforce Marketing Cloud
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Salesforce Marketing Cloud review (2026): pricing, AI features, verdict
 
 Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web

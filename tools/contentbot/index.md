@@ -23,7 +23,7 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** ContentBot is a freemium in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** ContentBot is a tool in AI Content &amp; Copywriting with a free tier. The catalog documents 5 AI features, 5 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Jasper
 
@@ -53,7 +53,7 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 

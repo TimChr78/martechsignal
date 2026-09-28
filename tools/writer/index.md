@@ -32,7 +32,7 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Writer is a paid in AI Content &amp; Copywriting, a public API. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Writer is a tool in AI Content &amp; Copywriting with custom pricing. The catalog documents 5 AI features, 12 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Tealium
 

@@ -24,7 +24,7 @@ The strongest self-hosted mailing platform we have run; bring your own forms and
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** Listmonk is a open source in Email Marketing, a public API, self-hosting. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Notifuse
 
@@ -54,7 +54,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 

@@ -23,7 +23,7 @@ Buy it when ad volume is your bottleneck and speed matters. Skip it if your bran
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** AdCreative.ai is a from $39/mo in Advertising &amp; Paid Media, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AdCreative.ai is a tool in Advertising &amp; Paid Media with paid plans starting at $39/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 
@@ -49,7 +49,7 @@ AI-powered Meta ads optimization and creative workflow
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - AdCreative.ai
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 

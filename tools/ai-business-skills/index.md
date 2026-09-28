@@ -23,7 +23,7 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 - **API:** No
 - **Last verified:** 2026-08-28
 
-**Verdict:** AI Business Skills is a open source in Agent Skills, self-hosting. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AI Business Skills is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 4 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Zapier GTM Cheat Codes
 
@@ -49,7 +49,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Business Skills
-Re-check pending: pricing last verified 2026-08-28 (30 days ago).
+Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 ## AI Business Skills review (2026): pricing, AI features, verdict
 

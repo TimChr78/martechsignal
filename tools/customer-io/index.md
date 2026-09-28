@@ -29,7 +29,7 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Customer.io is a from $100/mo in Email Marketing, a public API. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Customer.io is a tool in Email Marketing with paid plans starting at $100/mo. The catalog documents 6 AI features, 11 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Resend
 
@@ -55,6 +55,8 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Customer.io review (2026): pricing, AI features, verdict
 
 Data-driven messaging platform for automated email, push, SMS, and in-app messages

@@ -107,7 +107,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Related tools
 
 - [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) - Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
@@ -173,7 +173,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1817,
+  "wordCount": 1814,
   "articleSection": "analytics"
 }
 ```

@@ -45,7 +45,7 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 - **API:** No
 - **Last verified:** 2026-09-06
 
-**Verdict:** React Email Editor is a open source in Email Marketing, self-hosting. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** React Email Editor is a tool in Email Marketing with free and open source. The catalog documents 5 AI features, 7 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Resend
 
@@ -75,6 +75,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## React Email Editor review (2026): pricing, AI features, verdict
 
 Drag-n-Drop Email Editor Component for React.js

@@ -29,7 +29,7 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - **API:** Yes
 - **Last verified:** 2026-09-06
 
-**Verdict:** Freshsales is a free tier in CRM, a public API. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Freshsales is a tool in CRM with a free tier. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedrive
 
@@ -59,6 +59,8 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Freshsales
+Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+
 ## Freshsales review (2026): pricing, AI features, verdict
 
 AI-powered CRM with built-in phone, email, and chat for sales teams

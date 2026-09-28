@@ -22,7 +22,7 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. The ful
 - **API:** No
 - **Last verified:** 2026-09-03
 
-**Verdict:** SEO Skill Bench is a open source in Agent Skills, self-hosting. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
 
 Zapier GTM Cheat Codes
 
@@ -52,7 +52,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (24 days ago).
+Re-check pending: pricing last verified 2026-09-03 (25 days ago).
 
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 
