@@ -19,7 +19,7 @@
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
 
 **What is Budibase?**
-Open-source operations platform for building AI agents, apps and automations on your own data. It ships with AI agents with tools, memory and structured outputs (beta since March 2026), 28,267 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Budibase cost?**
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source operations platform for building AI agents, apps and automations on your own data. It ships with AI agents with tools, memory and structured outputs (beta since March 2026), 28,267 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Budibase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source operations platform for building AI agents, apps and automations on your own data. It ships with AI agents with tools, memory and structured outputs (beta since March 2026), 28,267 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,267 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -22,7 +22,7 @@
 | &#10003; v0.18.0 added Claude SERP analytics, useful for LLM answer data. |  |
 
 **What is advertools?**
-Python toolkit for SEO and advertising analysis in pandas DataFrames. It ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0, 1,464 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does advertools cost?**
 advertools is open source - MIT licensed and free to self-host; the public repository carries 1,464 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Python toolkit for SEO and advertising analysis in pandas DataFrames. It ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0, 1,464 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 advertools is open source - MIT licensed and free to self-host; the public repository carries 1,464 stars; native integrations cover Python pandas, Scrapy, Google Search API. You pay in server time and maintenance, not licences.
 
@@ -240,7 +240,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is advertools?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Python toolkit for SEO and advertising analysis in pandas DataFrames. It ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0, 1,464 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "advertools: Python toolkit for SEO and advertising analysis in pandas DataFrames. advertools ships with claude SERP analytics module (advertools.serp_claude), added in v0.18.0. The public repository carries 1,464 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

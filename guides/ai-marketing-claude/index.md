@@ -8,7 +8,7 @@
 | &#10003; Active public repository (2,628 GitHub stars counted at last check) |  |
 
 **What is AI Marketing Suite?**
-15-skill marketing suite for Claude Code with parallel agents and PDF reports. It ships with 15 marketing skills with 5 parallel subagents, 2,628 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does AI Marketing Suite cost?**
 AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-15-skill marketing suite for Claude Code with parallel agents and PDF reports. It ships with 15 marketing skills with 5 parallel subagents, 2,628 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 AI Marketing Suite is open source - MIT licensed and free to self-host; the public repository carries 2,628 stars. You pay in server time and maintenance, not licences.
 
@@ -245,7 +245,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AI Marketing Suite?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "15-skill marketing suite for Claude Code with parallel agents and PDF reports. It ships with 15 marketing skills with 5 parallel subagents, 2,628 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. AI Marketing Suite ships with 15 marketing skills with 5 parallel subagents. The public repository carries 2,628 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

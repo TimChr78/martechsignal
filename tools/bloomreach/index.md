@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Bloomreach?**
-AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Bloomreach cost?**
 Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Bloomreach?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Bloomreach: AI-powered commerce experience platform with search, personalization, and CDP. Bloomreach ships with loomi AI search. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Notifo?**
-Self-hosted multi-channel notification service for email, SMS, and web push. It ships with 880 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Notifo cost?**
 Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Self-hosted multi-channel notification service for email, SMS, and web push. It ships with 880 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Notifo is open source - MIT licensed and free to self-host; the public repository carries 880 stars; native integrations cover Amazon SES (email), MessageBird (SMS), Firebase Cloud Messaging (mobile push). You pay in server time and maintenance, not licences.
 
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Notifo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Self-hosted multi-channel notification service for email, SMS, and web push. It ships with 880 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Notifo: Self-hosted multi-channel notification service for email, SMS, and web push. The public repository carries 880 stars. Notifo offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

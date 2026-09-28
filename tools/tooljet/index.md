@@ -19,7 +19,7 @@
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
 
 **What is ToolJet?**
-Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. It ships with toolJet AI generates apps from a prompt, 40,873 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ToolJet: Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. ToolJet ships with toolJet AI generates apps from a prompt. The public repository carries 40,873 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ToolJet cost?**
 ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. It ships with toolJet AI generates apps from a prompt, 40,873 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ToolJet: Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. ToolJet ships with toolJet AI generates apps from a prompt. The public repository carries 40,873 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ToolJet?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. It ships with toolJet AI generates apps from a prompt, 40,873 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ToolJet: Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. ToolJet ships with toolJet AI generates apps from a prompt. The public repository carries 40,873 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

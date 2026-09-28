@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free to use) |  |
 
 **What is Codex SEO?**
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. It ships with 26 SEO workflows with 24 TOML agent profiles, 694 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Codex SEO cost?**
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. It ships with 26 SEO workflows with 24 TOML agent profiles, 694 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Codex SEO has a free tier, so you can run a real evaluation before paying. Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -230,7 +230,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Codex SEO?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. It ships with 26 SEO workflows with 24 TOML agent profiles, 694 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 694 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

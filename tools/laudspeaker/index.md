@@ -19,7 +19,7 @@
 | &#10003; Active public repository (2,622 GitHub stars counted at last check) |  |
 
 **What is Laudspeaker?**
-Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,622 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Laudspeaker cost?**
 Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,622 stars. You pay in server time and maintenance, not licences.
@@ -128,7 +128,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,622 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Laudspeaker is open source - MIT licensed and free to self-host; the public repository carries 2,622 stars. You pay in server time and maintenance, not licences.
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Laudspeaker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Laudspeaker: Open-source customer engagement and product onboarding platform, alternative to Braze. Laudspeaker ships with AI-powered messaging. The public repository carries 2,622 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

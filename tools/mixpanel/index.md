@@ -19,7 +19,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan: unlimited seats, 1M events/mo, 10K session replay) |  |
 
 **What is Mixpanel?**
-Product analytics platform with AI-powered insights for user behavior tracking. It ships with mixpanel AI agents (Root Cause Analysis, Experiments), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Mixpanel cost?**
 Mixpanel has a free tier, so you can run a real evaluation before paying. Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth. We last checked the plan structure on 2026-09-06; paid tiers mainly raise limits rather than unlocking core features.
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Product analytics platform with AI-powered insights for user behavior tracking. It ships with mixpanel AI agents (Root Cause Analysis, Experiments), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Mixpanel has a free tier, so you can run a real evaluation before paying. Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth. We last checked the plan structure on 2026-09-06; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -268,7 +268,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Mixpanel?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Product analytics platform with AI-powered insights for user behavior tracking. It ships with mixpanel AI agents (Root Cause Analysis, Experiments), 10 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

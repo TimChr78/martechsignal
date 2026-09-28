@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterpris) |  |
 
 **What is Attio?**
-AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Attio cost?**
 Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Attio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

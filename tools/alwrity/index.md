@@ -19,7 +19,7 @@
 | &#10003; Active public repository (1,157 GitHub stars counted at last check) |  |
 
 **What is ALwrity?**
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. It ships with AI content strategy and planning, 1,157 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ALwrity cost?**
 ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. It ships with AI content strategy and planning, 1,157 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ALwrity is open source - Free to self-host; the public repository carries 1,157 stars. You pay in server time and maintenance, not licences.
 
@@ -217,7 +217,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ALwrity?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. It ships with AI content strategy and planning, 1,157 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ALwrity: AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social. ALwrity ships with AI content strategy and planning. The public repository carries 1,157 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Slack, Salesforce, HubSpot (8 listed) |  |
 
 **What is Intercom?**
-AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Intercom cost?**
 Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Intercom?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Intercom: AI-first customer service platform with Fin AI agent and omnichannel messaging. Intercom ships with fin AI agent. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

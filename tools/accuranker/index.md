@@ -20,7 +20,7 @@
 | &#10003; A 14-day refund policy and import support from other rank trackers lower the switching risk. |  |
 
 **What is AccuRanker?**
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. It ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AccuRanker: Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. AccuRanker ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does AccuRanker cost?**
 AccuRanker starts at €224/mo. Professional EUR 224/mo entry (2,000 keywords; 3,000 and 5,000 slots on the same tier); Expert EUR 764/mo (10,000-25,000 keywords); Enterprise for 25K+ keywords quoted by sales. Annual billing is 10% off. 14-day refund policy. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. It ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AccuRanker: Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. AccuRanker ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 AccuRanker starts at €224/mo. Professional EUR 224/mo entry (2,000 keywords; 3,000 and 5,000 slots on the same tier); Expert EUR 764/mo (10,000-25,000 keywords); Enterprise for 25K+ keywords quoted by sales. Annual billing is 10% off. 14-day refund policy. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AccuRanker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. It ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AccuRanker: Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews. AccuRanker ships with accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

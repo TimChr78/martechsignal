@@ -17,7 +17,7 @@
 | &#10003; Actively developed - latest release No tagged releases; ships as the :latest container image |  |
 
 **What is Seonaut?**
-Open-source SEO crawler in Go for technical audits, self-hosted or cloud. It ships with 782 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Seonaut cost?**
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -159,7 +159,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source SEO crawler in Go for technical audits, self-hosted or cloud. It ships with 782 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Seonaut has a free tier; paid plans start at $9/mo. MIT-licensed self-hosted free; cloud Lite free for 1 project and 500 URLs per project, Growth $9/mo for 5 projects and 10,000 URLs with recurring audits. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Seonaut?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source SEO crawler in Go for technical audits, self-hosted or cloud. It ships with 782 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Seonaut: Open-source SEO crawler in Go for technical audits, self-hosted or cloud. The public repository carries 782 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

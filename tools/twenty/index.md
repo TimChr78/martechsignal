@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Gmail &amp; Google Calendar, Outlook &amp; Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 **What is Twenty?**
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows. It ships with AI Chatbot with access to your workspace data, 56,507 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Twenty cost?**
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -175,7 +175,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows. It ships with AI Chatbot with access to your workspace data, 56,507 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Twenty has a free tier; paid plans start at $9/mo. Self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Twenty?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The open-source alternative to Salesforce, designed for AI with modern CRM workflows. It ships with AI Chatbot with access to your workspace data, 56,507 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Twenty: The open-source alternative to Salesforce, designed for AI with modern CRM workflows. Twenty ships with AI Chatbot with access to your workspace data. The public repository carries 56,507 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

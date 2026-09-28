@@ -18,7 +18,7 @@
 | &#10003; Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
 **What is Umami?**
-Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. It ships with 38,710 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Umami cost?**
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -159,7 +159,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. It ships with 38,710 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Umami?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. It ships with 38,710 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 38,710 stars. Umami offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

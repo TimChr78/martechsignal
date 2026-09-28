@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free covers 1,000 monthly tracked users and 2 sources) |  |
 
 **What is Twilio Segment?**
-Customer data platform for collecting, unifying, and activating customer data. It ships with predictions (4 models), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Twilio Segment cost?**
 Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -170,7 +170,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer data platform for collecting, unifying, and activating customer data. It ships with predictions (4 models), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -270,7 +270,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Twilio Segment?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Customer data platform for collecting, unifying, and activating customer data. It ships with predictions (4 models), 10 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

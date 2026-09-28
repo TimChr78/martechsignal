@@ -18,7 +18,7 @@
 | &#10003; Active public repository (2,704 GitHub stars counted at last check) |  |
 
 **What is Cordys CRM?**
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment. It ships with maxKB sales agents connected over the API, 2,704 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,704 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Cordys CRM cost?**
 Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,704 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
@@ -160,7 +160,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source AI CRM with built-in agents, conversational analytics, and private deployment. It ships with maxKB sales agents connected over the API, 2,704 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,704 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Cordys CRM is open source - GPL-3.0 licensed and free to self-host; the public repository carries 2,704 stars; native integrations cover MaxKB, DataEase, MCP. You pay in server time and maintenance, not licences.
 
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Cordys CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source AI CRM with built-in agents, conversational analytics, and private deployment. It ships with maxKB sales agents connected over the API, 2,704 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Cordys CRM: Open-source AI CRM with built-in agents, conversational analytics, and private deployment. Cordys CRM ships with maxKB sales agents connected over the API. The public repository carries 2,704 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

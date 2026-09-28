@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Google Maps, Instagram (2 listed) |  |
 
 **What is ProspectOS?**
-Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ProspectOS cost?**
 ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
@@ -133,7 +133,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ProspectOS is open source - MIT licensed and free to self-host; the public repository carries 214 stars. You pay in server time and maintenance, not licences.
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ProspectOS?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source lead prospecting CRM with Google Maps and Instagram scraping. It ships with lead discovery, 214 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ProspectOS: Open-source lead prospecting CRM with Google Maps and Instagram scraping. ProspectOS ships with lead discovery. The public repository carries 214 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

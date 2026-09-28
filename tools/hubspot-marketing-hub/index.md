@@ -19,7 +19,7 @@
 | &#10003; Free tier to evaluate before committing (Free CRM included; Marketing Hub Starter $20/mo, Professiona) |  |
 
 **What is HubSpot Marketing Hub?**
-All-in-one marketing automation with AI-powered content, email, and campaign tools. It ships with AI content assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does HubSpot Marketing Hub cost?**
 HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-All-in-one marketing automation with AI-powered content, email, and campaign tools. It ships with AI content assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is HubSpot Marketing Hub?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "All-in-one marketing automation with AI-powered content, email, and campaign tools. It ships with AI content assistant, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -22,7 +22,7 @@
 | &#10003; US and EU cloud regions plus a self-hosted option cover most data residency conversations |  |
 
 **What is PostHog?**
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys. It ships with postHog AI assistant for natural language queries (500 free credits per month), 39,933 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does PostHog cost?**
 PostHog is open source - MIT licensed and free to self-host; the public repository carries 39,933 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
@@ -160,7 +160,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source product analytics platform with session replay, feature flags, experiments, and surveys. It ships with postHog AI assistant for natural language queries (500 free credits per month), 39,933 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 PostHog is open source - MIT licensed and free to self-host; the public repository carries 39,933 stars; native integrations cover Slack, GitHub, Zapier. You pay in server time and maintenance, not licences.
 
@@ -260,7 +260,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is PostHog?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source product analytics platform with session replay, feature flags, experiments, and surveys. It ships with postHog AI assistant for natural language queries (500 free credits per month), 39,933 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "PostHog: Open-source product analytics platform with session replay, feature flags, experiments, and surveys. PostHog ships with postHog AI assistant for natural language queries (500 free credits per month). The public repository carries 39,933 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Microsoft Power Automate?**
-Enterprise workflow automation inside the Microsoft Power Platform. It ships with copilot-assisted flow building, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Microsoft Power Automate cost?**
 Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -124,7 +124,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise workflow automation inside the Microsoft Power Platform. It ships with copilot-assisted flow building, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Microsoft Power Automate?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise workflow automation inside the Microsoft Power Platform. It ships with copilot-assisted flow building, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -20,7 +20,7 @@
 | &#10003; Unused credits roll over and stay valid for two months |  |
 
 **What is Nimt.ai?**
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nimt.ai cost?**
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -153,7 +153,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -251,7 +251,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Nimt.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Nimt.ai: AI search tracking across 8 models with an agent that writes, fixes, and outreaches. Nimt.ai ships with AI Search Agent that writes content and fixes pages. This page documents 6 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

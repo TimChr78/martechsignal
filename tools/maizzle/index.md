@@ -17,7 +17,7 @@
 | &#10003; Active public repository (2,855 GitHub stars counted at last check) |  |
 
 **What is Maizzle?**
-Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Maizzle cost?**
 Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Maizzle is open source - Free to self-host; the public repository carries 2,855 stars. You pay in server time and maintenance, not licences.
 
@@ -242,7 +242,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Maizzle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Maizzle: Modern email development framework using Tailwind CSS for responsive campaigns. The public repository carries 2,855 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

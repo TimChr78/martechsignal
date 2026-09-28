@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 **What is Strapi?**
-Open-source headless CMS with AI-powered content management and API-first design. It ships with AI content generation, 73,109 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,109 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Strapi cost?**
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source headless CMS with AI-powered content management and API-first design. It ships with AI content generation, 73,109 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,109 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -231,7 +231,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Strapi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source headless CMS with AI-powered content management and API-first design. It ships with AI content generation, 73,109 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,109 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

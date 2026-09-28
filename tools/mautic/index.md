@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 **What is Mautic?**
-Open-source marketing automation platform with email, campaigns, and lead management. It ships with 10,472 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Mautic cost?**
 Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source marketing automation platform with email, campaigns, and lead management. It ships with 10,472 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Mautic has a free tier; paid plans start at €247.5/mo. Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -270,7 +270,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Mautic?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source marketing automation platform with email, campaigns, and lead management. It ships with 10,472 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Mautic: Open-source marketing automation platform with email, campaigns, and lead management. The public repository carries 10,472 stars. Mautic offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

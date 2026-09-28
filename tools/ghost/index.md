@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
 
 **What is Ghost?**
-Open-source publishing platform with built-in newsletters, memberships, and AI tools. It ships with AI writing assistant, 55,250 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ghost cost?**
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source publishing platform with built-in newsletters, memberships, and AI tools. It ships with AI writing assistant, 55,250 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -224,7 +224,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Ghost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source publishing platform with built-in newsletters, memberships, and AI tools. It ships with AI writing assistant, 55,250 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,250 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

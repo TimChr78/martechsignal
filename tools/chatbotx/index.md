@@ -18,7 +18,7 @@
 | &#10003; AI capabilities: agentic AI chat marketing |  |
 
 **What is ChatbotX?**
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. It ships with agentic AI chat marketing, 746 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ChatbotX cost?**
 ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
@@ -117,7 +117,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. It ships with agentic AI chat marketing, 746 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ChatbotX is open source - Free to self-host; the public repository carries 746 stars. You pay in server time and maintenance, not licences.
 
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ChatbotX?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. It ships with agentic AI chat marketing, 746 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "ChatbotX: Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation. ChatbotX ships with agentic AI chat marketing. The public repository carries 746 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

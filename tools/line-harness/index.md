@@ -18,7 +18,7 @@
 | &#10003; Native integrations include LINE Messaging API, LINE LIFF, Google Calendar (6 listed) |  |
 
 **What is Line Harness?**
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. It ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language), 589 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 589 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Line Harness cost?**
 Line Harness is open source - MIT licensed and free to self-host; the public repository carries 589 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
@@ -155,7 +155,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. It ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language), 589 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 589 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Line Harness is open source - MIT licensed and free to self-host; the public repository carries 589 stars; native integrations cover LINE Messaging API, LINE LIFF, Google Calendar. You pay in server time and maintenance, not licences.
 
@@ -250,7 +250,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Line Harness?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. It ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language), 589 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Line Harness: Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Line Harness ships with MCP server for Claude Code (create scenarios, monitor inbox, send broadcasts via natural language). The public repository carries 589 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

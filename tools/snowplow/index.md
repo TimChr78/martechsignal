@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Snowflake, Databricks, BigQuery (9 listed) |  |
 
 **What is Snowplow?**
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. It ships with signals real-time profiles with propensity predictions, 7,031 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Snowplow: Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. Snowplow ships with signals real-time profiles with propensity predictions. The public repository carries 7,031 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Snowplow cost?**
 Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,031 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.
@@ -168,7 +168,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. It ships with signals real-time profiles with propensity predictions, 7,031 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Snowplow: Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. Snowplow ships with signals real-time profiles with propensity predictions. The public repository carries 7,031 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Snowplow is open source - Apache-2.0 licensed and free to self-host; the public repository carries 7,031 stars; native integrations cover Snowflake, Databricks, BigQuery. You pay in server time and maintenance, not licences.
 
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Snowplow?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. It ships with signals real-time profiles with propensity predictions, 7,031 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Snowplow: Customer context infrastructure: behavioral event pipeline for warehouses and AI agents. Snowplow ships with signals real-time profiles with propensity predictions. The public repository carries 7,031 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

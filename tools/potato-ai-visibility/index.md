@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Anthropic Claude, CLI, Local GUI wizard (3 listed) |  |
 
 **What is Potato?**
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. It ships with measures brand mention coverage in Claude web-search answers, 168 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Potato: Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Potato cost?**
 Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
@@ -135,7 +135,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. It ships with measures brand mention coverage in Claude web-search answers, 168 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Potato: Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Potato is open source - MIT licensed and free to self-host; the public repository carries 168 stars; native integrations cover Anthropic Claude, CLI, Local GUI wizard. You pay in server time and maintenance, not licences.
 
@@ -215,7 +215,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Potato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Free local tool that measures brand mentions and citations in Claude's web-search answers. It ships with measures brand mention coverage in Claude web-search answers, 168 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Potato: Free local tool that measures brand mentions and citations in Claude's web-search answers. Potato ships with measures brand mention coverage in Claude web-search answers. The public repository carries 168 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

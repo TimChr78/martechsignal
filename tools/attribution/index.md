@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Attribution?**
-AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Attribution cost?**
 Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Attribution?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Attribution: AI-powered marketing attribution platform connecting ad spend to revenue. Attribution ships with AI multi-touch attribution. This page documents 7 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

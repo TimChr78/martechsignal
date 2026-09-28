@@ -18,7 +18,7 @@
 | &#10003; Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
 **What is Warmbly?**
-Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. It ships with AI agent steps in campaign sequences that branch on classified reply intent, 316 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Warmbly cost?**
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. It ships with AI agent steps in campaign sequences that branch on classified reply intent, 316 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Warmbly?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. It ships with AI agent steps in campaign sequences that branch on classified reply intent, 316 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 316 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

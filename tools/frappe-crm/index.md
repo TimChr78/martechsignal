@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
 **What is Frappe CRM?**
-Fully featured, open source CRM. It ships with 3,501 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Frappe CRM cost?**
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Fully featured, open source CRM. It ships with 3,501 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Frappe CRM has a free tier; paid plans start at $5/mo. Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Frappe CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Fully featured, open source CRM. It ships with 3,501 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Frappe CRM: Fully featured, open source CRM. The public repository carries 3,501 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

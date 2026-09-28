@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
 
 **What is WaCRM?**
-Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with AI reply assistant (bring your own OpenAI or Anthropic key), 2,285 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does WaCRM cost?**
 WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,285 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with AI reply assistant (bring your own OpenAI or Anthropic key), 2,285 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 WaCRM is open source - MIT licensed and free to self-host; the public repository carries 2,285 stars; native integrations cover Meta WhatsApp Cloud API, Supabase, OpenAI. You pay in server time and maintenance, not licences.
 
@@ -273,7 +273,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is WaCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. It ships with AI reply assistant (bring your own OpenAI or Anthropic key), 2,285 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "WaCRM: Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations. WaCRM ships with AI reply assistant (bring your own OpenAI or Anthropic key). The public repository carries 2,285 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

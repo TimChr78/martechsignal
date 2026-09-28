@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 **What is BillionMail?**
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. It ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi), 15,568 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does BillionMail cost?**
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -168,7 +168,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. It ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi), 15,568 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 BillionMail has a free tier; paid plans start at $98.9/mo. Free and open source (AGPL-3.0), no paid tiers or cloud edition. Optional paid deployment service at $98.9 per instance. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -261,7 +261,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is BillionMail?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. It ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi), 15,568 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "BillionMail: Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free. BillionMail ships with AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi). The public repository carries 15,568 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

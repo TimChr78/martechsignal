@@ -19,7 +19,7 @@
 | &#10003; Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with cont) |  |
 
 **What is Klaviyo?**
-AI-powered email and SMS marketing platform built for ecommerce brands. It ships with AI subject line assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Klaviyo cost?**
 Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered email and SMS marketing platform built for ecommerce brands. It ships with AI subject line assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Klaviyo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered email and SMS marketing platform built for ecommerce brands. It ships with AI subject line assistant, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

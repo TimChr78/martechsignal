@@ -19,7 +19,7 @@
 | &#10003; Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
 
 **What is NocoDB?**
-Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does NocoDB cost?**
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is NocoDB?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 64,910 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

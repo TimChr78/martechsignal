@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Braze?**
-Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Braze cost?**
 Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Braze?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Braze: Customer engagement platform with AI-powered real-time messaging across channels. Braze ships with brazeAI intelligent timing. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -19,7 +19,7 @@
 | &#10003; Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
 
 **What is Matomo?**
-Open-source web analytics platform with full data ownership and AI-powered insights. It ships with AI chatbot traffic reports, 21,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Matomo cost?**
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source web analytics platform with full data ownership and AI-powered insights. It ships with AI chatbot traffic reports, 21,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
@@ -277,7 +277,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Matomo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source web analytics platform with full data ownership and AI-powered insights. It ships with AI chatbot traffic reports, 21,851 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,851 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

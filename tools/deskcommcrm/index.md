@@ -19,7 +19,7 @@
 | &#10003; Native integrations include WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase (10 listed) |  |
 
 **What is DeskcommCRM?**
-Self-hosted open-source CRM with AI agents that sell through WhatsApp. It ships with per-tenant RAG knowledge base for WhatsApp agents, 2,300 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 2,300 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does DeskcommCRM cost?**
 DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 2,300 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
@@ -130,7 +130,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Self-hosted open-source CRM with AI agents that sell through WhatsApp. It ships with per-tenant RAG knowledge base for WhatsApp agents, 2,300 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 2,300 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 DeskcommCRM is open source - MIT licensed and free to self-host; the public repository carries 2,300 stars; native integrations cover WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase. You pay in server time and maintenance, not licences.
 
@@ -217,7 +217,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is DeskcommCRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Self-hosted open-source CRM with AI agents that sell through WhatsApp. It ships with per-tenant RAG knowledge base for WhatsApp agents, 2,300 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "DeskcommCRM: Self-hosted open-source CRM with AI agents that sell through WhatsApp. DeskcommCRM ships with per-tenant RAG knowledge base for WhatsApp agents. The public repository carries 2,300 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

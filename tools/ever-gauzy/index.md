@@ -18,7 +18,7 @@
 | &#10003; Active public repository (4,381 GitHub stars counted at last check) |  |
 
 **What is Ever Gauzy?**
-Open business management platform: ERP, CRM, HRM, ATS, and time tracking. It ships with 4,381 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ever Gauzy cost?**
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open business management platform: ERP, CRM, HRM, ATS, and time tracking. It ships with 4,381 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Ever Gauzy has a free tier; paid plans start at $17/mo. Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company and 1 employee, Small Business $17/mo billed annually, Enterprise $139/mo billed annually. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -250,7 +250,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Ever Gauzy?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open business management platform: ERP, CRM, HRM, ATS, and time tracking. It ships with 4,381 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Ever Gauzy: Open business management platform: ERP, CRM, HRM, ATS, and time tracking. The public repository carries 4,381 stars. Ever Gauzy offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

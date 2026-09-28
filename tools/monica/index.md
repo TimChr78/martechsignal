@@ -18,7 +18,7 @@
 | &#10003; Active public repository (25,261 GitHub stars counted at last check) |  |
 
 **What is Monica?**
-Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,261 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Monica cost?**
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -169,7 +169,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,261 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Monica has a free tier; paid plans start at $9/mo. Self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -271,7 +271,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Monica?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,261 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Monica: Open-source personal CRM for tracking friends, family, and business relationships. The public repository carries 25,261 stars. Monica offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

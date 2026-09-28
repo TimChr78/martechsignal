@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free (10K sessions/mo, 6-mo history); Growth and Pro custom ) |  |
 
 **What is Heap?**
-AI-powered product analytics with autocapture and digital experience insights. It ships with AI autocapture, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Heap cost?**
 Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered product analytics with autocapture and digital experience insights. It ships with AI autocapture, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Heap has a free tier, so you can run a real evaluation before paying. Free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing. We last checked the plan structure on 2026-08-28; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -228,7 +228,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Heap?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered product analytics with autocapture and digital experience insights. It ships with AI autocapture, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Heap: AI-powered product analytics with autocapture and digital experience insights. Heap ships with AI autocapture. This page documents 8 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

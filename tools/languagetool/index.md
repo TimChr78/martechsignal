@@ -22,7 +22,7 @@
 | &#10003; LGPL-2.1 licensing allows use inside commercial products with modest obligations |  |
 
 **What is LanguageTool?**
-Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. It ships with AI style and tone suggestions, 15,089 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does LanguageTool cost?**
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. It ships with AI style and tone suggestions, 15,089 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 LanguageTool is open source - LGPL-2.1 licensed and free to self-host; the public repository carries 15,089 stars; native integrations cover Google Chrome, Mozilla Firefox, Microsoft Edge. You pay in server time and maintenance, not licences.
 
@@ -253,7 +253,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is LanguageTool?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. It ships with AI style and tone suggestions, 15,089 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "LanguageTool: Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages. LanguageTool ships with AI style and tone suggestions. The public repository carries 15,089 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

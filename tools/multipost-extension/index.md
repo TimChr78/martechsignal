@@ -19,7 +19,7 @@
 | &#10003; Active public repository (3,325 GitHub stars counted at last check) |  |
 
 **What is MultiPost?**
-Browser extension to publish content to multiple social media platforms with one click. It ships with AI content adaptation per platform, 3,325 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does MultiPost cost?**
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
@@ -116,7 +116,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Browser extension to publish content to multiple social media platforms with one click. It ships with AI content adaptation per platform, 3,325 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 MultiPost is open source - Apache-2.0 licensed and free to self-host; the public repository carries 3,325 stars. You pay in server time and maintenance, not licences.
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is MultiPost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Browser extension to publish content to multiple social media platforms with one click. It ships with AI content adaptation per platform, 3,325 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "MultiPost: Browser extension to publish content to multiple social media platforms with one click. MultiPost ships with AI content adaptation per platform. The public repository carries 3,325 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

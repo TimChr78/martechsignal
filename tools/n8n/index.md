@@ -19,7 +19,7 @@
 | &#10003; Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 **What is n8n?**
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does n8n cost?**
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -240,7 +240,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is n8n?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source workflow automation platform with AI agent capabilities and 400+ nodes. It ships with AI agent nodes, 206,100 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,100 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

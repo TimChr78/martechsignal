@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Clearscope?**
-AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Clearscope cost?**
 Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Clearscope?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Clearscope: AI-powered content optimization platform for SEO teams and content writers. Clearscope ships with AI content grading. This page documents 5 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

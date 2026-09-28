@@ -1342,20 +1342,24 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         # collapsed to 8 templates once the brand token was normalized. Compose from
         # per-tool facts so every answer carries at least one tool-specific claim.
         a1 = (t.get("tagline") or "").strip().rstrip(".") or f"{name} is a {cat.lower()} tool"
-        _facts = []
+        # L10 (r9, 2026-09-28): the old "It ships with {feature}, {stars}."
+        # spliced a feature to a star count with a comma and never named the
+        # entity. Each fact is now its own declarative clause, and the answer
+        # opens with the entity name.
+        _clauses = []
         if t.get("ai_features"):
             _f0 = t["ai_features"][0].rstrip(".")
-            _facts.append(_f0[0].lower() + _f0[1:] if not _f0[:2].isupper() else _f0)
+            _f0 = _f0[0].lower() + _f0[1:] if not _f0[:2].isupper() else _f0
+            _clauses.append(f"{name} ships with {_f0}")
         if t.get("github_stars"):
-            _facts.append(f"{t['github_stars']:,} GitHub stars")
+            _clauses.append(f"The public repository carries {t['github_stars']:,} stars")
         elif t.get("integrations"):
-            _facts.append(f"{len(t['integrations'])} integrations documented on this page")
+            _clauses.append(f"This page documents {len(t['integrations'])} integrations")
         if t.get("api_available"):
-            _facts.append("an API for custom integrations")
-        _fact_s = ""
-        if _facts:
-            _fact_s = f"It ships with {', '.join(_facts[:2])}."
-        a1 = f"{a1}. {_fact_s} MartechSignal's review covers features, pricing, and how it compares to alternatives."
+            _clauses.append(f"{name} offers a public API for custom integrations")
+        _fact_s = " ".join(c + "." for c in _clauses[:2])
+        _fact_s = f" {_fact_s}" if _fact_s else ""
+        a1 = f"{name}: {a1}.{_fact_s} MartechSignal's review covers features, pricing, and how it compares to alternatives."
         q2 = f"How much does {name} cost?"
         if t.get("paid_from"):
             # freemium with a known paid entry: quote both sides of the freemium split

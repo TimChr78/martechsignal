@@ -977,3 +977,17 @@ def test_indexnow_key_deployed():
     stage_src = (ROOT / "tools" / "stage_deploy.py").read_text()
     assert f"indexnow-{key}.txt" in stage_src, "root key file not REQUIRED in stage"
     assert "well-known/indexnow-" in stage_src, "well-known key not REQUIRED in stage"
+
+
+def test_faq_answers_name_entity_no_splice():
+    """L10 (r9, 2026-09-28): 'What is X?' answers open with the entity name
+    and carry no 'It ships with {feature}, {stars}' comma splice."""
+    import re as _re
+    n8n = (ROOT / "tools" / "n8n" / "index.html").read_text()
+    m = _re.search(r'"name": "What is n8n\?",\s*"acceptedAnswer": \{\s*"@type": "Answer",\s*"text": "([^"]+)"',
+                   n8n)
+    assert m, "n8n FAQ answer missing from JSON-LD"
+    a = m.group(1)
+    assert a.startswith("n8n:"), f"answer must open with entity name: {a[:60]}"
+    assert "It ships with" not in a, "comma-splice template still rendering"
+    assert len(a.split()) <= 60, f"answer over 60 words: {len(a.split())}"

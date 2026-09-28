@@ -18,7 +18,7 @@
 | &#10003; Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
 
 **What is Django CRM?**
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. It ships with 2,412 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Django CRM cost?**
 Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,412 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
@@ -161,7 +161,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. It ships with 2,412 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Django CRM is open source - MIT licensed and free to self-host; the public repository carries 2,412 stars; native integrations cover REST API (OpenAPI 3 schema), Swagger UI, Google OAuth. You pay in server time and maintenance, not licences.
 
@@ -254,7 +254,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Django CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. It ships with 2,412 GitHub stars, an API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. The public repository carries 2,412 stars. Django CRM offers a public API for custom integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -17,7 +17,7 @@
 | &#10003; Native integrations include Meta (Facebook &amp; Instagram Ads), Google Ads, TikTok Ads (11 listed) |  |
 
 **What is Pencil?**
-AI-powered ad creative generation and performance prediction for paid media. It ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live), 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Pencil: AI-powered ad creative generation and performance prediction for paid media. Pencil ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live). This page documents 11 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Pencil cost?**
 Pencil starts at $11/mo. Core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered ad creative generation and performance prediction for paid media. It ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live), 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Pencil: AI-powered ad creative generation and performance prediction for paid media. Pencil ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live). This page documents 11 integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Pencil starts at $11/mo. Core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Pencil?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered ad creative generation and performance prediction for paid media. It ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live), 11 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Pencil: AI-powered ad creative generation and performance prediction for paid media. Pencil ships with multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live). This page documents 11 integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

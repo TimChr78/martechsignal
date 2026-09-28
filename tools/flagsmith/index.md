@@ -22,7 +22,7 @@
 | &#10003; Self-hosting the BSD-3-Clause code is a documented deployment path alongside cloud and private cloud. |  |
 
 **What is Flagsmith?**
-Open-source feature flag and remote config platform with segment targeting. It ships with MCP Server for natural-language flag management, 6,570 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Flagsmith cost?**
 Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,570 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source feature flag and remote config platform with segment targeting. It ships with MCP Server for natural-language flag management, 6,570 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Flagsmith is open source - BSD-3-Clause licensed and free to self-host; the public repository carries 6,570 stars; native integrations cover Datadog, Grafana, Jira. You pay in server time and maintenance, not licences.
 
@@ -246,7 +246,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Flagsmith?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source feature flag and remote config platform with segment targeting. It ships with MCP Server for natural-language flag management, 6,570 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Flagsmith: Open-source feature flag and remote config platform with segment targeting. Flagsmith ships with MCP Server for natural-language flag management. The public repository carries 6,570 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Claude Code, Codex, Claude plugins (3 listed) |  |
 
 **What is Diffmode Growth Tactics?**
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. It ships with mines 12-20 real case studies per run for growth mechanisms, 161 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Diffmode Growth Tactics cost?**
 Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. It ships with mines 12-20 real case studies per run for growth mechanisms, 161 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Diffmode Growth Tactics is open source - Apache-2.0 licensed and free to self-host; the public repository carries 161 stars; native integrations cover Claude Code, Codex, Claude plugins. You pay in server time and maintenance, not licences.
 
@@ -223,7 +223,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Diffmode Growth Tactics?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. It ships with mines 12-20 real case studies per run for growth mechanisms, 161 GitHub stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Diffmode Growth Tactics: Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays. Diffmode Growth Tactics ships with mines 12-20 real case studies per run for growth mechanisms. The public repository carries 161 stars. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
