@@ -22,6 +22,8 @@ Before automation gets an approval loop of its own, run [the approval-step looph
 
 The [workflow automation entry](/glossary/workflow-automation/) and [marketing automation entry](/glossary/marketing-automation/) pin down the category lines. The tooling lives in [marketing automation](/categories/marketing-automation/) and [workflow automation](/categories/workflow-automation/) with the side-by-side pricing in the [comparison](/best/workflow-automation-tools/) and the [n8n versus Zapier write-up](/vs/n8n-vs-zapier/).
 
+Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Zapier](https://zapier.com/) · [Make](https://www.make.com/)
+
 &copy; 2026 MartechSignal &middot; by Tim Christensen
 
 

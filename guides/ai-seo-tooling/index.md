@@ -22,6 +22,8 @@ Tools that generate at scale eventually meet [the provenance tax on watermarked 
 
 The [SEO](/glossary/seo/), [AEO](/glossary/aeo/), and [AI search visibility](/glossary/ai-search-visibility/) entries separate the three terms vendors blur on purpose. The catalog side lives in [SEO](/categories/seo/) and [content and AI](/categories/content-ai/), with the [AI SEO tools comparison](/best/ai-seo-tools/) priced side by side.
 
+Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.semrush.com/pricing/) · [Claude SEO](https://claude-seo.md/)
+
 &copy; 2026 MartechSignal &middot; by Tim Christensen
 
 

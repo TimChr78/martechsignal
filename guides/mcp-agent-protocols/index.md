@@ -22,6 +22,8 @@ Three of our most-quoted audits live here. [Identity debt in AI agents](/blog/ag
 
 Inventory which of your systems already speak MCP and which would need a bridge. Run the silent failure audit on one integration. Decide what state your agents are allowed to carry between sessions, in writing. The protocol layer is moving faster than governance, so the writing is the scarce part.
 
+Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [Claude SEO](https://claude-seo.md/)
+
 &copy; 2026 MartechSignal &middot; by Tim Christensen
 
 

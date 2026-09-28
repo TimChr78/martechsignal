@@ -22,6 +22,8 @@ Start with [Google does not need your site anymore](/blog/google-doesnt-need-you
 
 [Google Ads AI guardrails](/blog/google-ads-ai-guardrails/) inventories what is actually configurable right now. For the budgeting layer, keep [the martech budget bleed](/blog/martech-budget-bleeding-nobody-measuring/) in view. The tooling lives in [advertising](/categories/advertising/) and the [AI advertising comparison](/best/ai-advertising-tools/), with definitions in [DSP](/glossary/dsp/), [DCO](/glossary/dco/), and [programmatic advertising](/glossary/programmatic-advertising/).
 
+Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [IAB Tech Lab blog](https://iabtechlab.com/blog/)
+
 &copy; 2026 MartechSignal &middot; by Tim Christensen
 
 

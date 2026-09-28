@@ -34,6 +34,8 @@ The [GEO glossary entry](/glossary/geo/) keeps the term pinned down. Related ter
 
 Verify your robots rules let the answer-surfacing crawlers in. Pull one honest question your buyers ask and check what ChatGPT and Perplexity say about it today. Fix one wrong fact at the source. Then look at tooling, because the market for this is young enough that the pricing tables change more often than the tactics.
 
+Sources: [Profound](https://www.tryprofound.com/) · [Profound pricing](https://www.tryprofound.com/pricing) · [OtterlyAI](https://otterly.ai/) · [Google Analytics support](https://support.google.com/analytics)
+
 &copy; 2026 MartechSignal &middot; by Tim Christensen
 
 
