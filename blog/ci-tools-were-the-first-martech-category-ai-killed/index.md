@@ -118,9 +118,9 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -128,8 +128,8 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
-- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best GEO &amp;amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -138,7 +138,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
+More from the directory: [ChatbotX](/tools/chatbotx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -190,7 +190,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2521,
+  "wordCount": 2512,
   "articleSection": "marketing-automation"
 }
 ```

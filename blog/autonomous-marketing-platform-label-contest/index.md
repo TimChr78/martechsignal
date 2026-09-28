@@ -106,9 +106,9 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 ## Related reading
 
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -116,8 +116,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Agentic Marketing](/glossary/agentic-marketing/)
@@ -126,7 +126,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Apache Unomi](/tools/apache-unomi/)
+More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -178,7 +178,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2127,
+  "wordCount": 2120,
   "articleSection": "agent-skills"
 }
 ```

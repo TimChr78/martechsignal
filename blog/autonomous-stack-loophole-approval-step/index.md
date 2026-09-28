@@ -12,7 +12,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-MARKETING AUTOMATION · AI AGENTS · 9 MIN
+MARKETING AUTOMATION · AI AGENTS · 8 MIN
 
 ## Your autonomous stack&#x27;s loophole is the approval step you deleted
 
@@ -79,8 +79,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -88,7 +88,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
@@ -98,7 +98,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [BillionMail](/tools/billionmail/)
+More from the directory: [Apache Unomi](/tools/apache-unomi/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -150,7 +150,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1703,
+  "wordCount": 1699,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

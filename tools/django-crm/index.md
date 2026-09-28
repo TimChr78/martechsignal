@@ -77,7 +77,7 @@ Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
@@ -178,8 +178,8 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -71,7 +71,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -172,8 +172,8 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) &mdash; Best for Laravel shops that want room to extend a CRM.

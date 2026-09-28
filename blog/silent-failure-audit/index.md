@@ -73,18 +73,18 @@ Our directory reviews workflow and marketing automation tools on what happens af
 
 ## Related reading
 
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Related tools
 
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Make](/tools/make/) - Visual automation platform for building complex workflows with AI agents and apps
-- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
+- [n8n Marketing Flows](/tools/n8n-marketing-flows/) - 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1836,
+  "wordCount": 1844,
   "articleSection": "workflow-automation, agent-skills"
 }
 ```

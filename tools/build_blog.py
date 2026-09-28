@@ -54,6 +54,12 @@ except Exception:  # pragma: no cover
     def _cat_display(slug):
         return str(slug).replace("-", " ").title()
 
+try:  # M1 (r9, 2026-09-28): shared critical-CSS tags; falls back to plain link
+    from build_tools import _stylesheet_tags as _shared_tags
+except Exception:  # pragma: no cover
+    def _shared_tags():
+        return f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}">'
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -535,13 +541,12 @@ def build_post(meta: dict, body_html: str) -> str:
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin><script type="application/ld+json">
+<link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{_shared_tags()}<script type="application/ld+json">
 {json.dumps(article_schema, indent=2)}
 </script>
 <script type="application/ld+json">
 {json.dumps(breadcrumb_schema, indent=2)}
 </script>
-<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js" defer></script>
 </head>
@@ -675,7 +680,7 @@ def build_index(posts: list) -> str:
 <link rel="alternate" type="application/rss+xml" title="MartechSignal" href="/rss.xml">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
-<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
+{_shared_tags()}
 {schema_tag}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script type="application/ld+json">{{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}}, {{"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://martechsignal.com/blog/"}}]}}</script>

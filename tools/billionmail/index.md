@@ -79,7 +79,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free
 
-Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
+Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -185,8 +185,8 @@ One documented one: AI email template generation, added in v4.0, where you descr
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 
 ## Get the next teardown

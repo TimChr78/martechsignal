@@ -56,9 +56,9 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 ## Related reading
 
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Related tools
 
 - [Frase](/tools/frase/) - AI-powered SEO content platform for research, writing, and AI visibility tracking
@@ -67,7 +67,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 ## Comparison guides
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -76,7 +76,7 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
+More from the directory: [EspoCRM](/tools/espocrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -135,7 +135,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 631,
+  "wordCount": 632,
   "articleSection": "seo"
 }
 ```

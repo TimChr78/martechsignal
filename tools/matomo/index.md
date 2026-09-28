@@ -79,7 +79,7 @@ Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 Open-source web analytics platform with full data ownership and AI-powered insights
 
-Analytics &amp; Attribution · Open Source · OPEN SOURCE Desk-reviewed
+Analytics &amp; Attribution · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
@@ -192,9 +192,9 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; Teams that want GA-grade analytics with the data staying home

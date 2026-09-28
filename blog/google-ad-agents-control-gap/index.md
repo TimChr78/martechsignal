@@ -119,9 +119,9 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 ## Related reading
 
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -139,7 +139,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LibreTranslate](/tools/libretranslate/)
+More from the directory: [LanguageTool](/tools/languagetool/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

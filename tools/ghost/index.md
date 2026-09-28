@@ -67,7 +67,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-AI Content &amp; Copywriting · Open Source · OPEN SOURCE Desk-reviewed
+AI Content &amp; Copywriting · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -147,9 +147,9 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 ## Get the next teardown

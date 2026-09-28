@@ -136,8 +136,8 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -146,7 +146,7 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Matomo alternatives (2026)](/alternatives/matomo/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -205,7 +205,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2172,
+  "wordCount": 2162,
   "articleSection": "advertising"
 }
 ```

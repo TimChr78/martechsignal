@@ -69,7 +69,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social
 
-Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
+Marketing Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -136,9 +136,9 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
 ### Pricing

@@ -64,7 +64,7 @@ Self-hosted AI research and writing assistant that chats with your documents and
 
 Self-hosted open-source CRM with AI agents that sell through WhatsApp
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
@@ -141,8 +141,8 @@ Strengths include 2,300 GitHub stars, MIT licensing with free self-hosting, an A
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 ## Get the next teardown

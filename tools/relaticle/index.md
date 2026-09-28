@@ -74,7 +74,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -182,9 +182,9 @@ Self-hosting is free under AGPL-3.0 with unlimited users and records on your own
 
 ## Related reading
 
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 ## Get the next teardown

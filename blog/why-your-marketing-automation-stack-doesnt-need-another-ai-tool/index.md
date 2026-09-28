@@ -95,16 +95,16 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Related tools
 
 - [Eve Marketing Team Template](/tools/eve-marketing-team/) - Open-source team of marketing agents on eve: lead, content, social, SEO, email
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
-- [ActiveCampaign](/tools/activecampaign/) - AI-powered marketing automation and CRM for small to mid-size businesses
+- [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)
@@ -163,7 +163,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1469,
+  "wordCount": 1467,
   "articleSection": ""
 }
 ```

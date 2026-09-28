@@ -78,7 +78,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Self-hosted multi-channel notification service for email, SMS, and web push
 
-Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
+Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -181,8 +181,8 @@ No, they are unrelated projects with confusingly similar names. Notifo (notifo-i
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
 ## Get the next teardown

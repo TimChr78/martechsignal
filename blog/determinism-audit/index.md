@@ -90,9 +90,9 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 ## Related reading
 
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -101,7 +101,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -110,7 +110,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [IFTTT](/tools/ifttt/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -162,7 +162,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1782,
+  "wordCount": 1776,
   "articleSection": "agent-skills"
 }
 ```

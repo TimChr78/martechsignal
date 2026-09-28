@@ -1045,3 +1045,30 @@ def test_font_payload_is_minimal_and_preloaded():
         html = (ROOT / tpl).read_text()
         for w in ("spline-sans-mono-500.woff2", "spline-sans-mono-600.woff2"):
             assert f'preload" href="/fonts/{w}"' in html, f"{tpl} misses {w} preload"
+
+
+def test_critical_css_inline_and_deferred():
+    """M1 (r9, 2026-09-28): every page inlines critical CSS (<=7KB) and loads
+    the full bundle non-blocking with a noscript fallback; no render-blocking
+    stylesheet links remain."""
+    import re as _re
+    frag = (ROOT / "tools" / ".critical.css").read_text()
+    assert len(frag) <= 10240, f"critical block {len(frag)}B exceeds 10KB budget"
+    assert "@font-face" not in frag, "fonts must not ride the inline block"
+    checked = 0
+    for tpl in ("tools/n8n/index.html", "blog/claude-seo-benchmark/index.html",
+                "index.html", "best/geo-llm-visibility-tools/index.html"):
+        html = (ROOT / tpl).read_text()
+        assert "<style>" in html, f"{tpl} missing inline critical"
+        assert 'media="print" onload=' in html, f"{tpl} bundle not deferred"
+        assert "<noscript><link" in html, f"{tpl} missing noscript fallback"
+        blocking = [l for l in
+                    _re.findall(r'<link rel="stylesheet" href="/style[^"]*">', html)
+                    if "<noscript>" not in html[max(0, html.find(l) - 10):html.find(l)]]
+        assert not blocking, f"{tpl} keeps blocking link: {blocking[:1]}"
+        # exactly one inline critical block: the sweep must not stuff a second
+        # copy inside its own <noscript> fallback (r9 M1 follow-up).
+        assert html.count("<style>:root") == 1, \
+            f"{tpl} carries {html.count('<style>:root')} critical copies"
+        checked += 1
+    assert checked == 4

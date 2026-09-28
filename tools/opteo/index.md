@@ -153,8 +153,8 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Advertising &amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) &mdash; Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $129/mo.

@@ -81,7 +81,7 @@ AI marketing content platform for creating on-brand copy, images, and campaigns
 
 Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
 
-AI Content &amp; Copywriting · Open Source · OPEN SOURCE Desk-reviewed
+AI Content &amp; Copywriting · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
@@ -172,9 +172,9 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
 ## Get the next teardown

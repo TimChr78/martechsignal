@@ -76,7 +76,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -176,9 +176,9 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 ## Related reading
 
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -71,7 +71,7 @@ KIND: Utility (not an end-to-end platform)
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
-Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
+Agent Skills · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
@@ -151,9 +151,9 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 
 ## Related reading
 
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) &mdash; Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.

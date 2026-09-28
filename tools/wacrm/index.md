@@ -82,7 +82,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations
 
-CRM · Open Source · OPEN SOURCE Desk-reviewed
+CRM · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -192,9 +192,9 @@ Automations and flows never run. The container schedules nothing internally, so 
 
 ## Related reading
 
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ### Quick Facts
 
 ### Pricing

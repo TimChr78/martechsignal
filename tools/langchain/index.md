@@ -71,7 +71,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Workflow Automation · Open Source · OPEN SOURCE Desk-reviewed
+Workflow Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -156,9 +156,9 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 ## Get the next teardown

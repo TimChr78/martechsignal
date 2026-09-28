@@ -88,8 +88,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Related tools
 
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
@@ -97,8 +97,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
 ## Comparison guides
 
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -107,7 +107,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Trakkr](/tools/trakkr/)
+More from the directory: [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1708,
+  "wordCount": 1702,
   "articleSection": "advertising"
 }
 ```

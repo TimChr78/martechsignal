@@ -83,7 +83,7 @@ Our directory breaks down customer data platforms and activation tools by pricin
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Customer.io](/tools/customer-io/) - Data-driven messaging platform for automated email, push, SMS, and in-app messages
@@ -91,13 +91,13 @@ Our directory breaks down customer data platforms and activation tools by pricin
 - [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best GEO &amp;amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Brandwatch](/tools/brandwatch/)
+More from the directory: [BillionMail](/tools/billionmail/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

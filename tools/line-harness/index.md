@@ -82,7 +82,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 
-Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
+Marketing Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -173,9 +173,9 @@ The docs describe BAN detection with automatic friend migration to the next acco
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
 ## Get the next teardown

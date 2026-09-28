@@ -104,7 +104,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
-Agent Skills · Open Source · OPEN SOURCE Hands-on
+Agent Skills · Open Source Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
@@ -234,8 +234,8 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &mdash; Best for Claude Code users who want SEO audits run by agents instead of dashboards.

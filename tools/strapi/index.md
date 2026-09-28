@@ -67,7 +67,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-AI Content &amp; Copywriting · Open Source · OPEN SOURCE Desk-reviewed
+AI Content &amp; Copywriting · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -150,8 +150,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &mdash; Teams that want a headless CMS with AI inside their own stack

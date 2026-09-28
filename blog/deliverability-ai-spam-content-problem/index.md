@@ -84,8 +84,8 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 ## Related reading
 
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
@@ -95,7 +95,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Comparison guides
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 ## Glossary terms
 
 - [Deliverability](/glossary/deliverability/)
@@ -104,7 +104,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IFTTT](/tools/ifttt/)
+More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -156,7 +156,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1748,
+  "wordCount": 1753,
   "articleSection": "email-marketing"
 }
 ```

@@ -69,7 +69,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source customer engagement and product onboarding platform, alternative to Braze
 
-Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
+Marketing Automation · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -138,9 +138,9 @@ The open-source Braze alternative for technical growth teams that want data owne
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Lifecycle messaging and onboarding journeys that live outside the CRM

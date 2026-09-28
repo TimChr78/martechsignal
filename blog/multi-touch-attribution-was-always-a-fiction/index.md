@@ -84,9 +84,9 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 ## Related reading
 
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
@@ -94,8 +94,8 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 - [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
 ## Comparison guides
 
-- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -104,7 +104,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -156,7 +156,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1586,
+  "wordCount": 1581,
   "articleSection": "analytics"
 }
 ```

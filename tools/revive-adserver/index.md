@@ -77,7 +77,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 Free open source ad server for publishers, ad networks and advertisers
 
-Advertising &amp; Paid Media · Open Source · OPEN SOURCE Desk-reviewed
+Advertising &amp; Paid Media · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
@@ -162,8 +162,8 @@ Yes. Revive v5 geotargeting runs through a plugin that uses MaxMind GeoLite2 dat
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
 ## Get the next teardown

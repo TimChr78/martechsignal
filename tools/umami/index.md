@@ -74,7 +74,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps
 
-Analytics &amp; Attribution · Open Source · OPEN SOURCE Desk-reviewed
+Analytics &amp; Attribution · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -175,9 +175,9 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) &mdash; Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.

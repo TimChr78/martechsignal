@@ -64,7 +64,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
 
-Chatbots &amp; Conversational AI · Open Source · OPEN SOURCE Desk-reviewed
+Chatbots &amp; Conversational AI · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -128,8 +128,8 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 
 - [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Developers that want ManyChat&#x27;s playbook as source code

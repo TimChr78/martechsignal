@@ -81,7 +81,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads
 
-Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
+Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -190,9 +190,9 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 
 ## Related reading
 
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) &mdash; Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.

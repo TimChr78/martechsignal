@@ -67,7 +67,7 @@ KIND: Utility (not an end-to-end platform)
 
 Free local tool that measures brand mentions and citations in Claude&#x27;s web-search answers
 
-SEO &amp; Search · Open Source · OPEN SOURCE Desk-reviewed
+SEO &amp; Search · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
@@ -145,9 +145,9 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 
 ## Related reading
 
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 ## Get the next teardown

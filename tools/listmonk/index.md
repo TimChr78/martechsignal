@@ -70,7 +70,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 
-Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
+Email Marketing · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -146,9 +146,9 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &mdash; Newsletter and lifecycle email at one list price, with no per-contact billing

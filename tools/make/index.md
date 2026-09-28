@@ -160,7 +160,7 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &mdash; Best for branching visual workflows on a small-team budget.

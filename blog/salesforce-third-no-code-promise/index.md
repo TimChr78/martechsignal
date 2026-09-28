@@ -87,7 +87,6 @@ Browse the [MartechSignal tools directory](/tools/salesforce-marketing-cloud/) t
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -146,7 +145,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1414,
+  "wordCount": 1402,
   "articleSection": "marketing-automation"
 }
 ```

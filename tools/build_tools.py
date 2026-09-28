@@ -519,6 +519,19 @@ def _record_edit_date(slug, fallback):
         _BLAME_DATES = _blame_edit_dates()
     return _BLAME_DATES.get(slug) or fallback
 
+def _stylesheet_tags():
+    """M1 (r9, 2026-09-28): critical CSS inline + full bundle non-blocking.
+    Falls back to the plain blocking link when the fragment is absent."""
+    crit = _critical_inline()
+    if not crit:
+        return f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}">'
+    return (
+        f"<style>{crit}</style>"
+        f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}" '
+        f'media="print" onload="this.media=\'all\'">'
+        f'<noscript><link rel="stylesheet" href="/style.min.css?v={_css_v()}"></noscript>')
+
+
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
     # r7 C5 (2026-09-27): some callers pass absolute URLs; never double the base.
     if canonical.startswith('http'):
@@ -572,7 +585,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
-<link rel="stylesheet" href="/style.min.css?v={_css_v()}">
+{_stylesheet_tags()}
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js" defer></script>
 </head>
@@ -1662,7 +1675,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
-  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} {_review_tag(t)}</p>
+  <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{(' · OPEN SOURCE' if t.get('open_source') and 'open source' not in pricing_label(t).lower() else '')} {_review_tag(t)}</p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="made-badge">We make this: Claude SEO is our own free SEO audit skill. This page is held to the same verification standard as third-party tools; per our review policy it carries no Review markup.</p>') if t["slug"] == "claude-seo" else ''}
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
@@ -2818,7 +2831,94 @@ def minify_css():
     assert _bare.count("{") == out.count("{") and _bare.count("}") == out.count("}"), \
         "M1: minify lost rules"
     (ROOT / "style.min.css").write_text(out.strip())
+    _write_critical(out.strip())
     return out.strip()
+
+
+# M1 (r9, 2026-09-28): above-fold critical CSS, extracted from the minified
+# bundle at build time by selector allowlist (never hand-duplicated, so the
+# inline copy cannot drift from the bundle). Inlined into every page head;
+# the full bundle loads non-blocking right after.
+_CRITICAL_PREFIXES = (
+    ":root", "*", "html", "body", "::selection",
+    ".bg", ".wrap", "a",
+    ".masthead", ".mast-in", ".wordmark", ".mast-nav", ".mast-right",
+    ".live", ".mast-date", ".pulse-dot",
+    ".crumb", ".breadcrumbs", ".crumbs",
+    ".page-head", ".page-tools", ".sub", ".count", ".byline",
+    ".verdict-cta", ".cta-early", ".alt-link", ".btn", ".disclosure-strip",
+    ".kicker", ".back", ".post-hero", ".meta",
+    ".hero", ".hero-cols", ".hero-side", ".stats-card", ".stat",
+    ".lede", ".hero-cta", ".micro", ".spec",
+    ".score-band", ".unscored-note",
+    ".cat-nav", ".cat-pill", ".made-badge",
+    ".tool-grid", ".tool-card",
+    "#progress",
+)
+
+
+def _split_rules(css):
+    """Split minified CSS into (header, body) chunks, respecting nesting."""
+    chunks = []
+    i, n = 0, len(css)
+    while i < n:
+        j = css.find("{", i)
+        if j == -1:
+            break
+        depth = 0
+        k = j
+        while k < n:
+            if css[k] == "{":
+                depth += 1
+            elif css[k] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            k += 1
+        chunks.append((css[i:j].strip(), css[j:k + 1]))
+        i = k + 1
+    return chunks
+
+
+def _crit_match(header):
+    """True when any comma-part of a selector list falls under the allowlist."""
+    for part in (s.strip() for s in header.split(",")):
+        for p in _CRITICAL_PREFIXES:
+            if (part == p or part.startswith(p + " ") or part.startswith(p + ".")
+                    or part.startswith(p + ":") or part.startswith(p + "[")
+                    or part.startswith(p + ">") or part.startswith(p + "+")):
+                return True
+    return False
+
+
+def _write_critical(min_css):
+    keep = []
+    for header, body in _split_rules(min_css):
+        h = header.strip()
+        if h.startswith("@font-face"):
+            continue  # fonts swap anyway; ~2KB saved from the inline block
+        if h.startswith("@keyframes"):
+            keep.append(h + body)  # tiny, referenced by kept rules
+            continue
+        if h.startswith("@media"):
+            inner = _split_rules(body[1:-1])
+            hit = [(hh, bb) for hh, bb in inner if _crit_match(hh)]
+            if hit:
+                keep.append(h + "{" + "".join(hh + bb for hh, bb in hit) + "}")
+            continue
+        if _crit_match(h):
+            keep.append(h + body)
+    out = "".join(keep)
+    (ROOT / "tools" / ".critical.css").write_text(out)
+    print(f"M1: critical {len(out)}B inlined, full bundle deferred")
+    return out
+
+
+def _critical_inline():
+    try:
+        return (ROOT / "tools" / ".critical.css").read_text()
+    except OSError:
+        return ""
 
 
 def sync_stylesheet_links():
@@ -2832,12 +2932,34 @@ def sync_stylesheet_links():
     # the site into two hash populations and left 32 pages pinned stale.
     _hash = _css_v()
     _jhash = _h.sha256((ROOT / "site.js").read_bytes()).hexdigest()[:8]
+    # M1 (r9, 2026-09-28): critical CSS inline + deferred bundle, applied to
+    # every HTML file here (covers hand-maintained index.html too). Matches
+    # only still-blocking links (no media attr) so re-runs are idempotent;
+    # the href rewrite below keeps deferred/noscript hashes current.
+    try:
+        _crit = (ROOT / "tools" / ".critical.css").read_text()
+    except OSError:
+        _crit = ""
     _n = 0
     _nj = 0
+    _nc = 0
     for _p in ROOT.rglob("*.html"):
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
             continue
         _s = _p.read_text()
+        if _crit:
+            _defer = (
+                f"<style>{_crit}</style>"
+                f'<link rel="stylesheet" href="/style.min.css?v={_hash}" '
+                f'media="print" onload="this.media=\'all\'">'
+                f'<noscript><link rel="stylesheet" href="/style.min.css?v={_hash}"></noscript>')
+            # (?<!<noscript>) guards the fallback link this same block emits:
+            # without it the sweep stuffs a second critical copy inside every
+            # <noscript> it just wrote (r9 M1 follow-up, 304 pages affected).
+            _s, _cc = re.subn(
+                r'(?<!<noscript>)<link rel="stylesheet" href="/style(?:\.min)?\.css\?v=[a-f0-9]*">',
+                _defer, _s)
+            _nc += _cc
         _new, _c = re.subn(r'href="/style(?:\.min)?\.css\?v=[a-f0-9]*"',
                            f'href="/style.min.css?v={_hash}"', _s)
         _new, _cj = re.subn(r'<script src="/site\.js(?:\?v=[a-f0-9]+)?" defer>',
@@ -2847,6 +2969,7 @@ def sync_stylesheet_links():
             _n += _c
             _nj += _cj
     print(f"M1: {_n} stylesheet links -> style.min.css?v={_hash}")
+    print(f"M1: {_nc} pages converted to critical-inline + deferred bundle")
     print(f"M1-JS: {_nj} script tags -> site.js?v={_jhash}")
 
 

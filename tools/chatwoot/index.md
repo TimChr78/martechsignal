@@ -76,7 +76,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-Chatbots &amp; Conversational AI · Open Source · OPEN SOURCE Desk-reviewed
+Chatbots &amp; Conversational AI · Open Source Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
@@ -190,8 +190,8 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
 - [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Teams that want an open-source inbox with AI help included

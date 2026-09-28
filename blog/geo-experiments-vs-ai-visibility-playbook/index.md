@@ -72,9 +72,9 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 
 ## Related reading
 
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
@@ -83,16 +83,16 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 ## Comparison guides
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
+- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
-- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [Khoj](/tools/khoj/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -144,7 +144,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1479,
+  "wordCount": 1477,
   "articleSection": "seo"
 }
 ```
