@@ -209,7 +209,7 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
 

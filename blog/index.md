@@ -75,6 +75,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
   "inLanguage": "en",
   "publisher": {
     "@type": "Organization",
+    "@id": "https://martechsignal.com/#organization",
     "name": "MartechSignal",
     "url": "https://martechsignal.com/"
   },

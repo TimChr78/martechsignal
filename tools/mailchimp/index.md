@@ -161,7 +161,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
+Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
 

@@ -198,7 +198,7 @@ We found no Surfer integration in Frase&#x27;s integrations page or docs index; 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
 

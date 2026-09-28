@@ -132,7 +132,7 @@ The automation platform for developers who want code control with SaaS convenien
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
-Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
+Related guides: [Pipedream in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
 

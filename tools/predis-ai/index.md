@@ -151,7 +151,7 @@ Efficient social content factory for small brands; B2B nuance still needs a huma
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
-Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
+Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
 

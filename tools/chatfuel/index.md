@@ -151,7 +151,7 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
-Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
+Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
 

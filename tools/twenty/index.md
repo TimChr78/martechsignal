@@ -194,7 +194,7 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
-Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
+Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
 

@@ -91,6 +91,18 @@ AI Marketing Suite is free to self-host under the MIT licence.
 
 Free. Optional pip install reportlab for PDF output. Claude API costs apply.
 
+## Requirements
+
+Claude Code and a model with room for parallel subagents in one session. PDF output needs the optional reportlab install. The pack is MIT-licensed and free; API usage is billed by your provider.
+
+## Best for
+
+Freelancers and small agencies selling paid audits who want a repeatable first draft, and solo operators who want research and copy to share one context.
+
+## Not for
+
+Larger teams with existing audit tooling. Five fixed rubrics are a starting point, and an established practice will want to tune them before anything reaches a client.
+
 ## Review notes
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
@@ -98,6 +110,26 @@ Researched from public documentation, the source repository, and vendor material
 Type /market audit with a URL and five parallel agents score content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust, each out of 100, and return a structured report in minutes. Add reportlab and the same run produces a client-ready PDF. For freelancers and small agencies this compresses a paid audit into an afternoon, and the consistency is repeatable across prospects. The pack ships 15 commands, with /market copy earning its keep daily.
 
 The caveat: the 0-100 scores are heuristics from the agents, not measured benchmarks, so the report needs a human read before it goes to a prospect. Output quality tracks whatever model you run, and brand-specific nuance still requires edits. It is open-source, so you can tighten the scoring prompts to your own methodology. Audit outputs win clients, but a steady feed of on-brand copy is what keeps them.
+
+The parallel-agent design is the interesting engineering choice here. Five specialists scoring one site in a single pass keeps the audit internally consistent, because each agent reads the same snapshot instead of five separate crawls taken days apart. It also caps the ceiling: the scores are only as sharp as the five rubrics behind them, and those ship as editable prompts rather than tuned models.
+
+The writing side is quieter than the audit but steadier. /market copy and its sibling commands generate campaign drafts from the same model context the audit established, so the research does not have to be retyped into every prompt. For a solo operator that continuity is most of the value. The 15 commands cover the recurring marketing chores rather than one hero workflow.
+
+The PDF path deserves one line. Add reportlab and the same run emits a document a client can forward internally, which changes who the output is for: a chat log is for you, a PDF is for the buying committee. For freelancers who sell audits, that packaging step is often the difference between a tool and an offer.
+
+Being MIT-licensed means the rubrics are editable. When the 0-100 audit scores drift from what you would actually tell a client, the fix is a prompt edit rather than a support ticket. Keep a copy of your edits when the pack updates so your methodology survives upstream changes.
+
+One honest limit before adopting it for client work. The audit scores come from prompt rubrics, and two runs on an unchanged site can land a few points apart. Present the output as an assessment with stated criteria rather than a measurement, and the variance stops being a credibility problem. The report is strongest where it names specific pages and quotes specifics, which is exactly the part worth keeping after your own read.
+
+The five audit pillars map cleanly onto what prospects ask for in an initial call: content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. That mapping is the pitch&#x27;s quiet strength. The report answers the questions a buyer already has, in the order they ask them, which is why the output converts better than a generic technical audit nobody requested.
+
+On the 0-100 scale, the honest framing is calibration, not measurement. The scores rank pages against each other and track movement over time more reliably than they compare two different sites. Use them to show a before-and-after and to prioritize which section to fix first. Presenting a 71 as an objective grade invites an argument the number cannot win.
+
+A sensible first week is small by design. Run the audit on your own site, read every line of the report once, and rewrite the two sections you disagree with. That pass teaches you the rubrics faster than any documentation, and the site you know best is the one where you will spot soft judgment immediately. Client work comes after that read.
+
+Running costs stay low by design. The pack is MIT-licensed with no seat fees, reportlab is optional and free, and the only recurring bill is model usage at your provider&#x27;s rates. A full five-agent audit is one of the heavier runs in the suite, so price it like a research call rather than a keystroke. Against a day of manual review, most solo operators find that an easy trade.
+
+The clearest signal after a month is whether the reports survive your own edits untouched. Forwarding output to a prospect with light changes means the suite is earning its place. When every section needs rewriting, the rubrics want the prompt-level tune-up the license allows.
 
 ## Verdict
 

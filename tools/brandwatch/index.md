@@ -151,7 +151,7 @@ The listening leader for enterprise consumer-intelligence teams. Posting-only te
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 ### Quick Facts
 
-Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
+Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
 

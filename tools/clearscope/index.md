@@ -152,7 +152,7 @@ The reference tool for SEO copy scoring. Best when paired with a writer who want
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
 

@@ -182,7 +182,7 @@ The creative AI layer. It prepares images (upscaling, background removal, per-pl
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
-Related guides: [Ai Advertising Tools](/best/ai-advertising-tools)
+Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
 

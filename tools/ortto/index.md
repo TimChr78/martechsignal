@@ -201,7 +201,7 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
-Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools)
+Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

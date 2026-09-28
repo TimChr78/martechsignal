@@ -158,7 +158,7 @@ Choose it when you keep discovering untagged events after the fact. Disciplined 
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
+Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
 

@@ -160,7 +160,7 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
-Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools)
+Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

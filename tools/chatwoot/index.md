@@ -192,7 +192,7 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
-Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
+Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
 

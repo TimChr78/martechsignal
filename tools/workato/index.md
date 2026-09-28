@@ -185,7 +185,7 @@ Yes, for training. The Workato Automation Institute&#x27;s certificate programs 
 
 No published prices; usage-based model with a platform edition fee plus a usage fee in one billing unit; editions Standard, Business, Enterprise, and Workato One; demo-gated trial
 
-Related guides: [Workato in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
+Related guides: [Workato in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
 

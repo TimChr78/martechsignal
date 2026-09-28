@@ -597,7 +597,7 @@ def build_index(posts: list) -> str:
         "url": "https://martechsignal.com/blog/",
         "description": "Deep-dives, tool teardowns, and hot takes on AI in marketing automation.",
         "inLanguage": "en",
-        "publisher": {"@type": "Organization", "name": "MartechSignal", "url": "https://martechsignal.com/"},
+        "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "blogPost": [
             {
                 "@type": "BlogPosting",

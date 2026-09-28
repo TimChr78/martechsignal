@@ -158,7 +158,7 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
-Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
+Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
 

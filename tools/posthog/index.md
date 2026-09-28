@@ -183,7 +183,7 @@ PostHog AI answers questions about your data in plain language across web, Slack
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
-Related guides: [PostHog in Matomo alternatives](/alternatives/matomo)
+Related guides: [PostHog in Matomo alternatives](/alternatives/matomo/)
 
 ## Get the next teardown
 

@@ -197,7 +197,7 @@ Zapier fits single-task automations owned by individuals. Tray fits programs: mu
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
-Related guides: [Tray.io in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
+Related guides: [Tray.io in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
 

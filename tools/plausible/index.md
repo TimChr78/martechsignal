@@ -152,7 +152,7 @@ The analytics tool we recommend by default for content and marketing sites; powe
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ### Quick Facts
 
-Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible)
+Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo/) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible/)
 
 ## Get the next teardown
 

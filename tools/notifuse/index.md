@@ -158,7 +158,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
-Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
+Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
 

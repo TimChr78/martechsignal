@@ -155,7 +155,7 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
-Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools)
+Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

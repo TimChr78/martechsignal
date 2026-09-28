@@ -182,7 +182,7 @@ Email and transactional email, push and in-app with unlimited sends on every pla
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
-Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
+Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
 

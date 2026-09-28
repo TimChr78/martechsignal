@@ -137,7 +137,7 @@ Strengths include 837 GitHub stars, open-source licensing with free self-hosting
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

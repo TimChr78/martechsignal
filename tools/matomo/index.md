@@ -197,7 +197,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible) · [Marketing Analytics Tools](/best/marketing-analytics-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
+Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
 

@@ -153,7 +153,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
-Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
+Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
 

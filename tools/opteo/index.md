@@ -155,7 +155,7 @@ A focused Google Ads quality-control layer: less ambitious than cross-channel pl
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
-Related guides: [Ai Advertising Tools](/best/ai-advertising-tools)
+Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
 

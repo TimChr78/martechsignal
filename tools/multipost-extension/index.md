@@ -135,7 +135,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 Free open-source browser extension
 
-Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
+Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
 

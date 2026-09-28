@@ -157,7 +157,7 @@ Best for enterprises needing brand-governed, multichannel output at scale. Solo 
 - [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ### Quick Facts
 
-Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
+Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
 

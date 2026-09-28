@@ -183,7 +183,7 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
-Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8N](/vs/n8n-vs-zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
+Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8N](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
 

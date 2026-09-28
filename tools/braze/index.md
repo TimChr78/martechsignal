@@ -159,7 +159,7 @@ Worth it only at meaningful volume with dedicated ops. Smaller teams get 80% of 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
-Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools)
+Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

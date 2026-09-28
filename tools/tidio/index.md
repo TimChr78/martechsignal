@@ -157,7 +157,7 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
-Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
+Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
 

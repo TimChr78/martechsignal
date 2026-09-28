@@ -174,7 +174,7 @@ No. The CDN-edge deployment works with Fastly, Akamai, and Cloudflare, and Adobe
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
-Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools/)
 
 ## Get the next teardown
 

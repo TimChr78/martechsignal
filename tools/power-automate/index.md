@@ -139,7 +139,7 @@ Strengths include an API for custom integrations. The full review breaks down wh
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
-Related guides: [Microsoft Power Automate in Zapier alternatives](/alternatives/zapier)
+Related guides: [Microsoft Power Automate in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
 

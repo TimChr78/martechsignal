@@ -192,7 +192,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 
-Related guides: [Open Source Crm](/best/open-source-crm)
+Related guides: [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
 

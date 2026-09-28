@@ -195,7 +195,7 @@ Four documented models. Native is the deepest: every email send pulls Persado-sc
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
-Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
+Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
 

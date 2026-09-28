@@ -136,7 +136,7 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 Free open-source; self-hosted
 
-Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
+Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
 

@@ -163,7 +163,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 
 Free MIT-licensed Python package
 
-Related guides: [Ai Advertising Tools](/best/ai-advertising-tools)
+Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
 

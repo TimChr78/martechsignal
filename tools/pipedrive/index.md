@@ -157,7 +157,7 @@ The easiest CRM to get a sales team to actually adopt; add-on pricing is where c
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
-Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Ai Crm Tools](/best/ai-crm-tools)
+Related guides: [Pipedrive in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
 

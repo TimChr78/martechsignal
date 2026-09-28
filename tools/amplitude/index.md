@@ -198,7 +198,7 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
-Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo) · [Marketing Analytics Tools](/best/marketing-analytics-tools)
+Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo/) · [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
 

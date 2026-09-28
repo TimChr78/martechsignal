@@ -156,7 +156,7 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
-Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
+Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
 
 ## Get the next teardown
 

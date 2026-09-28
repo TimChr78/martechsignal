@@ -138,7 +138,7 @@ Strengths include an API for custom integrations. The full review breaks down wh
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
-Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier)
+Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
 

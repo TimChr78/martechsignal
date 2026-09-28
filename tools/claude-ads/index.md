@@ -157,7 +157,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
 

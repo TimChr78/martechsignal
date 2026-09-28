@@ -154,7 +154,7 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
-Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
+Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
 

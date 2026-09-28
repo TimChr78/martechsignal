@@ -150,7 +150,7 @@ Best-in-class workflow and reporting for serious social teams; hard to justify b
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
-Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
+Related guides: [Ai Social Media Tools](/best/ai-social-media-tools/)
 
 ## Get the next teardown
 

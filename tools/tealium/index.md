@@ -154,7 +154,7 @@ Best for enterprises that need governed, consent-aware data plumbing at scale. W
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
 

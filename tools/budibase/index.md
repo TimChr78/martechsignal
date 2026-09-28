@@ -196,7 +196,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
-Related guides: [Budibase in Zapier alternatives](/alternatives/zapier)
+Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
 

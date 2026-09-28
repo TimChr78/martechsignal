@@ -169,7 +169,7 @@ Yes. It lets AI tools manage flags, create segments, schedule changes, and autom
 - [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
 

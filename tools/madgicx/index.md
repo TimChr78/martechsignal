@@ -159,7 +159,7 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
-Related guides: [Ai Advertising Tools](/best/ai-advertising-tools)
+Related guides: [Ai Advertising Tools](/best/ai-advertising-tools/)
 
 ## Get the next teardown
 

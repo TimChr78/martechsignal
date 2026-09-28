@@ -158,7 +158,7 @@ The right choice when you want owned automation with code-level control and no p
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
-Related guides: [n8n in Zapier alternatives](/alternatives/zapier) · [n8n vs Zapier](/vs/n8n-vs-zapier) · [Workflow Automation Tools](/best/workflow-automation-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
+Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
 

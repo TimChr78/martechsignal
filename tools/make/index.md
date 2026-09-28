@@ -163,7 +163,7 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
-Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
+Related guides: [Make in Zapier alternatives](/alternatives/zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/)
 
 ## Get the next teardown
 

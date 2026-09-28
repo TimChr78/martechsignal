@@ -153,7 +153,7 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
-Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
+Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
 

@@ -157,7 +157,7 @@ Buy it when program complexity and scale justify the ops headcount. For smaller 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
-Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools)
+Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

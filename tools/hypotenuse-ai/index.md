@@ -156,7 +156,7 @@ A strong specialist for bulk product catalog content at scale. General writing n
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
-Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
+Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools/)
 
 ## Get the next teardown
 

@@ -151,7 +151,7 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
 

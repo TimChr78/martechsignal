@@ -193,7 +193,7 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
 

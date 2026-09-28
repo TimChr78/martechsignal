@@ -160,7 +160,7 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
+Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
 
 ## Get the next teardown
 

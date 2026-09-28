@@ -134,7 +134,7 @@ Strengths include an API for custom integrations. The full review breaks down wh
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
-Related guides: [Pabbly Connect in Zapier alternatives](/alternatives/zapier)
+Related guides: [Pabbly Connect in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
 

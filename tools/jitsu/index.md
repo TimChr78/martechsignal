@@ -172,7 +172,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
-Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)
 
 ## Get the next teardown
 

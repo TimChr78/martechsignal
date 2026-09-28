@@ -156,7 +156,7 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
 

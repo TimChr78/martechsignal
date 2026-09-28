@@ -158,7 +158,7 @@ Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a hu
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
 

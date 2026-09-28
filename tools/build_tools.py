@@ -800,13 +800,13 @@ def _guide_links(t):
     if t["slug"] in _ALT_TARGETS:
         links.append(f'<a href="/alternatives/{t["slug"]}/">Alternatives to {esc(t["name"])}</a>')
     for _pg in _ALT_ITEMS.get(t["slug"], []):
-        links.append(f'<a href="/alternatives/{_pg}">{esc(t["name"])} in {_pg.replace("-", " ").title()} alternatives</a>')
+        links.append(f'<a href="/alternatives/{_pg}/">{esc(t["name"])} in {_pg.replace("-", " ").title()} alternatives</a>')
     for vs in _VS_MAP.get(t["slug"], []):
         a, b = vs.split("-vs-")
         other = b if a == t["slug"] else a
-        links.append(f'<a href="/vs/{vs}">{esc(t["name"])} vs {other.replace("-", " ").title()}</a>')
+        links.append(f'<a href="/vs/{vs}/">{esc(t["name"])} vs {other.replace("-", " ").title()}</a>')
     for bs in _BEST_MAP.get(t["slug"], []):
-        links.append(f'<a href="/best/{bs}">{bs.replace("-", " ").title()}</a>')
+        links.append(f'<a href="/best/{bs}/">{bs.replace("-", " ").title()}</a>')
     seen, out = set(), []
     for l in links:
         if l not in seen:

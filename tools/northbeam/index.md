@@ -154,7 +154,7 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
-Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
+Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
 

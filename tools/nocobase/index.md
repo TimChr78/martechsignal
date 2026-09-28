@@ -178,7 +178,7 @@ Yes, NocoBase runs a live demo on its website, and because the core is open sour
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
-Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase)
+Related guides: [NocoBase vs Nocodb](/vs/nocodb-vs-nocobase/)
 
 ## Get the next teardown
 

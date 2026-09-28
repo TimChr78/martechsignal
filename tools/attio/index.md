@@ -160,7 +160,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
-Related guides: [Ai Crm Tools](/best/ai-crm-tools)
+Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
 

@@ -151,7 +151,7 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
 

@@ -189,7 +189,7 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools)
+Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
 

@@ -488,3 +488,43 @@ def test_stylesheet_cache_bust_uniform():
             if v != want:
                 bad.append((str(f.relative_to(ROOT)), v))
     assert not bad, f"stale stylesheet hashes: {bad[:5]}"
+
+
+# ── GSC Product snippets regression lints (2026-09-28) ──
+
+def test_no_reviewcount_or_ratingcount_markup():
+    """GSC: "Value in property reviewCount must be positive" (ERROR).
+    reviewCount/ratingCount must never ship: AggregateRating was dropped
+    sitewide (R3-H2, Tim 2026-09-17) and zero counts are the textbook
+    spammy-markup trigger (R3-C1, v2.3.1). Omit, never zero."""
+    bad = []
+    for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+        if "deploy-out" in f.parts or "node_modules" in f.parts or not f.exists():
+            continue
+        txt = f.read_text(errors="ignore")
+        if "reviewCount" in txt or "ratingCount" in txt:
+            bad.append(str(f.relative_to(ROOT)))
+    assert not bad, f"reviewCount/ratingCount markup reappeared in: {bad[:5]}"
+
+
+def test_review_itemreviewed_is_typed_object():
+    """GSC: "Invalid object type for field itemReviewed" (ERROR).
+    Every Review node's itemReviewed must be an object carrying its own
+    @type (the plain-@id-ref era broke Google's parser)."""
+    import json as _json
+    bad = []
+    for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+        if "deploy-out" in f.parts or "node_modules" in f.parts or not f.exists():
+            continue
+        txt = f.read_text(errors="ignore")
+        for m in re.finditer(r'<script type="application/ld\+json">(.*?)</script>', txt, re.S):
+            try:
+                node = _json.loads(m.group(1))
+            except Exception:
+                continue
+            for n in (node if isinstance(node, list) else [node]):
+                if isinstance(n, dict) and n.get("@type") == "Review":
+                    ir = n.get("itemReviewed")
+                    if not isinstance(ir, dict) or not ir.get("@type"):
+                        bad.append(str(f.relative_to(ROOT)))
+    assert not bad, f"Review.itemReviewed must be a typed object, broken in: {bad[:5]}"

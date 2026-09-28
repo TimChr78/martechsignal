@@ -142,7 +142,7 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
-Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier)
+Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)
 
 ## Get the next teardown
 

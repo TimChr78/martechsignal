@@ -167,7 +167,7 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools/)
 
 ## Get the next teardown
 

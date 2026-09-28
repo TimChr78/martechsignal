@@ -96,6 +96,18 @@ Digital Marketing Pro is free to self-host under the MIT licence.
 
 Free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms.
 
+## Requirements
+
+An agent CLI from the supported platform list and a Claude-class model with enough context for long planning sessions. The pack itself is free and MIT-licensed; model and platform costs remain yours.
+
+## Best for
+
+Agencies that want one planning methodology shared across every seat and every agent platform, especially shops with EU clients who need disclosure documents as a starting point.
+
+## Not for
+
+Teams that need live data inside their planning. Nothing in the pack connects to an ad account or an analytics property, so the frameworks run on whatever context you paste in.
+
 ## Review notes
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
@@ -103,6 +115,28 @@ Researched from public documentation, the source repository, and vendor material
 Digital Marketing Pro is a skill pack for Claude-class agents covering campaign planning and channel strategy prompts. Loading it gives an agent structured planning frameworks rather than integrations - nothing connects to ad accounts directly. Value depends entirely on how much rigour your bare prompting lacks.
 
 Useful if your agent sessions drift without structure; experienced strategists may find it constraining. Check whether the frameworks match how your team already plans.
+
+The 12-Part Strategy Flow is the spine of the pack. It walks an agent from market context through channel planning to a four-document output set, so a planning session ends with artifacts instead of a chat transcript. Teams that already run a documented planning process will recognize the stages. The pack simply encodes them as prompts an agent can execute in order.
+
+The EU AI Act compliance piece is documentation tooling: checklists and disclosure templates rather than legal advice. Treat it as a drafting head start that counsel still reviews before anything ships. For agencies with EU clients that paperwork is real recurring work, and starting from a first draft instead of a blank page is the part clients actually feel.
+
+Platform breadth is the other half of the pitch. The same pack loads into Claude Code, Codex, Cursor, and GitHub Copilot CLI, so a mixed-tooling shop does not have to standardize before adopting it. Prompts do behave differently across models, though. Budget an afternoon per platform to see which of the 163 skills hold up on your stack before promising the coverage internally.
+
+Maintenance is the quiet cost nobody prices. A 163-skill library is a library: skills drift as models change, and someone has to own the review loop. In practice one person spending an hour a month reading what the agents produced is enough to catch a skill that has gone stale against your methodology.
+
+One honest limit worth stating before anyone buys into the breadth. A skill pack improves the shape of what an agent produces; it does not add data the agent cannot see. The strongest results in any planning session will still come from feeding the pack real inputs: your funnel numbers, your actual creative, the competitor set you really face. The frameworks organize that material. They do not replace it.
+
+Where the pack clearly earns its keep is consistency across people. When a junior and a twenty-year strategist run the same 12-part flow, the outputs are comparable, and comparability is what makes review possible at agency speed. That is a quality-of-work argument more than a speed argument, and it is the one to make internally if adoption needs a champion.
+
+The four core documents that anchor the strategy flow are the part worth previewing before you commit. Roughly: a market read, a positioning statement, a channel plan, and a measurement frame. Each document feeds the next, so skipping one to save time tends to surface later as a channel plan with nothing to prove against. The chain is the product. The individual prompts are replaceable.
+
+On cost, the framing is simple: the pack is free and MIT-licensed, and every token it consumes is billed by whoever provides your model. Compare that to per-seat planning software and the math favors heavy users first. Light users should run a single project through the flow before deciding, because the value shows up in artifacts, not in the session log.
+
+A sensible week-one rollout is narrower than the library suggests. Pick the strategy flow plus the two or three channel skills that match live work, run one real project end to end, and only then widen. Teams that install 163 skills at once tend to spend the first month learning the library instead of finishing the campaign that justified it.
+
+Organizationally, the pack wants a named owner. The skills run anywhere, but somebody has to decide which four documents are canonical this quarter and who signs the positioning statement before it reaches a client. Shops that treat the library as shared infrastructure with one maintainer keep the value. Shops that treat it as a download drift back to bare prompting within a month, and unstructured drift is exactly the problem the pack was bought to solve.
+
+The clearest adoption signal to watch in month one is document reuse. When the second project starts from last quarter&#x27;s four documents instead of a blank prompt, the library is doing its job. If nothing is ever reused, the framework tax is not paying for itself.
 
 ## Verdict
 
@@ -138,7 +172,7 @@ Reasonable scaffolding for agent-run campaign planning; brings process, not magi
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
 

@@ -192,7 +192,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
-Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
+Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
 
 ## Get the next teardown
 

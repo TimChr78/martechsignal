@@ -198,7 +198,7 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
-Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
+Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
 
 ## Get the next teardown
 

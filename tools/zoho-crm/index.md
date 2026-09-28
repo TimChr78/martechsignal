@@ -123,7 +123,7 @@ Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
-Related guides: [Ai Crm Tools](/best/ai-crm-tools)
+Related guides: [Ai Crm Tools](/best/ai-crm-tools/)
 
 ## Get the next teardown
 

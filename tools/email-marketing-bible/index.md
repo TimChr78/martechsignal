@@ -158,7 +158,7 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ### Quick Facts
 
-Related guides: [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Agent Skills Tools](/best/agent-skills-tools/)
 
 ## Get the next teardown
 

@@ -174,7 +174,7 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
-Related guides: [Open Source Crm](/best/open-source-crm)
+Related guides: [Open Source Crm](/best/open-source-crm/)
 
 ## Get the next teardown
 
