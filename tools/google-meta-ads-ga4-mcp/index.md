@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (vendor documentation). |
 | Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (vendor documentation). |
 | AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: 250+ MCP tools for campaign management, analytics, and optimization |  |
-| &#10003; Established community (1,672 GitHub stars) |  |
+| &#10003; Active public repository (1,672 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Google Ads, Meta Ads, GA4 (11 listed) |  |
 
 **What is Google Ads + Meta Ads + GA4 MCP?**

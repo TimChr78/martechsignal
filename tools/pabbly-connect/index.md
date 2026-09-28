@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 5/10 | Task-based integrations and workflows cover the iPaaS job (vendor documentation). |
 | Integrations | 5/10 | Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (vendor documentation). |
 | AI capability | 3/10 | Pabbly AgenticAI exists as a workflow builder sold separately (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Pabbly Connect?**
-Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Pabbly Connect cost?**
 Pabbly Connect has a free tier; paid plans start at $16/mo. Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -119,7 +119,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Pabbly Connect has a free tier; paid plans start at $16/mo. Task-based tiers billed yearly: from $16/mo at 10,000 tasks a month, scaling with volume to $254/mo at the largest listed tier; one-time lifetime deal at $349. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Pabbly Connect?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Task-priced integration platform with a one-time lifetime purchase option. It ships with AI workflow builder (Pabbly AgenticAI, sold separately), 5 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $40/mo once past the free tier |
 | &#10003; AI capabilities: agent-driven CRM that builds contact and company records from your team&#x27;s email |  |
-| &#10003; Established community (4,268 GitHub stars) |  |
+| &#10003; Active public repository (4,268 GitHub stars counted at last check) |  |
 
 **What is Macro?**
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory. It ships with agent-driven CRM that builds contact and company records from your team&#x27;s email, 4,268 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

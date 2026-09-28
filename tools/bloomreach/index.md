@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation). |
 | Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation). |
 | AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Bloomreach?**
-AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Bloomreach cost?**
 Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Bloomreach uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -222,7 +222,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Bloomreach?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered commerce experience platform with search, personalization, and CDP. It ships with loomi AI search, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

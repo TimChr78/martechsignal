@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (vendor documentation). |
 | Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (vendor documentation). |
 | AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Triple Whale?**
-AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Triple Whale cost?**
 Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -143,7 +143,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Triple Whale starts at $59/mo. Conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -232,7 +232,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Triple Whale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered ecommerce analytics and attribution platform for DTC brands. It ships with AI attribution modeling, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

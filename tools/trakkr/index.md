@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (vendor documentation). |
 | Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (vendor documentation). |
 | AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (vendor documentation). |
@@ -20,7 +20,7 @@
 | &#10003; Free tools and live benchmarks (visibility leaderboard, AI traffic index) let you sample the data before paying |  |
 
 **What is Trakkr?**
-AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Trakkr cost?**
 Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands &amp; prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -151,7 +151,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Trakkr starts at $100/mo. Growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands &amp; prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -246,7 +246,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Trakkr?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI visibility platform for brands and agencies: citations, perception, competitors. It ships with citation and AI crawler analytics, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

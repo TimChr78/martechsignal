@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (vendor documentation). |
 | Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (vendor documentation). |
 | AI capability | 5/10 | Measuring Claude&#x27;s web-search answers with citation validity checks is applied AI measurement (vendor documentation). |

@@ -5,7 +5,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Short native integration list - plan for API work |
 | &#10003; AI capabilities: 15 marketing skills with 5 parallel subagents |  |
-| &#10003; Established community (2,628 GitHub stars) |  |
+| &#10003; Active public repository (2,628 GitHub stars counted at last check) |  |
 
 **What is AI Marketing Suite?**
 15-skill marketing suite for Claude Code with parallel agents and PDF reports. It ships with 15 marketing skills with 5 parallel subagents, 2,628 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

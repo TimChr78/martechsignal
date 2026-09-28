@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $20/mo once past the free tier |
-| &#10003; Established community (38,710 GitHub stars) |  |
+| &#10003; Active public repository (38,710 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
 **What is Umami?**

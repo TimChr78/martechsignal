@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 6/10 | Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (vendor documentation). |
 | Integrations | 6/10 | GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (vendor documentation). |
 | AI capability | 6/10 | Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (vendor documentation). |
@@ -19,7 +19,7 @@
 | &#10003; Three years of SERP archives and on-demand checks sit alongside the daily updates. | &#10007; The trial converts to a paid subscription after 14 days unless canceled. |
 
 **What is Nightwatch?**
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nightwatch cost?**
 Nightwatch starts at €79/mo. Starter EUR 79/mo (EUR 948 billed yearly), unlimited seats; Professional EUR 159/mo (EUR 1,908 yearly); Agency EUR 399/mo (EUR 4,788 yearly); Enterprise custom from 20,000 keywords. Yearly billing is two months free. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -42,7 +42,7 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Nightwatch is a tool in GEO &amp; LLM Optimization with paid plans starting at $79/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nightwatch is a tool in GEO &amp; LLM Optimization with paid plans starting at €79/mo. The catalog documents 1 AI features, 4 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 AccuRanker
 
@@ -150,7 +150,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Nightwatch starts at €79/mo. Starter EUR 79/mo (EUR 948 billed yearly), unlimited seats; Professional EUR 159/mo (EUR 1,908 yearly); Agency EUR 399/mo (EUR 4,788 yearly); Enterprise custom from 20,000 keywords. Yearly billing is two months free. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -243,7 +243,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Nightwatch?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Rank tracking across Google and AI answers, priced by keyword with unlimited seats. It ships with prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis, 4 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

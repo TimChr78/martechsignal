@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (vendor documentation). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $5000/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
-| &#10003; Established community (8,776 GitHub stars) |  |
+| &#10003; Active public repository (8,776 GitHub stars counted at last check) |  |
 
 **What is IDURAR ERP &amp; CRM?**
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. It ships with 8,776 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
@@ -47,6 +47,10 @@ Frappe CRM
 
 Fully featured, open source CRM
 
+Relaticle
+
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
+
 Ever Gauzy
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
@@ -54,10 +58,6 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
-
-Relaticle
-
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
 
 [More CRM Tools →](/categories/crm/)
 

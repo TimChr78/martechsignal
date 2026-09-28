@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (vendor documentation). |
 | Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (vendor documentation). |
 | AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Starter caps the account at 3 users and 1 project, so growth past a small team means Pro at USD 40 per seat. |
 | &#10003; AI capabilities: growthBook AI assistant (usage-metered per plan) | &#10007; The AI Visual Editor, bandits, and split URL tests sit on paid plans only. |
-| &#10003; Established community (8,430 GitHub stars) | &#10007; Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
+| &#10003; Active public repository (8,430 GitHub stars counted at last check) | &#10007; Three enterprise directories carry a separate GrowthBook Enterprise License on top of the MIT core. |
 | &#10003; Native integrations include Snowflake, BigQuery, Databricks (6 listed) |  |
 | &#10003; Unlimited flags, experiments, and traffic on every plan, including the free one. |  |
 | &#10003; The MCP server is hosted and OAuth-based, so AI tooling works without provisioning API keys. |  |
@@ -91,7 +91,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. Flags support attribute-based targeting and gradual rollouts, and every cloud plan includes unlimited flags, experiments, and traffic. The statistics engine runs frequentist and Bayesian analysis, and Pro adds multi-arm bandits, split URL tests, a power calculator, and customizable dashboards. Cloud pricing starts at zero. Starter is free for up to 3 users and 1 project. Pro runs USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom and adds ramp schedules, approval workflows, SSO and SCIM, exportable audit logs, and a 99.99% uptime SLA. A managed warehouse is available for teams without their own: 1 million events a month on Starter, 2 million on Pro and then USD 30 per million. Supported warehouses include Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service. The AI surface is real and dated. A hosted MCP server at mcp.growthbook.io connects to Claude, Cursor, and VS Code over OAuth so agents can create flags and read experiment results. The AI Visual Editor is a Pro feature, GrowthBook AI usage is metered per plan, and Enterprise can bring its own LLM provider. Version 5.1 added a Slack app and contextual bandits. Self-hosting is documented alongside cloud. The repository is MIT licensed except for three enterprise directories under a separate GrowthBook Enterprise License. The company was founded in 2020 by Graham McNicoll and Jeremy Dorn.
+GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. Flags support attribute-based targeting and gradual rollouts, and every cloud plan includes unlimited flags, experiments, and traffic. The statistics engine runs frequentist and Bayesian analysis, and Pro adds multi-arm bandits, split URL tests, a power calculator, and customizable dashboards. Cloud pricing starts at zero. Starter is free for up to 3 users and 1 project. Pro runs USD 40 per seat per month for up to 30 users and 3 projects. Enterprise is custom and adds ramp schedules, approval workflows, SSO and SCIM, exportable audit logs, and a 99.99% uptime SLA. A managed warehouse is available for teams without their own: 1 million events a month on Starter, 2 million on Pro and then USD 30 per million. Supported warehouses include Snowflake, BigQuery, Databricks, ClickHouse, Trino, and Adobe Experience Platform Query Service. The AI surface is real and dated. A hosted MCP server at mcp.growthbook.io connects to Claude, Cursor, and VS Code over OAuth so agents can create flags and read experiment results. The AI Visual Editor is a Pro feature, GrowthBook AI usage is metered per plan, and Enterprise can bring its own LLM provider. Version 5.1 added a Slack app and contextual bandits. Self-hosting is documented alongside cloud. The repository is MIT licensed except for three enterprise directories under a separate GrowthBook Enterprise License. The company was founded in 2020 by Graham McNicoll and Jeremy Dorn.
 
 ## AI Capabilities
 
@@ -165,7 +165,7 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 

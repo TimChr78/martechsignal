@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: AI content generation and rewriting in editors (stable since 21.0) |  |
-| &#10003; Established community (7,596 GitHub stars) |  |
+| &#10003; Active public repository (7,596 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include REST API, SOAP API, Webhooks (9 listed) |  |
 
 **What is Dolibarr ERP/CRM?**

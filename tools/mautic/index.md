@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $247.5/mo once past the free tier |
-| &#10003; Established community (10,472 GitHub stars) |  |
+| &#10003; Active public repository (10,472 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
 **What is Mautic?**

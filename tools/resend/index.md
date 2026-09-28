@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Email Editor with brand-voice drafting | &#10007; Paid plans start at $20/mo once past the free tier |
-| &#10003; Established community (19,722 GitHub stars) | &#10007; Closed source - no self-hosting option |
+| &#10003; Active public repository (19,722 GitHub stars counted at last check) | &#10007; Closed source - no self-hosting option |
 | &#10003; Native integrations include Next.js, Vercel, React Email (6 listed) |  |
 | &#10003; Free tier to evaluate before committing (Free 3,000 emails/mo (100/day cap, 3 domains); Transactional) |  |
 

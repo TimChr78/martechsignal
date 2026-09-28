@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation). |
 | Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation). |
 | AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation). |

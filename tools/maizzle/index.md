@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (vendor documentation). |
 | Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; Established community (2,855 GitHub stars) |  |
+| &#10003; Active public repository (2,855 GitHub stars counted at last check) |  |
 
 **What is Maizzle?**
 Modern email development framework using Tailwind CSS for responsive campaigns. It ships with 2,855 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

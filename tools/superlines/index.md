@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Superlines?**
-AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Superlines cost?**
 Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro €199/mo (150 prompts, 3 brands, exports, site audits); Growth €379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -33,7 +33,7 @@ A GEO analytics layer for the AI-search era: real-interface collection, MCP acce
 - **API:** Yes
 - **Last verified:** 2026-09-07
 
-**Verdict:** Superlines is a tool in SEO &amp; Search with paid plans starting at $79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Superlines is a tool in SEO &amp; Search with paid plans starting at €79/mo. The catalog documents 3 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
 Profound
 
@@ -148,7 +148,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand, 1-mo history); Pro €199/mo (150 prompts, 3 brands, exports, site audits); Growth €379/mo (300 prompts, 7 brands, API, weekly audits). 12% off yearly. 7-day free trial. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Superlines?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI Search Intelligence platform for brands and agencies. It ships with tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

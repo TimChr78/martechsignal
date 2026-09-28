@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (vendor documentation). |
 | Integrations | 5/10 | Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (vendor documentation). |
 | AI capability | 6/10 | Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
 | &#10003; AI capabilities: captain Assistant (AI chatbot) |  |
-| &#10003; Established community (36,644 GitHub stars) |  |
+| &#10003; Active public repository (36,644 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
 
 **What is Chatwoot?**
@@ -92,7 +92,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near 36,600 GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300,500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.
+Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. The stack is Ruby on Rails with Vue, Sidekiq, Redis, and Postgres 16 with pgvector, and the repo sits near 36,644 GitHub stars GitHub stars with v4.17.1 released in August 2026. Self-hosting is genuinely first-class: the Docker guide pulls chatwoot/chatwoot:latest, fetches the production compose file and .env example from the repo, runs db:chatwoot_prepare, then docker compose up -d, and a Linux installer script (cwctl) targets Ubuntu 24.04 with Heroku and DigitalOcean one-click paths documented. Documented sizing is 4GB RAM and 4 cores for up to 10,000 conversations a day, doubling for 20,000. AI arrives as Captain, positioned as the AI agent for customer support: an Assistant that answers first-response questions from your help centre, a Copilot that drafts and translates replies for agents, Memories that keep per-customer notes, reply suggestions, summarization, and content gap detection that surfaces questions your help centre does not answer. Captain is credit-metered, 1 credit per message, with 300,500, and 800 monthly credits on the paid cloud tiers and extra credits at $20 per 1,000; on self-hosted installs it requires Enterprise Edition with a paid plan plus your own OpenAI API key. Cloud pricing per agent per month billed annually is $0 (Hacker, 2 agents, 500 conversations), $19 (Startups), $39 (Business), and $99 (Enterprise with SSO and audit logs). Documented integrations are thinner than our earlier record claimed: Slack, Linear, Dialogflow, Google Translate, Cloudflare RealtimeKit, and LeadSquared are live, with Shopify and HubSpot listed for Q4 2026, so plan on the REST API and webhooks for the rest.
 
 Chatwoot homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -143,7 +143,7 @@ Teams that expect a broad native integration catalog out of the box (six integra
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-Researched from the repository, developers.chatwoot.com, and chatwoot.com (September 2026). Not a hands-on review. The repo is healthy: 36,581 stars, v4.17.1 released August 27, 2026, and a commit log that has not slowed since the 2019 open-sourcing.
+Researched from the repository, developers.chatwoot.com, and chatwoot.com (September 2026). Not a hands-on review. The repo is healthy: 36,644 GitHub stars stars, v4.17.1 released August 27, 2026, and a commit log that has not slowed since the 2019 open-sourcing.
 
 The pricing correction is significant. Our record listed Hacker at $19/month and Startups at $49/month, and both are wrong against the current page: the ladder is Hacker at $0 (2 agents, 500 conversations a month, live chat only), Startups at $19, Business at $39, and Enterprise at $99, all per agent per month billed annually, with conversation retention rising from 30 days to 1, 2, then 3 years. The self-hosted page mirrors it with Community Edition free, Premium Support at $19, and Enterprise Edition at $99 per agent monthly.
 

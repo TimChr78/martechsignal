@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (vendor documentation). |
 | Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (vendor documentation). |
 | AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Google, Microsoft, Outlook (8 listed) |  |
 
 **What is Pipedrive?**
-Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Pipedrive cost?**
 Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Pipedrive starts at $14/mo. Essential $14/user/mo; Advanced $29/user/mo; Professional $59/user/mo; Enterprise $79/user/mo. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -231,7 +231,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Pipedrive?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Sales-focused CRM with AI-powered pipeline management and deal forecasting. It ships with AI sales assistant, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

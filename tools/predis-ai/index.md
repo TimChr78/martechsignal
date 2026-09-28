@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (vendor documentation). |
 | Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (vendor documentation). |
 | AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annu) |  |
 
 **What is Predis.ai?**
-AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Predis.ai cost?**
 Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Predis.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered social media content generator for posts, videos, and ad creatives. It ships with AI post generation, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

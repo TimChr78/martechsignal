@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation). |
 | Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation). |
 | AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan; Essential $14/mo; Pro custom; Business and Advanc) |  |
 
 **What is ManyChat?**
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ManyChat cost?**
 ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ManyChat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. It ships with AI flow builder, 7 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

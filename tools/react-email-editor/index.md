@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page, verified 2026-09-06). |
 | Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation). |
 | Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation). |
 | AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $250/mo once past the free tier |
 | &#10003; AI capabilities: AI Assistant chat editing |  |
-| &#10003; Established community (5,219 GitHub stars) |  |
+| &#10003; Active public repository (5,219 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include React, Angular, Vue (7 listed) |  |
 
 **What is React Email Editor?**

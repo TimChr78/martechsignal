@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-2.0 licence with free self-hosting | &#10007; You run the servers, apply updates and watch security advisories yourself. |
-| &#10003; Established community (1,505 GitHub stars) | &#10007; Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
+| &#10003; Active public repository (1,505 GitHub stars counted at last check) | &#10007; Geotargeting quality depends on the MaxMind GeoLite2 plugin and its database updates. |
 | &#10003; GPL-2.0 with no license fee and no per-impression charges. | &#10007; The interface is mature in the old sense; anyone expecting a current SaaS UI will notice its age. |
 | &#10003; Serves websites, apps and video players from one install. |  |
 | &#10003; A hosted edition at revive-adserver.net exists for teams that want the software without running it. |  |

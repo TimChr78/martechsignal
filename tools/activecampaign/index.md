@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation). |
 | Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation). |
 | AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Shopify, Salesforce, Slack (8 listed) |  |
 
 **What is ActiveCampaign?**
-AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ActiveCampaign cost?**
 ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ActiveCampaign starts at $15/mo. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ActiveCampaign?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered marketing automation and CRM for small to mid-size businesses. It ships with AI content generation, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

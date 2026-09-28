@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under Apache 2.0 with nothing else to buy (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free under Apache 2.0 with nothing else to buy (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | 120 skills across 7 disciplines with 6 auditor gates (CORE-EEAT, CITE, C3, ROAS, SEND and RAM) gating outputs (vendor documentation). |
 | Integrations | 4/10 | Claude Code, Codex, Gemini CLI and Cursor documented as harnesses (vendor documentation). |
 | AI capability | 6/10 | Auditor gates over generated work are quality machinery most skill packs lack (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative |  |
-| &#10003; Established community (2,758 GitHub stars) |  |
+| &#10003; Active public repository (2,758 GitHub stars counted at last check) |  |
 
 **What is Aaron Marketing Skills?**
 120 marketing skills across 7 disciplines for Claude Code with auditor gates. It ships with 120 skills across SEO/GEO, influencer, paid ads, email, launch, social, and brand narrative, 2,758 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

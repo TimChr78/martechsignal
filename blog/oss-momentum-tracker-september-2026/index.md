@@ -108,7 +108,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Related tools
 
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-- [Postmark](/tools/postmark/) - Transactional email API with separated message streams, an MCP server, and published delivery numbers
+- [Relaticle](/tools/relaticle/) - Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament
 - [PostHog](/tools/posthog/) - Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 ## Comparison guides
 
@@ -117,7 +117,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)
-- [DSP](/glossary/dsp/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -172,7 +172,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1452,
+  "wordCount": 1454,
   "articleSection": "agent-skills"
 }
 ```

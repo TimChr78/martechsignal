@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 4/10 | Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (vendor documentation). |
 | Integrations | 4/10 | GA4, Google Tag Manager, Cursor, Codex and Shopify documented (vendor documentation). |
 | AI capability | 4/10 | Agent-run tracking design is the whole scope by design (vendor documentation). |

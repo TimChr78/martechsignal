@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation). |
 | Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation). |
 | AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Nosto?**
-AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nosto cost?**
 Nosto uses enterprise pricing, so the number depends on your volume and contract. Quote-based: a base platform fee plus a fixed fee calculated on your store&#x27;s volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -176,7 +176,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Nosto uses enterprise pricing, so the number depends on your volume and contract. Quote-based: a base platform fee plus a fixed fee calculated on your store&#x27;s volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -264,7 +264,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Nosto?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered ecommerce personalization with product recommendations and merchandising. It ships with predictive product recommendations, 11 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

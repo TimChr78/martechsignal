@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation). |
 | Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation). |
 | AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform&#x27;s connective tissue (vendor documentation). |
@@ -20,7 +20,7 @@
 | &#10003; The free trial needs no credit card |  |
 
 **What is Writesonic?**
-The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Writesonic cost?**
 Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Writesonic starts at $79/mo. Starter $79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -253,7 +253,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Writesonic?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform. It ships with tracks brand mentions in AI answers across up to 10 AI platforms, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

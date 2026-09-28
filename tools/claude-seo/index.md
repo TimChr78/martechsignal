@@ -26,7 +26,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Runs inside Claude Code, so a paid Anthropic subscription is part of the real cost |
 | &#10003; AI capabilities: 25 parallel sub-skills for technical SEO, E-E-A-T, schema, GEO/AEO | &#10007; Grader strictness shifts between versions, so scores are not comparable across releases |
-| &#10003; Established community (16,675 GitHub stars) | &#10007; Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
+| &#10003; Active public repository (16,675 GitHub stars counted at last check) | &#10007; Multi-site config needs manual .env work and API keys for DataForSEO and Firecrawl |
 | &#10003; Native integrations include Claude Code, Google Search Console, DataForSEO (5 listed) |  |
 | &#10003; MIT licensed with no paid tier, so the whole audit stack is inspectable |  |
 
@@ -74,7 +74,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 - **Agents:** 18
 - **Commands:** 30
 
-**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Claude SEO is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
 
 Codex SEO
 

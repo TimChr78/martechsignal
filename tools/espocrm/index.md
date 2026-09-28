@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (vendor documentation). |
 | Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (vendor documentation). |
 | AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $12.9/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
-| &#10003; Established community (3,332 GitHub stars) |  |
+| &#10003; Active public repository (3,332 GitHub stars counted at last check) |  |
 
 **What is EspoCRM?**
 Lightweight open-source CRM with sales automation, marketing tools, and customer management. It ships with 3,332 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

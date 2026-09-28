@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $20/mo once past the free tier |
 | &#10003; AI capabilities: AI agent nodes |  |
-| &#10003; Established community (206,100 GitHub stars) |  |
+| &#10003; Active public repository (206,100 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
 
 **What is n8n?**
@@ -154,8 +154,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

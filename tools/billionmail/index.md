@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (vendor documentation). |
 | Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (vendor documentation). |
 | AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $98.9/mo once past the free tier |
 | &#10003; AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
-| &#10003; Established community (15,568 GitHub stars) |  |
+| &#10003; Active public repository (15,568 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
 
 **What is BillionMail?**

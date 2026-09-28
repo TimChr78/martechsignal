@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation). |
 | Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation). |
 | AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Slack, Salesforce, HubSpot (8 listed) |  |
 
 **What is Intercom?**
-AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Intercom cost?**
 Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Intercom starts at $29/mo. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Intercom?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-first customer service platform with Fin AI agent and omnichannel messaging. It ships with fin AI agent, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

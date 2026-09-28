@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $12/mo once past the free tier |
 | &#10003; AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
-| &#10003; Established community (64,910 GitHub stars) |  |
+| &#10003; Active public repository (64,910 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
 
 **What is NocoDB?**
@@ -48,17 +48,17 @@ Ever Gauzy
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 
-Twenty
+Appsmith
 
-The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+
+Jitsu
+
+Open-source Segment alternative for event capture and warehouse-first data pipelines
 
 Line Harness
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
-
-Appsmith
-
-Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
 Mautic
 
@@ -94,7 +94,7 @@ Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 64,880 GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.
+NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It is the largest project in this class at 64,910 GitHub stars GitHub stars, with calendar-versioned releases (2026.08.2 shipped September 3, 2026). The license comes first: NocoDB is published under the Sustainable Use License, a fair-code, source-available license rather than an OSI-approved one. Internal business use is fine and self-hosting is free with unlimited records and seats, but offering it to others as a hosted service requires a commercial license, so the open source label on the marketing site overstates it. Self-hosting is a one-command job: the docs quickstart brings up a compose stack (NocoDB, a background worker, Postgres, Redis) on port 8080, or you can run the Docker image against an existing Postgres by setting NC_DB. Docs list 2 vCPU and 2 GB RAM as the minimum. For marketing teams the fit is the spreadsheet sprawl that runs campaign ops: content calendars, launch checklists, partner and influencer trackers, budget tables and lead lists, with forms feeding them and webhooks pushing changes into the rest of the stack. Community edition includes the six core views, conditional webhooks with custom payloads, and two workflows per base; timeline, gantt and list views, the AI field types, most integrations (Slack, SES, S3) and sources beyond Postgres and MySQL (SQL Server, Oracle) are paid. Cloud plans run from a free three-user tier through Plus at $12 per seat monthly billed annually to Business at $24 with external database connections and SAML SSO. Compared with NocoBase or Budibase it is much faster to value, and compared with Airtable you trade polish and the integration catalog for ownership and SQL access. This assessment is based on the documented architecture and public materials.
 
 NocoDB homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -188,8 +188,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

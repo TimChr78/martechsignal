@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page, verified 2026-09-06). |
 | Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (vendor documentation). |
 | Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (vendor documentation). |
 | AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Customer.io?**
-Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Customer.io cost?**
 Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -163,7 +163,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Customer.io starts at $100/mo. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats. We last checked that price on 2026-09-06. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Customer.io?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Data-driven messaging platform for automated email, push, SMS, and in-app messages. It ships with AI Agent (beta) with execution skills, 11 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

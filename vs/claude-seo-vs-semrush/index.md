@@ -4,7 +4,7 @@
 | Dimension | Claude SEO | Semrush |
 | --- | --- | --- |
 | Pricing | Open Source | From $117/mo |
-| Open source | yes | no |
+| Open source | yes (mit) | no |
 | Integrations listed | 5 listed: Claude Code, Google Search Console, DataForSEO, Firecrawl (+1 more) | 8 listed: Google Analytics, Google Search Console, WordPress, Zapier (+4 more) |
 | Public API | yes | yes |
 

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (vendor documentation). |
 | Integrations | 5/10 | BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (vendor documentation). |
 | AI capability | 8/10 | LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: LLM keyword generation from your product description |  |
-| &#10003; Established community (2,952 GitHub stars) |  |
+| &#10003; Active public repository (2,952 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include BetterContact (Lead Finder), OpenAI, Anthropic (9 listed) |  |
 
 **What is OpenOutreach?**

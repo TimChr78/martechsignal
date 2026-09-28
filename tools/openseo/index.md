@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation). |
 | Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $10/mo once past the free tier |
-| &#10003; Established community (18,155 GitHub stars) |  |
+| &#10003; Active public repository (18,155 GitHub stars counted at last check) |  |
 
 **What is OpenSEO?**
 Open source alternative to Ahrefs and Semrush. It ships with 18,155 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation). |
 | Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation). |
 | AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation). |
@@ -17,7 +17,7 @@
 | &#10003; Native integrations include Meta (Facebook/Instagram), Shopify, Google Analytics (4 listed) |  |
 
 **What is Madgicx?**
-AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Madgicx cost?**
 Madgicx starts at $49/mo. Entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from &lt;$1K to $30K+. Free trial ($0) available. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Madgicx starts at $49/mo. Entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from &lt;$1K to $30K+. Free trial ($0) available. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Madgicx?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered Meta ads optimization and creative workflow. It ships with AI Ads: end-to-end AI ad creative generation workflow, 4 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

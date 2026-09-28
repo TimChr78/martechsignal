@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (vendor documentation). |
 | Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (vendor documentation). |
 | AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Chatfuel?**
-AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Chatfuel cost?**
 Chatfuel starts at $39/mo. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Chatfuel starts at $39/mo. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Chatfuel?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI chatbot platform for automating customer conversations on messaging channels. It ships with AI chatbot builder, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

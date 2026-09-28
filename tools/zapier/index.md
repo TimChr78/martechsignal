@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 8/10 | Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (vendor documentation). |
 | Integrations | 9/10 | 9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (vendor documentation). |
 | AI capability | 7/10 | AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (vendor documentation). |
@@ -19,7 +19,7 @@
 | &#10003; Free tier to evaluate before committing (Free (100 tasks/mo, 2-step Zaps); Professional $19) |  |
 
 **What is Zapier?**
-No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Zapier cost?**
 Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -160,7 +160,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -257,7 +257,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Zapier?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "No-code automation platform connecting 9,000+ apps with AI-powered workflows. It ships with AI workflow builder, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

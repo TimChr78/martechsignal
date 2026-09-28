@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation). |
 | Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; API access for custom integrations |  |
-| &#10003; Established community (5,732 GitHub stars) |  |
+| &#10003; Active public repository (5,732 GitHub stars counted at last check) |  |
 
 **What is SuiteCRM?**
 Enterprise-grade open-source CRM with sales, marketing, and support automation. It ships with 5,732 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

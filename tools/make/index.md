@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (1,000 credits/mo), Core $9/mo, Pro $16/mo, Teams $29/mo each for 10,000 credits with a slider to 8M+, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free (1,000 credits/mo), Core $9/mo, Pro $16/mo, Teams $29/mo each for 10,000 credits with a slider to 8M+, all published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 8/10 | Visual scenario building with routers, iterators and error handling plus AI agents covers complex branching automation well (vendor documentation). |
 | Integrations | 4/10 | The catalog&#x27;s integration list was cleared as unverifiable (Cloudflare-walled directory); the app ecosystem is known to be large but we do not publish a count we cannot check (vendor documentation). |
 | AI capability | 7/10 | AI agents, workflow suggestions, data transformation, content generation and error handling are documented product (vendor documentation). |

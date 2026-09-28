@@ -981,7 +981,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         _feat = _feat[0].lower() + _feat[1:] if _feat and not _feat[:2].isupper() else _feat
         _pros.append(f"AI capabilities: {_feat}")
     if t.get("github_stars") and t["github_stars"] >= 1000:
-        _pros.append(f"Established community ({t['github_stars']:,} GitHub stars)")
+        _pros.append(f"Active public repository ({t['github_stars']:,} GitHub stars counted at last check)")
     if t.get("external_ratings"):
         er0 = t["external_ratings"][0]
         _pros.append(f"{er0.get('source','Third-party')} rating {er0.get('score','')}/{er0.get('max',5)}")
@@ -1206,7 +1206,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         if t.get("github_stars"):
             _facts.append(f"{t['github_stars']:,} GitHub stars")
         elif t.get("integrations"):
-            _facts.append(f"{len(t['integrations'])} listed integrations")
+            _facts.append(f"{len(t['integrations'])} integrations documented on this page")
         if t.get("api_available"):
             _facts.append("an API for custom integrations")
         _fact_s = ""
@@ -1421,13 +1421,17 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     elif _pl is None:
         _price_frag = 'custom pricing'
     else:
-        _price_frag = f'paid plans starting at ${_pl}/mo'
+        _price_frag = f'paid plans starting at {_money(_pl, t)}'
     _vdate = esc(t.get('date_verified') or t.get('date_updated') or '')
     verdict_html = ('<div class="verdict"><strong>Verdict:</strong> ' + esc(t['name'])
         + f' is a tool in {esc(c.get("name",""))} with {_price_frag}. '
         + (f'The catalog documents {_cap}. ' if _cap else '')
-        + f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
-        + '<span class="tag desk">Desk-reviewed</span></div>')
+        + (('We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. '
+            '<span class="tag desk">Hands-on</span>')
+           if (t.get('deep_dive') or {}).get('hands_on_verified')
+           else (f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
+                 '<span class="tag desk">Desk-reviewed</span>'))
+        + '</div>')
     body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>

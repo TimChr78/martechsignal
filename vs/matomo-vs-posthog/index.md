@@ -4,7 +4,7 @@
 | Dimension | Matomo | PostHog |
 | --- | --- | --- |
 | Pricing | Open Source | Freemium |
-| Open source | yes | yes |
+| Open source | yes (gpl-3.0) | yes (mit) |
 | Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: Slack, GitHub, Zapier, Segment (+2 more) |
 | Public API | yes | yes |
 

@@ -73,7 +73,7 @@ def build_best():
         rows = []
         for it in items:
             t = tools_by_slug[it["slug"]]
-            oss = "Yes" if t.get("open_source") else "No"
+            oss = _oss_label(t)
             rows.append(
                 f'<tr><td><a href="/tools/{t["slug"]}/">{esc(t["name"])}</a></td>'
                 f'<td>{esc(pricing_label(t))}</td><td>{oss}</td>'
@@ -130,6 +130,18 @@ def build_best():
         built.append(page["slug"])
     print(f"best pages built: {len(built)} ({', '.join(built)})")
     return built
+
+
+def _oss_label(t):
+    """Open-source label, license-aware (R3/H1: a bool rendered 'Yes' for
+    fair-code software is a claim the page's own prose contradicts)."""
+    lic = str(t.get("license") or "").strip()
+    low = lic.lower()
+    if "fair-code" in low or "source-available" in low or "sustainable use" in low:
+        return "Source-available (fair-code)"
+    if t.get("open_source"):
+        return f"Yes ({lic})" if lic else "Yes"
+    return "No"
 
 
 def _plabel(t):
@@ -196,7 +208,7 @@ def build_vs():
         # table is those numbers, straight from the catalog (no invented figures).
         rows = [
             ("Pricing", [_plabel(t) for t in trio]),
-            ("Open source", ["yes" if t.get("open_source") else "no" for t in trio]),
+            ("Open source", [_oss_label(t).lower() for t in trio]),
             ("Integrations listed", [_integ_cell(t) for t in trio]),
             ("Public API", ["yes" if t.get("api_available") else "no" for t in trio]),
         ]

@@ -6,7 +6,7 @@
 | [Writer](/tools/writer/) | Paid | No | Enterprises that put brand governance ahead of raw output |
 | [Persado](/tools/persado/) | Enterprise | No | Large senders that want language tested against response data at scale |
 | [Phrasee](/tools/phrasee/) | Enterprise | No | Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract. |
-| [Jasper](/tools/jasper/) | From $49/mo | No | Marketing teams enforcing one brand voice across many writers |
+| [Jasper](/tools/jasper/) | From $39/mo | No | Marketing teams enforcing one brand voice across many writers |
 | [Anyword](/tools/anyword/) | From $39/mo | No | Performance marketers that want a score before paying to publish |
 | [Copy.ai](/tools/copy-ai/) | Freemium | No | GTM teams that want workflows, not another blank prompt box |
 | [Hypotenuse AI](/tools/hypotenuse-ai/) | From $56/mo | No | Catalog-heavy stores generating product content in bulk |

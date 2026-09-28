@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation). |
 | Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation). |
 | AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation). |
@@ -16,7 +16,7 @@
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $1799/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
 | &#10003; AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
-| &#10003; Established community (23,851 GitHub stars) |  |
+| &#10003; Active public repository (23,851 GitHub stars counted at last check) |  |
 
 **What is Krayin CRM?**
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. It ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module), 23,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

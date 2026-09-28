@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation). |
 | Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation). |
 | AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Adobe Marketo Engage?**
-Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Adobe Marketo Engage cost?**
 Adobe Marketo Engage starts at $895/mo. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Adobe Marketo Engage starts at $895/mo. Custom pricing; Growth/Select/Prime/Ultimate packages; annual contracts required. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -231,7 +231,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Adobe Marketo Engage?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Enterprise B2B marketing automation with AI-driven lead management and engagement. It ships with AI lead scoring, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

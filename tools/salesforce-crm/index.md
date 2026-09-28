@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation). |
 | Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation). |
 | AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Slack, Tableau, MuleSoft (8 listed) |  |
 
 **What is Salesforce CRM?**
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Salesforce CRM cost?**
 Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Salesforce CRM starts at $25/mo. Starter $25/user/mo; Professional $80/user/mo; Enterprise $165/user/mo; Unlimited $330/user/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -233,7 +233,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Salesforce CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Enterprise CRM platform with Einstein AI for sales, service, and marketing teams. It ships with einstein AI lead scoring, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation). |
 | Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation). |
 | AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $39/mo once past the free tier |
 | &#10003; AI capabilities: LLM chaining |  |
-| &#10003; Established community (146,036 GitHub stars) |  |
+| &#10003; Active public repository (146,036 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
 
 **What is LangChain?**

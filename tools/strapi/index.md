@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation). |
 | Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation). |
 | AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $99/mo once past the free tier |
 | &#10003; AI capabilities: AI content generation |  |
-| &#10003; Established community (73,109 GitHub stars) |  |
+| &#10003; Active public repository (73,109 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
 
 **What is Strapi?**

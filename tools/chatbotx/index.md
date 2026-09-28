@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (vendor documentation). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
 | AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (vendor documentation). |

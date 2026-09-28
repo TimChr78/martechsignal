@@ -3,14 +3,14 @@
 
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
-| [Dolibarr ERP/CRM](/tools/dolibarr/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Dolibarr ERP/CRM](/tools/dolibarr/) | Open Source | Yes (GPL-3.0) | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [n8n](/tools/n8n/) | Open Source | Yes | Workflow teams that want automation they can audit line by line |
-| [OpenOutreach](/tools/openoutreach/) | Open Source | Yes | Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. |
-| [Matomo](/tools/matomo/) | Open Source | Yes | Analytics teams that want traffic data on servers they control |
+| [OpenOutreach](/tools/openoutreach/) | Open Source | Yes (GPL-3.0) | Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. |
+| [Matomo](/tools/matomo/) | Open Source | Yes (GPL-3.0) | Analytics teams that want traffic data on servers they control |
 | [NocoDB](/tools/nocodb/) | Free tier | Yes | Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [React Email Editor](/tools/react-email-editor/) | Open Source | Yes | Email teams that want templates versioned alongside product code |
-| [Twenty](/tools/twenty/) | Open Source | Yes | CRM teams that want open source without accepting feature poverty |
-| [Claude SEO](/tools/claude-seo/) | Open Source | Yes | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [React Email Editor](/tools/react-email-editor/) | Open Source | Yes (MIT) | Email teams that want templates versioned alongside product code |
+| [Twenty](/tools/twenty/) | Open Source | Yes (AGPL-3.0) | CRM teams that want open source without accepting feature poverty |
+| [Claude SEO](/tools/claude-seo/) | Open Source | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 

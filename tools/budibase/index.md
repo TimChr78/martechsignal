@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (vendor documentation). |
 | Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (vendor documentation). |
 | AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
 | &#10003; AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
-| &#10003; Established community (28,267 GitHub stars) |  |
+| &#10003; Active public repository (28,267 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
 
 **What is Budibase?**
@@ -48,13 +48,13 @@ ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-Appsmith
-
-Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
-
 n8n
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
+
+Appsmith
+
+Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
 
 Tray.io
 

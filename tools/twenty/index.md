@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (vendor documentation). |
 | Integrations | 6/10 | Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (vendor documentation). |
 | AI capability | 7/10 | An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
 | &#10003; AI capabilities: AI Chatbot with access to your workspace data |  |
-| &#10003; Established community (56,507 GitHub stars) |  |
+| &#10003; Active public repository (56,507 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Gmail &amp; Google Calendar, Outlook &amp; Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
 
 **What is Twenty?**

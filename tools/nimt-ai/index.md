@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 7/10 | Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (vendor documentation). |
 | Integrations | 6/10 | Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (vendor documentation). |
 | AI capability | 8/10 | The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (vendor documentation). |
@@ -20,7 +20,7 @@
 | &#10003; Unused credits roll over and stay valid for two months |  |
 
 **What is Nimt.ai?**
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Nimt.ai cost?**
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -43,7 +43,7 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** Nimt.ai is a tool in GEO &amp; LLM Optimization with paid plans starting at $79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Nimt.ai is a tool in GEO &amp; LLM Optimization with paid plans starting at €79/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nightwatch
 
@@ -153,7 +153,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Nimt.ai starts at €79/mo. EUR 40 in free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with up to 72 prompts tracked daily. Credits meter tracking and agent work; unused credits roll over and stay valid 2 months; on-demand top-ups. Enterprise: custom volume pricing via sales on annual contracts, unlimited credits (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -248,7 +248,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Nimt.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI search tracking across 8 models with an agent that writes, fixes, and outreaches. It ships with AI Search Agent that writes content and fixes pages, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

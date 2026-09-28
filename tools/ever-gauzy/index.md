@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $17/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
-| &#10003; Established community (4,381 GitHub stars) |  |
+| &#10003; Active public repository (4,381 GitHub stars counted at last check) |  |
 
 **What is Ever Gauzy?**
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking. It ships with 4,381 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

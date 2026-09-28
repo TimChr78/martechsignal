@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Translation quality sits below the large commercial engines, especially in uncommon language pairs |
 | &#10003; AI capabilities: neural machine translation via Argos Translate models | &#10007; The hosted API publishes no extractable price page, so per-character costs are unknown until quoted |
-| &#10003; Established community (16,830 GitHub stars) | &#10007; Self-hosting demands GPU or CPU capacity that scales with volume, and translation is resource-heavy |
+| &#10003; Active public repository (16,830 GitHub stars counted at last check) | &#10007; Self-hosting demands GPU or CPU capacity that scales with volume, and translation is resource-heavy |
 | &#10003; Free to self-host under AGPL-3.0, including commercial use, with no per-character billing |  |
 | &#10003; Runs offline once models are downloaded, which settles data handling questions outright |  |
 | &#10003; The Swagger-documented REST API makes it a drop-in translation backend for other software |  |
@@ -53,17 +53,17 @@ Strapi
 
 Open-source headless CMS with AI-powered content management and API-first design
 
-Predis.ai
-
-AI-powered social media content generator for posts, videos, and ad creatives
-
 Chatwoot
 
 Open-source customer engagement suite with Captain AI and full self-hosting
 
-ContentBot
+Khoj
 
-AI content automation platform with workflows for blogs, ads, and social posts
+Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
+
+PostHog
+
+Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 
 [More AI Content &amp; Copywriting Tools →](/categories/content-ai/)
 
@@ -95,7 +95,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-LibreTranslate is an open-source machine translation API, licensed AGPL-3.0 with 16,830 GitHub stars. It runs neural translation models through Argos Translate and serves them over a REST interface with automatic language detection, so it fits content localization pipelines that need translation as a service rather than as a website. You can self-host it with Docker or pip and run it offline, which keeps text away from third-party translation vendors and their retention policies. Self-hosting is free. The hosted instance at libretranslate.com charges per character through an API key, but the site publishes no price page we could extract in September 2026, so hosted costs need confirming before anyone budgets for them. The API surface is documented with Swagger, and other software can point its translation backend at a LibreTranslate server; Mastodon is the common example, and public instances such as Disroot run on it. Quality is the honest trade-off. The models are smaller than the commercial engines from Google or DeepL, so output fits gisting, internal drafts, and support content better than publish-ready marketing copy in every language pair. Teams that want machine translation under their own control, with an API their code can call, get a working system at no licence cost and can layer human review on top for anything customer-facing.
+LibreTranslate is an open-source machine translation API, licensed AGPL-3.0 with 16,830 GitHub stars GitHub stars. It runs neural translation models through Argos Translate and serves them over a REST interface with automatic language detection, so it fits content localization pipelines that need translation as a service rather than as a website. You can self-host it with Docker or pip and run it offline, which keeps text away from third-party translation vendors and their retention policies. Self-hosting is free. The hosted instance at libretranslate.com charges per character through an API key, but the site publishes no price page we could extract in September 2026, so hosted costs need confirming before anyone budgets for them. The API surface is documented with Swagger, and other software can point its translation backend at a LibreTranslate server; Mastodon is the common example, and public instances such as Disroot run on it. Quality is the honest trade-off. The models are smaller than the commercial engines from Google or DeepL, so output fits gisting, internal drafts, and support content better than publish-ready marketing copy in every language pair. Teams that want machine translation under their own control, with an API their code can call, get a working system at no licence cost and can layer human review on top for anything customer-facing.
 
 ## AI Capabilities
 

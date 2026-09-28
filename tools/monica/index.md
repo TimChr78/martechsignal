@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 5/10 | Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (vendor documentation). |
 | Integrations | 3/10 | The catalog lists no named integrations; a public API exists for your own wiring (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
-| &#10003; Established community (25,261 GitHub stars) |  |
+| &#10003; Active public repository (25,261 GitHub stars counted at last check) |  |
 
 **What is Monica?**
 Open-source personal CRM for tracking friends, family, and business relationships. It ships with 25,261 GitHub stars, an API for custom integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

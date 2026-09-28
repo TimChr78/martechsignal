@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 5/10 | Profile unification, segmentation and personalization rules cover the CDP baseline (vendor documentation). |
 | Integrations | 4/10 | Karaf, Elasticsearch, MongoDB and GraphQL documented (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |

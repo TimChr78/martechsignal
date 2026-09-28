@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation). |
 | Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation). |
 | AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation). |
@@ -18,22 +18,22 @@
 | &#10003; API access for custom integrations |  |
 
 **What is AdCreative.ai?**
-AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does AdCreative.ai cost?**
-AdCreative.ai starts at $39/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+AdCreative.ai starts at $20/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is AdCreative.ai worth paying for in 2026?**
 Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give.
 
-- **Pricing:** From $39/mo
+- **Pricing:** From $20/mo
 - **Category:** [Advertising &amp; Paid Media](/categories/advertising/)
 - **Founded:** 2021
 - **HQ:** Paris, France
 - **API:** Yes
 - **Last verified:** 2026-08-28
 
-**Verdict:** AdCreative.ai is a tool in Advertising &amp; Paid Media with paid plans starting at $39/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AdCreative.ai is a tool in Advertising &amp; Paid Media with paid plans starting at $20/mo. The catalog documents 5 AI features, 8 integrations and a public API. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Albert AI
 
@@ -65,7 +65,7 @@ Re-check pending: pricing last verified 2026-08-28 (31 days ago).
 
 AI platform generating high-converting ad creatives and social media post designs
 
-Advertising &amp; Paid Media · From $39/mo Desk-reviewed
+Advertising &amp; Paid Media · From $20/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
@@ -106,7 +106,7 @@ AdCreative.ai homepage, captured September 2026. Vendor page shown as a dated re
 - Slack
 ## Pricing
 
-AdCreative.ai is sold on paid plans, from $39/mo as of 2026-08.
+AdCreative.ai is sold on paid plans, from $20/mo as of 2026-08.
 
 Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom
 
@@ -140,9 +140,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-AdCreative.ai starts at $39/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
+AdCreative.ai starts at $20/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give.
 
@@ -184,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
-      "price": 39,
+      "price": 20,
       "priceCurrency": "USD",
       "url": "https://www.adcreative.ai/pricing",
       "priceValidUntil": "2026-12-31"
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is AdCreative.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI platform generating high-converting ad creatives and social media post designs. It ships with AI ad creative generation, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does AdCreative.ai cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AdCreative.ai starts at $39/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
+          "text": "AdCreative.ai starts at $20/mo. Starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
         }
       },
       {

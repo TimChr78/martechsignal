@@ -56,13 +56,13 @@ AdCreative.ai
 
 AI platform generating high-converting ad creatives and social media post designs
 
-From $39/moDesk-reviewed
+From $20/moDesk-reviewed
 
 Pencil
 
 AI-powered ad creative generation and performance prediction for paid media
 
-From $14/moDesk-reviewed
+From $11/moDesk-reviewed
 
 OPTIMIZATION AND AUTOMATION***5*
 

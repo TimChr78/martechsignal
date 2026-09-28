@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page, verified 2026-09-14). |
 | Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation). |
 | Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation). |
 | AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: per-tenant RAG knowledge base for WhatsApp agents |  |
-| &#10003; Established community (2,300 GitHub stars) |  |
+| &#10003; Active public repository (2,300 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include WhatsApp (WAHA QR-code), WhatsApp Cloud API (Meta official), Supabase (10 listed) |  |
 
 **What is DeskcommCRM?**

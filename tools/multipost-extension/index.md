@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation). |
 | Integrations | 2/10 | No named integrations; the extension works through the platforms&#x27; own web UIs (vendor documentation). |
 | AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation). |
@@ -16,7 +16,7 @@
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; API access for custom integrations |  |
 | &#10003; AI capabilities: AI content adaptation per platform |  |
-| &#10003; Established community (3,325 GitHub stars) |  |
+| &#10003; Active public repository (3,325 GitHub stars counted at last check) |  |
 
 **What is MultiPost?**
 Browser extension to publish content to multiple social media platforms with one click. It ships with AI content adaptation per platform, 3,325 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
@@ -128,7 +128,7 @@ Excellent lightweight cross-poster for individual creators; agencies need more m
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
 ### Pricing

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation). |
 | Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation). |
 | AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Persado?**
-AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Persado cost?**
 Persado uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; focused on regulated industries (finserv, retail, travel). Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -174,7 +174,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Persado uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; focused on regulated industries (finserv, retail, travel). Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Persado?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI content creation and optimization platform for regulated financial services marketing. It ships with AI content generation (Create), 10 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

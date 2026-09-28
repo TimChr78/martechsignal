@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | One published price (Pro $800/mo: 100,000 prompts, 11 models, 25 articles/mo) with the rest described but not itemized (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | One published price (Pro $800/mo: 100,000 prompts, 11 models, 25 articles/mo) with the rest described but not itemized (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 7/10 | Prompt sampling at 100x per model, a 150M-prompt consumer panel, action agents and content activation make it measurement plus execution (vendor documentation). |
 | Integrations | 3/10 | Five tracked AI surfaces are listed and no third-party app connections; the catalog marks no API (vendor documentation). |
 | AI capability | 8/10 | EverPanel&#x27;s 150M real user prompts and the Insights and Action Agent are data and automation assets few competitors match (vendor documentation). |
@@ -20,7 +20,7 @@
 | &#10003; Pro bundles 25 AI-optimized articles per month with the measurement product |  |
 
 **What is Evertune?**
-GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Evertune cost?**
 Evertune starts at $800/mo. Pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -156,7 +156,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Evertune starts at $800/mo. Pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026). We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -253,7 +253,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Evertune?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "GEO visibility measurement with content activation and a ChatGPT Ad Agent. It ships with each prompt sampled up to 100x per model, 5 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

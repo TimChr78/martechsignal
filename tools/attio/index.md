@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation). |
 | Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation). |
 | AI capability | 7/10 | Real-time enrichment and agentic workflows are the product&#x27;s architecture, not add-ons (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterpris) |  |
 
 **What is Attio?**
-AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Attio cost?**
 Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Attio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-native CRM with real-time data enrichment and agentic revenue workflows. It ships with AI data enrichment, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

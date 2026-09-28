@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $22/mo once past the free tier |
 | &#10003; AI capabilities: AI chatbot traffic reports |  |
-| &#10003; Established community (21,851 GitHub stars) |  |
+| &#10003; Active public repository (21,851 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
 
 **What is Matomo?**

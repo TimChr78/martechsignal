@@ -173,9 +173,9 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Related tools
 
-- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
-- [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
+- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparison guides
 
 - [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)

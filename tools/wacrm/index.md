@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation). |
 | Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation). |
 | AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: AI reply assistant (bring your own OpenAI or Anthropic key) |  |
-| &#10003; Established community (2,285 GitHub stars) |  |
+| &#10003; Active public repository (2,285 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Meta WhatsApp Cloud API, Supabase, OpenAI (8 listed) |  |
 
 **What is WaCRM?**

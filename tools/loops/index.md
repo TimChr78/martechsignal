@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rol) |  |
 
 **What is Loops?**
-Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Loops cost?**
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
@@ -164,7 +164,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Loops has a free tier, so you can run a real evaluation before paying. Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days; paid plans are contact-based with unlimited sends and no published list prices. We last checked the plan structure on 2026-09-07; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -250,7 +250,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Loops?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Email marketing for SaaS: marketing, product, and transactional email in one tool. It ships with LLM email translation, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

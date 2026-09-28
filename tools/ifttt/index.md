@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free (2 Applets, standard speeds); Pro $2) |  |
 
 **What is IFTTT?**
-Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does IFTTT cost?**
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -123,7 +123,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -134,7 +134,7 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 
@@ -212,7 +212,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is IFTTT?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Consumer-friendly automation connecting apps and smart devices. It ships with AI services on Pro+, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

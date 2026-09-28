@@ -8,8 +8,8 @@
 | [Surfer SEO](/tools/surfer-seo/) | From $49/mo | No | Best for writers who want a live content score while drafting. |
 | [Frase](/tools/frase/) | From $39/mo | No | Best for small content teams that want research, briefs and drafting in one tool. |
 | [Ahrefs](/tools/ahrefs/) | From $129/mo | No | Best if you already pay for Ahrefs and want the AI question answered from your existing stack. |
-| [Promptfoo](/tools/promptfoo/) | Freemium | Yes | Best free entry point, provided someone on the team can run a CLI. |
-| [Claude SEO](/tools/claude-seo/) | Open Source | Yes | Best for Claude Code users who want SEO audits run by agents instead of dashboards. |
+| [Promptfoo](/tools/promptfoo/) | Freemium | Yes (MIT) | Best free entry point, provided someone on the team can run a CLI. |
+| [Claude SEO](/tools/claude-seo/) | Open Source | Yes (MIT) | Best for Claude Code users who want SEO audits run by agents instead of dashboards. |
 | [Codex SEO](/tools/codex-seo/) | Free | No | Best for Codex CLI users who want scripted SEO workflows. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)

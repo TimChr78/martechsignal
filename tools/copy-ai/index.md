@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation). |
 | Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation). |
 | AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Ent) |  |
 
 **What is Copy.ai?**
-AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Copy.ai cost?**
 Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -227,7 +227,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Copy.ai?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered GTM platform for sales and marketing content automation at scale. It ships with AI copy generation, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

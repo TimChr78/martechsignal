@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (vendor documentation). |
 | Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (vendor documentation). |
 | AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (vendor documentation). |
@@ -20,7 +20,7 @@
 | &#10003; Public API docs at docs.otterly.ai, Looker Studio connector and 50-plus country coverage from Standard up |  |
 
 **What is OtterlyAI?**
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does OtterlyAI cost?**
 OtterlyAI starts at €29/mo. Lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -44,7 +44,7 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 - **API:** Yes
 - **Last verified:** 2026-09-25
 
-**Verdict:** OtterlyAI is a tool in GEO &amp; LLM Optimization with paid plans starting at $29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** OtterlyAI is a tool in GEO &amp; LLM Optimization with paid plans starting at €29/mo. The catalog documents 5 AI features, 6 integrations and a public API. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
 
 Nightwatch
 
@@ -152,7 +152,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 OtterlyAI starts at €29/mo. Lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -247,7 +247,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is OtterlyAI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews. It ships with daily brand mention and citation tracking, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

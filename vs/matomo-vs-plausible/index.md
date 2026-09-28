@@ -11,7 +11,7 @@
 | Dimension | Matomo | Plausible Analytics |
 | --- | --- | --- |
 | Pricing | Open Source | Open Source |
-| Open source | yes | yes |
+| Open source | yes (gpl-3.0) | yes (agpl-3.0) |
 | Integrations listed | 8 listed: WordPress, Matomo Tag Manager, Google Tag Manager, Google Analytics Importer (+4 more) | 6 listed: WordPress, Ghost, Webflow, Zapier (+2 more) |
 | Public API | yes | yes |
 

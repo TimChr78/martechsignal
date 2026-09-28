@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page, verified 2026-09-24). |
 | Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation). |
 | Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation). |
 | AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation). |

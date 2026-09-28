@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (vendor documentation). |
 | Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (vendor documentation). |
 | AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: AI-assisted template editing |  |
-| &#10003; Established community (23,343 GitHub stars) |  |
+| &#10003; Active public repository (23,343 GitHub stars counted at last check) |  |
 
 **What is Listmonk?**
 Open-source self-hosted newsletter and mailing list manager with a fast Go backend. It ships with AI-assisted template editing, 23,343 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
@@ -36,6 +36,10 @@ The strongest self-hosted mailing platform we have run; bring your own forms and
 
 **Verdict:** Listmonk is a tool in Email Marketing with free and open source. The catalog documents 2 AI features, 4 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
+Plausible Analytics
+
+Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
+
 Notifuse
 
 Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -47,10 +51,6 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
-
-Plausible Analytics
-
-Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics
 
 Maizzle
 
@@ -88,7 +88,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure. Listmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 22,452 GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting. Compared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.
+Built as an open-source, self-hosted mailing list manager, Listmonk gives marketing teams a lightweight way to run newsletters, subscriber lists, and email campaigns without relying on a hosted SaaS platform. Its Go backend is designed for speed and low operational overhead, while PostgreSQL handles subscriber and campaign data. The project is free under the AGPL license, with no paid tiers, and it exposes an API for custom workflows. It also supports practical integrations such as SMTP providers, Zapier, and WordPress, making it possible to connect signup forms, automation, and existing site infrastructure. Listmonk is a good fit for technical marketers, developers, and privacy-conscious organizations that want direct control over email infrastructure and subscriber data. Founded in 2019 and based in Bangalore, India, the project has attracted strong open-source interest, with 23,343 GitHub stars GitHub stars. Its AI capabilities are practical rather than central: AI-assisted template editing can help refine email layouts and copy, while AI campaign analytics can support performance review and optimization. These features sit alongside standard campaign tools such as segmentation, templates, and reporting. Compared with commercial alternatives such as Mailchimp, Campaign Monitor, or ActiveCampaign, Listmonk trades managed convenience for ownership, lower recurring costs, and greater flexibility. Teams will need to handle hosting, deliverability configuration, and maintenance themselves, so it is less suited to users who want a fully managed service. It is best for technically capable teams, indie publishers, SaaS companies, and nonprofits that want an open-source email platform with API access, self-hosted data control, and optional AI assistance for campaign production and analysis.
 
 Listmonk homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -147,7 +147,7 @@ The strongest self-hosted mailing platform we have run; bring your own forms and
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 

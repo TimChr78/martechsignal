@@ -34,7 +34,7 @@ Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-From $49/moDesk-reviewedAI Content &amp; Copywriting
+From $39/moDesk-reviewedAI Content &amp; Copywriting
 
 Khoj
 
@@ -82,7 +82,7 @@ AdCreative.ai
 
 AI platform generating high-converting ad creatives and social media post designs
 
-From $39/moDesk-reviewedAdvertising &amp; Paid Media
+From $20/moDesk-reviewedAdvertising &amp; Paid Media
 
 advertools
 
@@ -112,7 +112,7 @@ Pencil
 
 AI-powered ad creative generation and performance prediction for paid media
 
-From $14/moDesk-reviewedAdvertising &amp; Paid Media
+From $11/moDesk-reviewedAdvertising &amp; Paid Media
 
 Revealbot (Birch)
 

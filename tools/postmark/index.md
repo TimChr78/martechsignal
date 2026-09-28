@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16) |  |
 
 **What is Postmark?**
-Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Postmark cost?**
 Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
@@ -169,7 +169,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Postmark has a free tier; paid plans start at $15/mo. Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16.50/mo, Platform $18/mo, each starting at 10,000 emails; no annual billing; dedicated IPs from $50/mo for 300k+/mo senders. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Postmark?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Transactional email API with separated message streams, an MCP server, and published delivery numbers. It ships with MCP server with 24 tools and delivery diagnostics, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

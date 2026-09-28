@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
 | &#10003; AI capabilities: model-graded evals where one LLM scores another&#x27;s answers | &#10007; The 10k probes per month limit shown for hosted red teaming constrains large attack suites. |
-| &#10003; Established community (25,453 GitHub stars) | &#10007; Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
+| &#10003; Active public repository (25,453 GitHub stars counted at last check) | &#10007; Cloud and enterprise pricing has no public numbers as of September 2026, so buyers end up in a sales conversation. |
 | &#10003; Native integrations include OpenAI, Anthropic, Azure OpenAI (5 listed) |  |
 | &#10003; MIT license with a large open-source repo, so the eval engine can run fully local. |  |
 | &#10003; One tool covers prompt evals, model comparison and red teaming. |  |

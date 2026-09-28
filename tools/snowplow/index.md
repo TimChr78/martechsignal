@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: signals real-time profiles with propensity predictions |  |
-| &#10003; Established community (7,031 GitHub stars) |  |
+| &#10003; Active public repository (7,031 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Snowflake, Databricks, BigQuery (9 listed) |  |
 
 **What is Snowplow?**

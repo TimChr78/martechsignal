@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Writer?**
-Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Writer cost?**
 Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -178,7 +178,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Writer uses paid pricing, so the number depends on your volume and contract. Quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Writer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Enterprise AI platform with Palmyra models, brand governance, and agents. It ships with AI content generation, 12 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

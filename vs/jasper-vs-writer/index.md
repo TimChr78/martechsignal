@@ -3,7 +3,7 @@
 
 | Dimension | Jasper | Writer |
 | --- | --- | --- |
-| Pricing | From $49/mo | Paid |
+| Pricing | From $39/mo | Paid |
 | Open source | no | no |
 | Integrations listed | 8 listed: Chrome, Surfer SEO, Zapier, HubSpot (+4 more) | 12 listed: Slack, Google Workspace, Microsoft 365, Salesforce (+8 more) |
 | Public API | yes | yes |

@@ -8,10 +8,10 @@
 | &#10003; Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo; Professional EUR ) |  |
 
 **What is Zoho CRM?**
-Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Zoho CRM cost?**
-Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on September 2026; paid tiers mainly raise limits rather than unlocking core features.
+Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
 
 **Is Zoho CRM worth it past the free tier?**
 Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down where it fits in a modern martech stack.
@@ -19,8 +19,9 @@ Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
 - **API:** No
+- **Last verified:** 2026-09-28
 
-**Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on . This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Zoho CRM is a tool in CRM with a free tier. The catalog documents 3 AI features and 6 integrations. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedrive
 
@@ -56,7 +57,7 @@ Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite arou
 
 CRM · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit Zoho CRM &#8594;](https://www.zoho.com/crm/)
 
@@ -108,9 +109,9 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on September 2026; paid tiers mainly raise limits rather than unlocking core features.
+Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
 
 Our review covers Zoho CRM&#x27;s core crm workflow. The full review breaks down where it fits in a modern martech stack.
 
@@ -147,7 +148,8 @@ One email when a new tool review lands, nothing else.
     ],
     "mainEntityOfPage": "https://martechsignal.com/tools/zoho-crm/",
     "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web"
+    "operatingSystem": "Web",
+    "dateModified": "2026-09-28"
   },
   {
     "@context": "https://schema.org",
@@ -188,7 +190,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Zoho CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it. It ships with zia AI assistant for lead scoring, deal prediction and email sentiment, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {
@@ -196,7 +198,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Zoho CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on September 2026; paid tiers mainly raise limits rather than unlocking core features."
+          "text": "Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features."
         }
       },
       {
@@ -210,8 +212,4 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zoho-crm/#webpage", "dateModified": "2026-09-28"}
 ```

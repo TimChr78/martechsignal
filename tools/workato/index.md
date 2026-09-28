@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 8/10 | AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (vendor documentation). |
 | Integrations | 8/10 | Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (vendor documentation). |
 | AI capability | 8/10 | A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Workato?**
-Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Workato cost?**
 Workato uses enterprise pricing, so the number depends on your volume and contract. No published prices; usage-based model with a platform edition fee plus a usage fee in one billing unit; editions Standard, Business, Enterprise, and Workato One; demo-gated trial. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -162,7 +162,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Workato uses enterprise pricing, so the number depends on your volume and contract. No published prices; usage-based model with a platform edition fee plus a usage fee in one billing unit; editions Standard, Business, Enterprise, and Workato One; demo-gated trial. Our last verified read of the pricing model was 2026-09-07; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Workato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Enterprise AI governance plus integration and automation on one platform. It ships with workato AIRO multi-agent system, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

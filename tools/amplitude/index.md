@@ -19,7 +19,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit) |  |
 
 **What is Amplitude?**
-AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Amplitude cost?**
 Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
@@ -171,7 +171,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Amplitude has a free tier, so you can run a real evaluation before paying. Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026). We last checked the plan structure on 2026-09-25; paid tiers mainly raise limits rather than unlocking core features.
 
@@ -265,7 +265,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Amplitude?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered digital analytics platform for product and marketing teams. It ships with AI root cause analysis, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

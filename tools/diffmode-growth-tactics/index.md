@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (vendor documentation). |
 | Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (vendor documentation). |
 | AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (vendor documentation). |

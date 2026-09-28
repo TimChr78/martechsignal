@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Journey automation, behavioral triggers and product onboarding cover the engagement loop (vendor documentation). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
 | AI capability | 3/10 | AI-powered messaging is documented as one feature of the journey engine (vendor documentation). |
@@ -16,7 +16,7 @@
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; API access for custom integrations |  |
 | &#10003; AI capabilities: AI-powered messaging |  |
-| &#10003; Established community (2,622 GitHub stars) |  |
+| &#10003; Active public repository (2,622 GitHub stars counted at last check) |  |
 
 **What is Laudspeaker?**
 Open-source customer engagement and product onboarding platform, alternative to Braze. It ships with AI-powered messaging, 2,622 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

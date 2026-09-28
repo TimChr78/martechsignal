@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation). |
 | Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation). |
 | AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channe) |  |
 
 **What is Buffer?**
-Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Buffer cost?**
 Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -227,7 +227,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Buffer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Simple social media scheduling and analytics with AI-powered content tools. It ships with AI assistant for posts, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

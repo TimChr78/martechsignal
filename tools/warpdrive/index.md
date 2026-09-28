@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation). |
 | Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -175,7 +175,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ### Quick Facts
 

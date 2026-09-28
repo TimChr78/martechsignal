@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (MIT); Cloud Starter $9/mo, Creator $29/mo, Team $79/mo, Business $199/mo published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); Cloud Starter $9/mo, Creator $29/mo, Team $79/mo, Business $199/mo published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Publishing, newsletters and memberships cover the independent media stack (vendor documentation). |
 | Integrations | 6/10 | Zapier, Slack, Stripe, Mailchimp, GA and Unsplash documented plus an API (vendor documentation). |
 | AI capability | 4/10 | Writing assistance, content suggestions and newsletter optimization are deliberately light (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
 | &#10003; AI capabilities: AI writing assistant |  |
-| &#10003; Established community (55,250 GitHub stars) |  |
+| &#10003; Active public repository (55,250 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
 
 **What is Ghost?**

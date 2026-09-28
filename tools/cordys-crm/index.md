@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (vendor documentation). |
 | Integrations | 4/10 | MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (vendor documentation). |
 | AI capability | 7/10 | MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: maxKB sales agents connected over the API |  |
-| &#10003; Established community (2,704 GitHub stars) |  |
+| &#10003; Active public repository (2,704 GitHub stars counted at last check) |  |
 
 **What is Cordys CRM?**
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment. It ships with maxKB sales agents connected over the API, 2,704 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

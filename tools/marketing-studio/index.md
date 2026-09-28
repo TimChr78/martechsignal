@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation). |
 | Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation). |
 | AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation). |

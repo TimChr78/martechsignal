@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation). |
 | Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation). |
 | AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: 250+ audit checks across 12 ad platforms |  |
-| &#10003; Established community (9,143 GitHub stars) |  |
+| &#10003; Active public repository (9,143 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Google Ads, Meta Ads, YouTube Ads (12 listed) |  |
 
 **What is Claude Ads?**

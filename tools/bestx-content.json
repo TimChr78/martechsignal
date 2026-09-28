@@ -64,7 +64,7 @@
       "items": [
         {
           "slug": "n8n",
-          "assessment": "n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 203,890 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.",
+          "assessment": "n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 206,100 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.",
           "verdict": "Best for self-hosted workflows with code steps and AI agents.",
           "skip_if": "Skip it if you want zero maintenance and instant breadth."
         },
@@ -439,7 +439,7 @@
         {
           "slug": "umami",
           "verdict": "Best for analytics & attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,600 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.",
+          "assessment": "Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor's cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,710 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.",
           "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
         },
         {

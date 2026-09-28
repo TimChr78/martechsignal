@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (vendor documentation). |
 | Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (vendor documentation). |
 | AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (vendor documentation). |
@@ -144,7 +144,7 @@ The strongest free skill pack for Vietnamese-market marketing teams. Global agen
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 

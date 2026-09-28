@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (vendor documentation). |
 | Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (vendor documentation). |
 | AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: 37 skills covering CRO, copywriting, SEO, paid ads, email, growth, retention, sales, strategy |  |
-| &#10003; Established community (1,044 GitHub stars) |  |
+| &#10003; Active public repository (1,044 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include OpenClaw, Google Ads API, Google Search Console (6 listed) |  |
 
 **What is OpenClaw Marketing Skills?**

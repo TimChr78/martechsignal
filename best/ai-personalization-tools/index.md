@@ -8,9 +8,9 @@
 | [Nosto](/tools/nosto/) | Enterprise | No | Merchants that want recommendations their merchandisers can steer |
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
-| [Flagsmith](/tools/flagsmith/) | Freemium | Yes | Teams that want their experiment engine as open as their stack |
-| [GrowthBook](/tools/growthbook/) | Freemium | Yes | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Jitsu](/tools/jitsu/) | Freemium | Yes | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Flagsmith](/tools/flagsmith/) | Freemium | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
+| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 

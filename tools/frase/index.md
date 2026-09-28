@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter $39/mo yearly ($49 monthly, 10 articles), Professional $103/mo, Scale $239/mo with seats and quotas published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Starter $39/mo yearly ($49 monthly, 10 articles), Professional $103/mo, Scale $239/mo with seats and quotas published (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Research, briefs, drafting, E-E-A-T content scores and GEO tracking cover the content-to-visibility loop (vendor documentation). |
 | Integrations | 6/10 | Twelve named connections from Search Console and GA4 to Notion, Linear, Webflow and Zapier plus an API (vendor documentation). |
 | AI capability | 7/10 | Frase Agent with Deep Research briefs and GEO Score make the AI layer load-bearing (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Frase?**
-AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Frase cost?**
 Frase starts at $39/mo. Starter $39/mo yearly ($49 monthly, 1 seat, 10 articles); Professional $103/mo ($129 monthly, 3 seats, 5 sites); Scale $239/mo ($299 monthly, 5 seats, 10 domains); Enterprise custom; free 7-day trial, no card. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Frase starts at $39/mo. Starter $39/mo yearly ($49 monthly, 1 seat, 10 articles); Professional $103/mo ($129 monthly, 3 seats, 5 sites); Scale $239/mo ($299 monthly, 5 seats, 10 domains); Enterprise custom; free 7-day trial, no card. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Frase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered SEO content platform for research, writing, and AI visibility tracking. It ships with frase Agent (AI SEO agent), 14 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation). |
 | Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation). |
 | AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Ortto?**
-Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Ortto cost?**
 Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -180,7 +180,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Ortto starts at $199/mo. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000. We last checked that price on 2026-09-07. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -197,8 +197,8 @@ Yes. Authentication uses a custom API key that you configure as a data source an
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 Related guides: [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Ortto?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Customer data and marketing automation platform with journeys, CDP, and AI features. It ships with AI subject line recommendations, 13 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

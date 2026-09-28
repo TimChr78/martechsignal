@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open source with no tiers to price (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free and open source with no tiers to price (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (vendor documentation). |
 | Integrations | 6/10 | Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (vendor documentation). |
 | AI capability | 6/10 | AI copy drafting with anti-slop rules and agent-native playbooks (vendor documentation). |

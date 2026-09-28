@@ -4,13 +4,13 @@
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
 | [Amplitude](/tools/amplitude/) | Freemium | No | Product teams that want funnels and retention without an analyst queue |
-| [Matomo](/tools/matomo/) | Open Source | Yes | Teams that want GA-grade analytics with the data staying home |
-| [Umami](/tools/umami/) | Open Source | Yes | Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Matomo](/tools/matomo/) | Open Source | Yes (GPL-3.0) | Teams that want GA-grade analytics with the data staying home |
+| [Umami](/tools/umami/) | Open Source | Yes (MIT) | Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Mixpanel](/tools/mixpanel/) | Freemium | No | Best for analytics &amp; attribution teams that want the job covered in one platform, with a free starting tier. |
 | [Triple Whale](/tools/triple-whale/) | From $59/mo | No | DTC operators that want a daily attribution answer, dashboards included |
 | [Heap](/tools/heap/) | Freemium | No | Teams that want retroactive analysis without a tagging plan first |
 | [Northbeam](/tools/northbeam/) | Enterprise | No | DTC brands whose incrementality questions deserve real modeling |
-| [Snowplow](/tools/snowplow/) | Free tier | Yes | Best for analytics &amp; attribution teams that want intent detection and can host it themselves, with a free starting tier. |
+| [Snowplow](/tools/snowplow/) | Free tier | Yes (Apache-2.0) | Best for analytics &amp; attribution teams that want intent detection and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
@@ -52,7 +52,7 @@ Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 ## [Umami](/tools/umami/)
 
-Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor&#x27;s cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,600 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.
+Umami is an open-source, cookieless web analytics platform you can self-host under the MIT license or run on the vendor&#x27;s cloud, created in 2020 by Mike Cao and now at v3 with roughly 38,710 GitHub stars. It starts free, and self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial (verified 2026-09-07). The catalog documents 5 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 

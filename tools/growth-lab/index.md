@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation). |
 | Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation). |
 | AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; AI capabilities: SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing |  |
-| &#10003; Established community (1,999 GitHub stars) |  |
+| &#10003; Active public repository (1,999 GitHub stars counted at last check) |  |
 
 **What is Growth Lab?**
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex. It ships with SEO page growth loop: scenario research, SERP analysis, page creation, IndexNow publishing, 1,999 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.

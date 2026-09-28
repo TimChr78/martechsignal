@@ -528,3 +528,138 @@ def test_review_itemreviewed_is_typed_object():
                     if not isinstance(ir, dict) or not ir.get("@type"):
                         bad.append(str(f.relative_to(ROOT)))
     assert not bad, f"Review.itemReviewed must be a typed object, broken in: {bad[:5]}"
+
+
+# ── R3 "one fact, one source, one pipeline" lints (r9 H1, 2026-09-28) ──
+
+import json as _r3json
+import re as _r3re
+
+_APPROX = _r3re.compile(r'(around|about|over|more than|nearly|roughly|approx|\+|-plus|\bplus\b|up to)\s*$', _r3re.I)
+
+
+def _r3_records():
+    out = {}
+    for name in ("tools.json", "guides.json"):
+        for t in _r3json.loads((ROOT / "tools" / name).read_text()):
+            out[t["slug"]] = t
+    return out
+
+
+def _r3_strings(obj):
+    if isinstance(obj, str):
+        yield obj
+    elif isinstance(obj, list):
+        for x in obj:
+            yield from _r3_strings(x)
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            yield from _r3_strings(v)
+
+
+def test_catalog_prose_facts_match_record_fields():
+    """r9 H1: a star count or verification date in prose that contradicts the
+    record's own field is the product falsifying itself. Approximate claims
+    ("around 10,500") are fine; exact ones must equal the field."""
+    bad = []
+    for fname in ("tools.json", "guides.json", "score-content-b.json"):
+        path = ROOT / "tools" / fname
+        if not path.exists():
+            continue
+        blob = path.read_text()
+        recs = _r3_records()
+        for slug, t in recs.items():
+            pass  # field mapping by nearest-slug handled below
+        # per-record: walk entries keyed by slug
+        data = _r3json.loads(blob)
+        entries = data if isinstance(data, list) else [data]
+        for t in entries:
+            if not isinstance(t, dict) or "slug" not in t:
+                continue
+            rec = recs.get(t["slug"])
+            stars = rec.get("github_stars") if rec else t.get("github_stars")
+            du = (rec or t).get("date_updated") or (rec or t).get("date_verified")
+            for txt in _r3_strings(t):
+                for m in _r3re.finditer(r'\b(\d{1,3},\d{3})\b(?= (?:GitHub )?stars)', txt):
+                    lead = txt[max(0, m.start() - 20):m.start()]
+                    if _APPROX.search(lead):
+                        continue
+                    want = f"{stars:,}" if stars else None
+                    if m.group(1) != want:
+                        bad.append((fname, t["slug"], m.group(1), want))
+                for m in _r3re.finditer(r'(?:verified|checked)[^.\d]{0,25}(\d{4}-\d{2}-\d{2})', txt):
+                    if du and m.group(1) != du:
+                        bad.append((fname, t["slug"], m.group(1), du))
+    assert not bad, f"prose facts drift from record fields: {bad[:6]}"
+
+
+def test_price_from_is_lowest_quoted_amount():
+    """r9 H1 (jasper $49-vs-$39): price_from is the entry price and must not
+    exceed any plan amount the record itself quotes in price_notes."""
+    bad = []
+    for t in _r3_records().values():
+        pf = t.get("price_from")
+        notes = t.get("price_notes") or ""
+        # plan prices only: an amount quoted with a billing cadence (unit
+        # rates like "$0.009 per email" are not entry prices)
+        _segs = [g for g in _r3re.split(r"[;.]", notes)
+                 if not _r3re.search(r"add-?ons?|overage", g, _r3re.I)]
+        _keep = "; ".join(_segs)
+        raw = _r3re.findall(
+            r'[$€]\s?(\d[\d,]*(?:\.\d+)?)\s*(?:/|\sper\s)\s*(?:mo|month|seat|user|yr|year)|'
+            r'EUR\s?(\d[\d,]*(?:\.\d+)?)\s*(?:/|\sper\s)\s*(?:mo|month|seat|user|yr|year)', _keep)
+        amounts = []
+        for a, b in raw:
+            for x in (a, b):
+                if x:
+                    try:
+                        v = float(x.replace(",", "").rstrip("."))
+                    except ValueError:
+                        continue
+                    if v > 0:
+                        amounts.append(v)
+        # approximate layered rates ("~$80/user/mo") cannot ground an exact
+        # field claim; exclude tilde-quoted amounts like the star lint does
+        tilde = []
+        for m in _r3re.finditer(r'~\s?[$€]\s?(\d[\d,]*(?:\.\d+)?)', notes):
+            try:
+                tilde.append(float(m.group(1).replace(",", "")))
+            except ValueError:
+                pass
+        amounts = [a for a in amounts if a not in tilde]
+        if pf and amounts and float(pf) > min(amounts):
+            bad.append((t["slug"], pf, min(amounts)))
+    assert not bad, f"price_from above a quoted plan amount: {bad[:6]}"
+
+
+def test_homepage_tool_count_matches_catalog():
+    """r9 H1 (badge 161 vs body 160): any N-martech-tools literal on the
+    homepage must equal the live active tool count."""
+    want = sum(1 for t in _r3_records().values()
+               if t.get("status") == "active" and t.get("kind") != "Guide")
+    bad = []
+    for f in (ROOT / "index.html", ROOT / "index.md"):
+        if not f.exists():
+            continue
+        for n in _r3re.findall(r'\b(\d{3}) martech tools', f.read_text(errors="ignore")):
+            if int(n) != want:
+                bad.append((f.name, n, want))
+    assert not bad, f"homepage tool-count literals stale: {bad[:6]}"
+
+
+def test_content_json_star_literals_resolve_to_records():
+    """r9 H1 (203,890 orphan): an exact star count in comparison content must
+    be some record's actual github_stars."""
+    recs = _r3_records()
+    _vals = [t.get("github_stars") for t in recs.values() if t.get("github_stars")]
+    valid = set(f"{gs:,}" for gs in _vals)
+    bad = []
+    for fname in ("bestx-content.json", "vsx-content.json"):
+        path = ROOT / "tools" / fname
+        if not path.exists():
+            continue
+        for txt in _r3_strings(_r3json.loads(path.read_text())):
+            for m in _r3re.finditer(r'\b(\d{1,3},\d{3})\b(?= (?:GitHub )?stars)', txt):
+                if m.group(1) not in valid:
+                    bad.append((fname, m.group(1)))
+    assert not bad, f"orphan star literals in comparison content: {bad[:6]}"

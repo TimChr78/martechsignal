@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation). |
 | Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation). |
 | AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Google Analytics, Google Search Console, WordPress (8 listed) |  |
 
 **What is Semrush?**
-All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Semrush cost?**
 Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Semrush starts at $117/mo. Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -225,7 +225,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Semrush?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "All-in-one SEO and digital marketing platform with AI-powered insights and tools. It ships with AI content optimizer, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

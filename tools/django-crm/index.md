@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page, verified 2026-09-06). |
 | Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (vendor documentation). |
 | Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (vendor documentation). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
@@ -14,7 +14,7 @@
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
-| &#10003; Established community (2,412 GitHub stars) |  |
+| &#10003; Active public repository (2,412 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include REST API (OpenAPI 3 schema), Swagger UI, Google OAuth (5 listed) |  |
 
 **What is Django CRM?**

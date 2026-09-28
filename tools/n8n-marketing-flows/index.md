@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 5/10 | 79 workflows across social posting, monitoring, ads and SEO cover common marketing operations (vendor documentation). |
 | Integrations | 6/10 | n8n, Ollama, Meta Graph API, Sheets, YouTube Data API, WordPress and Discord documented (vendor documentation). |
 | AI capability | 5/10 | LLM drafting per platform and an AI news digest with push delivery, all with local Ollama versions (vendor documentation). |

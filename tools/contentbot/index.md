@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation). |
 | Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation). |
 | AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Prepaid $0) |  |
 
 **What is ContentBot?**
-AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ContentBot cost?**
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is ContentBot?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI content automation platform with workflows for blogs, ads, and social posts. It ships with AI blog generation, 5 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

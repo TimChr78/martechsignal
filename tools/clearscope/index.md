@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation). |
 | Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation). |
 | AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Clearscope?**
-AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Clearscope cost?**
 Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
@@ -137,7 +137,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Clearscope starts at $129/mo. Essentials $129/mo; Business $399/mo; Enterprise custom; 20 AI drafts included. We last checked that price on 2026-08-28. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Clearscope?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered content optimization platform for SEO teams and content writers. It ships with AI content grading, 5 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

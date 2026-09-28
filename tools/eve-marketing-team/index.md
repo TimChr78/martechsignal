@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 6/10 | Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (vendor documentation). |
 | Integrations | 5/10 | Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (vendor documentation). |
 | AI capability | 7/10 | A coordinated multi-agent team reading one brand context document is real orchestration (vendor documentation). |

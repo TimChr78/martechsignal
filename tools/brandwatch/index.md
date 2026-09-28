@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation). |
 | Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation). |
 | AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Brandwatch?**
-AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Brandwatch cost?**
 Brandwatch uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -136,7 +136,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Brandwatch uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; Consumer Intelligence, Social Management, and Influencer modules. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -218,7 +218,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Brandwatch?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered consumer intelligence and social media management platform. It ships with AI sentiment analysis, 7 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

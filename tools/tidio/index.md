@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation). |
 | Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation). |
 | AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product&#x27;s AI center (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/) |  |
 
 **What is Tidio?**
-AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Tidio cost?**
 Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
@@ -142,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
 
@@ -231,7 +231,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Tidio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered live chat and chatbot platform with Lyro AI agent for customer support. It ships with lyro AI agent, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

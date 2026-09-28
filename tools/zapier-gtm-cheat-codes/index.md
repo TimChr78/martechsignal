@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (the vendor pricing page, verified 2026-08-31). |
 | Feature depth | 5/10 | Campaign planning, postmortems and launch packages cover the GTM workflow set (vendor documentation). |
 | Integrations | 6/10 | Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (vendor documentation). |
 | AI capability | 5/10 | Installable agent skills with CRM context and account prioritization from source data (vendor documentation). |

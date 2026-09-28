@@ -4,12 +4,12 @@
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
 | [Revealbot (Birch)](/tools/revealbot/) | From $49/mo | No | Media buyers that trust rules they wrote more than black boxes |
-| [Pencil](/tools/pencil/) | From $14/mo | No | Best for advertising &amp; paid media teams that want gwi-powered insights agent, starting at $14/mo. |
+| [Pencil](/tools/pencil/) | From $11/mo | No | Best for advertising &amp; paid media teams that want gwi-powered insights agent, starting at $14/mo. |
 | [Smartly.io](/tools/smartly-io/) | Enterprise | No | Enterprises consolidating creative production and media buying in one contract |
-| [AdCreative.ai](/tools/adcreative-ai/) | From $39/mo | No | Lean teams that want creative volume with a score attached |
+| [AdCreative.ai](/tools/adcreative-ai/) | From $20/mo | No | Lean teams that want creative volume with a score attached |
 | [Albert AI](/tools/albert-ai/) | Enterprise | No | Advertisers ready to hand the daily optimization loop to a machine |
 | [Madgicx](/tools/madgicx/) | From $49/mo | No | Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $49/mo. |
-| [advertools](/tools/advertools/) | Open Source | Yes | Best for advertising &amp; paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [advertools](/tools/advertools/) | Open Source | Yes (MIT) | Best for advertising &amp; paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Opteo](/tools/opteo/) | From $129/mo | No | Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $129/mo. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)

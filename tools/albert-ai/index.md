@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (vendor documentation). |
 | Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (vendor documentation). |
 | AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Albert AI?**
-Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Albert AI cost?**
 Albert AI uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; percentage of ad spend model; demo required. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Albert AI uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; percentage of ad spend model; demo required. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -220,7 +220,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Albert AI?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Autonomous AI platform that manages and optimizes digital advertising campaigns. It ships with autonomous campaign management, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

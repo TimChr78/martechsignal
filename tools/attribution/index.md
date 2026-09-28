@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing with a demo required and no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | Custom enterprise pricing with a demo required and no public numbers (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (vendor documentation). |
 | Integrations | 6/10 | Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (vendor documentation). |
 | AI capability | 5/10 | AI attribution and channel analysis serve the measurement loop (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Attribution?**
-AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Attribution cost?**
 Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Attribution uses enterprise pricing, so the number depends on your volume and contract. Custom enterprise pricing; demo required; focused on B2B and DTC attribution. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Attribution?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "AI-powered marketing attribution platform connecting ad spend to revenue. It ships with AI multi-touch attribution, 7 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

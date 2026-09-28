@@ -18,7 +18,7 @@
 | &#10003; Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annua) |  |
 
 **What is HubSpot CRM?**
-Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does HubSpot CRM cost?**
 HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 HubSpot CRM has a free tier; paid plans start at $20/mo. Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month); Professional $100/seat/mo; Enterprise $150/seat/mo. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -234,7 +234,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is HubSpot CRM?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Free AI-powered CRM platform with sales, service, and marketing tools unified. It ships with AI email writer, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

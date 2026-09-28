@@ -34,7 +34,7 @@ Jasper
 
 AI marketing content platform for creating on-brand copy, images, and campaigns
 
-From $49/moDesk-reviewed
+From $39/moDesk-reviewed
 
 Khoj
 

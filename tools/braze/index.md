@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (vendor documentation). |
 | Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (vendor documentation). |
 | AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Braze?**
-Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Braze cost?**
 Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Braze uses enterprise pricing, so the number depends on your volume and contract. Custom pricing based on MAUs and message volume; enterprise contracts typical. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -226,7 +226,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Braze?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Customer engagement platform with AI-powered real-time messaging across channels. It ships with brazeAI intelligent timing, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

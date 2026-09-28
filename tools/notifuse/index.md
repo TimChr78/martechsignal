@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation). |
 | Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation). |
 | AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
 | &#10003; AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
-| &#10003; Established community (2,186 GitHub stars) |  |
+| &#10003; Active public repository (2,186 GitHub stars counted at last check) |  |
 | &#10003; Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
 
 **What is Notifuse?**

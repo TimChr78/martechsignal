@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 9/10 | Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (the vendor pricing page, verified 2026-09-27). |
 | Feature depth | 6/10 | Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (vendor documentation). |
 | Integrations | 5/10 | Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (vendor documentation). |
 | AI capability | 6/10 | Chat-to-automation building with AI agents and BYO keys keeps model costs yours (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; Native integrations include Slack, Gmail, Google Sheets (6 listed) |  |
 
 **What is Activepieces?**
-Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Activepieces cost?**
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
@@ -127,7 +127,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
@@ -139,7 +139,7 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)
@@ -216,7 +216,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Activepieces?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Open-source workflow automation with a free cloud tier and on-prem hosting. It ships with chat-to-automation builder, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

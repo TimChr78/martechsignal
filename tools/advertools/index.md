@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page, verified 2026-09-25). |
 | Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation). |
 | Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation). |
 | AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation). |
@@ -15,7 +15,7 @@
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; There is no interface; every task starts in a notebook or a script. |
 | &#10003; AI capabilities: claude SERP analytics module (advertools.serp_claude), added in v0.18.0 | &#10007; SERP and social functions call external APIs, so quotas and billing come from Google, YouTube and Twitter rather than from advertools. |
-| &#10003; Established community (1,464 GitHub stars) | &#10007; Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
+| &#10003; Active public repository (1,464 GitHub stars counted at last check) | &#10007; Docs are function-by-function reference pages; guided end-to-end workflows are sparse. |
 | &#10003; Native integrations include Python pandas, Scrapy, Google Search API (5 listed) |  |
 | &#10003; MIT licensed and pip installable; the analysis functions themselves need no account or key. |  |
 | &#10003; Crawler built on Scrapy, so crawl behavior is fully configurable. |  |

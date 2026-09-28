@@ -20,7 +20,7 @@
 | &#10003; CDN log verification confirms AI bots actually read the changed content | &#10007; The rename from Adobe LLM Optimizer to Adobe Brand Visibility still splits coverage and contracts across two names |
 
 **What is Adobe LLM Optimizer?**
-Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Adobe LLM Optimizer cost?**
 Adobe LLM Optimizer uses enterprise pricing, so the number depends on your volume and contract. Quote-based within Adobe Experience Cloud (Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -155,7 +155,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Adobe&#x27;s enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Adobe LLM Optimizer uses enterprise pricing, so the number depends on your volume and contract. Quote-based within Adobe Experience Cloud (Sep 2026). Our last verified read of the pricing model was 2026-09-25; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -241,7 +241,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Adobe LLM Optimizer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution. It ships with share-of-voice tracking across ten LLM families, 6 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

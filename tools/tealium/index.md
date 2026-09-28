@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing on annual contracts with no public tier table (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 2/10 | Enterprise custom pricing on annual contracts with no public tier table (the vendor pricing page, verified 2026-08-28). |
 | Feature depth | 7/10 | Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (vendor documentation). |
 | Integrations | 8/10 | Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (vendor documentation). |
 | AI capability | 5/10 | AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (vendor documentation). |
@@ -18,7 +18,7 @@
 | &#10003; API access for custom integrations |  |
 
 **What is Tealium?**
-Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Tealium cost?**
 Tealium uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; annual contracts; tag management and CDP modules. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ## Frequently asked questions
 
-Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 listed integrations. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
+Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 integrations documented on this page. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 Tealium uses enterprise pricing, so the number depends on your volume and contract. Enterprise custom pricing; annual contracts; tag management and CDP modules. Our last verified read of the pricing model was 2026-08-28; the vendor&#x27;s pricing page carries the current quote criteria.
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "What is Tealium?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 listed integrations. MartechSignal's review covers features, pricing, and how it compares to alternatives."
+          "text": "Enterprise customer data platform with real-time data orchestration and AI. It ships with AI audience segmentation, 8 integrations documented on this page. MartechSignal's review covers features, pricing, and how it compares to alternatives."
         }
       },
       {

@@ -3,7 +3,7 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page, verified 2026-09-28). |
+| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page, verified 2026-09-07). |
 | Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation). |
 | Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation). |
 | AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation). |
@@ -16,7 +16,7 @@
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
 | &#10003; API access for custom integrations |  |
 | &#10003; AI capabilities: AI development harness with 192 evaluation cases |  |
-| &#10003; Established community (1,715 GitHub stars) |  |
+| &#10003; Active public repository (1,715 GitHub stars counted at last check) |  |
 
 **What is Open Mercato?**
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP. It ships with AI development harness with 192 evaluation cases, 1,715 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
