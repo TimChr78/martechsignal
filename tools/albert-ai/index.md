@@ -1,6 +1,16 @@
 # Albert AI review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (tools.json ai_features). |
+| Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (tools.json). |
+| AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise service operating inside your accounts (tools.json). |
+| Operational maturity | 7/10 | Founded 2012 with enterprise autonomy deployments behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: autonomous campaign management | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Albert AI &#8594;](https://albert.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Albert AI is autonomous media buying taken literally: it runs campaigns, not suggestions. Percentage-of-spend pricing aligns incentives and concentrates risk in equal measure.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -226,6 +240,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Albert AI is autonomous media buying taken literally: it runs campaigns, not suggestions. Percentage-of-spend pricing aligns incentives and concentrates risk in equal measure.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/albert-ai/#app",
+      "name": "Albert AI",
+      "url": "https://martechsignal.com/tools/albert-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

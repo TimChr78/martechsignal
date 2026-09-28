@@ -1,6 +1,16 @@
 # Opteo review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Basic $129/mo (10 accounts, $25K spend) and Professional $249/mo (25 accounts, $100K spend) published with concrete caps (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Pattern detection, one-click improvements and automation cover the Google Ads housekeeping loop (tools.json ai_features). |
+| Integrations | 3/10 | Google Ads and Slack documented; the focus is deliberately single-platform (tools.json). |
+| AI capability | 5/10 | Statistically significant pattern detection across accounts is the analytical core (tools.json ai_features). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (tools.json). |
+| Operational maturity | 6/10 | Tiered support levels and account caps suggest a mature service operation (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: statistically significant pattern detection across Google Ads accounts | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Opteo &#8594;](https://opteo.com/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 29/60
+
+Opteo watches Google Ads accounts and pushes statistically sound improvements you can click live. The account and spend caps per tier make the pricing decision easy to reason about.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -235,6 +249,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Opteo watches Google Ads accounts and pushes statistically sound improvements you can click live. The account and spend caps per tier make the pricing decision easy to reason about.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/opteo/#app",
+      "name": "Opteo",
+      "url": "https://martechsignal.com/tools/opteo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 29,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

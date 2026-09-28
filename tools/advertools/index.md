@@ -1,6 +1,16 @@
 # advertools review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (tools.json deep_dive). |
+| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (tools.json). |
+| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (tools.json). |
+| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; There is no interface; every task starts in a notebook or a script. |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit advertools &#8594;](https://advertools.readthedocs.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+advertools is a pandas-first analyst&#x27;s toolkit, and the new Claude SERP module shows where it is heading. If your team does not write Python, this shelf is closed to you.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -261,6 +275,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "advertools is a pandas-first analyst's toolkit, and the new Claude SERP module shows where it is heading. If your team does not write Python, this shelf is closed to you.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/advertools/#app",
+      "name": "advertools",
+      "url": "https://martechsignal.com/tools/advertools/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

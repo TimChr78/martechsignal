@@ -1,6 +1,16 @@
 # Dynamic Yield review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (verified 2026-09-28, tools.json). |
+| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (tools.json ai_features). |
+| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (tools.json). |
+| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (tools.json). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: experience OS Agents (multi-agent copilot) | &#10007; Closed source - no self-hosting option |
@@ -87,7 +97,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Dynamic Yield &#8594;](https://www.dynamicyield.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Dynamic Yield, now under Mastercard, is personalization depth for large commerce operations: agents, conversational shopping and predictive targeting. The pricing page tells you who the buyer is.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -330,6 +344,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Dynamic Yield, now under Mastercard, is personalization depth for large commerce operations: agents, conversational shopping and predictive targeting. The pricing page tells you who the buyer is.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
+      "name": "Dynamic Yield",
+      "url": "https://martechsignal.com/tools/dynamic-yield/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

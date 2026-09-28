@@ -1,6 +1,16 @@
 # Hootsuite review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (tools.json deep_dive). |
+| Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (tools.json). |
+| AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 8/10 | Founded 2008 with the category&#x27;s longest enterprise social track record (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI caption generation | &#10007; Closed source - no self-hosting option |
@@ -63,7 +73,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Hootsuite &#8594;](https://www.hootsuite.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Hootsuite is the established social suite: broad network coverage and scheduling that survives team churn. The AI layer is convenience features; the value is still the operations.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -230,6 +244,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Hootsuite is the established social suite: broad network coverage and scheduling that survives team churn. The AI layer is convenience features; the value is still the operations.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/hootsuite/#app",
+      "name": "Hootsuite",
+      "url": "https://martechsignal.com/tools/hootsuite/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Jitsu review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free plan with unlimited captured events and 200K active events/mo; Business $99/mo with published overage at $40 per million (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Event capture, warehouse syncs and destination routing cover the CDP-pipeline job (tools.json deep_dive). |
+| Integrations | 6/10 | BigQuery, Snowflake, GA4, HubSpot, Salesforce and webhooks documented plus an API (tools.json). |
+| AI capability | 3/10 | An MCP server for agent-driven setup is the one documented AI surface (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (tools.json). |
+| Operational maturity | 5/10 | Founded 2020 with 5.1k stars and a small commercial operation (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Jitsu &#8594;](https://jitsu.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Jitsu is the Segment alternative that keeps your events in your warehouse: MIT, self-hostable, with a free tier that does not expire. The AI surface is one MCP server, and that is fine.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -276,6 +290,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Jitsu is the Segment alternative that keeps your events in your warehouse: MIT, self-hostable, with a free tier that does not expire. The AI surface is one MCP server, and that is fine.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/jitsu/#app",
+      "name": "Jitsu",
+      "url": "https://martechsignal.com/tools/jitsu/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

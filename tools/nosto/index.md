@@ -1,6 +1,16 @@
 # Nosto review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (tools.json ai_features). |
+| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (tools.json). |
+| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS (tools.json). |
+| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: predictive product recommendations | &#10007; Closed source - no self-hosting option |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Nosto &#8594;](https://www.nosto.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+Nosto is commerce personalization with real merchandising controls: recommendations, semantic search and visual tagging. GMV-based pricing means success and cost move together.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -294,6 +308,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Nosto is commerce personalization with real merchandising controls: recommendations, semantic search and visual tagging. GMV-based pricing means success and cost move together.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/nosto/#app",
+      "name": "Nosto",
+      "url": "https://martechsignal.com/tools/nosto/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

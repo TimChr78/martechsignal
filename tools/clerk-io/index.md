@@ -1,6 +1,16 @@
 # Clerk.io review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (tools.json). |
+| Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (tools.json ai_features). |
+| Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (tools.json). |
+| AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI product recommendations | &#10007; Closed source - no self-hosting option |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Clerk.io &#8594;](https://www.clerk.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Clerk.io covers search, recommendations and email personalization at a published entry price most personalization vendors hide. The custom tiers above it scale with traffic.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -235,6 +249,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Clerk.io covers search, recommendations and email personalization at a published entry price most personalization vendors hide. The custom tiers above it scale with traffic.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/clerk-io/#app",
+      "name": "Clerk.io",
+      "url": "https://martechsignal.com/tools/clerk-io/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

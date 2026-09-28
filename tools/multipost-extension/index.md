@@ -1,6 +1,16 @@
 # MultiPost review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (tools.json, verified 2026-09-28). |
+| Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (tools.json ai_features). |
+| Integrations | 2/10 | No named integrations; the extension works through the platforms&#x27; own web UIs (tools.json). |
+| AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (tools.json). |
+| Operational maturity | 4/10 | Community-maintained at 3.3k stars with no company behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit MultiPost &#8594;](https://multipost.app)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+MultiPost is a browser extension that does one thing: publish to many platforms from where you already write. Free, Apache-2.0, and small enough to read before installing.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -215,6 +229,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "MultiPost is a browser extension that does one thing: publish to many platforms from where you already write. Free, Apache-2.0, and small enough to read before installing.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/multipost-extension/#app",
+      "name": "MultiPost",
+      "url": "https://martechsignal.com/tools/multipost-extension/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

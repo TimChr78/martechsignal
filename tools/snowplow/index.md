@@ -1,6 +1,16 @@
 # Snowplow review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | The open-source pipeline is free to self-host and clearly stated; BDP Cloud is quoted by sales (verified Sep 2026, tools.json). |
+| Feature depth | 7/10 | Event pipelines to six warehouse/lake formats plus real-time profiles with propensity and intent signals (tools.json ai_features). |
+| Integrations | 8/10 | Snowflake, Databricks, BigQuery, Redshift, Delta Lake, Iceberg, Kafka, Kinesis and Pub/Sub documented (tools.json). |
+| AI capability | 6/10 | Signals propensity predictions, intent detection and agentic context for AI agents make it model-ready plumbing (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (tools.json). |
+| Operational maturity | 7/10 | Founded 2012 with a commercial cloud arm and long enterprise deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Snowplow &#8594;](https://snowplow.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Snowplow is behavioral data infrastructure you can own: the pipeline is Apache-2.0 and the cloud is a quote. If an event schema matters more than a dashboard, this is the right layer.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -283,6 +297,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Snowplow is behavioral data infrastructure you can own: the pipeline is Apache-2.0 and the cloud is a quote. If an event schema matters more than a dashboard, this is the right layer.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/snowplow/#app",
+      "name": "Snowplow",
+      "url": "https://martechsignal.com/tools/snowplow/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

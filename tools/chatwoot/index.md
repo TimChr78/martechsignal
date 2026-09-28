@@ -1,6 +1,16 @@
 # Chatwoot review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (tools.json ai_features). |
+| Integrations | 5/10 | Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (tools.json). |
+| AI capability | 6/10 | Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (tools.json ai_features). |
+| Openness | 8/10 | 36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (tools.json). |
+| Operational maturity | 6/10 | Founded 2019 with a large self-hosted base and priced cloud tiers (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Chatwoot &#8594;](https://www.chatwoot.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Chatwoot is the open-source service suite with a three-part AI called Captain and 36.6k stars behind it. Self-host the community edition free and buy cloud only when operations demand it.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -296,6 +310,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Chatwoot is the open-source service suite with a three-part AI called Captain and 36.6k stars behind it. Self-host the community edition free and buy cloud only when operations demand it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/chatwoot/#app",
+      "name": "Chatwoot",
+      "url": "https://martechsignal.com/tools/chatwoot/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Flagsmith review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Cloud free up to 50K API requests/mo, Scale $50/member/mo (launch discount from $60 shown Sep 2026), extra calls $50 per million (tools.json). |
+| Feature depth | 6/10 | Feature flags, remote config and segment targeting cover the flag management job (tools.json ai_features). |
+| Integrations | 5/10 | Datadog, Grafana, Jira, GitHub, Amplitude and Mixpanel documented plus an API (tools.json). |
+| AI capability | 6/10 | MCP flag management, automated flag hygiene and prompt/model A/B testing are current-agent features (tools.json ai_features). |
+| Openness | 9/10 | BSD-3-Clause with 6.6k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 6/10 | Commercial backing behind the OSS core with priced cloud tiers (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; BSD-3-Clause licence with free self-hosting | &#10007; The free cloud tier caps at 50,000 API requests a month, which a busy production app passes quickly. |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Flagsmith &#8594;](https://www.flagsmith.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+Flagsmith is the open-source flag platform that grew an AI layer where it belongs: change workflows and prompt testing. BSD-3 licensing and a real free tier make the trial honest.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -265,6 +279,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Flagsmith is the open-source flag platform that grew an AI layer where it belongs: change workflows and prompt testing. BSD-3 licensing and a real free tier make the trial honest.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/flagsmith/#app",
+      "name": "Flagsmith",
+      "url": "https://martechsignal.com/tools/flagsmith/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Tealium review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Enterprise custom pricing on annual contracts with no public tier table (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (tools.json ai_features). |
+| Integrations | 8/10 | Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (tools.json). |
+| AI capability | 5/10 | AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform (tools.json). |
+| Operational maturity | 8/10 | Founded 2008 with long regulated-industry deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI audience segmentation | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Tealium &#8594;](https://tealium.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Tealium is the enterprise data layer: tag management and a CDP with governance built in. Annual contracts and custom pricing fit the regulated part of the market it was built for.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -227,6 +241,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Tealium is the enterprise data layer: tag management and a CDP with governance built in. Annual contracts and custom pricing fit the regulated part of the market it was built for.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/tealium/#app",
+      "name": "Tealium",
+      "url": "https://martechsignal.com/tools/tealium/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

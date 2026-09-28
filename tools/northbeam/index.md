@@ -1,6 +1,16 @@
 # Northbeam review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (tools.json ai_features). |
+| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (tools.json). |
+| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product&#x27;s core math (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (tools.json). |
+| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI multi-touch attribution | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Northbeam &#8594;](https://www.northbeam.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Northbeam does attribution math for DTC brands serious about incrementality: MMM and MTA under one roof. Custom pricing against data volume means the quote reveals your own scale.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -227,6 +241,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Northbeam does attribution math for DTC brands serious about incrementality: MMM and MTA under one roof. Custom pricing against data volume means the quote reveals your own scale.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/northbeam/#app",
+      "name": "Northbeam",
+      "url": "https://martechsignal.com/tools/northbeam/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

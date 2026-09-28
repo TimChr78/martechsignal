@@ -1,6 +1,16 @@
 # Revealbot (Birch) pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essential $49/mo and Pro $99/mo published, tiered by ad spend with a 14-day no-card trial; Enterprise quoted (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Automated rules, strategies and custom attribution metrics across four ad platforms cover the optimization loop (tools.json ai_features). |
+| Integrations | 7/10 | Meta, Google, TikTok and Snapchat Ads plus Slack, Sheets, Drive and four attribution partners documented (tools.json). |
+| AI capability | 6/10 | The Bïrch AI workflow layer and MCP server let external AI tools drive documented controls (tools.json ai_features). |
+| Openness | 4/10 | Closed SaaS, but MCP keeps the control surface programmable (tools.json). |
+| Operational maturity | 7/10 | Founded 2015 and rebranded with years of ad automation deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: bïrch AI workflow layer | &#10007; Closed source - no self-hosting option |
@@ -85,7 +95,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [Visit Revealbot (Birch) &#8594;](https://bir.ch)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Revealbot, now Bïrch, is rules-based ad automation with the receipts: every action is a rule you wrote. The MCP hook means your AI tool can finally touch the same controls.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -333,6 +347,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Revealbot, now B\u00efrch, is rules-based ad automation with the receipts: every action is a rule you wrote. The MCP hook means your AI tool can finally touch the same controls.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/revealbot/#app",
+      "name": "Revealbot (Birch)",
+      "url": "https://martechsignal.com/tools/revealbot/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Predis.ai review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (tools.json ai_features). |
+| Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (tools.json). |
+| AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI post generation | &#10007; Paid plans start at $19/mo once past the free tier |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Predis.ai &#8594;](https://predis.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 30/60
+
+Predis.ai generates posts, carousels and video ads at a price a solo marketer can pay. The output volume is the pitch; brand judgment remains yours.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -231,6 +245,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Predis.ai generates posts, carousels and video ads at a price a solo marketer can pay. The output volume is the pitch; brand judgment remains yours.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/predis-ai/#app",
+      "name": "Predis.ai",
+      "url": "https://martechsignal.com/tools/predis-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 30,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

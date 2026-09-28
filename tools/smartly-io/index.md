@@ -1,6 +1,16 @@
 # Smartly.io review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 1/10 | No published rates at all: the /pricing URL returns 404 and the only path is a demo request (verified 2026-09-28, tools.json). |
+| Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (tools.json ai_features). |
+| Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (tools.json). |
+| AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform (tools.json). |
+| Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: smartly AI Studio (image and video generation) | &#10007; Closed source - no self-hosting option |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Smartly.io &#8594;](https://www.smartly.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Smartly.io spans creative production, buying and measurement in one enterprise contract. Its pricing page 404s on purpose; you are buying a relationship, and the platform is deep enough to justify one.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -271,6 +285,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Smartly.io spans creative production, buying and measurement in one enterprise contract. Its pricing page 404s on purpose; you are buying a relationship, and the platform is deep enough to justify one.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/smartly-io/#app",
+      "name": "Smartly.io",
+      "url": "https://martechsignal.com/tools/smartly-io/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -33,6 +33,37 @@
       }
     },
     {
+      "slug": "adcreative-ai",
+      "score_total": 31,
+      "verdict": "AdCreative.ai sells conversion-scored generated creatives at self-serve prices. The scoring is the promise, so run it against your own winners before trusting the leaderboard.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Creative generation, scoring and copy cover the ad asset workflow narrowly (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Performance scoring over generated creatives is the differentiating model claim (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2021 with self-serve pricing and a wide trial funnel (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "adobe-llm-optimizer",
       "score_total": 35,
       "verdict": "Adobe LLM Optimizer is for shops already inside Experience Cloud: CDN-edge fixes and revenue attribution nobody standalone offers. Outside that stack, the quote-only pricing makes it untestable.",
@@ -95,6 +126,37 @@
       }
     },
     {
+      "slug": "advertools",
+      "score_total": 38,
+      "verdict": "advertools is a pandas-first analyst's toolkit, and the new Claude SERP module shows where it is heading. If your team does not write Python, this shelf is closed to you.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free MIT-licensed Python package with nothing else to buy (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 4,
+          "evidence": "A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 1.5k GitHub stars and pure Python transparency (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Community-maintained at 1.5k stars with steady releases (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "ahrefs",
       "score_total": 42,
       "verdict": "Ahrefs is the established SEO stack that bolted AI visibility on properly: Brand Radar reads like a product, not a checkbox. Pricing is published per tier, which suits buying committees.",
@@ -122,6 +184,37 @@
         "operational_maturity": {
           "score": 9,
           "evidence": "One of the longest-running SEO data vendors with published tiers and a public roadmap (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "albert-ai",
+      "score_total": 31,
+      "verdict": "Albert AI is autonomous media buying taken literally: it runs campaigns, not suggestions. Percentage-of-spend pricing aligns incentives and concentrates risk in equal measure.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Autonomous campaign management is the product thesis, not a feature line (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise service operating inside your accounts (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2012 with enterprise autonomy deployments behind it (tools.json)."
         }
       }
     },
@@ -219,6 +312,37 @@
       }
     },
     {
+      "slug": "brandwatch",
+      "score_total": 33,
+      "verdict": "Brandwatch is consumer intelligence first and social management second: the data breadth is the product. Enterprise pricing and modular packaging fit research teams better than content teams.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Consumer intelligence, social management and influencer modules cover research through execution (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Image recognition, trend detection and audience segmentation over a large historical dataset (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2008 with research-grade data history and enterprise contracts (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "braze",
       "score_total": 36,
       "verdict": "Braze is the real-time engagement layer for teams whose messages are events, not campaigns. Predictive churn and intelligent timing are mature; the MAU pricing model needs careful modeling before signing.",
@@ -246,6 +370,99 @@
         "operational_maturity": {
           "score": 8,
           "evidence": "Founded 2011 and publicly listed with enterprise SLAs behind every deployment (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "buffer",
+      "score_total": 33,
+      "verdict": "Buffer is still the simplest way to schedule across channels, priced per channel so costs stay legible. Its AI assistant helps with the post, not the strategy.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Scheduling, analytics and light engagement cover the small-team social routine (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 4,
+          "evidence": "An AI assistant for posts, hashtag generation and repurposing help the writing step (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access and published pricing philosophy (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2010 with fifteen years of self-serve operations (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "chatwoot",
+      "score_total": 39,
+      "verdict": "Chatwoot is the open-source service suite with a three-part AI called Captain and 36.6k stars behind it. Self-host the community edition free and buy cloud only when operations demand it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2019 with a large self-hosted base and priced cloud tiers (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "clerk-io",
+      "score_total": 32,
+      "verdict": "Clerk.io covers search, recommendations and email personalization at a published entry price most personalization vendors hide. The custom tiers above it scale with traffic.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Search, recommendations, email personalization and segmentation cover the commerce personalization set (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Predictive analytics and personalization run the store experience quietly (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2011 with published entry pricing and monthly-to-yearly contracts (tools.json)."
         }
       }
     },
@@ -374,6 +591,37 @@
       }
     },
     {
+      "slug": "dynamic-yield",
+      "score_total": 35,
+      "verdict": "Dynamic Yield, now under Mastercard, is personalization depth for large commerce operations: agents, conversational shopping and predictive targeting. The pricing page tells you who the buyer is.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 1,
+          "evidence": "No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (verified 2026-09-28, tools.json)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform inside a Mastercard contract (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2011 with enterprise commerce deployments and now card-network backing (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "espocrm",
       "score_total": 33,
       "verdict": "EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.",
@@ -436,6 +684,37 @@
       }
     },
     {
+      "slug": "flagsmith",
+      "score_total": 40,
+      "verdict": "Flagsmith is the open-source flag platform that grew an AI layer where it belongs: change workflows and prompt testing. BSD-3 licensing and a real free tier make the trial honest.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Cloud free up to 50K API requests/mo, Scale $50/member/mo (launch discount from $60 shown Sep 2026), extra calls $50 per million (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Feature flags, remote config and segment targeting cover the flag management job (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Datadog, Grafana, Jira, GitHub, Amplitude and Mixpanel documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "MCP flag management, automated flag hygiene and prompt/model A/B testing are current-agent features (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "BSD-3-Clause with 6.6k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Commercial backing behind the OSS core with priced cloud tiers (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "frappe-crm",
       "score_total": 36,
       "verdict": "Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.",
@@ -467,6 +746,37 @@
       }
     },
     {
+      "slug": "growthbook",
+      "score_total": 42,
+      "verdict": "GrowthBook is the open-source experiment stack with warehouse-native stats and an AI assistant metered by plan. MIT licensing and 8.4k stars say the community believes in it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 8.4k GitHub stars and free self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2020 with a commercial entity behind the open core (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "heap",
       "score_total": 35,
       "verdict": "Heap's autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.",
@@ -494,6 +804,37 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "Founded 2013 with enterprise analytics deployments behind the autocapture pitch (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "hootsuite",
+      "score_total": 36,
+      "verdict": "Hootsuite is the established social suite: broad network coverage and scheduling that survives team churn. The AI layer is convenience features; the value is still the operations.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2008 with the category's longest enterprise social track record (tools.json)."
         }
       }
     },
@@ -560,6 +901,37 @@
       }
     },
     {
+      "slug": "intercom",
+      "score_total": 42,
+      "verdict": "Intercom's Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with strong API coverage (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2011 with enterprise service deployments and public price honesty (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "jasper",
       "score_total": 37,
       "verdict": "Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.",
@@ -587,6 +959,37 @@
         "operational_maturity": {
           "score": 6,
           "evidence": "Founded 2021 with priced self-serve tiers and a large user base behind it (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "jitsu",
+      "score_total": 36,
+      "verdict": "Jitsu is the Segment alternative that keeps your events in your warehouse: MIT, self-hostable, with a free tier that does not expire. The AI surface is one MCP server, and that is fine.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free plan with unlimited captured events and 200K active events/mo; Business $99/mo with published overage at $40 per million (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Event capture, warehouse syncs and destination routing cover the CDP-pipeline job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "BigQuery, Snowflake, GA4, HubSpot, Salesforce and webhooks documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "An MCP server for agent-driven setup is the one documented AI surface (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2020 with 5.1k stars and a small commercial operation (tools.json)."
         }
       }
     },
@@ -649,6 +1052,37 @@
         "operational_maturity": {
           "score": 6,
           "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "madgicx",
+      "score_total": 30,
+      "verdict": "Madgicx is the Meta specialist: creative workflows and autonomous budget moves for one ad ecosystem. The spend calculator keeps pricing honest; the TikTok story is newer than the Meta one.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "End-to-end AI creative generation with autonomous budget allocation across ad sets (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed SaaS with no API documented in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Priced self-serve with a spend calculator but no founding year in the catalog (tools.json)."
         }
       }
     },
@@ -777,6 +1211,37 @@
       }
     },
     {
+      "slug": "multipost-extension",
+      "score_total": 31,
+      "verdict": "MultiPost is a browser extension that does one thing: publish to many platforms from where you already write. Free, Apache-2.0, and small enough to read before installing.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free open-source browser extension with nothing to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 3,
+          "evidence": "One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations; the extension works through the platforms' own web UIs (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "AI content adaptation per platform is the one documented assistive feature (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 with 3.3k GitHub stars and full source visibility (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Community-maintained at 3.3k stars with no company behind it (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "nimt-ai",
       "score_total": 35,
       "verdict": "Nimt.ai prices like a utility and acts like a team: credits you can predict and an agent that writes and fixes. The card-required trial is the only friction in an otherwise clean offer.",
@@ -804,6 +1269,68 @@
         "operational_maturity": {
           "score": 4,
           "evidence": "Young product with no founding year in the catalog and a card-required trial gate (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "northbeam",
+      "score_total": 32,
+      "verdict": "Northbeam does attribution math for DTC brands serious about incrementality: MMM and MTA under one roof. Custom pricing against data volume means the quote reveals your own scale.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 3,
+          "evidence": "Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with data flowing to your warehouse (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "nosto",
+      "score_total": 33,
+      "verdict": "Nosto is commerce personalization with real merchandising controls: recommendations, semantic search and visual tagging. GMV-based pricing means success and cost move together.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 3,
+          "evidence": "Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Vector-embedding search and predictive recommendations are core, with visual tagging on top (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2013 with a decade of commerce personalization deployments (tools.json)."
         }
       }
     },
@@ -870,6 +1397,37 @@
       }
     },
     {
+      "slug": "opteo",
+      "score_total": 29,
+      "verdict": "Opteo watches Google Ads accounts and pushes statistically sound improvements you can click live. The account and spend caps per tier make the pricing decision easy to reason about.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Basic $129/mo (10 accounts, $25K spend) and Professional $249/mo (25 accounts, $100K spend) published with concrete caps (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Pattern detection, one-click improvements and automation cover the Google Ads housekeeping loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Google Ads and Slack documented; the focus is deliberately single-platform (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Statistically significant pattern detection across accounts is the analytical core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed SaaS with no API documented in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Tiered support levels and account caps suggest a mature service operation (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "ortto",
       "score_total": 34,
       "verdict": "Ortto bundles CDP and marketing automation at a mid-market price, with AI sprinkled where it saves time. The 12-month commitment on larger plans is the term to negotiate first.",
@@ -928,6 +1486,37 @@
         "operational_maturity": {
           "score": 5,
           "evidence": "Founded 2024 and priced for teams, with the operational history still short (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "pencil",
+      "score_total": 37,
+      "verdict": "Pencil aggregates the generation models so you do not have to pick one, and predicts creative performance on top. At $14/mo entry it is the cheapest serious creative bench.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Text, image, video and ad creative generation with performance prediction cover the creative pipeline (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS; no API documented in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2018 with published tiers and enterprise creative deployments (tools.json)."
         }
       }
     },
@@ -1021,6 +1610,37 @@
         "operational_maturity": {
           "score": 6,
           "evidence": "A known developer platform with usage-based plans and years in market (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "predis-ai",
+      "score_total": 30,
+      "verdict": "Predis.ai generates posts, carousels and video ads at a price a solo marketer can pay. The output volume is the pitch; brand judgment remains yours.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Post, video and carousel generation with a content calendar cover the social output workflow (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2019 with light pricing and no enterprise track record in the catalog (tools.json)."
         }
       }
     },
@@ -1149,6 +1769,37 @@
       }
     },
     {
+      "slug": "revealbot",
+      "score_total": 38,
+      "verdict": "Revealbot, now Bïrch, is rules-based ad automation with the receipts: every action is a rule you wrote. The MCP hook means your AI tool can finally touch the same controls.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Essential $49/mo and Pro $99/mo published, tiered by ad spend with a 14-day no-card trial; Enterprise quoted (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Automated rules, strategies and custom attribution metrics across four ad platforms cover the optimization loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Meta, Google, TikTok and Snapchat Ads plus Slack, Sheets, Drive and four attribution partners documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "The Bïrch AI workflow layer and MCP server let external AI tools drive documented controls (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "Closed SaaS, but MCP keeps the control surface programmable (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2015 and rebranded with years of ad automation deployments (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "salesforce-marketing-cloud",
       "score_total": 42,
       "verdict": "Marketing Cloud Next is the enterprise decision made twice: once for the Agentforce automation and once for the decade of lock-in behind it. The published per-org pricing is unusually honest for this tier.",
@@ -1242,6 +1893,99 @@
       }
     },
     {
+      "slug": "smartly-io",
+      "score_total": 34,
+      "verdict": "Smartly.io spans creative production, buying and measurement in one enterprise contract. Its pricing page 404s on purpose; you are buying a relationship, and the platform is deep enough to justify one.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 1,
+          "evidence": "No published rates at all: the /pricing URL returns 404 and the only path is a demo request (verified 2026-09-28, tools.json)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Scene generation, AI Studio media creation and predictive budget allocation are production features (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2013 with a decade of enterprise creative operations (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "snowplow",
+      "score_total": 42,
+      "verdict": "Snowplow is behavioral data infrastructure you can own: the pipeline is Apache-2.0 and the cloud is a quote. If an event schema matters more than a dashboard, this is the right layer.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "The open-source pipeline is free to self-host and clearly stated; BDP Cloud is quoted by sales (verified Sep 2026, tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Event pipelines to six warehouse/lake formats plus real-time profiles with propensity and intent signals (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Snowflake, Databricks, BigQuery, Redshift, Delta Lake, Iceberg, Kafka, Kinesis and Pub/Sub documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Signals propensity predictions, intent detection and agentic context for AI agents make it model-ready plumbing (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2012 with a commercial cloud arm and long enterprise deployments (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "sprout-social",
+      "score_total": 37,
+      "verdict": "Sprout Social is the premium social suite: per-seat pricing at $249 and up buys polished engagement and listening. The 30-day trial is long enough to know if the polish matters to your team.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Standard $249/seat/mo, Professional $399/seat/mo published with a 30-day trial; Advanced is custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Publishing, engagement, listening and sentiment analytics cover enterprise social operations (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI reply assist, sentiment analysis and listening queries put the models where support volume is (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2010 and publicly listed with enterprise social deployments behind it (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "strapi",
       "score_total": 43,
       "verdict": "Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.",
@@ -1300,6 +2044,37 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "A SugarCRM fork with years of production deployments and a stable release cadence (tools.json deep_dive)."
+        }
+      }
+    },
+    {
+      "slug": "tealium",
+      "score_total": 32,
+      "verdict": "Tealium is the enterprise data layer: tag management and a CDP with governance built in. Annual contracts and custom pricing fit the regulated part of the market it was built for.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Enterprise custom pricing on annual contracts with no public tier table (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2008 with long regulated-industry deployments (tools.json)."
         }
       }
     },

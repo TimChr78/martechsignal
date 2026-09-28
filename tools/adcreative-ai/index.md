@@ -1,6 +1,16 @@
 # AdCreative.ai review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (tools.json ai_features). |
+| Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (tools.json). |
+| AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI ad creative generation | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit AdCreative.ai &#8594;](https://www.adcreative.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+AdCreative.ai sells conversion-scored generated creatives at self-serve prices. The scoring is the promise, so run it against your own winners before trusting the leaderboard.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -235,6 +249,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "AdCreative.ai sells conversion-scored generated creatives at self-serve prices. The scoring is the promise, so run it against your own winners before trusting the leaderboard.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/adcreative-ai/#app",
+      "name": "AdCreative.ai",
+      "url": "https://martechsignal.com/tools/adcreative-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

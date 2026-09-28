@@ -1,6 +1,16 @@
 # Intercom review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (tools.json ai_features). |
+| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (tools.json). |
+| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (tools.json). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: fin AI agent | &#10007; Closed source - no self-hosting option |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Intercom &#8594;](https://www.intercom.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Intercom&#x27;s Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -240,6 +254,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Intercom's Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/intercom/#app",
+      "name": "Intercom",
+      "url": "https://martechsignal.com/tools/intercom/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

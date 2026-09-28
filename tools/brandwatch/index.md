@@ -1,6 +1,16 @@
 # Brandwatch review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (tools.json ai_features). |
+| Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (tools.json). |
+| AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform (tools.json). |
+| Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI sentiment analysis | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Brandwatch &#8594;](https://www.brandwatch.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+Brandwatch is consumer intelligence first and social management second: the data breadth is the product. Enterprise pricing and modular packaging fit research teams better than content teams.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -224,6 +238,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Brandwatch is consumer intelligence first and social management second: the data breadth is the product. Enterprise pricing and modular packaging fit research teams better than content teams.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/brandwatch/#app",
+      "name": "Brandwatch",
+      "url": "https://martechsignal.com/tools/brandwatch/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

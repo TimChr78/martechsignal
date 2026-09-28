@@ -1,6 +1,16 @@
 # Madgicx review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (tools.json ai_features). |
+| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (tools.json). |
+| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (tools.json ai_features). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (tools.json). |
+| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Ads: end-to-end AI ad creative generation workflow | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Madgicx &#8594;](https://madgicx.com/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 30/60
+
+Madgicx is the Meta specialist: creative workflows and autonomous budget moves for one ad ecosystem. The spend calculator keeps pricing honest; the TikTok story is newer than the Meta one.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -239,6 +253,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Madgicx is the Meta specialist: creative workflows and autonomous budget moves for one ad ecosystem. The spend calculator keeps pricing honest; the TikTok story is newer than the Meta one.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/madgicx/#app",
+      "name": "Madgicx",
+      "url": "https://martechsignal.com/tools/madgicx/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 30,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

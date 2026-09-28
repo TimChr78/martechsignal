@@ -1,6 +1,16 @@
 # Pencil review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (tools.json ai_features). |
+| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (tools.json). |
+| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS; no API documented in the catalog (tools.json). |
+| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: multi-model aggregation: OpenAI, Google, Adobe, Runway, Bria (Claude listed as live) | &#10007; Closed source - no self-hosting option |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Pencil &#8594;](https://trypencil.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Pencil aggregates the generation models so you do not have to pick one, and predicts creative performance on top. At $14/mo entry it is the cheapest serious creative bench.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -278,6 +292,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Pencil aggregates the generation models so you do not have to pick one, and predicts creative performance on top. At $14/mo entry it is the cheapest serious creative bench.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/pencil/#app",
+      "name": "Pencil",
+      "url": "https://martechsignal.com/tools/pencil/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```
