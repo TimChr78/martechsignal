@@ -1,55 +1,5 @@
 # Marketing Automation Tools
 
-MAPjourneys before vendors
-
-**
-
-AUTOMATEthe work between channels
-
-**
-
-GATEwhat must never fire silently
-
-**
-
-PICKfit to your stack
-
-IF You are consolidating an enterprise stack and need one vendor to sign
-
-[Adobe Marketo Engage](/tools/adobe-marketo/) [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
-
-Enterprise orchestration with SSO, permissions and audit trails; Marketo owns B2B lead management, Marketing Cloud now ships Agentforce agents as the default
-
-IF You run lifecycle messaging at scale across push, SMS and email
-
-[Braze](/tools/braze/) [Laudspeaker](/tools/laudspeaker/)
-
-Braze handles real-time cross-channel at enterprise volume; Laudspeaker is the open-source alternative you self-host when per-message pricing or data residency kills it
-
-IF You are a mid-market team replacing a patchwork of point tools
-
-[ActiveCampaign](/tools/activecampaign/) [Ortto](/tools/ortto/) [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/)
-
-All-in-one email, journeys and CRM in one platform; ActiveCampaign brands itself autonomous, Ortto bundles the CDP, HubSpot puts Breeze agents in the workflows
-
-IF You sell into B2B with long cycles and lead scoring
-
-[Adobe Marketo Engage](/tools/adobe-marketo/) [Bloomreach](/tools/bloomreach/)
-
-Marketo remains the reference for nurture and scoring; Bloomreach fits when commerce behavior data should drive the same journeys
-
-IF You need content and AI-assisted production on a budget
-
-[ALwrity](/tools/alwrity/) [L Harness](/tools/line-harness/)
-
-Both open source: ALwrity covers strategy through publishing for the cost of the LLM calls, L Harness runs a LINE CRM your agents control via MCP
-
-IF You want the automation platform itself self-hosted and open source
-
-[Mautic](/tools/mautic/)
-
-The established open-source marketing automation platform: full campaign and journey tooling on your own server, no per-contact billing
-
 SUITE PLATFORMS***7*
 
 ActiveCampaign
@@ -126,6 +76,56 @@ Free, self-hostable Airtable alternative that turns any database into a smart sp
 
 Free tierDesk-reviewedOSS
 
+MAPjourneys before vendors
+
+**
+
+AUTOMATEthe work between channels
+
+**
+
+GATEwhat must never fire silently
+
+**
+
+PICKfit to your stack
+
+IF You are consolidating an enterprise stack and need one vendor to sign
+
+[Adobe Marketo Engage](/tools/adobe-marketo/) [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
+
+Enterprise orchestration with SSO, permissions and audit trails; Marketo owns B2B lead management, Marketing Cloud now ships Agentforce agents as the default
+
+IF You run lifecycle messaging at scale across push, SMS and email
+
+[Braze](/tools/braze/) [Laudspeaker](/tools/laudspeaker/)
+
+Braze handles real-time cross-channel at enterprise volume; Laudspeaker is the open-source alternative you self-host when per-message pricing or data residency kills it
+
+IF You are a mid-market team replacing a patchwork of point tools
+
+[ActiveCampaign](/tools/activecampaign/) [Ortto](/tools/ortto/) [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/)
+
+All-in-one email, journeys and CRM in one platform; ActiveCampaign brands itself autonomous, Ortto bundles the CDP, HubSpot puts Breeze agents in the workflows
+
+IF You sell into B2B with long cycles and lead scoring
+
+[Adobe Marketo Engage](/tools/adobe-marketo/) [Bloomreach](/tools/bloomreach/)
+
+Marketo remains the reference for nurture and scoring; Bloomreach fits when commerce behavior data should drive the same journeys
+
+IF You need content and AI-assisted production on a budget
+
+[ALwrity](/tools/alwrity/) [L Harness](/tools/line-harness/)
+
+Both open source: ALwrity covers strategy through publishing for the cost of the LLM calls, L Harness runs a LINE CRM your agents control via MCP
+
+IF You want the automation platform itself self-hosted and open source
+
+[Mautic](/tools/mautic/)
+
+The established open-source marketing automation platform: full campaign and journey tooling on your own server, no per-contact billing
+
 AI Agents Need Campaign State, Not Prompts
 
 Why agents need durable campaign state, not longer prompts, to run journeys safely
@@ -144,8 +144,6 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
-
 - [Home](/)
 - [Tools](/tools/)
 - Marketing Automation
@@ -155,7 +153,7 @@ Marketing automation platforms reviewed: workflow depth, guardrails, and AI auto
 
 12 TOOLS IN THIS CATEGORY
 
-Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.mautic.org) · [Laudspeaker](https://laudspeaker.com/?ref=github)
+**Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 Marketing automation platforms orchestrate campaigns across email, ads and your site from one rules engine: who gets what message, when, and what happens after they click. It is also the category where AI autonomy arrived first. ActiveCampaign now brands itself an autonomous marketing platform. HubSpot ships Breeze agents inside its workflows. Salesforce rebuilt Marketing Cloud around Agentforce. Other categories assist; this one acts, which is why the buyer&#x27;s question has changed from what can it do to what does it do when nobody is watching.
 
@@ -166,6 +164,8 @@ The directory splits three ways. Suite platforms cover the whole journey: Active
 Choosing a platform is step two. Step one is whether your stack can hand work to an agent at all. The [marketing automation checklist](/checklist/) scores that in 12 questions before you shortlist.
 
 ## Which one fits
+
+Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.mautic.org) · [Laudspeaker](https://laudspeaker.com/?ref=github)
 
 ## Reading before you buy
 

@@ -99,13 +99,13 @@ Open SourceDesk-reviewedOSS
 
 Campaign platforms, lifecycle automation, and transactional delivery APIs, from free self-hosted tools to contact-priced suites
 
+15 TOOLS IN THIS CATEGORY
+
 Email tools split into three layers, and buying the wrong one is the expensive mistake here. Campaign platforms like Mailchimp and Klaviyo build newsletters and automated flows. Lifecycle engines like Customer.io and Loops trigger messages off product events. Delivery APIs like Postmark, Resend, and Twilio SendGrid simply move the mail and price on volume. Feature-comparing all fifteen tools in this category compares things that do not compete with each other.
 
 The buyer&#x27;s failure mode is paying for a campaign builder when the real problem is inbox placement. Sending infrastructure decides whether your mail arrives, and vendors rarely advertise those choices up front. Contact-based pricing then punishes list growth: Mailchimp&#x27;s free plan covers 500 contacts and 1,000 emails a month, Klaviyo&#x27;s covers 250 contacts and 500 sends, and paid tiers scale with contact count. Postmark instead charges on volume with 100 free emails a month and paid plans from $15. Resend gives you 3,000 free sends a month and 50,000 for $20.
 
 The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warmbly run on your own servers with no license cost, and Warmbly adds cold-email warmup with a hosted plan from $29 a month. That tier&#x27;s price is operations: you own IP reputation, bounce handling, and list hygiene. On hosted, entry runs from Mailchimp Essentials at $13 a month up to Customer.io at $100 a month for 5,000 profiles. A newsletter sender and a transactional API fail differently, and the review notes in this directory grade each one on its own terms. Match the layer to your send pattern before you shortlist features.
-
-15 TOOLS IN THIS CATEGORY
 
 Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://resend.com) · [BillionMail](https://www.billionmail.com)
 

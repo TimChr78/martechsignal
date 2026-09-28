@@ -214,46 +214,6 @@
   <h1>Analytics & Attribution Tools</h1>
   <p class="sub">Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.</p>
   <p class="count">11 TOOLS IN THIS CATEGORY</p>
-  <p class="meta out-links">Vendors in this category: <a href="https://posthog.com" rel="noopener">PostHog</a> · <a href="https://umami.is" rel="noopener">Umami</a> · <a href="https://plausible.io" rel="noopener">Plausible Analytics</a></p>
-</section>
-
-<div class="flow-strip" aria-hidden="true"><div class="flow-step"><span class="flow-label">INSTRUMENT</span><span class="flow-sub">events before the vendor</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">MAP</span><span class="flow-sub">metrics to campaigns</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">PICK</span><span class="flow-sub">open source, freemium, enterprise</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ok"><span class="flow-label">WIRE</span><span class="flow-sub">into reporting someone owns</span></div></div>
-
-<section class="hub-lead"><p>Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.</p><p>The category matters because the two failure modes it fixes show up everywhere. The first is attribution fiction: multi-touch models distribute credit by formula, and the answer changes with every touchpoint you add. We argued in a recent post that signal loss didn&#x27;t break measurement, it exposed what multi-touch attribution never measured in the first place. The second is budget bleeding: teams pay for tooling nobody audits while the reporting stack goes dark, because AI search keeps breaking the click paths those dashboards assume. Measurement that admits its own error bars is worth more than measurement that promises certainty. Most vendors in this space promise certainty.</p><p>This directory covers 11 tools across three tiers. The open-source end runs wide: Snowplow is an event pipeline you self-host into your own warehouse, Matomo, Plausible and Umami are web analytics you host yourself, and PostHog bundles product analytics, flags and session replay behind an MIT core. Amplitude, Mixpanel and Heap are the freemium product analytics tier, free enough to start before procurement notices. Attribution, Northbeam and Triple Whale sit at the attribution end, connecting ad spend to revenue through multi-touch models and marketing mix modeling. Our reviews test how each handles consent, sampling and its own error bars, because a tool that hides its weaknesses is the wrong tool regardless of tier.</p></section>
-
-<section class="hub-chooser reveal">
-  <h2>Which one fits</h2>
-  <div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You run an enterprise product org and need funnels, retention and experiments</div>
-  <div class="chooser-then"><a class="pick" href="/tools/amplitude/">Amplitude</a> <a class="pick" href="/tools/mixpanel/">Mixpanel</a></div>
-  <div class="chooser-why">Amplitude has ranked #1 in product analytics on G2 for 23 straight quarters; Mixpanel&#x27;s event model covers the same jobs and stays independent</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You want behavior data without planning your event taxonomy up front</div>
-  <div class="chooser-then"><a class="pick" href="/tools/heap/">Heap</a></div>
-  <div class="chooser-why">Auto-captures every click, form fill and swipe from install, so metrics get defined after the traffic shows up</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> The question is which ad spend actually drives revenue</div>
-  <div class="chooser-then"><a class="pick" href="/tools/attribution/">Attribution</a> <a class="pick" href="/tools/northbeam/">Northbeam</a></div>
-  <div class="chooser-why">Both pair multi-touch attribution with marketing mix modeling; Attribution adds incrementality testing, Northbeam focuses on DTC brands</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You sell on Shopify and want one number from ad spend to profit</div>
-  <div class="chooser-then"><a class="pick" href="/tools/triple-whale/">Triple Whale</a></div>
-  <div class="chooser-why">Bundles MTA, MMM, BI dashboards and a managed warehouse into one platform for ecommerce operators</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You&#x27;re budget-constrained or your data team wants ownership</div>
-  <div class="chooser-then"><a class="pick" href="/tools/snowplow/">Snowplow</a> <a class="pick" href="/tools/posthog/">PostHog</a></div>
-  <div class="chooser-why">Snowplow is the open-source event pipeline you self-host into your own warehouse; PostHog&#x27;s MIT core covers product analytics, flags and replay with a full free tier every month</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You want classic web analytics on your own server, with no per-seat billing</div>
-  <div class="chooser-then"><a class="pick" href="/tools/matomo/">Matomo</a> <a class="pick" href="/tools/plausible/">Plausible Analytics</a> <a class="pick" href="/tools/umami/">Umami</a></div>
-  <div class="chooser-why">All three self-host: Matomo is the fullest-featured with tag management and heatmaps, Plausible is the lightweight privacy-first pick, Umami is the simplest drop-in</div>
-</div>
-
 </section>
 
 <div class="hub-group">
@@ -324,6 +284,46 @@
 </div>
 </div>
 
+
+<div class="flow-strip" aria-hidden="true"><div class="flow-step"><span class="flow-label">INSTRUMENT</span><span class="flow-sub">events before the vendor</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">MAP</span><span class="flow-sub">metrics to campaigns</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">PICK</span><span class="flow-sub">open source, freemium, enterprise</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ok"><span class="flow-label">WIRE</span><span class="flow-sub">into reporting someone owns</span></div></div>
+
+<section class="hub-lead"><p>Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.</p><p>The category matters because the two failure modes it fixes show up everywhere. The first is attribution fiction: multi-touch models distribute credit by formula, and the answer changes with every touchpoint you add. We argued in a recent post that signal loss didn&#x27;t break measurement, it exposed what multi-touch attribution never measured in the first place. The second is budget bleeding: teams pay for tooling nobody audits while the reporting stack goes dark, because AI search keeps breaking the click paths those dashboards assume. Measurement that admits its own error bars is worth more than measurement that promises certainty. Most vendors in this space promise certainty.</p><p>This directory covers 11 tools across three tiers. The open-source end runs wide: Snowplow is an event pipeline you self-host into your own warehouse, Matomo, Plausible and Umami are web analytics you host yourself, and PostHog bundles product analytics, flags and session replay behind an MIT core. Amplitude, Mixpanel and Heap are the freemium product analytics tier, free enough to start before procurement notices. Attribution, Northbeam and Triple Whale sit at the attribution end, connecting ad spend to revenue through multi-touch models and marketing mix modeling. Our reviews test how each handles consent, sampling and its own error bars, because a tool that hides its weaknesses is the wrong tool regardless of tier.</p></section>
+
+<section class="hub-chooser reveal">
+  <h2>Which one fits</h2>
+  <div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You run an enterprise product org and need funnels, retention and experiments</div>
+  <div class="chooser-then"><a class="pick" href="/tools/amplitude/">Amplitude</a> <a class="pick" href="/tools/mixpanel/">Mixpanel</a></div>
+  <div class="chooser-why">Amplitude has ranked #1 in product analytics on G2 for 23 straight quarters; Mixpanel&#x27;s event model covers the same jobs and stays independent</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You want behavior data without planning your event taxonomy up front</div>
+  <div class="chooser-then"><a class="pick" href="/tools/heap/">Heap</a></div>
+  <div class="chooser-why">Auto-captures every click, form fill and swipe from install, so metrics get defined after the traffic shows up</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> The question is which ad spend actually drives revenue</div>
+  <div class="chooser-then"><a class="pick" href="/tools/attribution/">Attribution</a> <a class="pick" href="/tools/northbeam/">Northbeam</a></div>
+  <div class="chooser-why">Both pair multi-touch attribution with marketing mix modeling; Attribution adds incrementality testing, Northbeam focuses on DTC brands</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You sell on Shopify and want one number from ad spend to profit</div>
+  <div class="chooser-then"><a class="pick" href="/tools/triple-whale/">Triple Whale</a></div>
+  <div class="chooser-why">Bundles MTA, MMM, BI dashboards and a managed warehouse into one platform for ecommerce operators</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You&#x27;re budget-constrained or your data team wants ownership</div>
+  <div class="chooser-then"><a class="pick" href="/tools/snowplow/">Snowplow</a> <a class="pick" href="/tools/posthog/">PostHog</a></div>
+  <div class="chooser-why">Snowplow is the open-source event pipeline you self-host into your own warehouse; PostHog&#x27;s MIT core covers product analytics, flags and replay with a full free tier every month</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You want classic web analytics on your own server, with no per-seat billing</div>
+  <div class="chooser-then"><a class="pick" href="/tools/matomo/">Matomo</a> <a class="pick" href="/tools/plausible/">Plausible Analytics</a> <a class="pick" href="/tools/umami/">Umami</a></div>
+  <div class="chooser-why">All three self-host: Matomo is the fullest-featured with tag management and heatmaps, Plausible is the lightweight privacy-first pick, Umami is the simplest drop-in</div>
+</div>
+
+</section>
+<p class="meta out-links">Vendors in this category: <a href="https://posthog.com" rel="noopener">PostHog</a> · <a href="https://umami.is" rel="noopener">Umami</a> · <a href="https://plausible.io" rel="noopener">Plausible Analytics</a></p>
 
 <section class="hub-reading reveal">
   <h2>Reading before you buy</h2>

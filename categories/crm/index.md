@@ -1,55 +1,5 @@
 # CRM Tools
 
-MAPrecords before vendors
-
-**
-
-AUTOMATEscoring, drafts, follow-ups
-
-**
-
-PICKhosted, freemium, self-hosted
-
-**
-
-AUDITwhat the AI changed
-
-IF You are an enterprise that wants one vendor for sales, service and marketing
-
-[Salesforce CRM](/tools/salesforce-crm/) [HubSpot CRM](/tools/hubspot-crm/)
-
-Salesforce runs the deepest customization and now ships Agentforce inside Enterprise contracts; HubSpot gives you a real free CRM and sells the upgrades as hubs
-
-IF You run a sales team that lives in the pipeline view and want to start cheap
-
-[Pipedrive](/tools/pipedrive/) [Freshsales](/tools/freshsales/)
-
-Pipedrive is deal-first with per-seat pricing from $14; Freshsales bundles phone, email and chat and adds Freddy AI scoring from the $39 Pro tier
-
-IF You want the CRM designed around AI agents instead of bolted-on assistants
-
-[Attio](/tools/attio/) [Twenty](/tools/twenty/) [Relaticle](/tools/relaticle/)
-
-Attio enriches records in real time and drafts outreach as a hosted product; Twenty puts AI agents inside workflows and advertises a native MCP server on cloud workspaces; Relaticle exposes 37 MCP tools from a self-hosted Laravel app
-
-IF You want to self-host and stop paying per seat
-
-[Frappe CRM](/tools/frappe-crm/) [EspoCRM](/tools/espocrm/) [Warpdrive](/tools/warpdrive/)
-
-Frappe CRM is AGPL with hosting from $5 a month if you outgrow your own box; EspoCRM adds workflows and BPM behind paid add-on packs; Warpdrive is the MIT Pipedrive alternative with Gmail sync and no seat billing
-
-IF You need ERP, invoicing and CRM in one system
-
-[Dolibarr ERP/CRM](/tools/dolibarr/) [Ever Gauzy](/tools/ever-gauzy/) [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
-
-Dolibarr is the modular PHP classic with stock and invoicing; Ever Gauzy adds HRM and time tracking; IDURAR bundles accounting and invoicing on Node and React
-
-IF You sell through WhatsApp or scrape leads to feed the pipeline
-
-[WaCRM](/tools/wacrm/) [DeskcommCRM](/tools/deskcommcrm/) [ProspectOS](/tools/prospectos/)
-
-WaCRM is a MIT WhatsApp CRM with shared inbox, broadcasts and a bring-your-own-key reply assistant; DeskcommCRM adds selling agents with pre-send guardrails and spend caps; ProspectOS pulls leads from Google Maps and Instagram
-
 HOSTED SAAS CRMs***5*
 
 Attio
@@ -202,6 +152,56 @@ Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite arou
 
 FreemiumDesk-reviewed
 
+MAPrecords before vendors
+
+**
+
+AUTOMATEscoring, drafts, follow-ups
+
+**
+
+PICKhosted, freemium, self-hosted
+
+**
+
+AUDITwhat the AI changed
+
+IF You are an enterprise that wants one vendor for sales, service and marketing
+
+[Salesforce CRM](/tools/salesforce-crm/) [HubSpot CRM](/tools/hubspot-crm/)
+
+Salesforce runs the deepest customization and now ships Agentforce inside Enterprise contracts; HubSpot gives you a real free CRM and sells the upgrades as hubs
+
+IF You run a sales team that lives in the pipeline view and want to start cheap
+
+[Pipedrive](/tools/pipedrive/) [Freshsales](/tools/freshsales/)
+
+Pipedrive is deal-first with per-seat pricing from $14; Freshsales bundles phone, email and chat and adds Freddy AI scoring from the $39 Pro tier
+
+IF You want the CRM designed around AI agents instead of bolted-on assistants
+
+[Attio](/tools/attio/) [Twenty](/tools/twenty/) [Relaticle](/tools/relaticle/)
+
+Attio enriches records in real time and drafts outreach as a hosted product; Twenty puts AI agents inside workflows and advertises a native MCP server on cloud workspaces; Relaticle exposes 37 MCP tools from a self-hosted Laravel app
+
+IF You want to self-host and stop paying per seat
+
+[Frappe CRM](/tools/frappe-crm/) [EspoCRM](/tools/espocrm/) [Warpdrive](/tools/warpdrive/)
+
+Frappe CRM is AGPL with hosting from $5 a month if you outgrow your own box; EspoCRM adds workflows and BPM behind paid add-on packs; Warpdrive is the MIT Pipedrive alternative with Gmail sync and no seat billing
+
+IF You need ERP, invoicing and CRM in one system
+
+[Dolibarr ERP/CRM](/tools/dolibarr/) [Ever Gauzy](/tools/ever-gauzy/) [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
+
+Dolibarr is the modular PHP classic with stock and invoicing; Ever Gauzy adds HRM and time tracking; IDURAR bundles accounting and invoicing on Node and React
+
+IF You sell through WhatsApp or scrape leads to feed the pipeline
+
+[WaCRM](/tools/wacrm/) [DeskcommCRM](/tools/deskcommcrm/) [ProspectOS](/tools/prospectos/)
+
+WaCRM is a MIT WhatsApp CRM with shared inbox, broadcasts and a bring-your-own-key reply assistant; DeskcommCRM adds selling agents with pre-send guardrails and spend caps; ProspectOS pulls leads from Google Maps and Instagram
+
 Agentforce Is Free: What Marketing Ops Can Build
 
 What the free Agentforce credits in Salesforce Foundations actually let marketing ops ship
@@ -216,8 +216,6 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Compare:** [Best open-source CRM](/best/open-source-crm/) &middot; [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
-
 - [Home](/)
 - [Tools](/tools/)
 - CRM
@@ -227,7 +225,7 @@ CRM systems across the hosted and self-hosted range: per-seat economics, data hy
 
 24 TOOLS IN THIS CATEGORY
 
-Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monicahq.com) · [Krayin CRM](https://krayincrm.com)
+**Compare:** [Best open-source CRM](/best/open-source-crm/) &middot; [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
 A CRM is the system of record for who your customers are, what they bought, and what your team promised them. Every other tool in the stack reads from it or writes to it. What changed in the last year is that these systems stopped being passive. Salesforce now bundles Agentforce into existing Enterprise contracts at no extra cost. Attio enriches records and drafts outreach on its own. Freshsales scores deals with Freddy AI from the Pro tier. Pipedrive predicts which deals close. The record layer is where AI agents actually work, because it is the only place with the context they need.
 
@@ -236,6 +234,8 @@ The failure mode is the one this category has always had, now with higher stakes
 The directory covers 23 tools in four clusters. The hosted suites run the pipeline for you: Salesforce, HubSpot, Pipedrive, Freshsales and Attio, priced per seat from free tiers up to enterprise contracts. The self-hosted majority is where this category is unusual: eleven systems, from EspoCRM and SuiteCRM to Warpdrive and Monica, that you run on your own server with no seat billing. Then come the agent-ready CRMs (Twenty, Relaticle, Macro, Cordys) built around MCP servers, and the outbound three (ProspectOS, WaCRM, DeskcommCRM) that scrape leads or sell through WhatsApp. Our reviews weight data ownership, per-seat economics, and whether the AI features survive contact with real pipeline data.
 
 ## Which one fits
+
+Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monicahq.com) · [Krayin CRM](https://krayincrm.com)
 
 ## Reading before you buy
 

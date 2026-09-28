@@ -1,55 +1,5 @@
 # Advertising &amp; Paid Media Tools
 
-AUDITbudget before agents
-
-**
-
-GENERATEcreative at variant volume
-
-**
-
-AUTOMATErules or full autonomy
-
-**
-
-GATEwho approves the spend
-
-IF Your designer queue is the bottleneck and you need ad variants at volume
-
-[AdCreative.ai](/tools/adcreative-ai/) [Pencil](/tools/pencil/)
-
-Both generate scored ad creative from brand assets; AdCreative.ai starts at $39 per month with performance prediction per variant, Pencil adds enterprise governance and self-serve tiers from $14
-
-IF You want the platform to run campaigns without a daily operator
-
-[Albert AI](/tools/albert-ai/) [Smartly.io](/tools/smartly-io/)
-
-Albert executes optimizations autonomously across search, social, display and video at $50K+ monthly spend; Smartly consolidates creative, media buying and measurement across ten platforms, both quote-only on price
-
-IF You run serious Meta spend for ecommerce and want one operating layer
-
-[Madgicx](/tools/madgicx/)
-
-Bundles autonomous budget allocation, AI audiences, creative generation and attribution for Meta only, priced from $49 per month and scaling with ad spend
-
-IF You want automation that only ever does what you wrote
-
-[Revealbot (Birch)](/tools/revealbot/) [Opteo](/tools/opteo/)
-
-Revealbot runs your rules across Meta, Google, TikTok and Snapchat from $49 per month; Opteo turns Google Ads findings into one-click improvements a human approves, from $129
-
-IF You want ad serving on infrastructure you control, with no per-impression cost
-
-[Revive Adserver](/tools/revive-adserver/)
-
-The established open-source ad server, free to self-host with frequency capping, geotargeting and revenue reporting; a hosted edition is sold separately at revive-adserver.net
-
-IF You work in notebooks and want keyword and ad text analysis without SaaS
-
-[advertools](/tools/advertools/)
-
-MIT-licensed Python package by Elias Dabbas: keyword generation, ad copy splitting and SERP imports landing straight in pandas DataFrames
-
 CREATIVE GENERATION***2*
 
 AdCreative.ai
@@ -110,6 +60,56 @@ Free open source ad server for publishers, ad networks and advertisers
 
 Open SourceDesk-reviewedOSS
 
+AUDITbudget before agents
+
+**
+
+GENERATEcreative at variant volume
+
+**
+
+AUTOMATErules or full autonomy
+
+**
+
+GATEwho approves the spend
+
+IF Your designer queue is the bottleneck and you need ad variants at volume
+
+[AdCreative.ai](/tools/adcreative-ai/) [Pencil](/tools/pencil/)
+
+Both generate scored ad creative from brand assets; AdCreative.ai starts at $39 per month with performance prediction per variant, Pencil adds enterprise governance and self-serve tiers from $14
+
+IF You want the platform to run campaigns without a daily operator
+
+[Albert AI](/tools/albert-ai/) [Smartly.io](/tools/smartly-io/)
+
+Albert executes optimizations autonomously across search, social, display and video at $50K+ monthly spend; Smartly consolidates creative, media buying and measurement across ten platforms, both quote-only on price
+
+IF You run serious Meta spend for ecommerce and want one operating layer
+
+[Madgicx](/tools/madgicx/)
+
+Bundles autonomous budget allocation, AI audiences, creative generation and attribution for Meta only, priced from $49 per month and scaling with ad spend
+
+IF You want automation that only ever does what you wrote
+
+[Revealbot (Birch)](/tools/revealbot/) [Opteo](/tools/opteo/)
+
+Revealbot runs your rules across Meta, Google, TikTok and Snapchat from $49 per month; Opteo turns Google Ads findings into one-click improvements a human approves, from $129
+
+IF You want ad serving on infrastructure you control, with no per-impression cost
+
+[Revive Adserver](/tools/revive-adserver/)
+
+The established open-source ad server, free to self-host with frequency capping, geotargeting and revenue reporting; a hosted edition is sold separately at revive-adserver.net
+
+IF You work in notebooks and want keyword and ad text analysis without SaaS
+
+[advertools](/tools/advertools/)
+
+MIT-licensed Python package by Elias Dabbas: keyword generation, ad copy splitting and SERP imports landing straight in pandas DataFrames
+
 Google Handed Your Ad Budget to AI Agents
 
 What Google&#x27;s agentic rollout hands over, and the control gap it leaves in your account
@@ -128,8 +128,6 @@ Microsoft&#x27;s AI campaign automation takes the operator out of search buying
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Guide:** [Agentic advertising](/guides/agentic-ai-advertising/) &middot; [Best AI advertising tools](/best/ai-advertising-tools/)
-
 - [Home](/)
 - [Tools](/tools/)
 - Advertising &amp; Paid Media
@@ -139,7 +137,7 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 9 TOOLS IN THIS CATEGORY
 
-Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · [advertools](https://advertools.readthedocs.io) · [AdCreative.ai](https://www.adcreative.ai)
+**Guide:** [Agentic advertising](/guides/agentic-ai-advertising/) &middot; [Best AI advertising tools](/best/ai-advertising-tools/)
 
 Paid media tooling used to be three separate jobs: make the creative, place the buy, read the report. The ad platforms are collapsing that into agents. Google handed budget decisions to AI inside Google Ads, Microsoft rolled out AI campaign automation for search, and OpenAI is building the agents that will do the buying. The tools here moved the same direction at different speeds. Smartly.io puts creative production, media buying, and measurement in one contract. Pencil routes generation across models from OpenAI, Google, Adobe, and Runway behind a no-train policy and IP indemnification. Madgicx redistributes budget across Meta ad sets in real time without asking.
 
@@ -148,6 +146,8 @@ The failure mode this category keeps producing is an agent spending money nobody
 The 9 tools split three ways. Creative generation: AdCreative.ai turns brand assets into scored ad variations, Pencil generates text, image, and video under enterprise controls. Optimization and automation: Albert AI runs campaigns autonomously at enterprise spend, Madgicx is the Meta-only operating layer, Smartly.io consolidates creative, buying, and measurement, while Revealbot (Birch) and Opteo stay non-autonomous by design. Open-source ad tooling: Revive Adserver is the self-hosted ad server (hosted edition at revive-adserver.net), advertools the MIT-licensed Python toolkit for keyword and ad text analysis. Our reviews weight the control surface first: who approves spend, what the audit trail records, how fast you can stop it.
 
 ## Which one fits
+
+Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · [advertools](https://advertools.readthedocs.io) · [AdCreative.ai](https://www.adcreative.ai)
 
 ## Reading before you buy
 

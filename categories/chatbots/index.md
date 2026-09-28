@@ -45,13 +45,13 @@ FreemiumDesk-reviewed
 
 Conversational AI for marketing and support, from social DM automation to per-resolution AI agents
 
+6 TOOLS IN THIS CATEGORY
+
 Chatbots split along one line: are you selling in the DMs or answering after the sale? ManyChat and Chatfuel automate marketing conversations on Instagram, WhatsApp, and Messenger. ChatbotX is the open-source ManyChat alternative you can self-host. On the support side, Tidio pairs live chat with bot builders, and Chatwoot ships an open-source engagement suite with its Captain AI assistant, copilot, and automatic customer notes. Intercom sells Fin as the front line of support.
 
 The failure mode is a confident wrong answer. Rule-based bots deflect FAQs reliably; an LLM agent drafts its own replies, so escalation and handoff decide whether it helps or costs you a customer. Pricing follows the same split. Intercom runs $29 to $139 per seat a month and bills Fin at $0.99 per resolution, so bot volume moves your bill regardless of headcount. ManyChat starts free with Essential at $14 a month; Chatfuel starts at $39 with its AI PRO tier at $69; Tidio&#x27;s free plan covers 50 conversations and paid starts around $24.
 
 Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live chat with bots (Tidio), and AI-first support suites (Intercom, Chatwoot). Pick by channel first and by pricing model second. Before you sign, test what happens when the bot meets a question its training did not cover, and how fast a human takes over. Chatwoot&#x27;s Community Edition self-hosts free and its cloud starts at $19 a month for the Startups plan, which makes it the cheapest way to run that test at real volume.
-
-6 TOOLS IN THIS CATEGORY
 
 Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](https://chatbotx.io/docs) · [Chatfuel](https://chatfuel.com)
 

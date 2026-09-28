@@ -1,55 +1,5 @@
 # GEO &amp; LLM Optimization Tools
 
-PROMPT SETquestions buyers ask
-
-**
-
-TRACKmentions + citations
-
-**
-
-DIAGNOSEwhy them, not you
-
-**
-
-FIXcontent + sources
-
-IF You want AI-visibility tracking at a price a single marketer can pay
-
-[OtterlyAI](/tools/otterlyai/) [Rankscale](/tools/rankscale/)
-
-OtterlyAI starts at EUR 29/mo with a public API; Rankscale meters by credit so spend tracks usage
-
-IF You want AI answers next to your rank data
-
-[AccuRanker](/tools/accuranker/) [Nightwatch](/tools/nightwatch/) [SISTRIX](/tools/sistrix/) [Ahrefs](/tools/ahrefs/)
-
-AccuLLM sits beside daily rank tracking; SISTRIX adds its Visibility Index; Ahrefs reads brand mentions out of a 450M-prompt index
-
-IF You run many brands and need per-brand pricing
-
-[Trakkr](/tools/trakkr/)
-
-Growth covers one brand at USD 100/mo, Scale packs ten for USD 500/mo
-
-IF You want the fixes written, not just the gaps measured
-
-[Evertune](/tools/evertune/) [Writesonic](/tools/writesonic/) [Nimt.ai](/tools/nimt-ai/)
-
-Evertune ships 25 AI-optimized articles a month, Writesonic pairs GEO tracking with its AI writer, Nimt&#x27;s agent rewrites the sources
-
-IF You are enterprise and want it handled
-
-[Profound](/tools/profound/) [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
-
-Quote-based with onboarding; Adobe routes through Experience Cloud
-
-IF You would rather build the prompt tracking yourself
-
-[Promptfoo](/tools/promptfoo/)
-
-The open-source eval toolkit runs prompt sets across ChatGPT, Perplexity and other models; no dashboard, but full control and zero subscription
-
 GEO-NATIVE PLATFORMS***8*
 
 Profound
@@ -140,6 +90,56 @@ Open source LLM eval toolkit for prompt testing, brand-answer tracking and red t
 
 FreemiumDesk-reviewedOSS
 
+PROMPT SETquestions buyers ask
+
+**
+
+TRACKmentions + citations
+
+**
+
+DIAGNOSEwhy them, not you
+
+**
+
+FIXcontent + sources
+
+IF You want AI-visibility tracking at a price a single marketer can pay
+
+[OtterlyAI](/tools/otterlyai/) [Rankscale](/tools/rankscale/)
+
+OtterlyAI starts at EUR 29/mo with a public API; Rankscale meters by credit so spend tracks usage
+
+IF You want AI answers next to your rank data
+
+[AccuRanker](/tools/accuranker/) [Nightwatch](/tools/nightwatch/) [SISTRIX](/tools/sistrix/) [Ahrefs](/tools/ahrefs/)
+
+AccuLLM sits beside daily rank tracking; SISTRIX adds its Visibility Index; Ahrefs reads brand mentions out of a 450M-prompt index
+
+IF You run many brands and need per-brand pricing
+
+[Trakkr](/tools/trakkr/)
+
+Growth covers one brand at USD 100/mo, Scale packs ten for USD 500/mo
+
+IF You want the fixes written, not just the gaps measured
+
+[Evertune](/tools/evertune/) [Writesonic](/tools/writesonic/) [Nimt.ai](/tools/nimt-ai/)
+
+Evertune ships 25 AI-optimized articles a month, Writesonic pairs GEO tracking with its AI writer, Nimt&#x27;s agent rewrites the sources
+
+IF You are enterprise and want it handled
+
+[Profound](/tools/profound/) [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
+
+Quote-based with onboarding; Adobe routes through Experience Cloud
+
+IF You would rather build the prompt tracking yourself
+
+[Promptfoo](/tools/promptfoo/)
+
+The open-source eval toolkit runs prompt sets across ChatGPT, Perplexity and other models; no dashboard, but full control and zero subscription
+
 Your Dashboard Can&#x27;t See AI Search | Here&#x27;s the 5-Layer Fix
 
 The AI-visibility measurement gap, documented with our own GSC numbers: 1,427 impressions, zero clicks
@@ -154,8 +154,6 @@ How two decades of SEO work became raw material for the answer engines
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
-
 - [Home](/)
 - [Tools](/tools/)
 - GEO &amp; LLM Optimization
@@ -165,7 +163,7 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 14 TOOLS IN THIS CATEGORY
 
-Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](https://www.accuranker.com) · [Adobe LLM Optimizer](https://business.adobe.com/products/brand-visibility.html)
+**Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
 
 For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.
 
@@ -174,6 +172,8 @@ Two kinds sit in this category. Specialists like Profound, Scrunch, OtterlyAI, R
 Buying advice: demand prompt-level data, not a vanity score. A share-of-voice number that cannot show which question produced it is decoration. Check how many engines are covered, how often prompts re-run (some plans track weekly, too slow for a news cycle), whether you get the cited sources or just the mention count, and whether the fix step is real work or a to-do list. The category is young and churny, so favor monthly billing until a tool earns the annual discount.
 
 ## Which one fits
+
+Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](https://www.accuranker.com) · [Adobe LLM Optimizer](https://business.adobe.com/products/brand-visibility.html)
 
 ## Reading before you buy
 

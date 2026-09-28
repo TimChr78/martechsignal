@@ -281,51 +281,11 @@
   </div>
 </header>
 <main class="wrap">
-<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a></p><nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">Workflow Automation</span></li></ol></nav>
+<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">Workflow Automation</span></li></ol></nav>
 <section class="page-head hub-head">
   <h1>Workflow Automation Tools</h1>
   <p class="sub">Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.</p>
   <p class="count">17 TOOLS IN THIS CATEGORY</p>
-  <p class="meta out-links">Vendors in this category: <a href="https://n8n.io" rel="noopener">n8n</a> · <a href="https://www.langchain.com" rel="noopener">LangChain</a> · <a href="https://paperclip.ing" rel="noopener">Paperclip</a></p>
-</section>
-
-<div class="flow-strip" aria-hidden="true"><div class="flow-step"><span class="flow-label">TRIGGER</span><span class="flow-sub">new deal in CRM</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">FILTER</span><span class="flow-sub">value &gt; $500</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ai"><span class="flow-label">AI AGENT</span><span class="flow-sub">draft the follow-up</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ok"><span class="flow-label">ACTION</span><span class="flow-sub">send + log result</span></div></div>
-
-<section class="hub-lead"><p>Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.</p><p>The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.</p><p>If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.</p></section>
-
-<section class="hub-chooser reveal">
-  <h2>Which one fits</h2>
-  <div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> First automation, needs to be live before lunch</div>
-  <div class="chooser-then"><a class="pick" href="/tools/zapier/">Zapier</a> <a class="pick" href="/tools/make/">Make</a></div>
-  <div class="chooser-why">Largest catalogs, fastest path to a live run</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> Self-hosted, you own the data and the engine</div>
-  <div class="chooser-then"><a class="pick" href="/tools/n8n/">n8n</a></div>
-  <div class="chooser-why">Runs on your own box, 400+ nodes, no per-task billing</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> Building AI agents, not just moving data</div>
-  <div class="chooser-then"><a class="pick" href="/tools/n8n/">n8n</a> <a class="pick" href="/tools/langchain/">LangChain</a></div>
-  <div class="chooser-why">Real agent primitives and tool calling, not bolt-ons</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> Running a fleet of agents with budgets and approvals</div>
-  <div class="chooser-then"><a class="pick" href="/tools/paperclip/">Paperclip</a></div>
-  <div class="chooser-why">A control plane that hires, schedules, caps spend, and audits agents</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> Procurement needs SOC 2 and a signature line</div>
-  <div class="chooser-then"><a class="pick" href="/tools/workato/">Workato</a> <a class="pick" href="/tools/tray-io/">Tray.io</a></div>
-  <div class="chooser-why">Governance, SSO, and a contract legal will actually sign</div>
-</div>
-<div class="chooser-row">
-  <div class="chooser-if"><span class="chooser-k">IF</span> You would rather build the internal tools than buy them</div>
-  <div class="chooser-then"><a class="pick" href="/tools/appsmith/">Appsmith</a> <a class="pick" href="/tools/budibase/">Budibase</a> <a class="pick" href="/tools/nocobase/">NocoBase</a></div>
-  <div class="chooser-why">Open-source builders that turn your existing database into admin panels and automations; Budibase and NocoBase add no-code business apps and AI agents</div>
-</div>
-
 </section>
 
 <div class="hub-group">
@@ -426,6 +386,46 @@
   <div class="meta"><span class="tag pricing">From $16/mo</span><span class="tag desk">Desk-reviewed</span></div>
 </a>
 </div></div>
+<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a></p>
+<div class="flow-strip" aria-hidden="true"><div class="flow-step"><span class="flow-label">TRIGGER</span><span class="flow-sub">new deal in CRM</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step"><span class="flow-label">FILTER</span><span class="flow-sub">value &gt; $500</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ai"><span class="flow-label">AI AGENT</span><span class="flow-sub">draft the follow-up</span></div><div class="flow-wire"><i class="flow-pulse"></i></div><div class="flow-step ok"><span class="flow-label">ACTION</span><span class="flow-sub">send + log result</span></div></div>
+
+<section class="hub-lead"><p>Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.</p><p>The category splits two ways. Zapier and Make get you to a live run before lunch, but you rent the engine. n8n and LangChain hand you primitives and trust you to know what to do with them. Workato and Tray.io sit in the enterprise tier and wrap both ideas in governance and a bigger invoice. Appsmith, Budibase, Tooljet and NocoBase take a different bet again: they turn your own database into admin panels and internal automations, so the workflow layer stays inside tools you build yourself.</p><p>If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.</p></section>
+
+<section class="hub-chooser reveal">
+  <h2>Which one fits</h2>
+  <div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> First automation, needs to be live before lunch</div>
+  <div class="chooser-then"><a class="pick" href="/tools/zapier/">Zapier</a> <a class="pick" href="/tools/make/">Make</a></div>
+  <div class="chooser-why">Largest catalogs, fastest path to a live run</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> Self-hosted, you own the data and the engine</div>
+  <div class="chooser-then"><a class="pick" href="/tools/n8n/">n8n</a></div>
+  <div class="chooser-why">Runs on your own box, 400+ nodes, no per-task billing</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> Building AI agents, not just moving data</div>
+  <div class="chooser-then"><a class="pick" href="/tools/n8n/">n8n</a> <a class="pick" href="/tools/langchain/">LangChain</a></div>
+  <div class="chooser-why">Real agent primitives and tool calling, not bolt-ons</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> Running a fleet of agents with budgets and approvals</div>
+  <div class="chooser-then"><a class="pick" href="/tools/paperclip/">Paperclip</a></div>
+  <div class="chooser-why">A control plane that hires, schedules, caps spend, and audits agents</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> Procurement needs SOC 2 and a signature line</div>
+  <div class="chooser-then"><a class="pick" href="/tools/workato/">Workato</a> <a class="pick" href="/tools/tray-io/">Tray.io</a></div>
+  <div class="chooser-why">Governance, SSO, and a contract legal will actually sign</div>
+</div>
+<div class="chooser-row">
+  <div class="chooser-if"><span class="chooser-k">IF</span> You would rather build the internal tools than buy them</div>
+  <div class="chooser-then"><a class="pick" href="/tools/appsmith/">Appsmith</a> <a class="pick" href="/tools/budibase/">Budibase</a> <a class="pick" href="/tools/nocobase/">NocoBase</a></div>
+  <div class="chooser-why">Open-source builders that turn your existing database into admin panels and automations; Budibase and NocoBase add no-code business apps and AI agents</div>
+</div>
+
+</section>
+<p class="meta out-links">Vendors in this category: <a href="https://n8n.io" rel="noopener">n8n</a> · <a href="https://www.langchain.com" rel="noopener">LangChain</a> · <a href="https://paperclip.ing" rel="noopener">Paperclip</a></p>
 
 <section class="hub-reading reveal">
   <h2>Reading before you buy</h2>

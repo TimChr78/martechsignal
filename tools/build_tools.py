@@ -1763,6 +1763,7 @@ def build_category_page(cat, tools):
     # with the biggest catalogued followings, straight from verified fields.
     _vend = [t for t in cat_tools if t.get("website")]
     _vend.sort(key=lambda x: (-(int(x.get("github_stars") or 0)), x["name"].lower()))
+    _cat_guide = _CAT_GUIDE.get(cat["slug"], "")
     _vendor_line = ""
     if _vend[:3]:
         _vendor_line = ('<p class="meta out-links">Vendors in this category: '
@@ -1798,10 +1799,12 @@ def build_category_page(cat, tools):
 <section class="page-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
-  {intro_html}
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>\n  {_vendor_line}
+  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
-<div class="tool-grid">{cards}</div>"""
+<div class="tool-grid">{cards}</div>
+{_cat_guide}
+{intro_html}
+{_vendor_line}"""
     else:
         # ── Hub page: editorial intro + pipeline visual + chooser + grouped grid ──
         flow = ""
@@ -1862,9 +1865,11 @@ def build_category_page(cat, tools):
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>\n  {_vendor_line}
+  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
 </section>
 
+{groups_html}
+{_cat_guide}
 <div class="flow-strip" aria-hidden="true">{flow}</div>
 
 <section class="hub-lead">{lead}</section>
@@ -1873,8 +1878,7 @@ def build_category_page(cat, tools):
   <h2>Which one fits</h2>
   {chooser}
 </section>
-
-{groups_html}
+{_vendor_line}
 
 <section class="hub-reading reveal">
   <h2>Reading before you buy</h2>
@@ -1918,7 +1922,7 @@ def build_category_page(cat, tools):
     out = out_dir / "index.html"
     # A2 C1 (2026-09-26): category pages link their comparison guide (the
     # commercial layer was orphaned).
-    body = _CAT_GUIDE.get(cat["slug"], "") + body
+    # H7 (r9): the Compare strip is placed under the tool grid inside the template
     out.write_text(page_shell(
         f"{cat_h1(cat['name'])} | MartechSignal",
         category_meta(cat, cat_tools, hub),

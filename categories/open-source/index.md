@@ -470,8 +470,6 @@ Open SourceDesk-reviewedOSS
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Compare:** [Matomo vs Plausible](/vs/matomo-vs-plausible/) &middot; [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) &middot; [Matomo alternatives](/alternatives/matomo/)
-
 - [Home](/)
 - [Tools](/tools/)
 - Open-Source Tools
@@ -480,6 +478,8 @@ Open SourceDesk-reviewedOSS
 78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.
 
 78 TOOLS IN THIS CATEGORY
+
+**Compare:** [Matomo vs Plausible](/vs/matomo-vs-plausible/) &middot; [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) &middot; [Matomo alternatives](/alternatives/matomo/)
 
 Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
 

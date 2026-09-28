@@ -1,55 +1,5 @@
 # Workflow Automation Tools
 
-TRIGGERnew deal in CRM
-
-**
-
-FILTERvalue &gt; $500
-
-**
-
-AI AGENTdraft the follow-up
-
-**
-
-ACTIONsend + log result
-
-IF First automation, needs to be live before lunch
-
-[Zapier](/tools/zapier/) [Make](/tools/make/)
-
-Largest catalogs, fastest path to a live run
-
-IF Self-hosted, you own the data and the engine
-
-[n8n](/tools/n8n/)
-
-Runs on your own box, 400+ nodes, no per-task billing
-
-IF Building AI agents, not just moving data
-
-[n8n](/tools/n8n/) [LangChain](/tools/langchain/)
-
-Real agent primitives and tool calling, not bolt-ons
-
-IF Running a fleet of agents with budgets and approvals
-
-[Paperclip](/tools/paperclip/)
-
-A control plane that hires, schedules, caps spend, and audits agents
-
-IF Procurement needs SOC 2 and a signature line
-
-[Workato](/tools/workato/) [Tray.io](/tools/tray-io/)
-
-Governance, SSO, and a contract legal will actually sign
-
-IF You would rather build the internal tools than buy them
-
-[Appsmith](/tools/appsmith/) [Budibase](/tools/budibase/) [NocoBase](/tools/nocobase/)
-
-Open-source builders that turn your existing database into admin panels and automations; Budibase and NocoBase add no-code business apps and AI agents
-
 OPEN SOURCE / SELF-HOSTED***4*
 
 LangChain
@@ -158,6 +108,56 @@ Task-priced integration platform with a one-time lifetime purchase option
 
 From $16/moDesk-reviewed
 
+TRIGGERnew deal in CRM
+
+**
+
+FILTERvalue &gt; $500
+
+**
+
+AI AGENTdraft the follow-up
+
+**
+
+ACTIONsend + log result
+
+IF First automation, needs to be live before lunch
+
+[Zapier](/tools/zapier/) [Make](/tools/make/)
+
+Largest catalogs, fastest path to a live run
+
+IF Self-hosted, you own the data and the engine
+
+[n8n](/tools/n8n/)
+
+Runs on your own box, 400+ nodes, no per-task billing
+
+IF Building AI agents, not just moving data
+
+[n8n](/tools/n8n/) [LangChain](/tools/langchain/)
+
+Real agent primitives and tool calling, not bolt-ons
+
+IF Running a fleet of agents with budgets and approvals
+
+[Paperclip](/tools/paperclip/)
+
+A control plane that hires, schedules, caps spend, and audits agents
+
+IF Procurement needs SOC 2 and a signature line
+
+[Workato](/tools/workato/) [Tray.io](/tools/tray-io/)
+
+Governance, SSO, and a contract legal will actually sign
+
+IF You would rather build the internal tools than buy them
+
+[Appsmith](/tools/appsmith/) [Budibase](/tools/budibase/) [NocoBase](/tools/nocobase/)
+
+Open-source builders that turn your existing database into admin panels and automations; Budibase and NocoBase add no-code business apps and AI agents
+
 n8n + AI: The Open-Source Automation Engine That Actually Works
 
 The case for self-hosting your automation engine, node by node
@@ -172,8 +172,6 @@ Where the agent orchestration layer is heading next
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) &middot; [automation strategy](/guides/workflow-automation-strategy/)
-
 - [Home](/)
 - [Tools](/tools/)
 - Workflow Automation
@@ -183,7 +181,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 17 TOOLS IN THIS CATEGORY
 
-Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
+**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) &middot; [automation strategy](/guides/workflow-automation-strategy/)
 
 Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.
 
@@ -192,6 +190,8 @@ The category splits two ways. Zapier and Make get you to a live run before lunch
 If you are comparing these in 2026, app counts decide nothing: they all connect enough. What matters is whether a run can hold state across a long job, recover from a failure without losing progress, and give an AI agent real operations to call. That last part matters more than node count, and most comparisons leave it out.
 
 ## Which one fits
+
+Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
 
 ## Reading before you buy
 
