@@ -208,7 +208,7 @@ Fifty days of open-source MarTech, audited
 
 Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 50 days
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 **Compare:** [Best open-source CRM](/best/open-source-crm/) &middot; [HubSpot CRM alternatives](/alternatives/hubspot-crm/)
 
@@ -217,7 +217,7 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
 - CRM
 ## CRM Tools
 
-CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. {n} tools reviewed.
+CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 23 tools reviewed.
 
 23 TOOLS IN THIS CATEGORY
 
@@ -264,7 +264,7 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
     {
       "@type": "ItemList",
       "name": "CRM Tools",
-      "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. {n} tools reviewed.",
+      "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 23 tools reviewed.",
       "numberOfItems": 23,
       "itemListElement": [
         {
@@ -272,7 +272,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/alphone/#app",
-            "url": "https://martechsignal.com/tools/alphone/"
+            "name": "AlphOne",
+            "description": "Plugin-first CRM (source-available, Elastic 2.0) written in Go",
+            "image": "https://martechsignal.com/og/tools/alphone.png",
+            "url": "https://martechsignal.com/tools/alphone/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -280,7 +284,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/attio/#app",
-            "url": "https://martechsignal.com/tools/attio/"
+            "name": "Attio",
+            "description": "AI-native CRM with real-time data enrichment and agentic revenue workflows",
+            "image": "https://martechsignal.com/og/tools/attio.png",
+            "url": "https://martechsignal.com/tools/attio/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -288,7 +296,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/cordys-crm/#app",
-            "url": "https://martechsignal.com/tools/cordys-crm/"
+            "name": "Cordys CRM",
+            "description": "Open-source AI CRM with built-in agents, conversational analytics, and private deployment",
+            "image": "https://martechsignal.com/og/tools/cordys-crm.png",
+            "url": "https://martechsignal.com/tools/cordys-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -296,7 +308,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/deskcommcrm/#app",
-            "url": "https://martechsignal.com/tools/deskcommcrm/"
+            "name": "DeskcommCRM",
+            "description": "Self-hosted open-source CRM with AI agents that sell through WhatsApp",
+            "image": "https://martechsignal.com/og/tools/deskcommcrm.png",
+            "url": "https://martechsignal.com/tools/deskcommcrm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -304,7 +320,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/django-crm/#app",
-            "url": "https://martechsignal.com/tools/django-crm/"
+            "name": "Django CRM",
+            "description": "Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting",
+            "image": "https://martechsignal.com/og/tools/django-crm.png",
+            "url": "https://martechsignal.com/tools/django-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -312,7 +332,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/dolibarr/#app",
-            "url": "https://martechsignal.com/tools/dolibarr/"
+            "name": "Dolibarr ERP/CRM",
+            "description": "Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP app",
+            "image": "https://martechsignal.com/og/tools/dolibarr.png",
+            "url": "https://martechsignal.com/tools/dolibarr/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -320,7 +344,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/espocrm/#app",
-            "url": "https://martechsignal.com/tools/espocrm/"
+            "name": "EspoCRM",
+            "description": "Lightweight open-source CRM with sales automation, marketing tools, and customer management",
+            "image": "https://martechsignal.com/og/tools/espocrm.png",
+            "url": "https://martechsignal.com/tools/espocrm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -328,7 +356,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/ever-gauzy/#app",
-            "url": "https://martechsignal.com/tools/ever-gauzy/"
+            "name": "Ever Gauzy",
+            "description": "Open business management platform: ERP, CRM, HRM, ATS, and time tracking",
+            "image": "https://martechsignal.com/og/tools/ever-gauzy.png",
+            "url": "https://martechsignal.com/tools/ever-gauzy/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -336,7 +368,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/frappe-crm/#app",
-            "url": "https://martechsignal.com/tools/frappe-crm/"
+            "name": "Frappe CRM",
+            "description": "Fully featured, open source CRM",
+            "image": "https://martechsignal.com/og/tools/frappe-crm.png",
+            "url": "https://martechsignal.com/tools/frappe-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -344,7 +380,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/freshsales/#app",
-            "url": "https://martechsignal.com/tools/freshsales/"
+            "name": "Freshsales",
+            "description": "AI-powered CRM with built-in phone, email, and chat for sales teams",
+            "image": "https://martechsignal.com/og/tools/freshsales.png",
+            "url": "https://martechsignal.com/tools/freshsales/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -352,7 +392,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/hubspot-crm/#app",
-            "url": "https://martechsignal.com/tools/hubspot-crm/"
+            "name": "HubSpot CRM",
+            "description": "Free AI-powered CRM platform with sales, service, and marketing tools unified",
+            "image": "https://martechsignal.com/og/tools/hubspot-crm.png",
+            "url": "https://martechsignal.com/tools/hubspot-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -360,7 +404,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/idurar-erp-crm/#app",
-            "url": "https://martechsignal.com/tools/idurar-erp-crm/"
+            "name": "IDURAR ERP & CRM",
+            "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React",
+            "image": "https://martechsignal.com/og/tools/idurar-erp-crm.png",
+            "url": "https://martechsignal.com/tools/idurar-erp-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -368,7 +416,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/krayin-crm/#app",
-            "url": "https://martechsignal.com/tools/krayin-crm/"
+            "name": "Krayin CRM",
+            "description": "Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management",
+            "image": "https://martechsignal.com/og/tools/krayin-crm.png",
+            "url": "https://martechsignal.com/tools/krayin-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -376,7 +428,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/macro/#app",
-            "url": "https://martechsignal.com/tools/macro/"
+            "name": "Macro",
+            "description": "Open source workspace with a self-updating, agent-driven CRM and shared AI team memory",
+            "image": "https://martechsignal.com/og/tools/macro.png",
+            "url": "https://martechsignal.com/tools/macro/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -384,7 +440,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/monica/#app",
-            "url": "https://martechsignal.com/tools/monica/"
+            "name": "Monica",
+            "description": "Open-source personal CRM for tracking friends, family, and business relationships",
+            "image": "https://martechsignal.com/og/tools/monica.png",
+            "url": "https://martechsignal.com/tools/monica/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -392,7 +452,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/pipedrive/#app",
-            "url": "https://martechsignal.com/tools/pipedrive/"
+            "name": "Pipedrive",
+            "description": "Sales-focused CRM with AI-powered pipeline management and deal forecasting",
+            "image": "https://martechsignal.com/og/tools/pipedrive.png",
+            "url": "https://martechsignal.com/tools/pipedrive/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -400,7 +464,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 17,
           "item": {
             "@id": "https://martechsignal.com/tools/prospectos/#app",
-            "url": "https://martechsignal.com/tools/prospectos/"
+            "name": "ProspectOS",
+            "description": "Open-source lead prospecting CRM with Google Maps and Instagram scraping",
+            "image": "https://martechsignal.com/og/tools/prospectos.png",
+            "url": "https://martechsignal.com/tools/prospectos/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -408,7 +476,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 18,
           "item": {
             "@id": "https://martechsignal.com/tools/relaticle/#app",
-            "url": "https://martechsignal.com/tools/relaticle/"
+            "name": "Relaticle",
+            "description": "Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament",
+            "image": "https://martechsignal.com/og/tools/relaticle.png",
+            "url": "https://martechsignal.com/tools/relaticle/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -416,7 +488,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 19,
           "item": {
             "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
-            "url": "https://martechsignal.com/tools/salesforce-crm/"
+            "name": "Salesforce CRM",
+            "description": "Enterprise CRM platform with Einstein AI for sales, service, and marketing teams",
+            "image": "https://martechsignal.com/og/tools/salesforce-crm.png",
+            "url": "https://martechsignal.com/tools/salesforce-crm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -424,7 +500,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 20,
           "item": {
             "@id": "https://martechsignal.com/tools/suitecrm/#app",
-            "url": "https://martechsignal.com/tools/suitecrm/"
+            "name": "SuiteCRM",
+            "description": "Enterprise-grade open-source CRM with sales, marketing, and support automation",
+            "image": "https://martechsignal.com/og/tools/suitecrm.png",
+            "url": "https://martechsignal.com/tools/suitecrm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -432,7 +512,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 21,
           "item": {
             "@id": "https://martechsignal.com/tools/twenty/#app",
-            "url": "https://martechsignal.com/tools/twenty/"
+            "name": "Twenty",
+            "description": "The open-source alternative to Salesforce, designed for AI with modern CRM workflows",
+            "image": "https://martechsignal.com/og/tools/twenty.png",
+            "url": "https://martechsignal.com/tools/twenty/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -440,7 +524,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 22,
           "item": {
             "@id": "https://martechsignal.com/tools/wacrm/#app",
-            "url": "https://martechsignal.com/tools/wacrm/"
+            "name": "WaCRM",
+            "description": "Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations",
+            "image": "https://martechsignal.com/og/tools/wacrm.png",
+            "url": "https://martechsignal.com/tools/wacrm/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -448,7 +536,11 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
           "position": 23,
           "item": {
             "@id": "https://martechsignal.com/tools/warpdrive/#app",
-            "url": "https://martechsignal.com/tools/warpdrive/"
+            "name": "Warpdrive",
+            "description": "Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box",
+            "image": "https://martechsignal.com/og/tools/warpdrive.png",
+            "url": "https://martechsignal.com/tools/warpdrive/",
+            "@type": "SoftwareApplication"
           }
         }
       ]

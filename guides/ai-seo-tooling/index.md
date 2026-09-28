@@ -12,7 +12,7 @@ AI SEO tooling covers two different promises: tools that help you produce and op
 
 ## Head-to-heads we actually ran
 
-[Claude SEO versus Semrush](/blog/claude-seo-vs-semrush/) is the specialist-against-suite matchup. [Claude SEO versus Codex SEO](/blog/claude-seo-vs-codex-seo/) and [Claude SEO versus Seonaut](/blog/claude-seo-vs-seonaut/) cover the agent-flavored and the open-source-flavored alternatives. Each has the same shape: what we ran, what it cost, where it broke.
+[Claude SEO versus Semrush](/vs/claude-seo-vs-semrush/) is the specialist-against-suite matchup. [Claude SEO versus Codex SEO](/blog/claude-seo-vs-codex-seo/) and [Claude SEO versus Seonaut](/blog/claude-seo-vs-seonaut/) cover the agent-flavored and the open-source-flavored alternatives. Each has the same shape: what we ran, what it cost, where it broke.
 
 ## The content-quality layer
 
@@ -26,7 +26,7 @@ The [SEO](/glossary/seo/), [AEO](/glossary/aeo/), and [AI search visibility](/gl
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
 ```
 
 ```json

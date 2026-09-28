@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; GPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $22/mo once past the free tier |
 | &#10003; AI capabilities: AI chatbot traffic reports |  |
 | &#10003; Established community (21,851 GitHub stars) |  |
 | &#10003; Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
@@ -22,7 +22,7 @@
 Open-source web analytics platform with full data ownership and AI-powered insights. It ships with AI chatbot traffic reports, 21,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Matomo cost?**
-Matomo is open source - GPL-3.0 licensed and free to self-host; the public repository carries 21,851 stars; native integrations cover WordPress, Matomo Tag Manager, Google Tag Manager. You pay in server time and maintenance, not licences.
+Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
 **Is Matomo a good self-hosted Analytics &amp; Attribution tool in 2026?**
 The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
@@ -67,7 +67,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 
 [More Analytics &amp; Attribution Tools →](/categories/analytics/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -121,7 +121,7 @@ Matomo homepage, captured September 2026. Vendor page shown as a dated reference
 - Cookiebot
 ## Pricing
 
-Matomo is free to self-host under the GPL-3.0 licence.
+Matomo is free to self-host under the GPL-3.0 licence, paid plans start at €22/mo as of 2026-09.
 
 Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial.
 
@@ -176,7 +176,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source web analytics platform with full data ownership and AI-powered insights. It ships with AI chatbot traffic reports, 21,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Matomo is open source - GPL-3.0 licensed and free to self-host; the public repository carries 21,851 stars; native integrations cover WordPress, Matomo Tag Manager, Google Tag Manager. You pay in server time and maintenance, not licences.
+Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
 
 The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
 
@@ -223,7 +223,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-06",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 22,
+      "priceCurrency": "EUR",
+      "url": "https://matomo.org/pricing/",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -272,7 +279,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Matomo cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Matomo is open source - GPL-3.0 licensed and free to self-host; the public repository carries 21,851 stars; native integrations cover WordPress, Matomo Tag Manager, Google Tag Manager. You pay in server time and maintenance, not licences."
+          "text": "Matomo has a free tier; paid plans start at \u20ac22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 \u20ac/mo, Business 1,450 \u20ac/mo, Enterprise 3,400 \u20ac/mo, about 17% less billed annually. Cloud from 22 \u20ac/mo for 50,000 hits, scaling to 14,850 \u20ac/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
         }
       },
       {

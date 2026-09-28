@@ -148,7 +148,12 @@ More from the directory: [ManyChat](/tools/manychat/)
   "datePublished": "2026-07-31",
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/",
-  "image": "https://martechsignal.com/og/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

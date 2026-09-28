@@ -35,7 +35,7 @@ out = page_shell(
 )
 out = out.replace(
     "</head>",
-    '<link rel="alternate" type="text/markdown" href="/methodology/index.md" title="Markdown mirror">\n</head>',
+    '</head>',
     1,
 )
 (ROOT / "methodology" / "index.html").write_text(out)

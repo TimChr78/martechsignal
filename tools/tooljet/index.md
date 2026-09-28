@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $79/mo once past the free tier |
 | &#10003; AI capabilities: toolJet AI generates apps from a prompt |  |
 | &#10003; Established community (40,873 GitHub stars) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
@@ -22,7 +22,7 @@
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. It ships with toolJet AI generates apps from a prompt, 40,873 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does ToolJet cost?**
-ToolJet is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 40,873 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is ToolJet a good self-hosted Workflow Automation tool in 2026?**
 The most AI-forward option in the open-source internal-tools class, with the sharpest self-hosting requirements to match. Strong if an agent-driven build path appeals; read the ee-tagged image boundary against the AGPL license before you standardize on it.
@@ -62,7 +62,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -115,7 +115,7 @@ ToolJet homepage, captured September 2026. Vendor page shown as a dated referenc
 - REST / GraphQL / gRPC
 ## Pricing
 
-ToolJet is open core: the self-hosted version is free.
+ToolJet is open core: the self-hosted version is free, paid plans start at $79/mo as of 2026-09.
 
 Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100.
 
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps. It ships with toolJet AI generates apps from a prompt, 40,873 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-ToolJet is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 40,873 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The most AI-forward option in the open-source internal-tools class, with the sharpest self-hosting requirements to match. Strong if an agent-driven build path appeals; read the ee-tagged image boundary against the AGPL license before you standardize on it.
 
@@ -216,7 +216,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-09-05"
+    "datePublished": "2026-09-05",
+    "offers": {
+      "@type": "Offer",
+      "price": 79,
+      "priceCurrency": "USD",
+      "url": "https://tooljet.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -265,7 +272,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does ToolJet cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ToolJet is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 40,873 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences."
+          "text": "ToolJet has a free tier; paid plans start at $79/mo. Self-host CE free (AGPL-3.0). Cloud Free (2 builders, 2 apps), Pro $79/builder/mo billed annually, Team $199, Enterprise from $3,000/mo. Self-host Team $199/builder/mo. AI credits $1 per 100. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

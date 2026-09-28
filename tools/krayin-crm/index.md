@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $1799/mo once past the free tier |
 | &#10003; API access for custom integrations |  |
 | &#10003; AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
 | &#10003; Established community (23,851 GitHub stars) |  |
@@ -22,7 +22,7 @@
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. It ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module), 23,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Krayin CRM cost?**
-Krayin CRM is open source - MIT licensed and free to self-host; the public repository carries 23,851 stars. You pay in server time and maintenance, not licences.
+Krayin CRM has a free tier; paid plans start at $1799/mo. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Krayin CRM a good self-hosted CRM tool in 2026?**
 A current, actively maintained Laravel CRM that is more capable than its reputation on automation and AI, thinner than its marketing on documentation, scoring, and integrations, and best treated as an extendable base.
@@ -59,7 +59,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 
 [More CRM Tools →](/categories/crm/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -97,7 +97,7 @@ Krayin CRM homepage, captured September 2026. Vendor page shown as a dated refer
 - Automation package: event triggers, conditions, actions, and webhooks
 ## Pricing
 
-Krayin CRM is free to self-host under the MIT licence.
+Krayin CRM is free to self-host under the MIT licence, paid plans start at $1799/mo as of 2026-09.
 
 Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices.
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management. It ships with magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module), 23,851 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Krayin CRM is open source - MIT licensed and free to self-host; the public repository carries 23,851 stars. You pay in server time and maintenance, not licences.
+Krayin CRM has a free tier; paid plans start at $1799/mo. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 A current, actively maintained Laravel CRM that is more capable than its reputation on automation and AI, thinner than its marketing on documentation, scoring, and integrations, and best treated as an extendable base.
 
@@ -200,7 +200,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 1799,
+      "priceCurrency": "USD",
+      "url": "https://krayincrm.com/extensions/",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -249,7 +256,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Krayin CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Krayin CRM is open source - MIT licensed and free to self-host; the public repository carries 23,851 stars. You pay in server time and maintenance, not licences."
+          "text": "Krayin CRM has a free tier; paid plans start at $1799/mo. Free to self-host under MIT with no user limits. Paid: Webkul extensions (multi-tenant SaaS at $1,799 for Krayin 2.1.0; other extension prices unlisted) and vendor cloud hosting with no published prices. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

@@ -126,7 +126,7 @@ Microsoft Just Removed the Steering Wheel From Search Ads
 
 Microsoft&#x27;s AI campaign automation takes the operator out of search buying
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 **Guide:** [Agentic advertising](/guides/agentic-ai-advertising/) &middot; [Best AI advertising tools](/best/ai-advertising-tools/)
 
@@ -135,7 +135,7 @@ Microsoft&#x27;s AI campaign automation takes the operator out of search buying
 - Advertising &amp; Paid Media
 ## Advertising & Paid Media Tools
 
-Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. {n} reviewed.
+Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.
 
 9 TOOLS IN THIS CATEGORY
 
@@ -182,7 +182,7 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
     {
       "@type": "ItemList",
       "name": "Advertising & Paid Media Tools",
-      "description": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. {n} reviewed.",
+      "description": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. 9 reviewed.",
       "numberOfItems": 9,
       "itemListElement": [
         {
@@ -190,7 +190,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/adcreative-ai/#app",
-            "url": "https://martechsignal.com/tools/adcreative-ai/"
+            "name": "AdCreative.ai",
+            "description": "AI platform generating high-converting ad creatives and social media post designs",
+            "image": "https://martechsignal.com/og/tools/adcreative-ai.png",
+            "url": "https://martechsignal.com/tools/adcreative-ai/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -198,7 +202,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/advertools/#app",
-            "url": "https://martechsignal.com/tools/advertools/"
+            "name": "advertools",
+            "description": "Python toolkit for SEO and advertising analysis in pandas DataFrames",
+            "image": "https://martechsignal.com/og/tools/advertools.png",
+            "url": "https://martechsignal.com/tools/advertools/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -206,7 +214,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/albert-ai/#app",
-            "url": "https://martechsignal.com/tools/albert-ai/"
+            "name": "Albert AI",
+            "description": "Autonomous AI platform that manages and optimizes digital advertising campaigns",
+            "image": "https://martechsignal.com/og/tools/albert-ai.png",
+            "url": "https://martechsignal.com/tools/albert-ai/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -214,7 +226,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/madgicx/#app",
-            "url": "https://martechsignal.com/tools/madgicx/"
+            "name": "Madgicx",
+            "description": "AI-powered Meta ads optimization and creative workflow",
+            "image": "https://martechsignal.com/og/tools/madgicx.png",
+            "url": "https://martechsignal.com/tools/madgicx/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -222,7 +238,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/opteo/#app",
-            "url": "https://martechsignal.com/tools/opteo/"
+            "name": "Opteo",
+            "description": "Continuous Google Ads monitoring with one-click improvements",
+            "image": "https://martechsignal.com/og/tools/opteo.png",
+            "url": "https://martechsignal.com/tools/opteo/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -230,7 +250,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/pencil/#app",
-            "url": "https://martechsignal.com/tools/pencil/"
+            "name": "Pencil",
+            "description": "AI-powered ad creative generation and performance prediction for paid media",
+            "image": "https://martechsignal.com/og/tools/pencil.png",
+            "url": "https://martechsignal.com/tools/pencil/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -238,7 +262,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/revealbot/#app",
-            "url": "https://martechsignal.com/tools/revealbot/"
+            "name": "Revealbot (Birch)",
+            "description": "AI-powered ad automation and rules engine for Meta, Google, and TikTok ads",
+            "image": "https://martechsignal.com/og/tools/revealbot.png",
+            "url": "https://martechsignal.com/tools/revealbot/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -246,7 +274,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/revive-adserver/#app",
-            "url": "https://martechsignal.com/tools/revive-adserver/"
+            "name": "Revive Adserver",
+            "description": "Free open source ad server for publishers, ad networks and advertisers",
+            "image": "https://martechsignal.com/og/tools/revive-adserver.png",
+            "url": "https://martechsignal.com/tools/revive-adserver/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -254,7 +286,11 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/smartly-io/#app",
-            "url": "https://martechsignal.com/tools/smartly-io/"
+            "name": "Smartly.io",
+            "description": "AI advertising platform spanning creative production, media buying, and measurement",
+            "image": "https://martechsignal.com/og/tools/smartly-io.png",
+            "url": "https://martechsignal.com/tools/smartly-io/",
+            "@type": "SoftwareApplication"
           }
         }
       ]

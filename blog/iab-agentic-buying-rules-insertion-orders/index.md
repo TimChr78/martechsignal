@@ -23,7 +23,7 @@ DIGITAL ADVERTISING · AI AGENTS · 8 MIN
 
 SEP 28, 2026
 
-Filed under [Digital Advertising](/categories/digital-advertising/)
+Filed under [Advertising & Paid Media](/categories/advertising/)
 
 Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification called OpenProposal, plus a proposed standard contract for measurement services. On September 23, MarTech reported that OpenAI is testing a third-party-style tracking cookie behind ChatGPT ads. One sets rules for machines negotiating media buys. The other shows a platform building measurement faster than the consent language that should govern it. Your stack sits in the middle and, today, supports neither.
 
@@ -133,14 +133,19 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
   "datePublished": "2026-09-28",
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
-  "image": "https://martechsignal.com/og/iab-agentic-buying-rules-insertion-orders.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/iab-agentic-buying-rules-insertion-orders.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
   "wordCount": 1540,
-  "articleSection": "digital-advertising"
+  "articleSection": "advertising"
 }
 ```
 

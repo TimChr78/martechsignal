@@ -38,15 +38,7 @@ Verify your robots rules let the answer-surfacing crawlers in. Pull one honest q
 
 
 ```json
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Generative Engine Optimization (GEO): the working guide",
-  "url": "https://martechsignal.com/guides/generative-engine-optimization/",
-  "dateModified": "2026-09-28",
-  "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
-  "publisher": {"@id": "https://martechsignal.com/#organization"}
-}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Generative Engine Optimization (GEO): the working guide", "url": "https://martechsignal.com/guides/generative-engine-optimization/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/generative-engine-optimization.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/generative-engine-optimization/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/generative-engine-optimization/"}}
 ```
 
 ```json

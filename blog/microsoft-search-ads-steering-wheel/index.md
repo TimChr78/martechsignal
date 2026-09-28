@@ -148,7 +148,12 @@ More from the directory: [Trakkr](/tools/trakkr/)
   "datePublished": "2026-08-31",
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/",
-  "image": "https://martechsignal.com/og/microsoft-search-ads-steering-wheel.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/microsoft-search-ads-steering-wheel.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

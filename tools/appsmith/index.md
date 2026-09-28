@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; Apache-2.0 licence with free self-hosting | &#10007; Paid plans start at $15/mo once past the free tier |
 | &#10003; AI capabilities: ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3) |  |
 | &#10003; Established community (40,849 GitHub stars) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (13 listed) |  |
@@ -22,7 +22,7 @@
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. It ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3), 40,849 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Appsmith cost?**
-Appsmith is open source - Apache-2.0 licensed and free to self-host; the public repository carries 40,849 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Appsmith a good self-hosted Workflow Automation tool in 2026?**
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
@@ -66,7 +66,7 @@ n8n Marketing Flows
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -119,7 +119,7 @@ Appsmith homepage, captured September 2026. Vendor page shown as a dated referen
 - REST / GraphQL
 ## Pricing
 
-Appsmith is open core: the self-hosted version is free.
+Appsmith is open core: the self-hosted version is free, paid plans start at $15/mo as of 2026-09.
 
 Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users.
 
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. It ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3), 40,849 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Appsmith is open source - Apache-2.0 licensed and free to self-host; the public repository carries 40,849 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
 
@@ -220,7 +220,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-09-05"
+    "datePublished": "2026-09-05",
+    "offers": {
+      "@type": "Offer",
+      "price": 15,
+      "priceCurrency": "USD",
+      "url": "https://www.appsmith.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -269,7 +276,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Appsmith cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Appsmith is open source - Apache-2.0 licensed and free to self-host; the public repository carries 40,849 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences."
+          "text": "Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

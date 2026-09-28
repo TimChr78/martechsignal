@@ -449,3 +449,42 @@ class TestCatalogSchema:
                         for ty in allowed
                     )
                     assert ok, f"{rec['slug']}.{key}: {type(val).__name__} not in {allowed}"
+
+
+# ── r8 hard-fail lints (2026-09-28): the audit's own falsifiability checks ──
+
+def test_no_template_placeholders_left_in_output():
+    """r8 C1: a {n} or {token} literal reaching HTML is a template leak."""
+    bad = []
+    for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+        if "deploy-out" in f.parts or "node_modules" in f.parts or not f.exists():
+            continue
+        if re.search(r"\{(n|slug|count|title|meta|description|desc|name|price|date|url|cat|category|tools)\}", f.read_text(errors="ignore")):
+            bad.append(str(f.relative_to(ROOT)))
+    assert not bad, f"template placeholders leaked into: {bad[:5]}"
+
+
+def test_exactly_one_markdown_alternate_per_page():
+    """r8 M4: duplicate rel=alternate markdown links (generator split)."""
+    bad = []
+    for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+        if "deploy-out" in f.parts or "node_modules" in f.parts or not f.exists():
+            continue
+        n = f.read_text(errors="ignore").count('rel="alternate" type="text/markdown"')
+        if n > 1:
+            bad.append((str(f.relative_to(ROOT)), n))
+    assert not bad, f"double markdown alternates: {bad[:5]}"
+
+
+def test_stylesheet_cache_bust_uniform():
+    """r8 L1: exactly one style.min.css?v= value may exist site-wide."""
+    import hashlib
+    want = hashlib.md5((ROOT / "style.css").read_bytes()).hexdigest()[:8]
+    bad = []
+    for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+        if "deploy-out" in f.parts or "node_modules" in f.parts or not f.exists():
+            continue
+        for v in re.findall(r"style\.min\.css\?v=([a-f0-9]{8})", f.read_text(errors="ignore")):
+            if v != want:
+                bad.append((str(f.relative_to(ROOT)), v))
+    assert not bad, f"stale stylesheet hashes: {bad[:5]}"

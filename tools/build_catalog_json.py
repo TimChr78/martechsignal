@@ -13,15 +13,21 @@ active = [t for t in tools if t.get("status", "active") == "active"]
 out = []
 for c in entries:
     slug = c.get("slug")
-    if not slug or slug == "open-source":
+    if not slug:
         continue
-    n = sum(1 for t in active if t.get("category") == slug)
+    if c.get("cross_cutting"):
+        # r8 H2/H5 (2026-09-28): the open-source facet is a cross-cutting
+        # landing page over every category; it counts licences, not members.
+        n = sum(1 for t in active if t.get("open_source"))
+    else:
+        n = sum(1 for t in active if t.get("category") == slug)
     out.append({
         "slug": slug,
         "name": c.get("name", slug),
         "url": f"https://martechsignal.com/categories/{slug}/",
         "description": c.get("meta") or c.get("description") or "",
         "tool_count": n,
+        **({"cross_cutting": True} if c.get("cross_cutting") else {}),
     })
 (ROOT / "categories.json").write_text(
     json.dumps({"categories": out, "generated_from": "tools/categories.json"},

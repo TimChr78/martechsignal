@@ -293,6 +293,7 @@
 - [Email Marketing](https://martechsignal.com/categories/email-marketing/)
 - [GEO & LLM Optimization](https://martechsignal.com/categories/geo-llm-visibility/)
 - [Marketing Automation](https://martechsignal.com/categories/marketing-automation/)
+- [Open-Source Tools](https://martechsignal.com/categories/open-source/)
 - [Personalization & CDP](https://martechsignal.com/categories/personalization/)
 - [SEO & Search](https://martechsignal.com/categories/seo/)
 - [Social Media](https://martechsignal.com/categories/social-media/)
@@ -326,6 +327,13 @@
 - [HubSpot CRM Alternatives: 5 Options Compared (2026)](https://martechsignal.com/alternatives/hubspot-crm/)
 - [Matomo Alternatives: 5 Analytics Tools Compared (2026)](https://martechsignal.com/alternatives/matomo/)
 - [Zapier Alternatives: 10 Tools Compared (2026)](https://martechsignal.com/alternatives/zapier/)
+- [Agentic advertising: what the platforms are automating without you](https://martechsignal.com/guides/agentic-ai-advertising/)
+- [AI Marketing Suite pricing](https://martechsignal.com/guides/ai-marketing-claude/)
+- [AI SEO tooling: benchmarks, comparisons, and the honest limits](https://martechsignal.com/guides/ai-seo-tooling/)
+- [Digital Marketing Pro pricing](https://martechsignal.com/guides/digital-marketing-pro/)
+- [Generative Engine Optimization (GEO): the working guide](https://martechsignal.com/guides/generative-engine-optimization/)
+- [MCP and agent protocols for marketers: the working hub](https://martechsignal.com/guides/mcp-agent-protocols/)
+- [Workflow automation without the AI-tool pile-on: the strategy hub](https://martechsignal.com/guides/workflow-automation-strategy/)
 
 ## Site
 

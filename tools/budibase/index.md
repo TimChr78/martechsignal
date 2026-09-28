@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
 | &#10003; AI capabilities: AI agents with tools, memory and structured outputs (beta since March 2026) |  |
 | &#10003; Established community (28,267 GitHub stars) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, MongoDB (12 listed) |  |
@@ -22,7 +22,7 @@
 Open-source operations platform for building AI agents, apps and automations on your own data. It ships with AI agents with tools, memory and structured outputs (beta since March 2026), 28,267 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Budibase cost?**
-Budibase is open source - Free to self-host; the public repository carries 28,267 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Budibase a good self-hosted Workflow Automation tool in 2026?**
 The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
@@ -66,7 +66,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -119,7 +119,7 @@ Budibase homepage, captured September 2026. Vendor page shown as a dated referen
 - REST API
 ## Pricing
 
-Budibase is open core: the self-hosted version is free.
+Budibase is open core: the self-hosted version is free, paid plans start at $19/mo as of 2026-09.
 
 Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo.
 
@@ -177,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source operations platform for building AI agents, apps and automations on your own data. It ships with AI agents with tools, memory and structured outputs (beta since March 2026), 28,267 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Budibase is open source - Free to self-host; the public repository carries 28,267 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences.
+Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
 
@@ -222,7 +222,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-09-05"
+    "datePublished": "2026-09-05",
+    "offers": {
+      "@type": "Offer",
+      "price": 19,
+      "priceCurrency": "USD",
+      "url": "https://budibase.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -271,7 +278,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Budibase cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Budibase is open source - Free to self-host; the public repository carries 28,267 stars; native integrations cover PostgreSQL, MySQL, MongoDB. You pay in server time and maintenance, not licences."
+          "text": "Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

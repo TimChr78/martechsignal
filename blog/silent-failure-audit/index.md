@@ -132,7 +132,12 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "datePublished": "2026-09-10",
   "dateModified": "2026-09-11",
   "mainEntityOfPage": "https://martechsignal.com/blog/silent-failure-audit/",
-  "image": "https://martechsignal.com/og/silent-failure-audit.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/silent-failure-audit.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

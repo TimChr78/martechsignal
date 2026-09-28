@@ -528,7 +528,6 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
 <link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
-<link rel="alternate" type="text/markdown" href="{canonical.rstrip('/')}/index.md">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
@@ -554,7 +553,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <footer aria-label="Footer">
   <div class="wrap">
     <div class="foot-links">
-      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
+      <a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/guides/">GUIDES</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/corrections/">CORRECTIONS</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></div>
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
@@ -668,7 +667,7 @@ def build_hub(tools, cats):
     _pm_buckets = sorted({(x.get("pricing_model") or ("free" if x.get("price_from") == 0 else "unspecified")) for x in tools if x.get("status") == "active"})
     FILTER_BAR = ('<div class="tool-filter" id="tool-filter" hidden>'
         '<label>Category <select id="flt-cat"><option value="">All categories</option>'
-        + ''.join(f'<option value="{esc(c["slug"])}">{esc(c["name"])}</option>' for c in cats)
+        + ''.join(f'<option value="{esc(c["slug"])}">{esc(c["name"])}</option>' for c in cats if c['slug'] != 'open-source')
         + '</select></label>'
         '<label>Price model <select id="flt-price"><option value="">All models</option>'
         + ''.join(f'<option value="{esc(p)}">{esc(p.title())}</option>' for p in _pm_buckets)
@@ -1674,6 +1673,25 @@ def build_category_page(cat, tools):
     if not cat_tools:
         return None
 
+    # r8 C1 (2026-09-28): substitute the {n} placeholder everywhere it can
+    # reach output (meta, visible copy, ItemList description), not just <meta>.
+    _n = str(len(cat_tools))
+    if isinstance(cat.get("meta"), str):
+        cat = dict(cat, meta=cat["meta"].replace("{n}", _n))
+    if isinstance(cat.get("description"), str):
+        cat = dict(cat, description=cat["description"].replace("{n}", _n))
+    if isinstance(cat.get("intro"), str):
+        cat = dict(cat, intro=cat["intro"].replace("{n}", _n))
+    hub = cat.get("hub")
+    if hub:
+        hub = dict(hub)
+        for _k in ("meta", "lead"):
+            _v = hub.get(_k)
+            if isinstance(_v, str):
+                hub[_k] = _v.replace("{n}", _n)
+            elif isinstance(_v, list):
+                hub[_k] = [_x.replace("{n}", _n) for _x in _v]
+        cat = dict(cat, hub=hub)
     by_slug = {t["slug"]: t for t in cat_tools}
     hub = cat.get("hub")
 
@@ -1802,7 +1820,7 @@ def build_category_page(cat, tools):
                 # listed. Open-source tools are SoftwareApplication, SaaS is Product.
                 "itemListElement": [
                     {"@type": "ListItem", "position": i+1,
-                     "item": _list_item_ref(t)}
+                     "item": _list_item_thing(t)}
                     for i, t in enumerate(cat_tools)
                 ]
             }
@@ -1935,7 +1953,7 @@ def build_sitemap(tools, cats):
         urls.append(("https://martechsignal.com/categories/", _lastmod(cats_hub), "0.6"))
     authors_hub = ROOT / "authors" / "index.html"
     if authors_hub.exists():
-        urls.append(("https://martechsignal.com/authors/", _lastmod(authors_hub), "0.5"))
+        urls.append(("https://martechsignal.com/authors/tim-christensen/", _lastmod(authors_hub), "0.5"))
 
     # Individual tool pages
     for t in tools:
@@ -2264,7 +2282,7 @@ def build_llms_txt(tools, cats):
     # A3 M-9 (2026-09-27): the guides/comparisons and site pages were missing
     # from llms.txt (12 sitemap URLs), and the policy was unreadable to agents.
     lines += ["", "## Guides and comparisons", ""]
-    for fam, label in (("best", "Best"), ("vs", "Versus"), ("alternatives", "Alternatives")):
+    for fam, label in (("best", "Best"), ("vs", "Versus"), ("alternatives", "Alternatives"), ("guides", "Guides")):
         fam_dir = ROOT / fam
         if fam_dir.is_dir():
             for child in sorted(fam_dir.iterdir()):
@@ -2449,7 +2467,10 @@ def sync_stylesheet_links():
     r6 M-3 (2026-09-27): site.js rides the same sweep. An unversioned tag plus
     max-age=3600 kept stale is-in builds alive in visitors' browsers."""
     import hashlib as _h
-    _hash = _h.sha256((ROOT / "style.min.css").read_bytes()).hexdigest()[:8]
+    # r8 L1 (2026-09-28): one cache-buster convention site-wide - same function
+    # page_shell uses (md5(style.css)[:8]); the old sha256(style.min.css) split
+    # the site into two hash populations and left 32 pages pinned stale.
+    _hash = _css_v()
     _jhash = _h.sha256((ROOT / "site.js").read_bytes()).hexdigest()[:8]
     _n = 0
     _nj = 0

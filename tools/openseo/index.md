@@ -13,14 +13,14 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $10/mo once past the free tier |
 | &#10003; Established community (18,155 GitHub stars) |  |
 
 **What is OpenSEO?**
 Open source alternative to Ahrefs and Semrush. It ships with 18,155 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does OpenSEO cost?**
-OpenSEO is open source - MIT licensed and free to self-host; the public repository carries 18,155 stars. You pay in server time and maintenance, not licences.
+OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is OpenSEO a good self-hosted SEO &amp; Search tool in 2026?**
 A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.
@@ -66,7 +66,7 @@ Free local tool that measures brand mentions and citations in Claude&#x27;s web-
 
 [More SEO &amp; Search Tools →](/categories/seo/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -100,7 +100,7 @@ OpenSEO homepage, captured September 2026. Vendor page shown as a dated referenc
 
 ## Pricing
 
-OpenSEO is free to self-host under the MIT licence.
+OpenSEO is free to self-host under the MIT licence, paid plans start at $10/mo as of 2026-09.
 
 Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage.
 
@@ -157,7 +157,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open source alternative to Ahrefs and Semrush. It ships with 18,155 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-OpenSEO is open source - MIT licensed and free to self-host; the public repository carries 18,155 stars. You pay in server time and maintenance, not licences.
+OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 A fast-moving self-hosted SEO workbench with a genuine AI-visibility layer and usage-based data costs; bring a DataForSEO budget and some ops appetite.
 
@@ -199,7 +199,14 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openseo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07"
+    "dateModified": "2026-09-07",
+    "offers": {
+      "@type": "Offer",
+      "price": 10,
+      "priceCurrency": "USD",
+      "url": "https://openseo.so/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -248,7 +255,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does OpenSEO cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "OpenSEO is open source - MIT licensed and free to self-host; the public repository carries 18,155 stars. You pay in server time and maintenance, not licences."
+          "text": "OpenSEO has a free tier; paid plans start at $10/mo. Self-hosted free (MIT); you pay DataForSEO directly per call. Hosted: $10/mo including $10 of usage. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+def _bestx_li(rec, i):
+    """r8 M13 (2026-09-28): retired packs live under /guides/ now; the old
+    /tools/ URL 301s and its #app dangles. Route each item to its real home."""
+    if rec.get("kind") == "Guide" or rec.get("status") != "active":
+        return {"@type": "ListItem", "position": i + 1, "name": rec["name"],
+                "item": {"url": f"https://martechsignal.com/guides/{rec['slug']}/"}}
+    return {"@type": "ListItem", "position": i + 1, "name": rec["name"],
+            "item": {"@id": f"https://martechsignal.com/tools/{rec['slug']}/#app",
+                     "url": f"https://martechsignal.com/tools/{rec['slug']}/"}}
+
+
 """Best-X and /vs/ page builders (2026-09-26, decided by Tim).
 
 - /best/<slug>/: "best X for Y" list pages (F-C3 pilot, 3 pages).
@@ -85,11 +96,7 @@ def build_best():
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             "numberOfItems": len(items),
             "itemListElement": [
-                {"@type": "ListItem", "position": i + 1,
-                 "name": tools_by_slug[it["slug"]]["name"],
-                 # r7 M8 (2026-09-27): item -> #app reference, matching /categories/
-                 "item": {"@id": f"https://martechsignal.com/tools/{it['slug']}/#app",
-                          "url": f"https://martechsignal.com/tools/{it['slug']}/"}}
+                _bestx_li(tools_by_slug[it["slug"]], i)
                 for i, it in enumerate(items)],
         }
         breadcrumb = {
@@ -215,7 +222,7 @@ def build_vs():
         # references - the offers-gated state machine governs product typing).
         entity = {
             "@context": "https://schema.org",
-            "@type": "WebPage",
+            "@type": "Article",
             "@id": f"https://martechsignal.com/vs/{page['slug']}/#webpage",
             "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},

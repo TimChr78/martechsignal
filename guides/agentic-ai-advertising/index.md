@@ -26,7 +26,7 @@ Start with [Google does not need your site anymore](/blog/google-doesnt-need-you
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Agentic advertising: what the platforms are automating without you", "url": "https://martechsignal.com/guides/agentic-ai-advertising/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Agentic advertising: what the platforms are automating without you", "url": "https://martechsignal.com/guides/agentic-ai-advertising/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/agentic-ai-advertising.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/agentic-ai-advertising/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/agentic-ai-advertising/"}}
 ```
 
 ```json

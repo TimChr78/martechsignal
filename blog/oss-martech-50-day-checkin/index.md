@@ -26,7 +26,7 @@ OPEN SOURCE · MARTECH · 7 MIN
 
 SEP 14, 2026
 
-Filed under [Open Source](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
+Filed under [Open-Source Tools](/categories/open-source/) · [Workflow Automation](/categories/workflow-automation/)
 
 Fifty days after [the open-source MarTech stack](/blog/open-source-martech-stack/) piece, this is the first re-check: what shipped, what stalled, and where the energy went.
 
@@ -139,7 +139,12 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "datePublished": "2026-09-14",
   "dateModified": "2026-09-14",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-martech-50-day-checkin/",
-  "image": "https://martechsignal.com/og/oss-martech-50-day-checkin.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/oss-martech-50-day-checkin.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

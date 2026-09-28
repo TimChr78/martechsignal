@@ -142,7 +142,7 @@ Check outputs, not logs: the silent-failure audit
 
 The category thesis in practice: audit what agents actually sent, not what logs claim
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 **Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
@@ -151,7 +151,7 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 - Marketing Automation
 ## Marketing Automation Tools
 
-Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. {n} tools with dated pricing and verification dates.
+Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.
 
 12 TOOLS IN THIS CATEGORY
 
@@ -200,7 +200,7 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
     {
       "@type": "ItemList",
       "name": "Marketing Automation Tools",
-      "description": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. {n} tools with dated pricing and verification dates.",
+      "description": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.",
       "numberOfItems": 12,
       "itemListElement": [
         {
@@ -208,7 +208,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/activecampaign/#app",
-            "url": "https://martechsignal.com/tools/activecampaign/"
+            "name": "ActiveCampaign",
+            "description": "AI-powered marketing automation and CRM for small to mid-size businesses",
+            "image": "https://martechsignal.com/og/tools/activecampaign.png",
+            "url": "https://martechsignal.com/tools/activecampaign/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -216,7 +220,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/adobe-marketo/#app",
-            "url": "https://martechsignal.com/tools/adobe-marketo/"
+            "name": "Adobe Marketo Engage",
+            "description": "Enterprise B2B marketing automation with AI-driven lead management and engagement",
+            "image": "https://martechsignal.com/og/tools/adobe-marketo.png",
+            "url": "https://martechsignal.com/tools/adobe-marketo/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -224,7 +232,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/alwrity/#app",
-            "url": "https://martechsignal.com/tools/alwrity/"
+            "name": "ALwrity",
+            "description": "AI-first digital marketing platform for content strategy, generation, publishing, SEO, and social",
+            "image": "https://martechsignal.com/og/tools/alwrity.png",
+            "url": "https://martechsignal.com/tools/alwrity/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -232,7 +244,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/bloomreach/#app",
-            "url": "https://martechsignal.com/tools/bloomreach/"
+            "name": "Bloomreach",
+            "description": "AI-powered commerce experience platform with search, personalization, and CDP",
+            "image": "https://martechsignal.com/og/tools/bloomreach.png",
+            "url": "https://martechsignal.com/tools/bloomreach/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -240,7 +256,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/braze/#app",
-            "url": "https://martechsignal.com/tools/braze/"
+            "name": "Braze",
+            "description": "Customer engagement platform with AI-powered real-time messaging across channels",
+            "image": "https://martechsignal.com/og/tools/braze.png",
+            "url": "https://martechsignal.com/tools/braze/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -248,7 +268,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
-            "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+            "name": "HubSpot Marketing Hub",
+            "description": "All-in-one marketing automation with AI-powered content, email, and campaign tools",
+            "image": "https://martechsignal.com/og/tools/hubspot-marketing-hub.png",
+            "url": "https://martechsignal.com/tools/hubspot-marketing-hub/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -256,7 +280,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/laudspeaker/#app",
-            "url": "https://martechsignal.com/tools/laudspeaker/"
+            "name": "Laudspeaker",
+            "description": "Open-source customer engagement and product onboarding platform, alternative to Braze",
+            "image": "https://martechsignal.com/og/tools/laudspeaker.png",
+            "url": "https://martechsignal.com/tools/laudspeaker/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -264,7 +292,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/line-harness/#app",
-            "url": "https://martechsignal.com/tools/line-harness/"
+            "name": "Line Harness",
+            "description": "Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control",
+            "image": "https://martechsignal.com/og/tools/line-harness.png",
+            "url": "https://martechsignal.com/tools/line-harness/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -272,7 +304,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/mautic/#app",
-            "url": "https://martechsignal.com/tools/mautic/"
+            "name": "Mautic",
+            "description": "Open-source marketing automation platform with email, campaigns, and lead management",
+            "image": "https://martechsignal.com/og/tools/mautic.png",
+            "url": "https://martechsignal.com/tools/mautic/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -280,7 +316,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/nocodb/#app",
-            "url": "https://martechsignal.com/tools/nocodb/"
+            "name": "NocoDB",
+            "description": "Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet",
+            "image": "https://martechsignal.com/og/tools/nocodb.png",
+            "url": "https://martechsignal.com/tools/nocodb/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -288,7 +328,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/ortto/#app",
-            "url": "https://martechsignal.com/tools/ortto/"
+            "name": "Ortto",
+            "description": "Customer data and marketing automation platform with journeys, CDP, and AI features",
+            "image": "https://martechsignal.com/og/tools/ortto.png",
+            "url": "https://martechsignal.com/tools/ortto/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -296,7 +340,11 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
           "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
-            "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+            "name": "Salesforce Marketing Cloud",
+            "description": "Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web",
+            "image": "https://martechsignal.com/og/tools/salesforce-marketing-cloud.png",
+            "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/",
+            "@type": "SoftwareApplication"
           }
         }
       ]

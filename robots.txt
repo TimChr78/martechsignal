@@ -8,7 +8,10 @@ Allow: /
 # (RFC 9309 longest-match, so these beat Disallow: /*? for their ?v= URLs).
 Allow: /style.min.css*
 Allow: /site.js*
-Allow: /style.css*
+# r8 M17 (2026-09-28): the /og/charts/ images carry cache-buster queries;
+# without an Allow, Disallow: /*? hides the site's own cited charts.
+Allow: /og/charts*
+Allow: /og/*
 Disallow: /*?
 
 # A-2 (2026-09-25, decided by the site owner): AI retrieval and grounding are
@@ -49,9 +52,11 @@ Content-Signal: ai-train=no
 Disallow: /
 
 User-agent: Claude-User
+Allow: /
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 User-agent: Claude-SearchBot
+Allow: /
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
 # r7 H14 (2026-09-28): this is a deliberate decision on the record, not an

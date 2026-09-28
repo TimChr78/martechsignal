@@ -159,7 +159,12 @@ More from the directory: [advertools](/tools/advertools/)
   "datePublished": "2026-08-03",
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-agents-need-campaign-state/",
-  "image": "https://martechsignal.com/og/ai-agents-need-campaign-state.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/ai-agents-need-campaign-state.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

@@ -116,6 +116,26 @@ def main():
             _img.save(ROOT / "og" / f"hero-{slug}{_sfx}.webp", "WEBP", quality=82)
         print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB)")
         count += 1
+    for child in sorted((ROOT / "guides").iterdir()):
+        f = child / "index.html"
+        if not (child.is_dir() and f.exists()):
+            continue
+        h = f.read_text()
+        m = re.search(r"<title>(.*?)</title>", h)
+        d = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', h)
+        if not m:
+            continue
+        title = html.unescape(m.group(1))
+        slug = child.name
+        out = render(slug, title, d.group(1) if d else "")
+        _card = Image.open(out).convert("RGB")
+        for _w in (1200, 800, 480):
+            _sfx = "" if _w == 1200 else f"-{_w}"
+            _img = (_card if _w == 1200 else _card.resize(
+                (_w, round(_card.height * _w / _card.width)), Image.LANCZOS))
+            _img.save(ROOT / "og" / f"hero-{slug}{_sfx}.webp", "WEBP", quality=82)
+        print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB, guide)")
+        count += 1
     print(f"Generated {count} OG cards")
 
 

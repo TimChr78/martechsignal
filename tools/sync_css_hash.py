@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path("/mnt/user/dev/martechsignal")
 css = (ROOT / "style.css").read_bytes()
 want = hashlib.md5(css).hexdigest()[:8]
-pat = re.compile(rb"/style\.css\?v=[a-f0-9]{8}")
+pat = re.compile(rb"/style(?:\.min)?\.css\?v=[a-f0-9]{8}")
 fixed = 0
 for f in ROOT.rglob("index.html"):
     if "node_modules" in f.parts:

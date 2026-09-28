@@ -452,14 +452,16 @@ def build_post(meta: dict, body_html: str) -> str:
         "datePublished": date_str,
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
-        "image": f"https://martechsignal.com/og/{slug}.png",
+        "image": {"@type": "ImageObject", "url": f"https://martechsignal.com/og/{slug}.png", "width": 1200, "height": 630},
         **({"citation": _cit_list} if _cit_list else {}),
         # A2 M7 (2026-09-26): link the post into the Blog node and carry the
         # article fields Google's article cluster reads.
         "isPartOf": {"@type": "Blog",
                      "@id": "https://martechsignal.com/blog/#blog"},
         "inLanguage": "en",
-        "wordCount": len(re.sub(r"<[^>]+>", " ", body_html).split()),
+        # r8 M23 (2026-09-28): count prose only - the TOC and filed-under chips
+                # are scaffolding and made schema drift +121..+272 from the body.
+                "wordCount": len(re.sub(r"<[^>]+>", " ", re.sub(r"(?s)<nav\b.*?</nav>|<p class=\"meta[^\"]*\"[^>]*>.*?</p>", " ", body_html)).split()),
         "articleSection": ", ".join(meta.get("categories") or ([meta["category"]] if meta.get("category") else []) or []),
     }
     breadcrumb_schema = {

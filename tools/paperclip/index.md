@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $10/mo once past the free tier |
 | &#10003; AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
 | &#10003; Established community (80,357 GitHub stars) |  |
 | &#10003; Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |
@@ -22,7 +22,7 @@
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. It ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more), 80,357 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Paperclip cost?**
-Paperclip is open source - MIT licensed and free to self-host; the public repository carries 80,357 stars; native integrations cover Claude Code, Codex, Cursor (local and cloud). You pay in server time and maintenance, not licences.
+Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Paperclip worth it past the free tier?**
 The most credible attempt yet at governing agent fleets like headcount rather than scripts: real budgets, approvals, and audit, with honest defaults (dormant agents, no webhooks) and a deep public docs surface.
@@ -67,7 +67,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 
 [More Workflow Automation Tools →](/categories/workflow-automation/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -122,7 +122,7 @@ Paperclip homepage, captured September 2026. Vendor page shown as a dated refere
 - e2b, Cloudflare, and Modal sandboxes
 ## Pricing
 
-Paperclip is freemium, with a free tier to start.
+Paperclip is freemium, with a free tier to start, paid plans start at €10/mo as of 2026-09.
 
 Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts.
 
@@ -181,7 +181,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit. It ships with org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more), 80,357 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Paperclip is open source - MIT licensed and free to self-host; the public repository carries 80,357 stars; native integrations cover Claude Code, Codex, Cursor (local and cloud). You pay in server time and maintenance, not licences.
+Paperclip has a free tier; paid plans start at €10/mo. Self-hosted free (MIT). Hosted cloud: one plan at € 10/month or € 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The most credible attempt yet at governing agent fleets like headcount rather than scripts: real budgets, approvals, and audit, with honest defaults (dormant agents, no webhooks) and a deep public docs surface.
 
@@ -224,7 +224,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 10,
+      "priceCurrency": "EUR",
+      "url": "https://paperclip.inc/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -273,7 +280,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Paperclip cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Paperclip is open source - MIT licensed and free to self-host; the public repository carries 80,357 stars; native integrations cover Claude Code, Codex, Cursor (local and cloud). You pay in server time and maintenance, not licences."
+          "text": "Paperclip has a free tier; paid plans start at \u20ac10/mo. Self-hosted free (MIT). Hosted cloud: one plan at \u20ac 10/month or \u20ac 100/year, 7-day trial, no credit card, unlimited companies and teammates. Model spend bills from your own provider accounts. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

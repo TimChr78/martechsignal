@@ -60,7 +60,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
 - [ 38 MCP Rewrites the Integration Economics of Your Marketing Stack 2026-07-29 Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n² − n) / 2, and marketing ops teams have been paying th → ](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [ 39 n8n + AI: The Open-Source Automation Engine 2026-07-28 In our open-source martech stack analysis, one tool kept surfacing: n8n. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order of magnitude, and AI agent → ](/blog/n8n-ai-open-source-automation/)
 - [ 40 Open-Source Martech Stack vs $5K/mo Subscriptions 2026-07-27 Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on marte → ](/blog/open-source-martech-stack/)
-- [ 41 Why Your Marketing Stack Doesn't Need Another AI Tool 2026-07-27 // SIGNAL DEEP-DIVE → ](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [ 41 Why Your Marketing Stack Doesn't Need Another AI Tool 2026-07-27 Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as advertised. → ](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 © 2026 MartechSignal · by Tim Christensen
 
 

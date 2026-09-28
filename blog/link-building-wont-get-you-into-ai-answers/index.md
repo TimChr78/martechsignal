@@ -122,7 +122,12 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
   "datePublished": "2026-08-25",
   "dateModified": "2026-09-26",
   "mainEntityOfPage": "https://martechsignal.com/blog/link-building-wont-get-you-into-ai-answers/",
-  "image": "https://martechsignal.com/og/link-building-wont-get-you-into-ai-answers.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/link-building-wont-get-you-into-ai-answers.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

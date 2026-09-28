@@ -36,7 +36,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 
 From $249/moDesk-reviewed
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -94,7 +94,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/brandwatch/#app",
-            "url": "https://martechsignal.com/tools/brandwatch/"
+            "name": "Brandwatch",
+            "description": "AI-powered consumer intelligence and social media management platform",
+            "image": "https://martechsignal.com/og/tools/brandwatch.png",
+            "url": "https://martechsignal.com/tools/brandwatch/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -102,7 +106,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/buffer/#app",
-            "url": "https://martechsignal.com/tools/buffer/"
+            "name": "Buffer",
+            "description": "Simple social media scheduling and analytics with AI-powered content tools",
+            "image": "https://martechsignal.com/og/tools/buffer.png",
+            "url": "https://martechsignal.com/tools/buffer/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -110,7 +118,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/hootsuite/#app",
-            "url": "https://martechsignal.com/tools/hootsuite/"
+            "name": "Hootsuite",
+            "description": "Social media management platform with AI-powered scheduling and analytics",
+            "image": "https://martechsignal.com/og/tools/hootsuite.png",
+            "url": "https://martechsignal.com/tools/hootsuite/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -118,7 +130,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/multipost-extension/#app",
-            "url": "https://martechsignal.com/tools/multipost-extension/"
+            "name": "MultiPost",
+            "description": "Browser extension to publish content to multiple social media platforms with one click",
+            "image": "https://martechsignal.com/og/tools/multipost-extension.png",
+            "url": "https://martechsignal.com/tools/multipost-extension/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -126,7 +142,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/predis-ai/#app",
-            "url": "https://martechsignal.com/tools/predis-ai/"
+            "name": "Predis.ai",
+            "description": "AI-powered social media content generator for posts, videos, and ad creatives",
+            "image": "https://martechsignal.com/og/tools/predis-ai.png",
+            "url": "https://martechsignal.com/tools/predis-ai/",
+            "@type": "SoftwareApplication"
           }
         },
         {
@@ -134,7 +154,11 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/sprout-social/#app",
-            "url": "https://martechsignal.com/tools/sprout-social/"
+            "name": "Sprout Social",
+            "description": "Enterprise social media management with AI-powered analytics and engagement tools",
+            "image": "https://martechsignal.com/og/tools/sprout-social.png",
+            "url": "https://martechsignal.com/tools/sprout-social/",
+            "@type": "SoftwareApplication"
           }
         }
       ]

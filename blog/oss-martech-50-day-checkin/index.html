@@ -58,7 +58,12 @@
   "datePublished": "2026-09-14",
   "dateModified": "2026-09-14",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-martech-50-day-checkin/",
-  "image": "https://martechsignal.com/og/oss-martech-50-day-checkin.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/oss-martech-50-day-checkin.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"
@@ -94,7 +99,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.min.css?v=a35011af">
+<link rel="stylesheet" href="/style.min.css?v=457518c8">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js?v=47eba960" defer></script>
 
@@ -124,7 +129,7 @@
   <span class="who"><b><a href="/authors/tim-christensen/" style="color:inherit;text-decoration:none;border-bottom:1px dotted var(--amber)">Tim Christensen</a></b></span>
 </div>
 
-<p class="meta filed-cat">Filed under <a href="/categories/open-source/">Open Source</a> · <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-window-at-a-glance">The window at a glance</a> · <a href="#the-crm-shelf-got-crowded">The CRM shelf got crowded</a> · <a href="#matomo-finally-moved">Matomo finally moved</a> · <a href="#n8n-treats-shipping-as-a-habit">n8n treats shipping as a habit</a> · <a href="#the-agent-layer-built-a-supply-chain">The agent layer built a supply chain</a> · <a href="#what-i-would-do-with-this">What I would do with this</a></nav>
+<p class="meta filed-cat">Filed under <a href="/categories/open-source/">Open-Source Tools</a> · <a href="/categories/workflow-automation/">Workflow Automation</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#the-window-at-a-glance">The window at a glance</a> · <a href="#the-crm-shelf-got-crowded">The CRM shelf got crowded</a> · <a href="#matomo-finally-moved">Matomo finally moved</a> · <a href="#n8n-treats-shipping-as-a-habit">n8n treats shipping as a habit</a> · <a href="#the-agent-layer-built-a-supply-chain">The agent layer built a supply chain</a> · <a href="#what-i-would-do-with-this">What I would do with this</a></nav>
 <p>Fifty days after <a href="/blog/open-source-martech-stack/">the open-source MarTech stack</a> piece, this is the first re-check: what shipped, what stalled, and where the energy went.</p>
 
 <p>The original argument was that every layer of a marketing stack, from automation to analytics to CRM, now has a self-hosted option good enough to run production work on. The reasonable response to that piece is the one I have been testing since. Stacks age. Tools stall. Maintainers burn out. So for the last 50 days (July 26 to September 14) I have been taking daily snapshots of the GitHub repos behind that piece, and this is the full check: fifty days of releases, pushes, and star movement across everything we track.</p>

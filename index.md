@@ -54,6 +54,10 @@ Marketing Automation
 
 12 tools
 
+Open-Source Tools
+
+78 tools
+
 Personalization &amp; CDP
 
 9 tools
@@ -108,7 +112,7 @@ Use the directory for shortlists. Read the pricing line before the sales page, a
 
 ## Browse by category
 
-The directory covers 13 categories. Each one lists its tools with licence, stars and a plain summary of what the tool does.
+The directory covers 14 categories. Each one lists its tools with licence, stars and a plain summary of what the tool does.
 
 [All categories](/categories/) · [Full tool directory](/tools/)
 
@@ -120,5 +124,5 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
 
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png", "width": 1200, "height": 630}, "founder": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person"}}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/", "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.", "publisher": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://martechsignal.com/#webpage", "url": "https://martechsignal.com/", "name": "MartechSignal", "isPartOf": {"@id": "https://martechsignal.com/#website"}, "about": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en", "dateModified": "2026-09-27"}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png", "width": 512, "height": 512}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"], "founder": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person"}}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/", "description": "Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.", "publisher": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en"}, {"@type": "WebPage", "@id": "https://martechsignal.com/#webpage", "url": "https://martechsignal.com/", "name": "MartechSignal", "isPartOf": {"@id": "https://martechsignal.com/#website"}, "about": {"@id": "https://martechsignal.com/#organization"}, "inLanguage": "en", "dateModified": "2026-09-27"}]}
 ```

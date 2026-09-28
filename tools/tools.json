@@ -584,7 +584,9 @@
         ]
       ]
     },
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "paid_from": 15,
+    "currency": "USD"
   },
   {
     "slug": "attio",
@@ -782,7 +784,9 @@
         ]
       ]
     },
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 98.9,
+    "currency": "USD"
   },
   {
     "slug": "bloomreach",
@@ -989,7 +993,9 @@
           "It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Google, Mistral, Groq and OpenRouter, plus a custom provider option that accepts any OpenAI-compatible base URL, which is how locally hosted models connect. Two requirements surprise people. Knowledge sources, meaning retrieval over your own documents, currently support pgvector as the only vector store and require a GEMINI_API_KEY in the environment. And the primary agent channels are Slack and Microsoft Teams, since in-app agent chat is deprecated and the Discord and Telegram channels were removed in v3.44.1."
         ]
       ]
-    }
+    },
+    "paid_from": 19,
+    "currency": "USD"
   },
   {
     "slug": "buffer",
@@ -2212,7 +2218,8 @@
       ]
     },
     "currency": "EUR",
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 12.9
   },
   {
     "slug": "eve-marketing-team",
@@ -2963,7 +2970,9 @@
     },
     "pricing_url": "https://www.idurarapp.com",
     "last_release": "4.1.1 (2026-03-16)",
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 5000,
+    "currency": "USD"
   },
   {
     "slug": "intercom",
@@ -3179,7 +3188,9 @@
         ]
       ]
     },
-    "license": "MIT"
+    "license": "MIT",
+    "paid_from": 1799,
+    "currency": "USD"
   },
   {
     "slug": "langchain",
@@ -3939,7 +3950,8 @@
       ]
     },
     "currency": "EUR",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "paid_from": 22
   },
   {
     "slug": "mautic",
@@ -4009,7 +4021,8 @@
       ]
     },
     "currency": "EUR",
-    "license": "GPL-3.0"
+    "license": "GPL-3.0",
+    "paid_from": 247.5
   },
   {
     "slug": "mixpanel",
@@ -4164,7 +4177,9 @@
       ]
     },
     "last_release": "v4.1.2 (2024-05-04); 5.0.0-beta.5 pre-release (2025-04-21)",
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 9,
+    "currency": "USD"
   },
   {
     "slug": "multipost-extension",
@@ -4419,7 +4434,9 @@
           "Yes, that is the core design: connect an external data source and NocoDB builds spreadsheet views, forms, permissions and webhooks over your existing tables. Community edition covers PostgreSQL (14 or later recommended) and MySQL (5.7 or later); SQL Server and Oracle are enterprise add-ons. Schema editing is disabled by default and the docs advise keeping it that way, so the default setup writes data without altering your tables. On NocoDB Cloud, external connections are not available on the Plus plan and require Business."
         ]
       ]
-    }
+    },
+    "paid_from": 12,
+    "currency": "USD"
   },
   {
     "slug": "northbeam",
@@ -4901,7 +4918,9 @@
     "pricing_url": "https://openseo.so/pricing",
     "founded": 2026,
     "hq": "Open source",
-    "license": "MIT"
+    "license": "MIT",
+    "paid_from": 10,
+    "currency": "USD"
   },
   {
     "slug": "opteo",
@@ -5094,7 +5113,8 @@
       ]
     },
     "currency": "EUR",
-    "license": "MIT"
+    "license": "MIT",
+    "paid_from": 10
   },
   {
     "slug": "pencil",
@@ -5769,7 +5789,9 @@
         ]
       ]
     },
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 19,
+    "currency": "USD"
   },
   {
     "slug": "resend",
@@ -6854,7 +6876,9 @@
         ]
       ]
     },
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "paid_from": 79,
+    "currency": "USD"
   },
   {
     "slug": "tray-io",

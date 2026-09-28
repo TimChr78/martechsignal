@@ -142,7 +142,12 @@ More from the directory: [Anyword](/tools/anyword/)
   "datePublished": "2026-09-08",
   "dateModified": "2026-09-13",
   "mainEntityOfPage": "https://martechsignal.com/blog/automation-blast-radius-audit/",
-  "image": "https://martechsignal.com/og/automation-blast-radius-audit.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/automation-blast-radius-audit.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

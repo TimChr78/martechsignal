@@ -54,6 +54,12 @@ End-to-end campaign orchestration and workflow automation
 
 12 tools
 
+Open-Source Tools
+
+78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.
+
+78 tools
+
 Personalization &amp; CDP
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization
@@ -78,11 +84,11 @@ No-code/low-code automation platforms and iPaaS
 
 17 tools
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## Categories
 
-All 13 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 14 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content &amp; Copywriting](/categories/content-ai/)
 
@@ -120,6 +126,10 @@ Track and improve how AI assistants mention, cite, and describe your brand. Incl
 
 End-to-end campaign orchestration and workflow automation. Includes [ActiveCampaign](/tools/activecampaign/), [Adobe Marketo Engage](/tools/adobe-marketo/), [ALwrity](/tools/alwrity/).
 
+## [Open-Source Tools](/categories/open-source/)
+
+78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor&#x27;s own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+
 ## [Personalization &amp; CDP](/categories/personalization/)
 
 Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization. Includes [Apache Unomi](/tools/apache-unomi/), [Clerk.io](/tools/clerk-io/), [Dynamic Yield](/tools/dynamic-yield/).
@@ -145,7 +155,7 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
   "@type": "CollectionPage",
   "name": "Categories",
   "url": "https://martechsignal.com/categories/",
-  "description": "All 13 tool categories in the MartechSignal directory."
+  "description": "All 14 tool categories in the MartechSignal directory."
 }
 ```
 

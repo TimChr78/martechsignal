@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
 | &#10003; AI capabilities: native AI agent support |  |
 | &#10003; Established community (1,635 GitHub stars) |  |
 
@@ -21,7 +21,7 @@
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament. It ships with native AI agent support, 1,635 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does Relaticle cost?**
-Relaticle is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 1,635 stars; native integrations cover MCP clients (Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code), REST API v1 (OpenAPI 3.1), CSV import/export. You pay in server time and maintenance, not licences.
+Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is Relaticle a good self-hosted CRM tool in 2026?**
 A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
@@ -62,7 +62,7 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 
 [More CRM Tools →](/categories/crm/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -106,7 +106,7 @@ Relaticle homepage, captured September 2026. Vendor page shown as a dated refere
 - CSV import/export
 ## Pricing
 
-Relaticle is free to self-host under the AGPL-3.0 licence.
+Relaticle is free to self-host under the AGPL-3.0 licence, paid plans start at $19/mo as of 2026-09.
 
 Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr
 
@@ -166,7 +166,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament. It ships with native AI agent support, 1,635 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-Relaticle is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 1,635 stars; native integrations cover MCP clients (Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code), REST API v1 (OpenAPI 3.1), CSV import/export. You pay in server time and maintenance, not licences.
+Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 A fast-moving, agent-friendly Laravel CRM whose AI layer outgrew our old notes: free and capable self-hosted, AGPL-3.0, PostgreSQL-only, and no longer without paid tiers.
 
@@ -209,7 +209,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-07-27"
+    "datePublished": "2026-07-27",
+    "offers": {
+      "@type": "Offer",
+      "price": 19,
+      "priceCurrency": "USD",
+      "url": "https://relaticle.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -258,7 +265,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Relaticle cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Relaticle is open source - AGPL-3.0 licensed and free to self-host; the public repository carries 1,635 stars; native integrations cover MCP clients (Claude Code, Claude Desktop, ChatGPT, Cursor, VS Code), REST API v1 (OpenAPI 3.1), CSV import/export. You pay in server time and maintenance, not licences."
+          "text": "Relaticle has a free tier; paid plans start at $19/mo. Self-hosted free (AGPL-3.0, unlimited users and records); hosted Cloud Pro $19/workspace/mo yearly ($24 monthly) with 2,000 AI credits; Enterprise from $20,000/yr. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

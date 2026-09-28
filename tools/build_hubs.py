@@ -211,7 +211,7 @@ def build():
          BEST_INTRO, _children(BESTX, "/best/")),
         ("vs", "Head-to-head comparisons",
          "Head-to-head comparisons: n8n, NocoDB and Matomo (2026)",
-         "Three head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "
+         "Eight head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "
          "and Matomo vs Plausible, built on catalog facts with a clear pick "
          "for each team.",
          VS_INTRO, _children(VSX, "/vs/")),

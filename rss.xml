@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 09:00:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 13:50:00 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them</title>
@@ -292,7 +292,7 @@
       <link>https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>// SIGNAL DEEP-DIVE</description>
+      <description>Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as advertised.</description>
     </item>
   </channel>
 </rss>

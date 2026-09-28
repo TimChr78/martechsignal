@@ -122,8 +122,8 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 - [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
@@ -173,7 +173,12 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
   "datePublished": "2026-07-29",
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
-  "image": "https://martechsignal.com/og/mcp-rewrites-the-integration-economics-of-your-marketing-stack.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/mcp-rewrites-the-integration-economics-of-your-marketing-stack.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

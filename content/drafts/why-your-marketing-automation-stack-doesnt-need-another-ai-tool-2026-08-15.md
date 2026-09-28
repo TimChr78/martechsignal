@@ -6,7 +6,7 @@ author: Tim Christensen
 tags: [recovered]
 note: "Draft reverse-built from the live page 2026-09-16 after the original was lost in the Sep 13 cleanup (never committed). Re-humanize/trim at next edit."
 ---
-// SIGNAL DEEP-DIVE
+Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as advertised.
 
 2026-07-27 · AI, MARKETING AUTOMATION, STRATEGY · [SOURCE ↗](https://martechsignal.com)
 

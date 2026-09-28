@@ -5,7 +5,7 @@ slug: iab-agentic-buying-rules-insertion-orders
 date: 2026-09-28
 author: Tim Christensen
 tags: [Digital Advertising, AI Agents, Programmatic, Standards, Measurement]
-categories: [digital-advertising]
+categories: [advertising]
 excerpt: "IAB Tech Lab standardized the step between brief and buy on Monday. Almost no ad stack can consume that standard yet, and a ChatGPT tracking test shows measurement is running ahead of the contracts too."
 ---
 

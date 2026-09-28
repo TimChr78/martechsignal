@@ -133,7 +133,12 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
   "datePublished": "2026-09-15",
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
-  "image": "https://martechsignal.com/og/claude-seo-vs-codex-seo.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/claude-seo-vs-codex-seo.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

@@ -160,8 +160,10 @@ def build():
         "specVersion": "1.0",
         # r7 H7 (2026-09-28): ARD schema requires host to be an object with
         # displayName (a bare string fails Lighthouse ard-schema validation).
-        "host": {"displayName": "MartechSignal", "url": f"https://{PUBLISHER}/"},
-        "entries": entries,
+        # r8 H11 (2026-09-28): `host` is not permitted by ard-entry.schema.json
+        # (the only Lighthouse ard-schema error), and a text/html page is not an
+        # agent-discoverable resource - pages are covered by llms.txt + the mirrors.
+        "entries": [e for e in entries if e.get("type") != "text/html"],
     }
     return manifest
 

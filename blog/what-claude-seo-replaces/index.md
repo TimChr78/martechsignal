@@ -134,7 +134,12 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "datePublished": "2026-09-16",
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/what-claude-seo-replaces/",
-  "image": "https://martechsignal.com/og/what-claude-seo-replaces.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/what-claude-seo-replaces.png",
+    "width": 1200,
+    "height": 630
+  },
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

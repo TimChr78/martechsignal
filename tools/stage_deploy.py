@@ -39,7 +39,9 @@ ALWAYS_SKIP = {".git", ".wrangler", "deploy-out", "node_modules", ".pytest_cache
 
 # If any of these is missing from the stage, the site is broken -> abort.
 REQUIRED = [
-    "index.html", "404.html", "style.css", "sitemap.xml", "robots.txt", "rss.xml",
+    # r8 L2: style.css is intentionally unpublished (orphaned pre-minify file);
+    # only style.min.css is public now.
+    "index.html", "404.html", "sitemap.xml", "robots.txt", "rss.xml",
     "categories.json", "_worker.js",
     "llms.txt", "llms-full.txt", "og.png", "_redirects", "_headers",
     "blog/index.html", "tools/index.html", "glossary/index.html",

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
+| &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $12/mo once past the free tier |
 | &#10003; AI capabilities: nocoAI prompt-based schema, table, view and formula generation (paid) |  |
 | &#10003; Established community (64,910 GitHub stars) |  |
 | &#10003; Native integrations include PostgreSQL, MySQL, SQLite (8 listed) |  |
@@ -22,7 +22,7 @@
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
 **How much does NocoDB cost?**
-NocoDB is source-available rather than open source - Free to self-host; the public repository carries 64,910 stars; native integrations cover PostgreSQL, MySQL, SQLite. Check the licence terms before commercial use.
+NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 **Is NocoDB a good self-hosted Marketing Automation tool in 2026?**
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
@@ -66,7 +66,7 @@ Open-source marketing automation platform with email, campaigns, and lead manage
 
 [More Marketing Automation Tools →](/categories/marketing-automation/)
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 - [Home](/)
 - [Tools](/tools/)
@@ -115,7 +115,7 @@ NocoDB homepage, captured September 2026. Vendor page shown as a dated reference
 - AWS SES / SMTP / MailerSend (paid App Store)
 ## Pricing
 
-NocoDB is open core: the self-hosted version is free.
+NocoDB is open core: the self-hosted version is free, paid plans start at $12/mo as of 2026-09.
 
 Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom.
 
@@ -173,7 +173,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. It ships with nocoAI prompt-based schema, table, view and formula generation (paid), 64,910 GitHub stars. MartechSignal&#x27;s review covers features, pricing, and how it compares to alternatives.
 
-NocoDB is source-available rather than open source - Free to self-host; the public repository carries 64,910 stars; native integrations cover PostgreSQL, MySQL, SQLite. Check the licence terms before commercial use.
+NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
 
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
 
@@ -188,7 +188,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
@@ -218,7 +218,14 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-09-05"
+    "datePublished": "2026-09-05",
+    "offers": {
+      "@type": "Offer",
+      "price": 12,
+      "priceCurrency": "USD",
+      "url": "https://nocodb.com/pricing",
+      "priceValidUntil": "2026-12-31"
+    }
   },
   {
     "@context": "https://schema.org",
@@ -267,7 +274,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does NocoDB cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "NocoDB is source-available rather than open source - Free to self-host; the public repository carries 64,910 stars; native integrations cover PostgreSQL, MySQL, SQLite. Check the licence terms before commercial use."
+          "text": "NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
         }
       },
       {

@@ -20,7 +20,7 @@
 - **Pick NocoDB if:** Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
 - **Pick NocoBase if:** Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
 
-[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
+[HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
 ## NocoDB vs NocoBase (2026): spreadsheet layer or system builder
 
@@ -97,7 +97,7 @@ One email when a new tool review lands, nothing else.
 [
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
+    "@type": "Article",
     "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/#webpage",
     "datePublished": "2026-09-26",
     "dateModified": "2026-09-27",

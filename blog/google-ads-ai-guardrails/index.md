@@ -137,7 +137,12 @@ More from the directory: [Madgicx](/tools/madgicx/)
   "datePublished": "2026-09-24",
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ads-ai-guardrails/",
-  "image": "https://martechsignal.com/og/google-ads-ai-guardrails.png",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://martechsignal.com/og/google-ads-ai-guardrails.png",
+    "width": 1200,
+    "height": 630
+  },
   "citation": [
     {
       "@type": "CreativeWork",
