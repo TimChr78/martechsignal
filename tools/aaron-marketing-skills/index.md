@@ -1,6 +1,16 @@
 # Aaron Marketing Skills pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free under Apache 2.0 with nothing else to buy (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | 120 skills across 7 disciplines with 6 auditor gates (CORE-EEAT, CITE, C3, ROAS, SEND and RAM) gating outputs (tools.json ai_features). |
+| Integrations | 4/10 | Claude Code, Codex, Gemini CLI and Cursor documented as harnesses (tools.json). |
+| AI capability | 6/10 | Auditor gates over generated work are quality machinery most skill packs lack (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 with 2.8k GitHub stars and full source (tools.json). |
+| Operational maturity | 4/10 | Founded 2025 at 2.8k stars; community-run with no company behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Aaron Marketing Skills &#8594;](https://github.com/aaron-he-zhu/aaron-marketing-skills)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+Aaron&#x27;s 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2.8k stars make it the most adopted skill pack in this group.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -230,6 +244,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2.8k stars make it the most adopted skill pack in this group.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/aaron-marketing-skills/#app",
+      "name": "Aaron Marketing Skills",
+      "url": "https://martechsignal.com/tools/aaron-marketing-skills/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

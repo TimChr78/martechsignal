@@ -85,7 +85,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Customer.io is the data-driven messaging choice with an AI agent that actually executes: LLM actions in journeys and MCP access to ChatGPT and Claude. Pricing is published per tier with itemized overages, which rarer than it should be.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

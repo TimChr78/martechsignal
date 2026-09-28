@@ -1,6 +1,16 @@
 # Google Ads + Meta Ads + GA4 MCP pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (tools.json ai_features). |
+| Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (tools.json). |
+| AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (tools.json ai_features). |
+| Openness | 8/10 | MIT-licensed with 1.7k GitHub stars and a self-hostable server (tools.json). |
+| Operational maturity | 4/10 | Founded 2026 at 1.7k stars with a hosted service forming behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -78,7 +88,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Google Ads + Meta Ads + GA4 MCP &#8594;](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 41/60
+
+This MCP server gives agents read/write control of Google Ads, Meta Ads and GA4 through 250+ tools. The repo is MIT; the hosted endpoint is the business model, so self-host if that matters.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -290,6 +304,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "This MCP server gives agents read/write control of Google Ads, Meta Ads and GA4 through 250+ tools. The repo is MIT; the hosted endpoint is the business model, so self-host if that matters.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
+      "name": "Google Ads + Meta Ads + GA4 MCP",
+      "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 41,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

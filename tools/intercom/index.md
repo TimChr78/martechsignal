@@ -86,7 +86,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Intercom&#x27;s Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

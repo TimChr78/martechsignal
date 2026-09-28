@@ -1,6 +1,16 @@
 # ManyChat review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (tools.json ai_features). |
+| Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (tools.json). |
+| AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 7/10 | Founded 2015 with the category&#x27;s largest consumer-messaging install base (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI flow builder | &#10007; Paid plans start at $14/mo once past the free tier |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ManyChat &#8594;](https://manychat.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+ManyChat is the chat marketing standard for Instagram and WhatsApp, and $14/mo is hard to argue with. If your audience lives in DMs, this is the shortest path.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -232,6 +246,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ManyChat is the chat marketing standard for Instagram and WhatsApp, and $14/mo is hard to argue with. If your audience lives in DMs, this is the shortest path.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/manychat/#app",
+      "name": "ManyChat",
+      "url": "https://martechsignal.com/tools/manychat/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

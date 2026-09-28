@@ -79,7 +79,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Tealium is the enterprise data layer: tag management and a CDP with governance built in. Annual contracts and custom pricing fit the regulated part of the market it was built for.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

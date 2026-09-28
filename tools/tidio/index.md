@@ -1,6 +1,16 @@
 # Tidio review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (tools.json deep_dive). |
+| Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (tools.json). |
+| AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product&#x27;s AI center (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: lyro AI agent | &#10007; Paid plans start at $24/mo once past the free tier |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Tidio &#8594;](https://www.tidio.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Tidio pairs live chat with Lyro, an AI agent you can meter by add-on. The free plan and $24 entry make it the small-team default this year.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Tidio pairs live chat with Lyro, an AI agent you can meter by add-on. The free plan and $24 entry make it the small-team default this year.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/tidio/#app",
+      "name": "Tidio",
+      "url": "https://martechsignal.com/tools/tidio/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

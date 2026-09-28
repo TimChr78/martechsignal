@@ -81,7 +81,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Marketo Engage is still the B2B automation engine of record for enterprises, now with predictive scoring bolted to every stage. Annual contracts and package pricing mean the real number arrives after procurement.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

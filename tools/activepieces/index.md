@@ -1,6 +1,16 @@
 # Activepieces review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (tools.json ai_features). |
+| Integrations | 5/10 | Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (tools.json). |
+| AI capability | 6/10 | Chat-to-automation building with AI agents and BYO keys keeps model costs yours (tools.json ai_features). |
+| Openness | 8/10 | Open-source with self-hosting parity and flat cloud pricing (tools.json). |
+| Operational maturity | 5/10 | Priced self-serve with flat tiers and no founding year in the catalog (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $20/mo once past the free tier |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Activepieces &#8594;](https://www.activepieces.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Activepieces is the automation platform priced in flat dollars: $20/mo for 10,000 credits and your own AI keys. The free tier and open positioning make it the anti-Zapier that actually ships.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -222,6 +236,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Activepieces is the automation platform priced in flat dollars: $20/mo for 10,000 credits and your own AI keys. The free tier and open positioning make it the anti-Zapier that actually ships.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/activepieces/#app",
+      "name": "Activepieces",
+      "url": "https://martechsignal.com/tools/activepieces/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

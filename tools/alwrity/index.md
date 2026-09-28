@@ -1,6 +1,16 @@
 # ALwrity review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (tools.json ai_features). |
+| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
+| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform&#x27;s core claims (tools.json ai_features). |
+| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (tools.json). |
+| Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ALwrity &#8594;](https://alwrity.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+ALwrity wants to be the whole AI marketing platform and says WIP in its own pricing notes. Treat it as a promising codebase to watch rather than a dependency.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -223,6 +237,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ALwrity wants to be the whole AI marketing platform and says WIP in its own pricing notes. Treat it as a promising codebase to watch rather than a dependency.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/alwrity/#app",
+      "name": "ALwrity",
+      "url": "https://martechsignal.com/tools/alwrity/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

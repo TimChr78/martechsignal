@@ -1,6 +1,16 @@
 # Claude Ads review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (tools.json ai_features). |
+| Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (tools.json). |
+| AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 9.1k GitHub stars and runs in your own harness (tools.json). |
+| Operational maturity | 5/10 | Founded 2025 at 9.1k stars; adoption is fast and history is short (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -66,7 +76,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Claude Ads &#8594;](https://github.com/AgriciDaniel/claude-ads)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 46/60
+
+Claude Ads is paid-media operations as a skill: 250+ audit checks across 12 platforms running inside Claude Code. MIT-licensed; your only cost is the model API bill.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Claude Ads is paid-media operations as a skill: 250+ audit checks across 12 platforms running inside Claude Code. MIT-licensed; your only cost is the model API bill.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/claude-ads/#app",
+      "name": "Claude Ads",
+      "url": "https://martechsignal.com/tools/claude-ads/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 46,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

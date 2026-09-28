@@ -81,7 +81,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

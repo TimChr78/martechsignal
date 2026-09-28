@@ -90,7 +90,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 advertools is a pandas-first analyst&#x27;s toolkit, and the new Claude SERP module shows where it is heading. If your team does not write Python, this shelf is closed to you.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

@@ -30,7 +30,8 @@
         }
       },
       "verdict": "A serious self-hosted construction kit whose pricing page is unusually concrete, with real edition prices and a free unlimited community tier. The weak spots sit outside the core: thin marketing connectors and a license whose supplementary terms limit how far the open source label stretches.",
-      "score_total": 42
+      "score_total": 42,
+      "scored": "2026-09-26"
     },
     {
       "slug": "segment",
@@ -61,7 +62,8 @@
         }
       },
       "verdict": "The developer-first CDP with the widest countable destination catalog and unusually good documentation, priced so the parts that differentiate it sit above the self-serve tiers. Buyers get a strong pipeline at 120 USD a month and must contract for governance, identity resolution and activation.",
-      "score_total": 46
+      "score_total": 46,
+      "scored": "2026-09-26"
     },
     {
       "slug": "hubspot-crm",
@@ -92,7 +94,8 @@
         }
       },
       "verdict": "The default free entry CRM, strong on time-to-value and now stacking AI features and agents onto the same platform. Costs escalate quickly once workflows and higher limits are needed, and the all-in-one design deepens single-vendor lock-in.",
-      "score_total": 47
+      "score_total": 47,
+      "scored": "2026-09-26"
     },
     {
       "slug": "matomo",
@@ -123,7 +126,8 @@
         }
       },
       "verdict": "The pick when analytics data residency is a requirement rather than a preference, with an open core and a real premium plugin business behind it. Budget both operations time for self-hosting and plugin fees for the headline behavioral features.",
-      "score_total": 49
+      "score_total": 49,
+      "scored": "2026-09-26"
     },
     {
       "slug": "nocodb",
@@ -154,7 +158,8 @@
         }
       },
       "verdict": "The shortest self-hosted route from spreadsheet sprawl to permissioned, API-covered bases over a database you own, with pricing that is fully visible. The license is fair-code rather than open source, and the features teams often want most, AI fields and advanced views, are paid.",
-      "score_total": 45
+      "score_total": 45,
+      "scored": "2026-09-26"
     },
     {
       "slug": "umami",
@@ -185,7 +190,8 @@
         }
       },
       "verdict": "Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.",
-      "score_total": 40
+      "score_total": 40,
+      "scored": "2026-09-26"
     },
     {
       "slug": "claude-seo",
@@ -216,7 +222,8 @@
         }
       },
       "verdict": "A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.",
-      "score_total": 43
+      "score_total": 43,
+      "scored": "2026-09-26"
     },
     {
       "slug": "n8n",
@@ -247,7 +254,8 @@
         }
       },
       "verdict": "The strongest overall score in this batch: owned automation with code-level control, huge integration breadth, published plan limits and a real AI agent surface. The cost is maintenance and a learning curve, and the fair-code license is not open source in the OSI sense.",
-      "score_total": 52
+      "score_total": 52,
+      "scored": "2026-09-26"
     },
     {
       "slug": "dolibarr",
@@ -278,7 +286,8 @@
         }
       },
       "verdict": "The pragmatic small-organization ERP/CRM: enable the modules you need, keep it for decades, and pay nothing for the core. Campaign automation is not the job here, and the interface and reporting show the project's age.",
-      "score_total": 44
+      "score_total": 44,
+      "scored": "2026-09-26"
     },
     {
       "slug": "alphone",
@@ -309,7 +318,8 @@
         }
       },
       "verdict": "An API-first CRM designed to be driven by n8n and AI agents, with MCP support that older CRMs lack. It is early: thin features, a small community and a split license that rules out resale, so judge it as a foundation rather than a finished product.",
-      "score_total": 29
+      "score_total": 29,
+      "scored": "2026-09-26"
     }
   ]
 }

@@ -1,6 +1,16 @@
 # BillionMail review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (tools.json deep_dive). |
+| Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (tools.json). |
+| AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (tools.json). |
+| Operational maturity | 4/10 | Founded 2025 at 15.6k stars with an optional deployment service (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit BillionMail &#8594;](https://www.billionmail.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+BillionMail is the full self-hosted mail stack: Postfix, Dovecot and a newsletter UI under AGPL, free with no cloud tier at all. Bring deliverability knowledge or pay someone who has it.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -289,6 +303,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "BillionMail is the full self-hosted mail stack: Postfix, Dovecot and a newsletter UI under AGPL, free with no cloud tier at all. Bring deliverability knowledge or pay someone who has it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/billionmail/#app",
+      "name": "BillionMail",
+      "url": "https://martechsignal.com/tools/billionmail/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

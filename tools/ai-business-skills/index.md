@@ -1,6 +1,16 @@
 # AI Business Skills pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free under MIT with nothing to price (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (tools.json ai_features). |
+| Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (tools.json). |
+| AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 572 GitHub stars and full source (tools.json). |
+| Operational maturity | 3/10 | Founded 2025 at 572 stars; niche and young (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+AI Business Skills is the bilingual pack: 63 skills split Vietnamese and Global with local benchmarks. Niche by design, and the strongest choice for Vietnam-market work.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -226,6 +240,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "AI Business Skills is the bilingual pack: 63 skills split Vietnamese and Global with local benchmarks. Niche by design, and the strongest choice for Vietnam-market work.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/ai-business-skills/#app",
+      "name": "AI Business Skills",
+      "url": "https://martechsignal.com/tools/ai-business-skills/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

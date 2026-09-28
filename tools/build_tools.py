@@ -738,7 +738,7 @@ def _score_band(t):
         '<div class="table-wrap" style="margin:.75rem 0"><table>'
         '<thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>'
         '<tbody>' + rows + '</tbody></table></div>'
-        '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored 2026-09-26 '
+        '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored ' + esc(rec.get("scored", "2026-09-26")) + ' '
         'against our published rubric: six pillars, 0-10 each. ' + (
             'This is our own tool, scored from running it in our benchmark suite and four '
             'production audit cycles. Per our review policy we do not publish first-party '

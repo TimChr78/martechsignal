@@ -1,6 +1,16 @@
 # Appsmith review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (tools.json deep_dive). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (tools.json). |
+| AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (tools.json ai_features). |
+| Openness | 8/10 | Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (tools.json). |
+| Operational maturity | 7/10 | 40.8k stars with priced cloud tiers and an enterprise edition (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Appsmith &#8594;](https://appsmith.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Appsmith is how internal tools get built in a week: 40.8k stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -298,6 +312,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Appsmith is how internal tools get built in a week: 40.8k stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/appsmith/#app",
+      "name": "Appsmith",
+      "url": "https://martechsignal.com/tools/appsmith/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Budibase review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (tools.json ai_features). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (tools.json). |
+| AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (tools.json ai_features). |
+| Openness | 8/10 | GPLv3 core with 28.3k GitHub stars and a BSL pro folder kept separate (tools.json). |
+| Operational maturity | 6/10 | 28.3k stars with priced cloud tiers and beta-quality agent features shipping fast (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Budibase &#8594;](https://budibase.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Budibase is the open-source operations platform where AI agents, apps and automations meet your own data. The self-hosted free tier is unusually complete: unlimited everything in one workspace.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -300,6 +314,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Budibase is the open-source operations platform where AI agents, apps and automations meet your own data. The self-hosted free tier is unusually complete: unlimited everything in one workspace.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/budibase/#app",
+      "name": "Budibase",
+      "url": "https://martechsignal.com/tools/budibase/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

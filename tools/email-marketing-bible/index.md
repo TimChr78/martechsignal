@@ -1,6 +1,16 @@
 # Email Marketing Bible pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open source with no tiers to price (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (tools.json ai_features). |
+| Integrations | 6/10 | Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (tools.json). |
+| AI capability | 6/10 | AI copy drafting with anti-slop rules and agent-native playbooks (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 291 GitHub stars and 908 cited sources (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 291 stars; a young project with a large knowledge artifact (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (291 GitHub stars) - smaller community and plugin ecosystem |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+Email Marketing Bible is a knowledge product as much as a tool: 55K words from 908 sources with ESP control on top. The sourcing discipline is the differentiator.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -238,6 +252,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Email Marketing Bible is a knowledge product as much as a tool: 55K words from 908 sources with ESP control on top. The sourcing discipline is the differentiator.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
+      "name": "Email Marketing Bible",
+      "url": "https://martechsignal.com/tools/email-marketing-bible/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

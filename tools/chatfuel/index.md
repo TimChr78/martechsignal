@@ -1,6 +1,16 @@
 # Chatfuel review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (tools.json ai_features). |
+| Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (tools.json). |
+| AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2015 with priced tiers and a trial that runs on its own (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI chatbot builder | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Chatfuel &#8594;](https://chatfuel.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Chatfuel is messaging-channel automation with AI flows that behave like sales scripts. No free plan keeps the queue short and the expectations high.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -231,6 +245,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Chatfuel is messaging-channel automation with AI flows that behave like sales scripts. No free plan keeps the queue short and the expectations high.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/chatfuel/#app",
+      "name": "Chatfuel",
+      "url": "https://martechsignal.com/tools/chatfuel/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -91,7 +91,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

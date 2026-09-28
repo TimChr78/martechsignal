@@ -1,6 +1,16 @@
 # ChatbotX review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (tools.json ai_features). |
+| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
+| AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (tools.json ai_features). |
+| Openness | 8/10 | Open-source self-hosted with 746 GitHub stars and full code access (tools.json). |
+| Operational maturity | 3/10 | 746 stars with no company or founding year in the catalog (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -64,7 +74,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ChatbotX &#8594;](https://chatbotx.io/docs)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -216,6 +230,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/chatbotx/#app",
+      "name": "ChatbotX",
+      "url": "https://martechsignal.com/tools/chatbotx/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

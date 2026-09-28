@@ -1,6 +1,16 @@
 # Attribution review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Custom enterprise pricing with a demo required and no public numbers (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (tools.json ai_features). |
+| Integrations | 6/10 | Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (tools.json). |
+| AI capability | 5/10 | AI attribution and channel analysis serve the measurement loop (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS (tools.json). |
+| Operational maturity | 6/10 | Founded 2016 with focused attribution deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI multi-touch attribution | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Attribution &#8594;](https://www.attributionapp.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 27/60
+
+Attribution does one hard thing: connect ad spend to revenue across B2B and DTC. Custom pricing and a demo gate mean the sales process is part of the product experience.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -227,6 +241,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Attribution does one hard thing: connect ad spend to revenue across B2B and DTC. Custom pricing and a demo gate mean the sales process is part of the product experience.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/attribution/#app",
+      "name": "Attribution",
+      "url": "https://martechsignal.com/tools/attribution/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 27,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

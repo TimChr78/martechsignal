@@ -79,7 +79,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 MultiPost is a browser extension that does one thing: publish to many platforms from where you already write. Free, Apache-2.0, and small enough to read before installing.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 

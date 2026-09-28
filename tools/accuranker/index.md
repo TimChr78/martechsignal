@@ -1,6 +1,16 @@
 # AccuRanker review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Professional EUR 224/mo (2,000 keywords) and Expert EUR 764/mo (10K to 25K) published with slot counts per tier (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Daily rank tracking with AccuLLM mentions, citations and sentiment across four AI surfaces (tools.json ai_features). |
+| Integrations | 6/10 | Search Console, GA, BigQuery, Looker Studio plus API and MCP documented (tools.json). |
+| AI capability | 5/10 | AccuLLM adds brand mentions, citations and sentiment on the classic ranker (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (tools.json). |
+| Operational maturity | 6/10 | Established rank tracker with published EUR tiers and enterprise keyword volumes (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: accuLLM: brand mentions, citations, sentiment scoring and competitor benchmarks in ChatGPT, Perplexity, AI Overviews and AI Mode | &#10007; Closed source - no self-hosting option |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit AccuRanker &#8594;](https://www.accuranker.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+AccuRanker is daily rank tracking that bolted LLM visibility on as AccuLLM. The keyword-slot tiers are concrete; the question is whether rank tracking or AI visibility is your actual problem.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -259,6 +273,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "AccuRanker is daily rank tracking that bolted LLM visibility on as AccuLLM. The keyword-slot tiers are concrete; the question is whether rank tracking or AI visibility is your actual problem.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/accuranker/#app",
+      "name": "AccuRanker",
+      "url": "https://martechsignal.com/tools/accuranker/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

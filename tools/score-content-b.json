@@ -2,6 +2,70 @@
   "rubric_version": "1.0",
   "tools": [
     {
+      "slug": "aaron-marketing-skills",
+      "score_total": 40,
+      "verdict": "Aaron's 120 skills come with six auditor gates, which is the interesting part: outputs get checked before they ship. Apache-2.0 and 2.8k stars make it the most adopted skill pack in this group.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free under Apache 2.0 with nothing else to buy (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "120 skills across 7 disciplines with 6 auditor gates (CORE-EEAT, CITE, C3, ROAS, SEND and RAM) gating outputs (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Claude Code, Codex, Gemini CLI and Cursor documented as harnesses (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Auditor gates over generated work are quality machinery most skill packs lack (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 with 2.8k GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 at 2.8k stars; community-run with no company behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "accuranker",
+      "score_total": 33,
+      "verdict": "AccuRanker is daily rank tracking that bolted LLM visibility on as AccuLLM. The keyword-slot tiers are concrete; the question is whether rank tracking or AI visibility is your actual problem.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Professional EUR 224/mo (2,000 keywords) and Expert EUR 764/mo (10K to 25K) published with slot counts per tier (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Daily rank tracking with AccuLLM mentions, citations and sentiment across four AI surfaces (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Search Console, GA, BigQuery, Looker Studio plus API and MCP documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AccuLLM adds brand mentions, citations and sentiment on the classic ranker (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API and MCP access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Established rank tracker with published EUR tiers and enterprise keyword volumes (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "activecampaign",
       "score_total": 40,
       "verdict": "ActiveCampaign is the SMB automation buy that keeps its pricing honest: four published tiers from $15/mo. The AI is practical rather than theatrical, and the 2003 track record shows in the deliverability tooling.",
@@ -30,7 +94,40 @@
           "score": 8,
           "evidence": "Founded 2003 with two decades of email operations behind the product (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "activepieces",
+      "score_total": 39,
+      "verdict": "Activepieces is the automation platform priced in flat dollars: $20/mo for 10,000 credits and your own AI keys. The free tier and open positioning make it the anti-Zapier that actually ships.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Chat-to-automation building with AI agents and BYO keys keeps model costs yours (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "Open-source with self-hosting parity and flat cloud pricing (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Priced self-serve with flat tiers and no founding year in the catalog (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "adcreative-ai",
@@ -61,7 +158,8 @@
           "score": 5,
           "evidence": "Founded 2021 with self-serve pricing and a wide trial funnel (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "adobe-llm-optimizer",
@@ -92,7 +190,8 @@
           "score": 8,
           "evidence": "Founded 2025 but built by Adobe inside Experience Cloud, inheriting its enterprise support and compliance machinery (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "adobe-marketo",
@@ -123,7 +222,8 @@
           "score": 9,
           "evidence": "Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "advertools",
@@ -154,7 +254,8 @@
           "score": 5,
           "evidence": "Community-maintained at 1.5k stars with steady releases (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "ahrefs",
@@ -185,7 +286,40 @@
           "score": 9,
           "evidence": "One of the longest-running SEO data vendors with published tiers and a public roadmap (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "ai-business-skills",
+      "score_total": 34,
+      "verdict": "AI Business Skills is the bilingual pack: 63 skills split Vietnamese and Global with local benchmarks. Niche by design, and the strongest choice for Vietnam-market work.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free under MIT with nothing to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Claude Code, OpenCode, Codex and VS Code documented as harnesses (tools.json)."
+        },
+        "ai_capability": {
+          "score": 4,
+          "evidence": "Skill definitions for agents with avatar generation; no runtime intelligence of its own (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 572 GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2025 at 572 stars; niche and young (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "albert-ai",
@@ -216,7 +350,40 @@
           "score": 7,
           "evidence": "Founded 2012 with enterprise autonomy deployments behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "alwrity",
+      "score_total": 32,
+      "verdict": "ALwrity wants to be the whole AI marketing platform and says WIP in its own pricing notes. Treat it as a promising codebase to watch rather than a dependency.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free open-source and self-hosted with nothing to price, and honest WIP labeling (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Content strategy, generation, SEO and social coverage promise the full platform at draft quality (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Multimodal generation and AI strategy planning are the platform's core claims (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "Open-source self-hosted with 1.2k GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "1.2k stars and a self-declared WIP state (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "amplitude",
@@ -247,7 +414,40 @@
           "score": 8,
           "evidence": "Founded 2012 and publicly listed with enterprise analytics deployments behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "analytics-tracking-automation",
+      "score_total": 34,
+      "verdict": "This npm skill does the unglamorous work: GA4 event schemas and GTM-ready output with verification. Small, free, and useful exactly once per site.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free under Apache 2.0, npm-based, nothing to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "GA4, Google Tag Manager, Cursor, Codex and Shopify documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 4,
+          "evidence": "Agent-run tracking design is the whole scope by design (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 with 136 GitHub stars and readable source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2025 at 136 stars; a focused small project (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "anyword",
@@ -278,7 +478,168 @@
           "score": 6,
           "evidence": "Founded 2019 with priced tiers and a trial that runs without a call (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "apache-unomi",
+      "score_total": 36,
+      "verdict": "Apache Unomi is the neutral CDP: Apache-governed, self-hosted, and no vendor upsell anywhere. What you save in licensing you spend in engineering.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free self-hosted Apache project with no commercial cloud tier to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Profile unification, segmentation and personalization rules cover the CDP baseline (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Karaf, Elasticsearch, MongoDB and GraphQL documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 10,
+          "evidence": "Apache-2.0 under Apache Foundation governance with 375 GitHub stars (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Apache Foundation project status gives it institutional durability (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "appsmith",
+      "score_total": 39,
+      "verdict": "Appsmith is how internal tools get built in a week: 40.8k stars of admin-panel plumbing over your own databases. The AI assist is an editor convenience, and its first datasource is already deprecated.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "40.8k stars with priced cloud tiers and an enterprise edition (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "attio",
+      "score_total": 37,
+      "verdict": "Attio is the AI-native CRM rebuild: enrichment, drafting and agentic workflows over a modern data model. Priced per seat from free to custom, it is the CRM choice for teams starting fresh.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Real-time enrichment and agentic workflows are the product's architecture, not add-ons (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2019 with priced tiers and a fast-moving product cycle (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "attribution",
+      "score_total": 27,
+      "verdict": "Attribution does one hard thing: connect ad spend to revenue across B2B and DTC. Custom pricing and a demo gate mean the sales process is part of the product experience.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Custom enterprise pricing with a demo required and no public numbers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI attribution and channel analysis serve the measurement loop (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2016 with focused attribution deployments (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "billionmail",
+      "score_total": 39,
+      "verdict": "BillionMail is the full self-hosted mail stack: Postfix, Dovecot and a newsletter UI under AGPL, free with no cloud tier at all. Bring deliverability knowledge or pay someone who has it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "BYO-model template generation with six named model vendors and website profiling for brand-aware output (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 at 15.6k stars with an optional deployment service (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "bloomreach",
@@ -309,7 +670,8 @@
           "score": 8,
           "evidence": "Founded 2009 with enterprise modules and the support model that tier implies (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "brandwatch",
@@ -340,7 +702,8 @@
           "score": 8,
           "evidence": "Founded 2008 with research-grade data history and enterprise contracts (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "braze",
@@ -371,7 +734,40 @@
           "score": 8,
           "evidence": "Founded 2011 and publicly listed with enterprise SLAs behind every deployment (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "budibase",
+      "score_total": 42,
+      "verdict": "Budibase is the open-source operations platform where AI agents, apps and automations meet your own data. The self-hosted free tier is unusually complete: unlimited everything in one workspace.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Apps, automations and AI agents over your databases cover the internal operations platform job (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI agents with tools, memory and structured outputs, model-agnostic across seven providers (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "GPLv3 core with 28.3k GitHub stars and a BSL pro folder kept separate (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "28.3k stars with priced cloud tiers and beta-quality agent features shipping fast (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "buffer",
@@ -402,7 +798,72 @@
           "score": 7,
           "evidence": "Founded 2010 with fifteen years of self-serve operations (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "chatbotx",
+      "score_total": 31,
+      "verdict": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free open-source and self-hosted with nothing to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Agentic AI chat marketing is the thesis of the project rather than a feature (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "Open-source self-hosted with 746 GitHub stars and full code access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "746 stars with no company or founding year in the catalog (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "chatfuel",
+      "score_total": 31,
+      "verdict": "Chatfuel is messaging-channel automation with AI flows that behave like sales scripts. No free plan keeps the queue short and the expectations high.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "From $39/mo with AI PRO at $69/mo and usage-based tiers published; a free trial replaces the free plan (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Conversation flows, lead capture and analytics cover the messaging automation loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI flow building and auto-replies automate conversations without full autonomy (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2015 with priced tiers and a trial that runs on its own (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "chatwoot",
@@ -433,7 +894,72 @@
           "score": 6,
           "evidence": "Founded 2019 with a large self-hosted base and priced cloud tiers (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "claude-ads",
+      "score_total": 46,
+      "verdict": "Claude Ads is paid-media operations as a skill: 250+ audit checks across 12 platforms running inside Claude Code. MIT-licensed; your only cost is the model API bill.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under MIT with only Claude API costs to account for, stated plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Parallel subagent account audits with confidence scoring are native-agent architecture (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 9.1k GitHub stars and runs in your own harness (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2025 at 9.1k stars; adoption is fast and history is short (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "clearscope",
+      "score_total": 32,
+      "verdict": "Clearscope is the content grading standard SEO teams already know, with 20 AI drafts folded into the price. The grading model is the moat; the drafts are table stakes.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI grading and draft generation built on years of content performance data (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2017 with a settled place in SEO team workflows (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "clerk-io",
@@ -464,7 +990,40 @@
           "score": 6,
           "evidence": "Founded 2011 with published entry pricing and monthly-to-yearly contracts (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "codex-seo",
+      "score_total": 34,
+      "verdict": "Codex SEO is a serious free skill suite: 26 workflows, 24 agent profiles and real API integrations. The proprietary courtesy licence means free today and unknowable later.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "Free and source-visible but under a proprietary courtesy licence, not OSS (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 at 694 stars under a solo author's licence (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "copy-ai",
@@ -495,7 +1054,8 @@
           "score": 6,
           "evidence": "Founded 2020 with one of the category's largest free user bases (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "cordys-crm",
@@ -526,7 +1086,8 @@
           "score": 4,
           "evidence": "Founded 2025 with 2.7k stars; enterprise subscriptions exist but the history is short (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "customer-io",
@@ -557,7 +1118,8 @@
           "score": 7,
           "evidence": "Founded 2012 with priced tiers, published overages and a mature developer reputation (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "django-crm",
@@ -588,7 +1150,8 @@
           "score": 4,
           "evidence": "Community-run at 2.4k stars with one managed-hosting vendor behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "dynamic-yield",
@@ -619,7 +1182,40 @@
           "score": 8,
           "evidence": "Founded 2011 with enterprise commerce deployments and now card-network backing (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "email-marketing-bible",
+      "score_total": 40,
+      "verdict": "Email Marketing Bible is a knowledge product as much as a tool: 55K words from 908 sources with ESP control on top. The sourcing discipline is the differentiator.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free and open source with no tiers to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI copy drafting with anti-slop rules and agent-native playbooks (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 291 GitHub stars and 908 cited sources (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 291 stars; a young project with a large knowledge artifact (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "espocrm",
@@ -650,7 +1246,40 @@
           "score": 7,
           "evidence": "Shipping since 2011 with paid extension support; a long track record for a project this size (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "eve-marketing-team",
+      "score_total": 38,
+      "verdict": "Eve's marketing team template is five specialist agents behind one lead, sharing a brand context document. MIT-licensed on eve.dev; you pay for models and connectors only.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "A coordinated multi-agent team reading one brand context document is real orchestration (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 435 GitHub stars and your own deployment on Vercel (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 435 stars; early template with a platform forming around it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "evertune",
@@ -681,7 +1310,8 @@
           "score": 5,
           "evidence": "Founded 2024 with enterprise onboarding sessions in the plan; the operational history is short (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "flagsmith",
@@ -712,7 +1342,8 @@
           "score": 6,
           "evidence": "Commercial backing behind the OSS core with priced cloud tiers (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "frappe-crm",
@@ -743,7 +1374,40 @@
           "score": 6,
           "evidence": "Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (tools.json deep_dive)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "google-meta-ads-ga4-mcp",
+      "score_total": 41,
+      "verdict": "This MCP server gives agents read/write control of Google Ads, Meta Ads and GA4 through 250+ tools. The repo is MIT; the hosted endpoint is the business model, so self-host if that matters.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Natural-language campaign creation and pausing through MCP is the documented agent workflow (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "MIT-licensed with 1.7k GitHub stars and a self-hostable server (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2026 at 1.7k stars with a hosted service forming behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "growthbook",
@@ -774,7 +1438,8 @@
           "score": 6,
           "evidence": "Founded 2020 with a commercial entity behind the open core (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "heap",
@@ -805,7 +1470,8 @@
           "score": 7,
           "evidence": "Founded 2013 with enterprise analytics deployments behind the autocapture pitch (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "hootsuite",
@@ -836,7 +1502,8 @@
           "score": 8,
           "evidence": "Founded 2008 with the category's longest enterprise social track record (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "hubspot-marketing-hub",
@@ -867,7 +1534,8 @@
           "score": 9,
           "evidence": "Founded 2006 with a public company's support and status infrastructure (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "hypotenuse-ai",
@@ -898,7 +1566,8 @@
           "score": 5,
           "evidence": "Founded 2020 with one published tier and an enterprise option (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "intercom",
@@ -929,7 +1598,8 @@
           "score": 8,
           "evidence": "Founded 2011 with enterprise service deployments and public price honesty (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "jasper",
@@ -960,7 +1630,8 @@
           "score": 6,
           "evidence": "Founded 2021 with priced self-serve tiers and a large user base behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "jitsu",
@@ -991,7 +1662,8 @@
           "score": 5,
           "evidence": "Founded 2020 with 5.1k stars and a small commercial operation (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "klaviyo",
@@ -1022,7 +1694,8 @@
           "score": 8,
           "evidence": "Founded 2012 and publicly listed with the ecommerce track record brands price in (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "krayin-crm",
@@ -1053,7 +1726,8 @@
           "score": 6,
           "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "madgicx",
@@ -1084,7 +1758,8 @@
           "score": 5,
           "evidence": "Priced self-serve with a spend calculator but no founding year in the catalog (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "mailchimp",
@@ -1115,7 +1790,8 @@
           "score": 9,
           "evidence": "Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "make",
@@ -1146,7 +1822,40 @@
           "score": 8,
           "evidence": "Founded 2012 and now inside Celonis, with the operational weight that implies (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "manychat",
+      "score_total": 35,
+      "verdict": "ManyChat is the chat marketing standard for Instagram and WhatsApp, and $14/mo is hard to argue with. If your audience lives in DMs, this is the shortest path.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI flow building, keyword triggers and auto-replies serve the DM workflow (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2015 with the category's largest consumer-messaging install base (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "mixpanel",
@@ -1177,7 +1886,8 @@
           "score": 8,
           "evidence": "Founded 2009 with a long self-serve history and transparent pricing machinery (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "monica",
@@ -1208,7 +1918,8 @@
           "score": 6,
           "evidence": "25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "multipost-extension",
@@ -1239,7 +1950,8 @@
           "score": 4,
           "evidence": "Community-maintained at 3.3k stars with no company behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "nimt-ai",
@@ -1270,7 +1982,8 @@
           "score": 4,
           "evidence": "Young product with no founding year in the catalog and a card-required trial gate (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "northbeam",
@@ -1301,7 +2014,8 @@
           "score": 6,
           "evidence": "Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "nosto",
@@ -1332,7 +2046,8 @@
           "score": 7,
           "evidence": "Founded 2013 with a decade of commerce personalization deployments (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "notifuse",
@@ -1363,7 +2078,40 @@
           "score": 3,
           "evidence": "Founded 2025 with 2.2k stars; the project is early and operations are thin (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "openclaw-marketing-skills",
+      "score_total": 39,
+      "verdict": "OpenClaw's 37 marketing skills connect to live ad and search data, which separates it from prompt packs. MIT-licensed and OpenClaw-native, so the harness choice is made for you.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT with optional cloud hosting via MyClaw.ai, both stated (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Live data connectors feeding agent skills put it above static prompt collections (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 1.0k GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 at 1.0k stars with an optional hosting service (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "openoutreach",
@@ -1394,7 +2142,8 @@
           "score": 4,
           "evidence": "A 3.0k-star self-hosted project with no company behind it; operations are yours (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "opteo",
@@ -1425,7 +2174,8 @@
           "score": 6,
           "evidence": "Tiered support levels and account caps suggest a mature service operation (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "ortto",
@@ -1456,7 +2206,8 @@
           "score": 6,
           "evidence": "Founded 2015 with priced tiers and trials; a known mid-market option (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "otterlyai",
@@ -1487,7 +2238,8 @@
           "score": 5,
           "evidence": "Founded 2024 and priced for teams, with the operational history still short (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "pencil",
@@ -1518,7 +2270,8 @@
           "score": 6,
           "evidence": "Founded 2018 with published tiers and enterprise creative deployments (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "persado",
@@ -1549,7 +2302,8 @@
           "score": 7,
           "evidence": "Founded 2012 with regulated-industry deployments and the audit story that requires (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "phrasee",
@@ -1580,7 +2334,8 @@
           "score": 6,
           "evidence": "Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "pipedream",
@@ -1611,7 +2366,8 @@
           "score": 6,
           "evidence": "A known developer platform with usage-based plans and years in market (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "predis-ai",
@@ -1642,7 +2398,8 @@
           "score": 4,
           "evidence": "Founded 2019 with light pricing and no enterprise track record in the catalog (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "profound",
@@ -1673,7 +2430,8 @@
           "score": 6,
           "evidence": "Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "promptfoo",
@@ -1704,7 +2462,8 @@
           "score": 6,
           "evidence": "25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "rankscale",
@@ -1735,7 +2494,8 @@
           "score": 5,
           "evidence": "Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "react-email-editor",
@@ -1766,7 +2526,8 @@
           "score": 6,
           "evidence": "A commercial component vendor with priced tiers and trials behind the OSS core (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "revealbot",
@@ -1797,7 +2558,8 @@
           "score": 7,
           "evidence": "Founded 2015 and rebranded with years of ad automation deployments (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "salesforce-marketing-cloud",
@@ -1828,7 +2590,8 @@
           "score": 9,
           "evidence": "Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "scrunch",
@@ -1859,7 +2622,8 @@
           "score": 5,
           "evidence": "Founded 2023 with enterprise SSO on the roadmap tiers; short history (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "sendgrid",
@@ -1890,7 +2654,8 @@
           "score": 8,
           "evidence": "Twilio-owned since 2009-era operations with the volume track record email buyers price in (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "smartly-io",
@@ -1921,7 +2686,8 @@
           "score": 8,
           "evidence": "Founded 2013 with a decade of enterprise creative operations (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "snowplow",
@@ -1952,7 +2718,8 @@
           "score": 7,
           "evidence": "Founded 2012 with a commercial cloud arm and long enterprise deployments (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "sprout-social",
@@ -1983,7 +2750,8 @@
           "score": 8,
           "evidence": "Founded 2010 and publicly listed with enterprise social deployments behind it (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "strapi",
@@ -2014,7 +2782,8 @@
           "score": 7,
           "evidence": "Founded 2015 with a commercial cloud arm and the category's largest contributor base (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "suitecrm",
@@ -2045,7 +2814,8 @@
           "score": 7,
           "evidence": "A SugarCRM fork with years of production deployments and a stable release cadence (tools.json deep_dive)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "tealium",
@@ -2076,7 +2846,40 @@
           "score": 8,
           "evidence": "Founded 2008 with long regulated-industry deployments (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "tidio",
+      "score_total": 36,
+      "verdict": "Tidio pairs live chat with Lyro, an AI agent you can meter by add-on. The free plan and $24 entry make it the small-team default this year.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Live chat, chatbot flows and conversation analytics cover the SMB support loop (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Lyro AI agent with auto-replies and visitor insights is the product's AI center (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2013 with a long SMB support track record (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "trakkr",
@@ -2107,7 +2910,8 @@
           "score": 5,
           "evidence": "Priced for brands and agencies with per-brand workspaces, but thin public company history (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "tray-io",
@@ -2138,7 +2942,8 @@
           "score": 7,
           "evidence": "Founded 2012 with enterprise tiers and mature support posture (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "triple-whale",
@@ -2169,7 +2974,8 @@
           "score": 5,
           "evidence": "Founded 2021 with priced tiers and a DTC-focused customer base (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "twenty",
@@ -2200,7 +3006,8 @@
           "score": 5,
           "evidence": "Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "warmbly",
@@ -2231,7 +3038,8 @@
           "score": 3,
           "evidence": "Founded 2026 with 316 stars; the operating history is measured in months (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "workato",
@@ -2262,7 +3070,8 @@
           "score": 8,
           "evidence": "Founded 2013 with enterprise editions and the support machinery regulated buyers require (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "writer",
@@ -2293,7 +3102,40 @@
           "score": 7,
           "evidence": "Founded 2020 with enterprise governance features and named compliance posture (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "writesonic",
+      "score_total": 36,
+      "verdict": "Writesonic bundles GEO tracking with AI articles and audits, which makes it the content-plus-visibility buy. Watch the daily quotas against your real publishing cadence.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Article generation inside a tracked-visibility loop is the platform's connective tissue (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2021 with priced tiers and quota-stated plans (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     },
     {
       "slug": "zapier",
@@ -2324,7 +3166,40 @@
           "score": 9,
           "evidence": "Founded 2011 with the category's longest enterprise track record and status transparency (tools.json)."
         }
-      }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "zapier-gtm-cheat-codes",
+      "score_total": 38,
+      "verdict": "Zapier's own skill pack for GTM work in coding agents, MIT-licensed. It assumes Zapier MCP or SDK credentials, so the value lands if you are already in the ecosystem.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Campaign planning, postmortems and launch packages cover the GTM workflow set (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Installable agent skills with CRM context and account prioritization from source data (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 334 GitHub stars and vendor-published source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2026 but published by Zapier itself, which changes the support calculus (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
     }
   ]
 }

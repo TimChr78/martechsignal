@@ -1,6 +1,16 @@
 # Writesonic review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (tools.json ai_features). |
+| Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (tools.json). |
+| AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform&#x27;s connective tissue (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: tracks brand mentions in AI answers across up to 10 AI platforms | &#10007; Closed source - no self-hosting option |
@@ -78,7 +88,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Writesonic &#8594;](https://writesonic.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Writesonic bundles GEO tracking with AI articles and audits, which makes it the content-plus-visibility buy. Watch the daily quotas against your real publishing cadence.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -283,6 +297,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Writesonic bundles GEO tracking with AI articles and audits, which makes it the content-plus-visibility buy. Watch the daily quotas against your real publishing cadence.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/writesonic/#app",
+      "name": "Writesonic",
+      "url": "https://martechsignal.com/tools/writesonic/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

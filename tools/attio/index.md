@@ -1,6 +1,16 @@
 # Attio review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (tools.json ai_features). |
+| Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (tools.json). |
+| AI capability | 7/10 | Real-time enrichment and agentic workflows are the product&#x27;s architecture, not add-ons (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI data enrichment | &#10007; Paid plans start at $29/mo once past the free tier |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Attio &#8594;](https://attio.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Attio is the AI-native CRM rebuild: enrichment, drafting and agentic workflows over a modern data model. Priced per seat from free to custom, it is the CRM choice for teams starting fresh.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -238,6 +252,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Attio is the AI-native CRM rebuild: enrichment, drafting and agentic workflows over a modern data model. Priced per seat from free to custom, it is the CRM choice for teams starting fresh.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/attio/#app",
+      "name": "Attio",
+      "url": "https://martechsignal.com/tools/attio/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

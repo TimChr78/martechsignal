@@ -1,6 +1,16 @@
 # Eve Marketing Team Template pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (tools.json ai_features). |
+| Integrations | 5/10 | Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (tools.json). |
+| AI capability | 7/10 | A coordinated multi-agent team reading one brand context document is real orchestration (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 435 GitHub stars and your own deployment on Vercel (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 435 stars; early template with a platform forming around it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (435 GitHub stars) - smaller community and plugin ecosystem |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Eve Marketing Team Template &#8594;](https://github.com/vercel-labs/marketing-team-eve-template)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Eve&#x27;s marketing team template is five specialist agents behind one lead, sharing a brand context document. MIT-licensed on eve.dev; you pay for models and connectors only.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -236,6 +250,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Eve's marketing team template is five specialist agents behind one lead, sharing a brand context document. MIT-licensed on eve.dev; you pay for models and connectors only.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
+      "name": "Eve Marketing Team Template",
+      "url": "https://martechsignal.com/tools/eve-marketing-team/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Codex SEO review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (tools.json ai_features). |
+| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (tools.json). |
+| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (tools.json ai_features). |
+| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (tools.json). |
+| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: 26 SEO workflows with 24 TOML agent profiles | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Codex SEO &#8594;](https://github.com/AgriciDaniel/codex-seo)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Codex SEO is a serious free skill suite: 26 workflows, 24 agent profiles and real API integrations. The proprietary courtesy licence means free today and unknowable later.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -231,6 +245,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Codex SEO is a serious free skill suite: 26 workflows, 24 agent profiles and real API integrations. The proprietary courtesy licence means free today and unknowable later.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/codex-seo/#app",
+      "name": "Codex SEO",
+      "url": "https://martechsignal.com/tools/codex-seo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

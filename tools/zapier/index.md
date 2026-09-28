@@ -99,7 +99,7 @@ Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
 Zapier remains the safest automation buy: the widest app catalog and the least surprising product. You pay per task for that safety, which scales into real money at volume.
 
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
