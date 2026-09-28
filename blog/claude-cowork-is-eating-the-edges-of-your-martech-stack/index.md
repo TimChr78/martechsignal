@@ -100,8 +100,8 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 - [Jasper](/tools/jasper/) - AI marketing content platform for creating on-brand copy, images, and campaigns
 ## Comparison guides
 
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -162,7 +162,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1629,
+  "wordCount": 1634,
   "articleSection": "agent-skills"
 }
 ```

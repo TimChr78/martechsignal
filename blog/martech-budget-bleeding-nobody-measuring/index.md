@@ -116,7 +116,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 ## Comparison guides
 
 - [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -177,7 +177,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1811,
+  "wordCount": 1814,
   "articleSection": "analytics"
 }
 ```

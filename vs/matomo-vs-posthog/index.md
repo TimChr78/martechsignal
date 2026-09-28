@@ -63,6 +63,12 @@ PostHog: [Official site](https://posthog.com) · [Pricing](https://posthog.com/p
 
 **PostHog:** Ingestion is event-first: SDKs for the common stacks, a capture API for everything else, and batch export into a warehouse for teams that outgrow the built-in analysis. The reverse ETL story back into operational tools is stronger than Matomo&#x27;s.
 
+## What each looks like at month six
+
+**Matomo:** At month six a Matomo setup looks like a tuned report suite: custom dimensions mapped to your business vocabulary, scheduled email reports for stakeholders, and maybe the heatmap module on the two pages that matter. The maintenance load is a person-hours a month on patching if self-hosted.
+
+**PostHog:** At month six a PostHog setup looks like an event taxonomy with governance: naming conventions someone wrote down, flags replacing deploy-time risk, and experiments running against the funnels that justify them. The maintenance load is discipline, not servers: events rot if nobody owns the taxonomy.
+
 ## Scope
 
 **Matomo:** If the question is &#x27;how is the website performing&#x27;, Matomo&#x27;s report suite answers it without a data team. Campaign attribution and content reporting are deeper than anything in the product-analytics class.
@@ -74,6 +80,8 @@ PostHog: [Official site](https://posthog.com) · [Pricing](https://posthog.com/p
 Matomo runs a GA importer for the common historical case, so the standard &#x27;leaving Google&#x27; move is largely scripted. Moving the other way, into PostHog, means an event plan before data: PostHog reads events and properties, not pageviews, so a week of naming design precedes any import.
 
 Historical parity is the trap in both directions. Matomo keeps raw data indefinitely while self-hosted; PostHog&#x27;s retention varies by plan. Export what you must keep before any switch, in both vendors&#x27; own export formats, because that window closes with the old contract.
+
+For teams moving from Matomo to PostHog, the one migration asset worth building first is the mapping from Matomo&#x27;s pageview-centric reports to your new event names. Get that mapping reviewed by whoever owns the reporting today; the numbers will not reconcile during the overlap month unless the vocabulary matches.
 
 ## When neither is the right answer
 
