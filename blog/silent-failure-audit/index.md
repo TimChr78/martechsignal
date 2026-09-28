@@ -84,11 +84,11 @@ Our directory reviews workflow and marketing automation tools on what happens af
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
 ## Glossary terms
 
-- [Workflow automation](/glossary/workflow-automation/)
 - [Attribution models](/glossary/marketing-attribution-models/)
+- [Workflow automation](/glossary/workflow-automation/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1832,
+  "wordCount": 1836,
   "articleSection": "workflow-automation, agent-skills"
 }
 ```

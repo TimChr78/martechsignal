@@ -322,6 +322,8 @@
 - [Jasper vs Writer (2026): pricing and AI](https://martechsignal.com/vs/jasper-vs-writer/)
 - [Make vs Zapier (2026): pricing and AI](https://martechsignal.com/vs/make-vs-zapier/)
 - [Matomo vs Plausible (2026): depth or simplicity](https://martechsignal.com/vs/matomo-vs-plausible/)
+- [Matomo vs PostHog: 2026 comparison](https://martechsignal.com/vs/matomo-vs-posthog/)
+- [n8n vs Make vs Zapier: 2026 three-way comparison](https://martechsignal.com/vs/n8n-vs-make-vs-zapier/)
 - [n8n vs Zapier (2026): self-host or catalog](https://martechsignal.com/vs/n8n-vs-zapier/)
 - [NocoDB vs NocoBase (2026): data model ownership](https://martechsignal.com/vs/nocodb-vs-nocobase/)
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing and AI](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/)

@@ -109,7 +109,7 @@ The agents are good enough. The context is not.
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -170,7 +170,7 @@ More from the directory: [advertools](/tools/advertools/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1525,
+  "wordCount": 1526,
   "articleSection": "marketing-automation"
 }
 ```

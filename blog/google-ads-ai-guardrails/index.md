@@ -87,7 +87,7 @@ The boring setup wins. You know what the AI can see, you know what it can't touc
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -160,7 +160,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1457,
+  "wordCount": 1458,
   "articleSection": "advertising"
 }
 ```

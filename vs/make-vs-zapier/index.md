@@ -1,6 +1,13 @@
 # Make vs Zapier (2026): pricing and AI
 
 
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
+| Make | Freemium | You want the most visual scenario builder and a generous free tier to prototype in. |
+| Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
+
+
 | Dimension | Make | Zapier |
 | --- | --- | --- |
 | Pricing | Freemium | Freemium |
@@ -29,6 +36,16 @@ Make and Zapier end up on the same shortlist. Make, the platform formerly known 
 Most decisions here come down to price and fit. The figures below are the catalog&#x27;s last verified numbers, each dated on the tool page. This page is desk research rather than a hands-on test.
 
 Both platforms now sell AI features on top of the same plumbing: triggers, actions, and a scheduler between them. The price gap and the credit-versus-task metering decide more deals than any feature list, so the volume table below is the part to read twice.
+
+The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer.
+
+## n8n vs Make vs Zapier: the quick decision
+
+The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
+
+And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
+
+All three face off properly on the three-way page: [n8n vs Make vs Zapier](/vs/n8n-vs-make-vs-zapier/).
 
 [Make assessment](/tools/make/) · [Zapier assessment](/tools/zapier/)
 
@@ -87,6 +104,12 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 Scenario to Zap translation is mechanical on the simple flows and stubborn on the clever ones. Routers map to Paths, iterators and aggregators often need a rethink, and Make&#x27;s tolerance for loose JSON means error handling that worked for years can fail on day one in Zapier.
 
 The reverse move has its own tax. Zapier&#x27;s formatter steps get rebuilt as Make functions, and any code step becomes a Make module or a call to your own endpoint. Exports cover the structure, not the run history, so keep a copy of the old platform until finance has signed off on the numbers.
+
+Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
+
+## When neither is the right answer
+
+None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
 
 ## Who should pick which
 

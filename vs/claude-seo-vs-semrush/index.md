@@ -76,6 +76,12 @@ Cost picture for a year of continuous use. All figures checked 2026-09-27 on ven
 
 **Semrush:** Keywords and projects export, but the position history you have accumulated lives on their servers. Rebuild it elsewhere and the continuity starts from zero.
 
+## What a working week looks like
+
+**Claude SEO:** A Semrush week is dashboard-shaped: check position tracking, pull keyword gaps, brief writers from the content tool. The work is continuous and the product is the measurement instrument you return to daily.
+
+**Semrush:** A Claude SEO week is batch-shaped: clone the skill, point it at a URL, read a scored audit with a fix list. Between runs the tool costs nothing and stores nothing. The instrument appears when you ask for it and closes after.
+
 ## Decision notes
 
 **Claude SEO:** Pick Claude SEO if you can host it yourself and want code-level control, starting free.
@@ -87,6 +93,12 @@ Cost picture for a year of continuous use. All figures checked 2026-09-27 on ven
 There is no data migration here because claude-seo keeps no database. What changes is the workflow: audits run inside a coding session instead of a web app, and findings land in markdown instead of a dashboard.
 
 The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.
+
+These do not migrate against each other; they stack. If you are trading Semrush&#x27;s data for the skill&#x27;s audits, keep a keyword export before cancelling and feed it to the skill&#x27;s research workflows. Going the other way, the skill&#x27;s reports hand you the backlog; Semrush measures whether the backlog worked.
+
+## When neither is the right answer
+
+Neither replaces an analyst. And if you publish fewer than a page a week, a spreadsheet of keywords and the Search Console will answer most of what both products sell.
 
 ## Who should pick which
 

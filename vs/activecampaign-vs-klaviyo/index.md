@@ -76,6 +76,12 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 
 **Klaviyo:** Klaviyo&#x27;s lock-in is its data model. Profiles carry event streams that power flows and segments, and rival platforms rarely ingest them cleanly. Ecommerce teams accept this because the revenue reporting is hard to give up.
 
+## Deliverability and sending
+
+**ActiveCampaign:** ActiveCampaign&#x27;s sending is built around its automation heritage: dedicated IP add-ons, warm-up guidance and strong transactional options through Postmark&#x27;s sibling stack. Mixed marketing and transactional is a first-class case.
+
+**Klaviyo:** Klaviyo&#x27;s sending is tuned for ecommerce bursts: segmentation-heavy sends at flash-sale volume, with deliverability tooling focused on list hygiene and engagement-based throttling. Dedicated IPs come into play at scale.
+
 ## Decision notes
 
 **ActiveCampaign:** Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.
@@ -87,6 +93,12 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 Moving lists is the easy afternoon. ActiveCampaign automations do not export into Klaviyo flows, so every welcome series, win-back, and abandoned-cart path gets rebuilt and re-verified, and template styling has to be redone in the new editor.
 
 Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing 50,000 contacts and mailing them on day one.
+
+Klaviyo publishes a first-party ActiveCampaign importer that handles lists, profiles and ecommerce events; the segments and automations rebuild in the new vocabulary. The trap is tag debt: clean your ActiveCampaign tags before the move or spend your first month re-deriving segments in Klaviyo&#x27;s profile properties.
+
+## When neither is the right answer
+
+Neither fits B2B sales cycles with long, human follow-up: that is CRM territory. And if your store sends one campaign a month to under 5,000 contacts, a simpler cheaper tool loses nothing.
 
 ## Who should pick which
 

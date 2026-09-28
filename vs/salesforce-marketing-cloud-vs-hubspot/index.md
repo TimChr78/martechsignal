@@ -74,6 +74,12 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 
 **HubSpot Marketing Hub:** Exports cover contacts and deals, but workflows, custom objects, and reporting history get rebuilt. Annual commitments apply either way, so read the exit terms before the start date.
 
+## AI features and what they cost
+
+**Salesforce Marketing Cloud:** Einstein arrives across the suite: engagement scoring, send-time optimization and generative content assistance, licensed per user and per feature family. Enterprise agreements negotiate the details; the list price rarely survives contact with a sales cycle.
+
+**HubSpot Marketing Hub:** HubSpot&#x27;s AI features (forecasting, conversation intelligence, content assistants) are packaged into the tiers, with the Breeze agents extending into service and content. The per-seat ladder prices itself more predictably.
+
 ## Decision notes
 
 **Salesforce Marketing Cloud:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
@@ -85,6 +91,12 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 This migration is a project, not a weekend. Salesforce data extensions have to be mapped onto HubSpot objects, journeys become workflows, and AMPscript gets rewritten as HubSpot modules or dropped. Teams that lived in Marketing Cloud usually keep an implementation partner on the calendar through the first campaign cycle.
 
 Budget for what does not migrate. Attribution history rarely survives intact, so agree up front which reporting periods live where. Reverse migrations are worse: leaving HubSpot for Marketing Cloud means rebuilding scoring, forms, and lead routing from scratch.
+
+Both vendors publish migration guides and both make money on services, so budget for a partner whichever direction you move. The expensive parts in order: historical email engagement, lead scoring models, and journeys mid-flight. Freeze new automation a month before cutover; migrating running journeys is how migrations turn into incidents.
+
+## When neither is the right answer
+
+Neither suits a small team selling to a few hundred accounts: the setup cost exceeds a year of both. And if most revenue moves through one product-led funnel, a lighter lifecycle tool beats both suites.
 
 ## Who should pick which
 

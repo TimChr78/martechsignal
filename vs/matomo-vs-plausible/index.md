@@ -1,6 +1,13 @@
 # Matomo vs Plausible (2026): depth or simplicity
 
 
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| Matomo | Open Source | You want Google Analytics depth with EU data residency and full raw data ownership. |
+| Plausible Analytics | Open Source | You want a one-screen dashboard and a script lighter than the page it measures. |
+| PostHog | Freemium | You want product analytics and experiments with the web numbers as one slice. |
+
+
 | Dimension | Matomo | Plausible Analytics |
 | --- | --- | --- |
 | Pricing | Open Source | Open Source |
@@ -27,6 +34,10 @@
 Both are open-source web analytics for teams that would rather not hand visitor data to an advertising company, and both self-host for free. The difference is depth and where the bill appears. Matomo is a full analytics suite whose advanced features are paid plugins and bundles; Plausible is a deliberately small tool with one dashboard, a lightweight script, and a low entry price.
 
 Teams choosing between them are usually content sites, privacy-conscious startups, and marketing ops leads with GDPR obligations. The axis is not accuracy. It is how much behavioral analytics you actually use, and whether your ops capacity can run a PHP analytics platform with archiving jobs versus a tool that mostly runs itself.
+
+## Matomo vs Plausible vs PostHog: the quick decision
+
+The analytics three-way has a page of its own: [Matomo vs PostHog](/vs/matomo-vs-posthog/).
 
 [Matomo assessment](/tools/matomo/) · [Plausible Analytics assessment](/tools/plausible/)
 
@@ -85,6 +96,12 @@ Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 o
 Both sides will move your tags in an afternoon and your history in a week, if at all. Exports and APIs differ in shape, so decide which reports must keep their history and which can restart from the cutover date.
 
 The smaller costs pile up: goals and segments get rebuilt by hand, the tracking script swaps on every property, and any consent banner logic has to be re-checked against the new cookie behavior. None of it is hard. All of it is work.
+
+Between Matomo and Plausible the moving part is history depth: Plausible keeps a rolling window, so export what you want to keep before you cancel. Matomo&#x27;s own importer handles the common GA and server-log cases, and Plausible&#x27;s API exports daily aggregates cleanly.
+
+## When neither is the right answer
+
+Skip all three if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.
 
 ## Who should pick which
 

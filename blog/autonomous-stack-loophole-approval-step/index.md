@@ -12,7 +12,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-MARKETING AUTOMATION · AI AGENTS · 8 MIN
+MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 ## Your autonomous stack&#x27;s loophole is the approval step you deleted
 
@@ -88,8 +88,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -150,7 +150,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1700,
+  "wordCount": 1705,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

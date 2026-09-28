@@ -86,6 +86,12 @@ These tools both sit on your own database, which helps less than you would think
 
 The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.
 
+Schema migration between the two is a real project: both round-trip CSV, so flat tables move in an afternoon, but relational links and views are recreated by hand. NocoDB imports an existing Airtable; NocoBase leans on its plugin model for anything exotic. Budget one day per ten tables with relationships.
+
+## When neither is the right answer
+
+Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either.
+
 ## Who should pick which
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).

@@ -94,7 +94,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Zoho CRM](/tools/zoho-crm/) · [AdCreative.ai](/tools/adcreative-ai/)
+More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -158,7 +158,7 @@ More from the directory: [Zoho CRM](/tools/zoho-crm/) · [AdCreative.ai](/tools/
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1585,
+  "wordCount": 1579,
   "articleSection": "workflow-automation"
 }
 ```

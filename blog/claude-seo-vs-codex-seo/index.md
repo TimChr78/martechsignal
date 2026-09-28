@@ -83,7 +83,7 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -144,7 +144,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1373,
+  "wordCount": 1378,
   "articleSection": "agent-skills"
 }
 ```

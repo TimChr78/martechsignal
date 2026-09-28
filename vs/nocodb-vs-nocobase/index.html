@@ -158,6 +158,9 @@
 <h2>Migration cost</h2>
 <p>These tools both sit on your own database, which helps less than you would think. Schemas recreate cleanly, but views, forms, and permission sets are product-specific and get rebuilt by hand.</p>
 <p>The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.</p>
+<p>Schema migration between the two is a real project: both round-trip CSV, so flat tables move in an afternoon, but relational links and views are recreated by hand. NocoDB imports an existing Airtable; NocoBase leans on its plugin model for anything exotic. Budget one day per ten tables with relationships.</p>
+<h2>When neither is the right answer</h2>
+<p>Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either.</p>
 <h2>Who should pick which</h2>
 <dl class="vs-verdict"><dt>Pick NocoDB if</dt><dd>Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.</dd><dt>Pick NocoBase if</dt><dd>Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>

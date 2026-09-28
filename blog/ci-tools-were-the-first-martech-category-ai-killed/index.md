@@ -128,12 +128,12 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
-- [AI Agent](/glossary/ai-agent/)
 - [CDP](/glossary/cdp/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -190,7 +190,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2517,
+  "wordCount": 2522,
   "articleSection": "marketing-automation"
 }
 ```

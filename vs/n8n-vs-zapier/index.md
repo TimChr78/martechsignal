@@ -1,6 +1,13 @@
 # n8n vs Zapier (2026): self-host or catalog
 
 
+| Tool | Starts at | Pick it when |
+| --- | --- | --- |
+| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
+| Make | Freemium | You want the most visual scenario builder and a generous free tier to prototype in. |
+| Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
+
+
 | Dimension | n8n | Zapier |
 | --- | --- | --- |
 | Pricing | Open Source | Freemium |
@@ -27,6 +34,14 @@
 The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.
 
 Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.
+
+## n8n vs Make vs Zapier: the quick decision
+
+The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
+
+And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
+
+All three face off properly on the three-way page: [n8n vs Make vs Zapier](/vs/n8n-vs-make-vs-zapier/).
 
 [n8n assessment](/tools/n8n/) · [Zapier assessment](/tools/zapier/)
 
@@ -85,6 +100,12 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.
 
 Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier&#x27;s vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.
+
+Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.
+
+## When neither is the right answer
+
+None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.
 
 ## Who should pick which
 

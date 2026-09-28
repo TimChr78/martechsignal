@@ -148,8 +148,8 @@ The analytics tool we recommend by default for content and marketing sites; powe
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
 ### Quick Facts
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible)

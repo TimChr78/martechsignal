@@ -71,7 +71,7 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 - [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
 ## Comparison guides
 
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
 ## Glossary terms
 

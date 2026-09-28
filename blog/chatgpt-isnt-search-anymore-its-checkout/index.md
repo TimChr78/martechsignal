@@ -92,7 +92,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 ## Comparison guides
 
 - [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)

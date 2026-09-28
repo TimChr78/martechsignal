@@ -167,7 +167,7 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm)

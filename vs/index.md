@@ -80,6 +80,8 @@ Once the choice lands, write down why in the ticket. The tools rotate faster tha
 - [Make vs Zapier (2026): pricing, AI features, verdict](https://martechsignal.com/vs/make-vs-zapier/)Make versus Zapier on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
 - [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](https://martechsignal.com/vs/activecampaign-vs-klaviyo/)ActiveCampaign versus Klaviyo on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
 - [Jasper vs Writer (2026): pricing, AI features, verdict](https://martechsignal.com/vs/jasper-vs-writer/)Jasper versus Writer on pricing, deployment, AI features, and integrations, with a pick-this-one line for each side.
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](https://martechsignal.com/vs/n8n-vs-make-vs-zapier/)n8n vs Make vs Zapier compared on price, self-hosting, connectors and exit cost. A three-way decision table and real switching notes from the catalogued numbers.
+- [Matomo vs PostHog (2026): web analytics or product analytics](https://martechsignal.com/vs/matomo-vs-posthog/)Matomo vs PostHog compared on price, deployment, privacy and scope. Web analytics depth against product analytics breadth, with real migration notes.
 Prices and features on every page in this section come from the vendor's own published materials, as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
@@ -133,6 +135,16 @@ Prices and features on every page in this section come from the vendor's own pub
         "@type": "WebPage",
         "name": "Jasper vs Writer (2026): pricing, AI features, verdict",
         "url": "https://martechsignal.com/vs/jasper-vs-writer/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "n8n vs Make vs Zapier (2026): the three-way automation decision",
+        "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Matomo vs PostHog (2026): web analytics or product analytics",
+        "url": "https://martechsignal.com/vs/matomo-vs-posthog/"
       }
     ]
   },

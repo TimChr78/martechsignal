@@ -152,34 +152,53 @@ def build_vs():
     for page in data["pages"]:
         a = tools_by_slug[page["a_slug"]]
         b = tools_by_slug[page["b_slug"]]
+        # r8 H3 (2026-09-28): optional third column for real 3-way pages
+        c = tools_by_slug[page["c_slug"]] if page.get("c_slug") else None
+        trio = (a, b) if c is None else (a, b, c)
         body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/vs/">Head-to-head comparisons</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
+        # r8 H3 (2026-09-28): the target SERPs reward multi-way framing, so the
+        # quick-decision table for the whole family comes first on every pair page.
+        df = page.get("decision_first")
+        if df:
+            body.append(f'<h2>{esc(df["heading"])}</h2>')
+            body.append('<div class="table-wrap"><table class="cmp"><thead><tr>'
+                        '<th scope="col">Tool</th><th scope="col">Starts at</th>'
+                        '<th scope="col">Pick it when</th></tr></thead><tbody>')
+            for row_slug, pick_when in df["rows"]:
+                _rt = tools_by_slug[row_slug]
+                body.append(f'<tr><th scope="row">{esc(_rt["name"])}</th><td>{esc(_plabel(_rt))}</td>'
+                            f'<td>{esc(pick_when)}</td></tr>')
+            body.append('</tbody></table></div>')
+            for link in df.get("links", []):
+                body.append(f'<p class="alt-back">{esc(link["text"])} '
+                            f'<a href="{esc(link["href"])}">{esc(link["label"])}</a>.</p>')
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
-        for _vt in (a, b):
+        for _vt in trio:
             _ol = out_links(_vt)
             if _ol:
                 body.append(_ol.replace("Vendor:", f"{esc(_vt['name'])}:"))
         # A2 H6 (2026-09-26): the copy promises "the catalog numbers below" - this
         # table is those numbers, straight from the catalog (no invented figures).
         rows = [
-            ("Pricing", _plabel(a), _plabel(b)),
-            ("Open source", "yes" if a.get("open_source") else "no",
-             "yes" if b.get("open_source") else "no"),
-            ("Integrations listed", _integ_cell(a), _integ_cell(b)),
-            ("Public API", "yes" if a.get("api_available") else "no",
-             "yes" if b.get("api_available") else "no"),
+            ("Pricing", [_plabel(t) for t in trio]),
+            ("Open source", ["yes" if t.get("open_source") else "no" for t in trio]),
+            ("Integrations listed", [_integ_cell(t) for t in trio]),
+            ("Public API", ["yes" if t.get("api_available") else "no" for t in trio]),
         ]
+        head = ''.join(f'<th scope="col">{esc(t["name"])}</th>' for t in trio)
         body.append('<div class="table-wrap"><table><caption>Side-by-side comparison</caption><thead><tr>'
-                    f'<th scope="col">Dimension</th><th scope="col">{esc(a["name"])}</th>'
-                    f'<th scope="col">{esc(b["name"])}</th></tr></thead><tbody>')
-        for label, av, bv in rows:
-            body.append(f'<tr><th scope="row">{esc(label)}</th><td>{esc(str(av))}</td><td>{esc(str(bv))}</td></tr>')
+                    f'<th scope="col">Dimension</th>{head}</tr></thead><tbody>')
+        for label, vals in rows:
+            tds = ''.join(f'<td>{esc(str(v))}</td>' for v in vals)
+            body.append(f'<tr><th scope="row">{esc(label)}</th>{tds}</tr>')
         body.append('</tbody></table></div>')
         pt = page.get("price_table")
+        assert not (pt and c), f'{page["slug"]}: price_table is a two-column template'
         if pt:
             body.append('<h2>Priced at volume</h2>')
             body.append(f'<p class="alt-back">{esc(pt["unit"])}. All figures checked '
@@ -199,14 +218,23 @@ def build_vs():
             body.append(f'<h2>{esc(h)}</h2>')
             body.append(f'<p><strong>{esc(a["name"])}:</strong> {esc(sec["a"])}</p>')
             body.append(f'<p><strong>{esc(b["name"])}:</strong> {esc(sec["b"])}</p>')
+            if sec.get("c") and c:
+                body.append(f'<p><strong>{esc(c["name"])}:</strong> {esc(sec["c"])}</p>')
         if page.get("migration"):
             body.append('<h2>Migration cost</h2>')
             for para in page["migration"]:
                 body.append(f'<p>{esc(para)}</p>')
+        if page.get("neither"):
+            # r8 H10 (2026-09-28): honest exit for readers who fit neither tool
+            body.append('<h2>When neither is the right answer</h2>')
+            body.append(f'<p>{esc(page["neither"])}</p>')
         body.append(f'<h2>Who should pick which</h2>')
+        _picks = [(a, page["pick_a_if"]), (b, page["pick_b_if"])]
+        if c and page.get("pick_c_if"):
+            _picks.append((c, page["pick_c_if"]))
         body.append('<dl class="vs-verdict">'
-                    f'<dt>Pick {esc(a["name"])} if</dt><dd>{esc(page["pick_a_if"])}</dd>'
-                    f'<dt>Pick {esc(b["name"])} if</dt><dd>{esc(page["pick_b_if"])}</dd></dl>')
+                    + ''.join(f'<dt>Pick {esc(t["name"])} if</dt><dd>{esc(v)}</dd>' for t, v in _picks)
+                    + '</dl>')
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
                     '<a href="/methodology/">how we evaluate</a>.</p>')
@@ -238,19 +266,16 @@ def build_vs():
             # (the offers-gated state machine governs product typing) and the
             # pair declared as an ItemList.
             "about": [
-                {"@id": f"https://martechsignal.com/tools/{a['slug']}/#app"},
-                {"@id": f"https://martechsignal.com/tools/{b['slug']}/#app"},
+                {"@id": f"https://martechsignal.com/tools/{t['slug']}/#app"} for t in trio
             ],
             "mainEntity": {
                 "@type": "ItemList",
-                "name": f"{a['name']} vs {b['name']}",
+                "name": " vs ".join(t["name"] for t in trio),
                 "itemListElement": [
-                    {"@type": "ListItem", "position": 1, "item": {
-                        "@id": f"https://martechsignal.com/tools/{a['slug']}/#app",
-                        "url": f"https://martechsignal.com/tools/{a['slug']}/"}},
-                    {"@type": "ListItem", "position": 2, "item": {
-                        "@id": f"https://martechsignal.com/tools/{b['slug']}/#app",
-                        "url": f"https://martechsignal.com/tools/{b['slug']}/"}},
+                    {"@type": "ListItem", "position": i + 1, "item": {
+                        "@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
+                        "url": f"https://martechsignal.com/tools/{t['slug']}/"}}
+                    for i, t in enumerate(trio)
                 ],
             },
         }

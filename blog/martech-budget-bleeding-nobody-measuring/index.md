@@ -116,7 +116,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 ## Comparison guides
 
 - [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)

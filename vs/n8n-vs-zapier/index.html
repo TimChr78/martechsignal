@@ -116,6 +116,15 @@
 <h1>n8n vs Zapier (2026): self-hosted depth or catalog breadth</h1>
 <p>The real difference here is not a feature checklist. It is where your automations run and who pays when they work. n8n runs the whole engine on your own hardware under a fair-code license, while Zapier sells access to a hosted platform whose main asset is a catalog of more than 9,000 apps. Both now ship AI agents, so the AI column rarely decides this purchase on its own.</p>
 <p>Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.</p>
+<h2>n8n vs Make vs Zapier: the quick decision</h2>
+<div class="table-wrap"><table class="cmp"><thead><tr><th scope="col">Tool</th><th scope="col">Starts at</th><th scope="col">Pick it when</th></tr></thead><tbody>
+<tr><th scope="row">n8n</th><td>Open Source</td><td>You want self-hosting, code steps and per-execution pricing over per-task billing.</td></tr>
+<tr><th scope="row">Make</th><td>Freemium</td><td>You want the most visual scenario builder and a generous free tier to prototype in.</td></tr>
+<tr><th scope="row">Zapier</th><td>Freemium</td><td>You want the deepest app catalog and the least thinking about edge cases.</td></tr>
+</tbody></table></div>
+<p class="alt-back">The pair pages carry the same evidence in depth: <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a>.</p>
+<p class="alt-back">And for the Make side of the family: <a href="/vs/make-vs-zapier/">Make vs Zapier</a>.</p>
+<p class="alt-back">All three face off properly on the three-way page: <a href="/vs/n8n-vs-make-vs-zapier/">n8n vs Make vs Zapier</a>.</p>
 <p class="vs-links"><a href="/tools/n8n/">n8n assessment</a> · <a href="/tools/zapier/">Zapier assessment</a></p>
 <p class="meta out-links">n8n: <a href="https://n8n.io" rel="noopener">Official site</a> · <a href="https://n8n.io/pricing/" rel="noopener">Pricing</a> · <a href="https://github.com/n8n-io/n8n" rel="noopener">GitHub</a></p>
 <p class="meta out-links">Zapier: <a href="https://zapier.com" rel="noopener">Official site</a> · <a href="https://zapier.com/pricing" rel="noopener">Pricing</a></p>
@@ -158,6 +167,9 @@
 <h2>Migration cost</h2>
 <p>Zapier has no exporter that writes n8n workflows, so every Zap gets rebuilt by hand: trigger, filters, and each action become nodes. A five-step Zap usually takes under an hour to translate once you know both tools, but the testing time after the rebuild is the part people underestimate, because the happy path is only one path.</p>
 <p>Going the other way costs differently. n8n code steps have no Zapier equivalent, so those steps get rewritten as built-in actions or pushed upstream into your own API. Credentials move from your instance into Zapier&#x27;s vault, and any self-hosted webhook URL needs a new public endpoint. Budget a day of plumbing per environment.</p>
+<p>Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those.</p>
+<h2>When neither is the right answer</h2>
+<p>None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.</p>
 <h2>Who should pick which</h2>
 <dl class="vs-verdict"><dt>Pick n8n if</dt><dd>Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.</dd><dt>Pick Zapier if</dt><dd>Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.</dd></dl>
 <p class="alt-back">Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read <a href="/methodology/">how we evaluate</a>.</p>
