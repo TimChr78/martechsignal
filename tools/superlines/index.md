@@ -1,6 +1,16 @@
 # Superlines review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (tools.json). |
+| Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (tools.json ai_features). |
+| Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (tools.json). |
+| AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (tools.json). |
+| Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: tracks brand visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews | &#10007; Closed source - no self-hosting option |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Superlines &#8594;](https://www.superlines.io/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Superlines is pure GEO measurement across four AI surfaces with per-prompt history tiers from EUR 79. Founded 2023 and focused; the tier tables show what each month of history actually buys.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -241,6 +255,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Superlines is pure GEO measurement across four AI surfaces with per-prompt history tiers from EUR 79. Founded 2023 and focused; the tier tables show what each month of history actually buys.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/superlines/#app",
+      "name": "Superlines",
+      "url": "https://martechsignal.com/tools/superlines/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

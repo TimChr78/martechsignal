@@ -1,6 +1,16 @@
 # SEO Skill Bench review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (tools.json). |
+| Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (tools.json ai_features). |
+| Integrations | 2/10 | Claude Code is the only documented harness (tools.json). |
+| AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 51 GitHub stars and fully local execution (tools.json). |
+| Operational maturity | 2/10 | 51 stars as a young benchmark project with no API (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (51 GitHub stars) - smaller community and plugin ecosystem |
@@ -68,7 +78,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit SEO Skill Bench &#8594;](https://seoagent.com/seo-skill-benchmark)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+SEO Skill Bench scores Claude Code SEO skills against fixture sites with planted defects and hallucination traps. MIT, and each leaderboard run costs $1.70 to $4.46 in tokens, stated to the cent.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -214,6 +228,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "SEO Skill Bench scores Claude Code SEO skills against fixture sites with planted defects and hallucination traps. MIT, and each leaderboard run costs $1.70 to $4.46 in tokens, stated to the cent.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
+      "name": "SEO Skill Bench",
+      "url": "https://martechsignal.com/tools/seo-skill-bench/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

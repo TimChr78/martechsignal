@@ -1,6 +1,16 @@
 # Seonaut review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Technical SEO crawling with recurring audits cover the audit job (tools.json deep_dive). |
+| Integrations | 2/10 | No named integrations in the catalog and no API (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | MIT-licensed with 782 GitHub stars in readable Go (tools.json). |
+| Operational maturity | 4/10 | Founded 2022 at 782 stars with priced cloud tiers above the free plan (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Seonaut &#8594;](https://seonaut.org)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 30/60
+
+Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 782 stars; small, legible and honest about scope.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -280,6 +294,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 782 stars; small, legible and honest about scope.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/seonaut/#app",
+      "name": "Seonaut",
+      "url": "https://martechsignal.com/tools/seonaut/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 30,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

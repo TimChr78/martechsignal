@@ -1,6 +1,16 @@
 # WaCRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (tools.json ai_features). |
+| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (tools.json). |
+| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -80,7 +90,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit WaCRM &#8594;](https://wacrm.tech)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -317,6 +331,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/wacrm/#app",
+      "name": "WaCRM",
+      "url": "https://martechsignal.com/tools/wacrm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

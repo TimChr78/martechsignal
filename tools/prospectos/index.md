@@ -1,6 +1,16 @@
 # ProspectOS review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (tools.json ai_features). |
+| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (tools.json). |
+| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (214 GitHub stars) - smaller community and plugin ecosystem |
@@ -66,7 +76,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ProspectOS &#8594;](https://github.com/nando0x/ProspectOS)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 29/60
+
+ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -226,6 +240,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/prospectos/#app",
+      "name": "ProspectOS",
+      "url": "https://martechsignal.com/tools/prospectos/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 29,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

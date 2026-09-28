@@ -1,6 +1,16 @@
 # Salesforce CRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (tools.json ai_features). |
+| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (tools.json). |
+| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (tools.json ai_features). |
+| Openness | 3/10 | Closed enterprise platform with extensive APIs (tools.json). |
+| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: einstein AI lead scoring | &#10007; Closed source - no self-hosting option |
@@ -68,7 +78,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Salesforce CRM &#8594;](https://www.salesforce.com/crm/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Salesforce is the enterprise CRM standard with Einstein AI across sales, service and marketing. Every tier is published from $25 to $330 per user, though real costs live in the add-ons.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Salesforce is the enterprise CRM standard with Einstein AI across sales, service and marketing. Every tier is published from $25 to $330 per user, though real costs live in the add-ons.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
+      "name": "Salesforce CRM",
+      "url": "https://martechsignal.com/tools/salesforce-crm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

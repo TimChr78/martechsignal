@@ -2850,6 +2850,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "notifo",
+      "score_total": 31,
+      "verdict": "Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 880 stars and no AI story, which fits infrastructure.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (tools.json)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Multi-channel notifications across email, SMS and web push cover the delivery job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Amazon SES, MessageBird, Firebase, custom web push and SignalR with a REST API and OpenAPI (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 880 GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2020 at 880 stars with a hosted instance of unlisted size (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "notifuse",
       "score_total": 38,
       "verdict": "Notifuse is the honest open-source ESP alternative: all features free self-hosted under AGPL, and cloud pricing that respects BYO-ESP. Young and small, but the pricing and licence story is the cleanest in its category.",
@@ -2877,6 +2909,38 @@
         "operational_maturity": {
           "score": 3,
           "evidence": "Founded 2025 with 2.2k stars; the project is early and operations are thin (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "open-mercato",
+      "score_total": 34,
+      "verdict": "Open Mercato is a TypeScript foundation for AI-built commerce and CRM, with a 192-case evaluation harness as its trust argument. The MIT core is free; the Enterprise package prices behind a conversation.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog, though an API is documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 1.7k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -2941,6 +3005,38 @@
         "operational_maturity": {
           "score": 4,
           "evidence": "A 3.0k-star self-hosted project with no company behind it; operations are yours (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "openseo",
+      "score_total": 32,
+      "verdict": "OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. 18.2k stars and a $10/mo hosted option make the economics easy to model.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "DataForSEO as the data layer; no named platform integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 18.2k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2026 at 18.2k stars with a simple hosted tier behind it (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -3037,6 +3133,70 @@
         "operational_maturity": {
           "score": 5,
           "evidence": "Founded 2024 and priced for teams, with the operational history still short (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "pabbly-connect",
+      "score_total": 29,
+      "verdict": "Pabbly Connect sells tasks cheap and even offers a lifetime deal, which nobody else in this category does. The AI workflow builder is a separate purchase, so budget accordingly.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Task-based integrations and workflows cover the iPaaS job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "Pabbly AgenticAI exists as a workflow builder sold separately (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Published volume tiers and a lifetime purchase model (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "paperclip",
+      "score_total": 44,
+      "verdict": "Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. 80k stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "80.4k stars with a simple hosted tier and model-spend tracking (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -3170,6 +3330,198 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "pipedrive",
+      "score_total": 38,
+      "verdict": "Pipedrive is the pipeline-first CRM at a working price: $14 to $79 per seat with every tier published. The AI handles scoring and reminders, which is the right altitude for sales teams.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Pipeline management, deal forecasting and lead routing cover the sales CRM loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Predictive deal scoring, smart routing and an email writer serve the pipeline (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2010 with a long SMB sales track record (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "plausible",
+      "score_total": 38,
+      "verdict": "Plausible is privacy analytics you can self-host or buy for $9/mo, at 29k stars. The script is light, the data is yours, and the AI insights stay out of the way.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Lightweight web analytics with insights and anomaly detection cover the privacy analytics job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "WordPress, Ghost, Webflow, Zapier, Search Console and Slack documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "AI insights, anomaly detection and traffic analysis are convenience layers on the core product (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 29.0k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2019 with a large self-hosted base and a steady cloud business (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "posthog",
+      "score_total": 43,
+      "verdict": "PostHog gives away more than anyone: a full free tier on every product, month after month. 39.9k stars of MIT product analytics with AI observability that tracks your own LLM features.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Product analytics, session replay, feature flags, experiments and surveys cover the product stack (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 39.9k GitHub stars and self-hosting parity (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2020 at 39.9k stars with a mature multi-product platform (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "postmark",
+      "score_total": 34,
+      "verdict": "Postmark separates message streams so transactional mail survives marketing blasts, and publishes delivery numbers to back it. The MCP server with 24 diagnostic tools is the newest reason developers look.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Transactional email with separated message streams and delivery diagnostics cover the sending job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "An MCP server with 24 tools, agent skills and a documented AI prompt library (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with strong API and MCP access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Long-running transactional email service with published delivery numbers (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "potato-ai-visibility",
+      "score_total": 32,
+      "verdict": "Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Anthropic Claude and a CLI with a local GUI wizard documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Measuring Claude's web-search answers with citation validity checks is applied AI measurement (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 168 GitHub stars and fully local execution (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 2,
+          "evidence": "Founded 2026 at 168 stars as a focused local tool (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "power-automate",
+      "score_total": 38,
+      "verdict": "Power Automate is the enterprise default when Microsoft 365 is already the estate: Copilot flow building, AI Builder documents and unattended RPA at $150 per bot. The prices are public; the licensing is a maze.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Premium $15/user/mo yearly, Process $150/bot/mo and Hosted Process $215/bot/mo published (verified 2026-09-27) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Workflow automation, RPA and agentic flows cover the enterprise automation stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Copilot-assisted flow building, AI Builder document processing and agentic flows (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2016 inside Microsoft's enterprise support structure (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "predis-ai",
       "score_total": 30,
       "verdict": "Predis.ai generates posts, carousels and video ads at a price a solo marketer can pay. The output volume is the pitch; brand judgment remains yours.",
@@ -3266,6 +3618,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "prospectos",
+      "score_total": 29,
+      "verdict": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT self-hosted with scraping API costs called out as the run expense (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Lead discovery and contact enrichment cover the prospecting loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Google Maps and Instagram documented as data sources plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "Lead discovery and enrichment run as data automation more than model work (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 214 GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 2,
+          "evidence": "Founded 2026 at 214 stars as an early project (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "rankscale",
       "score_total": 35,
       "verdict": "Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.",
@@ -3330,6 +3714,70 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "relaticle",
+      "score_total": 36,
+      "verdict": "Relaticle is a Laravel CRM with a 37-tool MCP server and native agent support, free self-hosted with unlimited records. Cloud Pro adds 2,000 AI credits for $19 per workspace.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "CRM records with native agent support and built-in AI chat cover the small-team CRM loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "AGPL-3.0 with 1.6k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2024 at 1.6k stars with priced cloud tiers (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "resend",
+      "score_total": 38,
+      "verdict": "Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19.7k stars on the MIT SDKs, and marketing prices published alongside transactional.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Transactional and marketing email with batch sending and contact imports cover the developer email stack (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 6,
+          "evidence": "MIT SDKs at 19.7k GitHub stars behind a closed sending service (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2023 with fast developer adoption and published tier ceilings (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "revealbot",
       "score_total": 38,
       "verdict": "Revealbot, now Bïrch, is rules-based ad automation with the receipts: every action is a rule you wrote. The MCP hook means your AI tool can finally touch the same controls.",
@@ -3357,6 +3805,70 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "Founded 2015 and rebranded with years of ad automation deployments (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "revive-adserver",
+      "score_total": 27,
+      "verdict": "Revive Adserver is the free ad server for publishers who want to own delivery. GPL-2.0 and self-hosted; the hosted Aqua Platform hides its price and the platform shows its PHP age.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "GPL-2.0 with 1.5k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Long-lived open-source ad server with a hosted edition behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "salesforce-crm",
+      "score_total": 42,
+      "verdict": "Salesforce is the enterprise CRM standard with Einstein AI across sales, service and marketing. Every tier is published from $25 to $330 per user, though real costs live in the add-ons.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Sales, service and marketing coverage with forecasting and pipeline management at platform depth (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed enterprise platform with extensive APIs (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded 1999, the oldest and most deployed CRM in the catalog (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -3426,6 +3938,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "semrush",
+      "score_total": 40,
+      "verdict": "Semrush is still the SEO suite benchmark: breadth from keyword research to AI visibility tracking with published prices from $117 to $500 per month. The question is scope, not capability.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI content optimization, keyword research, audits and visibility tracking spread across the suite (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access at additional cost (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2008 with eighteen years of SEO-tool operations (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "sendgrid",
       "score_total": 35,
       "verdict": "SendGrid is infrastructure: an email API with deliverability machinery that marketing features are bolted onto. If your problem is getting mail delivered at volume, this is still the boring right answer.",
@@ -3453,6 +3997,102 @@
         "operational_maturity": {
           "score": 8,
           "evidence": "Twilio-owned since 2009-era operations with the volume track record email buyers price in (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "seo-skill-bench",
+      "score_total": 31,
+      "verdict": "SEO Skill Bench scores Claude Code SEO skills against fixture sites with planted defects and hallucination traps. MIT, and each leaderboard run costs $1.70 to $4.46 in tokens, stated to the cent.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (tools.json)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "Claude Code is the only documented harness (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 51 GitHub stars and fully local execution (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 2,
+          "evidence": "51 stars as a young benchmark project with no API (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "seonaut",
+      "score_total": 30,
+      "verdict": "Seonaut is a Go crawler for technical SEO audits with a real free cloud tier: one project, 500 URLs. MIT-licensed at 782 stars; small, legible and honest about scope.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Technical SEO crawling with recurring audits cover the audit job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog and no API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 782 GitHub stars in readable Go (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2022 at 782 stars with priced cloud tiers above the free plan (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "sistrix",
+      "score_total": 34,
+      "verdict": "SISTRIX is the German SEO suite built on its Visibility Index, now with an AI Visibility module for mentions and citations. Monthly cancelable pricing from EUR 119 keeps it accountable.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Search Console, GA, Slack and the SISTRIX API documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "The AI Visibility module tracks mentions, rankings and citations in AI search engines (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Established European suite with a long-published index methodology (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -3618,6 +4258,70 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "superlines",
+      "score_total": 31,
+      "verdict": "Superlines is pure GEO measurement across four AI surfaces with per-prompt history tiers from EUR 79. Founded 2023 and focused; the tier tables show what each month of history actually buys.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API and MCP access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2023 with published tier tables and per-brand limits (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "surfer-seo",
+      "score_total": 36,
+      "verdict": "Surfer SEO owns the content-editor category and now tracks AI visibility too. Tier prices swing between monthly and annual billing, so read both columns before committing.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI editor, generator and audit stack with SERP analysis and visibility tracking (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2017 as the category-defining content editor (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "tealium",
       "score_total": 32,
       "verdict": "Tealium is the enterprise data layer: tag management and a CDP with governance built in. Annual contracts and custom pricing fit the regulated part of the market it was built for.",
@@ -3677,6 +4381,38 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "Founded 2013 with a long SMB support track record (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "tooljet",
+      "score_total": 42,
+      "verdict": "ToolJet generates internal apps from a prompt over 40.9k stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "AGPL-3.0 with 40.9k GitHub stars and community-edition self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "40.9k stars with priced cloud tiers and an Enterprise floor published (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -3810,6 +4546,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "wacrm",
+      "score_total": 38,
+      "verdict": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 2.3k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 2.3k stars as an early self-hosted project (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "warmbly",
       "score_total": 38,
       "verdict": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.",
@@ -3837,6 +4605,38 @@
         "operational_maturity": {
           "score": 3,
           "evidence": "Founded 2026 with 316 stars; the operating history is measured in months (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "warpdrive",
+      "score_total": 28,
+      "verdict": "Warpdrive is the tiny Pipedrive alternative: pipelines and Gmail on your own server, MIT with no per-seat billing. At 72 stars it is a bet on a codebase, not a product decision.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 3,
+          "evidence": "Pipelines and Gmail integration cover the BD workflow minimum (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 72 GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 2,
+          "evidence": "72 stars with no API and a minimal dependency stack (tools.json)."
         }
       },
       "scored": "2026-09-28"

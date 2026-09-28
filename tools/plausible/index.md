@@ -1,6 +1,16 @@
 # Plausible Analytics pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Lightweight web analytics with insights and anomaly detection cover the privacy analytics job (tools.json deep_dive). |
+| Integrations | 5/10 | WordPress, Ghost, Webflow, Zapier, Search Console and Slack documented plus an API (tools.json). |
+| AI capability | 3/10 | AI insights, anomaly detection and traffic analysis are convenience layers on the core product (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with 29.0k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 7/10 | Founded 2019 with a large self-hosted base and a steady cloud business (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Plausible Analytics &#8594;](https://plausible.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Plausible is privacy analytics you can self-host or buy for $9/mo, at 29k stars. The script is light, the data is yours, and the AI insights stay out of the way.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -232,6 +246,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Plausible is privacy analytics you can self-host or buy for $9/mo, at 29k stars. The script is light, the data is yours, and the AI insights stay out of the way.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/plausible/#app",
+      "name": "Plausible Analytics",
+      "url": "https://martechsignal.com/tools/plausible/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

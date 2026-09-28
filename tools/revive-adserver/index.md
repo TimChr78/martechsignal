@@ -1,6 +1,16 @@
 # Revive Adserver review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (tools.json). |
+| Feature depth | 4/10 | Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (tools.json deep_dive). |
+| Integrations | 3/10 | MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 8/10 | GPL-2.0 with 1.5k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 5/10 | Long-lived open-source ad server with a hosted edition behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-2.0 licence with free self-hosting | &#10007; You run the servers, apply updates and watch security advisories yourself. |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Revive Adserver &#8594;](https://www.revive-adserver.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 27/60
+
+Revive Adserver is the free ad server for publishers who want to own delivery. GPL-2.0 and self-hosted; the hosted Aqua Platform hides its price and the platform shows its PHP age.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -268,6 +282,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Revive Adserver is the free ad server for publishers who want to own delivery. GPL-2.0 and self-hosted; the hosted Aqua Platform hides its price and the platform shows its PHP age.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/revive-adserver/#app",
+      "name": "Revive Adserver",
+      "url": "https://martechsignal.com/tools/revive-adserver/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 27,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

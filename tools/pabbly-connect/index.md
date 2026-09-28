@@ -1,6 +1,16 @@
 # Pabbly Connect review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Task-based integrations and workflows cover the iPaaS job (tools.json deep_dive). |
+| Integrations | 5/10 | Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (tools.json). |
+| AI capability | 3/10 | Pabbly AgenticAI exists as a workflow builder sold separately (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 5/10 | Published volume tiers and a lifetime purchase model (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI workflow builder (Pabbly AgenticAI, sold separately) | &#10007; Paid plans start at $16/mo once past the free tier |
@@ -61,7 +71,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Pabbly Connect &#8594;](https://www.pabbly.com/connect/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 29/60
+
+Pabbly Connect sells tasks cheap and even offers a lifetime deal, which nobody else in this category does. The AI workflow builder is a separate purchase, so budget accordingly.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -214,6 +228,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Pabbly Connect sells tasks cheap and even offers a lifetime deal, which nobody else in this category does. The AI workflow builder is a separate purchase, so budget accordingly.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
+      "name": "Pabbly Connect",
+      "url": "https://martechsignal.com/tools/pabbly-connect/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 29,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

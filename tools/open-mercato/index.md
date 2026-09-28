@@ -1,6 +1,16 @@
 # Open Mercato review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (tools.json ai_features). |
+| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (tools.json). |
+| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 1.7k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 4/10 | Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -78,7 +88,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Open Mercato &#8594;](https://www.openmercato.com/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Open Mercato is a TypeScript foundation for AI-built commerce and CRM, with a 192-case evaluation harness as its trust argument. The MIT core is free; the Enterprise package prices behind a conversation.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -284,6 +298,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Open Mercato is a TypeScript foundation for AI-built commerce and CRM, with a 192-case evaluation harness as its trust argument. The MIT core is free; the Enterprise package prices behind a conversation.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/open-mercato/#app",
+      "name": "Open Mercato",
+      "url": "https://martechsignal.com/tools/open-mercato/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

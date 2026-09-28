@@ -1,6 +1,16 @@
 # Pipedrive review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (tools.json ai_features). |
+| Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (tools.json). |
+| AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI sales assistant | &#10007; Closed source - no self-hosting option |
@@ -66,7 +76,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Pipedrive &#8594;](https://www.pipedrive.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Pipedrive is the pipeline-first CRM at a working price: $14 to $79 per seat with every tier published. The AI handles scoring and reminders, which is the right altitude for sales teams.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Pipedrive is the pipeline-first CRM at a working price: $14 to $79 per seat with every tier published. The AI handles scoring and reminders, which is the right altitude for sales teams.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/pipedrive/#app",
+      "name": "Pipedrive",
+      "url": "https://martechsignal.com/tools/pipedrive/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

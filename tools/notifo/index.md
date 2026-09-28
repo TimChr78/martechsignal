@@ -1,6 +1,16 @@
 # Notifo review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (tools.json). |
+| Feature depth | 4/10 | Multi-channel notifications across email, SMS and web push cover the delivery job (tools.json deep_dive). |
+| Integrations | 5/10 | Amazon SES, MessageBird, Firebase, custom web push and SignalR with a REST API and OpenAPI (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | MIT-licensed with 880 GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 4/10 | Founded 2020 at 880 stars with a hosted instance of unlisted size (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Notifo &#8594;](https://notifo.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 880 stars and no AI story, which fits infrastructure.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -285,6 +299,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Notifo is self-hosted notification plumbing: email, SMS and push through your own SES and MessageBird accounts. MIT with 880 stars and no AI story, which fits infrastructure.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/notifo/#app",
+      "name": "Notifo",
+      "url": "https://martechsignal.com/tools/notifo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Postmark review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (tools.json). |
+| Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (tools.json deep_dive). |
+| Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (tools.json). |
+| AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with strong API and MCP access (tools.json). |
+| Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: MCP server with 24 tools and delivery diagnostics | &#10007; Paid plans start at $15/mo once past the free tier |
@@ -75,7 +85,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Postmark &#8594;](https://postmarkapp.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Postmark separates message streams so transactional mail survives marketing blasts, and publishes delivery numbers to back it. The MCP server with 24 diagnostic tools is the newest reason developers look.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -292,6 +306,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Postmark separates message streams so transactional mail survives marketing blasts, and publishes delivery numbers to back it. The MCP server with 24 diagnostic tools is the newest reason developers look.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/postmark/#app",
+      "name": "Postmark",
+      "url": "https://martechsignal.com/tools/postmark/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

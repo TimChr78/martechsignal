@@ -1,6 +1,16 @@
 # Semrush review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (tools.json ai_features). |
+| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (tools.json). |
+| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access at additional cost (tools.json). |
+| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content optimizer | &#10007; Closed source - no self-hosting option |
@@ -68,7 +78,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Semrush &#8594;](https://www.semrush.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+Semrush is still the SEO suite benchmark: breadth from keyword research to AI visibility tracking with published prices from $117 to $500 per month. The question is scope, not capability.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -229,6 +243,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Semrush is still the SEO suite benchmark: breadth from keyword research to AI visibility tracking with published prices from $117 to $500 per month. The question is scope, not capability.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/semrush/#app",
+      "name": "Semrush",
+      "url": "https://martechsignal.com/tools/semrush/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # PostHog review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (tools.json). |
+| Feature depth | 7/10 | Product analytics, session replay, feature flags, experiments and surveys cover the product stack (tools.json deep_dive). |
+| Integrations | 6/10 | Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (tools.json). |
+| AI capability | 6/10 | AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 39.9k GitHub stars and self-hosting parity (tools.json). |
+| Operational maturity | 7/10 | Founded 2020 at 39.9k stars with a mature multi-product platform (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; The ee/ directory is under a separate enterprise license, so the codebase is not wholly MIT |
@@ -84,7 +94,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit PostHog &#8594;](https://posthog.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 43/60
+
+PostHog gives away more than anyone: a full free tier on every product, month after month. 39.9k stars of MIT product analytics with AI observability that tracks your own LLM features.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -295,6 +309,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "PostHog gives away more than anyone: a full free tier on every product, month after month. 39.9k stars of MIT product analytics with AI observability that tracks your own LLM features.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/posthog/#app",
+      "name": "PostHog",
+      "url": "https://martechsignal.com/tools/posthog/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 43,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

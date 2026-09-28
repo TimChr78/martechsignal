@@ -1,6 +1,16 @@
 # SISTRIX review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (tools.json ai_features). |
+| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (tools.json). |
+| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 7/10 | Established European suite with a long-published index methodology (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Visibility module: mentions, rankings and citations in AI search engines | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit SISTRIX &#8594;](https://www.sistrix.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+SISTRIX is the German SEO suite built on its Visibility Index, now with an AI Visibility module for mentions and citations. Monthly cancelable pricing from EUR 119 keeps it accountable.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -256,6 +270,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "SISTRIX is the German SEO suite built on its Visibility Index, now with an AI Visibility module for mentions and citations. Monthly cancelable pricing from EUR 119 keeps it accountable.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/sistrix/#app",
+      "name": "SISTRIX",
+      "url": "https://martechsignal.com/tools/sistrix/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

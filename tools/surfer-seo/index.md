@@ -1,6 +1,16 @@
 # Surfer SEO review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (tools.json). |
+| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (tools.json ai_features). |
+| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (tools.json). |
+| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content editor | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Surfer SEO &#8594;](https://surferseo.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Surfer SEO owns the content-editor category and now tracks AI visibility too. Tier prices swing between monthly and annual billing, so read both columns before committing.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -236,6 +250,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Surfer SEO owns the content-editor category and now tracks AI visibility too. Tier prices swing between monthly and annual billing, so read both columns before committing.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/surfer-seo/#app",
+      "name": "Surfer SEO",
+      "url": "https://martechsignal.com/tools/surfer-seo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Microsoft Power Automate pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Premium $15/user/mo yearly, Process $150/bot/mo and Hosted Process $215/bot/mo published (verified 2026-09-27) (tools.json). |
+| Feature depth | 7/10 | Workflow automation, RPA and agentic flows cover the enterprise automation stack (tools.json ai_features). |
+| Integrations | 8/10 | Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (tools.json). |
+| AI capability | 6/10 | Copilot-assisted flow building, AI Builder document processing and agentic flows (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform (tools.json). |
+| Operational maturity | 8/10 | Founded 2016 inside Microsoft&#x27;s enterprise support structure (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: copilot-assisted flow building | &#10007; Paid plans start at $15/mo once past the free tier |
@@ -63,7 +73,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Power Automate is the enterprise default when Microsoft 365 is already the estate: Copilot flow building, AI Builder documents and unattended RPA at $150 per bot. The prices are public; the licensing is a maze.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -219,6 +233,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Power Automate is the enterprise default when Microsoft 365 is already the estate: Copilot flow building, AI Builder documents and unattended RPA at $150 per bot. The prices are public; the licensing is a maze.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/power-automate/#app",
+      "name": "Microsoft Power Automate",
+      "url": "https://martechsignal.com/tools/power-automate/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

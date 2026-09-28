@@ -1,6 +1,16 @@
 # Paperclip review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (tools.json). |
+| Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (tools.json ai_features). |
+| Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (tools.json). |
+| AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (tools.json). |
+| Operational maturity | 5/10 | 80.4k stars with a simple hosted tier and model-spend tracking (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Paperclip &#8594;](https://paperclip.ing)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 44/60
+
+Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. 80k stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -302,6 +316,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. 80k stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/paperclip/#app",
+      "name": "Paperclip",
+      "url": "https://martechsignal.com/tools/paperclip/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 44,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

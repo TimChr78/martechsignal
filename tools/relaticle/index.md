@@ -1,6 +1,16 @@
 # Relaticle review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (tools.json). |
+| Feature depth | 5/10 | CRM records with native agent support and built-in AI chat cover the small-team CRM loop (tools.json ai_features). |
+| Integrations | 5/10 | Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (tools.json). |
+| AI capability | 6/10 | A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (tools.json ai_features). |
+| Openness | 8/10 | AGPL-3.0 with 1.6k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 4/10 | Founded 2024 at 1.6k stars with priced cloud tiers (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Relaticle &#8594;](https://relaticle.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Relaticle is a Laravel CRM with a 37-tool MCP server and native agent support, free self-hosted with unlimited records. Cloud Pro adds 2,000 AI credits for $19 per workspace.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -287,6 +301,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Relaticle is a Laravel CRM with a 37-tool MCP server and native agent support, free self-hosted with unlimited records. Cloud Pro adds 2,000 AI credits for $19 per workspace.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/relaticle/#app",
+      "name": "Relaticle",
+      "url": "https://martechsignal.com/tools/relaticle/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Potato review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (tools.json ai_features). |
+| Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (tools.json). |
+| AI capability | 5/10 | Measuring Claude&#x27;s web-search answers with citation validity checks is applied AI measurement (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 168 GitHub stars and fully local execution (tools.json). |
+| Operational maturity | 2/10 | Founded 2026 at 168 stars as a focused local tool (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (168 GitHub stars) - smaller community and plugin ecosystem |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Potato &#8594;](https://github.com/onism1767-creator/potato)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Potato measures one thing locally: whether Claude&#x27;s web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -228,6 +242,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Potato measures one thing locally: whether Claude's web-search answers mention and cite your brand, with link-rot checking. MIT and 168 stars; the $0 mock mode makes it testable before you spend a cent.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/potato-ai-visibility/#app",
+      "name": "Potato",
+      "url": "https://martechsignal.com/tools/potato-ai-visibility/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

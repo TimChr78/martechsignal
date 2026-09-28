@@ -1,6 +1,16 @@
 # ToolJet review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (tools.json). |
+| Feature depth | 7/10 | Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (tools.json ai_features). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (tools.json). |
+| AI capability | 6/10 | Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (tools.json ai_features). |
+| Openness | 8/10 | AGPL-3.0 with 40.9k GitHub stars and community-edition self-hosting (tools.json). |
+| Operational maturity | 6/10 | 40.9k stars with priced cloud tiers and an Enterprise floor published (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ToolJet &#8594;](https://tooljet.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+ToolJet generates internal apps from a prompt over 40.9k stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -294,6 +308,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ToolJet generates internal apps from a prompt over 40.9k stars of AGPL code, with an MCP server for the agent harnesses. Pricing is published down to builder seats and the Enterprise floor.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/tooljet/#app",
+      "name": "ToolJet",
+      "url": "https://martechsignal.com/tools/tooljet/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

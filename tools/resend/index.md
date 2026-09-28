@@ -1,6 +1,16 @@
 # Resend review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (tools.json). |
+| Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (tools.json deep_dive). |
+| Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (tools.json). |
+| AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (tools.json ai_features). |
+| Openness | 6/10 | MIT SDKs at 19.7k GitHub stars behind a closed sending service (tools.json). |
+| Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Email Editor with brand-voice drafting | &#10007; Paid plans start at $20/mo once past the free tier |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Resend &#8594;](https://resend.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19.7k stars on the MIT SDKs, and marketing prices published alongside transactional.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -288,6 +302,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Resend is developer email built around React Email, with a hosted MCP server and an official Cursor plugin. 19.7k stars on the MIT SDKs, and marketing prices published alongside transactional.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/resend/#app",
+      "name": "Resend",
+      "url": "https://martechsignal.com/tools/resend/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```
