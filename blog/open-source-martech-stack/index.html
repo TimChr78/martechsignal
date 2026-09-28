@@ -69,7 +69,7 @@
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1496,
+  "wordCount": 1536,
   "articleSection": ""
 }
 </script>
@@ -118,7 +118,7 @@
 <a class="back" href="/blog/">← ALL WRITING</a>
 <article>
 
-<p class="kicker">RECOVERED · 7 MIN</p>
+<p class="kicker">RECOVERED · 8 MIN</p>
 <h1>Open-Source Martech Stack vs $5K/mo Subscriptions</h1>
 <img class="post-hero" src="/og/hero-open-source-martech-stack.webp" alt="Open-Source Martech Stack vs $5K/mo Subscriptions" width="1200" height="630" srcset="/og/hero-open-source-martech-stack-480.webp 480w, /og/hero-open-source-martech-stack-800.webp 800w, /og/hero-open-source-martech-stack.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">
 <p class="disclosure-strip"><a href="/methodology/">How we review</a> · No affiliate links</p>
@@ -132,41 +132,41 @@
 <nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#1-crm-the-foundation">1. CRM: The Foundation</a> · <a href="#2-email-marketing-amp-newsletters">2. Email Marketing &amp; Newsletters</a> · <a href="#3-marketing-automation">3. Marketing Automation</a> · <a href="#4-analytics-amp-attribution">4. Analytics &amp; Attribution</a> · <a href="#5-content-amp-publishing">5. Content &amp; Publishing</a> · <a href="#6-chatbots-amp-customer-engagement">6. Chatbots &amp; Customer Engagement</a> · <a href="#the-real-cost-comparison">The Real Cost Comparison</a> · <a href="#the-hybrid-stack-what-we-d-actually-recommend">The Hybrid Stack (What We'd Actually Recommend)</a></nav>
 <p>Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on martech subscriptions, and the prices only go up.</p>
 
-<p>The open-source alternative has quietly matured. Tools like <a href="/tools/n8n/">n8n</a> (198K GitHub stars), <a href="/tools/strapi/">Strapi</a> (72K), and <a href="/tools/twenty/">Twenty</a> (53K) aren't hobby projects anymore. They're production-grade platforms with AI features, cloud hosting, and communities that actually respond to issues.</p>
+<p>The open-source alternative has quietly matured. Tools like <a href="/tools/n8n/">n8n</a> (206100 GitHub stars, <a href="https://github.com/n8n-io/n8n">repository</a>), <a href="/tools/strapi/">Strapi</a> (73.1K, <a href="https://github.com/strapi/strapi">repository</a>), and <a href="/tools/twenty/">Twenty</a> (56.5K) are not hobby projects anymore. They're production-grade platforms with AI features, cloud hosting, and communities that actually respond to issues.</p>
 
-<p>We went through our <a href="/categories/open-source/">directory of 23 open-source marketing tools</a> and built a complete stack, category by category. Then we compared it against the commercial incumbents on cost, features, and the thing nobody talks about: <strong>what "free" actually costs.</strong></p>
+<p>We went through our <a href="/categories/open-source/">directory of open-source marketing tools</a>, where every entry has a full review with sources and built a complete stack, category by category. Then we compared it against the commercial incumbents on cost, features, and the thing nobody talks about: <strong>what "free" actually costs.</strong></p>
 
 <h2 id="1-crm-the-foundation">1. CRM: The Foundation</h2>
 
-<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>TwentyOSS</td><td>53.7K</td><td>$0 self-hosted</td><td>Salesforce / HubSpot</td><td>$25–150/user/mo</td></tr><tr><td>SuiteCRMOSS</td><td>5.6K</td><td>$0 self-hosted</td><td>Salesforce</td><td>$25–300/user/mo</td></tr><tr><td>EspoCRMOSS</td><td>3.2K</td><td>$0 self-hosted</td><td>Pipedrive</td><td>$14–99/user/mo</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>TwentyOSS</td><td>56.5K</td><td>$0 self-hosted</td><td>Salesforce / HubSpot</td><td>$25–150/user/mo</td></tr><tr><td>SuiteCRMOSS</td><td>5.7K</td><td>$0 self-hosted</td><td>Salesforce</td><td>$25–300/user/mo</td></tr><tr><td>EspoCRMOSS</td><td>3.3K</td><td>$0 self-hosted</td><td>Pipedrive</td><td>$14–99/user/mo</td></tr></tbody></table></div>
 
-<p><strong>Twenty</strong> is the one to watch. It's an AI-native CRM built as a direct Salesforce replacement, with real-time data enrichment, agentic workflows, and a UI that doesn't look like 2005. 53K stars and venture backing make it the closest thing to a credible open-source Salesforce.</p>
+<p><strong>Twenty</strong> is the one to watch: an AI-native CRM built as a direct Salesforce replacement, with a UI that does not look like 2005. Venture backing and 56.5K stars make it the closest thing to a credible open-source Salesforce. An earlier version of this post credited Twenty with real-time data enrichment and agentic workflows. Our <a href="/tools/twenty/">Twenty review</a> corrects that: neither is a documented feature.</p>
 
 <p><strong>SuiteCRM</strong> is the SugarCRM fork with 15+ years of production use. Less flashy, more enterprise-hardened. If you need something that's survived a decade of real deployments, this is it.</p>
 
 <p>&gt; <strong>✅ OSS Wins: Cost &amp; Customization</strong></p>
 
-<p>For teams under 50 users who can self-host, the savings are enormous. Twenty's AI features rival HubSpot's Breeze at a fraction of the cost. The trade-off: no dedicated support line, and you own the infrastructure.</p>
+<p>For teams under 50 users who can self-host, the savings are enormous. Twenty covers HubSpot's core CRM territory at a fraction of the cost. The tradeoff: no dedicated support line, and you own the infrastructure.</p>
 
 <h2 id="2-email-marketing-amp-newsletters">2. Email Marketing &amp; Newsletters</h2>
 
-<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>ListmonkOSS</td><td>22.5K</td><td>$0 + SMTP</td><td>Mailchimp</td><td>$13–350/mo</td></tr><tr><td>BillionMailOSS</td><td>15.4K</td><td>$0 self-hosted</td><td>Klaviyo</td><td>$20–1,500/mo</td></tr><tr><td>GhostOSS</td><td>54.6K</td><td>$0 / Cloud $9/mo</td><td>Substack / Beehiiv</td><td>10% rev / $49/mo</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>ListmonkOSS</td><td>23.3K</td><td>$0 + SMTP</td><td>Mailchimp</td><td>$13–350/mo</td></tr><tr><td>BillionMailOSS</td><td>15.6K</td><td>$0 self-hosted</td><td>Klaviyo</td><td>$20–1,500/mo</td></tr><tr><td>GhostOSS</td><td>55.2K</td><td>$0 / Cloud $9/mo</td><td>Substack / Beehiiv</td><td>10% rev / <a href="https://www.beehiiv.com/pricing">$49/mo</a></td></tr></tbody></table></div>
 
 <p><strong>Listmonk</strong> is written in Go and handles millions of subscribers on a $5 VPS. No per-contact pricing, no feature gating. If you can run Docker, you can run a newsletter platform that would cost $350/mo on Mailchimp.</p>
 
-<p><strong>Ghost</strong> has become the default for creator newsletters. Built-in memberships, SEO, and now AI writing tools. Self-hosted is free; cloud starts at $9/mo (vs. Beehiiv's $49).</p>
+<p><strong>Ghost</strong> has become the default for creator newsletters. Built-in memberships, SEO, and now AI writing tools. Self-hosted is free; cloud starts at $9/mo (vs. Beehiiv's <a href="https://www.beehiiv.com/pricing">$49 tier</a>).</p>
 
 <p>&gt; <strong>✅ OSS Wins: Scale Economics</strong></p>
 
-<p>Email is where OSS wins by the widest margin. Commercial platforms charge per contact. At 50K subscribers, you're paying $500+/mo. Listmonk charges $0 regardless of list size. The only cost is your SMTP provider (~$10–50/mo).</p>
+<p>Email is where OSS wins by the widest margin. Commercial platforms charge per contact. At 50K subscribers, you are paying $500+/mo. Listmonk charges $0 regardless of list size. The only cost is your SMTP provider (~$10–50/mo).</p>
 
 <h2 id="3-marketing-automation">3. Marketing Automation</h2>
 
-<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>MauticOSS</td><td>10.2K</td><td>$0 self-hosted</td><td>HubSpot / Marketo</td><td>$800–2,000+/mo</td></tr><tr><td>n8nOSS</td><td>198K</td><td>$0 / Cloud €20/mo</td><td>Zapier / Make</td><td>$20–700/mo</td></tr><tr><td>LaudspeakerOSS</td><td>2.6K</td><td>$0 self-hosted</td><td>Customer.io / Braze</td><td>$100–enterprise</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>MauticOSS</td><td>10.5K</td><td>$0 self-hosted</td><td>HubSpot / Marketo</td><td>$800–2,000+/mo</td></tr><tr><td>n8nOSS</td><td>206K</td><td>$0 / Cloud €20/mo</td><td>Zapier / Make</td><td>$20–700/mo</td></tr><tr><td>LaudspeakerOSS</td><td>2.6K</td><td>$0 self-hosted</td><td>Customer.io / Braze</td><td>$100–enterprise</td></tr></tbody></table></div>
 
-<p><strong>Mautic</strong> is the only true open-source marketing automation platform. Lead scoring, drip campaigns, landing pages, email sequences. It's what HubSpot was before it became a $200B company. The UI is dated, but the feature set is genuinely comparable to Marketo for B2B use cases.</p>
+<p><strong>Mautic</strong> is the only true open-source marketing automation platform. Lead scoring, drip campaigns, landing pages, email sequences. It is what HubSpot was before it became a $200B company. The UI is dated, but the feature set is genuinely comparable to Marketo for B2B use cases.</p>
 
-<p><strong>n8n</strong> isn't marketing-specific, but with 400+ nodes and AI agent capabilities, it's become the glue that holds OSS martech stacks together. Connect your CRM to your email tool to your analytics without paying the Zapier tax.</p>
+<p><strong>n8n</strong> isn't marketing-specific, but with 400+ nodes and AI agent capabilities, it has become the glue that holds OSS martech stacks together. Connect your CRM to your email tool to your analytics without paying the Zapier tax.</p>
 
 <p>&gt; <strong>⚖️ Tie: Depends on Team Size</strong></p>
 
@@ -174,13 +174,13 @@
 
 <h2 id="4-analytics-amp-attribution">4. Analytics &amp; Attribution</h2>
 
-<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>PlausibleOSS</td><td>28K</td><td>$0 / Cloud $9/mo</td><td>Google Analytics</td><td>$0 (but: your data)</td></tr><tr><td>UmamiOSS</td><td>37.9K</td><td>$0 / Cloud $20/mo</td><td>Mixpanel</td><td>$0–1,000+/mo</td></tr><tr><td>MatomoOSS</td><td>21.7K</td><td>$0 / Cloud €19/mo</td><td>Adobe Analytics</td><td>$enterprise</td></tr><tr><td>SnowplowOSS</td><td>7K</td><td>$0 self-hosted</td><td>Segment</td><td>$120+/mo</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>PlausibleOSS</td><td>29.0K</td><td>$0 / Cloud $9/mo</td><td>Google Analytics</td><td>$0 (but: your data)</td></tr><tr><td>UmamiOSS</td><td>38.7K</td><td>$0 / Cloud $20/mo</td><td>Mixpanel</td><td>$0–1,000+/mo</td></tr><tr><td>MatomoOSS</td><td>21.9K</td><td>$0 / Cloud €19/mo</td><td>Adobe Analytics</td><td>$enterprise</td></tr><tr><td>SnowplowOSS</td><td>7.0K</td><td>$0 self-hosted</td><td>Segment</td><td>$120+/mo</td></tr></tbody></table></div>
 
 <p>This is the most mature OSS category. <strong>Plausible</strong> and <strong>Umami</strong> have effectively made Google Analytics unnecessary for content sites. Privacy-friendly, cookieless, GDPR-compliant by default, and they load in 1KB instead of GA's 45KB script.</p>
 
-<p><strong>Matomo</strong> is the full GA replacement. Heatmaps, session recordings, form analytics, tag manager. It's what you deploy when legal says "no more Google."</p>
+<p><strong>Matomo</strong> is the full GA replacement. Heatmaps, session recordings, form analytics, tag manager. It is what you deploy when legal says "no more Google."</p>
 
-<p><strong>Snowplow</strong> is the data infrastructure layer. Event collection and enrichment that <a href="/blog/you-dont-need-new-data-stack-fivetran/">feeds your own data warehouse</a>. It's what Segment charges $120+/mo for, self-hosted for free.</p>
+<p><strong>Snowplow</strong> is the data infrastructure layer. Event collection and enrichment that <a href="/blog/you-dont-need-new-data-stack-fivetran/">feeds your own data warehouse</a>. It is what Segment charges $120+/mo for, self-hosted for free.</p>
 
 <p>&gt; <strong>✅ OSS Wins: Privacy &amp; Ownership</strong></p>
 
@@ -188,9 +188,9 @@
 
 <h2 id="5-content-amp-publishing">5. Content &amp; Publishing</h2>
 
-<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>StrapiOSS</td><td>72.7K</td><td>$0 / Cloud $15/mo</td><td>Contentful</td><td>$300+/mo</td></tr><tr><td>GhostOSS</td><td>54.6K</td><td>$0 / Cloud $9/mo</td><td>WordPress VIP</td><td>$250+/mo</td></tr></tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Open Source</th><th>Stars</th><th>Cost</th><th>Commercial</th><th>Cost</th></tr></thead><tbody><tr><td>StrapiOSS</td><td>73.1K</td><td>$0 / Cloud $15/mo</td><td>Contentful</td><td>$300+/mo</td></tr><tr><td>GhostOSS</td><td>55.2K</td><td>$0 / Cloud $9/mo</td><td>WordPress VIP</td><td>$250+/mo</td></tr></tbody></table></div>
 
-<p><strong>Strapi</strong> is the most-starred OSS project in our entire directory (72.7K). It's a headless CMS that replaces Contentful at 1/20th the cost. API-first, plugin ecosystem, and now AI-powered content management.</p>
+<p><strong>Strapi</strong> is the most-starred OSS project in our entire directory (73.1K). It is a headless CMS that replaces Contentful at 1/20th the cost. API-first, plugin ecosystem, and now AI-powered content management.</p>
 
 <p>&gt; <strong>✅ OSS Wins: Clearly</strong></p>
 
@@ -260,7 +260,7 @@
 
 <a class="btn" href="/categories/open-source/">VIEW OPEN-SOURCE TOOLS →</a>
 
-<p>More from the directory: <a href="/tools/chatfuel/">Chatfuel</a> · <a href="/tools/contentbot/">ContentBot</a> · <a href="/tools/email-marketing-bible/">Email Marketing Bible</a> · <a href="/tools/heap/">Heap</a> · <a href="/tools/klaviyo/">Klaviyo</a> · <a href="/tools/line-harness/">L Harness</a> · <a href="/tools/mailchimp/">Mailchimp</a> · <a href="/tools/nocobase/">NocoBase</a> · <a href="/tools/open-mercato/">Open Mercato</a> · <a href="/tools/openseo/">OpenSEO</a> · <a href="/tools/pencil/">Pencil</a> · <a href="/tools/phrasee/">Phrasee</a> · <a href="/tools/revealbot/">Revealbot (Birch)</a> · <a href="/tools/wacrm/">WaCRM</a> · <a href="/tools/tooljet/">ToolJet</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/listmonk/">Listmonk</a> - Open-source self-hosted newsletter and mailing list manager with a fast Go backend</li><li><a href="/tools/jitsu/">Jitsu</a> - Open-source Segment alternative for event capture and warehouse-first data pipelines</li><li><a href="/tools/hubspot-crm/">HubSpot CRM</a> - Free AI-powered CRM platform with sales, service, and marketing tools unified</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/vs/matomo-vs-plausible/">Matomo vs Plausible (2026): analytics depth or a dashboard that stays small</a></li><li><a href="/best/open-source-marketing-tools/">Best Open-Source Marketing Tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/workflow-automation/">Workflow automation</a></li><li><a href="/glossary/marketing-ops/">Marketing ops</a></li></ul></section>
+<p>More from the directory: <a href="/tools/chatfuel/">Chatfuel</a> · <a href="/tools/contentbot/">ContentBot</a> · <a href="/tools/email-marketing-bible/">Email Marketing Bible</a> · <a href="/tools/heap/">Heap</a> · <a href="/tools/klaviyo/">Klaviyo</a> · <a href="/tools/line-harness/">L Harness</a> · <a href="/tools/mailchimp/">Mailchimp</a> · <a href="/tools/nocobase/">NocoBase</a> · <a href="/tools/open-mercato/">Open Mercato</a> · <a href="/tools/openseo/">OpenSEO</a> · <a href="/tools/pencil/">Pencil</a> · <a href="/tools/phrasee/">Phrasee</a> · <a href="/tools/revealbot/">Revealbot (Birch)</a> · <a href="/tools/wacrm/">WaCRM</a> · <a href="/tools/tooljet/">ToolJet</a></p><section class="related-reading"><h2>Related reading</h2><ul><li><a href="/blog/n8n-ai-open-source-automation/">n8n + AI: The Open-Source Automation Engine</a></li><li><a href="/blog/oss-martech-50-day-checkin/">Fifty days of open-source MarTech, audited</a></li><li><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a></li></ul></section><section class="related-tools"><h2>Related tools</h2><ul><li><a href="/tools/listmonk/">Listmonk</a> - Open-source self-hosted newsletter and mailing list manager with a fast Go backend</li><li><a href="/tools/matomo/">Matomo</a> - Open-source web analytics platform with full data ownership and AI-powered insights</li><li><a href="/tools/jitsu/">Jitsu</a> - Open-source Segment alternative for event capture and warehouse-first data pipelines</li></ul></section><section class="related-reading"><h2>Comparison guides</h2><ul><li><a href="/vs/matomo-vs-plausible/">Matomo vs Plausible (2026): analytics depth or a dashboard that stays small</a></li><li><a href="/best/open-source-marketing-tools/">Best Open-Source Marketing Tools (2026): 8 compared</a></li></ul></section><section class="related-glossary"><h2>Glossary terms</h2><ul><li><a href="/glossary/workflow-automation/">Workflow automation</a></li><li><a href="/glossary/marketing-ops/">Marketing ops</a></li></ul></section>
 
 <div class="cta-strip">
 <h3>One email. <span class="amber">Every Friday.</span></h3>

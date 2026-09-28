@@ -94,8 +94,8 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Related tools
 
 - [Eve Marketing Team Template](/tools/eve-marketing-team/) - Open-source team of marketing agents on eve: lead, content, social, SEO, email

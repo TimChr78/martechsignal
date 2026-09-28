@@ -85,8 +85,8 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Related tools
 
 - [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations

@@ -3,7 +3,7 @@
 
 | Cost | What you see | What you actually pay |
 | --- | --- | --- |
-| License | Sticker price, per seat or tier | Sticker price plus the seats nobody uses (expect ~half, per Gartner) |
+| License | Sticker price, per seat or tier | Sticker price plus the seats nobody uses (expect roughly half) |
 | Setup | "Self-serve onboarding" | Weeks of ops time configuring fields, segments, and templates |
 | Integrations | "Native CRM sync" | Sync maintenance every time either side changes a schema |
 | AI add-on | Included or a small uplift | Editing time on output (88% of it needs moderate to heavy edits) |
@@ -11,7 +11,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-MARTECH · MEASUREMENT · 9 MIN
+MARTECH · MEASUREMENT · 8 MIN
 
 ## Your Martech Budget Is Bleeding and Nobody&#x27;s Measuring It
 
@@ -31,11 +31,11 @@ That thread is the most rigorous martech ROI discussion I've seen this year, and
 
 ## The utilization problem is measured. The value problem isn't.
 
-Gartner's 2025 Marketing Technology Survey found that only 49% of the tools in the average martech stack are actively used. Just 15% of organizations surveyed qualify as high performers on martech utilization. The 2024 edition of the same survey found large organizations run an average of 10.2 martech tools while relying on four or five for day-to-day work.
+Reported coverage of Gartner's 2025 Marketing Technology Survey ([MarTech Cube's write-up](https://www.martechcube.com/data-to-decision-pipeline/)) puts active use of paid martech capability at 49%.
 
 So half the stack sits idle even before anyone asks whether the active half is doing anything useful.
 
-The market keeps feeding the pile. Chiefmartec's 2025 landscape map counts 15,384 martech solutions, up 9% in a year, with AI-native products doing most of the growing. And the money isn't growing with it. Gartner's CMO Spend Survey has marketing budgets flat around 7.7% of company revenue, and coverage of the 2026 edition by Chief Marketer puts martech's share of the marketing budget at a five-year low: 19.4%, down from 26.6% in 2021. Flat budget, more tools, smaller slice per tool. That is the sound of a line item getting squeezed while nobody checks what the squeeze buys.
+The market keeps feeding the pile. [Chiefmartec's 2025 landscape map](https://martechmap.com/) counts 15,384 martech solutions, up 9% in a year, with AI-native products doing most of the growing. And the money isn't growing with it. Gartner's CMO Spend Survey has marketing budgets flat around 7.7% of company revenue, and coverage of the 2026 edition by [Chief Marketer](https://www.chiefmarketer.com/gartner-cmo-spend-survey-budgets-reflect-increase-in-consumption-based-martech-paid-media-spend/) puts martech's share of the marketing budget at a five-year low: 19.4%, down from 26.6% in 2021. Flat budget, more tools, smaller slice per tool. That is the sound of a line item getting squeezed while nobody checks what the squeeze buys.
 
 Half the martech stack goes unused, and almost nobody can say what the used half returns. Those are not the same problem, and the second one is worse.
 
@@ -43,7 +43,7 @@ Half the martech stack goes unused, and almost nobody can say what the used half
 
 AI features gave every vendor a fresh demo and a reason to raise the invoice. The pitch works because production speed is visible: more drafts, more variants, more campaigns per week. You can watch it happen in the meeting.
 
-The measurement side did not get the same upgrade. Knak's "Marketing Production in the Age of AI" report, covered by MarTech in July, surveyed 333 marketing decision-makers in the U.S., U.K., and Canada at companies with $50 million or more in revenue. Marketers in that group were 68% more likely to measure email and landing page performance by click-through rate than by revenue or pipeline influenced. Sixty-nine percent track CTR. Forty-one percent track revenue or pipeline influence.
+The measurement side did not get the same upgrade. Knak's ["Marketing Production in the Age of AI" report](https://knak.com/state-of-marketing-production/), covered by MarTech in July, surveyed 333 marketing decision-makers in the U.S., U.K., and Canada at companies with $50 million or more in revenue. Marketers in that group were 68% more likely to measure email and landing page performance by click-through rate than by revenue or pipeline influenced. Sixty-nine percent track CTR. Forty-one percent track revenue or pipeline influence.
 
 One in three said they consistently meet or exceed their campaign performance targets, which means two in three consistently don't, and most of them are judging the miss with a click metric.
 
@@ -53,11 +53,9 @@ MarTech's write-up lands on the part that annoys me most: enterprise automation 
 
 ## Your dashboard is lying to you politely
 
-If you want to see what unexamined measurement does to a budget, the paid search world just published a clean example. In Search Engine Land, Maggie Humphrey of Cypress North walked through an account where brand and non-brand campaigns were blended together. Blended automation does what automation always does: it finds the cheapest conversion. Brand searches convert well because those customers were already looking for you. The algorithm buys them, reports a strong ROAS, and takes a bow.
+If you want to see what unexamined measurement does to a budget, start with blended paid search. Blended automation does what automation always does: it finds the cheapest conversion. Brand searches convert well because those customers were already looking for you. The algorithm buys them, reports a strong ROAS, and takes a bow.
 
-When the team split brand and non-brand and stopped paying for demand that already existed, reported Google PPC revenue dropped 25% year over year, roughly $2.3 million. Read in isolation, that number looks like a failure. It isn't. Organic revenue rose 99% as branded searches shifted to the free listing. Combined paid plus organic revenue grew 15%, and new customer acquisition grew 20%.
-
-The search tactic matters less than the pattern: the pre-restructure dashboard reported success while the account mostly bought its own customers. A healthy ROAS can be a receipt for money you didn't need to spend. Multiply that pattern across a martech stack, where every tool reports its own wins in its own dashboard, and you get a budget that looks measured and isn't.
+The search tactic matters less than the pattern: a dashboard can report success while the account mostly buys its own customers. A healthy ROAS can be a receipt for money you did not need to spend. Multiply that pattern across a martech stack, where every tool reports its own wins in its own dashboard, and you get a budget that looks measured and isn't.
 
 ## The four questions worth asking before the next renewal
 
@@ -80,7 +78,7 @@ If you can't remember the last time your stack was reviewed, here's a starting p
 - List every marketing tool that cost money in the last 12 months, including the AI add-ons that showed up inside existing contracts.
 - Next to each one, write the monthly cost and the name of the person who actually logs in. If the second column is blank or it's someone who left the company, that's your first cut.
 - For each tool, answer one question in a sentence: what number would go down if we cancelled it? If the answer is "we'd have to think about it," the tool is running on vibes.
-- Pull the utilization report if your platform has one. Compare seats paid against seats active in the last 90 days. Gartner's benchmark says expect roughly half.
+- Pull the utilization report if your platform has one. Compare seats paid against seats active in the last 90 days. Expect roughly half, per the utilization figure above.
 - Check what each tool measures. Clicks and opens don't count as an answer. Revenue, pipeline, or a named cost saving does.
 - Run one cancellation experiment per quarter. Downgrade or cancel the weakest tool, measure for 60 days, and see who complains. Nobody complaining is the result.
 The food pantry thread nailed the psychology of step one. The commenter who does pro-bono nonprofit marketing called it a discomfort with ROI: people know the math works and still flinch at the spend. The fix he suggested is the same fix that works at mid-market scale. Frame it as an experiment, measure before and after, and let the numbers close the argument.
@@ -93,11 +91,11 @@ Those are directional numbers for a mid-market stack, not a quote, but the struc
 
 **❌ The losing move: buying an AI tool to fix a measurement gap.** New tools add new dashboards, and new dashboards add new clicks to call success. If you couldn't measure the last five tools, the sixth one inherits the same blind spot with a better demo.
 
-**⚠️ The warning: trusting any single platform's ROAS.** Blended attribution flatters the tool that holds the last click. The Cypress North account looked healthy right up until someone separated the traffic and found the account was mostly buying its own customers.
+**⚠️ The warning: trusting any single platform's ROAS.** Blended attribution flatters the tool that holds the last click. A blended account can look healthy right up until someone separates the traffic and finds it was mostly buying its own customers.
 
 **✅ The winning move: consolidate, then measure what's left.** Cancel or downgrade the tools nobody logs into, wire the survivors to revenue or pipeline, and run each renewal as the food pantry would. Fifty pounds of rice at a time.
 
-The measurement gap is not a technology gap. The platforms can already connect the dots; Gartner says the data plumbing exists, and the teams that do connect them are the 15% Gartner counts as high performers. Everyone else is paying full price for a stack they half use, judged by metrics the vendors picked.
+The measurement gap is not a technology gap. The platforms can already connect the dots; the data plumbing exists, as the Knak coverage above says plainly. The teams that do connect them know what the stack returns. Everyone else is paying full price for a stack they half use, judged by metrics the vendors picked.
 
 Your budget is not bleeding because the tools are bad. It's bleeding because asking "what did this return" is unglamorous work, and AI made it very easy to buy the next thing instead of doing it.
 
@@ -110,13 +108,13 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Related tools
 
-- [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) - Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
+- [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Northbeam](/tools/northbeam/) - AI-powered multi-touch attribution and marketing intelligence for ecommerce
-- [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) - Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## Comparison guides
 
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -177,7 +175,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1814,
+  "wordCount": 1695,
   "articleSection": "analytics"
 }
 ```
