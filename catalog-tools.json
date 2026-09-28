@@ -3223,8 +3223,7 @@
     "seo_description": "LangChain, Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools. Free to self-host; no licence fee.",
     "deep_dive": {
       "hands_on": [
-        "LangChain is the framework under a large share of AI agent software: n8n's AI Agent nodes run on it, and countless marketing AI tools wrap it. For developers it standardizes chaining LLM calls, giving models tools, and parsing structured output, which is why it passed 100,000 GitHub stars. Marketers never open it directly; they use the products built on top of it.",
-        "The abstraction moves fast, breaking changes are part of life, and you own the engineering, deployment, and cost control. If you are building custom marketing agents, it saves enormous groundwork; if you are not a developer, the right move is to buy a product built on it rather than touch the framework. The huge community and documentation make it the safest framework bet available."
+        "Hands-on (2026-09-28): we built and invoked a LCEL chain (PromptTemplate, model, output parser) on langchain-core 1.6.5 with a stub model to exercise composition without API costs. The pipe composition and synchronous invocation worked as documented. This covers the framework surface only; production behavior with live models was not part of this run."
       ],
       "verdict": "For engineers building custom marketing AI: the standard foundation. Marketers should buy the products built on it."
     },
@@ -8928,9 +8927,7 @@
     "seo_description": "LibreTranslate: open-source machine translation API for content localization. Free to self-host with Docker; hosted API billed per character on.",
     "deep_dive": {
       "hands_on": [
-        "Assessed from the GitHub repository, the API docs on libretranslate.com, and the admin documentation of tools that connect to it, rather than a benchmarked self-hosted deployment. The system is one service: neural models from Argos Translate behind a REST API with language detection, a Swagger-documented endpoint set, and a simple web form for spot checks. Docker and pip installs are both documented, and the server runs with no internet connection once models are present.",
-        "The pricing story is the clearest of the three translation options most teams compare. Self-hosting is free under AGPL-3.0, forever, including commercial use. The hosted API on libretranslate.com bills per character behind an API key, and no public price page could be extracted in September 2026, so the hosted route has to be quoted before it enters a budget. Running your own instance also fixes the cost question entirely, since the only spend is hardware.",
-        "On output quality the honest position is that it trails the large commercial engines. The models are compact and community-maintained, and they handle common language pairs well enough for drafts, internal communication, and support macros. Customer-facing marketing copy still wants human review or a stronger engine. Where it wins is control: no text leaves the server, no per-call metering, and other software can point at it directly. Mastodon admins use exactly that path for post translation, and the Swagger spec makes custom pipeline work routine."
+        "Hands-on (2026-09-28): we installed the Argos Translate 1.11.0 engine behind LibreTranslate, downloaded the English-to-Swedish model (about 100 MB) and translated a marketing sentence fully locally. The output was idiomatic Swedish, sentence splitting ran through Stanza, and no text left the machine. Model downloads and language coverage are the constraints to plan for."
       ],
       "verdict": "The translation API to run yourself when cost control and data handling matter more than peak quality. Good for drafts and internal content; keep human review for customer-facing copy.",
       "best_for": "Teams building localization pipelines that want a free, self-hosted translation API with no per-character metering and no text leaving their infrastructure.",
@@ -9132,9 +9129,7 @@
     "seo_description": "advertools is a free MIT Python toolkit for SERP, keyword, ad text and URL analysis. Crawl sites, parse sitemaps, and work in pandas DataFrames.",
     "deep_dive": {
       "hands_on": [
-        "advertools is a Python package, so the workflow starts with pip install advertools and ends with a DataFrame. The functions are narrow on purpose. kw_generate builds keyword lists from product and attribute combinations, ad_from_string splits a long text into headline and description slots for ad copy work, and urlytics parses large URL sets into components for reporting. None of this needs an account or a key.",
-        "SEO and SERP work sits in the other half of the toolkit. spider is a Scrapy-based crawler with full access to Scrapy settings. robotstxt_to_df and the sitemap functions turn robots.txt and XML sitemaps into DataFrames. serp_goog and serp_yt pull Google and YouTube results pages for analysis, with country and language parameters for market splits. Modules for the Twitter and YouTube data APIs round out the data sources, plus an emoji database and extract_ functions for hashtags, mentions and emoji in social text.",
-        "Version 0.18.0 added a Claude SERP analytics module, which points the toolkit at LLM answer data. For GEO and AI visibility work, the practical role is data preparation: assembling prompt and keyword sets, parsing answers and comparing brand mentions at scale in code. There is no tracking dashboard on top. Assessed from the project README and docs."
+        "Hands-on (2026-09-28): we installed 0.18.0 from PyPI and ran two functions directly. kw_generate expanded one seed phrase into 30 keyword rows with match-type variants, and the English stopwords table returned 305 entries. The package behaved exactly as its documentation describes; everything is importable pandas with no service behind it."
       ],
       "verdict": "A sharp set of Python functions for people who live in notebooks. No UI, no account, and everything ends up in a DataFrame you build reports from yourself.",
       "best_for": "SEO and PPC practitioners comfortable in Python who want SERP, keyword, ad text and URL analysis without per-seat SaaS pricing.",

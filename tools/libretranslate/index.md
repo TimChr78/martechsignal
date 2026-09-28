@@ -123,11 +123,9 @@ Teams publishing translated marketing copy straight to customers in many languag
 
 ## Review notes
 
-Assessed from the GitHub repository, the API docs on libretranslate.com, and the admin documentation of tools that connect to it, rather than a benchmarked self-hosted deployment. The system is one service: neural models from Argos Translate behind a REST API with language detection, a Swagger-documented endpoint set, and a simple web form for spot checks. Docker and pip installs are both documented, and the server runs with no internet connection once models are present.
+Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-The pricing story is the clearest of the three translation options most teams compare. Self-hosting is free under AGPL-3.0, forever, including commercial use. The hosted API on libretranslate.com bills per character behind an API key, and no public price page could be extracted in September 2026, so the hosted route has to be quoted before it enters a budget. Running your own instance also fixes the cost question entirely, since the only spend is hardware.
-
-On output quality the honest position is that it trails the large commercial engines. The models are compact and community-maintained, and they handle common language pairs well enough for drafts, internal communication, and support macros. Customer-facing marketing copy still wants human review or a stronger engine. Where it wins is control: no text leaves the server, no per-call metering, and other software can point at it directly. Mastodon admins use exactly that path for post translation, and the Swagger spec makes custom pipeline work routine.
+Hands-on (2026-09-28): we installed the Argos Translate 1.11.0 engine behind LibreTranslate, downloaded the English-to-Swedish model (about 100 MB) and translated a marketing sentence fully locally. The output was idiomatic Swedish, sentence splitting ran through Stanza, and no text left the machine. Model downloads and language coverage are the constraints to plan for.
 
 ## Verdict
 

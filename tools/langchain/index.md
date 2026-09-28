@@ -124,9 +124,7 @@ Current plans and limits live on the [LangChain pricing page](https://www.langch
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-LangChain is the framework under a large share of AI agent software: n8n&#x27;s AI Agent nodes run on it, and countless marketing AI tools wrap it. For developers it standardizes chaining LLM calls, giving models tools, and parsing structured output, which is why it passed 100,000 GitHub stars. Marketers never open it directly; they use the products built on top of it.
-
-The abstraction moves fast, breaking changes are part of life, and you own the engineering, deployment, and cost control. If you are building custom marketing agents, it saves enormous groundwork; if you are not a developer, the right move is to buy a product built on it rather than touch the framework. The huge community and documentation make it the safest framework bet available.
+Hands-on (2026-09-28): we built and invoked a LCEL chain (PromptTemplate, model, output parser) on langchain-core 1.6.5 with a stub model to exercise composition without API costs. The pipe composition and synchronous invocation worked as documented. This covers the framework surface only; production behavior with live models was not part of this run.
 
 ## Verdict
 

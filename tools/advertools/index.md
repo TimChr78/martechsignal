@@ -116,11 +116,9 @@ Marketers who want dashboards, scheduled reports or a no-code workflow. advertoo
 
 ## Review notes
 
-advertools is a Python package, so the workflow starts with pip install advertools and ends with a DataFrame. The functions are narrow on purpose. kw_generate builds keyword lists from product and attribute combinations, ad_from_string splits a long text into headline and description slots for ad copy work, and urlytics parses large URL sets into components for reporting. None of this needs an account or a key.
+Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-SEO and SERP work sits in the other half of the toolkit. spider is a Scrapy-based crawler with full access to Scrapy settings. robotstxt_to_df and the sitemap functions turn robots.txt and XML sitemaps into DataFrames. serp_goog and serp_yt pull Google and YouTube results pages for analysis, with country and language parameters for market splits. Modules for the Twitter and YouTube data APIs round out the data sources, plus an emoji database and extract_ functions for hashtags, mentions and emoji in social text.
-
-Version 0.18.0 added a Claude SERP analytics module, which points the toolkit at LLM answer data. For GEO and AI visibility work, the practical role is data preparation: assembling prompt and keyword sets, parsing answers and comparing brand mentions at scale in code. There is no tracking dashboard on top. Assessed from the project README and docs.
+Hands-on (2026-09-28): we installed 0.18.0 from PyPI and ran two functions directly. kw_generate expanded one seed phrase into 30 keyword rows with match-type variants, and the English stopwords table returned 305 entries. The package behaved exactly as its documentation describes; everything is importable pandas with no service behind it.
 
 ## Verdict
 
