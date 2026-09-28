@@ -167,7 +167,6 @@ More from the directory: [SISTRIX](/tools/sistrix/)
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/martech-budget-bleeding-nobody-measuring/",
   "image": "https://martechsignal.com/og/martech-budget-bleeding-nobody-measuring.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

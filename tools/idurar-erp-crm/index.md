@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (tools.json deep_dive). |
-| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | AGPL-3.0 with 8.8k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 5/10 | 8.8k stars with published lifetime license tiers behind the OSS core (tools.json). |
+| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 8.8k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 5/10 | 8.8k stars with published lifetime license tiers behind the OSS core (vendor documentation). |
 
 
 | Pros | Cons |

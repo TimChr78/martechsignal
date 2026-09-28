@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (tools.json ai_features). |
-| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (tools.json). |
-| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (tools.json ai_features). |
-| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (tools.json). |
-| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (tools.json). |
+| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (vendor documentation). |
+| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation). |
+| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation). |
+| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository). |
+| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (vendor documentation). |
 
 
 | Pros | Cons |
@@ -37,7 +37,7 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 
 Claude SEO
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 AI Business Skills
 

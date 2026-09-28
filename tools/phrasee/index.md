@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (tools.json ai_features). |
-| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (tools.json). |
-| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (tools.json). |
-| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (tools.json). |
+| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation). |
+| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation). |
+| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (vendor documentation). |
+| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (the source repository). |
+| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Task-based integrations and workflows cover the iPaaS job (tools.json deep_dive). |
-| Integrations | 5/10 | Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (tools.json). |
-| AI capability | 3/10 | Pabbly AgenticAI exists as a workflow builder sold separately (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 5/10 | Published volume tiers and a lifetime purchase model (tools.json). |
+| Pricing transparency | 8/10 | Task tiers from $16/mo (10K tasks) to $254/mo billed yearly with a one-time lifetime deal published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Task-based integrations and workflows cover the iPaaS job (vendor documentation). |
+| Integrations | 5/10 | Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (vendor documentation). |
+| AI capability | 3/10 | Pabbly AgenticAI exists as a workflow builder sold separately (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 5/10 | Published volume tiers and a lifetime purchase model (vendor documentation). |
 
 
 | Pros | Cons |

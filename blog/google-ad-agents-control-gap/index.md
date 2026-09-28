@@ -181,7 +181,6 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
   "dateModified": "2026-09-25",
   "mainEntityOfPage": "https://martechsignal.com/blog/google-ad-agents-control-gap/",
   "image": "https://martechsignal.com/og/google-ad-agents-control-gap.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

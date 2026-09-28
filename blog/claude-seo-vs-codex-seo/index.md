@@ -134,7 +134,6 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/",
   "image": "https://martechsignal.com/og/claude-seo-vs-codex-seo.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

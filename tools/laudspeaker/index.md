@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Journey automation, behavioral triggers and product onboarding cover the engagement loop (tools.json ai_features). |
-| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
-| AI capability | 3/10 | AI-powered messaging is documented as one feature of the journey engine (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 2.6k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 4/10 | 2.6k stars with a Braze-alternative positioning and no priced tiers listed (tools.json). |
+| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Journey automation, behavioral triggers and product onboarding cover the engagement loop (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
+| AI capability | 3/10 | AI-powered messaging is documented as one feature of the journey engine (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 2.6k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 4/10 | 2.6k stars with a Braze-alternative positioning and no priced tiers listed (vendor documentation). |
 
 
 | Pros | Cons |

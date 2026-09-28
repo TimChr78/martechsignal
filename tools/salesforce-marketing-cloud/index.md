@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Per-org list pricing is published: Growth $1,500/mo and Advanced $3,250/mo billed annually, Starter $25/user/mo, personalization add-ons itemized (tools.json, verified 2026-09-28). |
-| Feature depth | 9/10 | Campaign creation, personalization decisioning, paid media optimization and cross-channel execution on Data 360 plumbing (tools.json ai_features). |
-| Integrations | 8/10 | Salesforce CRM, Data 360, Slack, Tableau, MuleSoft, Snowflake, Shopify, Google and Meta Ads documented in the catalog (tools.json). |
-| AI capability | 8/10 | Agentforce runs campaign creation, personalization decisioning and paid media optimization as agents, not features (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise suite; exit is a migration program (tools.json deep_dive). |
-| Operational maturity | 9/10 | Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (tools.json). |
+| Pricing transparency | 6/10 | Per-org list pricing is published: Growth $1,500/mo and Advanced $3,250/mo billed annually, Starter $25/user/mo, personalization add-ons itemized (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 9/10 | Campaign creation, personalization decisioning, paid media optimization and cross-channel execution on Data 360 plumbing (vendor documentation). |
+| Integrations | 8/10 | Salesforce CRM, Data 360, Slack, Tableau, MuleSoft, Snowflake, Shopify, Google and Meta Ads documented in the catalog (vendor documentation). |
+| AI capability | 8/10 | Agentforce runs campaign creation, personalization decisioning and paid media optimization as agents, not features (vendor documentation). |
+| Openness | 2/10 | Closed enterprise suite; exit is a migration program (the source repository). |
+| Operational maturity | 9/10 | Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (vendor documentation). |
 
 
 | Pros | Cons |

@@ -152,7 +152,6 @@ More from the directory: [Khoj](/tools/khoj/)
   "dateModified": "2026-09-12",
   "mainEntityOfPage": "https://martechsignal.com/blog/determinism-audit/",
   "image": "https://martechsignal.com/og/determinism-audit.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

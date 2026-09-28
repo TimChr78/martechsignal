@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (tools.json deep_dive). |
-| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (tools.json). |
-| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (tools.json). |
-| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category&#x27;s largest contributor base (tools.json). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation). |
+| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation). |
+| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation). |
+| Openness | 9/10 | MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (the source repository). |
+| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category&#x27;s largest contributor base (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (tools.json). |
-| Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (tools.json ai_features). |
-| Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (tools.json). |
-| AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (tools.json). |
+| Pricing transparency | 6/10 | From $119/mo published (verified Sep 2026) with custom pricing beyond based on traffic and modules (the vendor pricing page). |
+| Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (vendor documentation). |
+| Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (vendor documentation). |
+| AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (vendor documentation). |
 
 
 | Pros | Cons |

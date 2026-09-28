@@ -164,7 +164,6 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
   "image": "https://martechsignal.com/og/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

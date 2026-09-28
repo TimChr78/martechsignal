@@ -168,7 +168,6 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
   "dateModified": "2026-09-25",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/",
   "image": "https://martechsignal.com/og/autonomous-marketing-platform-label-contest.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

@@ -139,7 +139,6 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/",
   "image": "https://martechsignal.com/og/cdp-reckoning-warehouse-native.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

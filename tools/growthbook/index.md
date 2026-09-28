@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (tools.json ai_features). |
-| Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (tools.json). |
-| AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 8.4k GitHub stars and free self-hosting (tools.json). |
-| Operational maturity | 6/10 | Founded 2020 with a commercial entity behind the open core (tools.json). |
+| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (vendor documentation). |
+| Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (vendor documentation). |
+| AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 8.4k GitHub stars and free self-hosting (the source repository). |
+| Operational maturity | 6/10 | Founded 2020 with a commercial entity behind the open core (vendor documentation). |
 
 
 | Pros | Cons |

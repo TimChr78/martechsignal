@@ -168,7 +168,6 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "dateModified": "2026-09-26",
   "mainEntityOfPage": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/",
   "image": "https://martechsignal.com/og/you-dont-need-new-data-stack-fivetran.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

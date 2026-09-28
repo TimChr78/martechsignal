@@ -166,7 +166,6 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": "https://martechsignal.com/og/nocobase-vs-nocodb-vs-budibase.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

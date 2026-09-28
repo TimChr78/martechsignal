@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (tools.json ai_features). |
-| Integrations | 8/10 | Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (tools.json). |
-| AI capability | 8/10 | A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise SaaS with contractual portability only (tools.json). |
-| Operational maturity | 8/10 | Founded 2013 with enterprise editions and the support machinery regulated buyers require (tools.json). |
+| Pricing transparency | 2/10 | No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (vendor documentation). |
+| Integrations | 8/10 | Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (vendor documentation). |
+| AI capability | 8/10 | A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (vendor documentation). |
+| Openness | 2/10 | Closed enterprise SaaS with contractual portability only (the source repository). |
+| Operational maturity | 8/10 | Founded 2013 with enterprise editions and the support machinery regulated buyers require (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free trial of 100 emails/day for 60 days and Essentials $19.95/mo published; Pro and Premier are custom (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (tools.json deep_dive). |
-| Integrations | 7/10 | Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (tools.json). |
-| AI capability | 5/10 | Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (tools.json ai_features). |
-| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (tools.json). |
-| Operational maturity | 8/10 | Twilio-owned since 2009-era operations with the volume track record email buyers price in (tools.json). |
+| Pricing transparency | 6/10 | Free trial of 100 emails/day for 60 days and Essentials $19.95/mo published; Pro and Premier are custom (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (vendor documentation). |
+| Integrations | 7/10 | Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (vendor documentation). |
+| AI capability | 5/10 | Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (vendor documentation). |
+| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (the source repository). |
+| Operational maturity | 8/10 | Twilio-owned since 2009-era operations with the volume track record email buyers price in (vendor documentation). |
 
 
 | Pros | Cons |

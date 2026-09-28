@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (tools.json ai_features). |
-| Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (tools.json). |
-| AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (tools.json). |
-| Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (tools.json). |
+| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (vendor documentation). |
+| Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (vendor documentation). |
+| AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (vendor documentation). |
+| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (the source repository). |
+| Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (vendor documentation). |
 
 
 | Pros | Cons |

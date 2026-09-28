@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (tools.json). |
-| Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (tools.json deep_dive). |
-| Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (tools.json). |
-| AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer&#x27;s only AI surface (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 8/10 | Founded 2010 with sixteen years of consumer automation behind it (tools.json). |
+| Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (the vendor pricing page). |
+| Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (vendor documentation). |
+| Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (vendor documentation). |
+| AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer&#x27;s only AI surface (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 8/10 | Founded 2010 with sixteen years of consumer automation behind it (vendor documentation). |
 
 
 | Pros | Cons |

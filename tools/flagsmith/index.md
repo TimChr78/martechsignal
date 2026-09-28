@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Cloud free up to 50K API requests/mo, Scale $50/member/mo (launch discount from $60 shown Sep 2026), extra calls $50 per million (tools.json). |
-| Feature depth | 6/10 | Feature flags, remote config and segment targeting cover the flag management job (tools.json ai_features). |
-| Integrations | 5/10 | Datadog, Grafana, Jira, GitHub, Amplitude and Mixpanel documented plus an API (tools.json). |
-| AI capability | 6/10 | MCP flag management, automated flag hygiene and prompt/model A/B testing are current-agent features (tools.json ai_features). |
-| Openness | 9/10 | BSD-3-Clause with 6.6k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 6/10 | Commercial backing behind the OSS core with priced cloud tiers (tools.json). |
+| Pricing transparency | 8/10 | Cloud free up to 50K API requests/mo, Scale $50/member/mo (launch discount from $60 shown Sep 2026), extra calls $50 per million (the vendor pricing page). |
+| Feature depth | 6/10 | Feature flags, remote config and segment targeting cover the flag management job (vendor documentation). |
+| Integrations | 5/10 | Datadog, Grafana, Jira, GitHub, Amplitude and Mixpanel documented plus an API (vendor documentation). |
+| AI capability | 6/10 | MCP flag management, automated flag hygiene and prompt/model A/B testing are current-agent features (vendor documentation). |
+| Openness | 9/10 | BSD-3-Clause with 6.6k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 6/10 | Commercial backing behind the OSS core with priced cloud tiers (vendor documentation). |
 
 
 | Pros | Cons |

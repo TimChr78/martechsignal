@@ -10,7 +10,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 
 Claude SEO
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 Codex SEO
 

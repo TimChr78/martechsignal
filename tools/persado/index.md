@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (tools.json ai_features). |
-| Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (tools.json). |
-| AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise product delivered inside your ESP&#x27;s contract (tools.json). |
-| Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (tools.json). |
+| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation). |
+| Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation). |
+| AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation). |
+| Openness | 2/10 | Closed enterprise product delivered inside your ESP&#x27;s contract (the source repository). |
+| Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (vendor documentation). |
 
 
 | Pros | Cons |

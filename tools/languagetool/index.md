@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (tools.json). |
-| Feature depth | 5/10 | Grammar checking, paraphrasing and style suggestions across 30+ languages (tools.json deep_dive). |
-| Integrations | 5/10 | Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (tools.json). |
-| AI capability | 5/10 | AI style and tone suggestions and AI-powered checking sit on the rule engine (tools.json ai_features). |
-| Openness | 8/10 | LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (tools.json). |
-| Operational maturity | 7/10 | Long-running project with browser and desktop distribution at scale (tools.json). |
+| Pricing transparency | 7/10 | Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (the vendor pricing page). |
+| Feature depth | 5/10 | Grammar checking, paraphrasing and style suggestions across 30+ languages (vendor documentation). |
+| Integrations | 5/10 | Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (vendor documentation). |
+| AI capability | 5/10 | AI style and tone suggestions and AI-powered checking sit on the rule engine (vendor documentation). |
+| Openness | 8/10 | LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (the source repository). |
+| Operational maturity | 7/10 | Long-running project with browser and desktop distribution at scale (vendor documentation). |
 
 
 | Pros | Cons |

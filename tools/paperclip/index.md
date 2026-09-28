@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (tools.json). |
-| Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (tools.json ai_features). |
-| Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (tools.json). |
-| AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (tools.json). |
-| Operational maturity | 5/10 | 80.4k stars with a simple hosted tier and model-spend tracking (tools.json). |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); hosted at EUR 10/mo or EUR 100/year with a 7-day no-card trial and unlimited teammates, all published (the vendor pricing page). |
+| Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (vendor documentation). |
+| Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (vendor documentation). |
+| AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (the source repository). |
+| Operational maturity | 5/10 | 80.4k stars with a simple hosted tier and model-spend tracking (vendor documentation). |
 
 
 | Pros | Cons |

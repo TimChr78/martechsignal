@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (tools.json, verified 2026-09-28). |
-| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (tools.json ai_features). |
-| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (tools.json). |
-| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation). |
+| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation). |
+| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (vendor documentation). |
 
 
 | Pros | Cons |

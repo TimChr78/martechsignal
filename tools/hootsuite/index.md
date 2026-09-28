@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (tools.json deep_dive). |
-| Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (tools.json). |
-| AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 8/10 | Founded 2008 with the category&#x27;s longest enterprise social track record (tools.json). |
+| Pricing transparency | 6/10 | Standard $99/mo and Professional $149/mo ($99/mo annual) published; Team and Enterprise are custom (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (vendor documentation). |
+| Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (vendor documentation). |
+| AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 8/10 | Founded 2008 with the category&#x27;s longest enterprise social track record (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (tools.json deep_dive). |
-| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (tools.json). |
-| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (tools.json). |
-| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (tools.json). |
+| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation). |
+| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation). |
+| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (the source repository). |
+| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation). |
 
 
 | Pros | Cons |

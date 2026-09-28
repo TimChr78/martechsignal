@@ -230,7 +230,6 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "dateModified": "2026-09-25",
   "mainEntityOfPage": "https://martechsignal.com/blog/n8n-ai-open-source-automation/",
   "image": "https://martechsignal.com/og/n8n-ai-open-source-automation.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

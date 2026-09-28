@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (AGPLv3), Cloud Starter free for 1 company/1 employee, Small Business $17/mo annual, Enterprise $139/mo published (tools.json). |
-| Feature depth | 6/10 | ERP, CRM, HRM, ATS and time tracking make a broad business management suite (tools.json deep_dive). |
-| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | AGPL-3.0 with 4.4k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 5/10 | 4.4k stars with priced cloud tiers above the free plan (tools.json). |
+| Pricing transparency | 8/10 | Self-hosted free (AGPLv3), Cloud Starter free for 1 company/1 employee, Small Business $17/mo annual, Enterprise $139/mo published (the vendor pricing page). |
+| Feature depth | 6/10 | ERP, CRM, HRM, ATS and time tracking make a broad business management suite (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 4.4k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 5/10 | 4.4k stars with priced cloud tiers above the free plan (vendor documentation). |
 
 
 | Pros | Cons |

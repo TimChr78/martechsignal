@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (tools.json, verified 2026-09-28). |
-| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (tools.json deep_dive). |
-| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | MIT-licensed with 72 GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 2/10 | 72 stars with no API and a minimal dependency stack (tools.json). |
+| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation). |
+| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 72 GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 2/10 | 72 stars with no API and a minimal dependency stack (vendor documentation). |
 
 
 | Pros | Cons |

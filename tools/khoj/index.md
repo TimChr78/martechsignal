@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (tools.json). |
-| Feature depth | 6/10 | Document Q&amp;A across five formats, custom agents with personas and workflow automation cover research work (tools.json ai_features). |
-| Integrations | 5/10 | Obsidian, Emacs, WhatsApp and Notion documented plus an API (tools.json). |
-| AI capability | 7/10 | Local and online LLM chat with custom agents and document retrieval is the product core (tools.json ai_features). |
-| Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 5/10 | 37.5k stars with an optional cloud tier of undisclosed size (tools.json). |
+| Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (the vendor pricing page). |
+| Feature depth | 6/10 | Document Q&amp;A across five formats, custom agents with personas and workflow automation cover research work (vendor documentation). |
+| Integrations | 5/10 | Obsidian, Emacs, WhatsApp and Notion documented plus an API (vendor documentation). |
+| AI capability | 7/10 | Local and online LLM chat with custom agents and document retrieval is the product core (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 5/10 | 37.5k stars with an optional cloud tier of undisclosed size (vendor documentation). |
 
 
 | Pros | Cons |

@@ -143,7 +143,6 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/",
   "image": "https://martechsignal.com/og/chatgpt-isnt-search-anymore-its-checkout.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

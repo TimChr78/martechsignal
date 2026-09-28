@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | The open-source pipeline is free to self-host and clearly stated; BDP Cloud is quoted by sales (verified Sep 2026, tools.json). |
-| Feature depth | 7/10 | Event pipelines to six warehouse/lake formats plus real-time profiles with propensity and intent signals (tools.json ai_features). |
-| Integrations | 8/10 | Snowflake, Databricks, BigQuery, Redshift, Delta Lake, Iceberg, Kafka, Kinesis and Pub/Sub documented (tools.json). |
-| AI capability | 6/10 | Signals propensity predictions, intent detection and agentic context for AI agents make it model-ready plumbing (tools.json ai_features). |
-| Openness | 9/10 | Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (tools.json). |
-| Operational maturity | 7/10 | Founded 2012 with a commercial cloud arm and long enterprise deployments (tools.json). |
+| Pricing transparency | 5/10 | The open-source pipeline is free to self-host and clearly stated; BDP Cloud is quoted by sales (verified Sep 2026). |
+| Feature depth | 7/10 | Event pipelines to six warehouse/lake formats plus real-time profiles with propensity and intent signals (vendor documentation). |
+| Integrations | 8/10 | Snowflake, Databricks, BigQuery, Redshift, Delta Lake, Iceberg, Kafka, Kinesis and Pub/Sub documented (vendor documentation). |
+| AI capability | 6/10 | Signals propensity predictions, intent detection and agentic context for AI agents make it model-ready plumbing (vendor documentation). |
+| Openness | 9/10 | Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (the source repository). |
+| Operational maturity | 7/10 | Founded 2012 with a commercial cloud arm and long enterprise deployments (vendor documentation). |
 
 
 | Pros | Cons |

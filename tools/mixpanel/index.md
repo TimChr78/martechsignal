@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (tools.json ai_features). |
-| Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (tools.json). |
-| AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (tools.json). |
-| Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (tools.json). |
+| Pricing transparency | 7/10 | Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (vendor documentation). |
+| Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (vendor documentation). |
+| AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (the source repository). |
+| Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (vendor documentation). |
 
 
 | Pros | Cons |

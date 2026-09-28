@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | No published prices: three tiers metered in Tasks with workspaces and log retention as the levers (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Merlin Agent Builder, an Agent Gateway for MCP, AI Palette and VectorTables make a current platform rather than a connector host (tools.json ai_features). |
-| Integrations | 8/10 | Salesforce, Slack, HubSpot, Snowflake, Zendesk, BigQuery, Sheets, NetSuite plus OpenAI and Claude connections documented (tools.json). |
-| AI capability | 8/10 | Merlin Agent Builder and the MCP Agent Gateway put agents at the center of the platform, not the edge (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise SaaS; portability is contractual (tools.json). |
-| Operational maturity | 7/10 | Founded 2012 with enterprise tiers and mature support posture (tools.json). |
+| Pricing transparency | 3/10 | No published prices: three tiers metered in Tasks with workspaces and log retention as the levers (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Merlin Agent Builder, an Agent Gateway for MCP, AI Palette and VectorTables make a current platform rather than a connector host (vendor documentation). |
+| Integrations | 8/10 | Salesforce, Slack, HubSpot, Snowflake, Zendesk, BigQuery, Sheets, NetSuite plus OpenAI and Claude connections documented (vendor documentation). |
+| AI capability | 8/10 | Merlin Agent Builder and the MCP Agent Gateway put agents at the center of the platform, not the edge (vendor documentation). |
+| Openness | 2/10 | Closed enterprise SaaS; portability is contractual (the source repository). |
+| Operational maturity | 7/10 | Founded 2012 with enterprise tiers and mature support posture (vendor documentation). |
 
 
 | Pros | Cons |

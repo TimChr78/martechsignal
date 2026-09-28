@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Basic $129/mo (10 accounts, $25K spend) and Professional $249/mo (25 accounts, $100K spend) published with concrete caps (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Pattern detection, one-click improvements and automation cover the Google Ads housekeeping loop (tools.json ai_features). |
-| Integrations | 3/10 | Google Ads and Slack documented; the focus is deliberately single-platform (tools.json). |
-| AI capability | 5/10 | Statistically significant pattern detection across accounts is the analytical core (tools.json ai_features). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (tools.json). |
-| Operational maturity | 6/10 | Tiered support levels and account caps suggest a mature service operation (tools.json). |
+| Pricing transparency | 8/10 | Basic $129/mo (10 accounts, $25K spend) and Professional $249/mo (25 accounts, $100K spend) published with concrete caps (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Pattern detection, one-click improvements and automation cover the Google Ads housekeeping loop (vendor documentation). |
+| Integrations | 3/10 | Google Ads and Slack documented; the focus is deliberately single-platform (vendor documentation). |
+| AI capability | 5/10 | Statistically significant pattern detection across accounts is the analytical core (vendor documentation). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository). |
+| Operational maturity | 6/10 | Tiered support levels and account caps suggest a mature service operation (vendor documentation). |
 
 
 | Pros | Cons |

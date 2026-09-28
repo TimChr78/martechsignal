@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (tools.json). |
-| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (tools.json deep_dive). |
-| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (tools.json). |
-| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (tools.json). |
-| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (tools.json). |
+| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (the vendor pricing page). |
+| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation). |
+| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation). |
+| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository). |
+| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation). |
 
 
 | Pros | Cons |

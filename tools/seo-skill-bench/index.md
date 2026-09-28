@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (tools.json). |
-| Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (tools.json ai_features). |
-| Integrations | 2/10 | Claude Code is the only documented harness (tools.json). |
-| AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 51 GitHub stars and fully local execution (tools.json). |
-| Operational maturity | 2/10 | 51 stars as a young benchmark project with no API (tools.json). |
+| Pricing transparency | 9/10 | Free under MIT with leaderboard runs costing $1.70 to $4.46 in LLM tokens each, published as exact figures (the vendor pricing page). |
+| Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (vendor documentation). |
+| Integrations | 2/10 | Claude Code is the only documented harness (vendor documentation). |
+| AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 51 GitHub stars and fully local execution (the source repository). |
+| Operational maturity | 2/10 | 51 stars as a young benchmark project with no API (vendor documentation). |
 
 
 | Pros | Cons |

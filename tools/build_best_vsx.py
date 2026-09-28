@@ -59,7 +59,7 @@ def build_best():
                 f'<td>{esc(pricing_label(t))}</td><td>{oss}</td>'
                 f'<td>{esc(it["verdict"])}</td></tr>')
         body.append(
-            '<div class="table-wrap"><table><thead><tr><th>Tool</th><th>Pricing</th>'
+            '<div class="table-wrap"><table><caption>Best picks at a glance</caption><thead><tr><th>Tool</th><th>Pricing</th>'
             '<th>Open source</th><th>Verdict</th></tr></thead><tbody>'
             + "".join(rows) + "</tbody></table></div>")
 
@@ -161,7 +161,7 @@ def build_vs():
             ("Public API", "yes" if a.get("api_available") else "no",
              "yes" if b.get("api_available") else "no"),
         ]
-        body.append('<div class="table-wrap"><table><thead><tr>'
+        body.append('<div class="table-wrap"><table><caption>Side-by-side comparison</caption><thead><tr>'
                     f'<th scope="col">Dimension</th><th scope="col">{esc(a["name"])}</th>'
                     f'<th scope="col">{esc(b["name"])}</th></tr></thead><tbody>')
         for label, av, bv in rows:

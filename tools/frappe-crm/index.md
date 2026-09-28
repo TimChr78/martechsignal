@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (tools.json deep_dive). |
-| Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (tools.json, github.com/frappe/frappe-crm). |
-| Operational maturity | 6/10 | Built by Frappe with ERPNext&#x27;s decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (tools.json deep_dive). |
+| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (vendor documentation). |
+| Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (the source repository). |
+| Operational maturity | 6/10 | Built by Frappe with ERPNext&#x27;s decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation). |
 
 
 | Pros | Cons |

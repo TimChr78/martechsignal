@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Standard $249/seat/mo, Professional $399/seat/mo published with a 30-day trial; Advanced is custom (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Publishing, engagement, listening and sentiment analytics cover enterprise social operations (tools.json ai_features). |
-| Integrations | 6/10 | Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (tools.json). |
-| AI capability | 6/10 | AI reply assist, sentiment analysis and listening queries put the models where support volume is (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 8/10 | Founded 2010 and publicly listed with enterprise social deployments behind it (tools.json). |
+| Pricing transparency | 7/10 | Standard $249/seat/mo, Professional $399/seat/mo published with a 30-day trial; Advanced is custom (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Publishing, engagement, listening and sentiment analytics cover enterprise social operations (vendor documentation). |
+| Integrations | 6/10 | Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (vendor documentation). |
+| AI capability | 6/10 | AI reply assist, sentiment analysis and listening queries put the models where support volume is (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 8/10 | Founded 2010 and publicly listed with enterprise social deployments behind it (vendor documentation). |
 
 
 | Pros | Cons |

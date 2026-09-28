@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (tools.json). |
-| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (tools.json ai_features). |
-| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (tools.json). |
-| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (tools.json). |
+| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (the vendor pricing page). |
+| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation). |
+| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation). |
+| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation). |
 
 
 | Pros | Cons |

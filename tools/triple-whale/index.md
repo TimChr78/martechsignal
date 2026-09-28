@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (tools.json ai_features). |
-| Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (tools.json). |
-| AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS tied to your ad and store connections (tools.json). |
-| Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (tools.json). |
+| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (vendor documentation). |
+| Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (vendor documentation). |
+| AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (vendor documentation). |
+| Openness | 3/10 | Closed SaaS tied to your ad and store connections (the source repository). |
+| Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (vendor documentation). |
 
 
 | Pros | Cons |

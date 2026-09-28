@@ -735,7 +735,7 @@ def _score_band(t):
         'border:1px solid var(--line);border-radius:12px">'
         '<h2 style="margin:0 0 .3rem">' + ('Benchmark log: ' if t["slug"] == "claude-seo" else 'MartechSignal Score: ') + str(rec["score_total"]) + '/60</h2>'
         '<p style="margin:.35rem 0">' + esc(rec["verdict"]) + '</p>'
-        '<div class="table-wrap" style="margin:.75rem 0"><table>'
+        '<div class="table-wrap" style="margin:.75rem 0"><table><caption>Pillar scores and evidence</caption>'
         '<thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>'
         '<tbody>' + rows + '</tbody></table></div>'
         '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored ' + esc(rec.get("scored", "2026-09-26")) + ' '
@@ -1020,7 +1020,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             )
     proscons_html = (
         '<section class="pros-cons"><h2>Pros and cons</h2>'
-        '<table><thead><tr><th>Pros</th><th>Cons</th></tr></thead>'
+        '<table><caption>Strengths and trade-offs</caption><thead><tr><th>Pros</th><th>Cons</th></tr></thead>'
         f"<tbody>{_pc_rows}</tbody></table></section>"
     ) if _maxlen else ""
 

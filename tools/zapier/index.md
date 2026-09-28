@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (tools.json ai_features). |
-| Integrations | 9/10 | 9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (tools.json). |
-| AI capability | 7/10 | AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with a strong API; your workflows are portable only as re-builds (tools.json). |
-| Operational maturity | 9/10 | Founded 2011 with the category&#x27;s longest enterprise track record and status transparency (tools.json). |
+| Pricing transparency | 8/10 | Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (vendor documentation). |
+| Integrations | 9/10 | 9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (vendor documentation). |
+| AI capability | 7/10 | AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with a strong API; your workflows are portable only as re-builds (the source repository). |
+| Operational maturity | 9/10 | Founded 2011 with the category&#x27;s longest enterprise track record and status transparency (vendor documentation). |
 
 
 | Pros | Cons |

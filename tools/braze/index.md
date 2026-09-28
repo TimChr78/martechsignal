@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (tools.json ai_features). |
-| Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (tools.json). |
-| AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise SaaS on annual contracts (tools.json). |
-| Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (tools.json). |
+| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (vendor documentation). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (vendor documentation). |
+| AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (vendor documentation). |
+| Openness | 2/10 | Closed enterprise SaaS on annual contracts (the source repository). |
+| Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (vendor documentation). |
 
 
 | Pros | Cons |

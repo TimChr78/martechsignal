@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (tools.json ai_features). |
-| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (tools.json). |
-| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (tools.json). |
+| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation). |
+| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation). |
+| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation). |
 
 
 | Pros | Cons |

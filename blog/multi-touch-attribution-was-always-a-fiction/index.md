@@ -146,7 +146,6 @@ More from the directory: [Writesonic](/tools/writesonic/)
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/",
   "image": "https://martechsignal.com/og/multi-touch-attribution-was-always-a-fiction.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

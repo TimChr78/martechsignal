@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (tools.json ai_features). |
-| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (tools.json). |
-| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (tools.json). |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation). |
+| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation). |
+| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (vendor documentation). |
 
 
 | Pros | Cons |

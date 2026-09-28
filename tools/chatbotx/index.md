@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (tools.json, verified 2026-09-28). |
-| Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (tools.json ai_features). |
-| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
-| AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (tools.json ai_features). |
-| Openness | 8/10 | Open-source self-hosted with 746 GitHub stars and full code access (tools.json). |
-| Operational maturity | 3/10 | 746 stars with no company or founding year in the catalog (tools.json). |
+| Pricing transparency | 9/10 | Free open-source and self-hosted with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
+| AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (vendor documentation). |
+| Openness | 8/10 | Open-source self-hosted with 746 GitHub stars and full code access (the source repository). |
+| Operational maturity | 3/10 | 746 stars with no company or founding year in the catalog (vendor documentation). |
 
 
 | Pros | Cons |

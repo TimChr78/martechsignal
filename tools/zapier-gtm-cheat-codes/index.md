@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Campaign planning, postmortems and launch packages cover the GTM workflow set (tools.json ai_features). |
-| Integrations | 6/10 | Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (tools.json). |
-| AI capability | 5/10 | Installable agent skills with CRM context and account prioritization from source data (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 334 GitHub stars and vendor-published source (tools.json). |
-| Operational maturity | 5/10 | Founded 2026 but published by Zapier itself, which changes the support calculus (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Campaign planning, postmortems and launch packages cover the GTM workflow set (vendor documentation). |
+| Integrations | 6/10 | Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (vendor documentation). |
+| AI capability | 5/10 | Installable agent skills with CRM context and account prioritization from source data (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 334 GitHub stars and vendor-published source (the source repository). |
+| Operational maturity | 5/10 | Founded 2026 but published by Zapier itself, which changes the support calculus (vendor documentation). |
 
 
 | Pros | Cons |

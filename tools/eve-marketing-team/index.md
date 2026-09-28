@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (tools.json ai_features). |
-| Integrations | 5/10 | Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (tools.json). |
-| AI capability | 7/10 | A coordinated multi-agent team reading one brand context document is real orchestration (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 435 GitHub stars and your own deployment on Vercel (tools.json). |
-| Operational maturity | 3/10 | Founded 2026 at 435 stars; early template with a platform forming around it (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT; run costs are only the AI model plus named SaaS connectors (Notion, Resend, Typefully), stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (vendor documentation). |
+| Integrations | 5/10 | Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (vendor documentation). |
+| AI capability | 7/10 | A coordinated multi-agent team reading one brand context document is real orchestration (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 435 GitHub stars and your own deployment on Vercel (the source repository). |
+| Operational maturity | 3/10 | Founded 2026 at 435 stars; early template with a platform forming around it (vendor documentation). |
 
 
 | Pros | Cons |
@@ -47,9 +47,9 @@ Resend
 
 Developer-first email API built around React Email, batch sending, and agent tooling
 
-Claude SEO
+Aaron Marketing Skills
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+120 marketing skills across 7 disciplines for Claude Code with auditor gates
 
 Codex SEO
 

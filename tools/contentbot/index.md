@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (tools.json ai_features). |
-| Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (tools.json). |
-| AI capability | 5/10 | Bulk generation and content workflows are the automation core (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 5/10 | Founded 2021 with published per-word pricing (tools.json). |
+| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation). |
+| Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation). |
+| AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 5/10 | Founded 2021 with published per-word pricing (vendor documentation). |
 
 
 | Pros | Cons |

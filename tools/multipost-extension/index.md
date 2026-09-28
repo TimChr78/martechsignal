@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (tools.json, verified 2026-09-28). |
-| Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (tools.json ai_features). |
-| Integrations | 2/10 | No named integrations; the extension works through the platforms&#x27; own web UIs (tools.json). |
-| AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (tools.json ai_features). |
-| Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (tools.json). |
-| Operational maturity | 4/10 | Community-maintained at 3.3k stars with no company behind it (tools.json). |
+| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation). |
+| Integrations | 2/10 | No named integrations; the extension works through the platforms&#x27; own web UIs (vendor documentation). |
+| AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation). |
+| Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (the source repository). |
+| Operational maturity | 4/10 | Community-maintained at 3.3k stars with no company behind it (vendor documentation). |
 
 
 | Pros | Cons |

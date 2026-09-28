@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (tools.json ai_features). |
-| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (tools.json). |
-| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise SaaS (tools.json). |
-| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (tools.json). |
+| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation). |
+| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation). |
+| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation). |
+| Openness | 2/10 | Closed enterprise SaaS (the source repository). |
+| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation). |
 
 
 | Pros | Cons |

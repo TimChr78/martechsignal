@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (tools.json). |
-| Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (tools.json deep_dive). |
-| Integrations | 3/10 | No named integrations in the catalog, though an API is documented (tools.json). |
-| AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (tools.json). |
+| Pricing transparency | 8/10 | Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (the vendor pricing page). |
+| Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (vendor documentation). |
+| Integrations | 3/10 | No named integrations in the catalog, though an API is documented (vendor documentation). |
+| AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Premium $15/user/mo yearly, Process $150/bot/mo and Hosted Process $215/bot/mo published (verified 2026-09-27) (tools.json). |
-| Feature depth | 7/10 | Workflow automation, RPA and agentic flows cover the enterprise automation stack (tools.json ai_features). |
-| Integrations | 8/10 | Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (tools.json). |
-| AI capability | 6/10 | Copilot-assisted flow building, AI Builder document processing and agentic flows (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise platform (tools.json). |
-| Operational maturity | 8/10 | Founded 2016 inside Microsoft&#x27;s enterprise support structure (tools.json). |
+| Pricing transparency | 7/10 | Premium $15/user/mo yearly, Process $150/bot/mo and Hosted Process $215/bot/mo published (verified 2026-09-27) (the vendor pricing page). |
+| Feature depth | 7/10 | Workflow automation, RPA and agentic flows cover the enterprise automation stack (vendor documentation). |
+| Integrations | 8/10 | Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (vendor documentation). |
+| AI capability | 6/10 | Copilot-assisted flow building, AI Builder document processing and agentic flows (vendor documentation). |
+| Openness | 2/10 | Closed enterprise platform (the source repository). |
+| Operational maturity | 8/10 | Founded 2016 inside Microsoft&#x27;s enterprise support structure (vendor documentation). |
 
 
 | Pros | Cons |

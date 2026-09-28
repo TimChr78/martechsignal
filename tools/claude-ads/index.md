@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (tools.json ai_features). |
-| Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (tools.json). |
-| AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 9.1k GitHub stars and runs in your own harness (tools.json). |
-| Operational maturity | 5/10 | Founded 2025 at 9.1k stars; adoption is fast and history is short (tools.json). |
+| Pricing transparency | 9/10 | Free under MIT with only Claude API costs to account for, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation). |
+| Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation). |
+| AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 9.1k GitHub stars and runs in your own harness (the source repository). |
+| Operational maturity | 5/10 | Founded 2025 at 9.1k stars; adoption is fast and history is short (vendor documentation). |
 
 
 | Pros | Cons |
@@ -36,13 +36,13 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 
 **Verdict:** Claude Ads is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
-Claude SEO
-
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
-
 Google Ads + Meta Ads + GA4 MCP
 
 MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
+
+Claude SEO
+
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 Smartly.io
 

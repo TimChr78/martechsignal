@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (tools.json ai_features). |
-| Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (tools.json). |
-| AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (tools.json ai_features). |
-| Openness | 9/10 | Apache-2.0 with 161 GitHub stars and local execution (tools.json). |
-| Operational maturity | 3/10 | Founded 2026 at 161 stars; a young research pipeline (tools.json). |
+| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (vendor documentation). |
+| Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (vendor documentation). |
+| AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (vendor documentation). |
+| Openness | 9/10 | Apache-2.0 with 161 GitHub stars and local execution (the source repository). |
+| Operational maturity | 3/10 | Founded 2026 at 161 stars; a young research pipeline (vendor documentation). |
 
 
 | Pros | Cons |

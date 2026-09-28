@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (tools.json, verified 2026-09-28). |
-| Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (tools.json ai_features). |
-| Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (tools.json). |
-| AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 234 GitHub stars and full source (tools.json). |
-| Operational maturity | 2/10 | Founded 2026 at 234 stars with no API and a narrow dependency stack (tools.json). |
+| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation). |
+| Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation). |
+| AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 234 GitHub stars and full source (the source repository). |
+| Operational maturity | 2/10 | Founded 2026 at 234 stars with no API and a narrow dependency stack (vendor documentation). |
 
 
 | Pros | Cons |

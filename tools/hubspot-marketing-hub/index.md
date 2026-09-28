@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (tools.json deep_dive). |
-| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (tools.json). |
-| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (tools.json). |
-| Operational maturity | 9/10 | Founded 2006 with a public company&#x27;s support and status infrastructure (tools.json). |
+| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation). |
+| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation). |
+| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (the source repository). |
+| Operational maturity | 9/10 | Founded 2006 with a public company&#x27;s support and status infrastructure (vendor documentation). |
 
 
 | Pros | Cons |

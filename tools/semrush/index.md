@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (tools.json ai_features). |
-| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (tools.json). |
-| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access at additional cost (tools.json). |
-| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (tools.json). |
+| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation). |
+| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation). |
+| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access at additional cost (the source repository). |
+| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation). |
 
 
 | Pros | Cons |

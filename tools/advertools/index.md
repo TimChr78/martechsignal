@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (tools.json deep_dive). |
-| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (tools.json). |
-| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (tools.json). |
-| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (tools.json). |
+| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation). |
+| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation). |
+| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (the source repository). |
+| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (vendor documentation). |
 
 
 | Pros | Cons |

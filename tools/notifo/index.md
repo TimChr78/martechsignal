@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (tools.json). |
-| Feature depth | 4/10 | Multi-channel notifications across email, SMS and web push cover the delivery job (tools.json deep_dive). |
-| Integrations | 5/10 | Amazon SES, MessageBird, Firebase, custom web push and SignalR with a REST API and OpenAPI (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | MIT-licensed with 880 GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 4/10 | Founded 2020 at 880 stars with a hosted instance of unlisted size (tools.json). |
+| Pricing transparency | 7/10 | Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (the vendor pricing page). |
+| Feature depth | 4/10 | Multi-channel notifications across email, SMS and web push cover the delivery job (vendor documentation). |
+| Integrations | 5/10 | Amazon SES, MessageBird, Firebase, custom web push and SignalR with a REST API and OpenAPI (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 880 GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 4/10 | Founded 2020 at 880 stars with a hosted instance of unlisted size (vendor documentation). |
 
 
 | Pros | Cons |

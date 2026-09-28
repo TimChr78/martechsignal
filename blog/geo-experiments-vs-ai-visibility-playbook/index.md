@@ -134,7 +134,6 @@ More from the directory: [LanguageTool](/tools/languagetool/)
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/",
   "image": "https://martechsignal.com/og/geo-experiments-vs-ai-visibility-playbook.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

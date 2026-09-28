@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (tools.json ai_features). |
-| Integrations | 6/10 | Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (tools.json). |
-| AI capability | 8/10 | The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS, though MCP and an API-level credit system keep the data portable (tools.json). |
-| Operational maturity | 4/10 | Young product with no founding year in the catalog and a card-required trial gate (tools.json). |
+| Pricing transparency | 7/10 | EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (vendor documentation). |
+| Integrations | 6/10 | Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (vendor documentation). |
+| AI capability | 8/10 | The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (vendor documentation). |
+| Openness | 3/10 | Closed SaaS, though MCP and an API-level credit system keep the data portable (the source repository). |
+| Operational maturity | 4/10 | Young product with no founding year in the catalog and a card-required trial gate (vendor documentation). |
 
 
 | Pros | Cons |

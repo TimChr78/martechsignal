@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (tools.json ai_features). |
-| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (tools.json). |
-| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (tools.json ai_features). |
-| Openness | 9/10 | Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (tools.json). |
-| Operational maturity | 3/10 | Founded 2026 at 2.0k stars with no API of its own (tools.json). |
+| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation). |
+| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation). |
+| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation). |
+| Openness | 9/10 | Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (the source repository). |
+| Operational maturity | 3/10 | Founded 2026 at 2.0k stars with no API of its own (vendor documentation). |
 
 
 | Pros | Cons |
@@ -45,7 +45,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 
 Claude SEO
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 AI Business Skills
 

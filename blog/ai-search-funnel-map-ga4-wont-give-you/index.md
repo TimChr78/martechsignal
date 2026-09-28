@@ -152,7 +152,6 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
   "dateModified": "2026-09-25",
   "mainEntityOfPage": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/",
   "image": "https://martechsignal.com/og/ai-search-funnel-map-ga4-wont-give-you.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (tools.json deep_dive). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (tools.json). |
-| AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (tools.json ai_features). |
-| Openness | 8/10 | Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (tools.json). |
-| Operational maturity | 7/10 | 40.8k stars with priced cloud tiers and an enterprise edition (tools.json). |
+| Pricing transparency | 7/10 | Self-host CE free (Apache 2.0), Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (vendor documentation). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (vendor documentation). |
+| AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (vendor documentation). |
+| Openness | 8/10 | Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (the source repository). |
+| Operational maturity | 7/10 | 40.8k stars with priced cloud tiers and an enterprise edition (vendor documentation). |
 
 
 | Pros | Cons |

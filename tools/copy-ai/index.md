@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (tools.json ai_features). |
-| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (tools.json). |
-| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 6/10 | Founded 2020 with one of the category&#x27;s largest free user bases (tools.json). |
+| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation). |
+| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation). |
+| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 6/10 | Founded 2020 with one of the category&#x27;s largest free user bases (vendor documentation). |
 
 
 | Pros | Cons |

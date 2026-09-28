@@ -146,7 +146,6 @@ More from the directory: [IFTTT](/tools/ifttt/)
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/deliverability-ai-spam-content-problem/",
   "image": "https://martechsignal.com/og/deliverability-ai-spam-content-problem.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

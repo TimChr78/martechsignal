@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (tools.json ai_features). |
-| Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (tools.json). |
-| AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (tools.json). |
+| Pricing transparency | 9/10 | Essential $14, Advanced $29, Professional $59 and Enterprise $79 per user/mo all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (vendor documentation). |
+| Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (vendor documentation). |
+| AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (vendor documentation). |
 
 
 | Pros | Cons |

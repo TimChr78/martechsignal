@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT on Cloudflare&#x27;s free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (tools.json). |
-| Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (tools.json ai_features). |
-| Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (tools.json). |
-| AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (tools.json). |
-| Operational maturity | 3/10 | Founded 2026 at 589 stars with managed hosting offered (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT on Cloudflare&#x27;s free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (the vendor pricing page). |
+| Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (vendor documentation). |
+| Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (vendor documentation). |
+| AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (the source repository). |
+| Operational maturity | 3/10 | Founded 2026 at 589 stars with managed hosting offered (vendor documentation). |
 
 
 | Pros | Cons |

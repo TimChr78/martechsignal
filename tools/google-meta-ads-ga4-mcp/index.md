@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (tools.json ai_features). |
-| Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (tools.json). |
-| AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (tools.json ai_features). |
-| Openness | 8/10 | MIT-licensed with 1.7k GitHub stars and a self-hostable server (tools.json). |
-| Operational maturity | 4/10 | Founded 2026 at 1.7k stars with a hosted service forming behind it (tools.json). |
+| Pricing transparency | 7/10 | MIT-licensed repo free; the hosted endpoint has a free trial then paid plans, both stated (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (vendor documentation). |
+| Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (vendor documentation). |
+| AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (vendor documentation). |
+| Openness | 8/10 | MIT-licensed with 1.7k GitHub stars and a self-hostable server (the source repository). |
+| Operational maturity | 4/10 | Founded 2026 at 1.7k stars with a hosted service forming behind it (vendor documentation). |
 
 
 | Pros | Cons |
@@ -58,7 +58,7 @@ OpenClaw Marketing Skills
 
 Claude SEO
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 Albert AI
 

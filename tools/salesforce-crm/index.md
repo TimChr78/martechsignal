@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (tools.json ai_features). |
-| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (tools.json). |
-| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (tools.json ai_features). |
-| Openness | 3/10 | Closed enterprise platform with extensive APIs (tools.json). |
-| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (tools.json). |
+| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation). |
+| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation). |
+| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation). |
+| Openness | 3/10 | Closed enterprise platform with extensive APIs (the source repository). |
+| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation). |
 
 
 | Pros | Cons |

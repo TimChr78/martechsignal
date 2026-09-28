@@ -134,7 +134,6 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/",
   "image": "https://martechsignal.com/og/iab-agentic-buying-rules-insertion-orders.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

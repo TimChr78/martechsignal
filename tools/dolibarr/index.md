@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (tools.json / dolibarr.org). |
-| Feature depth | 7/10 | About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (tools.json / dolibarr.org). |
-| Integrations | 7/10 | REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (tools.json / dolibarr.org). |
-| AI capability | 6/10 | The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (tools.json / dolibarr.org). |
-| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (tools.json / dolibarr.org). |
-| Operational maturity | 8/10 | Calendar-versioned releases with 24.0.0 in August 2026, 7,596 GitHub stars, wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (tools.json / dolibarr.org). |
+| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (the vendor pricing page). |
+| Feature depth | 7/10 | About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (vendor documentation). |
+| Integrations | 7/10 | REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (vendor documentation). |
+| AI capability | 6/10 | The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (vendor documentation). |
+| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (the source repository). |
+| Operational maturity | 8/10 | Calendar-versioned releases with 24.0.0 in August 2026, 7,596 GitHub stars, wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation). |
 
 
 | Pros | Cons |

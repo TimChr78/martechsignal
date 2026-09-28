@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (tools.json ai_features). |
-| Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (tools.json). |
-| AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise platform (tools.json). |
-| Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (tools.json). |
+| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation). |
+| Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation). |
+| AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation). |
+| Openness | 2/10 | Closed enterprise platform (the source repository). |
+| Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (vendor documentation). |
 
 
 | Pros | Cons |

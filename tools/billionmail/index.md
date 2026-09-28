@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (tools.json deep_dive). |
-| Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (tools.json). |
-| AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (tools.json ai_features). |
-| Openness | 9/10 | AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (tools.json). |
-| Operational maturity | 4/10 | Founded 2025 at 15.6k stars with an optional deployment service (tools.json). |
+| Pricing transparency | 9/10 | Free under AGPL-3.0 with no paid tiers or cloud edition; optional deployment service at $98.9 per instance (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (vendor documentation). |
+| Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (vendor documentation). |
+| AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (the source repository). |
+| Operational maturity | 4/10 | Founded 2025 at 15.6k stars with an optional deployment service (vendor documentation). |
 
 
 | Pros | Cons |

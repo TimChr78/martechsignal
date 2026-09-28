@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (tools.json ai_features). |
-| Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (tools.json). |
-| AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (tools.json). |
+| Pricing transparency | 8/10 | Free plan, Core $19/mo with Pro and Agency tiers above it and annual discounts, all starting from published numbers (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (vendor documentation). |
+| Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (vendor documentation). |
+| AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 1/10 | No published rates at all: the /pricing URL returns 404 and the only path is a demo request (verified 2026-09-28, tools.json). |
-| Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (tools.json ai_features). |
-| Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (tools.json). |
-| AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise platform (tools.json). |
-| Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (tools.json). |
+| Pricing transparency | 1/10 | No published rates at all: the /pricing URL returns 404 and the only path is a demo request (verified 2026-09-28). |
+| Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (vendor documentation). |
+| Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (vendor documentation). |
+| AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (vendor documentation). |
+| Openness | 2/10 | Closed enterprise platform (the source repository). |
+| Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (vendor documentation). |
 
 
 | Pros | Cons |

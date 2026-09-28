@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (tools.json deep_dive). |
-| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (tools.json). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation). |
+| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation). |
 
 
 | Pros | Cons |

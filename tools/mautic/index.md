@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free under GPL-3.0 self-hosted; managed hosting by Dropsolid from EUR 247.50/mo with a 14-day no-card trial published (tools.json). |
-| Feature depth | 6/10 | Email, campaigns and lead management cover the marketing automation core (tools.json deep_dive). |
-| Integrations | 7/10 | Ten named integrations from Salesforce and HubSpot to Twilio, GTM, S3 and Zapier plus an API (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 9/10 | GPL-3.0 with 10.5k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 7/10 | Founded 2014 with an official hosting partner and a long deployment history (tools.json). |
+| Pricing transparency | 7/10 | Free under GPL-3.0 self-hosted; managed hosting by Dropsolid from EUR 247.50/mo with a 14-day no-card trial published (the vendor pricing page). |
+| Feature depth | 6/10 | Email, campaigns and lead management cover the marketing automation core (vendor documentation). |
+| Integrations | 7/10 | Ten named integrations from Salesforce and HubSpot to Twilio, GTM, S3 and Zapier plus an API (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 9/10 | GPL-3.0 with 10.5k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 7/10 | Founded 2014 with an official hosting partner and a long deployment history (vendor documentation). |
 
 
 | Pros | Cons |

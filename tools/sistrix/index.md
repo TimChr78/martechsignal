@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (tools.json ai_features). |
-| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (tools.json). |
-| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with API access (tools.json). |
-| Operational maturity | 7/10 | Established European suite with a long-published index methodology (tools.json). |
+| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation). |
+| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation). |
+| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository). |
+| Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation). |
 
 
 | Pros | Cons |

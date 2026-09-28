@@ -174,7 +174,6 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
   "dateModified": "2026-09-27",
   "mainEntityOfPage": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/",
   "image": "https://martechsignal.com/og/mcp-rewrites-the-integration-economics-of-your-marketing-stack.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

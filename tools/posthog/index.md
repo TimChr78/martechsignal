@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (tools.json). |
-| Feature depth | 7/10 | Product analytics, session replay, feature flags, experiments and surveys cover the product stack (tools.json deep_dive). |
-| Integrations | 6/10 | Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (tools.json). |
-| AI capability | 6/10 | AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 39.9k GitHub stars and self-hosting parity (tools.json). |
-| Operational maturity | 7/10 | Founded 2020 at 39.9k stars with a mature multi-product platform (tools.json). |
+| Pricing transparency | 8/10 | A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (the vendor pricing page). |
+| Feature depth | 7/10 | Product analytics, session replay, feature flags, experiments and surveys cover the product stack (vendor documentation). |
+| Integrations | 6/10 | Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (vendor documentation). |
+| AI capability | 6/10 | AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 39.9k GitHub stars and self-hosting parity (the source repository). |
+| Operational maturity | 7/10 | Founded 2020 at 39.9k stars with a mature multi-product platform (vendor documentation). |
 
 
 | Pros | Cons |

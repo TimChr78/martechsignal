@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (tools.json ai_features). |
-| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (tools.json). |
-| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS; no API documented in the catalog (tools.json). |
-| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (tools.json). |
+| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation). |
+| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation). |
+| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation). |
+| Openness | 3/10 | Closed SaaS; no API documented in the catalog (the source repository). |
+| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation). |
 
 
 | Pros | Cons |

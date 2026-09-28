@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (tools.json, verified 2026-09-28). |
-| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (tools.json ai_features). |
-| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (tools.json). |
-| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (tools.json ai_features). |
-| Openness | 3/10 | Closed SaaS with strong API coverage (tools.json). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (tools.json). |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation). |
+| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation). |
+| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (the source repository). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation). |
 
 
 | Pros | Cons |

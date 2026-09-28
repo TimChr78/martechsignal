@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (tools.json ai_features). |
-| Integrations | 5/10 | Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (tools.json). |
-| AI capability | 6/10 | Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (tools.json ai_features). |
-| Openness | 8/10 | 36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (tools.json). |
-| Operational maturity | 6/10 | Founded 2019 with a large self-hosted base and priced cloud tiers (tools.json). |
+| Pricing transparency | 7/10 | Community Edition free self-hosted; cloud Hacker free (2 agents), Startups $19 and Business tiers published, with the enterprise directory separately licensed (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (vendor documentation). |
+| Integrations | 5/10 | Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (vendor documentation). |
+| AI capability | 6/10 | Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (vendor documentation). |
+| Openness | 8/10 | 36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (the source repository). |
+| Operational maturity | 6/10 | Founded 2019 with a large self-hosted base and priced cloud tiers (vendor documentation). |
 
 
 | Pros | Cons |

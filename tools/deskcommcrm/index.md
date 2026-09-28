@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (tools.json ai_features). |
-| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (tools.json). |
-| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 4/10 | 2.3k stars with agent-side support noted for paid plans (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation). |
+| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation). |
+| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 4/10 | 2.3k stars with agent-side support noted for paid plans (vendor documentation). |
 
 
 | Pros | Cons |

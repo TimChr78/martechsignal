@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (tools.json ai_features). |
-| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (tools.json). |
-| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (tools.json ai_features). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (tools.json). |
-| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (tools.json). |
+| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation). |
+| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation). |
+| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository). |
+| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation). |
 
 
 | Pros | Cons |

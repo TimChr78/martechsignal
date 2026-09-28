@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (tools.json ai_features). |
-| Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (tools.json). |
-| AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (tools.json, github.com/krayin). |
-| Operational maturity | 6/10 | Backed by Webkul&#x27;s extension business with 23.9k stars, giving it more runway than a solo project (tools.json). |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (vendor documentation). |
+| Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (vendor documentation). |
+| AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (the source repository). |
+| Operational maturity | 6/10 | Backed by Webkul&#x27;s extension business with 23.9k stars, giving it more runway than a solo project (vendor documentation). |
 
 
 | Pros | Cons |

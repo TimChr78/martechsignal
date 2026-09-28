@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (verified 2026-09-28, tools.json). |
-| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (tools.json ai_features). |
-| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (tools.json). |
-| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (tools.json). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (tools.json). |
+| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (verified 2026-09-28). |
+| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (vendor documentation). |
+| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (vendor documentation). |
+| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (vendor documentation). |
+| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (the source repository). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (vendor documentation). |
 
 
 | Pros | Cons |

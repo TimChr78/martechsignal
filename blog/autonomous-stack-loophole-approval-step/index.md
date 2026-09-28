@@ -140,7 +140,6 @@ More from the directory: [BillionMail](/tools/billionmail/)
   "dateModified": "2026-09-09",
   "mainEntityOfPage": "https://martechsignal.com/blog/autonomous-stack-loophole-approval-step/",
   "image": "https://martechsignal.com/og/autonomous-stack-loophole-approval-step.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

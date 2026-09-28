@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan with unlimited captured events and 200K active events/mo; Business $99/mo with published overage at $40 per million (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Event capture, warehouse syncs and destination routing cover the CDP-pipeline job (tools.json deep_dive). |
-| Integrations | 6/10 | BigQuery, Snowflake, GA4, HubSpot, Salesforce and webhooks documented plus an API (tools.json). |
-| AI capability | 3/10 | An MCP server for agent-driven setup is the one documented AI surface (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (tools.json). |
-| Operational maturity | 5/10 | Founded 2020 with 5.1k stars and a small commercial operation (tools.json). |
+| Pricing transparency | 8/10 | Free plan with unlimited captured events and 200K active events/mo; Business $99/mo with published overage at $40 per million (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Event capture, warehouse syncs and destination routing cover the CDP-pipeline job (vendor documentation). |
+| Integrations | 6/10 | BigQuery, Snowflake, GA4, HubSpot, Salesforce and webhooks documented plus an API (vendor documentation). |
+| AI capability | 3/10 | An MCP server for agent-driven setup is the one documented AI surface (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (the source repository). |
+| Operational maturity | 5/10 | Founded 2020 with 5.1k stars and a small commercial operation (vendor documentation). |
 
 
 | Pros | Cons |

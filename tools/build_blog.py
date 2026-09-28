@@ -222,6 +222,14 @@ def markdown_to_html(md: str) -> str:
             # columns (378px measured in a 350px column). Give them the same
             # .table-wrap scroll container the pipe-table renderer emits.
             if '<table' in _blk and 'table-wrap' not in _blk:
+                # M26 (2026-09-28): author-written tables often carry <th> rows
+                # outside a <thead>. Wrap the header row so the markup matches
+                # what the pipe-table renderer emits.
+                if '<thead' not in _blk:
+                    _m = re.search(r'<tr[^>]*>.*?</tr>', _blk, re.S)
+                    if _m and '<th' in _m.group(0):
+                        _blk = (_blk[:_m.start()] + '<thead>' + _m.group(0)
+                                + '</thead>' + _blk[_m.end():])
                 _blk = '<div class="table-wrap">' + _blk + '</div>'
             out.append(_blk)
             continue
@@ -445,7 +453,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "dateModified": _date_modified(meta, date_str),
         "mainEntityOfPage": f"https://martechsignal.com/blog/{slug}/",
         "image": f"https://martechsignal.com/og/{slug}.png",
-        "citation": _cit_list,
+        **({"citation": _cit_list} if _cit_list else {}),
         # A2 M7 (2026-09-26): link the post into the Blog node and carry the
         # article fields Google's article cluster reads.
         "isPartOf": {"@type": "Blog",

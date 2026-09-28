@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Profile unification, segmentation and personalization rules cover the CDP baseline (tools.json deep_dive). |
-| Integrations | 4/10 | Karaf, Elasticsearch, MongoDB and GraphQL documented (tools.json). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
-| Openness | 10/10 | Apache-2.0 under Apache Foundation governance with 375 GitHub stars (tools.json). |
-| Operational maturity | 6/10 | Apache Foundation project status gives it institutional durability (tools.json). |
+| Pricing transparency | 9/10 | Free self-hosted Apache project with no commercial cloud tier to price (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Profile unification, segmentation and personalization rules cover the CDP baseline (vendor documentation). |
+| Integrations | 4/10 | Karaf, Elasticsearch, MongoDB and GraphQL documented (vendor documentation). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
+| Openness | 10/10 | Apache-2.0 under Apache Foundation governance with 375 GitHub stars (the source repository). |
+| Operational maturity | 6/10 | Apache Foundation project status gives it institutional durability (vendor documentation). |
 
 
 | Pros | Cons |

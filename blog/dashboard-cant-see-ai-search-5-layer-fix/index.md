@@ -157,7 +157,6 @@ More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
   "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/",
   "image": "https://martechsignal.com/og/dashboard-cant-see-ai-search-5-layer-fix.png",
-  "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"

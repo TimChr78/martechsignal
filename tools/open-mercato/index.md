@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (tools.json ai_features). |
-| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (tools.json). |
-| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 1.7k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 4/10 | Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (tools.json). |
+| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation). |
+| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 1.7k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 4/10 | Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (vendor documentation). |
 
 
 | Pros | Cons |

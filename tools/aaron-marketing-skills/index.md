@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under Apache 2.0 with nothing else to buy (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | 120 skills across 7 disciplines with 6 auditor gates (CORE-EEAT, CITE, C3, ROAS, SEND and RAM) gating outputs (tools.json ai_features). |
-| Integrations | 4/10 | Claude Code, Codex, Gemini CLI and Cursor documented as harnesses (tools.json). |
-| AI capability | 6/10 | Auditor gates over generated work are quality machinery most skill packs lack (tools.json ai_features). |
-| Openness | 9/10 | Apache-2.0 with 2.8k GitHub stars and full source (tools.json). |
-| Operational maturity | 4/10 | Founded 2025 at 2.8k stars; community-run with no company behind it (tools.json). |
+| Pricing transparency | 10/10 | Free under Apache 2.0 with nothing else to buy (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | 120 skills across 7 disciplines with 6 auditor gates (CORE-EEAT, CITE, C3, ROAS, SEND and RAM) gating outputs (vendor documentation). |
+| Integrations | 4/10 | Claude Code, Codex, Gemini CLI and Cursor documented as harnesses (vendor documentation). |
+| AI capability | 6/10 | Auditor gates over generated work are quality machinery most skill packs lack (vendor documentation). |
+| Openness | 9/10 | Apache-2.0 with 2.8k GitHub stars and full source (the source repository). |
+| Operational maturity | 4/10 | Founded 2025 at 2.8k stars; community-run with no company behind it (vendor documentation). |
 
 
 | Pros | Cons |
@@ -53,7 +53,7 @@ Zapier&#x27;s installable coding-agent skills for GTM: campaign planning, CRM co
 
 Claude SEO
 
-Open-source SEO skill for Claude Code with 25 sub-skills and 18 parallel agents
+Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

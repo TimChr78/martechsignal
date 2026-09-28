@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (tools.json). |
-| Feature depth | 4/10 | Neural translation, language detection and a translation API cover localization narrowly (tools.json deep_dive). |
-| Integrations | 4/10 | Mastodon, Argos Translate and OpenAPI/Swagger documented (tools.json). |
-| AI capability | 5/10 | Argos Translate neural models with automatic language detection are the machine core (tools.json ai_features). |
-| Openness | 9/10 | AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (tools.json). |
-| Operational maturity | 5/10 | 16.8k stars with a hosted per-character service as the commercial arm (tools.json). |
+| Pricing transparency | 8/10 | Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (the vendor pricing page). |
+| Feature depth | 4/10 | Neural translation, language detection and a translation API cover localization narrowly (vendor documentation). |
+| Integrations | 4/10 | Mastodon, Argos Translate and OpenAPI/Swagger documented (vendor documentation). |
+| AI capability | 5/10 | Argos Translate neural models with automatic language detection are the machine core (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (the source repository). |
+| Operational maturity | 5/10 | 16.8k stars with a hosted per-character service as the commercial arm (vendor documentation). |
 
 
 | Pros | Cons |

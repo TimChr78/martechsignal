@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Lightweight web analytics with insights and anomaly detection cover the privacy analytics job (tools.json deep_dive). |
-| Integrations | 5/10 | WordPress, Ghost, Webflow, Zapier, Search Console and Slack documented plus an API (tools.json). |
-| AI capability | 3/10 | AI insights, anomaly detection and traffic analysis are convenience layers on the core product (tools.json ai_features). |
-| Openness | 9/10 | AGPL-3.0 with 29.0k GitHub stars and full self-hosting (tools.json). |
-| Operational maturity | 7/10 | Founded 2019 with a large self-hosted base and a steady cloud business (tools.json). |
+| Pricing transparency | 9/10 | Self-hosted free (AGPL); cloud from $9/mo for 10K pageviews scaling with traffic, published plainly (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Lightweight web analytics with insights and anomaly detection cover the privacy analytics job (vendor documentation). |
+| Integrations | 5/10 | WordPress, Ghost, Webflow, Zapier, Search Console and Slack documented plus an API (vendor documentation). |
+| AI capability | 3/10 | AI insights, anomaly detection and traffic analysis are convenience layers on the core product (vendor documentation). |
+| Openness | 9/10 | AGPL-3.0 with 29.0k GitHub stars and full self-hosting (the source repository). |
+| Operational maturity | 7/10 | Founded 2019 with a large self-hosted base and a steady cloud business (vendor documentation). |
 
 
 | Pros | Cons |

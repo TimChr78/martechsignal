@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based: writer.com serves no public price table to anonymous visitors (verified Sep 2026, tools.json). |
-| Feature depth | 8/10 | Brand governance, Knowledge Graph grounding and 100+ prebuilt agents in the Agent Library make it a platform (tools.json ai_features). |
-| Integrations | 8/10 | Slack, Google Workspace, Microsoft 365, Salesforce, HubSpot, Contentful, Figma, Snowflake and Databricks documented plus an API (tools.json). |
-| AI capability | 8/10 | Its own Palmyra model family plus Knowledge Graph grounding and agent tooling go past wrapper territory (tools.json ai_features). |
-| Openness | 3/10 | Closed platform, though the Palmyra models and API keep some portability (tools.json). |
-| Operational maturity | 7/10 | Founded 2020 with enterprise governance features and named compliance posture (tools.json). |
+| Pricing transparency | 2/10 | Quote-based: writer.com serves no public price table to anonymous visitors (verified Sep 2026). |
+| Feature depth | 8/10 | Brand governance, Knowledge Graph grounding and 100+ prebuilt agents in the Agent Library make it a platform (vendor documentation). |
+| Integrations | 8/10 | Slack, Google Workspace, Microsoft 365, Salesforce, HubSpot, Contentful, Figma, Snowflake and Databricks documented plus an API (vendor documentation). |
+| AI capability | 8/10 | Its own Palmyra model family plus Knowledge Graph grounding and agent tooling go past wrapper territory (vendor documentation). |
+| Openness | 3/10 | Closed platform, though the Palmyra models and API keep some portability (the source repository). |
+| Operational maturity | 7/10 | Founded 2020 with enterprise governance features and named compliance posture (vendor documentation). |
 
 
 | Pros | Cons |

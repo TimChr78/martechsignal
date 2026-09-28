@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (tools.json, verified 2026-09-28). |
-| Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (tools.json ai_features). |
-| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
-| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform&#x27;s core claims (tools.json ai_features). |
-| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (tools.json). |
-| Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (tools.json). |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation). |
+| Integrations | 2/10 | No named integrations in the catalog (vendor documentation). |
+| AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform&#x27;s core claims (vendor documentation). |
+| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (the source repository). |
+| Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (vendor documentation). |
 
 
 | Pros | Cons |

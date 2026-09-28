@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (tools.json, verified 2026-09-28). |
-| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (tools.json ai_features). |
-| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (tools.json). |
-| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (tools.json). |
-| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (tools.json). |
+| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation). |
+| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation). |
+| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository). |
+| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation). |
 
 
 | Pros | Cons |

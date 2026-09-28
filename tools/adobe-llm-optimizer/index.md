@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based within Adobe Experience Cloud with no public numbers as of Sep 2026 (tools.json). |
-| Feature depth | 8/10 | Share-of-voice across ten LLM families, ~300M enriched AI search prompts and CDN-edge content optimization served to crawlers (tools.json ai_features). |
-| Integrations | 7/10 | Native ties to Adobe Analytics, CJA and AEM plus three CDN providers make it deep inside its own stack and narrow outside it (tools.json). |
-| AI capability | 8/10 | CDN-edge optimizations served to AI crawlers and clickstream-enriched prompt data are capabilities no standalone tracker has (tools.json ai_features). |
-| Openness | 2/10 | Closed enterprise product tied to an Adobe contract; the catalog documents no API (tools.json). |
-| Operational maturity | 8/10 | Founded 2025 but built by Adobe inside Experience Cloud, inheriting its enterprise support and compliance machinery (tools.json). |
+| Pricing transparency | 2/10 | Quote-based within Adobe Experience Cloud with no public numbers as of Sep 2026 (the vendor pricing page). |
+| Feature depth | 8/10 | Share-of-voice across ten LLM families, ~300M enriched AI search prompts and CDN-edge content optimization served to crawlers (vendor documentation). |
+| Integrations | 7/10 | Native ties to Adobe Analytics, CJA and AEM plus three CDN providers make it deep inside its own stack and narrow outside it (vendor documentation). |
+| AI capability | 8/10 | CDN-edge optimizations served to AI crawlers and clickstream-enriched prompt data are capabilities no standalone tracker has (vendor documentation). |
+| Openness | 2/10 | Closed enterprise product tied to an Adobe contract; the catalog documents no API (the source repository). |
+| Operational maturity | 8/10 | Founded 2025 but built by Adobe inside Experience Cloud, inheriting its enterprise support and compliance machinery (vendor documentation). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (tools.json, verified 2026-09-28). |
-| Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (tools.json ai_features). |
-| Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (tools.json). |
-| AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (tools.json ai_features). |
-| Openness | 9/10 | MIT-licensed with 1.0k GitHub stars and full source (tools.json). |
-| Operational maturity | 4/10 | Founded 2025 at 1.0k stars with an optional hosting service (tools.json). |
+| Pricing transparency | 8/10 | Free under MIT with optional cloud hosting via MyClaw.ai, both stated (the vendor pricing page, verified 2026-09-28). |
+| Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (vendor documentation). |
+| Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (vendor documentation). |
+| AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (vendor documentation). |
+| Openness | 9/10 | MIT-licensed with 1.0k GitHub stars and full source (the source repository). |
+| Operational maturity | 4/10 | Founded 2025 at 1.0k stars with an optional hosting service (vendor documentation). |
 
 
 | Pros | Cons |
