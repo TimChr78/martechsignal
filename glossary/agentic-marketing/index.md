@@ -52,7 +52,7 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 
 ## Related terms
 
-[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
+[ABM](/glossary/abm/) · [AI Agent](/glossary/ai-agent/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
 ## Seen in the wild
 
@@ -64,9 +64,9 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 
 ## See also
 
-- [Marketing automation](/glossary/marketing-automation/)
-- [MQL / SQL](/glossary/mql-sql/)
 - [ABM](/glossary/abm/)
+- [Marketing automation](/glossary/marketing-automation/)
+- [Marketing ops](/glossary/marketing-ops/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

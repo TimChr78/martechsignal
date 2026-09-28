@@ -52,7 +52,7 @@ AI models eat UTM data, so quality in, quality out. Agents that optimize channel
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [DMP](/glossary/dmp/) · [CRO](/glossary/cro/) · [Customer journey](/glossary/customer-journey/) · [Personalization](/glossary/personalization/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/)
 
 ### Categories
 

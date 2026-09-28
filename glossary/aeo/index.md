@@ -56,7 +56,7 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
 
 ## Related terms
 
-[SEO](/glossary/seo/) · [AI Visibility](/glossary/ai-search-visibility/)
+[AI Visibility](/glossary/ai-search-visibility/) · [SEO](/glossary/seo/)
 
 ## Seen in the wild
 
@@ -68,9 +68,9 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
 
 ## See also
 
-- [DCO](/glossary/dco/)
 - [CRO](/glossary/cro/)
-- [SEO](/glossary/seo/)
+- [DCO](/glossary/dco/)
+- [GEO](/glossary/geo/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

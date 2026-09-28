@@ -87,7 +87,7 @@ The insertion order was written for humans because only humans could read a prop
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [MCP](/glossary/mcp/)
+- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -140,7 +140,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1539,
+  "wordCount": 1540,
   "articleSection": "digital-advertising"
 }
 ```

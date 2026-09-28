@@ -2844,6 +2844,18 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:glossary:geo",
+   "displayName": "Generative engine optimization (GEO) | Definition",
+   "type": "text/html",
+   "url": "https://martechsignal.com/glossary/geo/",
+   "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, ",
+   "representativeQueries": [
+    "what is geo",
+    "geo definition",
+    "geo in martech"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:glossary:lead-scoring",
    "displayName": "Lead Scoring | Definition",
    "type": "text/html",

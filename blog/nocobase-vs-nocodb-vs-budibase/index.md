@@ -119,7 +119,7 @@ Down to two already? The pairwise version of this fight lives on [NocoDB vs Noco
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [Workflow automation](/glossary/workflow-automation/)
+- [MCP](/glossary/mcp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -170,7 +170,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1901,
+  "wordCount": 1900,
   "articleSection": "workflow-automation"
 }
 ```

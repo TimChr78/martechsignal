@@ -91,6 +91,8 @@ Our directory breaks down marketing tools by what they actually measure, what th
 
 **Sources:** [Search Engine Land: A 5-layer framework for measuring AI search performance (Aug 11, 2026)](https://searchengineland.com/ai-search-performance-measurment-framework-484546) · [Search Engine Land: How customers build confidence across the search journey (Aug 10, 2026)](https://searchengineland.com/customers-build-confidence-search-journey-484509) · [Search Engine Land: Community signals are AI's largest third-party source (Aug 12, 2026)](https://searchengineland.com/community-signals-ai-largest-third-party-source-484606) · [Search Engine Land: Reddit's ChatGPT Search citations fell 86% in four days (Aug 19, 2026)](https://searchengineland.com/reddit-chatgpt-search-citations-fall-report-485473) · Loamly AI traffic attribution analysis (446,405 visits), cited in [Search Engine Land: The 5-layer framework for measuring GEO performance](https://searchengineland.com/the-5-layer-framework-for-measuring-geo-performance-477742) · Green Hat, 2025 B2B Buyer Journey Research · Wynter, 2026 CMO software buying research · MartechSignal GSC diagnostic, Aug 17, 2026 (28-day pull: 379 queries, 1,427 impressions, 0 clicks, 87.6% at position 51-100)
 
+This post is part of the [generative engine optimization hub](/guides/generative-engine-optimization/), which orders the whole GEO topic.
+
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
@@ -107,8 +109,8 @@ Our directory breaks down marketing tools by what they actually measure, what th
 - [Best Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
+- [GEO](/glossary/geo/)
 - [AI Visibility](/glossary/ai-search-visibility/)
-- [SEO](/glossary/seo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -161,7 +163,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2109,
+  "wordCount": 2126,
   "articleSection": "seo"
 }
 ```

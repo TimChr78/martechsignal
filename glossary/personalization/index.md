@@ -52,7 +52,7 @@ AI changed personalization from rules to prediction. Models score each visitor i
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Attribution models](/glossary/marketing-attribution-models/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [UTM parameters](/glossary/utm-parameters/)
 
 ### Categories
 

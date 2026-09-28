@@ -187,6 +187,25 @@ def build_page():
         ],
     }
 
+    # r7 C8 (2026-09-28): /trending/ doubles as the Open-Source Martech hub.
+    body = body + (
+        '<section class="hub-oss"><h2>This is the Open-Source Martech hub</h2>'
+        '<p>The ranking above is the spine of this topic. These pages are the cluster around it, for when you need the buying argument, the stack recipes, or the definitions.</p>'
+        '<ul class="hub-links">'
+        '<li><a href="/blog/open-source-martech-stack/">The open-source martech stack</a></li>'
+        '<li><a href="/blog/oss-momentum-tracker-september-2026/">September OSS momentum tracker</a></li>'
+        '<li><a href="/blog/oss-martech-50-day-checkin/">50 days in: the OSS martech check-in</a></li>'
+        '<li><a href="/blog/n8n-ai-open-source-automation/">n8n and AI in open-source automation</a></li>'
+        '<li><a href="/blog/nocobase-vs-nocodb-vs-budibase/">NocoBase vs NocoDB vs Budibase</a></li>'
+        '<li><a href="/blog/ci-tools-were-the-first-martech-category-ai-killed/">CI tools: the first category AI killed</a></li>'
+        '<li><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP and the integration economics</a></li>'
+        '<li><a href="/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/">Zapier vs Make</a></li>'
+        '<li><a href="/categories/open-source/">The open-source category</a> and its sibling hubs</li>'
+        '<li><a href="/best/open-source-marketing-tools/">Best open-source marketing tools</a></li>'
+        '<li><a href="/best/open-source-crm/">Best open-source CRM</a></li>'
+        '<li><a href="/guides/generative-engine-optimization/">The GEO guide</a>, for the visibility question this stack feeds</li>'
+        '</ul></section>')
+
     out = ROOT / "trending" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(

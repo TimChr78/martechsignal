@@ -52,7 +52,7 @@ AI now drafts sequence copy, predicts send times, and picks subject lines from h
 
 ## Related terms
 
-[Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [MQL / SQL](/glossary/mql-sql/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
+[Deliverability](/glossary/deliverability/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
 ### Categories
 

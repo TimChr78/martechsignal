@@ -64,9 +64,9 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
 
 ## See also
 
-- [DCO](/glossary/dco/)
-- [CRO](/glossary/cro/)
 - [AI Visibility](/glossary/ai-search-visibility/)
+- [AEO](/glossary/aeo/)
+- [CRO](/glossary/cro/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

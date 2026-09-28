@@ -48,7 +48,7 @@ AI now sets bids, builds audiences, and writes ad variations inside the DSP. Aut
 
 ## Related terms
 
-[DSP](/glossary/dsp/) · [DCO](/glossary/dco/) · [AI content](/glossary/ai-content-generation/)
+[AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [DCO](/glossary/dco/)
 
 ### Categories
 

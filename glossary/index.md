@@ -1,6 +1,6 @@
 # Marketing Technology Glossary
 
-[A](#A)[C](#C)[D](#D)[E](#E)[F](#F)[L](#L)[M](#M)[P](#P)[S](#S)[U](#U)[W](#W)
+[A](#A)[C](#C)[D](#D)[E](#E)[F](#F)[G](#G)[L](#L)[M](#M)[P](#P)[S](#S)[U](#U)[W](#W)
 
 ABM
 
@@ -74,6 +74,10 @@ First-party data
 
 First-party data is information you collect directly from your customers and prospects: website behavior, purchase histo…
 
+GEO
+
+Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answ…
+
 Lead scoring
 
 Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demograp…
@@ -124,7 +128,7 @@ Workflow automation connects your software tools so that actions in one system t
 
 Plain-English definitions of marketing technology terms. No jargon explaining jargon.
 
-29 TERMS · LINKED TO 83 TOOLS
+30 TERMS · LINKED TO 85 TOOLS
 
 ## A
 
@@ -135,6 +139,8 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
 ## E
 
 ## F
+
+## G
 
 ## L
 
@@ -157,7 +163,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
   "@type": "ItemList",
   "name": "Martech Glossary",
   "description": "Plain-English definitions of marketing technology terms",
-  "numberOfItems": 29,
+  "numberOfItems": 30,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -270,66 +276,72 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
     {
       "@type": "ListItem",
       "position": 19,
+      "name": "Generative engine optimization (GEO)",
+      "url": "https://martechsignal.com/glossary/geo/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
       "name": "Lead Scoring",
       "url": "https://martechsignal.com/glossary/lead-scoring/"
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 21,
       "name": "Marketing Automation",
       "url": "https://martechsignal.com/glossary/marketing-automation/"
     },
     {
       "@type": "ListItem",
-      "position": 21,
+      "position": 22,
       "name": "Marketing Operations (MarketingOps)",
       "url": "https://martechsignal.com/glossary/marketing-ops/"
     },
     {
       "@type": "ListItem",
-      "position": 22,
+      "position": 23,
       "name": "Model Context Protocol (MCP)",
       "url": "https://martechsignal.com/glossary/mcp/"
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 24,
       "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
       "url": "https://martechsignal.com/glossary/mql-sql/"
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 25,
       "name": "Programmatic Advertising",
       "url": "https://martechsignal.com/glossary/programmatic-advertising/"
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 26,
       "name": "Search Engine Optimization (SEO)",
       "url": "https://martechsignal.com/glossary/seo/"
     },
     {
       "@type": "ListItem",
-      "position": 26,
+      "position": 27,
       "name": "Social Listening",
       "url": "https://martechsignal.com/glossary/social-listening/"
     },
     {
       "@type": "ListItem",
-      "position": 27,
+      "position": 28,
       "name": "UTM Parameters",
       "url": "https://martechsignal.com/glossary/utm-parameters/"
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 29,
       "name": "Website Personalization",
       "url": "https://martechsignal.com/glossary/personalization/"
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 30,
       "name": "Workflow Automation (iPaaS)",
       "url": "https://martechsignal.com/glossary/workflow-automation/"
     }

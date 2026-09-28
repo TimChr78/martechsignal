@@ -48,7 +48,7 @@ AI-driven advertising reduced the DMP&#x27;s role further. DSPs now build and op
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Marketing ops](/glossary/marketing-ops/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [First-party data](/glossary/first-party-data/)
 
 ### Categories
 

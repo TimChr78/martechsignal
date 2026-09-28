@@ -56,7 +56,7 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
 
 ## Related terms
 
-[DMP](/glossary/dmp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Personalization](/glossary/personalization/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
 ### Categories
 
@@ -64,9 +64,9 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
 
 ## See also
 
+- [Customer journey](/glossary/customer-journey/)
 - [CRM](/glossary/crm/)
 - [DMP](/glossary/dmp/)
-- [DSP](/glossary/dsp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

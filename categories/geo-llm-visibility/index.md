@@ -154,6 +154,8 @@ How two decades of SEO work became raw material for the answer engines
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
+**Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
+
 - [Home](/)
 - [Tools](/tools/)
 - GEO &amp; LLM Optimization

@@ -60,7 +60,7 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 
 ## Related terms
 
-[Marketing ops](/glossary/marketing-ops/) · [AI Agent](/glossary/ai-agent/) · [MCP](/glossary/mcp/) · [Agentic Marketing](/glossary/agentic-marketing/)
+[Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Marketing ops](/glossary/marketing-ops/) · [MCP](/glossary/mcp/)
 
 ### Categories
 

@@ -56,7 +56,7 @@ AI moved automation from if-then rules to goal-based prompts. You state the outc
 
 ## Related terms
 
-[Deliverability](/glossary/deliverability/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Email sequence](/glossary/email-sequence/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Deliverability](/glossary/deliverability/) · [Email sequence](/glossary/email-sequence/)
 
 ## Seen in the wild
 
@@ -68,8 +68,8 @@ AI moved automation from if-then rules to goal-based prompts. You state the outc
 
 ## See also
 
-- [MQL / SQL](/glossary/mql-sql/)
 - [ABM](/glossary/abm/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
 - [Marketing ops](/glossary/marketing-ops/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

@@ -86,8 +86,8 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 - [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
+- [GEO](/glossary/geo/)
 - [SEO](/glossary/seo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -140,7 +140,7 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1485,
+  "wordCount": 1484,
   "articleSection": "seo"
 }
 ```

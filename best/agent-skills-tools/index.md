@@ -46,7 +46,7 @@ google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google A
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
 
-Digital Marketing Pro is the heaviest skill pack in this category: 158 skills, 24 specialist agents, 18 commands, and 86 scripts. It starts free, and free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It starts free, and free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
 

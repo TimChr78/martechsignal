@@ -48,7 +48,7 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
 
 ## Related terms
 
-[DSP](/glossary/dsp/) · [Programmatic](/glossary/programmatic-advertising/) · [AI content](/glossary/ai-content-generation/)
+[AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [Programmatic](/glossary/programmatic-advertising/)
 
 ### Categories
 
@@ -56,9 +56,9 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
 
 ## See also
 
-- [CRO](/glossary/cro/)
-- [SEO](/glossary/seo/)
 - [AEO](/glossary/aeo/)
+- [CRO](/glossary/cro/)
+- [GEO](/glossary/geo/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -48,7 +48,7 @@ AI helps ABM in two concrete places. Intent detection reads hundreds of signals 
 
 ## Related terms
 
-[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/)
+[Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Customer journey](/glossary/customer-journey/) · [CRM](/glossary/crm/) · [Lead scoring](/glossary/lead-scoring/)
 
 ### Categories
 
@@ -56,8 +56,8 @@ AI helps ABM in two concrete places. Intent detection reads hundreds of signals 
 
 ## See also
 
+- [Agentic Marketing](/glossary/agentic-marketing/)
 - [Marketing automation](/glossary/marketing-automation/)
-- [MQL / SQL](/glossary/mql-sql/)
 - [Marketing ops](/glossary/marketing-ops/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

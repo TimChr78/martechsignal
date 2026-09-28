@@ -56,7 +56,7 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 ## Related terms
 
-[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Customer journey](/glossary/customer-journey/) · [CRM](/glossary/crm/)
 
 ### Categories
 
@@ -64,8 +64,8 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 ## See also
 
-- [Marketing automation](/glossary/marketing-automation/)
 - [ABM](/glossary/abm/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
 - [Lead scoring](/glossary/lead-scoring/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

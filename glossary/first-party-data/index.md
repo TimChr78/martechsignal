@@ -56,7 +56,7 @@ AI agents depend on first-party data more than any previous marketing stack. A p
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [DMP](/glossary/dmp/) · [CRO](/glossary/cro/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/)
 
 ## Seen in the wild
 
@@ -68,9 +68,9 @@ AI agents depend on first-party data more than any previous marketing stack. A p
 
 ## See also
 
+- [Attribution models](/glossary/marketing-attribution-models/)
 - [CDP](/glossary/cdp/)
 - [DMP](/glossary/dmp/)
-- [Attribution models](/glossary/marketing-attribution-models/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

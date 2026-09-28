@@ -52,7 +52,7 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 ## Related terms
 
-[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/)
 
 ## Seen in the wild
 

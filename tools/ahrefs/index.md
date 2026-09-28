@@ -117,6 +117,13 @@ Brand Radar is the most data-backed AI-visibility tracker available, with indexe
 
 ## Pros and cons
 
+## Related concepts
+
+- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
+Full definitions in the [martech glossary](/glossary/).
+
 ### Building your martech shortlist?
 
 The weekly newsletter: one tool teardown, one workflow, no fluff. Free.

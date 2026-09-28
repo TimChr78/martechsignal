@@ -126,7 +126,7 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [Customer journey](/glossary/customer-journey/)
+- [Attribution models](/glossary/marketing-attribution-models/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

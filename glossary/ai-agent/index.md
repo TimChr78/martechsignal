@@ -56,7 +56,7 @@ This entry is about AI by definition; the practical note is that agent quality c
 
 ## Related terms
 
-[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
 ## Seen in the wild
 

@@ -56,7 +56,7 @@ AI search and agentic media buying broke click-based attribution further. When C
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [DMP](/glossary/dmp/) · [CRO](/glossary/cro/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/)
+[CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
 ### Categories
 

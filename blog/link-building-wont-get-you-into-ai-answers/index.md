@@ -75,8 +75,8 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 - [Best GEO &amp;amp; LLM Optimization tools (2026): 8 compared](/best/geo-llm-visibility-tools/)
 ## Glossary terms
 
+- [GEO](/glossary/geo/)
 - [SEO](/glossary/seo/)
-- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -129,7 +129,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1551,
+  "wordCount": 1550,
   "articleSection": "seo"
 }
 ```

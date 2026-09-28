@@ -44,7 +44,7 @@ DSPs now advertise autonomous bidding agents that manage campaigns without human
 
 ## Related terms
 
-[DCO](/glossary/dco/) · [Programmatic](/glossary/programmatic-advertising/) · [AI content](/glossary/ai-content-generation/)
+[AI content](/glossary/ai-content-generation/) · [DCO](/glossary/dco/) · [Programmatic](/glossary/programmatic-advertising/)
 
 ### Categories
 

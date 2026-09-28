@@ -101,8 +101,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
+- [GEO](/glossary/geo/)
 - [DSP](/glossary/dsp/)
-- [SEO](/glossary/seo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

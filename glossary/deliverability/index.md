@@ -56,7 +56,7 @@ AI-spam changes deliverability because receivers now classify generated content 
 
 ## Related terms
 
-[Marketing automation](/glossary/marketing-automation/) · [MQL / SQL](/glossary/mql-sql/) · [Lead scoring](/glossary/lead-scoring/) · [Email sequence](/glossary/email-sequence/) · [Marketing ops](/glossary/marketing-ops/)
+[Email sequence](/glossary/email-sequence/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
 ### Categories
 

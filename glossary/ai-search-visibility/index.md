@@ -56,7 +56,7 @@ Yes, the metric is about AI, and AI makes it messy: the same prompt can yield di
 
 ## Related terms
 
-[SEO](/glossary/seo/) · [AEO](/glossary/aeo/)
+[AEO](/glossary/aeo/) · [SEO](/glossary/seo/)
 
 ## Seen in the wild
 

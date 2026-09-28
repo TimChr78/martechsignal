@@ -64,7 +64,7 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 
 ## Related terms
 
-[MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/)
+[ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/) · [MQL / SQL](/glossary/mql-sql/)
 
 ### Categories
 
@@ -73,8 +73,8 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 ## See also
 
 - [CDP](/glossary/cdp/)
-- [DMP](/glossary/dmp/)
 - [Customer journey](/glossary/customer-journey/)
+- [DMP](/glossary/dmp/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

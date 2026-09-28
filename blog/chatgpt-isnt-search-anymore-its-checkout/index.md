@@ -96,7 +96,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
-- [SEO](/glossary/seo/)
+- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

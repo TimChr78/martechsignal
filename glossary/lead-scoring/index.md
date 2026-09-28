@@ -56,7 +56,7 @@ Predictive scoring finds patterns humans miss: a lead that reads three specific 
 
 ## Related terms
 
-[CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Customer journey](/glossary/customer-journey/) · [CRM](/glossary/crm/)
 
 ## Seen in the wild
 

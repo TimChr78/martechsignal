@@ -976,6 +976,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         "crm": ["crm", "lead-scoring", "mql-sql", "customer-journey", "first-party-data"],
         "analytics": ["marketing-attribution-models", "first-party-data", "dmp"],
         "email-marketing": ["email-sequence", "deliverability"],
+        "geo-llm-visibility": ["geo", "ai-search-visibility", "seo"],
         "advertising": ["dsp", "dco", "programmatic-advertising", "cro"],
         "personalization": ["personalization", "cro", "first-party-data"],
         "seo": ["seo", "aeo", "ai-search-visibility", "utm-parameters"],
@@ -1600,6 +1601,7 @@ def build_category_page(cat, tools):
         "marketing-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/workflow-automation-tools/">Best workflow automation tools</a> &middot; <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a> &middot; <a href="/alternatives/zapier/">Zapier alternatives</a></p>',
         "content-ai": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/ai-seo-tools/">Best AI SEO tools</a></p>',
         "open-source": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/vs/matomo-vs-plausible/">Matomo vs Plausible</a> &middot; <a href="/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a> &middot; <a href="/alternatives/matomo/">Matomo alternatives</a></p>',
+        "geo-llm-visibility": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a></p>',
     }
     if cat["slug"] == "open-source":
         # Show ALL open-source tools regardless of primary category
@@ -1887,6 +1889,10 @@ def build_sitemap(tools, cats):
         gu = ROOT / "guides" / "index.html"
         if gu.exists():
             urls.append(("https://martechsignal.com/guides/", _lastmod(gu), "0.6"))
+        # r7 C8 (2026-09-28): static cluster hub joins the sitemap.
+        geo_hub = ROOT / "guides" / "generative-engine-optimization" / "index.html"
+        if geo_hub.exists():
+            urls.append(("https://martechsignal.com/guides/generative-engine-optimization/", _lastmod(geo_hub), "0.7"))
 
     # Category pages
     for c in cats:

@@ -122,6 +122,13 @@ Trakkr is the transparent option in this batch: public per-brand pricing, eight 
 
 ## Pros and cons
 
+## Related concepts
+
+- [GEO](/glossary/geo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
+Full definitions in the [martech glossary](/glossary/).
+
 ### Building your martech shortlist?
 
 The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
@@ -145,8 +152,8 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)

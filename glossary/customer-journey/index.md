@@ -52,7 +52,7 @@ AI agents make journey orchestration practical at scale, sending the right messa
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [CRM](/glossary/crm/) · [DMP](/glossary/dmp/) · [MQL / SQL](/glossary/mql-sql/) · [ABM](/glossary/abm/)
+[ABM](/glossary/abm/) · [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [CRM](/glossary/crm/)
 
 ### Categories
 

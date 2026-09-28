@@ -56,7 +56,7 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [DMP](/glossary/dmp/) · [UTM parameters](/glossary/utm-parameters/) · [Customer journey](/glossary/customer-journey/) · [Personalization](/glossary/personalization/)
+[Attribution models](/glossary/marketing-attribution-models/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
 ### Categories
 
@@ -64,9 +64,9 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
 
 ## See also
 
-- [DCO](/glossary/dco/)
-- [SEO](/glossary/seo/)
 - [AEO](/glossary/aeo/)
+- [DCO](/glossary/dco/)
+- [GEO](/glossary/geo/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

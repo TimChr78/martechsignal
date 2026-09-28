@@ -56,7 +56,7 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
 
 ## Related terms
 
-[CDP](/glossary/cdp/) · [CRM](/glossary/crm/) · [Marketing automation](/glossary/marketing-automation/) · [Deliverability](/glossary/deliverability/) · [DMP](/glossary/dmp/)
+[ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/)
 
 ### Categories
 
@@ -64,9 +64,9 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
 
 ## See also
 
-- [Marketing automation](/glossary/marketing-automation/)
-- [MQL / SQL](/glossary/mql-sql/)
 - [ABM](/glossary/abm/)
+- [Agentic Marketing](/glossary/agentic-marketing/)
+- [Marketing automation](/glossary/marketing-automation/)
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
