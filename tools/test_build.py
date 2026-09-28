@@ -955,3 +955,25 @@ def test_featured_in_box_quotes_own_verdicts():
     assert "Also featured in" in zoho, "tier-B page missing featured-in box"
     assert "/best/ai-crm-tools/" in zoho, "known appearance unlinked"
     assert "Best value for small teams" in zoho, "verdict quote missing"
+
+
+def test_indexnow_key_deployed():
+    """L1 (r9, 2026-09-28): the audit checked /indexnow.txt and
+    /.well-known/indexnow-key.txt (both correctly 404 — neither is a claimed
+    location). The real channel: key file at the keyLocation the submitter
+    declares, content == active key, auto-submitted on every deploy."""
+    key = (ROOT / "tools" / ".indexnow-key").read_text().strip()
+    assert key, "no active IndexNow key"
+    src = (ROOT / "tools" / "indexnow_submit.py").read_text()
+    assert "keyLocation" in src, "submitter must declare keyLocation"
+    assert "indexnow_submit.py" in (ROOT / "deploy.sh").read_text(), \
+        "IndexNow submit must run on every deploy"
+    root_key = ROOT / f"indexnow-{key}.txt"
+    wk_key = ROOT / ".well-known" / f"indexnow-{key}.txt"
+    assert root_key.exists(), f"root key file missing: {root_key.name}"
+    assert wk_key.exists(), f"well-known key file missing: {wk_key.name}"
+    assert root_key.read_text().strip() == key, "root key content mismatch"
+    assert wk_key.read_text().strip() == key, "well-known key content mismatch"
+    stage_src = (ROOT / "tools" / "stage_deploy.py").read_text()
+    assert f"indexnow-{key}.txt" in stage_src, "root key file not REQUIRED in stage"
+    assert "well-known/indexnow-" in stage_src, "well-known key not REQUIRED in stage"

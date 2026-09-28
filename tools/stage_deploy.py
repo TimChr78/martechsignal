@@ -47,7 +47,7 @@ REQUIRED = [
     "blog/index.html", "tools/index.html", "glossary/index.html",
     "categories/index.html", "authors/index.html", "trending/index.html",
     "fonts/archivo-var.woff2", "og/agents-identity-debt.png",
-    "ca0ff0788c47a161e772b2e9b073b2a4.txt",
+    "indexnow-da88cd820092dc919206516858cd73d9.txt",
     ".well-known/indexnow-da88cd820092dc919206516858cd73d9.txt",
 ]
 
