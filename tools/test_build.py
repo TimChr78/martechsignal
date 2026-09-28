@@ -683,3 +683,41 @@ def test_entity_graph_resolves_id_refs():
         if '#organization' in h and '"@type":"Organization"' not in c:
             bad.append((str(f.relative_to(ROOT)), 'organization'))
     assert not bad, f'dangling @id refs without entity graph: {bad[:6]}'
+
+
+def _sitemap_entries():
+    import re as _re
+    sm = (ROOT / "sitemap.xml").read_text()
+    return _re.findall(r'<loc>(.*?)</loc>(?:<lastmod>(.*?)</lastmod>)?', sm)
+
+
+def test_sitemap_locs_unique():
+    """H10 (r9, 2026-09-28): /authors/tim-christensen/ shipped twice with two
+    conflicting lastmods. Dedupe on <loc> at build time."""
+    locs = [loc for loc, _ in _sitemap_entries()]
+    assert len(locs) == len(set(locs)), (
+        f'duplicate sitemap locs: {[l for l in set(locs) if locs.count(l) > 1][:4]}')
+
+
+def test_sitemap_lastmod_matches_declared_date():
+    """H10 (r9, 2026-09-28): every sitemap lastmod must equal the page's own
+    declared dateModified (or be absent when the page declares none). Build
+    stamps that contradict page dates teach Google to ignore the field."""
+    import re as _re
+    bad = []
+    for loc, lm in _sitemap_entries():
+        rel = loc.replace("https://martechsignal.com/", "")
+        f = ROOT / (rel + "index.html") if rel else ROOT / "index.html"
+        if not f.is_file():
+            bad.append((loc, "no local file"))
+            continue
+        h = f.read_text(errors="ignore")
+        m = _re.search(r'"dateModified"\s*:\s*"([0-9]{4}-[0-9]{2}-[0-9]{2})', h)
+        declared = m.group(1) if m else None
+        if lm and declared and lm != declared:
+            bad.append((loc, f"sitemap {lm} != page {declared}"))
+        elif lm and not declared:
+            bad.append((loc, f"sitemap {lm} but page declares no date"))
+        elif declared and not lm:
+            bad.append((loc, f"page declares {declared} but sitemap omits lastmod"))
+    assert not bad, f"sitemap/page date mismatches: {bad[:6]}"

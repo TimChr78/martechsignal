@@ -70,6 +70,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
     "@type": "DefinedTerm",
     "name": "Website Personalization",
     "description": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
+    "dateModified": "2026-09-28",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -102,10 +103,6 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -220,6 +220,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
       "name": "Agent Skills Tools",
       "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 16 reviewed.",
       "numberOfItems": 16,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -417,10 +418,6 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

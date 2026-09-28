@@ -203,7 +203,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/umami/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-25",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",

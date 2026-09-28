@@ -204,7 +204,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/evertune/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-25",
+    "dateModified": "2026-09-26",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",

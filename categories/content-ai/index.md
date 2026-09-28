@@ -134,6 +134,7 @@ Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.o
       "name": "AI Content & Copywriting Tools",
       "description": "AI copywriting, message optimization, and publishing platforms, from per-seat generators to governed enterprise suites",
       "numberOfItems": 13,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -295,10 +296,6 @@ Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.o
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

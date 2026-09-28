@@ -203,7 +203,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-27",
     "datePublished": "2026-08-17",
     "offers": {
       "@type": "Offer",

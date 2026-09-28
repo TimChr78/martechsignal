@@ -21,9 +21,9 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 - **GitHub:** ★ 2628
 - **Founded:** 2025
 - **API:** No
-- **Last verified:** 2026-08-28
+- **Last verified:** 2026-09-28
 
-**Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** AI Marketing Suite is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-28. This is a desk review, not a hands-on test. Desk-reviewed
 
 Claude SEO
 
@@ -49,8 +49,6 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Guides](/guides/)
 - [Agent Skills](/categories/agent-skills/)
 - AI Marketing Suite
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
-
 KIND: Guide (not an end-to-end platform)
 
 ## AI Marketing Suite review (2026): pricing, AI features, verdict
@@ -59,7 +57,7 @@ KIND: Guide (not an end-to-end platform)
 
 Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
 [Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
 
@@ -188,7 +186,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/guides/ai-marketing-claude/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-09-28",
     "datePublished": "2026-07-31",
     "offers": {
       "@type": "Offer",

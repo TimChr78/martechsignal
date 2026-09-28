@@ -179,7 +179,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/n8n-marketing-flows/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-31",
+    "dateModified": "2026-09-14",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",

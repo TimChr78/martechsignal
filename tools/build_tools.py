@@ -459,8 +459,9 @@ def _blame_edit_dates():
     is meaningless'). The honest value is when the record's lines last changed.
     One blame pass over tools.json; each record takes the max author date over
     its line span (slug line -> next record's slug line)."""
+    import subprocess
     try:
-        out = subprocess.run(["git", "blame", "--line-porcelain", "HEAD", "--", "tools/tools.json"],
+        out = subprocess.run(["git", "blame", "-w", "-M", "--line-porcelain", "--", "tools/tools.json"],
                              capture_output=True, text=True, cwd=str(ROOT))
         lines = (ROOT / "tools" / "tools.json").read_text().splitlines()
         span_start = {}
@@ -1907,6 +1908,12 @@ def build_category_page(cat, tools):
 
     # M1/MUSE 12 (model-comparison audit): category pages lacked BreadcrumbList, and
     # ItemList ListItems used name+url instead of the richer item->Thing pattern.
+    # H10 (r9, 2026-09-28): the listing carries the newest member-record edit
+    # date, so sitemap lastmod reflects real catalog mutation, not build day.
+    _cat_dm = None
+    _member_dates = [d for d in (_record_edit_date(_t["slug"], None) for _t in cat_tools) if d]
+    if _member_dates:
+        _cat_dm = max(_member_dates)
     schema = {
         "@context": "https://schema.org",
         "@graph": [
@@ -1924,6 +1931,7 @@ def build_category_page(cat, tools):
                 "name": cat_h1(cat['name']),
                 "description": hub.get("meta", cat.get("description", "")) if hub else cat.get("description", ""),
                 "numberOfItems": len(cat_tools),
+                **({"dateModified": _cat_dm} if _cat_dm else {}),
                 # R3-M3 (2026-09-17, wave 3): items typed as the real thing being
                 # listed. Open-source tools are SoftwareApplication, SaaS is Product.
                 "itemListElement": [
@@ -2061,7 +2069,8 @@ def build_sitemap(tools, cats):
         urls.append(("https://martechsignal.com/categories/", _lastmod(cats_hub), "0.6"))
     authors_hub = ROOT / "authors" / "index.html"
     if authors_hub.exists():
-        urls.append(("https://martechsignal.com/authors/tim-christensen/", _lastmod(authors_hub), "0.5"))
+        # H10 (r9): this hub lists the site authors, not the person page again.
+        urls.append(("https://martechsignal.com/authors/", _lastmod(authors_hub), "0.5"))
 
     # Individual tool pages
     for t in tools:
@@ -2138,8 +2147,17 @@ def build_sitemap(tools, cats):
     # Generate XML
     # M11: <priority> dropped - Google ignores it and our values were incoherent.
     # urls tuples keep the third slot for compatibility; it is no longer emitted.
+    # H10 (r9, 2026-09-28): dedupe on <loc> at build time. The authors hub once
+    # re-listed the person URL with a conflicting lastmod; first occurrence wins
+    # and drops are reported so a repeat is visible in the build log.
+    seen_locs = set()
     entries = []
+    dropped = 0
     for loc, lastmod, _priority in urls:
+        if loc in seen_locs:
+            dropped += 1
+            continue
+        seen_locs.add(loc)
         lm = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
         entries.append(f"  <url><loc>{loc}</loc>{lm}</url>")
 
@@ -2150,7 +2168,8 @@ def build_sitemap(tools, cats):
 
     (ROOT / "sitemap.xml").write_text(sitemap)
     _save_lastmod_store()
-    print(f"\nSitemap: {len(urls)} URLs written to sitemap.xml")
+    print(f"\nSitemap: {len(entries)} URLs written to sitemap.xml"
+          + (f" ({dropped} duplicate locs dropped)" if dropped else ""))
 
     # Ensure robots.txt exists
     robots_path = ROOT / "robots.txt"
@@ -2622,13 +2641,87 @@ def sync_md_alternates():
 
 
 
+def _json_block_dates(jpath, depth):
+    """H10 (r9, 2026-09-28): per-page content edit dates from git blame on a
+    content JSON. Page blocks start at slug lines with exactly `depth` leading
+    spaces; -M keeps original dates across reorder commits. Returns
+    {page_slug: YYYY-MM-DD} with each block's max author date."""
+    import subprocess as _sp, re as _re, datetime as _dt
+    try:
+        _p = ROOT / jpath if not str(jpath).startswith(str(ROOT)) else Path(jpath)
+        _out = _sp.run(["git", "blame", "-w", "-M", "--line-porcelain", "--", str(_p)],
+                       cwd=str(ROOT), capture_output=True, text=True, timeout=120).stdout.splitlines()
+        _lines = _p.read_text().splitlines()
+        _pre = " " * depth + '"slug"'
+        _bounds = []
+        for _n, _ln in enumerate(_lines):
+            if _ln.startswith(_pre):
+                _m = _re.search(r'"slug":\s*"([a-z0-9-]+)"', _ln)
+                if _m:
+                    _bounds.append((_n, _m.group(1)))
+        _dates, _cur = {}, None
+        for _ln in _out:
+            if _re.match(r'^[0-9a-f]{40} \d+ \d+', _ln):
+                _cur = int(_ln.split()[2])
+            elif _ln.startswith('author-time '):
+                _d = _dt.datetime.fromtimestamp(int(_ln.split()[1]), _dt.timezone.utc).strftime('%Y-%m-%d')
+                if _cur is not None:
+                    _dates[_cur] = _d
+        _res = {}
+        for _i, (_n, _slug) in enumerate(_bounds):
+            _end = _bounds[_i + 1][0] if _i + 1 < len(_bounds) else len(_lines)
+            _ds = []
+            for _k in range(_n, _end):
+                if _dates.get(_k):
+                    _ds.append(_dates[_k])
+            if _ds:
+                _res[_slug] = max(_ds)
+        return _res
+    except Exception:
+        return {}
+
+
+def _blame_content_date(path):
+    """H10 (r9, 2026-09-28): honest fallback edit date for a built HTML file.
+    `git log -1` on built files always returns the last deploy (deploys commit
+    everything), which stamped whole sections with one date. Blame -M attributes
+    unchanged lines to their real commits; churn lines (cache-bust hashes,
+    date stamps themselves, the single-line entity blob) are excluded so they
+    cannot self-justify today's date."""
+    import subprocess as _sp, datetime as _dt
+    try:
+        _out = _sp.run(["git", "blame", "-w", "-M", "--line-porcelain", "--", str(path)],
+                       cwd=str(ROOT), capture_output=True, text=True, timeout=60).stdout.splitlines()
+    except Exception:
+        return None
+    _best, _cur_date = None, None
+    for _ln in _out:
+        if _ln.startswith('author-time '):
+            try:
+                _cur_date = _dt.datetime.fromtimestamp(int(_ln.split()[1]), _dt.timezone.utc).strftime('%Y-%m-%d')
+            except Exception:
+                _cur_date = None
+        elif _ln.startswith('\t'):
+            _c = _ln[1:]
+            if ('dateModified' in _c or '?v=' in _c
+                    or ('#person' in _c and 'sameAs' in _c)):
+                _cur_date = None
+                continue
+            if _cur_date and (not _best or _cur_date > _best):
+                _best = _cur_date
+            _cur_date = None
+    return _best
+
+
 def sync_date_modified():
     """M9 (2026-09-27): every page publishes a dateModified so the sitemap keeps
     <lastmod>. Date source order: the page's own datePublished, the visible <time>,
-    then the file's real git history (the house rule from build_blog R2 M-7). No
-    invented dates: pages with none of the above keep no dateModified."""
+    then content-blame on the file (the house rule from build_blog R2 M-7). No
+    invented dates: pages with none of the above keep no dateModified.
+    H10 (r9, 2026-09-28): the old git-log fallback returned the last deploy
+    (deploys commit everything), stamping whole sections with one date. Blame
+    attributes unchanged lines to their real commits instead."""
     import re as _re
-    import subprocess as _sp
     _n = 0
     for _p in ROOT.rglob("index.html"):
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
@@ -2639,14 +2732,7 @@ def sync_date_modified():
         # r6 M-4/M-5 (2026-09-27): the REAL last-edit date wins. Declared dates
         # (datePublished / <time>) are fallbacks, not authorities: generator-stamped
         # "today" was leaking into dateModified and sitemap lastmod on 43 URLs.
-        _val = None
-        try:
-            _rel = _p.relative_to(ROOT).as_posix()
-            _out = _sp.run(["git", "log", "-1", "--format=%cs", "--", _rel],
-                           cwd=ROOT, capture_output=True, text=True, timeout=15).stdout.strip()
-            _val = _out or None
-        except Exception:
-            _val = None
+        _val = _blame_content_date(_p)
         if not _val:
             _m = _re.search(r'"datePublished"\s*:\s*"([^"]+)"', _s)
             if _m:

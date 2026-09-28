@@ -199,7 +199,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/line-harness/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-16",
     "datePublished": "2026-08-20",
     "offers": {
       "@type": "Offer",

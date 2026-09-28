@@ -79,6 +79,7 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
     "@type": "DefinedTerm",
     "name": "Search Engine Optimization (SEO)",
     "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
+    "dateModified": "2026-09-07",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -111,10 +112,6 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

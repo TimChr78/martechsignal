@@ -204,6 +204,7 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
       "name": "Marketing Automation Tools",
       "description": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. 12 tools with dated pricing and verification dates.",
       "numberOfItems": 12,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -353,10 +354,6 @@ Vendors in this category: [NocoDB](https://nocodb.com) · [Mautic](https://www.m
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -83,6 +83,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
     "@type": "DefinedTerm",
     "name": "First-Party Data",
     "description": "First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.",
+    "dateModified": "2026-09-05",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -115,10 +116,6 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

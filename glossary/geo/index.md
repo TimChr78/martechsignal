@@ -51,6 +51,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
     "@type": "DefinedTerm",
     "name": "Generative engine optimization (GEO)",
     "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy.",
+    "dateModified": "2026-09-28",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -83,10 +84,6 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

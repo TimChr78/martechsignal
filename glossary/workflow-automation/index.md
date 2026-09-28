@@ -81,6 +81,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
     "@type": "DefinedTerm",
     "name": "Workflow Automation (iPaaS)",
     "description": "Workflow automation connects your software tools so that actions in one system trigger actions in another. A new form submission creates a CRM record, sends a Slack notification, and adds the contact to an email sequence. No human copies data between tabs.",
+    "dateModified": "2026-09-07",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -113,10 +114,6 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](http
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

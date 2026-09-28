@@ -108,6 +108,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
       "name": "Personalization & CDP Tools",
       "description": "Customer data platforms, experimentation, and experience engines, from open-source flags to quote-priced personalization",
       "numberOfItems": 9,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -221,10 +222,6 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

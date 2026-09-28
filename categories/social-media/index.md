@@ -90,6 +90,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
       "name": "Social Media Tools",
       "description": "Social scheduling, listening, and analytics, from per-channel schedulers to enterprise listening suites",
       "numberOfItems": 6,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -167,10 +168,6 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

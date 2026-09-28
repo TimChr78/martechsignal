@@ -164,6 +164,7 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
   "name": "Martech Glossary",
   "description": "Plain-English definitions of marketing technology terms",
   "numberOfItems": 30,
+  "dateModified": "2026-09-28",
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -368,10 +369,6 @@ Plain-English definitions of marketing technology terms. No jargon explaining ja
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

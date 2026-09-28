@@ -91,7 +91,7 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
     "@type": "ItemList",
     "name": "Best HubSpot CRM alternatives (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

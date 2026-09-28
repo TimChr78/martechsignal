@@ -159,7 +159,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/seo-skill-bench/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-03",
+    "dateModified": "2026-09-14",
     "datePublished": "2026-09-03"
   },
   {

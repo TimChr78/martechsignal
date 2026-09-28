@@ -74,6 +74,7 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
     "@type": "DefinedTerm",
     "name": "Model Context Protocol (MCP)",
     "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
+    "dateModified": "2026-09-25",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -106,10 +107,6 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -71,6 +71,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
     "@type": "DefinedTerm",
     "name": "Dynamic Creative Optimization (DCO)",
     "description": "Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.",
+    "dateModified": "2026-09-28",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -103,10 +104,6 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dco/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -192,6 +192,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
       "name": "Analytics & Attribution Tools",
       "description": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. 11 reviewed.",
       "numberOfItems": 11,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -329,10 +330,6 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

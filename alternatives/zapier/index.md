@@ -158,7 +158,7 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
     "@type": "ItemList",
     "name": "Best Zapier alternatives (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

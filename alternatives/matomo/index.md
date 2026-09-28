@@ -91,7 +91,7 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
     "@type": "ItemList",
     "name": "Best Matomo alternatives (2026)",
     "datePublished": "2026-09-26",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

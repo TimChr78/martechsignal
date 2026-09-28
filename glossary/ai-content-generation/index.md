@@ -70,6 +70,7 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
     "@type": "DefinedTerm",
     "name": "AI Content Generation",
     "description": "AI content generation uses large language models to produce marketing copy: blog posts, ad headlines, product descriptions, email subject lines, social captions. The tools take a brief or a prompt and output draft text that a human reviews, edits, and publishes.",
+    "dateModified": "2026-09-28",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",
       "name": "Martech Glossary",
@@ -102,10 +103,6 @@ Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) ·
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-content-generation/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

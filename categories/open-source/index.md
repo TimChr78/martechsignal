@@ -518,6 +518,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
       "name": "Open-Source Tools",
       "description": "78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.",
       "numberOfItems": 78,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -1459,10 +1460,6 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/open-source/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

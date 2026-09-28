@@ -230,6 +230,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
       "name": "Workflow Automation Tools",
       "description": "Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. 17 reviewed.",
       "numberOfItems": 17,
+      "dateModified": "2026-09-28",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -439,10 +440,6 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/#webpage", "dateModified": "2026-09-28"}
 ```
 
 ```json

@@ -174,7 +174,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/diffmode-growth-tactics/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-08-31",
+    "dateModified": "2026-09-26",
     "datePublished": "2026-08-31",
     "offers": {
       "@type": "Offer",

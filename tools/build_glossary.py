@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-from build_tools import page_shell, esc, ROOT, _category_display
+from build_tools import page_shell, esc, ROOT, _category_display, _json_block_dates
 
 TOOLS_DIR = ROOT / "tools"
 GLOSSARY_DIR = ROOT / "glossary"
@@ -61,7 +61,7 @@ def tool_link(slug, tools_map):
 
 # ── Hub page ──────────────────────────────────────────────────────
 
-def build_hub(terms):
+def build_hub(terms, term_dates=None):
     sorted_terms = sorted(terms, key=lambda x: x["term"].lower())
 
     # Alphabetical index
@@ -102,6 +102,8 @@ def build_hub(terms):
         "name": "Martech Glossary",
         "description": "Plain-English definitions of marketing technology terms",
         "numberOfItems": len(terms),
+        **({"dateModified": max(d for d in (term_dates or {}).values() if d)}
+           if term_dates and any((term_dates or {}).values()) else {}),
         "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": t["term"],
              "url": f"https://martechsignal.com/glossary/{t['slug']}/"}
@@ -145,7 +147,7 @@ _TERM_SOURCES = {
 }
 
 
-def build_term_page(term, tools_map, all_terms):
+def build_term_page(term, tools_map, all_terms, term_date=None):
     slug = term["slug"]
 
     # Related tools
@@ -259,6 +261,7 @@ def build_term_page(term, tools_map, all_terms):
         "@type": "DefinedTerm",
         "name": term["term"],
         "description": term["definition"],
+        **({"dateModified": term_date} if term_date else {}),
         "inDefinedTermSet": {
             "@type": "DefinedTermSet",
             "name": "Martech Glossary",
@@ -321,12 +324,16 @@ def main():
     tools_map = {t["slug"]: t for t in tools}
     print(f"Building glossary: {len(terms)} terms\n")
 
+    # H10 (r9, 2026-09-28): per-term edit dates from glossary.json blame so
+    # lastmod reflects real definition edits, not build day.
+    term_dates = _json_block_dates("tools/glossary.json", 4)
+
     print("Hub:")
-    build_hub(terms)
+    build_hub(terms, term_dates)
 
     print(f"\nTerm pages ({len(terms)}):")
     for term in terms:
-        out = build_term_page(term, tools_map, terms)
+        out = build_term_page(term, tools_map, terms, term_dates.get(term["slug"]))
         print(f"  ✓ {out.relative_to(ROOT)}")
 
     print(f"\nDone! {len(terms)} term pages + 1 hub")

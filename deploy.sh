@@ -60,15 +60,17 @@ if [ "$DO_BUILD" -eq 1 ]; then
     python3 tools/build_best_vsx.py
     # H-4: /best/, /vs/, /alternatives/ section hub indexes must exist before
     # build_tools (the sitemap scan reads them). Same ordering rule again.
-    python3 tools/build_hubs.py
-    python3 tools/build_tools.py
-python3 tools/build_md_mirrors.py
+    # H10 (r9): glossary + /categories/ + /authors/ indexes also feed the
+    # sitemap (and now carry source-truth dateModified), so they build here too.
     # Glossary hub + term pages reuse page_shell from build_tools. This was previously
     # NOT run by deploy, so glossary pages drifted and never picked up site-wide changes
     # (found as a stale 10-link footer during R2 M-6). Failure is non-fatal.
     python3 tools/build_glossary.py || echo "⚠ glossary build failed (non-fatal)"
     # /categories/ and /authors/ index pages (R2 L-7: both returned 404).
     python3 tools/build_indexes.py || echo "⚠ index build failed (non-fatal)"
+    python3 tools/build_hubs.py
+    python3 tools/build_tools.py
+python3 tools/build_md_mirrors.py
     # Homepage tool-index: re-ground featured tools in GSC impressions + stars.
     # Refresh the durable cache first (home/hermes/.hermes/data/gsc-pages-28d.json;
     # /opt/data is wiped on Hermes updates). Non-fatal: falls back to stars-only.
