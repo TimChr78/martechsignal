@@ -813,3 +813,25 @@ def test_catalog_feed_envelope():
     assert acq, "expected non-active records in feed"
     assert all(r.get("successor_slug") for r in acq), (
         f"acquired records without successor: {[r.get('slug') for r in acq]}")
+
+
+def test_best_direct_answer_and_table_order():
+    """M23/M24 (r9, 2026-09-28): every /best/ page opens H1 -> 40-60 word
+    direct answer -> comparison table; methodology prose lives under a
+    'How we picked' H2 below the table."""
+    import re as _re
+    bad = []
+    for f in sorted((ROOT / "best").glob("*/index.html")):
+        h = f.read_text(errors="ignore")
+        m = _re.search(r'<p class="direct-answer">(.*?)</p>', h, _re.S)
+        if not m:
+            bad.append((str(f.relative_to(ROOT)), "no direct answer"))
+            continue
+        wc = len(_re.sub(r"<[^>]+>", " ", m.group(1)).split())
+        if not 40 <= wc <= 60:
+            bad.append((str(f.relative_to(ROOT)), f"answer {wc} words"))
+        i_h1, i_ans = h.find("</h1>"), h.find("direct-answer")
+        i_tab, i_how = h.find("<table>"), h.find("How we picked")
+        if not (i_h1 < i_ans < i_tab < i_how):
+            bad.append((str(f.relative_to(ROOT)), "wrong order"))
+    assert not bad, f"best answer/table order: {bad[:6]}"

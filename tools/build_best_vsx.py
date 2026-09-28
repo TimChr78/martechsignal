@@ -57,12 +57,17 @@ def build_best():
         body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/best/">Best-of lists</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
-        for para in page["intro"]:
-            body.append(f"<p>{esc(para)}</p>")
+        # M24 (r9, 2026-09-28): 40-60 word direct answer directly under the H1
+        # (5/6 analysed SERPs show AI Overview; the site is cited in none).
+        if page.get("direct_answer"):
+            body.append(f'<p class="direct-answer">{esc(page["direct_answer"])}</p>')
+        # M23 (r9, 2026-09-28): methodology prose demoted below the table under
+        # a 'How we picked' H2; captured here, emitted after the table.
+        _intros = [f"<p>{esc(para)}</p>" for para in page["intro"]]
 
         # r8 H4 (2026-09-28): the honesty is the differentiator - say exactly what
         # was checked and when, above the first tool entry. Never fabricated testing.
-        body.append('<aside class="verify-box"><h2>What we checked and when</h2>'
+        _verify_box = ('<aside class="verify-box"><h2>What we checked and when</h2>'
             '<p>Pricing checked 2026-09-28 against each vendor\'s own pricing page · '
             'API availability confirmed from public documentation · Integrations read from '
             'vendor listings and source repositories. Not installed and not benchmarked: '
@@ -82,6 +87,9 @@ def build_best():
             '<div class="table-wrap"><table><caption>Best picks at a glance</caption><thead><tr><th>Tool</th><th>Pricing</th>'
             '<th>Open source</th><th>Verdict</th></tr></thead><tbody>'
             + "".join(rows) + "</tbody></table></div>")
+        body.append('<h2>How we picked</h2>')
+        body.extend(_intros)
+        body.append(_verify_box)
 
         for it in items:
             t = tools_by_slug[it["slug"]]
