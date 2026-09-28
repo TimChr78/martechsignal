@@ -1,6 +1,16 @@
 # Make review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (1,000 credits/mo), Core $9/mo, Pro $16/mo, Teams $29/mo each for 10,000 credits with a slider to 8M+, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Visual scenario building with routers, iterators and error handling plus AI agents covers complex branching automation well (tools.json ai_features). |
+| Integrations | 4/10 | The catalog&#x27;s integration list was cleared as unverifiable (Cloudflare-walled directory); the app ecosystem is known to be large but we do not publish a count we cannot check (tools.json, see corrections). |
+| AI capability | 7/10 | AI agents, workflow suggestions, data transformation, content generation and error handling are documented product (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with a public API; scenarios are yours only as exports (tools.json). |
+| Operational maturity | 8/10 | Founded 2012 and now inside Celonis, with the operational weight that implies (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; API access for custom integrations | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -75,7 +85,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Make &#8594;](https://www.make.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Make buys more automation per dollar than Zapier and shows you the wiring while it runs. The credit meter rewards careful builders and punishes careless ones.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -275,6 +289,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Make buys more automation per dollar than Zapier and shows you the wiring while it runs. The credit meter rewards careful builders and punishes careless ones.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/make/#app",
+      "name": "Make",
+      "url": "https://martechsignal.com/tools/make/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

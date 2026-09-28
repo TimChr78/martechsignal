@@ -1,6 +1,16 @@
 # Scrunch review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (tools.json ai_features). |
+| Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (tools.json). |
+| AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (tools.json ai_features). |
+| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (tools.json). |
+| Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: brand monitoring and citation tracking across 4 to 9 LLMs | &#10007; Closed source - no self-hosting option |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Scrunch &#8594;](https://scrunch.com/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Scrunch&#x27;s Agent Pages are the differentiator: it serves your content to AI crawlers in a form they can digest. The monitoring is competent; the serving layer is why you would pick it.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -273,6 +287,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Scrunch's Agent Pages are the differentiator: it serves your content to AI crawlers in a form they can digest. The monitoring is competent; the serving layer is why you would pick it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/scrunch/#app",
+      "name": "Scrunch",
+      "url": "https://martechsignal.com/tools/scrunch/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Profound review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Quote-based with no published prices; the only public number is a free trial of 50 prompts daily for 7 days (tools.json, verified Sep 2026). |
+| Feature depth | 9/10 | Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (tools.json ai_features). |
+| Integrations | 6/10 | Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (tools.json). |
+| AI capability | 8/10 | AI Marketer agents that draft content and manage visibility work are core product, not add-ons (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (tools.json). |
+| Operational maturity | 6/10 | Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: answer-engine visibility tracking across up to 9 engines | &#10007; Closed source - no self-hosting option |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Profound &#8594;](https://www.tryprofound.com/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Profound is the enterprise pick for answer-engine visibility, with the widest engine coverage and demand data nobody else publishes. Pricing is a sales conversation, which is its own signal.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -269,6 +283,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Profound is the enterprise pick for answer-engine visibility, with the widest engine coverage and demand data nobody else publishes. Pricing is a sales conversation, which is its own signal.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/profound/#app",
+      "name": "Profound",
+      "url": "https://martechsignal.com/tools/profound/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

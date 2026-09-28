@@ -1,16 +1,6 @@
 # Dynamic Yield review (2026): pricing, AI features, verdict
 
 
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 0/10 | the pricing block and the Dynamic Yield tool page both state that no prices are published and the pricing URL redirects to a Mastercard product page where every call to action ends at contact sales or a demo request. |
-| Feature depth | 9/10 | The Dynamic Yield tool page documents Experience Web campaigns and split testing, Recommendations with Algorithm Studio, Experience Email and Reconnect with a native email delivery channel, Audience Hub, and Rollout with gradual release and rollback, which is near category-defining breadth for personalization. |
-| Integrations | 6/10 | tools.json lists eleven documented natives including Shopify, Shopify Hydrogen 2, Salesforce Commerce Cloud, commercetools, Magento 2, SAP Hybris, and mParticle plus the Experience API and Kotlin, Swift, and React Native SDKs, which is short of the marketplace anchor. |
-| AI capability | 9/10 | The Dynamic Yield tool page documents Experience OS Agents as a multi-agent system with five defined roles plus Shopping Muse, Predictive Targeting, and the NextML, AffinityML, and VisualML models, though no MCP-level protocol is documented. |
-| Openness | 4/10 | Dynamic Yield is closed source per tools.json, while the Dynamic Yield tool page documents a Parquet-formatted Daily Activity Stream at dy.dev and the Experience API, so data export exists but source availability does not. |
-| Operational maturity | 9/10 | tools.json records a 2011 founding and Mastercard ownership since 2022, and the Dynamic Yield tool page reports MACH Alliance certification and deep technical documentation at dy.dev, though SLA terms are not published in our sources. |
-
-
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: experience OS Agents (multi-agent copilot) | &#10007; Closed source - no self-hosting option |
@@ -97,11 +87,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Dynamic Yield &#8594;](https://www.dynamicyield.com)
 
-## MartechSignal Score: 37/60
-
-Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.
-
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -344,35 +330,6 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal"
-    },
-    "datePublished": "2026-09-26",
-    "reviewBody": "Dynamic Yield offers category-leading personalization breadth with a multi-agent AI layer and deep developer documentation. It publishes no prices at all and keeps its code closed, so evaluation depends entirely on a sales process.",
-    "itemReviewed": {
-      "@type": "SoftwareApplication",
-      "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
-      "name": "Dynamic Yield",
-      "url": "https://martechsignal.com/tools/dynamic-yield/"
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 37,
-      "bestRating": 60,
-      "worstRating": 0
-    }
   }
 ]
 ```

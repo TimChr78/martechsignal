@@ -1,6 +1,16 @@
 # Rankscale review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Three published EUR tiers with credit pools (Pro EUR 99/mo for 1,200 credits up to Enterprise EUR 780/mo for 12,000), 15% annual saving and a 7-day trial (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (tools.json ai_features). |
+| Integrations | 6/10 | GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (tools.json). |
+| AI capability | 7/10 | Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access; no self-hosting or open data portability terms documented (tools.json). |
+| Operational maturity | 5/10 | Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: visibility, citation and sentiment tracking across 17+ engines | &#10007; Closed source - no self-hosting option |
@@ -80,7 +90,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Rankscale &#8594;](https://rankscale.ai/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -292,6 +306,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/rankscale/#app",
+      "name": "Rankscale",
+      "url": "https://martechsignal.com/tools/rankscale/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

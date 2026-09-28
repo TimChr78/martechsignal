@@ -1,16 +1,6 @@
 # Django CRM review (2026): pricing, AI features, verdict
 
 
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 5/10 | the pricing block states free MIT self-hosting with no user caps or feature paywall while Bottle CRM managed hosting prices are not published in our sources, so only the entry price is documented and the hosted tiers stay opaque. |
-| Feature depth | 8/10 | The Django CRM tool page documents leads through invoices plus a helpdesk with SLA timers, approvals, escalations, macros, and a knowledge base, and PostgreSQL row-level security multi-tenancy is a real differentiator. |
-| Integrations | 3/10 | tools.json lists a REST API with an OpenAPI 3 schema plus Google OAuth, Amazon SES, and Sentry as the only named connections, which is the API or few natives anchor. |
-| AI capability | 1/10 | The Django CRM tool page documents that the project shipped an MCP server and then removed it, leaving agents to work as ordinary API clients with no shipped AI feature of its own. |
-| Openness | 10/10 | tools.json records an MIT license with free self-hosting and no feature paywall, which meets the OSI open source plus self-hostable anchor. |
-| Operational maturity | 5/10 | tools.json reports about 2,400 GitHub stars with MicroPyramid as commercial backer and the Django CRM tool page documents full MkDocs and Read the Docs documentation, but no release cadence is published in our sources. |
-
-
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -87,11 +77,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Django CRM &#8594;](https://bottlecrm.io)
 
-## MartechSignal Score: 32/60
-
-Django CRM is a capable multi-tenant CRM with a real helpdesk and invoicing on top of an MIT license, and its database-level tenant isolation is a genuine differentiator. It scores low on AI and integrations because it ships neither, and the project documents that plainly instead of dressing it up.
-
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -300,35 +286,6 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal"
-    },
-    "datePublished": "2026-09-26",
-    "reviewBody": "Django CRM is a capable multi-tenant CRM with a real helpdesk and invoicing on top of an MIT license, and its database-level tenant isolation is a genuine differentiator. It scores low on AI and integrations because it ships neither, and the project documents that plainly instead of dressing it up.",
-    "itemReviewed": {
-      "@type": "SoftwareApplication",
-      "@id": "https://martechsignal.com/tools/django-crm/#app",
-      "name": "Django CRM",
-      "url": "https://martechsignal.com/tools/django-crm/"
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 32,
-      "bestRating": 60,
-      "worstRating": 0
-    }
   }
 ]
 ```

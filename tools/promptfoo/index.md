@@ -1,6 +1,16 @@
 # Promptfoo review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (tools.json, verified Sep 2026). |
+| Feature depth | 7/10 | Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (tools.json ai_features). |
+| Integrations | 6/10 | OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (tools.json). |
+| AI capability | 8/10 | One LLM grading another&#x27;s answers plus automated red team probe generation are meta-AI capabilities with real teeth (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (tools.json, github.com/promptfoo/promptfoo). |
+| Operational maturity | 6/10 | 25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; GEO tracking is assembled from eval primitives; no packaged GEO dashboard ships with it. |
@@ -79,7 +89,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Promptfoo &#8594;](https://promptfoo.dev)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with 25k stars. The cloud tiers price quietly, which does not matter much when the core is free.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -279,6 +293,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with 25k stars. The cloud tiers price quietly, which does not matter much when the core is free.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/promptfoo/#app",
+      "name": "Promptfoo",
+      "url": "https://martechsignal.com/tools/promptfoo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

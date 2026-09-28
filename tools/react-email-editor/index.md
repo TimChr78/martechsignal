@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | The live Unlayer pricing page (fetched Sep 2026) publishes Free at $0 forever, Launch at $250 per month, Scale at $750, and Optimize at $2,000 with a full comparison table of per-tier limits and published credit pack rates such as 50,000 AI credits per $50 per month, leaving only Enterprise custom. |
-| Feature depth | 7/10 | The React Email Editor tool page documents 15 built-in content blocks, custom tools and blocks, merge tags, display conditions, device previews, and HTML plus design JSON export, which covers the embedded editor baseline with real differentiators. |
-| Integrations | 4/10 | tools.json lists React, Angular, Vue, vanilla JavaScript, a Cloud API, OpenAI, and Anthropic as the named connections with no marketplace documented, which sits between the few natives and broad catalog anchors. |
-| AI capability | 8/10 | The React Email Editor tool page documents a shipped AI Assistant with chat-driven edits, AI image generation, and an AI Template Importer plus a beta MCP server with 14 documented tools and agent skills for Claude Code, Codex, and Cursor. |
-| Openness | 5/10 | The React Email Editor tool page states exports return HTML and design JSON and the live Unlayer pricing page documents a Cloud API, but the MIT license covers only a thin wrapper around a hosted closed editor and self-hosting is Enterprise-only. |
-| Operational maturity | 8/10 | The React Email Editor tool page reports wrapper versions 2.0.0 in July 2026 and 2.1.2 in August 2026 with real docs, and the live Unlayer pricing page adds SOC 2 Type II, a 99.9 percent uptime SLA, and Y Combinator backing. |
+| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (tools.json ai_features). |
+| Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (tools.json). |
+| AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (tools.json ai_features). |
+| Openness | 8/10 | MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (tools.json). |
+| Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (tools.json). |
 
 
 | Pros | Cons |
@@ -91,9 +91,9 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit React Email Editor &#8594;](https://unlayer.com/)
 
-## MartechSignal Score: 41/60
+## MartechSignal Score: 39/60
 
-React Email Editor is a mature embedded builder with unusually clear pricing, per-tier limits, and published credit pack rates. The MIT license covers only a thin wrapper around a hosted editor, so teams that need a self-hosted builder should look elsewhere.
+The builder is free and MIT-licensed, which is the right way to sell a component. The hosted AI features land at $250/mo and up, so the real cost is where you draw the line.
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "React Email Editor is a mature embedded builder with unusually clear pricing, per-tier limits, and published credit pack rates. The MIT license covers only a thin wrapper around a hosted editor, so teams that need a self-hosted builder should look elsewhere.",
+    "reviewBody": "The builder is free and MIT-licensed, which is the right way to sell a component. The hosted AI features land at $250/mo and up, so the real cost is where you draw the line.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/react-email-editor/#app",
@@ -347,7 +347,7 @@ One email when a new tool review lands, nothing else.
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 41,
+      "ratingValue": 39,
       "bestRating": 60,
       "worstRating": 0
     }

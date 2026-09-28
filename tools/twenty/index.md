@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | the pricing block publishes Cloud Pro at $9 per user per month billed yearly, Organization at $19, Enterprise from $50,000 a year, and free self-hosting, and the Twenty tool page documents no limits on objects or fields on any plan. |
-| Feature depth | 8/10 | The Twenty tool page documents standard CRM objects plus first-class custom objects with their own API endpoints, views, permissions, and workflow triggers and an apps SDK, which is category baseline plus real differentiators. |
-| Integrations | 6/10 | tools.json lists Gmail, Google and Microsoft calendars, IMAP, SMTP, and CalDAV, signed webhooks, REST and GraphQL APIs, and a five-app marketplace including Slack and People Data Labs, which is an open API with a small native catalog and no iPaaS coverage documented. |
-| AI capability | 7/10 | The Twenty tool page documents an AI chatbot over workspace data, AI agents inside workflows, and AI-built dashboards as shipped features, while its native MCP server is a site claim that the docs do not yet document. |
-| Openness | 10/10 | tools.json records an AGPL-3.0 license with free Docker Compose self-hosting that includes Pro features, which meets the OSI open source plus self-hostable anchor. |
-| Operational maturity | 8/10 | tools.json reports about 56,500 GitHub stars and the Twenty tool page reports several tagged releases a week from a Paris-based company selling enterprise plans, which is beyond steady cadence though published SLA terms are not in our sources. |
+| Pricing transparency | 8/10 | Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (tools.json deep_dive). |
+| Integrations | 6/10 | Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (tools.json). |
+| AI capability | 7/10 | An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (tools.json ai_features; MCP is a site claim). |
+| Openness | 9/10 | AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (tools.json, github.com/twentyhq/twenty). |
+| Operational maturity | 5/10 | Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (tools.json). |
 
 
 | Pros | Cons |
@@ -88,9 +88,9 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Twenty &#8594;](https://twenty.com)
 
-## MartechSignal Score: 48/60
+## MartechSignal Score: 42/60
 
-Twenty pairs genuine open source code with published cloud pricing, so a team can price a rollout before talking to anyone. Its AI story is narrower than the marketing suggests and the native integration list is short, but for a technical team that wants a self-hosted CRM with real APIs it is the strongest all-round pick in this batch.
+Twenty is the strongest open-source bet for teams that want Salesforce-shaped CRM data on their own server and are willing to run a young codebase. The AI workspace features are real, but the project is three years old and the premium-feature split is still settling.
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -328,7 +328,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Twenty pairs genuine open source code with published cloud pricing, so a team can price a rollout before talking to anyone. Its AI story is narrower than the marketing suggests and the native integration list is short, but for a technical team that wants a self-hosted CRM with real APIs it is the strongest all-round pick in this batch.",
+    "reviewBody": "Twenty is the strongest open-source bet for teams that want Salesforce-shaped CRM data on their own server and are willing to run a young codebase. The AI workspace features are real, but the project is three years old and the premium-feature split is still settling.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/twenty/#app",
@@ -337,7 +337,7 @@ One email when a new tool review lands, nothing else.
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 48,
+      "ratingValue": 42,
       "bestRating": 60,
       "worstRating": 0
     }

@@ -1,6 +1,16 @@
 # Workato review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (tools.json ai_features). |
+| Integrations | 8/10 | Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (tools.json). |
+| AI capability | 8/10 | A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS with contractual portability only (tools.json). |
+| Operational maturity | 8/10 | Founded 2013 with enterprise editions and the support machinery regulated buyers require (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: workato AIRO multi-agent system | &#10007; Closed source - no self-hosting option |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Workato &#8594;](https://www.workato.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Workato is the governance-first iPaaS: agent roles, audit machinery and enterprise editions. The pricing model is deliberately a conversation, and so is everything else.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -274,6 +288,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Workato is the governance-first iPaaS: agent roles, audit machinery and enterprise editions. The pricing model is deliberately a conversation, and so is everything else.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/workato/#app",
+      "name": "Workato",
+      "url": "https://martechsignal.com/tools/workato/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Salesforce Marketing Cloud pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Per-org list pricing is published: Growth $1,500/mo and Advanced $3,250/mo billed annually, Starter $25/user/mo, personalization add-ons itemized (tools.json, verified 2026-09-28). |
+| Feature depth | 9/10 | Campaign creation, personalization decisioning, paid media optimization and cross-channel execution on Data 360 plumbing (tools.json ai_features). |
+| Integrations | 8/10 | Salesforce CRM, Data 360, Slack, Tableau, MuleSoft, Snowflake, Shopify, Google and Meta Ads documented in the catalog (tools.json). |
+| AI capability | 8/10 | Agentforce runs campaign creation, personalization decisioning and paid media optimization as agents, not features (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise suite; exit is a migration program (tools.json deep_dive). |
+| Operational maturity | 9/10 | Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: agentforce campaign creation | &#10007; Closed source - no self-hosting option |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Salesforce Marketing Cloud &#8594;](https://www.salesforce.com/products/marketing-cloud/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Marketing Cloud Next is the enterprise decision made twice: once for the Agentforce automation and once for the decade of lock-in behind it. The published per-org pricing is unusually honest for this tier.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -276,6 +290,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Marketing Cloud Next is the enterprise decision made twice: once for the Agentforce automation and once for the decade of lock-in behind it. The published per-org pricing is unusually honest for this tier.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
+      "name": "Salesforce Marketing Cloud",
+      "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

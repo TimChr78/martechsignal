@@ -1,6 +1,16 @@
 # Ortto review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (tools.json deep_dive). |
+| Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (tools.json). |
+| AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access; data leaves via export (tools.json). |
+| Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI subject line recommendations | &#10007; Closed source - no self-hosting option |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Ortto &#8594;](https://ortto.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Ortto bundles CDP and marketing automation at a mid-market price, with AI sprinkled where it saves time. The 12-month commitment on larger plans is the term to negotiate first.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -305,6 +319,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Ortto bundles CDP and marketing automation at a mid-market price, with AI sprinkled where it saves time. The 12-month commitment on larger plans is the term to negotiate first.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/ortto/#app",
+      "name": "Ortto",
+      "url": "https://martechsignal.com/tools/ortto/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

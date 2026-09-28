@@ -1,16 +1,6 @@
 # Twilio SendGrid review (2026): pricing, AI features, verdict
 
 
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | The live Twilio Email API pricing page (fetched Sep 2026) publishes a 60-day free trial at 100 emails per day, Essentials from $19.95 per month for 50,000 to 100,000 emails, and Pro from $89.95 per month with per-tier limits on teammates, event webhooks, and email validation, while Premier is custom. |
-| Feature depth | 6/10 | The SendGrid tool page documents REST and SMTP sending, Handlebars dynamic templates, webhook event tracking, and seven official SDKs with only a builder, lists, segmentation, and basic automation on the marketing side, which is deep on delivery and thin on campaign features. |
-| Integrations | 6/10 | tools.json lists Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment, and Snowflake as named integrations and the SendGrid tool page adds seven language SDKs plus the wider Twilio channel catalog, but no marketplace is documented in our sources. |
-| AI capability | 7/10 | tools.json lists AI deliverability optimization, AI engagement insights, smart send-time optimization, and AI subject line testing as shipped features, which is multiple AI features short of an agent or protocol-level surface. |
-| Openness | 4/10 | SendGrid is closed source per tools.json with documented REST and SMTP APIs and webhook events on its tool page, but no data export path is documented in our sources so it scores between the export and full export plus open API anchors. |
-| Operational maturity | 9/10 | tools.json records a 2009 founding, a $2 billion Twilio acquisition in 2018, and processing of tens of billions of emails per month, while the SendGrid tool page notes ongoing support quality complaints since the acquisition. |
-
-
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI deliverability optimization | &#10007; Paid plans start at $19.95/mo once past the free tier |
@@ -79,11 +69,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Twilio SendGrid &#8594;](https://sendgrid.com)
 
-## MartechSignal Score: 40/60
-
-Twilio SendGrid remains a proven email delivery platform with published entry pricing and clear per-tier limits on volume, teammates, and webhooks. The marketing campaign side is thin next to dedicated email platforms, and the free entry point is a 60-day trial rather than a permanent free tier.
-
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -250,35 +236,6 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal"
-    },
-    "datePublished": "2026-09-26",
-    "reviewBody": "Twilio SendGrid remains a proven email delivery platform with published entry pricing and clear per-tier limits on volume, teammates, and webhooks. The marketing campaign side is thin next to dedicated email platforms, and the free entry point is a 60-day trial rather than a permanent free tier.",
-    "itemReviewed": {
-      "@type": "SoftwareApplication",
-      "@id": "https://martechsignal.com/tools/sendgrid/#app",
-      "name": "Twilio SendGrid",
-      "url": "https://martechsignal.com/tools/sendgrid/"
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 40,
-      "bestRating": 60,
-      "worstRating": 0
-    }
   }
 ]
 ```

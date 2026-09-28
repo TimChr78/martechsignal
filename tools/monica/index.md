@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | the pricing block publishes the single hosted plan at $9 per month or $90 per year with unlimited contacts, managed backups, and data export plus free AGPL self-hosting, so the entire tier table is one fully documented row. |
-| Feature depth | 4/10 | The Monica tool page documents rich relationship records such as notes, activities, reminders, gifts, custom fields, and vaults but no sales pipeline, campaigns, or automation, so it covers only part of the CRM category baseline. |
-| Integrations | 3/10 | tools.json lists zero native integrations and records only that an API exists, which matches the API or few natives anchor. |
-| AI capability | 0/10 | The Monica tool page states the README rules out a smart assistant and built-in AI by design, so no AI feature exists to score. |
-| Openness | 10/10 | tools.json records AGPL-3.0 with free self-hosting of the full application, which meets the OSI open source plus self-hostable anchor. |
-| Operational maturity | 3/10 | The Monica tool page reports the last stable release was v4.1.2 in May 2024 and the main branch last saw a commit in August 2025, so release cadence has stalled even though the organization publishes rebuild updates in 2026. |
+| Pricing transparency | 9/10 | Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (tools.json deep_dive). |
+| Integrations | 3/10 | The catalog lists no named integrations; a public API exists for your own wiring (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | AGPL self-hosting with 25.3k GitHub stars and the full feature set available free on your own server (tools.json, github.com/monicahq/monica). |
+| Operational maturity | 6/10 | 25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (tools.json). |
 
 
 | Pros | Cons |
@@ -91,9 +91,9 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Monica &#8594;](https://monicahq.com)
 
-## MartechSignal Score: 28/60
+## MartechSignal Score: 34/60
 
-Monica is a polished personal relationship manager with honest documentation about what it does not do, including AI and sales pipelines. Adoption risk sits in the stalled release history, since the last stable release shipped in May 2024 while the promised v3 rebuild is still in beta.
+Monica is a personal CRM done honestly: relationships, reminders and notes, priced at one flat plan. It is not a sales pipeline tool, and it does not pretend to be.
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -342,7 +342,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Monica is a polished personal relationship manager with honest documentation about what it does not do, including AI and sales pipelines. Adoption risk sits in the stalled release history, since the last stable release shipped in May 2024 while the promised v3 rebuild is still in beta.",
+    "reviewBody": "Monica is a personal CRM done honestly: relationships, reminders and notes, priced at one flat plan. It is not a sales pipeline tool, and it does not pretend to be.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/monica/#app",
@@ -351,7 +351,7 @@ One email when a new tool review lands, nothing else.
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 28,
+      "ratingValue": 34,
       "bestRating": 60,
       "worstRating": 0
     }

@@ -1,6 +1,16 @@
 # Krayin CRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free to self-host under MIT with no user limits is perfectly clear; Webkul&#x27;s extension prices are mostly unlisted beyond the $1,799 multi-tenant module (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (tools.json ai_features). |
+| Integrations | 3/10 | No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (tools.json). |
+| AI capability | 5/10 | Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (tools.json, github.com/krayin). |
+| Operational maturity | 6/10 | Backed by Webkul&#x27;s extension business with 23.9k stars, giving it more runway than a solo project (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Krayin CRM &#8594;](https://krayincrm.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Krayin is the Laravel CRM for teams that want to own the code and extend it in PHP. MIT licensing is unusually permissive here; the paid multi-tenant SaaS module is the one visible upsell.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -270,6 +284,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Krayin is the Laravel CRM for teams that want to own the code and extend it in PHP. MIT licensing is unusually permissive here; the paid multi-tenant SaaS module is the one visible upsell.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/krayin-crm/#app",
+      "name": "Krayin CRM",
+      "url": "https://martechsignal.com/tools/krayin-crm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

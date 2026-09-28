@@ -1,6 +1,16 @@
 # Tray.io review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | No published prices: three tiers metered in Tasks with workspaces and log retention as the levers (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Merlin Agent Builder, an Agent Gateway for MCP, AI Palette and VectorTables make a current platform rather than a connector host (tools.json ai_features). |
+| Integrations | 8/10 | Salesforce, Slack, HubSpot, Snowflake, Zendesk, BigQuery, Sheets, NetSuite plus OpenAI and Claude connections documented (tools.json). |
+| AI capability | 8/10 | Merlin Agent Builder and the MCP Agent Gateway put agents at the center of the platform, not the edge (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS; portability is contractual (tools.json). |
+| Operational maturity | 7/10 | Founded 2012 with enterprise tiers and mature support posture (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: merlin Agent Builder | &#10007; Closed source - no self-hosting option |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Tray.io &#8594;](https://tray.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Tray.io sits between Pipedream and Workato: a builder&#x27;s iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -302,6 +316,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Tray.io sits between Pipedream and Workato: a builder's iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/tray-io/#app",
+      "name": "Tray.io",
+      "url": "https://martechsignal.com/tools/tray-io/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,16 +1,6 @@
 # Cordys CRM review (2026): pricing, AI features, verdict
 
 
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | the pricing block publishes free community self-hosting with a 1,000 API call per day cap and enterprise tiers at ¥30,000, ¥60,000, and ¥120,000 per year with flagship adding hot-standby high availability, though DataEase embedding costs are separate and unpublished. |
-| Feature depth | 8/10 | The Cordys CRM tool page documents the full lead-to-cash cycle from lead capture and routing through contracts, orders, and payment collection plus embedded BI and agent tooling, which is category baseline with real differentiators. |
-| Integrations | 3/10 | tools.json lists only MaxKB, DataEase, MCP, and Docker as named integrations with the API capped in the free tier, which is the API or few natives anchor. |
-| AI capability | 8/10 | tools.json and the Cordys CRM tool page document an MCP server with 11 tools exposed even in the free community edition, MaxKB sales agents connected over the API, and the enterprise CORDYS AI server-side agent, though much of the AI layer comes from sibling FIT2CLOUD products. |
-| Openness | 7/10 | The Cordys CRM tool page states the license is the FIT2CLOUD Open Source License, a GPLv3 variant that bars swapping the logo or copyright notices, so the code is source-available rather than OSI open source while self-hosting stays free. |
-| Operational maturity | 6/10 | tools.json reports a 2025 founding with 2,704 GitHub stars and the Cordys CRM tool page reports 100,000 downloads within 25 days of the August 2025 public beta and shipped releases through v1.9.0, so the cadence is real but the product and its Chinese-first docs are young. |
-
-
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -96,11 +86,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) �
 
 [Visit Cordys CRM &#8594;](https://cordys.cn)
 
-## MartechSignal Score: 40/60
-
-Cordys CRM delivers lead-to-cash depth plus real agent and MCP support at no per-seat cost, which is rare among self-hosted CRMs. The license restricts rebranding so it is not plain open source, and most of the AI layer is assembled from sibling FIT2CLOUD products rather than built in.
-
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -327,35 +313,6 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal"
-    },
-    "datePublished": "2026-09-26",
-    "reviewBody": "Cordys CRM delivers lead-to-cash depth plus real agent and MCP support at no per-seat cost, which is rare among self-hosted CRMs. The license restricts rebranding so it is not plain open source, and most of the AI layer is assembled from sibling FIT2CLOUD products rather than built in.",
-    "itemReviewed": {
-      "@type": "SoftwareApplication",
-      "@id": "https://martechsignal.com/tools/cordys-crm/#app",
-      "name": "Cordys CRM",
-      "url": "https://martechsignal.com/tools/cordys-crm/"
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 40,
-      "bestRating": 60,
-      "worstRating": 0
-    }
   }
 ]
 ```

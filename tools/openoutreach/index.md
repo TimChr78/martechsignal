@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | the pricing block documents that the tool is free under GPLv3 with every external cost published, including BetterContact at one credit per verified work email and a free account of 40 credits with no card, though there are no paid tiers to compare. |
-| Feature depth | 7/10 | The OpenOutreach tool page documents discovery, qualification with a written reason per lead, agent-written openers, send guards for window, daily cap, and pacing, and CSV export shaped for Instantly and Smartlead, which covers the outreach workflow while depending on BetterContact for lead data. |
-| Integrations | 4/10 | tools.json lists BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP and IMAP mailboxes, Google Workspace, Instantly and Smartlead export, and Claude Code, with api_available marked false so no public API is documented. |
-| AI capability | 9/10 | The OpenOutreach tool page documents an LLM that turns a product description into search keywords, an LLM that qualifies leads with written reasons, and an agent that writes openers, plus a Claude Code plugin and skills for Codex and Cursor, though no MCP server is documented. |
-| Openness | 10/10 | tools.json records a GPL-3.0 license with free self-hosting as a Python CLI, which meets the OSI open source plus self-hostable anchor. |
-| Operational maturity | 3/10 | tools.json records no release history, founding, or company and the OpenOutreach tool page notes funding from affiliate links rather than subscriptions, so maturity stays at the young or single maintainer anchor despite about 2,950 GitHub stars. |
+| Pricing transparency | 7/10 | The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (tools.json ai_features). |
+| Integrations | 5/10 | BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (tools.json). |
+| AI capability | 8/10 | LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (tools.json ai_features). |
+| Openness | 9/10 | GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (tools.json, github.com/...). |
+| Operational maturity | 4/10 | A 3.0k-star self-hosted project with no company behind it; operations are yours (tools.json). |
 
 
 | Pros | Cons |
@@ -89,9 +89,9 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit OpenOutreach &#8594;](https://openoutreach.app)
 
-## MartechSignal Score: 41/60
+## MartechSignal Score: 39/60
 
-OpenOutreach is a genuinely AI-native lead finder under a free license, with every external cost documented down to per-email credit pricing. Its maturity is unproven, with no published release history or company behind it, and it depends on a third-party data provider for lead discovery.
+OpenOutreach is the rare lead tool you can read before you run: GPL, self-hosted, and its qualification reasoning is written down per lead. Budget for your own LLM keys and BetterContact credits.
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -335,7 +335,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "OpenOutreach is a genuinely AI-native lead finder under a free license, with every external cost documented down to per-email credit pricing. Its maturity is unproven, with no published release history or company behind it, and it depends on a third-party data provider for lead discovery.",
+    "reviewBody": "OpenOutreach is the rare lead tool you can read before you run: GPL, self-hosted, and its qualification reasoning is written down per lead. Budget for your own LLM keys and BetterContact credits.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/openoutreach/#app",
@@ -344,7 +344,7 @@ One email when a new tool review lands, nothing else.
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 41,
+      "ratingValue": 39,
       "bestRating": 60,
       "worstRating": 0
     }

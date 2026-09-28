@@ -1,16 +1,6 @@
 # Amplitude review (2026): pricing, AI features, verdict
 
 
-| Pillar | Score | Evidence |
-| --- | --- | --- |
-| Pricing transparency | 8/10 | The live Amplitude pricing page (fetched Sep 2026) publishes the full tier table with per-tier limits and a free plan of 2M events per month forever with no credit card, while Growth and Enterprise stay custom priced. |
-| Feature depth | 9/10 | The live Amplitude pricing page shows every plan includes product analytics, session replay, experimentation, guides and surveys, and activation, and the Amplitude tool page adds Warehouse Native and heatmaps as differentiators, which is well past the analytics category baseline. |
-| Integrations | 9/10 | The live Amplitude integrations page (fetched Sep 2026) lists 159 results across sources, destinations, SDKs, event streaming, and a Marketplace category, and tools.json adds Zapier among named integrations, though iPaaS coverage beyond that is not documented in our sources. |
-| AI capability | 9/10 | The live Amplitude pricing page lists AI Agents and MCP on every plan including Free and the Amplitude tool page names Global Agent, Dashboard Agent, and Session Replay Agent with predictive audiences and anomaly detection, while the proactive Wave agent is not yet generally available. |
-| Openness | 5/10 | Amplitude is closed source per tools.json, but the live integrations page documents event streaming destinations including Amazon S3 and the Amplitude tool page documents Warehouse Native querying plus a public API, so export and an open API exist without source availability. |
-| Operational maturity | 9/10 | tools.json records a 2012 founding, a San Francisco base, and a G2 rating of 4.5 from 3,865 reviews as of September 2026, which is enterprise-grade though published SLA terms are not in our sources. |
-
-
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI root cause analysis | &#10007; Closed source - no self-hosting option |
@@ -95,11 +85,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Amplitude &#8594;](https://amplitude.com)
 
-## MartechSignal Score: 49/60
-
-Amplitude is the most complete product in this batch, with a published tier table, a broad integration catalog, and named AI agents plus an MCP server on every plan. The cost of that depth is pricing that turns quote-only above the Plus plan and a closed codebase where data leaves only through documented exports and streams.
-
-Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
+Not yet scored against the rubric; scored pages show six pillars.
 
 ## Overview
 
@@ -333,35 +319,6 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Review",
-    "author": {
-      "@type": "Person",
-      "name": "Tim Christensen",
-      "url": "https://martechsignal.com/authors/tim-christensen/",
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://martechsignal.com/#organization",
-      "name": "MartechSignal"
-    },
-    "datePublished": "2026-09-26",
-    "reviewBody": "Amplitude is the most complete product in this batch, with a published tier table, a broad integration catalog, and named AI agents plus an MCP server on every plan. The cost of that depth is pricing that turns quote-only above the Plus plan and a closed codebase where data leaves only through documented exports and streams.",
-    "itemReviewed": {
-      "@type": "SoftwareApplication",
-      "@id": "https://martechsignal.com/tools/amplitude/#app",
-      "name": "Amplitude",
-      "url": "https://martechsignal.com/tools/amplitude/"
-    },
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": 49,
-      "bestRating": 60,
-      "worstRating": 0
-    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Ahrefs review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Lite $129/mo, Standard $249/mo, Advanced $449/mo published with add-ons itemized from $99/mo; only Enterprise is quoted (tools.json, verified Sep 2026). |
+| Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar&#x27;s AI share of voice and estimated impressions layered on top (tools.json ai_features). |
+| Integrations | 6/10 | Search Console, Looker Studio, the Ahrefs API and an SEO MCP server cover the working connections (tools.json). |
+| AI capability | 7/10 | Brand Radar tracks mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (tools.json). |
+| Operational maturity | 9/10 | One of the longest-running SEO data vendors with published tiers and a public roadmap (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: brand Radar: mentions, citations, AI share of voice and estimated impressions across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini, Copilot and Claude | &#10007; Closed source - no self-hosting option |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Ahrefs &#8594;](https://ahrefs.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Ahrefs is the established SEO stack that bolted AI visibility on properly: Brand Radar reads like a product, not a checkbox. Pricing is published per tier, which suits buying committees.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -271,6 +285,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Ahrefs is the established SEO stack that bolted AI visibility on properly: Brand Radar reads like a product, not a checkbox. Pricing is published per tier, which suits buying committees.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/ahrefs/#app",
+      "name": "Ahrefs",
+      "url": "https://martechsignal.com/tools/ahrefs/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # OtterlyAI review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (tools.json ai_features). |
+| Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (tools.json). |
+| AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (tools.json). |
+| Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: daily brand mention and citation tracking | &#10007; Closed source - no self-hosting option |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit OtterlyAI &#8594;](https://otterly.ai/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+OtterlyAI is the buy for teams that want daily AI mention tracking without a procurement cycle: three published EUR tiers, clear prompt limits, and MCP access from the middle tier up.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -277,6 +291,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "OtterlyAI is the buy for teams that want daily AI mention tracking without a procurement cycle: three published EUR tiers, clear prompt limits, and MCP access from the middle tier up.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/otterlyai/#app",
+      "name": "OtterlyAI",
+      "url": "https://martechsignal.com/tools/otterlyai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

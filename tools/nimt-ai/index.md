@@ -1,6 +1,16 @@
 # Nimt.ai review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (tools.json ai_features). |
+| Integrations | 6/10 | Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (tools.json). |
+| AI capability | 8/10 | The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS, though MCP and an API-level credit system keep the data portable (tools.json). |
+| Operational maturity | 4/10 | Young product with no founding year in the catalog and a card-required trial gate (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Search Agent that writes content and fixes pages | &#10007; Closed source - no self-hosting option |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Nimt.ai &#8594;](https://nimt.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Nimt.ai prices like a utility and acts like a team: credits you can predict and an agent that writes and fixes. The card-required trial is the only friction in an otherwise clean offer.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -278,6 +292,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Nimt.ai prices like a utility and acts like a team: credits you can predict and an agent that writes and fixes. The card-required trial is the only friction in an otherwise clean offer.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/nimt-ai/#app",
+      "name": "Nimt.ai",
+      "url": "https://martechsignal.com/tools/nimt-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Evertune review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | One published price (Pro $800/mo: 100,000 prompts, 11 models, 25 articles/mo) with the rest described but not itemized (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Prompt sampling at 100x per model, a 150M-prompt consumer panel, action agents and content activation make it measurement plus execution (tools.json ai_features). |
+| Integrations | 3/10 | Five tracked AI surfaces are listed and no third-party app connections; the catalog marks no API (tools.json). |
+| AI capability | 8/10 | EverPanel&#x27;s 150M real user prompts and the Insights and Action Agent are data and automation assets few competitors match (tools.json ai_features). |
+| Openness | 2/10 | Closed SaaS with no API flag and no self-hosting story (tools.json). |
+| Operational maturity | 5/10 | Founded 2024 with enterprise onboarding sessions in the plan; the operational history is short (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: each prompt sampled up to 100x per model | &#10007; Closed source - no self-hosting option |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Evertune &#8594;](https://www.evertune.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Evertune buys depth of measurement: 100k prompts and 100 samples per model per prompt. At $800/mo entry it is for teams whose revenue actually depends on AI answers.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -291,6 +305,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Evertune buys depth of measurement: 100k prompts and 100 samples per model per prompt. At $800/mo entry it is for teams whose revenue actually depends on AI answers.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/evertune/#app",
+      "name": "Evertune",
+      "url": "https://martechsignal.com/tools/evertune/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

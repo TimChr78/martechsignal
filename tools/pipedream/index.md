@@ -1,6 +1,16 @@
 # Pipedream review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (tools.json, verified Sep 2026). |
+| Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make&#x27;s (tools.json deep_dive). |
+| Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (tools.json tagline). |
+| AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (tools.json). |
+| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (tools.json). |
+| Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 |  | &#10007; Closed source - no self-hosting option |
@@ -59,7 +69,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Pipedream &#8594;](https://pipedream.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Pipedream is the developer&#x27;s automation host: code steps first, connectors second. Teams that live in code get more done here than anywhere else; everyone else will fight it.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -211,6 +225,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Pipedream is the developer's automation host: code steps first, connectors second. Teams that live in code get more done here than anywhere else; everyone else will fight it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/pipedream/#app",
+      "name": "Pipedream",
+      "url": "https://martechsignal.com/tools/pipedream/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

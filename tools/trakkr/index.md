@@ -1,6 +1,16 @@
 # Trakkr review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (tools.json ai_features). |
+| Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (tools.json). |
+| AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS; no self-hosting or open export terms in the catalog (tools.json). |
+| Operational maturity | 5/10 | Priced for brands and agencies with per-brand workspaces, but thin public company history (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: citation and AI crawler analytics | &#10007; Closed source - no self-hosting option |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Trakkr &#8594;](https://trakkr.ai/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Trakkr&#x27;s interesting angle is perception: how models describe your brand, not only whether they cite it. Per-brand pricing suits agencies running multiple workspaces.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -276,6 +290,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Trakkr's interesting angle is perception: how models describe your brand, not only whether they cite it. Per-brand pricing suits agencies running multiple workspaces.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/trakkr/#app",
+      "name": "Trakkr",
+      "url": "https://martechsignal.com/tools/trakkr/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

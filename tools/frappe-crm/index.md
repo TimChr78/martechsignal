@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | the pricing block publishes free AGPL self-hosting plus Frappe Cloud hosting from $5 per month per site and dedicated servers from $20 to $60 per month, with unlimited leads, deals, and users documented on all plans. |
-| Feature depth | 8/10 | The Frappe CRM tool page documents kanban lead and deal management, web forms, custom fields and statuses, Python server scripts, and telephony with click-to-call and recording, which is category baseline plus the Frappe framework extensibility as a real differentiator. |
-| Integrations | 4/10 | tools.json lists Twilio, Exotel, WhatsApp through a third-party app, ERPNext, and Meta Lead Ads as the documented natives with api_available marked false and no marketplace, which is a short native list worth just past the few natives anchor. |
-| AI capability | 0/10 | The Frappe CRM tool page states that no AI features appear in the README, marketing site, or release notes, so there is nothing to score. |
-| Openness | 10/10 | tools.json records AGPL-3.0 with free self-hosting on the Frappe framework stack, which meets the OSI open source plus self-hostable anchor. |
-| Operational maturity | 8/10 | The Frappe CRM tool page reports roughly 130 releases across 2025 and 2026 reaching v1.83.0 in September 2026 with 41 pages of documentation, and tools.json records the Frappe company behind ERPNext as the backer. |
+| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (tools.json deep_dive). |
+| Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (tools.json, github.com/frappe/frappe-crm). |
+| Operational maturity | 6/10 | Built by Frappe with ERPNext&#x27;s decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (tools.json deep_dive). |
 
 
 | Pros | Cons |
@@ -90,9 +90,9 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Frappe CRM &#8594;](https://frappe.io/crm)
 
-## MartechSignal Score: 38/60
+## MartechSignal Score: 36/60
 
-Frappe CRM combines a fast release cadence, real documentation, and free self-hosting with cheap hosting from the company behind ERPNext. It carries no AI features at all and its native integration list is short, so it fits teams that value extensibility over built-in automation.
+Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.
 
 Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Frappe CRM combines a fast release cadence, real documentation, and free self-hosting with cheap hosting from the company behind ERPNext. It carries no AI features at all and its native integration list is short, so it fits teams that value extensibility over built-in automation.",
+    "reviewBody": "Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/frappe-crm/#app",
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 38,
+      "ratingValue": 36,
       "bestRating": 60,
       "worstRating": 0
     }

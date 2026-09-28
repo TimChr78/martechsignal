@@ -1,6 +1,16 @@
 # Zapier review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (tools.json ai_features). |
+| Integrations | 9/10 | 9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (tools.json). |
+| AI capability | 7/10 | AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with a strong API; your workflows are portable only as re-builds (tools.json). |
+| Operational maturity | 9/10 | Founded 2011 with the category&#x27;s longest enterprise track record and status transparency (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI workflow builder | &#10007; Paid plans start at $19.99/mo once past the free tier |
@@ -85,7 +95,11 @@ Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
 [Visit Zapier &#8594;](https://zapier.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 44/60
+
+Zapier remains the safest automation buy: the widest app catalog and the least surprising product. You pay per task for that safety, which scales into real money at volume.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -295,6 +309,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Zapier remains the safest automation buy: the widest app catalog and the least surprising product. You pay per task for that safety, which scales into real money at volume.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/zapier/#app",
+      "name": "Zapier",
+      "url": "https://martechsignal.com/tools/zapier/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 44,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

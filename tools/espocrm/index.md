@@ -1,6 +1,16 @@
 # EspoCRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (tools.json deep_dive). |
+| Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (tools.json). |
+| AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (tools.json). |
+| Openness | 9/10 | AGPLv3 self-hosted since 2011 with 3.3k GitHub stars and the full core free (tools.json, github.com/espocrm). |
+| Operational maturity | 7/10 | Shipping since 2011 with paid extension support; a long track record for a project this size (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit EspoCRM &#8594;](https://www.espocrm.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -284,6 +298,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/espocrm/#app",
+      "name": "EspoCRM",
+      "url": "https://martechsignal.com/tools/espocrm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

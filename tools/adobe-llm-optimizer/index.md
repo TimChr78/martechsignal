@@ -1,6 +1,16 @@
 # Adobe LLM Optimizer pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Quote-based within Adobe Experience Cloud with no public numbers as of Sep 2026 (tools.json). |
+| Feature depth | 8/10 | Share-of-voice across ten LLM families, ~300M enriched AI search prompts and CDN-edge content optimization served to crawlers (tools.json ai_features). |
+| Integrations | 7/10 | Native ties to Adobe Analytics, CJA and AEM plus three CDN providers make it deep inside its own stack and narrow outside it (tools.json). |
+| AI capability | 8/10 | CDN-edge optimizations served to AI crawlers and clickstream-enriched prompt data are capabilities no standalone tracker has (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise product tied to an Adobe contract; the catalog documents no API (tools.json). |
+| Operational maturity | 8/10 | Founded 2025 but built by Adobe inside Experience Cloud, inheriting its enterprise support and compliance machinery (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: share-of-voice tracking across ten LLM families | &#10007; Closed source - no self-hosting option |
@@ -75,7 +85,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Adobe LLM Optimizer &#8594;](https://business.adobe.com/products/brand-visibility.html)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Adobe LLM Optimizer is for shops already inside Experience Cloud: CDN-edge fixes and revenue attribution nobody standalone offers. Outside that stack, the quote-only pricing makes it untestable.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -263,6 +277,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Adobe LLM Optimizer is for shops already inside Experience Cloud: CDN-edge fixes and revenue attribution nobody standalone offers. Outside that stack, the quote-only pricing makes it untestable.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#app",
+      "name": "Adobe LLM Optimizer",
+      "url": "https://martechsignal.com/tools/adobe-llm-optimizer/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```
