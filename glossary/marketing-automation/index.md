@@ -114,3 +114,7 @@ AI moved automation from if-then rules to goal-based prompts. You state the outc
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-automation/#webpage", "dateModified": "2026-09-27"}
+```

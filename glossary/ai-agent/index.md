@@ -109,3 +109,7 @@ This entry is about AI by definition; the practical note is that agent quality c
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-agent/#webpage", "dateModified": "2026-09-27"}
+```

@@ -102,3 +102,7 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dco/#webpage", "dateModified": "2026-09-27"}
+```

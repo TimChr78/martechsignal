@@ -110,3 +110,7 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cro/#webpage", "dateModified": "2026-09-27"}
+```

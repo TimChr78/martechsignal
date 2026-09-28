@@ -143,7 +143,7 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 

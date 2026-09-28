@@ -108,3 +108,7 @@ AI search and agentic media buying broke click-based attribution further. When C
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-attribution-models/#webpage", "dateModified": "2026-09-27"}
+```

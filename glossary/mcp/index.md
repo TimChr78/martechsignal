@@ -105,3 +105,7 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/#webpage", "dateModified": "2026-09-27"}
+```

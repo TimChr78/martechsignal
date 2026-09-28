@@ -114,3 +114,7 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/aeo/#webpage", "dateModified": "2026-09-27"}
+```

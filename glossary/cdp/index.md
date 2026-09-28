@@ -110,3 +110,7 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cdp/#webpage", "dateModified": "2026-09-27"}
+```

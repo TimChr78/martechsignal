@@ -112,3 +112,7 @@ Yes, the metric is about AI, and AI makes it messy: the same prompt can yield di
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-search-visibility/#webpage", "dateModified": "2026-09-27"}
+```
