@@ -1,6 +1,16 @@
 # Cordys CRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (tools.json ai_features). |
+| Integrations | 4/10 | MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (tools.json). |
+| AI capability | 7/10 | MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (tools.json ai_features). |
+| Openness | 8/10 | GPLv3-based licence with 2.7k GitHub stars and full self-hosting in the community edition (tools.json). |
+| Operational maturity | 4/10 | Founded 2025 with 2.7k stars; enterprise subscriptions exist but the history is short (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -86,7 +96,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Cordys CRM &#8594;](https://cordys.cn)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Cordys CRM is the agent-native open-source CRM for teams that want conversational analytics and private deployment in one stack. The enterprise edition prices in CNY, which tells you where its center of gravity is.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -313,6 +327,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Cordys CRM is the agent-native open-source CRM for teams that want conversational analytics and private deployment in one stack. The enterprise edition prices in CNY, which tells you where its center of gravity is.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/cordys-crm/#app",
+      "name": "Cordys CRM",
+      "url": "https://martechsignal.com/tools/cordys-crm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

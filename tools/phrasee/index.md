@@ -1,6 +1,16 @@
 # Phrasee review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (tools.json ai_features). |
+| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (tools.json). |
+| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (tools.json). |
+| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: brand-safe AI message generation (Language engine) | &#10007; Closed source - no self-hosting option |
@@ -75,7 +85,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Phrasee &#8594;](https://www.jacquard.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+Phrasee, now Jacquard, has optimized enterprise message language for a decade and it shows in the prediction engine. The rebrand adds procurement questions on top of quote-only pricing.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -291,6 +305,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Phrasee, now Jacquard, has optimized enterprise message language for a decade and it shows in the prediction engine. The rebrand adds procurement questions on top of quote-only pricing.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/phrasee/#app",
+      "name": "Phrasee",
+      "url": "https://martechsignal.com/tools/phrasee/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

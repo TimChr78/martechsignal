@@ -1,6 +1,16 @@
 # Bloomreach review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (tools.json ai_features). |
+| Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (tools.json). |
+| AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise platform; portability is a program (tools.json). |
+| Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: loomi AI search | &#10007; Closed source - no self-hosting option |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Bloomreach &#8594;](https://www.bloomreach.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Bloomreach is the commerce experience platform where search and merchandising do the heavy lifting, with Loomi AI priced in rather than upsold. It wants a real data plumbing commitment before it shines.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -228,6 +242,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Bloomreach is the commerce experience platform where search and merchandising do the heavy lifting, with Loomi AI priced in rather than upsold. It wants a real data plumbing commitment before it shines.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/bloomreach/#app",
+      "name": "Bloomreach",
+      "url": "https://martechsignal.com/tools/bloomreach/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

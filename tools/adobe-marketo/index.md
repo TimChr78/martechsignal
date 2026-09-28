@@ -1,6 +1,16 @@
 # Adobe Marketo Engage pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (tools.json, verified 2026-09-28). |
+| Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (tools.json deep_dive). |
+| Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (tools.json). |
+| AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (tools.json). |
+| Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI lead scoring | &#10007; Closed source - no self-hosting option |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Adobe Marketo Engage &#8594;](https://business.adobe.com/products/marketo.html)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Marketo Engage is still the B2B automation engine of record for enterprises, now with predictive scoring bolted to every stage. Annual contracts and package pricing mean the real number arrives after procurement.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Marketo Engage is still the B2B automation engine of record for enterprises, now with predictive scoring bolted to every stage. Annual contracts and package pricing mean the real number arrives after procurement.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/adobe-marketo/#app",
+      "name": "Adobe Marketo Engage",
+      "url": "https://martechsignal.com/tools/adobe-marketo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

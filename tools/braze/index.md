@@ -1,6 +1,16 @@
 # Braze review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 3/10 | Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (tools.json ai_features). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (tools.json). |
+| AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise SaaS on annual contracts (tools.json). |
+| Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: brazeAI intelligent timing | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Braze &#8594;](https://www.braze.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Braze is the real-time engagement layer for teams whose messages are events, not campaigns. Predictive churn and intelligent timing are mature; the MAU pricing model needs careful modeling before signing.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -232,6 +246,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Braze is the real-time engagement layer for teams whose messages are events, not campaigns. Predictive churn and intelligent timing are mature; the MAU pricing model needs careful modeling before signing.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/braze/#app",
+      "name": "Braze",
+      "url": "https://martechsignal.com/tools/braze/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Notifuse review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (tools.json ai_features). |
+| Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (tools.json). |
+| AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (tools.json). |
+| Operational maturity | 3/10 | Founded 2025 with 2.2k stars; the project is early and operations are thin (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $19/mo once past the free tier |
@@ -66,7 +76,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Notifuse &#8594;](https://www.notifuse.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Notifuse is the honest open-source ESP alternative: all features free self-hosted under AGPL, and cloud pricing that respects BYO-ESP. Young and small, but the pricing and licence story is the cleanest in its category.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -238,6 +252,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Notifuse is the honest open-source ESP alternative: all features free self-hosted under AGPL, and cloud pricing that respects BYO-ESP. Young and small, but the pricing and licence story is the cleanest in its category.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/notifuse/#app",
+      "name": "Notifuse",
+      "url": "https://martechsignal.com/tools/notifuse/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

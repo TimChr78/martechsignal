@@ -1,6 +1,16 @@
 # Django CRM review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (tools.json deep_dive). |
+| Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | MIT-licensed with 2.4k GitHub stars and no paywalled features (tools.json). |
+| Operational maturity | 4/10 | Community-run at 2.4k stars with one managed-hosting vendor behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Django CRM &#8594;](https://bottlecrm.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Django CRM is a CRM for teams that read Python: MIT, multi-tenant, no feature paywall at all. The trade is that everything around it, including AI, is your own build.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -286,6 +300,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Django CRM is a CRM for teams that read Python: MIT, multi-tenant, no feature paywall at all. The trade is that everything around it, including AI, is your own build.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/django-crm/#app",
+      "name": "Django CRM",
+      "url": "https://martechsignal.com/tools/django-crm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

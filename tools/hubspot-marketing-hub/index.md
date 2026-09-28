@@ -1,6 +1,16 @@
 # HubSpot Marketing Hub pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (tools.json deep_dive). |
+| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (tools.json). |
+| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (tools.json). |
+| Operational maturity | 9/10 | Founded 2006 with a public company&#x27;s support and status infrastructure (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content assistant | &#10007; Paid plans start at $20/mo once past the free tier |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit HubSpot Marketing Hub &#8594;](https://www.hubspot.com/products/marketing)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Marketing Hub is the low-friction way into serious automation: free CRM at the bottom, per-tier pricing published all the way to $3,600/mo. The jump to Professional is where the real budget conversation starts.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -239,6 +253,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Marketing Hub is the low-friction way into serious automation: free CRM at the bottom, per-tier pricing published all the way to $3,600/mo. The jump to Professional is where the real budget conversation starts.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
+      "name": "HubSpot Marketing Hub",
+      "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

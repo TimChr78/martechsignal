@@ -1,6 +1,16 @@
 # Jasper review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (tools.json ai_features). |
+| Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (tools.json). |
+| AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI copy generation | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Jasper &#8594;](https://www.jasper.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/jasper/#app",
+      "name": "Jasper",
+      "url": "https://martechsignal.com/tools/jasper/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

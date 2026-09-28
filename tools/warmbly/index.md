@@ -1,6 +1,16 @@
 # Warmbly review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (tools.json deep_dive). |
+| Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (tools.json). |
+| AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 with 316 stars; the operating history is measured in months (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; Paid plans start at $23/mo once past the free tier |
@@ -64,7 +74,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Warmbly &#8594;](https://warmbly.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/warmbly/#app",
+      "name": "Warmbly",
+      "url": "https://martechsignal.com/tools/warmbly/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

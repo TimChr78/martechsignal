@@ -1,6 +1,16 @@
 # Heap review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (tools.json ai_features). |
+| Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (tools.json). |
+| AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with data exports to your warehouse (tools.json). |
+| Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI autocapture | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Heap &#8594;](https://www.heap.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Heap&#x27;s autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -231,6 +245,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Heap's autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/heap/#app",
+      "name": "Heap",
+      "url": "https://martechsignal.com/tools/heap/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

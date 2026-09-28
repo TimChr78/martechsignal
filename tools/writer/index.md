@@ -1,6 +1,16 @@
 # Writer review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Quote-based: writer.com serves no public price table to anonymous visitors (verified Sep 2026, tools.json). |
+| Feature depth | 8/10 | Brand governance, Knowledge Graph grounding and 100+ prebuilt agents in the Agent Library make it a platform (tools.json ai_features). |
+| Integrations | 8/10 | Slack, Google Workspace, Microsoft 365, Salesforce, HubSpot, Contentful, Figma, Snowflake and Databricks documented plus an API (tools.json). |
+| AI capability | 8/10 | Its own Palmyra model family plus Knowledge Graph grounding and agent tooling go past wrapper territory (tools.json ai_features). |
+| Openness | 3/10 | Closed platform, though the Palmyra models and API keep some portability (tools.json). |
+| Operational maturity | 7/10 | Founded 2020 with enterprise governance features and named compliance posture (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content generation | &#10007; Closed source - no self-hosting option |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Writer &#8594;](https://writer.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Writer is the enterprise content platform with its own Palmyra models and brand governance that legal teams can read. With no public prices, it competes on trust and procurement comfort.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -296,6 +310,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Writer is the enterprise content platform with its own Palmyra models and brand governance that legal teams can read. With no public prices, it competes on trust and procurement comfort.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/writer/#app",
+      "name": "Writer",
+      "url": "https://martechsignal.com/tools/writer/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

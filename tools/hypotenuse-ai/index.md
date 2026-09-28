@@ -1,6 +1,16 @@
 # Hypotenuse AI review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (tools.json ai_features). |
+| Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (tools.json). |
+| AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI article generation | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Hypotenuse AI &#8594;](https://www.hypotenuse.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Hypotenuse AI is built for catalog work: bulk product descriptions and articles at ecommerce scale. If your pain is 10,000 product pages, its workflow beats a general writing tool.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -236,6 +250,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Hypotenuse AI is built for catalog work: bulk product descriptions and articles at ecommerce scale. If your pain is 10,000 product pages, its workflow beats a general writing tool.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
+      "name": "Hypotenuse AI",
+      "url": "https://martechsignal.com/tools/hypotenuse-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

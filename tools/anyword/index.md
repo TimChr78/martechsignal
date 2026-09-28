@@ -1,6 +1,16 @@
 # Anyword review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (tools.json ai_features). |
+| Integrations | 5/10 | Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (tools.json). |
+| AI capability | 7/10 | The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2019 with priced tiers and a trial that runs without a call (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: predictive performance score | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Anyword &#8594;](https://www.anyword.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Anyword&#x27;s predictive performance score is the reason to buy it: generated copy arrives with an expected result attached. The scoring model is the moat, so test it against your own sends before trusting it.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -236,6 +250,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Anyword's predictive performance score is the reason to buy it: generated copy arrives with an expected result attached. The scoring model is the moat, so test it against your own sends before trusting it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/anyword/#app",
+      "name": "Anyword",
+      "url": "https://martechsignal.com/tools/anyword/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

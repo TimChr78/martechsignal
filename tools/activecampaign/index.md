@@ -1,6 +1,16 @@
 # ActiveCampaign review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (tools.json deep_dive). |
+| Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (tools.json). |
+| AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (tools.json). |
+| Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content generation | &#10007; Closed source - no self-hosting option |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ActiveCampaign &#8594;](https://www.activecampaign.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+ActiveCampaign is the SMB automation buy that keeps its pricing honest: four published tiers from $15/mo. The AI is practical rather than theatrical, and the 2003 track record shows in the deliverability tooling.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -240,6 +254,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ActiveCampaign is the SMB automation buy that keeps its pricing honest: four published tiers from $15/mo. The AI is practical rather than theatrical, and the 2003 track record shows in the deliverability tooling.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/activecampaign/#app",
+      "name": "ActiveCampaign",
+      "url": "https://martechsignal.com/tools/activecampaign/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

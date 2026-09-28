@@ -1,6 +1,16 @@
 # Strapi review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (tools.json deep_dive). |
+| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (tools.json). |
+| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (tools.json). |
+| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category&#x27;s largest contributor base (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; Paid plans start at $99/mo once past the free tier |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Strapi &#8594;](https://strapi.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 43/60
+
+Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -234,6 +248,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/strapi/#app",
+      "name": "Strapi",
+      "url": "https://martechsignal.com/tools/strapi/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 43,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

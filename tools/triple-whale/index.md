@@ -1,6 +1,16 @@
 # Triple Whale review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (tools.json ai_features). |
+| Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (tools.json). |
+| AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS tied to your ad and store connections (tools.json). |
+| Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI attribution modeling | &#10007; Closed source - no self-hosting option |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Triple Whale &#8594;](https://www.triplewhale.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+Triple Whale is DTC attribution with an opinion: profit tracking and creative analytics over Shopify data. GMV-scaled pricing fits the storefront it was built for and few others.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -238,6 +252,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Triple Whale is DTC attribution with an opinion: profit tracking and creative analytics over Shopify data. GMV-scaled pricing fits the storefront it was built for and few others.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/triple-whale/#app",
+      "name": "Triple Whale",
+      "url": "https://martechsignal.com/tools/triple-whale/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

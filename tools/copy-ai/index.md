@@ -1,6 +1,16 @@
 # Copy.ai review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (tools.json ai_features). |
+| Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (tools.json). |
+| AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Founded 2020 with one of the category&#x27;s largest free user bases (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI copy generation | &#10007; Paid plans start at $49/mo once past the free tier |
@@ -65,7 +75,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Copy.ai &#8594;](https://www.copy.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -233,6 +247,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/copy-ai/#app",
+      "name": "Copy.ai",
+      "url": "https://martechsignal.com/tools/copy-ai/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

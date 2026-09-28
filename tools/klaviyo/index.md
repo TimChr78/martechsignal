@@ -1,6 +1,16 @@
 # Klaviyo review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (tools.json ai_features). |
+| Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (tools.json). |
+| AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (tools.json). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI subject line assistant | &#10007; Paid plans start at $20/mo once past the free tier |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Klaviyo &#8594;](https://www.klaviyo.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Klaviyo is the ecommerce messaging default for good reason: Shopify-grade data in, product recommendations out. Contact-based pricing is predictable until your list grows, then it grows with it.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -237,6 +251,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Klaviyo is the ecommerce messaging default for good reason: Shopify-grade data in, product recommendations out. Contact-based pricing is predictable until your list grows, then it grows with it.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/klaviyo/#app",
+      "name": "Klaviyo",
+      "url": "https://martechsignal.com/tools/klaviyo/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Amplitude review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026, tools.json). |
+| Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (tools.json ai_features). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (tools.json). |
+| AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (tools.json). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI root cause analysis | &#10007; Closed source - no self-hosting option |
@@ -85,7 +95,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Amplitude &#8594;](https://amplitude.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 40/60
+
+Amplitude is the analytics platform that answers product questions before marketing asks them, and the free 2M-event tier is genuinely usable. The AI root cause analysis earns its keep on messy funnels.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -319,6 +333,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Amplitude is the analytics platform that answers product questions before marketing asks them, and the free 2M-event tier is genuinely usable. The AI root cause analysis earns its keep on messy funnels.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/amplitude/#app",
+      "name": "Amplitude",
+      "url": "https://martechsignal.com/tools/amplitude/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 40,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

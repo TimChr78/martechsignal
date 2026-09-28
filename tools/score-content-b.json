@@ -2,281 +2,33 @@
   "rubric_version": "1.0",
   "tools": [
     {
-      "slug": "twenty",
-      "score_total": 42,
-      "verdict": "Twenty is the strongest open-source bet for teams that want Salesforce-shaped CRM data on their own server and are willing to run a young codebase. The AI workspace features are real, but the project is three years old and the premium-feature split is still settling.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 8,
-          "evidence": "Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (tools.json deep_dive)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (tools.json)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (tools.json ai_features; MCP is a site claim)."
-        },
-        "openness": {
-          "score": 9,
-          "evidence": "AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (tools.json, github.com/twentyhq/twenty)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "frappe-crm",
-      "score_total": 36,
-      "verdict": "Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.",
+      "slug": "activecampaign",
+      "score_total": 40,
+      "verdict": "ActiveCampaign is the SMB automation buy that keeps its pricing honest: four published tiers from $15/mo. The AI is practical rather than theatrical, and the 2003 track record shows in the deliverability tooling.",
       "pillars": {
         "pricing_transparency": {
           "score": 9,
-          "evidence": "Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (tools.json, verified 2026-09-28)."
+          "evidence": "Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (tools.json, verified 2026-09-28)."
         },
         "feature_depth": {
-          "score": 6,
-          "evidence": "Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (tools.json deep_dive)."
+          "score": 7,
+          "evidence": "Email, automation, CRM and predictive sending cover the SMB loop end to end (tools.json deep_dive)."
         },
         "integrations": {
-          "score": 4,
-          "evidence": "Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (tools.json)."
+          "score": 7,
+          "evidence": "Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (tools.json)."
         },
         "ai_capability": {
-          "score": 2,
-          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+          "score": 6,
+          "evidence": "Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (tools.json ai_features)."
         },
         "openness": {
-          "score": 9,
-          "evidence": "AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (tools.json, github.com/frappe/frappe-crm)."
+          "score": 3,
+          "evidence": "Closed SaaS with API access; exports are your exit plan (tools.json)."
         },
         "operational_maturity": {
-          "score": 6,
-          "evidence": "Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (tools.json deep_dive)."
-        }
-      }
-    },
-    {
-      "slug": "monica",
-      "score_total": 34,
-      "verdict": "Monica is a personal CRM done honestly: relationships, reminders and notes, priced at one flat plan. It is not a sales pipeline tool, and it does not pretend to be.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 9,
-          "evidence": "Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 5,
-          "evidence": "Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (tools.json deep_dive)."
-        },
-        "integrations": {
-          "score": 3,
-          "evidence": "The catalog lists no named integrations; a public API exists for your own wiring (tools.json)."
-        },
-        "ai_capability": {
-          "score": 2,
-          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
-        },
-        "openness": {
-          "score": 9,
-          "evidence": "AGPL self-hosting with 25.3k GitHub stars and the full feature set available free on your own server (tools.json, github.com/monicahq/monica)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "profound",
-      "score_total": 34,
-      "verdict": "Profound is the enterprise pick for answer-engine visibility, with the widest engine coverage and demand data nobody else publishes. Pricing is a sales conversation, which is its own signal.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 3,
-          "evidence": "Quote-based with no published prices; the only public number is a free trial of 50 prompts daily for 7 days (tools.json, verified Sep 2026)."
-        },
-        "feature_depth": {
-          "score": 9,
-          "evidence": "Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (tools.json)."
-        },
-        "ai_capability": {
           "score": 8,
-          "evidence": "AI Marketer agents that draft content and manage visibility work are core product, not add-ons (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 2,
-          "evidence": "Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "otterlyai",
-      "score_total": 34,
-      "verdict": "OtterlyAI is the buy for teams that want daily AI mention tracking without a procurement cycle: three published EUR tiers, clear prompt limits, and MCP access from the middle tier up.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 8,
-          "evidence": "Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 6,
-          "evidence": "Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (tools.json)."
-        },
-        "ai_capability": {
-          "score": 6,
-          "evidence": "The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Founded 2024 and priced for teams, with the operational history still short (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "rankscale",
-      "score_total": 35,
-      "verdict": "Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 7,
-          "evidence": "Three published EUR tiers with credit pools (Pro EUR 99/mo for 1,200 credits up to Enterprise EUR 780/mo for 12,000), 15% annual saving and a 7-day trial (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (tools.json)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS with API access; no self-hosting or open data portability terms documented (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "trakkr",
-      "score_total": 34,
-      "verdict": "Trakkr's interesting angle is perception: how models describe your brand, not only whether they cite it. Per-brand pricing suits agencies running multiple workspaces.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 8,
-          "evidence": "Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 6,
-          "evidence": "Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (tools.json)."
-        },
-        "ai_capability": {
-          "score": 6,
-          "evidence": "Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS; no self-hosting or open export terms in the catalog (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Priced for brands and agencies with per-brand workspaces, but thin public company history (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "evertune",
-      "score_total": 31,
-      "verdict": "Evertune buys depth of measurement: 100k prompts and 100 samples per model per prompt. At $800/mo entry it is for teams whose revenue actually depends on AI answers.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 6,
-          "evidence": "One published price (Pro $800/mo: 100,000 prompts, 11 models, 25 articles/mo) with the rest described but not itemized (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Prompt sampling at 100x per model, a 150M-prompt consumer panel, action agents and content activation make it measurement plus execution (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 3,
-          "evidence": "Five tracked AI surfaces are listed and no third-party app connections; the catalog marks no API (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "EverPanel's 150M real user prompts and the Insights and Action Agent are data and automation assets few competitors match (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 2,
-          "evidence": "Closed SaaS with no API flag and no self-hosting story (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Founded 2024 with enterprise onboarding sessions in the plan; the operational history is short (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "nimt-ai",
-      "score_total": 35,
-      "verdict": "Nimt.ai prices like a utility and acts like a team: credits you can predict and an agent that writes and fixes. The card-required trial is the only friction in an otherwise clean offer.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 7,
-          "evidence": "EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS, though MCP and an API-level credit system keep the data portable (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 4,
-          "evidence": "Young product with no founding year in the catalog and a card-required trial gate (tools.json)."
+          "evidence": "Founded 2003 with two decades of email operations behind the product (tools.json)."
         }
       }
     },
@@ -312,374 +64,33 @@
       }
     },
     {
-      "slug": "openoutreach",
+      "slug": "adobe-marketo",
       "score_total": 39,
-      "verdict": "OpenOutreach is the rare lead tool you can read before you run: GPL, self-hosted, and its qualification reasoning is written down per lead. Budget for your own LLM keys and BetterContact credits.",
+      "verdict": "Marketo Engage is still the B2B automation engine of record for enterprises, now with predictive scoring bolted to every stage. Annual contracts and package pricing mean the real number arrives after procurement.",
       "pillars": {
         "pricing_transparency": {
-          "score": 7,
-          "evidence": "The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 6,
-          "evidence": "LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 5,
-          "evidence": "BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 9,
-          "evidence": "GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (tools.json, github.com/...)."
-        },
-        "operational_maturity": {
           "score": 4,
-          "evidence": "A 3.0k-star self-hosted project with no company behind it; operations are yours (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "react-email-editor",
-      "score_total": 39,
-      "verdict": "The builder is free and MIT-licensed, which is the right way to sell a component. The hosted AI features land at $250/mo and up, so the real cost is where you draw the line.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 7,
-          "evidence": "Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (tools.json, verified 2026-09-28)."
+          "evidence": "Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (tools.json, verified 2026-09-28)."
         },
         "feature_depth": {
-          "score": 6,
-          "evidence": "Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 5,
-          "evidence": "React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (tools.json)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 8,
-          "evidence": "MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "A commercial component vendor with priced tiers and trials behind the OSS core (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "espocrm",
-      "score_total": 33,
-      "verdict": "EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 5,
-          "evidence": "Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 6,
-          "evidence": "Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (tools.json deep_dive)."
-        },
-        "integrations": {
-          "score": 3,
-          "evidence": "No named integrations in the catalog; a documented API carries the connection story (tools.json)."
-        },
-        "ai_capability": {
-          "score": 3,
-          "evidence": "The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (tools.json)."
-        },
-        "openness": {
           "score": 9,
-          "evidence": "AGPLv3 self-hosted since 2011 with 3.3k GitHub stars and the full core free (tools.json, github.com/espocrm)."
-        },
-        "operational_maturity": {
-          "score": 7,
-          "evidence": "Shipping since 2011 with paid extension support; a long track record for a project this size (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "suitecrm",
-      "score_total": 34,
-      "verdict": "SuiteCRM is the safe long-liver of open-source CRM: sales, marketing and support automation on one AGPL codebase. The AI era has not really arrived on it yet.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 6,
-          "evidence": "Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (tools.json deep_dive)."
-        },
-        "integrations": {
-          "score": 3,
-          "evidence": "No named integrations in the catalog; APIs and community modules carry the extension story (tools.json)."
-        },
-        "ai_capability": {
-          "score": 2,
-          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
-        },
-        "openness": {
-          "score": 9,
-          "evidence": "AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (tools.json, github.com/salesagility/SuiteCRM)."
-        },
-        "operational_maturity": {
-          "score": 7,
-          "evidence": "A SugarCRM fork with years of production deployments and a stable release cadence (tools.json deep_dive)."
-        }
-      }
-    },
-    {
-      "slug": "krayin-crm",
-      "score_total": 35,
-      "verdict": "Krayin is the Laravel CRM for teams that want to own the code and extend it in PHP. MIT licensing is unusually permissive here; the paid multi-tenant SaaS module is the one visible upsell.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 6,
-          "evidence": "Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 6,
-          "evidence": "Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 3,
-          "evidence": "No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (tools.json)."
-        },
-        "ai_capability": {
-          "score": 5,
-          "evidence": "Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 9,
-          "evidence": "MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (tools.json, github.com/krayin)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "zapier",
-      "score_total": 44,
-      "verdict": "Zapier remains the safest automation buy: the widest app catalog and the least surprising product. You pay per task for that safety, which scales into real money at volume.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 8,
-          "evidence": "Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 8,
-          "evidence": "Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 9,
-          "evidence": "9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (tools.json)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS with a strong API; your workflows are portable only as re-builds (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 9,
-          "evidence": "Founded 2011 with the category's longest enterprise track record and status transparency (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "make",
-      "score_total": 38,
-      "verdict": "Make buys more automation per dollar than Zapier and shows you the wiring while it runs. The credit meter rewards careful builders and punishes careless ones.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 8,
-          "evidence": "Free (1,000 credits/mo), Core $9/mo, Pro $16/mo, Teams $29/mo each for 10,000 credits with a slider to 8M+, all published (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 8,
-          "evidence": "Visual scenario building with routers, iterators and error handling plus AI agents covers complex branching automation well (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 4,
-          "evidence": "The catalog's integration list was cleared as unverifiable (Cloudflare-walled directory); the app ecosystem is known to be large but we do not publish a count we cannot check (tools.json, see corrections)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "AI agents, workflow suggestions, data transformation, content generation and error handling are documented product (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 3,
-          "evidence": "Closed SaaS with a public API; scenarios are yours only as exports (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 8,
-          "evidence": "Founded 2012 and now inside Celonis, with the operational weight that implies (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "pipedream",
-      "score_total": 37,
-      "verdict": "Pipedream is the developer's automation host: code steps first, connectors second. Teams that live in code get more done here than anywhere else; everyone else will fight it.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 7,
-          "evidence": "Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (tools.json, verified Sep 2026)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make's (tools.json deep_dive)."
+          "evidence": "Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (tools.json deep_dive)."
         },
         "integrations": {
           "score": 8,
-          "evidence": "2,500+ integrations advertised around a code-first component model (tools.json tagline)."
+          "evidence": "Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (tools.json)."
         },
         "ai_capability": {
-          "score": 5,
-          "evidence": "AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (tools.json)."
-        },
-        "openness": {
-          "score": 4,
-          "evidence": "Closed platform, though code steps are plain Node or Python you can lift out (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "A known developer platform with usage-based plans and years in market (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "workato",
-      "score_total": 36,
-      "verdict": "Workato is the governance-first iPaaS: agent roles, audit machinery and enterprise editions. The pricing model is deliberately a conversation, and so is everything else.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 2,
-          "evidence": "No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 8,
-          "evidence": "AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 8,
-          "evidence": "Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (tools.json ai_features)."
+          "score": 7,
+          "evidence": "AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (tools.json ai_features)."
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS with contractual portability only (tools.json)."
+          "evidence": "Closed enterprise suite inside Adobe contracts (tools.json)."
         },
         "operational_maturity": {
-          "score": 8,
-          "evidence": "Founded 2013 with enterprise editions and the support machinery regulated buyers require (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "tray-io",
-      "score_total": 36,
-      "verdict": "Tray.io sits between Pipedream and Workato: a builder's iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 3,
-          "evidence": "No published prices: three tiers metered in Tasks with workspaces and log retention as the levers (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 8,
-          "evidence": "Merlin Agent Builder, an Agent Gateway for MCP, AI Palette and VectorTables make a current platform rather than a connector host (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 8,
-          "evidence": "Salesforce, Slack, HubSpot, Snowflake, Zendesk, BigQuery, Sheets, NetSuite plus OpenAI and Claude connections documented (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "Merlin Agent Builder and the MCP Agent Gateway put agents at the center of the platform, not the edge (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 2,
-          "evidence": "Closed enterprise SaaS; portability is contractual (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 7,
-          "evidence": "Founded 2012 with enterprise tiers and mature support posture (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "scrunch",
-      "score_total": 35,
-      "verdict": "Scrunch's Agent Pages are the differentiator: it serves your content to AI crawlers in a form they can digest. The monitoring is competent; the serving layer is why you would pick it.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 7,
-          "evidence": "Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (tools.json, verified 2026-09-28)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 5,
-          "evidence": "Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (tools.json)."
-        },
-        "ai_capability": {
-          "score": 7,
-          "evidence": "Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (tools.json ai_features)."
-        },
-        "openness": {
-          "score": 4,
-          "evidence": "Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (tools.json)."
-        },
-        "operational_maturity": {
-          "score": 5,
-          "evidence": "Founded 2023 with enterprise SSO on the roadmap tiers; short history (tools.json)."
-        }
-      }
-    },
-    {
-      "slug": "promptfoo",
-      "score_total": 42,
-      "verdict": "Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with 25k stars. The cloud tiers price quietly, which does not matter much when the core is free.",
-      "pillars": {
-        "pricing_transparency": {
-          "score": 6,
-          "evidence": "The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (tools.json, verified Sep 2026)."
-        },
-        "feature_depth": {
-          "score": 7,
-          "evidence": "Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (tools.json ai_features)."
-        },
-        "integrations": {
-          "score": 6,
-          "evidence": "OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (tools.json)."
-        },
-        "ai_capability": {
-          "score": 8,
-          "evidence": "One LLM grading another's answers plus automated red team probe generation are meta-AI capabilities with real teeth (tools.json ai_features)."
-        },
-        "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (tools.json, github.com/promptfoo/promptfoo)."
-        },
-        "operational_maturity": {
-          "score": 6,
-          "evidence": "25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (tools.json)."
+          "evidence": "Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (tools.json)."
         }
       }
     },
@@ -715,6 +126,750 @@
       }
     },
     {
+      "slug": "amplitude",
+      "score_total": 40,
+      "verdict": "Amplitude is the analytics platform that answers product questions before marketing asks them, and the free 2M-event tier is genuinely usable. The AI root cause analysis earns its keep on messy funnels.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026, tools.json)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with warehouse-native exports softening the lock-in (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2012 and publicly listed with enterprise analytics deployments behind it (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "anyword",
+      "score_total": 35,
+      "verdict": "Anyword's predictive performance score is the reason to buy it: generated copy arrives with an expected result attached. The scoring model is the moat, so test it against your own sends before trusting it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Starter $39/mo annual ($49 monthly), Data-Driven $79/mo annual ($99 monthly) with a 7-day trial, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2019 with priced tiers and a trial that runs without a call (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "bloomreach",
+      "score_total": 37,
+      "verdict": "Bloomreach is the commerce experience platform where search and merchandising do the heavy lifting, with Loomi AI priced in rather than upsold. It wants a real data plumbing commitment before it shines.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 4,
+          "evidence": "Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise platform; portability is a program (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2009 with enterprise modules and the support model that tier implies (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "braze",
+      "score_total": 36,
+      "verdict": "Braze is the real-time engagement layer for teams whose messages are events, not campaigns. Predictive churn and intelligent timing are mature; the MAU pricing model needs careful modeling before signing.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 3,
+          "evidence": "Custom pricing on MAUs and message volume with enterprise contracts typical and no public tier table (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS on annual contracts (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2011 and publicly listed with enterprise SLAs behind every deployment (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "copy-ai",
+      "score_total": 35,
+      "verdict": "Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (2,000 words/mo), Pro $49/mo ($36/mo annual), Enterprise custom, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Workflow automation and sales outreach are the agentic edges of a generation core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2020 with one of the category's largest free user bases (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "cordys-crm",
+      "score_total": 35,
+      "verdict": "Cordys CRM is the agent-native open-source CRM for teams that want conversational analytics and private deployment in one stack. The enterprise edition prices in CNY, which tells you where its center of gravity is.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Community edition free and self-hosted with a 1,000 calls/day API cap; Enterprise is published in CNY (30,000/60,000 per year) (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "GPLv3-based licence with 2.7k GitHub stars and full self-hosting in the community edition (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Founded 2025 with 2.7k stars; enterprise subscriptions exist but the history is short (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "customer-io",
+      "score_total": 41,
+      "verdict": "Customer.io is the data-driven messaging choice with an AI agent that actually executes: LLM actions in journeys and MCP access to ChatGPT and Claude. Pricing is published per tier with itemized overages, which rarer than it should be.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API-first design and unusually open AI integrations (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2012 with priced tiers, published overages and a mature developer reputation (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "django-crm",
+      "score_total": 32,
+      "verdict": "Django CRM is a CRM for teams that read Python: MIT, multi-tenant, no feature paywall at all. The trade is that everything around it, including AI, is your own build.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 2.4k GitHub stars and no paywalled features (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Community-run at 2.4k stars with one managed-hosting vendor behind it (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "espocrm",
+      "score_total": 33,
+      "verdict": "EspoCRM is the lightweight AGPL CRM with a real extension economy. The add-on prices are unpublished, so the free core is the only number you can plan around.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Free self-hosted core under AGPLv3 is fully clear; the Advanced Pack and Intelligence add-ons exist but their prices are not listed (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "No named integrations in the catalog; a documented API carries the connection story (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (tools.json)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPLv3 self-hosted since 2011 with 3.3k GitHub stars and the full core free (tools.json, github.com/espocrm)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Shipping since 2011 with paid extension support; a long track record for a project this size (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "evertune",
+      "score_total": 31,
+      "verdict": "Evertune buys depth of measurement: 100k prompts and 100 samples per model per prompt. At $800/mo entry it is for teams whose revenue actually depends on AI answers.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "One published price (Pro $800/mo: 100,000 prompts, 11 models, 25 articles/mo) with the rest described but not itemized (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Prompt sampling at 100x per model, a 150M-prompt consumer panel, action agents and content activation make it measurement plus execution (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Five tracked AI surfaces are listed and no third-party app connections; the catalog marks no API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "EverPanel's 150M real user prompts and the Insights and Action Agent are data and automation assets few competitors match (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed SaaS with no API flag and no self-hosting story (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2024 with enterprise onboarding sessions in the plan; the operational history is short (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "frappe-crm",
+      "score_total": 36,
+      "verdict": "Frappe CRM is the pragmatic free CRM for teams already in the Frappe or ERPNext world. No AI features and a thin connector list keep it out of AI-heavy stacks.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (tools.json, github.com/frappe/frappe-crm)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (tools.json deep_dive)."
+        }
+      }
+    },
+    {
+      "slug": "heap",
+      "score_total": 35,
+      "verdict": "Heap's autocapture means analysis starts after the questions, not before, which is the whole pitch. The free tier is small; the value shows up when retroactive funnels save a quarter of instrumentation work.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with data exports to your warehouse (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2013 with enterprise analytics deployments behind the autocapture pitch (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "hubspot-marketing-hub",
+      "score_total": 42,
+      "verdict": "Marketing Hub is the low-friction way into serious automation: free CRM at the bottom, per-tier pricing published all the way to $3,600/mo. The jump to Professional is where the real budget conversation starts.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with strong APIs; contact data exports are straightforward (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded 2006 with a public company's support and status infrastructure (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "hypotenuse-ai",
+      "score_total": 32,
+      "verdict": "Hypotenuse AI is built for catalog work: bulk product descriptions and articles at ecommerce scale. If your pain is 10,000 product pages, its workflow beats a general writing tool.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Articles, product descriptions, images and bulk generation cover the catalog content workflow (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Bulk generation with brand voice across text and images is the practical core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2020 with one published tier and an enterprise option (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "jasper",
+      "score_total": 37,
+      "verdict": "Jasper is the brand-voice-first content platform for marketing teams that publish at volume. At $39/mo entry it is accessible; the value depends entirely on how much brand governance you need.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Creator $39/mo annual ($49 monthly), Pro $59/mo annual ($69 monthly), Business custom, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Brand voice training plus campaign workflows make it more than a writing box (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2021 with priced self-serve tiers and a large user base behind it (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "klaviyo",
+      "score_total": 39,
+      "verdict": "Klaviyo is the ecommerce messaging default for good reason: Shopify-grade data in, product recommendations out. Contact-based pricing is predictable until your list grows, then it grows with it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS; your list leaves as CSV or through the API (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2012 and publicly listed with the ecommerce track record brands price in (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "krayin-crm",
+      "score_total": 35,
+      "verdict": "Krayin is the Laravel CRM for teams that want to own the code and extend it in PHP. MIT licensing is unusually permissive here; the paid multi-tenant SaaS module is the one visible upsell.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Free to self-host under MIT with no user limits is perfectly clear; Webkul's extension prices are mostly unlisted beyond the $1,799 multi-tenant module (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Full customer lifecycle management with automation packages (triggers, conditions, actions) covers SME CRM needs; campaign machinery is thin (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "No named integrations in the catalog; Laravel and Webkul extensions carry the connection story (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Magic AI lead creation from uploaded PDFs and images via an OpenRouter module is real but narrow (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (tools.json, github.com/krayin)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "mailchimp",
+      "score_total": 38,
+      "verdict": "Mailchimp remains the easiest way to start sending, with a free plan that behaves like a trial of a bigger platform. Power users outgrow its automation depth and leave; beginners rarely need to.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access and standard exports (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "make",
+      "score_total": 38,
+      "verdict": "Make buys more automation per dollar than Zapier and shows you the wiring while it runs. The credit meter rewards careful builders and punishes careless ones.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (1,000 credits/mo), Core $9/mo, Pro $16/mo, Teams $29/mo each for 10,000 credits with a slider to 8M+, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Visual scenario building with routers, iterators and error handling plus AI agents covers complex branching automation well (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "The catalog's integration list was cleared as unverifiable (Cloudflare-walled directory); the app ecosystem is known to be large but we do not publish a count we cannot check (tools.json, see corrections)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "AI agents, workflow suggestions, data transformation, content generation and error handling are documented product (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with a public API; scenarios are yours only as exports (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2012 and now inside Celonis, with the operational weight that implies (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "mixpanel",
+      "score_total": 39,
+      "verdict": "Mixpanel's pricing curve is the friendliest in analytics: 1M events free with unlimited seats, and the calculator shows the road up. The Magic Playlists over session replays are a sleeper feature.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with warehouse syncs keeping data yours (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2009 with a long self-serve history and transparent pricing machinery (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "monica",
+      "score_total": 34,
+      "verdict": "Monica is a personal CRM done honestly: relationships, reminders and notes, priced at one flat plan. It is not a sales pipeline tool, and it does not pretend to be.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Self-host free under AGPL; hosted is a single $9/mo or $90/yr plan with a 30-day trial and no card required, fully published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "The catalog lists no named integrations; a public API exists for your own wiring (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL self-hosting with 25.3k GitHub stars and the full feature set available free on your own server (tools.json, github.com/monicahq/monica)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "nimt-ai",
+      "score_total": 35,
+      "verdict": "Nimt.ai prices like a utility and acts like a team: credits you can predict and an agent that writes and fixes. The card-required trial is the only friction in an otherwise clean offer.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "EUR 40 free credits to start (card required), then Flex at EUR 79/mo for 10,000 credits with 72 prompts tracked daily, metering documented (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS, though MCP and an API-level credit system keep the data portable (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "Young product with no founding year in the catalog and a card-required trial gate (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "notifuse",
+      "score_total": 38,
+      "verdict": "Notifuse is the honest open-source ESP alternative: all features free self-hosted under AGPL, and cloud pricing that respects BYO-ESP. Young and small, but the pricing and licence story is the cleanest in its category.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2025 with 2.2k stars; the project is early and operations are thin (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "openoutreach",
+      "score_total": 39,
+      "verdict": "OpenOutreach is the rare lead tool you can read before you run: GPL, self-hosted, and its qualification reasoning is written down per lead. Budget for your own LLM keys and BetterContact credits.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (tools.json, github.com/...)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "A 3.0k-star self-hosted project with no company behind it; operations are yours (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "ortto",
       "score_total": 34,
       "verdict": "Ortto bundles CDP and marketing automation at a mid-market price, with AI sprinkled where it saves time. The 12-month commitment on larger plans is the term to negotiate first.",
@@ -746,6 +901,254 @@
       }
     },
     {
+      "slug": "otterlyai",
+      "score_total": 34,
+      "verdict": "OtterlyAI is the buy for teams that want daily AI mention tracking without a procurement cycle: three published EUR tiers, clear prompt limits, and MCP access from the middle tier up.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Three published EUR tiers: Lite EUR 29/mo (15 prompts), Standard EUR 189/mo (100 prompts, API + MCP), Premium EUR 489/mo (400 prompts), all itemized (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2024 and priced for teams, with the operational history still short (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "persado",
+      "score_total": 33,
+      "verdict": "Persado sells message math to regulated industries: scored language per recipient, deployed through the ESP you already run. It is a specialist buy with the contracting that implies.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Per-recipient personalization at send time backed by a long-running language performance dataset (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise product delivered inside your ESP's contract (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2012 with regulated-industry deployments and the audit story that requires (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "phrasee",
+      "score_total": 31,
+      "verdict": "Phrasee, now Jacquard, has optimized enterprise message language for a decade and it shows in the prediction engine. The rebrand adds procurement questions on top of quote-only pricing.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "The Neural engine's performance prediction over generated variants is a decade-old asset few can match (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise product with no API documented in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "pipedream",
+      "score_total": 37,
+      "verdict": "Pipedream is the developer's automation host: code steps first, connectors second. Teams that live in code get more done here than anywhere else; everyone else will fight it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (tools.json, verified Sep 2026)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make's (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "2,500+ integrations advertised around a code-first component model (tools.json tagline)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (tools.json)."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "Closed platform, though code steps are plain Node or Python you can lift out (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "A known developer platform with usage-based plans and years in market (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "profound",
+      "score_total": 34,
+      "verdict": "Profound is the enterprise pick for answer-engine visibility, with the widest engine coverage and demand data nobody else publishes. Pricing is a sales conversation, which is its own signal.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 3,
+          "evidence": "Quote-based with no published prices; the only public number is a free trial of 50 prompts daily for 7 days (tools.json, verified Sep 2026)."
+        },
+        "feature_depth": {
+          "score": 9,
+          "evidence": "Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "AI Marketer agents that draft content and manage visibility work are core product, not add-ons (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "promptfoo",
+      "score_total": 42,
+      "verdict": "Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with 25k stars. The cloud tiers price quietly, which does not matter much when the core is free.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (tools.json, verified Sep 2026)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "One LLM grading another's answers plus automated red team probe generation are meta-AI capabilities with real teeth (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (tools.json, github.com/promptfoo/promptfoo)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "rankscale",
+      "score_total": 35,
+      "verdict": "Rankscale covers 17+ answer engines with retrieval diagnostics, which matters if your audience is not only on ChatGPT. Credit-based pricing is published but needs arithmetic before you buy.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Three published EUR tiers with credit pools (Pro EUR 99/mo for 1,200 credits up to Enterprise EUR 780/mo for 12,000), 15% annual saving and a 7-day trial (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access; no self-hosting or open data portability terms documented (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "react-email-editor",
+      "score_total": 39,
+      "verdict": "The builder is free and MIT-licensed, which is the right way to sell a component. The hosted AI features land at $250/mo and up, so the real cost is where you draw the line.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "A commercial component vendor with priced tiers and trials behind the OSS core (tools.json)."
+        }
+      }
+    },
+    {
       "slug": "salesforce-marketing-cloud",
       "score_total": 42,
       "verdict": "Marketing Cloud Next is the enterprise decision made twice: once for the Agentforce automation and once for the decade of lock-in behind it. The published per-org pricing is unusually honest for this tier.",
@@ -773,6 +1176,378 @@
         "operational_maturity": {
           "score": 9,
           "evidence": "Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "scrunch",
+      "score_total": 35,
+      "verdict": "Scrunch's Agent Pages are the differentiator: it serves your content to AI crawlers in a form they can digest. The monitoring is competent; the serving layer is why you would pick it.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 4,
+          "evidence": "Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2023 with enterprise SSO on the roadmap tiers; short history (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "sendgrid",
+      "score_total": 35,
+      "verdict": "SendGrid is infrastructure: an email API with deliverability machinery that marketing features are bolted onto. If your problem is getting mail delivered at volume, this is still the boring right answer.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Free trial of 100 emails/day for 60 days and Essentials $19.95/mo published; Pro and Premier are custom (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed platform; the API surface keeps it substitutable at the transport layer (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Twilio-owned since 2009-era operations with the volume track record email buyers price in (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "strapi",
+      "score_total": 43,
+      "verdict": "Strapi is the headless CMS with the biggest community in the category and an AI layer that stays optional. Self-hosted free with cloud tiers from free to $499/mo is the right shape for a content platform.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "API-first content management with media handling and workflows covers the headless CMS job fully (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI content generation, workflows, media management and translation are present but optional add-ons (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2015 with a commercial cloud arm and the category's largest contributor base (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "suitecrm",
+      "score_total": 34,
+      "verdict": "SuiteCRM is the safe long-liver of open-source CRM: sales, marketing and support automation on one AGPL codebase. The AI era has not really arrived on it yet.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "No named integrations in the catalog; APIs and community modules carry the extension story (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (tools.json, github.com/salesagility/SuiteCRM)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "A SugarCRM fork with years of production deployments and a stable release cadence (tools.json deep_dive)."
+        }
+      }
+    },
+    {
+      "slug": "trakkr",
+      "score_total": 34,
+      "verdict": "Trakkr's interesting angle is perception: how models describe your brand, not only whether they cite it. Per-brand pricing suits agencies running multiple workspaces.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS; no self-hosting or open export terms in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Priced for brands and agencies with per-brand workspaces, but thin public company history (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "tray-io",
+      "score_total": 36,
+      "verdict": "Tray.io sits between Pipedream and Workato: a builder's iPaaS with an agent gateway that takes MCP seriously. Task-metered pricing is published in shape but not in numbers.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 3,
+          "evidence": "No published prices: three tiers metered in Tasks with workspaces and log retention as the levers (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Merlin Agent Builder, an Agent Gateway for MCP, AI Palette and VectorTables make a current platform rather than a connector host (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Salesforce, Slack, HubSpot, Snowflake, Zendesk, BigQuery, Sheets, NetSuite plus OpenAI and Claude connections documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Merlin Agent Builder and the MCP Agent Gateway put agents at the center of the platform, not the edge (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS; portability is contractual (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2012 with enterprise tiers and mature support posture (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "triple-whale",
+      "score_total": 33,
+      "verdict": "Triple Whale is DTC attribution with an opinion: profit tracking and creative analytics over Shopify data. GMV-scaled pricing fits the storefront it was built for and few others.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Conversion $59/mo, Retention $179/mo, Foundation $219/mo published with GMV scaling (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "AI attribution modeling and creative analytics fit the storefront use case well (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS tied to your ad and store connections (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2021 with priced tiers and a DTC-focused customer base (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "twenty",
+      "score_total": 42,
+      "verdict": "Twenty is the strongest open-source bet for teams that want Salesforce-shaped CRM data on their own server and are willing to run a young codebase. The AI workspace features are real, but the project is three years old and the premium-feature split is still settling.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (tools.json ai_features; MCP is a site claim)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (tools.json, github.com/twentyhq/twenty)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "warmbly",
+      "score_total": 38,
+      "verdict": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 with 316 stars; the operating history is measured in months (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "workato",
+      "score_total": 36,
+      "verdict": "Workato is the governance-first iPaaS: agent roles, audit machinery and enterprise editions. The pricing model is deliberately a conversation, and so is everything else.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "No published prices: a platform edition fee plus a usage fee in one billing unit across four editions (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "AIRO multi-agent system, Agent Studio, role-based Genies and an Acumen data scientist agent sit on mature integration plumbing (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Salesforce, Slack, SAP, Workday, NetSuite, ServiceNow, Snowflake and HubSpot named in the catalog, with hundreds more behind the sales wall (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "A multi-agent system with role-based agents and agent studio is one of the deepest AI governance plays in the category (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed enterprise SaaS with contractual portability only (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2013 with enterprise editions and the support machinery regulated buyers require (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "writer",
+      "score_total": 36,
+      "verdict": "Writer is the enterprise content platform with its own Palmyra models and brand governance that legal teams can read. With no public prices, it competes on trust and procurement comfort.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 2,
+          "evidence": "Quote-based: writer.com serves no public price table to anonymous visitors (verified Sep 2026, tools.json)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Brand governance, Knowledge Graph grounding and 100+ prebuilt agents in the Agent Library make it a platform (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "Slack, Google Workspace, Microsoft 365, Salesforce, HubSpot, Contentful, Figma, Snowflake and Databricks documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Its own Palmyra model family plus Knowledge Graph grounding and agent tooling go past wrapper territory (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed platform, though the Palmyra models and API keep some portability (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2020 with enterprise governance features and named compliance posture (tools.json)."
+        }
+      }
+    },
+    {
+      "slug": "zapier",
+      "score_total": 44,
+      "verdict": "Zapier remains the safest automation buy: the widest app catalog and the least surprising product. You pay per task for that safety, which scales into real money at volume.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free (100 tasks/mo, 2-step Zaps), Professional $19.99/mo and Team $69/mo billed annually, all published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 8,
+          "evidence": "Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 9,
+          "evidence": "9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with a strong API; your workflows are portable only as re-builds (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 9,
+          "evidence": "Founded 2011 with the category's longest enterprise track record and status transparency (tools.json)."
         }
       }
     }

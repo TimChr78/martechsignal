@@ -1,6 +1,16 @@
 # Customer.io review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (tools.json, verified 2026-09-28). |
+| Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (tools.json ai_features). |
+| Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (tools.json). |
+| AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API-first design and unusually open AI integrations (tools.json). |
+| Operational maturity | 7/10 | Founded 2012 with priced tiers, published overages and a mature developer reputation (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI Agent (beta) with execution skills | &#10007; Closed source - no self-hosting option |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Customer.io &#8594;](https://customer.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 41/60
+
+Customer.io is the data-driven messaging choice with an AI agent that actually executes: LLM actions in journeys and MCP access to ChatGPT and Claude. Pricing is published per tier with itemized overages, which rarer than it should be.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -278,6 +292,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Customer.io is the data-driven messaging choice with an AI agent that actually executes: LLM actions in journeys and MCP access to ChatGPT and Claude. Pricing is published per tier with itemized overages, which rarer than it should be.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/customer-io/#app",
+      "name": "Customer.io",
+      "url": "https://martechsignal.com/tools/customer-io/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 41,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

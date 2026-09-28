@@ -1,6 +1,16 @@
 # Mailchimp review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (tools.json deep_dive). |
+| Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (tools.json). |
+| AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access and standard exports (tools.json). |
+| Operational maturity | 9/10 | Founded 2001 with Intuit&#x27;s infrastructure behind it and the category&#x27;s widest name recognition (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content optimizer | &#10007; Paid plans start at $13/mo once past the free tier |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Mailchimp &#8594;](https://mailchimp.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Mailchimp remains the easiest way to start sending, with a free plan that behaves like a trial of a bigger platform. Power users outgrow its automation depth and leave; beginners rarely need to.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -241,6 +255,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Mailchimp remains the easiest way to start sending, with a free plan that behaves like a trial of a bigger platform. Power users outgrow its automation depth and leave; beginners rarely need to.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/mailchimp/#app",
+      "name": "Mailchimp",
+      "url": "https://martechsignal.com/tools/mailchimp/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

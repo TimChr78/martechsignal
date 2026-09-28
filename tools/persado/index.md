@@ -1,6 +1,16 @@
 # Persado review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 2/10 | Enterprise custom pricing with no public numbers; the focus is finserv, retail and travel contracts (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (tools.json ai_features). |
+| Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (tools.json). |
+| AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (tools.json ai_features). |
+| Openness | 2/10 | Closed enterprise product delivered inside your ESP&#x27;s contract (tools.json). |
+| Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content generation (Create) | &#10007; Closed source - no self-hosting option |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Persado &#8594;](https://www.persado.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+Persado sells message math to regulated industries: scored language per recipient, deployed through the ESP you already run. It is a specialist buy with the contracting that implies.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -292,6 +306,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Persado sells message math to regulated industries: scored language per recipient, deployed through the ESP you already run. It is a specialist buy with the contracting that implies.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/persado/#app",
+      "name": "Persado",
+      "url": "https://martechsignal.com/tools/persado/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

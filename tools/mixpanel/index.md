@@ -1,6 +1,16 @@
 # Mixpanel review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free (1M events/mo, unlimited seats, 10K replays) and usage-based Growth with the first 1M free and a public calculator (about $120/mo at 20M) (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (tools.json ai_features). |
+| Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (tools.json). |
+| AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (tools.json). |
+| Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: mixpanel AI agents (Root Cause Analysis, Experiments) | &#10007; Closed source - no self-hosting option |
@@ -82,7 +92,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Mixpanel &#8594;](https://mixpanel.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 39/60
+
+Mixpanel&#x27;s pricing curve is the friendliest in analytics: 1M events free with unlimited seats, and the calculator shows the road up. The Magic Playlists over session replays are a sleeper feature.
+
+Scored 2026-09-26 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -295,6 +309,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Mixpanel's pricing curve is the friendliest in analytics: 1M events free with unlimited seats, and the calculator shows the road up. The Magic Playlists over session replays are a sleeper feature.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/mixpanel/#app",
+      "name": "Mixpanel",
+      "url": "https://martechsignal.com/tools/mixpanel/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 39,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```
