@@ -16,7 +16,7 @@
 
 ## Best GEO &amp; LLM Optimization tools (2026): 8 compared
 
-The geo &amp; llm optimization list below holds 8 tools out of 14 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
+Fourteen GEO and LLM-visibility tools are catalogued; these eight do the clearest job. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 

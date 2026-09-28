@@ -60,3 +60,31 @@ for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
         f.write_bytes(new)
 print(f"nofollow sweep: {nf_fixed} external links marked")
 
+# M29 (2026-09-28): primary-nav parity. Generated pages get CATEGORIES and
+# GLOSSARY from page_shell; the hand-authored pages are normalized here so the
+# primary nav matches everywhere (the audit found them footer-only).
+nav_pat = re.compile(rb'(<nav class="mast-nav"[^>]*>)(.*?)(</nav>)', re.S)
+nav_fixed = 0
+
+def _fix_nav(m):
+    global nav_fixed
+    inner = m.group(2)
+    if b'href="/categories/"' in inner:
+        return m.group(0)
+    anchor = b'<a href="/alternatives/">ALTERNATIVES</a>'
+    if anchor not in inner:
+        return m.group(0)
+    inner = inner.replace(
+        anchor, anchor + b'<a href="/categories/">CATEGORIES</a><a href="/glossary/">GLOSSARY</a>', 1)
+    nav_fixed += 1
+    return m.group(1) + inner + m.group(3)
+
+for f in list(ROOT.rglob("index.html")) + [ROOT / "404.html"]:
+    if "node_modules" in f.parts or not f.exists():
+        continue
+    b = f.read_bytes()
+    new = nav_pat.sub(_fix_nav, b)
+    if new != b:
+        f.write_bytes(new)
+print(f"nav sweep: {nav_fixed} primary navs updated")
+

@@ -16,7 +16,7 @@
 
 ## Best Agent Skills tools (2026): 8 compared
 
-The agent skills list below holds 8 tools out of 18 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
+Eighteen agent-skill packs are catalogued; eight are worth installing first. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
@@ -100,7 +100,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Agent Skills tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

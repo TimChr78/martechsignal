@@ -182,6 +182,8 @@ Stars are a weak signal on their own. A repo can sit near the top of GitHub tren
 
 Percentage growth over the full window (2026-08-25 to 2026-09-28). Every repo on this page has 35 daily snapshots, so no number here comes from a partial window.
 
+The same dataset is downloadable as one row per tool: [trending.csv](/trending.csv) (67 tools, 2026-08-25 to 2026-09-28).
+
 ## Category leaderboards
 
 The same 35 snapshots, grouped by directory category and ordered by percentage growth inside each group. Tool names link to their directory pages.
@@ -204,6 +206,7 @@ The ranking above is the spine of this topic. These pages are the cluster around
 - [Best open-source marketing tools](/best/open-source-marketing-tools/)
 - [Best open-source CRM](/best/open-source-crm/)
 - [The GEO guide](/guides/generative-engine-optimization/), for the visibility question this stack feeds
+- [The guides index](/guides/), which collects all six cluster guides
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -160,6 +160,7 @@ def build_page():
 {movers_rows}</tbody>
 </table></div>
 <p class="fine">Percentage growth over the full window ({esc(d0)} to {esc(d1)}). Every repo on this page has {len(hist)} daily snapshots, so no number here comes from a partial window.</p>
+<p class="fine">The same dataset is downloadable as one row per tool: <a href="/trending.csv">trending.csv</a> ({len(rows)} tools, {esc(d0)} to {esc(d1)}).</p>
 <h2>Category leaderboards</h2>
 <p class="trend-catintro">The same {len(hist)} snapshots, grouped by directory category and ordered by percentage growth inside each group. Tool names link to their directory pages.</p>
 {cat_blocks}
@@ -215,8 +216,20 @@ def build_page():
         '<li><a href="/best/open-source-marketing-tools/">Best open-source marketing tools</a></li>'
         '<li><a href="/best/open-source-crm/">Best open-source CRM</a></li>'
         '<li><a href="/guides/generative-engine-optimization/">The GEO guide</a>, for the visibility question this stack feeds</li>'
+        '<li><a href="/guides/">The guides index</a>, which collects all six cluster guides</li>'
         '</ul></section>')
 
+    # M28 (2026-09-28): ship the dataset as downloadable CSV next to the page.
+    import csv as _csv
+    with open(ROOT / "trending.csv", "w", newline="", encoding="utf-8") as _fh:
+        _w = _csv.writer(_fh)
+        _w.writerow(["slug", "name", "category", "category_name", "stars_now",
+                     "stars_at_start", "delta", "growth_pct", "snapshots",
+                     "window_start", "window_end"])
+        for _r in sorted(rows, key=lambda x: -x["delta"]):
+            _w.writerow([_r["slug"], _r["name"], _r["category"], _r["cat_name"],
+                         _r["stars"], _r["start_stars"], _r["delta"],
+                         f'{_r["pct"]:.1f}', _r["days"], d0, d1])
     out = ROOT / "trending" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(

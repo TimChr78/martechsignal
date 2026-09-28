@@ -8,6 +8,9 @@ tags: [SEO, Agent Skills]
 categories: [seo]
 ---
 
+> **Editor's note (2026-09-28):** this piece replaces an earlier comparison post that was published without approval and pulled the same day. The [corrections log](/corrections/#2026-09-13) carries the full entry.
+
+
 One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracking, backlinks, competitive intelligence, and reporting, all in one subscription. Comparing [Claude SEO](/tools/claude-seo/) and [Semrush](/tools/semrush/) as if they were the same product class is the mistake almost everyone makes before they look at the actual jobs. The useful question is which jobs each one finishes, and which of those jobs you are paying for.
 
 The cost gap makes the comparison feel lopsided: a free MIT skill against a platform that starts at $117 per month billed annually. But the free tool is not a smaller version of the paid one. It does a different thing, and knowing where the line falls saves you either a wasted subscription or a technical audit your platform will not run.

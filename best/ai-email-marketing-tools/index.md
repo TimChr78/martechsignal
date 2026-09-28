@@ -16,7 +16,7 @@
 
 ## Best AI Email Marketing tools (2026): 8 compared
 
-The email marketing list below holds 8 tools out of 15 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
+Fifteen email marketing tools are catalogued; these eight make the shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
 
