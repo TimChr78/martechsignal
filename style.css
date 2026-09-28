@@ -654,8 +654,10 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
    mini-TOC in a sticky right rail so the measure gutter is no longer dead
    space; the 40rem reading measure itself is preserved (L15). */
 @media (min-width:1200px){
-  .page-post article:has(.mini-toc){display:grid;grid-template-columns:40rem 1fr;column-gap:2.6rem}
-  .page-post article>.mini-toc{grid-column:2;grid-row:1/max-content;position:sticky;top:5rem;height:max-content;margin:0}
+  .page-post .wrap:has(.mini-toc){max-width:70rem}
+  .page-post article:has(.mini-toc){display:grid;grid-template-columns:minmax(0,40rem) 1fr;column-gap:2.6rem}
+  .page-post article:has(.mini-toc)>*:not(.mini-toc){grid-column:1}
+  .page-post article:has(.mini-toc)>.mini-toc{grid-column:2;grid-row:1/span 40;position:sticky;top:5rem;height:max-content;margin:0}
 }
 .tool-filter{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:1rem 0;padding:.7rem .9rem;border:1px solid var(--rule);border-radius:10px}
 .tool-filter label{display:flex;align-items:center;gap:.4rem;font:600 .8rem var(--mono)}
