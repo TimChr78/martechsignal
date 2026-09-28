@@ -78,6 +78,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
+[Visit Dolibarr ERP/CRM &#8594;](https://www.dolibarr.org)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Dolibarr ERP/CRM &#8594;](https://www.dolibarr.org)

@@ -59,6 +59,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
 
+[Visit Digital Marketing Pro &#8594;](https://github.com/indranilbanerjee/digital-marketing-pro)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Digital Marketing Pro &#8594;](https://github.com/indranilbanerjee/digital-marketing-pro)

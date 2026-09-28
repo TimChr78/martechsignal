@@ -79,6 +79,8 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
+[Visit Zapier &#8594;](https://zapier.com)
+
 [How we review](/methodology/) Â· No affiliate links
 
 [Visit Zapier &#8594;](https://zapier.com)

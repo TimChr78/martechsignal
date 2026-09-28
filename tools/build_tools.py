@@ -1364,6 +1364,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
   <p class="count">{esc(c.get('name',''))} · {esc(pricing_label(t))}{' · OPEN SOURCE' if t.get('open_source') else ''} <span class="tag desk">Desk-reviewed</span></p>
   <p class="byline" style="font-size:.8rem;color:var(--muted);margin-top:.5rem">MartechSignal editorial review by <a href="/authors/tim-christensen/" style="color:inherit">Tim Christensen</a> · updated <time datetime="{esc(t.get('date_updated',''))}">{esc(t.get('date_updated',''))}</time></p>
   {('<p class="alt-link" style="font-size:.85rem;margin-top:.35rem">Looking for options? <a href="/alternatives/' + t["slug"] + '/">Best ' + esc(t["name"]) + ' alternatives</a></p>') if t["slug"] in _ALT_SLUGS else ''}
+  <p class="cta-early" style="margin-top:.9rem"><a class="btn" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} &#8594;</a></p>
 </section>
 {disclosure_html}
 {verdict_html}

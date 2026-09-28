@@ -67,6 +67,8 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Mailchimp &#8594;](https://mailchimp.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Mailchimp &#8594;](https://mailchimp.com)

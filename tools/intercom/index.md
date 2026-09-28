@@ -66,6 +66,8 @@ Chatbots &amp; Conversational AI · From $29/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Intercom &#8594;](https://www.intercom.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Intercom &#8594;](https://www.intercom.com)

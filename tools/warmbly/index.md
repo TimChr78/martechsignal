@@ -58,6 +58,8 @@ Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-24
 
+[Visit Warmbly &#8594;](https://warmbly.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Warmbly &#8594;](https://warmbly.com)

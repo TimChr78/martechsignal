@@ -81,6 +81,8 @@ Personalization &amp; CDP · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
+[Visit Twilio Segment &#8594;](https://segment.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Twilio Segment &#8594;](https://segment.com)

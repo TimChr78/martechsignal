@@ -61,6 +61,8 @@ AI Content &amp; Copywriting · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Ghost &#8594;](https://ghost.org)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Ghost &#8594;](https://ghost.org)

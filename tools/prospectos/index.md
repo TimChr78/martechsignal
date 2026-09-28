@@ -60,6 +60,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
+[Visit ProspectOS &#8594;](https://github.com/nando0x/ProspectOS)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit ProspectOS &#8594;](https://github.com/nando0x/ProspectOS)

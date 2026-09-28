@@ -61,6 +61,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit AI Marketing Suite &#8594;](https://github.com/zubair-trabzada/ai-marketing-claude)

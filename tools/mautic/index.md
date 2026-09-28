@@ -71,6 +71,8 @@ Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Mautic &#8594;](https://www.mautic.org)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Mautic &#8594;](https://www.mautic.org)

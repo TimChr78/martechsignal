@@ -68,6 +68,8 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Resend &#8594;](https://resend.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Resend &#8594;](https://resend.com)

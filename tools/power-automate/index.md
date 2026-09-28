@@ -57,6 +57,8 @@ Workflow Automation · From $15/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+[Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Microsoft Power Automate &#8594;](https://powerautomate.microsoft.com)

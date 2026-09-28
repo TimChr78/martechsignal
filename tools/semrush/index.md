@@ -62,6 +62,8 @@ SEO &amp; Search · From $117/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Semrush &#8594;](https://www.semrush.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Semrush &#8594;](https://www.semrush.com)

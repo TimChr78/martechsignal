@@ -64,6 +64,8 @@ SEO &amp; Search · From $39/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Frase &#8594;](https://www.frase.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Frase &#8594;](https://www.frase.io)

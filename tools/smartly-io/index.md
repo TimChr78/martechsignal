@@ -65,6 +65,8 @@ Advertising &amp; Paid Media · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
+[Visit Smartly.io &#8594;](https://www.smartly.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Smartly.io &#8594;](https://www.smartly.io)

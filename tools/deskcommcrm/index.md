@@ -58,6 +58,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
 
+[Visit DeskcommCRM &#8594;](https://deskcomm.com.br)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit DeskcommCRM &#8594;](https://deskcomm.com.br)

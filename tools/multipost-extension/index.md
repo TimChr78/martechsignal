@@ -59,6 +59,8 @@ Social Media · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit MultiPost &#8594;](https://multipost.app)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit MultiPost &#8594;](https://multipost.app)

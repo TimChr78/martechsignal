@@ -63,6 +63,8 @@ Social Media · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Buffer &#8594;](https://buffer.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Buffer &#8594;](https://buffer.com)

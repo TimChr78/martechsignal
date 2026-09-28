@@ -63,6 +63,8 @@ Marketing Automation · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Laudspeaker &#8594;](https://laudspeaker.com/?ref=github)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Laudspeaker &#8594;](https://laudspeaker.com/?ref=github)

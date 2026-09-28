@@ -59,6 +59,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Analytics Tracking Automation &#8594;](https://www.jtracking.ai/skills)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Analytics Tracking Automation &#8594;](https://www.jtracking.ai/skills)

@@ -63,6 +63,8 @@ Analytics &amp; Attribution · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Heap &#8594;](https://www.heap.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Heap &#8594;](https://www.heap.io)

@@ -63,6 +63,8 @@ SEO &amp; Search · From $49/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Surfer SEO &#8594;](https://surferseo.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Surfer SEO &#8594;](https://surferseo.com)

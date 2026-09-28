@@ -84,6 +84,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
+[Visit Frappe CRM &#8594;](https://frappe.io/crm)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Frappe CRM &#8594;](https://frappe.io/crm)

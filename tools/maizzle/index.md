@@ -68,6 +68,8 @@ Email Marketing · Free · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Maizzle &#8594;](https://maizzle.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Maizzle &#8594;](https://maizzle.com)

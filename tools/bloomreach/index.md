@@ -59,6 +59,8 @@ Marketing Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Bloomreach &#8594;](https://www.bloomreach.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Bloomreach &#8594;](https://www.bloomreach.com)

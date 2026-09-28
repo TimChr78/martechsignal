@@ -73,6 +73,8 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Twilio SendGrid &#8594;](https://sendgrid.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Twilio SendGrid &#8594;](https://sendgrid.com)

@@ -77,6 +77,8 @@ AI Content &amp; Copywriting · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
+[Visit LanguageTool &#8594;](https://languagetool.org)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit LanguageTool &#8594;](https://languagetool.org)

@@ -59,6 +59,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit AI Business Skills &#8594;](https://github.com/minhnv0807/ai-business-skills)

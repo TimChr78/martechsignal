@@ -72,6 +72,8 @@ Agent Skills · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Google Ads + Meta Ads + GA4 MCP &#8594;](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Google Ads + Meta Ads + GA4 MCP &#8594;](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)

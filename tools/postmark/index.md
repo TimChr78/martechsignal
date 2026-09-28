@@ -69,6 +69,8 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Postmark &#8594;](https://postmarkapp.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Postmark &#8594;](https://postmarkapp.com)

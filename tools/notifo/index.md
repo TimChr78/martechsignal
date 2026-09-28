@@ -70,6 +70,8 @@ Email Marketing · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Notifo &#8594;](https://notifo.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Notifo &#8594;](https://notifo.io)

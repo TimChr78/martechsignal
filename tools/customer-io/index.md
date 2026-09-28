@@ -65,6 +65,8 @@ Email Marketing · From $100/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
 
+[Visit Customer.io &#8594;](https://customer.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Customer.io &#8594;](https://customer.io)

@@ -66,6 +66,8 @@ Email Marketing · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Loops &#8594;](https://loops.so)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Loops &#8594;](https://loops.so)

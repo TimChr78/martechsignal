@@ -55,6 +55,8 @@ Workflow Automation · From $16/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+[Visit Pabbly Connect &#8594;](https://www.pabbly.com/connect/)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Pabbly Connect &#8594;](https://www.pabbly.com/connect/)

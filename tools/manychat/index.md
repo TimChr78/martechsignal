@@ -59,6 +59,8 @@ Chatbots &amp; Conversational AI · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit ManyChat &#8594;](https://manychat.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit ManyChat &#8594;](https://manychat.com)

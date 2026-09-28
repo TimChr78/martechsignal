@@ -63,6 +63,8 @@ Marketing Automation · Freemium Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit HubSpot Marketing Hub &#8594;](https://www.hubspot.com/products/marketing)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit HubSpot Marketing Hub &#8594;](https://www.hubspot.com/products/marketing)

@@ -61,6 +61,8 @@ Personalization &amp; CDP · From $119/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
+[Visit Clerk.io &#8594;](https://www.clerk.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Clerk.io &#8594;](https://www.clerk.io)

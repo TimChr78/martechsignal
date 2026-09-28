@@ -70,6 +70,8 @@ Advertising &amp; Paid Media · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
+[Visit advertools &#8594;](https://advertools.readthedocs.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit advertools &#8594;](https://advertools.readthedocs.io)

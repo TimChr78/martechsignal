@@ -65,6 +65,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Email Marketing Bible &#8594;](https://github.com/CosmoBlk/email-marketing-bible)

@@ -68,6 +68,8 @@ Chatbots &amp; Conversational AI · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Chatwoot &#8594;](https://www.chatwoot.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Chatwoot &#8594;](https://www.chatwoot.com)

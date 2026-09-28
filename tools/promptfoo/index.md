@@ -73,6 +73,8 @@ GEO &amp; LLM Optimization · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
+[Visit Promptfoo &#8594;](https://promptfoo.dev)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Promptfoo &#8594;](https://promptfoo.dev)

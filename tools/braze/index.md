@@ -63,6 +63,8 @@ Marketing Automation · Enterprise Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Braze &#8594;](https://www.braze.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Braze &#8594;](https://www.braze.com)

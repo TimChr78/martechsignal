@@ -72,6 +72,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Open Mercato &#8594;](https://www.openmercato.com/)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Open Mercato &#8594;](https://www.openmercato.com/)

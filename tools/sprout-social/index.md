@@ -57,6 +57,8 @@ Social Media · From $249/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+[Visit Sprout Social &#8594;](https://sproutsocial.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Sprout Social &#8594;](https://sproutsocial.com)

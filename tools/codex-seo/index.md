@@ -63,6 +63,8 @@ Agent Skills · Free Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Codex SEO &#8594;](https://github.com/AgriciDaniel/codex-seo)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Codex SEO &#8594;](https://github.com/AgriciDaniel/codex-seo)

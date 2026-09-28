@@ -59,6 +59,8 @@ Workflow Automation · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+[Visit Activepieces &#8594;](https://www.activepieces.com)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Activepieces &#8594;](https://www.activepieces.com)

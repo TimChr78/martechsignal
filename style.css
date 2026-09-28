@@ -164,7 +164,7 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 .spec dd.ok { color: var(--green) }
 
 /* sections */
-.page-home section { padding: 1.8rem 0 }
+.page-home section:not(.hero){padding: 1.8rem 0}
 .sec-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 1.6rem; gap: 1rem }
 .page-home h2 { font-family: var(--disp); font-weight: 400; font-size: clamp(1.7rem, 3.2vw, 2.3rem); letter-spacing: -.01em }
 .all { font: 600 0.8rem var(--mono); letter-spacing: .14em; color: var(--amber); text-decoration: none }

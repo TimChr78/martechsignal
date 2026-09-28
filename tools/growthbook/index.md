@@ -67,6 +67,8 @@ Personalization &amp; CDP · Freemium · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 
+[Visit GrowthBook &#8594;](https://www.growthbook.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit GrowthBook &#8594;](https://www.growthbook.io)

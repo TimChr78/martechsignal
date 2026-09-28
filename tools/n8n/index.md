@@ -69,6 +69,8 @@ Workflow Automation · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+[Visit n8n &#8594;](https://n8n.io)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit n8n &#8594;](https://n8n.io)

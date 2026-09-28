@@ -69,6 +69,8 @@ CRM · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-07
 
+[Visit Ever Gauzy &#8594;](https://gauzy.co)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Ever Gauzy &#8594;](https://gauzy.co)

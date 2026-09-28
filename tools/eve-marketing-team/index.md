@@ -65,6 +65,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
+[Visit Eve Marketing Team Template &#8594;](https://github.com/vercel-labs/marketing-team-eve-template)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Eve Marketing Team Template &#8594;](https://github.com/vercel-labs/marketing-team-eve-template)

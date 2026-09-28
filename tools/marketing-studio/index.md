@@ -64,6 +64,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
+[Visit Marketing Studio &#8594;](https://github.com/ucsandman/marketing-studio)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Marketing Studio &#8594;](https://github.com/ucsandman/marketing-studio)

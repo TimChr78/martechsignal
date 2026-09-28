@@ -62,6 +62,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-03
 
+[Visit SEO Skill Bench &#8594;](https://seoagent.com/seo-skill-benchmark)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit SEO Skill Bench &#8594;](https://seoagent.com/seo-skill-benchmark)

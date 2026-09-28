@@ -63,6 +63,8 @@ Agent Skills · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-28
 
+[Visit Aaron Marketing Skills &#8594;](https://github.com/aaron-he-zhu/aaron-marketing-skills)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit Aaron Marketing Skills &#8594;](https://github.com/aaron-he-zhu/aaron-marketing-skills)

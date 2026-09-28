@@ -63,6 +63,8 @@ Workflow Automation · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-08-31
 
+[Visit n8n Marketing Flows &#8594;](https://github.com/YuriCrystal/n8n-marketing-flows)
+
 [How we review](/methodology/) · No affiliate links
 
 [Visit n8n Marketing Flows &#8594;](https://github.com/YuriCrystal/n8n-marketing-flows)
