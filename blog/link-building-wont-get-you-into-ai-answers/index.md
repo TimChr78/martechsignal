@@ -75,8 +75,8 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
 ## Glossary terms
 
-- [GEO](/glossary/geo/)
 - [SEO](/glossary/seo/)
+- [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -133,7 +133,7 @@ More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1556,
+  "wordCount": 1557,
   "articleSection": "seo"
 }
 ```

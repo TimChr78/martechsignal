@@ -101,8 +101,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
-- [GEO](/glossary/geo/)
 - [DSP](/glossary/dsp/)
+- [SEO](/glossary/seo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

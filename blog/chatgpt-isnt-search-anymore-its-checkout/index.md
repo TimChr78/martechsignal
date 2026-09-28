@@ -95,8 +95,8 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
-- [GEO](/glossary/geo/)
 - [AI Visibility](/glossary/ai-search-visibility/)
+- [GEO](/glossary/geo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

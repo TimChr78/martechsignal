@@ -109,8 +109,8 @@ This post is part of the [generative engine optimization hub](/guides/generative
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
-- [GEO](/glossary/geo/)
 - [AI Visibility](/glossary/ai-search-visibility/)
+- [SEO](/glossary/seo/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.

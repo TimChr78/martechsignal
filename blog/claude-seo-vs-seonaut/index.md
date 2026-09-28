@@ -88,8 +88,8 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
+- [GEO](/glossary/geo/)
 - [SEO](/glossary/seo/)
-- [Social listening](/glossary/social-listening/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -146,7 +146,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1574,
+  "wordCount": 1573,
   "articleSection": "seo"
 }
 ```
