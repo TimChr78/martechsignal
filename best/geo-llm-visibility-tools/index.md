@@ -17,6 +17,10 @@
 
 ## Best GEO &amp; LLM Optimization tools (2026): 9 compared
 
+Nimt AI leads for teams that want GEO measurement in one platform. OtterlyAI is the cheap way to start measuring. Trakkr ranks competitor visibility. Writesonic works where content and visibility share a login. The category is young, so verify each vendor&#x27;s source coverage before trusting its scores.
+
+## How we picked
+
 Fourteen GEO and LLM-visibility tools are catalogued; these nine do the clearest job. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.

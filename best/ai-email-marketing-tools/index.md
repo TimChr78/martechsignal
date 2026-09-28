@@ -16,6 +16,10 @@
 
 ## Best AI Email Marketing tools (2026): 8 compared
 
+OpenOutreach leads for teams that want agent-written openers on their own server. React Email Editor fits developers who version templates as code. SendGrid handles transactional delivery with marketing on the side. Customer.io runs behavior-triggered lifecycle journeys on your own data.
+
+## How we picked
+
 Fifteen email marketing tools are catalogued; these eight make the shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.

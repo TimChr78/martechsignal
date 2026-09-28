@@ -16,6 +16,10 @@
 
 ## Best Open-Source Marketing Tools (2026): 8 compared
 
+Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes; the table below lines them up.
+
+## How we picked
+
 The directory&#x27;s open-source badge marks tools whose code and terms are public. These eight are where a marketing team should start, ordered by how directly they answer the job: Mautic for marketing automation first, newsletter and messaging engines next, then CRM, automation glue, and analytics. Scored tools come first. Nobody pays for placement.
 
 Considered and excluded, with reasons: Odoo Community (ERP-first; we have not reviewed it to catalog depth), Keila (newsletter-focused; not yet in our directory), EspoCRM (a fine lightweight CRM that SuiteCRM and Twenty cover here), Dolibarr (accounting and ERP first), NocoDB (an Airtable alternative, not marketing), React Email Editor (a component library, not a product), and Claude SEO (SEO tooling rather than marketing automation; we review it hands-on elsewhere).

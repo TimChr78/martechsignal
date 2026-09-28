@@ -14,6 +14,10 @@
 
 ## Best workflow automation tools (2026)
 
+n8n suits teams that self-host and want code steps plus AI agents in their workflows. Zapier wins on breadth and fast onboarding for niche apps. Make is the budget pick for visual branching in small teams. All three connect thousands of apps, so decide on hosting, price curve, and how much code you want to write.
+
+## How we picked
+
 This list is for marketing and operations teams buying automation in 2026: moving form submissions into a CRM, syncing campaign data between tools, and wiring AI agents into the same pipelines. The six picks come from the catalog workflow-automation category because automation is their core job, not a feature of an app builder.
 
 The set spans the market on purpose: two no-code giants, a visual middleweight priced under 10 dollars, a developer platform, and two enterprise iPaaS vendors. These entries disagree about almost everything except the promise that software should talk to software without a human in the middle.

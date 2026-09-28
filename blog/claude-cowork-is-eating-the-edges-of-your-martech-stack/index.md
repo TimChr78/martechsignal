@@ -101,7 +101,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -162,7 +162,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1631,
+  "wordCount": 1632,
   "articleSection": "agent-skills"
 }
 ```

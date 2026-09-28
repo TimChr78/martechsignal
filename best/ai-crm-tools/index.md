@@ -14,6 +14,10 @@
 
 ## Best AI CRM tools (2026): 6 compared
 
+Attio suits startups that want a CRM shaped around their own data model. HubSpot CRM has the best free tier and a natural upgrade path. Salesforce is the one everything else integrates with. Zoho gives small teams a full suite without an enterprise bill.
+
+## How we picked
+
 Teams shopping for an AI CRM shortlist commercial vendors first, so this page does too. Six CRM suites with real AI features and published pricing are compared below, from the free entry points (HubSpot, Zoho) up to the enterprise default (Salesforce). For the self-hosted side of the market, our open-source CRM list covers that universe instead.
 
 Every price below comes from the vendor&#x27;s own pricing page, checked this month. The verdicts come from fit: who each product is actually built for, and where it stops being the right answer.

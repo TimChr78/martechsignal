@@ -85,7 +85,7 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -158,7 +158,7 @@ More from the directory: [AdCreative.ai](/tools/adcreative-ai/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1577,
+  "wordCount": 1581,
   "articleSection": "workflow-automation"
 }
 ```

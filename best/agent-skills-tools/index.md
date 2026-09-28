@@ -16,6 +16,10 @@
 
 ## Best Agent Skills tools (2026): 8 compared
 
+Claude SEO headlines for teams running SEO audits as agent skills. The rest split by platform and workflow: Claude Ads, GA4 and Meta connectors, and playbook packs. These are utilities rather than platforms, and each one carries a kind label saying exactly that.
+
+## How we picked
+
 Eighteen agent-skill packs are catalogued; eight are worth installing first. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.

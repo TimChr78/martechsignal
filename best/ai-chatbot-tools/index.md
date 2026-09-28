@@ -14,6 +14,10 @@
 
 ## Best Chatbots &amp; Conversational AI tools (2026): 6 compared
 
+Intercom fits support teams that want AI resolutions they can audit. Chatwoot gives you an open-source inbox with AI help included. Tidio adds live chat and an AI agent cheaply for small shops. Chatfuel suits messaging-first brands that script conversations like campaigns. Handover quality matters more than the script.
+
+## How we picked
+
 Every chatbot tool we track - all six of them - appears below. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.

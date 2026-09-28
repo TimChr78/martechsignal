@@ -16,6 +16,10 @@
 
 ## Best AI Personalization &amp; CDP tools (2026): 8 compared
 
+Dynamic Yield fits large commerce operations buying personalization depth. Segment makes sense when the real problem is data plumbing. Nosto gives merchants recommendations their merchandisers can steer. Clerk.io brings search and recommendations to mid-size stores without enterprise procurement. Start from your data stack, not the demo.
+
+## How we picked
+
 Eight of the nine personalization and CDP tools made this list. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
 Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
