@@ -42,3 +42,5 @@ This is a living document. Each new remediation cycle adds a row with its date, 
 ## The receipts
 
 The audit artifacts are archived with their raw finding tables, the site's [methodology](/methodology/) documents the verification rules these numbers live under, and the [corrections page](/corrections/) logs every published error we have made about them. For the pairwise questions this page deliberately does not answer, see [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) and its siblings under [/vs/](/vs/).
+
+This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-tooling/).

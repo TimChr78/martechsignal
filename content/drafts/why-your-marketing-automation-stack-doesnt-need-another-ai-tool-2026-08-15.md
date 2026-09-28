@@ -89,3 +89,5 @@ The best signal from across martech, curated every Friday. Free.
 <a class="btn" href="/#subscribe">Subscribe to the newsletter</a>
 
 More from the directory: [Copy.ai](/tools/copy-ai/) · [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) · [Loops](/tools/loops/) · [Maizzle](/tools/maizzle/) · [MultiPost](/tools/multipost-extension/) · [Nosto](/tools/nosto/) · [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) · [Ortto](/tools/ortto/) · [Postmark](/tools/postmark/) · [Twilio SendGrid](/tools/sendgrid/) · [Predis.ai](/tools/predis-ai/)
+
+This post is part of the hub for this topic: [workflow automation strategy](/guides/workflow-automation-strategy/).

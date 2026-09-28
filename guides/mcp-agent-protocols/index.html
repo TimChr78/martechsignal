@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MCP and agent protocols for marketers: the working hub | MartechSignal</title>
+<meta name="description" content="What Model Context Protocol and the agent protocol layer change about martech integration economics, plus the failure modes worth auditing first.">
+<link rel="canonical" href="https://martechsignal.com/guides/mcp-agent-protocols/">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MartechSignal">
+<meta property="og:title" content="MCP and agent protocols for marketers: the working hub">
+<meta property="og:description" content="What Model Context Protocol and the agent protocol layer change about martech integration economics, plus the failure modes worth auditing first.">
+<meta property="og:image" content="https://martechsignal.com/og.png">
+<meta property="og:url" content="https://martechsignal.com/guides/mcp-agent-protocols/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "MCP and agent protocols for marketers: the working hub", "url": "https://martechsignal.com/guides/mcp-agent-protocols/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "MCP and agent protocols", "item": "https://martechsignal.com/guides/mcp-agent-protocols/"}]}</script>
+<link rel="stylesheet" href="/style.min.css?v=29eeb414">
+<script src="/site.js?v=47eba960" defer></script>
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="alternate" type="text/markdown" href="/guides/mcp-agent-protocols/index.md" title="Markdown mirror">
+</head>
+<body class="page-post">
+<div class="bg" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="wrap mast-in">
+    <a class="wordmark" href="/">MARTECH<b>SIGNAL</b><span class="pulse-dot"></span></a>
+  </div>
+</header>
+<main class="wrap post-wrap" style="max-width:720px;margin:0 auto;padding:2rem 1.5rem 4rem">
+<article>
+<h1>MCP and agent protocols for marketers: the working hub</h1>
+<p>Model Context Protocol turned integrations from per-vendor engineering projects into something closer to a driver model: one protocol, many tools, and an agent that can call them. For a martech stack this rewrites the economics of every "we should connect these two systems" conversation. This hub collects our work on that shift, and on the failure modes that arrive with it.</p>
+<h2>The economics first</h2>
+<p><a href="/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/">MCP rewrites the integration economics of your marketing stack</a> is the anchor piece: what gets cheaper, what gets more dangerous, and why the build-versus-buy line moves. The companion argument is <a href="/blog/agent-protocol-vs-data-plumbing/">agent protocol versus data plumbing</a>, which separates the layers that are genuinely new from the ETL work wearing a new name. If you are still deciding what to standardize on, read both before the vendor meetings.</p>
+<h2>What breaks</h2>
+<p>Three of our most-quoted audits live here. <a href="/blog/agents-identity-debt/">Identity debt in AI agents</a> covers what happens when agents act with borrowed credentials. <a href="/blog/ai-agents-need-campaign-state/">Why AI agents need campaign state</a> is about the memory layer most stacks do not have. <a href="/blog/determinism-audit/">The determinism audit</a> and <a href="/blog/silent-failure-audit/">the silent failure audit</a> give you the two review passes to run before anything agentic touches production spend, and <a href="/blog/automation-blast-radius-audit/">the blast radius audit</a> answers the "what is the worst case" question your risk team will ask.</p>
+<h2>Where it touches the stack</h2>
+<p><a href="/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/">Claude Cowork is eating the edges of your martech stack</a> tracks what happens when the agent workspace absorbs point tools. For the definition layer, the <a href="/glossary/mcp/">MCP entry</a>, the <a href="/glossary/ai-agent/">AI agent entry</a>, and <a href="/glossary/agentic-marketing/">agentic marketing</a> pin the vocabulary down. The tooling itself lives in our <a href="/categories/workflow-automation/">workflow automation category</a> and the <a href="/best/workflow-automation-tools/">workflow automation comparison</a>, and the tracker for the open-source half of it is the <a href="/trending/">open-source martech hub</a>.</p>
+<h2>What to do Monday</h2>
+<p>Inventory which of your systems already speak MCP and which would need a bridge. Run the silent failure audit on one integration. Decide what state your agents are allowed to carry between sessions, in writing. The protocol layer is moving faster than governance, so the writing is the scarce part.</p>
+</article>
+</main>
+<footer style="text-align:center;padding:2rem;color:var(--muted);font-size:.85rem">
+<p>&copy; 2026 MartechSignal &middot; by Tim Christensen</p>
+<nav class="foot-links" style="margin-top:.5rem"><a href="/">HOME</a><a href="/tools/">TOOLS</a><a href="/best/">BEST</a><a href="/vs/">VS</a><a href="/alternatives/">ALTERNATIVES</a><a href="/blog/">BLOG</a><a href="/trending/">TRENDING</a><a href="/glossary/">GLOSSARY</a><a href="/checklist/">CHECKLIST</a><a href="/authors/tim-christensen/">AUTHOR</a><a href="/about/">ABOUT</a><a href="/contact/">CONTACT</a><a href="/privacy/">PRIVACY</a><a href="/terms/">TERMS</a><a href="/ai-policy/">AI POLICY</a><a href="/methodology/">METHODOLOGY</a><a href="/rss.xml">RSS</a><a href="/#subscribe">SUBSCRIBE</a></nav>
+</footer>
+</body>
+</html>

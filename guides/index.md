@@ -10,6 +10,11 @@ Longer reference pages that support the directory. These are not tools, so they 
 
 - [AI Marketing Suite](/guides/ai-marketing-claude/) - 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [Digital Marketing Pro](/guides/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Generative Engine Optimization (GEO)](/guides/generative-engine-optimization/) - hub for the AI search visibility work: the five-layer fix, the tooling, and the honest tactics
+- [MCP and agent protocols for marketers](/guides/mcp-agent-protocols/) - the integration economics, the failure modes, and the audits to run first
+- [Workflow automation strategy](/guides/workflow-automation-strategy/) - where AI tools fit, what no-code costs long-term, and how to audit what you own
+- [AI SEO tooling](/guides/ai-seo-tooling/) - benchmarks and head-to-heads where the tools were actually run
+- [Agentic advertising](/guides/agentic-ai-advertising/) - autonomous spend in the platforms and the guardrails that exist today
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

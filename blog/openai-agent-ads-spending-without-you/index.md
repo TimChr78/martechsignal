@@ -131,6 +131,8 @@ Feed management, MCP servers, and the automation engines that keep you visible w
 
 **Sources:** [Search Engine Land on OpenAI's chatbot-native ads](https://searchengineland.com/openai-appears-to-be-building-chatbot-native-ads-that-launch-ai-agents-484107) · [MarTech on the OpenAI ad experiment](https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/) · [OpenAI: Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt/) · [MarTech on IAB Tech Lab AAMP 2.3](https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/) · [IAB Tech Lab: AAMP](https://iabtechlab.com/standards/aamp-agentic-advertising-management-protocols/) · [Search Engine Land on AI shopping and product feeds](https://searchengineland.com/ai-shopping-product-feed-page-484060)
 
+This post is part of the hub for this topic: [agentic ai advertising](/guides/agentic-ai-advertising/).
+
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
@@ -199,7 +201,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2156,
+  "wordCount": 2170,
   "articleSection": "advertising"
 }
 ```

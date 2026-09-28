@@ -144,7 +144,7 @@ The category thesis in practice: audit what agents actually sent, not what logs 
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/)
+**Compare:** [Best workflow automation tools](/best/workflow-automation-tools/) &middot; [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
 - [Home](/)
 - [Tools](/tools/)

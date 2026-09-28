@@ -82,3 +82,7 @@ A generative engine reads a question, retrieves a small set of candidate sources
   }
 ]
 ```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/geo/#webpage", "dateModified": "2026-09-28"}
+```

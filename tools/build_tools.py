@@ -1598,8 +1598,10 @@ def build_category_page(cat, tools):
     # A2 C1: per-category links into the comparison layer.
     _CAT_GUIDE = {
         "crm": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/open-source-crm/">Best open-source CRM</a> &middot; <a href="/alternatives/hubspot-crm/">HubSpot CRM alternatives</a></p>',
-        "marketing-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/workflow-automation-tools/">Best workflow automation tools</a> &middot; <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a> &middot; <a href="/alternatives/zapier/">Zapier alternatives</a></p>',
-        "content-ai": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/ai-seo-tools/">Best AI SEO tools</a></p>',
+        "marketing-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/workflow-automation-tools/">Best workflow automation tools</a> &middot; <a href="/vs/n8n-vs-zapier/">n8n vs Zapier</a> &middot; <a href="/alternatives/zapier/">Zapier alternatives</a> &middot; <b>Guide:</b> <a href="/guides/workflow-automation-strategy/">automation strategy</a></p>',
+        "content-ai": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/best/ai-seo-tools/">Best AI SEO tools</a> &middot; <b>Guide:</b> <a href="/guides/ai-seo-tooling/">AI SEO tooling hub</a></p>',
+        "advertising": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/agentic-ai-advertising/">Agentic advertising</a> &middot; <a href="/best/ai-advertising-tools/">Best AI advertising tools</a></p>',
+        "workflow-automation": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/mcp-agent-protocols/">MCP and agent protocols</a> &middot; <a href="/guides/workflow-automation-strategy/">automation strategy</a></p>',
         "open-source": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Compare:</b> <a href="/vs/matomo-vs-plausible/">Matomo vs Plausible</a> &middot; <a href="/vs/nocodb-vs-nocobase/">NocoDB vs NocoBase</a> &middot; <a href="/alternatives/matomo/">Matomo alternatives</a></p>',
         "geo-llm-visibility": '<p style="margin:.6rem 0 1rem;font-size:.92rem"><b>Guide:</b> <a href="/guides/generative-engine-optimization/">Generative engine optimization (GEO)</a> &middot; <a href="/glossary/geo/">GEO, defined</a></p>',
     }
@@ -1889,10 +1891,13 @@ def build_sitemap(tools, cats):
         gu = ROOT / "guides" / "index.html"
         if gu.exists():
             urls.append(("https://martechsignal.com/guides/", _lastmod(gu), "0.6"))
-        # r7 C8 (2026-09-28): static cluster hub joins the sitemap.
-        geo_hub = ROOT / "guides" / "generative-engine-optimization" / "index.html"
-        if geo_hub.exists():
-            urls.append(("https://martechsignal.com/guides/generative-engine-optimization/", _lastmod(geo_hub), "0.7"))
+        # r7 C8 (2026-09-28): static cluster hubs join the sitemap.
+        for hub_slug in ("generative-engine-optimization", "mcp-agent-protocols",
+                         "workflow-automation-strategy", "ai-seo-tooling",
+                         "agentic-ai-advertising"):
+            hub_html = ROOT / "guides" / hub_slug / "index.html"
+            if hub_html.exists():
+                urls.append((f"https://martechsignal.com/guides/{hub_slug}/", _lastmod(hub_html), "0.7"))
 
     # Category pages
     for c in cats:
@@ -2034,6 +2039,20 @@ def main():
         gi = "\n".join(
             f'    <li><a href="/guides/{g["slug"]}/">{esc(g["name"])}</a> - {esc(g.get("tagline", ""))}</li>'
             for g in guides)
+        # r7 C8 (2026-09-28): the static cluster hubs list beside the catalog guides.
+        gi += "".join(
+            f'\n    <li><a href="/guides/{s}/">{n}</a> - {d}</li>' for s, n, d in (
+                ("generative-engine-optimization", "Generative Engine Optimization (GEO)",
+                 "hub for the AI search visibility work: the five-layer fix, the tooling, and the honest tactics"),
+                ("mcp-agent-protocols", "MCP and agent protocols for marketers",
+                 "the integration economics, the failure modes, and the audits to run first"),
+                ("workflow-automation-strategy", "Workflow automation strategy",
+                 "where AI tools fit, what no-code costs long-term, and how to audit what you own"),
+                ("ai-seo-tooling", "AI SEO tooling",
+                 "benchmarks and head-to-heads where the tools were actually run"),
+                ("agentic-ai-advertising", "Agentic advertising",
+                 "autonomous spend in the platforms and the guardrails that exist today"),
+            ))
         gdir = ROOT / "guides"
         gdir.mkdir(exist_ok=True)
         (gdir / "index.html").write_text(page_shell(

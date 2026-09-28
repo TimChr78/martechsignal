@@ -50,6 +50,8 @@ This is a living document. Each new remediation cycle adds a row with its date, 
 
 The audit artifacts are archived with their raw finding tables, the site's [methodology](/methodology/) documents the verification rules these numbers live under, and the [corrections page](/corrections/) logs every published error we have made about them. For the pairwise questions this page deliberately does not answer, see [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) and its siblings under [/vs/](/vs/).
 
+This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-tooling/).
+
 ## Related reading
 
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
@@ -126,7 +128,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 619,
+  "wordCount": 633,
   "articleSection": "seo"
 }
 ```

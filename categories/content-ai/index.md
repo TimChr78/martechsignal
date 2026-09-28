@@ -80,7 +80,7 @@ PaidDesk-reviewed
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-**Compare:** [Best AI SEO tools](/best/ai-seo-tools/)
+**Compare:** [Best AI SEO tools](/best/ai-seo-tools/) &middot; **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 - [Home](/)
 - [Tools](/tools/)
