@@ -18,6 +18,8 @@ SEO · OPEN SOURCE · 8 MIN
 
 ## Claude SEO vs Seonaut: which free SEO checker should you run
 
+We make this: Claude SEO is MartechSignal's own free SEO audit skill. Coverage here is held to the same verification standard as third-party tools.
+
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Seonaut: which free SEO checker should you run

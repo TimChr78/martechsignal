@@ -108,6 +108,8 @@ Agent Skills · Open Source · OPEN SOURCE Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+We make this: Claude SEO is our own free SEO audit skill. This page is held to the same verification standard as third-party tools; per our review policy it carries no Review markup.
+
 [Visit Claude SEO &#8594;](https://claude-seo.md/)
 
 [How we review](/methodology/) · No affiliate links

@@ -395,6 +395,12 @@ def build_post(meta: dict, body_html: str) -> str:
     slug = meta.get('slug') or slugify(title)
     # CL-2 (2026-09-25): optional frontmatter canonical override (cluster consolidation)
     canon = meta.get('canonical') or f"https://martechsignal.com/blog/{slug}/"
+    # L16 (r9, 2026-09-28): posts about our own tool carry a visible "we make
+    # this" badge under the H1. Cluster: the tool page plus claude-seo posts.
+    _made_box = ""
+    if slug.startswith("claude-seo-") or slug == "claude-seo":
+        _made_box = ('<p class="made-badge">We make this: Claude SEO is MartechSignal\'s own free SEO audit skill. '
+                     'Coverage here is held to the same verification standard as third-party tools.</p>')
 
     related = suggest_links.suggest_for_text(body_html, max_suggestions=3, exclude_slug=slug)
     if related:
@@ -553,6 +559,7 @@ def build_post(meta: dict, body_html: str) -> str:
 
 <p class="kicker">{kicker} · {read_min} MIN</p>
 <h1>{html.escape(title)}</h1>
+{_made_box}
 <img class="post-hero" src="/og/hero-{slug}.webp" alt="{title}" width="1200" height="630" srcset="/og/hero-{slug}-480.webp 480w, /og/hero-{slug}-800.webp 800w, /og/hero-{slug}.webp 1200w" sizes="(max-width:700px) 100vw, 1100px" fetchpriority="high" decoding="async" style="width:100%;height:auto;border-radius:10px;margin:.4rem 0 1.2rem">\n<p class="disclosure-strip"><a href="/methodology/">How we review</a> \u00b7 No affiliate links</p>
 <p class="meta"><a href="/">Home</a> · <a href="/blog/">Blog</a> · {title}</p>
 <p class="meta"><time datetime="{date_str}">{date_display}</time>{upd}</p>

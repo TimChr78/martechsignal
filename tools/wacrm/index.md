@@ -193,8 +193,8 @@ Automations and flows never run. The container schedules nothing internally, so 
 ## Related reading
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 ### Pricing

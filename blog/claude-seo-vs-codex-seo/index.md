@@ -18,6 +18,8 @@ AGENT SKILLS · SEO · 7 MIN
 
 ## Claude SEO vs Codex SEO: same audit, pick the agent you already pay for
 
+We make this: Claude SEO is MartechSignal's own free SEO audit skill. Coverage here is held to the same verification standard as third-party tools.
+
 [How we review](/methodology/) · No affiliate links
 
 [Home](/) · [Blog](/blog/) · Claude SEO vs Codex SEO: same audit, pick the agent you already pay for

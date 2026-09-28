@@ -991,3 +991,26 @@ def test_faq_answers_name_entity_no_splice():
     assert a.startswith("n8n:"), f"answer must open with entity name: {a[:60]}"
     assert "It ships with" not in a, "comma-splice template still rendering"
     assert len(a.split()) <= 60, f"answer over 60 words: {len(a.split())}"
+
+
+def test_self_made_cluster_declared():
+    """L16 (r9, 2026-09-28): the Claude SEO cluster carries a visible 'we
+    make this' badge, and each page targets a distinct primary query."""
+    import re as _re
+    # slug -> primary query (declared here; enforced on titles below)
+    focus = {
+        "tools/claude-seo": "claude seo review",
+        "blog/claude-seo-benchmark": "claude seo benchmark",
+        "blog/claude-seo-vs-codex-seo": "claude seo vs codex seo",
+        "blog/claude-seo-vs-seonaut": "claude seo vs seonaut",
+    }
+    titles = []
+    for slug, q in focus.items():
+        html = (ROOT / slug / "index.html").read_text()
+        assert 'class="made-badge"' in html, f"{slug} missing we-make-this badge"
+        assert "We make this" in html, f"{slug} badge text missing"
+        t = _re.search(r"<title>(.*?)</title>", html).group(1).lower()
+        titles.append(t)
+        for w in q.split():
+            assert w in t, f"{slug} title {t!r} misses focus word {w!r}"
+    assert len(set(titles)) == len(titles), f"cluster titles not distinct: {titles}"
