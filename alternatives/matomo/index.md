@@ -23,6 +23,8 @@ When you compare, check what each tool does with cookies and consent, whether yo
 
 Open Source OSS
 
+Vendor: [Official site](https://plausible.io) · [Pricing](https://plausible.io/#pricing) · [GitHub](https://github.com/plausible/analytics)
+
 **Best for:** Content sites, startups, agencies, and privacy-conscious teams that want core traffic metrics without cookies, banners, or personal data collection.
 
 **Not for:** Teams that need deep behavioral modeling, extensive attribution, or advertising integrations; Plausible trades those away for a simpler setup.
@@ -32,6 +34,8 @@ Plausible is open source under AGPL and free to self-host, with managed cloud fr
 ## [Umami](/tools/umami/)
 
 Open Source OSS
+
+Vendor: [Official site](https://umami.is) · [Pricing](https://umami.is/pricing) · [GitHub](https://github.com/umami-software/umami)
 
 **Best for:** Developers and privacy-conscious marketing teams that want campaign and conversion numbers without cookies or surveillance overhead.
 
@@ -43,6 +47,8 @@ Umami is MIT licensed and free to self-host (a two-service docker compose file, 
 
 Freemium OSS
 
+Vendor: [Official site](https://posthog.com) · [Pricing](https://posthog.com/pricing) · [GitHub](https://github.com/PostHog/posthog)
+
 **Best for:** Product teams that want funnels, retention, session replay, feature flags, and experiments in one place, on a free tier large enough for real work.
 
 **Not for:** Teams that only need simple pageview reporting; PostHog&#x27;s breadth (flags, experiments, error tracking, a data warehouse) is more platform than a traffic dashboard.
@@ -53,6 +59,8 @@ PostHog&#x27;s core is MIT licensed, with an ee/ directory under a separate ente
 
 Free tier OSS
 
+Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snowplow/snowplow)
+
 **Best for:** Data teams that want behavioral events validated against schemas and delivered into their own warehouse or lake for reporting in BI tools.
 
 **Not for:** Teams that want an out-of-the-box analytics dashboard; Snowplow is a pipeline, and its community edition is documented for testing and evaluation only.
@@ -62,6 +70,8 @@ Snowplow validates every event against self-describing JSON schemas, routes inva
 ## [Amplitude](/tools/amplitude/)
 
 Freemium
+
+Vendor: [Official site](https://amplitude.com) · [Pricing](https://amplitude.com/pricing)
 
 **Best for:** Product and marketing teams that want funnels, retention, and experimentation without writing SQL, delivered as managed SaaS.
 

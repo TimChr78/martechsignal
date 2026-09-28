@@ -32,6 +32,10 @@ These two barely share a budget line. Semrush is a subscription suite with a lar
 
 [Claude SEO assessment](/tools/claude-seo/) · [Semrush assessment](/tools/semrush/)
 
+Claude SEO: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
+
+Semrush: [Official site](https://www.semrush.com) · [Pricing](https://www.semrush.com/pricing/)
+
 ## Priced at volume
 
 Cost picture for a year of continuous use. All figures checked 2026-09-27 on vendor pricing pages.

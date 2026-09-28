@@ -108,8 +108,8 @@ The agents are good enough. The context is not.
 - [Mixpanel](/tools/mixpanel/) - Product analytics platform with AI-powered insights for user behavior tracking
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

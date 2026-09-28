@@ -26,6 +26,8 @@ Amplitude is a digital analytics platform built on events: each action a user ta
 
 **Verdict:** Product teams that want funnels and retention without an analyst queue
 
+Vendor: [Official site](https://amplitude.com) · [Pricing](https://amplitude.com/pricing)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Matomo](/tools/matomo/)
@@ -33,6 +35,8 @@ Amplitude is a digital analytics platform built on events: each action a user ta
 Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Teams that want GA-grade analytics with the data staying home
+
+Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pricing/) · [GitHub](https://github.com/matomo-org/matomo)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -42,6 +46,8 @@ Umami is an open-source, cookieless web analytics platform you can self-host und
 
 **Verdict:** Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://umami.is) · [Pricing](https://umami.is/pricing) · [GitHub](https://github.com/umami-software/umami)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Mixpanel](/tools/mixpanel/)
@@ -49,6 +55,8 @@ Umami is an open-source, cookieless web analytics platform you can self-host und
 Mixpanel is a product analytics platform built on an event-based data model: every user action is a discrete event with properties, which is what makes funnels, retention curves, and behavioral cohorts fast to query without SQL. It starts free, and free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth (verified 2026-09-06). The catalog documents 5 AI features, 10 integrations, and a public API.
 
 **Verdict:** Best for analytics &amp; attribution teams that want the job covered in one platform, with a free starting tier.
+
+Vendor: [Official site](https://mixpanel.com) · [Pricing](https://mixpanel.com/pricing/)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -58,6 +66,8 @@ Triple Whale is an AI-powered ecommerce analytics and attribution platform built
 
 **Verdict:** DTC operators that want a daily attribution answer, dashboards included
 
+Vendor: [Official site](https://www.triplewhale.com) · [Pricing](https://www.triplewhale.com/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Heap](/tools/heap/)
@@ -65,6 +75,8 @@ Triple Whale is an AI-powered ecommerce analytics and attribution platform built
 Heap is a digital insights platform that takes a fundamentally different approach to analytics. It starts free, and free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Teams that want retroactive analysis without a tagging plan first
+
+Vendor: [Official site](https://www.heap.io) · [Pricing](https://www.heap.io/pricing)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -74,6 +86,8 @@ Northbeam is a marketing intelligence and attribution platform built specificall
 
 **Verdict:** DTC brands whose incrementality questions deserve real modeling
 
+Vendor: [Official site](https://www.northbeam.io) · [Pricing](https://www.northbeam.io/pricing)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Snowplow](/tools/snowplow/)
@@ -81,6 +95,8 @@ Northbeam is a marketing intelligence and attribution platform built specificall
 Snowplow is behavioral event infrastructure that has repositioned itself for the AI era: the company now calls its product a Customer Context Layer that turns raw behavioral data into real-time context for AI agents and analytics, delivered to your warehouse, lake, or stream. It starts free, and the open-source pipeline is free to self-host. Snowplow BDP Cloud is quoted by sales (verified Sep 2026) (verified 2026-09-25). The catalog documents 3 AI features, 9 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for analytics &amp; attribution teams that want intent detection and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snowplow/snowplow)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

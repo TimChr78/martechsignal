@@ -26,6 +26,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 
 **Verdict:** Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com/eracle/OpenOutreach)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [React Email Editor](/tools/react-email-editor/)
@@ -33,6 +35,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 React Email Editor is Unlayer&#x27;s official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.
 
 **Verdict:** Developer teams that want email templates versioned as code
+
+Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/pricing) · [GitHub](https://github.com/unlayer/react-email-editor)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -42,6 +46,8 @@ Twilio SendGrid is one of the largest email delivery platforms in the world, pro
 
 **Verdict:** Product teams that need transactional delivery with marketing on the side
 
+Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.com/en-us/products/email-api/pricing)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Customer.io](/tools/customer-io/)
@@ -49,6 +55,8 @@ Twilio SendGrid is one of the largest email delivery platforms in the world, pro
 Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. paid pricing starts at $100/mo, and essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats (verified 2026-09-06). The catalog documents 6 AI features, 11 integrations, and a public API.
 
 **Verdict:** Lifecycle teams writing behavior-triggered journeys on their own data
+
+Vendor: [Official site](https://customer.io) · [Pricing](https://customer.io/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -58,6 +66,8 @@ Notifuse is a self-hosted email platform for newsletters, marketing campaigns, a
 
 **Verdict:** Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://www.notifuse.com) · [Pricing](https://www.notifuse.com/pricing) · [GitHub](https://github.com/Notifuse/notifuse)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Klaviyo](/tools/klaviyo/)
@@ -65,6 +75,8 @@ Notifuse is a self-hosted email platform for newsletters, marketing campaigns, a
 Klaviyo is the dominant email and SMS marketing platform for ecommerce brands, built from the ground up around behavioral data and deep integrations with Shopify, WooCommerce, BigCommerce, and Magento. It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** DTC brands that want store data doing the segmentation
+
+Vendor: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviyo.com/pricing)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -74,6 +86,8 @@ Mailchimp is the most recognized name in email marketing, serving over 11 millio
 
 **Verdict:** Small businesses that want the shortest path from idea to send
 
+Vendor: [Official site](https://mailchimp.com) · [Pricing](https://mailchimp.com/pricing/marketing/)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Warmbly](/tools/warmbly/)
@@ -81,6 +95,8 @@ Mailchimp is the most recognized name in email marketing, serving over 11 millio
 Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It starts free, and free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter €29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20% (verified 2026-09-24). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://warmbly.com) · [Pricing](https://warmbly.com/pricing/) · [GitHub](https://github.com/warmbly/warmbly)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

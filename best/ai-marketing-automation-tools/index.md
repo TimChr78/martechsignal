@@ -26,6 +26,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 
 **Verdict:** Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pricing) · [GitHub](https://github.com/nocodb/nocodb)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Ortto](/tools/ortto/)
@@ -33,6 +35,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva&#x27;s product. paid pricing starts at $199/mo, and starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.
 
 **Verdict:** Marketing teams that want email, SMS and journeys behind one login
+
+Vendor: [Official site](https://ortto.com) · [Pricing](https://ortto.com/starter/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -42,6 +46,8 @@ Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product 
 
 **Verdict:** Enterprise estates already bought into Salesforce&#x27;s cloud stack
 
+Vendor: [Official site](https://www.salesforce.com/products/marketing-cloud/) · [Pricing](https://www.salesforce.com/products/marketing-cloud/pricing/)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [ActiveCampaign](/tools/activecampaign/)
@@ -49,6 +55,8 @@ Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product 
 ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. paid pricing starts at $15/mo, and starter $15/mo, Plus $49/mo, Professional €79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** SMB teams that want real automation without enterprise procurement
+
+Vendor: [Official site](https://www.activecampaign.com) · [Pricing](https://www.activecampaign.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -58,6 +66,8 @@ Adobe Marketo Engage is the leading B2B marketing automation platform for enterp
 
 **Verdict:** Marketing ops teams whose requirement list starts with lead scoring
 
+Vendor: [Official site](https://business.adobe.com/products/marketo.html) · [Pricing](https://business.adobe.com/products/marketo/pricing.html)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Bloomreach](/tools/bloomreach/)
@@ -65,6 +75,8 @@ Adobe Marketo Engage is the leading B2B marketing automation platform for enterp
 Bloomreach is an AI-first digital experience platform built for ecommerce and retail companies that need personalization at scale. Pricing is enterprise and quoted per contract, and custom enterprise pricing; modules from ~$35K/yr; Loomi AI included at no extra charge (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Commerce brands that want content, search and campaigns in one engine
+
+Vendor: [Official site](https://www.bloomreach.com) · [Pricing](https://www.bloomreach.com/en/pricing)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -74,6 +86,8 @@ Braze is a cross-channel customer engagement platform built for enterprises that
 
 **Verdict:** Mobile-first brands tuning cross-channel engagement at scale
 
+Vendor: [Official site](https://www.braze.com) · [Pricing](https://www.braze.com/pricing)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/)
@@ -81,6 +95,8 @@ Braze is a cross-channel customer engagement platform built for enterprises that
 Built around a free CRM, HubSpot Marketing Hub combines email marketing, landing pages, lead capture, campaign management, and marketing automation in a single platform. It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Teams that want marketing automation living beside their CRM
+
+Vendor: [Official site](https://www.hubspot.com/products/marketing) · [Pricing](https://www.hubspot.com/pricing/marketing)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 

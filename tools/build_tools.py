@@ -1622,6 +1622,22 @@ def build_tool_page(t, cats, all_tools, base="tools"):
 
 # ── Category pages ─────────────────────────────────────────────────
 
+def out_links(t):
+    """r8 C2 (2026-09-28): verified vendor links for editorial pages. Only the
+    fields the catalog actually carries; never invented URLs. External, so the
+    nofollow sweep marks them like every outbound link (M25 policy)."""
+    parts = []
+    if t.get("website"):
+        parts.append(f'<a href="{esc(t["website"])}" rel="noopener">Official site</a>')
+    if t.get("pricing_url"):
+        parts.append(f'<a href="{esc(t["pricing_url"])}" rel="noopener">Pricing</a>')
+    if t.get("github_repo"):
+        parts.append(f'<a href="https://github.com/{esc(t["github_repo"])}" rel="noopener">GitHub</a>')
+    if not parts:
+        return ""
+    return '<p class="meta out-links">Vendor: ' + ' \u00b7 '.join(parts) + '</p>'
+
+
 def tool_card_html(t):
     tags = f'<span class="tag pricing">{esc(pricing_label(t))}</span><span class="tag desk">Desk-reviewed</span>'
     if t.get("open_source"):

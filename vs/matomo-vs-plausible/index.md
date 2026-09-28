@@ -30,6 +30,10 @@ Teams choosing between them are usually content sites, privacy-conscious startup
 
 [Matomo assessment](/tools/matomo/) · [Plausible Analytics assessment](/tools/plausible/)
 
+Matomo: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pricing/) · [GitHub](https://github.com/matomo-org/matomo)
+
+Plausible Analytics: [Official site](https://plausible.io) · [Pricing](https://plausible.io/#pricing) · [GitHub](https://github.com/plausible/analytics)
+
 ## Priced at volume
 
 Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 on vendor pricing pages.

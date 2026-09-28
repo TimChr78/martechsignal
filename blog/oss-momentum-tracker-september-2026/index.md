@@ -113,7 +113,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Chatbots &amp;amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
+- [Best AI CRM tools (2026): 8 compared](/best/ai-crm-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)
@@ -172,7 +172,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1452,
+  "wordCount": 1450,
   "articleSection": "agent-skills"
 }
 ```

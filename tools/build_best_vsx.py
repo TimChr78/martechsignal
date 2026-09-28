@@ -27,7 +27,7 @@ carry offers/review/aggregateRating or GSC flags the whole page.
 import json
 from pathlib import Path
 
-from build_tools import page_shell, esc, ROOT, pricing_label
+from build_tools import page_shell, esc, ROOT, pricing_label, out_links
 
 BESTX = ROOT / "tools" / "bestx-content.json"
 VSX = ROOT / "tools" / "vsx-content.json"
@@ -80,6 +80,7 @@ def build_best():
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
+  {out_links(t)}
   <p><strong>{esc(it['skip_if'])}</strong></p>
 </section>""")
         body.append(
@@ -158,6 +159,10 @@ def build_vs():
             body.append(f"<p>{esc(para)}</p>")
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
+        for _vt in (a, b):
+            _ol = out_links(_vt)
+            if _ol:
+                body.append(_ol.replace("Vendor:", f"{esc(_vt['name'])}:"))
         # A2 H6 (2026-09-26): the copy promises "the catalog numbers below" - this
         # table is those numbers, straight from the catalog (no invented figures).
         rows = [

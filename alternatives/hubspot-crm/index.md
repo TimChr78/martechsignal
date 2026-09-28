@@ -23,6 +23,8 @@ Before you switch, map your contact and deal records onto the new tool&#x27;s da
 
 Open Source OSS
 
+Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
+
 **Best for:** Technical teams, agencies, and privacy-conscious organizations that want a modern CRM they can self-host and extend with code.
 
 **Not for:** Teams that want a CRM they never think about; Twenty ships no mobile app and no static API reference, and its own docs point such teams to Pipedrive or HubSpot.
@@ -32,6 +34,8 @@ Twenty is open source under AGPLv3 where HubSpot is closed, and self-hosting on 
 ## [EspoCRM](/tools/espocrm/)
 
 Open Source OSS
+
+Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocrm.com/cloud/) · [GitHub](https://github.com/espocrm/espocrm)
 
 **Best for:** Small teams that want a lightweight self-hosted CRM with solid sales automation and are willing to buy extensions as needed.
 
@@ -43,6 +47,8 @@ EspoCRM is a self-hosted AGPLv3 CRM in development since 2011, and its free core
 
 Open Source OSS
 
+Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com/SuiteCRM/SuiteCRM)
+
 **Best for:** Organizations that want the broadest free module set in open-source CRM, from quotes and invoices to campaigns and cases, and can run PHP infrastructure.
 
 **Not for:** Teams that want native AI features or an official mobile app; SuiteCRM has neither.
@@ -53,6 +59,8 @@ SuiteCRM is AGPLv3, forked from SugarCRM Community Edition, and its module list 
 
 From $14/mo
 
+Vendor: [Official site](https://www.pipedrive.com) · [Pricing](https://www.pipedrive.com/en/pricing)
+
 **Best for:** Sales teams that already run a separate marketing stack and want a pipeline-first CRM that reps will actually use.
 
 **Not for:** Teams that need native email marketing, landing pages, or campaign management; Pipedrive has none of those.
@@ -62,6 +70,8 @@ Pipedrive is a paid SaaS CRM priced from $14 per user per month on Essential, wi
 ## [Frappe CRM](/tools/frappe-crm/)
 
 Open Source OSS
+
+Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/frappe/crm)
 
 **Best for:** Budget-conscious sales teams that want unlimited users on an open-source CRM and are comfortable with the Frappe stack.
 

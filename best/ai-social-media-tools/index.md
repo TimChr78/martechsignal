@@ -24,6 +24,8 @@ Hootsuite is one of the oldest social media management platforms, and it has gro
 
 **Verdict:** Teams running many accounts that need scheduling which survives staff turnover
 
+Vendor: [Official site](https://www.hootsuite.com) · [Pricing](https://www.hootsuite.com/plans)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Sprout Social](/tools/sprout-social/)
@@ -31,6 +33,8 @@ Hootsuite is one of the oldest social media management platforms, and it has gro
 Sprout Social is a premium social media management platform that positions itself as the tool for brands that treat social media as a customer care and intelligence channel, not just a broadcasting platform. paid pricing starts at $249/mo, and standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Social teams that want listening and engagement behind a polished UI
+
+Vendor: [Official site](https://sproutsocial.com) · [Pricing](https://sproutsocial.com/pricing/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -40,6 +44,8 @@ Brandwatch, a Cision company, is an AI social media intelligence and consumer in
 
 **Verdict:** Research teams that want consumer intelligence more than a scheduler
 
+Vendor: [Official site](https://www.brandwatch.com) · [Pricing](https://www.brandwatch.com/plans/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Predis.ai](/tools/predis-ai/)
@@ -47,6 +53,8 @@ Brandwatch, a Cision company, is an AI social media intelligence and consumer in
 Predis.ai is an AI-first social media content creation platform. It starts free, and free plan available; Core $19/mo; Pro and Agency tiers; annual discounts (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.
 
 **Verdict:** Solo marketers that want daily post volume on a small budget
+
+Vendor: [Official site](https://predis.ai) · [Pricing](https://predis.ai/pricing/)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -56,6 +64,8 @@ Buffer is a social media management platform known for simplicity and accessibil
 
 **Verdict:** Creators that want scheduling priced per channel, not per seat
 
+Vendor: [Official site](https://buffer.com) · [Pricing](https://buffer.com/pricing)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [MultiPost](/tools/multipost-extension/)
@@ -63,6 +73,8 @@ Buffer is a social media management platform known for simplicity and accessibil
 MultiPost (multipost.social) is a social media scheduling and automation tool focused on simplicity, reliability, and affordability. It starts free, and free open-source browser extension (verified 2026-08-28). The catalog documents 2 AI features, a public API, and a self-hosting path.
 
 **Verdict:** Best for social media teams that want one-click multi-platform publishing and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://multipost.app) · [GitHub](https://github.com/leaperone/MultiPost-Extension)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

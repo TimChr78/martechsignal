@@ -32,6 +32,10 @@ Both sell AI writing to marketing departments, and both pitch governance harder 
 
 [Jasper assessment](/tools/jasper/) · [Writer assessment](/tools/writer/)
 
+Jasper: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.ai/pricing)
+
+Writer: [Official site](https://writer.com) · [Pricing](https://writer.com/plans/)
+
 ## Priced at volume
 
 Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pricing pages.

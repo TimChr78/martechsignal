@@ -30,6 +30,10 @@ Teams usually arrive at this comparison after hitting one of two walls: a Zapier
 
 [n8n assessment](/tools/n8n/) · [Zapier assessment](/tools/zapier/)
 
+n8n: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
+
+Zapier: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
+
 ## Priced at volume
 
 Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.

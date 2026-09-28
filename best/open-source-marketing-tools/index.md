@@ -26,6 +26,8 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://www.dolibarr.org) · [GitHub](https://github.com/Dolibarr/dolibarr)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [n8n](/tools/n8n/)
@@ -33,6 +35,8 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. It starts free, and self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Workflow teams that want automation they can audit line by line
+
+Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -42,6 +46,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 
 **Verdict:** Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com/eracle/OpenOutreach)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Matomo](/tools/matomo/)
@@ -49,6 +55,8 @@ OpenOutreach is an open-source AI agent for B2B lead generation, and it inverts 
 Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Analytics teams that want traffic data on servers they control
+
+Vendor: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pricing/) · [GitHub](https://github.com/matomo-org/matomo)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -58,6 +66,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 
 **Verdict:** Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pricing) · [GitHub](https://github.com/nocodb/nocodb)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [React Email Editor](/tools/react-email-editor/)
@@ -65,6 +75,8 @@ NocoDB turns a database you already run into an Airtable-style spreadsheet: poin
 React Email Editor is Unlayer&#x27;s official React component for embedding a drag-and-drop email builder inside your own application, and it pays to be precise about what the MIT license covers. It starts free, and free tier for the builder. Launch $250/mo, Scale $750/mo, Optimize $2,000/mo, Enterprise custom. Annual billing saves 10% and paid plans include a 14-day trial. AI, export, inbox preview, and bandwidth credit packs run $50 to $2,000/mo (verified 2026-09-06). The catalog documents 5 AI features, 7 integrations, and a self-hosting path.
 
 **Verdict:** Email teams that want templates versioned alongside product code
+
+Vendor: [Official site](https://unlayer.com/) · [Pricing](https://unlayer.com/pricing) · [GitHub](https://github.com/unlayer/react-email-editor)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -74,6 +86,8 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 
 **Verdict:** CRM teams that want open source without accepting feature poverty
 
+Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Claude SEO](/tools/claude-seo/)
@@ -81,6 +95,8 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

@@ -24,6 +24,8 @@ Intercom is an AI-first customer service platform built around Fin AI Agent, its
 
 **Verdict:** Support teams that want AI resolutions auditable at $0.99 each
 
+Vendor: [Official site](https://www.intercom.com) · [Pricing](https://www.intercom.com/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Chatwoot](/tools/chatwoot/)
@@ -31,6 +33,8 @@ Intercom is an AI-first customer service platform built around Fin AI Agent, its
 Chatwoot is an open-source customer engagement platform that folds website live chat, email, WhatsApp, Telegram, Facebook, Instagram, SMS, LINE, TikTok, and an API channel into one team inbox, self-hostable or rented as cloud. It starts free, and community Edition free self-hosted (MIT Expat; the enterprise/ directory is separately licensed). Cloud: Hacker free (2 agents), Startups $19, Business $39, Enterprise $99 per agent/mo billed annually. Captain AI credits $20 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Teams that want an open-source inbox with AI help included
+
+Vendor: [Official site](https://www.chatwoot.com) · [Pricing](https://www.chatwoot.com/pricing) · [GitHub](https://github.com/chatwoot/chatwoot)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -40,6 +44,8 @@ Tidio is an all-in-one customer service platform designed for growing businesses
 
 **Verdict:** Small shops adding live chat and an AI agent cheaply
 
+Vendor: [Official site](https://www.tidio.com) · [Pricing](https://www.tidio.com/pricing/)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [Chatfuel](/tools/chatfuel/)
@@ -47,6 +53,8 @@ Tidio is an all-in-one customer service platform designed for growing businesses
 Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. paid pricing starts at $39/mo, and starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.
 
 **Verdict:** Messaging-first brands scripting conversations like campaigns
+
+Vendor: [Official site](https://chatfuel.com) · [Pricing](https://chatfuel.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -56,6 +64,8 @@ ManyChat is the dominant chat marketing platform for social-first businesses, sp
 
 **Verdict:** Creators monetizing DMs across Instagram and WhatsApp
 
+Vendor: [Official site](https://manychat.com) · [Pricing](https://manychat.com/pricing)
+
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
 ## [ChatbotX](/tools/chatbotx/)
@@ -63,6 +73,8 @@ ManyChat is the dominant chat marketing platform for social-first businesses, sp
 Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven chat marketing and automation across multiple messaging channels. It starts free, and free open-source; self-hosted (verified 2026-08-28). The catalog documents 3 AI features, a public API, and a self-hosting path.
 
 **Verdict:** Developers that want ManyChat&#x27;s playbook as source code
+
+Vendor: [Official site](https://chatbotx.io/docs) · [GitHub](https://github.com/ChatbotXIO/ChatbotX)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

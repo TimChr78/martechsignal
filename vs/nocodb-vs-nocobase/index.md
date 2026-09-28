@@ -30,6 +30,10 @@ The teams choosing between them are marketing ops and internal-tools owners with
 
 [NocoDB assessment](/tools/nocodb/) · [NocoBase assessment](/tools/nocobase/)
 
+NocoDB: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pricing) · [GitHub](https://github.com/nocodb/nocodb)
+
+NocoBase: [Official site](https://www.nocobase.com) · [Pricing](https://www.nocobase.com/pricing) · [GitHub](https://github.com/nocobase/nocobase)
+
 ## Priced at volume
 
 Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor pricing pages.

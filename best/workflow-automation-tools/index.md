@@ -26,6 +26,8 @@ n8n is the open-source end of this list: self-hosted at no cost under a fair-cod
 
 **Verdict:** Best for self-hosted workflows with code steps and AI agents.
 
+Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
+
 **Skip it if you want zero maintenance and instant breadth.**
 
 ## [Zapier](/tools/zapier/)
@@ -33,6 +35,8 @@ n8n is the open-source end of this list: self-hosted at no cost under a fair-cod
 Zapier is the catalog play: more than 9,000 app integrations, still the widest in this directory, and niche martech tools that lack an n8n node usually still ship a Zapier integration. Pricing is task-based and the definition matters: a task counts when an action successfully moves data, triggers and failed actions do not, but every step in a Zap counts, so a twenty-step workflow consumes about twenty tasks per run. Free covers 100 tasks monthly and two-step Zaps; Professional starts at 19.99 dollars monthly billed annually at the 750-task tier (29.99 dollars monthly), Team at 69 dollars with 2,000 tasks and 25 seats. Polling runs 15 minutes on Free, 2 on Professional, 1 on Team. Agents, Chatbots, Canvas, MCP, and Copilot sit on every plan, with agent activity billed separately at 400 activities a month free.
 
 **Verdict:** Best for breadth and onboarding speed on niche integrations.
+
+Vendor: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
 
 **Skip it if task billing would punish your run volume.**
 
@@ -42,6 +46,8 @@ Make, the platform formerly known as Integromat, is the visual middleweight: sce
 
 **Verdict:** Best for branching visual workflows on a small-team budget.
 
+Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
+
 **Skip it if credit expiry beats a flat or self-hosted bill.**
 
 ## [Pipedream](/tools/pipedream/)
@@ -49,6 +55,8 @@ Make, the platform formerly known as Integromat, is the visual middleweight: sce
 Pipedream is the developer platform: more than 3,000 APIs behind a builder where any step can be a no-code action or arbitrary Node.js, Python, or Go code, plus 10,000 pre-built triggers and actions, a key-value data store, and GitHub Sync for version-controlled deployment. Pricing is credit-based because you pay for compute time: Free includes 100 credits monthly and 1 million AI tokens, Basic 29 dollars monthly with 2,000 credits, Advanced 49 dollars with unlimited workflows and accounts plus control-flow operators, Connect 99 dollars for teams embedding integrations in their own products. Any workflow can deploy as an MCP server that AI coding agents call directly. Founded 2019 and acquired by Workday in 2026, with SOC 2 Type II, HIPAA, and GDPR attestations on record.
 
 **Verdict:** Best for developer teams wanting code steps and MCP endpoints.
+
+Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
 
 **Skip it if nobody will write code inside an automation step.**
 
@@ -58,6 +66,8 @@ Workato is the enterprise option, and the first thing to know is that pricing is
 
 **Verdict:** Best for enterprises governing agents and integration in one platform.
 
+Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workato.com/pricing)
+
 **Skip it without an enterprise budget and a sales process.**
 
 ## [Tray.io](/tools/tray-io/)
@@ -65,6 +75,8 @@ Workato is the enterprise option, and the first thing to know is that pricing is
 Tray.io trades as Tray.ai now and calls itself an AI orchestration platform rather than an iPaaS, and the 2026 shipping record backs the repositioning: Tray Headless arrived in June with plugins for Claude Code and Codex, MCP dynamic authentication and a Sync CLI followed in August, and Tray Helix is a managed runtime that puts AI-built apps into production with security controls and a named owner. The automation core stays familiar: service triggers, webhooks, or scheduled polls, conditional logic, callable workflows, and a data mapper over 700-plus pre-built connectors, with a connector SDK for gaps and on-premise connectivity. Pricing is not public: three tiers (Pro, Team, Enterprise) metered in Tasks across integration, automation, MCP, and agents. AI Palette ships on every plan; Merlin Agent Builder is a paid add-on.
 
 **Verdict:** Best for AI app governance plus integration on one platform.
+
+Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 **Skip it if transparent pricing or self-hosting is required.**
 

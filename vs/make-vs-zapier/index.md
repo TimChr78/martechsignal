@@ -32,6 +32,10 @@ Both platforms now sell AI features on top of the same plumbing: triggers, actio
 
 [Make assessment](/tools/make/) · [Zapier assessment](/tools/zapier/)
 
+Make: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
+
+Zapier: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
+
 ## Priced at volume
 
 Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.

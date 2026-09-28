@@ -26,6 +26,8 @@ EspoCRM fits teams that want a lean sales CRM and will pay only for automation t
 
 **Verdict:** Best for lean sales teams that automate à la carte.
 
+Vendor: [Official site](https://www.espocrm.com) · [Pricing](https://www.espocrm.com/cloud/) · [GitHub](https://github.com/espocrm/espocrm)
+
 **Skip it if free workflow automation or reports are requirements.**
 
 ## [SuiteCRM](/tools/suitecrm/)
@@ -33,6 +35,8 @@ EspoCRM fits teams that want a lean sales CRM and will pay only for automation t
 SuiteCRM has the deepest free module set here and the clearest answer to EspoCRM&#x27;s pricing split: workflow automation and calculated fields ship in the core at no cost. The AGPLv3 project forked SugarCRM Community Edition and outlived it, maintained from Stirling, Scotland, with quotes, invoices, contracts, PDF templates, campaigns, surveys, cases, scheduled reports, and document management, plus Studio and Module Builder for no-code changes. Two release lines are current: 8.10.2 and 7.15.2 shipped together in July 2026, and 7.15 is an extended support release with security fixes published into 2028. The trade-offs are plain: no native AI in the documented feature set, no official mobile app, and a PHP 8.2 to 8.4 stack your team maintains.
 
 **Verdict:** Best for teams that want the widest free feature set.
+
+Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com/SuiteCRM/SuiteCRM)
 
 **Skip it if you want native AI or an official mobile app.**
 
@@ -42,6 +46,8 @@ Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitH
 
 **Verdict:** Best for technically fluent teams wanting a modern extensible CRM.
 
+Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
+
 **Skip it if nobody writes TypeScript or wants a Node stack.**
 
 ## [Frappe CRM](/tools/frappe-crm/)
@@ -49,6 +55,8 @@ Twenty is the Salesforce-alternative pitch aimed at technical teams: 56,507 GitH
 Frappe CRM is the affordability pick: free to self-host under AGPL-3.0, Frappe Cloud from 5 dollars per month per site, dedicated servers 20 to 60 dollars monthly, and no tier that charges per user, with unlimited leads, deals, and users. It runs on the Frappe framework behind ERPNext and moves fast: roughly 130 releases across 2025 and 2026, reaching v1.83.0 in September 2026. Every lead and deal is a Frappe document, so custom fields, custom statuses, and Python server scripts extend it the ERPNext way. Integrations are narrow and documented: Twilio and Exotel telephony with click-to-call, WhatsApp via a third-party app, ERPNext, and Meta Lead Ads. The interface is a Vue 3 app delivered as a progressive web app.
 
 **Verdict:** Best for budget-conscious sales teams, especially ERPNext shops.
+
+Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/frappe/crm)
 
 **Skip it if you need a wide integration marketplace or native apps.**
 
@@ -58,6 +66,8 @@ Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user l
 
 **Verdict:** Best for Laravel shops that want room to extend a CRM.
 
+Vendor: [Official site](https://krayincrm.com) · [Pricing](https://krayincrm.com/extensions/) · [GitHub](https://github.com/krayin/laravel-crm)
+
 **Skip it without PHP 8.3 capacity or appetite for thin docs.**
 
 ## [Monica](/tools/monica/)
@@ -65,6 +75,8 @@ Krayin CRM is the Laravel-native option from Webkul: MIT-licensed with no user l
 Monica is a different kind of CRM: a personal relationship manager built for documenting people rather than selling to them, with notes, activities, reminders including automatic birthdays, gifts, calls, life events, and 27 languages per the README, organized into vaults. Self-hosting is free under AGPL; hosted Monica is one plan at 9 dollars per month or 90 dollars yearly with unlimited contacts and managed backups. The README is explicit that it is not a social network and has no built-in AI. One fact shapes adoption: the app codebase is dormant, with the last main-branch commit in August 2025 and the newest stable release v4.1.2 from May 2024, while a rebuild called Monica v3 is promised before the end of 2026.
 
 **Verdict:** Best for relationship-led founders and community businesses.
+
+Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/monicahq/monica)
 
 **Skip it if you need pipeline management or active releases.**
 

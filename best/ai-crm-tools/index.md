@@ -26,6 +26,8 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://www.dolibarr.org) · [GitHub](https://github.com/Dolibarr/dolibarr)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [HubSpot CRM](/tools/hubspot-crm/)
@@ -33,6 +35,8 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It starts free, and free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Teams that want a full funnel platform with CRM at its base
+
+Vendor: [Official site](https://www.hubspot.com/products/crm) · [Pricing](https://www.hubspot.com/pricing/crm)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -42,6 +46,8 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 
 **Verdict:** Developers that want Salesforce-shaped records on their own Postgres
 
+Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Cordys CRM](/tools/cordys-crm/)
@@ -49,6 +55,8 @@ Twenty is an open-source CRM that bills itself as the open alternative to Salesf
 Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It starts free, and community edition free and self-hosted (GPLv3-based license, API capped at 1,000 calls/day). Enterprise edition: annual subscription published at ¥30,000 / ¥60,000 / ¥120,000 per year by company revenue, no per-seat fees, flagship adds hot-standby HA. DataEase embedding requires a DataEase commercial edition (verified 2026-09-07). The catalog documents 5 AI features, 4 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://cordys.cn) · [Pricing](https://cordys.cn/pricing.html) · [GitHub](https://github.com/1Panel-dev/CordysCRM)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -58,6 +66,8 @@ Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://bottlecrm.io) · [GitHub](https://github.com/Django-CRM/Django-CRM)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Frappe CRM](/tools/frappe-crm/)
@@ -65,6 +75,8 @@ Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built
 Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. It starts free, and free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud (verified 2026-09-06). The catalog documents 5 integrations and a self-hosting path.
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/frappe/crm)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -74,6 +86,8 @@ AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST A
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://github.com/gopherium/AlphOne) · [Pricing](https://github.com/gopherium/AlphOne) · [GitHub](https://github.com/gopherium/AlphOne)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Monica](/tools/monica/)
@@ -81,6 +95,8 @@ AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST A
 Monica is an open-source personal relationship manager, the project&#x27;s own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. It starts free, and self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier (verified 2026-09-07). The catalog documents a public API and a self-hosting path.
 
 **Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/monicahq/monica)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

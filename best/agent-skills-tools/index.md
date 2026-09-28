@@ -26,6 +26,8 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Claude Ads](/tools/claude-ads/)
@@ -33,6 +35,8 @@ Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free
 Claude Ads is a paid-media operations skill that runs inside Claude Code. It starts free, and free, MIT-licensed. Runs inside Claude Code. API costs for Claude apply (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](https://github.com/AgriciDaniel/claude-ads)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -42,6 +46,8 @@ google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google A
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) · [Pricing](https://www.get-ryze.ai/payment-setup) · [GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Digital Marketing Pro](/tools/digital-marketing-pro/)
@@ -49,6 +55,8 @@ google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google A
 Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It starts free, and free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://github.com/indranilbanerjee/digital-marketing-pro) · [GitHub](https://github.com/indranilbanerjee/digital-marketing-pro)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -58,6 +66,8 @@ Email Marketing Bible is what happens when someone who ran an email SaaS (Smartr
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [GitHub](https://github.com/CosmoBlk/email-marketing-bible)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/)
@@ -65,6 +75,8 @@ Email Marketing Bible is what happens when someone who ran an email SaaS (Smartr
 GTM Cheat Codes is the skill library Zapier&#x27;s own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](https://github.com/zapier/gtm-cheat-codes)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -74,6 +86,8 @@ Eve Marketing Team Template is Vercel&#x27;s starter for running a five-person m
 
 **Verdict:** Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://github.com/vercel-labs/marketing-team-eve-template) · [GitHub](https://github.com/vercel-labs/marketing-team-eve-template)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/)
@@ -81,6 +95,8 @@ Eve Marketing Team Template is Vercel&#x27;s starter for running a five-person m
 OpenClaw Marketing Skills gives OpenClaw agents a full marketing brain: 37 skills across CRO, copywriting, SEO, paid ads, email, growth, retention, sales, and strategy. It starts free, and free, MIT-licensed. Runs on OpenClaw agents. Cloud hosting available via MyClaw.ai (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://github.com/LeoYeAI/openclaw-marketing-skills) · [GitHub](https://github.com/LeoYeAI/openclaw-marketing-skills)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

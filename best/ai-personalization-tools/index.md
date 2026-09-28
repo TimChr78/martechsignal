@@ -26,6 +26,8 @@ Dynamic Yield by Mastercard is an enterprise personalization platform built arou
 
 **Verdict:** Large commerce operations buying personalization depth over self-serve
 
+Vendor: [Official site](https://www.dynamicyield.com) · [Pricing](https://www.dynamicyield.com/pricing/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Twilio Segment](/tools/segment/)
@@ -33,6 +35,8 @@ Dynamic Yield by Mastercard is an enterprise personalization platform built arou
 Twilio Segment is a developer-first customer data platform: SDKs and server libraries send events to one API, and Segment routes them to analytics tools, ad platforms, and warehouses. It starts free, and free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026 (verified 2026-09-06). The catalog documents 6 AI features, 10 integrations, and a public API.
 
 **Verdict:** Teams whose personalization problem is really a data plumbing problem
+
+Vendor: [Official site](https://segment.com) · [Pricing](https://www.twilio.com/en-us/pricing/customer-data)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -42,6 +46,8 @@ Nosto is a commerce experience platform for online stores, built around a shared
 
 **Verdict:** Merchants that want recommendations their merchandisers can steer
 
+Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.com/pricing/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Clerk.io](/tools/clerk-io/)
@@ -49,6 +55,8 @@ Nosto is a commerce experience platform for online stores, built around a shared
 Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
 
 **Verdict:** Mid-size stores that want search and recs without enterprise procurement
+
+Vendor: [Official site](https://www.clerk.io) · [Pricing](https://www.clerk.io/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -58,6 +66,8 @@ Tealium is an independent enterprise Customer Data Platform (CDP) built around t
 
 **Verdict:** Regulated enterprises that need governance around every customer event
 
+Vendor: [Official site](https://tealium.com) · [Pricing](https://tealium.com/pricing/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Flagsmith](/tools/flagsmith/)
@@ -65,6 +75,8 @@ Tealium is an independent enterprise Customer Data Platform (CDP) built around t
 Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,570 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Teams that want their experiment engine as open as their stack
+
+Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flagsmith.com/pricing) · [GitHub](https://github.com/Flagsmith/flagsmith)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -74,6 +86,8 @@ GrowthBook is an open-source feature flag and A/B testing platform with 8,430 Gi
 
 **Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.growthbook.io/pricing) · [GitHub](https://github.com/growthbook/growthbook)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Jitsu](/tools/jitsu/)
@@ -81,6 +95,8 @@ GrowthBook is an open-source feature flag and A/B testing platform with 8,430 Gi
 Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+
+Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricing) · [GitHub](https://github.com/jitsucom/jitsu)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

@@ -30,6 +30,10 @@ Most decisions here come down to how it bills. The figures below are the catalog
 
 [Salesforce Marketing Cloud assessment](/tools/salesforce-marketing-cloud/) · [HubSpot Marketing Hub assessment](/tools/hubspot-marketing-hub/)
 
+Salesforce Marketing Cloud: [Official site](https://www.salesforce.com/products/marketing-cloud/) · [Pricing](https://www.salesforce.com/products/marketing-cloud/pricing/)
+
+HubSpot Marketing Hub: [Official site](https://www.hubspot.com/products/marketing) · [Pricing](https://www.hubspot.com/pricing/marketing)
+
 ## Priced at volume
 
 Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.

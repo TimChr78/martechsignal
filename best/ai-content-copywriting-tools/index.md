@@ -26,6 +26,8 @@ Writer is an enterprise AI platform built around its own Palmyra model family ra
 
 **Verdict:** Enterprises that put brand governance ahead of raw output
 
+Vendor: [Official site](https://writer.com) · [Pricing](https://writer.com/plans/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Persado](/tools/persado/)
@@ -33,6 +35,8 @@ Writer is an enterprise AI platform built around its own Palmyra model family ra
 Persado is an AI content platform for regulated marketing, and its 2026 site leads with new framing: the agentic creative agency for regulated brands, aimed squarely at financial services. Pricing is enterprise and quoted per contract, and enterprise custom pricing; focused on regulated industries (finserv, retail, travel) (verified 2026-09-07). The catalog documents 5 AI features, 10 integrations, and a public API.
 
 **Verdict:** Large senders that want language tested against response data at scale
+
+Vendor: [Official site](https://www.persado.com) · [Pricing](https://www.persado.com/contact/)
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -42,6 +46,8 @@ Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluat
 
 **Verdict:** Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract.
 
+Vendor: [Official site](https://www.jacquard.com) · [Pricing](https://www.jacquard.com/book-a-demo/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Jasper](/tools/jasper/)
@@ -49,6 +55,8 @@ Phrasee rebranded as Jacquard in June 2024, so an evaluation today is an evaluat
 Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Marketing teams enforcing one brand voice across many writers
+
+Vendor: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.ai/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -58,6 +66,8 @@ Anyword is an AI copywriting platform built around a single, measurable proposit
 
 **Verdict:** Performance marketers that want a score before paying to publish
 
+Vendor: [Official site](https://www.anyword.com) · [Pricing](https://www.anyword.com/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Copy.ai](/tools/copy-ai/)
@@ -65,6 +75,8 @@ Anyword is an AI copywriting platform built around a single, measurable proposit
 Copy.ai started in 2020 as an AI copywriting tool but has undergone one of the sharper strategic pivots in the AI marketing space, repositioning as a GTM AI platform that orchestrates sales and marketing workflows rather than just generating text. It starts free, and free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** GTM teams that want workflows, not another blank prompt box
+
+Vendor: [Official site](https://www.copy.ai) · [Pricing](https://www.copy.ai/prices)
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -74,6 +86,8 @@ Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built 
 
 **Verdict:** Catalog-heavy stores generating product content in bulk
 
+Vendor: [Official site](https://www.hypotenuse.ai) · [Pricing](https://www.hypotenuse.ai/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Strapi](/tools/strapi/)
@@ -81,6 +95,8 @@ Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built 
 Developed in Paris and launched in 2015, Strapi is an open-source headless CMS that gives marketing and engineering teams a centralized place to model, manage, and distribute content across websites, apps, and digital products. It starts free, and self-hosted free (MIT); Cloud Developer free; Pro €99/mo; Team $499/mo; Enterprise custom (verified 2026-08-28). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Teams that want a headless CMS with AI inside their own stack
+
+Vendor: [Official site](https://strapi.io) · [Pricing](https://strapi.io/pricing) · [GitHub](https://github.com/strapi/strapi)
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 

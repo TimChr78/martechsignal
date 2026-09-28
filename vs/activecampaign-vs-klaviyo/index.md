@@ -32,6 +32,10 @@ The choice usually lands on one question: how much of the customer relationship 
 
 [ActiveCampaign assessment](/tools/activecampaign/) · [Klaviyo assessment](/tools/klaviyo/)
 
+ActiveCampaign: [Official site](https://www.activecampaign.com) · [Pricing](https://www.activecampaign.com/pricing)
+
+Klaviyo: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviyo.com/pricing)
+
 ## Priced at volume
 
 Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.

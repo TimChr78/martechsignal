@@ -188,8 +188,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools)

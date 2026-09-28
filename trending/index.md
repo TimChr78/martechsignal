@@ -3,16 +3,16 @@
 
 | Tool | Stars now | Delta | Growth | Window |
 | --- | --- | --- | --- | --- |
-| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) | 2,900 | +1832 | 171.54% | Aug 25 to Sep 28, 2026 |
-| [Ever Gauzy](/tools/ever-gauzy/) | 8,117 | +3769 | 86.68% | Aug 25 to Sep 28, 2026 |
-| [DeskcommCRM](/tools/deskcommcrm/) | 4,151 | +1616 | 63.75% | Aug 25 to Sep 28, 2026 |
-| [ChatbotX](/tools/chatbotx/) | 843 | +178 | 26.77% | Aug 25 to Sep 28, 2026 |
-| [Codex SEO](/tools/codex-seo/) | 759 | +139 | 22.42% | Aug 25 to Sep 28, 2026 |
-| [OpenSEO](/tools/openseo/) | 21,423 | +3684 | 20.77% | Aug 25 to Sep 28, 2026 |
-| [WaCRM](/tools/wacrm/) | 2,431 | +377 | 18.35% | Aug 25 to Sep 28, 2026 |
-| [Claude SEO](/tools/claude-seo/) | 17,817 | +2721 | 18.02% | Aug 25 to Sep 28, 2026 |
-| [Email Marketing Bible](/tools/email-marketing-bible/) | 320 | +41 | 14.70% | Aug 25 to Sep 28, 2026 |
-| [MultiPost](/tools/multipost-extension/) | 3,548 | +454 | 14.67% | Aug 25 to Sep 28, 2026 |
+| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) · [repo](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) | 2,900 | +1832 | 171.54% | Aug 25 to Sep 28, 2026 |
+| [Ever Gauzy](/tools/ever-gauzy/) · [repo](https://github.com/ever-co/ever-gauzy) | 8,117 | +3769 | 86.68% | Aug 25 to Sep 28, 2026 |
+| [DeskcommCRM](/tools/deskcommcrm/) · [repo](https://github.com/melgarafael/DeskcommCRM) | 4,151 | +1616 | 63.75% | Aug 25 to Sep 28, 2026 |
+| [ChatbotX](/tools/chatbotx/) · [repo](https://github.com/ChatbotXIO/ChatbotX) | 843 | +178 | 26.77% | Aug 25 to Sep 28, 2026 |
+| [Codex SEO](/tools/codex-seo/) · [repo](https://github.com/AgriciDaniel/codex-seo) | 759 | +139 | 22.42% | Aug 25 to Sep 28, 2026 |
+| [OpenSEO](/tools/openseo/) · [repo](https://github.com/every-app/open-seo) | 21,423 | +3684 | 20.77% | Aug 25 to Sep 28, 2026 |
+| [WaCRM](/tools/wacrm/) · [repo](https://github.com/ArnasDon/wacrm) | 2,431 | +377 | 18.35% | Aug 25 to Sep 28, 2026 |
+| [Claude SEO](/tools/claude-seo/) · [repo](https://github.com/AgriciDaniel/claude-seo) | 17,817 | +2721 | 18.02% | Aug 25 to Sep 28, 2026 |
+| [Email Marketing Bible](/tools/email-marketing-bible/) · [repo](https://github.com/CosmoBlk/email-marketing-bible) | 320 | +41 | 14.70% | Aug 25 to Sep 28, 2026 |
+| [MultiPost](/tools/multipost-extension/) · [repo](https://github.com/leaperone/MultiPost-Extension) | 3,548 | +454 | 14.67% | Aug 25 to Sep 28, 2026 |
 
 Agent Skills***16*
 

@@ -26,6 +26,8 @@ Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion 
 
 **Verdict:** Media buyers that trust rules they wrote more than black boxes
 
+Vendor: [Official site](https://bir.ch) · [Pricing](https://bir.ch/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Pencil](/tools/pencil/)
@@ -33,6 +35,8 @@ Revealbot is now Bïrch (bir.ch), and the rebrand came with a product expansion 
 Pencil is a generative-AI creative platform that has grown from ad generation into what it now calls the AI operating system for marketing, operating under Pencil AI Limited with Brandtech Group branding still across the site. paid pricing starts at $14/mo, and core $14/mo ($11/mo billed annually) with 50 generations; Growth $55/mo ($44/mo annual) with 250 generations and unlimited workspaces; Pro custom-priced with unlimited generations and committed consumption. Metered in generations, not seats (verified 2026-09-06). The catalog documents 5 AI features and 11 integrations.
 
 **Verdict:** Best for advertising &amp; paid media teams that want gwi-powered insights agent, starting at $14/mo.
+
+Vendor: [Official site](https://trypencil.com) · [Pricing](https://trypencil.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -42,6 +46,8 @@ Smartly.io, now branded simply Smartly, is an AI advertising platform that puts 
 
 **Verdict:** Enterprises consolidating creative production and media buying in one contract
 
+Vendor: [Official site](https://www.smartly.io) · [Pricing](https://www.smartly.io/get-demo)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [AdCreative.ai](/tools/adcreative-ai/)
@@ -49,6 +55,8 @@ Smartly.io, now branded simply Smartly, is an AI advertising platform that puts 
 AdCreative.ai is an AI ad creative generation platform that produces converting ad creatives (images, videos, and copy) at scale. paid pricing starts at $39/mo, and starter $39/mo (annual $20/mo); Professional $249/mo; Ultimate $599/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Lean teams that want creative volume with a score attached
+
+Vendor: [Official site](https://www.adcreative.ai) · [Pricing](https://www.adcreative.ai/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -58,6 +66,8 @@ Albert AI is an autonomous digital advertising platform that markets itself as &
 
 **Verdict:** Advertisers ready to hand the daily optimization loop to a machine
 
+Vendor: [Official site](https://albert.ai) · [Pricing](https://albert.ai/contact/)
+
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
 ## [Madgicx](/tools/madgicx/)
@@ -65,6 +75,8 @@ Albert AI is an autonomous digital advertising platform that markets itself as &
 Madgicx is an all-in-one Meta ads platform - the vendor calls it an Ecom Ad Cloud - combining optimization, AI-generated ad creative, and marketing attribution in one subscription. paid pricing starts at $49/mo, and entry plan $49/mo (AI Ads tier visible on pricing page); pricing calculator scales by monthly ad spend bands from &lt;$1K to $30K+. Free trial ($0) available (verified 2026-09-07). The catalog documents 5 AI features and 4 integrations.
 
 **Verdict:** Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $49/mo.
+
+Vendor: [Official site](https://madgicx.com/) · [Pricing](https://madgicx.com/pricing)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -74,6 +86,8 @@ advertools is a Python package by Elias Dabbas for online marketing analysis. It
 
 **Verdict:** Best for advertising &amp; paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.
 
+Vendor: [Official site](https://advertools.readthedocs.io) · [GitHub](https://github.com/eliasdabbas/advertools)
+
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
 ## [Opteo](/tools/opteo/)
@@ -81,6 +95,8 @@ advertools is a Python package by Elias Dabbas for online marketing analysis. It
 Opteo is a Google Ads monitoring and improvement layer that sits on top of your existing account. paid pricing starts at $129/mo, and basic $129/mo (10 accounts, $25,000 spend/mo, live chat, 24hr refresh); Professional $249/mo (25 accounts, $100,000 spend/mo, priority support, 12hr refresh). Enterprise by quote. 14-day free trial (verified 2026-09-07). The catalog documents 3 AI features and 2 integrations.
 
 **Verdict:** Best for advertising &amp; paid media teams that want the job covered in one platform, starting at $129/mo.
+
+Vendor: [Official site](https://opteo.com/) · [Pricing](https://opteo.com/pricing/)
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 

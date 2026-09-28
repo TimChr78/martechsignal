@@ -90,6 +90,7 @@ def load_data():
             "pct": pct,
             "series": series,
             "days": len(series),
+            "repo": t.get("github_repo") or "",
         })
     return hist, rows, start["date"], end["date"]
 
@@ -115,7 +116,9 @@ def build_page():
     for r in movers:
         cls = "up" if r["delta"] > 0 else ("flat" if r["delta"] == 0 else "down")
         movers_rows += (
-            f'<tr><td><a href="/tools/{r["slug"]}/">{esc(r["name"])}</a></td>'
+            f'<tr><td><a href="/tools/{r["slug"]}/">{esc(r["name"])}</a>'
+            + (f' \u00b7 <a class="out-repo" href="https://github.com/{esc(r["repo"])}" rel="noopener">repo</a>' if r.get("repo") else '')
+            + '</td>'
             f'<td class="num">{star(r["stars"])}</td>'
             f'<td class="num {cls}">{r["delta"]:+d}</td>'
             f'<td class="num {cls}">{r["pct"]:.2f}%</td>'

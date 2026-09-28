@@ -30,6 +30,8 @@ The table below compares all ten on the four axes that decide these purchases: w
 
 Open Source OSS
 
+Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [GitHub](https://github.com/n8n-io/n8n)
+
 **Best for:** Marketing operations teams, agencies, and AI-focused organizations that want extensible automation with the option to self-host.
 
 **Not for:** Teams that want the widest possible app catalog with zero infrastructure to manage; n8n&#x27;s library runs to 400+ nodes against Zapier&#x27;s 9,000+ integrations.
@@ -39,6 +41,8 @@ n8n runs on a fair-code model: self-hosting is free, cloud Starter is $20 per mo
 ## [Make](/tools/make/)
 
 Freemium
+
+Vendor: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en/pricing)
 
 **Best for:** Technical marketing teams that have outgrown a linear editor and want branching, looping, and visible error handling.
 
@@ -50,6 +54,8 @@ Make draws scenarios as a graph, so routers and error handling are visible rathe
 
 From $29/mo
 
+Vendor: [Official site](https://pipedream.com) · [Pricing](https://pipedream.com/pricing)
+
 **Best for:** Developers and revenue operations teams that want arbitrary code in every step and managed authentication for the APIs around it.
 
 **Not for:** Marketers who want a purely visual builder; Pipedream is built for people comfortable writing Node.js, Python, or Go.
@@ -59,6 +65,8 @@ Pipedream connects over 3,000 APIs and bills in credits rather than tasks: Basic
 ## [Tray.io](/tools/tray-io/)
 
 Enterprise
+
+Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 
 **Best for:** Enterprises that need integrations and AI agents governed inside a compliance boundary, with SSO and regional hosting available.
 
@@ -70,6 +78,8 @@ Tray.io is an AI orchestration platform with 700-plus pre-built connectors, a co
 
 Free tier OSS
 
+Vendor: [Official site](https://budibase.com) · [Pricing](https://budibase.com/pricing) · [GitHub](https://github.com/budibase/budibase)
+
 **Best for:** Operations teams that want lead-routing consoles, approval queues, and automations running self-hosted on their own data.
 
 **Not for:** Teams whose workflows mostly move records between SaaS products; Budibase automations trigger on rows written through Budibase, not on rows inserted directly into an external Postgres or MySQL.
@@ -79,6 +89,8 @@ Budibase is an open-core operations platform where self-hosting is free with unl
 ## [Pabbly Connect](/tools/pabbly-connect/)
 
 From $16/mo
+
+Vendor: [Official site](https://www.pabbly.com/connect/) · [Pricing](https://www.pabbly.com/connect/#pricing)
 
 **Best for:** Teams with steady, high automation volume that want the cheapest predictable bill in the category, or a one-time lifetime license instead of a subscription.
 
@@ -90,6 +102,8 @@ Nearly every ranking competitor lists Pabbly Connect, and the reason is arithmet
 
 From $15/mo
 
+Vendor: [Official site](https://powerautomate.microsoft.com) · [Pricing](https://powerautomate.microsoft.com/en-us/pricing/)
+
 **Best for:** Organizations standardized on Microsoft 365 that want automation governed inside the tenant their IT department already manages.
 
 **Not for:** Teams outside the Microsoft estate, or anyone whose use case needs unattended RPA at scale and cannot absorb per-bot pricing.
@@ -99,6 +113,8 @@ Microsoft Power Automate wins on proximity: SharePoint, Dataverse, and Office co
 ## [IFTTT](/tools/ifttt/)
 
 Freemium
+
+Vendor: [Official site](https://ifttt.com) · [Pricing](https://ifttt.com/plans)
 
 **Best for:** Edge and personal workflows: smart-device events, social triggers, quick connectivity where a full automation platform would be absurd.
 
@@ -110,6 +126,8 @@ IFTTT is the cheapest way into the category and the only one that reaches consum
 
 Freemium OSS
 
+Vendor: [Official site](https://www.activepieces.com) · [Pricing](https://www.activepieces.com/pricing) · [GitHub](https://github.com/activepieces/activepieces)
+
 **Best for:** Teams that want automation infrastructure they can inspect, self-host, or run air-gapped, with flat-fee cloud pricing and bring-your-own AI keys as the alternative.
 
 **Not for:** Teams chasing the largest possible app catalog or enterprise SSO on an entry budget. SSO starts at the $200/month tier.
@@ -119,6 +137,8 @@ The most honest pricing page in the category: the same product runs on their clo
 ## [Workato](/tools/workato/)
 
 Enterprise
+
+Vendor: [Official site](https://www.workato.com) · [Pricing](https://www.workato.com/pricing)
 
 **Best for:** Enterprise automation programs that want a governed, Gartner-class platform and have the budget a platform fee plus usage-based pricing implies.
 

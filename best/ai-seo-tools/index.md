@@ -30,6 +30,8 @@ Profound started as an AI search visibility tool and now sells a wider AI market
 
 **Verdict:** Best for enterprise teams buying answer-engine visibility and content activation from one vendor.
 
+Vendor: [Official site](https://www.tryprofound.com/) · [Pricing](https://www.tryprofound.com/pricing)
+
 **you want public pricing or a small self-serve plan: every contract is quoted.**
 
 ## [Scrunch](/tools/scrunch/)
@@ -37,6 +39,8 @@ Profound started as an AI search visibility tool and now sells a wider AI market
 Scrunch sells itself as an AI customer experience platform: it watches how AI agents and answer engines talk about your brand, then helps you fix what they find. Core costs 250 dollars a month: 125 unique prompts, 5 site audits a month, 1 brand workspace, 5 users, and 4 LLMs. Enterprise is custom and widens coverage to 9 LLMs. The distinguishing move is on the receiving side: it audits and prepares your site for AI agents that fetch pages on a user&#x27;s behalf.
 
 **Verdict:** Best for brands that want measurement and AI-crawler readiness in one product.
+
+Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/pricing/)
 
 **you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
 
@@ -46,6 +50,8 @@ OtterlyAI is an AI search monitoring platform from Austria that tracks brand men
 
 **Verdict:** Best entry price for brand and citation tracking across the major answer engines.
 
+Vendor: [Official site](https://otterly.ai/) · [Pricing](https://otterly.ai/pricing)
+
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
 ## [Rankscale](/tools/rankscale/)
@@ -53,6 +59,8 @@ OtterlyAI is an AI search monitoring platform from Austria that tracks brand men
 Rankscale is a Vienna-built AI visibility platform aimed at agencies and enterprise teams. It tracks brand mentions, rankings, citations, and sentiment across 17 or more answer engines. Pro runs EUR 99 a month with 1,200 credits, Growth EUR 385 with 5,500, and Enterprise EUR 780 with 12,000. Yearly billing changes the numbers, so the tool page carries both bases.
 
 **Verdict:** Best engine coverage for agencies that report AI visibility to clients.
+
+Vendor: [Official site](https://rankscale.ai/) · [Pricing](https://rankscale.ai/pricing)
 
 **credit-based billing does not suit you: heavier tracking moves you up tiers quickly.**
 
@@ -62,6 +70,8 @@ Trakkr is a London-made AI visibility platform for brands and agencies, tracking
 
 **Verdict:** Best flat per-brand rate that also includes a modest content allowance.
 
+Vendor: [Official site](https://trakkr.ai/) · [Pricing](https://trakkr.ai/pricing)
+
 **you track many brands: per-brand pricing multiplies fast.**
 
 ## [Evertune](/tools/evertune/)
@@ -69,6 +79,8 @@ Trakkr is a London-made AI visibility platform for brands and agencies, tracking
 Evertune is a New York platform for brand discovery in AI search, founded in 2024 by early team members of The Trade Desk. Pro costs 800 dollars a month and tracks 100,000 prompts across 11 AI models, with 25 AI-optimized articles a month and 3 onboarding sessions included. It also runs a ChatGPT Ad Agent. The prompt allowance is the largest in this list by a wide margin.
 
 **Verdict:** Best for large prompt programs where coverage beats entry price.
+
+Vendor: [Official site](https://www.evertune.ai) · [Pricing](https://www.evertune.ai/pricing)
 
 **800 dollars a month is more than the budget allows: it is the floor here, not a starter tier.**
 
@@ -78,6 +90,8 @@ Nimt.ai is a Swedish AI search tool that combines tracking with an agent that do
 
 **Verdict:** Best mix of tracking and hands-off fixing at an entry price.
 
+Vendor: [Official site](https://nimt.ai) · [Pricing](https://www.nimt.ai/pricing)
+
 **credit billing or a card-required trial is a non-starter for your team.**
 
 ## [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
@@ -85,6 +99,8 @@ Nimt.ai is a Swedish AI search tool that combines tracking with an agent that do
 Adobe LLM Optimizer is what Adobe launched this product as in June 2025; the product page now calls it Adobe Brand Visibility and keeps the old name in parentheses. It is sold inside Adobe Experience Cloud and quoted per customer (September 2026). Its rare feature is the money end of the loop: CDN-edge changes to what AI crawlers see, and revenue attribution for the visibility it measures.
 
 **Verdict:** Best for teams already inside Adobe Experience Cloud that want attribution to revenue.
+
+Vendor: [Official site](https://business.adobe.com/products/brand-visibility.html) · [Pricing](https://business.adobe.com/products/brand-visibility.html)
 
 **you want a standalone tool or public pricing: it ships inside the Adobe platform, quoted.**
 
@@ -94,6 +110,8 @@ Promptfoo is an open source LLM evaluation toolkit that developers use to test p
 
 **Verdict:** Best free entry point, provided someone on the team can run a CLI.
 
+Vendor: [Official site](https://promptfoo.dev) · [Pricing](https://www.promptfoo.dev/pricing/) · [GitHub](https://github.com/promptfoo/promptfoo)
+
 **you want a managed dashboard out of the box: this is a toolkit, not a product tour.**
 
 ## [Ahrefs](/tools/ahrefs/)
@@ -101,6 +119,8 @@ Promptfoo is an open source LLM evaluation toolkit that developers use to test p
 Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its answer to AI visibility: when AI systems respond to questions in your category, does your brand appear, and who gets cited instead. Lite costs 129 dollars a month, Standard 249, Advanced 449, and Enterprise is quoted (verified September 2026). The AI tracking rides on the full suite rather than selling alone.
 
 **Verdict:** Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
+
+Vendor: [Official site](https://ahrefs.com) · [Pricing](https://ahrefs.com/pricing)
 
 **you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
 
