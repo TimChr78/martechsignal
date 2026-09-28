@@ -147,9 +147,11 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 ## Related reading
 
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
+
+Related guides: [Ai Seo Tools](/best/ai-seo-tools)
 
 ## Get the next teardown
 

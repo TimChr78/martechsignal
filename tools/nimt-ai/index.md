@@ -174,7 +174,7 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
 
 ## Get the next teardown
 

@@ -179,7 +179,7 @@ Yes. Evertune launched a ChatGPT Ad Agent that buys ads in conversations where y
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
 
 ## Get the next teardown
 

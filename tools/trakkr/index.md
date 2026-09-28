@@ -172,7 +172,7 @@ Yes. Unlike most enterprise GEO platforms, Trakkr lists plan prices openly; cust
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
 
 ## Get the next teardown
 

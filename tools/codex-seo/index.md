@@ -153,6 +153,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ### Quick Facts
 
+Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

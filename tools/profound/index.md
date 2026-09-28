@@ -172,7 +172,7 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
 
 ## Get the next teardown
 

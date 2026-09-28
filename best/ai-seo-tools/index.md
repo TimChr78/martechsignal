@@ -3,106 +3,72 @@
 
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
-| [Profound](/tools/profound/) | Enterprise | No | Best for enterprise teams buying answer-engine visibility and content activation from one vendor. |
-| [Scrunch](/tools/scrunch/) | From $250/mo | No | Best for brands that want measurement and AI-crawler readiness in one product. |
-| [OtterlyAI](/tools/otterlyai/) | From $29/mo | No | Best entry price for brand and citation tracking across the major answer engines. |
-| [Rankscale](/tools/rankscale/) | From $99/mo | No | Best engine coverage for agencies that report AI visibility to clients. |
-| [Trakkr](/tools/trakkr/) | From $100/mo | No | Best flat per-brand rate that also includes a modest content allowance. |
-| [Evertune](/tools/evertune/) | From $800/mo | No | Best for large prompt programs where coverage beats entry price. |
-| [Nimt.ai](/tools/nimt-ai/) | From $79/mo | No | Best mix of tracking and hands-off fixing at an entry price. |
-| [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) | Enterprise | No | Best for teams already inside Adobe Experience Cloud that want attribution to revenue. |
-| [Promptfoo](/tools/promptfoo/) | Freemium | Yes | Best free entry point, provided someone on the team can run a CLI. |
+| [Semrush](/tools/semrush/) | From $117/mo | No | Best for SEO teams that want audits, rank tracking and content scoring in one suite. |
+| [Clearscope](/tools/clearscope/) | From $129/mo | No | Best for content teams that grade drafts against search intent all day. |
+| [Surfer SEO](/tools/surfer-seo/) | From $49/mo | No | Best for writers who want a live content score while drafting. |
+| [Frase](/tools/frase/) | From $39/mo | No | Best for small content teams that want research, briefs and drafting in one tool. |
 | [Ahrefs](/tools/ahrefs/) | From $129/mo | No | Best if you already pay for Ahrefs and want the AI question answered from your existing stack. |
+| [Promptfoo](/tools/promptfoo/) | Freemium | Yes | Best free entry point, provided someone on the team can run a CLI. |
+| [Claude SEO](/tools/claude-seo/) | Open Source | Yes | Best for Claude Code users who want SEO audits run by agents instead of dashboards. |
+| [Codex SEO](/tools/codex-seo/) | Free | No | Best for Codex CLI users who want scripted SEO workflows. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-## Best AI SEO tools for AI visibility (2026)
+## Best AI SEO tools (2026): 8 compared
 
-This list used to be about content optimizers. It is not anymore, because the query changed underneath it. Search for the best AI SEO tools today and every result on the first page is about one question: when people ask ChatGPT, Gemini, Perplexity, or Google AI Overviews something your product answers, does the answer mention your brand and cite your pages? Classic rankings still matter. Being quoted inside the answer is the surface teams now pay to measure.
+The best AI SEO tools split into two jobs. This page covers the classic one: site audits, content optimization and rank tracking, including the agent-based skills that now run that loop inside coding tools. The seven tools built for AI-answer visibility, meaning brand mentions and citations inside ChatGPT and its peers, are a different problem and they live on our GEO and LLM optimization page.
 
-The field splits along a line worth knowing before you shop. Measurement platforms (OtterlyAI, Rankscale, Trakkr, Nimt.ai, and the tracking halves of Profound and Evertune) count mentions, citations, and sentiment across a list of answer engines. Activation platforms also change what those engines see: briefs and AI-optimized articles from Evertune and the Nimt.ai agent, site audits and fixes aimed at AI crawlers from Scrunch, or CDN-edge changes and revenue attribution from Adobe. Almost all of them meter prompts, meaning the question sets you choose to track, billed in credits, with entry plans starting near 29 to 100 dollars or euros a month and enterprise tiers quoted.
+We catalogued every tool here and verified pricing against each vendor&#x27;s own pages. The rankings come from fit to the job above and how transparent each product is about what it does.
 
-Most purchases come down to three things. Prompt volume first: a 15-prompt Lite plan answers whether you show up for a handful of questions, not for a market, so size the prompt set to the questions your buyers actually ask. Engine coverage second: ChatGPT and Google AI Overviews are table stakes, while Perplexity, Copilot, Claude, Gemini, and Grok vary by plan and by vendor. And what happens after the report, because measurement without a fix loop becomes a dashboard nobody opens. The figures below are the catalog&#x27;s last verified numbers, each with its verification date on the tool page.
+## [Semrush](/tools/semrush/)
 
-## [Profound](/tools/profound/)
+Semrush covers the classic SEO loop: site audits, keyword research, backlink data and content optimization, with an AI content optimizer on top. Entry is Pro at $117 a month billed annually ($140 month to month), and the price climbs steeply at the Guru and Business tiers. It measures traditional rankings well and treats AI answers as a bolt-on rather than the core.
 
-Profound started as an AI search visibility tool and now sells a wider AI marketing platform: it maps what consumers ask AI systems, tracks what answer engines cite, and adds drafting agents that turn the gaps into content. Pricing is quote-based with no public tiers (September 2026). The only self-serve way in is the free trial: 50 prompts a day for 7 days across ChatGPT, Gemini, and Google AI Overviews.
+**Verdict:** Best for SEO teams that want audits, rank tracking and content scoring in one suite.
 
-**Verdict:** Best for enterprise teams buying answer-engine visibility and content activation from one vendor.
+Vendor: [Official site](https://www.semrush.com) · [Pricing](https://www.semrush.com/pricing/)
 
-Vendor: [Official site](https://www.tryprofound.com/) · [Pricing](https://www.tryprofound.com/pricing)
+**Skip it if you only need content scoring: Clearscope or Frase cost less and do one job.**
 
-**you want public pricing or a small self-serve plan: every contract is quoted.**
+## [Clearscope](/tools/clearscope/)
 
-## [Scrunch](/tools/scrunch/)
+Clearscope grades content against what already ranks, with AI content grading and 20 AI drafts included on the Business tier. Essentials starts at $129 a month, and the jump to $399 is steep for small teams. It is a content tool with no rank tracking and no technical audits.
 
-Scrunch sells itself as an AI customer experience platform: it watches how AI agents and answer engines talk about your brand, then helps you fix what they find. Core costs 250 dollars a month: 125 unique prompts, 5 site audits a month, 1 brand workspace, 5 users, and 4 LLMs. Enterprise is custom and widens coverage to 9 LLMs. The distinguishing move is on the receiving side: it audits and prepares your site for AI agents that fetch pages on a user&#x27;s behalf.
+**Verdict:** Best for content teams that grade drafts against search intent all day.
 
-**Verdict:** Best for brands that want measurement and AI-crawler readiness in one product.
+Vendor: [Official site](https://www.clearscope.io) · [Pricing](https://www.clearscope.io/pricing)
 
-Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/pricing/)
+**Skip it if you need rank tracking or site audits: you will still need a suite beside it.**
 
-**you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
+## [Surfer SEO](/tools/surfer-seo/)
 
-## [OtterlyAI](/tools/otterlyai/)
+Surfer scores a draft against the live SERP as you write, and the Audit tool explains why a page underperforms. Discovery starts around $49-59 a month, and real use lands on Standard at $99-119. The scoring model rewards topical coverage over clever phrasing.
 
-OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity, and Microsoft Copilot. Lite runs EUR 29 a month with 15 prompts and 1,000 GEO audits a month. Standard is EUR 189 for 100 prompts with API and MCP access and a Looker Studio connector. It has the lowest entry price in this list.
+**Verdict:** Best for writers who want a live content score while drafting.
 
-**Verdict:** Best entry price for brand and citation tracking across the major answer engines.
+Vendor: [Official site](https://surferseo.com) · [Pricing](https://surferseo.com/pricing/)
 
-Vendor: [Official site](https://otterly.ai/) · [Pricing](https://otterly.ai/pricing)
+**Skip it if you chase AI-answer visibility: Surfer is built for classic blue-link SERPs.**
 
-**Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
+## [Frase](/tools/frase/)
 
-## [Rankscale](/tools/rankscale/)
+Frase researches the SERP, builds briefs and drafts content, starting at $39 a month on the yearly Starter plan with 10 articles. Professional at $103 adds seats and unlimited articles, and the Frase Agent handles routine SEO tasks. It bundles AI visibility tracking too, which most content tools ignore.
 
-Rankscale is a Vienna-built AI visibility platform aimed at agencies and enterprise teams. It tracks brand mentions, rankings, citations, and sentiment across 17 or more answer engines. Pro runs EUR 99 a month with 1,200 credits, Growth EUR 385 with 5,500, and Enterprise EUR 780 with 12,000. Yearly billing changes the numbers, so the tool page carries both bases.
+**Verdict:** Best for small content teams that want research, briefs and drafting in one tool.
 
-**Verdict:** Best engine coverage for agencies that report AI visibility to clients.
+Vendor: [Official site](https://www.frase.io) · [Pricing](https://www.frase.io/pricing)
 
-Vendor: [Official site](https://rankscale.ai/) · [Pricing](https://rankscale.ai/pricing)
+**Skip it if you need enterprise workflows or backlink data: Frase is a content tool at a content-tool price.**
 
-**credit-based billing does not suit you: heavier tracking moves you up tiers quickly.**
+## [Ahrefs](/tools/ahrefs/)
 
-## [Trakkr](/tools/trakkr/)
+Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its answer to AI visibility: when AI systems respond to questions in your category, does your brand appear, and who gets cited instead. Lite costs 129 dollars a month, Standard 249, Advanced 449, and Enterprise is quoted (verified September 2026). The AI tracking rides on the full suite rather than selling alone.
 
-Trakkr is a London-made AI visibility platform for brands and agencies, tracking where AI recommends you across eight models including ChatGPT, Perplexity, Claude, and Gemini. Growth costs 100 dollars a month per brand: 50 prompts per brand, 8 models, 3 seats, and 25 articles a month, or 1,000 dollars billed annually. Scale is 500 dollars a month. Perception and competitor tracking come with the territory.
+**Verdict:** Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
 
-**Verdict:** Best flat per-brand rate that also includes a modest content allowance.
+Vendor: [Official site](https://ahrefs.com) · [Pricing](https://ahrefs.com/pricing)
 
-Vendor: [Official site](https://trakkr.ai/) · [Pricing](https://trakkr.ai/pricing)
-
-**you track many brands: per-brand pricing multiplies fast.**
-
-## [Evertune](/tools/evertune/)
-
-Evertune is a New York platform for brand discovery in AI search, founded in 2024 by early team members of The Trade Desk. Pro costs 800 dollars a month and tracks 100,000 prompts across 11 AI models, with 25 AI-optimized articles a month and 3 onboarding sessions included. It also runs a ChatGPT Ad Agent. The prompt allowance is the largest in this list by a wide margin.
-
-**Verdict:** Best for large prompt programs where coverage beats entry price.
-
-Vendor: [Official site](https://www.evertune.ai) · [Pricing](https://www.evertune.ai/pricing)
-
-**800 dollars a month is more than the budget allows: it is the floor here, not a starter tier.**
-
-## [Nimt.ai](/tools/nimt-ai/)
-
-Nimt.ai is a Swedish AI search tool that combines tracking with an agent that does the fixing work, covering eight models including ChatGPT, Copilot, and Gemini. You start with EUR 40 in free credits, card required, then Flex runs EUR 79 a month for 10,000 credits with up to 72 prompts tracked. Beyond measurement, the agent writes, fixes, and does outreach.
-
-**Verdict:** Best mix of tracking and hands-off fixing at an entry price.
-
-Vendor: [Official site](https://nimt.ai) · [Pricing](https://www.nimt.ai/pricing)
-
-**credit billing or a card-required trial is a non-starter for your team.**
-
-## [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
-
-Adobe LLM Optimizer is what Adobe launched this product as in June 2025; the product page now calls it Adobe Brand Visibility and keeps the old name in parentheses. It is sold inside Adobe Experience Cloud and quoted per customer (September 2026). Its rare feature is the money end of the loop: CDN-edge changes to what AI crawlers see, and revenue attribution for the visibility it measures.
-
-**Verdict:** Best for teams already inside Adobe Experience Cloud that want attribution to revenue.
-
-Vendor: [Official site](https://business.adobe.com/products/brand-visibility.html) · [Pricing](https://business.adobe.com/products/brand-visibility.html)
-
-**you want a standalone tool or public pricing: it ships inside the Adobe platform, quoted.**
+**you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
 
 ## [Promptfoo](/tools/promptfoo/)
 
@@ -114,15 +80,25 @@ Vendor: [Official site](https://promptfoo.dev) · [Pricing](https://www.promptfo
 
 **you want a managed dashboard out of the box: this is a toolkit, not a product tour.**
 
-## [Ahrefs](/tools/ahrefs/)
+## [Claude SEO](/tools/claude-seo/)
 
-Ahrefs is the Singapore-based SEO data company known for its web index, and Brand Radar is its answer to AI visibility: when AI systems respond to questions in your category, does your brand appear, and who gets cited instead. Lite costs 129 dollars a month, Standard 249, Advanced 449, and Enterprise is quoted (verified September 2026). The AI tracking rides on the full suite rather than selling alone.
+Claude SEO is a free, MIT-licensed skill with 25 sub-skills and 20 specialist agents covering technical SEO, E-E-A-T, schema and GEO/AEO. It runs inside your own Claude Code session, so the analysis reads your site directly and costs API tokens instead of subscriptions. Ours reviews every tool page on this site.
 
-**Verdict:** Best if you already pay for Ahrefs and want the AI question answered from your existing stack.
+**Verdict:** Best for Claude Code users who want SEO audits run by agents instead of dashboards.
 
-Vendor: [Official site](https://ahrefs.com) · [Pricing](https://ahrefs.com/pricing)
+Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
 
-**you are buying GEO as a standalone capability: you would be paying for a whole SEO suite.**
+**Skip it if you do not use an agent coding tool: the skill has no standalone interface.**
+
+## [Codex SEO](/tools/codex-seo/)
+
+Codex SEO packages 26 SEO workflows with 24 TOML agent profiles and API integrations, built for the Codex CLI first. It is free to use, though the bundled licence is proprietary courtesy of the author, so check it before commercial redistribution.
+
+**Verdict:** Best for Codex CLI users who want scripted SEO workflows.
+
+Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](https://github.com/AgriciDaniel/codex-seo)
+
+**Skip it if you want a permissive licence or a dashboard: the licence is proprietary and the surface is a CLI.**
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
 
@@ -138,7 +114,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Best AI SEO tools for AI visibility (2026)",
+    "name": "Best AI SEO tools (2026): 8 compared",
     "datePublished": "2026-09-26",
     "dateModified": "2026-09-26",
     "author": {
@@ -147,83 +123,56 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
-    "numberOfItems": 10,
+    "numberOfItems": 8,
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Profound",
+        "name": "Semrush",
         "item": {
-          "@id": "https://martechsignal.com/tools/profound/#app",
-          "url": "https://martechsignal.com/tools/profound/"
+          "@id": "https://martechsignal.com/tools/semrush/#app",
+          "url": "https://martechsignal.com/tools/semrush/"
         }
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Scrunch",
+        "name": "Clearscope",
         "item": {
-          "@id": "https://martechsignal.com/tools/scrunch/#app",
-          "url": "https://martechsignal.com/tools/scrunch/"
+          "@id": "https://martechsignal.com/tools/clearscope/#app",
+          "url": "https://martechsignal.com/tools/clearscope/"
         }
       },
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "OtterlyAI",
+        "name": "Surfer SEO",
         "item": {
-          "@id": "https://martechsignal.com/tools/otterlyai/#app",
-          "url": "https://martechsignal.com/tools/otterlyai/"
+          "@id": "https://martechsignal.com/tools/surfer-seo/#app",
+          "url": "https://martechsignal.com/tools/surfer-seo/"
         }
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Rankscale",
+        "name": "Frase",
         "item": {
-          "@id": "https://martechsignal.com/tools/rankscale/#app",
-          "url": "https://martechsignal.com/tools/rankscale/"
+          "@id": "https://martechsignal.com/tools/frase/#app",
+          "url": "https://martechsignal.com/tools/frase/"
         }
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "name": "Trakkr",
+        "name": "Ahrefs",
         "item": {
-          "@id": "https://martechsignal.com/tools/trakkr/#app",
-          "url": "https://martechsignal.com/tools/trakkr/"
+          "@id": "https://martechsignal.com/tools/ahrefs/#app",
+          "url": "https://martechsignal.com/tools/ahrefs/"
         }
       },
       {
         "@type": "ListItem",
         "position": 6,
-        "name": "Evertune",
-        "item": {
-          "@id": "https://martechsignal.com/tools/evertune/#app",
-          "url": "https://martechsignal.com/tools/evertune/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Nimt.ai",
-        "item": {
-          "@id": "https://martechsignal.com/tools/nimt-ai/#app",
-          "url": "https://martechsignal.com/tools/nimt-ai/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "Adobe LLM Optimizer",
-        "item": {
-          "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#app",
-          "url": "https://martechsignal.com/tools/adobe-llm-optimizer/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
         "name": "Promptfoo",
         "item": {
           "@id": "https://martechsignal.com/tools/promptfoo/#app",
@@ -232,11 +181,20 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "ListItem",
-        "position": 10,
-        "name": "Ahrefs",
+        "position": 7,
+        "name": "Claude SEO",
         "item": {
-          "@id": "https://martechsignal.com/tools/ahrefs/#app",
-          "url": "https://martechsignal.com/tools/ahrefs/"
+          "@id": "https://martechsignal.com/tools/claude-seo/#app",
+          "url": "https://martechsignal.com/tools/claude-seo/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Codex SEO",
+        "item": {
+          "@id": "https://martechsignal.com/tools/codex-seo/#app",
+          "url": "https://martechsignal.com/tools/codex-seo/"
         }
       }
     ]
@@ -260,7 +218,7 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Best AI SEO tools for AI visibility (2026)",
+        "name": "Best AI SEO tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/ai-seo-tools/"
       }
     ]

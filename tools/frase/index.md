@@ -198,6 +198,8 @@ We found no Surfer integration in Frase&#x27;s integrations page or docs index; 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 
+Related guides: [Ai Seo Tools](/best/ai-seo-tools)
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

@@ -137,7 +137,7 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -205,7 +205,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2170,
+  "wordCount": 2167,
   "articleSection": "advertising"
 }
 ```

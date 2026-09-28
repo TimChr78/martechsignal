@@ -101,7 +101,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 ## Comparison guides
 
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
-- [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -162,7 +162,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2237,
+  "wordCount": 2236,
   "articleSection": "seo"
 }
 ```

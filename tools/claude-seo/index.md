@@ -244,7 +244,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 
 **4.5 / 5**The audits found real, verifiable issues on every run, which earns the high score. Scoring shifts between grader versions and is sometimes erratic, so not a 5. No paid placement, no affiliate link: the tool is free and open source.
 
-Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools) · [Agent Skills Tools](/best/agent-skills-tools)
+Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools) · [Agent Skills Tools](/best/agent-skills-tools)
 
 ## Get the next teardown
 

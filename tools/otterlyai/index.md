@@ -169,11 +169,11 @@ Yes. Standard and above include API and MCP access (2,000 requests per month eac
 ## Related reading
 
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
-Related guides: [Ai Seo Tools](/best/ai-seo-tools) · [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
+Related guides: [Geo Llm Visibility Tools](/best/geo-llm-visibility-tools)
 
 ## Get the next teardown
 

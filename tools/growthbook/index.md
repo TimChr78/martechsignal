@@ -165,8 +165,8 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
