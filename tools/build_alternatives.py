@@ -12,7 +12,7 @@ import json
 import re
 from pathlib import Path
 
-from build_tools import page_shell, esc, ROOT, pricing_label, out_links
+from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 
 CONTENT = ROOT / "tools" / "alternatives-content.json"
 OUT_DIR = ROOT / "alternatives"
@@ -24,6 +24,7 @@ def alt_card(item, tools_by_slug):
     return f"""<section class="alt-item" id="{esc(t['slug'])}">
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
   <p class="meta"><span class="tag pricing">{esc(pricing_label(t))}</span>{oss}</p>
+  {_tool_fact_img(t)}
   {out_links(t)}
   <p><strong>Best for:</strong> {esc(item['best_for'])}</p>
   <p><strong>Not for:</strong> {esc(item['not_for'])}</p>

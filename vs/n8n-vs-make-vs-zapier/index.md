@@ -28,6 +28,12 @@ Make: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en
 
 Zapier: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
 
+n8n
+
+Make
+
+Zapier
+
 ## Positioning
 
 **n8n:** The technical builder&#x27;s platform. Workflows are code-friendly (JavaScript anywhere), self-hostable, and priced per execution rather than per task. Its audience names infrastructure without flinching.

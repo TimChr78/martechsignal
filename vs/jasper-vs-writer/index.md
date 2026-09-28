@@ -38,6 +38,10 @@ Jasper: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.a
 
 Writer: [Official site](https://writer.com) · [Pricing](https://writer.com/plans/)
 
+Jasper
+
+Writer
+
 ## Priced at volume
 
 Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pricing pages.

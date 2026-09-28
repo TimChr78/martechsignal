@@ -49,6 +49,10 @@ n8n: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) · [G
 
 Zapier: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
 
+n8n
+
+Zapier
+
 ## Priced at volume
 
 Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.

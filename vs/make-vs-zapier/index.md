@@ -53,6 +53,10 @@ Make: [Official site](https://www.make.com) · [Pricing](https://www.make.com/en
 
 Zapier: [Official site](https://zapier.com) · [Pricing](https://zapier.com/pricing)
 
+Make
+
+Zapier
+
 ## Priced at volume
 
 Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.

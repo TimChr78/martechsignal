@@ -36,6 +36,10 @@ ActiveCampaign: [Official site](https://www.activecampaign.com) · [Pricing](htt
 
 Klaviyo: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviyo.com/pricing)
 
+ActiveCampaign
+
+Klaviyo
+
 ## Priced at volume
 
 Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.

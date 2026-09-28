@@ -390,6 +390,13 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 .tool-card .name { font: 700 1.1rem var(--body); letter-spacing: -.01em }
 .tool-card .tagline { color: var(--muted); font-size: .9rem; line-height: 1.5; flex: 1 }
 .tool-card .meta { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center }
+/* H8 (r9, 2026-09-28): fact-card media on money pages. Fluid images, never
+   wider than their container; cards keep their layout. */
+.tool-card img { width: 100%; height: auto; display: block; border-radius: 8px }
+.best-item img, .alt-item img { width: 100%; max-width: 640px; height: auto; display: block; border-radius: 8px; margin: .8rem 0 }
+.vs-figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; margin: 1rem 0 }
+.vs-figures img { width: 100%; height: auto; display: block; border-radius: 8px }
+.vs-figures figcaption { font-size: .85rem; color: var(--muted); text-align: center }
 .tag {white-space:nowrap; font: 600 0.8rem var(--mono); letter-spacing: .1em; padding: .25rem .6rem; border-radius: 4px; border: 1px solid var(--line2); color: var(--muted) }
 .tag.pricing { border-color: rgba(61,220,151,.35); color: var(--green); background: rgba(61,220,151,.07) }
 .tag.cat { border-color: rgba(255,178,36,.3); color: var(--amber); background: rgba(255,178,36,.06) }

@@ -34,6 +34,10 @@ NocoDB: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pric
 
 NocoBase: [Official site](https://www.nocobase.com) · [Pricing](https://www.nocobase.com/pricing) · [GitHub](https://github.com/nocobase/nocobase)
 
+NocoDB
+
+NocoBase
+
 ## Priced at volume
 
 Cost picture for a 10-person ops team. All figures checked 2026-09-27 on vendor pricing pages.

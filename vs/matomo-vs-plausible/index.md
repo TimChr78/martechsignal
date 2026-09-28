@@ -45,6 +45,10 @@ Matomo: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 Plausible Analytics: [Official site](https://plausible.io) · [Pricing](https://plausible.io/#pricing) · [GitHub](https://github.com/plausible/analytics)
 
+Matomo
+
+Plausible Analytics
+
 ## Priced at volume
 
 Cost picture for a 10K-pageview-per-month site. All figures checked 2026-09-27 on vendor pricing pages.

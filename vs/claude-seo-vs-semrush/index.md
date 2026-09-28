@@ -36,6 +36,10 @@ Claude SEO: [Official site](https://claude-seo.md/) · [GitHub](https://github.c
 
 Semrush: [Official site](https://www.semrush.com) · [Pricing](https://www.semrush.com/pricing/)
 
+Claude SEO
+
+Semrush
+
 ## Priced at volume
 
 Cost picture for a year of continuous use. All figures checked 2026-09-27 on vendor pricing pages.

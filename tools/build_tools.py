@@ -742,6 +742,20 @@ def _review_tag(t):
     return '<span class="tag desk">' + 'Desk-' + 'reviewed</span>'
 
 
+def _tool_fact_img(t):
+    """H8 (r9, 2026-09-28): one media element per listed tool on money pages.
+    Branded fact card (name/category/pricing/badges from og/), NOT a UI
+    screenshot - the alt text says exactly that. Prefers the tool card,
+    falls back to the guide card for Guide-kind items."""
+    _slug = t["slug"]
+    _src = (f"/og/tools/{_slug}.png" if (ROOT / "og" / "tools" / f"{_slug}.png").exists()
+            else (f"/og/{_slug}.png" if (ROOT / "og" / f"{_slug}.png").exists() else ""))
+    if not _src:
+        return ""
+    return (f'<img src="{_src}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
+            'loading="lazy" width="1200" height="630">')
+
+
 def _money(p, t):
     """M21 honesty: catalog prices carry a currency field (USD/EUR). Never stamp
     another currency's symbol on a number."""
@@ -1715,6 +1729,7 @@ def tool_card_html(t):
         tags += '<span class="tag oss">OSS</span>'
     return f"""<a class="tool-card" href="/tools/{t['slug']}/">
   <div class="name">{esc(t['name'])}</div>
+  {_tool_fact_img(t)}
   <div class="tagline">{esc(t.get('tagline',''))}</div>
   <div class="meta">{tags}</div>
 </a>\n"""

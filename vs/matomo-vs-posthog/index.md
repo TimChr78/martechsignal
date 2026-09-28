@@ -27,6 +27,10 @@ Matomo: [Official site](https://matomo.org) · [Pricing](https://matomo.org/pric
 
 PostHog: [Official site](https://posthog.com) · [Pricing](https://posthog.com/pricing) · [GitHub](https://github.com/PostHog/posthog)
 
+Matomo
+
+PostHog
+
 ## Positioning
 
 **Matomo:** Web analytics first: sessions, channels, campaigns and content performance, with heatmaps and session recording as paid modules. The mental model is the GA report suite, done with EU hosting and full raw data access.

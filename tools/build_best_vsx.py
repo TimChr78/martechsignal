@@ -27,7 +27,7 @@ carry offers/review/aggregateRating or GSC flags the whole page.
 import json
 from pathlib import Path
 
-from build_tools import page_shell, esc, ROOT, pricing_label, out_links
+from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 
 BESTX = ROOT / "tools" / "bestx-content.json"
 VSX = ROOT / "tools" / "vsx-content.json"
@@ -87,6 +87,7 @@ def build_best():
             t = tools_by_slug[it["slug"]]
             body.append(f"""<section class="best-item" id="{esc(t['slug'])}">
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
+  {_tool_fact_img(t)}
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
@@ -204,6 +205,12 @@ def build_vs():
             _ol = out_links(_vt)
             if _ol:
                 body.append(_ol.replace("Vendor:", f"{esc(_vt['name'])}:"))
+        # H8 (r9, 2026-09-28): one media element per compared tool, above the
+        # verdict block below.
+        body.append('<div class="vs-figures">'
+                    + ''.join(f'<figure>{_tool_fact_img(_vt)}'
+                              f'<figcaption>{esc(_vt["name"])}</figcaption></figure>' for _vt in trio)
+                    + '</div>')
         # A2 H6 (2026-09-26): the copy promises "the catalog numbers below" - this
         # table is those numbers, straight from the catalog (no invented figures).
         rows = [

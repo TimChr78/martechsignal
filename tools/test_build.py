@@ -721,3 +721,44 @@ def test_sitemap_lastmod_matches_declared_date():
         elif declared and not lm:
             bad.append((loc, f"page declares {declared} but sitemap omits lastmod"))
     assert not bad, f"sitemap/page date mismatches: {bad[:6]}"
+
+
+def test_money_pages_carry_per_tool_media():
+    """H8 (r9, 2026-09-28): every item listed on a money page (best/vs/
+    alternatives/category) must render its own media element. Alt text must
+    never claim a UI screenshot (branded fact cards, not screencaps)."""
+    import json as _json
+    import re as _re
+    tools_by_slug = {t["slug"]: t for t in _json.loads((ROOT / "tools" / "tools.json").read_text())}
+    targets = []  # (file, [slugs that must each have an og img])
+    for p in _json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]:
+        targets.append((ROOT / "best" / p["slug"] / "index.html",
+                        [i["slug"] for i in p.get("items", [])]))
+    for p in _json.loads((ROOT / "tools" / "vsx-content.json").read_text())["pages"]:
+        trio = [p.get("a_slug"), p.get("b_slug")] + ([p.get("c_slug")] if p.get("c_slug") else [])
+        targets.append((ROOT / "vs" / p["slug"] / "index.html", trio))
+    for p in _json.loads((ROOT / "tools" / "alternatives-content.json").read_text())["pages"]:
+        targets.append((ROOT / "alternatives" / p["slug"] / "index.html",
+                        [i["slug"] for i in p.get("items", [])]))
+    bad = []
+    for f, slugs in targets:
+        if not f.is_file():
+            bad.append((str(f), "page missing"))
+            continue
+        h = f.read_text(errors="ignore")
+        for s in slugs:
+            if s not in tools_by_slug:
+                continue  # retired/Guide-kind items route elsewhere; card grid covers guides
+            for cand in (f"/og/tools/{s}.png", f"/og/{s}.png"):
+                if cand in h:
+                    break
+            else:
+                bad.append((str(f.relative_to(ROOT)), f"no media for {s}"))
+        if "screenshot of" in h.lower() or "screenshot shows" in h.lower():
+            bad.append((str(f.relative_to(ROOT)), "screenshot claim in copy"))
+    # category + hub cards share tool_card_html: spot-check the grid carries media
+    for cat in ["marketing-automation", "email-marketing", "crm", "advertising", "content-ai"]:
+        f = ROOT / "categories" / cat / "index.html"
+        if f.is_file() and "/og/tools/" not in f.read_text(errors="ignore"):
+            bad.append((f"categories/{cat}", "grid carries no media"))
+    assert not bad, f"money pages missing per-tool media: {bad[:8]}"

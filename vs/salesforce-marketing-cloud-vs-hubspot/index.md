@@ -34,6 +34,10 @@ Salesforce Marketing Cloud: [Official site](https://www.salesforce.com/products/
 
 HubSpot Marketing Hub: [Official site](https://www.hubspot.com/products/marketing) · [Pricing](https://www.hubspot.com/pricing/marketing)
 
+Salesforce Marketing Cloud
+
+HubSpot Marketing Hub
+
 ## Priced at volume
 
 Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing pages.
