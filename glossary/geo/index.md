@@ -18,15 +18,15 @@ GLOSSARY
 
 ## Definition
 
-Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy.
+Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy. The name is new and the job is partly old: technical SEO decides whether these engines can read your pages, digital PR decides whether independent sources repeat your claims, and GEO covers the gap between them. It is not rank tracking with fresh labels. Some answers still carry positions, but the unit that counts is the citation: named with or without a link, and factually right.
 
 ## Why it matters
 
-AI Overviews now appear on most informational queries, which puts a floor under zero-click search and moves the reporting problem from analytics to visibility tooling. Teams usually meet GEO while wondering why traffic fell while brand queries held steady.
+AI Overviews now appear on most informational queries, which puts a floor under zero-click search and moves the reporting problem from analytics to visibility tooling. Teams usually meet GEO while wondering why traffic fell while brand queries held steady. The reporting shift is the painful part. Analytics shows the click that never happened as nothing at all, so teams add visibility tooling that asks engines the questions directly and records how often the brand appears. Budgets follow the same path: some spend leaves link building and lands on source coverage, reviews, and data pages built to be quoted.
 
 ## How it works
 
-A generative engine reads a question, retrieves a small set of candidate sources, and composes an answer from them. GEO work happens at each step: make your pages retrievable by the crawlers behind those engines, put the facts worth quoting in clean extractable form, and get third-party sources to repeat the claims so the model treats them as corroborated.
+A generative engine reads a question, retrieves a small set of candidate sources, and composes an answer from them. GEO work happens at each step: make your pages retrievable by the crawlers behind those engines, put the facts worth quoting in clean extractable form, and get third-party sources to repeat the claims so the model treats them as corroborated. Engines differ in which sources they trust, so coverage has to be checked per engine rather than assumed from one.
 
 ## Tools in this space
 
@@ -50,7 +50,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
     "@context": "https://schema.org",
     "@type": "DefinedTerm",
     "name": "Generative engine optimization (GEO)",
-    "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy.",
+    "description": "Generative engine optimization is the practice of getting a brand cited and correctly described inside AI-generated answers, the kind ChatGPT, Perplexity, Gemini, and AI Overviews return. Where classic SEO competes for a ranked link and a click, GEO competes for inclusion in a synthesized answer, so the metrics move from sessions to mentions, citations, and factual accuracy. The name is new and the job is partly old: technical SEO decides whether these engines can read your pages, digital PR decides whether independent sources repeat your claims, and GEO covers the gap between them. It is not rank tracking with fresh labels. Some answers still carry positions, but the unit that counts is the citation: named with or without a link, and factually right.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
       "@type": "DefinedTermSet",

@@ -656,6 +656,10 @@ ul.integ-list { list-style: none; padding: 0; margin: .5rem 0 }
 ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
 
 .disclosure-strip { font: 500 .78rem var(--mono); letter-spacing: .06em; color: var(--muted); margin: .5rem 0 0 }
+/* L8 (r9, 2026-09-28): 13px floor for small UI text under 700px. */
+@media (max-width: 700px) {
+  .disclosure-strip, .vs-figures figcaption { font-size: 13px }
+}
 
 .tool-card.is-hidden,.hub-group.is-hidden{display:none}
 /* r7 M13 (2026-09-28): tap targets >= 24px for navigational links */

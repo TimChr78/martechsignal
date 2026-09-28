@@ -835,3 +835,37 @@ def test_best_direct_answer_and_table_order():
         if not (i_h1 < i_ans < i_tab < i_how):
             bad.append((str(f.relative_to(ROOT)), "wrong order"))
     assert not bad, f"best answer/table order: {bad[:6]}"
+
+
+def test_best_counts_agree_with_items():
+    """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6 items,
+    geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta must equal
+    the page's item count."""
+    import json as _json
+    import re as _re
+    data = _json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]
+    bad = []
+    for p in data:
+        n = len(p.get("items", []))
+        for field in ("title", "seo_title", "meta"):
+            m = _re.search(r"(\d+) compared", p.get(field, "") or "")
+            if m and int(m.group(1)) != n:
+                bad.append((p["slug"], field, m.group(1), n))
+    assert not bad, f"stale listicle counts: {bad[:6]}"
+
+
+def test_glossary_definition_floor():
+    """L14 (r9, 2026-09-28): /glossary/geo/ shipped 213 words against a 581
+    median. No term page may fall below 200 words of substance."""
+    import json as _json
+    terms = _json.loads((ROOT / "tools" / "glossary.json").read_text())
+    if isinstance(terms, dict):
+        terms = terms.get("terms", terms.get("pages", []))
+    bad = []
+    for t in terms:
+        dd = t.get("deep_dive") or {}
+        dd_words = sum(len(str(v).split()) for v in (dd.values() if isinstance(dd, dict) else [dd]))
+        total = len(str(t.get("definition", "")).split()) + len(str(t.get("context", "")).split()) + dd_words
+        if total < 200:
+            bad.append((t.get("slug"), total))
+    assert not bad, f"glossary pages under 200 words: {bad[:6]}"

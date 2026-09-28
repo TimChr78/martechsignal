@@ -448,7 +448,7 @@ def screenshot_figure(slug, tool_name):
         f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage"{_sset} '
         'width="1280" height="800" loading="lazy" '
         'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
-        f'<figcaption style="font-size:.72rem;color:var(--muted);margin-top:.4rem">'
+        f'<figcaption style="font-size:.82rem;color:var(--muted);margin-top:.4rem">'
         f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '
         'belongs to its owner.</figcaption></figure>'
     )

@@ -1,4 +1,4 @@
-# Best AI CRM tools (2026): 8 compared
+# Best AI CRM tools (2026): 6 compared
 
 
 | Tool | Pricing | Open source | Verdict |

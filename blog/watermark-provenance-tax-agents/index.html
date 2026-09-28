@@ -100,7 +100,7 @@
   ]
 }
 </script>
-<link rel="stylesheet" href="/style.min.css?v=84ea3347">
+<link rel="stylesheet" href="/style.min.css?v=b97e4741">
 <script defer src="https://analytics.martechsignal.com/script.js" data-website-id="11b28e66-3570-4781-b369-2134c7c372ab"></script>
 <script src="/site.js?v=98f6c5f5" defer></script>
 
@@ -133,13 +133,13 @@
 <p class="meta filed-cat">Filed under <a href="/categories/agent-skills/">Agent Skills</a></p><nav class="mini-toc" style="margin:0 0 1.8rem;padding:.9rem 1.1rem;border:1px solid var(--line);border-radius:10px;font-size:.85rem"><b style="letter-spacing:.08em;font-size:.7rem">ON THIS PAGE</b><br><a href="#what-the-study-actually-found">What the study actually found</a> · <a href="#the-part-with-ad-spend-attached">The part with ad spend attached</a> · <a href="#what-to-change-in-your-stack-this-quarter">What to change in your stack this quarter</a></nav>
 <p>Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.</p>
 
-<p>A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published <a href="https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior">"The Provenance Tax"</a>, a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.</p>
+<p>A watermark is supposed to identify content, not alter it. That assumption stopped holding this month. On September 17, security firm Lasso published <a rel="nofollow" href="https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior">"The Provenance Tax"</a>, a paired-run study showing that SynthID-Text, the watermark Anthropic now applies to Claude output and Google DeepMind built for Gemini, measurably changes which tools an agent calls, with which arguments, and when it refuses a harmful request. Lasso sells agent security, so read the vendor framing accordingly. The methodology is harder to wave away: same model, same seed, same prompts, watermark on versus off, on standard benchmarks, with bootstrap intervals.</p>
 
 <p>If your marketing automation calls an LLM API that does anything with the answer, this study has an ops section you should care about. It isn't the section everyone has been arguing about.</p>
 
 <h2 id="what-the-study-actually-found">What the study actually found</h2>
 
-<p>Anthropic announced in August that Claude output now carries an invisible watermark, based on Google DeepMind's SynthID-Text, applied at the model level across the API and cloud providers. The trigger is <a href="https://artificialintelligenceact.eu/article/50/">Article 50(2) of the EU AI Act</a>, which requires providers of synthetic text systems to mark output as machine-readable and detectable. Most major providers signed the EU's voluntary code of practice on transparency of AI-generated content. Watermarking is becoming the default, not a toggle.</p>
+<p>Anthropic announced in August that Claude output now carries an invisible watermark, based on Google DeepMind's SynthID-Text, applied at the model level across the API and cloud providers. The trigger is <a rel="nofollow" href="https://artificialintelligenceact.eu/article/50/">Article 50(2) of the EU AI Act</a>, which requires providers of synthetic text systems to mark output as machine-readable and detectable. Most major providers signed the EU's voluntary code of practice on transparency of AI-generated content. Watermarking is becoming the default, not a toggle.</p>
 
 <p>SynthID works during generation, not after. It biases token sampling through what the DeepMind paper calls tournament sampling. "Non-distortionary" means the token distribution holds in expectation across many runs; any single run under a fixed watermark key can still pick different tokens than the same run without it. Lasso calls that behavioral difference sampling drift, and they measured it in two places agents actually live.</p>
 
@@ -155,7 +155,7 @@
 
 <h2 id="the-part-with-ad-spend-attached">The part with ad spend attached</h2>
 
-<p>Meanwhile provenance stopped being a content-policy topic and became a media-buying requirement. On September 14, <a href="https://searchengineland.com/microsoft-advertising-sets-rules-for-ai-generated-ads-488429">Microsoft Advertising published dedicated rules for AI-generated ads</a>: preserve watermarks and metadata, disclose synthetic content close to the asset, embed disclosures directly into image and video creative. Ads can be rejected or pulled for interfering with machine-readable provenance information. Microsoft's own AI tools stamp output with provenance data and imperceptible watermarks, and the guidance is explicit that those signals aren't necessarily visible to consumers, so advertisers still owe their own disclosures.</p>
+<p>Meanwhile provenance stopped being a content-policy topic and became a media-buying requirement. On September 14, <a rel="nofollow" href="https://searchengineland.com/microsoft-advertising-sets-rules-for-ai-generated-ads-488429">Microsoft Advertising published dedicated rules for AI-generated ads</a>: preserve watermarks and metadata, disclose synthetic content close to the asset, embed disclosures directly into image and video creative. Ads can be rejected or pulled for interfering with machine-readable provenance information. Microsoft's own AI tools stamp output with provenance data and imperceptible watermarks, and the guidance is explicit that those signals aren't necessarily visible to consumers, so advertisers still owe their own disclosures.</p>
 
 <p>Here is the operational collision nobody has written up: a compliance mechanism built for content provenance is now also a performance variable inside your automation. If your pipeline compresses images, strips EXIF during resizing, or re-encodes video, you may be destroying provenance metadata on the way to the ad platform. That's not a hypothetical. Metadata stripping in image optimization is a decade-old best practice for page speed, and every DAM, compressor, and CDN transform in a typical workflow does it silently.</p>
 

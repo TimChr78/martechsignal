@@ -1,4 +1,4 @@
-# Best AI Email Marketing tools (2026): 8 compared
+# Best AI Email tools for deliverability (2026)
 
 
 | Tool | Pricing | Open source | Verdict |
