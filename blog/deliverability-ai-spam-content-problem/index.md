@@ -95,7 +95,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Comparison guides
 
 - [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
-- [Best Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [Deliverability](/glossary/deliverability/)
@@ -104,7 +104,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [LanguageTool](/tools/languagetool/)
+More from the directory: [IFTTT](/tools/ifttt/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -152,7 +152,7 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1745,
+  "wordCount": 1746,
   "articleSection": "email-marketing"
 }
 ```

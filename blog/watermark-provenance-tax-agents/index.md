@@ -70,7 +70,7 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 - [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Comparison guides
 
-- [Best Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
@@ -126,7 +126,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1463,
+  "wordCount": 1464,
   "articleSection": "agent-skills"
 }
 ```

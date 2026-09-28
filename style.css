@@ -140,7 +140,7 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
    HOMEPAGE  (.page-home)
    ============================================================ */
 .hero { display: grid; grid-template-columns: 1.12fr .88fr; gap: 3.2rem; align-items: end; padding: 4.6rem 0 1.2rem }
-@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 0 .4rem; align-items: start }
+@media (max-width: 880px) { .hero { grid-template-columns: 1fr; gap: 1rem; padding: 1rem 1.25rem .4rem; align-items: start }
   .hero h1 { font-size: 2rem; line-height: 1.12 }
   .hero p { margin: .35rem 0 } }
 .page-home h1 { font-family: var(--disp); font-size: clamp(2.5rem, 5.6vw, 4.3rem); line-height: 1.03; letter-spacing: -.015em; font-weight: 400 }
@@ -402,7 +402,7 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 
 /* tool detail */
 .detail { display: grid; grid-template-columns: 1fr 340px; gap: 2.4rem; padding: 2rem 0 }
-@media (max-width: 880px) { .detail { display: flex; flex-direction: column; gap: 1.4rem } .detail > .sidebar { display: contents } .detail > .detail-main { order: 3 } .detail > .sidebar > .side-card { order: 2 } .detail > .sidebar > .side-card#rating { order: 1 } }
+@media (max-width: 880px) { .detail { display: flex; flex-direction: column; gap: 1.4rem } .detail > .sidebar { display: contents } .detail > .detail-main { order: 3 } .detail > .sidebar > .side-card { order: 2 } .detail > .sidebar > .side-card#rating { order: 1 } .detail > .sidebar > .side-card.cta-card { order: 0 } }
 .detail-main h2 { font-family: var(--disp); font-weight: 400; font-size: 1.3rem; margin: 1.8rem 0 .8rem }
 .detail-main h2:first-child { margin-top: 0 }
 .detail-main p { color: #C8D2E4; font-size: .97rem; line-height: 1.7; margin-bottom: .8rem }
@@ -569,7 +569,18 @@ html.js .reveal.in, html.js .reveal.in, .reveal.in { opacity: 1; transform: none
 .faq-item p { padding: .75rem 1rem; margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.55 }
 
 /* blog post data tables (markdown pipe tables from build_blog) */
-.table-wrap { overflow-x: auto; margin: 1.6rem 0 }
+.table-wrap { overflow-x: auto; margin: 1.6rem 0; scroll-snap-type: x proximity }
+/* r7 H11 (2026-09-28): scroll affordance - the right-edge fade stays visible only
+   while the table is wider than the column, so clipped columns announce themselves. */
+.table-wrap { background:
+    linear-gradient(90deg, var(--bg, #0B111E) 30%, rgba(11,17,30,0)),
+    linear-gradient(270deg, var(--bg, #0B111E) 30%, rgba(11,17,30,0)) 100% 0,
+    radial-gradient(farthest-side at 0 50%, rgba(255,178,36,.18), rgba(255,178,36,0)),
+    radial-gradient(farthest-side at 100% 50%, rgba(255,178,36,.18), rgba(255,178,36,0)) 100% 0;
+  background-repeat: no-repeat;
+  background-size: 40px 100%, 40px 100%, 14px 100%, 14px 100%;
+  background-attachment: local, local, scroll, scroll }
+.table-wrap table { scroll-snap-align: start }
 .table-wrap table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .9rem } /* A2 C3: keep columns legible at 375px by scrolling, not crushing */
 .table-wrap th { text-align: left; padding: .55rem .8rem; background: #122036; border-bottom: 2px solid var(--amber); color: #E8EDF7; font-family: var(--disp); font-weight: 500; white-space: nowrap }
 .table-wrap td { padding: .5rem .8rem; border-bottom: 1px solid var(--line); color: #C8D2E4 }

@@ -130,7 +130,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Advertising &amp;amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
+- [Best AI Advertising &amp;amp; Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -139,7 +139,7 @@ Advertising platforms, attribution vendors, and the measurement layer that keeps
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [ManyChat](/tools/manychat/)
+More from the directory: [LibreTranslate](/tools/libretranslate/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -187,7 +187,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2401,
+  "wordCount": 2402,
   "articleSection": "advertising"
 }
 ```

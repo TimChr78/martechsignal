@@ -218,6 +218,11 @@ def markdown_to_html(md: str) -> str:
             _blk = '\n'.join(html_lines)
             _blk = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', _blk)
             _blk = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', _blk)
+            # r7 H10 (2026-09-28): raw <table class="cmp"> blocks overflow mobile
+            # columns (378px measured in a 350px column). Give them the same
+            # .table-wrap scroll container the pipe-table renderer emits.
+            if '<table' in _blk and 'table-wrap' not in _blk:
+                _blk = '<div class="table-wrap">' + _blk + '</div>'
             out.append(_blk)
             continue
 

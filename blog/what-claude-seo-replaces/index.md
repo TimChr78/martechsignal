@@ -21,7 +21,7 @@ SEO · AGENT SKILLS · 7 MIN
 
 [Home](/) · [Blog](/blog/) · What a free SEO audit replaces in your Semrush stack, and what it does not
 
-SEP 16, 2026 · Updated SEP 27, 2026
+SEP 16, 2026 · Updated SEP 28, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -130,7 +130,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-16",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/what-claude-seo-replaces/",
   "image": "https://martechsignal.com/og/what-claude-seo-replaces.png",
   "citation": [],

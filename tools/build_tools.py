@@ -681,16 +681,20 @@ def _score_band(t):
     band = (
         '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
         'border:1px solid var(--line);border-radius:12px">'
-        '<h2 style="margin:0 0 .3rem">MartechSignal Score: ' + str(rec["score_total"]) + '/60</h2>'
+        '<h2 style="margin:0 0 .3rem">' + ('Benchmark log: ' if t["slug"] == "claude-seo" else 'MartechSignal Score: ') + str(rec["score_total"]) + '/60</h2>'
         '<p style="margin:.35rem 0">' + esc(rec["verdict"]) + '</p>'
         '<div class="table-wrap" style="margin:.75rem 0"><table>'
         '<thead><tr><th>Pillar</th><th>Score</th><th>Evidence</th></tr></thead>'
         '<tbody>' + rows + '</tbody></table></div>'
         '<p style="margin:.35rem 0;font-size:.85rem;color:var(--muted)">Scored 2026-09-26 '
-        'against our published rubric: six pillars, 0-10 each. This is an editorial '
-        'assessment from documentation and vendor materials, not a lab benchmark or a '
-        'verified-buyer rating. The full rubric is on the <a href="/methodology/">'
-        'methodology page</a>.</p></section>')
+        'against our published rubric: six pillars, 0-10 each. ' + (
+            'This is our own tool, scored from running it in our benchmark suite and four '
+            'production audit cycles. Per our review policy we do not publish first-party '
+            'self-ratings as Review markup, so this is a benchmark log, not a review rating. '
+            if t["slug"] == "claude-seo" else
+            'This is an editorial assessment from documentation and vendor materials, not a '
+            'lab benchmark or a verified-buyer rating. ') + 'The full rubric is on the '
+        '<a href="/methodology/">methodology page</a>.</p></section>')
     review = None
     if t["slug"] != "claude-seo":
         review = {
@@ -1394,7 +1398,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         {'<div class="side-row"><dt>Last verified</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('date_updated') else ''}
       </dl>
     </div>
-    <div class="side-card">
+    <div class="side-card cta-card">
       <a class="btn-sm" href="{esc(t.get('website','#'))}" target="_blank" rel="noopener" data-umami-event="Tool CTA click" data-umami-event-tool="{esc(t['name'])}">Visit {esc(t['name'])} →</a>
       <div style="margin-top:.8rem"><a href="/categories/{t['category']}/" style="font:600 .8rem var(--mono);color:var(--muted);text-decoration:none">More {esc(cat_h1(c.get('name','')))} →</a></div>
     </div>

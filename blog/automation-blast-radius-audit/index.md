@@ -91,7 +91,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Comparison guides
 
-- [Best Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
@@ -149,7 +149,7 @@ More from the directory: [Anyword](/tools/anyword/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1684,
+  "wordCount": 1685,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

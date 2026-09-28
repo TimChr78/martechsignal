@@ -128,7 +128,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
 ## Comparison guides
 
-- [Best Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
@@ -186,7 +186,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2516,
+  "wordCount": 2517,
   "articleSection": "marketing-automation"
 }
 ```

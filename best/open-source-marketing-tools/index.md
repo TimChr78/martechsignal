@@ -1,4 +1,4 @@
-# Best Open-Source Tools tools (2026): 8 compared
+# Best Open-Source Marketing Tools (2026): 8 compared
 
 
 | Tool | Pricing | Open source | Verdict |
@@ -14,7 +14,7 @@
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-## Best Open-Source Tools tools (2026): 8 compared
+## Best Open-Source Marketing Tools (2026): 8 compared
 
 The open-source tools list below holds 8 tools out of 80 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
@@ -98,7 +98,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Best Open-Source Tools tools (2026): 8 compared",
+    "name": "Best Open-Source Marketing Tools (2026): 8 compared",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -202,7 +202,7 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Best Open-Source Tools tools (2026): 8 compared",
+        "name": "Best Open-Source Marketing Tools (2026): 8 compared",
         "item": "https://martechsignal.com/best/open-source-marketing-tools/"
       }
     ]

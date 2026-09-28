@@ -1,4 +1,4 @@
-# Best Social Media tools (2026): 6 compared
+# Best AI Social Media tools (2026): 6 compared
 
 
 | Tool | Pricing | Open source | Verdict |
@@ -12,7 +12,7 @@
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-## Best Social Media tools (2026): 6 compared
+## Best AI Social Media tools (2026): 6 compared
 
 The social media list below holds 6 tools out of 6 in the directory. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
 
@@ -80,7 +80,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Best Social Media tools (2026): 6 compared",
+    "name": "Best AI Social Media tools (2026): 6 compared",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -166,7 +166,7 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Best Social Media tools (2026): 6 compared",
+        "name": "Best AI Social Media tools (2026): 6 compared",
         "item": "https://martechsignal.com/best/ai-social-media-tools/"
       }
     ]

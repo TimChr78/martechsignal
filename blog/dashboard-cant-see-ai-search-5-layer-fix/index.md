@@ -106,7 +106,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 ## Comparison guides
 
 - [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
-- [Best Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -115,7 +115,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -163,7 +163,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2126,
+  "wordCount": 2127,
   "articleSection": "seo"
 }
 ```

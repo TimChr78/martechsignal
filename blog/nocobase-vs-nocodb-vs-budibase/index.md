@@ -28,7 +28,7 @@ OPEN SOURCE · WORKFLOW AUTOMATION · 10 MIN
 
 [Home](/) · [Blog](/blog/) · NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet
 
-SEP 09, 2026 · Updated SEP 27, 2026
+SEP 09, 2026 · Updated SEP 28, 2026
 
 Filed under [Workflow Automation](/categories/workflow-automation/)
 
@@ -117,7 +117,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Open-Source Tools tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -163,7 +163,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-09",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
   "image": "https://martechsignal.com/og/nocobase-vs-nocodb-vs-budibase.png",
   "citation": [],
