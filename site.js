@@ -48,7 +48,40 @@
     });
     count.textContent = n + ' of ' + cards.length + ' tools shown';
   }
-  [cat, price, lic].forEach(function (s) { s.addEventListener('change', apply); });
+  // r8 H5 (2026-09-28): filter state lives in the URL (?category=&price=&licence=)
+  // so a filtered view survives refresh and can be shared as a link.
+  function fromURL() {
+    var q = new URLSearchParams(location.search);
+    if (q.get('category')) cat.value = q.get('category');
+    if (q.get('price')) price.value = q.get('price');
+    if (q.get('licence')) lic.value = q.get('licence');
+  }
+  function toURL() {
+    var q = new URLSearchParams();
+    if (cat.value) q.set('category', cat.value);
+    if (price.value) q.set('price', price.value);
+    if (lic.value) q.set('licence', lic.value);
+    var qs = q.toString();
+    if (window.history && history.pushState) {
+      history.pushState(null, '', qs ? location.pathname + '?' + qs : location.pathname);
+    }
+  }
+  [cat, price, lic].forEach(function (s) {
+    s.addEventListener('change', function () { apply(); toURL(); });
+  });
+  window.addEventListener('popstate', function () { fromURL(); apply(); });
+  var copyBtn = document.getElementById('flt-copy');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      var done = function () {
+        document.getElementById('flt-copied').textContent = 'Link copied';
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(location.href).then(done, done);
+      } else { done(); }
+    });
+  }
+  fromURL();
   apply();
 })();
 

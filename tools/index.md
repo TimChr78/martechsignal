@@ -970,6 +970,8 @@ FreemiumDesk-reviewedWorkflow Automation
 
 ## AI Marketing Tool Directory
 
+Browse by licence: [Open-source tools](/categories/open-source/) · [all categories](/categories/).
+
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
 161 TOOLS · 14 CATEGORIES · UPDATED WEEKLY

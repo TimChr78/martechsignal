@@ -674,7 +674,14 @@ def build_hub(tools, cats):
         + '</select></label>'
         '<label>Licence <select id="flt-licence"><option value="">All</option>'
         '<option value="open">Open source</option><option value="proprietary">Proprietary</option>'
-        '</select></label><span class="filter-count" id="flt-count" aria-live="polite"></span></div>')
+        '</select></label><span class="filter-count" id="flt-count" aria-live="polite"></span>'
+        # r8 H5 (2026-09-28): shareable view + indexable static fallbacks for the
+        # licence facets (the open-source landing page deserves crawlable links).
+        '<button type="button" class="btn-sm" id="flt-copy">Copy link to this view</button>'
+        '<span class="filter-count" id="flt-copied" aria-live="polite"></span></div>'
+        '<p class="meta flt-static">Browse by licence: '
+        '<a href="/categories/open-source/">Open-source tools</a> · '
+        '<a href="/categories/">all categories</a>.</p>')
     body = body.replace("</h1>", "</h1>" + FILTER_BAR, 1)
     out = TOOLS_DIR / "index.html"
     body = body + _SUB_INLINE

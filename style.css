@@ -661,7 +661,7 @@ ul.integ-list li { display: inline-block; margin: 0 .5rem .5rem 0 }
 }
 .tool-filter{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:1rem 0;padding:.7rem .9rem;border:1px solid var(--rule);border-radius:10px}
 .tool-filter label{display:flex;align-items:center;gap:.4rem;font:600 .8rem var(--mono)}
-.tool-filter select{font:500 .85rem inherit;padding:.3rem .5rem;border:1px solid var(--rule);border-radius:8px;background:transparent}
+.tool-filter select{font:500 .85rem inherit;padding:.3rem .5rem;border:1px solid var(--rule);border-radius:8px;background:transparent;color:inherit}
 .filter-count{margin-left:auto;font:400 .8rem var(--mono)}
 
 .crumb a,.byline a,.post-meta a,.foot-links a{display:inline-block;min-height:44px;line-height:44px}
