@@ -136,6 +136,10 @@ The most complete open-source take on agent-produced launch assets, with a real 
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

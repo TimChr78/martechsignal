@@ -184,6 +184,10 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

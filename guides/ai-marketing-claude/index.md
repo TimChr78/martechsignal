@@ -131,6 +131,10 @@ Best as a proposal-generation engine for agencies selling audits. For steady con
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

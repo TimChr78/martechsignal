@@ -129,6 +129,10 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 
 Free open-source; self-hosted; WIP
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

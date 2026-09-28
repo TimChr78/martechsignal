@@ -88,6 +88,10 @@ The admin side is the boring half of the work: SSO, seat provisioning, and appro
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

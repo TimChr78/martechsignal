@@ -306,5 +306,5 @@ Choosing a platform is step two. Step one is whether your stack can hand work to
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/marketing-automation/#webpage", "dateModified": "2026-09-28"}
 ```

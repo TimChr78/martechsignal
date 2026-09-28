@@ -270,5 +270,5 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/email-marketing/#webpage", "dateModified": "2026-09-28"}
 ```

@@ -144,6 +144,10 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

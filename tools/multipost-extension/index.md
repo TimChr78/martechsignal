@@ -121,6 +121,10 @@ Free open-source browser extension
 
 Related guides: [Ai Social Media Tools](/best/ai-social-media-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

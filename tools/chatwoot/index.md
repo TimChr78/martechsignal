@@ -178,6 +178,10 @@ Every Captain action consumes 1 credit per message because a fixed model configu
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

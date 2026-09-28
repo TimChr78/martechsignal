@@ -185,6 +185,10 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

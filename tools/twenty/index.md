@@ -194,6 +194,10 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

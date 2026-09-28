@@ -51,3 +51,29 @@
   [cat, price, lic].forEach(function (s) { s.addEventListener('change', apply); });
   apply();
 })();
+
+// r7 C7 (2026-09-27): checklist state is URL-serialisable (#q=<bitmask>).
+(function () {
+  var f = document.getElementById('checklist-form');
+  if (!f) return;
+  var boxes = [];
+  for (var i = 1; i <= 12; i++) {
+    var b = document.getElementById('q' + i);
+    if (b) boxes.push(b);
+  }
+  function mask() {
+    var m = 0;
+    boxes.forEach(function (b, i) { if (b.checked) m |= (1 << i); });
+    return m;
+  }
+  var m = /^#q=(\d+)/.exec(location.hash);
+  if (m) {
+    var bits = parseInt(m[1], 10);
+    boxes.forEach(function (b, i) { b.checked = !!(bits & (1 << i)); });
+  }
+  boxes.forEach(function (b) {
+    b.addEventListener('change', function () {
+      history.replaceState(null, '', '#q=' + mask());
+    });
+  });
+})();

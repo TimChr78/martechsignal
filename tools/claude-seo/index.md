@@ -244,6 +244,10 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 
 Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools) · [Agent Skills Tools](/best/agent-skills-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -152,6 +152,10 @@ Both paths are documented on the docs site as migration guides, alongside deploy
 
 Free and open source (MIT)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

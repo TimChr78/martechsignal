@@ -149,6 +149,10 @@ Yes. Make AI Agents are stated as available on all plans, including Free, and ru
 
 Related guides: [Make in Zapier alternatives](/alternatives/zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

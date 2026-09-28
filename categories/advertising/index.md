@@ -262,5 +262,5 @@ The 9 tools split three ways. Creative generation: AdCreative.ai turns brand ass
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/#webpage", "dateModified": "2026-09-28"}
 ```

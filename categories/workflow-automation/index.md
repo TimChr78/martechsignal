@@ -370,5 +370,5 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/#webpage", "dateModified": "2026-09-28"}
 ```

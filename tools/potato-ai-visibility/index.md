@@ -134,6 +134,10 @@ The most methodologically honest AI-visibility tool in this directory: scoped cl
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

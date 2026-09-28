@@ -193,6 +193,10 @@ One CSV written to stdout with email, first_name, last_name, company, title, web
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

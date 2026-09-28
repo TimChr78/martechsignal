@@ -244,5 +244,5 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/#webpage", "dateModified": "2026-09-28"}
 ```

@@ -192,6 +192,10 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

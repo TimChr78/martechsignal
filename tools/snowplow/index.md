@@ -173,6 +173,10 @@ Signals, launched in May 2025, is Snowplow&#x27;s real-time context layer and th
 
 Related guides: [Snowplow in Matomo alternatives](/alternatives/matomo) · [Marketing Analytics Tools](/best/marketing-analytics-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

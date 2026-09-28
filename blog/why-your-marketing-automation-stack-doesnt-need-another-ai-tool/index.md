@@ -101,8 +101,8 @@ More from the directory: [Copy.ai](/tools/copy-ai/) · [Google Ads + Meta Ads + 
 - [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
+- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)

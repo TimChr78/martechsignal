@@ -328,5 +328,5 @@ Buying advice: demand prompt-level data, not a vanity score. A share-of-voice nu
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/geo-llm-visibility/#webpage", "dateModified": "2026-09-28"}
 ```

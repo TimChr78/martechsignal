@@ -142,6 +142,10 @@ The fastest way to see a multi-agent marketing team running on real tools, and a
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

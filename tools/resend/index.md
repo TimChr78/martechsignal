@@ -170,6 +170,10 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

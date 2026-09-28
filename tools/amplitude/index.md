@@ -198,6 +198,10 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 
 Related guides: [Amplitude in Matomo alternatives](/alternatives/matomo) · [Marketing Analytics Tools](/best/marketing-analytics-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

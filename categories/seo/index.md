@@ -258,5 +258,5 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/#webpage", "dateModified": "2026-09-28"}
 ```

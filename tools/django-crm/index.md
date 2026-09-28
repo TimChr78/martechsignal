@@ -182,6 +182,10 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

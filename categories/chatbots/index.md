@@ -144,5 +144,5 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/#webpage", "dateModified": "2026-09-28"}
 ```

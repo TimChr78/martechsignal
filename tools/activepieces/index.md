@@ -128,6 +128,10 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

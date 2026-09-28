@@ -169,6 +169,10 @@ PostHog AI answers questions about your data in plain language across web, Slack
 
 Related guides: [PostHog in Matomo alternatives](/alternatives/matomo)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

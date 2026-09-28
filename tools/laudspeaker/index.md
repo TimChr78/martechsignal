@@ -127,6 +127,10 @@ The open-source Braze alternative for technical growth teams that want data owne
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

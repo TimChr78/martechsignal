@@ -186,5 +186,5 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/#webpage", "dateModified": "2026-09-28"}
 ```

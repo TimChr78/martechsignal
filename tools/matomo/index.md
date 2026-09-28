@@ -197,6 +197,10 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 
 Related guides: [Alternatives to Matomo](/alternatives/matomo/) · [Matomo vs Plausible](/vs/matomo-vs-plausible) · [Marketing Analytics Tools](/best/marketing-analytics-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

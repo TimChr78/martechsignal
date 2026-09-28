@@ -138,6 +138,10 @@ The analytics tool we recommend by default for content and marketing sites; powe
 
 Related guides: [Plausible Analytics in Matomo alternatives](/alternatives/matomo) · [Plausible Analytics vs Matomo](/vs/matomo-vs-plausible)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

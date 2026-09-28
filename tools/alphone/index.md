@@ -154,6 +154,10 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

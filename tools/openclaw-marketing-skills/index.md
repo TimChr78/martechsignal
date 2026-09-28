@@ -137,6 +137,10 @@ Solid add-on pack for agent stacks; thin as a primary playbook source.
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -166,6 +166,10 @@ Both are AGPL-licensed PHP applications you self-host, and both cover accounts, 
 
 Related guides: [EspoCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -286,5 +286,5 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/#webpage", "dateModified": "2026-09-28"}
 ```

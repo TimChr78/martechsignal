@@ -187,6 +187,10 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 
 Related guides: [Frappe CRM in Hubspot Crm alternatives](/alternatives/hubspot-crm) · [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -1008,6 +1008,10 @@ All 160 tools, grouped by category. Each card links to a full teardown with pric
 
 Scored on the six-pillar rubric: [alphone](/tools/alphone/), [amplitude](/tools/amplitude/), [claude-seo](/tools/claude-seo/), [cordys-crm](/tools/cordys-crm/), [django-crm](/tools/django-crm/), [dolibarr](/tools/dolibarr/), [dynamic-yield](/tools/dynamic-yield/), [frappe-crm](/tools/frappe-crm/), [hubspot-crm](/tools/hubspot-crm/), [matomo](/tools/matomo/), [monica](/tools/monica/), [n8n](/tools/n8n/), [nocobase](/tools/nocobase/), [nocodb](/tools/nocodb/), [openoutreach](/tools/openoutreach/), [react-email-editor](/tools/react-email-editor/), [segment](/tools/segment/), [sendgrid](/tools/sendgrid/), [twenty](/tools/twenty/), [umami](/tools/umami/)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

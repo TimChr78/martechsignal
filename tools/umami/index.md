@@ -178,6 +178,10 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 
 Related guides: [Umami in Matomo alternatives](/alternatives/matomo) · [Marketing Analytics Tools](/best/marketing-analytics-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

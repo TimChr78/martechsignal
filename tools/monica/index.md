@@ -192,6 +192,10 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 Related guides: [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

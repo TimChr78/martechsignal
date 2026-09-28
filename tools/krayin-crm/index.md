@@ -160,6 +160,10 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 
 Related guides: [Open Source Crm](/best/open-source-crm)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

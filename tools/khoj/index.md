@@ -161,6 +161,10 @@ AGPL-3.0 covers the code. Using it internally is straightforward; deploying a mo
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

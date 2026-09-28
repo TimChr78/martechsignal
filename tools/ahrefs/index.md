@@ -146,6 +146,10 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 
 Related guides: [Ai Seo Tools](/best/ai-seo-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

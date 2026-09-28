@@ -144,6 +144,10 @@ The fastest path to email-competent agents, with real ESP control via MCP. List 
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

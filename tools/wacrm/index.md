@@ -183,6 +183,10 @@ Automations and flows never run. The container schedules nothing internally, so 
 
 Free open-source; self-hosted
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

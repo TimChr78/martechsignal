@@ -143,6 +143,10 @@ The most complete open-source cold email stack we have listed, but young (316 st
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

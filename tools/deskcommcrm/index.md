@@ -129,6 +129,10 @@ Strengths include 2,300 GitHub stars, MIT licensing with free self-hosting, an A
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ### Quick Facts
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

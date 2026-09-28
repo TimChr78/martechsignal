@@ -144,5 +144,5 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/#webpage", "dateModified": "2026-09-28"}
 ```

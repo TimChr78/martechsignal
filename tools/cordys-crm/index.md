@@ -185,6 +185,10 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

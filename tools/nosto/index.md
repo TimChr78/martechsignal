@@ -178,10 +178,14 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools)
+
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

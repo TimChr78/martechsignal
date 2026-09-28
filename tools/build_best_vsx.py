@@ -108,7 +108,7 @@ def build_best():
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(page_shell(
             page["seo_title"], page["meta"], f"/best/{page['slug']}/",
-            "\n".join(body), [schema, breadcrumb]))
+            "\n".join(body + [_SUB_INLINE]), [schema, breadcrumb]))
         built.append(page["slug"])
     print(f"best pages built: {len(built)} ({', '.join(built)})")
     return built
@@ -120,6 +120,9 @@ def _plabel(t):
         return pricing_label(t)
     except Exception:
         return str(t.get("price_notes") or t.get("price_from") or "see page")
+
+
+_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">SUBSCRIBE</button></form></section>'
 
 
 def _integ_cell(t):
@@ -227,7 +230,7 @@ def build_vs():
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(page_shell(
             page["seo_title"], page["meta"], f"/vs/{page['slug']}/",
-            "\n".join(body), [entity, breadcrumb]))
+            "\n".join(body + [_SUB_INLINE]), [entity, breadcrumb]))
         built.append(page["slug"])
     print(f"vs pages built: {len(built)} ({', '.join(built)})")
     return built

@@ -189,6 +189,10 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 
 Related guides: [Ai Crm Tools](/best/ai-crm-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

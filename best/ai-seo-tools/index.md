@@ -106,6 +106,10 @@ Ahrefs is the Singapore-based SEO data company known for its web index, and Bran
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
 
+## Get the next teardown
+
+One email when a new tool review lands, nothing else.
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

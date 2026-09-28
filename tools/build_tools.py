@@ -208,6 +208,9 @@ def _category_display(cat_slug):
     return words
 
 
+_SUB_INLINE = '<section class="subscribe sub-inline" id="subscribe"><h2>Get the next teardown</h2><p>One email when a new tool review lands, nothing else.</p><form class="sub-form" action="https://app.kit.com/forms/9136291/subscriptions" method="post" data-sv-form="9136291" data-uid="f315181f90" target="_blank"><input type="hidden" name="newsletter[subscriber][first_name]" value=""><input type="email" name="email_address" autocomplete="email" placeholder="you@company.com" aria-label="Email address" required><button type="submit">SUBSCRIBE</button></form></section>'
+
+
 def cat_h1(cat_name):
     """Category hub H1: append 'Tools' unless the name already ends with it."""
     name = (cat_name or "").strip()
@@ -623,6 +626,7 @@ def build_hub(tools, cats):
         '</select></label><span class="filter-count" id="flt-count" aria-live="polite"></span></div>')
     body = body.replace("</h1>", "</h1>" + FILTER_BAR, 1)
     out = TOOLS_DIR / "index.html"
+    body = body + _SUB_INLINE
 
     out.write_text(page_shell(
         "AI Marketing Tool Directory | MartechSignal",
@@ -1539,6 +1543,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             _age2 = -1
         if _age2 > 21:
             body = body.replace("</nav>", "</nav>" + f'<p class="kind-note">Re-check pending: pricing last verified {_du} ({_age2} days ago).</p>', 1)
+    body = body + _SUB_INLINE
     out.write_text(page_shell(
         seo_title,
         seo_desc,
