@@ -192,7 +192,7 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 
-Related guides: [Open Source Crm](/best/open-source-crm) · [Ai Crm Tools](/best/ai-crm-tools)
+Related guides: [Open Source Crm](/best/open-source-crm)
 
 ## Get the next teardown
 

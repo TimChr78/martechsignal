@@ -196,6 +196,12 @@ Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, a
 
 Open SourceDesk-reviewedOSS
 
+Zoho CRM
+
+Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
+
+FreemiumDesk-reviewed
+
 Agentforce Is Free: What Marketing Ops Can Build
 
 What the free Agentforce credits in Salesforce Foundations actually let marketing ops ship
@@ -217,9 +223,9 @@ Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 
 - CRM
 ## CRM Tools
 
-CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 23 tools reviewed.
+CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.
 
-23 TOOLS IN THIS CATEGORY
+24 TOOLS IN THIS CATEGORY
 
 Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monicahq.com) · [Krayin CRM](https://krayincrm.com)
 
@@ -266,8 +272,8 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
     {
       "@type": "ItemList",
       "name": "CRM Tools",
-      "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 23 tools reviewed.",
-      "numberOfItems": 23,
+      "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.",
+      "numberOfItems": 24,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -542,6 +548,18 @@ The directory covers 23 tools in four clusters. The hosted suites run the pipeli
             "description": "Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box",
             "image": "https://martechsignal.com/og/tools/warpdrive.png",
             "url": "https://martechsignal.com/tools/warpdrive/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@id": "https://martechsignal.com/tools/zoho-crm/#app",
+            "name": "Zoho CRM",
+            "description": "Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it",
+            "image": "https://martechsignal.com/og/tools/zoho-crm.png",
+            "url": "https://martechsignal.com/tools/zoho-crm/",
             "@type": "SoftwareApplication"
           }
         }

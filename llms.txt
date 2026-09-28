@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 160 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 161 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -101,6 +101,7 @@
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
 - [WaCRM](https://martechsignal.com/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (open source)
 - [Warpdrive](https://martechsignal.com/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (open source)
+- [Zoho CRM](https://martechsignal.com/tools/zoho-crm/): Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
 
 ### Email Marketing
 
@@ -362,5 +363,5 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 162 records = 160 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 163 records = 161 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows

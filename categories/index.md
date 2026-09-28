@@ -28,7 +28,7 @@ CRM
 
 Customer relationship management and sales pipelines
 
-23 tools
+24 tools
 
 Chatbots &amp; Conversational AI
 
@@ -88,7 +88,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 14 categories across the 160-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 14 categories across the 161-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content &amp; Copywriting](/categories/content-ai/)
 

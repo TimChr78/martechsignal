@@ -173,6 +173,8 @@ A bot session is any unique interaction between an end user and a bot. On chat, 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
+Related guides: [Ai Crm Tools](/best/ai-crm-tools)
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

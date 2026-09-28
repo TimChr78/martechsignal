@@ -100,7 +100,7 @@ Vendor: [Official site](https://warmbly.com) · [Pricing](https://warmbly.com/pr
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 

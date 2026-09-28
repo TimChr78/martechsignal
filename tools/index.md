@@ -432,6 +432,12 @@ Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail 
 
 Open SourceDesk-reviewedCRMOSS
 
+Zoho CRM
+
+Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
+
+FreemiumDesk-reviewedCRM
+
 ChatbotX
 
 Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation
@@ -966,7 +972,7 @@ FreemiumDesk-reviewedWorkflow Automation
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-160 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
+161 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
 
 Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 78 of them, with daily snapshots since Aug 25, 2026.
 
@@ -978,7 +984,7 @@ A directory tells you what exists. It does not tell you whether your stack can h
 
 The weekly newsletter tracks this category: one teardown, one workflow, no fluff.
 
-All 160 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
+All 161 tools, grouped by category. Each card links to a full teardown with pricing, licence and a plain summary of what the tool does.
 
 ## AI Content &amp; Copywriting *13*
 
@@ -988,7 +994,7 @@ All 160 tools, grouped by category. Each card links to a full teardown with pric
 
 ## Analytics &amp; Attribution *11*
 
-## CRM *23*
+## CRM *24*
 
 ## Chatbots &amp; Conversational AI *6*
 
@@ -1021,7 +1027,7 @@ One email when a new tool review lands, nothing else.
   "@type": "ItemList",
   "name": "AI Marketing Tool Directory",
   "description": "Curated directory of AI-powered marketing automation tools",
-  "numberOfItems": 160,
+  "numberOfItems": 161,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -2621,6 +2627,16 @@ One email when a new tool review lands, nothing else.
         "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
         "name": "Zapier GTM Cheat Codes",
         "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 161,
+      "item": {
+        "@type": "SoftwareApplication",
+        "@id": "https://martechsignal.com/tools/zoho-crm/#app",
+        "name": "Zoho CRM",
+        "url": "https://martechsignal.com/tools/zoho-crm/"
       }
     }
   ]

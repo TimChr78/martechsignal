@@ -87,7 +87,7 @@ The skip-it line then does something vendor pages cannot: it tells you when to c
 - [Best AI SEO tools (2026): 8 compared](https://martechsignal.com/best/ai-seo-tools/)Ten GEO and AI-visibility tools compared on engine coverage, prompt metering, and what happens after the report, with a verdict and a skip-it line for each.
 - [Best AI Marketing Automation tools (2026): 8 compared](https://martechsignal.com/best/ai-marketing-automation-tools/)8 marketing automation tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best AI Email Marketing tools (2026): 8 compared](https://martechsignal.com/best/ai-email-marketing-tools/)8 email marketing tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best AI CRM tools (2026): 8 compared](https://martechsignal.com/best/ai-crm-tools/)8 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
+- [Best AI CRM tools (2026): 6 compared](https://martechsignal.com/best/ai-crm-tools/)8 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best AI Content &amp; Copywriting tools (2026): 8 compared](https://martechsignal.com/best/ai-content-copywriting-tools/)8 ai content &amp; copywriting tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/)8 analytics &amp; attribution tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best AI Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/)6 social media tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
@@ -138,7 +138,7 @@ Prices and features on every page in this section come from the vendor's own pub
       },
       {
         "@type": "WebPage",
-        "name": "Best AI CRM tools (2026): 8 compared",
+        "name": "Best AI CRM tools (2026): 6 compared",
         "url": "https://martechsignal.com/best/ai-crm-tools/"
       },
       {

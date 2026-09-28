@@ -85,7 +85,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI CRM tools (2026): 8 compared](/best/ai-crm-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)

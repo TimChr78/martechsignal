@@ -1,7 +1,7 @@
 # MartechSignal
 
 > Independent reviews of AI marketing automation tools. Structured research on
-> 160 martech platforms | pricing, self-hosting, APIs, and which AI features
+> 161 martech platforms | pricing, self-hosting, APIs, and which AI features
 > actually ship. No sponsored rankings, no affiliate links.
 
 ## Directory
@@ -101,6 +101,7 @@
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
 - [WaCRM](https://martechsignal.com/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (open source)
 - [Warpdrive](https://martechsignal.com/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (open source)
+- [Zoho CRM](https://martechsignal.com/tools/zoho-crm/): Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
 
 ### Email Marketing
 
@@ -362,7 +363,7 @@
 
 ## Machine-readable data
 
-- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 162 records = 160 active + 2 non-active; the directory above lists only active tools
+- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 163 records = 161 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
 
 ### Advertising & Paid Media
@@ -714,6 +715,9 @@ WaCRM is a self-hostable CRM template built on the official Meta WhatsApp Busine
 
 [Warpdrive](https://martechsignal.com/tools/warpdrive/) , Open Source. Open source.
 Warpdrive is a self-hosted, MIT-licensed CRM that reimplements Pipedrive's core business development loop: kanban pipelines, a deal workspace, contacts and organizations, and two-way Gmail. It is single-tenant, runs on your own box, and has no per-seat bill. The README's comparison table against Pipedrive marks products, projects, invoicing, forecasting, multi-currency, workflow automation, and native mobile apps as intentionally out of scope, and the docs are blunt about it: if your team needs those, this is not the right tool. What it covers is deep for a project this young: pipelines with weighted stage totals and rotting-deal indicators, people and orgs with JSONB custom fields, a leads inbox with CSV import and undo, funnel stats, RBAC, and Gmail with thread linking, open and click tracking, templates, merge fields, and scheduled send. Sync is go-forward only: the docs state there is no backfill, so existing mail is never imported. AI access exists, but not as AI features. There is no lead scoring or drafting model; instead the project ships a documented MCP server at /api/mcp with 29 tools, OAuth 2.1 protected, so Claude, ChatGPT, or Cursor can search and update the CRM under each user's own permissions. The server has no delete tools for CRM records and no send tool: drafts are written for review and sending stays human. Contact enrichment is not AI either; it wraps your own paid Apollo, RocketReach, or GetProspect keys behind a review step. Setup is docker compose up -d --build after copying .env.example, bringing up Postgres 16, MinIO, a background worker, and Caddy for TLS. Requirements are specific: a domain with a second s3. subdomain record, ports 80 and 443, and a Google Workspace OAuth client, since Google is both the SSO and the mail provider. One maintainer, 35 commits, one release, 72 stars, and a public mirror of a private upstream: treat it as a young tool worth an afternoon, not a settled platform.
+
+[Zoho CRM](https://martechsignal.com/tools/zoho-crm/) , Freemium.
+Zoho CRM covers pipeline automation, lead scoring and forecasting with its Zia AI assistant. The free tier takes 3 users and the paid editions attach the wider Zoho suite (mail, books, desk) at low per-seat prices.
 
 ### Email Marketing
 

@@ -113,7 +113,7 @@ Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/p
 
 **you only need a mentions dashboard: the Core plan buys a broader mandate than tracking alone.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 

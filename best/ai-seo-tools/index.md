@@ -100,7 +100,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](h
 
 **Skip it if you want a permissive licence or a dashboard: the licence is proprietary and the surface is a CLI.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 

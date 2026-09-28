@@ -229,7 +229,8 @@
       "suitecrm",
       "twenty",
       "wacrm",
-      "warpdrive"
+      "warpdrive",
+      "zoho-crm"
     ],
     "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: twenty-three systems, seventeen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one.",
     "hub": {
@@ -423,7 +424,8 @@
           "note": "Which open-source CRM contenders, Twenty, Frappe and WaCRM, actually shipped in 50 days"
         }
       ]
-    }
+    },
+    "tool_count": 24
   },
   {
     "slug": "content-ai",

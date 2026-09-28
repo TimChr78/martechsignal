@@ -154,8 +154,6 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
-Related guides: [Ai Crm Tools](/best/ai-crm-tools)
-
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

@@ -290,61 +290,49 @@
     },
     {
       "slug": "ai-crm-tools",
-      "title": "Best AI CRM tools (2026): 8 compared",
+      "title": "Best AI CRM tools (2026): 6 compared",
       "seo_title": "Best AI CRM tools (2026): 8 compared",
       "meta": "8 crm tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.",
       "intro": [
-        "Twenty-three CRM tools sit in the catalog, and eight clear this bar. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.",
-        "Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them."
+        "Teams shopping for an AI CRM shortlist commercial vendors first, so this page does too. Six CRM suites with real AI features and published pricing are compared below, from the free entry points (HubSpot, Zoho) up to the enterprise default (Salesforce). For the self-hosted side of the market, our open-source CRM list covers that universe instead.",
+        "Every price below comes from the vendor's own pricing page, checked this month. The verdicts come from fit: who each product is actually built for, and where it stops being the right answer."
       ],
       "items": [
         {
-          "slug": "dolibarr",
-          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "Dolibarr ERP/CRM is a French open-source business suite that manages contacts, quotes, invoices, orders, stock, agenda, HR, and accounting in one PHP application, usable standalone or over the web. It starts free, and free to self-host under GPL-3+ with no user limits. Commercial ready-to-run cloud offerings are listed at saas.dolibarr.org; paid third-party addons are sold on Dolistore (verified 2026-09-06). The catalog documents 4 AI features, 9 integrations, a public API, and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
+          "slug": "attio",
+          "verdict": "Best for startups that want a CRM shaped around their own data model.",
+          "assessment": "Attio rebuilds the CRM around flexible data models and AI assistance, and it shows in the product: objects and relationships bend to your business instead of the other way round. Entry is free for 3 seats, Plus runs $29 per seat a month and Pro $69, all billed annually. It is young, which means fewer enterprise guardrails than the incumbents.",
+          "skip_if": "Skip it if you need enterprise compliance paperwork on day one: Salesforce and HubSpot are further along there."
         },
         {
           "slug": "hubspot-crm",
-          "verdict": "Teams that want a full funnel platform with CRM at its base",
-          "assessment": "Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It starts free, and free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.",
-          "skip_if": "Skip it if the free tier's limits already cover your real volume; the paid tiers are where the full workflow lives."
+          "verdict": "Best free CRM, and the natural next step when the free tier starts to bite.",
+          "assessment": "HubSpot's CRM is free forever for unlimited users, with Sales Hub Starter from $15 per seat a month billed annually. The AI features (forecasting, conversation intelligence, content assistants) deepen as the tiers rise. The catch is the ladder: once you are on Professional or Enterprise, the per-seat price climbs fast and contracts are annual.",
+          "skip_if": "Skip it if you want a la carte pricing: HubSpot works best when you buy into the whole platform."
         },
         {
-          "slug": "twenty",
-          "verdict": "Developers that want Salesforce-shaped records on their own Postgres",
-          "assessment": "Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
+          "slug": "salesforce-crm",
+          "verdict": "Best for enterprises that need the CRM everything else integrates with.",
+          "assessment": "Salesforce is the enterprise standard, with Einstein AI woven through forecasting, scoring and email capture. Starter begins at $25 per user a month and Enterprise at $165, and real deployments land well above that once you add the AI add-ons and the implementation partner. Nothing else matches its integration surface.",
+          "skip_if": "Skip it if you have fewer than fifty seats and no dedicated admin: the platform costs more to run than to buy."
         },
         {
-          "slug": "cordys-crm",
-          "verdict": "Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier.",
-          "assessment": "Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It starts free, and community edition free and self-hosted (GPLv3-based license, API capped at 1,000 calls/day). Enterprise edition: annual subscription published at ¥30,000 / ¥60,000 / ¥120,000 per year by company revenue, no per-seat fees, flagship adds hot-standby HA. DataEase embedding requires a DataEase commercial edition (verified 2026-09-07). The catalog documents 5 AI features, 4 integrations, a public API, and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
+          "slug": "zoho-crm",
+          "verdict": "Best value for small teams that want a full suite without an enterprise bill.",
+          "assessment": "Zoho CRM covers pipeline automation with its Zia AI assistant, free for 3 users and EUR 14 per user a month on Standard. Professional at EUR 23 adds workflow automation and AI, and the wider Zoho suite (mail, books, desk) attaches cheaply. The interface is denser than Attio's or HubSpot's.",
+          "skip_if": "Skip it if design polish is the buying criterion: the product trades looks for price."
         },
         {
-          "slug": "django-crm",
-          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built on Django REST Framework with a Svelte 5 and SvelteKit frontend and a Flutter app for iOS and Android, all sharing one backend and one documented REST API. It starts free, and free open-source self-hosting under MIT with no user caps or feature paywall; Bottle CRM sells managed hosting, with vertical packs and demo data layered on the open core (verified 2026-09-06). The catalog documents 5 integrations, a public API, and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
+          "slug": "pipedrive",
+          "verdict": "Best for small sales teams that live in one pipeline view.",
+          "assessment": "Pipedrive is a pipeline tool first, with AI sales assistance and forecasting layered on. Essential starts at $14 per user a month and the tiers climb to $59 for Professional. It does one job cleanly, which keeps adoption costs near zero.",
+          "skip_if": "Skip it if marketing and service sit in the same system: Pipedrive is a sales tool, not a suite."
         },
         {
-          "slug": "frappe-crm",
-          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. It starts free, and free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud (verified 2026-09-06). The catalog documents 5 integrations and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
-        },
-        {
-          "slug": "alphone",
-          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. It starts free, and free to self-host. Split license: backend under Elastic License 2.0 (source-available, not OSI open source), check terms for commercial use (verified 2026-09-06). The catalog documents a public API and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
-        },
-        {
-          "slug": "monica",
-          "verdict": "Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.",
-          "assessment": "Monica is an open-source personal relationship manager, the project's own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. It starts free, and self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier (verified 2026-09-07). The catalog documents a public API and a self-hosting path.",
-          "skip_if": "Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making."
+          "slug": "freshsales",
+          "verdict": "Best for budget-conscious teams that still want AI lead scoring.",
+          "assessment": "Freshsales (Freshworks CRM) bundles Freddy AI for lead scoring and forecasting, starting at $9 per user a month on Growth. Pro at $39 adds custom modules and more automation. The entry price is the lowest of the commercial set here, and the product covers phone and chat channels out of the box.",
+          "skip_if": "Skip it if you need deep custom objects: the data model thins out at scale."
         }
       ],
       "date_published": "2026-09-27",

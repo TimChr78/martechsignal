@@ -36,7 +36,7 @@ Analytics &amp; Attribution
 
 CRM
 
-23 tools
+24 tools
 
 Chatbots &amp; Conversational AI
 

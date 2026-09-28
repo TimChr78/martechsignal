@@ -185,8 +185,6 @@ The community edition is free and self-hosted under a GPLv3-based license, with 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ### Quick Facts
 
-Related guides: [Ai Crm Tools](/best/ai-crm-tools)
-
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

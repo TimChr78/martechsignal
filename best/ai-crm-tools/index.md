@@ -3,104 +3,82 @@
 
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
-| [Dolibarr ERP/CRM](/tools/dolibarr/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | No | Teams that want a full funnel platform with CRM at its base |
-| [Twenty](/tools/twenty/) | Open Source | Yes | Developers that want Salesforce-shaped records on their own Postgres |
-| [Cordys CRM](/tools/cordys-crm/) | Freemium | Yes | Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier. |
-| [Django CRM](/tools/django-crm/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Frappe CRM](/tools/frappe-crm/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [AlphOne](/tools/alphone/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Monica](/tools/monica/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Attio](/tools/attio/) | Freemium | No | Best for startups that want a CRM shaped around their own data model. |
+| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | No | Best free CRM, and the natural next step when the free tier starts to bite. |
+| [Salesforce CRM](/tools/salesforce-crm/) | Enterprise | No | Best for enterprises that need the CRM everything else integrates with. |
+| [Zoho CRM](/tools/zoho-crm/) | Freemium | No | Best value for small teams that want a full suite without an enterprise bill. |
+| [Pipedrive](/tools/pipedrive/) | From $14/mo | No | Best for small sales teams that live in one pipeline view. |
+| [Freshsales](/tools/freshsales/) | Free tier | No | Best for budget-conscious teams that still want AI lead scoring. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
 
-## Best AI CRM tools (2026): 8 compared
+## Best AI CRM tools (2026): 6 compared
 
-Twenty-three CRM tools sit in the catalog, and eight clear this bar. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
+Teams shopping for an AI CRM shortlist commercial vendors first, so this page does too. Six CRM suites with real AI features and published pricing are compared below, from the free entry points (HubSpot, Zoho) up to the enterprise default (Salesforce). For the self-hosted side of the market, our open-source CRM list covers that universe instead.
 
-Everything here is desk-researched from vendor documentation and our own catalog. Each tool page shows the date we last checked it. This is not a hands-on test. Prices appear exactly as the catalog records them.
+Every price below comes from the vendor&#x27;s own pricing page, checked this month. The verdicts come from fit: who each product is actually built for, and where it stops being the right answer.
 
-## [Dolibarr ERP/CRM](/tools/dolibarr/)
+## [Attio](/tools/attio/)
 
-Dolibarr ERP/CRM is a French open-source business suite that manages contacts, quotes, invoices, orders, stock, agenda, HR, and accounting in one PHP application, usable standalone or over the web. It starts free, and free to self-host under GPL-3+ with no user limits. Commercial ready-to-run cloud offerings are listed at saas.dolibarr.org; paid third-party addons are sold on Dolistore (verified 2026-09-06). The catalog documents 4 AI features, 9 integrations, a public API, and a self-hosting path.
+Attio rebuilds the CRM around flexible data models and AI assistance, and it shows in the product: objects and relationships bend to your business instead of the other way round. Entry is free for 3 seats, Plus runs $29 per seat a month and Pro $69, all billed annually. It is young, which means fewer enterprise guardrails than the incumbents.
 
-**Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for startups that want a CRM shaped around their own data model.
 
-Vendor: [Official site](https://www.dolibarr.org) · [GitHub](https://github.com/Dolibarr/dolibarr)
+Vendor: [Official site](https://attio.com) · [Pricing](https://attio.com/pricing)
 
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+**Skip it if you need enterprise compliance paperwork on day one: Salesforce and HubSpot are further along there.**
 
 ## [HubSpot CRM](/tools/hubspot-crm/)
 
-Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It starts free, and free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+HubSpot&#x27;s CRM is free forever for unlimited users, with Sales Hub Starter from $15 per seat a month billed annually. The AI features (forecasting, conversation intelligence, content assistants) deepen as the tiers rise. The catch is the ladder: once you are on Professional or Enterprise, the per-seat price climbs fast and contracts are annual.
 
-**Verdict:** Teams that want a full funnel platform with CRM at its base
+**Verdict:** Best free CRM, and the natural next step when the free tier starts to bite.
 
 Vendor: [Official site](https://www.hubspot.com/products/crm) · [Pricing](https://www.hubspot.com/pricing/crm)
 
-**Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
+**Skip it if you want a la carte pricing: HubSpot works best when you buy into the whole platform.**
 
-## [Twenty](/tools/twenty/)
+## [Salesforce CRM](/tools/salesforce-crm/)
 
-Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.
+Salesforce is the enterprise standard, with Einstein AI woven through forecasting, scoring and email capture. Starter begins at $25 per user a month and Enterprise at $165, and real deployments land well above that once you add the AI add-ons and the implementation partner. Nothing else matches its integration surface.
 
-**Verdict:** Developers that want Salesforce-shaped records on their own Postgres
+**Verdict:** Best for enterprises that need the CRM everything else integrates with.
 
-Vendor: [Official site](https://twenty.com) · [Pricing](https://twenty.com/pricing) · [GitHub](https://github.com/twentyhq/twenty)
+Vendor: [Official site](https://www.salesforce.com/crm/) · [Pricing](https://www.salesforce.com/editions-pricing/overview/)
 
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+**Skip it if you have fewer than fifty seats and no dedicated admin: the platform costs more to run than to buy.**
 
-## [Cordys CRM](/tools/cordys-crm/)
+## [Zoho CRM](/tools/zoho-crm/)
 
-Cordys CRM is an open-source, AI-native CRM from FIT2CLOUD, the Chinese software company behind 1Panel, JumpServer, and MaxKB. It starts free, and community edition free and self-hosted (GPLv3-based license, API capped at 1,000 calls/day). Enterprise edition: annual subscription published at ¥30,000 / ¥60,000 / ¥120,000 per year by company revenue, no per-seat fees, flagship adds hot-standby HA. DataEase embedding requires a DataEase commercial edition (verified 2026-09-07). The catalog documents 5 AI features, 4 integrations, a public API, and a self-hosting path.
+Zoho CRM covers pipeline automation with its Zia AI assistant, free for 3 users and EUR 14 per user a month on Standard. Professional at EUR 23 adds workflow automation and AI, and the wider Zoho suite (mail, books, desk) attaches cheaply. The interface is denser than Attio&#x27;s or HubSpot&#x27;s.
 
-**Verdict:** Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier.
+**Verdict:** Best value for small teams that want a full suite without an enterprise bill.
 
-Vendor: [Official site](https://cordys.cn) · [Pricing](https://cordys.cn/pricing.html) · [GitHub](https://github.com/1Panel-dev/CordysCRM)
+Vendor: [Official site](https://www.zoho.com/crm/) · [Pricing](https://www.zoho.com/crm/pricing.html)
 
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+**Skip it if design polish is the buying criterion: the product trades looks for price.**
 
-## [Django CRM](/tools/django-crm/)
+## [Pipedrive](/tools/pipedrive/)
 
-Django CRM, sold hosted as Bottle CRM, is an open-source, multi-tenant CRM built on Django REST Framework with a Svelte 5 and SvelteKit frontend and a Flutter app for iOS and Android, all sharing one backend and one documented REST API. It starts free, and free open-source self-hosting under MIT with no user caps or feature paywall; Bottle CRM sells managed hosting, with vertical packs and demo data layered on the open core (verified 2026-09-06). The catalog documents 5 integrations, a public API, and a self-hosting path.
+Pipedrive is a pipeline tool first, with AI sales assistance and forecasting layered on. Essential starts at $14 per user a month and the tiers climb to $59 for Professional. It does one job cleanly, which keeps adoption costs near zero.
 
-**Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for small sales teams that live in one pipeline view.
 
-Vendor: [Official site](https://bottlecrm.io) · [GitHub](https://github.com/Django-CRM/Django-CRM)
+Vendor: [Official site](https://www.pipedrive.com) · [Pricing](https://www.pipedrive.com/en/pricing)
 
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+**Skip it if marketing and service sit in the same system: Pipedrive is a sales tool, not a suite.**
 
-## [Frappe CRM](/tools/frappe-crm/)
+## [Freshsales](/tools/freshsales/)
 
-Frappe CRM is an open-source sales CRM built on the Frappe framework, the Python and MariaDB stack behind ERPNext, and it ships under AGPL-3.0, a license worth reading before you plan to offer it as a hosted service. It starts free, and free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedicated servers from $20 (Hetzner) to $60/mo. No per-user fee, unlimited leads, deals, and users on all plans. 14-day free trial on Frappe Cloud (verified 2026-09-06). The catalog documents 5 integrations and a self-hosting path.
+Freshsales (Freshworks CRM) bundles Freddy AI for lead scoring and forecasting, starting at $9 per user a month on Growth. Pro at $39 adds custom modules and more automation. The entry price is the lowest of the commercial set here, and the product covers phone and chat channels out of the box.
 
-**Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for budget-conscious teams that still want AI lead scoring.
 
-Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/frappe/crm)
+Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://www.freshworks.com/crm/pricing/)
 
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
+**Skip it if you need deep custom objects: the data model thins out at scale.**
 
-## [AlphOne](/tools/alphone/)
-
-AlphOne is a plugin-first CRM with a Go backend exposing both GraphQL and REST APIs, a React single-page frontend, and a design that treats automation as an external concern: there is no built-in rules engine, because everything the UI does is available over HTTP with a token. It starts free, and free to self-host. Split license: backend under Elastic License 2.0 (source-available, not OSI open source), check terms for commercial use (verified 2026-09-06). The catalog documents a public API and a self-hosting path.
-
-**Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
-
-Vendor: [Official site](https://github.com/gopherium/AlphOne) · [Pricing](https://github.com/gopherium/AlphOne) · [GitHub](https://github.com/gopherium/AlphOne)
-
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
-
-## [Monica](/tools/monica/)
-
-Monica is an open-source personal relationship manager, the project&#x27;s own term is PRM, built for documenting people rather than selling to them: contacts and relationships between contacts, notes, journal entries, activities, tasks, reminders with automatic birthdays, addresses, custom fields and sections, pets, gifts, calls, files, and life events, organized into vaults with multiple users and, per the README, 27 languages. It starts free, and self-host free under AGPL. Hosted Monica is a single plan: $9/month or $90/year (two months free on annual billing, 30-day trial, no credit card) with unlimited contacts, managed backups, data export, and email support. No enterprise tier (verified 2026-09-07). The catalog documents a public API and a self-hosting path.
-
-**Verdict:** Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier.
-
-Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/monicahq/monica)
-
-**Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
-
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 
@@ -114,7 +92,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Best AI CRM tools (2026): 8 compared",
+    "name": "Best AI CRM tools (2026): 6 compared",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-28",
     "author": {
@@ -123,15 +101,15 @@ One email when a new tool review lands, nothing else.
       "name": "Tim Christensen",
       "url": "https://martechsignal.com/authors/tim-christensen/"
     },
-    "numberOfItems": 8,
+    "numberOfItems": 6,
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Dolibarr ERP/CRM",
+        "name": "Attio",
         "item": {
-          "@id": "https://martechsignal.com/tools/dolibarr/#app",
-          "url": "https://martechsignal.com/tools/dolibarr/"
+          "@id": "https://martechsignal.com/tools/attio/#app",
+          "url": "https://martechsignal.com/tools/attio/"
         }
       },
       {
@@ -146,55 +124,37 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Twenty",
+        "name": "Salesforce CRM",
         "item": {
-          "@id": "https://martechsignal.com/tools/twenty/#app",
-          "url": "https://martechsignal.com/tools/twenty/"
+          "@id": "https://martechsignal.com/tools/salesforce-crm/#app",
+          "url": "https://martechsignal.com/tools/salesforce-crm/"
         }
       },
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Cordys CRM",
+        "name": "Zoho CRM",
         "item": {
-          "@id": "https://martechsignal.com/tools/cordys-crm/#app",
-          "url": "https://martechsignal.com/tools/cordys-crm/"
+          "@id": "https://martechsignal.com/tools/zoho-crm/#app",
+          "url": "https://martechsignal.com/tools/zoho-crm/"
         }
       },
       {
         "@type": "ListItem",
         "position": 5,
-        "name": "Django CRM",
+        "name": "Pipedrive",
         "item": {
-          "@id": "https://martechsignal.com/tools/django-crm/#app",
-          "url": "https://martechsignal.com/tools/django-crm/"
+          "@id": "https://martechsignal.com/tools/pipedrive/#app",
+          "url": "https://martechsignal.com/tools/pipedrive/"
         }
       },
       {
         "@type": "ListItem",
         "position": 6,
-        "name": "Frappe CRM",
+        "name": "Freshsales",
         "item": {
-          "@id": "https://martechsignal.com/tools/frappe-crm/#app",
-          "url": "https://martechsignal.com/tools/frappe-crm/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "AlphOne",
-        "item": {
-          "@id": "https://martechsignal.com/tools/alphone/#app",
-          "url": "https://martechsignal.com/tools/alphone/"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "Monica",
-        "item": {
-          "@id": "https://martechsignal.com/tools/monica/#app",
-          "url": "https://martechsignal.com/tools/monica/"
+          "@id": "https://martechsignal.com/tools/freshsales/#app",
+          "url": "https://martechsignal.com/tools/freshsales/"
         }
       }
     ]
@@ -218,7 +178,7 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Best AI CRM tools (2026): 8 compared",
+        "name": "Best AI CRM tools (2026): 6 compared",
         "item": "https://martechsignal.com/best/ai-crm-tools/"
       }
     ]

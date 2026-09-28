@@ -16,7 +16,7 @@ Browse the directory these teardowns draw from:
 
 [Marketing automation](/categories/marketing-automation/) [Workflow automation](/categories/workflow-automation/) [CRM](/categories/crm/) [Analytics](/categories/analytics/) [SEO](/categories/seo/) [Open source](/categories/open-source/)
 
-[NocoBase](/tools/nocobase/) [Amplitude](/tools/amplitude/) [Claude SEO](/tools/claude-seo/) [Segment](/tools/segment/) [Matomo](/tools/matomo/) [AlphOne](/tools/alphone/) [All 160 tools &#8594;](/tools/)
+[NocoBase](/tools/nocobase/) [Amplitude](/tools/amplitude/) [Claude SEO](/tools/claude-seo/) [Segment](/tools/segment/) [Matomo](/tools/matomo/) [AlphOne](/tools/alphone/) [All 161 tools &#8594;](/tools/)
 
 Before you buy: the [marketing automation checklist](/checklist/) scores your stack on the 12 things that decide whether AI can run any of it.
 

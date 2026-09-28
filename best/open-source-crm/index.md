@@ -80,7 +80,7 @@ Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/mon
 
 **Skip it if you need pipeline management or active releases.**
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 160 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 
