@@ -105,6 +105,15 @@ def main():
         title = html.unescape(m.group(1))
         slug = child.name
         out = render(slug, title, d.group(1) if d else "")
+        # r7 (2026-09-28): also emit the hero .webp srcset trio that every
+        # <img class="post-hero"> references (M-11 srcset). These used to come
+        # from a one-off script and silently went missing for later posts.
+        _card = Image.open(out).convert("RGB")
+        for _w in (1200, 800, 480):
+            _sfx = "" if _w == 1200 else f"-{_w}"
+            _img = (_card if _w == 1200 else _card.resize(
+                (_w, round(_card.height * _w / _card.width)), Image.LANCZOS))
+            _img.save(ROOT / "og" / f"hero-{slug}{_sfx}.webp", "WEBP", quality=82)
         print(f"  ✓ og/{slug}.png ({out.stat().st_size // 1024} KB)")
         count += 1
     print(f"Generated {count} OG cards")
