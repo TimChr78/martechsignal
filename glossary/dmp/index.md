@@ -50,6 +50,8 @@ AI-driven advertising reduced the DMP&#x27;s role further. DSPs now build and op
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [First-party data](/glossary/first-party-data/)
 
+Sources: [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)

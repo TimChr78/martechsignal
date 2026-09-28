@@ -53,6 +53,8 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
 
 6 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](https://chatbotx.io/docs) · [Chatfuel](https://chatfuel.com)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -50,6 +50,8 @@ AI now sets bids, builds audiences, and writes ad variations inside the DSP. Aut
 
 [AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [DCO](/glossary/dco/)
 
+Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://www.adcreative.ai)
+
 ### Categories
 
 [Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/)

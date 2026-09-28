@@ -97,6 +97,8 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
 
 13 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.org) · [Khoj](https://khoj.dev)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

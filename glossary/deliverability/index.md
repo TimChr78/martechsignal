@@ -58,6 +58,8 @@ AI-spam changes deliverability because receivers now classify generated content 
 
 [Email sequence](/glossary/email-sequence/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
+Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [ActiveCampaign](https://www.activecampaign.com) · [BillionMail](https://www.billionmail.com) · [Customer.io](https://customer.io)
+
 ### Categories
 
 [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)

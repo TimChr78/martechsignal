@@ -107,6 +107,8 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
 
 15 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [Listmonk](https://listmonk.app) · [Resend](https://resend.com) · [BillionMail](https://www.billionmail.com)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

@@ -54,6 +54,8 @@ AI changed personalization from rules to prediction. Models score each visitor i
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [UTM parameters](/glossary/utm-parameters/)
 
+Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach.com) · [Amplitude](https://amplitude.com)
+
 ### Categories
 
 [Personalization &amp; CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)

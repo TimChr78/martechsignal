@@ -481,6 +481,8 @@ Open SourceDesk-reviewedOSS
 
 78 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langchain.com) · [Paperclip](https://paperclip.ing)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

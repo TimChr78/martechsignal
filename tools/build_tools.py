@@ -1707,6 +1707,15 @@ def build_category_page(cat, tools):
         cat = dict(cat, description=cat["description"].replace("{n}", _n))
     if isinstance(cat.get("intro"), str):
         cat = dict(cat, intro=cat["intro"].replace("{n}", _n))
+    # r8 C2 (2026-09-28): category pages link out to real vendors - the three
+    # with the biggest catalogued followings, straight from verified fields.
+    _vend = [t for t in cat_tools if t.get("website")]
+    _vend.sort(key=lambda x: (-(int(x.get("github_stars") or 0)), x["name"].lower()))
+    _vendor_line = ""
+    if _vend[:3]:
+        _vendor_line = ('<p class="meta out-links">Vendors in this category: '
+            + ' · '.join(f'<a href="{esc(v["website"])}" rel="noopener">{esc(v["name"])}</a>' for v in _vend[:3])
+            + '</p>')
     hub = cat.get("hub")
     if hub:
         hub = dict(hub)
@@ -1738,7 +1747,7 @@ def build_category_page(cat, tools):
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
   {intro_html}
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
+  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>\n  {_vendor_line}
 </section>
 <div class="tool-grid">{cards}</div>"""
     else:
@@ -1801,7 +1810,7 @@ def build_category_page(cat, tools):
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
-  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>
+  <p class="count">{len(cat_tools)} TOOLS IN THIS CATEGORY</p>\n  {_vendor_line}
 </section>
 
 <div class="flow-strip" aria-hidden="true">{flow}</div>

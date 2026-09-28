@@ -54,6 +54,8 @@ AI now drafts sequence copy, predicts send times, and picks subject lines from h
 
 [Deliverability](/glossary/deliverability/) · [First-party data](/glossary/first-party-data/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing automation](/glossary/marketing-automation/) · [Marketing ops](/glossary/marketing-ops/)
 
+Sources: [ActiveCampaign](https://www.activecampaign.com) · [Customer.io](https://customer.io) · [BillionMail](https://www.billionmail.com)
+
 ### Categories
 
 [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)

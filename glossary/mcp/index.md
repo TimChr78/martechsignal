@@ -58,6 +58,8 @@ MCP exists because of AI; the practical risk is quota economics. Hosted-model pr
 
 [OpenAI Isn&amp;#x27;t Building Ads. It&amp;#x27;s Building Agents](/blog/openai-agent-ads-spending-without-you/)
 
+Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](https://n8n.io) · [Make](https://www.make.com)
+
 ### Categories
 
 [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)

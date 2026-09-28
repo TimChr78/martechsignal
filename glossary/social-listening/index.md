@@ -46,6 +46,8 @@ LLMs improved listening analysis substantially: they read nuance that keyword se
 
 ## Tools in this space
 
+Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com)
+
 ### Categories
 
 [Social Media](/categories/social-media/) [Best Social Media tools](/best/ai-social-media-tools/)

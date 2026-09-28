@@ -30,6 +30,8 @@ A generative engine reads a question, retrieves a small set of candidate sources
 
 ## Tools in this space
 
+Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https://developers.google.com/search/docs) · [Profound](https://www.tryprofound.com/) · [Trakkr](https://trakkr.ai/)
+
 ### Categories
 
 [GEO &amp; LLM Optimization](/categories/geo-llm-visibility/) [Best GEO & LLM Optimization tools](/best/geo-llm-visibility-tools/) [GEO guide](/guides/generative-engine-optimization/)

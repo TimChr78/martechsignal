@@ -62,6 +62,8 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 
 [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Marketing ops](/glossary/marketing-ops/) · [MCP](/glossary/mcp/)
 
+Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Tray.io](https://tray.ai) · [Pipedream](https://pipedream.com)
+
 ### Categories
 
 [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)

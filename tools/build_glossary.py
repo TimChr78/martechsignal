@@ -121,6 +121,30 @@ def build_hub(terms):
 
 # ── Term pages ────────────────────────────────────────────────────
 
+# r8 C2 (2026-09-28): hand-curated primary sources per entry. Every URL here
+# was verified live (HTTP 200, 2026-09-28) before it was written down; terms
+# with no citable standard lean on the catalog's own verified vendor fields.
+_TERM_SOURCES = {
+    "ai-search-visibility": (("llms.txt spec", "https://llmstxt.org/"),
+                             ("Google Search Central", "https://developers.google.com/search/docs")),
+    "aeo": (("llms.txt spec", "https://llmstxt.org/"),),
+    "geo": (("llms.txt spec", "https://llmstxt.org/"),
+            ("Google Search Central", "https://developers.google.com/search/docs")),
+    "seo": (("Google Search Central", "https://developers.google.com/search/docs"),),
+    "deliverability": (("RFC 5321 (SMTP)", "https://datatracker.ietf.org/doc/rfc5321/"),),
+    "cdp": (("CDP Institute", "https://www.cdpinstitute.org/"),),
+    "utm-parameters": (("Google campaign URL builder", "https://ga-dev-tools.google/campaign-url-builder/"),),
+    "mcp": (("Model Context Protocol", "https://modelcontextprotocol.io/"),),
+    "programmatic-advertising": (("IAB Tech Lab", "https://www.iabtechlab.com/"),),
+    "dsp": (("IAB Tech Lab", "https://www.iabtechlab.com/"),),
+    "dco": (("IAB Tech Lab", "https://www.iabtechlab.com/"),),
+    "first-party-data": (("IAB Tech Lab", "https://www.iabtechlab.com/"),),
+    "cro": (("Nielsen Norman Group", "https://www.nngroup.com/"),),
+    "customer-journey": (("Nielsen Norman Group", "https://www.nngroup.com/"),),
+    "chatbot": (("Nielsen Norman Group", "https://www.nngroup.com/"),),
+}
+
+
 def build_term_page(term, tools_map, all_terms):
     slug = term["slug"]
 
@@ -191,6 +215,16 @@ def build_term_page(term, tools_map, all_terms):
                 parts.append(f"<h2>{title}</h2><p>{esc(txt)}</p>")
         dd_html = "".join(parts)
 
+    # r8 C2 (2026-09-28): every entry cites its sources - the standard/spec where
+    # one exists (verified live), plus vendor pages from the catalog's own
+    # verified website fields. No invented URLs.
+    _parts = [f'<a href="{esc(u)}" rel="noopener">{esc(n)}</a>' for n, u in _TERM_SOURCES.get(slug, ())]
+    for _rs in (term.get("related_tools") or []):
+        _t = tools_map.get(_rs)
+        if _t and _t.get("website") and len(_parts) < 4:
+            _parts.append(f'<a href="{esc(_t["website"])}" rel="noopener">{esc(_t["name"])}</a>')
+    sources_html = ('<p class="meta out-links">Sources: ' + ' · '.join(_parts) + '</p>') if _parts else ''
+
     body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/glossary/">Glossary</a> / <span>{esc(term['short'])}</span></nav>
 <section class="page-head">
   <h1>{esc(term['term'])}</h1>
@@ -206,6 +240,7 @@ def build_term_page(term, tools_map, all_terms):
     {related_html}
     {rt_html}
     {posts_html}
+    {sources_html}
   </div>
   <aside class="sidebar">
     <div class="side-card">

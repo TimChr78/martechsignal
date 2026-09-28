@@ -50,6 +50,8 @@ Generative AI removed the asset bottleneck: models can draft dozens of creative 
 
 [AI content](/glossary/ai-content-generation/) · [DSP](/glossary/dsp/) · [Programmatic](/glossary/programmatic-advertising/)
 
+Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://www.adcreative.ai) · [Anyword](https://www.anyword.com)
+
 ### Categories
 
 [Advertising &amp; Paid Media](/categories/advertising/) [Best Advertising & Paid Media tools](/best/ai-advertising-tools/) [Agentic advertising](/guides/agentic-ai-advertising/) [AI Content &amp; Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)

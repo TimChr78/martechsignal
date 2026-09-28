@@ -139,6 +139,8 @@ Advertising and paid media tools: creative generators, bid platforms, automation
 
 9 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · [advertools](https://advertools.readthedocs.io) · [AdCreative.ai](https://www.adcreative.ai)
+
 Paid media tooling used to be three separate jobs: make the creative, place the buy, read the report. The ad platforms are collapsing that into agents. Google handed budget decisions to AI inside Google Ads, Microsoft rolled out AI campaign automation for search, and OpenAI is building the agents that will do the buying. The tools here moved the same direction at different speeds. Smartly.io puts creative production, media buying, and measurement in one contract. Pencil routes generation across models from OpenAI, Google, Adobe, and Runway behind a no-train policy and IP indemnification. Madgicx redistributes budget across Meta ad sets in real time without asking.
 
 The failure mode this category keeps producing is an agent spending money nobody approved, and our coverage here is strong because the vendors keep proving the point. Google Handed Your Ad Budget to AI Agents walked through Google&#x27;s agentic rollout and the control gap it leaves open. OpenAI Isn&#x27;t Building Ads. It&#x27;s Building Agents made the case that the buying layer, not the ad format, is the story. AI ad account guardrails Google won&#x27;t ship documents what you still have to build yourself, and Microsoft Just Removed the Steering Wheel From Search Ads shows the same drift from the other side. Platforms ship budget autonomy faster than the reporting to match, so the audit trail falls to you.

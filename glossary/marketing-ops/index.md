@@ -58,6 +58,8 @@ AI agents create a new ops job: governing the agents. Budget caps, approval gate
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/)
 
+Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [ActiveCampaign](https://www.activecampaign.com) · [Twilio Segment](https://segment.com) · [n8n](https://n8n.io)
+
 ### Categories
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)

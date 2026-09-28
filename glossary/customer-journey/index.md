@@ -54,6 +54,8 @@ AI agents make journey orchestration practical at scale, sending the right messa
 
 [ABM](/glossary/abm/) · [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [CRM](/glossary/crm/)
 
+Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https://amplitude.com) · [Mixpanel](https://mixpanel.com) · [HubSpot CRM](https://www.hubspot.com/products/crm)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)

@@ -54,6 +54,8 @@ AI models eat UTM data, so quality in, quality out. Agents that optimize channel
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/)
 
+Sources: [Google campaign URL builder](https://ga-dev-tools.google/campaign-url-builder/) · [Amplitude](https://amplitude.com) · [Mixpanel](https://mixpanel.com) · [Attribution](https://www.attributionapp.com)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)

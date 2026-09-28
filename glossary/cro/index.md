@@ -58,6 +58,8 @@ AI now writes test variants, picks winning combinations, and personalizes pages 
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
+Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https://amplitude.com) · [Mixpanel](https://mixpanel.com) · [Clerk.io](https://www.clerk.io)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Personalization &amp; CDP](/categories/personalization/) [Best Personalization & CDP tools](/best/ai-personalization-tools/)

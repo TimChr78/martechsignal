@@ -58,6 +58,8 @@ AI lead scoring reads intent signals that rules miss: which pages a contact visi
 
 [ABM](/glossary/abm/) · [Agentic Marketing](/glossary/agentic-marketing/) · [AI Agent](/glossary/ai-agent/) · [Customer journey](/glossary/customer-journey/) · [CRM](/glossary/crm/)
 
+Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM](https://www.salesforce.com/crm/) · [ActiveCampaign](https://www.activecampaign.com)
+
 ### Categories
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)

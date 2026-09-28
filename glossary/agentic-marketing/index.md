@@ -58,6 +58,8 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 
 [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/) · [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 
+Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
+
 ### Categories
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)

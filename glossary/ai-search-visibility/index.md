@@ -62,6 +62,8 @@ Yes, the metric is about AI, and AI makes it messy: the same prompt can yield di
 
 [Link Building Won’t Get You Into AI Answers](/blog/link-building-wont-get-you-into-ai-answers/)
 
+Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https://developers.google.com/search/docs) · [Semrush](https://www.semrush.com) · [Surfer SEO](https://surferseo.com)
+
 ### Categories
 
 [SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)

@@ -62,6 +62,8 @@ AI moved automation from if-then rules to goal-based prompts. You state the outc
 
 [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/) · [AI Agents Need Campaign State, Not Prompts](/blog/ai-agents-need-campaign-state/) · [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/) · [Why Your Marketing Automation Stack Doesn’t Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 
+Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www.braze.com) · [Customer.io](https://customer.io) · [Adobe Marketo Engage](https://business.adobe.com/products/marketo.html)
+
 ### Categories
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)

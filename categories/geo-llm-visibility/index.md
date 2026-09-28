@@ -165,6 +165,8 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 14 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [Promptfoo](https://promptfoo.dev) · [AccuRanker](https://www.accuranker.com) · [Adobe LLM Optimizer](https://business.adobe.com/products/brand-visibility.html)
+
 For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.
 
 Two kinds sit in this category. Specialists like Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune and Nimt do nothing but AI visibility: prompt tracking across engines, citation sources, share of voice against competitors, and in some cases the content fixes too. The established suites arrived later and bolted the same tracking onto products you may already run: AccuRanker&#x27;s AccuLLM, the SISTRIX AI module, Ahrefs&#x27; Brand Radar, Adobe&#x27;s LLM Optimizer inside Experience Cloud. Pricing splits along the same line. The specialists price by tracked prompts and brands, from EUR 29 a month for OtterlyAI up to USD 800 for Evertune&#x27;s content-inclusive plan. The suite add-ons travel with plans you may already pay for, and the enterprise end quotes per account. The third route is the developer&#x27;s: Promptfoo runs your own prompt sets across ChatGPT, Perplexity and the other engines, which is GEO tracking you build and own.

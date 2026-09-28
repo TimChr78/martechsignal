@@ -62,6 +62,8 @@ AEO is the AI-era discipline by definition, but its levers are mostly old-fashio
 
 [Link Building Won’t Get You Into AI Answers](/blog/link-building-wont-get-you-into-ai-answers/)
 
+Sources: [llms.txt spec](https://llmstxt.org/) · [Semrush](https://www.semrush.com) · [Clearscope](https://www.clearscope.io) · [Surfer SEO](https://surferseo.com)
+
 ### Categories
 
 [SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)

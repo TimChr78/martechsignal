@@ -62,6 +62,8 @@ Predictive scoring finds patterns humans miss: a lead that reads three specific 
 
 [Your Dashboard Can&amp;#x27;t See AI Search: 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/) · [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/) · [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 
+Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM](https://www.salesforce.com/crm/) · [ActiveCampaign](https://www.activecampaign.com)
+
 ### Categories
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/) [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/)

@@ -50,6 +50,8 @@ LLM chatbots made the category credible for open dialogue, and agent platforms n
 
 ## Tools in this space
 
+Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [ChatbotX](https://chatbotx.io/docs) · [Chatfuel](https://chatfuel.com) · [Chatwoot](https://www.chatwoot.com)
+
 ### Categories
 
 [Chatbots &amp; Conversational AI](/categories/chatbots/) [Best Chatbots & Conversational AI tools](/best/ai-chatbot-tools/)

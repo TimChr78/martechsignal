@@ -58,6 +58,8 @@ AI agents need clean, unified profiles to personalize anything. Campaign state, 
 
 [Attribution models](/glossary/marketing-attribution-models/) · [CRO](/glossary/cro/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
+Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io) · [Amplitude](https://amplitude.com)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)

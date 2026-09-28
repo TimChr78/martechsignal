@@ -145,6 +145,8 @@ Analytics and attribution tools: event tracking, funnels, and what multi-touch c
 
 11 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umami.is) · [Plausible Analytics](https://plausible.io)
+
 Web analytics counts visits. Product analytics counts behavior: which users did what, in what order, and whether they came back. For a marketing team the difference is the gap between knowing a campaign sent 4,000 visitors and knowing it sent 4,000 visitors of whom maybe 300 activated and a few dozen still around in week three. The tools in this category track events instead of pageviews. Mixpanel stores every signup, click and purchase as a discrete event with properties. Heap captures every interaction by default, so you can define a metric months after the traffic arrived. Amplitude layers cohorts, funnels and session replay on top.
 
 The category matters because the two failure modes it fixes show up everywhere. The first is attribution fiction: multi-touch models distribute credit by formula, and the answer changes with every touchpoint you add. We argued in a recent post that signal loss didn&#x27;t break measurement, it exposed what multi-touch attribution never measured in the first place. The second is budget bleeding: teams pay for tooling nobody audits while the reporting stack goes dark, because AI search keeps breaking the click paths those dashboards assume. Measurement that admits its own error bars is worth more than measurement that promises certainty. Most vendors in this space promise certainty.

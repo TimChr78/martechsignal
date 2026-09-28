@@ -62,6 +62,8 @@ This entry is about AI by definition; the practical note is that agent quality c
 
 [AI Agents Need Campaign State, Not Prompts](/blog/ai-agents-need-campaign-state/) · [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/) · [Google Handed Your Ad Budget to AI Agents](/blog/google-ad-agents-control-gap/)
 
+Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](https://www.workato.com)
+
 ### Categories
 
 [Marketing Automation](/categories/marketing-automation/) [Best Marketing Automation tools](/best/ai-marketing-automation-tools/) [Automation strategy](/guides/workflow-automation-strategy/) [Workflow Automation](/categories/workflow-automation/) [Best Workflow Automation tools](/best/workflow-automation-tools/) [MCP and agent protocols](/guides/mcp-agent-protocols/) [Automation strategy](/guides/workflow-automation-strategy/)

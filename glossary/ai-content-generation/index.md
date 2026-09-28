@@ -54,6 +54,8 @@ The recursion problem is live: models trained on generated content degrade, and 
 
 [DSP](/glossary/dsp/) · [DCO](/glossary/dco/) · [Programmatic](/glossary/programmatic-advertising/) · [SEO](/glossary/seo/)
 
+Sources: [Anyword](https://www.anyword.com) · [ALwrity](https://alwrity.com) · [AdCreative.ai](https://www.adcreative.ai)
+
 ### Categories
 
 [AI Content &amp; Copywriting](/categories/content-ai/) [Best AI Content & Copywriting tools](/best/ai-content-copywriting-tools/) [AI SEO tooling](/guides/ai-seo-tooling/)

@@ -58,6 +58,8 @@ AI changed what wins. Overviews answer queries directly, so a visible citation m
 
 [AI content](/glossary/ai-content-generation/) · [AI Visibility](/glossary/ai-search-visibility/) · [AEO](/glossary/aeo/)
 
+Sources: [Google Search Central](https://developers.google.com/search/docs) · [Clearscope](https://www.clearscope.io) · [ALwrity](https://alwrity.com) · [Claude SEO](https://claude-seo.md/)
+
 ### Categories
 
 [SEO &amp; Search](/categories/seo/) [Best SEO & Search tools](/best/ai-seo-tools/) [AI SEO tooling](/guides/ai-seo-tooling/) [Agent Skills](/categories/agent-skills/) [Best Agent Skills tools](/best/agent-skills-tools/)

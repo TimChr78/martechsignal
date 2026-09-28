@@ -58,6 +58,8 @@ AI search and agentic media buying broke click-based attribution further. When C
 
 [CRO](/glossary/cro/) · [CDP](/glossary/cdp/) · [Customer journey](/glossary/customer-journey/) · [DMP](/glossary/dmp/) · [First-party data](/glossary/first-party-data/)
 
+Sources: [Attribution](https://www.attributionapp.com) · [Amplitude](https://amplitude.com) · [Mixpanel](https://mixpanel.com)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/)

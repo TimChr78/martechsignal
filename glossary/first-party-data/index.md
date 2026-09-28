@@ -62,6 +62,8 @@ AI agents depend on first-party data more than any previous marketing stack. A p
 
 [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 
+Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https://segment.com) · [Snowplow](https://snowplow.io) · [Customer.io](https://customer.io)
+
 ### Categories
 
 [Analytics &amp; Attribution](/categories/analytics/) [Best Analytics & Attribution tools](/best/marketing-analytics-tools/) [Email Marketing](/categories/email-marketing/) [Best Email Marketing tools](/best/ai-email-marketing-tools/)

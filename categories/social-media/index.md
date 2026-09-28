@@ -53,6 +53,8 @@ So the tiers: lightweight schedulers (Buffer, MultiPost), AI content generators 
 
 6 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

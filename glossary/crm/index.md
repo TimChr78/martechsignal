@@ -66,6 +66,8 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 
 [ABM](/glossary/abm/) · [Customer journey](/glossary/customer-journey/) · [Lead scoring](/glossary/lead-scoring/) · [Marketing ops](/glossary/marketing-ops/) · [MQL / SQL](/glossary/mql-sql/)
 
+Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM](https://www.salesforce.com/crm/) · [Attio](https://attio.com) · [EspoCRM](https://www.espocrm.com)
+
 ### Categories
 
 [CRM](/categories/crm/) [Best CRM tools](/best/ai-crm-tools/)

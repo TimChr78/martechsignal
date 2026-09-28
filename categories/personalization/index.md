@@ -71,6 +71,8 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
 
 9 TOOLS IN THIS CATEGORY
 
+Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith](https://www.flagsmith.com) · [Jitsu](https://jitsu.com)
+
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 
