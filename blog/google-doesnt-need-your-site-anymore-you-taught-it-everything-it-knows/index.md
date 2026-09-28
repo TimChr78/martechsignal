@@ -97,8 +97,8 @@ The play is to own something the machine cannot answer without you. Google does 
 - [Frase](/tools/frase/) - AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Comparison guides
 
-- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+- [n8n vs Make vs Zapier (2026): the three-way automation decision](/vs/n8n-vs-make-vs-zapier/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -159,7 +159,7 @@ More from the directory: [ManyChat](/tools/manychat/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1412,
+  "wordCount": 1414,
   "articleSection": "seo"
 }
 ```
@@ -189,4 +189,8 @@ More from the directory: [ManyChat](/tools/manychat/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

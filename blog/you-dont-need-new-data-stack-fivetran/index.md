@@ -110,11 +110,11 @@ Our directory breaks down data and activation tools by pricing model, connector 
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
-- [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 - [Triple Whale](/tools/triple-whale/) - AI-powered ecommerce analytics and attribution platform for DTC brands
+- [Amplitude](/tools/amplitude/) - AI-powered digital analytics platform for product and marketing teams
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
 ## Comparison guides
 
@@ -208,4 +208,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

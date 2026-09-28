@@ -150,8 +150,8 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ### Quick Facts
 
 ## Get the next teardown
@@ -277,4 +277,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

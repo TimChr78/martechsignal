@@ -194,8 +194,8 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools/)
@@ -340,4 +340,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

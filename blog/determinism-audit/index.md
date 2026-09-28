@@ -92,7 +92,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Related tools
 
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -162,7 +162,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1781,
+  "wordCount": 1782,
   "articleSection": "agent-skills"
 }
 ```
@@ -192,4 +192,8 @@ More from the directory: [Khoj](/tools/khoj/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

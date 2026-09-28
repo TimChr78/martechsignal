@@ -166,8 +166,8 @@ As a fresh installation, not an in-place patch. The docs require the latest 7.x 
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ### Quick Facts
 
 Related guides: [SuiteCRM in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
@@ -311,4 +311,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

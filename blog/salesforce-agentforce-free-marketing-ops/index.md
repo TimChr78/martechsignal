@@ -113,7 +113,7 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Related tools
 
 - [Cordys CRM](/tools/cordys-crm/) - Open-source AI CRM with built-in agents, conversational analytics, and private deployment
@@ -181,7 +181,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1825,
+  "wordCount": 1828,
   "articleSection": "crm"
 }
 ```
@@ -211,4 +211,8 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

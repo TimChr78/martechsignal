@@ -190,8 +190,8 @@ Twenty has no model of its own; the legal FAQ states that CRM content can be use
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
 Related guides: [Twenty in Hubspot Crm alternatives](/alternatives/hubspot-crm/) · [Open Source Crm](/best/open-source-crm/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
@@ -343,4 +343,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

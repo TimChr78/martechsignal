@@ -85,8 +85,8 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 ## Related reading
 
 - [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
 - [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
@@ -156,7 +156,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1592,
+  "wordCount": 1586,
   "articleSection": "analytics"
 }
 ```
@@ -186,4 +186,8 @@ More from the directory: [Writesonic](/tools/writesonic/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

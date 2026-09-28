@@ -120,7 +120,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -190,7 +190,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2522,
+  "wordCount": 2521,
   "articleSection": "marketing-automation"
 }
 ```
@@ -220,4 +220,8 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

@@ -80,7 +80,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -150,7 +150,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1705,
+  "wordCount": 1703,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```
@@ -180,4 +180,8 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

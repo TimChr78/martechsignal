@@ -85,7 +85,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -146,7 +146,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1576,
+  "wordCount": 1574,
   "articleSection": "seo"
 }
 ```
@@ -176,4 +176,8 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

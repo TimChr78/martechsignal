@@ -1,5 +1,23 @@
 
 
+import json as _h9j
+_H9_ENTITY = _h9j.dumps({
+    "@context": "https://schema.org",
+    "@graph": [
+        {"@type": "Organization", "@id": "https://martechsignal.com/#organization",
+         "name": "MartechSignal", "url": "https://martechsignal.com/",
+         "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo",
+                  "url": "https://martechsignal.com/logo.png"},
+         "sameAs": ["https://github.com/timchr78"]},
+        {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+         "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/",
+         "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+         "worksFor": {"@id": "https://martechsignal.com/#organization"},
+         "sameAs": ["https://github.com/timchr78"]},
+    ],
+})
+_H9_TAG = '<script type="application/ld+json">' + _H9_ENTITY + '</script>'
+
 def _png_dims(src):
     import struct
     try:
@@ -551,7 +569,7 @@ def build_post(meta: dict, body_html: str) -> str:
   </div>
 </footer>
 
-</body>
+{_H9_TAG}</body>
 </html>"""
 
 
@@ -698,7 +716,7 @@ def build_index(posts: list) -> str:
   </div>
 </footer>
 
-</body>
+{_H9_TAG}</body>
 </html>"""
 
 

@@ -153,8 +153,8 @@ The most complete open-source cold email stack we have listed, but young (316 st
 ## Related reading
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools/)
@@ -282,4 +282,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

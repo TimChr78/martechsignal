@@ -92,7 +92,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Related tools
 
 - [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
@@ -101,7 +101,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -162,7 +162,7 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1634,
+  "wordCount": 1631,
   "articleSection": "agent-skills"
 }
 ```
@@ -192,4 +192,8 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

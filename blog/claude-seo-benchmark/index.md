@@ -64,8 +64,8 @@ This post is part of the hub for this topic: [ai seo tooling](/guides/ai-seo-too
 - [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
 ## Comparison guides
 
-- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -163,4 +163,8 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

@@ -188,8 +188,8 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 ## Related reading
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm/)
@@ -357,4 +357,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

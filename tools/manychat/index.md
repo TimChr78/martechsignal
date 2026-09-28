@@ -148,8 +148,8 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
@@ -277,4 +277,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

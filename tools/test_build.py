@@ -386,7 +386,10 @@ class TestSectionHubs:
             nodes = []
             for b in blocks:
                 d = json.loads(b)
-                nodes += d if isinstance(d, list) else [d]
+                if isinstance(d, dict) and "@graph" in d:
+                    nodes += d["@graph"]
+                else:
+                    nodes += d if isinstance(d, list) else [d]
             types = [n["@type"] for n in nodes]
             assert "CollectionPage" in types, f"/{sec}/ hub: no CollectionPage node"
             assert "BreadcrumbList" in types, f"/{sec}/ hub: no BreadcrumbList"
@@ -663,3 +666,20 @@ def test_content_json_star_literals_resolve_to_records():
                 if m.group(1) not in valid:
                     bad.append((fname, m.group(1)))
     assert not bad, f"orphan star literals in comparison content: {bad[:6]}"
+
+
+def test_entity_graph_resolves_id_refs():
+    """H9 (r9, 2026-09-28): pages that reference #person/#organization must define
+    them in-document via the entity @graph (dangling @id refs fail per-document parsers)."""
+    import re as _re
+    bad = []
+    for f in sorted((ROOT).glob('**/index.html')):
+        if 'deploy-out' in str(f):
+            continue
+        h = f.read_text(errors='ignore')
+        c = h.replace(' ', '')
+        if '#person' in h and '"@type":"Person"' not in c:
+            bad.append((str(f.relative_to(ROOT)), 'person'))
+        if '#organization' in h and '"@type":"Organization"' not in c:
+            bad.append((str(f.relative_to(ROOT)), 'organization'))
+    assert not bad, f'dangling @id refs without entity graph: {bad[:6]}'

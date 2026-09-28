@@ -146,9 +146,9 @@ A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B tea
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
 ### Quick Facts
 
 Related guides: [Ai Chatbot Tools](/best/ai-chatbot-tools/)
@@ -276,4 +276,8 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

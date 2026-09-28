@@ -106,9 +106,9 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 ## Related reading
 
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -212,4 +212,8 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
 
 ```json
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an autonomous marketing platform?","acceptedAnswer":{"@type":"Answer","text":"A platform where marketers define goals, budgets, and constraints, and AI agents create, optimize, and execute campaigns across channels with minimal manual effort. Vendors call them autonomous marketing platforms, analysts call the same systems agentic AI, and G2 files them under AI marketing agents. Every system shipping today still has humans setting objectives, approving steps, or holding budget authority."}},{"@type":"Question","name":"Is autonomous marketing the same as agentic marketing?","acceptedAnswer":{"@type":"Answer","text":"Same category, different observers. \"Autonomous marketing\" is the vendor term, led by ActiveCampaign, Albert, and Bloomreach. \"Agentic marketing\" is the analyst and academic term, defined most cleanly by Vlerick Business School. G2 split the difference by naming its May 2026 category \"AI Marketing Agents.\" Same software, either word. Compare control surfaces instead of vocabulary."}},{"@type":"Question","name":"Do autonomous marketing platforms really work without humans?","acceptedAnswer":{"@type":"Answer","text":"No system on the market operates without humans, despite the name. What works today is delegated execution: agents handling optimization, pacing, and variant generation inside budget caps and approval gates that humans own. The accountability does not transfer: you remain accountable for the outcomes."}}]}
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

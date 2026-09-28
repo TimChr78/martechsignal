@@ -84,9 +84,9 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 
 ## Related reading
 
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
 - [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -156,7 +156,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1744,
+  "wordCount": 1748,
   "articleSection": "email-marketing"
 }
 ```
@@ -186,4 +186,8 @@ More from the directory: [IFTTT](/tools/ifttt/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```

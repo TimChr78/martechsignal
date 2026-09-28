@@ -1,4 +1,22 @@
 #!/usr/bin/env python3
+
+import json as _h9j
+_H9_ENTITY = _h9j.dumps({
+    "@context": "https://schema.org",
+    "@graph": [
+        {"@type": "Organization", "@id": "https://martechsignal.com/#organization",
+         "name": "MartechSignal", "url": "https://martechsignal.com/",
+         "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo",
+                  "url": "https://martechsignal.com/logo.png"},
+         "sameAs": ["https://github.com/timchr78"]},
+        {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+         "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/",
+         "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+         "worksFor": {"@id": "https://martechsignal.com/#organization"},
+         "sameAs": ["https://github.com/timchr78"]},
+    ],
+})
+_H9_TAG = '<script type="application/ld+json">' + _H9_ENTITY + '</script>'
 """Generate static HTML pages for the MartechSignal tool directory.
 
 Reads tools/tools.json + tools/categories.json → outputs:
@@ -557,7 +575,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
     <p class="fine">© {datetime.now().year} MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION</p>
   </div>
 </footer>
-</body>
+{_H9_TAG}</body>
 </html>"""
 
 # ── Directory hub ──────────────────────────────────────────────────

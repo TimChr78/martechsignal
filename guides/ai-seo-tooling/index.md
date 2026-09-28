@@ -78,3 +78,7 @@ Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.se
 ```json
 {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://martechsignal.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://martechsignal.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "AI SEO tooling", "item": "https://martechsignal.com/guides/ai-seo-tooling/"}]}
 ```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
+```

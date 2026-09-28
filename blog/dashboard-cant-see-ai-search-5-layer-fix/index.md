@@ -105,8 +105,8 @@ This post is part of the [generative engine optimization hub](/guides/generative
 - [Rankscale](/tools/rankscale/) - AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 ## Comparison guides
 
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 - [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -197,4 +197,8 @@ More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
 ```
