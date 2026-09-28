@@ -192,7 +192,7 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
-Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)
+Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase/) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools/)
 
 ## Get the next teardown
 

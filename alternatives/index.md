@@ -73,6 +73,7 @@ A migration that fails should fail cheap, which is a design choice made during t
 - [Best HubSpot CRM alternatives (2026)](https://martechsignal.com/alternatives/hubspot-crm/)Five HubSpot CRM alternatives, from open-source Twenty and SuiteCRM to sales-focused Pipedrive, with real pricing and honest limits.
 - [Best Zapier alternatives (2026)](https://martechsignal.com/alternatives/zapier/)Zapier alternatives including n8n, Make, Pipedream, Tray.io, and Budibase, with real pricing models and the buyer each one fits.
 - [Best Matomo alternatives (2026)](https://martechsignal.com/alternatives/matomo/)Five Matomo alternatives: lightweight privacy analytics (Plausible, Umami), product suites, and a warehouse pipeline, with honest limits.
+- [Best n8n alternatives (2026)](https://martechsignal.com/alternatives/n8n/)n8n alternatives including Make, Zapier, Pipedream, and Activepieces, with pricing models and the buyer each one fits.
 Prices and features on every page in this section come from the vendor's own published materials, as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
@@ -101,6 +102,11 @@ Prices and features on every page in this section come from the vendor's own pub
         "@type": "WebPage",
         "name": "Best Matomo alternatives (2026)",
         "url": "https://martechsignal.com/alternatives/matomo/"
+      },
+      {
+        "@type": "WebPage",
+        "name": "Best n8n alternatives (2026)",
+        "url": "https://martechsignal.com/alternatives/n8n/"
       }
     ]
   },

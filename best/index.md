@@ -95,7 +95,7 @@ The skip-it line then does something vendor pages cannot: it tells you when to c
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/)8 personalization &amp; cdp tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](https://martechsignal.com/best/ai-chatbot-tools/)6 chatbots &amp; conversational ai tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best GEO &amp; LLM Optimization tools (2026): 9 compared](https://martechsignal.com/best/geo-llm-visibility-tools/)8 geo &amp; llm optimization tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
-- [Best Open-Source Marketing Tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/)8 open-source tools tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
+- [Best Open-Source Marketing Tools (2026): 8 compared](https://martechsignal.com/best/open-source-marketing-tools/)8 open-source tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 - [Best Agent Skills tools (2026): 8 compared](https://martechsignal.com/best/agent-skills-tools/)8 agent skills tools compared on pricing, AI features, and integrations, with a verdict and a skip-it line for each.
 Prices and features on every page in this section come from the vendor's own published materials, as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 

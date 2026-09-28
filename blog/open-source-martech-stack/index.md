@@ -62,7 +62,7 @@ RECOVERED · 8 MIN
 
 [Home](/) · [Blog](/blog/) · Open-Source Martech Stack vs $5K/mo Subscriptions
 
-JUL 27, 2026 · Updated SEP 25, 2026
+JUL 27, 2026 · Updated SEP 28, 2026
 
 Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns $5,000–15,000/month on martech subscriptions, and the prices only go up.
 
@@ -178,8 +178,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Comparison guides
 
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -225,7 +225,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-07-27",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/open-source-martech-stack/",
   "image": {
     "@type": "ImageObject",

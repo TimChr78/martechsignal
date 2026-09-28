@@ -69,6 +69,8 @@ Workflow Automation · Open Source · OPEN SOURCE Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 
+Looking for options? [Best n8n alternatives](/alternatives/n8n/)
+
 [Visit n8n &#8594;](https://n8n.io)
 
 [How we review](/methodology/) · No affiliate links
@@ -154,8 +156,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 Related guides: [n8n in Zapier alternatives](/alternatives/zapier/) · [n8n vs Zapier](/vs/n8n-vs-zapier/) · [Workflow Automation Tools](/best/workflow-automation-tools/) · [Open Source Marketing Tools](/best/open-source-marketing-tools/)

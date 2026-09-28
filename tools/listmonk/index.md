@@ -151,6 +151,8 @@ The strongest self-hosted mailing platform we have run; bring your own forms and
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
+Related guides: [Open Source Marketing Tools](/best/open-source-marketing-tools/)
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

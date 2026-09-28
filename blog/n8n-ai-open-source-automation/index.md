@@ -181,7 +181,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 ## Comparison guides
 
 - [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -242,7 +242,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2478,
+  "wordCount": 2480,
   "articleSection": ""
 }
 ```

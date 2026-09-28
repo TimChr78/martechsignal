@@ -104,7 +104,7 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Comparison guides
 
 - [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
-- [ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict](/vs/activecampaign-vs-klaviyo/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)
@@ -163,7 +163,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1470,
+  "wordCount": 1469,
   "articleSection": ""
 }
 ```

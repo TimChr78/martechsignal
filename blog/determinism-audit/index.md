@@ -101,7 +101,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -162,7 +162,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1780,
+  "wordCount": 1781,
   "articleSection": "agent-skills"
 }
 ```

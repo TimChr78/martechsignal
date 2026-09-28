@@ -90,8 +90,8 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 - [DeskcommCRM](/tools/deskcommcrm/) - Self-hosted open-source CRM with AI agents that sell through WhatsApp
 ## Comparison guides
 
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 - [Best HubSpot CRM alternatives (2026)](/alternatives/hubspot-crm/)
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -150,7 +150,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1486,
+  "wordCount": 1481,
   "articleSection": "open-source, workflow-automation"
 }
 ```

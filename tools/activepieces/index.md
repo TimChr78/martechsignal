@@ -139,7 +139,7 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)
