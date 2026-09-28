@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | nocodb.com/pricing documents the whole ladder with limits: self-hosted free with unlimited records and seats, Cloud Free (3 users, 1,000 records), Plus at 12 USD, Business at 24 USD and Scale at 45 USD per seat billed annually, with Enterprise the only quote-only item (the vendor pricing page). |
-| Feature depth | 7/10 | Six core views, forms, per-role permissions, conditional webhooks and workflows over your own Postgres or MySQL cover the baseline with the bring-your-own-database design as differentiator, while timeline, gantt and AI features sit behind paid tiers (vendor documentation). |
-| Integrations | 6/10 | REST API v3 with Swagger and conditional webhooks cover programmatic access over Postgres, MySQL and SQLite, but Slack, Discord, SES and S3 arrive through a paid App Store and no broad native catalog exists (vendor documentation). |
-| AI capability | 7/10 | NocoAI generates schemas, tables, views and formulas from prompts, AI button and AI prompt field types ship on paid tiers, and an MCP server gives agents record-level access to a base (vendor documentation). |
-| Openness | 7/10 | The Sustainable Use License is fair-code and source-available with free self-hosting and unlimited seats, but it is not OSI-approved and forbids offering NocoDB to others as a hosted service (the source repository). |
-| Operational maturity | 8/10 | 64,910 GitHub stars with calendar-versioned releases (2026.08.2 shipped September 3, 2026), full documentation and paid plans that carry support (vendor documentation). |
+| Pricing transparency | 10/10 | nocodb.com/pricing documents the whole ladder with limits: self-hosted free with unlimited records and seats, Cloud Free (3 users, 1,000 records), Plus at 12 USD, Business at 24 USD and Scale at 45 USD per seat billed annually, with Enterprise the only quote-only item (the vendor pricing page: [pricing page](https://nocodb.com/pricing), verified 2026-09-26). |
+| Feature depth | 7/10 | Six core views, forms, per-role permissions, conditional webhooks and workflows over your own Postgres or MySQL cover the baseline with the bring-your-own-database design as differentiator, while timeline, gantt and AI features sit behind paid tiers (vendor documentation: [vendor site](https://nocodb.com), verified 2026-09-26). |
+| Integrations | 6/10 | REST API v3 with Swagger and conditional webhooks cover programmatic access over Postgres, MySQL and SQLite, but Slack, Discord, SES and S3 arrive through a paid App Store and no broad native catalog exists (vendor documentation: [vendor site](https://nocodb.com), verified 2026-09-26). |
+| AI capability | 7/10 | NocoAI generates schemas, tables, views and formulas from prompts, AI button and AI prompt field types ship on paid tiers, and an MCP server gives agents record-level access to a base (vendor documentation: [vendor site](https://nocodb.com), verified 2026-09-26). |
+| Openness | 7/10 | The Sustainable Use License is fair-code and source-available with free self-hosting and unlimited seats, but it is not OSI-approved and forbids offering NocoDB to others as a hosted service (the source repository: [repository](nocodb/nocodb), verified 2026-09-26). |
+| Operational maturity | 8/10 | 64,910 GitHub stars with calendar-versioned releases (2026.08.2 shipped September 3, 2026), full documentation and paid plans that carry support (vendor documentation: [vendor site](https://nocodb.com), verified 2026-09-26). |
 
 
 | Pros | Cons |

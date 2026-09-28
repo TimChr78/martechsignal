@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (vendor documentation). |
-| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation). |
-| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation). |
-| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository). |
-| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (vendor documentation). |
+| Pricing transparency | 7/10 | Free to use with API costs for DataForSEO, Gemini, Google and Firecrawl stated as the run cost (the vendor pricing page: [pricing page](https://github.com/AgriciDaniel/codex-seo), verified 2026-08-28). |
+| Feature depth | 6/10 | 26 SEO workflows with 24 TOML agent profiles and GEO/AEO optimization cover the agent-SEO surface (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository: [repository](AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author&#x27;s licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 
 
 | Pros | Cons |

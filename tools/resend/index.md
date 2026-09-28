@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (the vendor pricing page). |
-| Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (vendor documentation). |
-| Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (vendor documentation). |
-| AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (vendor documentation). |
-| Openness | 6/10 | MIT SDKs at 19.7k GitHub stars behind a closed sending service (the source repository). |
-| Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (vendor documentation). |
+| Pricing transparency | 8/10 | Free 3,000 emails/mo (100/day, 3 domains), Transactional Pro $20/mo (50K), Scale $90 to $1,150/mo published tiers (the vendor pricing page: [pricing page](https://resend.com/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
+| Openness | 6/10 | MIT SDKs at 19.7k GitHub stars behind a closed sending service (the source repository: [repository](resend/react-email), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

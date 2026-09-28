@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (the vendor pricing page, verified 2026-09-06). |
-| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation). |
-| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation). |
-| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation). |
-| Openness | 3/10 | Closed SaaS; no API documented in the catalog (the source repository). |
-| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation). |
+| Pricing transparency | 8/10 | Core $14/mo ($11 annual) with 50 generations, Growth $55/mo ($44 annual) with 250, Pro custom, all published (the vendor pricing page: [pricing page](https://trypencil.com/pricing), verified 2026-09-06). |
+| Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; no API documented in the catalog (the source repository: [repository](https://trypencil.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

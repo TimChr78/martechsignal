@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (vendor documentation). |
-| Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 8.4k GitHub stars and free self-hosting (the source repository). |
-| Operational maturity | 6/10 | Founded 2020 with a commercial entity behind the open core (vendor documentation). |
+| Pricing transparency | 8/10 | Starter free (3 users), Pro $40/seat/mo (30 users) published with Enterprise custom and managed warehouse event caps listed (the vendor pricing page: [pricing page](https://www.growthbook.io/pricing), verified 2026-09-25). |
+| Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
+| Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
+| AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 8.4k GitHub stars and free self-hosting (the source repository: [repository](growthbook/growthbook), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2020 with a commercial entity behind the open core (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

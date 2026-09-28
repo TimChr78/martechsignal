@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation). |
-| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation). |
-| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (the source repository). |
-| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (vendor documentation). |
+| Pricing transparency | 10/10 | Free MIT-licensed Python package with nothing else to buy (the vendor pricing page: [pricing page](https://advertools.readthedocs.io), verified 2026-09-25). |
+| Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (the source repository: [repository](eliasdabbas/advertools), verified 2026-09-28). |
+| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

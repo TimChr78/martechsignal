@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation). |
-| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation). |
-| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with strong API coverage (the source repository). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation). |
+| Pricing transparency | 7/10 | Essential $29/seat/mo, Advanced $85, Expert $139 published, plus Fin AI at $0.99 per resolution, a rare metered AI price (the vendor pricing page: [pricing page](https://www.intercom.com/pricing), verified 2026-08-28). |
+| Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (the source repository: [repository](https://www.intercom.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

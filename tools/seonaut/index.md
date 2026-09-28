@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 4/10 | Technical SEO crawling with recurring audits cover the audit job (vendor documentation). |
-| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 782 GitHub stars in readable Go (the source repository). |
-| Operational maturity | 4/10 | Founded 2022 at 782 stars with priced cloud tiers above the free plan (vendor documentation). |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); cloud Lite free for 1 project/500 URLs, Growth $9/mo for 5 projects/10K URLs published (the vendor pricing page: [pricing page](https://seonaut.org/), verified 2026-09-07). |
+| Feature depth | 4/10 | Technical SEO crawling with recurring audits cover the audit job (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 782 GitHub stars in readable Go (the source repository: [repository](StJudeWasHere/seonaut), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2022 at 782 stars with priced cloud tiers above the free plan (vendor documentation: [vendor site](https://seonaut.org), verified 2026-09-28). |
 
 
 | Pros | Cons |

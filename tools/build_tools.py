@@ -741,7 +741,7 @@ def _score_band(t):
     rows = "".join(
         '<tr><td>' + _PILLAR_LABELS[k] + '</td><td style="text-align:right">'
         + str(rec["pillars"][k]["score"]) + '/10</td>'
-        + '<td>' + esc(rec["pillars"][k]["evidence"]) + '</td></tr>'
+        + '<td>' + _evidence_cell(t, rec, rec["pillars"][k]["evidence"]) + '</td></tr>'
         for k in _PILLAR_ORDER)
     band = (
         '<section class="score-band" style="margin:1.25rem 0;padding:1.1rem 1.25rem;'
@@ -781,6 +781,40 @@ def _score_band(t):
         }
     return band, review
 
+
+
+def _evidence_cell(t, rec, ev):
+    """H2 (r9, 2026-09-28): every pillar cell carries a resolvable URL + checked date."""
+    import re as _h2re
+    m = _h2re.search(r'\s*\(([^()]+)\)\.?\s*$', ev)
+    date = ''
+    if m:
+        tail = m.group(1)
+        body = ev[:m.start()]
+    else:
+        tail = 'vendor documentation'
+        body = ev.rstrip().rstrip('.')
+    dm = _h2re.search(r'verified\s+(\d{4}-\d{2}-\d{2})', tail)
+    if dm:
+        date = dm.group(1)
+        tail = tail.replace(dm.group(0), '').rstrip(', ')
+    low = tail.lower()
+    if 'repositor' in low or 'github' in low:
+        url = t.get('github_repo') or t.get('website') or t.get('pricing_url') or ''
+        label = 'repository'
+    elif 'pric' in low:
+        url = t.get('pricing_url') or t.get('website') or ''
+        label = 'pricing page'
+    else:
+        url = t.get('website') or t.get('pricing_url') or t.get('github_repo') or ''
+        label = 'vendor site'
+    if not date:
+        date = rec.get('scored') or ''
+    link = ('<a href="' + url + '" rel="noopener">' + label + '</a>') if url else label
+    out = esc(body) + ' (' + esc(tail) + ': ' + link
+    if date:
+        out += ', verified ' + esc(date)
+    return out + ').'
 
 
 # A3 M-20 (2026-09-27): commercial guide links on tool pages (the audit found

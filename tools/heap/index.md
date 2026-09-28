@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (vendor documentation). |
-| Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with data exports to your warehouse (the source repository). |
-| Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation). |
+| Pricing transparency | 5/10 | Free (10K sessions/mo, 6 months history) is published; Growth and Pro are custom-priced (the vendor pricing page: [pricing page](https://www.heap.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data exports to your warehouse (the source repository: [repository](https://www.heap.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

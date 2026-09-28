@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation). |
-| Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation). |
-| AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation). |
-| Openness | 9/10 | AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (the source repository). |
-| Operational maturity | 3/10 | Founded 2025 with 2.2k stars; the project is early and operations are thin (vendor documentation). |
+| Pricing transparency | 8/10 | Self-hosted free with all features (AGPL-3.0); Cloud from $19/mo for 2,500 contacts with BYO-ESP and unlimited sends (the vendor pricing page: [pricing page](https://www.notifuse.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (the source repository: [repository](Notifuse/notifuse), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025 with 2.2k stars; the project is early and operations are thin (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

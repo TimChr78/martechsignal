@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Standard $249/seat/mo, Professional $399/seat/mo published with a 30-day trial; Advanced is custom (the vendor pricing page, verified 2026-09-27). |
-| Feature depth | 7/10 | Publishing, engagement, listening and sentiment analytics cover enterprise social operations (vendor documentation). |
-| Integrations | 6/10 | Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI reply assist, sentiment analysis and listening queries put the models where support volume is (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 8/10 | Founded 2010 and publicly listed with enterprise social deployments behind it (vendor documentation). |
+| Pricing transparency | 7/10 | Standard $249/seat/mo, Professional $399/seat/mo published with a 30-day trial; Advanced is custom (the vendor pricing page: [pricing page](https://sproutsocial.com/pricing/), verified 2026-09-27). |
+| Feature depth | 7/10 | Publishing, engagement, listening and sentiment analytics cover enterprise social operations (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
+| Integrations | 6/10 | Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI reply assist, sentiment analysis and listening queries put the models where support volume is (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://sproutsocial.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2010 and publicly listed with enterprise social deployments behind it (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

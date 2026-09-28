@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page). |
-| Feature depth | 4/10 | Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (vendor documentation). |
-| Integrations | 4/10 | GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (vendor documentation). |
-| AI capability | 6/10 | AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (vendor documentation). |
-| Openness | 7/10 | The backend is source-available under Elastic License 2.0 with an AGPLv3 frontend: free to self-host, not OSI open source, and forbidden as a hosted service offered to third parties (the source repository). |
-| Operational maturity | 3/10 | Founded in 2026 with 176 GitHub stars and an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation). |
+| Pricing transparency | 5/10 | Self-hosting is free as stated in the README, but there is no pricing page, no published commercial or support terms, and the project is early-stage (the vendor pricing page: [pricing page](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Feature depth | 4/10 | Contacts, tasks, an importer, configurable fields and a WhatsApp Cloud API channel cover core CRM plus a little more, and the plugin catalogue is still young (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Integrations | 4/10 | GraphQL and REST APIs plus webhooks, an MCP server, a community n8n node and a WhatsApp Cloud API plugin cover programmatic access, with no marketplace behind them (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| AI capability | 6/10 | AlphOne speaks MCP from version 0.9.0 so agent clients can query tasks, contacts and fields through a defined tool list and agent-created records are marked, but there are no built-in AI features (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
+| Openness | 7/10 | The backend is source-available under Elastic License 2.0 with an AGPLv3 frontend: free to self-host, not OSI open source, and forbidden as a hosted service offered to third parties (the source repository: [repository](gopherium/AlphOne), verified 2026-09-26). |
+| Operational maturity | 3/10 | Founded in 2026 with 176 GitHub stars and an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation: [vendor site](https://github.com/gopherium/AlphOne), verified 2026-09-26). |
 
 
 | Pros | Cons |

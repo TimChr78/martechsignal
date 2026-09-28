@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | A Free plan (10 queries/mo) is published; Optimize, Research and Strategy tiers are demo-gated with no public prices (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 6/10 | Strategy documents, drafting, 9 brief types and patented topic authority models cover content planning (vendor documentation). |
-| Integrations | 3/10 | Google Docs and Word export plus WordPress copy-paste and ChatGPT documented; no API (vendor documentation). |
-| AI capability | 6/10 | Content Strategy AI, MarketMuse AI drafting and patented authority models are the analytical core (vendor documentation). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository). |
-| Operational maturity | 7/10 | Founded 2013 with patented methodology and long SEO-team deployments (vendor documentation). |
+| Pricing transparency | 4/10 | A Free plan (10 queries/mo) is published; Optimize, Research and Strategy tiers are demo-gated with no public prices (the vendor pricing page: [pricing page](https://www.marketmuse.com/pricing/), verified 2026-09-07). |
+| Feature depth | 6/10 | Strategy documents, drafting, 9 brief types and patented topic authority models cover content planning (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
+| Integrations | 3/10 | Google Docs and Word export plus WordPress copy-paste and ChatGPT documented; no API (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
+| AI capability | 6/10 | Content Strategy AI, MarketMuse AI drafting and patented authority models are the analytical core (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository: [repository](https://www.marketmuse.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with patented methodology and long SEO-team deployments (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page, verified 2026-09-06). |
-| Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation). |
-| Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation). |
-| AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation). |
-| Openness | 8/10 | MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (the source repository). |
-| Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (vendor documentation). |
+| Pricing transparency | 7/10 | Free builder tier, then Launch $250/mo, Scale $750/mo, Optimize $2,000/mo published with 10% annual saving and 14-day trials (the vendor pricing page: [pricing page](https://unlayer.com/pricing), verified 2026-09-06). |
+| Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
+| Openness | 8/10 | MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (the source repository: [repository](unlayer/react-email-editor), verified 2026-09-28). |
+| Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
 
 
 | Pros | Cons |

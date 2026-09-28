@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (the vendor pricing page). |
-| Feature depth | 5/10 | CRM records with native agent support and built-in AI chat cover the small-team CRM loop (vendor documentation). |
-| Integrations | 5/10 | Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (vendor documentation). |
-| AI capability | 6/10 | A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (vendor documentation). |
-| Openness | 8/10 | AGPL-3.0 with 1.6k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 4/10 | Founded 2024 at 1.6k stars with priced cloud tiers (vendor documentation). |
+| Pricing transparency | 8/10 | Self-hosted free (AGPL-3.0, unlimited users and records); Cloud Pro $19/workspace/mo yearly with 2,000 AI credits published (the vendor pricing page: [pricing page](https://relaticle.com/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | CRM records with native agent support and built-in AI chat cover the small-team CRM loop (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| Integrations | 5/10 | Five named MCP clients plus REST API v1 (OpenAPI 3.1) and CSV import/export (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| AI capability | 6/10 | A 37-tool MCP server and built-in AI chat with agent support are native, not bolted on (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with 1.6k GitHub stars and full self-hosting (the source repository: [repository](relaticle/relaticle), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2024 at 1.6k stars with priced cloud tiers (vendor documentation: [vendor site](https://relaticle.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

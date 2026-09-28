@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (vendor documentation). |
-| Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation). |
-| AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access and standard exports (the source repository). |
-| Operational maturity | 9/10 | Founded 2001 with Intuit&#x27;s infrastructure behind it and the category&#x27;s widest name recognition (vendor documentation). |
+| Pricing transparency | 8/10 | Free (500 contacts, 1,000 emails/mo), Essentials $13/mo, Standard $20/mo, Premium $350/mo, all published (the vendor pricing page: [pricing page](https://mailchimp.com/pricing/marketing/), verified 2026-08-28). |
+| Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and standard exports (the source repository: [repository](https://mailchimp.com), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2001 with Intuit&#x27;s infrastructure behind it and the category&#x27;s widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

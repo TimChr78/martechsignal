@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | n8n.io/pricing publishes Starter at 20 EUR (2,500 workflow executions), Pro at 50 EUR (10,000) and Business at 667 EUR (40,000) with per-plan limits listed and self-hosting free, with Enterprise the only contact-sales tier (n8n.io/pricing). |
-| Feature depth | 8/10 | More than 400 nodes, custom code steps, versioned workflows and AI agent nodes cover the automation baseline and more, with a near-unlimited ceiling offset by a real learning curve (vendor documentation). |
-| Integrations | 10/10 | A 400-plus node catalog with community nodes covering the long tail, an open API, custom code steps and every integration included on all plans is the widest integration surface in this batch (vendor documentation). |
-| AI capability | 8/10 | AI agent nodes and AI workflow features ship in the core product, and a documented MCP surface at n8n.io/mcp lets AI apps build and update n8n workflows (n8n.io/mcp, n8n.io/pricing). |
-| Openness | 7/10 | Source-available under n8n&#x27;s fair-code license and fully self-hostable, but the license is not OSI-approved and restricts offering n8n as a commercial hosted service (n8n.io fair-code license docs). |
-| Operational maturity | 9/10 | 203,890 GitHub stars, a Berlin company founded in 2019, cloud and Enterprise plans with dedicated support and an SLA, and a template ecosystem above 10,000 workflows (n8n.io/pricing). |
+| Pricing transparency | 10/10 | n8n.io/pricing publishes Starter at 20 EUR (2,500 workflow executions), Pro at 50 EUR (10,000) and Business at 667 EUR (40,000) with per-plan limits listed and self-hosting free, with Enterprise the only contact-sales tier (n8n.io/pricing: [pricing page](https://n8n.io/pricing/), verified 2026-09-26). |
+| Feature depth | 8/10 | More than 400 nodes, custom code steps, versioned workflows and AI agent nodes cover the automation baseline and more, with a near-unlimited ceiling offset by a real learning curve (vendor documentation: [vendor site](https://n8n.io), verified 2026-09-26). |
+| Integrations | 10/10 | A 400-plus node catalog with community nodes covering the long tail, an open API, custom code steps and every integration included on all plans is the widest integration surface in this batch (vendor documentation: [vendor site](https://n8n.io), verified 2026-09-26). |
+| AI capability | 8/10 | AI agent nodes and AI workflow features ship in the core product, and a documented MCP surface at n8n.io/mcp lets AI apps build and update n8n workflows (n8n.io/mcp, n8n.io/pricing: [pricing page](https://n8n.io/pricing/), verified 2026-09-26). |
+| Openness | 7/10 | Source-available under n8n&#x27;s fair-code license and fully self-hostable, but the license is not OSI-approved and restricts offering n8n as a commercial hosted service (n8n.io fair-code license docs: [vendor site](https://n8n.io), verified 2026-09-26). |
+| Operational maturity | 9/10 | 203,890 GitHub stars, a Berlin company founded in 2019, cloud and Enterprise plans with dedicated support and an SLA, and a template ecosystem above 10,000 workflows (n8n.io/pricing: [pricing page](https://n8n.io/pricing/), verified 2026-09-26). |
 
 
 | Pros | Cons |

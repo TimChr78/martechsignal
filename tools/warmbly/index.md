@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page, verified 2026-09-24). |
-| Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation). |
-| Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation). |
-| AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation). |
-| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (the source repository). |
-| Operational maturity | 3/10 | Founded 2026 with 316 stars; the operating history is measured in months (vendor documentation). |
+| Pricing transparency | 8/10 | Free to self-host under Apache 2.0; cloud free plan with 10 mailboxes, Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day) published (the vendor pricing page: [pricing page](https://warmbly.com/pricing/), verified 2026-09-24). |
+| Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (the source repository: [repository](warmbly/warmbly), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 with 316 stars; the operating history is measured in months (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

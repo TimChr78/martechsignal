@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (vendor documentation). |
-| Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (vendor documentation). |
-| AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (vendor documentation). |
+| Pricing transparency | 7/10 | Essential $56/mo annual ($87 monthly) published with custom enterprise plans above it (the vendor pricing page: [pricing page](https://www.hypotenuse.ai/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (vendor documentation). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (vendor documentation). |
-| AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (vendor documentation). |
-| Openness | 8/10 | GPLv3 core with 28.3k GitHub stars and a BSL pro folder kept separate (the source repository). |
-| Operational maturity | 6/10 | 28.3k stars with priced cloud tiers and beta-quality agent features shipping fast (vendor documentation). |
+| Pricing transparency | 8/10 | Self-host free with unlimited actions, apps, agents and users in one workspace; Cloud Pro $19/mo annual published above it (the vendor pricing page: [pricing page](https://budibase.com/pricing), verified 2026-09-07). |
+| Feature depth | 7/10 | Apps, automations and AI agents over your databases cover the internal operations platform job (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Oracle to Snowflake, S3, Sheets and REST (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI agents with tools, memory and structured outputs, model-agnostic across seven providers (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
+| Openness | 8/10 | GPLv3 core with 28.3k GitHub stars and a BSL pro folder kept separate (the source repository: [repository](budibase/budibase), verified 2026-09-28). |
+| Operational maturity | 6/10 | 28.3k stars with priced cloud tiers and beta-quality agent features shipping fast (vendor documentation: [vendor site](https://budibase.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

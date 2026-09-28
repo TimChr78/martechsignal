@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation). |
-| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation). |
-| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation). |
-| Openness | 3/10 | Closed enterprise platform with extensive APIs (the source repository). |
-| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation). |
+| Pricing transparency | 7/10 | Starter $25, Professional $80, Enterprise $165 and Unlimited $330 per user/mo all published (the vendor pricing page: [pricing page](https://www.salesforce.com/editions-pricing/overview/), verified 2026-08-28). |
+| Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Openness | 3/10 | Closed enterprise platform with extensive APIs (the source repository: [repository](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 
 
 | Pros | Cons |

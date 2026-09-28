@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-09-27). |
-| Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation). |
-| Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation). |
-| AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (the source repository). |
-| Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (vendor documentation). |
+| Pricing transparency | 9/10 | Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://www.activecampaign.com/pricing), verified 2026-09-27). |
+| Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (the source repository: [repository](https://www.activecampaign.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

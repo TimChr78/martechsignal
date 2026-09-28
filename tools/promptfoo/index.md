@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (the vendor pricing page, verified Sep 2026). |
-| Feature depth | 7/10 | Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (vendor documentation). |
-| Integrations | 6/10 | OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (vendor documentation). |
-| AI capability | 8/10 | One LLM grading another&#x27;s answers plus automated red team probe generation are meta-AI capabilities with real teeth (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (the source repository). |
-| Operational maturity | 6/10 | 25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation). |
+| Pricing transparency | 6/10 | The open-source CLI is free and clear; cloud and enterprise tiers exist on promptfoo.dev with no public numbers extracted (the vendor pricing page, verified Sep 2026: [pricing page](https://www.promptfoo.dev/pricing/), verified 2026-09-28). |
+| Feature depth | 7/10 | Model-graded evals, automated red team probe generation and multi-provider prompt runs make a real test bench (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| Integrations | 6/10 | OpenAI, Anthropic, Azure OpenAI, Amazon Bedrock and GitHub Actions cover the evaluation pipeline (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| AI capability | 8/10 | One LLM grading another&#x27;s answers plus automated red team probe generation are meta-AI capabilities with real teeth (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (the source repository: [repository](promptfoo/promptfoo), verified 2026-09-28). |
+| Operational maturity | 6/10 | 25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation: [vendor site](https://promptfoo.dev), verified 2026-09-28). |
 
 
 | Pros | Cons |

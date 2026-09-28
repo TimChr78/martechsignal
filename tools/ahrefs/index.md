@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Lite $129/mo, Standard $249/mo, Advanced $449/mo published with add-ons itemized from $99/mo; only Enterprise is quoted (the vendor pricing page, verified Sep 2026). |
-| Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar&#x27;s AI share of voice and estimated impressions layered on top (vendor documentation). |
-| Integrations | 6/10 | Search Console, Looker Studio, the Ahrefs API and an SEO MCP server cover the working connections (vendor documentation). |
-| AI capability | 7/10 | Brand Radar tracks mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (the source repository). |
-| Operational maturity | 9/10 | One of the longest-running SEO data vendors with published tiers and a public roadmap (vendor documentation). |
+| Pricing transparency | 8/10 | Lite $129/mo, Standard $249/mo, Advanced $449/mo published with add-ons itemized from $99/mo; only Enterprise is quoted (the vendor pricing page, verified Sep 2026: [pricing page](https://ahrefs.com/pricing), verified 2026-09-28). |
+| Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar&#x27;s AI share of voice and estimated impressions layered on top (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
+| Integrations | 6/10 | Search Console, Looker Studio, the Ahrefs API and an SEO MCP server cover the working connections (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
+| AI capability | 7/10 | Brand Radar tracks mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (the source repository: [repository](https://ahrefs.com), verified 2026-09-28). |
+| Operational maturity | 9/10 | One of the longest-running SEO data vendors with published tiers and a public roadmap (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

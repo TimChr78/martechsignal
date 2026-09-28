@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation). |
-| Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation). |
-| AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation). |
-| Openness | 2/10 | Closed enterprise platform (the source repository). |
-| Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (vendor documentation). |
+| Pricing transparency | 2/10 | Custom enterprise pricing across Consumer Intelligence, Social Management and Influencer modules with no public numbers (the vendor pricing page: [pricing page](https://www.brandwatch.com/plans/), verified 2026-08-28). |
+| Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
+| AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://www.brandwatch.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

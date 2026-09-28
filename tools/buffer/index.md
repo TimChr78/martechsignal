@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation). |
-| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation). |
-| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (the source repository). |
-| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation). |
+| Pricing transparency | 9/10 | Free for 3 channels, Essentials $5/channel/mo, Team $10/channel/mo with a 14-day trial, all published (the vendor pricing page: [pricing page](https://buffer.com/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (the source repository: [repository](https://buffer.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (vendor documentation). |
-| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 2.9k GitHub stars and full source (the source repository). |
-| Operational maturity | 5/10 | 2.9k stars as a stable build tool with no service obligations (vendor documentation). |
+| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (the vendor pricing page: [pricing page](https://maizzle.com), verified 2026-09-07). |
+| Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog and no API (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 2.9k GitHub stars and full source (the source repository: [repository](maizzle/maizzle), verified 2026-09-28). |
+| Operational maturity | 5/10 | 2.9k stars as a stable build tool with no service obligations (vendor documentation: [vendor site](https://maizzle.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

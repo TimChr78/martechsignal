@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (the vendor pricing page). |
-| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation). |
-| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation). |
+| Pricing transparency | 7/10 | Discovery $49 to $59/mo, Standard $99 to $119, Pro $182 to $219 and Peace of Mind $299 to $359 published by billing choice (the vendor pricing page: [pricing page](https://surferseo.com/pricing/), verified 2026-09-28). |
+| Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://surferseo.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

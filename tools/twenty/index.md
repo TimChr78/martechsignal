@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (vendor documentation). |
-| Integrations | 6/10 | Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (vendor documentation). |
-| AI capability | 7/10 | An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (vendor documentation). |
-| Openness | 9/10 | AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (the source repository). |
-| Operational maturity | 5/10 | Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (vendor documentation). |
+| Pricing transparency | 8/10 | Self-hosted core is free under AGPLv3 with Pro features included; Cloud Pro is $9/user/mo billed yearly and Organization $19/user/mo, with premium features gated behind an Enterprise key (the vendor pricing page: [pricing page](https://twenty.com/pricing), verified 2026-09-07). |
+| Feature depth | 7/10 | Objects, workflows, email sync and dashboards cover the CRM baseline; workflow AI agents and AI-built dashboards push past it, though marketing campaign tooling is absent (vendor documentation: [vendor site](https://twenty.com), verified 2026-09-28). |
+| Integrations | 6/10 | Gmail, Outlook and CalDAV sync plus signed webhooks and REST/GraphQL APIs ship in core; there is no connector marketplace to extend beyond that (vendor documentation: [vendor site](https://twenty.com), verified 2026-09-28). |
+| AI capability | 7/10 | An AI chatbot over workspace data, agents inside workflows and a native MCP server on cloud workplaces put it ahead of most CRM peers (vendor documentation: [vendor site](https://twenty.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (the source repository: [repository](twentyhq/twenty), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (vendor documentation: [vendor site](https://twenty.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

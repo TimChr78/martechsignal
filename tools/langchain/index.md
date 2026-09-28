@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation). |
-| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation). |
-| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository). |
-| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation). |
+| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (the vendor pricing page: [pricing page](https://www.langchain.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository: [repository](langchain-ai/langchain), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

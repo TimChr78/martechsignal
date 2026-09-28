@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation). |
-| Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation). |
-| AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product&#x27;s AI center (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (vendor documentation). |
+| Pricing transparency | 8/10 | Free (50 conversations), Starter about $24/mo, Chatbots $39/mo with the Lyro AI add-on priced separately (the vendor pricing page: [pricing page](https://www.tidio.com/pricing/), verified 2026-08-28). |
+| Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product&#x27;s AI center (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.tidio.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

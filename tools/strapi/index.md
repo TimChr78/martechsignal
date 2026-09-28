@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation). |
-| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation). |
-| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation). |
-| Openness | 9/10 | MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (the source repository). |
-| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category&#x27;s largest contributor base (vendor documentation). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT), Cloud Developer free, Pro $99/mo, Team $499/mo, Enterprise custom, all published (the vendor pricing page: [pricing page](https://strapi.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | API-first content management with media handling and workflows covers the headless CMS job fully (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| Integrations | 7/10 | Next.js, Nuxt, Gatsby, Zapier, Slack, Stripe, Algolia and Cloudinary documented plus its core APIs (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| AI capability | 5/10 | AI content generation, workflows, media management and translation are present but optional add-ons (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (the source repository: [repository](strapi/strapi), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2015 with a commercial cloud arm and the category&#x27;s largest contributor base (vendor documentation: [vendor site](https://strapi.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

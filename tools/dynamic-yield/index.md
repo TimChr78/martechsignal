@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (verified 2026-09-28). |
-| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (vendor documentation). |
-| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (vendor documentation). |
-| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (vendor documentation). |
-| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (the source repository). |
-| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (vendor documentation). |
+| Pricing transparency | 1/10 | No published pricing: the pricing page redirects to a Mastercard product page and every CTA ends at a demo request (: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Feature depth | 8/10 | Multi-agent copilot, conversational commerce, predictive targeting and deep-learning ranking cover personalization at depth (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Integrations | 8/10 | Ten named commerce and messaging connections from Shopify Plus and commercetools to Listrak and Smartling plus an API (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| AI capability | 8/10 | Experience OS Agents, Shopping Muse and NextML ranking make AI the architecture (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform inside a Mastercard contract (the source repository: [repository](https://www.dynamicyield.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2011 with enterprise commerce deployments and now card-network backing (vendor documentation: [vendor site](https://www.dynamicyield.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation). |
-| Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation). |
-| AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation). |
-| Openness | 2/10 | Closed enterprise platform; portability is a program (the source repository). |
-| Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (vendor documentation). |
+| Pricing transparency | 4/10 | Custom enterprise pricing with modules from about $35K/yr; the one published decision is Loomi AI included at no extra charge (the vendor pricing page: [pricing page](https://www.bloomreach.com/en/pricing), verified 2026-08-28). |
+| Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform; portability is a program (the source repository: [repository](https://www.bloomreach.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

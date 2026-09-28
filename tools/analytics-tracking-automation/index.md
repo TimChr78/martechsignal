@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 4/10 | Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (vendor documentation). |
-| Integrations | 4/10 | GA4, Google Tag Manager, Cursor, Codex and Shopify documented (vendor documentation). |
-| AI capability | 4/10 | Agent-run tracking design is the whole scope by design (vendor documentation). |
-| Openness | 9/10 | Apache-2.0 with 136 GitHub stars and readable source (the source repository). |
-| Operational maturity | 3/10 | Founded 2025 at 136 stars; a focused small project (vendor documentation). |
+| Pricing transparency | 10/10 | Free under Apache 2.0, npm-based, nothing to price (the vendor pricing page: [pricing page](https://www.jtracking.ai/skills), verified 2026-08-28). |
+| Feature depth | 4/10 | Site analysis, page grouping, GA4 schema design and GTM output with verification cover one job (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| Integrations | 4/10 | GA4, Google Tag Manager, Cursor, Codex and Shopify documented (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| AI capability | 4/10 | Agent-run tracking design is the whole scope by design (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with 136 GitHub stars and readable source (the source repository: [repository](jtrackingai/analytics-tracking-automation), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025 at 136 stars; a focused small project (vendor documentation: [vendor site](https://www.jtracking.ai/skills), verified 2026-09-28). |
 
 
 | Pros | Cons |

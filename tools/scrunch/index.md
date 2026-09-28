@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (vendor documentation). |
-| Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (vendor documentation). |
-| AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (vendor documentation). |
-| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (the source repository). |
-| Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (vendor documentation). |
+| Pricing transparency | 7/10 | Core is $250/mo (125 prompts, 5 audits, 4 LLMs, 5 users) with published limits; Enterprise is custom (the vendor pricing page: [pricing page](https://scrunch.com/pricing/), verified 2026-09-25). |
+| Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
+| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (the source repository: [repository](https://scrunch.com/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 
 
 | Pros | Cons |

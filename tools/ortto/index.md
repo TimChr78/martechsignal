@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation). |
-| Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation). |
-| AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access; data leaves via export (the source repository). |
-| Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (vendor documentation). |
+| Pricing transparency | 6/10 | Starter from $199/mo with a 14-day trial is published; larger plans require a 12-month commitment and email overage is $1 per 1,000 (the vendor pricing page: [pricing page](https://ortto.com/starter/), verified 2026-09-07). |
+| Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; data leaves via export (the source repository: [repository](https://ortto.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

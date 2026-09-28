@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation). |
-| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation). |
+| Pricing transparency | 8/10 | Self-hosted free (MIT) paying DataForSEO per call; hosted at $10/mo including $10 of usage, both published (the vendor pricing page: [pricing page](https://openseo.so/pricing), verified 2026-09-07). |
+| Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository: [repository](every-app/open-seo), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 
 
 | Pros | Cons |

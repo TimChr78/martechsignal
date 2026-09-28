@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page, verified 2026-09-27). |
-| Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation). |
-| Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation). |
-| AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation). |
-| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (the source repository). |
-| Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (vendor documentation). |
+| Pricing transparency | 4/10 | Growth/Select/Prime/Ultimate packages exist (custom pricing from about $895/mo, annual contracts required) but no public tier table (the vendor pricing page: [pricing page](https://business.adobe.com/products/marketo/pricing.html), verified 2026-09-27). |
+| Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (the source repository: [repository](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 
 
 | Pros | Cons |

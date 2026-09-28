@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (the vendor pricing page). |
-| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation). |
-| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation). |
-| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository). |
-| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation). |
+| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (the vendor pricing page: [pricing page](https://loops.so/pricing), verified 2026-09-28). |
+| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://loops.so), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 
 
 | Pros | Cons |

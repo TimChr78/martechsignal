@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation). |
-| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation). |
-| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation). |
-| Openness | 2/10 | Closed enterprise SaaS (the source repository). |
-| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation). |
+| Pricing transparency | 3/10 | Quote-based: a platform fee plus a GMV and traffic-based fee scaled by modules, with no public numbers (the vendor pricing page: [pricing page](https://www.nosto.com/pricing/), verified 2026-09-07). |
+| Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS (the source repository: [repository](https://www.nosto.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

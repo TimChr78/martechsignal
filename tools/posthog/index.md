@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (the vendor pricing page). |
-| Feature depth | 7/10 | Product analytics, session replay, feature flags, experiments and surveys cover the product stack (vendor documentation). |
-| Integrations | 6/10 | Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 39.9k GitHub stars and self-hosting parity (the source repository). |
-| Operational maturity | 7/10 | Founded 2020 at 39.9k stars with a mature multi-product platform (vendor documentation). |
+| Pricing transparency | 8/10 | A full free tier on every product every month with usage-based credits beyond it, published per product (Sep 2026) (the vendor pricing page: [pricing page](https://posthog.com/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Product analytics, session replay, feature flags, experiments and surveys cover the product stack (vendor documentation: [vendor site](https://posthog.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, GitHub, Zapier, Segment, Sentry and HubSpot documented plus an API (vendor documentation: [vendor site](https://posthog.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI assistant with 500 free credits/mo, AI Observability, LLM Evaluations and Replay Vision (vendor documentation: [vendor site](https://posthog.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 39.9k GitHub stars and self-hosting parity (the source repository: [repository](PostHog/posthog), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2020 at 39.9k stars with a mature multi-product platform (vendor documentation: [vendor site](https://posthog.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

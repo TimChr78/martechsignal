@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (vendor documentation). |
-| Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (vendor documentation). |
-| AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (vendor documentation). |
-| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (the source repository). |
-| Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (vendor documentation). |
+| Pricing transparency | 7/10 | Free up to 250 contacts/500 emails per month, then paid scales with contacts from about $20/mo (the vendor pricing page: [pricing page](https://www.klaviyo.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (the source repository: [repository](https://www.klaviyo.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation). |
-| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation). |
-| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (the source repository). |
-| Operational maturity | 9/10 | Founded 2006 with a public company&#x27;s support and status infrastructure (vendor documentation). |
+| Pricing transparency | 8/10 | Free CRM, Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo, all published (the vendor pricing page: [pricing page](https://www.hubspot.com/pricing/marketing), verified 2026-08-28). |
+| Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (the source repository: [repository](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Operational maturity | 9/10 | Founded 2006 with a public company&#x27;s support and status infrastructure (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 
 
 | Pros | Cons |

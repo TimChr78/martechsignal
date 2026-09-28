@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation). |
-| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation). |
-| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (vendor documentation). |
-| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (the source repository). |
-| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation). |
+| Pricing transparency | 2/10 | Quote-based with no published price list and no trial; last public terms (2023) described annual enterprise agreements (the vendor pricing page: [pricing page](https://www.jacquard.com/book-a-demo/), verified 2026-09-07). |
+| Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| AI capability | 7/10 | The Neural engine&#x27;s performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (the source repository: [repository](https://www.jacquard.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

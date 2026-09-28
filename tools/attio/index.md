@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation). |
-| Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation). |
-| AI capability | 7/10 | Real-time enrichment and agentic workflows are the product&#x27;s architecture, not add-ons (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (vendor documentation). |
+| Pricing transparency | 8/10 | Free (3 seats), Plus $29/seat/mo, Pro $69/seat/mo published with Enterprise custom on annual billing (the vendor pricing page: [pricing page](https://attio.com/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| AI capability | 7/10 | Real-time enrichment and agentic workflows are the product&#x27;s architecture, not add-ons (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://attio.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

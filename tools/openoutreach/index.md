@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 6/10 | LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (vendor documentation). |
-| Integrations | 5/10 | BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (vendor documentation). |
-| AI capability | 8/10 | LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (vendor documentation). |
-| Openness | 9/10 | GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (the source repository). |
-| Operational maturity | 4/10 | A 3.0k-star self-hosted project with no company behind it; operations are yours (vendor documentation). |
+| Pricing transparency | 7/10 | The software is free (GPLv3) and the run costs are stated plainly: your own LLM keys and mailbox plus BetterContact credits at one credit per verified email (the vendor pricing page: [pricing page](https://openoutreach.app), verified 2026-09-07). |
+| Feature depth | 6/10 | LLM keyword generation, per-lead qualification with written reasons and Gaussian Process learning over verdicts make a focused outbound tool, not a suite (vendor documentation: [vendor site](https://openoutreach.app), verified 2026-09-28). |
+| Integrations | 5/10 | BetterContact, OpenAI, Anthropic, OpenAI-compatible endpoints, SMTP/IMAP, Google Workspace and Instantly CSV export are documented (vendor documentation: [vendor site](https://openoutreach.app), verified 2026-09-28). |
+| AI capability | 8/10 | LLM qualification with a written reason per lead and model learning over your verdicts is agentic in the honest sense (vendor documentation: [vendor site](https://openoutreach.app), verified 2026-09-28). |
+| Openness | 9/10 | GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (the source repository: [repository](eracle/OpenOutreach), verified 2026-09-28). |
+| Operational maturity | 4/10 | A 3.0k-star self-hosted project with no company behind it; operations are yours (vendor documentation: [vendor site](https://openoutreach.app), verified 2026-09-28). |
 
 
 | Pros | Cons |

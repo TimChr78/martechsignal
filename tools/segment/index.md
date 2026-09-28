@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Twilio publishes Free (1,000 monthly tracked users, 2 sources) and Team (120 USD per month for 10,000 MTUs with 10 to 12 USD per 1,000 MTU overages), but Business is custom and the differentiating add-ons Protocols, Unify and Engage have no public price (the vendor pricing page). |
-| Feature depth | 8/10 | Connections, Reverse ETL from five warehouses and 452 catalogued destinations cover the CDP baseline and more, while Protocols, Unify and Engage add real depth that sits above the self-serve tiers (vendor documentation). |
-| Integrations | 9/10 | The docs catalog counts 452 destinations plus about 58 Reverse ETL and 13 object cloud sources with open APIs and server SDKs in a dozen languages, though marketing pages claim 550 to 750 in different places (vendor documentation). |
-| AI capability | 7/10 | Predictions with four models, Predictive Audiences, Predictive Traits, Recommendations, Generative Audiences and Functions Co-Pilot all reached general availability in June 2025 (vendor documentation). |
-| Openness | 5/10 | The product is closed SaaS with no source available, but a full public API and SDKs exist and event data lands in the customer&#x27;s own warehouse, which matches full export plus open API (the source repository). |
-| Operational maturity | 9/10 | Founded in 2012 and acquired by Twilio for 3.2 billion USD in 2020, with documentation and pricing stamped current as of August 2026 (vendor documentation). |
+| Pricing transparency | 8/10 | Twilio publishes Free (1,000 monthly tracked users, 2 sources) and Team (120 USD per month for 10,000 MTUs with 10 to 12 USD per 1,000 MTU overages), but Business is custom and the differentiating add-ons Protocols, Unify and Engage have no public price (the vendor pricing page: [pricing page](https://www.twilio.com/en-us/pricing/customer-data), verified 2026-09-26). |
+| Feature depth | 8/10 | Connections, Reverse ETL from five warehouses and 452 catalogued destinations cover the CDP baseline and more, while Protocols, Unify and Engage add real depth that sits above the self-serve tiers (vendor documentation: [vendor site](https://segment.com), verified 2026-09-26). |
+| Integrations | 9/10 | The docs catalog counts 452 destinations plus about 58 Reverse ETL and 13 object cloud sources with open APIs and server SDKs in a dozen languages, though marketing pages claim 550 to 750 in different places (vendor documentation: [vendor site](https://segment.com), verified 2026-09-26). |
+| AI capability | 7/10 | Predictions with four models, Predictive Audiences, Predictive Traits, Recommendations, Generative Audiences and Functions Co-Pilot all reached general availability in June 2025 (vendor documentation: [vendor site](https://segment.com), verified 2026-09-26). |
+| Openness | 5/10 | The product is closed SaaS with no source available, but a full public API and SDKs exist and event data lands in the customer&#x27;s own warehouse, which matches full export plus open API (the source repository: [repository](https://segment.com), verified 2026-09-26). |
+| Operational maturity | 9/10 | Founded in 2012 and acquired by Twilio for 3.2 billion USD in 2020, with documentation and pricing stamped current as of August 2026 (vendor documentation: [vendor site](https://segment.com), verified 2026-09-26). |
 
 
 | Pros | Cons |

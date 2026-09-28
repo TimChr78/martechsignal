@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation). |
-| Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation). |
-| AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation). |
+| Pricing transparency | 7/10 | Starter $39/mo ($20/mo annual), Professional $249/mo, Ultimate $599/mo published with Enterprise custom (the vendor pricing page: [pricing page](https://www.adcreative.ai/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.adcreative.ai), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 
 
 | Pros | Cons |

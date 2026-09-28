@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation). |
-| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation). |
-| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation). |
+| Pricing transparency | 8/10 | Start EUR 119/mo through Premium EUR 799/mo published, cancelable monthly with annual discounts (the vendor pricing page: [pricing page](https://www.sistrix.com/pricing/), verified 2026-09-25). |
+| Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.sistrix.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

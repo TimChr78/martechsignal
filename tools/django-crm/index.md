@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page, verified 2026-09-06). |
-| Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (vendor documentation). |
-| Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 2.4k GitHub stars and no paywalled features (the source repository). |
-| Operational maturity | 4/10 | Community-run at 2.4k stars with one managed-hosting vendor behind it (vendor documentation). |
+| Pricing transparency | 8/10 | Free self-hosted under MIT with no user caps or feature paywall; managed hosting exists from Bottle CRM with published vertical packs (the vendor pricing page: [pricing page](https://bottlecrm.io), verified 2026-09-06). |
+| Feature depth | 5/10 | Leads, campaigns and multi-tenant basics cover the CRM core; marketing automation depth is minimal (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| Integrations | 4/10 | REST API with an OpenAPI 3 schema, Google OAuth, optional SES and Sentry documented (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 2.4k GitHub stars and no paywalled features (the source repository: [repository](Django-CRM/Django-CRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | Community-run at 2.4k stars with one managed-hosting vendor behind it (vendor documentation: [vendor site](https://bottlecrm.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

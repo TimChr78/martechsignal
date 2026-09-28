@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (vendor documentation). |
-| Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (vendor documentation). |
-| AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 572 GitHub stars and full source (the source repository). |
-| Operational maturity | 3/10 | Founded 2025 at 572 stars; niche and young (vendor documentation). |
+| Pricing transparency | 10/10 | Free under MIT with nothing to price (the vendor pricing page: [pricing page](https://github.com/minhnv0807/ai-business-skills), verified 2026-08-28). |
+| Feature depth | 5/10 | 63 bilingual skills with marketing planning and 3-scenario KPIs for the VN market (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Integrations | 3/10 | Claude Code, OpenCode, Codex and VS Code documented as harnesses (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| AI capability | 4/10 | Skill definitions for agents with avatar generation; no runtime intelligence of its own (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 572 GitHub stars and full source (the source repository: [repository](minhnv0807/ai-business-skills), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2025 at 572 stars; niche and young (vendor documentation: [vendor site](https://github.com/minhnv0807/ai-business-skills), verified 2026-09-28). |
 
 
 | Pros | Cons |

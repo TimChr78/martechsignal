@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation). |
-| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation). |
-| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access at additional cost (the source repository). |
-| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation). |
+| Pricing transparency | 8/10 | Pro $117/mo annual ($140 monthly), Guru $250/mo, Business $500/mo and Semrush One $199/mo published (the vendor pricing page: [pricing page](https://www.semrush.com/pricing/), verified 2026-08-28). |
+| Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access at additional cost (the source repository: [repository](https://www.semrush.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation). |
-| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation). |
-| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository). |
-| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation). |
+| Pricing transparency | 6/10 | Entry plan $49/mo with a public calculator scaling by spend bands from under $1K to $30K+, plus a free trial (the vendor pricing page: [pricing page](https://madgicx.com/pricing), verified 2026-09-07). |
+| Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository: [repository](https://madgicx.com/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 
 
 | Pros | Cons |

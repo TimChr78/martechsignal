@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 6/10 | Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (vendor documentation). |
-| Integrations | 6/10 | GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (vendor documentation). |
-| AI capability | 6/10 | Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository). |
-| Operational maturity | 6/10 | Published EUR tiers with unlimited seats and enterprise keyword volumes (vendor documentation). |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (the vendor pricing page: [pricing page](https://nightwatch.io/pricing/), verified 2026-09-25). |
+| Feature depth | 6/10 | Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
+| Integrations | 6/10 | GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
+| AI capability | 6/10 | Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://nightwatch.io), verified 2026-09-28). |
+| Operational maturity | 6/10 | Published EUR tiers with unlimited seats and enterprise keyword volumes (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

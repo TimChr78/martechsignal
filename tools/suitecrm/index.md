@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation). |
-| Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (the source repository). |
-| Operational maturity | 7/10 | A SugarCRM fork with years of production deployments and a stable release cadence (vendor documentation). |
+| Pricing transparency | 6/10 | Free self-hosted open source with paid cloud hosting available; the hosting prices are not itemized in the catalog (the vendor pricing page: [pricing page](https://www.suitecrm.com), verified 2026-09-07). |
+| Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (the source repository: [repository](SuiteCRM/SuiteCRM), verified 2026-09-28). |
+| Operational maturity | 7/10 | A SugarCRM fork with years of production deployments and a stable release cadence (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

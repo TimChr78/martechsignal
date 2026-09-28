@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation). |
-| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation). |
-| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (vendor documentation). |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with BYO OpenAI or Anthropic keys as the stated run cost (the vendor pricing page: [pricing page](https://wacrm.tech), verified 2026-09-07). |
+| Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository: [repository](ArnasDon/wacrm), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
 
 
 | Pros | Cons |

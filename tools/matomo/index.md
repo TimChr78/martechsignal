@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | matomo.org/pricing publishes Cloud from 22 EUR per month for 50,000 hits up to 14,850 EUR per month at 100 million hits and On-Premise bundles at 275, 1,450 and 3,400 EUR per month next to the free self-hosted core, with the small caveat that the static page shows a stale 29 EUR figure before scripts load (the vendor pricing page). |
-| Feature depth | 8/10 | Core analytics, ecommerce tracking, goals, segments and the dashboard are free while funnels, cohorts, heatmaps, session recordings, A/B testing and attribution make up deep premium plugin coverage (vendor documentation). |
-| Integrations | 7/10 | An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (vendor documentation). |
-| AI capability | 7/10 | A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (vendor documentation). |
-| Openness | 10/10 | The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (the source repository). |
-| Operational maturity | 8/10 | Founded in 2007 with 21,851 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation). |
+| Pricing transparency | 9/10 | matomo.org/pricing publishes Cloud from 22 EUR per month for 50,000 hits up to 14,850 EUR per month at 100 million hits and On-Premise bundles at 275, 1,450 and 3,400 EUR per month next to the free self-hosted core, with the small caveat that the static page shows a stale 29 EUR figure before scripts load (the vendor pricing page: [pricing page](https://matomo.org/pricing/), verified 2026-09-26). |
+| Feature depth | 8/10 | Core analytics, ecommerce tracking, goals, segments and the dashboard are free while funnels, cohorts, heatmaps, session recordings, A/B testing and attribution make up deep premium plugin coverage (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| Integrations | 7/10 | An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| AI capability | 7/10 | A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| Openness | 10/10 | The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (the source repository: [repository](matomo-org/matomo), verified 2026-09-26). |
+| Operational maturity | 8/10 | Founded in 2007 with 21,851 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
 
 
 | Pros | Cons |

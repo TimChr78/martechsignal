@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (the vendor pricing page, verified Sep 2026). |
-| Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make&#x27;s (vendor documentation). |
-| Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (vendor documentation). |
-| AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (vendor documentation). |
-| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (the source repository). |
-| Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (vendor documentation). |
+| Pricing transparency | 7/10 | Free (100 credits/mo), Basic $29/mo (2,000 credits, 20M AI tokens), Advanced $49/mo, Connect $99/mo published, Business custom (the vendor pricing page, verified Sep 2026: [pricing page](https://pipedream.com/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make&#x27;s (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
+| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (the source repository: [repository](https://pipedream.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

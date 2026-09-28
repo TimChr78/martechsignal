@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026). |
-| Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (vendor documentation). |
-| Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (vendor documentation). |
-| AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (the source repository). |
-| Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (vendor documentation). |
+| Pricing transparency | 6/10 | Free 2M events/mo with no time limit and Plus starting at $0 scaling with volume; Growth and Enterprise are custom (verified Sep 2026: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (the source repository: [repository](https://amplitude.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

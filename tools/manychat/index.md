@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation). |
-| Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation). |
-| AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 7/10 | Founded 2015 with the category&#x27;s largest consumer-messaging install base (vendor documentation). |
+| Pricing transparency | 8/10 | Free plan, Essential $14/mo published, Pro custom above it and scaling with contacts (the vendor pricing page: [pricing page](https://manychat.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://manychat.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2015 with the category&#x27;s largest consumer-messaging install base (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

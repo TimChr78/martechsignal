@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation). |
-| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation). |
-| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 1.7k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 4/10 | Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (vendor documentation). |
+| Pricing transparency | 6/10 | MIT core free self-hosted; the Enterprise Edition (SSO, MFA, record locks) exists with no published pricing (the vendor pricing page: [pricing page](https://www.openmercato.com/), verified 2026-09-07). |
+| Feature depth | 6/10 | Commerce, CRM and ERP building blocks with an AI development harness cover the platform scope (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| Integrations | 2/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| AI capability | 7/10 | A 192-case evaluation harness, ~70-tool MCP server and LLM email triage with human approval gate (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 1.7k GitHub stars and full self-hosting (the source repository: [repository](open-mercato/open-mercato), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (vendor documentation: [vendor site](https://www.openmercato.com/), verified 2026-09-28). |
 
 
 | Pros | Cons |

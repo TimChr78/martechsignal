@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation). |
-| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation). |
-| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product&#x27;s core math (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (the source repository). |
-| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation). |
+| Pricing transparency | 3/10 | Custom pricing by data volume on monthly billing, aimed at brands above $50K/mo revenue, with no public tier table (the vendor pricing page: [pricing page](https://www.northbeam.io/pricing), verified 2026-08-28). |
+| Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product&#x27;s core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (the source repository: [repository](https://www.northbeam.io), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

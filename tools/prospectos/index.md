@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page, verified 2026-08-31). |
-| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation). |
-| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation). |
-| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (vendor documentation). |
+| Pricing transparency | 8/10 | Free under MIT self-hosted with scraping API costs called out as the run expense (the vendor pricing page: [pricing page](https://github.com/nando0x/ProspectOS), verified 2026-08-31). |
+| Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository: [repository](nando0x/ProspectOS), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (the vendor pricing page). |
-| Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (vendor documentation). |
-| Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (vendor documentation). |
-| AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository). |
-| Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (vendor documentation). |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (3 engines, 50 prompts, 1-mo history), Pro EUR 199, Growth EUR 379 with tier contents published (the vendor pricing page: [pricing page](https://www.superlines.io/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://www.superlines.io/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 
 
 | Pros | Cons |

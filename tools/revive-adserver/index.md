@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (the vendor pricing page). |
-| Feature depth | 4/10 | Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (vendor documentation). |
-| Integrations | 3/10 | MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 8/10 | GPL-2.0 with 1.5k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 5/10 | Long-lived open-source ad server with a hosted edition behind it (vendor documentation). |
+| Pricing transparency | 5/10 | Self-hosted free (GPL-2.0); the hosted Aqua Platform sells with no public price (Sep 2026) (the vendor pricing page: [pricing page](https://www.revive-adserver.com), verified 2026-09-28). |
+| Feature depth | 4/10 | Ad serving, targeting and reporting for publishers and networks cover the classic ad-server job (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| Integrations | 3/10 | MaxMind GeoLite2, Google AdSense, MySQL and PHP documented; no API (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
+| Openness | 8/10 | GPL-2.0 with 1.5k GitHub stars and full self-hosting (the source repository: [repository](revive-adserver/revive-adserver), verified 2026-09-28). |
+| Operational maturity | 5/10 | Long-lived open-source ad server with a hosted edition behind it (vendor documentation: [vendor site](https://www.revive-adserver.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

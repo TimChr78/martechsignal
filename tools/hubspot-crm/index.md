@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free CRM forever plus published per-seat Sales Hub prices (20, 100 and 150 USD) and hub pages offering free and premium plans are public, but the wider hub and add-on limit tables were not verifiable in our reads so this is scored conservatively (the vendor pricing page). |
-| Feature depth | 8/10 | Pipelines, deals, email logging, meeting scheduling, ticketing and campaign reporting cover the CRM baseline with real differentiators in the all-in-one hubs and Agent Hub (vendor documentation). |
-| Integrations | 9/10 | Named natives include Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe and Google Analytics, backed by the public App Marketplace at ecosystem.hubspot.com and an open API (vendor documentation). |
-| AI capability | 8/10 | Shipped features include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler and AI content suggestions, plus Agent Hub for building and managing AI agents across the platform (vendor documentation). |
-| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot&#x27;s knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository). |
-| Operational maturity | 9/10 | Founded in 2006 and headquartered in Cambridge, with multi-hub Enterprise plans, a public app marketplace and a partner ecosystem behind the product (vendor documentation). |
+| Pricing transparency | 8/10 | Free CRM forever plus published per-seat Sales Hub prices (20, 100 and 150 USD) and hub pages offering free and premium plans are public, but the wider hub and add-on limit tables were not verifiable in our reads so this is scored conservatively (the vendor pricing page: [pricing page](https://www.hubspot.com/pricing/crm), verified 2026-09-26). |
+| Feature depth | 8/10 | Pipelines, deals, email logging, meeting scheduling, ticketing and campaign reporting cover the CRM baseline with real differentiators in the all-in-one hubs and Agent Hub (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| Integrations | 9/10 | Named natives include Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe and Google Analytics, backed by the public App Marketplace at ecosystem.hubspot.com and an open API (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| AI capability | 8/10 | Shipped features include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler and AI content suggestions, plus Agent Hub for building and managing AI agents across the platform (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot&#x27;s knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository: [repository](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| Operational maturity | 9/10 | Founded in 2006 and headquartered in Cambridge, with multi-hub Enterprise plans, a public app marketplace and a partner ecosystem behind the product (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 
 
 | Pros | Cons |

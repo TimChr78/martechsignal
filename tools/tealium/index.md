@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing on annual contracts with no public tier table (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (vendor documentation). |
-| Integrations | 8/10 | Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (vendor documentation). |
-| AI capability | 5/10 | AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (vendor documentation). |
-| Openness | 2/10 | Closed enterprise platform (the source repository). |
-| Operational maturity | 8/10 | Founded 2008 with long regulated-industry deployments (vendor documentation). |
+| Pricing transparency | 2/10 | Enterprise custom pricing on annual contracts with no public tier table (the vendor pricing page: [pricing page](https://tealium.com/pricing/), verified 2026-08-28). |
+| Feature depth | 7/10 | Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
+| Integrations | 8/10 | Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://tealium.com), verified 2026-09-28). |
+| Operational maturity | 8/10 | Founded 2008 with long regulated-industry deployments (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

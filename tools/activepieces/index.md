@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (the vendor pricing page, verified 2026-09-27). |
-| Feature depth | 6/10 | Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (vendor documentation). |
-| Integrations | 5/10 | Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (vendor documentation). |
-| AI capability | 6/10 | Chat-to-automation building with AI agents and BYO keys keeps model costs yours (vendor documentation). |
-| Openness | 8/10 | Open-source with self-hosting parity and flat cloud pricing (the source repository). |
-| Operational maturity | 5/10 | Priced self-serve with flat tiers and no founding year in the catalog (vendor documentation). |
+| Pricing transparency | 9/10 | Free (100 credits/day, unlimited flows, no card), Plus $20/mo flat (10K credits, 5 users), Team $200/mo flat published (the vendor pricing page: [pricing page](https://www.activepieces.com/pricing), verified 2026-09-27). |
+| Feature depth | 6/10 | Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
+| Integrations | 5/10 | Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
+| AI capability | 6/10 | Chat-to-automation building with AI agents and BYO keys keeps model costs yours (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
+| Openness | 8/10 | Open-source with self-hosting parity and flat cloud pricing (the source repository: [repository](activepieces/activepieces), verified 2026-09-28). |
+| Operational maturity | 5/10 | Priced self-serve with flat tiers and no founding year in the catalog (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

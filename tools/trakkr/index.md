@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (vendor documentation). |
-| Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (vendor documentation). |
-| AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (vendor documentation). |
-| Openness | 3/10 | Closed SaaS; no self-hosting or open export terms in the catalog (the source repository). |
-| Operational maturity | 5/10 | Priced for brands and agencies with per-brand workspaces, but thin public company history (vendor documentation). |
+| Pricing transparency | 8/10 | Growth is $100/mo per brand (50 prompts, 8 models, 3 seats) or $1,000/yr annual, Scale $500/mo for 10 brands, both published (the vendor pricing page: [pricing page](https://trakkr.ai/pricing), verified 2026-09-25). |
+| Feature depth | 6/10 | Citations, perception analysis, competitor rankings and action recommendations cover measurement and prioritization, stopping short of content execution (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| Integrations | 6/10 | Zapier, Slack, Sheets, Notion, HubSpot and WordPress are documented, which is a practical six for agency workflows (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| AI capability | 6/10 | Perception analysis of how AI describes your brand is the standout; the rest is model-output measurement (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; no self-hosting or open export terms in the catalog (the source repository: [repository](https://trakkr.ai/), verified 2026-09-28). |
+| Operational maturity | 5/10 | Priced for brands and agencies with per-brand workspaces, but thin public company history (vendor documentation: [vendor site](https://trakkr.ai/), verified 2026-09-28). |
 
 
 | Pros | Cons |

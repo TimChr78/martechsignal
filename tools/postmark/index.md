@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (the vendor pricing page). |
-| Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (vendor documentation). |
-| Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (vendor documentation). |
-| AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with strong API and MCP access (the source repository). |
-| Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (vendor documentation). |
+| Pricing transparency | 8/10 | Free 100 emails/mo without overages; Basic $15/mo, Pro $16.50/mo, Platform $18/mo each starting at 10K emails, published (the vendor pricing page: [pricing page](https://postmarkapp.com/pricing), verified 2026-09-28). |
+| Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API and MCP access (the source repository: [repository](https://postmarkapp.com), verified 2026-09-28). |
+| Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

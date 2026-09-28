@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation). |
-| Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation). |
-| AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 7/10 | Founded 2017 with a settled place in SEO team workflows (vendor documentation). |
+| Pricing transparency | 7/10 | Essentials $129/mo and Business $399/mo published with 20 AI drafts included; Enterprise custom (the vendor pricing page: [pricing page](https://www.clearscope.io/pricing), verified 2026-08-28). |
+| Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.clearscope.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2017 with a settled place in SEO team workflows (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

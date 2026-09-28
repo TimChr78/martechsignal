@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page, verified 2026-09-25). |
-| Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation). |
-| Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation). |
-| AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform&#x27;s connective tissue (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository). |
-| Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (vendor documentation). |
+| Pricing transparency | 7/10 | Starter $79/mo annual (50 prompts/50 answers daily, 15 articles/mo), Basic $199/mo, Growth $399/mo with concrete quotas (the vendor pricing page: [pricing page](https://writesonic.com/pricing), verified 2026-09-25). |
+| Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform&#x27;s connective tissue (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://writesonic.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

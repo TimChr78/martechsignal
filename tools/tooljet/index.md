@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (the vendor pricing page). |
-| Feature depth | 7/10 | Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (vendor documentation). |
-| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (vendor documentation). |
-| AI capability | 6/10 | Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (vendor documentation). |
-| Openness | 8/10 | AGPL-3.0 with 40.9k GitHub stars and community-edition self-hosting (the source repository). |
-| Operational maturity | 6/10 | 40.9k stars with priced cloud tiers and an Enterprise floor published (vendor documentation). |
+| Pricing transparency | 8/10 | Self-host CE free (AGPL-3.0), Cloud Free (2 builders), Pro $79/builder/mo annual, Team $199, Enterprise from $3,000/mo published (the vendor pricing page: [pricing page](https://tooljet.com/pricing), verified 2026-09-28). |
+| Feature depth | 7/10 | Prompt-built apps, dashboards and operational tools over your databases cover internal tooling (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to Stripe, Slack and three API protocols (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| AI capability | 6/10 | Prompt-to-app generation, query generation and a beta MCP server for three agent harnesses (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with 40.9k GitHub stars and community-edition self-hosting (the source repository: [repository](ToolJet/ToolJet), verified 2026-09-28). |
+| Operational maturity | 6/10 | 40.9k stars with priced cloud tiers and an Enterprise floor published (vendor documentation: [vendor site](https://tooljet.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

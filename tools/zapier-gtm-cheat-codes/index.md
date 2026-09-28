@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (the vendor pricing page, verified 2026-08-31). |
-| Feature depth | 5/10 | Campaign planning, postmortems and launch packages cover the GTM workflow set (vendor documentation). |
-| Integrations | 6/10 | Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (vendor documentation). |
-| AI capability | 5/10 | Installable agent skills with CRM context and account prioritization from source data (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 334 GitHub stars and vendor-published source (the source repository). |
-| Operational maturity | 5/10 | Founded 2026 but published by Zapier itself, which changes the support calculus (vendor documentation). |
+| Pricing transparency | 8/10 | Free under MIT; connected actions need Zapier MCP or SDK credentials, stated up front (the vendor pricing page: [pricing page](https://github.com/zapier/gtm-cheat-codes), verified 2026-08-31). |
+| Feature depth | 5/10 | Campaign planning, postmortems and launch packages cover the GTM workflow set (vendor documentation: [vendor site](https://github.com/zapier/gtm-cheat-codes), verified 2026-09-28). |
+| Integrations | 6/10 | Zapier MCP/SDK plus Claude Code, Codex, Cursor, Salesforce, HubSpot and Sheets documented (vendor documentation: [vendor site](https://github.com/zapier/gtm-cheat-codes), verified 2026-09-28). |
+| AI capability | 5/10 | Installable agent skills with CRM context and account prioritization from source data (vendor documentation: [vendor site](https://github.com/zapier/gtm-cheat-codes), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 334 GitHub stars and vendor-published source (the source repository: [repository](zapier/gtm-cheat-codes), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2026 but published by Zapier itself, which changes the support calculus (vendor documentation: [vendor site](https://github.com/zapier/gtm-cheat-codes), verified 2026-09-28). |
 
 
 | Pros | Cons |

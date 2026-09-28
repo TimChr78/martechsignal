@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation). |
-| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation). |
-| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation). |
-| Openness | 9/10 | Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (the source repository). |
-| Operational maturity | 3/10 | Founded 2026 at 2.0k stars with no API of its own (vendor documentation). |
+| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (the vendor pricing page: [pricing page](https://growthlab.tsingyuai.com), verified 2026-08-28). |
+| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (the source repository: [repository](tsingyuai/growth-lab), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 at 2.0k stars with no API of its own (vendor documentation: [vendor site](https://growthlab.tsingyuai.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

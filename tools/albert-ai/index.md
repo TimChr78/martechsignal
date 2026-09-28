@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (vendor documentation). |
-| Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (vendor documentation). |
-| AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (vendor documentation). |
-| Openness | 2/10 | Closed enterprise service operating inside your accounts (the source repository). |
-| Operational maturity | 7/10 | Founded 2012 with enterprise autonomy deployments behind it (vendor documentation). |
+| Pricing transparency | 2/10 | Enterprise custom pricing as a percentage of ad spend with a demo required and no public numbers (the vendor pricing page: [pricing page](https://albert.ai/contact/), verified 2026-08-28). |
+| Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
+| Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
+| AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise service operating inside your accounts (the source repository: [repository](https://albert.ai), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2012 with enterprise autonomy deployments behind it (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 
 
 | Pros | Cons |

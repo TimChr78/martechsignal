@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page, verified 2026-09-06). |
-| Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (vendor documentation). |
-| Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (vendor documentation). |
-| AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (vendor documentation). |
-| Openness | 3/10 | Closed SaaS with API-first design and unusually open AI integrations (the source repository). |
-| Operational maturity | 7/10 | Founded 2012 with priced tiers, published overages and a mature developer reputation (vendor documentation). |
+| Pricing transparency | 7/10 | Essentials $100/mo (5k profiles, 1M emails) and Premium $1,000/mo published with itemized overages at $0.009/profile and $0.12 per 1,000 emails (the vendor pricing page: [pricing page](https://customer.io/pricing), verified 2026-09-06). |
+| Feature depth | 8/10 | Email, push, SMS and in-app journeys over event data, with agent Routines and execution skills layered in beta (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| Integrations | 8/10 | Segment, Slack, Salesforce, Zapier, Shopify, Amplitude, Snowflake, Stripe plus ChatGPT and Claude over MCP documented (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| AI capability | 8/10 | An AI Agent with execution skills, scheduled Routines, LLM actions inside journeys and MCP connections to two model vendors (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API-first design and unusually open AI integrations (the source repository: [repository](https://customer.io), verified 2026-09-28). |
+| Operational maturity | 7/10 | Founded 2012 with priced tiers, published overages and a mature developer reputation (vendor documentation: [vendor site](https://customer.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

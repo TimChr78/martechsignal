@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page, verified 2026-09-14). |
-| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation). |
-| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation). |
-| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 4/10 | 2.3k stars with agent-side support noted for paid plans (vendor documentation). |
+| Pricing transparency | 8/10 | Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (the vendor pricing page: [pricing page](https://deskcomm.com.br/#preco), verified 2026-09-14). |
+| Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository: [repository](melgarafael/DeskcommCRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | 2.3k stars with agent-side support noted for paid plans (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 
 
 | Pros | Cons |

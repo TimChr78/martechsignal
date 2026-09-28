@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 2/10 | Custom enterprise pricing with a demo required and no public numbers (the vendor pricing page, verified 2026-08-28). |
-| Feature depth | 6/10 | Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (vendor documentation). |
-| Integrations | 6/10 | Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (vendor documentation). |
-| AI capability | 5/10 | AI attribution and channel analysis serve the measurement loop (vendor documentation). |
-| Openness | 2/10 | Closed enterprise SaaS (the source repository). |
-| Operational maturity | 6/10 | Founded 2016 with focused attribution deployments (vendor documentation). |
+| Pricing transparency | 2/10 | Custom enterprise pricing with a demo required and no public numbers (the vendor pricing page: [pricing page](https://www.attributionapp.com/pricing), verified 2026-08-28). |
+| Feature depth | 6/10 | Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
+| Integrations | 6/10 | Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
+| AI capability | 5/10 | AI attribution and channel analysis serve the measurement loop (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS (the source repository: [repository](https://www.attributionapp.com), verified 2026-09-28). |
+| Operational maturity | 6/10 | Founded 2016 with focused attribution deployments (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

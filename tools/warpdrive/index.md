@@ -3,12 +3,12 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page, verified 2026-09-07). |
-| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation). |
-| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation). |
-| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation). |
-| Openness | 9/10 | MIT-licensed with 72 GitHub stars and full self-hosting (the source repository). |
-| Operational maturity | 2/10 | 72 stars with no API and a minimal dependency stack (vendor documentation). |
+| Pricing transparency | 9/10 | Free under MIT with no per-seat billing; your only cost is the hosting server, stated plainly (the vendor pricing page: [pricing page](https://warpdrivecrm.com), verified 2026-09-07). |
+| Feature depth | 3/10 | Pipelines and Gmail integration cover the BD workflow minimum (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| Integrations | 3/10 | Gmail and Google Workspace with SSO, MinIO storage and Postgres documented (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 72 GitHub stars and full self-hosting (the source repository: [repository](sneg55/warpdrive), verified 2026-09-28). |
+| Operational maturity | 2/10 | 72 stars with no API and a minimal dependency stack (vendor documentation: [vendor site](https://warpdrivecrm.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
