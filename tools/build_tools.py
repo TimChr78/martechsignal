@@ -441,12 +441,24 @@ def screenshot_figure(slug, tool_name):
     _sset = ""
     if (ROOT / _sp_img.parent / (_sp_img.stem + "-480" + _sp_img.suffix)).exists():
         _d, _n, _x = _sp_img.parent.as_posix(), _sp_img.stem, _sp_img.suffix
-        _sset = (f' srcset="/{_d}/{_n}-480{_x} 480w, /{_d}/{_n}-800{_x} 800w, '
-                 f'/{_d}/{_n}{_x} 1280w" sizes="(max-width:700px) 100vw, 372px"')
+        # M6/M7 (r9, 2026-09-28): 480/600/800/1280 ladder (the -600 rung is
+        # generated at build time by the resize batch); sizes matches the
+        # rendered slot (662px desktop, full-width under 700px) so the browser
+        # stops pulling the 800w file into a 372px slot. The 800->1280 gap is
+        # 1.6x, inside the 2x norm, so no 960 rung (150 extra files, ~no bytes).
+        _rungs = []
+        for _w in ("-480", "-600", "-800"):
+            if (ROOT / _sp_img.parent / (_sp_img.stem + _w + _sp_img.suffix)).exists():
+                _rungs.append(f"/{_d}/{_n}{_w}{_x} {_w[1:]}w")
+        _rungs.append(f"/{_d}/{_n}{_x} 1280w")
+        _sset = (' srcset="' + ", ".join(_rungs)
+                 + '" sizes="(max-width:700px) 100vw, 662px"')
+    # M5 (r9, 2026-09-28): this is the first in-body image and renders
+    # in-viewport on desktop; lazy-loading it delays LCP. Eager + high priority.
     return (
         '<figure class="tool-screenshot" style="margin:1.2rem 0">'
         f'<img src="/{img_src}" alt="Screenshot of the {esc(tool_name)} homepage"{_sset} '
-        'width="1280" height="800" loading="lazy" '
+        'width="1280" height="800" fetchpriority="high" '
         'style="max-width:100%;height:auto;border-radius:10px;border:1px solid var(--border)">'
         f'<figcaption style="font-size:.82rem;color:var(--muted);margin-top:.4rem">'
         f'{esc(what)}. Vendor page shown as a dated reference capture; all site content '

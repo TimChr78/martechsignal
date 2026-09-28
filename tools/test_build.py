@@ -1014,3 +1014,20 @@ def test_self_made_cluster_declared():
         for w in q.split():
             assert w in t, f"{slug} title {t!r} misses focus word {w!r}"
     assert len(set(titles)) == len(titles), f"cluster titles not distinct: {titles}"
+
+
+def test_tool_hero_image_priority_and_sizes():
+    """M5/M6/M7 (r9, 2026-09-28): the tool screenshot figure is eager with
+    high priority (no lazy on the in-viewport image), serves a 480/600/800/
+    1280 ladder, and sizes matches the 662px desktop slot."""
+    import re as _re
+    n8n = (ROOT / "tools" / "n8n" / "index.html").read_text()
+    m = _re.search(r'<figure class="tool-screenshot".*?</figure>', n8n, re.S)
+    assert m, "tool screenshot figure missing"
+    fig = m.group(0)
+    assert 'loading="lazy"' not in fig, "M5: hero image still lazy"
+    assert 'fetchpriority="high"' in fig, "M5/M6: hero missing high priority"
+    for w in ("480w", "600w", "800w", "1280w"):
+        assert w in fig, f"M6: srcset missing {w}"
+    assert "662px" in fig, "M7: sizes must name the 662px slot"
+    assert "372px" not in fig, "M7: stale 372px sizes still present"
