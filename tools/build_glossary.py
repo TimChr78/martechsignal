@@ -87,7 +87,7 @@ def build_hub(terms):
 </a>\n"""
         cards += '</div>\n'
 
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <span>Glossary</span></nav>
+    body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><span>Glossary</span></nav>
 <section class="page-head">
   <h1>Martech Glossary</h1>
   <p class="sub">Plain-English definitions of marketing technology terms. No jargon explaining jargon.</p>
@@ -225,7 +225,7 @@ def build_term_page(term, tools_map, all_terms):
             _parts.append(f'<a href="{esc(_t["website"])}" rel="noopener">{esc(_t["name"])}</a>')
     sources_html = ('<p class="meta out-links">Sources: ' + ' · '.join(_parts) + '</p>') if _parts else ''
 
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/glossary/">Glossary</a> / <span>{esc(term['short'])}</span></nav>
+    body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/glossary/">Glossary</a><span class="crumb-sep" aria-hidden="true">/</span><span>{esc(term['short'])}</span></nav>
 <section class="page-head">
   <h1>{esc(term['term'])}</h1>
   <p class="count">GLOSSARY</p>

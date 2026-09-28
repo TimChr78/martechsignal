@@ -82,7 +82,7 @@ def build():
         page["seo_title"] = re.sub(r"\d+(?= Tools Compared)", str(len(page["items"])),
                                    page.get("seo_title") or "")
         target = tools_by_slug[page["slug"]]
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/alternatives/">Alternatives guides</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/alternatives/">Alternatives guides</a> / '
                 f'<span>{esc(target["name"])} alternatives</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:

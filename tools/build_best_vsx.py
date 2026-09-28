@@ -54,7 +54,7 @@ def build_best():
         items = page["items"]
         for it in items:
             assert it["slug"] in tools_by_slug, f"unknown tool slug {it['slug']}"
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/best/">Best-of lists</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/best/">Best-of lists</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
@@ -177,7 +177,7 @@ def build_vs():
         # r8 H3 (2026-09-28): optional third column for real 3-way pages
         c = tools_by_slug[page["c_slug"]] if page.get("c_slug") else None
         trio = (a, b) if c is None else (a, b, c)
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/vs/">Head-to-head comparisons</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/vs/">Head-to-head comparisons</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:

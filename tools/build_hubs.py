@@ -59,7 +59,7 @@ def _hub(section, h1, seo_title, meta, intro, children):
     for text, where in ((h1, "h1"), (seo_title, "seo_title"), (meta, "meta")):
         _check_clean(text, f"{section}/{where}")
 
-    body = [f'<nav class="crumb"><a href="/">Home</a> / <span>{esc(h1)}</span></nav>',
+    body = [f'<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><span>{esc(h1)}</span></nav>',
             f"<h1>{esc(h1)}</h1>"]
     for para in intro:
         _check_clean(para, f"{section}/intro")

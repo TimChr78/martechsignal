@@ -625,7 +625,7 @@ def build_hub(tools, cats):
     _active_n = len([t for t in tools if t.get('status') == 'active'])
     assert len(listed) + len(orphans) == _active_n, (len(listed), len(orphans), _active_n)
 
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <span>Tools</span></nav>
+    body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><span>Tools</span></nav>
 <section class="page-head">
   <h1>AI Marketing Tool Directory</h1>
   <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
@@ -1473,7 +1473,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
            else (f'We reviewed it from vendor documentation on {_vdate}. This is a desk review, not a hands-on test. '
                  + _review_tag(t)))
         + '</div>')
-    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li> / <li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li> / <li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
+    body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><a href="/{base}/">{"Guides" if base == "guides" else "Tools"}</a></li><li><a href="/categories/{t['category']}/">{esc(c.get('name',''))}</a></li><li><span aria-current="page">{esc(t['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{_tool_h1(t)}</h1>
   <p class="sub">{esc(t.get('tagline',''))}</p>
@@ -1794,7 +1794,7 @@ def build_category_page(cat, tools):
                 f'<p class="cat-intro" style="max-width:680px;color:var(--muted);margin:.5rem 0 0">{esc(p.strip())}</p>'
                 for p in _paras if p.strip()
             )
-        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(cat.get('description',''))}</p>
@@ -1858,7 +1858,7 @@ def build_category_page(cat, tools):
                 'The <a href="/checklist/">marketing automation checklist</a> scores that in 12 questions before you shortlist.</p>'
             )
 
-        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li> / <li><a href="/tools/">Tools</a></li> / <li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
+        body = f"""<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0"><li><a href="/">Home</a></li><li><a href="/tools/">Tools</a></li><li><span aria-current="page">{esc(cat['name'])}</span></li></ol></nav>
 <section class="page-head hub-head">
   <h1>{cat_h1(cat['name'])}</h1>
   <p class="sub">{esc(hub.get('meta', cat.get('description','')))}</p>
@@ -2224,7 +2224,7 @@ def main():
             title="Catalog guides",
             description="Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.",
             canonical="https://martechsignal.com/guides/",
-            body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li> / <li><span aria-current="page">Guides</span></li></ol></nav>'
+            body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><span aria-current="page">Guides</span></li></ol></nav>'
                  '<section class="page-head"><h1>Catalog guides</h1>'
                  '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
                  f'<ul>{gi}</ul>'))

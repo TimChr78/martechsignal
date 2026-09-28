@@ -147,7 +147,7 @@ def build_page():
             f'<i></i><em>{len(rs)}</em></div><div class="spark-grid">{cells}</div></div>\n'
         )
 
-    body = f"""<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / <span>Trending</span></nav>
+    body = f"""<nav class="crumb"><a href="/">Home</a><span class="crumb-sep" aria-hidden="true">/</span><a href="/tools/">Tools</a><span class="crumb-sep" aria-hidden="true">/</span><span>Trending</span></nav>
 <section class="page-head">
   <h1>Open-source martech momentum</h1>
   <p class="sub">Every morning we snapshot the GitHub stars of every open-source tool in our catalog that lists a public GitHub repository ({n_repos} of {oss_n} open-source catalog tools, {oss_n} of {total_n} catalog tools overall). A repository needs {min_days} daily snapshots before it appears on this page, which is why the charted set can be smaller. Inclusion rule, stated once: the catalog's open-source flag plus a GitHub repo URL. This page shows what moved in the window {window}, tracked since Aug 25, 2026.</p>
