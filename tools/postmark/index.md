@@ -71,6 +71,8 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Postmark
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Postmark review (2026): pricing, AI features, verdict
 
 Transactional email API with separated message streams, an MCP server, and published delivery numbers

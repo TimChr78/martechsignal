@@ -838,9 +838,9 @@ def test_best_direct_answer_and_table_order():
 
 
 def test_best_counts_agree_with_items():
-    """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6 items,
-    geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta must equal
-    the page's item count."""
+    """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
+    items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta
+    must equal the page's item count."""
     import json as _json
     import re as _re
     data = _json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]
@@ -869,3 +869,20 @@ def test_glossary_definition_floor():
         if total < 200:
             bad.append((t.get("slug"), total))
     assert not bad, f"glossary pages under 200 words: {bad[:6]}"
+
+
+def test_guides_hub_word_floor():
+    """M9 (r9, 2026-09-28): /guides/ shipped as a 182-word link dump, the
+    thinnest indexable page. Hub must carry >= 350 rendered words."""
+    import re as _re
+    html = (ROOT / "guides" / "index.html").read_text()
+    text = _re.sub(r"<[^>]+>", " ", html)
+    assert len(text.split()) >= 350, "guides hub below 350 words"
+
+
+def test_best_table_columns_follow_variance():
+    """M22 (r9, 2026-09-28): no column burned on a constant (geo's all-No
+    Open source), Public API shown where it varies (geo)."""
+    geo = (ROOT / "best" / "geo-llm-visibility-tools" / "index.html").read_text()
+    assert "<th>Open source</th>" not in geo, "geo keeps constant OSS column"
+    assert "<th>Public API</th>" in geo, "geo missing varying API column"

@@ -73,6 +73,8 @@ Open-source operations platform for building AI agents, apps and automations on 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Paperclip
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Paperclip review (2026): pricing, AI features, verdict
 
 Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit

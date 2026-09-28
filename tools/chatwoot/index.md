@@ -70,6 +70,8 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Chatwoot
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Chatwoot review (2026): pricing, AI features, verdict
 
 Open-source customer engagement suite with Captain AI and full self-hosting

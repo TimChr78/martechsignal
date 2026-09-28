@@ -63,7 +63,7 @@ Open source alternative to Ahrefs and Semrush
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Surfer SEO
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Surfer SEO review (2026): pricing, AI features, verdict
 

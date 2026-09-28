@@ -73,7 +73,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Matomo review (2026): pricing, AI features, verdict
 

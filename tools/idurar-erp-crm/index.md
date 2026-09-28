@@ -67,6 +67,8 @@ Open source workspace with a self-updating, agent-driven CRM and shared AI team 
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP &amp; CRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## IDURAR ERP &amp; CRM review (2026): pricing, AI features, verdict
 
 Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React

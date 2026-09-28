@@ -64,7 +64,7 @@ Modern email development framework using Tailwind CSS for responsive campaigns
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Listmonk
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Listmonk review (2026): pricing, AI features, verdict
 

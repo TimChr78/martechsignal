@@ -59,7 +59,7 @@ Browser extension to publish content to multiple social media platforms with one
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Predis.ai
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Predis.ai review (2026): pricing, AI features, verdict
 

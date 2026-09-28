@@ -63,7 +63,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Hypotenuse AI review (2026): pricing, AI features, verdict
 

@@ -63,7 +63,7 @@ Open-source customer engagement suite with Captain AI and full self-hosting
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Tidio
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Tidio review (2026): pricing, AI features, verdict
 

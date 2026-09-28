@@ -70,6 +70,8 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Resend
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Resend review (2026): pricing, AI features, verdict
 
 Developer-first email API built around React Email, batch sending, and agent tooling

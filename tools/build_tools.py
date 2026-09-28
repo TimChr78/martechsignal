@@ -2303,6 +2303,17 @@ def main():
             ))
         gdir = ROOT / "guides"
         gdir.mkdir(exist_ok=True)
+        # M9 (r9, 2026-09-28): the hub was a 182-word link dump, the thinnest
+        # indexable page on the site. Positioning copy states what guides are
+        # for, how they differ from tools/glossary/blog, and where to start.
+        _gintro = (
+            '<section class="hub-lead">'
+            '<p>The directory answers which tool. The guides answer what to do once you have picked one, or before you start picking. Each one covers a topic too big for a tool page: a strategy question, a category shift, or a skill the whole team needs. They are reference pages, not reviews, and they link back into the catalog wherever a tool matters.</p>'
+            '<p>Start with the problem you have. If AI answers are eating your search traffic, the GEO guide orders the fix: what changed, what to measure now that clicks lie, and which tools exist. If your ad spend runs itself, the agentic advertising guide covers what the platforms automate and which guardrails hold. Workflow automation strategy is for the team drowning in tools: where AI fits, what no-code costs over years, and how to audit what you already own.</p>'
+            '<p>Two guides are about how the work gets done. AI SEO tooling collects the benchmarks and head-to-heads where tools were run, with the honest limits stated up front. MCP and agent protocols explains the integration layer underneath agents: what it costs to connect things, where it breaks, and which audits to run first.</p>'
+            '<p>The catalog guides are shorter and narrower. The AI Marketing Suite documents a 15-skill pack for Claude Code with parallel agents and PDF reports. Digital Marketing Pro covers a 163-skill AI marketing plugin for agencies, including EU AI Act compliance. Neither is a tool with pricing, which is why they live here instead of in the directory.</p>'
+            '<p>Read a guide, then follow it into the catalog. Every guide links the tools, comparisons, and definitions it mentions, and every tool page links back to the guides that cover its category. If something in a guide went stale, the corrections log records the fix.</p>'
+            '</section>')
         (gdir / "index.html").write_text(page_shell(
             title="Catalog guides",
             description="Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.",
@@ -2310,6 +2321,7 @@ def main():
             body='<nav class="crumb" aria-label="Breadcrumb"><ol style="display:flex;gap:.4rem;list-style:none;margin:0;padding:0;flex-wrap:wrap"><li><a href="/">Home</a></li><li><span aria-current="page">Guides</span></li></ol></nav>'
                  '<section class="page-head"><h1>Catalog guides</h1>'
                  '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
+                 + _gintro +
                  f'<ul>{gi}</ul>'))
         print(f"Guides ({len(guides)}): /guides/")
 

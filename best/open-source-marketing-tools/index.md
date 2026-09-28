@@ -1,16 +1,16 @@
 # Best Open-Source Marketing Automation Tools (2026): 8 compared
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Public API | Verdict |
 | --- | --- | --- | --- |
-| [Mautic](/tools/mautic/) | Open Source | Yes (GPL-3.0) | Marketing teams that want HubSpot-class automation they can host themselves |
-| [Listmonk](/tools/listmonk/) | Open Source | Yes (AGPL-3.0) | Newsletter and lifecycle email at one list price, with no per-contact billing |
-| [Laudspeaker](/tools/laudspeaker/) | Open Source | Yes (MIT) | Lifecycle messaging and onboarding journeys that live outside the CRM |
-| [SuiteCRM](/tools/suitecrm/) | Open Source | Yes (AGPL-3.0) | Sales teams that want a mature, enterprise-shaped CRM they control |
-| [n8n](/tools/n8n/) | Open Source | Yes | Workflow teams that want automation they can audit line by line |
-| [Matomo](/tools/matomo/) | Open Source | Yes (GPL-3.0) | Analytics teams that want traffic data on servers they control |
-| [Twenty](/tools/twenty/) | Open Source | Yes (AGPL-3.0) | CRM teams that want open source without accepting feature poverty |
-| [OpenOutreach](/tools/openoutreach/) | Open Source | Yes (GPL-3.0) | Email marketing teams that want agent-written openers and self-hosting |
+| [Mautic](/tools/mautic/) | Open Source | yes | Marketing teams that want HubSpot-class automation they can host themselves |
+| [Listmonk](/tools/listmonk/) | Open Source | yes | Newsletter and lifecycle email at one list price, with no per-contact billing |
+| [Laudspeaker](/tools/laudspeaker/) | Open Source | yes | Lifecycle messaging and onboarding journeys that live outside the CRM |
+| [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Sales teams that want a mature, enterprise-shaped CRM they control |
+| [n8n](/tools/n8n/) | Open Source | yes | Workflow teams that want automation they can audit line by line |
+| [Matomo](/tools/matomo/) | Open Source | yes | Analytics teams that want traffic data on servers they control |
+| [Twenty](/tools/twenty/) | Open Source | yes | CRM teams that want open source without accepting feature poverty |
+| [OpenOutreach](/tools/openoutreach/) | Open Source | no | Email marketing teams that want agent-written openers and self-hosting |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

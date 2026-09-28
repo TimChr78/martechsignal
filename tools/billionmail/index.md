@@ -73,6 +73,8 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - BillionMail
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## BillionMail review (2026): pricing, AI features, verdict
 
 Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free

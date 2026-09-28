@@ -68,6 +68,8 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Relaticle
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Relaticle review (2026): pricing, AI features, verdict
 
 Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel &amp; Filament

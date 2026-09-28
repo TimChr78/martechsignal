@@ -75,7 +75,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## React Email Editor review (2026): pricing, AI features, verdict
 

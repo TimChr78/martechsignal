@@ -65,7 +65,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 

@@ -61,6 +61,8 @@ AI advertising platform spanning creative production, media buying, and measurem
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Opteo
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Opteo review (2026): pricing, AI features, verdict
 
 Continuous Google Ads monitoring with one-click improvements

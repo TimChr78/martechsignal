@@ -74,7 +74,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Frappe CRM review (2026): pricing, AI features, verdict
 

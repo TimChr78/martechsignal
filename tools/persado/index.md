@@ -72,6 +72,8 @@ AI content automation platform with workflows for blogs, ads, and social posts
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Persado
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Persado review (2026): pricing, AI features, verdict
 
 AI content creation and optimization platform for regulated financial services marketing

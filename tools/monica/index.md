@@ -77,6 +77,8 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Monica review (2026): pricing, AI features, verdict
 
 Open-source personal CRM for tracking friends, family, and business relationships

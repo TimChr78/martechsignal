@@ -63,7 +63,7 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 

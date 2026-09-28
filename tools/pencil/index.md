@@ -64,7 +64,7 @@ AI platform generating high-converting ad creatives and social media post design
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Pencil
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Pencil review (2026): pricing, AI features, verdict
 

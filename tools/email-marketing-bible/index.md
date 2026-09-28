@@ -63,7 +63,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 KIND: Agent Skill (not an end-to-end platform)
 

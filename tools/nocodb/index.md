@@ -72,6 +72,8 @@ Open-source marketing automation platform with email, campaigns, and lead manage
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - NocoDB
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## NocoDB review (2026): pricing, AI features, verdict
 
 Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet

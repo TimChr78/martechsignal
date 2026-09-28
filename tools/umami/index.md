@@ -68,6 +68,8 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Umami
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Umami review (2026): pricing, AI features, verdict
 
 Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps

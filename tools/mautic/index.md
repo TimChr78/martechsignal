@@ -73,6 +73,8 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Mautic review (2026): pricing, AI features, verdict
 
 Open-source marketing automation platform with email, campaigns, and lead management

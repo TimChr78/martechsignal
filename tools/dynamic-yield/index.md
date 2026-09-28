@@ -81,7 +81,7 @@ Apache&#x27;s open-source customer data platform and personalization engine
 - [Tools](/tools/)
 - [Personalization &amp; CDP](/categories/personalization/)
 - Dynamic Yield
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 

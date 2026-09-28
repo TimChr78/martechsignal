@@ -1,16 +1,16 @@
 # Best AI Content &amp; Copywriting tools (2026): 8 compared
 
 
-| Tool | Pricing | Open source | Verdict |
-| --- | --- | --- | --- |
-| [Writer](/tools/writer/) | Paid | No | Enterprises that put brand governance ahead of raw output |
-| [Persado](/tools/persado/) | Enterprise | No | Large senders that want language tested against response data at scale |
-| [Phrasee](/tools/phrasee/) | Enterprise | No | Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract. |
-| [Jasper](/tools/jasper/) | From $39/mo | No | Marketing teams enforcing one brand voice across many writers |
-| [Anyword](/tools/anyword/) | From $39/mo | No | Performance marketers that want a score before paying to publish |
-| [Copy.ai](/tools/copy-ai/) | Freemium | No | GTM teams that want workflows, not another blank prompt box |
-| [Hypotenuse AI](/tools/hypotenuse-ai/) | From $56/mo | No | Catalog-heavy stores generating product content in bulk |
-| [Strapi](/tools/strapi/) | Open Source | Yes | Teams that want a headless CMS with AI inside their own stack |
+| Tool | Pricing | Open source | Public API | Verdict |
+| --- | --- | --- | --- | --- |
+| [Writer](/tools/writer/) | Paid | No | yes | Enterprises that put brand governance ahead of raw output |
+| [Persado](/tools/persado/) | Enterprise | No | yes | Large senders that want language tested against response data at scale |
+| [Phrasee](/tools/phrasee/) | Enterprise | No | no | Best for AI content &amp; copywriting teams that want ai tone-of-voice analysis, with pricing quoted per contract. |
+| [Jasper](/tools/jasper/) | From $39/mo | No | yes | Marketing teams enforcing one brand voice across many writers |
+| [Anyword](/tools/anyword/) | From $39/mo | No | yes | Performance marketers that want a score before paying to publish |
+| [Copy.ai](/tools/copy-ai/) | Freemium | No | yes | GTM teams that want workflows, not another blank prompt box |
+| [Hypotenuse AI](/tools/hypotenuse-ai/) | From $56/mo | No | yes | Catalog-heavy stores generating product content in bulk |
+| [Strapi](/tools/strapi/) | Open Source | Yes | yes | Teams that want a headless CMS with AI inside their own stack |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

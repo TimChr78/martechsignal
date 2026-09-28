@@ -70,6 +70,8 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Warpdrive review (2026): pricing, AI features, verdict
 
 Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box

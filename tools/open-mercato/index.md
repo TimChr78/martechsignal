@@ -74,6 +74,8 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Open Mercato review (2026): pricing, AI features, verdict
 
 Open-source TypeScript foundation for AI-built commerce, CRM, and ERP

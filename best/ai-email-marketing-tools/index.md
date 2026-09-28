@@ -1,16 +1,16 @@
 # Best AI Email tools for deliverability (2026)
 
 
-| Tool | Pricing | Open source | Verdict |
-| --- | --- | --- | --- |
-| [OpenOutreach](/tools/openoutreach/) | Open Source | Yes (GPL-3.0) | Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. |
-| [React Email Editor](/tools/react-email-editor/) | Open Source | Yes (MIT) | Developer teams that want email templates versioned as code |
-| [Twilio SendGrid](/tools/sendgrid/) | Freemium | No | Product teams that need transactional delivery with marketing on the side |
-| [Customer.io](/tools/customer-io/) | From $100/mo | No | Lifecycle teams writing behavior-triggered journeys on their own data |
-| [Notifuse](/tools/notifuse/) | Open Source | Yes (AGPL-3.0) | Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Klaviyo](/tools/klaviyo/) | Freemium | No | DTC brands that want store data doing the segmentation |
-| [Mailchimp](/tools/mailchimp/) | Freemium | No | Small businesses that want the shortest path from idea to send |
-| [Warmbly](/tools/warmbly/) | Open Source | Yes (Apache-2.0) | Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier. |
+| Tool | Pricing | Open source | Public API | Verdict |
+| --- | --- | --- | --- | --- |
+| [OpenOutreach](/tools/openoutreach/) | Open Source | Yes (GPL-3.0) | no | Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. |
+| [React Email Editor](/tools/react-email-editor/) | Open Source | Yes (MIT) | no | Developer teams that want email templates versioned as code |
+| [Twilio SendGrid](/tools/sendgrid/) | Freemium | No | yes | Product teams that need transactional delivery with marketing on the side |
+| [Customer.io](/tools/customer-io/) | From $100/mo | No | yes | Lifecycle teams writing behavior-triggered journeys on their own data |
+| [Notifuse](/tools/notifuse/) | Open Source | Yes (AGPL-3.0) | yes | Best for email marketing teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Klaviyo](/tools/klaviyo/) | Freemium | No | yes | DTC brands that want store data doing the segmentation |
+| [Mailchimp](/tools/mailchimp/) | Freemium | No | yes | Small businesses that want the shortest path from idea to send |
+| [Warmbly](/tools/warmbly/) | Open Source | Yes (Apache-2.0) | yes | Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

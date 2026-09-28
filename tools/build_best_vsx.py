@@ -75,17 +75,35 @@ def build_best():
             '<p>What we could not verify is called out under each tool below.</p></aside>')
 
         # Comparison table with verdicts (the card's spec) from catalog facts only.
+        # M22 (r9, 2026-09-28): per-page column sets from catalog variance.
+        # A column burned on a constant (geo's all-No Open source) is dropped;
+        # Public API appears only where it varies. SOC2/seats/contract terms
+        # are NOT columns: the catalog carries no such fields and procurement
+        # facts are never invented (omission honesty beats a fuller-looking
+        # table of unverifiable claims).
+        _trio = [tools_by_slug[it["slug"]] for it in items]
+        _show_oss = len({bool(t.get("open_source")) for t in _trio}) > 1
+        _show_api = len({bool(t.get("api_available")) for t in _trio}) > 1
+        _head = '<tr><th>Tool</th><th>Pricing</th>'
+        if _show_oss:
+            _head += '<th>Open source</th>'
+        if _show_api:
+            _head += '<th>Public API</th>'
+        _head += '<th>Verdict</th></tr>'
         rows = []
         for it in items:
             t = tools_by_slug[it["slug"]]
-            oss = _oss_label(t)
-            rows.append(
-                f'<tr><td><a href="/tools/{t["slug"]}/">{esc(t["name"])}</a></td>'
-                f'<td>{esc(pricing_label(t))}</td><td>{oss}</td>'
-                f'<td>{esc(it["verdict"])}</td></tr>')
+            _cells = (f'<tr><td><a href="/tools/{t["slug"]}/">{esc(t["name"])}</a></td>'
+                      f'<td>{esc(pricing_label(t))}</td>')
+            if _show_oss:
+                _cells += f'<td>{_oss_label(t)}</td>'
+            if _show_api:
+                _cells += f'<td>{"yes" if t.get("api_available") else "no"}</td>'
+            _cells += f'<td>{esc(it["verdict"])}</td></tr>'
+            rows.append(_cells)
         body.append(
-            '<div class="table-wrap"><table><caption>Best picks at a glance</caption><thead><tr><th>Tool</th><th>Pricing</th>'
-            '<th>Open source</th><th>Verdict</th></tr></thead><tbody>'
+            '<div class="table-wrap"><table><caption>Best picks at a glance</caption><thead>'
+            + _head + '</thead><tbody>'
             + "".join(rows) + "</tbody></table></div>")
         body.append('<h2>How we picked</h2>')
         body.extend(_intros)

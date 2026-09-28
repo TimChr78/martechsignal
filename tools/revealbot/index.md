@@ -81,6 +81,8 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Revealbot (Birch)
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Revealbot (Birch) review (2026): pricing, AI features, verdict
 
 AI-powered ad automation and rules engine for Meta, Google, and TikTok ads

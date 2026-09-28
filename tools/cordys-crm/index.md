@@ -82,6 +82,8 @@ Modular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one P
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Cordys CRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Cordys CRM review (2026): pricing, AI features, verdict
 
 Open-source AI CRM with built-in agents, conversational analytics, and private deployment

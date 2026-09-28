@@ -68,7 +68,7 @@ The open-source alternative to Salesforce, designed for AI with modern CRM workf
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Dolibarr ERP/CRM
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Dolibarr ERP/CRM review (2026): pricing, AI features, verdict
 

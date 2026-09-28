@@ -1,14 +1,14 @@
 # Best open-source CRM tools (2026)
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Public API | Verdict |
 | --- | --- | --- | --- |
-| [EspoCRM](/tools/espocrm/) | Open Source | Yes (AGPL-3.0) | Best for lean sales teams that automate à la carte. |
-| [SuiteCRM](/tools/suitecrm/) | Open Source | Yes (AGPL-3.0) | Best for teams that want the widest free feature set. |
-| [Twenty](/tools/twenty/) | Open Source | Yes (AGPL-3.0) | Best for technically fluent teams wanting a modern extensible CRM. |
-| [Frappe CRM](/tools/frappe-crm/) | Open Source | Yes (AGPL-3.0) | Best for budget-conscious sales teams, especially ERPNext shops. |
-| [Krayin CRM](/tools/krayin-crm/) | Open Source | Yes (MIT) | Best for Laravel shops that want room to extend a CRM. |
-| [Monica](/tools/monica/) | Open Source | Yes (AGPL-3.0) | Best for relationship-led founders and community businesses. |
+| [EspoCRM](/tools/espocrm/) | Open Source | yes | Best for lean sales teams that automate à la carte. |
+| [SuiteCRM](/tools/suitecrm/) | Open Source | yes | Best for teams that want the widest free feature set. |
+| [Twenty](/tools/twenty/) | Open Source | yes | Best for technically fluent teams wanting a modern extensible CRM. |
+| [Frappe CRM](/tools/frappe-crm/) | Open Source | no | Best for budget-conscious sales teams, especially ERPNext shops. |
+| [Krayin CRM](/tools/krayin-crm/) | Open Source | yes | Best for Laravel shops that want room to extend a CRM. |
+| [Monica](/tools/monica/) | Open Source | yes | Best for relationship-led founders and community businesses. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

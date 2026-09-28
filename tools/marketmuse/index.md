@@ -71,6 +71,8 @@ AI Search Intelligence platform for brands and agencies
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - MarketMuse
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## MarketMuse review (2026): pricing, AI features, verdict
 
 AI-powered content strategy and optimization platform for SEO content teams

@@ -63,7 +63,7 @@ AI-powered multi-touch attribution and marketing intelligence for ecommerce
 - [Tools](/tools/)
 - [Analytics &amp; Attribution](/categories/analytics/)
 - Heap
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Heap review (2026): pricing, AI features, verdict
 

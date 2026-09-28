@@ -70,6 +70,8 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Maizzle review (2026): pricing, AI features, verdict
 
 Modern email development framework using Tailwind CSS for responsive campaigns

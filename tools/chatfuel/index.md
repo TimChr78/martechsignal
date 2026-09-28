@@ -59,7 +59,7 @@ AI-first customer service platform with Fin AI agent and omnichannel messaging
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - Chatfuel
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Chatfuel review (2026): pricing, AI features, verdict
 

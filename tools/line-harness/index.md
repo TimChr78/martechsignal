@@ -76,6 +76,8 @@ Customer engagement platform with AI-powered real-time messaging across channels
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Line Harness review (2026): pricing, AI features, verdict
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control

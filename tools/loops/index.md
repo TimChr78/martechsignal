@@ -68,6 +68,8 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Loops
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Loops review (2026): pricing, AI features, verdict
 
 Email marketing for SaaS: marketing, product, and transactional email in one tool

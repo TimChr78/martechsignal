@@ -63,7 +63,7 @@ OpenClaw Marketing Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Zapier GTM Cheat Codes
-Re-check pending: pricing last verified 2026-08-31 (28 days ago).
+Re-check pending: pricing last verified 2026-08-31 (29 days ago).
 
 ## Zapier GTM Cheat Codes review (2026): pricing, AI features, verdict
 

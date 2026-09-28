@@ -72,6 +72,8 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Google Ads + Meta Ads + GA4 MCP
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 KIND: Utility (not an end-to-end platform)
 
 ## Google Ads + Meta Ads + GA4 MCP review (2026): pricing, AI features, verdict

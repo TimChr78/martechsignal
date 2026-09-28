@@ -61,6 +61,8 @@ Free open source ad server for publishers, ad networks and advertisers
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Madgicx
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Madgicx review (2026): pricing, AI features, verdict
 
 AI-powered Meta ads optimization and creative workflow

@@ -71,7 +71,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
-Re-check pending: pricing last verified 2026-09-06 (22 days ago).
+Re-check pending: pricing last verified 2026-09-06 (23 days ago).
 
 ## Tray.io review (2026): pricing, AI features, verdict
 

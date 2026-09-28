@@ -59,7 +59,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 - [Tools](/tools/)
 - [Chatbots &amp; Conversational AI](/categories/chatbots/)
 - ManyChat
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## ManyChat review (2026): pricing, AI features, verdict
 

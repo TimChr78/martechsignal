@@ -63,7 +63,7 @@ Open-source machine translation API for content localization, self-hostable and 
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Anyword
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Anyword review (2026): pricing, AI features, verdict
 

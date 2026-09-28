@@ -65,7 +65,7 @@ Visual automation platform for building complex workflows with AI agents and app
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## LangChain review (2026): pricing, AI features, verdict
 

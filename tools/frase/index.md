@@ -66,6 +66,8 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Frase
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Frase review (2026): pricing, AI features, verdict
 
 AI-powered SEO content platform for research, writing, and AI visibility tracking

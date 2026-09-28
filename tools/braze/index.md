@@ -63,7 +63,7 @@ Open-source CRM for LINE Official Accounts with step delivery, scoring, and an M
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Braze
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Braze review (2026): pricing, AI features, verdict
 

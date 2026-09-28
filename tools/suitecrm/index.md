@@ -65,6 +65,8 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - SuiteCRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
 Enterprise-grade open-source CRM with sales, marketing, and support automation

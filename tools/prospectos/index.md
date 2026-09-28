@@ -60,7 +60,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - ProspectOS
-Re-check pending: pricing last verified 2026-08-31 (28 days ago).
+Re-check pending: pricing last verified 2026-08-31 (29 days ago).
 
 ## ProspectOS review (2026): pricing, AI features, verdict
 

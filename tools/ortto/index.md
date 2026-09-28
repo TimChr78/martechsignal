@@ -72,6 +72,8 @@ AI-powered commerce experience platform with search, personalization, and CDP
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Ortto
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Ortto review (2026): pricing, AI features, verdict
 
 Customer data and marketing automation platform with journeys, CDP, and AI features

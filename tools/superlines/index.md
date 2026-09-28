@@ -63,6 +63,8 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 - [Tools](/tools/)
 - [SEO &amp; Search](/categories/seo/)
 - Superlines
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Superlines review (2026): pricing, AI features, verdict
 
 AI Search Intelligence platform for brands and agencies

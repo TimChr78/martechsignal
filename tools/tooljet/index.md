@@ -68,6 +68,8 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - ToolJet
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## ToolJet review (2026): pricing, AI features, verdict
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps

@@ -71,6 +71,8 @@ AI copywriting platform with predictive performance scores for marketing content
 - [Tools](/tools/)
 - [AI Content &amp; Copywriting](/categories/content-ai/)
 - Phrasee
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Phrasee review (2026): pricing, AI features, verdict
 
 AI messaging content platform; rebranded as Jacquard in June 2024

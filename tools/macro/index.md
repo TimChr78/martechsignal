@@ -70,6 +70,8 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Macro
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Macro review (2026): pricing, AI features, verdict
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory

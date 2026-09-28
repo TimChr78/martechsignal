@@ -76,6 +76,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - WaCRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## WaCRM review (2026): pricing, AI features, verdict
 
 Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations

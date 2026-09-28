@@ -59,7 +59,7 @@ AI-powered ad creative generation and performance prediction for paid media
 - [Tools](/tools/)
 - [Advertising &amp; Paid Media](/categories/advertising/)
 - Albert AI
-Re-check pending: pricing last verified 2026-08-28 (31 days ago).
+Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 ## Albert AI review (2026): pricing, AI features, verdict
 

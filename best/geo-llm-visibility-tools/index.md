@@ -1,17 +1,17 @@
 # Best GEO &amp; LLM Optimization tools (2026): 9 compared
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Public API | Verdict |
 | --- | --- | --- | --- |
-| [Nimt.ai](/tools/nimt-ai/) | From $79/mo | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
-| [OtterlyAI](/tools/otterlyai/) | From $29/mo | No | Teams starting GEO measurement at an entry price |
-| [Trakkr](/tools/trakkr/) | From $100/mo | No | Best for GEO &amp; LLM optimization teams that want competitor visibility rankings, starting at $100/mo. |
-| [Writesonic](/tools/writesonic/) | From $79/mo | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
-| [Profound](/tools/profound/) | Enterprise | No | Best for GEO &amp; LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract. |
-| [Rankscale](/tools/rankscale/) | From $99/mo | No | Best for GEO &amp; LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo. |
-| [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) | Enterprise | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, with pricing quoted per contract. |
-| [Evertune](/tools/evertune/) | From $800/mo | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at $800/mo. |
-| [Scrunch](/tools/scrunch/) | From $250/mo | No | Best for brands that want measurement and AI-crawler readiness in one product. |
+| [Nimt.ai](/tools/nimt-ai/) | From $79/mo | yes | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
+| [OtterlyAI](/tools/otterlyai/) | From $29/mo | yes | Teams starting GEO measurement at an entry price |
+| [Trakkr](/tools/trakkr/) | From $100/mo | yes | Best for GEO &amp; LLM optimization teams that want competitor visibility rankings, starting at $100/mo. |
+| [Writesonic](/tools/writesonic/) | From $79/mo | yes | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
+| [Profound](/tools/profound/) | Enterprise | yes | Best for GEO &amp; LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract. |
+| [Rankscale](/tools/rankscale/) | From $99/mo | yes | Best for GEO &amp; LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo. |
+| [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) | Enterprise | no | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, with pricing quoted per contract. |
+| [Evertune](/tools/evertune/) | From $800/mo | no | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at $800/mo. |
+| [Scrunch](/tools/scrunch/) | From $250/mo | yes | Best for brands that want measurement and AI-crawler readiness in one product. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

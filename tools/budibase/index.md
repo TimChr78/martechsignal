@@ -72,6 +72,8 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Budibase
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Budibase review (2026): pricing, AI features, verdict
 
 Open-source operations platform for building AI agents, apps and automations on your own data

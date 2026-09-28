@@ -65,6 +65,8 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Krayin CRM review (2026): pricing, AI features, verdict
 
 Free open-source Laravel CRM for SMEs and enterprises with full customer lifecycle management

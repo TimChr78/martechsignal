@@ -67,6 +67,8 @@ Enterprise customer data platform with real-time data orchestration and AI
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Workato
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Workato review (2026): pricing, AI features, verdict
 
 Enterprise AI governance plus integration and automation on one platform

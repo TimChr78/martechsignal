@@ -74,6 +74,8 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Twenty
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Twenty review (2026): pricing, AI features, verdict
 
 The open-source alternative to Salesforce, designed for AI with modern CRM workflows

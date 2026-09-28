@@ -1,14 +1,14 @@
 # Best AI CRM tools (2026): 6 compared
 
 
-| Tool | Pricing | Open source | Verdict |
+| Tool | Pricing | Public API | Verdict |
 | --- | --- | --- | --- |
-| [Attio](/tools/attio/) | Freemium | No | Best for startups that want a CRM shaped around their own data model. |
-| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | No | Best free CRM, and the natural next step when the free tier starts to bite. |
-| [Salesforce CRM](/tools/salesforce-crm/) | Enterprise | No | Best for enterprises that need the CRM everything else integrates with. |
-| [Zoho CRM](/tools/zoho-crm/) | Freemium | No | Best value for small teams that want a full suite without an enterprise bill. |
-| [Pipedrive](/tools/pipedrive/) | From $14/mo | No | Best for small sales teams that live in one pipeline view. |
-| [Freshsales](/tools/freshsales/) | Free tier | No | Best for budget-conscious teams that still want AI lead scoring. |
+| [Attio](/tools/attio/) | Freemium | yes | Best for startups that want a CRM shaped around their own data model. |
+| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | yes | Best free CRM, and the natural next step when the free tier starts to bite. |
+| [Salesforce CRM](/tools/salesforce-crm/) | Enterprise | yes | Best for enterprises that need the CRM everything else integrates with. |
+| [Zoho CRM](/tools/zoho-crm/) | Freemium | no | Best value for small teams that want a full suite without an enterprise bill. |
+| [Pipedrive](/tools/pipedrive/) | From $14/mo | yes | Best for small sales teams that live in one pipeline view. |
+| [Freshsales](/tools/freshsales/) | Free tier | yes | Best for budget-conscious teams that still want AI lead scoring. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

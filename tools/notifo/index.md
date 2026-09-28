@@ -72,6 +72,8 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifo
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Notifo review (2026): pricing, AI features, verdict
 
 Self-hosted multi-channel notification service for email, SMS, and web push

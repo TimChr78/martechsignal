@@ -71,6 +71,8 @@ Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Ever Gauzy
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Ever Gauzy review (2026): pricing, AI features, verdict
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking

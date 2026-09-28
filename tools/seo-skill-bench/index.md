@@ -62,7 +62,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - SEO Skill Bench
-Re-check pending: pricing last verified 2026-09-03 (25 days ago).
+Re-check pending: pricing last verified 2026-09-03 (26 days ago).
 
 ## SEO Skill Bench review (2026): pricing, AI features, verdict
 

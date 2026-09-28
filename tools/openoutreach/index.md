@@ -75,6 +75,8 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - OpenOutreach
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## OpenOutreach review (2026): pricing, AI features, verdict
 
 Open-source AI lead finder: describe your product and it finds and qualifies the leads

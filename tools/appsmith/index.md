@@ -72,6 +72,8 @@ n8n Marketing Flows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Appsmith
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## Appsmith review (2026): pricing, AI features, verdict
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs

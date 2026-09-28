@@ -1,16 +1,16 @@
 # Best Agent Skills tools (2026): 8 compared
 
 
-| Tool | Pricing | Open source | Verdict |
-| --- | --- | --- | --- |
-| [Claude SEO](/tools/claude-seo/) | Open Source | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Claude Ads](/tools/claude-ads/) | Open Source | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) | Freemium | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Digital Marketing Pro](/tools/digital-marketing-pro/) | Open Source | Yes (MIT) | Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier. |
-| [Email Marketing Bible](/tools/email-marketing-bible/) | Open Source | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) | Open Source | Yes (MIT) | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Eve Marketing Team Template](/tools/eve-marketing-team/) | Open Source | Yes (MIT) | Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier. |
-| [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) | Open Source | Yes (MIT) | Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier. |
+| Tool | Pricing | Verdict |
+| --- | --- | --- |
+| [Claude SEO](/tools/claude-seo/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Claude Ads](/tools/claude-ads/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) | Freemium | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Digital Marketing Pro](/tools/digital-marketing-pro/) | Open Source | Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier. |
+| [Email Marketing Bible](/tools/email-marketing-bible/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Eve Marketing Team Template](/tools/eve-marketing-team/) | Open Source | Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier. |
+| [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) | Open Source | Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/tim-christensen/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[AI CATALOG](/llms.txt)[SUBSCRIBE](/#subscribe)
 

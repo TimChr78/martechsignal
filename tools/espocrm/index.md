@@ -73,6 +73,8 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - EspoCRM
+Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+
 ## EspoCRM review (2026): pricing, AI features, verdict
 
 Lightweight open-source CRM with sales automation, marketing tools, and customer management
