@@ -1,6 +1,16 @@
 # Freshsales review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (tools.json). |
+| Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (tools.json deep_dive). |
+| Integrations | 3/10 | No named integrations in the catalog, though an API is documented (tools.json). |
+| AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; API access for custom integrations | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -73,7 +83,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Freshsales &#8594;](https://www.freshworks.com/crm/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 33/60
+
+Freshsales is the value CRM: $9/user/mo entry with phone and chat built in, and Freddy AI metered as a $49 add-on you can decline. The 21-day full-product trial is honest.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -267,6 +281,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Freshsales is the value CRM: $9/user/mo entry with phone and chat built in, and Freddy AI metered as a $49 add-on you can decline. The 21-day full-product trial is honest.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/freshsales/#app",
+      "name": "Freshsales",
+      "url": "https://martechsignal.com/tools/freshsales/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 33,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

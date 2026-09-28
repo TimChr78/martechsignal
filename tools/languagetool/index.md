@@ -1,6 +1,16 @@
 # LanguageTool review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (tools.json). |
+| Feature depth | 5/10 | Grammar checking, paraphrasing and style suggestions across 30+ languages (tools.json deep_dive). |
+| Integrations | 5/10 | Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (tools.json). |
+| AI capability | 5/10 | AI style and tone suggestions and AI-powered checking sit on the rule engine (tools.json ai_features). |
+| Openness | 8/10 | LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (tools.json). |
+| Operational maturity | 7/10 | Long-running project with browser and desktop distribution at scale (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; LGPL-2.1 licence with free self-hosting | &#10007; The AI style and tone suggestions sit behind Premium, so the free tier is the rule-based checker plus basic add-ons |
@@ -83,7 +93,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit LanguageTool &#8594;](https://languagetool.org)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15.1k stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -291,6 +305,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15.1k stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/languagetool/#app",
+      "name": "LanguageTool",
+      "url": "https://martechsignal.com/tools/languagetool/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # IFTTT review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (tools.json). |
+| Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (tools.json deep_dive). |
+| Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (tools.json). |
+| AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer&#x27;s only AI surface (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 8/10 | Founded 2010 with sixteen years of consumer automation behind it (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI services on Pro+ | &#10007; Paid plans start at $2.99/mo once past the free tier |
@@ -63,7 +73,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit IFTTT &#8594;](https://ifttt.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+IFTTT is consumer automation at consumer prices: $2.99/mo gets 20 Applets and $8.99 buys unlimited with AI services. For personal workflows and smart homes it remains the shortest path.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -218,6 +232,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "IFTTT is consumer automation at consumer prices: $2.99/mo gets 20 Applets and $8.99 buys unlimited with AI services. For personal workflows and smart homes it remains the shortest path.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/ifttt/#app",
+      "name": "IFTTT",
+      "url": "https://martechsignal.com/tools/ifttt/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

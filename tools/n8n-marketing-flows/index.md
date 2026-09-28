@@ -1,6 +1,16 @@
 # n8n Marketing Flows pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | 79 workflows across social posting, monitoring, ads and SEO cover common marketing operations (tools.json ai_features). |
+| Integrations | 6/10 | n8n, Ollama, Meta Graph API, Sheets, YouTube Data API, WordPress and Discord documented (tools.json). |
+| AI capability | 5/10 | LLM drafting per platform and an AI news digest with push delivery, all with local Ollama versions (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 175 GitHub stars and one-click import into your instance (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 175 stars as a template collection (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (175 GitHub stars) - smaller community and plugin ecosystem |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit n8n Marketing Flows &#8594;](https://github.com/YuriCrystal/n8n-marketing-flows)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Seventy-nine import-ready n8n workflows for marketing work, with local Ollama variants of each. Free templates; the n8n instance and keys are yours to provide.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -234,6 +248,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Seventy-nine import-ready n8n workflows for marketing work, with local Ollama variants of each. Free templates; the n8n instance and keys are yours to provide.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#app",
+      "name": "n8n Marketing Flows",
+      "url": "https://martechsignal.com/tools/n8n-marketing-flows/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

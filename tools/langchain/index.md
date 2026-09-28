@@ -1,6 +1,16 @@
 # LangChain review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (tools.json ai_features). |
+| Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (tools.json). |
+| AI capability | 8/10 | Agent orchestration and RAG are the framework&#x27;s reason to exist (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (tools.json). |
+| Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $39/mo once past the free tier |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit LangChain &#8594;](https://www.langchain.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 47/60
+
+LangChain is the agent framework everything else measures against: 146k stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -241,6 +255,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "LangChain is the agent framework everything else measures against: 146k stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/langchain/#app",
+      "name": "LangChain",
+      "url": "https://martechsignal.com/tools/langchain/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 47,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

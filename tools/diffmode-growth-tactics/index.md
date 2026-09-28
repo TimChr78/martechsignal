@@ -1,6 +1,16 @@
 # Diffmode Growth Tactics pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under Apache-2.0 with an LLM API key as the only run cost, stated (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (tools.json ai_features). |
+| Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (tools.json). |
+| AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 with 161 GitHub stars and local execution (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 161 stars; a young research pipeline (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; Young project (161 GitHub stars) - smaller community and plugin ecosystem |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Diffmode Growth Tactics &#8594;](https://github.com/acogood/diffmode_free)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Diffmode&#x27;s pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -229,6 +243,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Diffmode's pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
+      "name": "Diffmode Growth Tactics",
+      "url": "https://martechsignal.com/tools/diffmode-growth-tactics/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

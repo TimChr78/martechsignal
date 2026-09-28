@@ -1,6 +1,16 @@
 # Line Harness review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under MIT on Cloudflare&#x27;s free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (tools.json). |
+| Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (tools.json ai_features). |
+| Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (tools.json). |
+| AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 589 stars with managed hosting offered (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -80,7 +90,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Line Harness &#8594;](https://the-harness.com/line-harness/)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Line Harness is LINE Official Account CRM with an MCP server so Claude Code can run your broadcasts. MIT and Cloudflare-native; the LINE delivery fees are the real bill.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -286,6 +300,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Line Harness is LINE Official Account CRM with an MCP server so Claude Code can run your broadcasts. MIT and Cloudflare-native; the LINE delivery fees are the real bill.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/line-harness/#app",
+      "name": "Line Harness",
+      "url": "https://martechsignal.com/tools/line-harness/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

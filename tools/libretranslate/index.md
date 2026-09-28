@@ -1,6 +1,16 @@
 # LibreTranslate review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (tools.json). |
+| Feature depth | 4/10 | Neural translation, language detection and a translation API cover localization narrowly (tools.json deep_dive). |
+| Integrations | 4/10 | Mastodon, Argos Translate and OpenAPI/Swagger documented (tools.json). |
+| AI capability | 5/10 | Argos Translate neural models with automatic language detection are the machine core (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (tools.json). |
+| Operational maturity | 5/10 | 16.8k stars with a hosted per-character service as the commercial arm (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Translation quality sits below the large commercial engines, especially in uncommon language pairs |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit LibreTranslate &#8594;](https://libretranslate.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+LibreTranslate is the translation API you can own: AGPL, 16.8k stars, billed per character only if you use their hosting. For localization at volume, self-hosting is the whole argument.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -280,6 +294,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "LibreTranslate is the translation API you can own: AGPL, 16.8k stars, billed per character only if you use their hosting. For localization at volume, self-hosting is the whole argument.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/libretranslate/#app",
+      "name": "LibreTranslate",
+      "url": "https://martechsignal.com/tools/libretranslate/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

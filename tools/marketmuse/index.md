@@ -1,6 +1,16 @@
 # MarketMuse review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 4/10 | A Free plan (10 queries/mo) is published; Optimize, Research and Strategy tiers are demo-gated with no public prices (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Strategy documents, drafting, 9 brief types and patented topic authority models cover content planning (tools.json ai_features). |
+| Integrations | 3/10 | Google Docs and Word export plus WordPress copy-paste and ChatGPT documented; no API (tools.json). |
+| AI capability | 6/10 | Content Strategy AI, MarketMuse AI drafting and patented authority models are the analytical core (tools.json ai_features). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (tools.json). |
+| Operational maturity | 7/10 | Founded 2013 with patented methodology and long SEO-team deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI content strategy documents (Content Strategy AI) | &#10007; Closed source - no self-hosting option |
@@ -75,7 +85,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit MarketMuse &#8594;](https://www.marketmuse.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 28/60
+
+MarketMuse is content strategy with patents behind the clustering and nine documented brief types. Paid tiers are demo-gated with no public prices, so the free 10-query plan is the only honest entry.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -284,6 +298,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "MarketMuse is content strategy with patents behind the clustering and nine documented brief types. Paid tiers are demo-gated with no public prices, so the free 10-query plan is the only honest entry.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/marketmuse/#app",
+      "name": "MarketMuse",
+      "url": "https://martechsignal.com/tools/marketmuse/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 28,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Frase review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter $39/mo yearly ($49 monthly, 10 articles), Professional $103/mo, Scale $239/mo with seats and quotas published (tools.json, verified 2026-09-28). |
+| Feature depth | 7/10 | Research, briefs, drafting, E-E-A-T content scores and GEO tracking cover the content-to-visibility loop (tools.json ai_features). |
+| Integrations | 6/10 | Twelve named connections from Search Console and GA4 to Notion, Linear, Webflow and Zapier plus an API (tools.json). |
+| AI capability | 7/10 | Frase Agent with Deep Research briefs and GEO Score make the AI layer load-bearing (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 6/10 | Established SEO-content product with per-tier quotas published (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: frase Agent (AI SEO agent) | &#10007; Closed source - no self-hosting option |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Frase &#8594;](https://www.frase.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Frase grew from content briefs into an SEO agent with AI visibility tracking, and the tier counts stay concrete down to articles per month. A clean fit for content teams that measure in drafts shipped.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -300,6 +314,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Frase grew from content briefs into an SEO agent with AI visibility tracking, and the tier counts stay concrete down to articles per month. A clean fit for content teams that measure in drafts shipped.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/frase/#app",
+      "name": "Frase",
+      "url": "https://martechsignal.com/tools/frase/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

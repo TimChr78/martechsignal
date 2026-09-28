@@ -1,6 +1,16 @@
 # Listmonk review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open-source under AGPL with self-hosting and no paid tiers at all (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (tools.json deep_dive). |
+| Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (tools.json). |
+| AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with 23.3k GitHub stars and a fast Go backend you can read (tools.json). |
+| Operational maturity | 6/10 | Founded 2019 with 23.3k stars and years of self-hosted production use (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Listmonk &#8594;](https://listmonk.app)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Listmonk is the self-hosted newsletter standard: 23.3k stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -229,6 +243,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Listmonk is the self-hosted newsletter standard: 23.3k stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/listmonk/#app",
+      "name": "Listmonk",
+      "url": "https://martechsignal.com/tools/listmonk/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

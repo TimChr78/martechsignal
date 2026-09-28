@@ -1026,6 +1026,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "contentbot",
+      "score_total": 32,
+      "verdict": "ContentBot is priced like a utility: $0.50 per 1,000 prepaid words with a $9 floor. The workflows and bulk generation make volume cheap; the output still needs an editor.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Blog, ad copy, image and bulk generation with workflows cover the content production loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Bulk generation and content workflows are the automation core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2021 with published per-word pricing (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "copy-ai",
       "score_total": 35,
       "verdict": "Copy.ai has moved from writing helper to GTM workflow automation, and the free plan still exists. Teams wanting a writing tool will find a sales platform; teams wanting the reverse will be happier elsewhere.",
@@ -1117,6 +1149,70 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "Founded 2012 with priced tiers, published overages and a mature developer reputation (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "deskcommcrm",
+      "score_total": 41,
+      "verdict": "DeskcommCRM is WhatsApp selling as self-hosted MIT software: RAG knowledge per tenant and seven pre-send guardrails. You run the VPS and the AI keys; the agents do the qualifying.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT with no paid tiers; run costs are a 4GB VPS, Supabase and your AI keys, stated plainly (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "RAG-backed agents with seven-check pre-send guardrails show real production thinking (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 2.3k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "2.3k stars with agent-side support noted for paid plans (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "diffmode-growth-tactics",
+      "score_total": 35,
+      "verdict": "Diffmode's pipeline mines real case studies and then deliberately rejects the obvious plays. Ninety minutes per run buys novelty filtering, which is a fair trade if your growth ideas keep repeating.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under Apache-2.0 with an LLM API key as the only run cost, stated (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Claude Code, Codex and Claude plugins documented as the harnesses (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 with 161 GitHub stars and local execution (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 161 stars; a young research pipeline (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -1282,6 +1378,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "ever-gauzy",
+      "score_total": 32,
+      "verdict": "Ever Gauzy packs ERP, CRM, HRM and time tracking under AGPL with a real free cloud tier. The breadth means depth per module is the trade-off.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Self-hosted free (AGPLv3), Cloud Starter free for 1 company/1 employee, Small Business $17/mo annual, Enterprise $139/mo published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "ERP, CRM, HRM, ATS and time tracking make a broad business management suite (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 4.4k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "4.4k stars with priced cloud tiers above the free plan (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "evertune",
       "score_total": 31,
       "verdict": "Evertune buys depth of measurement: 100k prompts and 100 samples per model per prompt. At $800/mo entry it is for teams whose revenue actually depends on AI answers.",
@@ -1378,6 +1506,102 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "frase",
+      "score_total": 37,
+      "verdict": "Frase grew from content briefs into an SEO agent with AI visibility tracking, and the tier counts stay concrete down to articles per month. A clean fit for content teams that measure in drafts shipped.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Starter $39/mo yearly ($49 monthly, 10 articles), Professional $103/mo, Scale $239/mo with seats and quotas published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "Research, briefs, drafting, E-E-A-T content scores and GEO tracking cover the content-to-visibility loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Twelve named connections from Search Console and GA4 to Notion, Linear, Webflow and Zapier plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Frase Agent with Deep Research briefs and GEO Score make the AI layer load-bearing (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Established SEO-content product with per-tier quotas published (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "freshsales",
+      "score_total": 33,
+      "verdict": "Freshsales is the value CRM: $9/user/mo entry with phone and chat built in, and Freddy AI metered as a $49 add-on you can decline. The 21-day full-product trial is honest.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Growth $9/user/mo, Pro $39, Enterprise $59 published annually with Freddy AI Agent at $49 per user and a 21-day full trial (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "CRM with built-in phone, email and chat cover the SMB sales loop (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "No named integrations in the catalog, though an API is documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Freddy AI contact and intent scoring, deal insights and email writing from Pro up (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2010 inside the Freshworks portfolio (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "ghost",
+      "score_total": 42,
+      "verdict": "Ghost is the independent publishing stack: 55.3k stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Self-hosted free (MIT); Cloud Starter $9/mo, Creator $29/mo, Team $79/mo, Business $199/mo published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Publishing, newsletters and memberships cover the independent media stack (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Zapier, Slack, Stripe, Mailchimp, GA and Unsplash documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 4,
+          "evidence": "Writing assistance, content suggestions and newsletter optimization are deliberately light (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 55.3k GitHub stars and true self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2013 with a decade of independent publishing deployments (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "google-meta-ads-ga4-mcp",
       "score_total": 41,
       "verdict": "This MCP server gives agents read/write control of Google Ads, Meta Ads and GA4 through 250+ tools. The repo is MIT; the hosted endpoint is the business model, so self-host if that matters.",
@@ -1405,6 +1629,38 @@
         "operational_maturity": {
           "score": 4,
           "evidence": "Founded 2026 at 1.7k stars with a hosted service forming behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "growth-lab",
+      "score_total": 34,
+      "verdict": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 2.0k stars; the harness cost is on you.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "SEO page growth and Xiaohongshu loops cover two growth motions end to end (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Scenario research and SERP analysis feeding page creation run as agent loops (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 2.0k stars with no API of its own (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -1570,6 +1826,70 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "idurar-erp-crm",
+      "score_total": 31,
+      "verdict": "IDURAR is a full ERP-CRM-accounting stack under AGPL with 8.8k stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "ERP, CRM, accounting and invoicing cover the small-business back office (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 8.8k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "8.8k stars with published lifetime license tiers behind the OSS core (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "ifttt",
+      "score_total": 34,
+      "verdict": "IFTTT is consumer automation at consumer prices: $2.99/mo gets 20 Applets and $8.99 buys unlimited with AI services. For personal workflows and smart homes it remains the shortest path.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free (2 Applets), Pro $2.99/mo annual (20 Applets), Pro+ $8.99/mo annual (unlimited), all published with exact counts (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Applet automation with code steps cover consumer and smart-device workflows (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "AI services on Pro+ and query/filter code steps are the automation layer's only AI surface (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 8,
+          "evidence": "Founded 2010 with sixteen years of consumer automation behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "intercom",
       "score_total": 42,
       "verdict": "Intercom's Fin is the strongest public proof that AI resolution beats deflection: you pay $0.99 per resolution and can audit the math monthly. Per-seat pricing on top covers the humans that remain.",
@@ -1666,6 +1986,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "khoj",
+      "score_total": 37,
+      "verdict": "Khoj is the self-hosted research assistant at 37.5k stars: chat with your documents and automate content workflows from Obsidian, Emacs or WhatsApp. Cloud pricing stays hidden; self-hosting is the documented path.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Document Q&A across five formats, custom agents with personas and workflow automation cover research work (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Obsidian, Emacs, WhatsApp and Notion documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Local and online LLM chat with custom agents and document retrieval is the product core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 37.5k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "37.5k stars with an optional cloud tier of undisclosed size (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "klaviyo",
       "score_total": 39,
       "verdict": "Klaviyo is the ecommerce messaging default for good reason: Shopify-grade data in, product recommendations out. Contact-based pricing is predictable until your list grows, then it grows with it.",
@@ -1725,6 +2077,262 @@
         "operational_maturity": {
           "score": 6,
           "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "langchain",
+      "score_total": 47,
+      "verdict": "LangChain is the agent framework everything else measures against: 146k stars, MIT, with LangSmith and LangGraph priced from $39/mo. The abstractions churn; the ecosystem does not.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Framework free under MIT; LangSmith free tier with paid from $39/mo and LangGraph Cloud from $39/mo published (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 7,
+          "evidence": "LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 8,
+          "evidence": "OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 8,
+          "evidence": "Agent orchestration and RAG are the framework's reason to exist (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 146k GitHub stars, the largest in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2022 with commercial LangSmith/LangGraph arms behind the core (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "languagetool",
+      "score_total": 37,
+      "verdict": "LanguageTool is the privacy-friendly grammar checker: self-hosted under LGPL, 15.1k stars, 30+ languages. Premium prices localize by region, which is worth checking before you budget.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free self-hosted and free addons; Premium from SEK 49.96/mo as served in Sweden with currency localized by the vendor (Sep 2026) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Grammar checking, paraphrasing and style suggestions across 30+ languages (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 5,
+          "evidence": "Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "AI style and tone suggestions and AI-powered checking sit on the rule engine (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Long-running project with browser and desktop distribution at scale (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "laudspeaker",
+      "score_total": 30,
+      "verdict": "Laudspeaker is the open-source Braze alternative: journey automation and behavioral triggers self-hosted under MIT. The catalog lists no integrations yet, so budget for wiring work.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free open-source self-hosted with cloud plans available but not listed in the catalog (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Journey automation, behavioral triggers and product onboarding cover the engagement loop (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "AI-powered messaging is documented as one feature of the journey engine (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 2.6k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 4,
+          "evidence": "2.6k stars with a Braze-alternative positioning and no priced tiers listed (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "libretranslate",
+      "score_total": 35,
+      "verdict": "LibreTranslate is the translation API you can own: AGPL, 16.8k stars, billed per character only if you use their hosting. For localization at volume, self-hosting is the whole argument.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (tools.json)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Neural translation, language detection and a translation API cover localization narrowly (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Mastodon, Argos Translate and OpenAPI/Swagger documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Argos Translate neural models with automatic language detection are the machine core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "16.8k stars with a hosted per-character service as the commercial arm (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "line-harness",
+      "score_total": 37,
+      "verdict": "Line Harness is LINE Official Account CRM with an MCP server so Claude Code can run your broadcasts. MIT and Cloudflare-native; the LINE delivery fees are the real bill.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free under MIT on Cloudflare's free tier; LINE delivery fees and managed hosting pricing are stated as the run costs (tools.json)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Step delivery, lead scoring and broadcast management cover LINE CRM operations (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 589 stars with managed hosting offered (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "listmonk",
+      "score_total": 37,
+      "verdict": "Listmonk is the self-hosted newsletter standard: 23.3k stars of Go under AGPL with no paid tier anywhere. If you can run Postgres and SMTP, this is free forever by design.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free and open-source under AGPL with self-hosting and no paid tiers at all (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "Newsletter and mailing-list management with templates and campaigns cover the sending job (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "PostgreSQL, SMTP, Zapier and WordPress documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 3,
+          "evidence": "AI-assisted template editing and campaign analytics are the two documented AI features (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "AGPL-3.0 with 23.3k GitHub stars and a fast Go backend you can read (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Founded 2019 with 23.3k stars and years of self-hosted production use (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "loops",
+      "score_total": 30,
+      "verdict": "Loops is SaaS email done in one tool: marketing, product and transactional with an MCP server for agents. Free to 1,000 contacts; paid pricing is contact-based and quoted rather than listed.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 5,
+          "evidence": "Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Marketing, product and transactional email in one tool cover the SaaS messaging stack (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "LLM email translation, an AI workflow builder and an MCP server for agent access (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API and MCP access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2022 with a developer-market product shape (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "macro",
+      "score_total": 36,
+      "verdict": "Macro is the agent-driven CRM that builds itself from your team's email, plus shared AI memory. AGPL and open source, but team seats start at $40 and there is no free team plan.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 6,
+          "evidence": "Free for personal use with limits stated; Teams $40/seat/mo for the first 5 seats then $80/seat published, no free team plan (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Self-updating contact and company records from email with company-level pipeline stages (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 4,
+          "evidence": "Gmail, Google Workspace, GitHub and MCP documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 7,
+          "evidence": "Agents that build and maintain CRM records from email, plus shared team memory (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 8,
+          "evidence": "AGPL-3.0 with 4.3k GitHub stars and full source access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "Founded 2020 with 4.3k stars and priced team tiers (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -1794,6 +2402,38 @@
       "scored": "2026-09-28"
     },
     {
+      "slug": "maizzle",
+      "score_total": 32,
+      "verdict": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2.9k stars and no AI story, which is fine for a compiler.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 10,
+          "evidence": "Free and open source under MIT with nothing to price (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Email templating with Tailwind CSS and a build pipeline cover development, not sending (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 2,
+          "evidence": "No named integrations in the catalog and no API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 2.9k GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 5,
+          "evidence": "2.9k stars as a stable build tool with no service obligations (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
       "slug": "make",
       "score_total": 38,
       "verdict": "Make buys more automation per dollar than Zapier and shows you the wiring while it runs. The credit meter rewards careful builders and punishes careless ones.",
@@ -1853,6 +2493,102 @@
         "operational_maturity": {
           "score": 7,
           "evidence": "Founded 2015 with the category's largest consumer-messaging install base (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "marketing-studio",
+      "score_total": 32,
+      "verdict": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 9,
+          "evidence": "Free under MIT with Claude Code API access as the stated requirement (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 4,
+          "evidence": "Launch assets, demo video rendering, social clips and OG images cover the launch kit (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Claude Code and Blender documented as the two dependencies (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "Agent-driven asset and video generation through Blender is a real pipeline (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 234 GitHub stars and full source (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 2,
+          "evidence": "Founded 2026 at 234 stars with no API and a narrow dependency stack (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "marketmuse",
+      "score_total": 28,
+      "verdict": "MarketMuse is content strategy with patents behind the clustering and nine documented brief types. Paid tiers are demo-gated with no public prices, so the free 10-query plan is the only honest entry.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 4,
+          "evidence": "A Free plan (10 queries/mo) is published; Optimize, Research and Strategy tiers are demo-gated with no public prices (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Strategy documents, drafting, 9 brief types and patented topic authority models cover content planning (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 3,
+          "evidence": "Google Docs and Word export plus WordPress copy-paste and ChatGPT documented; no API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Content Strategy AI, MarketMuse AI drafting and patented authority models are the analytical core (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 2,
+          "evidence": "Closed SaaS with no API documented in the catalog (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2013 with patented methodology and long SEO-team deployments (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "mautic",
+      "score_total": 38,
+      "verdict": "Mautic is the open-source marketing automation standard: 10.5k stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 7,
+          "evidence": "Free under GPL-3.0 self-hosted; managed hosting by Dropsolid from EUR 247.50/mo with a 14-day no-card trial published (tools.json)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Email, campaigns and lead management cover the marketing automation core (tools.json deep_dive)."
+        },
+        "integrations": {
+          "score": 7,
+          "evidence": "Ten named integrations from Salesforce and HubSpot to Twilio, GTM, S3 and Zapier plus an API (tools.json)."
+        },
+        "ai_capability": {
+          "score": 2,
+          "evidence": "No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "GPL-3.0 with 10.5k GitHub stars and full self-hosting (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 7,
+          "evidence": "Founded 2014 with an official hosting partner and a long deployment history (tools.json)."
         }
       },
       "scored": "2026-09-28"
@@ -1949,6 +2685,70 @@
         "operational_maturity": {
           "score": 4,
           "evidence": "Community-maintained at 3.3k stars with no company behind it (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "n8n-marketing-flows",
+      "score_total": 36,
+      "verdict": "Seventy-nine import-ready n8n workflows for marketing work, with local Ollama variants of each. Free templates; the n8n instance and keys are yours to provide.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 5,
+          "evidence": "79 workflows across social posting, monitoring, ads and SEO cover common marketing operations (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "n8n, Ollama, Meta Graph API, Sheets, YouTube Data API, WordPress and Discord documented (tools.json)."
+        },
+        "ai_capability": {
+          "score": 5,
+          "evidence": "LLM drafting per platform and an AI news digest with push delivery, all with local Ollama versions (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 9,
+          "evidence": "MIT-licensed with 175 GitHub stars and one-click import into your instance (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 3,
+          "evidence": "Founded 2026 at 175 stars as a template collection (tools.json)."
+        }
+      },
+      "scored": "2026-09-28"
+    },
+    {
+      "slug": "nightwatch",
+      "score_total": 35,
+      "verdict": "Nightwatch tracks ranks across Google and AI answers with unlimited seats on every tier. Prompt tracking across six AI surfaces with citations makes it a real GEO instrument, not a bolt-on.",
+      "pillars": {
+        "pricing_transparency": {
+          "score": 8,
+          "evidence": "Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (tools.json, verified 2026-09-28)."
+        },
+        "feature_depth": {
+          "score": 6,
+          "evidence": "Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (tools.json ai_features)."
+        },
+        "integrations": {
+          "score": 6,
+          "evidence": "GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (tools.json)."
+        },
+        "ai_capability": {
+          "score": 6,
+          "evidence": "Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (tools.json ai_features)."
+        },
+        "openness": {
+          "score": 3,
+          "evidence": "Closed SaaS with API and MCP access (tools.json)."
+        },
+        "operational_maturity": {
+          "score": 6,
+          "evidence": "Published EUR tiers with unlimited seats and enterprise keyword volumes (tools.json)."
         }
       },
       "scored": "2026-09-28"

@@ -1,6 +1,16 @@
 # Growth Lab review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Free under Apache 2.0 with Claude Code or Codex costs as the stated run expense (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | SEO page growth and Xiaohongshu loops cover two growth motions end to end (tools.json ai_features). |
+| Integrations | 4/10 | Claude Code, Codex, IndexNow and Bing Webmaster Tools documented (tools.json). |
+| AI capability | 5/10 | Scenario research and SERP analysis feeding page creation run as agent loops (tools.json ai_features). |
+| Openness | 9/10 | Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (tools.json). |
+| Operational maturity | 3/10 | Founded 2026 at 2.0k stars with no API of its own (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Apache-2.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Growth Lab &#8594;](https://growthlab.tsingyuai.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 34/60
+
+Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 2.0k stars; the harness cost is on you.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -230,6 +244,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Growth Lab runs two growth loops as skills: SEO pages with IndexNow publishing and a Xiaohongshu content loop. Apache-2.0 and 2.0k stars; the harness cost is on you.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/growth-lab/#app",
+      "name": "Growth Lab",
+      "url": "https://martechsignal.com/tools/growth-lab/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 34,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

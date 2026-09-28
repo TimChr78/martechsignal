@@ -1,6 +1,16 @@
 # ContentBot review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Prepaid $0.50/1K words, Starter $9/mo and Premium $29/mo published with a free trial (tools.json, verified 2026-09-28). |
+| Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (tools.json ai_features). |
+| Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (tools.json). |
+| AI capability | 5/10 | Bulk generation and content workflows are the automation core (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API access (tools.json). |
+| Operational maturity | 5/10 | Founded 2021 with published per-word pricing (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: AI blog generation | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -69,7 +79,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit ContentBot &#8594;](https://contentbot.ai)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+ContentBot is priced like a utility: $0.50 per 1,000 prepaid words with a $9 floor. The workflows and bulk generation make volume cheap; the output still needs an editor.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -232,6 +246,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "ContentBot is priced like a utility: $0.50 per 1,000 prepaid words with a $9 floor. The workflows and bulk generation make volume cheap; the output still needs an editor.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/contentbot/#app",
+      "name": "ContentBot",
+      "url": "https://martechsignal.com/tools/contentbot/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

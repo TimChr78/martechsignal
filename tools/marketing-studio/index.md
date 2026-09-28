@@ -1,6 +1,16 @@
 # Marketing Studio pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Free under MIT with Claude Code API access as the stated requirement (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (tools.json ai_features). |
+| Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (tools.json). |
+| AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 234 GitHub stars and full source (tools.json). |
+| Operational maturity | 2/10 | Founded 2026 at 234 stars with no API and a narrow dependency stack (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Young project (234 GitHub stars) - smaller community and plugin ecosystem |
@@ -70,7 +80,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Marketing Studio &#8594;](https://github.com/ucsandman/marketing-studio)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -230,6 +244,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/marketing-studio/#app",
+      "name": "Marketing Studio",
+      "url": "https://martechsignal.com/tools/marketing-studio/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

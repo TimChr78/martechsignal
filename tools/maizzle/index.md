@@ -1,6 +1,16 @@
 # Maizzle review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 10/10 | Free and open source under MIT with nothing to price (tools.json, verified 2026-09-28). |
+| Feature depth | 4/10 | Email templating with Tailwind CSS and a build pipeline cover development, not sending (tools.json deep_dive). |
+| Integrations | 2/10 | No named integrations in the catalog and no API (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | MIT-licensed with 2.9k GitHub stars and full source (tools.json). |
+| Operational maturity | 5/10 | 2.9k stars as a stable build tool with no service obligations (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; Open-source licensing with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Maizzle &#8594;](https://maizzle.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 32/60
+
+Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2.9k stars and no AI story, which is fine for a compiler.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -270,6 +284,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Maizzle is email development with Tailwind: a build framework for people who want responsive HTML that survives Outlook. MIT with 2.9k stars and no AI story, which is fine for a compiler.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/maizzle/#app",
+      "name": "Maizzle",
+      "url": "https://martechsignal.com/tools/maizzle/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 32,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

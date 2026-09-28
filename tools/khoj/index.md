@@ -1,6 +1,16 @@
 # Khoj review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (tools.json). |
+| Feature depth | 6/10 | Document Q&amp;A across five formats, custom agents with personas and workflow automation cover research work (tools.json ai_features). |
+| Integrations | 5/10 | Obsidian, Emacs, WhatsApp and Notion documented plus an API (tools.json). |
+| AI capability | 7/10 | Local and online LLM chat with custom agents and document retrieval is the product core (tools.json ai_features). |
+| Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 5/10 | 37.5k stars with an optional cloud tier of undisclosed size (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No public pricing page for Khoj Cloud, so hosted costs cannot be budgeted from the website |
@@ -81,7 +91,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Khoj &#8594;](https://khoj.dev)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 37/60
+
+Khoj is the self-hosted research assistant at 37.5k stars: chat with your documents and automate content workflows from Obsidian, Emacs or WhatsApp. Cloud pricing stays hidden; self-hosting is the documented path.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -287,6 +301,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Khoj is the self-hosted research assistant at 37.5k stars: chat with your documents and automate content workflows from Obsidian, Emacs or WhatsApp. Cloud pricing stays hidden; self-hosting is the documented path.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/khoj/#app",
+      "name": "Khoj",
+      "url": "https://martechsignal.com/tools/khoj/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 37,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

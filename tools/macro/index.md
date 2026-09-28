@@ -1,6 +1,16 @@
 # Macro review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 6/10 | Free for personal use with limits stated; Teams $40/seat/mo for the first 5 seats then $80/seat published, no free team plan (tools.json). |
+| Feature depth | 6/10 | Self-updating contact and company records from email with company-level pipeline stages (tools.json ai_features). |
+| Integrations | 4/10 | Gmail, Google Workspace, GitHub and MCP documented (tools.json). |
+| AI capability | 7/10 | Agents that build and maintain CRM records from email, plus shared team memory (tools.json ai_features). |
+| Openness | 8/10 | AGPL-3.0 with 4.3k GitHub stars and full source access (tools.json). |
+| Operational maturity | 5/10 | Founded 2020 with 4.3k stars and priced team tiers (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; Paid plans start at $40/mo once past the free tier |
@@ -74,7 +84,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Macro &#8594;](https://macro.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 36/60
+
+Macro is the agent-driven CRM that builds itself from your team&#x27;s email, plus shared AI memory. AGPL and open source, but team seats start at $40 and there is no free team plan.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -285,6 +299,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Macro is the agent-driven CRM that builds itself from your team's email, plus shared AI memory. AGPL and open source, but team seats start at $40 and there is no free team plan.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/macro/#app",
+      "name": "Macro",
+      "url": "https://martechsignal.com/tools/macro/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 36,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

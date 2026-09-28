@@ -1,6 +1,16 @@
 # IDURAR ERP &amp; CRM pricing
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Self-host free under AGPL-3.0; lifetime licenses published at $5,000 Professional and $10,000 Enterprise (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (tools.json deep_dive). |
+| Integrations | 2/10 | No named integrations in the catalog (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | AGPL-3.0 with 8.8k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 5/10 | 8.8k stars with published lifetime license tiers behind the OSS core (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AGPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -71,7 +81,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit IDURAR ERP & CRM &#8594;](https://cloud.idurarapp.com)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 31/60
+
+IDURAR is a full ERP-CRM-accounting stack under AGPL with 8.8k stars, and lifetime licenses at $5,000 if you want the vendor&#x27;s hand. Free self-hosting is the honest path for small teams.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -276,6 +290,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "IDURAR is a full ERP-CRM-accounting stack under AGPL with 8.8k stars, and lifetime licenses at $5,000 if you want the vendor's hand. Free self-hosting is the honest path for small teams.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/idurar-erp-crm/#app",
+      "name": "IDURAR ERP & CRM",
+      "url": "https://martechsignal.com/tools/idurar-erp-crm/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 31,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

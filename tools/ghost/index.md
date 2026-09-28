@@ -1,6 +1,16 @@
 # Ghost review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 9/10 | Self-hosted free (MIT); Cloud Starter $9/mo, Creator $29/mo, Team $79/mo, Business $199/mo published (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Publishing, newsletters and memberships cover the independent media stack (tools.json deep_dive). |
+| Integrations | 6/10 | Zapier, Slack, Stripe, Mailchimp, GA and Unsplash documented plus an API (tools.json). |
+| AI capability | 4/10 | Writing assistance, content suggestions and newsletter optimization are deliberately light (tools.json ai_features). |
+| Openness | 9/10 | MIT-licensed with 55.3k GitHub stars and true self-hosting (tools.json). |
+| Operational maturity | 8/10 | Founded 2013 with a decade of independent publishing deployments (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; MIT licence with free self-hosting | &#10007; Paid plans start at $9/mo once past the free tier |
@@ -67,7 +77,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Ghost &#8594;](https://ghost.org)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 42/60
+
+Ghost is the independent publishing stack: 55.3k stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -230,6 +244,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Ghost is the independent publishing stack: 55.3k stars, MIT, newsletters and memberships included. The AI layer is writing assistance where it should be, and Stripe payments keep the revenue yours.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/ghost/#app",
+      "name": "Ghost",
+      "url": "https://martechsignal.com/tools/ghost/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 42,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

@@ -1,6 +1,16 @@
 # Mautic review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 7/10 | Free under GPL-3.0 self-hosted; managed hosting by Dropsolid from EUR 247.50/mo with a 14-day no-card trial published (tools.json). |
+| Feature depth | 6/10 | Email, campaigns and lead management cover the marketing automation core (tools.json deep_dive). |
+| Integrations | 7/10 | Ten named integrations from Salesforce and HubSpot to Twilio, GTM, S3 and Zapier plus an API (tools.json). |
+| AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (tools.json ai_features is empty). |
+| Openness | 9/10 | GPL-3.0 with 10.5k GitHub stars and full self-hosting (tools.json). |
+| Operational maturity | 7/10 | Founded 2014 with an official hosting partner and a long deployment history (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; GPL-3.0 licence with free self-hosting | &#10007; No hands-on test - this assessment is based on vendor documentation and the public repository |
@@ -77,7 +87,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Mautic &#8594;](https://www.mautic.org)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 38/60
+
+Mautic is the open-source marketing automation standard: 10.5k stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -293,6 +307,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Mautic is the open-source marketing automation standard: 10.5k stars under GPL with managed hosting from EUR 247.50/mo. No AI features documented, and the campaign engine does not need them.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/mautic/#app",
+      "name": "Mautic",
+      "url": "https://martechsignal.com/tools/mautic/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 38,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

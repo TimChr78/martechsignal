@@ -1,6 +1,16 @@
 # Loops review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 5/10 | Free up to 1,000 contacts and 4,000 sends per rolling 30 days published; paid plans are contact-based with no listed prices (tools.json). |
+| Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (tools.json deep_dive). |
+| Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (tools.json). |
+| AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (tools.json). |
+| Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: LLM email translation | &#10007; Closed source - no self-hosting option |
@@ -72,7 +82,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Loops &#8594;](https://loops.so)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 30/60
+
+Loops is SaaS email done in one tool: marketing, product and transactional with an MCP server for agents. Free to 1,000 contacts; paid pricing is contact-based and quoted rather than listed.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -280,6 +294,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Loops is SaaS email done in one tool: marketing, product and transactional with an MCP server for agents. Free to 1,000 contacts; paid pricing is contact-based and quoted rather than listed.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/loops/#app",
+      "name": "Loops",
+      "url": "https://martechsignal.com/tools/loops/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 30,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```

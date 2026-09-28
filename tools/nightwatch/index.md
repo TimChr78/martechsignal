@@ -1,6 +1,16 @@
 # Nightwatch review (2026): pricing, AI features, verdict
 
 
+| Pillar | Score | Evidence |
+| --- | --- | --- |
+| Pricing transparency | 8/10 | Starter EUR 79/mo (948 yearly), Professional EUR 159/mo, Agency EUR 399/mo published with unlimited seats (tools.json, verified 2026-09-28). |
+| Feature depth | 6/10 | Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (tools.json ai_features). |
+| Integrations | 6/10 | GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (tools.json). |
+| AI capability | 6/10 | Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (tools.json ai_features). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (tools.json). |
+| Operational maturity | 6/10 | Published EUR tiers with unlimited seats and enterprise keyword volumes (tools.json). |
+
+
 | Pros | Cons |
 | --- | --- |
 | &#10003; AI capabilities: prompt tracking across ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews with sentiment and citation analysis | &#10007; Closed source - no self-hosting option |
@@ -76,7 +86,11 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 [Visit Nightwatch &#8594;](https://nightwatch.io)
 
-Not yet scored against the rubric; scored pages show six pillars.
+## MartechSignal Score: 35/60
+
+Nightwatch tracks ranks across Google and AI answers with unlimited seats on every tier. Prompt tracking across six AI surfaces with citations makes it a real GEO instrument, not a bolt-on.
+
+Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
@@ -273,6 +287,35 @@ One email when a new tool review lands, nothing else.
         }
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Tim Christensen",
+      "url": "https://martechsignal.com/authors/tim-christensen/",
+      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://martechsignal.com/#organization",
+      "name": "MartechSignal"
+    },
+    "datePublished": "2026-09-26",
+    "reviewBody": "Nightwatch tracks ranks across Google and AI answers with unlimited seats on every tier. Prompt tracking across six AI surfaces with citations makes it a real GEO instrument, not a bolt-on.",
+    "itemReviewed": {
+      "@type": "SoftwareApplication",
+      "@id": "https://martechsignal.com/tools/nightwatch/#app",
+      "name": "Nightwatch",
+      "url": "https://martechsignal.com/tools/nightwatch/"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 35,
+      "bestRating": 60,
+      "worstRating": 0
+    }
   }
 ]
 ```
