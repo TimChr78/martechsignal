@@ -100,6 +100,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/#webpage",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -113,16 +114,34 @@ One email when a new tool review lands, nothing else.
     "inLanguage": "en",
     "about": [
       {
-        "@type": "Thing",
-        "name": "ActiveCampaign",
-        "url": "https://www.activecampaign.com"
+        "@id": "https://martechsignal.com/tools/activecampaign/#app"
       },
       {
-        "@type": "Thing",
-        "name": "Klaviyo",
-        "url": "https://www.klaviyo.com"
+        "@id": "https://martechsignal.com/tools/klaviyo/#app"
       }
-    ]
+    ],
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "ActiveCampaign vs Klaviyo",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/activecampaign/#app",
+            "url": "https://martechsignal.com/tools/activecampaign/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/klaviyo/#app",
+            "url": "https://martechsignal.com/tools/klaviyo/"
+          }
+        }
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -137,8 +156,8 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Head-to-head comparisons",
+        "item": "https://martechsignal.com/vs/"
       },
       {
         "@type": "ListItem",

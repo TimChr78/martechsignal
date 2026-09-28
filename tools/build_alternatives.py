@@ -81,7 +81,7 @@ def build():
         page["seo_title"] = re.sub(r"\d+(?= Tools Compared)", str(len(page["items"])),
                                    page.get("seo_title") or "")
         target = tools_by_slug[page["slug"]]
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/alternatives/">Alternatives guides</a> / '
                 f'<span>{esc(target["name"])} alternatives</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
@@ -119,8 +119,8 @@ def build():
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home",
                  "item": "https://martechsignal.com/"},
-                {"@type": "ListItem", "position": 2, "name": "Tools",
-                 "item": "https://martechsignal.com/tools/"},
+                {"@type": "ListItem", "position": 2, "name": "Alternatives guides",
+                 "item": "https://martechsignal.com/alternatives/"},
                 # A3 M-2c (2026-09-27): the schema label must match the visible
                 # trail ("HubSpot CRM alternatives"), not the page title with the
                 # "Best ... (2026)" wrapper Google would show as the SERP crumb.

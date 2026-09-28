@@ -150,8 +150,8 @@ Read the full assessment of [Matomo](/tools/matomo/), or browse all [analytics t
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Alternatives guides",
+        "item": "https://martechsignal.com/alternatives/"
       },
       {
         "@type": "ListItem",

@@ -150,8 +150,8 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Alternatives guides",
+        "item": "https://martechsignal.com/alternatives/"
       },
       {
         "@type": "ListItem",

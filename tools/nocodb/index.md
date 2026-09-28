@@ -218,14 +218,7 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-09-05",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://nocodb.com/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "datePublished": "2026-09-05"
   },
   {
     "@context": "https://schema.org",

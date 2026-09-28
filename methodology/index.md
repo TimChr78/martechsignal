@@ -73,10 +73,14 @@ Published errors get public entries. See the [corrections page](/corrections/) f
         "item": "https://martechsignal.com/methodology/"
       }
     ]
+  },
+  {
+    "@type": "WebPage",
+    "@id": "https://martechsignal.com/methodology/#webpage",
+    "name": "How we evaluate",
+    "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six pillars: the rubric, the review policy, and the corrections process.",
+    "url": "https://martechsignal.com/methodology/",
+    "dateModified": "2026-09-27"
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/methodology/#webpage", "dateModified": "2026-09-28"}
 ```

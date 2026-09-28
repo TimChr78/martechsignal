@@ -174,14 +174,7 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-08-31",
-    "datePublished": "2026-08-31",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://github.com/onism1767-creator/potato",
-      "priceValidUntil": "2026-12-31"
-    }
+    "datePublished": "2026-08-31"
   },
   {
     "@context": "https://schema.org",

@@ -100,6 +100,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/#webpage",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -113,16 +114,34 @@ One email when a new tool review lands, nothing else.
     "inLanguage": "en",
     "about": [
       {
-        "@type": "Thing",
-        "name": "Claude SEO",
-        "url": "https://claude-seo.md/"
+        "@id": "https://martechsignal.com/tools/claude-seo/#app"
       },
       {
-        "@type": "Thing",
-        "name": "Semrush",
-        "url": "https://www.semrush.com"
+        "@id": "https://martechsignal.com/tools/semrush/#app"
       }
-    ]
+    ],
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Claude SEO vs Semrush",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/claude-seo/#app",
+            "url": "https://martechsignal.com/tools/claude-seo/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/semrush/#app",
+            "url": "https://martechsignal.com/tools/semrush/"
+          }
+        }
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -137,8 +156,8 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Head-to-head comparisons",
+        "item": "https://martechsignal.com/vs/"
       },
       {
         "@type": "ListItem",

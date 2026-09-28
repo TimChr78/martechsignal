@@ -4251,7 +4251,8 @@
       ]
     },
     "paid_from": 20,
-    "date_verified": "2026-09-27"
+    "date_verified": "2026-09-27",
+    "currency": "EUR"
   },
   {
     "slug": "n8n-marketing-flows",

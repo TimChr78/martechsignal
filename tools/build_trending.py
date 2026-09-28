@@ -176,6 +176,17 @@ def build_page():
         "url": "https://martechsignal.com/trending/",
         "isPartOf": {"@type": "WebSite", "name": "MartechSignal", "url": "https://martechsignal.com/"},
         "dateModified": d1,
+        # r7 M19 (2026-09-28): declare the ranked table as an ItemList in the
+        # same order the page renders it.
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Open-Source MarTech momentum ranking",
+            "itemListElement": [
+                {"@type": "ListItem", "position": i + 1, "name": r["name"],
+                 "item": f"https://martechsignal.com/tools/{r['slug']}/"}
+                for i, r in enumerate(rows)
+            ],
+        },
     }
     breadcrumb = {
         "@context": "https://schema.org",

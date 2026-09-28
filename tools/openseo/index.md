@@ -199,14 +199,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/openseo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-07",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://openseo.so/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "dateModified": "2026-09-07"
   },
   {
     "@context": "https://schema.org",

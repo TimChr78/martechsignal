@@ -198,14 +198,7 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-07",
-    "datePublished": "2026-08-25",
-    "offers": {
-      "@type": "Offer",
-      "price": 0,
-      "priceCurrency": "USD",
-      "url": "https://www.idurarapp.com",
-      "priceValidUntil": "2026-12-31"
-    }
+    "datePublished": "2026-08-25"
   },
   {
     "@context": "https://schema.org",

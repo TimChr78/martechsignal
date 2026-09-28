@@ -98,6 +98,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#webpage",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -111,16 +112,34 @@ One email when a new tool review lands, nothing else.
     "inLanguage": "en",
     "about": [
       {
-        "@type": "Thing",
-        "name": "Salesforce Marketing Cloud",
-        "url": "https://www.salesforce.com/products/marketing-cloud/"
+        "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app"
       },
       {
-        "@type": "Thing",
-        "name": "HubSpot Marketing Hub",
-        "url": "https://www.hubspot.com/products/marketing"
+        "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app"
       }
-    ]
+    ],
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
+            "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
+            "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+          }
+        }
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -135,8 +154,8 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Head-to-head comparisons",
+        "item": "https://martechsignal.com/vs/"
       },
       {
         "@type": "ListItem",

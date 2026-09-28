@@ -98,6 +98,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/#webpage",
     "datePublished": "2026-09-26",
     "dateModified": "2026-09-27",
     "author": {
@@ -111,16 +112,34 @@ One email when a new tool review lands, nothing else.
     "inLanguage": "en",
     "about": [
       {
-        "@type": "Thing",
-        "name": "NocoDB",
-        "url": "https://nocodb.com"
+        "@id": "https://martechsignal.com/tools/nocodb/#app"
       },
       {
-        "@type": "Thing",
-        "name": "NocoBase",
-        "url": "https://www.nocobase.com"
+        "@id": "https://martechsignal.com/tools/nocobase/#app"
       }
-    ]
+    ],
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "NocoDB vs NocoBase",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/nocodb/#app",
+            "url": "https://martechsignal.com/tools/nocodb/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/nocobase/#app",
+            "url": "https://martechsignal.com/tools/nocobase/"
+          }
+        }
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -135,8 +154,8 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Head-to-head comparisons",
+        "item": "https://martechsignal.com/vs/"
       },
       {
         "@type": "ListItem",

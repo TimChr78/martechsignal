@@ -116,7 +116,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 ## Comparison guides
 
 - [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
-- [Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict](/vs/salesforce-marketing-cloud-vs-hubspot/)
+- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -172,7 +172,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1814,
+  "wordCount": 1811,
   "articleSection": "analytics"
 }
 ```

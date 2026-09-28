@@ -43,7 +43,7 @@ def build_best():
         items = page["items"]
         for it in items:
             assert it["slug"] in tools_by_slug, f"unknown tool slug {it['slug']}"
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/best/">Best-of lists</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
@@ -98,8 +98,8 @@ def build_best():
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home",
                  "item": "https://martechsignal.com/"},
-                {"@type": "ListItem", "position": 2, "name": "Tools",
-                 "item": "https://martechsignal.com/tools/"},
+                {"@type": "ListItem", "position": 2, "name": "Best-of lists",
+                 "item": "https://martechsignal.com/best/"},
                 {"@type": "ListItem", "position": 3, "name": page["title"],
                  "item": f"https://martechsignal.com/best/{page['slug']}/"},
             ],
@@ -144,7 +144,7 @@ def build_vs():
     for page in data["pages"]:
         a = tools_by_slug[page["a_slug"]]
         b = tools_by_slug[page["b_slug"]]
-        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/tools/">Tools</a> / '
+        body = ['<nav class="crumb"><a href="/">Home</a> / <a href="/vs/">Head-to-head comparisons</a> / '
                 f'<span>{esc(page["title"])}</span></nav>',
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
@@ -205,8 +205,8 @@ def build_vs():
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Home",
                  "item": "https://martechsignal.com/"},
-                {"@type": "ListItem", "position": 2, "name": "Tools",
-                 "item": "https://martechsignal.com/tools/"},
+                {"@type": "ListItem", "position": 2, "name": "Head-to-head comparisons",
+                 "item": "https://martechsignal.com/vs/"},
                 {"@type": "ListItem", "position": 3, "name": page["title"],
                  "item": f"https://martechsignal.com/vs/{page['slug']}/"},
             ],
@@ -216,15 +216,31 @@ def build_vs():
         entity = {
             "@context": "https://schema.org",
             "@type": "WebPage",
+            "@id": f"https://martechsignal.com/vs/{page['slug']}/#webpage",
             "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             "name": page["title"],
             "url": f"https://martechsignal.com/vs/{page['slug']}/",
             "inLanguage": "en",
+            # r7 M7 (2026-09-28): plain #app references for the compared pair
+            # (the offers-gated state machine governs product typing) and the
+            # pair declared as an ItemList.
             "about": [
-                {"@type": "Thing", "name": a["name"], "url": a.get("website", "")},
-                {"@type": "Thing", "name": b["name"], "url": b.get("website", "")},
+                {"@id": f"https://martechsignal.com/tools/{a['slug']}/#app"},
+                {"@id": f"https://martechsignal.com/tools/{b['slug']}/#app"},
             ],
+            "mainEntity": {
+                "@type": "ItemList",
+                "name": f"{a['name']} vs {b['name']}",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "item": {
+                        "@id": f"https://martechsignal.com/tools/{a['slug']}/#app",
+                        "url": f"https://martechsignal.com/tools/{a['slug']}/"}},
+                    {"@type": "ListItem", "position": 2, "item": {
+                        "@id": f"https://martechsignal.com/tools/{b['slug']}/#app",
+                        "url": f"https://martechsignal.com/tools/{b['slug']}/"}},
+                ],
+            },
         }
         out_dir = VS_DIR / page["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)

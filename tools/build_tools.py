@@ -835,8 +835,12 @@ def _offer_for(t):
     # already prefers a real paid entry when one exists). Freemium SaaS with
     # paid tiers must NOT claim price: 0 - Google can surface it as "Free".
     # No paid price on record -> no Offer (and the R5 drop rule then applies).
+    # r7 M5 (2026-09-28): mixed-model pages (free self-hosted core alongside
+    # paid cloud/premium tiers listed in price_notes) contradict a zero Offer
+    # on their own visible pricing. Only genuinely-free products keep it.
     if _pf == 0 and (t.get("pricing_model") == "free" or t.get("open_source")):
-        return _offer(0)
+        if not re.search(r"[€$£]\s?\d|\d+\s?€", t.get("price_notes") or ""):
+            return _offer(0)
     return None
 
 

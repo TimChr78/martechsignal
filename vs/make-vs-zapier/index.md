@@ -100,6 +100,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
+    "@id": "https://martechsignal.com/vs/make-vs-zapier/#webpage",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-27",
     "author": {
@@ -113,16 +114,34 @@ One email when a new tool review lands, nothing else.
     "inLanguage": "en",
     "about": [
       {
-        "@type": "Thing",
-        "name": "Make",
-        "url": "https://www.make.com"
+        "@id": "https://martechsignal.com/tools/make/#app"
       },
       {
-        "@type": "Thing",
-        "name": "Zapier",
-        "url": "https://zapier.com"
+        "@id": "https://martechsignal.com/tools/zapier/#app"
       }
-    ]
+    ],
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Make vs Zapier",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://martechsignal.com/tools/make/#app",
+            "url": "https://martechsignal.com/tools/make/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://martechsignal.com/tools/zapier/#app",
+            "url": "https://martechsignal.com/tools/zapier/"
+          }
+        }
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -137,8 +156,8 @@ One email when a new tool review lands, nothing else.
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Tools",
-        "item": "https://martechsignal.com/tools/"
+        "name": "Head-to-head comparisons",
+        "item": "https://martechsignal.com/vs/"
       },
       {
         "@type": "ListItem",

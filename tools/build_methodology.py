@@ -23,7 +23,15 @@ out = page_shell(
     "Desk research with dated verification; no sponsored rankings; corrections are logged.",
     "https://martechsignal.com/methodology/",
     content,
-    schema_json=[breadcrumb],
+    schema_json=[breadcrumb, {
+        "@type": "WebPage",
+        "@id": "https://martechsignal.com/methodology/#webpage",
+        "name": "How we evaluate",
+        "description": "How MartechSignal researches tools, verifies prices and dates, and scores the six pillars: the rubric, the review policy, and the corrections process.",
+        "url": "https://martechsignal.com/methodology/",
+        "dateModified": __import__("datetime").date.fromtimestamp(
+            (ROOT / "tools" / "methodology-content.html").stat().st_mtime).isoformat(),
+    }],
 )
 out = out.replace(
     "</head>",
