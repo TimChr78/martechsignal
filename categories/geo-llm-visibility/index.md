@@ -163,7 +163,7 @@ AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overvie
 
 ### Promptfoo
 
-**Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
+**Compare:** [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) &middot; [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) &middot; **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) &middot; [GEO, defined](/glossary/geo/)
 
 For twenty years the scoreboard was a blue link and a click. Answer engines changed the deal: ChatGPT or an AI Overview finishes the question, the visit never happens, and your analytics record a clean-looking impression instead of a lost session. The tools here were built for the other half of the job, finding out what the assistants actually say about you and moving those answers.
 

@@ -181,7 +181,7 @@ Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents,
 
 ### Pabbly Connect
 
-**Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) &middot; [automation strategy](/guides/workflow-automation-strategy/)
+**Compare:** [n8n vs Zapier](/vs/n8n-vs-zapier/) &middot; [NocoDB vs NocoBase](/vs/nocodb-vs-nocobase/) &middot; [Make vs Zapier](/vs/make-vs-zapier/) &middot; [n8n vs Make](/vs/n8n-vs-make-vs-zapier/) &middot; [Zapier alternatives](/alternatives/zapier/) &middot; [n8n alternatives](/alternatives/n8n/) &middot; [Best workflow automation tools (2026)](/best/workflow-automation-tools/) &middot; [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) &middot; **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) &middot; [automation strategy](/guides/workflow-automation-strategy/)
 
 Workflow automation is the unglamorous layer that decides whether your stack works like a system or just a pile of browser tabs. It is how your CRM talks to your ESP, your forms feed your analytics, and your AI agents get somewhere to actually do things instead of drafting suggestions nobody opens.
 

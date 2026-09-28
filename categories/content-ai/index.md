@@ -89,7 +89,7 @@ AI copywriting, message optimization, and publishing platforms, from per-seat ge
 
 ### Writer
 
-**Compare:** [Best AI SEO tools](/best/ai-seo-tools/) &middot; **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
+**Compare:** [Jasper vs Writer](/vs/jasper-vs-writer/) &middot; [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) &middot; **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
 Content AI covers three jobs that buyers keep conflating: drafting copy, scoring it before it ships, and publishing it. Copy.ai, Jasper, and ContentBot generate drafts. Anyword scores copy against predicted performance before you spend a send on it. Persado and Phrasee, which rebranded as Jacquard in June 2024, sell message optimization into regulated industries. Writer grounds its Palmyra models in your brand rules. Only the third job is infrastructure: Ghost and Strapi actually publish what you produce.
 
