@@ -191,7 +191,7 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 

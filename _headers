@@ -29,3 +29,10 @@
   Cache-Control: public, max-age=3600
 /llms-full.txt
   Cache-Control: public, max-age=3600
+
+# r7 H18 (2026-09-28): the Markdown mirrors stay available to LLM retrieval
+# (llms-full.txt is the retrieval entry point) but leave the indexable set —
+# ~291 near-duplicate URLs were crawlable and internally linked. noindex, not
+# robots-block: blocking leaves them indexed and unlinkable.
+/*.md
+  X-Robots-Tag: noindex

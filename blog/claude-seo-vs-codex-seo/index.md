@@ -72,7 +72,7 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
@@ -140,7 +140,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1372,
+  "wordCount": 1373,
   "articleSection": "agent-skills"
 }
 ```

@@ -176,7 +176,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ### Quick Facts
 

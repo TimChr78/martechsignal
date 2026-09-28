@@ -160,7 +160,7 @@ Two volumes, both required: a Postgres dump and the miniodata volume, since atta
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 ## Get the next teardown

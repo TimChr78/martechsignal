@@ -141,7 +141,7 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 ## Get the next teardown

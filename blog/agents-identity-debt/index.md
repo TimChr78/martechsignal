@@ -107,7 +107,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
+More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/) · [Adobe Marketo Engage](/tools/adobe-marketo/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -155,7 +155,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1738,
+  "wordCount": 1746,
   "articleSection": "marketing-automation"
 }
 ```

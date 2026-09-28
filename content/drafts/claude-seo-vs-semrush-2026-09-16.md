@@ -1,7 +1,7 @@
 ---
-title: "Claude SEO vs Semrush: what a free audit replaces, and what it does not"
-seo_title: "Claude SEO vs Semrush: What It Replaces and What Not"
-slug: claude-seo-vs-semrush
+title: "What a free SEO audit replaces in your Semrush stack, and what it does not"
+seo_title: "What a Free SEO Audit Replaces (and What It Does Not)"
+slug: what-claude-seo-replaces
 date: 2026-09-16
 author: Tim Christensen
 tags: [SEO, Agent Skills]
@@ -63,3 +63,5 @@ The cost shapes are not comparable either. One is a seat-based subscription that
 One thing neither tool does is tell you whether a fix moved the needle. Claude SEO gives you a falsifiability check and a leading indicator to watch; Semrush gives you the trend line after the fact. Pair the audit with the tracking and you have both halves, which is the honest answer for most teams paying for one.
 
 The Semrush side of this comparison draws on the vendor's published documentation, its pricing page, and our [directory assessment](/tools/semrush/); we have not run it inside this comparison. The Claude SEO numbers come from audits we ran on our own production site.
+
+The spec head-to-head of the two tools lives in the [/vs/claude-seo-vs-semrush/ comparison](/vs/claude-seo-vs-semrush/); this piece is about what a free audit replaces in a working stack.

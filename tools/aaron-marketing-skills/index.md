@@ -132,7 +132,7 @@ Useful starter kit for marketers adopting Claude Code. Customize before you trus
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ### Quick Facts
 

@@ -29,19 +29,19 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
 - [ 07 AI visibility advice, audited against 775 logged citations 2026-09-22 775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards. The AI-visibility industry se → ](/blog/geo-experiments-vs-ai-visibility-playbook/)
 - [ 08 Salesforce's third no-code promise, audited 2026-09-21 Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week. Campaign Agent, which turns a stated goal into a live cam → ](/blog/salesforce-third-no-code-promise/)
 - [ 09 Claude SEO vs Seonaut: which free SEO checker should you run 2026-09-17 Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill that reasons about a site ins → ](/blog/claude-seo-vs-seonaut/)
-- [ 10 Claude SEO vs Semrush: what a free audit replaces, and what it does not 2026-09-16 One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracki → ](/blog/claude-seo-vs-semrush/)
+- [ 10 What a free SEO audit replaces in your Semrush stack, and what it does not 2026-09-16 One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracki → ](/blog/what-claude-seo-replaces/)
 - [ 11 Claude SEO vs Codex SEO: same audit, pick the agent you already pay for 2026-09-15 Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for. Claude SEO and Codex SEO are → ](/blog/claude-seo-vs-codex-seo/)
 - [ 12 Fifty days of open-source MarTech, audited 2026-09-14 Fifty days after the open-source MarTech stack piece, this is the first re-check: what shipped, what stalled, and where the energy went. → ](/blog/oss-martech-50-day-checkin/)
 - [ 13 Most of your marketing AI agents should be if/then 2026-09-11 An open-source project called the Agentic Determinism Index landed on Hacker News on September 1. It collected 5 points and three comments. One commenter said it would matter for r → ](/blog/determinism-audit/)
 - [ 14 The AI-search funnel map GA4 won't give you 2026-09-10 Two things landed since we published the 5-layer fix for dashboards that can't see AI search. On May 13, Google shipped a native AI Assistant channel in GA4. On August 31, the Sear → ](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [ 15 Check outputs, not logs: the silent-failure audit 2026-09-10 An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of his post says it all: "My → ](/blog/silent-failure-audit/)
-- [ 16 NocoBase vs NocoDB vs Budibase: pick by team shape 2026-09-09 Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the same escape hatch out of per- → ](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [ 16 NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet 2026-09-09 Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the same escape hatch out of per- → ](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [ 17 Before your next automation, run the blast radius audit 2026-09-08 A marketer in r/MarketingAutomation described what happened when their team moved from manual to automated targeting: "machine kept pushing the ad to wrong age bracket for like 2 w → ](/blog/automation-blast-radius-audit/)
 - [ 18 Your autonomous stack's loophole is the approval step you deleted 2026-09-07 MarTech published a piece on August 31 called "The terrifying loophole in your autonomous tech stack". The loophole is real. Agents pass campaign data back and forth, make targetin → ](/blog/autonomous-stack-loophole-approval-step/)
 - [ 19 The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For 2026-09-02 The customer data platform had a good run as a category. The pitch was simple: your customer data is scattered across dozens of systems, so buy a platform that ingests all of it, r → ](/blog/cdp-reckoning-warehouse-native/)
 - [ 20 ChatGPT Isn't Search Anymore, It's Checkout 2026-09-01 On August 18, OpenAI announced ChatGPT Ads is expanding to 31 European countries, its largest geographic expansion so far. Germany, France, Spain, Italy, Sweden, Norway, Denmark, t → ](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 - [ 21 Microsoft Just Removed the Steering Wheel From Search Ads 2026-08-31 Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI Max globally, a suite that le → ](/blog/microsoft-search-ads-steering-wheel/)
-- [ 22 Zapier vs. Make: Two Ways to Buy the Same Workflow Debt 2026-08-27 Zapier's pricing page now opens with the headline "AI orchestration plans that scale with you." Make's nav leads with Maia, a conversational tool that builds your automations and A → ](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [ 22 Two ways to buy the same workflow debt: task-metered and operations-metered 2026-08-27 Zapier's pricing page now opens with the headline "AI orchestration plans that scale with you." Make's nav leads with Maia, a conversational tool that builds your automations and A → ](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [ 23 Autonomous Marketing Platforms Are Real. The Name Is Wrong. 2026-08-26 Vendors say autonomous marketing platform. Analysts say agentic AI. G2 says AI marketing agents. Three names, one category, and zero independent definitions on page one of any of t → ](/blog/autonomous-marketing-platform-label-contest/)
 - [ 24 Link Building Won't Get You Into AI Answers. Community Signals Will. 2026-08-25 Two articles landed on Search Engine Land this month, one day apart. Separately they read like tactics posts. Together they redraw where AI visibility actually comes from, and the → ](/blog/link-building-wont-get-you-into-ai-answers/)
 - [ 25 Your Dashboard Can't See AI Search, Here's the 5-Layer Fix 2026-08-22 On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique queries, 1,427 impressions, a → ](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
@@ -162,8 +162,8 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
     },
     {
       "@type": "BlogPosting",
-      "headline": "Claude SEO vs Semrush: what a free audit replaces, and what it does not",
-      "url": "https://martechsignal.com/blog/claude-seo-vs-semrush/",
+      "headline": "What a free SEO audit replaces in your Semrush stack, and what it does not",
+      "url": "https://martechsignal.com/blog/what-claude-seo-replaces/",
       "datePublished": "2026-09-16",
       "isPartOf": {
         "@id": "https://martechsignal.com/blog/#blog"
@@ -216,7 +216,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
     },
     {
       "@type": "BlogPosting",
-      "headline": "NocoBase vs NocoDB vs Budibase: pick by team shape",
+      "headline": "NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet",
       "url": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
       "datePublished": "2026-09-09",
       "isPartOf": {
@@ -270,7 +270,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
     },
     {
       "@type": "BlogPosting",
-      "headline": "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt",
+      "headline": "Two ways to buy the same workflow debt: task-metered and operations-metered",
       "url": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
       "datePublished": "2026-08-27",
       "isPartOf": {

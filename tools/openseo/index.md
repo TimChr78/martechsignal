@@ -155,9 +155,9 @@ Only if you supply keys for them. AI features such as SAM, the in-app SEO agent,
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
-- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 ## Get the next teardown

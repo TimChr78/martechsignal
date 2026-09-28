@@ -15,3 +15,4 @@
 # r6 M-2 (2026-09-27): topic pages live under /guides/, outside the /tools/ taxonomy
 /tools/ai-marketing-claude/ /guides/ai-marketing-claude/ 301
 /tools/digital-marketing-pro/ /guides/digital-marketing-pro/ 301
+/blog/claude-seo-vs-semrush/  /blog/what-claude-seo-replaces/  301

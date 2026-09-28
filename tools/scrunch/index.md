@@ -148,7 +148,7 @@ Core covers ChatGPT, Perplexity, Google AI Overviews and Copilot. Enterprise add
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts

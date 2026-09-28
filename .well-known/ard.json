@@ -1,6 +1,9 @@
 {
  "specVersion": "1.0",
- "host": "martechsignal.com",
+ "host": {
+  "displayName": "MartechSignal",
+  "url": "https://martechsignal.com/"
+ },
  "entries": [
   {
    "identifier": "urn:air:martechsignal.com:tools:aaron-marketing-skills",
@@ -2332,17 +2335,6 @@
    ]
   },
   {
-   "identifier": "urn:air:martechsignal.com:blog:claude-seo-vs-semrush",
-   "displayName": "Claude SEO vs Semrush: What It Replaces and What Not",
-   "type": "text/html",
-   "url": "https://martechsignal.com/blog/claude-seo-vs-semrush/",
-   "description": "One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system.",
-   "representativeQueries": [
-    "claude seo vs semrush: what it replaces and what not",
-    "claude seo vs semrush"
-   ]
-  },
-  {
    "identifier": "urn:air:martechsignal.com:blog:claude-seo-vs-seonaut",
    "displayName": "Claude SEO vs Seonaut: which free SEO checker wins",
    "type": "text/html",
@@ -2509,7 +2501,7 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:nocobase-vs-nocodb-vs-budibase",
-   "displayName": "NocoBase vs NocoDB vs Budibase: pick by team shape",
+   "displayName": "NocoBase vs NocoDB vs Budibase: Pick by Team Shape",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/",
    "description": "Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.",
@@ -2607,6 +2599,17 @@
    ]
   },
   {
+   "identifier": "urn:air:martechsignal.com:blog:what-claude-seo-replaces",
+   "displayName": "What a Free SEO Audit Replaces (and What It Does Not)",
+   "type": "text/html",
+   "url": "https://martechsignal.com/blog/what-claude-seo-replaces/",
+   "description": "One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system.",
+   "representativeQueries": [
+    "what a free seo audit replaces (and what it does not)",
+    "what claude seo replaces"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:blog:why-your-marketing-automation-stack-doesnt-need-another-ai-tool",
    "displayName": "Why Your Marketing Stack Doesn&#x27;t Need Another AI Tool",
    "type": "text/html",
@@ -2630,12 +2633,12 @@
   },
   {
    "identifier": "urn:air:martechsignal.com:blog:zapier-vs-make-two-ways-to-buy-the-same-workflow-debt",
-   "displayName": "Zapier vs. Make: Two Ways to Buy the Same Workflow Debt",
+   "displayName": "Two Ways to Buy the Same Workflow Debt",
    "type": "text/html",
    "url": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/",
    "description": "Zapier&#x27;s pricing page now opens with the headline &quot;AI orchestration plans that scale with you.&quot; Make&#x27;s nav leads with Maia, a conversational tool that.",
    "representativeQueries": [
-    "zapier vs. make: two ways to buy the same workflow debt",
+    "two ways to buy the same workflow debt",
     "zapier vs make two ways to buy the same workflow debt"
    ]
   },

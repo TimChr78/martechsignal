@@ -157,7 +157,7 @@ The docs describe BAN detection with automatic friend migration to the next acco
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 ## Get the next teardown

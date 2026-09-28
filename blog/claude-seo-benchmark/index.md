@@ -20,7 +20,7 @@ AI · SEO · 3 MIN
 
 [Home](/) · [Blog](/blog/) · Claude SEO benchmark: every score we have earned, and what each one measured
 
-SEP 27, 2026
+SEP 27, 2026 · Updated SEP 28, 2026
 
 Filed under [SEO & Search](/categories/seo/)
 
@@ -113,7 +113,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   },
   "datePublished": "2026-09-27",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-benchmark/",
   "image": "https://martechsignal.com/og/claude-seo-benchmark.png",
   "citation": [

@@ -203,7 +203,7 @@ It is the vendor with the longest claimed run of Gartner Magic Quadrant leader p
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ### Quick Facts
 

@@ -130,7 +130,7 @@ The most complete all-in-one SEO platform on the market; buy the tier you need, 
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts

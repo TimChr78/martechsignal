@@ -158,7 +158,9 @@ def build():
     # the manifest root; removed from root per the official ard-spec schema).
     manifest = {
         "specVersion": "1.0",
-        "host": PUBLISHER,
+        # r7 H7 (2026-09-28): ARD schema requires host to be an object with
+        # displayName (a bare string fails Lighthouse ard-schema validation).
+        "host": {"displayName": "MartechSignal", "url": f"https://{PUBLISHER}/"},
         "entries": entries,
     }
     return manifest

@@ -74,7 +74,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
@@ -94,7 +94,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
+More from the directory: [IFTTT](/tools/ifttt/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -142,7 +142,7 @@ More from the directory: [IDURAR ERP &amp; CRM](/tools/idurar-erp-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1575,
+  "wordCount": 1576,
   "articleSection": "seo"
 }
 ```

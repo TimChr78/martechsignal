@@ -159,7 +159,7 @@ Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server i
 
 - [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools)

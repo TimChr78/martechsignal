@@ -174,8 +174,8 @@ Vendor-published results range widely. Currys reports 42% uplift in opens, 93% i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
-- [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)

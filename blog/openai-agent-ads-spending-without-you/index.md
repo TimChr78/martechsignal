@@ -39,7 +39,7 @@ AI · ADVERTISING · 11 MIN
 
 [Home](/) · [Blog](/blog/) · OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.
 
-AUG 05, 2026 · Updated SEP 26, 2026
+AUG 05, 2026 · Updated SEP 28, 2026
 
 Filed under [Advertising & Paid Media](/categories/advertising/)
 
@@ -192,7 +192,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-08-05",
-  "dateModified": "2026-09-26",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/",
   "image": "https://martechsignal.com/og/openai-agent-ads-spending-without-you.png",
   "citation": [],

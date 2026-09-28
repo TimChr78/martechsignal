@@ -134,8 +134,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
 ### Quick Facts
 
 Related guides: [Ai Content Copywriting Tools](/best/ai-content-copywriting-tools)

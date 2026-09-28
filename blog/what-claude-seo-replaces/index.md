@@ -1,4 +1,4 @@
-# Claude SEO vs Semrush: What It Replaces and What Not
+# What a Free SEO Audit Replaces (and What It Does Not)
 
 
 | Decision factor | Claude SEO | Semrush |
@@ -15,11 +15,11 @@ TC **[Tim Christensen](/authors/tim-christensen/)**
 
 SEO · AGENT SKILLS · 7 MIN
 
-## Claude SEO vs Semrush: what a free audit replaces, and what it does not
+## What a free SEO audit replaces in your Semrush stack, and what it does not
 
 [How we review](/methodology/) · No affiliate links
 
-[Home](/) · [Blog](/blog/) · Claude SEO vs Semrush: what a free audit replaces, and what it does not
+[Home](/) · [Blog](/blog/) · What a free SEO audit replaces in your Semrush stack, and what it does not
 
 SEP 16, 2026 · Updated SEP 27, 2026
 
@@ -69,6 +69,8 @@ One thing neither tool does is tell you whether a fix moved the needle. Claude S
 
 The Semrush side of this comparison draws on the vendor's published documentation, its pricing page, and our [directory assessment](/tools/semrush/); we have not run it inside this comparison. The Claude SEO numbers come from audits we ran on our own production site.
 
+The spec head-to-head of the two tools lives in the [/vs/claude-seo-vs-semrush/ comparison](/vs/claude-seo-vs-semrush/); this piece is about what a free audit replaces in a working stack.
+
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
@@ -91,8 +93,6 @@ The Semrush side of this comparison draws on the vendor's published documentatio
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [GrowthBook](/tools/growthbook/)
-
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
 
@@ -107,7 +107,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     ]
   },
   "@type": "BlogPosting",
-  "headline": "Claude SEO vs Semrush: what a free audit replaces, and what it does not",
+  "headline": "What a free SEO audit replaces in your Semrush stack, and what it does not",
   "description": "One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system.",
   "author": {
     "@type": "Person",
@@ -131,15 +131,15 @@ More from the directory: [GrowthBook](/tools/growthbook/)
   },
   "datePublished": "2026-09-16",
   "dateModified": "2026-09-27",
-  "mainEntityOfPage": "https://martechsignal.com/blog/claude-seo-vs-semrush/",
-  "image": "https://martechsignal.com/og/claude-seo-vs-semrush.png",
+  "mainEntityOfPage": "https://martechsignal.com/blog/what-claude-seo-replaces/",
+  "image": "https://martechsignal.com/og/what-claude-seo-replaces.png",
   "citation": [],
   "isPartOf": {
     "@type": "Blog",
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1429,
+  "wordCount": 1455,
   "articleSection": "seo"
 }
 ```
@@ -164,8 +164,8 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Claude SEO vs Semrush: what a free audit replaces, and what it does not",
-      "item": "https://martechsignal.com/blog/claude-seo-vs-semrush/"
+      "name": "What a free SEO audit replaces in your Semrush stack, and what it does not",
+      "item": "https://martechsignal.com/blog/what-claude-seo-replaces/"
     }
   ]
 }

@@ -155,7 +155,7 @@ Yes, and it is the platform&#x27;s anchor module. The README lists employee time
 
 ## Related reading
 
-- [NocoBase vs NocoDB vs Budibase: pick by team shape](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts

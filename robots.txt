@@ -54,6 +54,13 @@ Content-Signal: search=yes, ai-input=yes, ai-train=no
 User-agent: Claude-SearchBot
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
+# r7 H14 (2026-09-28): this is a deliberate decision on the record, not an
+# inherited template (the audit's actual ask). Google-Extended is blocked as of
+# 2026-09-26: the token governs model training, and keeping content out of
+# training is worth losing Gemini API / Vertex AI grounding citations. The cost is
+# real and accepted: the site drops out of Gemini's grounding pipeline. Search and
+# AI Overviews are unaffected (they follow the allowed Googlebot index). Full
+# reasoning: https://martechsignal.com/ai-policy/
 User-agent: Google-Extended
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /
@@ -83,8 +90,10 @@ Sitemap: https://martechsignal.com/sitemap.xml
 Agentmap: https://martechsignal.com/.well-known/ard.json
 
 # A3 M-22 (2026-09-27): training-adjacent data collectors named explicitly.
-# Grounding/retrieval agents (Google-Extended keeps grounding open per /ai-policy/,
-# Meta-WebIndexer and Meta-ExternalFetcher stay allowed) are unaffected.
+# Google-Extended is deliberately BLOCKED (training refusal wins over Gemini
+# grounding citations, decided 2026-09-26 — see its group below and /ai-policy/);
+# Meta-WebIndexer and Meta-ExternalFetcher stay allowed. Earlier comment here
+# claimed grounding was open; that was wrong and contradicted the rule (r7 H14).
 User-agent: cohere-ai
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Disallow: /

@@ -5,7 +5,7 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 05:55:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 06:04:15 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
     <item>
       <title>Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them</title>
@@ -71,9 +71,9 @@
       <description>Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill that reasons about a site ins</description>
     </item>
     <item>
-      <title>Claude SEO vs Semrush: what a free audit replaces, and what it does not</title>
-      <link>https://martechsignal.com/blog/claude-seo-vs-semrush/</link>
-      <guid isPermaLink="true">https://martechsignal.com/blog/claude-seo-vs-semrush/</guid>
+      <title>What a free SEO audit replaces in your Semrush stack, and what it does not</title>
+      <link>https://martechsignal.com/blog/what-claude-seo-replaces/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/what-claude-seo-replaces/</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <description>One is a command you type in a terminal and get a prioritized audit from. The other is the closest thing the industry has to an SEO operating system: keyword databases, rank tracki</description>
     </item>
@@ -113,7 +113,7 @@
       <description>An n8n user who goes by Salman94157 ran WhatsApp automations in production for months before posting what went wrong in r/n8n last month. The headline of his post says it all: "My </description>
     </item>
     <item>
-      <title>NocoBase vs NocoDB vs Budibase: pick by team shape</title>
+      <title>NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet</title>
       <link>https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
@@ -155,7 +155,7 @@
       <description>Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI Max globally, a suite that le</description>
     </item>
     <item>
-      <title>Zapier vs. Make: Two Ways to Buy the Same Workflow Debt</title>
+      <title>Two ways to buy the same workflow debt: task-metered and operations-metered</title>
       <link>https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</link>
       <guid isPermaLink="true">https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>

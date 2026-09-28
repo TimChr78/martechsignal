@@ -150,7 +150,7 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 
 ## Related reading
 
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts

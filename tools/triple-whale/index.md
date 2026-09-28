@@ -139,7 +139,7 @@ Genuinely useful DTC dashboard consolidation; treat attribution as directional, 
 
 - [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO vs Semrush: what a free audit replaces, and what it does not](/blog/claude-seo-vs-semrush/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-claude-seo-replaces/)
 ### Quick Facts
 
 Related guides: [Marketing Analytics Tools](/best/marketing-analytics-tools)

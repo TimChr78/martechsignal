@@ -190,8 +190,8 @@ If you need a fully open pipeline with no third-party dependency, yes, and you s
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 Related guides: [Ai Email Marketing Tools](/best/ai-email-marketing-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)
