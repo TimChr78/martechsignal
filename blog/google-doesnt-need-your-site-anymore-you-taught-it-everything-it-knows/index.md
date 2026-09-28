@@ -98,7 +98,7 @@ The play is to own something the machine cannot answer without you. Google does 
 ## Comparison guides
 
 - [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
-- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)

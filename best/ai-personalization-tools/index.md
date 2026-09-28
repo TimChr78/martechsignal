@@ -3,12 +3,12 @@
 
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
-| [Dynamic Yield](/tools/dynamic-yield/) | Enterprise | No | Best for personalization &amp; CDP teams that want shopping muse conversational commerce and predictive targeting, with pricing quoted per contract. |
-| [Twilio Segment](/tools/segment/) | Freemium | No | Best for personalization &amp; CDP teams that want predictive audiences and predictive traits, with a free starting tier. |
-| [Nosto](/tools/nosto/) | Enterprise | No | Best for personalization &amp; CDP teams that want predictive product recommendations and visual ai product tagging, with pricing quoted per contract. |
-| [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Best for personalization &amp; CDP teams that want ai product recommendations and ai site search, starting at €119/mo. |
-| [Tealium](/tools/tealium/) | Enterprise | No | Best for personalization &amp; CDP teams that want ai audience segmentation and ai data enrichment, with pricing quoted per contract. |
-| [Flagsmith](/tools/flagsmith/) | Freemium | Yes | Best for personalization &amp; CDP teams that want automated flag hygiene and ai-assisted change-request workflows and can host it themselves, with a free starting tier. |
+| [Dynamic Yield](/tools/dynamic-yield/) | Enterprise | No | Large commerce operations buying personalization depth over self-serve |
+| [Twilio Segment](/tools/segment/) | Freemium | No | Teams whose personalization problem is really a data plumbing problem |
+| [Nosto](/tools/nosto/) | Enterprise | No | Merchants that want recommendations their merchandisers can steer |
+| [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
+| [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
+| [Flagsmith](/tools/flagsmith/) | Freemium | Yes | Teams that want their experiment engine as open as their stack |
 | [GrowthBook](/tools/growthbook/) | Freemium | Yes | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Jitsu](/tools/jitsu/) | Freemium | Yes | Best for personalization &amp; CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 
@@ -24,7 +24,7 @@ Everything here is desk-researched from vendor documentation and our own catalog
 
 Dynamic Yield by Mastercard is an enterprise personalization platform built around Experience OS, a decisioning layer that picks the content, products, and offers to serve each visitor across web, mobile apps, email, and triggered messages. Pricing is enterprise and quoted per contract, and no published pricing. The pricing page redirects to a Mastercard product page and every call to action ends at contact sales or a demo request. Enterprise custom contracts (verified 2026-09-06). The catalog documents 7 AI features, 10 integrations, and a public API.
 
-**Verdict:** Best for personalization &amp; CDP teams that want shopping muse conversational commerce and predictive targeting, with pricing quoted per contract.
+**Verdict:** Large commerce operations buying personalization depth over self-serve
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -32,7 +32,7 @@ Dynamic Yield by Mastercard is an enterprise personalization platform built arou
 
 Twilio Segment is a developer-first customer data platform: SDKs and server libraries send events to one API, and Segment routes them to analytics tools, ad platforms, and warehouses. It starts free, and free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026 (verified 2026-09-06). The catalog documents 6 AI features, 10 integrations, and a public API.
 
-**Verdict:** Best for personalization &amp; CDP teams that want predictive audiences and predictive traits, with a free starting tier.
+**Verdict:** Teams whose personalization problem is really a data plumbing problem
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -40,7 +40,7 @@ Twilio Segment is a developer-first customer data platform: SDKs and server libr
 
 Nosto is a commerce experience platform for online stores, built around a shared AI layer the company brands experience.AI: one engine that collects shopper behavior and feeds every module, so what a shopper clicks in search informs the recommendations and category sort orders they see next. Pricing is enterprise and quoted per contract, and quote-based: a base platform fee plus a fixed fee calculated on your store&#x27;s volume (GMV turnover and traffic), scaled by modules and support level. No published numbers anywhere on the site (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, and a public API.
 
-**Verdict:** Best for personalization &amp; CDP teams that want predictive product recommendations and visual ai product tagging, with pricing quoted per contract.
+**Verdict:** Merchants that want recommendations their merchandisers can steer
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -48,7 +48,7 @@ Nosto is a commerce experience platform for online stores, built around a shared
 
 Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
 
-**Verdict:** Best for personalization &amp; CDP teams that want ai product recommendations and ai site search, starting at €119/mo.
+**Verdict:** Mid-size stores that want search and recs without enterprise procurement
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -56,7 +56,7 @@ Clerk.io is an AI ecommerce personalization platform that helps online stores op
 
 Tealium is an independent enterprise Customer Data Platform (CDP) built around the Tealium Customer Data Hub, a suite of integrated products covering tag management, real-time data collection, audience building, and API-driven data access. Pricing is enterprise and quoted per contract, and enterprise custom pricing; annual contracts; tag management and CDP modules (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for personalization &amp; CDP teams that want ai audience segmentation and ai data enrichment, with pricing quoted per contract.
+**Verdict:** Regulated enterprises that need governance around every customer event
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -64,7 +64,7 @@ Tealium is an independent enterprise Customer Data Platform (CDP) built around t
 
 Flagsmith is an open-source feature flag and remote configuration platform, BSD-3-Clause, with 6,570 GitHub stars, operated commercially by Bullet Train Ltd out of London. It starts free, and cloud free tier up to 50,000 API requests/mo. Scale USD 50/member/month (list 60, launch discount shown Sep 2026). Extra API calls from USD 50 per million. Self-hosted open source is free (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for personalization &amp; CDP teams that want automated flag hygiene and ai-assisted change-request workflows and can host it themselves, with a free starting tier.
+**Verdict:** Teams that want their experiment engine as open as their stack
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -100,7 +100,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI Personalization & CDP tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

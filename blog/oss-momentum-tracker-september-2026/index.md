@@ -113,7 +113,7 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Chatbots &amp;amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)

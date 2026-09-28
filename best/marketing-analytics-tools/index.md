@@ -3,13 +3,13 @@
 
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
-| [Amplitude](/tools/amplitude/) | Freemium | No | Best for analytics &amp; attribution teams that want ai root cause analysis and predictive analytics, with a free starting tier. |
-| [Matomo](/tools/matomo/) | Open Source | Yes | Best for analytics &amp; attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier. |
+| [Amplitude](/tools/amplitude/) | Freemium | No | Product teams that want funnels and retention without an analyst queue |
+| [Matomo](/tools/matomo/) | Open Source | Yes | Teams that want GA-grade analytics with the data staying home |
 | [Umami](/tools/umami/) | Open Source | Yes | Best for analytics &amp; attribution teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Mixpanel](/tools/mixpanel/) | Freemium | No | Best for analytics &amp; attribution teams that want the job covered in one platform, with a free starting tier. |
-| [Triple Whale](/tools/triple-whale/) | From $59/mo | No | Best for analytics &amp; attribution teams that want ai attribution modeling and ai anomaly detection, starting at $59/mo. |
-| [Heap](/tools/heap/) | Freemium | No | Best for analytics &amp; attribution teams that want ai autocapture and ai session replay analysis, with a free starting tier. |
-| [Northbeam](/tools/northbeam/) | Enterprise | No | Best for analytics &amp; attribution teams that want ai multi-touch attribution and ai creative analytics, with pricing quoted per contract. |
+| [Triple Whale](/tools/triple-whale/) | From $59/mo | No | DTC operators that want a daily attribution answer, dashboards included |
+| [Heap](/tools/heap/) | Freemium | No | Teams that want retroactive analysis without a tagging plan first |
+| [Northbeam](/tools/northbeam/) | Enterprise | No | DTC brands whose incrementality questions deserve real modeling |
 | [Snowplow](/tools/snowplow/) | Free tier | Yes | Best for analytics &amp; attribution teams that want intent detection and can host it themselves, with a free starting tier. |
 
 [HOME](/)[TOOLS](/tools/)[BEST](/best/)[VS](/vs/)[ALTERNATIVES](/alternatives/)[BLOG](/blog/)[GUIDES](/guides/)[TRENDING](/trending/)[GLOSSARY](/glossary/)[CHECKLIST](/checklist/)[AUTHOR](/authors/)[ABOUT](/about/)[CONTACT](/contact/)[CORRECTIONS](/corrections/)[PRIVACY](/privacy/)[TERMS](/terms/)[AI POLICY](/ai-policy/)[METHODOLOGY](/methodology/)[RSS](/rss.xml)[SUBSCRIBE](/#subscribe)
@@ -24,7 +24,7 @@ Everything here is desk-researched from vendor documentation and our own catalog
 
 Amplitude is a digital analytics platform built on events: each action a user takes in a product becomes an event with properties, so teams can read funnels, retention, and feature adoption without writing SQL. It starts free, and free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for analytics &amp; attribution teams that want ai root cause analysis and predictive analytics, with a free starting tier.
+**Verdict:** Product teams that want funnels and retention without an analyst queue
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -32,7 +32,7 @@ Amplitude is a digital analytics platform built on events: each action a user ta
 
 Matomo is an open-source web analytics platform you run on your own infrastructure, licensed GPL v3 or later, with 5.13.0 released in August 2026 and an active 6.x branch. It starts free, and self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial (verified 2026-09-06). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for analytics &amp; attribution teams that want ai chatbot traffic reports and mcp server plugin and can host it themselves, with a free starting tier.
+**Verdict:** Teams that want GA-grade analytics with the data staying home
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -56,7 +56,7 @@ Mixpanel is a product analytics platform built on an event-based data model: eve
 
 Triple Whale is an AI-powered ecommerce analytics and attribution platform built for Shopify merchants. paid pricing starts at $59/mo, and conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for analytics &amp; attribution teams that want ai attribution modeling and ai anomaly detection, starting at $59/mo.
+**Verdict:** DTC operators that want a daily attribution answer, dashboards included
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -64,7 +64,7 @@ Triple Whale is an AI-powered ecommerce analytics and attribution platform built
 
 Heap is a digital insights platform that takes a fundamentally different approach to analytics. It starts free, and free (10K sessions/mo, 6-mo history); Growth and Pro custom pricing (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for analytics &amp; attribution teams that want ai autocapture and ai session replay analysis, with a free starting tier.
+**Verdict:** Teams that want retroactive analysis without a tagging plan first
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -72,7 +72,7 @@ Heap is a digital insights platform that takes a fundamentally different approac
 
 Northbeam is a marketing intelligence and attribution platform built specifically for ecommerce and direct-to-consumer (DTC) brands. Pricing is enterprise and quoted per contract, and custom pricing based on data volume; monthly billing; best for brands $50K+/mo revenue (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for analytics &amp; attribution teams that want ai multi-touch attribution and ai creative analytics, with pricing quoted per contract.
+**Verdict:** DTC brands whose incrementality questions deserve real modeling
 
 **Skip it if you buy on a credit card; the pricing conversation assumes a procurement process.**
 
@@ -100,7 +100,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best Marketing Analytics & Attribution tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

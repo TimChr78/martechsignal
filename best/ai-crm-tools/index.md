@@ -4,8 +4,8 @@
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
 | [Dolibarr ERP/CRM](/tools/dolibarr/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | No | Best for CRM teams that want ai email writer and predictive lead scoring, with a free starting tier. |
-| [Twenty](/tools/twenty/) | Open Source | Yes | Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier. |
+| [HubSpot CRM](/tools/hubspot-crm/) | Freemium | No | Teams that want a full funnel platform with CRM at its base |
+| [Twenty](/tools/twenty/) | Open Source | Yes | Developers that want Salesforce-shaped records on their own Postgres |
 | [Cordys CRM](/tools/cordys-crm/) | Freemium | Yes | Best for CRM teams that want dataease embedded bi dashboards and can host it themselves, with a free starting tier. |
 | [Django CRM](/tools/django-crm/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
 | [Frappe CRM](/tools/frappe-crm/) | Open Source | Yes | Best for CRM teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
@@ -32,7 +32,7 @@ Dolibarr ERP/CRM is a French open-source business suite that manages contacts, q
 
 Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM brings sales, service, and marketing workflows into one platform around a unified contact record. It starts free, and free CRM forever; Sales Hub Starter $20/seat/mo; Professional $100/seat/mo; Enterprise $150/seat/mo (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
-**Verdict:** Best for CRM teams that want ai email writer and predictive lead scoring, with a free starting tier.
+**Verdict:** Teams that want a full funnel platform with CRM at its base
 
 **Skip it if the free tier&#x27;s limits already cover your real volume; the paid tiers are where the full workflow lives.**
 
@@ -40,7 +40,7 @@ Founded in 2006 and headquartered in Cambridge, Massachusetts, HubSpot CRM bring
 
 Twenty is an open-source CRM that bills itself as the open alternative to Salesforce, designed for AI: TypeScript and NestJS on PostgreSQL and Redis, a React frontend, GraphQL and REST APIs generated from your workspace schema, and an apps SDK for building custom objects, logic functions, and React components that render inside the product. It starts free, and self-hosted free (AGPLv3 core; all Pro features included, premium features need a paid Enterprise key). Cloud Pro $9/user/mo billed yearly, Organization $19/user/mo, Enterprise from $50k/yr. 30-day trial with card, 7 days without (verified 2026-09-07). The catalog documents 4 AI features, 7 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for CRM teams that want ai agents in workflows and ai-built dashboards and can host it themselves, with a free starting tier.
+**Verdict:** Developers that want Salesforce-shaped records on their own Postgres
 
 **Skip it if nobody on the team wants to run a server; the self-hosting is the trade you are making.**
 
@@ -100,7 +100,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best AI CRM tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

@@ -188,8 +188,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 ## Related reading
 
 - [Where NocoDB sits against NocoBase and Budibase](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ### Quick Facts
 
 Related guides: [NocoDB vs Nocobase](/vs/nocodb-vs-nocobase) · [Ai Marketing Automation Tools](/best/ai-marketing-automation-tools) · [Open Source Marketing Tools](/best/open-source-marketing-tools)

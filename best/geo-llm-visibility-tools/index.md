@@ -4,7 +4,7 @@
 | Tool | Pricing | Open source | Verdict |
 | --- | --- | --- | --- |
 | [Nimt.ai](/tools/nimt-ai/) | From $79/mo | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
-| [OtterlyAI](/tools/otterlyai/) | From $29/mo | No | Best for GEO &amp; LLM optimization teams that want ai prompt research tool and geo audits with recommendations, starting at €29/mo. |
+| [OtterlyAI](/tools/otterlyai/) | From $29/mo | No | Teams starting GEO measurement at an entry price |
 | [Trakkr](/tools/trakkr/) | From $100/mo | No | Best for GEO &amp; LLM optimization teams that want competitor visibility rankings, starting at $100/mo. |
 | [Writesonic](/tools/writesonic/) | From $79/mo | No | Best for GEO &amp; LLM optimization teams that want the job covered in one platform, starting at €79/mo. |
 | [Profound](/tools/profound/) | Enterprise | No | Best for GEO &amp; LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract. |
@@ -32,7 +32,7 @@ Nimt.ai is an AI search tool from Sweden that combines tracking with an agent th
 
 OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. paid pricing starts at €29/mo, and lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026 (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
 
-**Verdict:** Best for GEO &amp; LLM optimization teams that want ai prompt research tool and geo audits with recommendations, starting at €29/mo.
+**Verdict:** Teams starting GEO measurement at an entry price
 
 **Skip it if the entry tier already covers your real usage; the cheaper tools on this list handle the basics.**
 
@@ -100,7 +100,7 @@ One email when a new tool review lands, nothing else.
     "@type": "ItemList",
     "name": "Best GEO & LLM Optimization tools (2026): 8 compared",
     "datePublished": "2026-09-27",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-28",
     "author": {
       "@type": "Person",
       "@id": "https://martechsignal.com/authors/tim-christensen/#person",

@@ -85,8 +85,8 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Related tools
 
 - [Notifuse](/tools/notifuse/) - Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations
@@ -94,7 +94,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 - [Klaviyo](/tools/klaviyo/) - AI-powered email and SMS marketing platform built for ecommerce brands
 ## Comparison guides
 
-- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
@@ -152,7 +152,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1746,
+  "wordCount": 1745,
   "articleSection": "email-marketing"
 }
 ```

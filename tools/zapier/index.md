@@ -179,8 +179,8 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 Related guides: [Alternatives to Zapier](/alternatives/zapier/) · [Zapier vs N8N](/vs/n8n-vs-zapier) · [Workflow Automation Tools](/best/workflow-automation-tools)
