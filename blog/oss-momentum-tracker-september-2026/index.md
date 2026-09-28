@@ -30,7 +30,7 @@ OPEN SOURCE · DATA · 7 MIN
 
 [Home](/) · [Blog](/blog/) · Where open-source martech momentum actually lives
 
-SEP 26, 2026 · Updated SEP 27, 2026
+SEP 26, 2026 · Updated SEP 28, 2026
 
 Filed under [Agent Skills](/categories/agent-skills/)
 
@@ -159,7 +159,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   },
   "datePublished": "2026-09-26",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-28",
   "mainEntityOfPage": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/",
   "image": {
     "@type": "ImageObject",

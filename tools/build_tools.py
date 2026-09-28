@@ -909,7 +909,16 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             _have.add(_rid)
     related_html = ""
     if related:
-        items = "".join(f'<a class="tool-card" href="/{base}/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
+        # r8 H1 (2026-09-28): link each card to the record's REAL home. The old
+        # {base} prefix pointed every similar tool at the current page's tree, so
+        # packs on a /guides/ page 404ed for packs that still live at /tools/.
+        _gslugs = set()
+        _gp = TOOLS_DIR / "guides.json"
+        if _gp.exists():
+            _gslugs = {g["slug"] for g in json.load(open(_gp))}
+        def _home(r):
+            return "guides" if r["slug"] in _gslugs else "tools"
+        items = "".join(f'<a class="tool-card" href="/{_home(r)}/{r["slug"]}/"><div class="name">{esc(r["name"])}</div><div class="tagline">{esc(r.get("tagline",""))}</div></a>' for r in related)
         related_html = f'<h2>Similar Tools</h2><div class="tool-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">{items}</div>'
 
     source_text = ' '.join(str(t.get(key, '')) for key in ('name', 'tagline', 'description', 'ai_features', 'integrations'))
