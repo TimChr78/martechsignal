@@ -151,61 +151,91 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
         "@type": "ListItem",
         "position": 1,
         "name": "n8n",
-        "url": "https://martechsignal.com/tools/n8n/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/n8n/#app",
+          "url": "https://martechsignal.com/tools/n8n/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Make",
-        "url": "https://martechsignal.com/tools/make/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/make/#app",
+          "url": "https://martechsignal.com/tools/make/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Pipedream",
-        "url": "https://martechsignal.com/tools/pipedream/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/pipedream/#app",
+          "url": "https://martechsignal.com/tools/pipedream/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Tray.io",
-        "url": "https://martechsignal.com/tools/tray-io/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/tray-io/#app",
+          "url": "https://martechsignal.com/tools/tray-io/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Budibase",
-        "url": "https://martechsignal.com/tools/budibase/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/budibase/#app",
+          "url": "https://martechsignal.com/tools/budibase/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Pabbly Connect",
-        "url": "https://martechsignal.com/tools/pabbly-connect/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
+          "url": "https://martechsignal.com/tools/pabbly-connect/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Microsoft Power Automate",
-        "url": "https://martechsignal.com/tools/power-automate/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/power-automate/#app",
+          "url": "https://martechsignal.com/tools/power-automate/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "IFTTT",
-        "url": "https://martechsignal.com/tools/ifttt/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/ifttt/#app",
+          "url": "https://martechsignal.com/tools/ifttt/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 9,
         "name": "Activepieces",
-        "url": "https://martechsignal.com/tools/activepieces/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/activepieces/#app",
+          "url": "https://martechsignal.com/tools/activepieces/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 10,
         "name": "Workato",
-        "url": "https://martechsignal.com/tools/workato/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/workato/#app",
+          "url": "https://martechsignal.com/tools/workato/"
+        }
       }
     ]
   },

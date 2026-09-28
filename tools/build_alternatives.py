@@ -108,7 +108,9 @@ def build():
             "itemListElement": [
                 {"@type": "ListItem", "position": i + 1,
                  "name": tools_by_slug[it["slug"]]["name"],
-                 "url": f"https://martechsignal.com/tools/{it['slug']}/"}
+                 # r7 M8 (2026-09-27): item -> #app reference, matching /categories/
+                 "item": {"@id": f"https://martechsignal.com/tools/{it['slug']}/#app",
+                          "url": f"https://martechsignal.com/tools/{it['slug']}/"}}
                 for i, it in enumerate(items)],
         }
         breadcrumb = {

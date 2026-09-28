@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Dolibarr ERP/CRM",
-        "url": "https://martechsignal.com/tools/dolibarr/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/dolibarr/#app",
+          "url": "https://martechsignal.com/tools/dolibarr/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "n8n",
-        "url": "https://martechsignal.com/tools/n8n/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/n8n/#app",
+          "url": "https://martechsignal.com/tools/n8n/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "OpenOutreach",
-        "url": "https://martechsignal.com/tools/openoutreach/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/openoutreach/#app",
+          "url": "https://martechsignal.com/tools/openoutreach/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Matomo",
-        "url": "https://martechsignal.com/tools/matomo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/matomo/#app",
+          "url": "https://martechsignal.com/tools/matomo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "NocoDB",
-        "url": "https://martechsignal.com/tools/nocodb/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/nocodb/#app",
+          "url": "https://martechsignal.com/tools/nocodb/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "React Email Editor",
-        "url": "https://martechsignal.com/tools/react-email-editor/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/react-email-editor/#app",
+          "url": "https://martechsignal.com/tools/react-email-editor/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Twenty",
-        "url": "https://martechsignal.com/tools/twenty/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/twenty/#app",
+          "url": "https://martechsignal.com/tools/twenty/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "Claude SEO",
-        "url": "https://martechsignal.com/tools/claude-seo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/claude-seo/#app",
+          "url": "https://martechsignal.com/tools/claude-seo/"
+        }
       }
     ]
   },

@@ -129,61 +129,91 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Profound",
-        "url": "https://martechsignal.com/tools/profound/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/profound/#app",
+          "url": "https://martechsignal.com/tools/profound/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Scrunch",
-        "url": "https://martechsignal.com/tools/scrunch/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/scrunch/#app",
+          "url": "https://martechsignal.com/tools/scrunch/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "OtterlyAI",
-        "url": "https://martechsignal.com/tools/otterlyai/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/otterlyai/#app",
+          "url": "https://martechsignal.com/tools/otterlyai/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Rankscale",
-        "url": "https://martechsignal.com/tools/rankscale/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/rankscale/#app",
+          "url": "https://martechsignal.com/tools/rankscale/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Trakkr",
-        "url": "https://martechsignal.com/tools/trakkr/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/trakkr/#app",
+          "url": "https://martechsignal.com/tools/trakkr/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Evertune",
-        "url": "https://martechsignal.com/tools/evertune/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/evertune/#app",
+          "url": "https://martechsignal.com/tools/evertune/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Nimt.ai",
-        "url": "https://martechsignal.com/tools/nimt-ai/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/nimt-ai/#app",
+          "url": "https://martechsignal.com/tools/nimt-ai/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "Adobe LLM Optimizer",
-        "url": "https://martechsignal.com/tools/adobe-llm-optimizer/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/adobe-llm-optimizer/#app",
+          "url": "https://martechsignal.com/tools/adobe-llm-optimizer/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 9,
         "name": "Promptfoo",
-        "url": "https://martechsignal.com/tools/promptfoo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/promptfoo/#app",
+          "url": "https://martechsignal.com/tools/promptfoo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 10,
         "name": "Ahrefs",
-        "url": "https://martechsignal.com/tools/ahrefs/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/ahrefs/#app",
+          "url": "https://martechsignal.com/tools/ahrefs/"
+        }
       }
     ]
   },

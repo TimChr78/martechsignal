@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "NocoDB",
-        "url": "https://martechsignal.com/tools/nocodb/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/nocodb/#app",
+          "url": "https://martechsignal.com/tools/nocodb/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Ortto",
-        "url": "https://martechsignal.com/tools/ortto/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/ortto/#app",
+          "url": "https://martechsignal.com/tools/ortto/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Salesforce Marketing Cloud",
-        "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app",
+          "url": "https://martechsignal.com/tools/salesforce-marketing-cloud/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "ActiveCampaign",
-        "url": "https://martechsignal.com/tools/activecampaign/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/activecampaign/#app",
+          "url": "https://martechsignal.com/tools/activecampaign/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Adobe Marketo Engage",
-        "url": "https://martechsignal.com/tools/adobe-marketo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/adobe-marketo/#app",
+          "url": "https://martechsignal.com/tools/adobe-marketo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Bloomreach",
-        "url": "https://martechsignal.com/tools/bloomreach/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/bloomreach/#app",
+          "url": "https://martechsignal.com/tools/bloomreach/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Braze",
-        "url": "https://martechsignal.com/tools/braze/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/braze/#app",
+          "url": "https://martechsignal.com/tools/braze/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "HubSpot Marketing Hub",
-        "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#app",
+          "url": "https://martechsignal.com/tools/hubspot-marketing-hub/"
+        }
       }
     ]
   },

@@ -112,11 +112,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/apache-unomi/#app",
-            "name": "Apache Unomi",
-            "description": "Apache's open-source customer data platform and personalization engine",
-            "image": "https://martechsignal.com/og/tools/apache-unomi.png",
-            "url": "https://martechsignal.com/tools/apache-unomi/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/apache-unomi/"
           }
         },
         {
@@ -124,11 +120,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/clerk-io/#app",
-            "name": "Clerk.io",
-            "description": "AI-powered ecommerce personalization with search, recommendations, and email",
-            "image": "https://martechsignal.com/og/tools/clerk-io.png",
-            "url": "https://martechsignal.com/tools/clerk-io/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/clerk-io/"
           }
         },
         {
@@ -136,11 +128,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/dynamic-yield/#app",
-            "name": "Dynamic Yield",
-            "description": "AI-powered personalization platform for web, mobile, and email experiences",
-            "image": "https://martechsignal.com/og/tools/dynamic-yield.png",
-            "url": "https://martechsignal.com/tools/dynamic-yield/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/dynamic-yield/"
           }
         },
         {
@@ -148,11 +136,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/flagsmith/#app",
-            "name": "Flagsmith",
-            "description": "Open-source feature flag and remote config platform with segment targeting",
-            "image": "https://martechsignal.com/og/tools/flagsmith.png",
-            "url": "https://martechsignal.com/tools/flagsmith/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/flagsmith/"
           }
         },
         {
@@ -160,11 +144,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/growthbook/#app",
-            "name": "GrowthBook",
-            "description": "Open-source feature flags and A/B testing with a visual editor and attribute-based targeting",
-            "image": "https://martechsignal.com/og/tools/growthbook.png",
-            "url": "https://martechsignal.com/tools/growthbook/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/growthbook/"
           }
         },
         {
@@ -172,11 +152,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/jitsu/#app",
-            "name": "Jitsu",
-            "description": "Open-source Segment alternative for event capture and warehouse-first data pipelines",
-            "image": "https://martechsignal.com/og/tools/jitsu.png",
-            "url": "https://martechsignal.com/tools/jitsu/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/jitsu/"
           }
         },
         {
@@ -184,11 +160,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/nosto/#app",
-            "name": "Nosto",
-            "description": "AI-powered ecommerce personalization with product recommendations and merchandising",
-            "image": "https://martechsignal.com/og/tools/nosto.png",
-            "url": "https://martechsignal.com/tools/nosto/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/nosto/"
           }
         },
         {
@@ -196,11 +168,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/tealium/#app",
-            "name": "Tealium",
-            "description": "Enterprise customer data platform with real-time data orchestration and AI",
-            "image": "https://martechsignal.com/og/tools/tealium.png",
-            "url": "https://martechsignal.com/tools/tealium/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/tealium/"
           }
         },
         {
@@ -208,11 +176,7 @@ The top tier sells by quote. Dynamic Yield publishes no prices and routes every 
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/segment/#app",
-            "name": "Twilio Segment",
-            "description": "Customer data platform for collecting, unifying, and activating customer data",
-            "image": "https://martechsignal.com/og/tools/segment.png",
-            "url": "https://martechsignal.com/tools/segment/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/segment/"
           }
         }
       ]

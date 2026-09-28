@@ -104,5 +104,5 @@ AI-driven advertising reduced the DMP&#x27;s role further. DSPs now build and op
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dmp/#webpage", "dateModified": "2026-09-28"}
 ```

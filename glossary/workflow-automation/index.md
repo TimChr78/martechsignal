@@ -114,5 +114,5 @@ AI agents turned automation from deterministic rules into goal-based prompts. In
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/workflow-automation/#webpage", "dateModified": "2026-09-28"}
 ```

@@ -129,7 +129,7 @@ The off-page playbook that actually moves AI citations
 - SEO &amp; Search
 ## SEO & Search Tools
 
-Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.
+SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. {n} tools with verified pricing.
 
 9 TOOLS IN THIS CATEGORY
 
@@ -176,7 +176,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
     {
       "@type": "ItemList",
       "name": "SEO & Search Tools",
-      "description": "Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.",
+      "description": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. {n} tools with verified pricing.",
       "numberOfItems": 9,
       "itemListElement": [
         {
@@ -184,11 +184,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/clearscope/#app",
-            "name": "Clearscope",
-            "description": "AI-powered content optimization platform for SEO teams and content writers",
-            "image": "https://martechsignal.com/og/tools/clearscope.png",
-            "url": "https://martechsignal.com/tools/clearscope/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/clearscope/"
           }
         },
         {
@@ -196,11 +192,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/frase/#app",
-            "name": "Frase",
-            "description": "AI-powered SEO content platform for research, writing, and AI visibility tracking",
-            "image": "https://martechsignal.com/og/tools/frase.png",
-            "url": "https://martechsignal.com/tools/frase/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/frase/"
           }
         },
         {
@@ -208,11 +200,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/marketmuse/#app",
-            "name": "MarketMuse",
-            "description": "AI-powered content strategy and optimization platform for SEO content teams",
-            "image": "https://martechsignal.com/og/tools/marketmuse.png",
-            "url": "https://martechsignal.com/tools/marketmuse/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/marketmuse/"
           }
         },
         {
@@ -220,11 +208,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/openseo/#app",
-            "name": "OpenSEO",
-            "description": "Open source alternative to Ahrefs and Semrush",
-            "image": "https://martechsignal.com/og/tools/openseo.png",
-            "url": "https://martechsignal.com/tools/openseo/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/openseo/"
           }
         },
         {
@@ -232,11 +216,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/potato-ai-visibility/#app",
-            "name": "Potato",
-            "description": "Free local tool that measures brand mentions and citations in Claude's web-search answers",
-            "image": "https://martechsignal.com/og/tools/potato-ai-visibility.png",
-            "url": "https://martechsignal.com/tools/potato-ai-visibility/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/potato-ai-visibility/"
           }
         },
         {
@@ -244,11 +224,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/semrush/#app",
-            "name": "Semrush",
-            "description": "All-in-one SEO and digital marketing platform with AI-powered insights and tools",
-            "image": "https://martechsignal.com/og/tools/semrush.png",
-            "url": "https://martechsignal.com/tools/semrush/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/semrush/"
           }
         },
         {
@@ -256,11 +232,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/seonaut/#app",
-            "name": "Seonaut",
-            "description": "Open-source SEO crawler in Go for technical audits, self-hosted or cloud",
-            "image": "https://martechsignal.com/og/tools/seonaut.png",
-            "url": "https://martechsignal.com/tools/seonaut/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/seonaut/"
           }
         },
         {
@@ -268,11 +240,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/superlines/#app",
-            "name": "Superlines",
-            "description": "AI Search Intelligence platform for brands and agencies",
-            "image": "https://martechsignal.com/og/tools/superlines.png",
-            "url": "https://martechsignal.com/tools/superlines/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/superlines/"
           }
         },
         {
@@ -280,11 +248,7 @@ When you compare these, don&#x27;t buy by database size. Check whether the crawl
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/surfer-seo/#app",
-            "name": "Surfer SEO",
-            "description": "AI-powered content optimization platform for SEO-driven article writing and audits",
-            "image": "https://martechsignal.com/og/tools/surfer-seo.png",
-            "url": "https://martechsignal.com/tools/surfer-seo/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/surfer-seo/"
           }
         }
       ]

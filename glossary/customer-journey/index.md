@@ -107,5 +107,5 @@ AI agents make journey orchestration practical at scale, sending the right messa
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/customer-journey/#webpage", "dateModified": "2026-09-28"}
 ```

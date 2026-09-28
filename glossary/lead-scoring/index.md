@@ -114,5 +114,5 @@ Predictive scoring finds patterns humans miss: a lead that reads three specific 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/#webpage", "dateModified": "2026-09-28"}
 ```

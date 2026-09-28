@@ -154,8 +154,8 @@ Yes, through the built-in import and export layer (the DataTransfer package), wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ### Quick Facts
 
 Related guides: [Open Source Crm](/best/open-source-crm)

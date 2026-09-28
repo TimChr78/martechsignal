@@ -123,11 +123,11 @@ MCP doesn't make integrations free. It makes them cheap enough that the old logi
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
-- [AI Agent](/glossary/ai-agent/)
+- [MCP](/glossary/mcp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -180,7 +180,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1380,
+  "wordCount": 1382,
   "articleSection": "workflow-automation"
 }
 ```

@@ -104,5 +104,5 @@ AI helps ABM in two concrete places. Intent detection reads hundreds of signals 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/abm/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/abm/#webpage", "dateModified": "2026-09-28"}
 ```

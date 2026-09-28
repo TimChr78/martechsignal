@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "OpenOutreach",
-        "url": "https://martechsignal.com/tools/openoutreach/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/openoutreach/#app",
+          "url": "https://martechsignal.com/tools/openoutreach/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "React Email Editor",
-        "url": "https://martechsignal.com/tools/react-email-editor/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/react-email-editor/#app",
+          "url": "https://martechsignal.com/tools/react-email-editor/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Twilio SendGrid",
-        "url": "https://martechsignal.com/tools/sendgrid/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/sendgrid/#app",
+          "url": "https://martechsignal.com/tools/sendgrid/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Customer.io",
-        "url": "https://martechsignal.com/tools/customer-io/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/customer-io/#app",
+          "url": "https://martechsignal.com/tools/customer-io/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Notifuse",
-        "url": "https://martechsignal.com/tools/notifuse/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/notifuse/#app",
+          "url": "https://martechsignal.com/tools/notifuse/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Klaviyo",
-        "url": "https://martechsignal.com/tools/klaviyo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/klaviyo/#app",
+          "url": "https://martechsignal.com/tools/klaviyo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Mailchimp",
-        "url": "https://martechsignal.com/tools/mailchimp/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/mailchimp/#app",
+          "url": "https://martechsignal.com/tools/mailchimp/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "Warmbly",
-        "url": "https://martechsignal.com/tools/warmbly/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/warmbly/#app",
+          "url": "https://martechsignal.com/tools/warmbly/"
+        }
       }
     ]
   },

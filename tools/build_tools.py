@@ -780,6 +780,17 @@ def _offer_for(t):
     return None
 
 
+def _list_item_ref(t):
+    """r7 C6 + M8 (2026-09-27): ItemList items as plain #app references.
+
+    Keeps graph linkage (item -> the tool page's @id) without re-declaring
+    product types on non-product pages. Untyped references stay out of the
+    Product-snippets report entirely, so the offers-gate state machine in
+    _list_item_thing is untouched for pages that do carry product nodes."""
+    return {"@id": f"https://martechsignal.com/tools/{t['slug']}/#app",
+            "url": f"https://martechsignal.com/tools/{t['slug']}/"}
+
+
 def _list_item_thing(t):
     """ItemList item node: product-typed only when it carries a valid Offer
     (Product snippets requires offers/review/aggregateRating); plain reference
@@ -1569,7 +1580,8 @@ def category_meta(cat, cat_tools, hub):
     (H-8 had to hand-fix four of these)."""
     m = (hub or {}).get("meta")
     if m:
-        return m
+        # r7 C6 (2026-09-27): hub metas carry {n} like the hand-written ones.
+        return m.replace("{n}", str(len(cat_tools)))
     m = _CATEGORY_META.get(cat.get("slug", ""))
     if m:
         return m.replace("{n}", str(len(cat_tools)))
@@ -1720,7 +1732,7 @@ def build_category_page(cat, tools):
                 # listed. Open-source tools are SoftwareApplication, SaaS is Product.
                 "itemListElement": [
                     {"@type": "ListItem", "position": i+1,
-                     "item": _list_item_thing(t)}
+                     "item": _list_item_ref(t)}
                     for i, t in enumerate(cat_tools)
                 ]
             }

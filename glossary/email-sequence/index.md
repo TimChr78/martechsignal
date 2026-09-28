@@ -106,5 +106,5 @@ AI now drafts sequence copy, predicts send times, and picks subject lines from h
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/email-sequence/#webpage", "dateModified": "2026-09-28"}
 ```

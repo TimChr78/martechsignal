@@ -129,7 +129,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 ## Comparison guides
 
 - [Best Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [n8n vs Zapier (2026): self-hosted depth or catalog breadth](/vs/n8n-vs-zapier/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -186,7 +186,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2518,
+  "wordCount": 2514,
   "articleSection": "marketing-automation"
 }
 ```

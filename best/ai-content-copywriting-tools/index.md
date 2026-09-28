@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Writer",
-        "url": "https://martechsignal.com/tools/writer/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/writer/#app",
+          "url": "https://martechsignal.com/tools/writer/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Persado",
-        "url": "https://martechsignal.com/tools/persado/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/persado/#app",
+          "url": "https://martechsignal.com/tools/persado/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Phrasee",
-        "url": "https://martechsignal.com/tools/phrasee/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/phrasee/#app",
+          "url": "https://martechsignal.com/tools/phrasee/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Jasper",
-        "url": "https://martechsignal.com/tools/jasper/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/jasper/#app",
+          "url": "https://martechsignal.com/tools/jasper/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Anyword",
-        "url": "https://martechsignal.com/tools/anyword/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/anyword/#app",
+          "url": "https://martechsignal.com/tools/anyword/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Copy.ai",
-        "url": "https://martechsignal.com/tools/copy-ai/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/copy-ai/#app",
+          "url": "https://martechsignal.com/tools/copy-ai/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Hypotenuse AI",
-        "url": "https://martechsignal.com/tools/hypotenuse-ai/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
+          "url": "https://martechsignal.com/tools/hypotenuse-ai/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "Strapi",
-        "url": "https://martechsignal.com/tools/strapi/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/strapi/#app",
+          "url": "https://martechsignal.com/tools/strapi/"
+        }
       }
     ]
   },

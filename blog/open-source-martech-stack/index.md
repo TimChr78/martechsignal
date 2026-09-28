@@ -169,8 +169,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Related tools
 
 - [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified

@@ -177,7 +177,7 @@ Where the agent orchestration layer is heading next
 - Workflow Automation
 ## Workflow Automation Tools
 
-Compare Zapier, Make, n8n, Workato and Tray.io on speed, self-hosting, AI agents and enterprise governance. Each platform bets on a different trade-off.
+Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. {n} reviewed.
 
 17 TOOLS IN THIS CATEGORY
 
@@ -224,7 +224,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
     {
       "@type": "ItemList",
       "name": "Workflow Automation Tools",
-      "description": "Compare Zapier, Make, n8n, Workato and Tray.io on speed, self-hosting, AI agents and enterprise governance. Each platform bets on a different trade-off.",
+      "description": "Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. {n} reviewed.",
       "numberOfItems": 17,
       "itemListElement": [
         {
@@ -232,11 +232,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/activepieces/#app",
-            "name": "Activepieces",
-            "description": "Open-source workflow automation with a free cloud tier and on-prem hosting",
-            "image": "https://martechsignal.com/og/tools/activepieces.png",
-            "url": "https://martechsignal.com/tools/activepieces/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/activepieces/"
           }
         },
         {
@@ -244,11 +240,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/appsmith/#app",
-            "name": "Appsmith",
-            "description": "Open-source platform for building admin panels and internal dashboards on your existing databases and APIs",
-            "image": "https://martechsignal.com/og/tools/appsmith.png",
-            "url": "https://martechsignal.com/tools/appsmith/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/appsmith/"
           }
         },
         {
@@ -256,11 +248,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/budibase/#app",
-            "name": "Budibase",
-            "description": "Open-source operations platform for building AI agents, apps and automations on your own data",
-            "image": "https://martechsignal.com/og/tools/budibase.png",
-            "url": "https://martechsignal.com/tools/budibase/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/budibase/"
           }
         },
         {
@@ -268,11 +256,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/ifttt/#app",
-            "name": "IFTTT",
-            "description": "Consumer-friendly automation connecting apps and smart devices",
-            "image": "https://martechsignal.com/og/tools/ifttt.png",
-            "url": "https://martechsignal.com/tools/ifttt/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/ifttt/"
           }
         },
         {
@@ -280,11 +264,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/langchain/#app",
-            "name": "LangChain",
-            "description": "Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools",
-            "image": "https://martechsignal.com/og/tools/langchain.png",
-            "url": "https://martechsignal.com/tools/langchain/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/langchain/"
           }
         },
         {
@@ -292,11 +272,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/make/#app",
-            "name": "Make",
-            "description": "Visual automation platform for building complex workflows with AI agents and apps",
-            "image": "https://martechsignal.com/og/tools/make.png",
-            "url": "https://martechsignal.com/tools/make/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/make/"
           }
         },
         {
@@ -304,11 +280,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/power-automate/#app",
-            "name": "Microsoft Power Automate",
-            "description": "Enterprise workflow automation inside the Microsoft Power Platform",
-            "image": "https://martechsignal.com/og/tools/power-automate.png",
-            "url": "https://martechsignal.com/tools/power-automate/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/power-automate/"
           }
         },
         {
@@ -316,11 +288,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/n8n/#app",
-            "name": "n8n",
-            "description": "Open-source workflow automation platform with AI agent capabilities and 400+ nodes",
-            "image": "https://martechsignal.com/og/tools/n8n.png",
-            "url": "https://martechsignal.com/tools/n8n/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/n8n/"
           }
         },
         {
@@ -328,11 +296,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/n8n-marketing-flows/#app",
-            "name": "n8n Marketing Flows",
-            "description": "79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO",
-            "image": "https://martechsignal.com/og/tools/n8n-marketing-flows.png",
-            "url": "https://martechsignal.com/tools/n8n-marketing-flows/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/n8n-marketing-flows/"
           }
         },
         {
@@ -340,11 +304,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/nocobase/#app",
-            "name": "NocoBase",
-            "description": "Open-source no-code platform with AI assistance for building business systems fast",
-            "image": "https://martechsignal.com/og/tools/nocobase.png",
-            "url": "https://martechsignal.com/tools/nocobase/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/nocobase/"
           }
         },
         {
@@ -352,11 +312,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/pabbly-connect/#app",
-            "name": "Pabbly Connect",
-            "description": "Task-priced integration platform with a one-time lifetime purchase option",
-            "image": "https://martechsignal.com/og/tools/pabbly-connect.png",
-            "url": "https://martechsignal.com/tools/pabbly-connect/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/pabbly-connect/"
           }
         },
         {
@@ -364,11 +320,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/paperclip/#app",
-            "name": "Paperclip",
-            "description": "Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit",
-            "image": "https://martechsignal.com/og/tools/paperclip.png",
-            "url": "https://martechsignal.com/tools/paperclip/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/paperclip/"
           }
         },
         {
@@ -376,11 +328,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/pipedream/#app",
-            "name": "Pipedream",
-            "description": "Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps",
-            "image": "https://martechsignal.com/og/tools/pipedream.png",
-            "url": "https://martechsignal.com/tools/pipedream/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/pipedream/"
           }
         },
         {
@@ -388,11 +336,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/tooljet/#app",
-            "name": "ToolJet",
-            "description": "Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps",
-            "image": "https://martechsignal.com/og/tools/tooljet.png",
-            "url": "https://martechsignal.com/tools/tooljet/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/tooljet/"
           }
         },
         {
@@ -400,11 +344,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/tray-io/#app",
-            "name": "Tray.io",
-            "description": "AI-powered integration platform for building custom automation and AI agents",
-            "image": "https://martechsignal.com/og/tools/tray-io.png",
-            "url": "https://martechsignal.com/tools/tray-io/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/tray-io/"
           }
         },
         {
@@ -412,11 +352,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/workato/#app",
-            "name": "Workato",
-            "description": "Enterprise AI governance plus integration and automation on one platform",
-            "image": "https://martechsignal.com/og/tools/workato.png",
-            "url": "https://martechsignal.com/tools/workato/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/workato/"
           }
         },
         {
@@ -424,11 +360,7 @@ If you are comparing these in 2026, app counts decide nothing: they all connect 
           "position": 17,
           "item": {
             "@id": "https://martechsignal.com/tools/zapier/#app",
-            "name": "Zapier",
-            "description": "No-code automation platform connecting 9,000+ apps with AI-powered workflows",
-            "image": "https://martechsignal.com/og/tools/zapier.png",
-            "url": "https://martechsignal.com/tools/zapier/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/zapier/"
           }
         }
       ]

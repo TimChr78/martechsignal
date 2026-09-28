@@ -122,8 +122,8 @@ Strengths include open-source licensing with free self-hosting, an API for custo
 ## Related reading
 
 - [Zapier vs. Make: Two Ways to Buy the Same Workflow Debt](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ### Quick Facts
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier)

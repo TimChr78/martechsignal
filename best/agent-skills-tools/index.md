@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Claude SEO",
-        "url": "https://martechsignal.com/tools/claude-seo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/claude-seo/#app",
+          "url": "https://martechsignal.com/tools/claude-seo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Claude Ads",
-        "url": "https://martechsignal.com/tools/claude-ads/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/claude-ads/#app",
+          "url": "https://martechsignal.com/tools/claude-ads/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Google Ads + Meta Ads + GA4 MCP",
-        "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
+          "url": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Digital Marketing Pro",
-        "url": "https://martechsignal.com/tools/digital-marketing-pro/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
+          "url": "https://martechsignal.com/tools/digital-marketing-pro/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Email Marketing Bible",
-        "url": "https://martechsignal.com/tools/email-marketing-bible/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
+          "url": "https://martechsignal.com/tools/email-marketing-bible/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Zapier GTM Cheat Codes",
-        "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
+          "url": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Eve Marketing Team Template",
-        "url": "https://martechsignal.com/tools/eve-marketing-team/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
+          "url": "https://martechsignal.com/tools/eve-marketing-team/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "OpenClaw Marketing Skills",
-        "url": "https://martechsignal.com/tools/openclaw-marketing-skills/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
+          "url": "https://martechsignal.com/tools/openclaw-marketing-skills/"
+        }
       }
     ]
   },

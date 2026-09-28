@@ -120,5 +120,5 @@ AI agents in CRM now draft follow-up emails, score leads, and summarize call tra
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/crm/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/crm/#webpage", "dateModified": "2026-09-28"}
 ```

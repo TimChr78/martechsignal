@@ -103,5 +103,5 @@ The recursion problem is live: models trained on generated content degrade, and 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-content-generation/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-content-generation/#webpage", "dateModified": "2026-09-28"}
 ```

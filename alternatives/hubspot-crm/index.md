@@ -94,31 +94,46 @@ Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [c
         "@type": "ListItem",
         "position": 1,
         "name": "Twenty",
-        "url": "https://martechsignal.com/tools/twenty/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/twenty/#app",
+          "url": "https://martechsignal.com/tools/twenty/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "EspoCRM",
-        "url": "https://martechsignal.com/tools/espocrm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/espocrm/#app",
+          "url": "https://martechsignal.com/tools/espocrm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "SuiteCRM",
-        "url": "https://martechsignal.com/tools/suitecrm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/suitecrm/#app",
+          "url": "https://martechsignal.com/tools/suitecrm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Pipedrive",
-        "url": "https://martechsignal.com/tools/pipedrive/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/pipedrive/#app",
+          "url": "https://martechsignal.com/tools/pipedrive/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Frappe CRM",
-        "url": "https://martechsignal.com/tools/frappe-crm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/frappe-crm/#app",
+          "url": "https://martechsignal.com/tools/frappe-crm/"
+        }
       }
     ]
   },

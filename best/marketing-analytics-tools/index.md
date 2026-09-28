@@ -109,49 +109,73 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Amplitude",
-        "url": "https://martechsignal.com/tools/amplitude/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/amplitude/#app",
+          "url": "https://martechsignal.com/tools/amplitude/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Matomo",
-        "url": "https://martechsignal.com/tools/matomo/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/matomo/#app",
+          "url": "https://martechsignal.com/tools/matomo/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Umami",
-        "url": "https://martechsignal.com/tools/umami/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/umami/#app",
+          "url": "https://martechsignal.com/tools/umami/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Mixpanel",
-        "url": "https://martechsignal.com/tools/mixpanel/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/mixpanel/#app",
+          "url": "https://martechsignal.com/tools/mixpanel/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Triple Whale",
-        "url": "https://martechsignal.com/tools/triple-whale/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/triple-whale/#app",
+          "url": "https://martechsignal.com/tools/triple-whale/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Heap",
-        "url": "https://martechsignal.com/tools/heap/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/heap/#app",
+          "url": "https://martechsignal.com/tools/heap/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 7,
         "name": "Northbeam",
-        "url": "https://martechsignal.com/tools/northbeam/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/northbeam/#app",
+          "url": "https://martechsignal.com/tools/northbeam/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 8,
         "name": "Snowplow",
-        "url": "https://martechsignal.com/tools/snowplow/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/snowplow/#app",
+          "url": "https://martechsignal.com/tools/snowplow/"
+        }
       }
     ]
   },

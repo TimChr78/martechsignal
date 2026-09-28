@@ -138,11 +138,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/anyword/#app",
-            "name": "Anyword",
-            "description": "AI copywriting platform with predictive performance scores for marketing content",
-            "image": "https://martechsignal.com/og/tools/anyword.png",
-            "url": "https://martechsignal.com/tools/anyword/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/anyword/"
           }
         },
         {
@@ -150,11 +146,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/contentbot/#app",
-            "name": "ContentBot",
-            "description": "AI content automation platform with workflows for blogs, ads, and social posts",
-            "image": "https://martechsignal.com/og/tools/contentbot.png",
-            "url": "https://martechsignal.com/tools/contentbot/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/contentbot/"
           }
         },
         {
@@ -162,11 +154,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/copy-ai/#app",
-            "name": "Copy.ai",
-            "description": "AI-powered GTM platform for sales and marketing content automation at scale",
-            "image": "https://martechsignal.com/og/tools/copy-ai.png",
-            "url": "https://martechsignal.com/tools/copy-ai/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/copy-ai/"
           }
         },
         {
@@ -174,11 +162,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/ghost/#app",
-            "name": "Ghost",
-            "description": "Open-source publishing platform with built-in newsletters, memberships, and AI tools",
-            "image": "https://martechsignal.com/og/tools/ghost.png",
-            "url": "https://martechsignal.com/tools/ghost/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/ghost/"
           }
         },
         {
@@ -186,11 +170,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/hypotenuse-ai/#app",
-            "name": "Hypotenuse AI",
-            "description": "AI content generation platform for ecommerce product descriptions and articles",
-            "image": "https://martechsignal.com/og/tools/hypotenuse-ai.png",
-            "url": "https://martechsignal.com/tools/hypotenuse-ai/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/hypotenuse-ai/"
           }
         },
         {
@@ -198,11 +178,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/jasper/#app",
-            "name": "Jasper",
-            "description": "AI marketing content platform for creating on-brand copy, images, and campaigns",
-            "image": "https://martechsignal.com/og/tools/jasper.png",
-            "url": "https://martechsignal.com/tools/jasper/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/jasper/"
           }
         },
         {
@@ -210,11 +186,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/khoj/#app",
-            "name": "Khoj",
-            "description": "Self-hosted AI research and writing assistant that chats with your documents and automates content workflows",
-            "image": "https://martechsignal.com/og/tools/khoj.png",
-            "url": "https://martechsignal.com/tools/khoj/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/khoj/"
           }
         },
         {
@@ -222,11 +194,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/languagetool/#app",
-            "name": "LanguageTool",
-            "description": "Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages",
-            "image": "https://martechsignal.com/og/tools/languagetool.png",
-            "url": "https://martechsignal.com/tools/languagetool/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/languagetool/"
           }
         },
         {
@@ -234,11 +202,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/libretranslate/#app",
-            "name": "LibreTranslate",
-            "description": "Open-source machine translation API for content localization, self-hostable and free of vendor lock-in",
-            "image": "https://martechsignal.com/og/tools/libretranslate.png",
-            "url": "https://martechsignal.com/tools/libretranslate/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/libretranslate/"
           }
         },
         {
@@ -246,11 +210,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/persado/#app",
-            "name": "Persado",
-            "description": "AI content creation and optimization platform for regulated financial services marketing",
-            "image": "https://martechsignal.com/og/tools/persado.png",
-            "url": "https://martechsignal.com/tools/persado/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/persado/"
           }
         },
         {
@@ -258,11 +218,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/phrasee/#app",
-            "name": "Phrasee",
-            "description": "AI messaging content platform; rebranded as Jacquard in June 2024",
-            "image": "https://martechsignal.com/og/tools/phrasee.png",
-            "url": "https://martechsignal.com/tools/phrasee/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/phrasee/"
           }
         },
         {
@@ -270,11 +226,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/strapi/#app",
-            "name": "Strapi",
-            "description": "Open-source headless CMS with AI-powered content management and API-first design",
-            "image": "https://martechsignal.com/og/tools/strapi.png",
-            "url": "https://martechsignal.com/tools/strapi/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/strapi/"
           }
         },
         {
@@ -282,11 +234,7 @@ The enterprise tier prices by quote. Writer&#x27;s Starter is self-serve, but Pe
           "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/writer/#app",
-            "name": "Writer",
-            "description": "Enterprise AI platform with Palmyra models, brand governance, and agents",
-            "image": "https://martechsignal.com/og/tools/writer.png",
-            "url": "https://martechsignal.com/tools/writer/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/writer/"
           }
         }
       ]

@@ -141,7 +141,7 @@ The warehouse you own is the measurement backbone; skip the rebuild pitch
 - Analytics &amp; Attribution
 ## Analytics & Attribution Tools
 
-Compare 11 analytics and attribution tools, from self-hosted Matomo and Snowplow to enterprise suites. One half tracks what users do; the other argues about ad.
+Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. {n} reviewed.
 
 11 TOOLS IN THIS CATEGORY
 
@@ -188,7 +188,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
     {
       "@type": "ItemList",
       "name": "Analytics & Attribution Tools",
-      "description": "Compare 11 analytics and attribution tools, from self-hosted Matomo and Snowplow to enterprise suites. One half tracks what users do; the other argues about ad.",
+      "description": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. {n} reviewed.",
       "numberOfItems": 11,
       "itemListElement": [
         {
@@ -196,11 +196,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/amplitude/#app",
-            "name": "Amplitude",
-            "description": "AI-powered digital analytics platform for product and marketing teams",
-            "image": "https://martechsignal.com/og/tools/amplitude.png",
-            "url": "https://martechsignal.com/tools/amplitude/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/amplitude/"
           }
         },
         {
@@ -208,11 +204,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/attribution/#app",
-            "name": "Attribution",
-            "description": "AI-powered marketing attribution platform connecting ad spend to revenue",
-            "image": "https://martechsignal.com/og/tools/attribution.png",
-            "url": "https://martechsignal.com/tools/attribution/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/attribution/"
           }
         },
         {
@@ -220,11 +212,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/heap/#app",
-            "name": "Heap",
-            "description": "AI-powered product analytics with autocapture and digital experience insights",
-            "image": "https://martechsignal.com/og/tools/heap.png",
-            "url": "https://martechsignal.com/tools/heap/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/heap/"
           }
         },
         {
@@ -232,11 +220,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/matomo/#app",
-            "name": "Matomo",
-            "description": "Open-source web analytics platform with full data ownership and AI-powered insights",
-            "image": "https://martechsignal.com/og/tools/matomo.png",
-            "url": "https://martechsignal.com/tools/matomo/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/matomo/"
           }
         },
         {
@@ -244,11 +228,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/mixpanel/#app",
-            "name": "Mixpanel",
-            "description": "Product analytics platform with AI-powered insights for user behavior tracking",
-            "image": "https://martechsignal.com/og/tools/mixpanel.png",
-            "url": "https://martechsignal.com/tools/mixpanel/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/mixpanel/"
           }
         },
         {
@@ -256,11 +236,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/northbeam/#app",
-            "name": "Northbeam",
-            "description": "AI-powered multi-touch attribution and marketing intelligence for ecommerce",
-            "image": "https://martechsignal.com/og/tools/northbeam.png",
-            "url": "https://martechsignal.com/tools/northbeam/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/northbeam/"
           }
         },
         {
@@ -268,11 +244,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/plausible/#app",
-            "name": "Plausible Analytics",
-            "description": "Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics",
-            "image": "https://martechsignal.com/og/tools/plausible.png",
-            "url": "https://martechsignal.com/tools/plausible/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/plausible/"
           }
         },
         {
@@ -280,11 +252,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/posthog/#app",
-            "name": "PostHog",
-            "description": "Open-source product analytics platform with session replay, feature flags, experiments, and surveys",
-            "image": "https://martechsignal.com/og/tools/posthog.png",
-            "url": "https://martechsignal.com/tools/posthog/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/posthog/"
           }
         },
         {
@@ -292,11 +260,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/snowplow/#app",
-            "name": "Snowplow",
-            "description": "Customer context infrastructure: behavioral event pipeline for warehouses and AI agents",
-            "image": "https://martechsignal.com/og/tools/snowplow.png",
-            "url": "https://martechsignal.com/tools/snowplow/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/snowplow/"
           }
         },
         {
@@ -304,11 +268,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/triple-whale/#app",
-            "name": "Triple Whale",
-            "description": "AI-powered ecommerce analytics and attribution platform for DTC brands",
-            "image": "https://martechsignal.com/og/tools/triple-whale.png",
-            "url": "https://martechsignal.com/tools/triple-whale/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/triple-whale/"
           }
         },
         {
@@ -316,11 +276,7 @@ This directory covers 11 tools across three tiers. The open-source end runs wide
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/umami/#app",
-            "name": "Umami",
-            "description": "Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps",
-            "image": "https://martechsignal.com/og/tools/umami.png",
-            "url": "https://martechsignal.com/tools/umami/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/umami/"
           }
         }
       ]

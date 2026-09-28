@@ -103,5 +103,5 @@ AI changed personalization from rules to prediction. Models score each visitor i
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/personalization/#webpage", "dateModified": "2026-09-28"}
 ```

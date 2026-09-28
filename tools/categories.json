@@ -19,7 +19,7 @@
     ],
     "intro": "Marketing automation platforms orchestrate campaigns across email, ads, and site content from one rules engine. This is the category where AI autonomy arrived first: ActiveCampaign now brands itself an autonomous marketing platform, and HubSpot ships agents inside its workflows. The practical question for buyers is not capability but control: can you audit what the system sent, cap what it spends, and revert a decision it made overnight? Our reviews weight workflow power and guardrails equally.",
     "hub": {
-      "meta": "Compare ActiveCampaign, HubSpot, Braze, Marketo and 8 more marketing automation platforms on workflow power and guardrails. This is where AI autonomy landed.",
+      "meta": "Marketing automation platforms reviewed: workflow depth, guardrails, and AI autonomy. {n} tools with dated pricing and verification dates.",
       "flow": [
         {
           "label": "MAP",
@@ -233,7 +233,7 @@
     ],
     "intro": "Systems of record for customer relationships and sales pipelines. We look at AI scoring, data hygiene, per-seat economics, and what self-hosting  costs you in practice. This is the deepest category in the directory: twenty-three systems, seventeen of them open source or freemium, with usable entry points from $14 per month down to free self-hosting. That abundance is the trap. Open-source CRMs differ less on features than on upgrade discipline, API completeness, and whether the community would survive if the founding company vanished. Our hands-on notes focus on migration paths and what breaks after year one.",
     "hub": {
-      "meta": "Compare 23 CRM tools: Salesforce and HubSpot at the hosted end, Twenty and Frappe CRM at the self-hosted end, with the per-seat math in between.",
+      "meta": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. {n} tools reviewed.",
       "flow": [
         {
           "label": "MAP",
@@ -465,7 +465,7 @@
     ],
     "intro": "Analytics and attribution tools answer two questions: what happened, and which marketing touch caused it. Product analytics (event tracking, funnels, retention) has converged on a standard shape. The attribution side is messier: every model distributes credit differently, and the choice changes team behavior. With AI search reducing click paths, the measurement question is shifting from clicks to outcomes. Our reviews test data pipelines, model transparency, and how honestly each tool treats the limits of its own numbers. Seven products make the cut here, mixing one open-source tracker you can self-host with freemium product analytics and enterprise attribution suites that start near $59 per month. The split matters because measurement tooling fails in two different ways: hosted platforms fail silently when consent rules break their data flow, while self-hosted options fail loudly at 3am on your own server. We weight vendor-side honesty about sampling and attribution windows heavily in every verdict.",
     "hub": {
-      "meta": "Compare 11 analytics and attribution tools, from self-hosted Matomo and Snowplow to enterprise suites. One half tracks what users do; the other argues about ad.",
+      "meta": "Analytics and attribution tools: event tracking, funnels, and what multi-touch claims can and cannot prove. {n} reviewed.",
       "flow": [
         {
           "label": "INSTRUMENT",
@@ -650,7 +650,7 @@
     ],
     "intro": "Advertising and paid media tools cover the buying side: demand-side platforms, creative optimizers, and bid management. The category is absorbing AI faster than almost any other. Platforms now promise autonomous budget allocation, generated ad variations, and agents that negotiate inventory without a human in the loop. That makes the control surface the real differentiator: who approves spend, what the audit trail looks like, and how quickly you can stop an agent that has gone sideways. We grade each tool on those questions before features. Of the nine platforms we track here, none is open source and two gate everything behind a sales call, which tells you exactly where the bargaining power sits. Entry pricing runs from $39 per month up to $4,000 and beyond for enterprise creative stacks, so the realistic question is rarely can we afford AI ads but which layer of the buying process you are willing to hand over.",
     "hub": {
-      "meta": "Compare 9 advertising tools: creative generators, autonomous bid platforms, automation, open-source ad serving. The question is who approves the spend.",
+      "meta": "Advertising and paid media tools: creative generators, bid platforms, automation, and open-source ad serving. {n} reviewed.",
       "flow": [
         {
           "label": "AUDIT",
@@ -847,7 +847,7 @@
       "surfer-seo"
     ],
     "hub": {
-      "meta": "Compare Semrush, Clearscope, Frase, MarketMuse and Surfer on data depth, content briefs and AI visibility tracking. Open source picks included.",
+      "meta": "SEO platforms reviewed: data depth, content briefs, and AI visibility tracking. {n} tools with verified pricing.",
       "flow": [
         {
           "label": "CRAWL",
@@ -999,7 +999,7 @@
     "description": "Track and improve how AI assistants mention, cite, and describe your brand",
     "intro": "Monitoring and optimization tools for AI search: who cites you in ChatGPT, Perplexity and AI Overviews, what the answers say, and what to change about it.",
     "hub": {
-      "meta": "Compare Profound, Scrunch, OtterlyAI, Rankscale, Trakkr, Evertune, Nimt and Writesonic, plus the AI-visibility modules inside AccuRanker, Nightwatch, SISTRIX.",
+      "meta": "AI search visibility tools: who cites you in ChatGPT, Perplexity, and AI Overviews. {n} reviewed with dated facts.",
       "flow": [
         {
           "label": "PROMPT SET",
@@ -1205,7 +1205,7 @@
       "zapier"
     ],
     "hub": {
-      "meta": "Compare Zapier, Make, n8n, Workato and Tray.io on speed, self-hosting, AI agents and enterprise governance. Each platform bets on a different trade-off.",
+      "meta": "Workflow automation platforms and iPaaS: billing units, self-hosting, AI agents, and enterprise governance. {n} reviewed.",
       "flow": [
         {
           "label": "TRIGGER",
@@ -1472,7 +1472,7 @@
       "zapier-gtm-cheat-codes"
     ],
     "hub": {
-      "meta": "Compare 22 agent skills and MCP tools for Claude Code and Codex: SEO audits, ad ops, email, launch assets. No per-skill subscription.",
+      "meta": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. {n} reviewed.",
       "flow": [
         {
           "label": "INSTALL",

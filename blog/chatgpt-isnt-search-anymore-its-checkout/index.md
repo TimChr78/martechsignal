@@ -92,7 +92,7 @@ Our SEO hub collects everything we have written on AI search visibility, citatio
 ## Comparison guides
 
 - [Best AI SEO tools for AI visibility (2026)](/best/ai-seo-tools/)
-- [NocoDB vs NocoBase (2026): spreadsheet layer or system builder](/vs/nocodb-vs-nocobase/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -149,7 +149,7 @@ More from the directory: [ChatbotX](/tools/chatbotx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1823,
+  "wordCount": 1818,
   "articleSection": "seo, advertising"
 }
 ```

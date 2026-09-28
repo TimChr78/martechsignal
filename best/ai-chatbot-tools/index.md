@@ -91,37 +91,55 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Intercom",
-        "url": "https://martechsignal.com/tools/intercom/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/intercom/#app",
+          "url": "https://martechsignal.com/tools/intercom/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Chatwoot",
-        "url": "https://martechsignal.com/tools/chatwoot/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/chatwoot/#app",
+          "url": "https://martechsignal.com/tools/chatwoot/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Tidio",
-        "url": "https://martechsignal.com/tools/tidio/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/tidio/#app",
+          "url": "https://martechsignal.com/tools/tidio/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Chatfuel",
-        "url": "https://martechsignal.com/tools/chatfuel/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/chatfuel/#app",
+          "url": "https://martechsignal.com/tools/chatfuel/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "ManyChat",
-        "url": "https://martechsignal.com/tools/manychat/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/manychat/#app",
+          "url": "https://martechsignal.com/tools/manychat/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "ChatbotX",
-        "url": "https://martechsignal.com/tools/chatbotx/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/chatbotx/#app",
+          "url": "https://martechsignal.com/tools/chatbotx/"
+        }
       }
     ]
   },

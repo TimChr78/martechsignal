@@ -112,5 +112,5 @@ The agentic label is itself an AI-era phenomenon, and it is becoming table stake
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/agentic-marketing/#webpage", "dateModified": "2026-09-28"}
 ```

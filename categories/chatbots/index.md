@@ -94,11 +94,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/chatbotx/#app",
-            "name": "ChatbotX",
-            "description": "Open-source ManyChat alternative built for AI, omnichannel chat marketing and automation",
-            "image": "https://martechsignal.com/og/tools/chatbotx.png",
-            "url": "https://martechsignal.com/tools/chatbotx/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/chatbotx/"
           }
         },
         {
@@ -106,11 +102,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/chatfuel/#app",
-            "name": "Chatfuel",
-            "description": "AI chatbot platform for automating customer conversations on messaging channels",
-            "image": "https://martechsignal.com/og/tools/chatfuel.png",
-            "url": "https://martechsignal.com/tools/chatfuel/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/chatfuel/"
           }
         },
         {
@@ -118,11 +110,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/chatwoot/#app",
-            "name": "Chatwoot",
-            "description": "Open-source customer engagement suite with Captain AI and full self-hosting",
-            "image": "https://martechsignal.com/og/tools/chatwoot.png",
-            "url": "https://martechsignal.com/tools/chatwoot/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/chatwoot/"
           }
         },
         {
@@ -130,11 +118,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/intercom/#app",
-            "name": "Intercom",
-            "description": "AI-first customer service platform with Fin AI agent and omnichannel messaging",
-            "image": "https://martechsignal.com/og/tools/intercom.png",
-            "url": "https://martechsignal.com/tools/intercom/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/intercom/"
           }
         },
         {
@@ -142,11 +126,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/manychat/#app",
-            "name": "ManyChat",
-            "description": "AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger",
-            "image": "https://martechsignal.com/og/tools/manychat.png",
-            "url": "https://martechsignal.com/tools/manychat/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/manychat/"
           }
         },
         {
@@ -154,11 +134,7 @@ Three tiers, then: social chat marketing (ManyChat, Chatfuel, ChatbotX), live ch
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/tidio/#app",
-            "name": "Tidio",
-            "description": "AI-powered live chat and chatbot platform with Lyro AI agent for customer support",
-            "image": "https://martechsignal.com/og/tools/tidio.png",
-            "url": "https://martechsignal.com/tools/tidio/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/tidio/"
           }
         }
       ]

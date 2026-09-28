@@ -148,11 +148,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 1,
           "item": {
             "@id": "https://martechsignal.com/tools/billionmail/#app",
-            "name": "BillionMail",
-            "description": "Open-source mail server, newsletter, and email marketing platform, fully self-hosted and free",
-            "image": "https://martechsignal.com/og/tools/billionmail.png",
-            "url": "https://martechsignal.com/tools/billionmail/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/billionmail/"
           }
         },
         {
@@ -160,11 +156,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 2,
           "item": {
             "@id": "https://martechsignal.com/tools/customer-io/#app",
-            "name": "Customer.io",
-            "description": "Data-driven messaging platform for automated email, push, SMS, and in-app messages",
-            "image": "https://martechsignal.com/og/tools/customer-io.png",
-            "url": "https://martechsignal.com/tools/customer-io/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/customer-io/"
           }
         },
         {
@@ -172,11 +164,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 3,
           "item": {
             "@id": "https://martechsignal.com/tools/klaviyo/#app",
-            "name": "Klaviyo",
-            "description": "AI-powered email and SMS marketing platform built for ecommerce brands",
-            "image": "https://martechsignal.com/og/tools/klaviyo.png",
-            "url": "https://martechsignal.com/tools/klaviyo/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/klaviyo/"
           }
         },
         {
@@ -184,11 +172,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 4,
           "item": {
             "@id": "https://martechsignal.com/tools/listmonk/#app",
-            "name": "Listmonk",
-            "description": "Open-source self-hosted newsletter and mailing list manager with a fast Go backend",
-            "image": "https://martechsignal.com/og/tools/listmonk.png",
-            "url": "https://martechsignal.com/tools/listmonk/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/listmonk/"
           }
         },
         {
@@ -196,11 +180,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/loops/#app",
-            "name": "Loops",
-            "description": "Email marketing for SaaS: marketing, product, and transactional email in one tool",
-            "image": "https://martechsignal.com/og/tools/loops.png",
-            "url": "https://martechsignal.com/tools/loops/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/loops/"
           }
         },
         {
@@ -208,11 +188,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/mailchimp/#app",
-            "name": "Mailchimp",
-            "description": "All-in-one marketing platform with AI-powered email, automation, and analytics",
-            "image": "https://martechsignal.com/og/tools/mailchimp.png",
-            "url": "https://martechsignal.com/tools/mailchimp/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/mailchimp/"
           }
         },
         {
@@ -220,11 +196,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/maizzle/#app",
-            "name": "Maizzle",
-            "description": "Modern email development framework using Tailwind CSS for responsive campaigns",
-            "image": "https://martechsignal.com/og/tools/maizzle.png",
-            "url": "https://martechsignal.com/tools/maizzle/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/maizzle/"
           }
         },
         {
@@ -232,11 +204,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/notifo/#app",
-            "name": "Notifo",
-            "description": "Self-hosted multi-channel notification service for email, SMS, and web push",
-            "image": "https://martechsignal.com/og/tools/notifo.png",
-            "url": "https://martechsignal.com/tools/notifo/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/notifo/"
           }
         },
         {
@@ -244,11 +212,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 9,
           "item": {
             "@id": "https://martechsignal.com/tools/notifuse/#app",
-            "name": "Notifuse",
-            "description": "Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrations",
-            "image": "https://martechsignal.com/og/tools/notifuse.png",
-            "url": "https://martechsignal.com/tools/notifuse/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/notifuse/"
           }
         },
         {
@@ -256,11 +220,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/openoutreach/#app",
-            "name": "OpenOutreach",
-            "description": "Open-source AI lead finder: describe your product and it finds and qualifies the leads",
-            "image": "https://martechsignal.com/og/tools/openoutreach.png",
-            "url": "https://martechsignal.com/tools/openoutreach/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/openoutreach/"
           }
         },
         {
@@ -268,11 +228,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/postmark/#app",
-            "name": "Postmark",
-            "description": "Transactional email API with separated message streams, an MCP server, and published delivery numbers",
-            "image": "https://martechsignal.com/og/tools/postmark.png",
-            "url": "https://martechsignal.com/tools/postmark/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/postmark/"
           }
         },
         {
@@ -280,11 +236,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/react-email-editor/#app",
-            "name": "React Email Editor",
-            "description": "Drag-n-Drop Email Editor Component for React.js",
-            "image": "https://martechsignal.com/og/tools/react-email-editor.png",
-            "url": "https://martechsignal.com/tools/react-email-editor/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/react-email-editor/"
           }
         },
         {
@@ -292,11 +244,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/resend/#app",
-            "name": "Resend",
-            "description": "Developer-first email API built around React Email, batch sending, and agent tooling",
-            "image": "https://martechsignal.com/og/tools/resend.png",
-            "url": "https://martechsignal.com/tools/resend/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/resend/"
           }
         },
         {
@@ -304,11 +252,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/sendgrid/#app",
-            "name": "Twilio SendGrid",
-            "description": "Scalable email delivery API with AI-powered deliverability and engagement tools",
-            "image": "https://martechsignal.com/og/tools/sendgrid.png",
-            "url": "https://martechsignal.com/tools/sendgrid/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/sendgrid/"
           }
         },
         {
@@ -316,11 +260,7 @@ The self-hosted tier is real in email. Listmonk, BillionMail, Notifuse, and Warm
           "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/warmbly/#app",
-            "name": "Warmbly",
-            "description": "Open-source cold email platform with warmup, campaigns, unified inbox, and CRM",
-            "image": "https://martechsignal.com/og/tools/warmbly.png",
-            "url": "https://martechsignal.com/tools/warmbly/",
-            "@type": "SoftwareApplication"
+            "url": "https://martechsignal.com/tools/warmbly/"
           }
         }
       ]

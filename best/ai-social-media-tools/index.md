@@ -91,37 +91,55 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "Hootsuite",
-        "url": "https://martechsignal.com/tools/hootsuite/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/hootsuite/#app",
+          "url": "https://martechsignal.com/tools/hootsuite/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sprout Social",
-        "url": "https://martechsignal.com/tools/sprout-social/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/sprout-social/#app",
+          "url": "https://martechsignal.com/tools/sprout-social/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Brandwatch",
-        "url": "https://martechsignal.com/tools/brandwatch/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/brandwatch/#app",
+          "url": "https://martechsignal.com/tools/brandwatch/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Predis.ai",
-        "url": "https://martechsignal.com/tools/predis-ai/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/predis-ai/#app",
+          "url": "https://martechsignal.com/tools/predis-ai/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Buffer",
-        "url": "https://martechsignal.com/tools/buffer/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/buffer/#app",
+          "url": "https://martechsignal.com/tools/buffer/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "MultiPost",
-        "url": "https://martechsignal.com/tools/multipost-extension/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/multipost-extension/#app",
+          "url": "https://martechsignal.com/tools/multipost-extension/"
+        }
       }
     ]
   },

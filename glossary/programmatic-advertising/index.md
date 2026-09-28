@@ -99,5 +99,5 @@ AI now sets bids, builds audiences, and writes ad variations inside the DSP. Aut
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/programmatic-advertising/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/programmatic-advertising/#webpage", "dateModified": "2026-09-28"}
 ```

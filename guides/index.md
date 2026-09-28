@@ -9,7 +9,7 @@
 Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.
 
 - [AI Marketing Suite](/guides/ai-marketing-claude/) - 15-skill marketing suite for Claude Code with parallel agents and PDF reports
-- [Digital Marketing Pro](/guides/digital-marketing-pro/) - 158-skill AI marketing plugin for agencies with EU AI Act compliance
+- [Digital Marketing Pro](/guides/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 
 

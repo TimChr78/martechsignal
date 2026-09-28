@@ -95,5 +95,5 @@ LLMs improved listening analysis substantially: they read nuance that keyword se
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/social-listening/#webpage", "dateModified": "2026-09-27"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/social-listening/#webpage", "dateModified": "2026-09-28"}
 ```

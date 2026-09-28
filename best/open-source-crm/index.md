@@ -93,37 +93,55 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
         "@type": "ListItem",
         "position": 1,
         "name": "EspoCRM",
-        "url": "https://martechsignal.com/tools/espocrm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/espocrm/#app",
+          "url": "https://martechsignal.com/tools/espocrm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "SuiteCRM",
-        "url": "https://martechsignal.com/tools/suitecrm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/suitecrm/#app",
+          "url": "https://martechsignal.com/tools/suitecrm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Twenty",
-        "url": "https://martechsignal.com/tools/twenty/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/twenty/#app",
+          "url": "https://martechsignal.com/tools/twenty/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Frappe CRM",
-        "url": "https://martechsignal.com/tools/frappe-crm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/frappe-crm/#app",
+          "url": "https://martechsignal.com/tools/frappe-crm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 5,
         "name": "Krayin CRM",
-        "url": "https://martechsignal.com/tools/krayin-crm/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/krayin-crm/#app",
+          "url": "https://martechsignal.com/tools/krayin-crm/"
+        }
       },
       {
         "@type": "ListItem",
         "position": 6,
         "name": "Monica",
-        "url": "https://martechsignal.com/tools/monica/"
+        "item": {
+          "@id": "https://martechsignal.com/tools/monica/#app",
+          "url": "https://martechsignal.com/tools/monica/"
+        }
       }
     ]
   },
