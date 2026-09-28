@@ -27,20 +27,8 @@ Longer reference pages that support the directory. These are not tools, so they 
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Https:",
-      "item": "https://martechsignal.com/https:/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Martechsignal.Com",
-      "item": "https://martechsignal.com/https:/martechsignal.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
       "name": "Guides",
-      "item": "https://martechsignal.com/https:/martechsignal.com/guides/"
+      "item": "https://martechsignal.com/guides/"
     }
   ]
 }

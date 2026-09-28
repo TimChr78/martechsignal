@@ -212,7 +212,13 @@ def markdown_to_html(md: str) -> str:
                         break
                     continue
                 break
-            out.append('\n'.join(html_lines))
+            # r7 C4 (2026-09-27): markdown inside raw HTML blocks (notably <td>
+            # cells) never reaches inline_format; convert links/bold without
+            # escaping, since the block is already HTML.
+            _blk = '\n'.join(html_lines)
+            _blk = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', _blk)
+            _blk = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', _blk)
+            out.append(_blk)
             continue
 
         # Horizontal rule (--- or -)

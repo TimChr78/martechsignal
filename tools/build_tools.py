@@ -430,6 +430,11 @@ def screenshot_figure(slug, tool_name):
 
 
 def page_shell(title, description, canonical, body, schema_json=None, og_image=None):
+    # r7 C5 (2026-09-27): some callers pass absolute URLs; never double the base.
+    if canonical.startswith('http'):
+        canonical = canonical.split('martechsignal.com', 1)[-1] or '/'
+        if not canonical.startswith('/'):
+            canonical = '/' + canonical
     og_url = og_image or "og.png"
     schema_block = ""
     if schema_json:
