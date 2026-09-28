@@ -88,7 +88,7 @@ The play is to own something the machine cannot answer without you. Google does 
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
@@ -97,8 +97,8 @@ The play is to own something the machine cannot answer without you. Google does 
 - [Frase](/tools/frase/) - AI-powered SEO content platform for research, writing, and AI visibility tracking
 ## Comparison guides
 
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Jasper vs Writer (2026): pricing, AI features, verdict](/vs/jasper-vs-writer/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -107,7 +107,7 @@ The play is to own something the machine cannot answer without you. Google does 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Madgicx](/tools/madgicx/)
+More from the directory: [ManyChat](/tools/manychat/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ More from the directory: [Madgicx](/tools/madgicx/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1415,
+  "wordCount": 1416,
   "articleSection": "seo"
 }
 ```

@@ -84,9 +84,9 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
 - [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
@@ -95,7 +95,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 ## Comparison guides
 
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -156,7 +156,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1581,
+  "wordCount": 1592,
   "articleSection": "analytics"
 }
 ```

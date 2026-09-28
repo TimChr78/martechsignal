@@ -91,13 +91,13 @@ Our directory breaks down customer data platforms and activation tools by pricin
 - [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best GEO &amp;amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [BillionMail](/tools/billionmail/)
+More from the directory: [Brandwatch](/tools/brandwatch/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -149,7 +149,7 @@ More from the directory: [BillionMail](/tools/billionmail/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1548,
+  "wordCount": 1552,
   "articleSection": "crm, analytics"
 }
 ```

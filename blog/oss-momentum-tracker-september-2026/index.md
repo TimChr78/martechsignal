@@ -103,8 +103,8 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Related tools
 
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
@@ -112,8 +112,8 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 - [PostHog](/tools/posthog/) - Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 ## Comparison guides
 
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)
@@ -172,7 +172,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1455,
+  "wordCount": 1457,
   "articleSection": "agent-skills"
 }
 ```

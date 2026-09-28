@@ -91,7 +91,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Related reading
 
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
@@ -101,7 +101,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -110,7 +110,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [IFTTT](/tools/ifttt/)
+More from the directory: [Khoj](/tools/khoj/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -162,7 +162,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1776,
+  "wordCount": 1785,
   "articleSection": "agent-skills"
 }
 ```

@@ -114,8 +114,8 @@ For the spec-sheet version of these two, with pricing rows side by side, see the
 - [Paperclip](/tools/paperclip/) - Open-source control plane to manage AI agents like a company, hire, schedule, budget, and audit
 ## Comparison guides
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Make vs Zapier (2026): pricing, AI features, verdict](/vs/make-vs-zapier/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -174,7 +174,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2049,
+  "wordCount": 2050,
   "articleSection": "workflow-automation"
 }
 ```

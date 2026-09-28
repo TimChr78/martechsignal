@@ -74,9 +74,9 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 
 ## Related reading
 
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -94,7 +94,7 @@ We have run [Claude SEO](/tools/claude-seo/) on production sites and reported th
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
+More from the directory: [Flagsmith](/tools/flagsmith/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -146,7 +146,7 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1367,
+  "wordCount": 1376,
   "articleSection": "agent-skills"
 }
 ```

@@ -149,7 +149,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best Chatbots &amp; Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) &mdash; Creators monetizing DMs across Instagram and WhatsApp

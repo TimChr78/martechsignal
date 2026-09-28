@@ -73,26 +73,26 @@ The AI-visibility dashboards will keep selling the count, because the count goes
 ## Related reading
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
 - [OtterlyAI](/tools/otterlyai/) - AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 - [Potato](/tools/potato-ai-visibility/) - Free local tool that measures brand mentions and citations in Claude's web-search answers
-- [Nightwatch](/tools/nightwatch/) - Rank tracking across Google and AI answers, priced by keyword with unlimited seats
+- [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 ## Comparison guides
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
 - [Best AI Content &amp;amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
-- [SEO](/glossary/seo/)
+- [GEO](/glossary/geo/)
 - [AI Visibility](/glossary/ai-search-visibility/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Khoj](/tools/khoj/)
+More from the directory: [LanguageTool](/tools/languagetool/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -144,7 +144,7 @@ More from the directory: [Khoj](/tools/khoj/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1477,
+  "wordCount": 1485,
   "articleSection": "seo"
 }
 ```

@@ -87,7 +87,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Marketing Analytics &amp;amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [GEO](/glossary/geo/)
@@ -96,7 +96,7 @@ The Seonaut side of this comparison draws on the GitHub repository, seonaut.org,
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Flagsmith](/tools/flagsmith/)
+More from the directory: [GrowthBook](/tools/growthbook/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -148,7 +148,7 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1575,
+  "wordCount": 1573,
   "articleSection": "seo"
 }
 ```

@@ -73,8 +73,8 @@ Our directory reviews workflow and marketing automation tools on what happens af
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Related tools
 
@@ -83,8 +83,8 @@ Our directory reviews workflow and marketing automation tools on what happens af
 - [n8n Marketing Flows](/tools/n8n-marketing-flows/) - 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 ## Comparison guides
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1844,
+  "wordCount": 1838,
   "articleSection": "workflow-automation, agent-skills"
 }
 ```

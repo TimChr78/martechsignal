@@ -177,7 +177,7 @@ Only at the small end. Starter Suite and Pro Suite carry a &#x27;try for free&#x
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) &mdash; Enterprise estates already bought into Salesforce&#x27;s cloud stack

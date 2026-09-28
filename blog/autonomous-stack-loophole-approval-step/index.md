@@ -12,7 +12,7 @@
 
 TC **[Tim Christensen](/authors/tim-christensen/)**
 
-MARKETING AUTOMATION · AI AGENTS · 8 MIN
+MARKETING AUTOMATION · AI AGENTS · 9 MIN
 
 ## Your autonomous stack&#x27;s loophole is the approval step you deleted
 
@@ -78,18 +78,18 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 ## Related reading
 
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Related tools
 
-- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 - [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
+- [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -98,7 +98,7 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Apache Unomi](/tools/apache-unomi/)
+More from the directory: [BillionMail](/tools/billionmail/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -150,7 +150,7 @@ More from the directory: [Apache Unomi](/tools/apache-unomi/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1699,
+  "wordCount": 1706,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

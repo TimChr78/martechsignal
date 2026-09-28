@@ -87,9 +87,9 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 ## Related reading
 
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Related tools
 
 - [Ortto](/tools/ortto/) - Customer data and marketing automation platform with journeys, CDP, and AI features
@@ -97,6 +97,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 - [Braze](/tools/braze/) - Customer engagement platform with AI-powered real-time messaging across channels
 ## Comparison guides
 
+- [Best AI Personalization &amp;amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
@@ -106,7 +107,7 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
+More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -158,7 +159,7 @@ More from the directory: [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1732,
+  "wordCount": 1739,
   "articleSection": "marketing-automation"
 }
 ```
