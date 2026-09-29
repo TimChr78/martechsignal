@@ -36,7 +36,7 @@ ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews, on every plan. Ea
 **What happens when the free trial ends?**
 The trial runs 14 days with the full toolkit and no credit card required. If it is not canceled within those 14 days, Nightwatch bills a regular monthly subscription and sends reminder emails before the trial ends.
 
-- **Pricing:** From $79/mo
+- **Pricing:** From €79/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Slovenj Gradec, Slovenia
 - **API:** Yes
@@ -76,7 +76,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-GEO & LLM Optimization · From $79/mo Desk-reviewed
+GEO & LLM Optimization · From €79/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 

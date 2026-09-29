@@ -37,7 +37,7 @@ ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot come standard. Cl
 **Does OtterlyAI have an API?**
 Yes. Standard and above include API and MCP access (2,000 requests per month each on Standard, 5,000 on Premium), documented at docs.otterly.ai.
 
-- **Pricing:** From $29/mo
+- **Pricing:** From €29/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **Founded:** 2024
 - **HQ:** Persenbeug, Austria
@@ -74,7 +74,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
-GEO & LLM Optimization · From $29/mo Desk-reviewed
+GEO & LLM Optimization · From €29/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 

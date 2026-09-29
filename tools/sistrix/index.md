@@ -33,7 +33,7 @@ Yes. The Visibility in AI Answers module measures mentions, rankings and citatio
 **What does the SISTRIX API include?**
 Plus receives limited access covering only Visibility Index data. Professional and Premium open the full API and all features. Export and API credits are metered weekly per tier.
 
-- **Pricing:** From $119/mo
+- **Pricing:** From €119/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Germany
 - **API:** Yes
@@ -69,7 +69,7 @@ Brand Radar tracks brand mentions and citations across AI answers, YouTube and R
 
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
-GEO & LLM Optimization · From $119/mo Desk-reviewed
+GEO & LLM Optimization · From €119/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 

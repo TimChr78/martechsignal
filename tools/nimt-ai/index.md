@@ -37,7 +37,7 @@ Eight: ChatGPT, ChatGPT Search, Microsoft Copilot, Google AI Mode, Google AI Ove
 **Does Nimt publish content automatically?**
 No. The agent drafts content, page fixes, and outreach, and you approve changes before anything is applied. It can also take on recurring jobs and report back in the app or Slack.
 
-- **Pricing:** From $79/mo
+- **Pricing:** From €79/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Sweden
 - **API:** Yes
@@ -73,7 +73,7 @@ Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-GEO & LLM Optimization · From $79/mo Desk-reviewed
+GEO & LLM Optimization · From €79/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 

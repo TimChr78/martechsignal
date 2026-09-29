@@ -62,7 +62,11 @@ def pricing_label(t):
     if m == "enterprise": return "Enterprise"
     p = t.get("price_from")
     if p == 0: return "Free tier"
-    if p: return f"From ${p}/mo"
+    # r13 H-2 (2026-09-29): render the symbol from record.currency (7 EUR
+    # pages shipped "$224" in hero chip + sidebar while verdicts said EUR).
+    if p:
+        _sym = "\u20ac" if str(t.get("currency") or "").upper() == "EUR" else "$"
+        return f"From {_sym}{p}/mo"
     return "Paid"
 
 # ── SEO title / meta template (CTR-optimized, ≤60 / ≤155) ──────────
@@ -1009,6 +1013,13 @@ def _offer_for(t):
         return {"@type": "Offer", "price": price, "priceCurrency": _cur,
                 "url": _url, "priceValidUntil": _pvu}
     if _paid:
+        # r13 H-2(c) (2026-09-29): freemium pages whose headline says "Free"
+        # carry both tiers as an offers array (free entry + paid entry), so
+        # the machine-readable graph matches the visible positioning. Single
+        # paid-tier tools keep the single Offer (price: 0 alone on those
+        # would contradict their own quoted price, A3 M-1).
+        if _pf == 0 and str(t.get("pricing_model") or "").lower() == "freemium":
+            return [_offer(0), _offer(_paid)]
         return _offer(_paid)
     if _pf is not None and _pf > 0:
         return _offer(_pf)

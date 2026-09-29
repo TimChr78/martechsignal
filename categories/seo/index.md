@@ -34,7 +34,7 @@ Open SourceDesk-reviewedOSS
 
 AI Search Intelligence platform for brands and agencies
 
-From $79/moDesk-reviewed
+From €79/moDesk-reviewed
 
 CRAWLfind what breaks
 

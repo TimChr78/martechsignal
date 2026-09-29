@@ -223,13 +223,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-14",
     "datePublished": "2026-07-27",
-    "offers": {
-      "@type": "Offer",
-      "price": 120,
-      "priceCurrency": "USD",
-      "url": "https://www.twilio.com/en-us/pricing/customer-data",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.twilio.com/en-us/pricing/customer-data",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 120,
+        "priceCurrency": "USD",
+        "url": "https://www.twilio.com/en-us/pricing/customer-data",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

@@ -34,7 +34,7 @@ Brand performance in ChatGPT, Perplexity, AI Overviews and AI Mode: average rank
 **Do I pay extra for team members?**
 No. AccuRanker states that all current plans include unlimited users. Enterprise additionally includes unlimited domains.
 
-- **Pricing:** From $224/mo
+- **Pricing:** From €224/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Aarhus, Denmark
 - **API:** Yes
@@ -70,7 +70,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
-GEO & LLM Optimization · From $224/mo Desk-reviewed
+GEO & LLM Optimization · From €224/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-25
 

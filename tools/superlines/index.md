@@ -26,7 +26,7 @@ Superlines starts at €79/mo. Starter €79/mo (3 engines, 50 prompts, 1 brand,
 **Is Superlines worth paying for in 2026?**
 A GEO analytics layer for the AI-search era: real-interface collection, MCP access and agency-grade multi-brand support, priced from €79 per month.
 
-- **Pricing:** From $79/mo
+- **Pricing:** From €79/mo
 - **Category:** [SEO & Search](/categories/seo/)
 - **Founded:** 2023
 - **HQ:** Helsinki, Finland
@@ -69,7 +69,7 @@ Re-check pending: pricing last verified 2026-09-07 (22 days ago).
 
 AI Search Intelligence platform for brands and agencies
 
-SEO & Search · From $79/mo Desk-reviewed
+SEO & Search · From €79/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
 

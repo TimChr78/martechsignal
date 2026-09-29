@@ -3,12 +3,12 @@
 
 | Tool | Pricing | Public API | Verdict |
 | --- | --- | --- | --- |
-| [Nimt.ai](/tools/nimt-ai/) | From $79/mo | yes | Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits. |
-| [OtterlyAI](/tools/otterlyai/) | From $29/mo | yes | Teams starting GEO measurement at an entry price |
+| [Nimt.ai](/tools/nimt-ai/) | From €79/mo | yes | Best for teams that want tracking across 8 AI models plus an agent that writes, fixes and outreaches, starting from EUR 40 in credits. |
+| [OtterlyAI](/tools/otterlyai/) | From €29/mo | yes | Teams starting GEO measurement at an entry price |
 | [Trakkr](/tools/trakkr/) | From $100/mo | yes | Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo. |
 | [Writesonic](/tools/writesonic/) | From $79/mo | yes | Best for content teams that want AI search visibility tracking in the same platform that drafts the content. |
 | [Profound](/tools/profound/) | Enterprise | yes | Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract. |
-| [Rankscale](/tools/rankscale/) | From $99/mo | yes | Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo. |
+| [Rankscale](/tools/rankscale/) | From €99/mo | yes | Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo. |
 | [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) | Enterprise | no | Best for teams that want LLM visibility management inside Adobe Experience Cloud, priced by quote. |
 | [Evertune](/tools/evertune/) | From $800/mo | no | Best for teams that want 100,000 prompts tracked across 11 models with content activation, from $800/mo on the Pro plan. |
 | [Scrunch](/tools/scrunch/) | From $250/mo | yes | Best for brands that want measurement and AI-crawler readiness in one product. |

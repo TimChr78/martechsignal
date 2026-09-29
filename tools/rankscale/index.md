@@ -40,7 +40,7 @@ Pro includes a seven-day trial with no charge until day seven. Yearly billing sa
 **Where is Rankscale based?**
 Rankscale GmbH builds the product in Vienna, Austria. Its customer logo wall includes Bosch, UBS, Cartier and Otto.
 
-- **Pricing:** From $99/mo
+- **Pricing:** From €99/mo
 - **Category:** [GEO & LLM Optimization](/categories/geo-llm-visibility/)
 - **HQ:** Vienna, Austria
 - **API:** Yes
@@ -80,7 +80,7 @@ German SEO suite built on the Visibility Index, with AI-answer and Amazon analys
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
-GEO & LLM Optimization · From $99/mo Desk-reviewed
+GEO & LLM Optimization · From €99/mo Desk-reviewed
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
 

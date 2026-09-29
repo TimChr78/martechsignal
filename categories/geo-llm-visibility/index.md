@@ -10,11 +10,11 @@ From $250/moDesk-reviewed
 
 AI search monitoring for brand mentions and citations across ChatGPT and AI Overviews
 
-From $29/moDesk-reviewed
+From €29/moDesk-reviewed
 
 AI visibility tracking across 17+ answer engines for agencies and enterprise teams
 
-From $99/moDesk-reviewed
+From €99/moDesk-reviewed
 
 AI visibility platform for brands and agencies: citations, perception, competitors
 
@@ -26,7 +26,7 @@ From $800/moDesk-reviewed
 
 AI search tracking across 8 models with an agent that writes, fixes, and outreaches
 
-From $79/moDesk-reviewed
+From €79/moDesk-reviewed
 
 The AI Search Growth Engine: GEO tracking, AI articles, and site audits in one platform
 
@@ -34,15 +34,15 @@ From $79/moDesk-reviewed
 
 Daily keyword rank tracking with AccuLLM visibility data for ChatGPT, Perplexity and AI Overviews
 
-From $224/moDesk-reviewed
+From €224/moDesk-reviewed
 
 Rank tracking across Google and AI answers, priced by keyword with unlimited seats
 
-From $79/moDesk-reviewed
+From €79/moDesk-reviewed
 
 German SEO suite built on the Visibility Index, with AI-answer and Amazon analysis
 
-From $119/moDesk-reviewed
+From €119/moDesk-reviewed
 
 Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
 

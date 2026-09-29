@@ -183,13 +183,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-13",
     "datePublished": "2026-07-27",
-    "offers": {
-      "@type": "Offer",
-      "price": 49,
-      "priceCurrency": "USD",
-      "url": "https://www.copy.ai/prices",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.copy.ai/prices",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 49,
+        "priceCurrency": "USD",
+        "url": "https://www.copy.ai/prices",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

@@ -871,6 +871,38 @@ def test_best_verdict_price_claims_are_catalog_backed():
     assert not bad, f"verdict prices not in price_notes: {bad}"
 
 
+def test_pricing_symbols_follow_record_currency():
+    """r13 H-2 (2026-09-29): hero chip + sidebar + pricing cells render the
+    symbol from record.currency (7 EUR pages shipped "$" while verdicts
+    said EUR). pricing_label is the single source for all three."""
+    import re as _re
+    bad = []
+    for slug in ("accuranker", "nightwatch", "nimt-ai", "otterlyai",
+                 "rankscale", "sistrix", "superlines"):
+        html = (ROOT / "tools" / slug / "index.html").read_text()
+        # Scope to the audit's defect: hero chip + pricing sidebar row.
+        # Prose quotes from price_notes (catalog-faithful $ mentions) are
+        # out of scope — only the currency-stamped summary elements count.
+        zones = _re.findall(r'<p class="count">.*?</p>', html, _re.S)
+        zones += _re.findall(r"<dt>Pricing</dt><dd>.*?</dd>", html, _re.S)
+        for z in zones:
+            if _re.search(r"\$[0-9]", z):
+                bad.append((slug, z[:60]))
+    assert not bad, f"$ amounts in chip/sidebar on EUR pages: {bad[:4]}"
+
+
+def test_freemium_pages_carry_both_offer_tiers():
+    """r13 H-2(c) (2026-09-29): freemium pages with a free entry tier expose
+    an offers array containing price 0 AND the paid entry (HubSpot showed
+    only USD 20 while the headline says Free CRM)."""
+    import json as _j
+    import re as _re
+    html = (ROOT / "tools" / "hubspot-crm" / "index.html").read_text()
+    prices = sorted({m.group(1) for m in
+                     _re.finditer(r'"price":\s*([0-9.]+)', html)})
+    assert "0" in prices and "20" in prices, f"hubspot offer prices: {prices}"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta
