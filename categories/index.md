@@ -88,7 +88,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 14 categories across the 163-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 13 categories plus a cross-cutting open-source index across the 163-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content & Copywriting](/categories/content-ai/)
 
@@ -155,7 +155,7 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
   "@type": "CollectionPage",
   "name": "Categories",
   "url": "https://martechsignal.com/categories/",
-  "description": "All 14 tool categories in the MartechSignal directory.",
+  "description": "All 13 tool categories plus an open-source index in the MartechSignal directory.",
   "hasPart": [
     {
       "@type": "WebPage",

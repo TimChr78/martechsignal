@@ -21,6 +21,12 @@ _H9_ENTITY = _h9j.dumps({
          "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"],
          "worksFor": {"@id": "https://martechsignal.com/#organization"},
          "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
+        # r16 M-7 (2026-09-29): every money template references #website via
+        # isPartOf but only 5 pages defined the node (75 dangling refs on 74
+        # pages). The stub joins the shared entity block so it ships on every
+        # page_shell page — same shape as the /checklist/ stub the audit cites.
+        {"@type": "WebSite", "@id": "https://martechsignal.com/#website",
+         "name": "MartechSignal", "url": "https://martechsignal.com/"},
     ],
 })
 _H9_TAG = '<script type="application/ld+json">' + _H9_ENTITY + '</script>'
