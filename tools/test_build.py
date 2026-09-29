@@ -1278,7 +1278,7 @@ def test_money_pages_show_freshness_and_pilot_depth():
             bad_pilot.append((slug, "no screenshots"))
         if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
             bad_pilot.append((slug, "fewer than 3 question H2s"))
-    assert not bad, f"pilot gaps: {bad_pilot}"
+    assert not bad_pilot, f"pilot gaps: {bad_pilot}"
 
 
 def test_volume_pricing_rows_are_derived_not_quoted():

@@ -22,7 +22,9 @@
 | Free tier | Community Edition self-hosted, free and unlimited (fair-code) | 100 tasks per month, 2-step Zaps |
 | Entry paid | Cloud Starter 20 EUR/mo billed annually (2.5K executions) | Professional from $19.99/mo |
 | At 10K tasks/mo | Self-hosted: the server and your time. Cloud: executions above plan quota cost extra, so check the current add-on price before you buy. | Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung. |
-| Checked | 2026-09-27 | 2026-09-27 |
+| At 100K tasks/mo | Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n. | Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung. |
+| At 1M tasks/mo | Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server. | Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists. |
+| Checked | 2026-09-29 | 2026-09-29 |
 
 - **Pick n8n if:** Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.
 - **Pick Zapier if:** Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.
@@ -57,7 +59,7 @@ Zapier
 
 ## Priced at volume
 
-Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 on vendor pricing pages.
+Cost picture at 10K, 100K and 1M automation tasks per month (derived from published rates, not quoted; checked 2026-09-29). All figures checked 2026-09-29 on vendor pricing pages.
 
 ## Positioning
 
