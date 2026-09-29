@@ -44,17 +44,13 @@ SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
 AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
-
-Growth Lab
-
-Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-
-Diffmode Growth Tactics
-
-Free Claude Code/Codex pipeline that mines case studies and rejects obvious growth plays
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

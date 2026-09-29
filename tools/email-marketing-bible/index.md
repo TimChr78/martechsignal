@@ -39,6 +39,10 @@ Eve Marketing Team Template
 
 Open-source team of marketing agents on eve: lead, content, social, SEO, email
 
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
 SEO Skill Bench
 
 Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
@@ -46,10 +50,6 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 Aaron Marketing Skills
 
 120 marketing skills across 7 disciplines for Claude Code with auditor gates
-
-Resend
-
-Developer-first email API built around React Email, batch sending, and agent tooling
 
 Analytics Tracking Automation
 

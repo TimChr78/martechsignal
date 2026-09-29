@@ -83,7 +83,7 @@ The insertion order was written for humans because only humans could read a prop
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -92,7 +92,7 @@ The insertion order was written for humans because only humans could read a prop
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [ManyChat](/tools/manychat/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -144,7 +144,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1538,
+  "wordCount": 1536,
   "articleSection": "advertising"
 }
 ```

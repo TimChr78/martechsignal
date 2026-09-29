@@ -103,8 +103,8 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
@@ -123,7 +123,7 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
+More from the directory: [OpenOutreach](/tools/openoutreach/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

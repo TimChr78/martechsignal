@@ -1154,3 +1154,22 @@ def test_mobile_nav_has_swipe_cue():
     css = (ROOT / "style.css").read_text()
     assert "mask-image:linear-gradient(90deg,#000 92%,transparent)" in css, \
         "mobile nav swipe cue missing"
+
+
+def test_skill_packs_live_under_tools():
+    """r10 H-6 (2026-09-29): the two skill packs are tool records under
+    /tools/ (Agent Skill kind label), not tool-template pages under
+    /guides/. Old URLs stay alive via 301."""
+    import json as _json
+    tools = _json.loads((ROOT / "tools" / "tools.json").read_text())
+    guides = _json.loads((ROOT / "tools" / "guides.json").read_text())
+    assert guides == [], "guides.json should be empty after the re-home"
+    for slug in ("ai-marketing-claude", "digital-marketing-pro"):
+        rec = [t for t in tools if t["slug"] == slug]
+        assert rec and rec[0].get("kind") == "Agent Skill", f"{slug} not a tool record"
+        html = (ROOT / "tools" / slug / "index.html").read_text()
+        assert "kind-note" in html, f"/tools/{slug}/ missing kind label"
+        assert not (ROOT / "guides" / slug).exists(), f"stale /guides/{slug}/ output"
+    redir = (ROOT / "_redirects").read_text()
+    for slug in ("ai-marketing-claude", "digital-marketing-pro"):
+        assert f"/guides/{slug}/ /tools/{slug}/ 301" in redir, f"301 missing for {slug}"

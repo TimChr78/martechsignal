@@ -9432,5 +9432,117 @@
     ],
     "date_updated": "2026-09-28",
     "date_verified": "2026-09-28"
+  },
+  {
+    "slug": "ai-marketing-claude",
+    "name": "AI Marketing Suite",
+    "tagline": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
+    "website": "https://github.com/zubair-trabzada/ai-marketing-claude",
+    "category": "agent-skills",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free. Optional pip install reportlab for PDF output. Claude API costs apply.",
+    "ai_features": [
+      "15 marketing skills with 5 parallel subagents",
+      "Full website marketing audit with 0-100 scoring",
+      "AI copywriting with before/after examples",
+      "Email sequence and content calendar generation",
+      "Client-ready PDF report generation"
+    ],
+    "integrations": [
+      "Claude Code"
+    ],
+    "github_repo": "zubair-trabzada/ai-marketing-claude",
+    "github_stars": 2628,
+    "open_source": true,
+    "api_available": false,
+    "founded": 2025,
+    "status": "active",
+    "date_added": "2026-07-31",
+    "date_updated": "2026-09-28",
+    "description": "AI Marketing Suite is a 15-skill pack for Claude Code aimed at solopreneurs and agency builders who want to sell marketing services. You type /market audit https://example.com and five parallel agents analyze content and messaging, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. Each gets a 0-100 score. The whole thing takes a couple of minutes and outputs a structured Markdown report. Add pip install reportlab and you get a client-ready PDF.\n\nThe 15 commands cover the freelance marketing toolkit: /market copy generates optimized copy with before/after examples, /market emails builds complete email sequences, /market social produces a 30-day content calendar, /market ads writes ad creative for all platforms, /market funnel analyzes conversion paths, /market competitors runs competitive intelligence, /market landing does CRO analysis, /market launch builds a product launch playbook, and /market proposal generates client proposals. It's built for the person who just landed a marketing client and needs to deliver an audit by Friday.\n\nSetup is a one-line curl install or a git clone. The architecture is straightforward: one orchestrator SKILL.md routes commands to 14 sub-skills, and 5 parallel subagents handle the audit dimensions. No external dependencies beyond Claude Code itself, unless you want PDF output.\n\nThe limitation is depth. Fifteen skills is a survey, not a specialization. The SEO audit won't match Claude SEO's 25 sub-skills and 18 agents. The ad copy won't match Claude Ads' 250+ platform-specific checks. But for a generalist who needs to audit a website, write some copy, build an email sequence, and hand over a PDF report, this does the job in one install. The repo was last pushed in March 2026, so it's not as actively maintained as some alternatives. The author also ships companion packs for ads (ai-ads-claude) and sales (ai-sales-team-claude) if you want to go deeper on those verticals.",
+    "seo_description": "AI Marketing Suite: 15-skill marketing suite for Claude Code with parallel agents and PDF reports. Open source & free to self-host.",
+    "deep_dive": {
+      "hands_on": [
+        "Type /market audit with a URL and five parallel agents score content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust, each out of 100, and return a structured report in minutes. Add reportlab and the same run produces a client-ready PDF. For freelancers and small agencies this compresses a paid audit into an afternoon, and the consistency is repeatable across prospects. The pack ships 15 commands, with /market copy earning its keep daily.",
+        "The caveat: the 0-100 scores are heuristics from the agents, not measured benchmarks, so the report needs a human read before it goes to a prospect. Output quality tracks whatever model you run, and brand-specific nuance still requires edits. It is open-source, so you can tighten the scoring prompts to your own methodology. Audit outputs win clients, but a steady feed of on-brand copy is what keeps them.",
+        "The parallel-agent design is the interesting engineering choice here. Five specialists scoring one site in a single pass keeps the audit internally consistent, because each agent reads the same snapshot instead of five separate crawls taken days apart. It also caps the ceiling: the scores are only as sharp as the five rubrics behind them, and those ship as editable prompts rather than tuned models.",
+        "The writing side is quieter than the audit but steadier. /market copy and its sibling commands generate campaign drafts from the same model context the audit established, so the research does not have to be retyped into every prompt. For a solo operator that continuity is most of the value. The 15 commands cover the recurring marketing chores rather than one hero workflow.",
+        "The PDF path deserves one line. Add reportlab and the same run emits a document a client can forward internally, which changes who the output is for: a chat log is for you, a PDF is for the buying committee. For freelancers who sell audits, that packaging step is often the difference between a tool and an offer.",
+        "Being MIT-licensed means the rubrics are editable. When the 0-100 audit scores drift from what you would actually tell a client, the fix is a prompt edit rather than a support ticket. Keep a copy of your edits when the pack updates so your methodology survives upstream changes.",
+        "One honest limit before adopting it for client work. The audit scores come from prompt rubrics, and two runs on an unchanged site can land a few points apart. Present the output as an assessment with stated criteria rather than a measurement, and the variance stops being a credibility problem. The report is strongest where it names specific pages and quotes specifics, which is exactly the part worth keeping after your own read.",
+        "The five audit pillars map cleanly onto what prospects ask for in an initial call: content, conversion optimization, SEO and discoverability, competitive positioning, and brand trust. That mapping is the pitch's quiet strength. The report answers the questions a buyer already has, in the order they ask them, which is why the output converts better than a generic technical audit nobody requested.",
+        "On the 0-100 scale, the honest framing is calibration, not measurement. The scores rank pages against each other and track movement over time more reliably than they compare two different sites. Use them to show a before-and-after and to prioritize which section to fix first. Presenting a 71 as an objective grade invites an argument the number cannot win.",
+        "A sensible first week is small by design. Run the audit on your own site, read every line of the report once, and rewrite the two sections you disagree with. That pass teaches you the rubrics faster than any documentation, and the site you know best is the one where you will spot soft judgment immediately. Client work comes after that read.",
+        "Running costs stay low by design. The pack is MIT-licensed with no seat fees, reportlab is optional and free, and the only recurring bill is model usage at your provider's rates. A full five-agent audit is one of the heavier runs in the suite, so price it like a research call rather than a keystroke. Against a day of manual review, most solo operators find that an easy trade.",
+        "The clearest signal after a month is whether the reports survive your own edits untouched. Forwarding output to a prospect with light changes means the suite is earning its place. When every section needs rewriting, the rubrics want the prompt-level tune-up the license allows."
+      ],
+      "verdict": "Best as a proposal-generation engine for agencies selling audits. For steady content work, the writing skills are the lasting value.",
+      "best_for": "Freelancers and small agencies selling paid audits who want a repeatable first draft, and solo operators who want research and copy to share one context.",
+      "not_for": "Larger teams with existing audit tooling. Five fixed rubrics are a starting point, and an established practice will want to tune them before anything reaches a client.",
+      "requirements": "Claude Code and a model with room for parallel subagents in one session. PDF output needs the optional reportlab install. The pack is MIT-licensed and free; API usage is billed by your provider."
+    },
+    "license": "MIT",
+    "kind": "Agent Skill"
+  },
+  {
+    "slug": "digital-marketing-pro",
+    "name": "Digital Marketing Pro",
+    "tagline": "163-skill AI marketing plugin for agencies with EU AI Act compliance",
+    "website": "https://github.com/indranilbanerjee/digital-marketing-pro",
+    "category": "agent-skills",
+    "pricing_model": "open-source",
+    "price_from": 0,
+    "price_notes": "Free, MIT-licensed. Runs on Claude Code, Codex, Cursor, Copilot CLI, and 35+ agent platforms.",
+    "ai_features": [
+      "163 skills with 24 specialist agents",
+      "12-Part Strategy Flow with Four Core Documents",
+      "EU AI Act Article 50 compliance (C2PA, AI disclosure)",
+      "Cowork team-persistent state",
+      "61-step engagement structure per brand"
+    ],
+    "integrations": [
+      "Claude Code",
+      "Anthropic Cowork",
+      "OpenAI Codex",
+      "Cursor",
+      "GitHub Copilot CLI",
+      "Google Antigravity",
+      "Hermes Agent",
+      "OpenClaw"
+    ],
+    "github_repo": "indranilbanerjee/digital-marketing-pro",
+    "github_stars": 837,
+    "open_source": true,
+    "api_available": true,
+    "founded": 2025,
+    "status": "active",
+    "date_added": "2026-07-31",
+    "date_updated": "2026-09-28",
+    "description": "Digital Marketing Pro is the heaviest skill pack in this category: 163 skills, 24 specialist agents, 18 commands, and 86 scripts. It's built for agencies and in-house teams managing 50-200 brands. The core workflow is a 12-Part Strategy Flow that produces Four Core Documents per brand, following a 61-step structure. Run /digital-marketing-pro:engagement against a brand and you get a full strategy engagement in roughly 60 minutes on an Opus-class model. The pitch is consistency: same depth, same structure, same audit trail across your entire portfolio, whether you have 3 brands or 200.\n\nThe compliance angle is what makes this interesting for agencies operating in regulated markets. Version 3.31.1 (August 2026) ships EU AI Act Article 50 readiness, including C2PA content provenance and an --ai-disclosure flag for generated content. The v3.15.0 release before it purged fictional npm packages, added uniform typed-approval gates across all 18 execution skills, and consolidated agents from 25 to 24. The changelog reads like someone who takes reliability seriously. over 400 stdlib tests pass. A 16-reader audit fleet re-verified all 530 files against July 2026 ground truth and shipped roughly 250 fixes.\n\nIt installs on eight native platforms (Claude Code, Cowork, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw) plus 35 more via the Agent Skills open standard. The Cowork integration means team-persistent state: your brand documents and strategy context survive across sessions and team members. That's a real workflow feature, not a checkbox.\n\nThe trade-off is complexity. 163 skills is a lot to learn. The README opens with a scenario about a 50-brand client and a bleeding budget, which tells you the intended user: someone who already knows marketing strategy and wants to scale its execution. If you're a solo freelancer auditing one website, AI Marketing Suite's 15 commands will get you there faster. If you're an agency that needs auditable, compliant, consistent strategy work across a portfolio, this is the only skill pack built for that.",
+    "seo_description": "Digital Marketing Pro: 163-skill AI marketing plugin for agencies with EU AI Act compliance. Open source & free to self-host.",
+    "deep_dive": {
+      "hands_on": [
+        "Digital Marketing Pro is a skill pack for Claude-class agents covering campaign planning and channel strategy prompts. Loading it gives an agent structured planning frameworks rather than integrations - nothing connects to ad accounts directly. Value depends entirely on how much rigour your bare prompting lacks.",
+        "Useful if your agent sessions drift without structure; experienced strategists may find it constraining. Check whether the frameworks match how your team already plans.",
+        "The 12-Part Strategy Flow is the spine of the pack. It walks an agent from market context through channel planning to a four-document output set, so a planning session ends with artifacts instead of a chat transcript. Teams that already run a documented planning process will recognize the stages. The pack simply encodes them as prompts an agent can execute in order.",
+        "The EU AI Act compliance piece is documentation tooling: checklists and disclosure templates rather than legal advice. Treat it as a drafting head start that counsel still reviews before anything ships. For agencies with EU clients that paperwork is real recurring work, and starting from a first draft instead of a blank page is the part clients actually feel.",
+        "Platform breadth is the other half of the pitch. The same pack loads into Claude Code, Codex, Cursor, and GitHub Copilot CLI, so a mixed-tooling shop does not have to standardize before adopting it. Prompts do behave differently across models, though. Budget an afternoon per platform to see which of the 163 skills hold up on your stack before promising the coverage internally.",
+        "Maintenance is the quiet cost nobody prices. A 163-skill library is a library: skills drift as models change, and someone has to own the review loop. In practice one person spending an hour a month reading what the agents produced is enough to catch a skill that has gone stale against your methodology.",
+        "One honest limit worth stating before anyone buys into the breadth. A skill pack improves the shape of what an agent produces; it does not add data the agent cannot see. The strongest results in any planning session will still come from feeding the pack real inputs: your funnel numbers, your actual creative, the competitor set you really face. The frameworks organize that material. They do not replace it.",
+        "Where the pack clearly earns its keep is consistency across people. When a junior and a twenty-year strategist run the same 12-part flow, the outputs are comparable, and comparability is what makes review possible at agency speed. That is a quality-of-work argument more than a speed argument, and it is the one to make internally if adoption needs a champion.",
+        "The four core documents that anchor the strategy flow are the part worth previewing before you commit. Roughly: a market read, a positioning statement, a channel plan, and a measurement frame. Each document feeds the next, so skipping one to save time tends to surface later as a channel plan with nothing to prove against. The chain is the product. The individual prompts are replaceable.",
+        "On cost, the framing is simple: the pack is free and MIT-licensed, and every token it consumes is billed by whoever provides your model. Compare that to per-seat planning software and the math favors heavy users first. Light users should run a single project through the flow before deciding, because the value shows up in artifacts, not in the session log.",
+        "A sensible week-one rollout is narrower than the library suggests. Pick the strategy flow plus the two or three channel skills that match live work, run one real project end to end, and only then widen. Teams that install 163 skills at once tend to spend the first month learning the library instead of finishing the campaign that justified it.",
+        "Organizationally, the pack wants a named owner. The skills run anywhere, but somebody has to decide which four documents are canonical this quarter and who signs the positioning statement before it reaches a client. Shops that treat the library as shared infrastructure with one maintainer keep the value. Shops that treat it as a download drift back to bare prompting within a month, and unstructured drift is exactly the problem the pack was bought to solve.",
+        "The clearest adoption signal to watch in month one is document reuse. When the second project starts from last quarter's four documents instead of a blank prompt, the library is doing its job. If nothing is ever reused, the framework tax is not paying for itself."
+      ],
+      "verdict": "Reasonable scaffolding for agent-run campaign planning; brings process, not magic.",
+      "best_for": "Agencies that want one planning methodology shared across every seat and every agent platform, especially shops with EU clients who need disclosure documents as a starting point.",
+      "not_for": "Teams that need live data inside their planning. Nothing in the pack connects to an ad account or an analytics property, so the frameworks run on whatever context you paste in.",
+      "requirements": "An agent CLI from the supported platform list and a Claude-class model with enough context for long planning sessions. The pack itself is free and MIT-licensed; model and platform costs remain yours."
+    },
+    "license": "MIT",
+    "kind": "Agent Skill"
   }
 ]

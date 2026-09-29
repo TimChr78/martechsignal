@@ -274,7 +274,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
       "name": "CRM Tools",
       "description": "CRM systems across the hosted and self-hosted range: per-seat economics, data hygiene, and AI scoring. 24 tools reviewed.",
       "numberOfItems": 24,
-      "dateModified": "2026-09-28",
+      "dateModified": "2026-09-29",
       "itemListElement": [
         {
           "@type": "ListItem",

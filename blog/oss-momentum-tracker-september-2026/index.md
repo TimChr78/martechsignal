@@ -112,8 +112,8 @@ We will refresh the tracker as the catalog snapshots accumulate. If a project in
 - [PostHog](/tools/posthog/) - Open-source product analytics platform with session replay, feature flags, experiments, and surveys
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [DMP](/glossary/dmp/)

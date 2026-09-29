@@ -43,17 +43,17 @@ AI Business Skills
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
+Digital Marketing Pro
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
 Growth Lab
 
 Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 
-OpenClaw Marketing Skills
+Open Mercato
 
-37 marketing skills for OpenClaw agents with live data connectors
-
-Zapier GTM Cheat Codes
-
-Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
+Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 

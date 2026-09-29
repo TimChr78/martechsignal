@@ -71,8 +71,8 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 - [Semrush](/tools/semrush/) - All-in-one SEO and digital marketing platform with AI-powered insights and tools
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 - [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -81,7 +81,7 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

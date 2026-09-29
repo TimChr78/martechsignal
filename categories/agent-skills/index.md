@@ -68,6 +68,14 @@ Zapier's installable coding-agent skills for GTM: campaign planning, CRM context
 
 Open SourceDesk-reviewedOSS
 
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
+Open SourceDesk-reviewedOSS
+
+163-skill AI marketing plugin for agencies with EU AI Act compliance
+
+Open SourceDesk-reviewedOSS
+
 INSTALLclone + load into agent
 
 **
@@ -137,9 +145,9 @@ Why agent-to-tool protocols change what integrations should cost
 - Agent Skills
 ## Agent Skills Tools
 
-Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 16 reviewed.
+Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.
 
-16 TOOLS IN THIS CATEGORY
+18 TOOLS IN THIS CATEGORY
 
 ### Aaron Marketing Skills
 
@@ -172,6 +180,10 @@ Agent skills and MCP tools for coding agents: what each package automates in a m
 ### OpenClaw Marketing Skills
 
 ### Zapier GTM Cheat Codes
+
+### AI Marketing Suite
+
+### Digital Marketing Pro
 
 **Compare:** [Claude SEO vs Semrush](/vs/claude-seo-vs-semrush/) · [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) · [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 
@@ -220,8 +232,8 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
     {
       "@type": "ItemList",
       "name": "Agent Skills Tools",
-      "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 16 reviewed.",
-      "numberOfItems": 16,
+      "description": "Agent skills and MCP tools for coding agents: what each package automates in a marketing workflow. 18 reviewed.",
+      "numberOfItems": 18,
       "dateModified": "2026-09-29",
       "itemListElement": [
         {
@@ -252,6 +264,18 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
           "@type": "ListItem",
           "position": 3,
           "item": {
+            "@id": "https://martechsignal.com/tools/ai-marketing-claude/#app",
+            "name": "AI Marketing Suite",
+            "description": "15-skill marketing suite for Claude Code with parallel agents and PDF reports",
+            "image": "https://martechsignal.com/og/tools/ai-marketing-claude.png",
+            "url": "https://martechsignal.com/tools/ai-marketing-claude/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
             "@id": "https://martechsignal.com/tools/analytics-tracking-automation/#app",
             "name": "Analytics Tracking Automation",
             "description": "AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live",
@@ -262,7 +286,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 4,
+          "position": 5,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-ads/#app",
             "name": "Claude Ads",
@@ -274,7 +298,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 5,
+          "position": 6,
           "item": {
             "@id": "https://martechsignal.com/tools/claude-seo/#app",
             "name": "Claude SEO",
@@ -286,7 +310,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 6,
+          "position": 7,
           "item": {
             "@id": "https://martechsignal.com/tools/codex-seo/#app",
             "name": "Codex SEO",
@@ -298,7 +322,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 7,
+          "position": 8,
           "item": {
             "@id": "https://martechsignal.com/tools/diffmode-growth-tactics/#app",
             "name": "Diffmode Growth Tactics",
@@ -310,7 +334,19 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 8,
+          "position": 9,
+          "item": {
+            "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
+            "name": "Digital Marketing Pro",
+            "description": "163-skill AI marketing plugin for agencies with EU AI Act compliance",
+            "image": "https://martechsignal.com/og/tools/digital-marketing-pro.png",
+            "url": "https://martechsignal.com/tools/digital-marketing-pro/",
+            "@type": "SoftwareApplication"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
           "item": {
             "@id": "https://martechsignal.com/tools/email-marketing-bible/#app",
             "name": "Email Marketing Bible",
@@ -322,7 +358,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 9,
+          "position": 11,
           "item": {
             "@id": "https://martechsignal.com/tools/eve-marketing-team/#app",
             "name": "Eve Marketing Team Template",
@@ -334,7 +370,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 10,
+          "position": 12,
           "item": {
             "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#app",
             "name": "Google Ads + Meta Ads + GA4 MCP",
@@ -346,7 +382,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 11,
+          "position": 13,
           "item": {
             "@id": "https://martechsignal.com/tools/growth-lab/#app",
             "name": "Growth Lab",
@@ -358,7 +394,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 12,
+          "position": 14,
           "item": {
             "@id": "https://martechsignal.com/tools/marketing-studio/#app",
             "name": "Marketing Studio",
@@ -370,7 +406,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 13,
+          "position": 15,
           "item": {
             "@id": "https://martechsignal.com/tools/open-mercato/#app",
             "name": "Open Mercato",
@@ -382,7 +418,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 16,
           "item": {
             "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#app",
             "name": "OpenClaw Marketing Skills",
@@ -394,7 +430,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 17,
           "item": {
             "@id": "https://martechsignal.com/tools/seo-skill-bench/#app",
             "name": "SEO Skill Bench",
@@ -406,7 +442,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 18,
           "item": {
             "@id": "https://martechsignal.com/tools/zapier-gtm-cheat-codes/#app",
             "name": "Zapier GTM Cheat Codes",

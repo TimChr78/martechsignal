@@ -14,7 +14,8 @@
 # L15 (r9, 2026-09-28): slug now matches the title; keep the old URL alive.
 /blog/what-claude-seo-replaces/  /blog/what-free-seo-audit-replaces/  301
 
-# r6 M-2 (2026-09-27): topic pages live under /guides/, outside the /tools/ taxonomy
-/tools/ai-marketing-claude/ /guides/ai-marketing-claude/ 301
-/tools/digital-marketing-pro/ /guides/digital-marketing-pro/ 301
+# r6 M-2 (2026-09-27) reversed r10 H-6 (2026-09-29): the two skill packs were
+# tool records and now live under /tools/; these redirects preserve old links.
+/guides/ai-marketing-claude/ /tools/ai-marketing-claude/ 301
+/guides/digital-marketing-pro/ /tools/digital-marketing-pro/ 301
 /blog/claude-seo-vs-semrush/  /blog/what-claude-seo-replaces/  301

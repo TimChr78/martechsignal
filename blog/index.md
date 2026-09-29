@@ -16,7 +16,7 @@ Browse the directory these teardowns draw from:
 
 [Marketing automation](/categories/marketing-automation/) [Workflow automation](/categories/workflow-automation/) [CRM](/categories/crm/) [Analytics](/categories/analytics/) [SEO](/categories/seo/) [Open source](/categories/open-source/)
 
-[NocoBase](/tools/nocobase/) [Amplitude](/tools/amplitude/) [Claude SEO](/tools/claude-seo/) [Segment](/tools/segment/) [Matomo](/tools/matomo/) [AlphOne](/tools/alphone/) [All 161 tools →](/tools/)
+[NocoBase](/tools/nocobase/) [Amplitude](/tools/amplitude/) [Claude SEO](/tools/claude-seo/) [Segment](/tools/segment/) [Matomo](/tools/matomo/) [AlphOne](/tools/alphone/) [All 163 tools →](/tools/)
 
 Before you buy: the [marketing automation checklist](/checklist/) scores your stack on the 12 things that decide whether AI can run any of it.
 
@@ -458,7 +458,7 @@ Before you buy: the [marketing automation checklist](/checklist/) scores your st
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/#webpage", "dateModified": "2026-09-28"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/#webpage", "dateModified": "2026-09-29"}
 ```
 
 ```json

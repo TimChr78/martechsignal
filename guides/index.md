@@ -14,12 +14,8 @@ Start with the problem you have. If AI answers are eating your search traffic, t
 
 Two guides are about how the work gets done. AI SEO tooling collects the benchmarks and head-to-heads where tools were run, with the honest limits stated up front. MCP and agent protocols explains the integration layer underneath agents: what it costs to connect things, where it breaks, and which audits to run first.
 
-The catalog guides are shorter and narrower. The AI Marketing Suite documents a 15-skill pack for Claude Code with parallel agents and PDF reports. Digital Marketing Pro covers a 163-skill AI marketing plugin for agencies, including EU AI Act compliance. Neither is a tool with pricing, which is why they live here instead of in the directory.
-
 Read a guide, then follow it into the catalog. Every guide links the tools, comparisons, and definitions it mentions, and every tool page links back to the guides that cover its category. If something in a guide went stale, the corrections log records the fix.
 
-- [AI Marketing Suite](/guides/ai-marketing-claude/) - 15-skill marketing suite for Claude Code with parallel agents and PDF reports
-- [Digital Marketing Pro](/guides/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Generative Engine Optimization (GEO)](/guides/generative-engine-optimization/) - hub for the AI search visibility work: the five-layer fix, the tooling, and the honest tactics
 - [MCP and agent protocols for marketers](/guides/mcp-agent-protocols/) - the integration economics, the failure modes, and the audits to run first
 - [Workflow automation strategy](/guides/workflow-automation-strategy/) - where AI tools fit, what no-code costs long-term, and how to audit what you own

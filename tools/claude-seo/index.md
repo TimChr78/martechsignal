@@ -80,17 +80,17 @@ Codex SEO
 
 Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 
+AI Marketing Suite
+
+15-skill marketing suite for Claude Code with parallel agents and PDF reports
+
 Claude Ads
 
 Paid-media operations skill for Claude Code covering 12 ad platforms
 
-Growth Lab
+Digital Marketing Pro
 
-Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
-
-SEO Skill Bench
-
-Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
+163-skill AI marketing plugin for agencies with EU AI Act compliance
 
 [More Agent Skills Tools →](/categories/agent-skills/)
 
