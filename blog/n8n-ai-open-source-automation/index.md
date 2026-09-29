@@ -170,8 +170,8 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Related tools
 
@@ -190,7 +190,7 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/) · [Django CRM](/tools/django-crm/) · [Dynamic Yield](/tools/dynamic-yield/) · [Hootsuite](/tools/hootsuite/) · [Hypotenuse AI](/tools/hypotenuse-ai/) · [Krayin CRM](/tools/krayin-crm/) · [Monica](/tools/monica/) · [n8n Marketing Flows](/tools/n8n-marketing-flows/) · [NocoDB](/tools/nocodb/) · [Notifo](/tools/notifo/) · [Paperclip](/tools/paperclip/) · [Persado](/tools/persado/) · [ProspectOS](/tools/prospectos/) · [React Email Editor](/tools/react-email-editor/) · [Resend](/tools/resend/) · [Seonaut](/tools/seonaut/) · [Sprout Social](/tools/sprout-social/) · [Warpdrive](/tools/warpdrive/) · [Writer](/tools/writer/) · [Trakkr](/tools/trakkr/)
+More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/) · [Django CRM](/tools/django-crm/) · [Dynamic Yield](/tools/dynamic-yield/) · [Hootsuite](/tools/hootsuite/) · [Hypotenuse AI](/tools/hypotenuse-ai/) · [Krayin CRM](/tools/krayin-crm/) · [Monica](/tools/monica/) · [n8n Marketing Flows](/tools/n8n-marketing-flows/) · [NocoDB](/tools/nocodb/) · [Notifo](/tools/notifo/) · [Paperclip](/tools/paperclip/) · [Persado](/tools/persado/) · [ProspectOS](/tools/prospectos/) · [React Email Editor](/tools/react-email-editor/) · [Resend](/tools/resend/) · [Seonaut](/tools/seonaut/) · [Sprout Social](/tools/sprout-social/) · [Warpdrive](/tools/warpdrive/) · [Writer](/tools/writer/) · [SuiteCRM](/tools/suitecrm/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

@@ -167,7 +167,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in

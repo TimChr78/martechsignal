@@ -83,12 +83,12 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Related tools
 
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
-- [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
+- [Albert AI](/tools/albert-ai/) - Autonomous AI platform that manages and optimizes digital advertising campaigns
 ## Comparison guides
 
 - [Best n8n alternatives (2026)](/alternatives/n8n/)
@@ -146,7 +146,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1684,
+  "wordCount": 1689,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```
