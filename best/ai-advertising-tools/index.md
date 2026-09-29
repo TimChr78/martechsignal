@@ -22,6 +22,8 @@ Revealbot fits buyers who trust rules they wrote over black boxes. Pencil pairs 
 
 **Our top pick: [Revealbot (Birch)](#revealbot)** — Media buyers that trust rules they wrote more than black boxes [Try Revealbot (Birch)](https://bir.ch)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Nine paid-media tools are catalogued, and eight sit below. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

@@ -20,6 +20,8 @@ Attio suits startups that want a CRM shaped around their own data model. HubSpot
 
 **Our top pick: [Attio](#attio)** — Best for startups that want a CRM shaped around their own data model. [Try Attio](https://attio.com)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Teams shopping for an AI CRM shortlist commercial vendors first, so this page does too. Six CRM suites with real AI features and published pricing are compared below, from the free entry points (HubSpot, Zoho) up to the enterprise default (Salesforce). For the self-hosted side of the market, our open-source CRM list covers that universe instead.
@@ -107,6 +109,18 @@ Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://ww
 **What we could not verify:** custom-object behaviour at scale, and how Freddy scoring holds up on thin data.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
+
+## What is the best free CRM?
+
+HubSpot CRM. The free tier covers contacts, pipeline, and basic automation with no time limit. It is also the natural next step when the free tier starts to bite, since paid tiers unlock from the same account.
+
+## Attio or Pipedrive for a startup?
+
+Attio if you want the CRM shaped around your own data model instead of fixed fields. Pipedrive if your team lives in one pipeline view all day. Both serve small sales teams; the choice is flexible records versus a focused selling screen.
+
+## Which CRM gives the most for the least money?
+
+Zoho CRM. Small teams get a full suite, sales plus marketing plus support, without an enterprise bill. The free tier handles the basics and paid plans stay cheap as you add seats.
 
 ## Get the next teardown
 

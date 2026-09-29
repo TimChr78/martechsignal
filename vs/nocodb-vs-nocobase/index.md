@@ -102,6 +102,8 @@ Neither fits a regulated enterprise data warehouse: both are operational databas
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+Last verified 2026-09-28.
+
 ## Browse the hubs behind this comparison
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)

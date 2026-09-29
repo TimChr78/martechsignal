@@ -20,6 +20,8 @@ n8n suits teams that self-host and want code steps plus AI agents in their workf
 
 **Our top pick: [n8n](#n8n)** — Best for self-hosted workflows with code steps and AI agents. [Try n8n](https://n8n.io)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 This list is for marketing and operations teams buying automation in 2026: moving form submissions into a CRM, syncing campaign data between tools, and wiring AI agents into the same pipelines. The six picks come from the catalog workflow-automation category because automation is their core job, not a feature of an app builder.
@@ -111,6 +113,18 @@ Vendor: [Official site](https://tray.ai) · [Pricing](https://tray.ai/pricing/)
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
+
+## Should I self-host n8n or pay for Zapier?
+
+Self-host n8n if you have a server and want code steps plus AI agent nodes with no per-task bill. Pay for Zapier if you want the widest app coverage and the fastest onboarding. One saves money, the other saves setup time.
+
+## What is the cheapest visual automation tool for a small team?
+
+Make. Its visual builder handles branching logic that Zapier charges more for, and small-team budgets stretch further on its plans. Start on the free tier and check whether your monthly operations fit before you commit.
+
+## Which automation platform suits developers?
+
+Pipedream. Code steps are first-class instead of bolted on, and it exposes MCP endpoints for agent workflows. n8n is the open alternative if your team would rather self-host than pay per execution.
 
 ## Get the next teardown
 

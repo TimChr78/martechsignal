@@ -113,6 +113,8 @@ Skip all three if you are an enterprise already paying for an analytics suite: t
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+Last verified 2026-09-28.
+
 ## Browse the hubs behind this comparison
 
 ## Get the next teardown

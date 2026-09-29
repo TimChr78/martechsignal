@@ -22,6 +22,8 @@ Claude SEO headlines for teams running SEO audits as agent skills. The rest spli
 
 **Our top pick: [Claude SEO](#claude-seo)** — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. [Try Claude SEO](https://claude-seo.md/)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Eighteen agent-skill packs are catalogued; eight are worth installing first. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

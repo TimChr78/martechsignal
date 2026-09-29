@@ -97,6 +97,8 @@ If your question is purely commercial, 'which channel sells', a warehouse-native
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+Last verified 2026-09-28.
+
 ## Browse the hubs behind this comparison
 
 ## Get the next teardown

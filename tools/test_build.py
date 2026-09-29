@@ -1221,3 +1221,27 @@ def test_evidence_citations_resolve_honestly():
                 bad.append((slug, f"relative repo href {href}"))
                 break
     assert not bad, f"evidence citation gaps: {bad[:5]}"
+
+
+def test_money_pages_show_freshness_and_pilot_depth():
+    """r10 H-1 (2026-09-29): every /best/ and /vs/ page shows a visible
+    <time datetime> stamp; the 4 pilot pages additionally carry real product
+    screenshots and question-form H2s."""
+    import re as _re
+    bad_time, bad_pilot = [], []
+    for sub in ("best", "vs"):
+        for idx in (ROOT / sub).glob("*/index.html"):
+            if idx.parent.name == sub:
+                continue
+            html = idx.read_text()
+            if "<time datetime=" not in html:
+                bad_time.append(f"/{sub}/{idx.parent.name}/")
+    assert not bad_time, f"money pages without visible time: {bad_time[:5]}"
+    for slug in ("open-source-crm", "workflow-automation-tools",
+                 "ai-email-marketing-tools", "ai-crm-tools"):
+        html = (ROOT / "best" / slug / "index.html").read_text()
+        if "/og/screenshots/" not in html:
+            bad_pilot.append((slug, "no screenshots"))
+        if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
+            bad_pilot.append((slug, "fewer than 3 question H2s"))
+    assert not bad_pilot, f"pilot gaps: {bad_pilot}"

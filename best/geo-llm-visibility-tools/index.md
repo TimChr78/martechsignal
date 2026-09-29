@@ -23,6 +23,8 @@ Nimt AI leads for teams that want GEO measurement in one platform. OtterlyAI is 
 
 **Our top pick: [Nimt.ai](#nimt-ai)** — Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo. [Try Nimt.ai](https://nimt.ai)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Fourteen GEO and LLM-visibility tools are catalogued; these nine do the clearest job. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

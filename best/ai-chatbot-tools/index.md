@@ -20,6 +20,8 @@ Intercom fits support teams that want AI resolutions they can audit. Chatwoot gi
 
 **Our top pick: [Intercom](#intercom)** — Support teams that want AI resolutions auditable at $0.99 each [Try Intercom](https://www.intercom.com)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Every chatbot tool we track - all six of them - appears below. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

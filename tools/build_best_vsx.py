@@ -30,6 +30,28 @@ from pathlib import Path
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 from build_tools import CATEGORY_GUIDES
 
+
+def _pilot_shot(slug, name):
+    """r10 H-1 pilot (2026-09-29): real product UI screenshot for money-page
+    items, where the og survey shot one. Lazy, sized to the 335px slot, honest
+    alt. Empty string when no shot exists (graceful skip)."""
+    import glob as _glob
+    import os as _os
+    cands = {}
+    for f in _glob.glob(str(ROOT / "og" / "screenshots" / f"{slug}-*.webp")):
+        m = _os.path.basename(f).rsplit("-", 1)[-1].replace(".webp", "")
+        if m.isdigit():
+            cands[int(m)] = f
+    if not cands:
+        return ""
+    src = cands.get(600) or cands[max(cands)]
+    parts = [f"/og/screenshots/{_os.path.basename(cands[w])} {w}w"
+             for w in (480, 600, 800) if w in cands]
+    _set = f' srcset="{" ".join(parts)}"' if parts else ""
+    return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
+            f' alt="{esc(name)} product interface"'
+            f' loading="lazy" width="600" height="315"{_set} sizes="335px">')
+
 BESTX = ROOT / "tools" / "bestx-content.json"
 VSX = ROOT / "tools" / "vsx-content.json"
 BEST_DIR = ROOT / "best"
@@ -117,6 +139,12 @@ def build_best():
             f' &mdash; {esc(items[0]["verdict"])}'
             + (f' <a class="btn-cta" href="{esc(_top_url)}" rel="noopener">Try {esc(_top["name"])}</a>' if _top_url else "")
             + "</p>")
+        # r10 H-1 (2026-09-29): visible freshness stamp (dateModified exists
+        # in JSON-LD but was invisible on every money page).
+        _du = page.get("date_updated", "")
+        if _du:
+            body.append(
+                f'<p class="meta">Last verified <time datetime="{esc(_du)}">{esc(_du)}</time>.</p>')
         body.append('<h2>How we picked</h2>')
         body.extend(_intros)
         body.append(_verify_box)
@@ -152,6 +180,7 @@ def build_best():
             body.append(f"""<section class="best-item" id="{esc(t['slug'])}">
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
   {_tool_fact_img(t)}
+  {_pilot_shot(t["slug"], t["name"]) if page.get("pilot_rebuild") else ""}
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
@@ -163,6 +192,10 @@ def build_best():
             'pricing page as catalogued on the tool page. Browse <a href="/tools/">all '
             f'{len([t for t in tools_by_slug.values() if t.get("status") == "active" and t.get("kind") != "Guide"])} tools</a> '
             'or read <a href="/methodology/">how we evaluate</a>.</p>')
+        # r10 H-1 pilot (2026-09-29): 3 question-form H2s with direct answers
+        # (humanizer-passed, catalog-grounded) on flagged pages only.
+        for _qa in (page.get("pilot_faq") or []):
+            body.append(f'<h2>{esc(_qa["q"])}</h2><p>{esc(_qa["a"])}</p>')
 
         schema = {
             "@context": "https://schema.org",
@@ -331,6 +364,11 @@ def build_vs():
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
                     '<a href="/methodology/">how we evaluate</a>.</p>')
+        # r10 H-1 (2026-09-29): visible freshness stamp on vs pages too.
+        _vdu = page.get("date_updated", "")
+        if _vdu:
+            body.append(
+                f'<p class="meta">Last verified <time datetime="{esc(_vdu)}">{esc(_vdu)}</time>.</p>')
         # r10 H-2 (2026-09-29): vs pages link their tools' hubs too.
         _vs_cats = sorted({t.get("category", "") for t in (a, b) if t} - {""})
         if any(t.get("open_source") for t in (a, b) if t):

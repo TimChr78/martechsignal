@@ -22,6 +22,8 @@ Dynamic Yield fits large commerce operations buying personalization depth. Segme
 
 **Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Eight of the nine personalization and CDP tools made this list. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

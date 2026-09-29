@@ -110,6 +110,8 @@ Neither replaces an analyst. And if you publish fewer than a page a week, a spre
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+Last verified 2026-09-28.
+
 ## Browse the hubs behind this comparison
 
 ## Get the next teardown

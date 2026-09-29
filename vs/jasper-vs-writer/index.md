@@ -112,6 +112,8 @@ Neither fits technical documentation with strict terminology control: determinis
 
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
 
+Last verified 2026-09-28.
+
 ## Browse the hubs behind this comparison
 
 **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)

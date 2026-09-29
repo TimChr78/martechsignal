@@ -50,7 +50,22 @@
       ],
       "date_published": "2026-09-26",
       "date_updated": "2026-09-28",
-      "direct_answer": "Most teams should start with EspoCRM. It is lean, free, and easy to extend piece by piece. SuiteCRM gives you the widest free feature set if you want everything in one box. Twenty fits developers who want a modern codebase to build on. All six self-host free, so the choice comes down to how much assembly you want."
+      "direct_answer": "Most teams should start with EspoCRM. It is lean, free, and easy to extend piece by piece. SuiteCRM gives you the widest free feature set if you want everything in one box. Twenty fits developers who want a modern codebase to build on. All six self-host free, so the choice comes down to how much assembly you want.",
+      "pilot_rebuild": true,
+      "pilot_faq": [
+        {
+          "q": "Which open source CRM is easiest to run?",
+          "a": "EspoCRM. It stays light by default and you add only the automation you need, so a small team can self-host it without hiring admin help. SuiteCRM ships more out of the box if you would rather configure than extend."
+        },
+        {
+          "q": "Is SuiteCRM really free?",
+          "a": "Yes, the software costs nothing to download and run. You still pay for hosting and the time it takes to set it up. Teams that want the widest free feature set pick it for that reason, and paid support exists if you get stuck."
+        },
+        {
+          "q": "What open source CRM works for a Laravel team?",
+          "a": "Krayin. It is built on Laravel, so a PHP team reads the codebase like their own work and extends it without learning a new stack. Frappe CRM plays the same role for shops already running ERPNext."
+        }
+      ]
     },
     {
       "slug": "workflow-automation-tools",
@@ -102,7 +117,22 @@
       ],
       "date_published": "2026-09-26",
       "date_updated": "2026-09-28",
-      "direct_answer": "n8n suits teams that self-host and want code steps plus AI agents in their workflows. Zapier wins on breadth and fast onboarding for niche apps. Make is the budget pick for visual branching in small teams. All three connect thousands of apps, so decide on hosting, price curve, and how much code you want to write."
+      "direct_answer": "n8n suits teams that self-host and want code steps plus AI agents in their workflows. Zapier wins on breadth and fast onboarding for niche apps. Make is the budget pick for visual branching in small teams. All three connect thousands of apps, so decide on hosting, price curve, and how much code you want to write.",
+      "pilot_rebuild": true,
+      "pilot_faq": [
+        {
+          "q": "Should I self-host n8n or pay for Zapier?",
+          "a": "Self-host n8n if you have a server and want code steps plus AI agent nodes with no per-task bill. Pay for Zapier if you want the widest app coverage and the fastest onboarding. One saves money, the other saves setup time."
+        },
+        {
+          "q": "What is the cheapest visual automation tool for a small team?",
+          "a": "Make. Its visual builder handles branching logic that Zapier charges more for, and small-team budgets stretch further on its plans. Start on the free tier and check whether your monthly operations fit before you commit."
+        },
+        {
+          "q": "Which automation platform suits developers?",
+          "a": "Pipedream. Code steps are first-class instead of bolted on, and it exposes MCP endpoints for agent workflows. n8n is the open alternative if your team would rather self-host than pay per execution."
+        }
+      ]
     },
     {
       "slug": "ai-seo-tools",
@@ -299,7 +329,22 @@
       ],
       "date_published": "2026-09-27",
       "date_updated": "2026-09-28",
-      "direct_answer": "OpenOutreach leads for teams that want agent-written openers on their own server. React Email Editor fits developers who version templates as code. SendGrid handles transactional delivery with marketing on the side. Customer.io runs behavior-triggered lifecycle journeys on your own data."
+      "direct_answer": "OpenOutreach leads for teams that want agent-written openers on their own server. React Email Editor fits developers who version templates as code. SendGrid handles transactional delivery with marketing on the side. Customer.io runs behavior-triggered lifecycle journeys on your own data.",
+      "pilot_rebuild": true,
+      "pilot_faq": [
+        {
+          "q": "Can I self-host email marketing software?",
+          "a": "Yes. Notifuse covers the full job in one self-hosted platform, OpenOutreach adds agent-written openers, and Warmbly drafts follow-up replies. You trade the monthly bill for hosting and upkeep, so it pays off once your list is large."
+        },
+        {
+          "q": "Mailchimp or Klaviyo for a small store?",
+          "a": "Mailchimp gets a first campaign out the door fastest. Klaviyo wins when your store data should drive the segmentation, which matters more as order volume grows. Both start free, so the switch costs little if you outgrow the simple option."
+        },
+        {
+          "q": "What sends transactional email reliably?",
+          "a": "Twilio SendGrid. It is built for delivery rates and scale on receipts, alerts, and password resets, with marketing campaigns as a side dish. Product teams pick it when the inbox placement of system mail is the thing that cannot break."
+        }
+      ]
     },
     {
       "slug": "ai-crm-tools",
@@ -356,7 +401,22 @@
       ],
       "date_published": "2026-09-27",
       "date_updated": "2026-09-28",
-      "direct_answer": "Attio suits startups that want a CRM shaped around their own data model. HubSpot CRM has the best free tier and a natural upgrade path. Salesforce is the one everything else integrates with. Zoho gives small teams a full suite without an enterprise bill."
+      "direct_answer": "Attio suits startups that want a CRM shaped around their own data model. HubSpot CRM has the best free tier and a natural upgrade path. Salesforce is the one everything else integrates with. Zoho gives small teams a full suite without an enterprise bill.",
+      "pilot_rebuild": true,
+      "pilot_faq": [
+        {
+          "q": "What is the best free CRM?",
+          "a": "HubSpot CRM. The free tier covers contacts, pipeline, and basic automation with no time limit. It is also the natural next step when the free tier starts to bite, since paid tiers unlock from the same account."
+        },
+        {
+          "q": "Attio or Pipedrive for a startup?",
+          "a": "Attio if you want the CRM shaped around your own data model instead of fixed fields. Pipedrive if your team lives in one pipeline view all day. Both serve small sales teams; the choice is flexible records versus a focused selling screen."
+        },
+        {
+          "q": "Which CRM gives the most for the least money?",
+          "a": "Zoho CRM. Small teams get a full suite, sales plus marketing plus support, without an enterprise bill. The free tier handles the basics and paid plans stay cheap as you add seats."
+        }
+      ]
     },
     {
       "slug": "ai-content-copywriting-tools",

@@ -20,6 +20,8 @@ Most teams should start with EspoCRM. It is lean, free, and easy to extend piece
 
 **Our top pick: [EspoCRM](#espocrm)** — Best for lean sales teams that automate à la carte. [Try EspoCRM](https://www.espocrm.com)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 This list is for teams that want a CRM they can host themselves: founders tired of per-seat billing, agencies holding client data on their own servers, and ops leads whose compliance rules rule out someone else's cloud. Every pick is open_source: true in the martechsignal catalog.
@@ -109,6 +111,18 @@ Vendor: [Official site](https://monicahq.com) · [GitHub](https://github.com/mon
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
+
+## Which open source CRM is easiest to run?
+
+EspoCRM. It stays light by default and you add only the automation you need, so a small team can self-host it without hiring admin help. SuiteCRM ships more out of the box if you would rather configure than extend.
+
+## Is SuiteCRM really free?
+
+Yes, the software costs nothing to download and run. You still pay for hosting and the time it takes to set it up. Teams that want the widest free feature set pick it for that reason, and paid support exists if you get stuck.
+
+## What open source CRM works for a Laravel team?
+
+Krayin. It is built on Laravel, so a PHP team reads the codebase like their own work and extends it without learning a new stack. Frappe CRM plays the same role for shops already running ERPNext.
 
 ## Get the next teardown
 

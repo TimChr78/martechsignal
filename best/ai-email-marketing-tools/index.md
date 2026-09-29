@@ -22,6 +22,8 @@ OpenOutreach leads for teams that want agent-written openers on their own server
 
 **Our top pick: [OpenOutreach](#openoutreach)** — Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. [Try OpenOutreach](https://openoutreach.app)
 
+Last verified 2026-09-28.
+
 ## How we picked
 
 Fifteen email marketing tools are catalogued; these eight make the shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.
@@ -133,6 +135,18 @@ Vendor: [Official site](https://warmbly.com) · [Pricing](https://warmbly.com/pr
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
+
+## Can I self-host email marketing software?
+
+Yes. Notifuse covers the full job in one self-hosted platform, OpenOutreach adds agent-written openers, and Warmbly drafts follow-up replies. You trade the monthly bill for hosting and upkeep, so it pays off once your list is large.
+
+## Mailchimp or Klaviyo for a small store?
+
+Mailchimp gets a first campaign out the door fastest. Klaviyo wins when your store data should drive the segmentation, which matters more as order volume grows. Both start free, so the switch costs little if you outgrow the simple option.
+
+## What sends transactional email reliably?
+
+Twilio SendGrid. It is built for delivery rates and scale on receipts, alerts, and password resets, with marketing campaigns as a side dish. Product teams pick it when the inbox placement of system mail is the thing that cannot break.
 
 ## Get the next teardown
 
