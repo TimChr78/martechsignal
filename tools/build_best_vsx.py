@@ -28,7 +28,7 @@ import json
 from pathlib import Path
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
-from build_tools import CATEGORY_GUIDES
+from build_tools import CATEGORY_GUIDES, _pilot_shot
 
 _MOMENTUM_ROWS = None
 
@@ -77,28 +77,6 @@ def _momentum_block(slugs):
         '<p>Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.</p>'
         f'<ul class="momentum">{"".join(_lis)}</ul>'
         '<p><a href="/trending/">All movers on the trending page</a>.</p></section>')
-
-
-def _pilot_shot(slug, name):
-    """r10 H-1 pilot (2026-09-29): real product UI screenshot for money-page
-    items, where the og survey shot one. Lazy, sized to the 335px slot, honest
-    alt. Empty string when no shot exists (graceful skip)."""
-    import glob as _glob
-    import os as _os
-    cands = {}
-    for f in _glob.glob(str(ROOT / "og" / "screenshots" / f"{slug}-*.webp")):
-        m = _os.path.basename(f).rsplit("-", 1)[-1].replace(".webp", "")
-        if m.isdigit():
-            cands[int(m)] = f
-    if not cands:
-        return ""
-    src = cands.get(600) or cands[max(cands)]
-    parts = [f"/og/screenshots/{_os.path.basename(cands[w])} {w}w"
-             for w in (480, 600, 800) if w in cands]
-    _set = f' srcset="{" ".join(parts)}"' if parts else ""
-    return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
-            f' alt="{esc(name)} product interface"'
-            f' loading="lazy" width="600" height="315"{_set} sizes="335px">')
 
 BESTX = ROOT / "tools" / "bestx-content.json"
 VSX = ROOT / "tools" / "vsx-content.json"
@@ -229,7 +207,7 @@ def build_best():
             body.append(f"""<section class="best-item" id="{esc(t['slug'])}">
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
   {_tool_fact_img(t)}
-  {_pilot_shot(t["slug"], t["name"]) if page.get("pilot_rebuild") else ""}
+  {_pilot_shot(t["slug"], t["name"])}
   <p>{esc(it['assessment'])}</p>
   <p><strong>Verdict:</strong> {esc(it['verdict'])}</p>
   {out_links(t)}
@@ -348,6 +326,10 @@ def build_vs():
                             f'<a href="{esc(link["href"])}">{esc(link["label"])}</a>.</p>')
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
+        for _vt in [t for t in (a, b) if t]:
+            _shot = _pilot_shot(_vt["slug"], _vt["name"])
+            if _shot:
+                body.append(f'<div class="vs-shot">{_shot}</div>')
         for _vt in trio:
             _ol = out_links(_vt)
             if _ol:

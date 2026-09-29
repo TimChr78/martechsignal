@@ -13,6 +13,7 @@ import re
 from pathlib import Path
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
+from build_tools import _pilot_shot
 
 CONTENT = ROOT / "tools" / "alternatives-content.json"
 OUT_DIR = ROOT / "alternatives"
@@ -25,6 +26,7 @@ def alt_card(item, tools_by_slug):
   <h2><a href="/tools/{t['slug']}/">{esc(t['name'])}</a></h2>
   <p class="meta"><span class="tag pricing">{esc(pricing_label(t))}</span>{oss}</p>
   {_tool_fact_img(t)}
+  {_pilot_shot(t['slug'], t['name'])}
   {out_links(t)}
   <p><strong>Best for:</strong> {esc(item['best_for'])}</p>
   <p><strong>Not for:</strong> {esc(item['not_for'])}</p>
@@ -88,6 +90,11 @@ def build():
                 f'<h1>{esc(page["title"])}</h1>']
         for para in page["intro"]:
             body.append(f"<p>{esc(para)}</p>")
+        # r11 H-4 (2026-09-29): visible freshness stamp (was JSON-LD only).
+        _adu = page.get("date_updated", "")
+        if _adu:
+            body.append(
+                f'<p class="meta">Last verified <time datetime="{esc(_adu)}">{esc(_adu)}</time>.</p>')
         body.append(matrix_table(page, tools_by_slug))
         for item in page["items"]:
             assert item["slug"] in tools_by_slug, f"unknown item slug {item['slug']}"

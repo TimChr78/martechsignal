@@ -815,6 +815,28 @@ def _tool_fact_img(t):
             f'loading="lazy" width="1200" height="630"{_set}>')
 
 
+def _pilot_shot(slug, name):
+    """r11 H-4 (2026-09-29; pilot r10 H-1): real product UI screenshot for
+    money-page items, where the og survey shot one. Lazy, sized to the 335px
+    slot, honest alt. Empty string when no shot exists (graceful skip)."""
+    import glob as _glob
+    import os as _os
+    cands = {}
+    for f in _glob.glob(str(ROOT / "og" / "screenshots" / f"{slug}-*.webp")):
+        m = _os.path.basename(f).rsplit("-", 1)[-1].replace(".webp", "")
+        if m.isdigit():
+            cands[int(m)] = f
+    if not cands:
+        return ""
+    src = cands.get(600) or cands[max(cands)]
+    parts = [f"/og/screenshots/{_os.path.basename(cands[w])} {w}w"
+             for w in (480, 600, 800) if w in cands]
+    _set = f' srcset="{" ".join(parts)}"' if parts else ""
+    return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
+            f' alt="{esc(name)} product interface"'
+            f' loading="lazy" width="600" height="315"{_set} sizes="335px">')
+
+
 def _money(p, t):
     """M21 honesty: catalog prices carry a currency field (USD/EUR). Never stamp
     another currency's symbol on a number."""
