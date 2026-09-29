@@ -74,7 +74,7 @@ Vendor: [Official site](https://www.klaviyo.com) · [Pricing](https://www.klaviy
 
 ## [Customer.io](/tools/customer-io/)
 
-Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. Paid pricing starts at $100/mo, and essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats (verified 2026-09-06). The catalog documents 6 AI features, 11 integrations, and a public API.
+Customer.io is a behavior-driven messaging platform for product and lifecycle teams: it stores people, objects, and events, then runs cross-channel journeys that react to what those people do. Essentials $100/mo billed monthly (5k profiles, 1M emails/mo); Premium $1,000/mo billed yearly; Enterprise quoted. Overages $0.009/profile, $0.12 per 1,000 emails, $10 per 100K AI credits; unlimited seats (verified 2026-09-06). The catalog documents 6 AI features, 11 integrations, and a public API.
 
 **Verdict:** Lifecycle teams writing behavior-triggered journeys on their own data
 
@@ -98,7 +98,7 @@ Vendor: [Official site](https://sendgrid.com) · [Pricing](https://www.twilio.co
 
 ## [Warmbly](/tools/warmbly/)
 
-Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It starts free, and free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter €29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20% (verified 2026-09-24). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
+Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It starts free, and free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20% (verified 2026-09-24). The catalog documents 4 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for email marketing teams that want agent-drafted follow-up replies and can host it themselves, with a free starting tier.
 

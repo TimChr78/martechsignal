@@ -1438,6 +1438,57 @@ def test_rendered_html_carries_no_em_dashes():
     assert not bad, f"em dashes in rendered output: {bad[:8]}"
 
 
+def test_money_prose_currency_matches_record():
+    """r16 H-2 (2026-09-29): best/vs assessments rendered euro prices for
+    dollar-priced products (revealbot, anyword, intercom, clerk-io,
+    activecampaign, warmbly, writesonic). A euro sign in money-page prose
+    requires a euro-denominated record (EUR in price_notes or currency)."""
+    import json as _j
+    recs = {x["slug"]: x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)}
+    bad = []
+    for path, key in (("tools/bestx-content.json", "items"), ("tools/vsx-content.json", "items"),
+                      ("tools/alternatives-content.json", "items")):
+        data = _j.loads((ROOT / path).read_text())
+        pages = data["pages"] if isinstance(data, dict) else data
+        for pg in pages:
+            for it in (pg.get(key) or []):
+                slug = it.get("slug", "?")
+                notes = str(recs.get(slug, {}).get("price_notes") or "")
+                cur = recs.get(slug, {}).get("currency")
+                if cur == "EUR" or "EUR" in notes:
+                    continue
+                for field in ("assessment", "text", "verdict", "direct_answer"):
+                    if isinstance(it.get(field), str) and "\u20ac" in it[field]:
+                        bad.append(f"{path}:{pg.get('slug')}:{slug}")
+    assert not bad, f"euro prose on non-euro records: {bad[:8]}"
+
+
+def test_no_duplicated_pricing_lead_seam():
+    """r16 M-5 (2026-09-29): 'Paid pricing starts at $X/mo, and <notes
+    restating $X>' duplicated the entry tier and manufactured mixed sentences.
+    The lead clause is dropped at the source; notes stand alone."""
+    import json as _j, re as _re
+    pat = _re.compile(r"(Paid pricing starts at [^,.]+?, and |enterprise pricing starts at [^,.]+?, and |paid pricing starts at [^,.]+?, and )", _re.I)
+    bad = []
+    def _walk(o, loc):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                _walk(v, f"{loc}.{k}")
+        elif isinstance(o, list):
+            for i, v in enumerate(o):
+                _walk(v, f"{loc}[{i}]")
+        elif isinstance(o, str) and pat.search(o):
+            bad.append(loc)
+    for path in ("tools/bestx-content.json", "tools/vsx-content.json", "tools/alternatives-content.json"):
+        data = _j.loads((ROOT / path).read_text())
+        _walk(data, path)
+    for base in ("best", "vs", "alternatives"):
+        for f in (ROOT / base).glob("*/index.html"):
+            if pat.search(f.read_text()):
+                bad.append(f"rendered:{base}/{f.parent.name}")
+    assert not bad, f"pricing lead seam: {bad[:8]}"
+
+
 def test_faq_third_answers_are_unique_per_tool():
     """r15 M-3 (2026-09-29): 7 tool pages shipped placeholder FAQ answers
     sharing the "full review breaks down" tail (3 byte-identical). The

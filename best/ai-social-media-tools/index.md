@@ -57,7 +57,7 @@ Vendor: [Official site](https://www.hootsuite.com) · [Pricing](https://www.hoot
 
 ## [Sprout Social](/tools/sprout-social/)
 
-Sprout Social is a premium social media management platform that positions itself as the tool for brands that treat social media as a customer care and intelligence channel, not just a broadcasting platform. Paid pricing starts at $249/mo, and standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Sprout Social is a premium social media management platform that positions itself as the tool for brands that treat social media as a customer care and intelligence channel, not just a broadcasting platform. Standard $249/seat/mo; Professional $399/seat/mo; Advanced custom; 30-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Social teams that want listening and engagement behind a polished UI
 

@@ -56,7 +56,7 @@ Cost picture for a year of continuous use. All figures checked 2026-09-27 on ven
 
 **Claude SEO:** It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28).
 
-**Semrush:** paid pricing starts at $117/mo, and pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo (verified 2026-08-28).
+**Semrush:** Pro $117/mo (annual) or $140/mo; Guru $250/mo; Business $500/mo; Semrush One $199/mo (verified 2026-08-28).
 
 ## Deployment and self-hosting
 

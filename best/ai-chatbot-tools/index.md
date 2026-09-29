@@ -46,7 +46,7 @@ Star counts we snapshot ourselves every morning - check any of them against GitH
 
 ## [Intercom](/tools/intercom/)
 
-Intercom is an AI-first customer service platform built around Fin AI Agent, its proprietary AI that resolves customer questions, triages complex issues, and proactively engages users. Paid pricing starts at €29/mo, and essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Intercom is an AI-first customer service platform built around Fin AI Agent, its proprietary AI that resolves customer questions, triages complex issues, and proactively engages users. Essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Support teams that want AI resolutions auditable at $0.99 each
 
@@ -82,7 +82,7 @@ Vendor: [Official site](https://www.tidio.com) · [Pricing](https://www.tidio.co
 
 ## [Chatfuel](/tools/chatfuel/)
 
-Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. Paid pricing starts at $39/mo, and starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.
+Chatfuel is an AI messaging automation platform built specifically for social media channels: Instagram, WhatsApp, Facebook Messenger, and TikTok. Starts at $39/mo; AI PRO $69/mo; no free plan (free trial available); usage-based tiers (verified 2026-08-28). The catalog documents 5 AI features, 6 integrations, and a public API.
 
 **Verdict:** Messaging-first brands scripting conversations like campaigns
 

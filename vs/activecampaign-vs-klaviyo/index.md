@@ -54,7 +54,7 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 
 ## Pricing
 
-**ActiveCampaign:** paid pricing starts at $15/mo, and starter $15/mo, Plus $49/mo, Professional €79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28).
+**ActiveCampaign:** Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28).
 
 **Klaviyo:** It starts free, and free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo (verified 2026-08-28).
 

@@ -56,7 +56,7 @@ Cost picture for one marketing team. All figures checked 2026-09-27 on vendor pr
 
 ## Pricing
 
-**Jasper:** paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).
+**Jasper:** Creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28).
 
 **Writer:** Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25).
 

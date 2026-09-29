@@ -76,7 +76,7 @@ Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.co
 
 ## [Clerk.io](/tools/clerk-io/)
 
-Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. Paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
+Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. From $119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
 
 **Verdict:** Mid-size stores that want search and recs without enterprise procurement
 

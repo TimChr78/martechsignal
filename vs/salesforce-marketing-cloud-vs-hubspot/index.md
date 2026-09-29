@@ -52,7 +52,7 @@ Cost picture at 1,000 contacts. All figures checked 2026-09-27 on vendor pricing
 
 ## Pricing
 
-**Salesforce Marketing Cloud:** enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06).
+**Salesforce Marketing Cloud:** Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06).
 
 **HubSpot Marketing Hub:** It starts free, and free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo (verified 2026-08-28).
 

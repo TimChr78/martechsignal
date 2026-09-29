@@ -61,7 +61,7 @@ Vendor: [Official site](https://nocodb.com) · [Pricing](https://nocodb.com/pric
 
 ## [Ortto](/tools/ortto/)
 
-Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. Paid pricing starts at $199/mo, and starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.
+Ortto is a customer data and marketing automation platform that began life as Autopilot, adopted the Autopilot name in 2015, rebranded to Ortto in March 2022, and was acquired by Canva in 2026 with a public FAQ stating that Ortto continues as its own platform and customers will not be migrated into Canva's product. Starter from $199/mo (save up to 15% paying annually); 14-day free trial; larger plans require a 12-month commitment; email overage $1 per 1,000 (verified 2026-09-07). The catalog documents 6 AI features, 13 integrations, and a public API.
 
 **Verdict:** Marketing teams that want email, SMS and journeys behind one login
 
@@ -73,7 +73,7 @@ Vendor: [Official site](https://ortto.com) · [Pricing](https://ortto.com/starte
 
 ## [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/)
 
-Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. enterprise pricing starts at $1500/mo, and per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06). The catalog documents 5 AI features, 9 integrations, and a public API.
+Salesforce Marketing Cloud is now branded Agentforce Marketing, and the product line has been rebuilt around agents rather than renamed in passing. Per-org list pricing: Marketing Cloud Next Growth $1,500/mo, Advanced $3,250/mo, both billed annually; Starter $25/user/mo; add-ons Personalization $8K, Marketing Intelligence $10K, Loyalty Management $20K per month (verified 2026-09-06). The catalog documents 5 AI features, 9 integrations, and a public API.
 
 **Verdict:** Enterprise estates already bought into Salesforce's cloud stack
 
@@ -85,7 +85,7 @@ Vendor: [Official site](https://www.salesforce.com/products/marketing-cloud/) ·
 
 ## [ActiveCampaign](/tools/activecampaign/)
 
-ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Paid pricing starts at $15/mo, and starter $15/mo, Plus $49/mo, Professional €79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+ActiveCampaign combines marketing automation, email marketing, and CRM in one platform built for small and mid-sized businesses that want enterprise-level automation without enterprise complexity. Starter $15/mo, Plus $49/mo, Professional $79/mo, Enterprise $145/mo; 14-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** SMB teams that want real automation without enterprise procurement
 
@@ -97,7 +97,7 @@ Vendor: [Official site](https://www.activecampaign.com) · [Pricing](https://www
 
 ## [Adobe Marketo Engage](/tools/adobe-marketo/)
 
-Adobe Marketo Engage is the leading B2B marketing automation platform for enterprises running complex, long-cycle demand generation programs. enterprise pricing starts at $895/mo, and custom pricing; Select/Prime/Ultimate tiers; annual contracts required (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Adobe Marketo Engage is the leading B2B marketing automation platform for enterprises running complex, long-cycle demand generation programs. Custom pricing; Select/Prime/Ultimate tiers; annual contracts required (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Marketing ops teams whose requirement list starts with lead scoring
 
