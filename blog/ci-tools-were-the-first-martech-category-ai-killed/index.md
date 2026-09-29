@@ -129,7 +129,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 ## Comparison guides
 
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)
