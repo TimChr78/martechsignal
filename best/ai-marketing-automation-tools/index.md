@@ -40,6 +40,13 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- NocoDB — 65,104 stars, +251 in the 24-snapshot window to 2026-09-29 64,853→65,104 [verify on GitHub](https://github.com/nocodb/nocodb)
+[All movers on the trending page](/trending/).
+
 ## [NocoDB](/tools/nocodb/)
 
 NocoDB turns a database you already run into an Airtable-style spreadsheet: point it at Postgres or MySQL and you get grids, forms, kanban, calendar and map views, per-role permissions, webhooks and REST APIs over tables your team owns. It starts free, and self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom (verified 2026-09-07). The catalog documents 3 AI features, 8 integrations, a public API, and a self-hosting path.

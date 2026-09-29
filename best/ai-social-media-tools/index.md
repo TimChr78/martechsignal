@@ -36,6 +36,13 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- MultiPost — 3,553 stars, +459 in the 36-snapshot window to 2026-09-29 3,094→3,553 [verify on GitHub](https://github.com/leaperone/MultiPost-Extension)
+[All movers on the trending page](/trending/).
+
 ## [Hootsuite](/tools/hootsuite/)
 
 Hootsuite is one of the oldest social media management platforms, and it has grown from a simple multi-account scheduler into a full social media management suite. paid pricing starts at €99/mo, and standard €99/mo; Professional $149/mo (annual €99/mo); Team and Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.

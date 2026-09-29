@@ -40,6 +40,13 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [AI SEO tooling hub](/guides/ai-seo-tooling/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Strapi — 73,250 stars, +236 in the 36-snapshot window to 2026-09-29 73,014→73,250 [verify on GitHub](https://github.com/strapi/strapi)
+[All movers on the trending page](/trending/).
+
 ## [Writer](/tools/writer/)
 
 Writer is an enterprise AI platform built around its own Palmyra model family rather than a wrapped third-party LLM, and its positioning has shifted from AI writing assistant to governed agent platform. Pricing is paid and quoted per contract, and quote-based. Writer.com serves no public price table to anonymous visitors (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 12 integrations, and a public API.

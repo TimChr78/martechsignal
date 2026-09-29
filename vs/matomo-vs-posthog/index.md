@@ -101,6 +101,13 @@ Last verified 2026-09-28.
 
 ## Browse the hubs behind this comparison
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Matomo — 21,908 stars, +103 in the 36-snapshot window to 2026-09-29 21,805→21,908 [verify on GitHub](https://github.com/matomo-org/matomo)
+[All movers on the trending page](/trending/).
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

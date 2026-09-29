@@ -42,6 +42,20 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Mautic — 10,575 stars, +189 in the 36-snapshot window to 2026-09-29 10,386→10,575 [verify on GitHub](https://github.com/mautic/mautic)
+- Listmonk — 23,611 stars, +490 in the 36-snapshot window to 2026-09-29 23,121→23,611 [verify on GitHub](https://github.com/knadh/listmonk)
+- Laudspeaker — 2,626 stars, +8 in the 36-snapshot window to 2026-09-29 2,618→2,626 [verify on GitHub](https://github.com/laudspeaker/laudspeaker)
+- SuiteCRM — 5,774 stars, +84 in the 36-snapshot window to 2026-09-29 5,690→5,774 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- n8n — 206,232 stars, +3,829 in the 36-snapshot window to 2026-09-29 202,403→206,232 [verify on GitHub](https://github.com/n8n-io/n8n)
+- Matomo — 21,908 stars, +103 in the 36-snapshot window to 2026-09-29 21,805→21,908 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Twenty — 57,682 stars, +2,157 in the 36-snapshot window to 2026-09-29 55,525→57,682 [verify on GitHub](https://github.com/twentyhq/twenty)
+- OpenOutreach — 3,106 stars, +288 in the 36-snapshot window to 2026-09-29 2,818→3,106 [verify on GitHub](https://github.com/eracle/OpenOutreach)
+[All movers on the trending page](/trending/).
+
 ## [Mautic](/tools/mautic/)
 
 Mautic is the longest-running open-source marketing automation platform: email, landing pages, forms, segments, campaigns, contact scoring, and multi-channel messaging across email, SMS, web notifications, and mobile push, all self-hosted under GPL-3.0. Started in 2014, it has been community-governed since Acquia acquired Mautic Inc. in May 2019; the trademark is now held by fiscal host Open Source Collective and operations run through an elected Mautic Council, with Acquia and Dropsolid the largest funders. Around 10,472 GitHub stars, eleven bundled plugin packages, and translations into 70 languages reflect that community. The current line is 7.x (7.2.0 shipped in September 2026) and its requirements are serious: PHP 8.2 or newer, minimums raised to MySQL 8.4 and MariaDB 10.11 in the 7.0 release, npm for asset builds, mandatory cron jobs for segments, campaigns, and the email queue, and command-line-only updates, since browser updating was removed in 5.0. Shared hosting is explicitly discouraged. Campaigns, segments, and points-based lead scoring are deterministic rule engines; there is no AI anywhere, and the project's AI Manifesto states plainly that it hosts or maintains no AI services and remains AI-agnostic, so any Mautic AI pitch is a third-party layer rather than a product feature. Integrations are plugin-based: Salesforce, HubSpot, Pipedrive, Zoho, and Dynamics among CRMs, plus WordPress, Twilio, Mailchimp, Gmail and Outlook connectors, Google Tag Manager, Amazon S3, and Zapier. The project's own comparison page positions Mautic for organizations whose automation grows more complex over time and that need control over data governance and infrastructure with predictable costs rather than contact-based fees, while conceding HubSpot for teams that want a polished hosted experience. The software is free; money enters through partner Dropsolid's managed hosting (from € 247.50 a month, 14-day trial, no card) and paid Extended Long Term Support for older versions. The honest costs are operational: upgrades, backups, deliverability, and cron management are yours, and campaigns cannot be moved between instances. It starts free, and Free and open source (GPL-3.0), self-hosted. Managed hosting by official partner Dropsolid from € 247.50/mo with a 14-day no-card trial; paid Extended Long Term Support (ELTS) sold by the project for old versions. (verified 2026-09-07). The catalog documents 0 AI features, 10 integrations, a self-hosting path.

@@ -40,6 +40,13 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- n8n — 206,232 stars, +3,829 in the 36-snapshot window to 2026-09-29 202,403→206,232 [verify on GitHub](https://github.com/n8n-io/n8n)
+[All movers on the trending page](/trending/).
+
 ## [n8n](/tools/n8n/)
 
 n8n is the open-source end of this list: self-hosted at no cost under a fair-code license, with cloud plans at 20 dollars monthly on Starter and 50 dollars on Pro. The visual builder runs on more than 400 nodes covering Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, with API access and custom code steps beyond the catalog. AI sits inside workflows: AI agent nodes run on LangChain, alongside documented AI data transformation, AI content generation, and AI-powered integrations. With 206,100 GitHub stars it has the largest community in this category by a wide margin. Founded 2019 in Berlin and deployable in the cloud or on your own servers, it trades vendor convenience for control.

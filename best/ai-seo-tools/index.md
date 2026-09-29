@@ -40,6 +40,14 @@ What we could not verify is called out under each tool below.
 
 **Guide:** [Generative engine optimization (GEO)](/guides/generative-engine-optimization/) · [GEO, defined](/glossary/geo/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Claude SEO — 17,899 stars, +2,803 in the 36-snapshot window to 2026-09-29 15,096→17,899 [verify on GitHub](https://github.com/AgriciDaniel/claude-seo)
+- Codex SEO — 762 stars, +142 in the 36-snapshot window to 2026-09-29 620→762 [verify on GitHub](https://github.com/AgriciDaniel/codex-seo)
+[All movers on the trending page](/trending/).
+
 ## [Semrush](/tools/semrush/)
 
 Semrush covers the classic SEO loop: site audits, keyword research, backlink data and content optimization, with an AI content optimizer on top. Entry is Pro at $117 a month billed annually ($140 month to month), and the price climbs steeply at the Guru and Business tiers. It measures traditional rankings well and treats AI answers as a bolt-on rather than the core.

@@ -30,6 +30,54 @@ from pathlib import Path
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 from build_tools import CATEGORY_GUIDES
 
+_MOMENTUM_ROWS = None
+
+
+def _momentum_rows():
+    """r11 H-3 (2026-09-29): per-repo star history, computed from the same
+    daily snapshots as /trending/ (never hand-copied). Cached per build."""
+    global _MOMENTUM_ROWS
+    if _MOMENTUM_ROWS is None:
+        try:
+            import sys as _sys
+            _sys.path.insert(0, str(ROOT / "tools"))
+            import build_trending as _bt
+            _hist, _rows, _s, _e = _bt.load_data()
+            _MOMENTUM_ROWS = ({r["slug"]: r for r in _rows}, _s, _e)
+        except (OSError, ValueError, SystemExit):
+            _MOMENTUM_ROWS = ({}, "", "")
+    return _MOMENTUM_ROWS
+
+
+def _momentum_block(slugs):
+    """H-3: one checkable-receipt line per open-source tool with snapshot
+    history: stars now, delta over the window, snapshot count, /trending/
+    link. Empty when no featured tool has history."""
+    _rows, _start, _end = _momentum_rows()
+    if not _rows:
+        return ""
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools"))
+    import build_trending as _bt
+    _lis = []
+    for slug in slugs:
+        r = _rows.get(slug)
+        if not r:
+            continue
+        _sign = "+" if r["delta"] >= 0 else ""
+        _lis.append(
+            f'<li>{esc(r["name"])} — {r["stars"]:,} stars, '
+            f'{_sign}{r["delta"]:,} in the {r["days"]}-snapshot window '
+            f'to {_end} {_bt.spark_svg(r["series"])} '
+            f'<a href="https://github.com/{esc(r["repo"])}" rel="noopener">verify on GitHub</a></li>')
+    if not _lis:
+        return ""
+    return (
+        '<section class="hub-links"><h2>Open-source momentum, with receipts</h2>'
+        '<p>Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.</p>'
+        f'<ul class="momentum">{"".join(_lis)}</ul>'
+        '<p><a href="/trending/">All movers on the trending page</a>.</p></section>')
+
 
 def _pilot_shot(slug, name):
     """r10 H-1 pilot (2026-09-29): real product UI screenshot for money-page
@@ -174,6 +222,7 @@ def build_best():
                 f'<div class="cat-nav">{_pills}</div>'
                 + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_gbits}</p>' if _gbits else "")
                 + "</section>")
+        body.append(_momentum_block([it["slug"] for it in items]))
 
         for it in items:
             t = tools_by_slug[it["slug"]]
@@ -393,6 +442,7 @@ def build_vs():
                 f'<div class="cat-nav">{_vs_pills}</div>'
                 + (f'<p style="margin:.6rem 0 0;font-size:.92rem">{_vs_g}</p>' if _vs_g else "")
                 + "</section>")
+            body.append(_momentum_block([t["slug"] for t in (a, b) if t]))
 
         breadcrumb = {
             "@context": "https://schema.org",

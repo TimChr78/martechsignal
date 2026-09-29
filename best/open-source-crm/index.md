@@ -38,6 +38,18 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- EspoCRM — 3,424 stars, +133 in the 36-snapshot window to 2026-09-29 3,291→3,424 [verify on GitHub](https://github.com/espocrm/espocrm)
+- SuiteCRM — 5,774 stars, +84 in the 36-snapshot window to 2026-09-29 5,690→5,774 [verify on GitHub](https://github.com/SuiteCRM/SuiteCRM)
+- Twenty — 57,682 stars, +2,157 in the 36-snapshot window to 2026-09-29 55,525→57,682 [verify on GitHub](https://github.com/twentyhq/twenty)
+- Frappe CRM — 3,618 stars, +228 in the 36-snapshot window to 2026-09-29 3,390→3,618 [verify on GitHub](https://github.com/frappe/crm)
+- Krayin CRM — 23,963 stars, +252 in the 36-snapshot window to 2026-09-29 23,711→23,963 [verify on GitHub](https://github.com/krayin/laravel-crm)
+- Monica — 25,383 stars, +278 in the 36-snapshot window to 2026-09-29 25,105→25,383 [verify on GitHub](https://github.com/monicahq/monica)
+[All movers on the trending page](/trending/).
+
 ## [EspoCRM](/tools/espocrm/)
 
 EspoCRM fits teams that want a lean sales CRM and will pay only for automation they use. The AGPLv3 core covers contacts, leads, opportunities, cases, a knowledge base, portals, mass email with target lists, web-to-lead forms, kanban, and a formula engine; version 10 added multiple pipelines and record locking. Workflow automation, the BPM designer, and reports live in the paid Advanced Pack, as do Google Workspace and Outlook sync. Vendor cloud runs from 12.90 euro per user monthly (Basic, minimum 3 users) to 59 euro (Ultimate, minimum 10). The Intelligence add-on, released August 2026, connects OpenAI, Gemini, Claude, or any OpenAI-compatible provider for summaries and an AI email composer. Release 10.0.7 shipped September 3, 2026.

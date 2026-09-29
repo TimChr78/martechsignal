@@ -38,6 +38,15 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Matomo — 21,908 stars, +103 in the 36-snapshot window to 2026-09-29 21,805→21,908 [verify on GitHub](https://github.com/matomo-org/matomo)
+- Umami — 39,072 stars, +712 in the 36-snapshot window to 2026-09-29 38,360→39,072 [verify on GitHub](https://github.com/umami-software/umami)
+- Snowplow — 7,034 stars, +6 in the 36-snapshot window to 2026-09-29 7,028→7,034 [verify on GitHub](https://github.com/snowplow/snowplow)
+[All movers on the trending page](/trending/).
+
 ## [Amplitude](/tools/amplitude/)
 
 Amplitude is a digital analytics platform built on events: each action a user takes in a product becomes an event with properties, so teams can read funnels, retention, and feature adoption without writing SQL. It starts free, and free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 8 integrations, and a public API.

@@ -1301,3 +1301,14 @@ def test_guides_hub_emits_collection():
     html = (ROOT / "guides" / "index.html").read_text()
     assert '"@type": "CollectionPage"' in html, "guides hub missing CollectionPage"
     assert html.count('"@type": "WebPage"') >= 5, "guides hasPart short of five hubs"
+
+
+def test_money_pages_carry_momentum_receipts():
+    """r11 H-3 (2026-09-29): money pages featuring open-source tools with
+    snapshot history carry the momentum block (stars, delta, window,
+    GitHub verify link); pages without history render nothing extra."""
+    import re as _re
+    html = (ROOT / "best" / "open-source-crm" / "index.html").read_text()
+    assert "Open-source momentum, with receipts" in html, "momentum block missing"
+    assert "verify on GitHub" in html, "momentum block lacks verify links"
+    assert _re.search(r"\\d{1,3}(,\\d{3})+ stars", html), "no formatted star counts"

@@ -108,6 +108,14 @@ Last verified 2026-09-28.
 
 **Guide:** [automation strategy](/guides/workflow-automation-strategy/) · **Guide:** [MCP and agent protocols](/guides/mcp-agent-protocols/) · [automation strategy](/guides/workflow-automation-strategy/)
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- NocoDB — 65,104 stars, +251 in the 24-snapshot window to 2026-09-29 64,853→65,104 [verify on GitHub](https://github.com/nocodb/nocodb)
+- NocoBase — 24,386 stars, +547 in the 36-snapshot window to 2026-09-29 23,839→24,386 [verify on GitHub](https://github.com/nocobase/nocobase)
+[All movers on the trending page](/trending/).
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

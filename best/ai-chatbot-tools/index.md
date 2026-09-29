@@ -36,6 +36,14 @@ What we could not verify is called out under each tool below.
 
 ## Browse the hubs behind these picks
 
+## Open-source momentum, with receipts
+
+Star counts we snapshot ourselves every morning — check any of them against GitHub in one click.
+
+- Chatwoot — 37,293 stars, +1,084 in the 36-snapshot window to 2026-09-29 36,209→37,293 [verify on GitHub](https://github.com/chatwoot/chatwoot)
+- ChatbotX — 843 stars, +178 in the 36-snapshot window to 2026-09-29 665→843 [verify on GitHub](https://github.com/ChatbotXIO/ChatbotX)
+[All movers on the trending page](/trending/).
+
 ## [Intercom](/tools/intercom/)
 
 Intercom is an AI-first customer service platform built around Fin AI Agent, its proprietary AI that resolves customer questions, triages complex issues, and proactively engages users. paid pricing starts at €29/mo, and essential $29/seat/mo; Advanced $85/seat/mo; Expert $139/seat/mo; Fin AI $0.99/resolution (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
