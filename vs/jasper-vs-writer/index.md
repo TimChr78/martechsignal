@@ -17,8 +17,8 @@
 | For a team | Pro at $59/mo billed annually ($69 month-to-month) is the published step up. Business is custom. | Everything is quoted. Expect a conversation about seats, SSO, and governance before you see a number. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick Jasper if:** Pick Jasper if you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
-- **Pick Writer if:** Pick Writer if you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
+- **Pick Jasper if:** you want a hosted platform the vendor runs for you, and ai copy generation and brand voice training matters to your team, starting at $49/mo.
+- **Pick Writer if:** you want a hosted platform the vendor runs for you, and ai content generation and knowledge graph grounding matters to your team.
 
 [AI Content & Copywriting](/categories/content-ai/)
 
@@ -159,6 +159,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Jasper vs Writer (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/jasper-vs-writer/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/jasper-vs-writer/"
+    },
     "inLanguage": "en",
     "headline": "Jasper vs Writer (2026): pricing, AI features, verdict",
     "image": "https://martechsignal.com/og/vs/jasper-vs-writer.png",
@@ -224,10 +227,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/jasper-vs-writer/", "dateModified": "2026-09-29"}
 ```
 
 ```json

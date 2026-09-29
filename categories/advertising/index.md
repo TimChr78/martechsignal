@@ -309,7 +309,7 @@ Vendors in this category: [Revive Adserver](https://www.revive-adserver.com) · 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/advertising/", "breadcrumb": {"@id": "https://martechsignal.com/categories/advertising/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

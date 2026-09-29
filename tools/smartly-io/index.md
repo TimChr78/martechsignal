@@ -65,7 +65,7 @@ Paid-media operations skill for Claude Code covering 12 ad platforms
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Smartly.io
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Smartly.io review (2026): pricing, AI features, verdict
 
@@ -322,7 +322,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/smartly-io/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/smartly-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/smartly-io/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

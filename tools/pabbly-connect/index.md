@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: AI workflow builder (Pabbly AgenticAI, sold separately) | ✗ Paid plans start at $16/mo once past the free tier |
+| ✓ AI capabilities: AI workflow builder (Pabbly AgenticAI, sold separately) | ✗ Paid plans start at $16/mo |
 | ✓ Native integrations include Google Sheets, Salesforce, HubSpot (5 listed) | ✗ Closed source - no self-hosting option |
 | ✓ API access for custom integrations |  |
 
@@ -63,7 +63,7 @@ Task-priced integration platform with a one-time lifetime purchase option
 
 Workflow Automation · From $16/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Pabbly Connect →](https://www.pabbly.com/connect/)
 
@@ -159,7 +159,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pabbly-connect/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-27",
     "offers": {
       "@type": "Offer",
@@ -262,7 +262,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pabbly-connect/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pabbly-connect/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

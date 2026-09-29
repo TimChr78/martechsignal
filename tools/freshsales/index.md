@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ API access for custom integrations | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ API access for custom integrations | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: freddy AI contact and intent scoring (Pro and up) | ✗ Closed source - no self-hosting option |
 | ✓ API access for custom integrations |  |
 
@@ -320,7 +320,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/freshsales/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/freshsales/", "breadcrumb": {"@id": "https://martechsignal.com/tools/freshsales/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -327,7 +327,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/trakkr/", "breadcrumb": {"@id": "https://martechsignal.com/tools/trakkr/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

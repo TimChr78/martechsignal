@@ -65,7 +65,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Salesforce Marketing Cloud
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Salesforce Marketing Cloud review (2026): pricing, AI features, verdict
 
@@ -73,7 +73,7 @@ Enterprise marketing automation on Salesforce with Agentforce AI across email, S
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Salesforce Marketing Cloud →](https://www.salesforce.com/products/marketing-cloud/)
 
@@ -209,7 +209,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/salesforce-marketing-cloud/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -328,7 +328,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/", "breadcrumb": {"@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -71,7 +71,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Warpdrive
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Warpdrive review (2026): pricing, AI features, verdict
 
@@ -332,7 +332,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warpdrive/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warpdrive/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

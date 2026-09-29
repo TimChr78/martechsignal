@@ -25,8 +25,8 @@
 | At 1M tasks/mo | Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server. | Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists. |
 | Checked | 2026-09-29 | 2026-09-29 |
 
-- **Pick n8n if:** Pick n8n if you can host it yourself, run high volume, or need code steps and branching in your workflows.
-- **Pick Zapier if:** Pick Zapier if a specific niche integration has to work this week and nobody wants to maintain an automation server.
+- **Pick n8n if:** you can host it yourself, run high volume, or need code steps and branching in your workflows.
+- **Pick Zapier if:** a specific niche integration has to work this week and nobody wants to maintain an automation server.
 
 [Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
@@ -170,6 +170,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
     "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/n8n-vs-zapier/"
+    },
     "inLanguage": "en",
     "headline": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
     "image": "https://martechsignal.com/og/vs/n8n-vs-zapier.png",
@@ -235,10 +238,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-zapier/", "dateModified": "2026-09-29"}
 ```
 
 ```json

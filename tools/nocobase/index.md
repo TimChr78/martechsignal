@@ -72,7 +72,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - NocoBase
-Re-check pending: pricing last verified 2026-09-05 (24 days ago).
+Re-check pending: pricing last verified 2026-09-05 (25 days ago).
 
 ## NocoBase review (2026): pricing, AI features, verdict
 
@@ -334,7 +334,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocobase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocobase/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

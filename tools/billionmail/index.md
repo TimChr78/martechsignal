@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $98.9/mo |
 | ✓ AI capabilities: AI email template generation (BYO model: OpenAI, Anthropic, Gemini, DeepSeek, Grok, Kimi) |  |
 | ✓ Active public repository (15,739 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Postfix, Dovecot, Rspamd (7 listed) |  |
@@ -74,7 +74,7 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - BillionMail
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## BillionMail review (2026): pricing, AI features, verdict
 
@@ -349,7 +349,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/billionmail/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/billionmail/", "breadcrumb": {"@id": "https://martechsignal.com/tools/billionmail/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

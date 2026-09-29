@@ -348,7 +348,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writer/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/writer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/writer/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

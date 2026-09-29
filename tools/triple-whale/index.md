@@ -63,7 +63,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Triple Whale
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Triple Whale review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 
 Analytics & Attribution · From $59/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Triple Whale →](https://www.triplewhale.com)
 
@@ -186,7 +186,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/triple-whale/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +289,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/triple-whale/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/triple-whale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/triple-whale/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

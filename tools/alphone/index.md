@@ -61,7 +61,7 @@ Open-source, self-hosted email marketing platform with BYO-ESP and LLM integrati
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - AlphOne
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## AlphOne review (2026): pricing, AI features, verdict
 
@@ -281,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alphone/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alphone/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

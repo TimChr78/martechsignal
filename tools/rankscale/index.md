@@ -26,10 +26,10 @@ Rankscale: AI visibility tracking across 17+ answer engines for agencies and ent
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
 **Is Rankscale worth paying for in 2026?**
-Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
+Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
 
 **How does Rankscale pricing work?**
-Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20.
+Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render.
 
 **Which AI engines does Rankscale cover?**
 17-plus engines including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell.
@@ -82,7 +82,7 @@ AI visibility tracking across 17+ answer engines for agencies and enterprise tea
 
 GEO & LLM Optimization · From €99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Rankscale →](https://rankscale.ai/)
 
@@ -140,7 +140,7 @@ Beyond tracking, the platform covers competitor benchmarking, citation and sourc
 
 ## Verdict
 
-Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
+Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
 
 ## Pros and cons
 
@@ -161,9 +161,9 @@ Rankscale: AI visibility tracking across 17+ answer engines for agencies and ent
 
 Rankscale starts at €99/mo. Pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026. We last checked that price on 2026-09-25. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.
 
-Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
+Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.
 
-Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20.
+Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render.
 
 17-plus engines including ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews, Google AI Mode, DeepSeek, Grok, Copilot and Mistral, with no per-engine upsell.
 
@@ -208,7 +208,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/rankscale/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-25",
     "offers": {
       "@type": "Offer",
@@ -273,7 +273,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is Rankscale worth paying for in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start."
+          "text": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start."
         }
       },
       {
@@ -281,7 +281,7 @@ One email when a new tool review lands, nothing else.
         "name": "How does Rankscale pricing work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20."
+          "text": "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render."
         }
       },
       {
@@ -343,7 +343,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/rankscale/", "breadcrumb": {"@id": "https://martechsignal.com/tools/rankscale/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

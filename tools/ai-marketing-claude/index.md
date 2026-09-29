@@ -274,7 +274,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ai-marketing-claude/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ai-marketing-claude/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ai-marketing-claude/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

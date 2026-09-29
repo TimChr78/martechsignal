@@ -17,8 +17,8 @@
 | At volume | Audits cost tokens and attention, not credits. Run as many as the work needs. | Guru $250/mo and Business $500/mo lift the project and keyword quotas. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick Claude SEO if:** Pick Claude SEO if you can host it yourself and want code-level control, starting free.
-- **Pick Semrush if:** Pick Semrush if you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
+- **Pick Claude SEO if:** you can host it yourself and want code-level control, starting free.
+- **Pick Semrush if:** you want a hosted platform the vendor runs for you, and ai content optimizer and ai keyword research matters to your team, starting at $117/mo.
 
 [Agent Skills](/categories/agent-skills/)[Open-Source Tools](/categories/open-source/)[SEO & Search](/categories/seo/)
 
@@ -162,6 +162,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/"
+    },
     "inLanguage": "en",
     "headline": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
     "image": "https://martechsignal.com/og/vs/claude-seo-vs-semrush.png",
@@ -227,10 +230,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/claude-seo-vs-semrush/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -71,7 +71,7 @@ AI copywriting platform with predictive performance scores for marketing content
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Phrasee
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Phrasee review (2026): pricing, AI features, verdict
 
@@ -344,7 +344,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/phrasee/", "breadcrumb": {"@id": "https://martechsignal.com/tools/phrasee/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

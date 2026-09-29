@@ -1,5 +1,7 @@
 # Corrections
 
+2026-09-30
+
 2026-09-29
 
 2026-09-29
@@ -39,6 +41,12 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Remediation waves logged: the 2026-09-29/30 fix batches
+
+The September 29-30 remediation work shipped more than twenty fixes across two audit rounds without updating this log as each batch landed. Recorded now, in brief: three high-priority defects from the September 29 audit (a structural heading repeat on the homepage, an image payload serving desktop renditions to mobile, and homepage star counts that could drift from the catalog) were fixed the same day; the medium and low waves that followed covered split verification stamps on open-source pages, a free-tier claim gate on trial-only products, offer data corrections (freshsales trial-only at $9, Zoho Standard at EUR 14, warmbly Starter at $29), one-time license figures that wrongly carried a monthly suffix (IDURAR, Krayin), repeated-slash URL variants now 301ing to their canonical path, email-shaped strings removed from install commands, glossary entity and dating markup, a 1200w WebP rung for mobile screenshots, and FAQ answers on the GEO visibility page whose prices disagreed with the catalog (Trakkr $10 vs $100, Nimt/Writesonic EUR 7 vs EUR 79/$79, Evertune $89 vs $800). Where the audit flagged a link as unreachable that we could load fine, we re-checked it live and recorded the disposition rather than "fixing" it.
+
+Going forward, each remediation batch gets an entry here when it ships, not after the next audit asks.
 
 ## Audit low-priority dispositions: four more findings assessed
 

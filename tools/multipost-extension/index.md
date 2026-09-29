@@ -60,7 +60,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - MultiPost
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## MultiPost review (2026): pricing, AI features, verdict
 
@@ -267,7 +267,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/multipost-extension/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/multipost-extension/", "breadcrumb": {"@id": "https://martechsignal.com/tools/multipost-extension/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

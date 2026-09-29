@@ -181,7 +181,7 @@ Vendors in this category: [MultiPost](https://multipost.app) · [Brandwatch](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/social-media/", "breadcrumb": {"@id": "https://martechsignal.com/categories/social-media/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

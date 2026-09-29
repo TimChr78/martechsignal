@@ -71,7 +71,7 @@ Open-source cold email platform with warmup, campaigns, unified inbox, and CRM
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Postmark
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Postmark review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Postmark →](https://postmarkapp.com)
 
@@ -215,7 +215,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/postmark/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -351,7 +351,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/postmark/", "breadcrumb": {"@id": "https://martechsignal.com/tools/postmark/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

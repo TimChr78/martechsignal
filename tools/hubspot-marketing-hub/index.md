@@ -63,7 +63,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - HubSpot Marketing Hub
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## HubSpot Marketing Hub review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ All-in-one marketing automation with AI-powered content, email, and campaign too
 
 Marketing Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit HubSpot Marketing Hub →](https://www.hubspot.com/products/marketing)
 
@@ -188,7 +188,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hubspot-marketing-hub/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -300,7 +300,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hubspot-marketing-hub/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hubspot-marketing-hub/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

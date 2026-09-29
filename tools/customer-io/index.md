@@ -65,7 +65,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Customer.io
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Customer.io review (2026): pricing, AI features, verdict
 
@@ -73,7 +73,7 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 Email Marketing · From $100/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-06
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Customer.io →](https://customer.io)
 
@@ -210,7 +210,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/customer-io/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-06",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/customer-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/customer-io/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

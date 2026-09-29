@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI Chatbot with access to your workspace data |  |
 | ✓ Active public repository (57,682 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Gmail & Google Calendar, Outlook & Microsoft Calendar, IMAP / SMTP / CalDAV (7 listed) |  |
@@ -75,7 +75,7 @@ AI-native CRM with real-time data enrichment and agentic revenue workflows
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Twenty
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Twenty review (2026): pricing, AI features, verdict
 
@@ -362,7 +362,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/twenty/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/twenty/", "breadcrumb": {"@id": "https://martechsignal.com/tools/twenty/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

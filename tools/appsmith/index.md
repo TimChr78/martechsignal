@@ -73,7 +73,7 @@ n8n Marketing Flows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Appsmith
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Appsmith review (2026): pricing, AI features, verdict
 
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/appsmith/", "breadcrumb": {"@id": "https://martechsignal.com/tools/appsmith/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

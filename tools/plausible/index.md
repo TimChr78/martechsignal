@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI-powered insights |  |
 | ✓ Active public repository (29,248 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Ghost, Webflow (6 listed) |  |
@@ -62,7 +62,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Plausible Analytics
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Plausible Analytics review (2026): pricing, AI features, verdict
 
@@ -293,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/plausible/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/plausible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/plausible/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

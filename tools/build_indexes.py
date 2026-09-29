@@ -64,6 +64,7 @@ def build_categories(cats, tools):
     schema = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
+        "@id": "https://martechsignal.com/categories/",
         "name": "Categories",
         "url": "https://martechsignal.com/categories/",
         "description": f"All {_n_real} tool categories plus an open-source index in the MartechSignal directory.",

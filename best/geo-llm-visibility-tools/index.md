@@ -155,11 +155,11 @@ Every price quoted here comes from the vendor's own pricing page as catalogued o
 
 ## What is the cheapest way to start measuring AI visibility?
 
-OtterlyAI at an entry price, or Trakkr from $10 when competitor visibility rankings matter from day one. Nimt.ai and Writesonic both start at €7 for teams that want the full platform rather than a single metric.
+OtterlyAI at an entry price, or Trakkr from $100 when competitor visibility rankings matter from day one. Nimt.ai starts at €79 for teams that want the full platform, while Writesonic starts at $79 rather than a single metric.
 
 ## Which GEO tool watches shopping answers?
 
-Profound for ChatGPT shopping visibility tracking. Evertune starts at $89 for teams that want the platform job covered, Rankscale for query fan-out retrieval insights at an entry price.
+Profound for ChatGPT shopping visibility tracking. Evertune starts at $800 for teams that want the platform job covered, Rankscale for query fan-out retrieval insights at an entry price.
 
 ## Is there a GEO tool inside a suite we already buy?
 
@@ -320,10 +320,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/geo-llm-visibility-tools/", "dateModified": "2026-09-29"}
 ```
 
 ```json

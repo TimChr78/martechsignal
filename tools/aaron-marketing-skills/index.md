@@ -64,7 +64,7 @@ Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agent
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Aaron Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Aaron Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/aaron-marketing-skills/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/aaron-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/aaron-marketing-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

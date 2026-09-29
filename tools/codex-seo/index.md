@@ -64,7 +64,7 @@ Open-source TypeScript foundation for AI-built commerce, CRM, and ERP
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Codex SEO
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Codex SEO review (2026): pricing, AI features, verdict
 
@@ -285,7 +285,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/codex-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/codex-seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

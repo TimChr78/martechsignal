@@ -72,7 +72,7 @@ AI-powered commerce experience platform with search, personalization, and CDP
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Ortto
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Ortto review (2026): pricing, AI features, verdict
 
@@ -80,7 +80,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 
 Marketing Automation · From $199/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Ortto →](https://ortto.com)
 
@@ -231,7 +231,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/ortto/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ortto/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ortto/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ortto/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

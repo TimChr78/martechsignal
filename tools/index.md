@@ -986,7 +986,7 @@ Browse by licence: [Open-source tools](/categories/open-source/) · [all categor
 
 Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.
 
-163 TOOLS · 14 CATEGORIES · UPDATED WEEKLY
+163 TOOLS · 13 CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY
 
 Watching which open-source tools actually gain traction? [Open-source martech momentum](/trending/) tracks GitHub stars for all 80 of them, with daily snapshots since Aug 25, 2026.
 
@@ -2698,6 +2698,7 @@ One email when a new tool review lands, nothing else.
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/tools/#breadcrumb",
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -2716,7 +2717,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/", "breadcrumb": {"@id": "https://martechsignal.com/tools/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

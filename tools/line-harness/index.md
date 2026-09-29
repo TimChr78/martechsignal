@@ -77,7 +77,7 @@ Customer engagement platform with AI-powered real-time messaging across channels
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Line Harness
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Line Harness review (2026): pricing, AI features, verdict
 
@@ -337,7 +337,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/line-harness/", "breadcrumb": {"@id": "https://martechsignal.com/tools/line-harness/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

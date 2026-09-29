@@ -1,6 +1,6 @@
 # martechsignal.com
 
-Source for [martechsignal.com](https://martechsignal.com) — *The AI in Marketing Automation* newsletter landing page + blog.
+Source for [martechsignal.com](https://martechsignal.com) — independent reviews of AI marketing automation tools, pricing research, comparisons and benchmarks.
 
 ## Structure
 

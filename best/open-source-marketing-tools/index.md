@@ -106,7 +106,7 @@ Vendor: [Official site](https://www.suitecrm.com) · [GitHub](https://github.com
 
 ## [n8n](/tools/n8n/)
 
-Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. It starts free, and self-hosted free (fair-code); Cloud Starter $20/mo; Pro $50/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
+Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. It starts free, and self-hosted free (fair-code); Cloud Starter €20/mo billed annually; Pro €50/mo; Enterprise custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Workflow teams that want automation they can audit line by line
 
@@ -310,10 +310,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/best/open-source-marketing-tools/", "dateModified": "2026-09-29"}
 ```
 
 ```json

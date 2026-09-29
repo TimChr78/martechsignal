@@ -33,6 +33,15 @@ carry offers/review/aggregateRating or GSC flags the whole page.
 """
 import json
 from pathlib import Path
+import re as _re
+
+
+def _strip_pick_label(name, value):
+    # r17 H-2 (2026-09-30): pick_*_if data values embed the label the <dt>
+    # already carries ("Pick n8n if ..."). The <dd> must continue the
+    # sentence, not repeat it.
+    return _re.sub(r"^pick\s+" + _re.escape(str(name or "")) + r"\s+if\b\s*",
+                   "", str(value or ""), flags=_re.I)
 
 from build_tools import page_shell, esc, ROOT, pricing_label, out_links, _tool_fact_img
 from build_tools import CATEGORY_GUIDES, _pilot_shot
@@ -404,7 +413,7 @@ def build_vs():
         if c and page.get("pick_c_if"):
             _picks.append((c, page["pick_c_if"]))
         body.append('<dl class="vs-verdict">'
-                    + ''.join(f'<dt>Pick {esc(t["name"])} if</dt><dd>{esc(v)}</dd>' for t, v in _picks)
+                    + ''.join(f'<dt>Pick {esc(t["name"])} if</dt><dd>{esc(_strip_pick_label(t["name"], v))}</dd>' for t, v in _picks)
                     + '</dl>')
         # r11 H-4 (2026-09-29): same 3-question FAQ rollout as best pages.
         for _qa in (page.get("pilot_faq") or []):
@@ -471,6 +480,9 @@ def build_vs():
             "isPartOf": {"@id": "https://martechsignal.com/#website"},
             "name": page["title"],
             "url": f"https://martechsignal.com/vs/{page['slug']}/",
+            # r17 M-9: bind the Article to the page's WebPage node (unfragmented
+            # @id, guides pattern) like blog (42/42) and guides (5/5) already do.
+            "mainEntityOfPage": {"@id": f"https://martechsignal.com/vs/{page['slug']}/"},
             "inLanguage": "en",
             # r10 H-4 (2026-09-29): Article headline (= H1) + page image.
             "headline": page["title"],

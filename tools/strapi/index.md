@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo once past the free tier |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $99/mo |
 | ✓ AI capabilities: AI content generation |  |
 | ✓ Active public repository (73,250 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Next.js, Nuxt, Gatsby (8 listed) |  |
@@ -62,7 +62,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Strapi
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Strapi review (2026): pricing, AI features, verdict
 
@@ -295,7 +295,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/strapi/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/strapi/", "breadcrumb": {"@id": "https://martechsignal.com/tools/strapi/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

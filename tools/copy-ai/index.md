@@ -59,7 +59,7 @@ AI-first digital marketing platform for content strategy, generation, publishing
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Copy.ai
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Copy.ai review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI-powered GTM platform for sales and marketing content automation at scale
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Copy.ai →](https://www.copy.ai)
 
@@ -181,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/copy-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -293,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/copy-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/copy-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/copy-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

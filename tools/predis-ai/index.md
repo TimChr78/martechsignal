@@ -59,7 +59,7 @@ Browser extension to publish content to multiple social media platforms with one
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Predis.ai
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Predis.ai review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI-powered social media content generator for posts, videos, and ad creatives
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Predis.ai →](https://predis.ai)
 
@@ -179,7 +179,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/predis-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -291,7 +291,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/predis-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/predis-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/predis-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -64,7 +64,7 @@ AI skill for GA4 + GTM event tracking: site analysis, schema design, and go-live
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Email Marketing Bible
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 KIND: Agent Skill (not an end-to-end platform)
 
@@ -290,7 +290,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/email-marketing-bible/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/email-marketing-bible/", "breadcrumb": {"@id": "https://martechsignal.com/tools/email-marketing-bible/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

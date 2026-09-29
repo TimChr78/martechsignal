@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $40/mo |
 | ✓ AI capabilities: agent-driven CRM that builds contact and company records from your team's email |  |
 | ✓ Active public repository (4,480 GitHub stars counted at last check) |  |
 
@@ -30,7 +30,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.
 
 **Can you self-host Macro?**
-Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com.
+Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com.
 
 - **Pricing:** Freemium
 - **Category:** [CRM](/categories/crm/)
@@ -71,7 +71,7 @@ Open-source AI CRM with built-in agents, conversational analytics, and private d
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Macro
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Macro review (2026): pricing, AI features, verdict
 
@@ -129,7 +129,7 @@ Current plans and limits live on the [Macro pricing page](https://macro.com/pric
 - The local stack brings up Postgres, Redis, LocalStack, OpenSearch, Kafka, and FusionAuth in Docker with dummy AWS credentials, and builds the Rust services on the host with cargo zigbuild. Compose is driven through just recipes; no raw docker compose commands are documented.
 - Login codes land in Mailpit at localhost:8025 rather than a real inbox, so first-run sign-in works offline.
 - Release artifacts ship monthly under dated tags: v2026.9.7.0 includes a macOS .dmg, a Linux AppImage, and tarballs for the macrod agent daemon.
-- The README points commercial or managed-hosting arrangements to self-host@macro.com, and licensing@macro.com handles alternative licensing.
+- The README points commercial or managed-hosting arrangements to self-host at macro.com, and licensing at macro.com handles alternative licensing.
 ## Requirements
 
 A Nix-managed environment plus Docker for the backing services (Postgres, Redis, LocalStack, OpenSearch, Kafka, FusionAuth) and a Rust toolchain for the services, which build with cargo zigbuild. The monorepo holds 167 Rust crates, 42 deployable services, and a SolidJS app for web and desktop. Two components are sublicensed rather than in-repo, so a self-hosted instance either maintains licenses for LiveKit (video calls), FusionAuth (authentication), and PostHog (analytics) or disables those features.
@@ -183,7 +183,7 @@ A genuinely open-source workspace whose CRM is a byproduct of team email: real f
 
 Attio is a dedicated CRM: deal objects, pipeline views, enrichment, and integrations built around managing a sales process. Macro is a workspace where the CRM emerges from email, with company records, stages, and revenue properties but no deal entity and manual stage moves. Pick Attio if pipeline management and forecasting are the job, or if you need a CRM to drop into an existing stack. Pick Macro if your team would rather replace its email, chat, docs, and task tools with one app and accept lighter pipeline mechanics in exchange for records that maintain themselves.
 
-Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com.
+Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com.
 
 ## Similar Tools
 
@@ -298,7 +298,7 @@ One email when a new tool review lands, nothing else.
         "name": "Can you self-host Macro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com."
+          "text": "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com."
         }
       }
     ]
@@ -336,7 +336,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/macro/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/macro/", "breadcrumb": {"@id": "https://martechsignal.com/tools/macro/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -61,7 +61,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Marketing Studio
-Re-check pending: pricing last verified 2026-08-31 (29 days ago).
+Re-check pending: pricing last verified 2026-08-31 (30 days ago).
 
 ## Marketing Studio review (2026): pricing, AI features, verdict
 
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketing-studio/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketing-studio/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -30,7 +30,7 @@ Predictable, publish-priced rule automation for paid social that has grown into 
 Two published tiers, both keyed to total monthly ad spend across connected accounts: Essential at $49 per month for workspaces, post boosting, reports, the activity page, and Slack alerts, and Pro at $99 per month, which adds automated rules and strategies, Explorer, Launcher, Stage, top audiences, custom metrics and timeframes, and custom and lookalike audiences. Enterprise is quoted, with no limits or overages. Annual billing gives twelve months for the price of ten, and Hub server-side tracking is priced separately per event, from free at 10,000 monthly events to $499 at 150 million.
 
 **Did Revealbot rebrand to Birch?**
-Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
+Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello at revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
 
 **Is Birch an AI ad optimization tool?**
 Only partly. The core product is deterministic: you write condition-based rules and the platform executes them, which is what separates it from autonomous optimizers. The AI surface is Bïrch AI, described as an AI layer across your workflows, and Bïrch MCP, which connects the platform to external AI tools. Routines for scheduling repeated workflows are listed as coming soon.
@@ -81,7 +81,7 @@ Python toolkit for SEO and advertising analysis in pandas DataFrames
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Revealbot (Birch)
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Revealbot (Birch) review (2026): pricing, AI features, verdict
 
@@ -89,7 +89,7 @@ AI-powered ad automation and rules engine for Meta, Google, and TikTok ads
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Revealbot (Birch) →](https://bir.ch)
 
@@ -188,7 +188,7 @@ Predictable, publish-priced rule automation for paid social that has grown into 
 
 Two published tiers, both keyed to total monthly ad spend across connected accounts: Essential at $49 per month for workspaces, post boosting, reports, the activity page, and Slack alerts, and Pro at $99 per month, which adds automated rules and strategies, Explorer, Launcher, Stage, top audiences, custom metrics and timeframes, and custom and lookalike audiences. Enterprise is quoted, with no limits or overages. Annual billing gives twelve months for the price of ten, and Hub server-side tracking is priced separately per event, from free at 10,000 monthly events to $499 at 150 million.
 
-Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
+Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello at revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms.
 
 Only partly. The core product is deterministic: you write condition-based rules and the platform executes them, which is what separates it from autonomous optimizers. The AI surface is Bïrch AI, described as an AI layer across your workflows, and Bïrch MCP, which connects the platform to external AI tools. Routines for scheduling repeated workflows are listed as coming soon.
 
@@ -235,7 +235,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/revealbot/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -316,7 +316,7 @@ One email when a new tool review lands, nothing else.
         "name": "Did Revealbot rebrand to Birch?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized B\u00efrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states B\u00efrch is an official partner of those platforms."
+          "text": "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello at revealbot.com. The product is stylized B\u00efrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states B\u00efrch is an official partner of those platforms."
         }
       },
       {
@@ -386,7 +386,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/revealbot/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/revealbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/revealbot/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

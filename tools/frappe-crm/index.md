@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5/mo |
 | ✓ Active public repository (3,618 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Twilio, Exotel, WhatsApp (5 listed) |  |
 
@@ -75,7 +75,7 @@ Plugin-first CRM (source-available, Elastic 2.0) written in Go
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Frappe CRM
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Frappe CRM review (2026): pricing, AI features, verdict
 
@@ -360,7 +360,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frappe-crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/frappe-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/frappe-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

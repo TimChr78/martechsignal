@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: native AI agent support |  |
 | ✓ Active public repository (1,713 GitHub stars counted at last check) |  |
 
@@ -69,7 +69,7 @@ MCP server giving AI agents read/write control of Google Ads, Meta Ads, and GA4
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Relaticle
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Relaticle review (2026): pricing, AI features, verdict
 
@@ -347,7 +347,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/relaticle/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/relaticle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/relaticle/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

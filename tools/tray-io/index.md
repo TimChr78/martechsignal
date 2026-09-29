@@ -71,7 +71,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Tray.io
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Tray.io review (2026): pricing, AI features, verdict
 
@@ -353,7 +353,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tray-io/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tray-io/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ API access for custom integrations |  |
 | ✓ Active public repository (25,383 GitHub stars counted at last check) |  |
 
@@ -78,7 +78,7 @@ Free AI-powered CRM platform with sales, service, and marketing tools unified
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Monica
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Monica review (2026): pricing, AI features, verdict
 
@@ -375,7 +375,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/monica/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/monica/", "breadcrumb": {"@id": "https://martechsignal.com/tools/monica/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

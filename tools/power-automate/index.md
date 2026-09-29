@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: copilot-assisted flow building | ✗ Paid plans start at $15/mo once past the free tier |
+| ✓ AI capabilities: copilot-assisted flow building | ✗ Paid plans start at $15/mo |
 | ✓ Native integrations include Microsoft 365, SharePoint, Dataverse (6 listed) | ✗ Closed source - no self-hosting option |
 | ✓ API access for custom integrations |  |
 
@@ -65,7 +65,7 @@ Enterprise workflow automation inside the Microsoft Power Platform
 
 Workflow Automation · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Microsoft Power Automate →](https://powerautomate.microsoft.com)
 
@@ -164,7 +164,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/power-automate/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-27",
     "offers": {
       "@type": "Offer",
@@ -267,7 +267,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/power-automate/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/power-automate/", "breadcrumb": {"@id": "https://martechsignal.com/tools/power-automate/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

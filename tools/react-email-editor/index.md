@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $250/mo |
 | ✓ AI capabilities: AI Assistant chat editing |  |
 | ✓ Active public repository (5,231 GitHub stars counted at last check) |  |
 | ✓ Native integrations include React, Angular, Vue (7 listed) |  |
@@ -76,7 +76,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - React Email Editor
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## React Email Editor review (2026): pricing, AI features, verdict
 
@@ -369,7 +369,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/react-email-editor/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/react-email-editor/", "breadcrumb": {"@id": "https://martechsignal.com/tools/react-email-editor/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

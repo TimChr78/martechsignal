@@ -66,7 +66,7 @@ Free open-source Laravel CRM for SMEs and enterprises with full customer lifecyc
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - SuiteCRM
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## SuiteCRM review (2026): pricing, AI features, verdict
 
@@ -321,7 +321,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/suitecrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/suitecrm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

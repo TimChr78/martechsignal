@@ -81,7 +81,7 @@ Apache's open-source customer data platform and personalization engine
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Dynamic Yield
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Dynamic Yield review (2026): pricing, AI features, verdict
 
@@ -381,7 +381,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dynamic-yield/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/dynamic-yield/", "breadcrumb": {"@id": "https://martechsignal.com/tools/dynamic-yield/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

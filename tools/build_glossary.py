@@ -301,7 +301,13 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
             # can date the entry.
             **({"datePublished": term_date} if term_date else {}),
             "inDefinedTermSet": {
-                "@id": "https://martechsignal.com/glossary/#set"
+                "@id": "https://martechsignal.com/glossary/#set",
+                "@type": "DefinedTermSet",
+                "name": "MartechSignal Glossary",
+                # r17 L-4: the stub previously carried only @id, so the join
+                # landed on an empty node on leaves; state the set size here
+                # (same number the hub node derives).
+                "numberOfItems": len(all_terms)
             },
             # r16 L-8: author inlined with name (single-block parsers see
             # no author name in a bare @id reference).

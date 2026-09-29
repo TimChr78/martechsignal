@@ -76,7 +76,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - OpenOutreach
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## OpenOutreach review (2026): pricing, AI features, verdict
 
@@ -360,7 +360,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openoutreach/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openoutreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openoutreach/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

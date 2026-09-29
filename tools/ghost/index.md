@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ AI capabilities: AI writing assistant |  |
 | ✓ Active public repository (55,454 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Zapier, Slack, WordPress import (7 listed) |  |
@@ -62,7 +62,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Ghost
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Ghost review (2026): pricing, AI features, verdict
 
@@ -288,7 +288,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ghost/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/ghost/", "breadcrumb": {"@id": "https://martechsignal.com/tools/ghost/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

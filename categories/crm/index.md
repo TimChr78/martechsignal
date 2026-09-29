@@ -585,7 +585,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/crm/", "breadcrumb": {"@id": "https://martechsignal.com/categories/crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

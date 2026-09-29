@@ -1559,6 +1559,163 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_money_prose_dollar_matches_record():
+    """r17 H-3 residue (2026-09-30): mirror of the euro check - a $ in
+    money-page prose requires a non-EUR record. Caught n8n (EUR record,
+    $20/$50 prose on /alternatives/zapier/ + /best/open-source-marketing-tools/)
+    and make (Teams $29 vs EUR 29 on /vs/make-vs-zapier/)."""
+    import json as _j
+    recs = {x["slug"]: x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)}
+    bad = []
+    for path, key in (("tools/bestx-content.json", "items"), ("tools/vsx-content.json", "items"),
+                      ("tools/alternatives-content.json", "items")):
+        data = _j.loads((ROOT / path).read_text())
+        pages = data["pages"] if isinstance(data, dict) else data
+        for pg in pages:
+            _slugs = [i.get("slug") for i in (pg.get(key) or []) if isinstance(i, dict)]
+            if path.endswith("vsx-content.json"):
+                _slugs = [pg.get("a_slug"), pg.get("b_slug"), pg.get("c_slug")]
+            for slug in _slugs:
+                if not slug or not isinstance(slug, str):
+                    continue
+                cur = recs.get(slug, {}).get("currency")
+                if cur != "EUR":
+                    continue
+                for it in (pg.get(key) or []):
+                    if not isinstance(it, dict) or it.get("slug") != slug:
+                        continue
+                    for field in ("assessment", "text", "verdict", "direct_answer", "why"):
+                        v = it.get(field)
+                        if isinstance(v, str) and "$" in v:
+                            bad.append(f"{path}:{pg.get('slug')}:{slug}:{field}")
+    assert not bad, f"dollar prose on EUR records: {bad[:8]}"
+
+
+def test_currency_null_records_render_code_not_symbol():
+    """r17 H-3 fix #2 (2026-09-30): the 18 records with no currency (all
+    quote-based enterprise) must render a currency code or no price at all -
+    never a $/EUR symbol that would silently default them. Fail closed."""
+    import json as _j
+    import re as _re
+    recs = {x["slug"]: x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)}
+    nulls = {s for s, r in recs.items() if not r.get("currency")}
+    bad = []
+    for _f in (ROOT / "tools").glob("*/index.html"):
+        slug = _f.parent.name
+        if slug not in nulls:
+            continue
+        h = _f.read_text(errors="ignore")
+        body = _re.sub(r"<script.*?</script>", "", h, flags=_re.S)
+        # context figures (ad-spend thresholds, funding, API token prices,
+        # correction prose) are not platform price quotes. Only flag symbols
+        # in the pricing Quick-Facts block / pricing table region.
+        _pr = _re.search(r"(<section class=\"faq-block\"|<h2>Pricing</h2>|class=\"qf\")", body)
+        _seg = body[_pr.start():] if _pr else body
+        for _m in _re.finditer(r"[" + chr(36) + chr(8364) + r"]\s?\d", _seg):
+            _ctx = _seg[max(0, _m.start() - 90):_m.start()]
+            # non-price contexts: ad-spend/ICP thresholds, funding, revenue,
+            # API token pricing, correction prose about removed figures
+            if _re.search(r"(spend|revenue|raised|valuation|attributed|per million|pricing correction|figures we|quoted around|carried Team|price list is gone|campaign performance|removed the|developer docs:|Palmyra|X4 at|same window|docs quote|Bedrock|finished task)", _ctx, _re.I):
+                continue
+            if _re.search(r"\d[,.]?\d*\s?K\b", _seg[_m.start():_m.start() + 12]):
+                continue  # K-scale annual contract ranges, not tier quotes
+            bad.append((slug, _m.group(0), _ctx[-60:]))
+            break
+    assert not bad, f"symbol price on currency-null record: {bad[:8]}"
+
+
+def test_currency_populated_wherever_price_from_set():
+    """r17 H-3 (2026-09-30): 129 records had price_from with null currency,
+    so the money guard compared symbols against nothing. Every record with a
+    price_from must carry a currency (free price_from=0 takes the default)."""
+    import json as _json
+    recs = [x for x in _json.loads((ROOT / "tools" / "tools.json").read_text())
+            if isinstance(x, dict)]
+    bad = [x["slug"] for x in recs
+           if x.get("price_from") is not None and not x.get("currency")]
+    assert not bad, f"price_from without currency: {bad[:10]}"
+
+
+def test_money_faq_price_literals_trace_to_page_records():
+    """r17 H-1 (2026-09-30): the geo page FAQ quoted Trakkr $10 (record $100),
+    Nimt/Writesonic EUR 7 (records 79/79 in other currencies), Evertune $89
+    (record $800). Every $/EUR literal in a money-page FAQ answer must match
+    an entry figure of a record on that page or a figure quoted in that
+    record's own price_notes (e.g. a second-tier plan)."""
+    import json as _json
+    import re as _re
+    recs = {x["slug"]: x for x in _json.loads((ROOT / "tools" / "tools.json").read_text())
+            if isinstance(x, dict)}
+    def _figs(slugs):
+        out = set()
+        for _s in slugs:
+            _r = recs.get(_s, {})
+            for _v in (_r.get("price_from"), _r.get("paid_from")):
+                if isinstance(_v, (int, float)):
+                    out.add(str(int(_v)))
+            for _m in _re.finditer(r"(\d[\d,]*)", str(_r.get("price_notes") or "")):
+                out.add(_m.group(1).replace(",", ""))
+        return out
+    bad = []
+    for _path, _kind in (("tools/bestx-content.json", "items"),
+                         ("tools/vsx-content.json", "trio"),
+                         ("tools/alternatives-content.json", "items")):
+        _d = _json.loads((ROOT / _path).read_text())
+        for _pg in (_d["pages"] if isinstance(_d, dict) else _d):
+            if _kind == "trio":
+                _slugs = [_pg.get("a_slug"), _pg.get("b_slug"), _pg.get("c_slug")]
+            else:
+                _slugs = [i.get("slug") for i in (_pg.get(_kind) or []) if i.get("slug")]
+            _F = _figs([_s for _s in _slugs if _s])
+            for _qa in (_pg.get("pilot_faq", []) or []) + (_pg.get("faq", []) or []):
+                for _m in _re.finditer(r"[$€](" + chr(92) + "d[" + chr(92) + "d,]*)", _qa.get("a", "")):
+                    if _m.group(1).replace(",", "") not in _F:
+                        bad.append((_pg["slug"], _m.group(0)))
+    assert not bad, f"FAQ price literals with no record behind them: {bad[:8]}"
+
+
+def test_vs_verdict_dd_never_repeats_dt():
+    """r17 H-2 (2026-09-30): 15 pick_X_if pairs on 8 vs pages repeated the
+    dt label verbatim inside the dd. The dd must continue the sentence."""
+    import re as _re
+    bad = []
+    for _f in ROOT.rglob("index.html"):
+        _rel = _f.relative_to(ROOT)
+        if _rel.parts and _rel.parts[0] == "deploy-out":
+            continue  # staging copy of the same pages; ROOT copies are canonical
+        _h = _f.read_text(errors="ignore")
+        for _m in _re.finditer(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", _h, _re.S):
+            _dt = _re.sub(r"\s+", " ", _m.group(1)).strip().lower()
+            _dd = _re.sub(r"\s+", " ", _m.group(2)).strip().lower()
+            if _dd.startswith(_dt):
+                bad.append((_f.relative_to(ROOT), _m.group(1)[:40]))
+    assert not bad, f"dd repeats dt: {bad[:8]}"
+
+
+def test_no_bare_prose_emails_for_cf_to_rewrite():
+    """r17 M-7 (2026-09-30): Cloudflare rewrites bare @-text into
+    /cdn-cgi/l/email-protection hrefs that 404 for link checkers.
+    Addresses may appear only as mailto: links (contact pattern),
+    input placeholders (attributes CF ignores), or at-form prose.
+    Code samples are exempt (commands, not contacts)."""
+    import re as _re
+    _pat = _re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+" + chr(92) + ".[A-Za-z]{2,}")
+    bad = []
+    for _f in ROOT.rglob("index.html"):
+        _rel = _f.relative_to(ROOT)
+        if _rel.parts and _rel.parts[0] == "deploy-out":
+            continue
+        _h = _f.read_text(errors="ignore")
+        _h = _re.sub(r"<code>.*?</code>", "", _h, flags=_re.S)
+        _h = _re.sub(r"<a" + chr(92) + "s[^>]*href=" + chr(34) + "mailto:.*?</a>", "", _h, flags=_re.S)
+        # r17 M-7b: scan text nodes only. Attribute values (input
+        # placeholders, meta descriptions) are invisible to CF's
+        # email-protection rewrite, which targets text nodes + mailto: hrefs.
+        _h = _re.sub(r"<[^>]*>", " ", _h)
+        for _m in _pat.finditer(_h):
+            bad.append((str(_rel), _m.group(0)))
+    assert not bad, f"bare prose emails CF would rewrite: {bad[:8]}"
+
 def test_tool_cards_serve_webp_at_1200w():
     """r16 L-1 (2026-09-29): money-page image srcsets used the PNG master as
     the 1200w candidate (mobile at DPR 3 fetched PNG). q82 -1200.webp

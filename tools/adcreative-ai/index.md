@@ -59,7 +59,7 @@ AI-powered Meta ads optimization and creative workflow
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - AdCreative.ai
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## AdCreative.ai review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI platform generating high-converting ad creatives and social media post design
 
 Advertising & Paid Media · From $20/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit AdCreative.ai →](https://www.adcreative.ai)
 
@@ -183,7 +183,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/adcreative-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -286,7 +286,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adcreative-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adcreative-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

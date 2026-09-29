@@ -153,6 +153,7 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
+  "@id": "https://martechsignal.com/categories/",
   "name": "Categories",
   "url": "https://martechsignal.com/categories/",
   "description": "All 13 tool categories plus an open-source index in the MartechSignal directory.",
@@ -249,6 +250,7 @@ No-code/low-code automation platforms and iPaaS. Includes [Activepieces](/tools/
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/categories/#breadcrumb",
   "itemListElement": [
     {
       "@type": "ListItem",

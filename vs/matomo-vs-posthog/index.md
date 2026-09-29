@@ -149,6 +149,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Matomo vs PostHog (2026): web analytics or product analytics",
     "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/matomo-vs-posthog/"
+    },
     "inLanguage": "en",
     "headline": "Matomo vs PostHog (2026): web analytics or product analytics",
     "image": "https://martechsignal.com/og/vs/matomo-vs-posthog.png",
@@ -214,10 +217,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-posthog/", "dateModified": "2026-09-29"}
 ```
 
 ```json

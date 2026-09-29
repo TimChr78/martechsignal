@@ -63,7 +63,7 @@ Open-source headless CMS with AI-powered content management and API-first design
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Hypotenuse AI
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Hypotenuse AI review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI content generation platform for ecommerce product descriptions and articles
 
 AI Content & Copywriting · From $56/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Hypotenuse AI →](https://www.hypotenuse.ai)
 
@@ -184,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hypotenuse-ai/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hypotenuse-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hypotenuse-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

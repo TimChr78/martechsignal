@@ -64,7 +64,7 @@ AI platform generating high-converting ad creatives and social media post design
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Pencil
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Pencil review (2026): pricing, AI features, verdict
 
@@ -72,7 +72,7 @@ AI-powered ad creative generation and performance prediction for paid media
 
 Advertising & Paid Media · From $11/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Pencil →](https://trypencil.com)
 
@@ -210,7 +210,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/pencil/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/pencil/", "breadcrumb": {"@id": "https://martechsignal.com/tools/pencil/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

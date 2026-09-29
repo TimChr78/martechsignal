@@ -102,7 +102,7 @@ The fastest-accumulating open-source projects in our catalog are not platforms. 
 
 ## Comparisons and best-of lists
 
-Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.
+Verdicts with receipts: every list below names what each tool costs from the vendor’s own pricing page, what it fits worst, and who should skip it. The head-to-head comparisons state pick-conditions instead of a winner; the best-of lists and tool pages give the verdict. Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.
 
 10 head-to-head comparisons: [N8n vs Zapier](https://martechsignal.com/vs/n8n-vs-zapier/), [NocoDB vs NocoBase](https://martechsignal.com/vs/nocodb-vs-nocobase/), [Matomo vs Plausible](https://martechsignal.com/vs/matomo-vs-plausible/), [Claude Seo vs Semrush](https://martechsignal.com/vs/claude-seo-vs-semrush/), [Salesforce Marketing Cloud vs HubSpot](https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/), [Make vs Zapier](https://martechsignal.com/vs/make-vs-zapier/), [Activecampaign vs Klaviyo](https://martechsignal.com/vs/activecampaign-vs-klaviyo/), [Jasper vs Writer](https://martechsignal.com/vs/jasper-vs-writer/), [N8n vs Make vs Zapier](https://martechsignal.com/vs/n8n-vs-make-vs-zapier/), [Matomo vs Posthog](https://martechsignal.com/vs/matomo-vs-posthog/). More on the [comparisons hub](/vs/).
 

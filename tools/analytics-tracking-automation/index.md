@@ -60,7 +60,7 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Analytics Tracking Automation
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Analytics Tracking Automation review (2026): pricing, AI features, verdict
 
@@ -276,7 +276,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/analytics-tracking-automation/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/analytics-tracking-automation/", "breadcrumb": {"@id": "https://martechsignal.com/tools/analytics-tracking-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

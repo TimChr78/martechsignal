@@ -75,7 +75,7 @@ AI Business Skills
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Open Mercato
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Open Mercato review (2026): pricing, AI features, verdict
 
@@ -335,7 +335,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/open-mercato/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/open-mercato/", "breadcrumb": {"@id": "https://martechsignal.com/tools/open-mercato/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

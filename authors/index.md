@@ -27,6 +27,7 @@ Who writes MartechSignal, and what the hands-on test standard is.
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/authors/#breadcrumb",
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -42,10 +43,6 @@ Who writes MartechSignal, and what the hands-on test standard is.
     }
   ]
 }
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/authors/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -63,7 +63,7 @@ Open source alternative to Ahrefs and Semrush
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Surfer SEO
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Surfer SEO review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI-powered content optimization platform for SEO-driven article writing and audi
 
 SEO & Search · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Surfer SEO →](https://surferseo.com)
 
@@ -186,7 +186,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/surfer-seo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -289,7 +289,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/surfer-seo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/surfer-seo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/surfer-seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

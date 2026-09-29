@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo |
 | ✓ Active public repository (21,604 GitHub stars counted at last check) |  |
 
 **What is OpenSEO?**
@@ -73,7 +73,7 @@ Free local tool that measures brand mentions and citations in Claude's web-searc
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - OpenSEO
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## OpenSEO review (2026): pricing, AI features, verdict
 
@@ -338,7 +338,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openseo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openseo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

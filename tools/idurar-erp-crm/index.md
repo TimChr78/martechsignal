@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000 one-time once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000 one-time |
 | ✓ API access for custom integrations |  |
 | ✓ Active public repository (8,838 GitHub stars counted at last check) |  |
 
@@ -68,7 +68,7 @@ Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & 
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - IDURAR ERP & CRM
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## IDURAR ERP & CRM review (2026): pricing, AI features, verdict
 
@@ -336,7 +336,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/idurar-erp-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/idurar-erp-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

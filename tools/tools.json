@@ -40,7 +40,8 @@
   },
   "license": "Apache-2.0",
   "github_forks": 366,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "activecampaign",
@@ -95,7 +96,8 @@
     "url": "https://www.g2.com/products/activecampaign/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "adcreative-ai",
@@ -140,7 +142,8 @@
     "The limits show up in the details. The prediction score is a model estimate, not a guarantee, and output drifts toward the generic if your brand assets are thin, so higher-end brands still want a designer to pass over the finalists. Video generation is improving but trails specialist tools. Pricing runs on credits, and heavy testing burns through the top tiers quickly, so the monthly cost grows with your iteration speed."
    ],
    "verdict": "Buy it when ad volume is your bottleneck and speed matters. Skip it if your brand needs art direction no template can give."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "adobe-marketo",
@@ -185,7 +188,8 @@
     "Pricing is quote-only and lands in the five-figure-plus range annually. Adobe's AI layer (GenAI features inside programs) is being pushed hard, but the core value is still the program architecture that flexes across channels."
    ],
    "verdict": "Buy it when program complexity and scale justify the ops headcount. For smaller teams it is overkill."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "ai-business-skills",
@@ -228,7 +232,8 @@
   },
   "license": "MIT",
   "github_forks": 230,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "albert-ai",
@@ -310,7 +315,8 @@
   "seo_description": "AlphOne: Plugin-first CRM (source-available, Elastic 2.0) written in Go. Open source & free to self-host.",
   "license": "Elastic License 2.0",
   "github_forks": 33,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "alwrity",
@@ -346,7 +352,8 @@
    "verdict": "A capable self-hosted content engine for technical marketers. Everyone else gets better results from maintained hosted tools."
   },
   "github_forks": 329,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "amplitude",
@@ -476,7 +483,8 @@
   },
   "license": "Apache-2.0",
   "github_forks": 40,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "anyword",
@@ -520,7 +528,8 @@
     "Treat the score as a strong prior, not a prophecy. The model rewards copy patterns that historically convert, which pushes you toward consensus phrasing, and pricing is per seat, so a full growth team clears the entry tier fast. Writers with a mature process and their own testing rhythm will find it redundant. The API, though, makes it easy to slot scoring into an existing content pipeline."
    ],
    "verdict": "Valuable when you need an instant, numbers-based copy check across many channels. Established writers can pass."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "appsmith",
@@ -644,7 +653,8 @@
    ],
    "verdict": "Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box."
   },
-  "paid_from": 29
+  "paid_from": 29,
+  "currency": "USD"
  },
  {
   "slug": "attribution",
@@ -727,7 +737,8 @@
     "For evaluators the practical questions are migration and scope: existing Autopilot customers move to Ortto's plans, and the pricing note in our records starts around $199/month for the Starter tier, which should be verified against Ortto's current pricing page before budgeting. The differentiator versus ActiveCampaign or Customer.io remains the visual journey canvas and the bundled CDP, at a price point above most single-channel tools."
    ],
    "verdict": "If you want the original visual journey builder, you are now buying Ortto, which bundles a CDP and analytics into the deal. Sensible for teams consolidating tools; overkill if you only need email sequences."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "billionmail",
@@ -1054,7 +1065,8 @@
    ],
    "verdict": "Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter."
   },
-  "paid_from": 5
+  "paid_from": 5,
+  "currency": "USD"
  },
  {
   "slug": "chatbotx",
@@ -1088,7 +1100,8 @@
    "verdict": "Right for technical teams that want ManyChat-style automation without lock-in. Everyone else should stay hosted."
   },
   "github_forks": 239,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "chatfuel",
@@ -1131,7 +1144,8 @@
     "It is flow automation first and open-ended AI second, so builders who want free-form chatbot behavior will feel constrained. Pricing starts around $39 a month and per-channel plans stack up when you run several networks, with advanced features shifting by tier. DTC brands that sell in DMs get the most value; B2B lead capture feels cramped next to general-purpose chatbot builders."
    ],
    "verdict": "A strong fit for DTC brands selling through DMs on Instagram and TikTok. B2B teams need a more general builder."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "chatwoot",
@@ -1206,7 +1220,8 @@
   },
   "paid_from": 19,
   "github_forks": 9065,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "claude-ads",
@@ -1257,7 +1272,8 @@
   },
   "license": "MIT",
   "github_forks": 1424,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "claude-seo",
@@ -1434,7 +1450,8 @@
   },
   "license": "MIT",
   "github_forks": 2625,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "clearscope",
@@ -1476,7 +1493,8 @@
     "Pricing is subscription-based and aimed at content teams, not freelancers scraping by. The gap versus newer AI tools: it scores against the SERP, but it does not write for you. You still write the draft."
    ],
    "verdict": "The reference tool for SEO copy scoring. Best when paired with a writer who wants ranking signals, not generated prose."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "clerk-io",
@@ -1565,7 +1583,8 @@
   },
   "license": "proprietary",
   "github_forks": 111,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "contentbot",
@@ -1608,7 +1627,8 @@
    ],
    "verdict": "Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper."
   },
-  "paid_from": 9
+  "paid_from": 9,
+  "currency": "USD"
  },
  {
   "slug": "copy-ai",
@@ -1654,7 +1674,8 @@
    ],
    "verdict": "Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options."
   },
-  "paid_from": 49
+  "paid_from": 49,
+  "currency": "USD"
  },
  {
   "slug": "cordys-crm",
@@ -1725,7 +1746,8 @@
   },
   "license": "GPL-3.0",
   "github_forks": 569,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "customer-io",
@@ -1797,7 +1819,8 @@
      "Email and transactional email, push and in-app with unlimited sends on every plan, SMS at custom volume, native WhatsApp, LINE, and webhooks that both send and receive. Anonymous messaging is available from Premium up. Data comes in through the Track or Data Pipelines APIs and SDKs for iOS, Android, React Native, Flutter, and JavaScript."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "deskcommcrm",
@@ -1841,7 +1864,8 @@
   "description": "DeskcommCRM is a Brazilian open-source project that packages a WhatsApp sales CRM with AI agents that answer customers, qualify leads, and move deals through a funnel. It is MIT licensed, self-hosted, and pitched as the open alternative to Kommo, Octadesk, and Intercom for businesses that sell by chat. It started as an ecommerce CRM and the community dragged it into clinics, real estate, infoproducts, and agencies; funnel vocabulary is configurable per pipeline, so a lead can become a \"patient\" or a \"buyer\" without forking the code.\n\nThe AI work is more built-out than most repos at this star count. Agents retrieve from a per-tenant knowledge base (RAG on Postgres pgvector), so answers come from your catalog and policies instead of model imagination. Every outbound message passes seven checks before sending: unsubscribe status, LGPD rules, anti-ban throttling, text variation, deterministic and semantic promise detection, and an automation disclosure. When the agent is about to promise a 24-hour delivery you do not offer, the check blocks it and logs what it would have said. Handoff to a human comes with a summary of the conversation rather than the raw transcript. Resolved conversations feed back into the knowledge base, and the system proposes prompt improvements to itself that a human has to approve. The whole CRM is exposed over MCP, so external agents can operate it too. You pick the AI provider at install (OpenRouter, Anthropic, OpenAI, or Google) and can swap it per subsystem later, with a spending cap per organization.\n\nPricing is the easy part: there is none. The full product is free under MIT, with no paid tier and no locked features, and agencies may host it for clients and charge for that. What you pay for is infrastructure: a VPS (4 GB RAM recommended; the stack boots on 2 GB but runs tight at 7 containers, and each WhatsApp session costs around 150 MB), a Supabase project for Postgres, auth, and storage, plus your own AI API keys. Installation is one script that generates secrets, applies the schema, and sets up the cron jobs the automations depend on, and updates back up the database first and roll back automatically if the new version comes up broken. The update path is tested in CI, which is more than most commercial vendors can say.\n\nThe closest comparison in this directory is WaCRM, another self-hosted Supabase-based WhatsApp CRM at a similar star count. WaCRM builds only on the official Meta Cloud API and calls itself a template; DeskcommCRM supports both the official API and QR-code connection through WAHA (faster to start, multi-number, with anti-ban throttling), and adds automation rules, RBAC, multi-tenancy with RLS isolation tests, and LGPD tooling. Against hosted players like ManyChat or Chatfuel the trade is the familiar one: you own the data and skip per-contact pricing, but you run the server. It is sales-first, unlike Chatwoot, which is support-first.\n\nTwo cautions. Documentation and community are Brazilian-Portuguese first (English and Spanish READMEs exist, but the depth is in Portuguese), and the project leans heavily on one maintainer. The QR-code WhatsApp connection is also unofficial, which is great for getting started and a ban risk the official Meta channel does not carry. If you want a polished SaaS or your team cannot operate Docker, stay with Kommo or ManyChat. If you sell through WhatsApp and want the whole operation on your own server, this is the most complete open option right now.",
   "license": "MIT",
   "github_forks": 1042,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "diffmode-growth-tactics",
@@ -1883,7 +1907,8 @@
   },
   "license": "Apache-2.0",
   "github_forks": 0,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "django-crm",
@@ -1946,7 +1971,8 @@
   "seo_description": "Django CRM: Multi-tenant open-source CRM on Django with leads, campaigns, and self-hosting. Free to self-host; no licence fee.",
   "license": "MIT",
   "github_forks": 1052,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "dolibarr",
@@ -2018,7 +2044,8 @@
   },
   "license": "GPL-3.0",
   "github_forks": 3544,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "drift",
@@ -2062,7 +2089,8 @@
     "The price point (from $2,500/mo) says it plainly: this is a revenue-team tool, not a support widget. Teams that only need a FAQ bot or light chat will overpay drastically. Buy it for pipeline conversation, not deflection."
    ],
    "verdict": "Relevant only for B2B revenue teams running inbound-outbound motion. Everyone else should use a support-oriented chatbot."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "dynamic-yield",
@@ -2196,7 +2224,8 @@
   "license": "MIT",
   "kind": "Agent Skill",
   "github_forks": 39,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "espocrm",
@@ -2305,7 +2334,8 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 26,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "ever-gauzy",
@@ -2363,7 +2393,8 @@
   "paid_from": 17,
   "license": "AGPL-3.0",
   "github_forks": 1196,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "frappe-crm",
@@ -2431,7 +2462,8 @@
   "paid_from": 5,
   "license": "AGPL-3.0",
   "github_forks": 1462,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "frase",
@@ -2509,7 +2541,8 @@
      "We found no Surfer integration in Frase's integrations page or docs index; Surfer is a competitor, and Frase publishes a comparison page against it. The documented integrations are Google Search Console, Google Analytics 4, Google Docs (an OAuth connector for imports, brand voice, and exports), Notion, Slack, Linear, GitHub, and direct publishing to WordPress, Webflow, Sanity, and Wix, with Zapier, Make, and n8n possible through the REST API. An earlier Chrome extension is not documented anywhere we could read."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "freshsales",
@@ -2569,7 +2602,8 @@
     ]
    ]
   },
-  "paid_from": 9
+  "paid_from": 9,
+  "currency": "USD"
  },
  {
   "slug": "ghost",
@@ -2616,7 +2650,8 @@
   "paid_from": 9,
   "license": "MIT",
   "github_forks": 11989,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "google-meta-ads-ga4-mcp",
@@ -2686,7 +2721,8 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 365,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "growth-lab",
@@ -2729,7 +2765,8 @@
   },
   "license": "Apache-2.0",
   "github_forks": 172,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "heap",
@@ -2774,7 +2811,8 @@
     "Autocapture generates noise as surely as it generates coverage, so curation and chart hygiene become your job, and event volume drives pricing, which climbs faster than teams expect. Privacy review matters more than ever when everything is recorded. Teams with disciplined tagging may prefer Mixpanel's precision, but teams that keep discovering untagged events will find Heap forgiving in exactly the way they need."
    ],
    "verdict": "Choose it when you keep discovering untagged events after the fact. Disciplined taggers get more from Mixpanel."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "hootsuite",
@@ -2819,7 +2857,8 @@
     "Scale has a price: entry plans start near $99 a month, the interface is dense, and small teams pay for governance features they never open. Listening and advocacy modules add on, so the full stack lands well above the entry number. If you are a five-person brand on three channels, Buffer or Later delivers the same posting with less friction and a fraction of the cost."
    ],
    "verdict": "The right call for multi-team, multi-brand social programs with governance needs. Small teams overpay for it."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "hubspot-crm",
@@ -2865,7 +2904,8 @@
    ],
    "verdict": "Best starting CRM for small teams. Revisit ownership costs seriously once headcount and workflows multiply."
   },
-  "paid_from": 20
+  "paid_from": 20,
+  "currency": "USD"
  },
  {
   "slug": "hubspot-marketing-hub",
@@ -2921,7 +2961,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "paid_from": 20
+  "paid_from": 20,
+  "currency": "USD"
  },
  {
   "slug": "hypotenuse-ai",
@@ -2965,7 +3006,8 @@
     "Input quality decides output quality: inconsistent feeds produce inconsistent descriptions, and credit-based pricing gets real at catalog scale, so budget before you scale. It is a specialist, not a general AI writer, and the long-form article side is shallow next to dedicated tools. Teams fighting duplicate and thin product copy across thousands of SKUs get the clearest win here. Start with one category and validate quality before scaling the whole catalog."
    ],
    "verdict": "A strong specialist for bulk product catalog content at scale. General writing needs are better served elsewhere."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "idurar-erp-crm",
@@ -3082,7 +3124,8 @@
     "url": "https://www.g2.com/products/intercom/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "jasper",
@@ -3127,7 +3170,8 @@
     "The brand controls are the reason enterprises pay, and the price has climbed with the repositioning, so freelancers and small teams pay for depth they never touch. Output still needs human editing to stand out, and agent sprawl can feel like overhead next to a raw model. Teams needing governed, on-brand, multichannel volume get the most value; solo users get more from a model plus prompts."
    ],
    "verdict": "Best for enterprises needing brand-governed, multichannel output at scale. Solo users get more from raw models."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "klaviyo",
@@ -3183,7 +3227,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "paid_from": 20
+  "paid_from": 20,
+  "currency": "USD"
  },
  {
   "slug": "krayin-crm",
@@ -3300,7 +3345,8 @@
   "paid_from": 39,
   "license": "MIT",
   "github_forks": 24646,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "laudspeaker",
@@ -3335,7 +3381,8 @@
   },
   "license": "MIT",
   "github_forks": 205,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "line-harness",
@@ -3400,7 +3447,8 @@
   "seo_description": "L Harness, Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control. Free to self-host; no licence fee.",
   "license": "MIT",
   "github_forks": 396,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "listmonk",
@@ -3442,7 +3490,8 @@
   },
   "license": "AGPL-3.0",
   "github_forks": 2632,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "loops",
@@ -3511,7 +3560,8 @@
      "Yes, and it is documented as a first-class surface rather than a bolt-on. Loops publishes an MCP server so any MCP client can read and write contacts, events, and content, along with agent skills for Claude Code, Codex, and Cursor, setup and migrate CLI commands, and a Claude Connector added in August 2026. The REST API underneath exposes roughly 70 endpoints with a public OpenAPI spec at app.loops.so/openapi.json. Separately, an in-app AI agent can assemble a workflow from a prompt, and LLM Translation translates an email branch in one click."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "macro",
@@ -3556,7 +3606,7 @@
     "The local stack brings up Postgres, Redis, LocalStack, OpenSearch, Kafka, and FusionAuth in Docker with dummy AWS credentials, and builds the Rust services on the host with cargo zigbuild. Compose is driven through just recipes; no raw docker compose commands are documented.",
     "Login codes land in Mailpit at localhost:8025 rather than a real inbox, so first-run sign-in works offline.",
     "Release artifacts ship monthly under dated tags: v2026.9.7.0 includes a macOS .dmg, a Linux AppImage, and tarballs for the macrod agent daemon.",
-    "The README points commercial or managed-hosting arrangements to self-host@macro.com, and licensing@macro.com handles alternative licensing."
+    "The README points commercial or managed-hosting arrangements to self-host at macro.com, and licensing at macro.com handles alternative licensing."
    ],
    "requirements": "A Nix-managed environment plus Docker for the backing services (Postgres, Redis, LocalStack, OpenSearch, Kafka, FusionAuth) and a Rust toolchain for the services, which build with cargo zigbuild. The monorepo holds 167 Rust crates, 42 deployable services, and a SolidJS app for web and desktop. Two components are sublicensed rather than in-repo, so a self-hosted instance either maintains licenses for LiveKit (video calls), FusionAuth (authentication), and PostHog (analytics) or disables those features.",
    "best_for": "Teams that want to collapse email, chat, docs, tasks, and calls into one tool and let the CRM assemble itself from their outbound email: relationship-driven sales, founder-led selling, and agency or studio work where the conversation history is the deal context. Agent-heavy teams get the most, since MCP support and scheduled agent runs are first-class.",
@@ -3575,7 +3625,7 @@
     ],
     [
      "Can you self-host Macro?",
-     "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host@macro.com."
+     "Yes, under AGPL-3.0, and the FAQ is candid that it has not been the primary focus. Self-hosting runs through Nix with a Compose stack for Postgres, Redis, OpenSearch, Kafka, and FusionAuth, and it carries a real caveat: LiveKit for calls, FusionAuth for authentication, and PostHog for analytics are sublicensed third-party services, so an independent deployment must maintain those licenses or cut the features. Managed hosting and commercial arrangements go through self-host at macro.com."
     ],
     [
      "How much does Macro cost?",
@@ -3587,7 +3637,8 @@
   "paid_from": 40,
   "license": "AGPL-3.0",
   "github_forks": 435,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "madgicx",
@@ -3628,7 +3679,8 @@
    "best_for": "Ecommerce teams spending serious money on Meta ads that want optimization, creative generation and attribution consolidated instead of stitched together from point tools.",
    "not_for": "Multi-channel advertisers needing Google/TikTok coverage in the same platform, and small spenders whose budget cannot justify a spend-scaled subscription.",
    "verdict": "The most complete Meta-only operating layer in the directory: real breadth across optimization, creative and attribution, with spend-based pricing that suits established ecommerce advertisers."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "mailchimp",
@@ -3684,7 +3736,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "paid_from": 13
+  "paid_from": 13,
+  "currency": "USD"
  },
  {
   "slug": "maizzle",
@@ -3740,7 +3793,8 @@
    ]
   },
   "github_forks": 69,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "make",
@@ -3794,7 +3848,8 @@
     ]
    ]
   },
-  "paid_from": 9
+  "paid_from": 9,
+  "currency": "USD"
  },
  {
   "slug": "manychat",
@@ -3839,7 +3894,8 @@
    ],
    "verdict": "The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs."
   },
-  "paid_from": 14
+  "paid_from": 14,
+  "currency": "USD"
  },
  {
   "slug": "marketing-studio",
@@ -3880,7 +3936,8 @@
   },
   "license": "MIT",
   "github_forks": 33,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "marketmuse",
@@ -4181,7 +4238,8 @@
     "url": "https://www.g2.com/products/mixpanel/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "monica",
@@ -4292,7 +4350,8 @@
   },
   "license": "Apache-2.0",
   "github_forks": 414,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "n8n",
@@ -4330,7 +4389,7 @@
   "status": "active",
   "date_added": "2026-07-27",
   "date_updated": "2026-09-27",
-  "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,232 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at $20 per month on Starter and $50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
+  "description": "Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.\n\nThe platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,232 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.\n\nCompared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at €20 per month on Starter and €50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.",
   "seo_description": "n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. Free to self-host; no licence fee.",
   "deep_dive": {
    "hands_on": [
@@ -4396,7 +4455,8 @@
   },
   "license": "MIT",
   "github_forks": 51,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "nocobase",
@@ -4452,7 +4512,8 @@
    ]
   },
   "github_forks": 2894,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "nocodb",
@@ -4712,7 +4773,8 @@
   "founded": 2020,
   "license": "MIT",
   "github_forks": 83,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "notifuse",
@@ -4765,7 +4827,8 @@
   "paid_from": 19,
   "license": "AGPL-3.0",
   "github_forks": 233,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "open-mercato",
@@ -4829,7 +4892,8 @@
   "last_release": "v0.7.0 (2026-08-26)",
   "license": "MIT",
   "github_forks": 429,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "openclaw-marketing-skills",
@@ -4874,7 +4938,8 @@
   },
   "license": "MIT",
   "github_forks": 381,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "openoutreach",
@@ -4953,7 +5018,8 @@
   },
   "license": "GPL-3.0",
   "github_forks": 572,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "name": "OpenSEO",
@@ -5059,7 +5125,8 @@
    "best_for": "Agencies and in-house teams running multiple Google Ads accounts that want statistically-backed improvement suggestions with one-click approval, plus Slack-native alerting.",
    "not_for": "Advertisers wanting cross-channel management (Google Ads only), and teams under ~$25,000 monthly spend where the Basic tier's floor exceeds their needs.",
    "verdict": "A focused Google Ads quality-control layer: less ambitious than cross-channel platforms, but its statistical confidence scoring and one-click fixes target exactly the work account managers hate."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "ortto",
@@ -5136,7 +5203,8 @@
      "Yes. Authentication uses a custom API key that you configure as a data source and can disconnect from the interface. Endpoints are regional: api.au.ap3api.com for Australia, api.eu.ap3api.com for Europe, and api.ap3api.com for everyone else. The developer guide covers the JSON payload for person and activity updates, and there are SDKs for iOS, Android, in-app notifications, and Flutter on top of the REST API and tracking snippet."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "paperclip",
@@ -5289,7 +5357,8 @@
      "Yes. Brandtech Group branding appears across the site, the legal entity in the footer is Pencil AI Limited, and the product line is marketed as Pencil Pro alongside the self-serve Pencil plans. Case studies are published with Brandtech-affiliated brands such as Experian, Diageo, and L'Oreal."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "persado",
@@ -5513,7 +5582,8 @@
     "url": "https://www.g2.com/products/pipedrive/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "plausible",
@@ -5559,7 +5629,8 @@
   "paid_from": 9,
   "license": "AGPL-3.0",
   "github_forks": 1878,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "postmark",
@@ -5629,7 +5700,8 @@
     ]
    ]
   },
-  "paid_from": 15
+  "paid_from": 15,
+  "currency": "USD"
  },
  {
   "slug": "potato-ai-visibility",
@@ -5672,7 +5744,8 @@
   "license": "MIT",
   "kind": "Utility",
   "github_forks": 7,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "predis-ai",
@@ -5717,7 +5790,8 @@
    ],
    "verdict": "Efficient social content factory for small brands; B2B nuance still needs a human editor."
   },
-  "paid_from": 19
+  "paid_from": 19,
+  "currency": "USD"
  },
  {
   "slug": "prospectos",
@@ -5756,7 +5830,8 @@
   },
   "license": "MIT",
   "github_forks": 42,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "react-email-editor",
@@ -5833,7 +5908,8 @@
   "pricing_url": "https://unlayer.com/pricing",
   "license": "MIT",
   "github_forks": 802,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "relaticle",
@@ -5977,7 +6053,8 @@
   "paid_from": 20,
   "license": "MIT",
   "github_forks": 1089,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "revealbot",
@@ -6041,7 +6118,7 @@
     ],
     [
      "Did Revealbot rebrand to Birch?",
-     "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello@revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms."
+     "Yes. The site at bir.ch titles its own pricing page 'Birch (Revealbot)', and its help and contact addresses still point to help.revealbot.com and hello at revealbot.com. The product is stylized Bïrch. Older reviews describing Google Ads and TikTok support as in development are out of date: the site lists Meta, Google, Snapchat, and TikTok ad accounts and states Bïrch is an official partner of those platforms."
     ],
     [
      "Is Birch an AI ad optimization tool?",
@@ -6060,7 +6137,8 @@
      "An endpoint at mcp.bir.ch/mcp that connects Claude, ChatGPT, Claude Code, and Codex over OAuth with no API key. The marketing page describes five tools and read only access; the help center is more precise. Campaign analysis cannot create, edit, pause, or delete anything, but rule management can duplicate, rename, move, activate, or pause rules and change which ad accounts they watch, across every platform and including drafts. Existing connections need to reconnect to pick up the write tools."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "salesforce-crm",
@@ -6115,7 +6193,8 @@
     "url": "https://www.g2.com/products/salesforce-sales-cloud/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "salesforce-marketing-cloud",
@@ -6183,7 +6262,8 @@
      "Only at the small end. Starter Suite and Pro Suite carry a 'try for free' link on the pricing page. Marketing Cloud Next Growth and Advanced list no self-serve trial: they are sold through sales, billed annually, and paid in advance, and the Premier success plan adds 30 percent of net license fees on top of the license."
     ]
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "segment",
@@ -6261,7 +6341,8 @@
     ]
    ]
   },
-  "paid_from": 120
+  "paid_from": 120,
+  "currency": "USD"
  },
  {
   "slug": "semrush",
@@ -6315,7 +6396,8 @@
     "url": "https://www.g2.com/products/semrush/reviews",
     "as_of": "2026-08-28"
    }
-  ]
+  ],
+  "currency": "USD"
  },
  {
   "slug": "sendgrid",
@@ -6360,7 +6442,8 @@
    ],
    "verdict": "Reliable, well-documented transactional email plumbing; marketers should look elsewhere for campaign work."
   },
-  "paid_from": 19.95
+  "paid_from": 19.95,
+  "currency": "USD"
  },
  {
   "slug": "seo-skill-bench",
@@ -6391,7 +6474,8 @@
   "description": "SEO Skill Bench answers the question every Claude Code SEO skill README can't: does the thing actually work once installed? It is an open benchmark that runs SEO skills for Claude Code and other coding agents against fixture websites with deliberately planted defects, then scores what they find. If you are choosing an SEO skill for your agent workflow, this is the closest thing to a published answer key.\n\nThe harness installs each entrant in a real headless Claude Code session (claude -p), not a simulation reconstructed from its README, and points it at the pivot-saas fixture site. Scoring follows a pre-registered 100-point rubric: 40 points for detecting planted defects, 25 for avoiding traps, meaning the skill never recommends fixing something that is already fine, 25 for blind-judged judgment calls, and 10 for execution. Scores are medians across runs. On the August 2026 board, SEOAgent led at 84.9 while the vanilla baseline with no skill scored 73.0. That spread tells you two things: skills can add real value, and some entrants score below doing nothing at all.\n\nSetup needs Node and a Claude Code install. You run node harness/run.mjs with a skill id and fixture, then the score and judge scripts, and entrants register with a one-line entry in skills.json. The leaderboard also publishes what each skill costs, kept outside the composite on purpose: resident tokens the skill occupies in every system prompt, per-run cost, and median time. Runs on the board cost between $1.70 and $4.46 and took 405 to 779 seconds. Heavy skills like Corey Haines' Marketing Skills carry 8,770 resident tokens, which dilutes every other skill you have installed.\n\nThe big caveat is the maintainer's conflict of interest. SEOAgent, the company behind the benchmark, also ships the top-ranked entrant. The structural mitigations are real: published fixtures, deterministic answer keys, a frozen rubric, blind judging, and a harness anyone can re-run. Still, treat the leaderboard as a strong signal rather than gospel. The benchmark only measures technical on-site audit work against one fixture. It says nothing about content strategy, links, or your actual site. At about 50 stars the community is small, and the repo's value is its method more than its momentum.\n\nCompared to picking a skill by GitHub stars or vibes, this is the most concrete public way to see detection rates and hallucination traps side by side. If you are building an agent-driven SEO workflow, run your candidate skill through this harness before you point it at a production site.",
   "license": "MIT",
   "github_forks": 1,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "seonaut",
@@ -6453,7 +6537,8 @@
   "paid_from": 9,
   "license": "MIT",
   "github_forks": 133,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "smartly-io",
@@ -6640,7 +6725,8 @@
     "The sticker is the problem. Seat-based pricing at premium rates makes every additional team member a budget conversation, and some modules (listening, advanced analytics) are separate line items. For small teams free-tier competitors cover the basics at a tenth of the cost."
    ],
    "verdict": "Best-in-class workflow and reporting for serious social teams; hard to justify below five seats."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "strapi",
@@ -6688,7 +6774,8 @@
   },
   "paid_from": 99,
   "github_forks": 9880,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "suitecrm",
@@ -6748,7 +6835,8 @@
   },
   "license": "AGPL-3.0",
   "github_forks": 2427,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "superlines",
@@ -6836,7 +6924,8 @@
     "It competes directly with Clearscope and Frase, and the difference is workflow orientation: Surfer leans toward on-page technical scoring and content structure. It does not write for you, so the quality ceiling still sits with the writer. Pricing is mid-tier with annual discounts."
    ],
    "verdict": "Solid choice for teams that want a SERP-grounded scoring loop. Pair it with a human editor; it is a compass, not a writer."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "tealium",
@@ -6927,7 +7016,8 @@
    ],
    "verdict": "Best-value AI chat for small e-commerce; complex routing needs bigger platforms."
   },
-  "paid_from": 24
+  "paid_from": 24,
+  "currency": "USD"
  },
  {
   "slug": "tooljet",
@@ -7127,7 +7217,8 @@
     "Attribution numbers are model-based estimates and should be read directionally; the tool is better at answering trends than exact cents. Pricing tiers by store revenue make it accessible at growth stage but notable at scale. Best fit is DTC operators consolidating dashboards, not enterprises needing warehouse-grade truth."
    ],
    "verdict": "Genuinely useful DTC dashboard consolidation; treat attribution as directional, warehouse for truth."
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "twenty",
@@ -7201,7 +7292,8 @@
   "paid_from": 9,
   "license": "AGPL-3.0",
   "github_forks": 9350,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "umami",
@@ -7267,7 +7359,8 @@
   "paid_from": 20,
   "license": "MIT",
   "github_forks": 8139,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "wacrm",
@@ -7347,7 +7440,8 @@
   },
   "license": "MIT",
   "github_forks": 6310,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "warpdrive",
@@ -7408,7 +7502,8 @@
   },
   "license": "MIT",
   "github_forks": 3,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "workato",
@@ -7631,7 +7726,8 @@
     "as_of": "2026-08-28"
    }
   ],
-  "paid_from": 19.99
+  "paid_from": 19.99,
+  "currency": "USD"
  },
  {
   "slug": "zapier-gtm-cheat-codes",
@@ -7678,7 +7774,8 @@
   },
   "license": "MIT",
   "github_forks": 22,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "warmbly",
@@ -7728,7 +7825,8 @@
    "verdict": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
   },
   "github_forks": 73,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "accuranker",
@@ -8240,7 +8338,7 @@
     "That model rewards steady cadence over burst tracking. Run hourly checks on many prompts and credits disappear fast. Run daily checks on a focused prompt set and the same pool covers a lot. The credit calculator on their pricing page exists for that reason.",
     "Beyond tracking, the platform covers competitor benchmarking, citation and sources-box analysis, sentiment by brand, topic and model, shopping cards in ChatGPT, Google AI Mode and Copilot, ad share of voice, and page audits with AI-readiness scoring (50 audits on Pro, 200 on Growth and Enterprise). Query fan-out shows the internal searches engines run before answering, and it ships on every plan. Prompt research estimates demand through semantic reconstruction rather than a panel number, with 10 free lookups a month on Growth. Two things to check in a trial: the Scout recommendations engine and the GA4/Search Console connectors are both labeled beta. REST API and white-label options gate at Growth (EUR 385), so agencies that need data exports land there, not Pro."
    ],
-   "verdict": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from $20 to EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.",
+   "verdict": "Rankscale offers the widest engine coverage for the money: 17-plus engines on every plan, credit-based pricing from Pro at EUR 99 to Enterprise at EUR 780 per month, and research features like query fan-out. The credit model needs a trial to size properly, and two headline features are still beta. For agencies, Growth at EUR 385 is where the API and white-label options start.",
    "best_for": "Agencies and multi-brand teams that want every major answer engine on one plan without per-engine upsells, plus exports and white-label reporting. Also fits teams that want research features like query fan-out alongside tracking.",
    "not_for": "Buyers who want fixed, predictable monthly costs, since tracking volume depends on credit burn and engine mix. Teams needing GA4 or Search Console tie-ins today, since those connectors are beta.",
    "cons": [
@@ -8256,7 +8354,7 @@
    "faq_extra": [
     [
      "How does Rankscale pricing work?",
-     "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and Essentials starts at $20."
+     "Plans are credit-based. Each query to an AI engine uses roughly a quarter of a credit. Pro is EUR 99 per month with 1,200 credits, Growth EUR 385 with 5,500, Enterprise EUR 780 with 12,000, and a cheaper Essentials tier below Pro whose price was not visible in our EU render."
     ],
     [
      "Which AI engines does Rankscale cover?",
@@ -8776,7 +8874,8 @@
    ]
   },
   "github_forks": 146,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "growthbook",
@@ -8997,7 +9096,8 @@
    ]
   },
   "github_forks": 1584,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "khoj",
@@ -9070,7 +9170,8 @@
    ]
   },
   "github_forks": 2498,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "libretranslate",
@@ -9139,7 +9240,8 @@
    "hands_on_verified": true
   },
   "github_forks": 1737,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "posthog",
@@ -9279,7 +9381,8 @@
    ]
   },
   "github_forks": 614,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "advertools",
@@ -9344,7 +9447,8 @@
    "hands_on_verified": true
   },
   "github_forks": 255,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "promptfoo",
@@ -9413,7 +9517,8 @@
    ]
   },
   "github_forks": 2391,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "activepieces",
@@ -9455,7 +9560,8 @@
   },
   "github_stars": 24775,
   "github_forks": 4263,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "currency": "USD"
  },
  {
   "slug": "pabbly-connect",
@@ -9489,7 +9595,8 @@
    "hands_on": [
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "power-automate",
@@ -9528,7 +9635,8 @@
    "hands_on": [
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "ifttt",
@@ -9566,7 +9674,8 @@
    "hands_on": [
     "Researched from the vendor's public pricing and product pages on 2026-09-27. Not a hands-on test."
    ]
-  }
+  },
+  "currency": "USD"
  },
  {
   "slug": "zoho-crm",
@@ -9660,7 +9769,8 @@
    "requirements": "Claude Code and a model with room for parallel subagents in one session. PDF output needs the optional reportlab install. The pack is MIT-licensed and free; API usage is billed by your provider."
   },
   "license": "MIT",
-  "kind": "Agent Skill"
+  "kind": "Agent Skill",
+  "currency": "USD"
  },
  {
   "slug": "digital-marketing-pro",
@@ -9720,6 +9830,7 @@
    "requirements": "An agent CLI from the supported platform list and a Claude-class model with enough context for long planning sessions. The pack itself is free and MIT-licensed; model and platform costs remain yours."
   },
   "license": "MIT",
-  "kind": "Agent Skill"
+  "kind": "Agent Skill",
+  "currency": "USD"
  }
 ]

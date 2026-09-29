@@ -71,7 +71,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Resend
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Resend review (2026): pricing, AI features, verdict
 
@@ -348,7 +348,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/resend/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/resend/", "breadcrumb": {"@id": "https://martechsignal.com/tools/resend/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -38,7 +38,7 @@ Vendor: [Official site](https://n8n.io) · [Pricing](https://n8n.io/pricing/) ·
 
 **Not for:** Teams that want the widest possible app catalog with zero infrastructure to manage; n8n's library runs to 400+ nodes against Zapier's 9,000+ integrations.
 
-n8n runs on a fair-code model: self-hosting is free, cloud Starter is $20 per month, Pro is $50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process.
+n8n runs on a fair-code model: self-hosting is free, cloud Starter is €20 per month billed annually, Pro is €50, and enterprise pricing is custom. Workflows are graphs with code steps and API access, while Zapier counts every step against a task quota. It deploys in the cloud or on your own infrastructure, and its AI agent nodes can call language models inside a larger process.
 
 ## [Make](/tools/make/)
 
@@ -324,10 +324,6 @@ Read the full assessment of [Zapier](/tools/zapier/), or browse all [workflow au
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/alternatives/zapier/", "dateModified": "2026-09-29"}
 ```
 
 ```json

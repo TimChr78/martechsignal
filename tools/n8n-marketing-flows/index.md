@@ -64,7 +64,7 @@ Open-source control plane to manage AI agents like a company, hire, schedule, bu
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - n8n Marketing Flows
-Re-check pending: pricing last verified 2026-08-31 (29 days ago).
+Re-check pending: pricing last verified 2026-08-31 (30 days ago).
 
 ## n8n Marketing Flows review (2026): pricing, AI features, verdict
 
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/n8n-marketing-flows/", "breadcrumb": {"@id": "https://martechsignal.com/tools/n8n-marketing-flows/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

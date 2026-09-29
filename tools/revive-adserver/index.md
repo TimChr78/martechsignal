@@ -317,7 +317,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/revive-adserver/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/revive-adserver/", "breadcrumb": {"@id": "https://martechsignal.com/tools/revive-adserver/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

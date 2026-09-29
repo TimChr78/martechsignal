@@ -71,7 +71,7 @@ Self-hosted multi-channel notification service for email, SMS, and web push
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Maizzle
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Maizzle review (2026): pricing, AI features, verdict
 
@@ -321,7 +321,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/maizzle/", "breadcrumb": {"@id": "https://martechsignal.com/tools/maizzle/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

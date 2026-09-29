@@ -366,12 +366,12 @@
 - [Author](https://martechsignal.com/authors/tim-christensen/)
 - [Contact](https://martechsignal.com/contact/)
 - [RSS feed](https://martechsignal.com/rss.xml)
+- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)
 
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 165 records = 163 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
-- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)
 
 
 > Scope: one entry per active tool with its full catalog description, price label, and license flag. Full page prose (reviews, comparisons, posts) lives on the linked pages, not in this file.
@@ -1060,7 +1060,7 @@ The honest caveat is the platform gravity. Flows, connections, and custom connec
 [n8n](https://martechsignal.com/tools/n8n/) , Open Source. Open source.
 Built as a flexible, open-source automation framework, n8n lets marketing, operations, and technical teams connect apps, move data, and orchestrate multi-step processes through a visual workflow builder. Its library of more than 400 nodes supports common business tools such as Slack, Gmail, Salesforce, HubSpot, Shopify, Stripe, Google Sheets, and Notion, while API access and custom code steps make it possible to extend workflows beyond prebuilt connectors. Founded in 2019 and headquartered in Berlin, Germany, it can be deployed in the cloud or self-hosted, giving organizations control over where data runs and how environments are managed.
 The platform's AI capabilities are embedded directly into workflows through AI agent nodes, AI workflow automation, AI data transformation, AI content generation, and AI-powered integrations that can call language models as part of a larger process. This makes it useful not only for routine task automation, but also for building lightweight AI agents, enrichment pipelines, and content operations that combine human review with machine-generated output. Its open-source foundation, reflected in a large GitHub community with more than 206,232 GitHub stars, is one of its clearest differentiators, especially for teams that want transparency, self-hosting, and deeper customization than many closed platforms allow.
-Compared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at $20 per month on Starter and $50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.
+Compared with commercial automation tools, n8n generally offers more flexibility and control, though it may require more technical setup and ongoing maintenance. Pricing includes a free self-hosted option under a fair-code model, cloud plans starting at €20 per month on Starter and €50 per month on Pro, and custom enterprise pricing. It is best for technically comfortable marketing operations teams, agencies, and AI-focused organizations that want an extensible automation platform with strong AI agent support and the option to self-host.
 
 [n8n Marketing Flows](https://martechsignal.com/tools/n8n-marketing-flows/) , Open Source. Open source.
 n8n Marketing Flows is a library of 79 one-click import workflows for n8n that covers the standard marketing automation jobs: scheduling social posts, monitoring sentiment on forums, digesting AI news, managing ads, and generating images and video. Each template ships as a JSON file you import into n8n, connect your own API keys, change the example parameters, and activate. The templates are in Traditional Chinese with English documentation, and every one lists which credentials it needs before you import.

@@ -366,9 +366,9 @@
 - [Author](https://martechsignal.com/authors/tim-christensen/)
 - [Contact](https://martechsignal.com/contact/)
 - [RSS feed](https://martechsignal.com/rss.xml)
+- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)
 
 ## Machine-readable data
 
 - [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). 165 records = 163 active + 2 non-active; the directory above lists only active tools
 - [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows
-- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)

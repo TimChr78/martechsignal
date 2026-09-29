@@ -69,7 +69,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - ToolJet
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## ToolJet review (2026): pricing, AI features, verdict
 
@@ -354,7 +354,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tooljet/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tooljet/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tooljet/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

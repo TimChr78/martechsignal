@@ -72,7 +72,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 Marketing Automation · From $15/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit ActiveCampaign →](https://www.activecampaign.com)
 
@@ -189,7 +189,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/activecampaign/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -292,7 +292,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/activecampaign/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/activecampaign/", "breadcrumb": {"@id": "https://martechsignal.com/tools/activecampaign/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

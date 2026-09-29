@@ -59,7 +59,7 @@ Open-source workflow automation platform with AI agent capabilities and 400+ nod
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - ChatbotX
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## ChatbotX review (2026): pricing, AI features, verdict
 
@@ -268,7 +268,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatbotx/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatbotx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatbotx/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

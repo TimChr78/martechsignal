@@ -63,7 +63,7 @@ Open-source machine translation API for content localization, self-hostable and 
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - Anyword
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Anyword review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI copywriting platform with predictive performance scores for marketing content
 
 AI Content & Copywriting · From $39/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Anyword →](https://www.anyword.com)
 
@@ -184,7 +184,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/anyword/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -287,7 +287,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/anyword/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/anyword/", "breadcrumb": {"@id": "https://martechsignal.com/tools/anyword/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

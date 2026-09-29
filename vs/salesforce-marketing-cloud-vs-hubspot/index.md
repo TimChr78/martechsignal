@@ -17,8 +17,8 @@
 | At 1,000 contacts | Contact volume rides inside the org bundle (Growth $1,500/mo). Personalization is $8/mo extra as an add-on, and AI features price separately. | 1,000 contacts fits Starter at $20/mo. Professional at $890/mo is where serious automation and attribution live. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick Salesforce Marketing Cloud if:** Pick Salesforce Marketing Cloud if you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
-- **Pick HubSpot Marketing Hub if:** Pick HubSpot Marketing Hub if you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
+- **Pick Salesforce Marketing Cloud if:** you want a hosted platform the vendor runs for you, and agentforce campaign creation and agentforce personalization decisioning matters to your team, starting at $1500/mo.
+- **Pick HubSpot Marketing Hub if:** you want a hosted platform the vendor runs for you, and ai content assistant and predictive lead scoring matters to your team, starting free.
 
 [Marketing Automation](/categories/marketing-automation/)
 
@@ -155,6 +155,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/"
+    },
     "inLanguage": "en",
     "headline": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
     "image": "https://martechsignal.com/og/vs/salesforce-marketing-cloud-vs-hubspot.png",
@@ -220,10 +223,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/", "dateModified": "2026-09-29"}
 ```
 
 ```json

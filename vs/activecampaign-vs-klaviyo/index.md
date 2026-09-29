@@ -17,8 +17,8 @@
 | At 1,000 contacts | Starter $15/mo is the entry tier; automation depth lives on Plus $49/mo and Professional $79/mo. | The free plan stops at 250 contacts, so 1,000 contacts is on the paid ladder starting near $20/mo. SMS and push add separate channel fees. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick ActiveCampaign if:** Pick ActiveCampaign if you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.
-- **Pick Klaviyo if:** Pick Klaviyo if you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
+- **Pick ActiveCampaign if:** you want a hosted platform the vendor runs for you, and ai content generation and predictive sending matters to your team, starting at $15/mo.
+- **Pick Klaviyo if:** you want a hosted platform the vendor runs for you, and ai subject line assistant and predictive analytics matters to your team, starting free.
 
 [Email Marketing](/categories/email-marketing/)[Marketing Automation](/categories/marketing-automation/)
 
@@ -157,6 +157,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/"
+    },
     "inLanguage": "en",
     "headline": "ActiveCampaign vs Klaviyo (2026): pricing, AI features, verdict",
     "image": "https://martechsignal.com/og/vs/activecampaign-vs-klaviyo.png",
@@ -222,10 +225,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/activecampaign-vs-klaviyo/", "dateModified": "2026-09-29"}
 ```
 
 ```json

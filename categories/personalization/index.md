@@ -235,7 +235,7 @@ Vendors in this category: [GrowthBook](https://www.growthbook.io) · [Flagsmith]
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/personalization/", "breadcrumb": {"@id": "https://martechsignal.com/categories/personalization/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

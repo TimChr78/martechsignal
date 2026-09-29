@@ -71,7 +71,7 @@ AI Search Intelligence platform for brands and agencies
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - MarketMuse
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## MarketMuse review (2026): pricing, AI features, verdict
 
@@ -334,7 +334,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketmuse/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/marketmuse/", "breadcrumb": {"@id": "https://martechsignal.com/tools/marketmuse/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

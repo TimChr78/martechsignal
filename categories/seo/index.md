@@ -305,7 +305,7 @@ Vendors in this category: [OpenSEO](https://openseo.so) · [Seonaut](https://seo
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/seo/", "breadcrumb": {"@id": "https://martechsignal.com/categories/seo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

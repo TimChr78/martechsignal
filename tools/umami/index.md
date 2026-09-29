@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $20/mo |
 | ✓ Active public repository (39,072 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress (community plugin), Next.js, Vercel (5 listed) |  |
 
@@ -69,7 +69,7 @@ AI-powered digital analytics platform for product and marketing teams
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Umami
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Umami review (2026): pricing, AI features, verdict
 
@@ -345,7 +345,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/umami/", "breadcrumb": {"@id": "https://martechsignal.com/tools/umami/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

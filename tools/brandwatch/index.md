@@ -59,7 +59,7 @@ Browser extension to publish content to multiple social media platforms with one
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Brandwatch
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Brandwatch review (2026): pricing, AI features, verdict
 
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/brandwatch/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/brandwatch/", "breadcrumb": {"@id": "https://martechsignal.com/tools/brandwatch/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

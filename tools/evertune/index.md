@@ -342,7 +342,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/evertune/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/evertune/", "breadcrumb": {"@id": "https://martechsignal.com/tools/evertune/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

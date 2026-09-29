@@ -67,7 +67,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Mailchimp
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Mailchimp review (2026): pricing, AI features, verdict
 
@@ -75,7 +75,7 @@ All-in-one marketing platform with AI-powered email, automation, and analytics
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Mailchimp →](https://mailchimp.com)
 
@@ -189,7 +189,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/mailchimp/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -301,7 +301,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mailchimp/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mailchimp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mailchimp/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

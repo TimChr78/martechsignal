@@ -181,7 +181,7 @@ Vendors in this category: [Chatwoot](https://www.chatwoot.com) · [ChatbotX](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/chatbots/", "breadcrumb": {"@id": "https://martechsignal.com/categories/chatbots/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -72,7 +72,7 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Django CRM
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Django CRM review (2026): pricing, AI features, verdict
 
@@ -333,7 +333,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/django-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/django-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -65,7 +65,7 @@ Social media management platform with AI-powered scheduling and analytics
 
 Social Media · From $99/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Hootsuite →](https://www.hootsuite.com)
 
@@ -178,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/hootsuite/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -281,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hootsuite/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/hootsuite/", "breadcrumb": {"@id": "https://martechsignal.com/tools/hootsuite/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

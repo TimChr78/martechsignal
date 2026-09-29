@@ -73,7 +73,7 @@ Open-source marketing automation platform with email, campaigns, and lead manage
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - NocoDB
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## NocoDB review (2026): pricing, AI features, verdict
 
@@ -360,7 +360,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocodb/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nocodb/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nocodb/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

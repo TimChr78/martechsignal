@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo once past the free tier |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo |
 | ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (333 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
@@ -298,7 +298,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warmbly/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/warmbly/", "breadcrumb": {"@id": "https://martechsignal.com/tools/warmbly/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

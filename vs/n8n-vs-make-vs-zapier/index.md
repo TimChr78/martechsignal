@@ -154,6 +154,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "n8n vs Make vs Zapier (2026): the three-way automation decision",
     "url": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/"
+    },
     "inLanguage": "en",
     "headline": "n8n vs Make vs Zapier (2026): the three-way automation decision",
     "image": "https://martechsignal.com/og/vs/n8n-vs-make-vs-zapier.png",
@@ -233,10 +236,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/n8n-vs-make-vs-zapier/", "dateModified": "2026-09-29"}
 ```
 
 ```json

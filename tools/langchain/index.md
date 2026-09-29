@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $39/mo |
 | ✓ AI capabilities: LLM chaining |  |
 | ✓ Active public repository (147,221 GitHub stars counted at last check) |  |
 | ✓ Native integrations include OpenAI, Anthropic, Google AI (10 listed) |  |
@@ -66,7 +66,7 @@ Visual automation platform for building complex workflows with AI agents and app
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - LangChain
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## LangChain review (2026): pricing, AI features, verdict
 
@@ -295,7 +295,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/langchain/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/langchain/", "breadcrumb": {"@id": "https://martechsignal.com/tools/langchain/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

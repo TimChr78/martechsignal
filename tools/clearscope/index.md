@@ -59,7 +59,7 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Clearscope
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Clearscope review (2026): pricing, AI features, verdict
 
@@ -67,7 +67,7 @@ AI-powered content optimization platform for SEO teams and content writers
 
 SEO & Search · From $129/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Clearscope →](https://www.clearscope.io)
 
@@ -180,7 +180,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/clearscope/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clearscope/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/clearscope/", "breadcrumb": {"@id": "https://martechsignal.com/tools/clearscope/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

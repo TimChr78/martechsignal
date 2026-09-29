@@ -17,8 +17,8 @@
 | At 10 people | Cloud Plus: 10 x $12/mo billed annually = $120/mo. Self-hosted runs all 10 on your own hardware at no license cost. | Budget from a quote. The free community edition runs the core, and paid tiers buy permissions, workflows, and support around it. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick NocoDB if:** Pick NocoDB if your tables already exist and you want a spreadsheet-style surface over data you own.
-- **Pick NocoBase if:** Pick NocoBase if you are designing operational systems from scratch and can invest in data-model thinking up front.
+- **Pick NocoDB if:** your tables already exist and you want a spreadsheet-style surface over data you own.
+- **Pick NocoBase if:** you are designing operational systems from scratch and can invest in data-model thinking up front.
 
 [Marketing Automation](/categories/marketing-automation/)[Open-Source Tools](/categories/open-source/)[Workflow Automation](/categories/workflow-automation/)
 
@@ -157,6 +157,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
     "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/"
+    },
     "inLanguage": "en",
     "headline": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
     "image": "https://martechsignal.com/og/vs/nocodb-vs-nocobase.png",
@@ -222,10 +225,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/nocodb-vs-nocobase/", "dateModified": "2026-09-29"}
 ```
 
 ```json

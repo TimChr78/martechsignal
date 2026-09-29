@@ -73,7 +73,7 @@ Workflow automation with 2,500+ integrations, built around data-driven triggers 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Budibase
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Budibase review (2026): pricing, AI features, verdict
 
@@ -360,7 +360,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/budibase/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/budibase/", "breadcrumb": {"@id": "https://martechsignal.com/tools/budibase/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

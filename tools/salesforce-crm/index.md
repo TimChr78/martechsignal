@@ -62,7 +62,7 @@ Ratings shown are third-party (G2), not MartechSignal's. This is not a hands-on 
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Salesforce CRM
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Salesforce CRM review (2026): pricing, AI features, verdict
 
@@ -70,7 +70,7 @@ Enterprise CRM platform with Einstein AI for sales, service, and marketing teams
 
 CRM · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Salesforce CRM →](https://www.salesforce.com/crm/)
 
@@ -187,7 +187,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/salesforce-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -290,7 +290,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/salesforce-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/salesforce-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo once past the free tier |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €22/mo |
 | ✓ AI capabilities: AI chatbot traffic reports |  |
 | ✓ Active public repository (21,908 GitHub stars counted at last check) |  |
 | ✓ Native integrations include WordPress, Matomo Tag Manager, Google Tag Manager (8 listed) |  |
@@ -74,7 +74,7 @@ AI-powered ecommerce analytics and attribution platform for DTC brands
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Matomo
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Matomo review (2026): pricing, AI features, verdict
 
@@ -373,7 +373,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/matomo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/matomo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/matomo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

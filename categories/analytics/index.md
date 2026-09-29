@@ -341,7 +341,7 @@ Vendors in this category: [PostHog](https://posthog.com) · [Umami](https://umam
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/analytics/", "breadcrumb": {"@id": "https://martechsignal.com/categories/analytics/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

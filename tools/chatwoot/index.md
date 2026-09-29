@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: captain Assistant (AI chatbot) |  |
 | ✓ Active public repository (37,293 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Linear, Dialogflow (6 listed) |  |
@@ -71,7 +71,7 @@ The AI Customer Experience Platform: monitor, optimize and serve your site to AI
 - [Tools](/tools/)
 - [Chatbots & Conversational AI](/categories/chatbots/)
 - Chatwoot
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Chatwoot review (2026): pricing, AI features, verdict
 
@@ -359,7 +359,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatwoot/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/chatwoot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/chatwoot/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -63,7 +63,7 @@ AI-powered consumer intelligence and social media management platform
 - [Tools](/tools/)
 - [Social Media](/categories/social-media/)
 - Buffer
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Buffer review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 Social Media · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Buffer →](https://buffer.com)
 
@@ -181,7 +181,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/buffer/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -293,7 +293,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/buffer/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/buffer/", "breadcrumb": {"@id": "https://martechsignal.com/tools/buffer/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

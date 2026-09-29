@@ -73,7 +73,7 @@ Autonomous AI platform that manages and optimizes digital advertising campaigns
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - Google Ads + Meta Ads + GA4 MCP
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -344,7 +344,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/", "breadcrumb": {"@id": "https://martechsignal.com/tools/google-meta-ads-ga4-mcp/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

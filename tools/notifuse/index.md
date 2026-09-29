@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $19/mo |
 | ✓ AI capabilities: AI email copy generation via Anthropic, OpenAI, or Gemini |  |
 | ✓ Active public repository (2,224 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Amazon SES, Postmark, SendGrid (12 listed) |  |
@@ -61,7 +61,7 @@ Open-source self-hosted newsletter and mailing list manager with a fast Go backe
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Notifuse
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Notifuse review (2026): pricing, AI features, verdict
 
@@ -299,7 +299,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifuse/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/notifuse/", "breadcrumb": {"@id": "https://martechsignal.com/tools/notifuse/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

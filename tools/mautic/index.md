@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.5/mo once past the free tier |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.5/mo |
 | ✓ Active public repository (10,575 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
@@ -74,7 +74,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Mautic
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Mautic review (2026): pricing, AI features, verdict
 
@@ -358,7 +358,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mautic/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/mautic/", "breadcrumb": {"@id": "https://martechsignal.com/tools/mautic/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

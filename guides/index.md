@@ -28,6 +28,7 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
+  "@id": "https://martechsignal.com/guides/",
   "name": "Strategy Guides: GEO, Automation, AI SEO",
   "url": "https://martechsignal.com/guides/",
   "description": "Strategy guides for marketers: GEO, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
@@ -65,6 +66,7 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://martechsignal.com/guides/#breadcrumb",
   "itemListElement": [
     {
       "@type": "ListItem",

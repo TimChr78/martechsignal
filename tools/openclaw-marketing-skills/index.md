@@ -61,7 +61,7 @@ Open benchmark that scores Claude Code SEO skills against fixture sites with pla
 - [Tools](/tools/)
 - [Agent Skills](/categories/agent-skills/)
 - OpenClaw Marketing Skills
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## OpenClaw Marketing Skills review (2026): pricing, AI features, verdict
 
@@ -283,7 +283,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/openclaw-marketing-skills/", "breadcrumb": {"@id": "https://martechsignal.com/tools/openclaw-marketing-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.9/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at €12.9/mo |
 | ✓ API access for custom integrations |  |
 | ✓ Active public repository (3,424 GitHub stars counted at last check) |  |
 
@@ -74,7 +74,7 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - EspoCRM
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## EspoCRM review (2026): pricing, AI features, verdict
 
@@ -347,7 +347,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/espocrm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/espocrm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/espocrm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

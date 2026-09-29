@@ -23,8 +23,8 @@
 | At 10K tasks/mo | Core covers 10K credits at $9/mo with annual billing. Watch the credit multiplier: some modules consume more than one credit per run. | Volume is a slider above the published starting prices, so 10K tasks costs more than the $69/mo Team entry. Get the quote in writing before comparing. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick Make if:** Pick Make if you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
-- **Pick Zapier if:** Pick Zapier if you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
+- **Pick Make if:** you want a hosted platform the vendor runs for you, and ai agents and ai workflow suggestions matters to your team, starting free.
+- **Pick Zapier if:** you want a hosted platform the vendor runs for you, and ai workflow builder and ai data formatting matters to your team, starting free.
 
 [Workflow Automation](/categories/workflow-automation/)
 
@@ -66,7 +66,7 @@ Cost picture at 10K automation tasks per month. All figures checked 2026-09-27 o
 
 ## Pricing
 
-**Make:** It starts free, and free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams €29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-07).
+**Make:** It starts free, and free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro $16/mo, Teams $29/mo, each for 10,000 credits/mo with a slider up to 8M+; annual billing saves 15% or more; Enterprise custom (verified 2026-09-07).
 
 **Zapier:** It starts free, and free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual) (verified 2026-09-07).
 
@@ -163,6 +163,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Make vs Zapier (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/make-vs-zapier/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/make-vs-zapier/"
+    },
     "inLanguage": "en",
     "headline": "Make vs Zapier (2026): pricing, AI features, verdict",
     "image": "https://martechsignal.com/og/vs/make-vs-zapier.png",
@@ -228,10 +231,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/make-vs-zapier/", "dateModified": "2026-09-29"}
 ```
 
 ```json

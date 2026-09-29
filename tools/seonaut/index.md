@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $9/mo |
 | ✓ Actively developed - latest release No tagged releases; ships as the :latest container image |  |
 
 **What is Seonaut?**
@@ -73,7 +73,7 @@ AI-powered content strategy and optimization platform for SEO content teams
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Seonaut
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Seonaut review (2026): pricing, AI features, verdict
 
@@ -340,7 +340,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seonaut/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/seonaut/", "breadcrumb": {"@id": "https://martechsignal.com/tools/seonaut/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

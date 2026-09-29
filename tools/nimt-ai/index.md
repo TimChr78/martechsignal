@@ -329,7 +329,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nimt-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/nimt-ai/", "breadcrumb": {"@id": "https://martechsignal.com/tools/nimt-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -64,7 +64,7 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Laudspeaker
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Laudspeaker review (2026): pricing, AI features, verdict
 
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/laudspeaker/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/laudspeaker/", "breadcrumb": {"@id": "https://martechsignal.com/tools/laudspeaker/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

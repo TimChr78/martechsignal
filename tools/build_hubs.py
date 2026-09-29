@@ -87,6 +87,7 @@ def _hub(section, h1, seo_title, meta, intro, children):
     schema = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
+        "@id": base,  # r17 M-9: addressable hub node, joinable from children
         "name": h1,
         "url": base,
         "description": meta,
@@ -310,6 +311,8 @@ def _money_strip(best_kids, vs_slugs, alt_pages):
         '  </div>\n'
         '  <p style="max-width:62ch">Verdicts with receipts: every list below names what each tool costs '
         'from the vendor\u2019s own pricing page, what it fits worst, and who should skip it. '
+        'The head-to-head comparisons state pick-conditions instead of a winner; '
+        'the best-of lists and tool pages give the verdict. '
         'Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.</p>\n'
         f'  <p style="max-width:78ch">{len(vs_slugs)} head-to-head comparisons: {_vs}. '
         f'More on the <a href="/vs/">comparisons hub</a>.</p>\n'

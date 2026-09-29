@@ -64,7 +64,7 @@ Customer data and marketing automation platform with journeys, CDP, and AI featu
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - ALwrity
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## ALwrity review (2026): pricing, AI features, verdict
 
@@ -272,7 +272,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alwrity/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/alwrity/", "breadcrumb": {"@id": "https://martechsignal.com/tools/alwrity/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -69,7 +69,7 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 
 Marketing Automation · Enterprise Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-27
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Adobe Marketo Engage →](https://business.adobe.com/products/marketo.html)
 
@@ -185,7 +185,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/adobe-marketo/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-27",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -288,7 +288,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adobe-marketo/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/adobe-marketo/", "breadcrumb": {"@id": "https://martechsignal.com/tools/adobe-marketo/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

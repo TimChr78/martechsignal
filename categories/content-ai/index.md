@@ -307,7 +307,7 @@ Vendors in this category: [Strapi](https://strapi.io) · [Ghost](https://ghost.o
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/content-ai/", "breadcrumb": {"@id": "https://martechsignal.com/categories/content-ai/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

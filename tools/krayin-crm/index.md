@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799 one-time once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $1799 one-time |
 | ✓ API access for custom integrations |  |
 | ✓ AI capabilities: magic AI lead creation from uploaded PDFs and images (OpenRouter key, official module) |  |
 | ✓ Active public repository (23,963 GitHub stars counted at last check) |  |
@@ -66,7 +66,7 @@ Open-source mail server, newsletter, and email marketing platform, fully self-ho
 - [Tools](/tools/)
 - [CRM](/categories/crm/)
 - Krayin CRM
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Krayin CRM review (2026): pricing, AI features, verdict
 
@@ -333,7 +333,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/krayin-crm/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/krayin-crm/", "breadcrumb": {"@id": "https://martechsignal.com/tools/krayin-crm/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

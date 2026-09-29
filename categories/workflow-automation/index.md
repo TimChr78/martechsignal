@@ -451,7 +451,7 @@ Vendors in this category: [n8n](https://n8n.io) · [LangChain](https://www.langc
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/workflow-automation/", "breadcrumb": {"@id": "https://martechsignal.com/categories/workflow-automation/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

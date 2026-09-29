@@ -60,7 +60,7 @@ AI search tracking across 8 models with an agent that writes, fixes, and outreac
 - [Tools](/tools/)
 - [SEO & Search](/categories/seo/)
 - Potato
-Re-check pending: pricing last verified 2026-08-31 (29 days ago).
+Re-check pending: pricing last verified 2026-08-31 (30 days ago).
 
 KIND: Utility (not an end-to-end platform)
 
@@ -277,7 +277,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/potato-ai-visibility/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/potato-ai-visibility/", "breadcrumb": {"@id": "https://martechsignal.com/tools/potato-ai-visibility/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

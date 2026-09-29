@@ -65,7 +65,7 @@ Enterprise social media management with AI-powered analytics and engagement tool
 
 Social Media · From $249/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Sprout Social →](https://sproutsocial.com)
 
@@ -178,7 +178,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/sprout-social/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -281,7 +281,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sprout-social/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/sprout-social/", "breadcrumb": {"@id": "https://martechsignal.com/tools/sprout-social/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

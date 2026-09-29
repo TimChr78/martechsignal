@@ -63,7 +63,7 @@ Open-source publishing platform with built-in newsletters, memberships, and AI t
 - [Tools](/tools/)
 - [AI Content & Copywriting](/categories/content-ai/)
 - ContentBot
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## ContentBot review (2026): pricing, AI features, verdict
 
@@ -71,7 +71,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 AI Content & Copywriting · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit ContentBot →](https://contentbot.ai)
 
@@ -177,7 +177,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/contentbot/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -289,7 +289,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/contentbot/", "breadcrumb": {"@id": "https://martechsignal.com/tools/contentbot/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

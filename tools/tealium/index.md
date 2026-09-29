@@ -59,7 +59,7 @@ Open-source Segment alternative for event capture and warehouse-first data pipel
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Tealium
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Tealium review (2026): pricing, AI features, verdict
 
@@ -278,7 +278,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/tealium/", "breadcrumb": {"@id": "https://martechsignal.com/tools/tealium/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

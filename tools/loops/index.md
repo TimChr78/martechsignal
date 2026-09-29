@@ -68,7 +68,7 @@ Transactional email API with separated message streams, an MCP server, and publi
 - [Tools](/tools/)
 - [Email Marketing](/categories/email-marketing/)
 - Loops
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Loops review (2026): pricing, AI features, verdict
 
@@ -76,7 +76,7 @@ Email marketing for SaaS: marketing, product, and transactional email in one too
 
 Email Marketing · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-13
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Loops →](https://loops.so)
 
@@ -210,7 +210,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/loops/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-13",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27"
   },
   {
@@ -330,7 +330,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/loops/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/loops/", "breadcrumb": {"@id": "https://martechsignal.com/tools/loops/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

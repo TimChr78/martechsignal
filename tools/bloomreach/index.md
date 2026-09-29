@@ -59,7 +59,7 @@ AI-powered ecommerce personalization with search, recommendations, and email
 - [Tools](/tools/)
 - [Marketing Automation](/categories/marketing-automation/)
 - Bloomreach
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Bloomreach review (2026): pricing, AI features, verdict
 
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/bloomreach/", "breadcrumb": {"@id": "https://martechsignal.com/tools/bloomreach/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

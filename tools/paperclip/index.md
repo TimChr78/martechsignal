@@ -74,7 +74,7 @@ Open-source operations platform for building AI agents, apps and automations on 
 - [Tools](/tools/)
 - [Workflow Automation](/categories/workflow-automation/)
 - Paperclip
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Paperclip review (2026): pricing, AI features, verdict
 
@@ -362,7 +362,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/paperclip/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/paperclip/", "breadcrumb": {"@id": "https://martechsignal.com/tools/paperclip/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

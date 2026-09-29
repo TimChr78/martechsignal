@@ -63,7 +63,7 @@ Open-source product analytics platform with session replay, feature flags, exper
 - [Tools](/tools/)
 - [Analytics & Attribution](/categories/analytics/)
 - Attribution
-Re-check pending: pricing last verified 2026-08-28 (32 days ago).
+Re-check pending: pricing last verified 2026-08-28 (33 days ago).
 
 ## Attribution review (2026): pricing, AI features, verdict
 
@@ -275,7 +275,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attribution/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/attribution/", "breadcrumb": {"@id": "https://martechsignal.com/tools/attribution/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

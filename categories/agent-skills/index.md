@@ -467,7 +467,7 @@ Vendors in this category: [Claude SEO](https://claude-seo.md/) · [Claude Ads](h
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/categories/agent-skills/", "breadcrumb": {"@id": "https://martechsignal.com/categories/agent-skills/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

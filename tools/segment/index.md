@@ -71,7 +71,7 @@ Product analytics platform with AI-powered insights for user behavior tracking
 - [Tools](/tools/)
 - [Personalization & CDP](/categories/personalization/)
 - Twilio Segment
-Re-check pending: pricing last verified 2026-09-06 (23 days ago).
+Re-check pending: pricing last verified 2026-09-06 (24 days ago).
 
 ## Twilio Segment review (2026): pricing, AI features, verdict
 
@@ -79,7 +79,7 @@ Customer data platform for collecting, unifying, and activating customer data
 
 Personalization & CDP · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-14
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Twilio Segment →](https://segment.com)
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/segment/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-14",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -365,7 +365,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/segment/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/segment/", "breadcrumb": {"@id": "https://martechsignal.com/tools/segment/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

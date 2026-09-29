@@ -85,7 +85,7 @@ No-code automation platform connecting 9,000+ apps with AI-powered workflows
 
 Workflow Automation · Freemium Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 Looking for options? [Best Zapier alternatives](/alternatives/zapier/)
 
@@ -213,7 +213,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/zapier/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": [
       {
@@ -357,7 +357,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zapier/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/zapier/", "breadcrumb": {"@id": "https://martechsignal.com/tools/zapier/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

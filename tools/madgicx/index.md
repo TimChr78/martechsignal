@@ -61,7 +61,7 @@ Free open source ad server for publishers, ad networks and advertisers
 - [Tools](/tools/)
 - [Advertising & Paid Media](/categories/advertising/)
 - Madgicx
-Re-check pending: pricing last verified 2026-09-07 (22 days ago).
+Re-check pending: pricing last verified 2026-09-07 (23 days ago).
 
 ## Madgicx review (2026): pricing, AI features, verdict
 
@@ -69,7 +69,7 @@ AI-powered Meta ads optimization and creative workflow
 
 Advertising & Paid Media · From $49/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-26
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Madgicx →](https://madgicx.com/)
 
@@ -189,7 +189,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/madgicx/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-26",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-09-07",
     "offers": {
       "@type": "Offer",
@@ -292,7 +292,7 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "dateModified": "2026-09-29"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/madgicx/", "breadcrumb": {"@id": "https://martechsignal.com/tools/madgicx/#breadcrumb"}, "dateModified": "2026-09-29"}
 ```
 
 ```json

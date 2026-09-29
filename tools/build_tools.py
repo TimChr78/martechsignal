@@ -566,15 +566,22 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
     # A3 M-2 (2026-09-27): the breadcrumb tag lives in the base template now, so
     # every page that renders a trail also ships a BreadcrumbList (four pages had
     # visible trails with no markup). Pages that already pass one are skipped.
+    _crumb_id = None
     if not (schema_json and "BreadcrumbList" in json.dumps(schema_json)):
         segs = [s for s in canonical.strip("/").split("/") if s]
         names = ["Home"] + [s.replace("-", " ").title() for s in segs]
         urls = ["https://martechsignal.com/"] + [
             "https://martechsignal.com/" + "/".join(segs[: i + 1]) + "/" for i in range(len(segs))]
+        _crumb_id = f"https://martechsignal.com{canonical}#breadcrumb"
         crumb = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+                 "@id": _crumb_id,
                  "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u}
                                      for i, (n, u) in enumerate(zip(names, urls))]}
         schema_block += f'<script type="application/ld+json">{json.dumps(crumb, indent=2)}</script>'
+    # r17 L-4: the BreadcrumbList node existed on 297 pages but no node ever
+    # pointed at it. Bind it from the page's WebPage node via "breadcrumb"
+    # (URL-form @id, matches the unfragmented WebPage pattern).
+    _crumb_id = f"https://martechsignal.com{canonical}#breadcrumb"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -596,7 +603,7 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <meta name="twitter:description" content="{esc(description)}">
 <meta name="twitter:image" content="https://martechsignal.com/{og_url}">
 <link rel="canonical" href="https://martechsignal.com{canonical}">
-<link rel="ard ai-catalog" href="https://martechsignal.com/.well-known/ard.json">
+<link rel="ard ai-catalog" type="application/json" href="https://martechsignal.com/.well-known/ard.json">
 <link rel="alternate" type="text/plain" title="MartechSignal catalog for AI systems" href="/llms.txt">
 <meta name="msvalidate.01" content="B3427474AF36B6861E22592403BA8B27">
 <link rel="preconnect" href="https://analytics.martechsignal.com" crossorigin>
@@ -699,7 +706,7 @@ def build_hub(tools, cats):
 <section class="page-head">
   <h1>AI Marketing Tool Directory</h1>
   <p class="sub">Curated tools for AI-powered marketing automation | from email and CRM to content generation and workflow automation.</p>
-  <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len(cats)} CATEGORIES · UPDATED WEEKLY</p>
+  <p class="count">{len([t for t in tools if t.get('status')=='active'])} TOOLS · {len([c for c in cats if c.get('slug') != 'open-source'])} CATEGORIES + OPEN-SOURCE INDEX · UPDATED WEEKLY</p>
 </section>
 <img src="/og/charts/oss-by-category.png?v={chart_v}" alt="Open-source share by category: how many of the listed tools per category are open source versus commercial (the open-source meta-category is excluded)" width="1200" height="630" style="max-width:100%;height:auto;border-radius:10px;margin:1.5rem 0;border:1px solid var(--border)">
 <p style="max-width:680px;color:var(--muted);margin:-0.5rem 0 0;font-size:.92rem">Watching which open-source tools actually gain traction? <a href="/trending/">Open-source martech momentum</a> tracks GitHub stars for all {len([t for t in tools if t.get('open_source')])} of them, with daily snapshots since Aug 25, 2026.</p>
@@ -1304,7 +1311,13 @@ def build_tool_page(t, cats, all_tools, base="tools"):
     if t.get("paid_from"):
         # r15 M-10 (2026-09-29): hardcoded $ repeated the r13 H-2 currency bug
         # on EUR records (espocrm). Render from the record's currency.
-        _cons.append(f"Paid plans start at {_money(t['paid_from'], t)} once past the free tier")
+        # r17 M-6 (2026-09-30): the "once past the free tier" tail is only
+        # true when the record actually carries a free tier (freshsales is
+        # trial-only, price_from 9 - no free tier exists to be past).
+        _has_free = (t.get("price_from") in (None, 0)
+                     and t.get("pricing_model") in ("freemium", "free", "open-core"))
+        _cons.append(f"Paid plans start at {_money(t['paid_from'], t)}"
+                     + (" once past the free tier" if _has_free else ""))
     if not t.get("open_source"):
         _cons.append("Closed source - no self-hosting option")
     if t.get("github_stars") and t["github_stars"] < 500:
@@ -2715,6 +2728,7 @@ def main():
             schema_json={
                 "@context": "https://schema.org",
                 "@type": "CollectionPage",
+                "@id": "https://martechsignal.com/guides/",
                 "name": "Strategy Guides: GEO, Automation, AI SEO",
                 "url": "https://martechsignal.com/guides/",
                 "description": "Strategy guides for marketers: GEO, agentic advertising, workflow automation, AI SEO tooling and agent protocols.",
@@ -2908,7 +2922,10 @@ def build_llms_txt(tools, cats):
               # listed under ## Site above — no repeats here.
               "- [Author](https://martechsignal.com/authors/tim-christensen/)",
               "- [Contact](https://martechsignal.com/contact/)",
-              "- [RSS feed](https://martechsignal.com/rss.xml)", ""]
+              "- [RSS feed](https://martechsignal.com/rss.xml)",
+              # r17 L-6: the index.md line moved up from the tail section -
+              # truncating consumers never reached line 374 of 375.
+              "- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)", ""]
     out = ROOT / "llms.txt"
     # A2 H7 (2026-09-26): the catalog datasets were reachable only by agents that
     # already knew the ARD spec - surface them in the machine-readable index.
@@ -2920,10 +2937,6 @@ def build_llms_txt(tools, cats):
         "",
         f"- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). {_records} records = {n_active} active + {_retired} non-active; the directory above lists only active tools",
         "- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows",
-        # r16 M-3 (2026-09-29): llms-full.txt mirrors 7.6% of prose; the
-        # per-page index.md mirrors (200 text/markdown, 58-80% coverage)
-        # are the strong artifact. Point agents at them, don't expand the txt.
-        "- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)",
         "",
     ]
     out.write_text("\n".join(lines))
@@ -3374,6 +3387,7 @@ def sync_date_modified():
         # r16 L-7: unfragmented page URL as the WebPage @id (guides pattern).
         _block = ('<script type="application/ld+json">{"@context": "https://schema.org", '
                   '"@type": "WebPage", "@id": "' + _url + '", '
+                  '"breadcrumb": {"@id": "' + _url + '#breadcrumb"}, '
                   '"dateModified": "' + _val + '"}</script>')
         _p.write_text(_s.replace("</head>", _block + "\n</head>", 1))
         _n += 1

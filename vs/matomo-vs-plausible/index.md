@@ -23,7 +23,7 @@
 | At 10K pageviews/mo | Self-hosted: the server only. On Cloud, one pageview is several hits, so size the plan on hits not pageviews. The smallest published tier is 50,000 hits per month. | Starter covers exactly this site size at $9/mo, or $7.50/mo on the yearly rate. |
 | Checked | 2026-09-27 | 2026-09-27 |
 
-- **Pick Matomo if:** Pick Matomo if you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
+- **Pick Matomo if:** you need behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform you fully control.
 - **Pick Plausible Analytics if:** Pick Plausible if you want core traffic numbers, cookie-free by default, with minimal setup and predictable cost.
 
 [Analytics & Attribution](/categories/analytics/)[Open-Source Tools](/categories/open-source/)
@@ -165,6 +165,9 @@ One email when a new tool review lands, nothing else.
     },
     "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
     "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
+    "mainEntityOfPage": {
+      "@id": "https://martechsignal.com/vs/matomo-vs-plausible/"
+    },
     "inLanguage": "en",
     "headline": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
     "image": "https://martechsignal.com/og/vs/matomo-vs-plausible.png",
@@ -230,10 +233,6 @@ One email when a new tool review lands, nothing else.
     ]
   }
 ]
-```
-
-```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/vs/matomo-vs-plausible/", "dateModified": "2026-09-29"}
 ```
 
 ```json
