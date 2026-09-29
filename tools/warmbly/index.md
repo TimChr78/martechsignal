@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $23/mo once past the free tier |
+| ✓ Apache-2.0 licence with free self-hosting | ✗ Paid plans start at $29/mo once past the free tier |
 | ✓ AI capabilities: AI agent steps in campaign sequences that branch on classified reply intent | ✗ Young project (333 GitHub stars) - smaller community and plugin ecosystem |
 | ✓ Native integrations include HubSpot, Slack, Zapier (8 listed) |  |
 
@@ -21,7 +21,7 @@
 Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
 
 **How much does Warmbly cost?**
-Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
+Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
 
 **Is Warmbly a good self-hosted Email Marketing tool in 2026?**
 The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
@@ -103,7 +103,7 @@ Warmbly is an open-source cold email platform that sends from mailboxes you alre
 - SMTP
 ## Pricing
 
-Warmbly is free to self-host under the Apache-2.0 licence, paid plans start at $23/mo as of 2026-09.
+Warmbly is free to self-host under the Apache-2.0 licence, paid plans start at $29/mo as of 2026-09.
 
 Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%.
 
@@ -145,7 +145,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, and CRM. Warmbly ships with AI agent steps in campaign sequences that branch on classified reply intent. The public repository carries 333 stars.
 
-Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
+Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers."
 
 The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
@@ -198,7 +198,7 @@ One email when a new tool review lands, nothing else.
       },
       {
         "@type": "Offer",
-        "price": 23,
+        "price": 29,
         "priceCurrency": "USD",
         "url": "https://warmbly.com/pricing/",
         "priceValidUntil": "2026-12-31"
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Warmbly cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.\""
+          "text": "Warmbly has a free tier; paid plans start at $29/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {

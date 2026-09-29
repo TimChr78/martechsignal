@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000/mo once past the free tier |
+| ✓ AGPL-3.0 licence with free self-hosting | ✗ Paid plans start at $5000 one-time once past the free tier |
 | ✓ API access for custom integrations |  |
 | ✓ Active public repository (8,838 GitHub stars counted at last check) |  |
 
@@ -21,7 +21,7 @@
 IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 **How much does IDURAR ERP & CRM cost?**
-IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+IDURAR ERP & CRM has a free tier; paid plans start at $5000 one-time. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is IDURAR ERP & CRM a good self-hosted CRM tool in 2026?**
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
@@ -98,7 +98,7 @@ IDURAR ERP & CRM homepage, captured September 2026. Vendor page shown as a dated
 
 ## Pricing
 
-IDURAR ERP & CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5000/mo as of 2026-09.
+IDURAR ERP & CRM is free to self-host under the AGPL-3.0 licence, paid plans start at $5000 one-time as of 2026-09.
 
 Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support.
 
@@ -158,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
-IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+IDURAR ERP & CRM has a free tier; paid plans start at $5000 one-time. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
 
@@ -266,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does IDURAR ERP & CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
+          "text": "IDURAR ERP & CRM has a free tier; paid plans start at $5000 one-time. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {

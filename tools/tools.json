@@ -3026,7 +3026,8 @@
   "paid_from": 5000,
   "currency": "USD",
   "github_forks": 3138,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "billing": "one-time"
  },
  {
   "slug": "intercom",
@@ -3246,7 +3247,8 @@
   "paid_from": 1799,
   "currency": "USD",
   "github_forks": 1642,
-  "github_checked": "2026-09-29"
+  "github_checked": "2026-09-29",
+  "billing": "one-time"
  },
  {
   "slug": "langchain",
@@ -7686,7 +7688,7 @@
   "pricing_model": "open-source",
   "pricing_url": "https://warmbly.com/pricing/",
   "price_from": 0,
-  "paid_from": 23,
+  "paid_from": 29,
   "price_notes": "Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%.",
   "ai_features": [
    "AI agent steps in campaign sequences that branch on classified reply intent",

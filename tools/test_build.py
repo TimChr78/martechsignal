@@ -1552,6 +1552,27 @@ def test_no_duplicated_pricing_lead_seam():
         for f in (ROOT / base).glob("*/index.html"):
             if pat.search(f.read_text()):
                 bad.append(f"rendered:{base}/{f.parent.name}")
+
+    assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
+
+
+def test_one_time_prices_carry_no_monthly_suffix():
+    """r16 M-5 (2026-09-29): paid_from on one-time billing records is a
+    non-recurring figure (idurar $5,000 lifetime license, krayin $1,799 flat
+    extension price) - rendering it with /mo manufactures a subscription."""
+    import json as _j
+    recs = [x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)]
+    bad = []
+    for t in recs:
+        if str(t.get("billing") or "").lower() != "one-time":
+            continue
+        page = ROOT / "tools" / t["slug"] / "index.html"
+        h = page.read_text(errors="ignore") if page.exists() else ""
+        for fig in {t.get("paid_from"), t.get("price_from")} - {None, 0}:
+            for form in (f"${fig}/mo", f"${fig:,}/mo"):
+                if form in h:
+                    bad.append(f"{t['slug']}:{form}")
+    assert not bad, f"monthly suffix on one-time prices: {bad[:8]}"
     assert not bad, f"pricing lead seam: {bad[:8]}"
 
 

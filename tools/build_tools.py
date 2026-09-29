@@ -174,14 +174,17 @@ def pricing_section_html(t):
     else:
         lead = f"{name} is sold on paid plans"
     tail = ""
+    # r16 M-5 (2026-09-29): one-time billing records (lifetime license, flat
+    # extension price) must not carry a /mo suffix anywhere, titles included.
+    _unit = " one-time" if str(t.get("billing") or "").lower() == "one-time" else "/mo"
     if model == "enterprise" and pf:
-        tail = f", from {_price_money(sym, pf)}/mo"
+        tail = f", from {_price_money(sym, pf)}{_unit}"
     elif pf and pf != 0:
         _entry = paid if (paid and paid < pf) else pf
-        tail = f", from {_price_money(sym, _entry)}/mo" if "paid plans" in lead \
-            else f", paid plans from {_price_money(sym, _entry)}/mo"
+        tail = f", from {_price_money(sym, _entry)}{_unit}" if "paid plans" in lead \
+            else f", paid plans from {_price_money(sym, _entry)}{_unit}"
     elif paid:
-        tail = f", paid plans start at {_price_money(sym, paid)}/mo"
+        tail = f", paid plans start at {_price_money(sym, paid)}{_unit}"
     # G-2 (v2.4.0 audit): bind the price claim to its verification date.
     if tail and t.get("date_updated"):
         tail += f" as of {esc(str(t['date_updated'])[:7])}"
@@ -875,6 +878,11 @@ def _money(p, t):
     another currency's symbol on a number."""
     _cur = (t.get("currency") or "USD")
     _sym = {"USD": "$", "EUR": "€"}.get(_cur, _cur + " ")
+    # r16 M-5 (2026-09-29): paid_from on idurar/krayin-class records is a
+    # non-recurring figure (lifetime license, flat extension price) — a /mo
+    # suffix manufactures a subscription. billing:"one-time" renders as-is.
+    if str(t.get("billing") or "").lower() == "one-time":
+        return f"{_sym}{p} one-time"
     return f"{_sym}{p}/mo"
 
 def _score_band(t):
