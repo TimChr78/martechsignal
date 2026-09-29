@@ -138,6 +138,18 @@ Vendor: [Official site](https://opteo.com/) · [Pricing](https://opteo.com/prici
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which ad tool keeps humans in control of the rules?
+
+Revealbot. It is built for media buyers that trust rules they wrote more than black boxes. Albert AI is the opposite bet: advertisers ready to hand the daily optimization loop to a machine.
+
+## What produces ad creative in volume?
+
+AdCreative.ai for lean teams that want creative volume with a score attached, Pencil for teams that want generated insights alongside the creative. Smartly.io consolidates creative production and media buying in one enterprise contract.
+
+## Is there anything a technical team can run itself?
+
+advertools. It covers the advertising job in a form a technical team can host. Opteo and Madgicx are the hosted equivalents for teams that want the platform covered without running infrastructure.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

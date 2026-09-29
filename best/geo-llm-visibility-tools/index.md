@@ -153,6 +153,18 @@ Vendor: [Official site](https://scrunch.com/) · [Pricing](https://scrunch.com/p
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## What is the cheapest way to start measuring AI visibility?
+
+OtterlyAI at an entry price, or Trakkr from $10 when competitor visibility rankings matter from day one. Nimt.ai and Writesonic both start at €7 for teams that want the full platform rather than a single metric.
+
+## Which GEO tool watches shopping answers?
+
+Profound for ChatGPT shopping visibility tracking. Evertune starts at $89 for teams that want the platform job covered, Rankscale for query fan-out retrieval insights at an entry price.
+
+## Is there a GEO tool inside a suite we already buy?
+
+Adobe LLM Optimizer for estates already paying Adobe, with pricing on quote. Scrunch fits brands that want measurement and AI-crawler readiness in one product instead of bolting a checker onto a suite.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

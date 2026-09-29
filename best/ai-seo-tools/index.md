@@ -146,6 +146,18 @@ Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](h
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which AI SEO tool should a full SEO team pick?
+
+Semrush. It keeps audits, rank tracking and content scoring in one suite, so a team stops stitching point tools together. Ahrefs answers the AI-visibility question too, but only makes sense if you already pay for it.
+
+## What is the cheapest way to start with AI SEO?
+
+Promptfoo. It is free, but someone on the team has to run a command line. Claude SEO and Codex SEO sit one rung up: they run audits as agent workflows, but only if your team already lives in Claude Code or the Codex CLI.
+
+## Which tool grades content while writers draft?
+
+Surfer SEO for the live score inside the draft, Clearscope for grading finished drafts against search intent. Frase covers small teams that want research, briefs and drafting in one login instead of three tabs.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

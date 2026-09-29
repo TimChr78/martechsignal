@@ -1281,6 +1281,18 @@ def test_money_pages_show_freshness_and_pilot_depth():
     assert not bad_pilot, f"pilot gaps: {bad_pilot}"
 
 
+def test_all_best_pages_carry_three_question_h2s():
+    """r11 H-4 (2026-09-29): the FAQ rollout — every best page carries 3
+    catalog-grounded question-form H2s, not just the 4 pilot pages."""
+    import re as _re
+    gaps = []
+    for p in json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]:
+        html = (ROOT / "best" / p["slug"] / "index.html").read_text()
+        if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
+            gaps.append(p["slug"])
+    assert not gaps, f"best pages short of 3 question H2s: {gaps}"
+
+
 def test_all_money_pages_carry_visible_time_and_shots():
     """r11 H-4 (2026-09-29): every money page (15 best + 10 vs + 4
     alternatives) shows a visible Last verified <time> and, where the og

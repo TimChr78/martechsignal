@@ -136,6 +136,18 @@ Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricin
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which personalization tool fits a regulated enterprise?
+
+Tealium. It puts governance around every customer event, which is what regulated buyers actually audit. Twilio Segment fits teams whose personalization problem is really a data plumbing problem one layer down.
+
+## What should a mid-size store pick for recommendations?
+
+Clerk.io for search and recommendations without enterprise procurement, Nosto when merchandisers want to steer the recommendations themselves. Dynamic Yield only earns its contract at large commerce operations buying depth over self-serve.
+
+## Is there an open option for experimentation?
+
+Flagsmith for teams that want their experiment engine as open as their stack, GrowthBook for hosted teams that want the platform covered in one place. Jitsu covers the same self-hosted instinct on the data collection side.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

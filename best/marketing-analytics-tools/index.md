@@ -145,6 +145,18 @@ Vendor: [Official site](https://snowplow.io) · [GitHub](https://github.com/snow
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which analytics tool keeps data on our own servers?
+
+Matomo. It gives GA-grade analytics with the data staying home. Snowplow goes further for teams that can host it themselves and want intent detection on their own pipeline. Umami covers smaller teams with the same self-hosting instinct.
+
+## What fits a DTC brand arguing about attribution?
+
+Triple Whale for operators that want a daily attribution answer with dashboards included, Northbeam when the incrementality questions deserve real modeling. Mixpanel serves product-led teams instead, with funnels and retention and a free tier.
+
+## Which tool works without a tagging plan first?
+
+Heap. It captures everything and lets teams analyze retroactively, so tracking starts before the plan is finished. Amplitude fits product teams that want funnels and retention without waiting on an analyst queue.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

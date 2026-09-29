@@ -145,6 +145,18 @@ Vendor: [Official site](https://www.hubspot.com/products/marketing) · [Pricing]
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which marketing automation platform fits an SMB team?
+
+ActiveCampaign. It gives small teams real automation without enterprise procurement. HubSpot Marketing Hub fits teams that want the automation living beside their CRM rather than bolted on.
+
+## What if the company already runs Salesforce?
+
+Salesforce Marketing Cloud. It is built for estates already bought into the Salesforce stack, where switching costs dwarf license differences. Adobe Marketo Engage is the equivalent answer for teams whose buying starts with lead scoring.
+
+## Is there an option a team can host itself?
+
+NocoDB. It covers the automation job in one platform and the team can host it. Ortto is the hosted opposite: email, SMS and journeys behind one login for teams that never want to touch a server.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

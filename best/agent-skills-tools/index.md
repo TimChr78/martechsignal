@@ -149,6 +149,18 @@ Vendor: [Official site](https://github.com/LeoYeAI/openclaw-marketing-skills) ·
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which skill pack turns Claude Code into an SEO auditor?
+
+Claude SEO. It turns Claude Code into an SEO audit machine, starts free and is MIT-licensed. Claude Ads is the paid-media sibling for ad operations inside the same CLI.
+
+## Which pack is written by people who ran the function?
+
+Email Marketing Bible, written by someone who ran an email SaaS with around 28,000 customers. GTM Cheat Codes is the equivalent credential on the growth side: the skill library Zapier's own go-to-market teams use with coding agents.
+
+## What is the biggest skill pack, and the lightest team setup?
+
+Digital Marketing Pro is the heaviest: 163 skills, 24 specialist agents and 18 commands. Eve Marketing Team Template is the lightest start: Vercel's starter for running a five-person marketing team as software. OpenClaw Marketing Skills sits between, with 37 skills across CRO, copywriting and SEO.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

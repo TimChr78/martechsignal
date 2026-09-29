@@ -118,6 +118,18 @@ Vendor: [Official site](https://chatbotx.io/docs) · [GitHub](https://github.com
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which chatbot gives auditable AI resolutions?
+
+Intercom. Its AI resolutions are auditable at $0.99 each, so support teams can cost the automation per ticket. Chatwoot is the open-source counter: an inbox with AI help included that the team hosts itself.
+
+## What is the cheapest way for a small shop to add chat?
+
+Tidio. It adds live chat plus an AI agent cheaply for small shops. Chatfuel fits messaging-first brands that script conversations the way they script campaigns.
+
+## Which bot tool fits creators selling over DMs?
+
+ManyChat for creators monetizing DMs across Instagram and WhatsApp. ChatbotX gives developers the same playbook as source code when the hosted version stops being enough.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.

@@ -154,6 +154,18 @@ Vendor: [Official site](https://openoutreach.app) · [GitHub](https://github.com
 
 Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/), or download the [machine-readable catalog](/catalog-tools.json).
 
+## Which open-source tool replaces HubSpot-class automation?
+
+Mautic. It gives marketing teams HubSpot-class automation they host themselves. Laudspeaker covers the lifecycle messaging and onboarding journeys that live outside the CRM.
+
+## What handles newsletters without per-contact billing?
+
+Listmonk. Newsletter and lifecycle email run at one list price with no per-contact billing, which is where hosted ESPs get expensive as lists grow. OpenOutreach adds agent-written openers for teams that also self-host.
+
+## Which open CRM does not feel like a downgrade?
+
+Twenty for CRM teams that want open source without feature poverty, SuiteCRM for sales teams that want a mature enterprise-shaped CRM they control. n8n and Matomo round out the stack: automation you can audit line by line, analytics on servers you control.
+
 ## Get the next teardown
 
 One email when a new tool review lands, nothing else.
