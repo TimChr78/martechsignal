@@ -53,8 +53,8 @@
       "date_published": "2026-09-26",
       "date_updated": "2026-09-28",
       "price_table": {
-        "unit": "Cost picture at 10K automation tasks per month",
-        "checked": "2026-09-27",
+        "unit": "Cost picture at 10K, 100K and 1M automation tasks per month (derived from published rates, not quoted; checked 2026-09-29)",
+        "checked": "2026-09-29",
         "rows": [
           [
             "Cost basis",
@@ -77,9 +77,19 @@
             "Task volume rides a price slider and both published prices are starting points, so 10K tasks lands above the $69/mo Team floor. Ask Zapier for the exact rung."
           ],
           [
+            "At 100K tasks/mo",
+            "Business at 667 EUR/mo covers 40K executions; above that Enterprise is custom-priced, so ask n8n.",
+            "Above the Team floor: the price rides the task slider, and 1M-plus sits on Enterprise annual limits. Ask Zapier for the rung."
+          ],
+          [
+            "At 1M tasks/mo",
+            "Enterprise custom: n8n publishes no price above Business. Self-hosting stays free plus the server.",
+            "Slider tops at 2M tasks with a Custom tier above it; 1M means an Enterprise quote. No public number exists."
+          ],
+          [
             "Checked",
-            "2026-09-27",
-            "2026-09-27"
+            "2026-09-29",
+            "2026-09-29"
           ]
         ]
       },

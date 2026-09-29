@@ -1278,7 +1278,18 @@ def test_money_pages_show_freshness_and_pilot_depth():
             bad_pilot.append((slug, "no screenshots"))
         if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
             bad_pilot.append((slug, "fewer than 3 question H2s"))
-    assert not bad_pilot, f"pilot gaps: {bad_pilot}"
+    assert not bad, f"pilot gaps: {bad_pilot}"
+
+
+def test_volume_pricing_rows_are_derived_not_quoted():
+    """r11 H-7 (2026-09-29): the invoice persona gets 10K/100K/1M rows on
+    /vs/n8n-vs-zapier/. Cells above the published tiers say who to ask —
+    never a guessed number — and the table declares itself derived."""
+    html = (ROOT / "vs" / "n8n-vs-zapier" / "index.html").read_text()
+    for vol in ("10K", "100K", "1M"):
+        assert vol in html, f"volume row {vol} missing"
+    assert "derived from published rates, not quoted" in html, \
+        "derivation disclaimer missing"
 
 
 def test_best_titles_describe_their_bodies():

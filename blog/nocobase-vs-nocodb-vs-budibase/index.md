@@ -117,7 +117,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -178,7 +178,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1925,
+  "wordCount": 1924,
   "articleSection": "workflow-automation"
 }
 ```
