@@ -104,7 +104,7 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Comparison guides
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)
@@ -163,7 +163,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1476,
+  "wordCount": 1475,
   "articleSection": ""
 }
 ```

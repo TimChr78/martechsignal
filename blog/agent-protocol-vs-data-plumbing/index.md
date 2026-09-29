@@ -84,8 +84,8 @@ The connectivity debate turned out to be the easy half, and most teams have quie
 - [Writer](/tools/writer/) - Enterprise AI platform with Palmyra models, brand governance, and agents
 ## Comparison guides
 
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

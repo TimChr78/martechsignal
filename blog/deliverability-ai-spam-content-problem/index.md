@@ -95,7 +95,7 @@ Our tool directory breaks down email marketing and deliverability platforms by s
 ## Comparison guides
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
 ## Glossary terms
 
 - [Deliverability](/glossary/deliverability/)

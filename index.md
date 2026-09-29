@@ -84,15 +84,15 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ### Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
 
-On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to b
+On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to…
 
 ### Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
-Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification c
+Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification…
 
 ### Claude SEO benchmark: every score we have earned, and what each one measured
 
-Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually me
+Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one thing each run actually…
 
 ### Where open-source martech momentum actually lives
 
