@@ -1311,4 +1311,4 @@ def test_money_pages_carry_momentum_receipts():
     html = (ROOT / "best" / "open-source-crm" / "index.html").read_text()
     assert "Open-source momentum, with receipts" in html, "momentum block missing"
     assert "verify on GitHub" in html, "momentum block lacks verify links"
-    assert _re.search(r"\\d{1,3}(,\\d{3})+ stars", html), "no formatted star counts"
+    assert _re.search(r"\d{1,3}(,\d{3})+ stars", html), "no formatted star counts"
