@@ -1556,6 +1556,14 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_edge_worker_collapses_repeated_slashes():
+    """r16 M-8 (2026-09-29): //-slash path variants were served at 200 with
+    byte-identical bodies. The Pages _worker.js 301s collapsed paths before
+    any other handling. The rule must survive worker edits."""
+    w = (ROOT / "_worker.js").read_text()
+    assert "301" in w and "{2,}" in w, "slash-collapse 301 missing from _worker.js"
+
+
 def test_one_time_prices_carry_no_monthly_suffix():
     """r16 M-5 (2026-09-29): paid_from on one-time billing records is a
     non-recurring figure (idurar $5,000 lifetime license, krayin $1,799 flat

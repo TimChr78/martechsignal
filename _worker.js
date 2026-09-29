@@ -5,6 +5,15 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // r16 M-8 (2026-09-29): repeated-slash path variants (//about/,
+    // /tools//) were served at 200 with byte-identical bodies, leaving
+    // consolidation to canonicals alone. Collapse to a single slash at
+    // the edge with a 301 before anything else touches the request.
+    const fixed = url.pathname.replace(/\/{2,}/g, "/");
+    if (fixed !== url.pathname) {
+      url.pathname = fixed;
+      return Response.redirect(url.toString(), 301);
+    }
     const accept = (request.headers.get("accept") || "").toLowerCase();
     if (request.method === "GET" && accept.includes("text/markdown")
         && !url.pathname.endsWith(".md")) {

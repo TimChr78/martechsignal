@@ -5,7 +5,7 @@
 | --- | --- | --- | --- | --- |
 | [claude-ads](/tools/claude-ads/) | 9,576 | +1,857 | 57 days | 2026-09-10 |
 | [aaron-marketing-skills](/tools/aaron-marketing-skills/) | 2,843 | +361 | 57 days | 2026-09-02 |
-| [ai-marketing-claude](/guides/ai-marketing-claude/) | 2,684 | +442 | 57 days | none recorded |
+| [ai-marketing-claude](/tools/ai-marketing-claude/) | 2,684 | +442 | 57 days | none recorded |
 | [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) | 2,635 | +1,577 | 40 days | none recorded |
 | [openclaw-marketing-skills](/tools/openclaw-marketing-skills/) | 1,045 | -30 | 57 days | none recorded |
 | [digital-marketing-pro](/tools/digital-marketing-pro/) | 835 | +165 | 57 days | 2026-07-29 |
@@ -40,7 +40,7 @@ We track 79 active open-source tools in the [directory](/tools/). Sixteen of the
 
 ## The top of the board
 
-[claude-ads](/tools/claude-ads/) leads with 9,576 stars and 1,857 of them arrived in the last 57 days. [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) is the sharper curve: 2,635 stars total, 1,577 of them inside a 40-day window. [ai-marketing-claude](/guides/ai-marketing-claude/) added 442 over 57 days to reach 2,684, and [aaron-marketing-skills](/tools/aaron-marketing-skills/) added 361 to reach 2,843.
+[claude-ads](/tools/claude-ads/) leads with 9,576 stars and 1,857 of them arrived in the last 57 days. [google-meta-ads-ga4-mcp](/tools/google-meta-ads-ga4-mcp/) is the sharper curve: 2,635 stars total, 1,577 of them inside a 40-day window. [ai-marketing-claude](/tools/ai-marketing-claude/) added 442 over 57 days to reach 2,684, and [aaron-marketing-skills](/tools/aaron-marketing-skills/) added 361 to reach 2,843.
 
 Read those four together and the shape is hard to miss. All four are agent skill repositories: collections of instructions, prompts, and small tools that teach a coding or marketing agent to run campaigns, audit accounts, or interpret ad data. None of them is a platform you deploy. They are the layer you install into an agent you already run.
 
