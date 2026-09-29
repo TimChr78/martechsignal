@@ -97,7 +97,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 
 - [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [Ahrefs](/tools/ahrefs/) - Brand Radar tracks brand mentions and citations across AI answers, YouTube and Reddit
@@ -134,14 +134,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
   "headline": "Your Dashboard Can't See AI Search, Here's the 5-Layer Fix",
   "description": "On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique.",
   "author": {
-    "@type": "Person",
-    "name": "Tim Christensen",
-    "url": "https://martechsignal.com/authors/tim-christensen/",
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-    "sameAs": [
-      "https://www.linkedin.com/in/tchristensen78",
-      "https://github.com/timchr78"
-    ]
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
   },
   "publisher": {
     "@type": "Organization",
@@ -167,7 +160,7 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2130,
+  "wordCount": 2128,
   "articleSection": "seo"
 }
 ```
@@ -200,5 +193,5 @@ More from the directory: [GrowthBook](/tools/growthbook/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
 ```

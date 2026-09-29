@@ -108,20 +108,20 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Related tools
 
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
-- [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
+- [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Comparison guides
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [Workflow automation](/glossary/workflow-automation/)
+- [MCP](/glossary/mcp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -145,14 +145,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
   "headline": "NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet",
   "description": "Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.",
   "author": {
-    "@type": "Person",
-    "name": "Tim Christensen",
-    "url": "https://martechsignal.com/authors/tim-christensen/",
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-    "sameAs": [
-      "https://www.linkedin.com/in/tchristensen78",
-      "https://github.com/timchr78"
-    ]
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
   },
   "publisher": {
     "@type": "Organization",
@@ -178,7 +171,7 @@ More from the directory: [Trakkr](/tools/trakkr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1923,
+  "wordCount": 1924,
   "articleSection": "workflow-automation"
 }
 ```
@@ -211,5 +204,5 @@ More from the directory: [Trakkr](/tools/trakkr/)
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
 ```

@@ -903,6 +903,34 @@ def test_freemium_pages_carry_both_offer_tiers():
     assert "0" in prices and "20" in prices, f"hubspot offer prices: {prices}"
 
 
+def test_identity_graph_is_unfragmented():
+    """r13 H-3 (2026-09-29): one @id = one sameAs set. The author page's
+    #person carries exactly one sameAs array (ProfilePage mainEntity; the
+    _H9 duplicate is retired); Organization carries no sameAs anywhere
+    (the author's personal GitHub is not the org's identity); every
+    Organization logo carries the #logo @id."""
+    import json as _j
+    import re as _re
+    ap = (ROOT / "authors" / "tim-christensen" / "index.html").read_text()
+    sameas = _re.findall(r'"sameAs":\s*\[[^\]]*\]', ap)
+    assert len(sameas) == 1, f"author page sameAs sets: {len(sameas)}"
+    assert "linkedin.com/in/tchristensen78" in sameas[0], "canonical set lost LinkedIn"
+    bad = []
+    for f in list(ROOT.rglob("*.html")):
+        if "deploy-out" in f.parts or ".well-known" in str(f):
+            continue
+        h = f.read_text()
+        if '"@type": "Organization"' in h and '"sameAs"' in h:
+            # sameAs present on an org-bearing page: allowed only inside a
+            # Person node or a vendor (tool) node, never the site org.
+            for m in _re.finditer(r'\{"@type": "Organization", "@id": "https://martechsignal.com/#organization".*?\}(?=[,}])', h):
+                if '"sameAs"' in m.group(0):
+                    bad.append(str(f.relative_to(ROOT)))
+    assert not bad, f"site org still claims sameAs: {bad[:5]}"
+    home = (ROOT / "index.html").read_text()
+    assert '"@id": "https://martechsignal.com/#logo"' in home, "homepage logo lost @id"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta

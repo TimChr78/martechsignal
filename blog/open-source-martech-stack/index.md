@@ -170,12 +170,12 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
@@ -183,7 +183,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
-- [Marketing ops](/glossary/marketing-ops/)
+- [CDP](/glossary/cdp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -207,14 +207,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
   "headline": "Open-Source Martech Stack vs $5K/mo Subscriptions",
   "description": "Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns.",
   "author": {
-    "@type": "Person",
-    "name": "Tim Christensen",
-    "url": "https://martechsignal.com/authors/tim-christensen/",
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
-    "sameAs": [
-      "https://www.linkedin.com/in/tchristensen78",
-      "https://github.com/timchr78"
-    ]
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
   },
   "publisher": {
     "@type": "Organization",
@@ -240,7 +233,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1542,
+  "wordCount": 1538,
   "articleSection": ""
 }
 ```
@@ -273,5 +266,5 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}, "sameAs": ["https://github.com/timchr78"]}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
 ```

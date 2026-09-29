@@ -4,16 +4,21 @@ import json as _h9j
 _H9_ENTITY = _h9j.dumps({
     "@context": "https://schema.org",
     "@graph": [
+        # r13 H-3 (2026-09-29): ONE canonical identity block, identical to
+        # build_tools.py. Organization carries no sameAs; Person is the full
+        # canonical definition matching the author page's mainEntity.
         {"@type": "Organization", "@id": "https://martechsignal.com/#organization",
          "name": "MartechSignal", "url": "https://martechsignal.com/",
          "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo",
-                  "url": "https://martechsignal.com/logo.png"},
-         "sameAs": ["https://github.com/timchr78"]},
+                  "url": "https://martechsignal.com/logo.png"}},
         {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person",
          "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/",
          "image": "https://martechsignal.com/authors/tim-christensen/avatar.png",
+         "jobTitle": "Martech Product Owner",
+         "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.",
+         "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"],
          "worksFor": {"@id": "https://martechsignal.com/#organization"},
-         "sameAs": ["https://github.com/timchr78"]},
+         "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
     ],
 })
 _H9_TAG = '<script type="application/ld+json">' + _H9_ENTITY + '</script>'
@@ -493,7 +498,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@type": "BlogPosting",
         "headline": title,
         "description": _clean_excerpt(excerpt),
-        "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
+        "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"},
         "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "datePublished": date_str,
         "dateModified": _date_modified(meta, date_str),
