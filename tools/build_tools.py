@@ -824,17 +824,22 @@ def _tool_fact_img(t):
     # r11 L-7 (2026-09-29): add a 480w step — the 335px slot at DPR 1.5 was
     # fetching the 1200w source and wasting ~29KB per card.
     _parts = [p for p, ok in ((_r480, _has480), (_r670, _has670), (_src, True)) if ok]
+    # r14 M-2 (2026-09-29): sizes must describe the real slot — .best-item
+    # img renders width:100% capped at 640px, so 335px under-fetched
+    # (upscale proven user-visible at DPR 2). Mobile: full viewport width.
     _set = (f' srcset="{", ".join(f"{p} {w}w" for p, w in zip(_parts, (480, 670, 1200)))}"'
-            f' sizes="335px"') if len(_parts) > 1 else ""
+            f' sizes="(max-width: 700px) 100vw, 640px"') if len(_parts) > 1 else ""
     _src_default = _parts[0] if _parts else _src
     return (f'<img src="{_src_default}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
             f'loading="lazy" width="1200" height="630"{_set}>')
 
 
-def _pilot_shot(slug, name):
+def _pilot_shot(slug, name, slot=640):
     """r11 H-4 (2026-09-29; pilot r10 H-1): real product UI screenshot for
-    money-page items, where the og survey shot one. Lazy, sized to the 335px
-    slot, honest alt. Empty string when no shot exists (graceful skip)."""
+    money-page items, where the og survey shot one. Lazy, honest alt. Empty
+    string when no shot exists (graceful skip).
+    r14 M-2 (2026-09-29): sizes describes the real slot (best-item: 640px
+    cap; vs-figures grid: pass slot=500)."""
     import glob as _glob
     import os as _os
     cands = {}
@@ -853,7 +858,7 @@ def _pilot_shot(slug, name):
     # 600x375 intrinsic ratio (315px height distorted + shifted layout).
     return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
             f' alt="{esc(name)} product interface"'
-            f' loading="lazy" width="600" height="375"{_set} sizes="335px">')
+            f' loading="lazy" width="600" height="375"{_set} sizes="(max-width: 700px) 100vw, {slot}px">')
 
 
 def _money(p, t):

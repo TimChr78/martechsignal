@@ -56,7 +56,7 @@ End-to-end campaign orchestration and workflow automation
 
 Open-Source Tools
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
+80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
 80 tools
 
@@ -128,7 +128,7 @@ End-to-end campaign orchestration and workflow automation. Includes [ActiveCampa
 
 ## [Open-Source Tools](/categories/open-source/)
 
-78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
+80 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [Activepieces](/tools/activepieces/), [advertools](/tools/advertools/).
 
 ## [Personalization & CDP](/categories/personalization/)
 

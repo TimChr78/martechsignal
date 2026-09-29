@@ -334,7 +334,7 @@ def build_vs():
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
         for _vt in [t for t in (a, b) if t]:
-            _shot = _pilot_shot(_vt["slug"], _vt["name"])
+            _shot = _pilot_shot(_vt["slug"], _vt["name"], slot=500)
             if _shot:
                 body.append(f'<div class="vs-shot">{_shot}</div>')
         for _vt in trio:

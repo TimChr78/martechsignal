@@ -983,6 +983,23 @@ def test_momentum_stars_match_catalog():
     assert not bad, f"star claims diverging from catalog: {bad[:5]}"
 
 
+def test_image_sizes_describe_real_slots():
+    """r14 M-2 (2026-09-29): sizes="335px" understated the 640px money-page
+    slot (user-visible upscale at DPR 2). Fact cards and best-item shots
+    declare (max-width: 700px) 100vw, 640px; vs-figures grid shots 500px."""
+    import re as _re
+    bad335 = []
+    for sub in ("best", "vs", "alternatives"):
+        for idx in (ROOT / sub).glob("*/index.html"):
+            if 'sizes="335px"' in idx.read_text():
+                bad335.append(f"/{sub}/{idx.parent.name}/")
+    assert not bad335, f"stale 335px sizes: {bad335[:5]}"
+    html = (ROOT / "best" / "ai-seo-tools" / "index.html").read_text()
+    assert "100vw, 640px" in html, "best-item shots missing real-slot sizes"
+    vs = (ROOT / "vs" / "n8n-vs-zapier" / "index.html").read_text()
+    assert "100vw, 500px" in vs, "vs-figures shots missing grid-slot sizes"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta
