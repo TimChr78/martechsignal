@@ -1,5 +1,12 @@
 // MartechSignal site.js (2026-09-27): the single first-party script.
 // L4: the inline IIFEs moved here so the CSP can drop 'unsafe-inline'.
+// r11 C-1 (2026-09-29): the full-stylesheet media swap lives here (CSP
+// script-src bans the inline onload handler; this file is 'self'-allowed).
+// Deferred execution is fine: the inline critical CSS covers above-fold.
+(function () {
+  var ls = document.querySelectorAll('link[data-fullsheet]');
+  for (var i = 0; i < ls.length; i++) { ls[i].media = 'all'; }
+})();
 (function () {
   document.documentElement.classList.remove('no-js');
   document.documentElement.classList.add('js');
@@ -22,12 +29,13 @@
   els.forEach(function (el) { io.observe(el); });
 })();
 
-// M10: directory filter (category / price model / licence). The bar is rendered
-// hidden in the HTML: with JS off the full list simply stays visible and browsable.
+// M10: directory filter (category / price model / licence). The bar renders
+// visible; a <noscript> style hides it for no-JS users (r11 C-1: a
+// synchronous inline unhide script would violate the CSP, and the old
+// deferred unhide shifted the grid).
 (function () {
   var bar = document.getElementById('tool-filter');
   if (!bar) return;
-  bar.hidden = false;
   var cards = Array.prototype.slice.call(document.querySelectorAll('.tool-card[data-cat]'));
   var cat = document.getElementById('flt-cat'),
       price = document.getElementById('flt-price'),

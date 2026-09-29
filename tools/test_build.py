@@ -1099,7 +1099,8 @@ def test_critical_css_inline_and_deferred():
                 "index.html", "best/geo-llm-visibility-tools/index.html"):
         html = (ROOT / tpl).read_text()
         assert "<style>" in html, f"{tpl} missing inline critical"
-        assert 'media="print" onload=' in html, f"{tpl} bundle not deferred"
+        assert 'media="print" data-fullsheet' in html, f"{tpl} bundle not deferred"
+        assert "onload=" not in html, f"{tpl} keeps CSP-banned inline handler"
         assert "<noscript><link" in html, f"{tpl} missing noscript fallback"
         blocking = [l for l in
                     _re.findall(r'<link rel="stylesheet" href="/style[^"]*">', html)
@@ -1114,12 +1115,45 @@ def test_critical_css_inline_and_deferred():
 
 
 def test_filter_bar_unhides_before_first_paint():
-    """r10 H-7 (2026-09-29): the /tools/ filter bar must unhide synchronously
-    during parse (no deferred toggle -> no layout shift of the grid)."""
+    """r10 H-7 (2026-09-28) as fixed by r11 C-1 (2026-09-29): the /tools/
+    filter bar renders visible (no hidden attr, no deferred toggle -> no
+    layout shift) with a <noscript> hide rule for no-JS users. The old
+    synchronous inline unhide script is gone: it violated the CSP."""
     html = (ROOT / "tools" / "index.html").read_text()
-    assert 'id="tool-filter" hidden>' in html, "filter bar lost its no-JS hidden state"
-    assert '<script>document.getElementById("tool-filter").hidden=false</script>' in html, \
-        "missing synchronous pre-paint unhide for the filter bar"
+    assert 'id="tool-filter"' in html, "filter bar missing"
+    assert 'id="tool-filter" hidden>' not in html, "filter bar still hidden at parse"
+    assert "tool-filter" in html and ".hidden=false</script>" not in html, \
+        "CSP-violating inline unhide script still present"
+    assert "<noscript><style>#tool-filter{display:none}</style></noscript>" in html, \
+        "no-JS hide rule missing"
+
+
+def test_no_csp_violating_inline_handlers():
+    """r11 C-1 (2026-09-29): no inline event handlers (onload= etc.) and no
+    inline <script> bodies in built HTML — script-src bans them, so any such
+    markup is dead code that silently never runs."""
+    import re as _re
+    bad = []
+    for tpl in ("index.html", "tools/index.html", "tools/n8n/index.html",
+                "best/geo-llm-visibility-tools/index.html",
+                "vs/n8n-vs-zapier/index.html",
+                "blog/claude-seo-benchmark/index.html"):
+        html = (ROOT / tpl).read_text()
+        if _re.search(r'\son(load|click|error|submit)\s*=', html):
+            bad.append((tpl, "inline event handler"))
+        if _re.search(r"<script>(?!\s*</script>)", html):
+            bad.append((tpl, "inline script body"))
+    assert not bad, f"CSP-violating markup: {bad}"
+
+
+def test_full_sheet_swaps_from_site_js():
+    """r11 C-1 (2026-09-29): the deferred sheet carries the data-fullsheet
+    hook and site.js performs the swap (CSP-clean, 'self'-allowed)."""
+    html = (ROOT / "tools" / "n8n" / "index.html").read_text()
+    assert "data-fullsheet" in html, "sheet link lost its swap hook"
+    assert "onload=" not in html, "inline onload handler still present"
+    js = (ROOT / "site.js").read_text()
+    assert "data-fullsheet" in js, "site.js does not perform the media swap"
 
 
 def test_fact_cards_serve_sized_renditions():

@@ -520,15 +520,18 @@ def _record_edit_date(slug, fallback):
     return _BLAME_DATES.get(slug) or fallback
 
 def _stylesheet_tags():
-    """M1 (r9, 2026-09-28): critical CSS inline + full bundle non-blocking.
-    Falls back to the plain blocking link when the fragment is absent."""
+    """M1 (r9, 2026-09-28) as fixed by r11 C-1 (2026-09-29): critical CSS
+    inline + full bundle non-blocking. The media swap runs from site.js
+    (data-fullsheet hook) because the CSP bans inline onload handlers; the
+    <noscript> fallback keeps JS-off users styled. Falls back to the plain
+    blocking link when the fragment is absent."""
     crit = _critical_inline()
     if not crit:
         return f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}">'
     return (
         f"<style>{crit}</style>"
         f'<link rel="stylesheet" href="/style.min.css?v={_css_v()}" '
-        f'media="print" onload="this.media=\'all\'">'
+        f'media="print" data-fullsheet>'
         f'<noscript><link rel="stylesheet" href="/style.min.css?v={_css_v()}"></noscript>')
 
 
@@ -712,10 +715,11 @@ def build_hub(tools, cats):
                  + ', '.join(f'<a href="/tools/{s}/">{esc(nm)}</a>' for s, nm in sorted(_scored))
                  + '</p>')
     # M10 (2026-09-27): client-side directory filter (category / price model /
-    # licence). Rendered hidden: with JS off the full list stays browsable. The
+    # licence). Rendered visible with a <noscript> hide rule (r11 C-1): with
+    # JS off the full list stays browsable. The
     # options are server-rendered from the catalog so nothing is invented client-side.
     _pm_buckets = sorted({(x.get("pricing_model") or ("free" if x.get("price_from") == 0 else "unspecified")) for x in tools if x.get("status") == "active"})
-    FILTER_BAR = ('<div class="tool-filter" id="tool-filter" hidden>'
+    FILTER_BAR = ('<div class="tool-filter" id="tool-filter">'
         '<label>Category <select id="flt-cat"><option value="">All categories</option>'
         + ''.join(f'<option value="{esc(c["slug"])}">{esc(c["name"])}</option>' for c in cats if c['slug'] != 'open-source')
         + '</select></label>'
@@ -729,11 +733,10 @@ def build_hub(tools, cats):
         # licence facets (the open-source landing page deserves crawlable links).
         '<button type="button" class="btn-sm" id="flt-copy">Copy link to this view</button>'
         '<span class="filter-count" id="flt-copied" aria-live="polite"></span></div>'
-        # r10 H-7 (2026-09-29): unhide synchronously during parse, before first
-        # paint, so the bar never shifts the grid (CLS 0.0902 -> ~0). No-JS
-        # users keep the full browsable list; the script below is a no-op for
-        # them because it never runs.
-        '<script>document.getElementById("tool-filter").hidden=false</script>'
+        # r11 C-1 (2026-09-29): no-JS users get the browsable full list; the
+        # synchronous inline unhide script is gone (CSP script-src bans it).
+        # The bar renders visible so JS users never see a layout shift.
+        '<noscript><style>#tool-filter{display:none}</style></noscript>'
         '<p class="meta flt-static">Browse by licence: '
         '<a href="/categories/open-source/">Open-source tools</a> · '
         '<a href="/categories/">all categories</a>.</p>')
@@ -2984,7 +2987,7 @@ def sync_stylesheet_links():
             _defer = (
                 f"<style>{_crit}</style>"
                 f'<link rel="stylesheet" href="/style.min.css?v={_hash}" '
-                f'media="print" onload="this.media=\'all\'">'
+                f'media="print" data-fullsheet>'
                 f'<noscript><link rel="stylesheet" href="/style.min.css?v={_hash}"></noscript>')
             # (?<!<noscript>) guards the fallback link this same block emits:
             # without it the sweep stuffs a second critical copy inside every
@@ -2995,9 +2998,13 @@ def sync_stylesheet_links():
             _nc += _cc
         _new, _c = re.subn(r'href="/style(?:\.min)?\.css\?v=[a-f0-9]*"',
                            f'href="/style.min.css?v={_hash}"', _s)
+        # r11 C-1 (2026-09-29): migrate already-deferred links off the CSP-
+        # banned inline onload handler to the site.js data-fullsheet hook.
+        _new, _co = re.subn(r'media="print" onload="this\.media=\'all\'"',
+                            'media="print" data-fullsheet', _new)
         _new, _cj = re.subn(r'<script src="/site\.js(?:\?v=[a-f0-9]+)?" defer>',
                             f'<script src="/site.js?v={_jhash}" defer>', _new)
-        if _c or _cj:
+        if _c or _cj or _co:
             _p.write_text(_new)
             _n += _c
             _nj += _cj
