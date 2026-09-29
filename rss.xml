@@ -5,8 +5,15 @@
     <link>https://martechsignal.com/</link>
     <description>Weekly analysis of AI marketing automation tools, agentic workflows, and vendor strategy.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 04:26:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:09:46 +0000</lastBuildDate>
     <generator>build_blog.py</generator>
+    <item>
+      <title>Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough</title>
+      <link>https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/</link>
+      <guid isPermaLink="true">https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description>On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to b</description>
+    </item>
     <item>
       <title>Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them</title>
       <link>https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/</link>

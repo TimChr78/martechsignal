@@ -2,19 +2,19 @@
 
 [Browse the tools](/tools/) [See what is trending](/trending/) [Take the readiness checklist](/checklist/) [Get the newsletter](/#subscribe)
 
-161TOOLS AUDITED
+163TOOLS AUDITED
 
 41POSTS PUBLISHED
 
 12CHECKLIST QUESTIONS
 
-BLOG · 2026-09-2801
+BLOG · 2026-09-2901
 
-BLOG · 2026-09-2702
+BLOG · 2026-09-2802
 
-BLOG · 2026-09-2603
+BLOG · 2026-09-2703
 
-BLOG · 2026-09-2504
+BLOG · 2026-09-2604
 
 [NocoBaseOpen-source no-code platform with AI assistance for building business systems fastAUTOMATION](/tools/nocobase/) [Twilio SegmentCustomer data platform for collecting, unifying, and activating customer dataPERSONALIZATION](/tools/segment/) [HubSpot CRMFree AI-powered CRM platform with sales, service, and marketing tools unifiedCRM](/tools/hubspot-crm/) [MatomoOpen-source web analytics platform with full data ownership and AI-powered insightsANALYTICS](/tools/matomo/) [NocoDBFree, self-hostable Airtable alternative that turns any database into a smart spreadsheetMARKETING AUTO](/tools/nocodb/) [n8nOpen-source workflow automation platform with AI agent capabilities and 400+ nodesAUTOMATION](/tools/n8n/) [UmamiOpen-source, cookieless web analytics with real-time dashboards, session replay, and heatmapsANALYTICS](/tools/umami/) [Dolibarr ERP/CRMModular French open-source ERP/CRM: invoicing, stock, HR, and light CRM in one PHP appCRM](/tools/dolibarr/)
 
@@ -82,6 +82,10 @@ Every week we audit the AI marketing automation landscape, the agents, the workf
 
 ## Latest writing
 
+### Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough
+
+On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled "Build Agents Your Way with Claude and Commerce Cloud." It invites merchants to b
+
 ### Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them
 
 Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0 with a new specification c
@@ -93,10 +97,6 @@ Five grader generations have scored martechsignal.com since August. This page is
 ### Where open-source martech momentum actually lives
 
 The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.
-
-### AI watermarks are now part of your agent's risk surface
-
-Anthropic watermarks every Claude response now, and a new study shows the mark changes agent behavior: tool calls, arguments, even refusals under attack.
 
 ## Tool index
 
