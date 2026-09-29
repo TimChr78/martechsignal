@@ -1,484 +1,9951 @@
 {
-  "generated": "2026-09-26",
-  "title": "Martech OSS Momentum Tracker",
-  "method": "Two real sources, no estimates: fresh GitHub API repository totals and latest release dates (fetched 2026-09-26), plus the git history of this directory's public catalog (tools/tools.json in the MartechSignal repository) as the measurement series. GitHub star-timestamp endpoints are not accessible to this project, so every growth figure states its own snapshot-bounded window; snapshots are never interpolated. Repos without a recorded GitHub URL are out of scope.",
-  "tools": [
+ "generated": "2026-09-29",
+ "title": "Open-source martech momentum",
+ "method": "Build-time derivative of tools/github-history.json (daily snapshots) and tools/tools.json: headline stars are the synced catalog totals, growth windows and history come from the snapshot series. last_release carries forward from the previous file.",
+ "tools": [
+  {
+   "slug": "aaron-marketing-skills",
+   "repo": "aaron-he-zhu/aaron-marketing-skills",
+   "stars": 2851,
+   "last_release": "2026-09-02",
+   "growth": {
+    "window_days": 35,
+    "stars_added": 210,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
     {
-      "slug": "claude-ads",
-      "repo": "AgriciDaniel/claude-ads",
-      "stars": 9576,
-      "last_release": "2026-09-10",
-      "growth": {
-        "window_days": 57,
-        "stars_added": 1857,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 7719
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 9143
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 9576
-        }
-      ]
+     "date": "2026-08-25",
+     "stars": 2641
     },
     {
-      "slug": "aaron-marketing-skills",
-      "repo": "aaron-he-zhu/aaron-marketing-skills",
-      "stars": 2843,
-      "last_release": "2026-09-02",
-      "growth": {
-        "window_days": 57,
-        "stars_added": 361,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 2482
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 2758
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 2843
-        }
-      ]
+     "date": "2026-08-26",
+     "stars": 2641
     },
     {
-      "slug": "ai-marketing-claude",
-      "repo": "zubair-trabzada/ai-marketing-claude",
-      "stars": 2684,
-      "last_release": null,
-      "growth": {
-        "window_days": 57,
-        "stars_added": 442,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 2242
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 2628
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 2684
-        }
-      ]
+     "date": "2026-08-27",
+     "stars": 2653
     },
     {
-      "slug": "google-meta-ads-ga4-mcp",
-      "repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
-      "stars": 2635,
-      "last_release": null,
-      "growth": {
-        "window_days": 40,
-        "stars_added": 1577,
-        "from": "2026-08-17",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-17",
-          "stars": 1058
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 1672
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 2635
-        }
-      ]
+     "date": "2026-08-28",
+     "stars": 2660
     },
     {
-      "slug": "openclaw-marketing-skills",
-      "repo": "LeoYeAI/openclaw-marketing-skills",
-      "stars": 1045,
-      "last_release": null,
-      "growth": {
-        "window_days": 57,
-        "stars_added": -30,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 1075
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 1044
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 1045
-        }
-      ]
+     "date": "2026-08-29",
+     "stars": 2672
     },
     {
-      "slug": "digital-marketing-pro",
-      "repo": "indranilbanerjee/digital-marketing-pro",
-      "stars": 835,
-      "last_release": "2026-07-29",
-      "growth": {
-        "window_days": 57,
-        "stars_added": 165,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 670
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 804
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 835
-        }
-      ]
+     "date": "2026-08-30",
+     "stars": 2675
     },
     {
-      "slug": "ai-business-skills",
-      "repo": "minhnv0807/ai-business-skills",
-      "stars": 593,
-      "last_release": "2026-05-25",
-      "growth": {
-        "window_days": 57,
-        "stars_added": 80,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 513
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 572
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 593
-        }
-      ]
+     "date": "2026-08-31",
+     "stars": 2678
     },
     {
-      "slug": "eve-marketing-team",
-      "repo": "vercel-labs/marketing-team-eve-template",
-      "stars": 444,
-      "last_release": null,
-      "growth": {
-        "window_days": 26,
-        "stars_added": 13,
-        "from": "2026-08-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-31",
-          "stars": 431
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 435
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 444
-        }
-      ]
+     "date": "2026-09-01",
+     "stars": 2706
     },
     {
-      "slug": "zapier-gtm-cheat-codes",
-      "repo": "zapier/gtm-cheat-codes",
-      "stars": 339,
-      "last_release": null,
-      "growth": {
-        "window_days": 26,
-        "stars_added": 7,
-        "from": "2026-08-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-31",
-          "stars": 332
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 334
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 339
-        }
-      ]
+     "date": "2026-09-02",
+     "stars": 2713
     },
     {
-      "slug": "email-marketing-bible",
-      "repo": "CosmoBlk/email-marketing-bible",
-      "stars": 319,
-      "last_release": "2026-03-10",
-      "growth": {
-        "window_days": 57,
-        "stars_added": 68,
-        "from": "2026-07-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-07-31",
-          "stars": 251
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 291
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 319
-        }
-      ]
+     "date": "2026-09-03",
+     "stars": 2721
     },
     {
-      "slug": "marketing-studio",
-      "repo": "ucsandman/marketing-studio",
-      "stars": 248,
-      "last_release": null,
-      "growth": {
-        "window_days": 28,
-        "stars_added": 28,
-        "from": "2026-08-29",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-29",
-          "stars": 220
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 234
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 248
-        }
-      ]
+     "date": "2026-09-04",
+     "stars": 2725
     },
     {
-      "slug": "prospectos",
-      "repo": "nando0x/ProspectOS",
-      "stars": 226,
-      "last_release": "2026-07-27",
-      "growth": {
-        "window_days": 28,
-        "stars_added": 20,
-        "from": "2026-08-29",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-29",
-          "stars": 206
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 214
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 226
-        }
-      ]
+     "date": "2026-09-05",
+     "stars": 2729
     },
     {
-      "slug": "alphone",
-      "repo": "gopherium/AlphOne",
-      "stars": 177,
-      "last_release": "2026-09-25",
-      "growth": {
-        "window_days": 28,
-        "stars_added": -2,
-        "from": "2026-08-29",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-29",
-          "stars": 179
-        },
-        {
-          "date": "2026-09-07",
-          "stars": 176
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 177
-        }
-      ]
+     "date": "2026-09-06",
+     "stars": 2732
     },
     {
-      "slug": "n8n-marketing-flows",
-      "repo": "YuriCrystal/n8n-marketing-flows",
-      "stars": 177,
-      "last_release": null,
-      "growth": {
-        "window_days": 26,
-        "stars_added": 3,
-        "from": "2026-08-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-31",
-          "stars": 174
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 175
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 177
-        }
-      ]
+     "date": "2026-09-07",
+     "stars": 2735
     },
     {
-      "slug": "potato-ai-visibility",
-      "repo": "onism1767-creator/potato",
-      "stars": 168,
-      "last_release": "2026-06-22",
-      "growth": {
-        "window_days": 26,
-        "stars_added": 1,
-        "from": "2026-08-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-31",
-          "stars": 167
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 168
-        }
-      ]
+     "date": "2026-09-08",
+     "stars": 2742
     },
     {
-      "slug": "diffmode-growth-tactics",
-      "repo": "acogood/diffmode_free",
-      "stars": 162,
-      "last_release": "2026-06-05",
-      "growth": {
-        "window_days": 26,
-        "stars_added": 3,
-        "from": "2026-08-31",
-        "to": "2026-09-26"
-      },
-      "history": [
-        {
-          "date": "2026-08-31",
-          "stars": 159
-        },
-        {
-          "date": "2026-09-10",
-          "stars": 161
-        },
-        {
-          "date": "2026-09-26",
-          "stars": 162
-        }
-      ]
+     "date": "2026-09-09",
+     "stars": 2750
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2758
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2762
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2768
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2771
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2773
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2779
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2788
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2793
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2797
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2801
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2807
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2808
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2816
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2823
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2832
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2837
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2840
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2847
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2849
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2851
     }
-  ],
-  "excluded": [
-    "advertools",
-    "alwrity",
-    "analytics-tracking-automation",
-    "apache-unomi",
-    "appsmith",
-    "billionmail",
-    "budibase",
-    "chatbotx",
-    "chatwoot",
-    "claude-seo",
-    "cordys-crm",
-    "deskcommcrm",
-    "django-crm",
-    "dolibarr",
-    "espocrm",
-    "ever-gauzy",
-    "flagsmith",
-    "frappe-crm",
-    "ghost",
-    "growth-lab",
-    "growthbook",
-    "idurar-erp-crm",
-    "jitsu",
-    "khoj",
-    "krayin-crm",
-    "langchain",
-    "languagetool",
-    "laudspeaker",
-    "libretranslate",
-    "line-harness",
-    "listmonk",
-    "macro",
-    "maizzle",
-    "matomo",
-    "mautic",
-    "monica",
-    "multipost-extension",
-    "n8n",
-    "nocobase",
-    "nocodb",
-    "notifo",
-    "notifuse",
-    "open-mercato",
-    "openoutreach",
-    "openseo",
-    "paperclip",
-    "plausible",
-    "posthog",
-    "promptfoo",
-    "react-email-editor",
-    "relaticle",
-    "revive-adserver",
-    "seo-skill-bench",
-    "seonaut",
-    "snowplow",
-    "strapi",
-    "suitecrm",
-    "tooljet",
-    "twenty",
-    "umami",
-    "wacrm",
-    "warmbly",
-    "warpdrive"
-  ]
+   ]
+  },
+  {
+   "slug": "ai-business-skills",
+   "repo": "minhnv0807/ai-business-skills",
+   "stars": 593,
+   "last_release": "2026-05-25",
+   "growth": {
+    "window_days": 35,
+    "stars_added": 39,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 554
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 554
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 554
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 556
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 557
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 559
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 561
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 561
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 564
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 566
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 571
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 570
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 570
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 571
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 571
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 571
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 572
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 572
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 572
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 574
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 574
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 575
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 578
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 579
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 582
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 584
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 586
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 586
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 588
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 590
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 592
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 592
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 593
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 593
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 593
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 593
+    }
+   ]
+  },
+  {
+   "slug": "alphone",
+   "repo": "gopherium/AlphOne",
+   "stars": 181,
+   "last_release": "2026-09-25",
+   "growth": {
+    "window_days": 28,
+    "stars_added": 6,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 179
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 180
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 181
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 179
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 179
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 181
+    }
+   ]
+  },
+  {
+   "slug": "alwrity",
+   "repo": "ALwrity/ALwrity",
+   "stars": 1176,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 42,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1134
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1135
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1137
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1140
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1142
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1147
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1149
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1150
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1152
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1153
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1153
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1153
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1154
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1154
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1154
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1155
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1157
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 1158
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1159
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1160
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1160
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1160
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1162
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1162
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1164
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1165
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1169
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 1170
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 1171
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 1172
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 1172
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 1174
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 1175
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1175
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1176
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1176
+    }
+   ]
+  },
+  {
+   "slug": "analytics-tracking-automation",
+   "repo": "jtrackingai/analytics-tracking-automation",
+   "stars": 141,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 6,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 135
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 135
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 136
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 137
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 137
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 137
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 139
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 139
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 140
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 141
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 141
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 141
+    }
+   ]
+  },
+  {
+   "slug": "appsmith",
+   "repo": "appsmithorg/appsmith",
+   "stars": 40967,
+   "last_release": null,
+   "growth": {
+    "window_days": 23,
+    "stars_added": 146,
+    "from": "2026-09-06",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-06",
+     "stars": 40821
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 40827
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 40828
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 40839
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 40849
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 40857
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 40862
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 40865
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 40866
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 40872
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 40881
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 40888
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 40898
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 40900
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 40904
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 40915
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 40921
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 40921
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 40931
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 40936
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 40943
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 40951
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 40959
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 40967
+    }
+   ]
+  },
+  {
+   "slug": "billionmail",
+   "repo": "Billionmail/BillionMail",
+   "stars": 15739,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 289,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 15450
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 15453
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 15456
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 15460
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 15468
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 15486
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 15496
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 15510
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 15515
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 15521
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 15523
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 15529
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 15534
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 15534
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 15547
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 15564
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 15567
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 15571
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 15579
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 15584
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 15591
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 15597
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 15606
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 15608
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 15612
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 15617
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 15619
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 15626
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 15630
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 15636
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 15635
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 15636
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 15637
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 15645
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 15695
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 15739
+    }
+   ]
+  },
+  {
+   "slug": "budibase",
+   "repo": "budibase/budibase",
+   "stars": 28326,
+   "last_release": null,
+   "growth": {
+    "window_days": 23,
+    "stars_added": 70,
+    "from": "2026-09-06",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-06",
+     "stars": 28256
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 28260
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 28261
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 28264
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 28267
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 28272
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 28274
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 28276
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 28278
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 28280
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 28284
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 28292
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 28290
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 28289
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 28292
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 28294
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 28293
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 28298
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 28300
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 28302
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 28312
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 28319
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 28324
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 28326
+    }
+   ]
+  },
+  {
+   "slug": "chatbotx",
+   "repo": "ChatbotXIO/ChatbotX",
+   "stars": 843,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 178,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 665
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 665
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 669
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 674
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 683
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 688
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 698
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 703
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 712
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 721
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 726
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 733
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 735
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 738
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 739
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 743
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 746
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 749
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 757
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 759
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 760
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 764
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 782
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 791
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 798
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 806
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 810
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 813
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 821
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 827
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 831
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 835
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 839
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 842
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 843
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 843
+    }
+   ]
+  },
+  {
+   "slug": "chatwoot",
+   "repo": "chatwoot/chatwoot",
+   "stars": 37293,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 1084,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 36209
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 36221
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 36246
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 36265
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 36284
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 36300
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 36321
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 36350
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 36375
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 36413
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 36473
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 36506
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 36527
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 36554
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 36589
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 36609
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 36642
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 36679
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 36715
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 36744
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 36780
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 36813
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 36841
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 36883
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 36920
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 36949
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 36983
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 37016
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 37045
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 37080
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 37127
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 37166
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 37203
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 37225
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 37252
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 37293
+    }
+   ]
+  },
+  {
+   "slug": "claude-ads",
+   "repo": "AgriciDaniel/claude-ads",
+   "stars": 9616,
+   "last_release": "2026-09-10",
+   "growth": {
+    "window_days": 35,
+    "stars_added": 1143,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 8473
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 8488
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 8516
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 8538
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 8564
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 8585
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 8612
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 8635
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 8663
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 8696
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 8718
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 8733
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 8798
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 8913
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 8991
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 9063
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 9140
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 9178
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 9203
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 9220
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 9245
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 9281
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 9310
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 9336
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 9366
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 9401
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 9423
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 9446
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 9466
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 9492
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 9513
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 9544
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 9571
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 9585
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 9594
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 9616
+    }
+   ]
+  },
+  {
+   "slug": "claude-seo",
+   "repo": "AgriciDaniel/claude-seo",
+   "stars": 17899,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 2803,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 15096
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 15139
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 15407
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 15585
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 15714
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 15799
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 15881
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 15983
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 16073
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 16165
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 16243
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 16315
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 16392
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 16465
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 16536
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 16607
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 16669
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 16716
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 16762
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 16807
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 16869
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 16925
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 16989
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 17043
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 17111
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 17175
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 17246
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 17318
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 17389
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 17474
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 17555
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 17623
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 17698
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 17747
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 17817
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 17899
+    }
+   ]
+  },
+  {
+   "slug": "codex-seo",
+   "repo": "AgriciDaniel/codex-seo",
+   "stars": 762,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 142,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 620
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 621
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 631
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 638
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 643
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 649
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 655
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 662
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 664
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 668
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 676
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 681
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 684
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 688
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 691
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 692
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 694
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 701
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 707
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 708
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 711
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 714
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 719
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 722
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 726
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 729
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 733
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 740
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 740
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 745
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 747
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 748
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 755
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 757
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 759
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 762
+    }
+   ]
+  },
+  {
+   "slug": "cordys-crm",
+   "repo": "1Panel-dev/CordysCRM",
+   "stars": 2751,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 97,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2654
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2656
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2656
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2658
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2660
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2661
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2662
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2671
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2679
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2684
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2687
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2691
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2697
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2698
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2701
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2704
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2704
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2707
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2708
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2707
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2712
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2717
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2716
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2718
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2720
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2725
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2730
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2734
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2736
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2741
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2742
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2747
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2749
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2749
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2750
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2751
+    }
+   ]
+  },
+  {
+   "slug": "deskcommcrm",
+   "repo": "melgarafael/DeskcommCRM",
+   "stars": 4222,
+   "last_release": null,
+   "growth": {
+    "window_days": 14,
+    "stars_added": 1687,
+    "from": "2026-09-15",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-15",
+     "stars": 2535
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2907
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 3080
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 3085
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 3226
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 3323
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 3379
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 3425
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 3527
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 3623
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 3723
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 3894
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 4042
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 4151
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 4222
+    }
+   ]
+  },
+  {
+   "slug": "diffmode-growth-tactics",
+   "repo": "acogood/diffmode_free",
+   "stars": 162,
+   "last_release": "2026-06-05",
+   "growth": {
+    "window_days": 28,
+    "stars_added": 2,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 160
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 160
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 160
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 160
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 161
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 163
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 163
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 163
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 162
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 162
+    }
+   ]
+  },
+  {
+   "slug": "django-crm",
+   "repo": "Django-CRM/Django-CRM",
+   "stars": 2432,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 38,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2394
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2394
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2395
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2396
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2397
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2398
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2398
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2400
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2401
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2402
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2404
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2407
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2410
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2412
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2413
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2413
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2412
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2411
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2413
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2415
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2418
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2418
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2420
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2422
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2422
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2423
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2423
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2426
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2427
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2427
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2426
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2427
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2427
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2428
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2430
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2432
+    }
+   ]
+  },
+  {
+   "slug": "dolibarr",
+   "repo": "Dolibarr/dolibarr",
+   "stars": 7670,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 134,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 7536
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 7536
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 7540
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 7545
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 7549
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 7554
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 7555
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 7561
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 7566
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 7567
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 7570
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 7574
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 7576
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 7580
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 7587
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 7593
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 7596
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 7597
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 7598
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 7601
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 7607
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 7612
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 7616
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 7620
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 7627
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 7630
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 7634
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 7638
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 7644
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 7646
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 7652
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 7656
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 7661
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 7663
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 7667
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 7670
+    }
+   ]
+  },
+  {
+   "slug": "email-marketing-bible",
+   "repo": "CosmoBlk/email-marketing-bible",
+   "stars": 320,
+   "last_release": "2026-03-10",
+   "growth": {
+    "window_days": 35,
+    "stars_added": 41,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 279
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 279
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 280
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 280
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 281
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 281
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 281
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 282
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 283
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 285
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 286
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 286
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 286
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 286
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 288
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 291
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 291
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 292
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 293
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 293
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 296
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 296
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 298
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 299
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 300
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 303
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 308
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 312
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 318
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 318
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 319
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 319
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 319
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 319
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 320
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 320
+    }
+   ]
+  },
+  {
+   "slug": "espocrm",
+   "repo": "espocrm/espocrm",
+   "stars": 3424,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 133,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 3291
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 3292
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 3298
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 3302
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 3305
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 3312
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 3313
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 3314
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 3316
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 3319
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 3323
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 3327
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 3327
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 3327
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 3331
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 3330
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 3332
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 3335
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 3342
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 3345
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 3349
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 3354
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 3358
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 3364
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 3369
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 3371
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 3374
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 3376
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 3378
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 3382
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 3383
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 3388
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 3407
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 3411
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 3417
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 3424
+    }
+   ]
+  },
+  {
+   "slug": "eve-marketing-team",
+   "repo": "vercel-labs/marketing-team-eve-template",
+   "stars": 444,
+   "last_release": null,
+   "growth": {
+    "window_days": 28,
+    "stars_added": 14,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 430
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 432
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 433
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 432
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 432
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 432
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 432
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 434
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 434
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 435
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 435
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 436
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 437
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 437
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 438
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 438
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 439
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 440
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 439
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 439
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 439
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 439
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 440
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 440
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 442
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 442
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 445
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 444
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 444
+    }
+   ]
+  },
+  {
+   "slug": "ever-gauzy",
+   "repo": "ever-co/ever-gauzy",
+   "stars": 8125,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 3777,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 4348
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 4348
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 4349
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 4350
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 4351
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 4351
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 4353
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 4356
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 4358
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 4361
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 4367
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 4369
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 4368
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 4370
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 4372
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 4378
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 4381
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 4381
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 4384
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 4487
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 5251
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 6054
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 6748
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 7371
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 7594
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 7749
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 7786
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 7813
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 7832
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 7846
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 7856
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 7923
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 8012
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 8092
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 8117
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 8125
+    }
+   ]
+  },
+  {
+   "slug": "frappe-crm",
+   "repo": "frappe/crm",
+   "stars": 3618,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 228,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 3390
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 3392
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 3401
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 3412
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 3425
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 3428
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 3436
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 3444
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 3448
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 3457
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 3463
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 3468
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 3474
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 3481
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 3486
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 3499
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 3501
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 3509
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 3517
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 3519
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 3526
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 3530
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 3535
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 3542
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 3548
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 3553
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 3557
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 3560
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 3570
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 3578
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 3585
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 3592
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 3600
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 3612
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 3613
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 3618
+    }
+   ]
+  },
+  {
+   "slug": "ghost",
+   "repo": "TryGhost/Ghost",
+   "stars": 55454,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 397,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 55057
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 55060
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 55067
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 55074
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 55076
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 55081
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 55089
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 55093
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 55096
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 55113
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 55158
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 55164
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 55179
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 55193
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 55204
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 55228
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 55250
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 55267
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 55280
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 55292
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 55295
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 55306
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 55316
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 55331
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 55347
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 55354
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 55366
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 55368
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 55383
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 55386
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 55413
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 55424
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 55434
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 55438
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 55450
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 55454
+    }
+   ]
+  },
+  {
+   "slug": "google-meta-ads-ga4-mcp",
+   "repo": "irinabuht12-oss/google-meta-ads-ga4-mcp",
+   "stars": 3078,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 2010,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1068
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1068
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1070
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1070
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1071
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1073
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1110
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1242
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1294
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1357
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1414
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1446
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1478
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1508
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1567
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1619
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1667
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 1707
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1732
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1751
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1773
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1808
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1846
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1895
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1935
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1976
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1996
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2017
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2047
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2073
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2123
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2346
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2477
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2713
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2900
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 3078
+    }
+   ]
+  },
+  {
+   "slug": "growth-lab",
+   "repo": "tsingyuai/growth-lab",
+   "stars": 1993,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 153,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1840
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1859
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1861
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1923
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1977
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1983
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1984
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1986
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1985
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1999
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1999
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2000
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1998
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1998
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1999
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1999
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1989
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1988
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1988
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1988
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 1990
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 1991
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1993
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1992
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1993
+    }
+   ]
+  },
+  {
+   "slug": "idurar-erp-crm",
+   "repo": "idurar/idurar-erp-crm",
+   "stars": 8838,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 119,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 8719
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 8720
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 8730
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 8738
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 8742
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 8746
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 8750
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 8751
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 8755
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 8759
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 8757
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 8759
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 8762
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 8766
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 8770
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 8773
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 8776
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 8779
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 8791
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 8796
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 8797
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 8801
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 8805
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 8809
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 8813
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 8818
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 8818
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 8820
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 8822
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 8825
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 8827
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 8832
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 8834
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 8835
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 8837
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 8838
+    }
+   ]
+  },
+  {
+   "slug": "krayin-crm",
+   "repo": "krayin/laravel-crm",
+   "stars": 23963,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 252,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 23711
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 23712
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 23725
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 23741
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 23754
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 23770
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 23789
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 23814
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 23823
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 23828
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 23836
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 23837
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 23842
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 23844
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 23844
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 23848
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 23851
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 23853
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 23859
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 23862
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 23863
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 23871
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 23876
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 23881
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 23892
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 23899
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 23906
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 23909
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 23923
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 23928
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 23938
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 23941
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 23943
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 23949
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 23953
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 23963
+    }
+   ]
+  },
+  {
+   "slug": "langchain",
+   "repo": "langchain-ai/langchain",
+   "stars": 147221,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 2248,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 144973
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 144997
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 145086
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 145158
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 145214
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 145256
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 145307
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 145398
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 145465
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 145536
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 145605
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 145668
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 145727
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 145827
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 145897
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 145976
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 146036
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 146096
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 146151
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 146206
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 146261
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 146346
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 146417
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 146476
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 146560
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 146623
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 146695
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 146758
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 146827
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 146904
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 146958
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 147020
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 147072
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 147122
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 147176
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 147221
+    }
+   ]
+  },
+  {
+   "slug": "laudspeaker",
+   "repo": "laudspeaker/laudspeaker",
+   "stars": 2626,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 8,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2618
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2618
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2618
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2618
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2619
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2619
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2621
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2621
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2619
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2620
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2622
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2623
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2623
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2623
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2623
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2627
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2626
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2627
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2627
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2626
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2626
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2626
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2626
+    }
+   ]
+  },
+  {
+   "slug": "line-harness",
+   "repo": "Shudesu/line-harness-oss",
+   "stars": 596,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 25,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 571
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 571
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 571
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 572
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 577
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 578
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 579
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 580
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 580
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 581
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 584
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 585
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 585
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 587
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 588
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 589
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 589
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 589
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 590
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 590
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 590
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 590
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 591
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 592
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 592
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 593
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 593
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 595
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 595
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 596
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 596
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 595
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 596
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 596
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 596
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 596
+    }
+   ]
+  },
+  {
+   "slug": "listmonk",
+   "repo": "knadh/listmonk",
+   "stars": 23611,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 490,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 23121
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 23129
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 23142
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 23149
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 23161
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 23174
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 23187
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 23201
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 23214
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 23225
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 23249
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 23266
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 23281
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 23291
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 23306
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 23326
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 23342
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 23363
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 23373
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 23388
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 23406
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 23418
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 23437
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 23455
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 23472
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 23475
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 23483
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 23498
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 23518
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 23536
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 23552
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 23566
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 23577
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 23588
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 23600
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 23611
+    }
+   ]
+  },
+  {
+   "slug": "macro",
+   "repo": "macro-inc/macro",
+   "stars": 4480,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 442,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 4038
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 4041
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 4058
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 4072
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 4090
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 4101
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 4119
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 4154
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 4171
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 4180
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 4192
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 4200
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 4209
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 4218
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 4240
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 4251
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 4267
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 4281
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 4292
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 4301
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 4314
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 4320
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 4329
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 4340
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 4347
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 4357
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 4362
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 4367
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 4374
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 4384
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 4391
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 4392
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 4399
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 4445
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 4469
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 4480
+    }
+   ]
+  },
+  {
+   "slug": "maizzle",
+   "repo": "maizzle/maizzle",
+   "stars": 2862,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 9,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2853
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2853
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2853
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2853
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2853
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2852
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2852
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2852
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2852
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2852
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2856
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2856
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2856
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2856
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2857
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2857
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2857
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2859
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2859
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2859
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2859
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2859
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2861
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2861
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2862
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2862
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2862
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2862
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2862
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2862
+    }
+   ]
+  },
+  {
+   "slug": "marketing-studio",
+   "repo": "ucsandman/marketing-studio",
+   "stars": 248,
+   "last_release": null,
+   "growth": {
+    "window_days": 28,
+    "stars_added": 28,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 220
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 224
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 225
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 226
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 227
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 227
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 227
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 228
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 228
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 234
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 237
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 241
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 241
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 241
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 242
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 245
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 245
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 246
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 246
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 246
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 246
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 247
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 247
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 248
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 248
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 248
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 248
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 248
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 248
+    }
+   ]
+  },
+  {
+   "slug": "matomo",
+   "repo": "matomo-org/matomo",
+   "stars": 21908,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 103,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 21805
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 21805
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 21808
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 21812
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 21825
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 21827
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 21825
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 21827
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 21828
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 21832
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 21837
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 21839
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 21841
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 21844
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 21847
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 21848
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 21851
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 21854
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 21857
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 21861
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 21864
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 21866
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 21874
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 21877
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 21884
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 21886
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 21889
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 21889
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 21890
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 21893
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 21893
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 21894
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 21900
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 21900
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 21905
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 21908
+    }
+   ]
+  },
+  {
+   "slug": "mautic",
+   "repo": "mautic/mautic",
+   "stars": 10575,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 189,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 10386
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 10388
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 10395
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 10404
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 10413
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 10416
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 10420
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 10426
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 10430
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 10434
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 10436
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 10443
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 10446
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 10449
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 10452
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 10463
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 10471
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 10486
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 10489
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 10495
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 10496
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 10505
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 10511
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 10521
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 10527
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 10529
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 10530
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 10532
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 10535
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 10543
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 10550
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 10555
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 10559
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 10561
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 10570
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 10575
+    }
+   ]
+  },
+  {
+   "slug": "monica",
+   "repo": "monicahq/monica",
+   "stars": 25383,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 278,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 25105
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 25110
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 25112
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 25119
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 25130
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 25138
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 25146
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 25150
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 25207
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 25217
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 25219
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 25228
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 25233
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 25241
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 25249
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 25254
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 25261
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 25264
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 25267
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 25286
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 25301
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 25307
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 25312
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 25320
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 25326
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 25334
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 25336
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 25340
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 25342
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 25346
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 25354
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 25358
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 25361
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 25366
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 25374
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 25383
+    }
+   ]
+  },
+  {
+   "slug": "multipost-extension",
+   "repo": "leaperone/MultiPost-Extension",
+   "stars": 3553,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 459,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 3094
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 3095
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 3097
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 3099
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 3106
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 3149
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 3178
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 3189
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 3204
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 3227
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 3263
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 3274
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 3281
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 3287
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 3299
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 3314
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 3325
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 3329
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 3342
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 3351
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 3430
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 3458
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 3466
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 3475
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 3480
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 3497
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 3502
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 3507
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 3518
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 3524
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 3528
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 3534
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 3541
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 3544
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 3548
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 3553
+    }
+   ]
+  },
+  {
+   "slug": "n8n",
+   "repo": "n8n-io/n8n",
+   "stars": 206232,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 3829,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 202403
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 202432
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 202538
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 202642
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 202731
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 202819
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 202906
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 202988
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 203072
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 203181
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 203269
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 203379
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 203490
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 203579
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 203685
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 203783
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 203887
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 203964
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 204044
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 204124
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 204210
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 204328
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 204464
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 204688
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 205071
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 205302
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 205400
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 205494
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 205631
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 205734
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 205815
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 205897
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 205996
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 206066
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 206146
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 206232
+    }
+   ]
+  },
+  {
+   "slug": "n8n-marketing-flows",
+   "repo": "YuriCrystal/n8n-marketing-flows",
+   "stars": 178,
+   "last_release": null,
+   "growth": {
+    "window_days": 28,
+    "stars_added": 4,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 174
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 174
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 175
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 176
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 177
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 178
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 178
+    }
+   ]
+  },
+  {
+   "slug": "nocobase",
+   "repo": "nocobase/nocobase",
+   "stars": 24386,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 547,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 23839
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 23849
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 23880
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 23898
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 23917
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 23932
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 23946
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 23966
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 23984
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 24000
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 24021
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 24035
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 24049
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 24074
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 24091
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 24113
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 24126
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 24148
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 24165
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 24182
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 24189
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 24209
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 24232
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 24246
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 24262
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 24281
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 24292
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 24303
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 24312
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 24324
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 24335
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 24347
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 24358
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 24368
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 24375
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 24386
+    }
+   ]
+  },
+  {
+   "slug": "nocodb",
+   "repo": "nocodb/nocodb",
+   "stars": 65104,
+   "last_release": null,
+   "growth": {
+    "window_days": 23,
+    "stars_added": 251,
+    "from": "2026-09-06",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-06",
+     "stars": 64853
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 64863
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 64881
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 64902
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 64910
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 64924
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 64932
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 64950
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 64961
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 64973
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 64982
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 64989
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 65002
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 65008
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 65016
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 65020
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 65030
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 65041
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 65054
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 65063
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 65072
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 65081
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 65098
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 65104
+    }
+   ]
+  },
+  {
+   "slug": "notifo",
+   "repo": "notifo-io/notifo",
+   "stars": 883,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 5,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 878
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 878
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 878
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 878
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 879
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 879
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 878
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 878
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 878
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 878
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 879
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 880
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 881
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 882
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 883
+    }
+   ]
+  },
+  {
+   "slug": "notifuse",
+   "repo": "Notifuse/notifuse",
+   "stars": 2224,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 148,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2076
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2076
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2078
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2081
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2087
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2088
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2091
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2091
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2091
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2092
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2094
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2143
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2160
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2170
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2177
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2183
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2186
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2186
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2188
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2191
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2193
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2198
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2200
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2204
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2204
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2205
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2208
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2212
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2213
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2216
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2217
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2219
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2219
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2221
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2223
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2224
+    }
+   ]
+  },
+  {
+   "slug": "open-mercato",
+   "repo": "open-mercato/open-mercato",
+   "stars": 1787,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 106,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1681
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1681
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1685
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1690
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1690
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1690
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1690
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1692
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1694
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1697
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1700
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1700
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1702
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1706
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1710
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1712
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1715
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 1718
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1720
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1724
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1726
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1730
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1736
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1743
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1749
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1751
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1753
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 1756
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 1763
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 1765
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 1768
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 1773
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 1777
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1779
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1781
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1787
+    }
+   ]
+  },
+  {
+   "slug": "openclaw-marketing-skills",
+   "repo": "LeoYeAI/openclaw-marketing-skills",
+   "stars": 1045,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 6,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1039
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1039
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1039
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1038
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1041
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1043
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1043
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1043
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1043
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 1044
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1046
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1046
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1046
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1045
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1045
+    }
+   ]
+  },
+  {
+   "slug": "openoutreach",
+   "repo": "eracle/OpenOutreach",
+   "stars": 3106,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 288,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2818
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2820
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2825
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2831
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2840
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2850
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2855
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2863
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2873
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2886
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2895
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2907
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2914
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2925
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2936
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2946
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2952
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2964
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2972
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2978
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2983
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2989
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 3005
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 3014
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 3028
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 3032
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 3039
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 3048
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 3054
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 3067
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 3072
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 3081
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 3089
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 3097
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 3103
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 3106
+    }
+   ]
+  },
+  {
+   "slug": "openseo",
+   "repo": "every-app/open-seo",
+   "stars": 21604,
+   "last_release": null,
+   "growth": {
+    "window_days": 21,
+    "stars_added": 3865,
+    "from": "2026-09-08",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-08",
+     "stars": 17739
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 17952
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 18144
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 18307
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 18445
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 18551
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 18622
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 18718
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 18812
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 18917
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 19082
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 19331
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 19539
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 19738
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 19900
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 20093
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 20593
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 20941
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 21104
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 21264
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 21423
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 21604
+    }
+   ]
+  },
+  {
+   "slug": "paperclip",
+   "repo": "paperclipai/paperclip",
+   "stars": 93116,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 13760,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 79356
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 79381
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 79449
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 79522
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 79577
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 79649
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 79712
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 79783
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 79838
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 79896
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 79968
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 80026
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 80072
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 80129
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 80198
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 80276
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 80352
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 80428
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 80504
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 80555
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 80618
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 80707
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 80775
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 80881
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 80953
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 81022
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 81089
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 81147
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 81228
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 81307
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 81365
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 82850
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 85165
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 87607
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 90313
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 93116
+    }
+   ]
+  },
+  {
+   "slug": "plausible",
+   "repo": "plausible/analytics",
+   "stars": 29248,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 500,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 28748
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 28750
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 28765
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 28776
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 28787
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 28797
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 28809
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 28820
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 28831
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 28845
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 28861
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 28874
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 28899
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 28920
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 28954
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 28977
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 29000
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 29016
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 29032
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 29048
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 29064
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 29078
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 29094
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 29103
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 29123
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 29136
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 29150
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 29168
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 29179
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 29191
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 29197
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 29207
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 29219
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 29227
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 29236
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 29248
+    }
+   ]
+  },
+  {
+   "slug": "potato-ai-visibility",
+   "repo": "onism1767-creator/potato",
+   "stars": 168,
+   "last_release": "2026-06-22",
+   "growth": {
+    "window_days": 28,
+    "stars_added": 1,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 167
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 168
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 168
+    }
+   ]
+  },
+  {
+   "slug": "prospectos",
+   "repo": "nando0x/ProspectOS",
+   "stars": 226,
+   "last_release": "2026-07-27",
+   "growth": {
+    "window_days": 28,
+    "stars_added": 18,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 208
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 209
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 210
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 211
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 211
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 212
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 212
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 212
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 213
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 214
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 214
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 214
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 215
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 216
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 218
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 218
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 218
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 220
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 222
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 222
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 223
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 225
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 225
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 225
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 226
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 226
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 226
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 226
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 226
+    }
+   ]
+  },
+  {
+   "slug": "react-email-editor",
+   "repo": "unlayer/react-email-editor",
+   "stars": 5231,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 24,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 5207
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 5207
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 5209
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 5211
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 5211
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 5212
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 5211
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 5212
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 5213
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 5214
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 5216
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 5216
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 5216
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 5216
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 5217
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 5218
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 5219
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 5220
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 5220
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 5220
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 5221
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 5222
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 5222
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 5223
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 5224
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 5224
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 5226
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 5225
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 5226
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 5228
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 5230
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 5230
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 5231
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 5230
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 5230
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 5231
+    }
+   ]
+  },
+  {
+   "slug": "relaticle",
+   "repo": "relaticle/relaticle",
+   "stars": 1713,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 185,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 1528
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 1533
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 1550
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 1558
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 1562
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 1570
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 1571
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 1576
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 1581
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 1589
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 1596
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 1600
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 1605
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 1608
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 1610
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 1621
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 1635
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 1641
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 1646
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 1647
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 1650
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 1661
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 1680
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 1682
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 1688
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 1693
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 1693
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 1693
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 1695
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 1694
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 1696
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 1698
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 1701
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 1703
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 1706
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 1713
+    }
+   ]
+  },
+  {
+   "slug": "resend",
+   "repo": "resend/react-email",
+   "stars": 19793,
+   "last_release": null,
+   "growth": {
+    "window_days": 21,
+    "stars_added": 77,
+    "from": "2026-09-08",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-08",
+     "stars": 19716
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 19721
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 19722
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 19722
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 19727
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 19732
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 19734
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 19734
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 19740
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 19743
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 19752
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 19755
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 19754
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 19760
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 19766
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 19767
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 19771
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 19771
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 19775
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 19782
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 19788
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 19793
+    }
+   ]
+  },
+  {
+   "slug": "seo-skill-bench",
+   "repo": "aleclindz/seo-skill-bench",
+   "stars": 51,
+   "last_release": null,
+   "growth": {
+    "window_days": 25,
+    "stars_added": 0,
+    "from": "2026-09-04",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-04",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 51
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 51
+    }
+   ]
+  },
+  {
+   "slug": "seonaut",
+   "repo": "StJudeWasHere/seonaut",
+   "stars": 796,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 25,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 771
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 771
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 771
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 773
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 773
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 776
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 777
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 777
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 777
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 778
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 779
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 780
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 780
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 780
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 779
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 780
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 782
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 782
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 783
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 783
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 784
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 783
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 783
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 784
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 786
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 787
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 789
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 789
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 789
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 791
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 792
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 793
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 794
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 794
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 794
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 796
+    }
+   ]
+  },
+  {
+   "slug": "snowplow",
+   "repo": "snowplow/snowplow",
+   "stars": 7034,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 6,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 7028
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 7028
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 7029
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 7030
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 7030
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 7030
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 7030
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 7031
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 7032
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 7032
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 7032
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 7033
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 7032
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 7031
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 7031
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 7031
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 7031
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 7033
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 7035
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 7033
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 7032
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 7034
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 7034
+    }
+   ]
+  },
+  {
+   "slug": "strapi",
+   "repo": "strapi/strapi",
+   "stars": 73250,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 236,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 73014
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 73018
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 73017
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 73021
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 73032
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 73044
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 73044
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 73050
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 73059
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 73062
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 73067
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 73070
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 73076
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 73083
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 73088
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 73095
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 73106
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 73120
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 73128
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 73135
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 73144
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 73157
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 73169
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 73177
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 73188
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 73191
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 73193
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 73203
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 73209
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 73216
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 73222
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 73230
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 73236
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 73241
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 73244
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 73250
+    }
+   ]
+  },
+  {
+   "slug": "suitecrm",
+   "repo": "SuiteCRM/SuiteCRM",
+   "stars": 5774,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 84,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 5690
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 5691
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 5695
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 5698
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 5703
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 5706
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 5703
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 5705
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 5705
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 5711
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 5716
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 5721
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 5725
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 5729
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 5729
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 5729
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 5732
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 5732
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 5736
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 5737
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 5741
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 5744
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 5746
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 5750
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 5752
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 5752
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 5755
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 5755
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 5758
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 5762
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 5764
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 5770
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 5770
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 5772
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 5774
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 5774
+    }
+   ]
+  },
+  {
+   "slug": "tooljet",
+   "repo": "ToolJet/ToolJet",
+   "stars": 41010,
+   "last_release": null,
+   "growth": {
+    "window_days": 23,
+    "stars_added": 162,
+    "from": "2026-09-06",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-06",
+     "stars": 40848
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 40858
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 40862
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 40868
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 40872
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 40884
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 40888
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 40895
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 40908
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 40919
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 40927
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 41030
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 40937
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 40939
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 40942
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 40948
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 40965
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 40976
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 40984
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 40988
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 40999
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 41001
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 41006
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 41010
+    }
+   ]
+  },
+  {
+   "slug": "twenty",
+   "repo": "twentyhq/twenty",
+   "stars": 57682,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 2157,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 55525
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 55539
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 55616
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 55739
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 55808
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 55860
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 55914
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 55976
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 56016
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 56078
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 56186
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 56257
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 56314
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 56366
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 56420
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 56459
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 56504
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 56565
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 56618
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 56661
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 56715
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 56777
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 56841
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 56906
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 56969
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 57015
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 57100
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 57176
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 57240
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 57289
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 57388
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 57458
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 57506
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 57543
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 57583
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 57682
+    }
+   ]
+  },
+  {
+   "slug": "umami",
+   "repo": "umami-software/umami",
+   "stars": 39072,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 712,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 38360
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 38365
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 38387
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 38410
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 38424
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 38438
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 38456
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 38478
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 38502
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 38539
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 38591
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 38608
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 38624
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 38642
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 38665
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 38686
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 38710
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 38728
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 38745
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 38764
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 38795
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 38822
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 38844
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 38871
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 38893
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 38902
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 38912
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 38928
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 38943
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 38958
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 38981
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 38996
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 39014
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 39033
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 39052
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 39072
+    }
+   ]
+  },
+  {
+   "slug": "wacrm",
+   "repo": "ArnasDon/wacrm",
+   "stars": 2450,
+   "last_release": null,
+   "growth": {
+    "window_days": 35,
+    "stars_added": 396,
+    "from": "2026-08-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-08-25",
+     "stars": 2054
+    },
+    {
+     "date": "2026-08-26",
+     "stars": 2060
+    },
+    {
+     "date": "2026-08-27",
+     "stars": 2079
+    },
+    {
+     "date": "2026-08-28",
+     "stars": 2114
+    },
+    {
+     "date": "2026-08-29",
+     "stars": 2142
+    },
+    {
+     "date": "2026-08-30",
+     "stars": 2160
+    },
+    {
+     "date": "2026-08-31",
+     "stars": 2170
+    },
+    {
+     "date": "2026-09-01",
+     "stars": 2180
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 2196
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 2208
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 2220
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 2232
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 2242
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 2254
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 2270
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 2280
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 2284
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 2298
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 2304
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 2308
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 2316
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 2325
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 2331
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 2338
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 2348
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 2357
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 2360
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 2364
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 2376
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 2386
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 2400
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 2402
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 2410
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 2421
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 2431
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 2450
+    }
+   ]
+  },
+  {
+   "slug": "warmbly",
+   "repo": "warmbly/warmbly",
+   "stars": 333,
+   "last_release": null,
+   "growth": {
+    "window_days": 4,
+    "stars_added": 15,
+    "from": "2026-09-25",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-25",
+     "stars": 318
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 323
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 325
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 330
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 333
+    }
+   ]
+  },
+  {
+   "slug": "warpdrive",
+   "repo": "sneg55/warpdrive",
+   "stars": 73,
+   "last_release": null,
+   "growth": {
+    "window_days": 25,
+    "stars_added": 0,
+    "from": "2026-09-04",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-04",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 72
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 73
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 73
+    }
+   ]
+  },
+  {
+   "slug": "zapier-gtm-cheat-codes",
+   "repo": "zapier/gtm-cheat-codes",
+   "stars": 340,
+   "last_release": null,
+   "growth": {
+    "window_days": 28,
+    "stars_added": 8,
+    "from": "2026-09-01",
+    "to": "2026-09-29"
+   },
+   "history": [
+    {
+     "date": "2026-09-01",
+     "stars": 332
+    },
+    {
+     "date": "2026-09-02",
+     "stars": 332
+    },
+    {
+     "date": "2026-09-03",
+     "stars": 333
+    },
+    {
+     "date": "2026-09-04",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-05",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-06",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-07",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-08",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-09",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-10",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-11",
+     "stars": 334
+    },
+    {
+     "date": "2026-09-12",
+     "stars": 335
+    },
+    {
+     "date": "2026-09-13",
+     "stars": 336
+    },
+    {
+     "date": "2026-09-14",
+     "stars": 336
+    },
+    {
+     "date": "2026-09-15",
+     "stars": 336
+    },
+    {
+     "date": "2026-09-16",
+     "stars": 337
+    },
+    {
+     "date": "2026-09-17",
+     "stars": 338
+    },
+    {
+     "date": "2026-09-18",
+     "stars": 338
+    },
+    {
+     "date": "2026-09-19",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-20",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-21",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-22",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-23",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-24",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-25",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-26",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-27",
+     "stars": 339
+    },
+    {
+     "date": "2026-09-28",
+     "stars": 340
+    },
+    {
+     "date": "2026-09-29",
+     "stars": 340
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  "activepieces",
+  "advertools",
+  "ai-marketing-claude",
+  "apache-unomi",
+  "digital-marketing-pro",
+  "flagsmith",
+  "growthbook",
+  "jitsu",
+  "khoj",
+  "languagetool",
+  "libretranslate",
+  "posthog",
+  "promptfoo",
+  "revive-adserver"
+ ]
 }

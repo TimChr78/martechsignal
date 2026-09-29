@@ -1556,6 +1556,23 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_momentum_dataset_matches_catalog():
+    """r16 L-11 (2026-09-29): oss-momentum.json was a manual artifact, 3 days
+    stale with 8 of 16 tools disagreeing with the catalog. It regenerates in
+    build_trending.py: generated == latest snapshot date, headline stars ==
+    synced catalog totals."""
+    import json as _j
+    from datetime import date as _date
+    m = _j.loads((ROOT / "oss-momentum.json").read_text())
+    hist = _j.loads((ROOT / "tools" / "github-history.json").read_text())
+    assert m["generated"] == hist[-1]["date"], f"momentum {m['generated']} vs snapshots {hist[-1]['date']}"
+    recs = {x["slug"]: x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)}
+    bad = [t["slug"] for t in m["tools"]
+           if isinstance(recs.get(t["slug"]), dict) and recs[t["slug"]].get("github_stars") not in (None, t["stars"])]
+    assert not bad, f"momentum stars disagree with catalog: {bad[:8]}"
+    assert (_date.today() - _date.fromisoformat(m["generated"])).days <= 7, "momentum dataset older than 7 days"
+
+
 def test_utility_pages_carry_og_title():
     """r16 L-13 (2026-09-29): og:title absent on exactly 4 utility pages
     (contact, privacy, terms, ai-policy) while 298 of 302 had it."""

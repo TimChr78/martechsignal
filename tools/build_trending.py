@@ -233,6 +233,44 @@ def build_page():
             _w.writerow([_r["slug"], _r["name"], _r["category"], _r["cat_name"],
                          _r["stars"], _r["start_stars"], _r["delta"],
                          f'{_r["pct"]:.1f}', _r["days"], d0, d1])
+    # r16 L-11 (2026-09-29): oss-momentum.json was a manual artifact (stale
+    # 3 days against the catalog at audit time). It now regenerates in the
+    # same build from the same inputs as /trending/: snapshot history for
+    # growth windows, catalog totals for headline stars (one pipeline, one
+    # number). last_release carries forward from the previous file (release
+    # dates come from the GitHub API at snapshot time, not from history).
+    _prev_rel = {}
+    try:
+        _prev_rel = {t.get("slug"): t.get("last_release")
+                     for t in json.loads((ROOT / "oss-momentum.json").read_text()).get("tools", [])}
+    except (OSError, ValueError):
+        pass
+    _tmap = {t["slug"]: t for t in json.loads((TOOLS_DIR / "tools.json").read_text())}
+    _mtools = []
+    for _r in sorted(rows, key=lambda x: x["slug"]):
+        _pairs = [(s["date"], s["repos"][_r["slug"]]["stars"]) for s in hist if _r["slug"] in s["repos"]]
+        _cat_stars = (_tmap.get(_r["slug"]) or {}).get("github_stars") or _r["stars"]
+        _mtools.append({
+            "slug": _r["slug"], "repo": _r["repo"], "stars": _cat_stars,
+            "last_release": _prev_rel.get(_r["slug"]),
+            "growth": {"window_days": (datetime.strptime(_pairs[-1][0], "%Y-%m-%d") - datetime.strptime(_pairs[0][0], "%Y-%m-%d")).days,
+                       "stars_added": _pairs[-1][1] - _pairs[0][1],
+                       "from": _pairs[0][0], "to": _pairs[-1][0]},
+            "history": [{"date": d, "stars": v} for d, v in _pairs],
+        })
+    _active_oss = sorted(t["slug"] for t in _tmap.values()
+                         if t.get("status", "active") == "active" and t.get("open_source"))
+    _emitted = {m["slug"] for m in _mtools}
+    with open(ROOT / "oss-momentum.json", "w", encoding="utf-8") as _fh:
+        json.dump({"generated": d1,
+                   "title": "Open-source martech momentum",
+                   "method": ("Build-time derivative of tools/github-history.json (daily snapshots) "
+                              "and tools/tools.json: headline stars are the synced catalog totals, "
+                              "growth windows and history come from the snapshot series. "
+                              "last_release carries forward from the previous file."),
+                   "tools": _mtools,
+                   "excluded": [s for s in _active_oss if s not in _emitted]},
+                  _fh, indent=1)
     out = ROOT / "trending" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page_shell(
