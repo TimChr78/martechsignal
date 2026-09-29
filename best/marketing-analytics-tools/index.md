@@ -97,7 +97,7 @@ Vendor: [Official site](https://mixpanel.com) · [Pricing](https://mixpanel.com/
 
 ## [Triple Whale](/tools/triple-whale/)
 
-Triple Whale is an AI-powered ecommerce analytics and attribution platform built for Shopify merchants. paid pricing starts at $59/mo, and conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Triple Whale is an AI-powered ecommerce analytics and attribution platform built for Shopify merchants. Paid pricing starts at $59/mo, and conversion $59/mo; Retention $179/mo; Foundation $219/mo; scales with GMV (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** DTC operators that want a daily attribution answer, dashboards included
 

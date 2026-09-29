@@ -57,7 +57,7 @@ Vendor: [Official site](https://nimt.ai) · [Pricing](https://www.nimt.ai/pricin
 
 ## [OtterlyAI](/tools/otterlyai/)
 
-OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. paid pricing starts at €29/mo, and lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026 (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
+OtterlyAI is an AI search monitoring platform from Austria that tracks brand mentions and website citations across ChatGPT, Google AI Overviews, Perplexity and Microsoft Copilot, with Claude, Google AI Mode and Gemini sold as add-ons. Paid pricing starts at €29/mo, and lite EUR 29/mo (15 prompts, 1,000 GEO audits/mo); Standard EUR 189/mo (100 prompts, API + MCP, Looker Studio); Premium EUR 489/mo (400 prompts, 10,000 GEO URL audits/mo); Enterprise custom from 1,000 prompts. Extra 100 prompts EUR 99. Annual billing 15% off. 14-day trial, no card. Verified on otterly.ai/pricing Sep 2026 (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
 
 **Verdict:** Teams starting GEO measurement at an entry price
 
@@ -69,7 +69,7 @@ Vendor: [Official site](https://otterly.ai/) · [Pricing](https://otterly.ai/pri
 
 ## [Trakkr](/tools/trakkr/)
 
-Trakkr is a London-made AI visibility platform for brands and agencies. paid pricing starts at $100/mo, and growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
+Trakkr is a London-made AI visibility platform for brands and agencies. Paid pricing starts at $100/mo, and growth $100/mo per brand (50 prompts/brand, 8 models, 3 seats, 25 articles/mo), or $1,000/yr billed annually. Scale $500/mo for 10 brands (100 articles/mo, API, client portals), or $5,000/yr. Enterprise from $1,000/mo billed annually (unlimited brands & prompts, SSO). 14-day trial on Growth, auto-converts at $100/mo. Corrected from trakkr.ai/pricing Sep 2026 (earlier note said pricing was not public) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
 
 **Verdict:** Best for GEO & LLM optimization teams that want competitor visibility rankings, starting at $100/mo.
 
@@ -81,7 +81,7 @@ Vendor: [Official site](https://trakkr.ai/) · [Pricing](https://trakkr.ai/prici
 
 ## [Writesonic](/tools/writesonic/)
 
-Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. paid pricing starts at €79/mo, and starter €79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
+Writesonic positions itself as The AI Search Growth Engine, and its GEO product for brands is what earns the name. Paid pricing starts at €79/mo, and starter €79/mo billed annually (50 prompts/50 answers daily, 15 AI articles/mo, 10 site audits of 100 pages); Basic $199/mo; Growth $399/mo (sentiment analysis, Action Center trial); Enterprise custom (all 10 AI platforms, full Action Center). Annual billing saves 20% vs monthly. Free trial, no credit card (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features, 6 integrations, and a public API.
 
 **Verdict:** Best for content teams that want AI search visibility tracking in the same platform that drafts the content.
 
@@ -105,7 +105,7 @@ Vendor: [Official site](https://www.tryprofound.com/) · [Pricing](https://www.t
 
 ## [Rankscale](/tools/rankscale/)
 
-Rankscale is a Vienna-built AI visibility platform for agencies and enterprise teams. paid pricing starts at €99/mo, and pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026 (verified 2026-09-25). The catalog documents 5 AI features, 5 integrations, and a public API.
+Rankscale is a Vienna-built AI visibility platform for agencies and enterprise teams. Paid pricing starts at €99/mo, and pro EUR 99/mo (1,200 credits), Growth EUR 385/mo (5,500 credits), Enterprise EUR 780/mo (12,000 credits); yearly billing saves 15%; 7-day Pro trial. An Essentials tier sits below Pro, its price was not visible in our EU render (the site localizes currency). Prices as served September 2026 (verified 2026-09-25). The catalog documents 5 AI features, 5 integrations, and a public API.
 
 **Verdict:** Best for GEO & LLM optimization teams that want query fan-out retrieval insights, starting at €99/mo.
 
@@ -129,7 +129,7 @@ Vendor: [Official site](https://business.adobe.com/products/brand-visibility.htm
 
 ## [Evertune](/tools/evertune/)
 
-Evertune is a marketing platform for brand discovery in AI search. paid pricing starts at $800/mo, and pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 5 integrations.
+Evertune is a marketing platform for brand discovery in AI search. Paid pricing starts at $800/mo, and pro $800/mo: 100,000 prompts tracked across 11 AI models, 25 AI-optimized articles/mo, 3 onboarding sessions, affiliate advertising partnerships, AI Retargeting. Enterprise: custom pricing with customized onboarding, unlimited content generation, AI website optimization, AI bot analytics, SSO. Both tiers sold via demo (Sep 2026) (verified 2026-09-25). The catalog documents 5 AI features and 5 integrations.
 
 **Verdict:** Best for teams that want 100,000 prompts tracked across 11 models with content activation, from $800/mo on the Pro plan.
 

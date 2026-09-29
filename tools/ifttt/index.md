@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI services on Pro+ | ✗ Paid plans start at $2.99/mo once past the free tier |
 | ✓ Native integrations include Gmail, Google Sheets, Twitter (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (2 Applets, standard speeds); Pro $2) |  |
+| ✓ Free tier to evaluate before committing (Free (2 Applets, standard speeds)) |  |
 
 **What is IFTTT?**
 IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations.
@@ -24,7 +24,7 @@ IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT shi
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is IFTTT worth it past the free tier?**
-Strengths include an API for custom integrations. The full review breaks down where it fits in a modern martech stack.
+Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
 - **Pricing:** Freemium
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
@@ -127,15 +127,15 @@ IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT shi
 
 IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
-Strengths include an API for custom integrations. The full review breaks down where it fits in a modern martech stack.
+Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
 ## Similar Tools
 
 ## Related reading
 
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ### Quick Facts
 
 Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)
@@ -237,7 +237,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is IFTTT worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strengths include an API for custom integrations. The full review breaks down where it fits in a modern martech stack."
+          "text": "Strengths include an API for custom integrations. Paid plans start at $2.99/mo"
         }
       }
     ]

@@ -1028,12 +1028,18 @@ def _offer_for(t):
         return {"@type": "Offer", "price": price, "priceCurrency": _cur,
                 "url": _url, "priceValidUntil": _pvu}
     if _paid:
-        # r13 H-2(c) (2026-09-29): freemium pages whose headline says "Free"
-        # carry both tiers as an offers array (free entry + paid entry), so
-        # the machine-readable graph matches the visible positioning. Single
-        # paid-tier tools keep the single Offer (price: 0 alone on those
-        # would contradict their own quoted price, A3 M-1).
-        if _pf == 0 and str(t.get("pricing_model") or "").lower() == "freemium":
+        # r13 H-2(c) (2026-09-29) + r15 L-4 (2026-09-29): any page with a real
+        # free entry (price_from 0) AND a paid entry carries both tiers as an
+        # offers array. The old freemium-only gate left 28 open-source/paid
+        # pages with a single paid-tier Offer contradicting their own free
+        # positioning. Single paid-tier tools (price_from > 0) keep the
+        # single Offer (price: 0 alone on those would contradict their own
+        # quoted price, A3 M-1). r15 L-4 follow-up (2026-09-29): a bare
+        # price_from == 0 is not a free-tier signal on its own — freshsales is
+        # paid/trial-only with a 0 data gap, and a 0 Offer there contradicts
+        # its quoted price. Both tiers require a real free-entry signal:
+        # open-source (self-host free) or a free-carrying pricing model.
+        if _pf == 0 and (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")):
             return [_offer(0), _offer(_paid)]
         return _offer(_paid)
     if _pf is not None and _pf > 0:
@@ -1612,7 +1618,8 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                 elif t.get("open_source"):
                     # per-tool and factual: integration count differs per record
                     _ni = len(t.get("integrations") or [])
-                    a3 += (f". {name} documents {_ni} integrations" if _ni
+                    _ints = f"{name} documents {_ni} integration" if _ni == 1 else f"{name} documents {_ni} integrations"
+                    a3 += (f". {_ints}" if _ni
                            else f". Source code is {str(t.get('license') or 'open')} licensed")
         faqs = [
             {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
@@ -1777,9 +1784,11 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         score_html = (f'<p class="verdict-cta"><a class="btn" href="{t["website"]}" '
                       f'rel="noopener" target="_blank">Visit {t["name"]} &#8594;</a></p>') + score_html
     _ain = len(t.get('ai_features') or [])
-    _caps = ([f"{_ain} AI features"] if _ain else [])
+    # r15 L-13 (2026-09-29): "1 AI features" on 9 pages — singularize.
+    _caps = ([f"{_ain} AI feature" if _ain == 1 else f"{_ain} AI features"] if _ain else [])
     if t.get('integrations'):
-        _caps.append(f"{len(t['integrations'])} integrations")
+        _ni = len(t['integrations'])
+        _caps.append(f"{_ni} integration" if _ni == 1 else f"{_ni} integrations")
     if t.get('api_available'):
         _caps.append('a public API')
     if t.get('open_source'):
@@ -2439,7 +2448,9 @@ def build_sitemap(tools, cats):
     authors_hub = ROOT / "authors" / "index.html"
     if authors_hub.exists():
         # H10 (r9): this hub lists the site authors, not the person page again.
-        urls.append(("https://martechsignal.com/authors/", _lastmod(authors_hub), "0.5"))
+        # r15 L-1 (2026-09-29): /authors/ 301s to the person page (single-author
+        # site) — a redirecting URL must not sit in the sitemap.
+        pass
 
     # Individual tool pages
     for t in tools:
@@ -2833,7 +2844,9 @@ def build_llms_txt(tools, cats):
               "- [Checklist](https://martechsignal.com/checklist/): tool selection checklist",
               "- [Corrections](https://martechsignal.com/corrections/): published errata"]
     lines += ["", "## Links", "",
-              "- [Full content mirror](https://martechsignal.com/llms-full.txt)",
+              # r15 L-6 (2026-09-29): "Full content mirror" overclaimed —
+              # llms-full.txt carries full tool descriptions, not full prose.
+              "- [Full tool descriptions](https://martechsignal.com/llms-full.txt)",
               "- [Home](https://martechsignal.com/)",
               "- [Blog](https://martechsignal.com/blog/)",
               "- [Tool directory](https://martechsignal.com/tools/)",
@@ -2864,6 +2877,10 @@ def build_llms_txt(tools, cats):
     # llms-full.txt: same inventory with full descriptions per tool (audit M8:
     # AI crawlers that want depth get it without crawling every page)
     full_lines = list(lines)
+    # r15 L-6 (2026-09-29): state the scope up front — descriptions, not prose.
+    full_lines += ["", "> Scope: one entry per active tool with its full catalog description, "
+                   "price label, and license flag. Full page prose (reviews, comparisons, "
+                   "posts) lives on the linked pages, not in this file.", ""]
     for cslug, ts in sorted(by_cat.items()):
         full_lines.append(f"### {cat_names.get(cslug, cslug)}")
         full_lines.append("")

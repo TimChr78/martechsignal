@@ -217,13 +217,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
     "datePublished": "2026-08-25",
-    "offers": {
-      "@type": "Offer",
-      "price": 5,
-      "priceCurrency": "USD",
-      "url": "https://frappe.io/crm",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://frappe.io/crm",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 5,
+        "priceCurrency": "USD",
+        "url": "https://frappe.io/crm",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

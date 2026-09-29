@@ -16,7 +16,7 @@
 | ✓ AI capabilities: AI content assistant | ✗ Paid plans start at $20/mo once past the free tier |
 | ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Salesforce, Slack, Zapier (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free CRM included; Marketing Hub Starter $20/mo, Professiona) |  |
+| ✓ Free tier to evaluate before committing (Free CRM included) |  |
 
 **What is HubSpot Marketing Hub?**
 HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations.
@@ -155,8 +155,8 @@ The sensible default for SMB and growth teams that want one system. Fragments wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Teams that want marketing automation living beside their CRM

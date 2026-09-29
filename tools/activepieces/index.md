@@ -25,7 +25,7 @@ Activepieces: Open-source workflow automation with a free cloud tier and on-prem
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
 **Is Activepieces worth it past the free tier?**
-Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. The full review breaks down where it fits in a modern martech stack.
+Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
 
 - **Pricing:** Freemium
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
@@ -133,15 +133,15 @@ Activepieces: Open-source workflow automation with a free cloud tier and on-prem
 
 Activepieces has a free tier; paid plans start at $20/mo. Free (100 credits a day, unlimited flows, no card); Plus $20/mo flat (10,000 credits/mo, up to 5 users, bring your own AI keys); Team $200/mo flat (50,000 credits, 25 users, SSO); Ultimate custom. Overage $0.007 per credit on Plus and Team. Embed from $36,000/year. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
 
-Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. The full review breaks down where it fits in a modern martech stack.
+Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo
 
 ## Similar Tools
 
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 Related guides: [Activepieces in Zapier alternatives](/alternatives/zapier/)
@@ -243,7 +243,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is Activepieces worth it past the free tier?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. The full review breaks down where it fits in a modern martech stack."
+          "text": "Strengths include 24,775 GitHub stars, open-source licensing with free self-hosting, an API for custom integrations. Paid plans start at $20/mo"
         }
       }
     ]

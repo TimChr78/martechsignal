@@ -83,9 +83,7 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
     "description": "AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers: Google AI Overviews, ChatGPT responses, Perplexity, Copilot, and similar systems. Unlike classic rank tracking, there is no single position - visibility means being cited, quoted, or linked inside a synthesized answer.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

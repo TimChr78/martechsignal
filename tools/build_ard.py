@@ -61,6 +61,28 @@ def build():
             "description": (c.get("description") or "")[:200],
             "representativeQueries": cat_queries(c),
         })
+    # r15 L-7 (2026-09-29): the shipped manifest held only the 2 catalog
+    # files (text/html entries are filtered below per r8 H11). The real agent
+    # discovery surfaces are the llms.txt files — list them as text/plain
+    # entries so the manifest is genuinely useful while staying schema-valid
+    # (deploy runs --validate; text/html filtering is untouched).
+    for fname, dname, desc, qs in (
+        ("llms.txt", "MartechSignal llms.txt (agent site map)",
+         "Agent-readable map of the whole site: tools, comparisons, guides, posts",
+         ["martechsignal site map for ai agents", "all martechsignal pages list",
+          "ai marketing tools directory overview"]),
+        ("llms-full.txt", "MartechSignal llms-full.txt (full tool descriptions)",
+         "Full catalog descriptions, price labels, and license flags for every active tool",
+         ["martechsignal full tool descriptions", "every martechsignal tool with pricing"]),
+    ):
+        entries.append({
+            "identifier": f"urn:air:{PUBLISHER}:data:{fname.replace('.', '-')}",
+            "displayName": dname,
+            "type": "text/plain",
+            "url": f"https://martechsignal.com/{fname}",
+            "description": desc,
+            "representativeQueries": qs,
+        })
     # Machine-readable data sources (url reference, value-or-reference §4.3).
     # Served as root catalog-*.json (llms-full.txt siblings): /data/ is correctly
     # closed by .assetsignore (pipeline state), so manifest urls must not point there.

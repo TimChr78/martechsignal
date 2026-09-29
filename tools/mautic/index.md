@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at $247.5/mo once past the free tier |
+| ✓ GPL-3.0 licence with free self-hosting | ✗ Paid plans start at €247.5/mo once past the free tier |
 | ✓ Active public repository (10,575 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Salesforce, HubSpot, Pipedrive (10 listed) |  |
 
@@ -189,8 +189,8 @@ The features page describes IP anonymization for visitor records, site tracking 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves
@@ -223,13 +223,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
-    "offers": {
-      "@type": "Offer",
-      "price": 247.5,
-      "priceCurrency": "EUR",
-      "url": "https://www.mautic.org/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR",
+        "url": "https://www.mautic.org/pricing",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 247.5,
+        "priceCurrency": "EUR",
+        "url": "https://www.mautic.org/pricing",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

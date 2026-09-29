@@ -223,13 +223,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
     "datePublished": "2026-09-05",
-    "offers": {
-      "@type": "Offer",
-      "price": 15,
-      "priceCurrency": "USD",
-      "url": "https://www.appsmith.com/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.appsmith.com/pricing",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 15,
+        "priceCurrency": "USD",
+        "url": "https://www.appsmith.com/pricing",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

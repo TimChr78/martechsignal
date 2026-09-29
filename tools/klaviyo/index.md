@@ -16,7 +16,7 @@
 | ✓ AI capabilities: AI subject line assistant | ✗ Paid plans start at $20/mo once past the free tier |
 | ✓ G2 rating 4.6/5 | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Shopify, WooCommerce, BigCommerce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with cont) |  |
+| ✓ Free tier to evaluate before committing (Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo) |  |
 
 **What is Klaviyo?**
 Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations.
@@ -153,8 +153,8 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation

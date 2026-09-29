@@ -112,7 +112,7 @@ Use the directory for shortlists. Read the pricing line before the sales page, a
 
 ## Browse by category
 
-The directory covers 14 categories. Each one lists its tools with licence, stars snapshotted from the [GitHub API](https://docs.github.com/en/rest) and a plain summary of what it does.
+The directory covers 13 categories plus a cross-cutting open-source index. Each one lists its tools with licence, stars snapshotted from the [GitHub API](https://docs.github.com/en/rest) and a plain summary of what it does.
 
 [All categories](/categories/) · [Full tool directory](/tools/)
 

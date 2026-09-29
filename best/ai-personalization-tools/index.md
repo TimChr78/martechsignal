@@ -76,7 +76,7 @@ Vendor: [Official site](https://www.nosto.com) · [Pricing](https://www.nosto.co
 
 ## [Clerk.io](/tools/clerk-io/)
 
-Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
+Clerk.io is an AI ecommerce personalization platform that helps online stores optimize every customer touchpoint with behavior-driven intelligence. Paid pricing starts at €119/mo, and from €119/month (verified Sep 2026). Custom pricing beyond it based on traffic and modules; monthly to yearly contracts (verified 2026-09-25). The catalog documents 5 AI features, 7 integrations, and a public API.
 
 **Verdict:** Mid-size stores that want search and recs without enterprise procurement
 
@@ -124,7 +124,7 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 ## [Jitsu](/tools/jitsu/)
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,095 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
+Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,095 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI feature, 6 integrations, a public API, and a self-hosting path.
 
 **Verdict:** Best for data teams that want open-source event collection in their own warehouse, free to self-host.
 

@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI flow builder | ✗ Paid plans start at $14/mo once past the free tier |
 | ✓ Native integrations include Shopify, Zapier, Mailchimp (7 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan; Essential $14/mo; Pro custom; Business and Advanc) |  |
+| ✓ Free tier to evaluate before committing (Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers) |  |
 
 **What is ManyChat?**
 ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
@@ -148,8 +148,8 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Creators monetizing DMs across Instagram and WhatsApp

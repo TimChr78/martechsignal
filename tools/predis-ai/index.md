@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI post generation | ✗ Paid plans start at $19/mo once past the free tier |
 | ✓ Native integrations include Canva, Shopify, Zapier (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annu) |  |
+| ✓ Free tier to evaluate before committing (Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts) |  |
 
 **What is Predis.ai?**
 Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.

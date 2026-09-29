@@ -24,7 +24,7 @@ SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixtu
 SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
 
 **Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?**
-Strengths include 51 GitHub stars, MIT licensing with free self-hosting. The full review breaks down where it fits in a modern martech stack.
+Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
 
 - **Pricing:** Open Source
 - **Category:** [Agent Skills](/categories/agent-skills/)
@@ -32,7 +32,7 @@ Strengths include 51 GitHub stars, MIT licensing with free self-hosting. The ful
 - **API:** No
 - **Last verified:** 2026-09-03
 
-**Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integrations and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** SEO Skill Bench is a tool in Agent Skills with free and open source. The catalog documents 5 AI features, 1 integration and a self-hosting path. We reviewed it from vendor documentation on 2026-09-03. This is a desk review, not a hands-on test. Desk-reviewed
 
 Zapier GTM Cheat Codes
 
@@ -125,7 +125,7 @@ SEO Skill Bench: Open benchmark that scores Claude Code SEO skills against fixtu
 
 SEO Skill Bench is open source - MIT licensed and free to self-host; the public repository carries 51 stars. You pay in server time and maintenance, not licences.
 
-Strengths include 51 GitHub stars, MIT licensing with free self-hosting. The full review breaks down where it fits in a modern martech stack.
+Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration
 
 ## Similar Tools
 
@@ -217,7 +217,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is SEO Skill Bench a good self-hosted Agent Skills tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strengths include 51 GitHub stars, MIT licensing with free self-hosting. The full review breaks down where it fits in a modern martech stack."
+          "text": "Strengths include 51 GitHub stars, MIT licensing with free self-hosting. SEO Skill Bench documents 1 integration"
         }
       }
     ]

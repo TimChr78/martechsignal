@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: LLM email translation | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Stripe, Segment, Zapier (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rol) |  |
+| ✓ Free tier to evaluate before committing (Free up to 1,000 subscribed contacts and 4,000 sends per rolling 30 days) |  |
 
 **What is Loops?**
 Loops: Email marketing for SaaS: marketing, product, and transactional email in one tool. Loops ships with LLM email translation. This page documents 8 integrations.
@@ -182,9 +182,9 @@ Yes, and it is documented as a first-class surface rather than a bolt-on. Loops 
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 ### Quick Facts
 
 ## Get the next teardown

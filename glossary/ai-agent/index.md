@@ -80,9 +80,7 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com) · [Workato](http
     "description": "An AI agent is software that pursues a goal by taking a sequence of actions on its own: querying tools, making decisions against rules or a model, and adjusting based on results. In marketing, agents buy media, run outreach sequences, reconcile campaign data, and draft responses. The distinction from ordinary automation is agency over decisions: a workflow automation executes steps a human designed; an agent decides the steps.",
     "dateModified": "2026-09-25",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

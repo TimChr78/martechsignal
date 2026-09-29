@@ -2,6 +2,29 @@
  "specVersion": "1.0",
  "entries": [
   {
+   "identifier": "urn:air:martechsignal.com:data:llms-txt",
+   "displayName": "MartechSignal llms.txt (agent site map)",
+   "type": "text/plain",
+   "url": "https://martechsignal.com/llms.txt",
+   "description": "Agent-readable map of the whole site: tools, comparisons, guides, posts",
+   "representativeQueries": [
+    "martechsignal site map for ai agents",
+    "all martechsignal pages list",
+    "ai marketing tools directory overview"
+   ]
+  },
+  {
+   "identifier": "urn:air:martechsignal.com:data:llms-full-txt",
+   "displayName": "MartechSignal llms-full.txt (full tool descriptions)",
+   "type": "text/plain",
+   "url": "https://martechsignal.com/llms-full.txt",
+   "description": "Full catalog descriptions, price labels, and license flags for every active tool",
+   "representativeQueries": [
+    "martechsignal full tool descriptions",
+    "every martechsignal tool with pricing"
+   ]
+  },
+  {
    "identifier": "urn:air:martechsignal.com:data:tools-json",
    "displayName": "MartechSignal tools.json (machine-readable)",
    "type": "application/ai-catalog+json",

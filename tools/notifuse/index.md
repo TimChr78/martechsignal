@@ -153,7 +153,7 @@ Sensible self-hosted routing layer for engineers; overkill for marketers.
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 ## Also featured in
@@ -188,13 +188,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
     "datePublished": "2026-08-17",
-    "offers": {
-      "@type": "Offer",
-      "price": 19,
-      "priceCurrency": "USD",
-      "url": "https://www.notifuse.com/pricing",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD",
+        "url": "https://www.notifuse.com/pricing",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 19,
+        "priceCurrency": "USD",
+        "url": "https://www.notifuse.com/pricing",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

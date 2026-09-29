@@ -16,7 +16,7 @@
 | ✓ AI capabilities: AI content optimizer | ✗ Paid plans start at $13/mo once past the free tier |
 | ✓ G2 rating 4.4/5 | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Shopify, WooCommerce, Salesforce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo) |  |
+| ✓ Free tier to evaluate before committing (Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo) |  |
 
 **What is Mailchimp?**
 Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
@@ -157,8 +157,8 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send

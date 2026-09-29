@@ -289,9 +289,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
         "description": term["definition"],
         **({"dateModified": term_date} if term_date else {}),
         "inDefinedTermSet": {
-            "@type": "DefinedTermSet",
-            "name": "Martech Glossary",
-            "url": "https://martechsignal.com/glossary/"
+            "@id": "https://martechsignal.com/glossary/#set"
         },
         # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
         "publisher": {"@id": "https://martechsignal.com/#organization"},

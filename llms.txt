@@ -103,7 +103,7 @@
 - [Twenty](https://martechsignal.com/tools/twenty/): The open-source alternative to Salesforce, designed for AI with modern CRM workflows (open source)
 - [WaCRM](https://martechsignal.com/tools/wacrm/): Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, and automations (open source)
 - [Warpdrive](https://martechsignal.com/tools/warpdrive/): Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box (open source)
-- [Zoho CRM](https://martechsignal.com/tools/zoho-crm/): Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
+- [Zoho CRM](https://martechsignal.com/tools/zoho-crm/): Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
 ### Email Marketing
 
@@ -356,7 +356,7 @@
 
 ## Links
 
-- [Full content mirror](https://martechsignal.com/llms-full.txt)
+- [Full tool descriptions](https://martechsignal.com/llms-full.txt)
 - [Home](https://martechsignal.com/)
 - [Blog](https://martechsignal.com/blog/)
 - [Tool directory](https://martechsignal.com/tools/)

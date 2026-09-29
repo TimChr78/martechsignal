@@ -8,6 +8,8 @@
 
 2026-09-29
 
+2026-09-29
+
 2026-09-26
 
 2026-09-26
@@ -33,6 +35,10 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Audit low-priority dispositions: four findings declined with evidence
+
+Today’s SEO audit low tail included four items we are not changing, and we are recording why. (1) Retired-product records (former Autopilot, Drift) stay in the catalog with no public page: both were acquired, both carry a named successor, and the catalog is the paper trail. (2) Two spelling variants of one deny-listed bot name are cosmetic: both variants are denied, so crawlers are unaffected. (3) The IndexNow “deployment gap” probed key paths that never existed (/indexnow.txt, /indexnow-keys/, indexnow.json); both real key files return HTTP 200 and submissions are succeeding. (4) Screenshot srcsets cap at 800w because the source captures are 800px masters; a 1200w rendition would be pure upscale with zero added detail. Two sitewide build-time checks (token repetition, star-literal-vs-catalog) and per-finding checks for the items we did fix fail the build if any of this regresses.
 
 ## Correction to our own corrections entry: the star sync shipped incomplete
 
@@ -94,7 +100,7 @@ Our Claude SEO review carried review-structured data for our own product. We rem
 
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "name": "Corrections", "url": "https://martechsignal.com/corrections/", "description": "Public corrections log for martechsignal.com.", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-28"}
+{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "WebPage", "publisher": {"@id": "https://martechsignal.com/#organization"}, "isPartOf": {"@id": "https://martechsignal.com/#website"}, "name": "Corrections", "url": "https://martechsignal.com/corrections/", "description": "Public corrections log for martechsignal.com.", "@id": "https://martechsignal.com/corrections/#webpage", "dateModified": "2026-09-28"}, {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```
 
 ```json

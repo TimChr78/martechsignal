@@ -81,9 +81,7 @@ Sources: [CDP Institute](https://www.cdpinstitute.org/) · [Twilio Segment](http
     "description": "A customer data platform collects and unifies customer data from every touchpoint, website visits, email opens, purchases, support tickets, into a single profile that other systems can query. Unlike a CRM, which sales teams use to track deals, a CDP is built for marketers who need a real-time, always-on view of each customer across channels.",
     "dateModified": "2026-09-25",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

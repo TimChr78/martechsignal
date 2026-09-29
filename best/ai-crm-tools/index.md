@@ -74,7 +74,7 @@ Vendor: [Official site](https://www.salesforce.com/crm/) · [Pricing](https://ww
 
 ## [Zoho CRM](/tools/zoho-crm/)
 
-Zoho CRM covers pipeline automation with its Zia AI assistant, free for 3 users and EUR 14 per user a month on Standard. Professional at EUR 23 adds workflow automation and AI, and the wider Zoho suite (mail, books, desk) attaches cheaply. The interface is denser than Attio's or HubSpot's.
+Zoho CRM covers pipeline automation with its Zia assistant, free for 3 users and EUR 14 per user a month on Standard. Professional at EUR 23 adds workflow automation and AI, and the wider Zoho suite (mail, books, desk) attaches cheaply. The interface is denser than Attio's or HubSpot's.
 
 **Verdict:** Best value for small teams that want a full suite without an enterprise bill.
 

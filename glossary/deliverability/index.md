@@ -79,9 +79,7 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
     "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

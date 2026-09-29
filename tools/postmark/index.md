@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: MCP server with 24 tools and delivery diagnostics | ✗ Paid plans start at $15/mo once past the free tier |
 | ✓ Native integrations include Slack, Zapier, WordPress (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan 100 emails/mo (no overages); Basic $15/mo, Pro $16) |  |
+| ✓ Free tier to evaluate before committing (Free plan 100 emails/mo (no overages)) |  |
 
 **What is Postmark?**
 Postmark: Transactional email API with separated message streams, an MCP server, and published delivery numbers. Postmark ships with MCP server with 24 tools and delivery diagnostics. This page documents 8 integrations.
@@ -188,8 +188,8 @@ Postmark ships tooling for AI agents rather than AI features. The official MCP s
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -74,7 +74,7 @@ Sources: [Semrush](https://www.semrush.com/) · [Semrush pricing](https://www.se
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "AI SEO tooling: benchmarks, comparisons, and the honest limits", "url": "https://martechsignal.com/guides/ai-seo-tooling/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/ai-seo-tooling.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/ai-seo-tooling/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/ai-seo-tooling/"}}
 ```
 
 ```json

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ MIT licence with free self-hosting | ✗ Paid plans start at $10/mo once past the free tier |
+| ✓ MIT licence with free self-hosting | ✗ Paid plans start at €10/mo once past the free tier |
 | ✓ AI capabilities: org-chart orchestration of agent teams (Claude Code, Codex, Cursor, Gemini CLI, and more) |  |
 | ✓ Active public repository (93,116 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Claude Code, Codex, Cursor (local and cloud) (12 listed) |  |

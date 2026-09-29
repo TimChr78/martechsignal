@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI data enrichment | ✗ Paid plans start at $29/mo once past the free tier |
 | ✓ Native integrations include Slack, Gmail, Outlook (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterpris) |  |
+| ✓ Free tier to evaluate before committing (Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing) |  |
 
 **What is Attio?**
 Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
@@ -156,8 +156,8 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.

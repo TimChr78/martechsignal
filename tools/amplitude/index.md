@@ -16,7 +16,7 @@
 | ✓ AI capabilities: AI root cause analysis | ✗ Closed source - no self-hosting option |
 | ✓ G2 rating 4.5/5 |  |
 | ✓ Native integrations include Segment, Snowflake, Salesforce (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit) |  |
+| ✓ Free tier to evaluate before committing (Free plan includes 2M events/month, no time limit. Plus starts at $0 and scales with event volume. Growth and Enterprise are custom-priced (verified Sep 2026)) |  |
 
 **What is Amplitude?**
 Amplitude: AI-powered digital analytics platform for product and marketing teams. Amplitude ships with AI root cause analysis. This page documents 8 integrations.
@@ -193,7 +193,7 @@ Yes. Amplitude AI is the umbrella for named agents including Global Agent, Dashb
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 - [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in

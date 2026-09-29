@@ -446,7 +446,7 @@ Open SourceDesk-reviewedCRMOSS
 
 Zoho CRM
 
-Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
+Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
 FreemiumDesk-reviewedCRM
 

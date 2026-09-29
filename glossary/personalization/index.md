@@ -72,9 +72,7 @@ Sources: [Clerk.io](https://www.clerk.io) · [Bloomreach](https://www.bloomreach
     "description": "Website personalization changes what a visitor sees based on who they are or what they've done before. A returning customer sees product recommendations based on past purchases. A visitor from a healthcare company sees healthcare case studies. A first-time visitor sees a different hero section than someone on their fifth visit.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

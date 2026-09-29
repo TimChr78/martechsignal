@@ -73,9 +73,7 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
     "description": "Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

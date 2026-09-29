@@ -9738,8 +9738,8 @@
    "name": "Zoho CRM",
    "category": "crm",
    "status": "active",
-   "tagline": "Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it",
-   "description": "Zoho CRM covers pipeline automation, lead scoring and forecasting with its Zia AI assistant. The free tier takes 3 users and the paid editions attach the wider Zoho suite (mail, books, desk) at low per-seat prices.",
+   "tagline": "Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it",
+   "description": "Zoho CRM covers pipeline automation, lead scoring and forecasting with its Zia assistant. The free tier takes 3 users and the paid editions attach the wider Zoho suite (mail, books, desk) at low per-seat prices.",
    "website": "https://www.zoho.com/crm/",
    "pricing_url": "https://www.zoho.com/crm/pricing.html",
    "open_source": false,
@@ -9757,7 +9757,7 @@
     "Zapier"
    ],
    "ai_features": [
-    "Zia AI assistant for lead scoring, deal prediction and email sentiment",
+    "Zia assistant for lead scoring, deal prediction and email sentiment",
     "AI forecasting and anomaly alerts on pipeline data",
     "Conversational AI assistant for querying CRM data in plain language"
    ],

@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: predictions (4 models) | ✗ Paid plans start at $120/mo once past the free tier |
 | ✓ Native integrations include Snowflake, BigQuery, Redshift (10 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free covers 1,000 monthly tracked users and 2 sources) |  |
+| ✓ Free tier to evaluate before committing (Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats) |  |
 
 **What is Twilio Segment?**
 Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations.
@@ -189,8 +189,8 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem

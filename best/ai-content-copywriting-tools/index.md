@@ -85,7 +85,7 @@ Vendor: [Official site](https://www.jacquard.com) · [Pricing](https://www.jacqu
 
 ## [Jasper](/tools/jasper/)
 
-Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
+Jasper is the most recognized name in AI content generation, having evolved from a GPT-3 wrapper in 2021 to an enterprise marketing agent workspace. Paid pricing starts at $49/mo, and creator $39/mo (annual) or $49/mo; Pro $59/mo (annual) or $69/mo; Business custom (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, and a public API.
 
 **Verdict:** Marketing teams enforcing one brand voice across many writers
 
@@ -97,7 +97,7 @@ Vendor: [Official site](https://www.jasper.ai) · [Pricing](https://www.jasper.a
 
 ## [Anyword](/tools/anyword/)
 
-Anyword is an AI copywriting platform built around a single, measurable proposition: predict how well your copy will perform before you send it. paid pricing starts at $39/mo, and starter $39/mo (annual) or $49/mo; Data-Driven €79/mo (annual) or €99/mo; 7-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.
+Anyword is an AI copywriting platform built around a single, measurable proposition: predict how well your copy will perform before you send it. Paid pricing starts at $39/mo, and starter $39/mo (annual) or $49/mo; Data-Driven €79/mo (annual) or €99/mo; 7-day free trial (verified 2026-08-28). The catalog documents 5 AI features, 7 integrations, and a public API.
 
 **Verdict:** Performance marketers that want a score before paying to publish
 
@@ -121,7 +121,7 @@ Vendor: [Official site](https://www.copy.ai) · [Pricing](https://www.copy.ai/pr
 
 ## [Hypotenuse AI](/tools/hypotenuse-ai/)
 
-Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built specifically for ecommerce brands managing large product catalogs. paid pricing starts at $56/mo, and essential $56/mo (annual) or $87/mo; custom enterprise plans available (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.
+Hypotenuse AI is an AI-first Product Experience Management (PXM) platform built specifically for ecommerce brands managing large product catalogs. Paid pricing starts at $56/mo, and essential $56/mo (annual) or $87/mo; custom enterprise plans available (verified 2026-08-28). The catalog documents 6 AI features, 6 integrations, and a public API.
 
 **Verdict:** Catalog-heavy stores generating product content in bulk
 

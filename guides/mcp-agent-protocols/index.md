@@ -74,7 +74,7 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [Claude S
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "MCP and agent protocols for marketers: the working hub", "url": "https://martechsignal.com/guides/mcp-agent-protocols/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/mcp-agent-protocols.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/mcp-agent-protocols/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/mcp-agent-protocols/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "MCP and agent protocols for marketers: the working hub", "url": "https://martechsignal.com/guides/mcp-agent-protocols/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/mcp-agent-protocols.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/mcp-agent-protocols/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/mcp-agent-protocols/"}}
 ```
 
 ```json

@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: lyro AI agent | ✗ Paid plans start at $24/mo once past the free tier |
 | ✓ Native integrations include Shopify, WordPress, WooCommerce (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/) |  |
+| ✓ Free tier to evaluate before committing (Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available) |  |
 
 **What is Tidio?**
 Tidio: AI-powered live chat and chatbot platform with Lyro AI agent for customer support. Tidio ships with lyro AI agent. This page documents 8 integrations.
@@ -154,7 +154,7 @@ Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Small shops adding live chat and an AI agent cheaply

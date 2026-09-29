@@ -92,7 +92,7 @@ Self-hostable CRM for WhatsApp with shared inbox, sales pipelines, broadcasts, a
 
 Open SourceDesk-reviewedOSS
 
-Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it
+Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it
 
 FreemiumDesk-reviewed
 
@@ -572,7 +572,7 @@ Vendors in this category: [Twenty](https://twenty.com) · [Monica](https://monic
           "item": {
             "@id": "https://martechsignal.com/tools/zoho-crm/#app",
             "name": "Zoho CRM",
-            "description": "Sales CRM with the Zia AI assistant, workflow automation and the Zoho suite around it",
+            "description": "Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it",
             "image": "https://martechsignal.com/og/tools/zoho-crm.png",
             "url": "https://martechsignal.com/tools/zoho-crm/",
             "@type": "SoftwareApplication"

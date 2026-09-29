@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI copy generation | ✗ Paid plans start at $49/mo once past the free tier |
 | ✓ Native integrations include Slack, Zapier, HubSpot (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Ent) |  |
+| ✓ Free tier to evaluate before committing (Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom) |  |
 
 **What is Copy.ai?**
 Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
@@ -149,8 +149,8 @@ Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — GTM teams that want workflows, not another blank prompt box

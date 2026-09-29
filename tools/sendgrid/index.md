@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI deliverability optimization | ✗ Paid plans start at $19.95/mo once past the free tier |
 | ✓ Native integrations include Twilio, Salesforce, Shopify (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19) |  |
+| ✓ Free tier to evaluate before committing (Free trial 100 emails/day for 60 days; Essentials $19.95/mo; Pro and Premier custom) |  |
 
 **What is Twilio SendGrid?**
 Twilio SendGrid: Scalable email delivery API with AI-powered deliverability and engagement tools. Twilio SendGrid ships with AI deliverability optimization. This page documents 8 integrations.

@@ -1372,6 +1372,59 @@ def test_perf_recommendations_applied():
     assert vs.count('fetchpriority="high"') == 1, "more than one high-priority image per vs page"
 
 
+def test_sitemap_holds_no_redirects_and_counts_agree():
+    """r15 L-1 (2026-09-29): /authors/ 301s but sat in the sitemap.
+    Redirecting URLs must not be listed. L-5 is by-design (acquired records
+    carry page_url:null + successor_slug, not 404 links)."""
+    import re as _re
+    sm = (ROOT / "sitemap.xml").read_text()
+    locs = _re.findall(r"<loc>(.*?)</loc>", sm)
+    assert "https://martechsignal.com/authors/" not in locs, "/authors/ redirect in sitemap"
+    assert len(locs) == len(set(locs)), "duplicate sitemap locs"
+
+
+def test_free_entry_pages_carry_both_offer_tiers():
+    """r15 L-4 (2026-09-29): 28 free-entry pages emitted a single paid-tier
+    Offer. Any page with price_from 0 AND a paid entry carries [0, paid]."""
+    import json as _j, re as _re
+    recs = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    idx = {x["slug"]: x for x in recs if isinstance(x, dict)}
+    bad = []
+    for f in (ROOT / "tools").glob("*/index.html"):
+        h = f.read_text()
+        m = _re.search(r'"offers": \{"@type": "Offer", "price": ([\d.]+)', h)
+        if m and idx.get(f.parent.name, {}).get("price_from") == 0:
+            bad.append(f.parent.name)
+    assert not bad, f"single paid-tier Offer on free-entry pages: {bad[:6]}"
+
+
+def test_glossary_terms_join_the_set_by_id():
+    """r15 L-11 (2026-09-29): term leaves inlined an anonymous set while the
+    hub declares #set. Leaves reference the set by @id."""
+    import re as _re
+    bad = []
+    for f in (ROOT / "glossary").glob("*/index.html"):
+        h = f.read_text()
+        if '"@type": "DefinedTermSet"' in h and '"@id": "https://martechsignal.com/glossary/#set"' not in h:
+            bad.append(f.parent.name)
+    assert not bad, f"terms not @id-joined to the set: {bad[:6]}"
+
+
+def test_prose_singulars_and_casing():
+    """r15 L-13 (2026-09-29): "1 AI features", "1 integrations", lowercase
+    "paid pricing starts at" after a period, "Zia AI" redundancy."""
+    import re as _re
+    bad = []
+    for base in ("tools", "best", "vs", "alternatives"):
+        for f in (ROOT / base).glob("*/index.html"):
+            h = f.read_text()
+            for pat, label in ((r"\b1 AI features\b", "plural"), (r"\b1 integrations\b", "plural"),
+                               (r"\. paid pricing starts at", "casing"), (r"Zia AI assistant", "redundant")):
+                if _re.search(pat, h):
+                    bad.append(f"{base}/{f.parent.name}:{label}")
+    assert not bad, f"prose artifacts: {bad[:6]}"
+
+
 def test_faq_third_answers_are_unique_per_tool():
     """r15 M-3 (2026-09-29): 7 tool pages shipped placeholder FAQ answers
     sharing the "full review breaks down" tail (3 byte-identical). The

@@ -16,7 +16,7 @@
 | ✓ AI capabilities: mixpanel AI agents (Root Cause Analysis, Experiments) | ✗ Closed source - no self-hosting option |
 | ✓ G2 rating 4.5/5 |  |
 | ✓ Native integrations include Segment, Slack, Snowflake (10 listed) |  |
-| ✓ Free tier to evaluate before committing (Free plan: unlimited seats, 1M events/mo, 10K session replay) |  |
+| ✓ Free tier to evaluate before committing (Free plan: unlimited seats, 1M events/mo, 10K session replays, 10 feature flags. Growth: usage-based, first 1M free up to 20M events/mo (calculator shows $120/mo billed annually at 18M events/yr). Enterprise: custom, up to 1T events/mo. Experiments and feature flags now included on Free and Growth) |  |
 
 **What is Mixpanel?**
 Mixpanel: Product analytics platform with AI-powered insights for user behavior tracking. Mixpanel ships with mixpanel AI agents (Root Cause Analysis, Experiments). This page documents 10 integrations.
@@ -193,9 +193,9 @@ There is no self-hosted option; Mixpanel is cloud only. Enterprise plans add cus
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Best for analytics & attribution teams that want the job covered in one platform, with a free starting tier.

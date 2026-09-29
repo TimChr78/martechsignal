@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI blog generation | ✗ Paid plans start at $9/mo once past the free tier |
 | ✓ Native integrations include WordPress, Chrome, Zapier (5 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Prepaid $0) |  |
+| ✓ Free tier to evaluate before committing (Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available) |  |
 
 **What is ContentBot?**
 ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
@@ -150,8 +150,8 @@ Good value for high-volume, template-driven content pipelines. Teams doing premi
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ### Quick Facts
 
 ## Get the next teardown

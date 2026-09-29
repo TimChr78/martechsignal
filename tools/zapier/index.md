@@ -16,7 +16,7 @@
 | ✓ AI capabilities: AI workflow builder | ✗ Paid plans start at $19.99/mo once past the free tier |
 | ✓ G2 rating 4.5/5 | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include Salesforce, HubSpot, Slack (8 listed) |  |
-| ✓ Free tier to evaluate before committing (Free (100 tasks/mo, 2-step Zaps); Professional $19) |  |
+| ✓ Free tier to evaluate before committing (Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual)) |  |
 
 **What is Zapier?**
 Zapier: No-code automation platform connecting 9,000+ apps with AI-powered workflows. Zapier ships with AI workflow builder. This page documents 8 integrations.

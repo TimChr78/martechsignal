@@ -85,9 +85,7 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
     "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.",
     "dateModified": "2026-09-28",
     "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Martech Glossary",
-      "url": "https://martechsignal.com/glossary/"
+      "@id": "https://martechsignal.com/glossary/#set"
     },
     "publisher": {
       "@id": "https://martechsignal.com/#organization"

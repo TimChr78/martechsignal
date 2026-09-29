@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ API access for custom integrations | ✗ Paid plans start at $9/mo once past the free tier |
 | ✓ AI capabilities: AI agents | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (1,000 credits/mo, 2 active scenarios); Core $9/mo, Pro) |  |
+| ✓ Free tier to evaluate before committing (Free (1,000 credits/mo, 2 active scenarios)) |  |
 
 **What is Make?**
 Make: Visual automation platform for building complex workflows with AI agents and apps. Make ships with AI agents. Make offers a public API for custom integrations.

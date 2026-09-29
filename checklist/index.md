@@ -28,9 +28,9 @@ Want the fixes, not just the score? The MartechSignal newsletter covers exactly 
 
 
 ```json
-{
+{"@context": "https://schema.org", "@graph": [{
   "@context": "https://schema.org",
-  "@type": "WebPage",
+  "@type": "WebPage", "publisher": {"@id": "https://martechsignal.com/#organization"}, "isPartOf": {"@id": "https://martechsignal.com/#website"},
   "name": "Marketing Automation Rollout Readiness Checklist",
   "description": "12 questions in two phases: rollout readiness before you deploy, agent readiness before you automate.",
   "url": "https://martechsignal.com/checklist/",
@@ -101,7 +101,7 @@ Want the fixes, not just the score? The MartechSignal newsletter covers exactly 
       }
     ]
   }
-}
+}, {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/"}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```
 
 ```json

@@ -13,7 +13,7 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at $20/mo once past the free tier |
+| ✓ Open-source licensing with free self-hosting | ✗ Paid plans start at €20/mo once past the free tier |
 | ✓ AI capabilities: AI agent nodes |  |
 | ✓ Active public repository (206,232 GitHub stars counted at last check) |  |
 | ✓ Native integrations include Slack, Google Sheets, Gmail (8 listed) |  |
@@ -156,8 +156,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -193,13 +193,22 @@ One email when a new tool review lands, nothing else.
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
-    "offers": {
-      "@type": "Offer",
-      "price": 20,
-      "priceCurrency": "EUR",
-      "url": "https://n8n.io/pricing/",
-      "priceValidUntil": "2026-12-31"
-    }
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR",
+        "url": "https://n8n.io/pricing/",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 20,
+        "priceCurrency": "EUR",
+        "url": "https://n8n.io/pricing/",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",

@@ -91,6 +91,12 @@ a { color: inherit }
 .mast-nav { display: flex; gap: 1.4rem }
 .mast-nav a { font: 600 0.8rem var(--mono); letter-spacing: .14em; color: var(--muted); text-decoration: none; transition: color .2s }
 .mast-nav a:hover { color: var(--amber) }
+/* r15 L-10 (2026-09-29): 8 links overflow 390px viewports with no scroll
+   affordance. Horizontal scroll with a fade edge on small screens. */
+@media (max-width: 700px) {
+  .mast-nav { overflow-x: auto; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent) }
+  .mast-nav::-webkit-scrollbar { display: none }
+}
 /* homepage extras */
 .mast-right { display: flex; align-items: center; gap: 1.1rem }
 .live { display: inline-flex; align-items: center; gap: .45rem; font: 600 0.8rem var(--mono); letter-spacing: .14em; color: var(--green); border: 1px solid rgba(61,220,151,.35); padding: .32rem .7rem; border-radius: 99px; background: rgba(61,220,151,.07) }

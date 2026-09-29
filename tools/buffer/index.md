@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI assistant for posts | ✗ Paid plans start at $5/mo once past the free tier |
 | ✓ Native integrations include Canva, Zapier, Shopify (6 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channe) |  |
+| ✓ Free tier to evaluate before committing (Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial) |  |
 
 **What is Buffer?**
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
@@ -148,9 +148,9 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Creators that want scheduling priced per channel, not per seat

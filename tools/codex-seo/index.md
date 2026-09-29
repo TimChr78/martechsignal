@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: 26 SEO workflows with 24 TOML agent profiles | ✗ Closed source - no self-hosting option |
 | ✓ Native integrations include OpenAI Codex, DataForSEO, Google Search Console (5 listed) |  |
-| ✓ Free tier to evaluate before committing (Free to use) |  |
+| ✓ Free tier to evaluate before committing (Free to use. The bundled licence is proprietary (courtesy of the author) - not an OSS licence) |  |
 
 **What is Codex SEO?**
 Codex SEO: Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations. Codex SEO ships with 26 SEO workflows with 24 TOML agent profiles. The public repository carries 762 stars.
@@ -149,8 +149,8 @@ The right SEO skill pack for Codex-based teams. Claude Code users should stick w
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 - [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Codex CLI users who want scripted SEO workflows.

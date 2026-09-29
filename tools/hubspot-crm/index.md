@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ AI capabilities: AI email writer | ✗ Paid plans start at $20/mo once past the free tier |
 | ✓ Native integrations include Gmail, Outlook, Slack (8 listed) | ✗ Closed source - no self-hosting option |
-| ✓ Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annua) |  |
+| ✓ Free tier to evaluate before committing (Free CRM forever; Sales Hub Starter $15/seat/mo billed annually ($20 month-to-month)) |  |
 
 **What is HubSpot CRM?**
 HubSpot CRM: Free AI-powered CRM platform with sales, service, and marketing tools unified. HubSpot CRM ships with AI email writer. This page documents 8 integrations.
@@ -156,8 +156,8 @@ Best starting CRM for small teams. Revisit ownership costs seriously once headco
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best free CRM, and the natural next step when the free tier starts to bite.

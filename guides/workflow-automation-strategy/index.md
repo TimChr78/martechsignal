@@ -78,7 +78,7 @@ Sources: [n8n](https://n8n.io/) · [n8n pricing](https://n8n.io/pricing/) · [Za
 
 
 ```json
-{"@context": "https://schema.org", "@type": "Article", "headline": "Workflow automation without the AI-tool pile-on: the strategy hub", "url": "https://martechsignal.com/guides/workflow-automation-strategy/", "dateModified": "2026-09-28", "author": {"@type": "Person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/workflow-automation-strategy.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/workflow-automation-strategy/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/workflow-automation-strategy/"}}
+{"@context": "https://schema.org", "@type": "Article", "headline": "Workflow automation without the AI-tool pile-on: the strategy hub", "url": "https://martechsignal.com/guides/workflow-automation-strategy/", "dateModified": "2026-09-28", "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "publisher": {"@id": "https://martechsignal.com/#organization"}, "datePublished": "2026-09-28", "image": {"@type": "ImageObject", "url": "https://martechsignal.com/og/workflow-automation-strategy.png", "width": 1200, "height": 630}, "@id": "https://martechsignal.com/guides/workflow-automation-strategy/#article", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://martechsignal.com/guides/workflow-automation-strategy/"}}
 ```
 
 ```json
