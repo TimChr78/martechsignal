@@ -81,7 +81,7 @@ Links still rank pages on Google, and nothing in either article says otherwise. 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [MarketMuse](/tools/marketmuse/)
+More from the directory: [ManyChat](/tools/manychat/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

@@ -16,7 +16,7 @@ Agent Skills
 
 Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow
 
-16 tools
+18 tools
 
 Analytics & Attribution
 
@@ -58,7 +58,7 @@ Open-Source Tools
 
 78 open-source MarTech tools you can self-host today - CRM, analytics, automation and more, with licence claims checked against the vendor's own repository.
 
-78 tools
+80 tools
 
 Personalization & CDP
 
@@ -88,7 +88,7 @@ No-code/low-code automation platforms and iPaaS
 
 ## Categories
 
-All 14 categories across the 161-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
+All 14 categories across the 163-tool directory. Each category page lists its tools with licence, stars and a plain summary of what it does.
 
 ## [AI Content & Copywriting](/categories/content-ai/)
 
@@ -100,7 +100,7 @@ Ad creation, bidding, and campaign management. Includes [AdCreative.ai](/tools/a
 
 ## [Agent Skills](/categories/agent-skills/)
 
-Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [AI Business Skills](/tools/ai-business-skills/), [Analytics Tracking Automation](/tools/analytics-tracking-automation/).
+Skills, plugins, and extensions for AI coding agents - what they automate in your marketing workflow. Includes [Aaron Marketing Skills](/tools/aaron-marketing-skills/), [AI Business Skills](/tools/ai-business-skills/), [AI Marketing Suite](/tools/ai-marketing-claude/).
 
 ## [Analytics & Attribution](/categories/analytics/)
 

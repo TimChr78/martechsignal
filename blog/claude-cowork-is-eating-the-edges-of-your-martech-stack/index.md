@@ -100,8 +100,8 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 - [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Comparison guides
 
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -110,7 +110,7 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [EspoCRM](/tools/espocrm/)
+More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

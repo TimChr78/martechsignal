@@ -110,7 +110,7 @@ Our directory breaks marketing tools down by what they measure, what they integr
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Analytics Tracking Automation](/tools/analytics-tracking-automation/)
+More from the directory: [AI Marketing Suite](/tools/ai-marketing-claude/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

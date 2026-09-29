@@ -28,7 +28,7 @@ Advertising & Paid Media
 
 Agent Skills
 
-16 tools
+18 tools
 
 Analytics & Attribution
 
@@ -56,7 +56,7 @@ Marketing Automation
 
 Open-Source Tools
 
-78 tools
+80 tools
 
 Personalization & CDP
 

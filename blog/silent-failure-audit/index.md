@@ -83,12 +83,12 @@ Our directory reviews workflow and marketing automation tools on what happens af
 - [n8n Marketing Flows](/tools/n8n-marketing-flows/) - 79 free, one-click import n8n workflows for social posting, monitoring, ads, and SEO
 ## Comparison guides
 
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
-- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
-- [Attribution models](/glossary/marketing-attribution-models/)
 - [Workflow automation](/glossary/workflow-automation/)
+- [Attribution models](/glossary/marketing-attribution-models/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1841,
+  "wordCount": 1838,
   "articleSection": "workflow-automation, agent-skills"
 }
 ```

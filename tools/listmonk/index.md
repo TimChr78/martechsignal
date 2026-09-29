@@ -146,7 +146,7 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in

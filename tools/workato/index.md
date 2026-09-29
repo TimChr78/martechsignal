@@ -179,8 +179,8 @@ Yes, for training. The Workato Automation Institute's certificate programs (Auto
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for enterprises governing agents and integration in one platform.

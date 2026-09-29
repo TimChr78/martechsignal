@@ -120,7 +120,7 @@ Our directory breaks down martech tools by what they actually deliver: static re
 
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Related tools
 
 - [Salesforce Marketing Cloud](/tools/salesforce-marketing-cloud/) - Enterprise marketing automation on Salesforce with Agentforce AI across email, SMS, and web
@@ -132,13 +132,13 @@ Our directory breaks down martech tools by what they actually deliver: static re
 - [Best n8n alternatives (2026)](/alternatives/n8n/)
 ## Glossary terms
 
-- [AI Agent](/glossary/ai-agent/)
 - [CDP](/glossary/cdp/)
+- [AI Agent](/glossary/ai-agent/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
+More from the directory: [ChatbotX](/tools/chatbotx/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -190,7 +190,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2508,
+  "wordCount": 2511,
   "articleSection": "marketing-automation"
 }
 ```

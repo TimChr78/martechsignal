@@ -170,12 +170,12 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
-- [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
@@ -183,12 +183,12 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
-- [Marketing ops](/glossary/marketing-ops/)
+- [CDP](/glossary/cdp/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Zoho CRM](/tools/zoho-crm/)
+More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/contentbot/) · [Email Marketing Bible](/tools/email-marketing-bible/) · [Heap](/tools/heap/) · [Klaviyo](/tools/klaviyo/) · [Line Harness](/tools/line-harness/) · [Mailchimp](/tools/mailchimp/) · [NocoBase](/tools/nocobase/) · [Open Mercato](/tools/open-mercato/) · [OpenSEO](/tools/openseo/) · [Pencil](/tools/pencil/) · [Phrasee](/tools/phrasee/) · [Revealbot (Birch)](/tools/revealbot/) · [ToolJet](/tools/tooljet/) · [WaCRM](/tools/wacrm/) · [Writesonic](/tools/writesonic/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -240,7 +240,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1542,
+  "wordCount": 1538,
   "articleSection": ""
 }
 ```

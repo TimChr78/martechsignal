@@ -94,17 +94,17 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Related tools
 
 - [Eve Marketing Team Template](/tools/eve-marketing-team/) - Open-source team of marketing agents on eve: lead, content, social, SEO, email
-- [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
+- [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)
@@ -163,7 +163,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1475,
+  "wordCount": 1466,
   "articleSection": ""
 }
 ```

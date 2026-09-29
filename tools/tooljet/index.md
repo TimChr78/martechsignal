@@ -189,7 +189,7 @@ Yes, through the ToolJet MCP server, which the README marks as beta. You create 
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ### Quick Facts

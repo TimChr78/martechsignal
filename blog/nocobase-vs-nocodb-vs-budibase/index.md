@@ -126,7 +126,7 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 

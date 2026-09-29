@@ -126,7 +126,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Apache Unomi](/tools/apache-unomi/)
+More from the directory: [Anyword](/tools/anyword/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
