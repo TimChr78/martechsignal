@@ -729,6 +729,11 @@ def build_hub(tools, cats):
         # licence facets (the open-source landing page deserves crawlable links).
         '<button type="button" class="btn-sm" id="flt-copy">Copy link to this view</button>'
         '<span class="filter-count" id="flt-copied" aria-live="polite"></span></div>'
+        # r10 H-7 (2026-09-29): unhide synchronously during parse, before first
+        # paint, so the bar never shifts the grid (CLS 0.0902 -> ~0). No-JS
+        # users keep the full browsable list; the script below is a no-op for
+        # them because it never runs.
+        '<script>document.getElementById("tool-filter").hidden=false</script>'
         '<p class="meta flt-static">Browse by licence: '
         '<a href="/categories/open-source/">Open-source tools</a> · '
         '<a href="/categories/">all categories</a>.</p>')
@@ -797,8 +802,14 @@ def _tool_fact_img(t):
             else (f"/og/{_slug}.png" if (ROOT / "og" / f"{_slug}.png").exists() else ""))
     if not _src:
         return ""
-    return (f'<img src="{_src}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
-            'loading="lazy" width="1200" height="630">')
+    # r10 H-9 (2026-09-29): cards render at 335px wide; serve a 670w (2x)
+    # rendition via srcset instead of the raw 1200px file. Degrades to src
+    # alone when the rendition is absent (same pattern as the M6 600w rung).
+    _r670 = _src.replace(".png", "-670.webp")
+    _has670 = (ROOT / _r670.lstrip("/")).exists()
+    _set = f' srcset="{_r670} 670w, {_src} 1200w" sizes="335px"' if _has670 else ""
+    return (f'<img src="{_src if not _has670 else _r670}" alt="{esc(t["name"])} fact card: pricing, category and license badges" '
+            f'loading="lazy" width="1200" height="630"{_set}>')
 
 
 def _money(p, t):

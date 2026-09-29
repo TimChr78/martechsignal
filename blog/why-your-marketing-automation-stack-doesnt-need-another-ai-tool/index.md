@@ -103,8 +103,8 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 - [Clerk.io](/tools/clerk-io/) - AI-powered ecommerce personalization with search, recommendations, and email
 ## Comparison guides
 
-- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)

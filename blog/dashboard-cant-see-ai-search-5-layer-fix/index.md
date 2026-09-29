@@ -106,7 +106,7 @@ This post is part of the [generative engine optimization hub](/guides/generative
 ## Comparison guides
 
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [AI Visibility](/glossary/ai-search-visibility/)
@@ -167,7 +167,7 @@ More from the directory: [IDURAR ERP & CRM](/tools/idurar-erp-crm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2128,
+  "wordCount": 2130,
   "articleSection": "seo"
 }
 ```

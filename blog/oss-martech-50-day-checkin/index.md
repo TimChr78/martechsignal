@@ -82,7 +82,7 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Related tools
 
 - [Relaticle](/tools/relaticle/) - Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
@@ -150,7 +150,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1487,
+  "wordCount": 1488,
   "articleSection": "open-source, workflow-automation"
 }
 ```

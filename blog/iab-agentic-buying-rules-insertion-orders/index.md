@@ -82,8 +82,8 @@ The insertion order was written for humans because only humans could read a prop
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
 ## Comparison guides
 
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -144,7 +144,7 @@ More from the directory: [MarketMuse](/tools/marketmuse/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1540,
+  "wordCount": 1538,
   "articleSection": "advertising"
 }
 ```

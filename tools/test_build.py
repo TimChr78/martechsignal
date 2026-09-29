@@ -1111,3 +1111,24 @@ def test_critical_css_inline_and_deferred():
             f"{tpl} carries {html.count('<style>:root')} critical copies"
         checked += 1
     assert checked == 4
+
+
+def test_filter_bar_unhides_before_first_paint():
+    """r10 H-7 (2026-09-29): the /tools/ filter bar must unhide synchronously
+    during parse (no deferred toggle -> no layout shift of the grid)."""
+    html = (ROOT / "tools" / "index.html").read_text()
+    assert 'id="tool-filter" hidden>' in html, "filter bar lost its no-JS hidden state"
+    assert '<script>document.getElementById("tool-filter").hidden=false</script>' in html, \
+        "missing synchronous pre-paint unhide for the filter bar"
+
+
+def test_fact_cards_serve_sized_renditions():
+    """r10 H-9 (2026-09-29): money-page fact cards (335px slot) serve a 670w
+    rendition via srcset, not the raw 1200px file."""
+    import re as _re
+    html = (ROOT / "best" / "geo-llm-visibility-tools" / "index.html").read_text()
+    imgs = _re.findall(r'<img[^>]*fact card[^>]*>', html)
+    assert imgs, "no fact card images on the sampled best page"
+    bare = [i for i in imgs if "srcset" not in i]
+    assert not bare, f"{len(bare)}/{len(imgs)} fact cards lack srcset"
+    assert 'sizes="335px"' in imgs[0], "fact card sizes does not match the 335px slot"

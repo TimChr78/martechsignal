@@ -86,7 +86,7 @@ The spec head-to-head of the two tools lives in the [/vs/claude-seo-vs-semrush/ 
 ## Comparison guides
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/)
 ## Glossary terms
 
 - [SEO](/glossary/seo/)
@@ -145,7 +145,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1484,
+  "wordCount": 1489,
   "articleSection": "seo"
 }
 ```
