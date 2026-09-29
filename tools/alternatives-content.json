@@ -43,7 +43,21 @@
         }
       ],
       "date_published": "2026-09-26",
-      "date_updated": "2026-09-28"
+      "date_updated": "2026-09-28",
+      "pilot_faq": [
+        {
+          "q": "Which HubSpot alternative can a technical team host itself?",
+          "a": "Twenty for a modern CRM without feature poverty, EspoCRM for small teams that want lightweight self-hosting with solid sales automation. Frappe CRM fits budget-conscious teams that want unlimited users and accept community support."
+        },
+        {
+          "q": "Which alternative keeps the broadest free feature set?",
+          "a": "SuiteCRM. Its verdict claims the broadest free module set in open-source CRM, from quotes to inventory. Teams that find SuiteCRM heavy should look at Twenty instead of back at HubSpot."
+        },
+        {
+          "q": "What if the team already runs a separate marketing stack?",
+          "a": "Pipedrive. It is pipeline-first by design for sales teams whose marketing lives elsewhere. That split is exactly when HubSpot's all-in-one pricing stops earning its seat."
+        }
+      ]
     },
     {
       "slug": "zapier",
@@ -119,7 +133,21 @@
         }
       ],
       "date_published": "2026-09-26",
-      "date_updated": "2026-09-28"
+      "date_updated": "2026-09-28",
+      "pilot_faq": [
+        {
+          "q": "Which Zapier alternative removes per-task billing?",
+          "a": "n8n, self-hosted and auditable line by line. Pabbly Connect is the hosted answer for steady high volume at the cheapest predictable bill. Both attack the task slider directly."
+        },
+        {
+          "q": "Which alternative fits developers?",
+          "a": "Pipedream for arbitrary code in every step with managed infrastructure, Budibase for operations teams that want lead-routing consoles and approval queues beside the automations."
+        },
+        {
+          "q": "What should a compliance-bound enterprise pick?",
+          "a": "Tray.io. It keeps integrations and AI agents governed inside a compliance boundary, which neither Zapier nor Make promises. Make covers the middle: branching and looping for technical marketing teams that outgrew linear editors."
+        }
+      ]
     },
     {
       "slug": "matomo",
@@ -164,7 +192,21 @@
         }
       ],
       "date_published": "2026-09-26",
-      "date_updated": "2026-09-28"
+      "date_updated": "2026-09-28",
+      "pilot_faq": [
+        {
+          "q": "Which Matomo alternative is simplest?",
+          "a": "Plausible Analytics for core traffic metrics with minimal setup, Umami for developers and privacy-conscious teams that want campaign and conversion numbers without weight. Both trade Matomo's depth for speed."
+        },
+        {
+          "q": "When should a team pick PostHog or Amplitude instead?",
+          "a": "When the questions turn product-shaped: funnels, retention, session replay, flags and experiments. PostHog and Amplitude answer those; Matomo answers traffic, behavior and ecommerce depth on infrastructure the team controls."
+        },
+        {
+          "q": "Which alternative fits a data team with its own warehouse?",
+          "a": "Snowplow. Behavioral events validated against schemas and delivered into the team's own pipeline beat any dashboard export. That is the point where analytics stops being a tool choice and becomes a data contract."
+        }
+      ]
     },
     {
       "slug": "n8n",
@@ -252,7 +294,21 @@
         }
       ],
       "date_published": "2026-09-28",
-      "date_updated": "2026-09-28"
+      "date_updated": "2026-09-28",
+      "pilot_faq": [
+        {
+          "q": "Which n8n alternative is easiest for visual builders?",
+          "a": "Make for scenario-level control with cheaper runs at moderate volume, Zapier for the largest app catalog and the least setup per workflow. Both trade n8n's code depth for canvas clarity."
+        },
+        {
+          "q": "Is there an open-source n8n alternative with a cloud option?",
+          "a": "Activepieces. Its core is MIT-licensed open source with an affordable cloud beside it, for teams that want no-code automation without surrendering the exit option."
+        },
+        {
+          "q": "What should large orgs standardizing across departments pick?",
+          "a": "Workato for governance and AI add-ons across departments, Tray.io for one iPaaS spanning marketing, RevOps and IT with pro-code escape hatches. Pipedream covers developers who want real code inside steps and a generous free tier."
+        }
+      ]
     }
   ]
 }

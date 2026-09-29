@@ -132,7 +132,21 @@
           }
         ]
       },
-      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder."
+      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
+      "pilot_faq": [
+        {
+          "q": "When does n8n beat Zapier on cost?",
+          "a": "At high volume. n8n self-hosted is free beyond the server, while Zapier rides a task slider past the $69 Team floor. The price table on this page shows 10K, 100K and 1M task scenarios with the published rates behind each rung."
+        },
+        {
+          "q": "When should a team still pick Zapier?",
+          "a": "When a specific niche integration has to work this week and nobody wants to maintain automation servers. Zapier has the largest app catalog and the least setup per workflow, which is worth the task billing for small teams."
+        },
+        {
+          "q": "Which one fits builders who write code?",
+          "a": "n8n. Code steps and branching are native, and Pipedream is the escape hatch if developers want real code in every step. Zapier and Make keep builders inside visual editors by design."
+        }
+      ]
     },
     {
       "slug": "nocodb-vs-nocobase",
@@ -222,7 +236,21 @@
         "The real migration cost is downstream: any script or integration pointing at the old API breaks at the cutover. Inventory those callers first. A clean CSV export will move the rows and leave the automations behind.",
         "Schema migration between the two is a real project: both round-trip CSV, so flat tables move in an afternoon, but relational links and views are recreated by hand. NocoDB imports an existing Airtable; NocoBase leans on its plugin model for anything exotic. Budget one day per ten tables with relationships."
       ],
-      "neither": "Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either."
+      "neither": "Neither fits a regulated enterprise data warehouse: both are operational databases at heart. And if your users will never see a record grid, a plain internal admin panel built in a weekend beats configuring either.",
+      "pilot_faq": [
+        {
+          "q": "Pick NocoDB or NocoBase for existing tables?",
+          "a": "NocoDB. Its verdict is explicit: tables that already exist get a spreadsheet-style surface over data you own. NocoBase wants the opposite starting point, systems designed from scratch."
+        },
+        {
+          "q": "Which one rewards data-model thinking?",
+          "a": "NocoBase. It pays off when the team can invest in data-model thinking up front and is building operational systems, not just viewing rows. Teams that will not do that work should stay with NocoDB."
+        },
+        {
+          "q": "Are both self-hosted?",
+          "a": "Yes. Both are open-source database surfaces the team hosts itself, so the decision is about starting point and modeling appetite, not about hosting bills or vendor lock-in."
+        }
+      ]
     },
     {
       "slug": "matomo-vs-plausible",
@@ -336,7 +364,21 @@
           }
         ]
       },
-      "neither": "Skip all three if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all."
+      "neither": "Skip all three if you are an enterprise already paying for an analytics suite: the switching cost outweighs the licence saving. And if all you need is a hit counter on a brochure site, server logs answer that question without a script at all.",
+      "pilot_faq": [
+        {
+          "q": "When does Matomo justify its weight over Plausible?",
+          "a": "When the team needs behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform it fully controls. Plausible wins when core traffic numbers, cookie-free by default, are the whole requirement."
+        },
+        {
+          "q": "Which one is cheaper to run?",
+          "a": "Plausible, with minimal setup and predictable cost. Matomo self-hosted is free as software but the team pays in server and maintenance time, which is the honest trade behind every self-hosted pick on this site."
+        },
+        {
+          "q": "What if the questions are about product usage, not traffic?",
+          "a": "Neither. That is PostHog territory: funnels, retention, session replay and feature flags beside the funnel. The Matomo versus PostHog comparison on this site draws that line in full."
+        }
+      ]
     },
     {
       "slug": "claude-seo-vs-semrush",
@@ -432,7 +474,21 @@
         "The honest exit cost runs the other way. Keyword history and position tracking live in Semrush and do not fit inside a local tool, so teams that switch entirely give up that continuity. The common pattern is keeping Semrush for rank history while audits move to the local tool.",
         "These do not migrate against each other; they stack. If you are trading Semrush's data for the skill's audits, keep a keyword export before cancelling and feed it to the skill's research workflows. Going the other way, the skill's reports hand you the backlog; Semrush measures whether the backlog worked."
       ],
-      "neither": "Neither replaces an analyst. And if you publish fewer than a page a week, a spreadsheet of keywords and the Search Console will answer most of what both products sell."
+      "neither": "Neither replaces an analyst. And if you publish fewer than a page a week, a spreadsheet of keywords and the Search Console will answer most of what both products sell.",
+      "pilot_faq": [
+        {
+          "q": "Who should pick Claude SEO over Semrush?",
+          "a": "Teams that can host it themselves and want code-level control, starting free. It is MIT-licensed open source, so the audit machine runs inside Claude Code rather than on a vendor dashboard."
+        },
+        {
+          "q": "When does Semrush still win?",
+          "a": "When the team wants a hosted platform the vendor runs for them, with AI content optimization and keyword research in one login. No servers, no CLI, no maintenance falls on the buyer."
+        },
+        {
+          "q": "Can a team use both?",
+          "a": "Yes, and the comparison suggests exactly that split: Semrush for the suite coverage it already sells, Claude SEO for scripted audits agents run on demand. They overlap least where each side is strongest."
+        }
+      ]
     },
     {
       "slug": "salesforce-marketing-cloud-vs-hubspot",
@@ -527,7 +583,21 @@
         "Budget for what does not migrate. Attribution history rarely survives intact, so agree up front which reporting periods live where. Reverse migrations are worse: leaving HubSpot for Marketing Cloud means rebuilding scoring, forms, and lead routing from scratch.",
         "Both vendors publish migration guides and both make money on services, so budget for a partner whichever direction you move. The expensive parts in order: historical email engagement, lead scoring models, and journeys mid-flight. Freeze new automation a month before cutover; migrating running journeys is how migrations turn into incidents."
       ],
-      "neither": "Neither suits a small team selling to a few hundred accounts: the setup cost exceeds a year of both. And if most revenue moves through one product-led funnel, a lighter lifecycle tool beats both suites."
+      "neither": "Neither suits a small team selling to a few hundred accounts: the setup cost exceeds a year of both. And if most revenue moves through one product-led funnel, a lighter lifecycle tool beats both suites.",
+      "pilot_faq": [
+        {
+          "q": "Which enterprise pick fits a Salesforce estate?",
+          "a": "Salesforce Marketing Cloud, with Agentforce campaigns in the package. Estates already bought into the Salesforce stack pay more in switching costs than any license gap, so the stack question decides first."
+        },
+        {
+          "q": "When does HubSpot Marketing Hub win instead?",
+          "a": "When the team wants marketing automation living beside its CRM with an AI content assistant included, without enterprise procurement. HubSpot wins on time-to-value for teams outside the Salesforce orbit."
+        },
+        {
+          "q": "Do both require vendor hosting?",
+          "a": "Yes. Both are hosted platforms the vendor runs, so neither gives the self-hosting control that open-source picks elsewhere on this site offer. The choice is ecosystem and buying motion, not infrastructure."
+        }
+      ]
     },
     {
       "slug": "make-vs-zapier",
@@ -653,7 +723,21 @@
           }
         ]
       },
-      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder."
+      "neither": "None of the three is right when your automation work is mostly custom code with a scheduler: a worker service and a queue will cost less and break less than any of them. They are also the wrong tools for one-way data pipelines, where an ETL product fits better than a workflow builder.",
+      "pilot_faq": [
+        {
+          "q": "When does Make beat Zapier?",
+          "a": "When builders outgrow a linear editor. Make offers branching, looping and scenario-level control with AI agents and workflow suggestions, plus cheaper runs at moderate volume for technical marketing teams."
+        },
+        {
+          "q": "When does Zapier keep the deal?",
+          "a": "When the catalog decides it: the largest app library, the least setup per workflow, and an AI workflow builder for teams that never want to see a branch node. Niche integrations working this week is Zapier's home turf."
+        },
+        {
+          "q": "Which one is cheaper at scale?",
+          "a": "Make at moderate volume, where its runs price below Zapier tasks. At very high volume both lose to self-hosted n8n, which is exactly the three-way comparison this site carries separately."
+        }
+      ]
     },
     {
       "slug": "activecampaign-vs-klaviyo",
@@ -749,7 +833,21 @@
         "Deliverability deserves its own line in the plan. Consent records and suppression lists have to travel with the contacts, and sending reputation does not. Warm the new setup gradually instead of importing 50,000 contacts and mailing them on day one.",
         "Klaviyo publishes a first-party ActiveCampaign importer that handles lists, profiles and ecommerce events; the segments and automations rebuild in the new vocabulary. The trap is tag debt: clean your ActiveCampaign tags before the move or spend your first month re-deriving segments in Klaviyo's profile properties."
       ],
-      "neither": "Neither fits B2B sales cycles with long, human follow-up: that is CRM territory. And if your store sends one campaign a month to under 5,000 contacts, a simpler cheaper tool loses nothing."
+      "neither": "Neither fits B2B sales cycles with long, human follow-up: that is CRM territory. And if your store sends one campaign a month to under 5,000 contacts, a simpler cheaper tool loses nothing.",
+      "pilot_faq": [
+        {
+          "q": "Which one fits a store, and which fits everyone else?",
+          "a": "Klaviyo for commerce brands, with its AI subject line assistant and predictive sending tuned to purchase data. ActiveCampaign for SMB teams that want real automation with AI content generation beyond the store use case."
+        },
+        {
+          "q": "Do both run the automation for the team?",
+          "a": "Yes. Both are hosted platforms the vendor runs, so the buyer compares automation depth and data model rather than infrastructure. Neither asks the team to maintain servers."
+        },
+        {
+          "q": "What if the team wants to self-host instead?",
+          "a": "Look at Mautic for HubSpot-class automation hosted in-house, or Laudspeaker for lifecycle messaging outside the CRM. The open-source marketing tools roundup on this site prices that trade honestly."
+        }
+      ]
     },
     {
       "slug": "jasper-vs-writer",
@@ -846,7 +944,21 @@
         "The admin side is the boring half of the work: SSO, seat provisioning, and approval workflows all get re-created. For regulated teams the governance rewrite usually costs more than the template work.",
         "Content itself moves as documents, and both export cleanly. What does not move is governance: brand voice rules and terminology lists rebuild in the other product's format. Expect to spend the first two weeks getting the new platform to write in your register instead of its default."
       ],
-      "neither": "Neither fits technical documentation with strict terminology control: deterministic tooling beats generation there. And if content output is occasional, the model you already pay for handles it without a platform."
+      "neither": "Neither fits technical documentation with strict terminology control: deterministic tooling beats generation there. And if content output is occasional, the model you already pay for handles it without a platform.",
+      "pilot_faq": [
+        {
+          "q": "Jasper or Writer for brand control?",
+          "a": "Writer when governance leads: AI content generation with knowledge graphs aimed at enterprises that audit output. Jasper when the job is enforcing one trained brand voice across many human writers."
+        },
+        {
+          "q": "Can performance marketers use either?",
+          "a": "Jasper fits better, with AI copy generation and brand voice training in one seat. Teams that want a publish-before-you-pay score should look at Anyword instead, which neither of these two promises."
+        },
+        {
+          "q": "Are both hosted?",
+          "a": "Yes. Both are hosted platforms the vendor runs for the buyer. Teams that want AI inside infrastructure they control should look at Strapi, a headless CMS with AI inside their own stack."
+        }
+      ]
     },
     {
       "slug": "n8n-vs-make-vs-zapier",
@@ -908,7 +1020,21 @@
       "neither": "Skip all three when your automation is really a data pipeline. Scheduled ETL with transformations belongs in an ELT tool, and a nightly script beats workflow pricing when the runs are predictable. They are also the wrong answer for one-off jobs: run those by hand until the shape repeats.",
       "pick_a_if": "you want self-hosting, code steps and billing that rewards complex workflows.",
       "pick_b_if": "your builders are operators who want the clearest visual canvas and a free tier to start in.",
-      "pick_c_if": "you need the widest connector catalog and the workflow has to work on day one."
+      "pick_c_if": "you need the widest connector catalog and the workflow has to work on day one.",
+      "pilot_faq": [
+        {
+          "q": "Which of the three should a technical team self-host?",
+          "a": "n8n. Self-hosting, code steps and billing that rewards complex workflows are its explicit verdict. Make and Zapier keep builders in hosted visual editors by design."
+        },
+        {
+          "q": "Which one is easiest for non-technical operators?",
+          "a": "The verdict favors the clearest visual canvas with a free tier to start in. Zapier adds the largest app catalog on top, Make adds scenario-level control for operators ready to graduate from linear flows."
+        },
+        {
+          "q": "How do the three price volume differently?",
+          "a": "n8n self-hosted removes per-task billing entirely. Make prices runs below Zapier tasks at moderate volume. Zapier's task slider climbs past the $69 Team floor, with the full 10K to 1M picture in the n8n-versus-Zapier price table."
+        }
+      ]
     },
     {
       "slug": "matomo-vs-posthog",
@@ -973,7 +1099,21 @@
       ],
       "neither": "If your question is purely commercial, 'which channel sells', a warehouse-native BI layer over your own order data beats both. And if the site is a brochure and the product is offline, neither tool earns its script tag.",
       "pick_a_if": "you want web analytics depth, EU data residency and raw data you own outright.",
-      "pick_b_if": "the real questions are about product usage, and you want flags and experiments beside the funnel."
+      "pick_b_if": "the real questions are about product usage, and you want flags and experiments beside the funnel.",
+      "pilot_faq": [
+        {
+          "q": "Matomo or PostHog for a content site?",
+          "a": "Matomo. Web analytics depth, EU data residency and raw data the team owns outright are its verdict. PostHog aims at product teams, not pageview reporting."
+        },
+        {
+          "q": "When does PostHog win?",
+          "a": "When the real questions are about product usage: funnels, retention, session replay, with flags and experiments beside the funnel. That is a product analytics job, not a traffic analytics job."
+        },
+        {
+          "q": "Which one is simpler to start?",
+          "a": "PostHog Cloud for teams that accept hosted product analytics, Plausible for teams whose needs stop at core traffic numbers. Matomo pays off once data residency or ecommerce depth enters the requirements."
+        }
+      ]
     }
   ]
 }

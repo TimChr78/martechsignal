@@ -81,6 +81,18 @@ Vendor: [Official site](https://frappe.io/crm) · [GitHub](https://github.com/fr
 
 Frappe CRM is open source under AGPL-3.0, and no tier charges per user: self-hosting is free, Frappe Cloud hosting starts at $5 per month per site, and dedicated servers run $20 to $60 per month, all with unlimited leads, deals, and users. HubSpot meters by seat and gates automation and reporting depth behind higher hubs; Frappe CRM charges for hosting instead. Its integrations are narrower (Twilio, Exotel, WhatsApp through a third-party app, ERPNext, Meta Lead Ads), so it fits when a focused sales CRM beats a connected suite.
 
+## Which HubSpot alternative can a technical team host itself?
+
+Twenty for a modern CRM without feature poverty, EspoCRM for small teams that want lightweight self-hosting with solid sales automation. Frappe CRM fits budget-conscious teams that want unlimited users and accept community support.
+
+## Which alternative keeps the broadest free feature set?
+
+SuiteCRM. Its verdict claims the broadest free module set in open-source CRM, from quotes to inventory. Teams that find SuiteCRM heavy should look at Twenty instead of back at HubSpot.
+
+## What if the team already runs a separate marketing stack?
+
+Pipedrive. It is pipeline-first by design for sales teams whose marketing lives elsewhere. That split is exactly when HubSpot's all-in-one pricing stops earning its seat.
+
 Read the full assessment of [HubSpot CRM](/tools/hubspot-crm/), or browse all [crm tools](/categories/crm/).
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION

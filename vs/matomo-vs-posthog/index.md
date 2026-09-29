@@ -95,6 +95,18 @@ If your question is purely commercial, 'which channel sells', a warehouse-native
 
 ## Who should pick which
 
+## Matomo or PostHog for a content site?
+
+Matomo. Web analytics depth, EU data residency and raw data the team owns outright are its verdict. PostHog aims at product teams, not pageview reporting.
+
+## When does PostHog win?
+
+When the real questions are about product usage: funnels, retention, session replay, with flags and experiments beside the funnel. That is a product analytics job, not a traffic analytics job.
+
+## Which one is simpler to start?
+
+PostHog Cloud for teams that accept hosted product analytics, Plausible for teams whose needs stop at core traffic numbers. Matomo pays off once data residency or ecommerce depth enters the requirements.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

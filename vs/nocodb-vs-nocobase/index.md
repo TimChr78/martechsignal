@@ -100,6 +100,18 @@ Neither fits a regulated enterprise data warehouse: both are operational databas
 
 ## Who should pick which
 
+## Pick NocoDB or NocoBase for existing tables?
+
+NocoDB. Its verdict is explicit: tables that already exist get a spreadsheet-style surface over data you own. NocoBase wants the opposite starting point, systems designed from scratch.
+
+## Which one rewards data-model thinking?
+
+NocoBase. It pays off when the team can invest in data-model thinking up front and is building operational systems, not just viewing rows. Teams that will not do that work should stay with NocoDB.
+
+## Are both self-hosted?
+
+Yes. Both are open-source database surfaces the team hosts itself, so the decision is about starting point and modeling appetite, not about hosting bills or vendor lock-in.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

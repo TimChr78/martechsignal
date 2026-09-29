@@ -108,6 +108,18 @@ Neither replaces an analyst. And if you publish fewer than a page a week, a spre
 
 ## Who should pick which
 
+## Who should pick Claude SEO over Semrush?
+
+Teams that can host it themselves and want code-level control, starting free. It is MIT-licensed open source, so the audit machine runs inside Claude Code rather than on a vendor dashboard.
+
+## When does Semrush still win?
+
+When the team wants a hosted platform the vendor runs for them, with AI content optimization and keyword research in one login. No servers, no CLI, no maintenance falls on the buyer.
+
+## Can a team use both?
+
+Yes, and the comparison suggests exactly that split: Semrush for the suite coverage it already sells, Claude SEO for scripted audits agents run on demand. They overlap least where each side is strongest.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

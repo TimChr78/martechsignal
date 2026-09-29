@@ -1293,6 +1293,22 @@ def test_all_best_pages_carry_three_question_h2s():
     assert not gaps, f"best pages short of 3 question H2s: {gaps}"
 
 
+def test_all_vs_and_alternatives_carry_three_question_h2s():
+    """r11 H-4 (2026-09-29): the rollout covers vs + alternatives too —
+    every one of those 14 pages carries 3 question-form H2s."""
+    import re as _re
+    gaps = []
+    for fname, sub in (("vsx-content.json", "vs"),
+                       ("alternatives-content.json", "alternatives")):
+        d = json.loads((ROOT / "tools" / fname).read_text())
+        pages = d if isinstance(d, list) else d["pages"]
+        for p in pages:
+            html = (ROOT / sub / p["slug"] / "index.html").read_text()
+            if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
+                gaps.append(f"/{sub}/{p['slug']}/")
+    assert not gaps, f"vs/alternatives short of 3 question H2s: {gaps}"
+
+
 def test_all_money_pages_carry_visible_time_and_shots():
     """r11 H-4 (2026-09-29): every money page (15 best + 10 vs + 4
     alternatives) shows a visible Last verified <time> and, where the og

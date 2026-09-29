@@ -111,6 +111,18 @@ Skip all three if you are an enterprise already paying for an analytics suite: t
 
 ## Who should pick which
 
+## When does Matomo justify its weight over Plausible?
+
+When the team needs behavioral analytics depth, ecommerce tracking, or a GDPR-oriented platform it fully controls. Plausible wins when core traffic numbers, cookie-free by default, are the whole requirement.
+
+## Which one is cheaper to run?
+
+Plausible, with minimal setup and predictable cost. Matomo self-hosted is free as software but the team pays in server and maintenance time, which is the honest trade behind every self-hosted pick on this site.
+
+## What if the questions are about product usage, not traffic?
+
+Neither. That is PostHog territory: funnels, retention, session replay and feature flags beside the funnel. The Matomo versus PostHog comparison on this site draws that line in full.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

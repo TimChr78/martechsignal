@@ -117,6 +117,18 @@ None of the three is right when your automation work is mostly custom code with 
 
 ## Who should pick which
 
+## When does n8n beat Zapier on cost?
+
+At high volume. n8n self-hosted is free beyond the server, while Zapier rides a task slider past the $69 Team floor. The price table on this page shows 10K, 100K and 1M task scenarios with the published rates behind each rung.
+
+## When should a team still pick Zapier?
+
+When a specific niche integration has to work this week and nobody wants to maintain automation servers. Zapier has the largest app catalog and the least setup per workflow, which is worth the task billing for small teams.
+
+## Which one fits builders who write code?
+
+n8n. Code steps and branching are native, and Pipedream is the escape hatch if developers want real code in every step. Zapier and Make keep builders inside visual editors by design.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

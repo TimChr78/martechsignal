@@ -106,6 +106,18 @@ Neither suits a small team selling to a few hundred accounts: the setup cost exc
 
 ## Who should pick which
 
+## Which enterprise pick fits a Salesforce estate?
+
+Salesforce Marketing Cloud, with Agentforce campaigns in the package. Estates already bought into the Salesforce stack pay more in switching costs than any license gap, so the stack question decides first.
+
+## When does HubSpot Marketing Hub win instead?
+
+When the team wants marketing automation living beside its CRM with an AI content assistant included, without enterprise procurement. HubSpot wins on time-to-value for teams outside the Salesforce orbit.
+
+## Do both require vendor hosting?
+
+Yes. Both are hosted platforms the vendor runs, so neither gives the self-hosting control that open-source picks elsewhere on this site offer. The choice is ecosystem and buying motion, not infrastructure.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

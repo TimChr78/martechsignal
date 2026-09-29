@@ -98,6 +98,18 @@ Skip all three when your automation is really a data pipeline. Scheduled ETL wit
 
 ## Who should pick which
 
+## Which of the three should a technical team self-host?
+
+n8n. Self-hosting, code steps and billing that rewards complex workflows are its explicit verdict. Make and Zapier keep builders in hosted visual editors by design.
+
+## Which one is easiest for non-technical operators?
+
+The verdict favors the clearest visual canvas with a free tier to start in. Zapier adds the largest app catalog on top, Make adds scenario-level control for operators ready to graduate from linear flows.
+
+## How do the three price volume differently?
+
+n8n self-hosted removes per-task billing entirely. Make prices runs below Zapier tasks at moderate volume. Zapier's task slider climbs past the $69 Team floor, with the full 10K to 1M picture in the n8n-versus-Zapier price table.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.

@@ -119,6 +119,18 @@ None of the three is right when your automation work is mostly custom code with 
 
 ## Who should pick which
 
+## When does Make beat Zapier?
+
+When builders outgrow a linear editor. Make offers branching, looping and scenario-level control with AI agents and workflow suggestions, plus cheaper runs at moderate volume for technical marketing teams.
+
+## When does Zapier keep the deal?
+
+When the catalog decides it: the largest app library, the least setup per workflow, and an AI workflow builder for teams that never want to see a branch node. Niche integrations working this week is Zapier's home turf.
+
+## Which one is cheaper at scale?
+
+Make at moderate volume, where its runs price below Zapier tasks. At very high volume both lose to self-hosted n8n, which is exactly the three-way comparison this site carries separately.
+
 Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.
