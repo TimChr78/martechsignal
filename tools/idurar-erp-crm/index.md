@@ -172,8 +172,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ### Quick Facts
 
 ## Get the next teardown

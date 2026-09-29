@@ -90,8 +90,8 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
 ## Related tools
 
