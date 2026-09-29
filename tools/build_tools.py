@@ -834,12 +834,14 @@ def _tool_fact_img(t):
             f'loading="lazy" width="1200" height="630"{_set}>')
 
 
-def _pilot_shot(slug, name, slot=640):
+def _pilot_shot(slug, name, slot=640, priority=False):
     """r11 H-4 (2026-09-29; pilot r10 H-1): real product UI screenshot for
     money-page items, where the og survey shot one. Lazy, honest alt. Empty
     string when no shot exists (graceful skip).
     r14 M-2 (2026-09-29): sizes describes the real slot (best-item: 640px
-    cap; vs-figures grid: pass slot=500)."""
+    cap; vs-figures grid: pass slot=500).
+    r15 M-8 (2026-09-29): priority=True marks the LCP image (first vs-shot):
+    eager + fetchpriority high instead of lazy."""
     import glob as _glob
     import os as _os
     cands = {}
@@ -856,9 +858,10 @@ def _pilot_shot(slug, name, slot=640):
     # r12 H-2/H-3 (2026-09-29): candidates MUST be comma-separated (spaces
     # killed responsive selection on 134 images); attrs match the true
     # 600x375 intrinsic ratio (315px height distorted + shifted layout).
+    _load = 'loading="eager" fetchpriority="high"' if priority else 'loading="lazy"'
     return (f'<img src="/og/screenshots/{_os.path.basename(src)}"'
             f' alt="{esc(name)} product interface"'
-            f' loading="lazy" width="600" height="375"{_set} sizes="(max-width: 700px) 100vw, {slot}px">')
+            f' {_load} width="600" height="375"{_set} sizes="(max-width: 700px) 100vw, {slot}px">')
 
 
 def _money(p, t):
@@ -1253,10 +1256,22 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         _pros.append(f"Native integrations include {', '.join(_ints)} ({len(t['integrations'])} listed)")
     if t.get("price_from") in (None, 0) and not t.get("open_source") and t.get("pricing_model") in ("freemium", "free", "open-core"):
         _pf_notes = str(t.get("price_notes") or "").strip()
-        _pros.append(f"Free tier to evaluate before committing ({_pf_notes.split('.')[0][:60]})" if _pf_notes
+        # r15 M-10 (2026-09-29): the [:60] hard cut truncated zoho mid-token
+        # ("Professional EUR )"). Cut on tier boundaries (;) instead.
+        _tiers = [s.strip() for s in _pf_notes.split(";") if s.strip()]
+        _kept, _len = [], 0
+        for _sg in _tiers:
+            if _kept and _len + len(_sg) + 2 > 90:
+                break
+            _kept.append(_sg.rstrip("."))
+            _len += len(_sg) + 2
+        _pf_short = "; ".join(_kept)
+        _pros.append(f"Free tier to evaluate before committing ({_pf_short})" if _pf_short
                      else "Free tier to evaluate before committing")
     if t.get("paid_from"):
-        _cons.append(f"Paid plans start at ${t['paid_from']}/mo once past the free tier")
+        # r15 M-10 (2026-09-29): hardcoded $ repeated the r13 H-2 currency bug
+        # on EUR records (espocrm). Render from the record's currency.
+        _cons.append(f"Paid plans start at {_money(t['paid_from'], t)} once past the free tier")
     if not t.get("open_source"):
         _cons.append("Closed source - no self-hosting option")
     if t.get("github_stars") and t["github_stars"] < 500:

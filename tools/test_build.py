@@ -1343,6 +1343,61 @@ def test_indexnow_key_deployed():
     assert "well-known/indexnow-" in stage_src, "well-known key not REQUIRED in stage"
 
 
+def test_rendered_prices_never_end_in_bare_currency():
+    """r15 M-10 (2026-09-29): zoho rendered "Professional EUR )" (mid-token
+    [:60] cut) and espocrm-class cons lines stamped hard $. Pros cut on tier
+    boundaries; cons render from the record currency. No rendered price
+    string may end in a bare currency code or double /mo."""
+    import re as _re
+    bad = []
+    for f in (ROOT / "tools").glob("*/index.html"):
+        h = f.read_text()
+        if _re.search(r"(EUR|USD|\$) \)", h):
+            bad.append((f.parent.name, "bare currency before )"))
+        if "/mo/mo" in h:
+            bad.append((f.parent.name, "doubled /mo"))
+    assert not bad, f"price render artifacts: {bad[:6]}"
+
+
+def test_perf_recommendations_applied():
+    """r15 M-8 (2026-09-29): font-display optional on all four faces;
+    the first vs-shot is eager + fetchpriority high (LCP element)."""
+    css = (ROOT / "style.min.css").read_text()
+    assert "font-display: swap" not in css and "font-display:swap" not in css, \
+        "swap survives in shipped CSS"
+    assert css.count("font-display: optional") + css.count("font-display:optional") >= 4, \
+        "optional missing on shipped faces"
+    vs = (ROOT / "vs" / "n8n-vs-make-vs-zapier" / "index.html").read_text()
+    assert 'fetchpriority="high"' in vs, "vs hero missing fetchpriority"
+    assert vs.count('fetchpriority="high"') == 1, "more than one high-priority image per vs page"
+
+
+def test_faq_third_answers_are_unique_per_tool():
+    """r15 M-3 (2026-09-29): 7 tool pages shipped placeholder FAQ answers
+    sharing the "full review breaks down" tail (3 byte-identical). The
+    fallback closer is now per-tool (best_for, price anchor, or
+    integrations) — no two third answers may match site-wide."""
+    import re as _re
+    seen = {}
+    dups = []
+    thin = []
+    for f in (ROOT / "tools").glob("*/index.html"):
+        h = f.read_text()
+        answers = _re.findall(r'"acceptedAnswer": \{"@type": "Answer", "text": "(.*?)"\}', h)
+        if not answers:
+            # retired-pack FAQPage shape: multi-line mainEntity blocks
+            answers = _re.findall(r'"acceptedAnswer": \{\s*"@type": "Answer",\s*"text": "(.*?)"', h)
+        if len(answers) < 3:
+            thin.append(f.parent.name)
+            continue
+        if answers[2] in seen:
+            dups.append((f.parent.name, seen[answers[2]]))
+        seen[answers[2]] = f.parent.name
+    assert not thin, f"pages with fewer than 3 FAQ answers: {thin[:4]}"
+    assert not dups, f"duplicate third FAQ answers: {dups[:4]}"
+    assert not any("full review breaks down" in a for a in seen), "placeholder tail survives"
+
+
 def test_faq_answers_name_entity_no_splice():
     """L10 (r9, 2026-09-28): 'What is X?' answers open with the entity name
     and carry no 'It ships with {feature}, {stars}' comma splice."""

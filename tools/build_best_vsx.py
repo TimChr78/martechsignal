@@ -336,9 +336,12 @@ def build_vs():
                             f'<a href="{esc(link["href"])}">{esc(link["label"])}</a>.</p>')
         body.append(f'<p class="vs-links"><a href="/tools/{a["slug"]}/">{esc(a["name"])} assessment</a> · '
                     f'<a href="/tools/{b["slug"]}/">{esc(b["name"])} assessment</a></p>')
+        # r15 M-8 (2026-09-29): first shot is the LCP element — eager/high.
+        _first = True
         for _vt in [t for t in (a, b) if t]:
-            _shot = _pilot_shot(_vt["slug"], _vt["name"], slot=500)
+            _shot = _pilot_shot(_vt["slug"], _vt["name"], slot=500, priority=_first)
             if _shot:
+                _first = False
                 body.append(f'<div class="vs-shot">{_shot}</div>')
         for _vt in trio:
             _ol = out_links(_vt)
