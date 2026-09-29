@@ -1279,3 +1279,25 @@ def test_money_pages_show_freshness_and_pilot_depth():
         if len(_re.findall(r"<h2>[^<]*\\?</h2>", html)) < 3:
             bad_pilot.append((slug, "fewer than 3 question H2s"))
     assert not bad_pilot, f"pilot gaps: {bad_pilot}"
+
+
+def test_best_titles_describe_their_bodies():
+    """r11 H-2 (2026-09-29): a best page's title/meta must not promise a
+    subtopic the body explicitly disavows. ai-seo covers classic SEO and
+    routes AI-visibility readers to GEO; its title/meta now say so."""
+    import json as _json
+    d = _json.loads((ROOT / "tools" / "bestx-content.json").read_text())
+    for page in d["pages"]:
+        blob = (page.get("seo_title", "") + " " + page.get("meta", "")).lower()
+        if page["slug"] == "ai-seo-tools":
+            assert "visib" not in blob, "ai-seo title/meta still promise AI visibility"
+            assert "audit" in blob or "content" in blob, "ai-seo title/meta lost the classic-SEO topic"
+
+
+def test_guides_hub_emits_collection():
+    """r11 H-6 (2026-09-29): /guides/ carries CollectionPage + hasPart for
+    its five hubs, like every sibling hub."""
+    import re as _re
+    html = (ROOT / "guides" / "index.html").read_text()
+    assert '"@type": "CollectionPage"' in html, "guides hub missing CollectionPage"
+    assert html.count('"@type": "WebPage"') >= 5, "guides hasPart short of five hubs"

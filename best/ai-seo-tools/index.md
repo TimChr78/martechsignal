@@ -1,4 +1,4 @@
-# Best AI SEO tools for AI visibility (2026)
+# Best AI SEO tools for audits and content (2026)
 
 
 | Tool | Pricing | Open source | Verdict |

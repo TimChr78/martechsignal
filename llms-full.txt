@@ -313,7 +313,7 @@
 - [Best AI Email tools for deliverability (2026)](https://martechsignal.com/best/ai-email-marketing-tools/)
 - [Best AI Marketing Automation tools (2026): 8 compared](https://martechsignal.com/best/ai-marketing-automation-tools/)
 - [Best AI Personalization &amp; CDP tools (2026): 8 compared](https://martechsignal.com/best/ai-personalization-tools/)
-- [Best AI SEO tools for AI visibility (2026)](https://martechsignal.com/best/ai-seo-tools/)
+- [Best AI SEO tools for audits and content (2026)](https://martechsignal.com/best/ai-seo-tools/)
 - [Best AI Social Media tools (2026): 6 compared](https://martechsignal.com/best/ai-social-media-tools/)
 - [Best GEO &amp; LLM Optimization tools (2026): 9 compared](https://martechsignal.com/best/geo-llm-visibility-tools/)
 - [Best Marketing Analytics tools (2026): 8 compared](https://martechsignal.com/best/marketing-analytics-tools/)

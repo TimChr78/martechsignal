@@ -27,6 +27,43 @@ Read a guide, then follow it into the catalog. Every guide links the tools, comp
 ```json
 {
   "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Catalog guides",
+  "url": "https://martechsignal.com/guides/",
+  "description": "Longer reference pages that support the directory.",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "Generative Engine Optimization (GEO)",
+      "url": "https://martechsignal.com/guides/generative-engine-optimization/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "MCP and agent protocols for marketers",
+      "url": "https://martechsignal.com/guides/mcp-agent-protocols/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Workflow automation strategy",
+      "url": "https://martechsignal.com/guides/workflow-automation-strategy/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "AI SEO tooling",
+      "url": "https://martechsignal.com/guides/ai-seo-tooling/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Agentic advertising",
+      "url": "https://martechsignal.com/guides/agentic-ai-advertising/"
+    }
+  ]
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
     {

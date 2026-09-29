@@ -2517,19 +2517,22 @@ def main():
             f'    <li><a href="/guides/{g["slug"]}/">{esc(g["name"])}</a> - {esc(g.get("tagline", ""))}</li>'
             for g in guides)
         # r7 C8 (2026-09-28): the static cluster hubs list beside the catalog guides.
+        # r11 H-6 (2026-09-29): single source for the hub list — body <li>s and
+        # the CollectionPage hasPart below render from this tuple.
+        _STATIC_HUBS = (
+            ("generative-engine-optimization", "Generative Engine Optimization (GEO)",
+             "hub for the AI search visibility work: the five-layer fix, the tooling, and the honest tactics"),
+            ("mcp-agent-protocols", "MCP and agent protocols for marketers",
+             "the integration economics, the failure modes, and the audits to run first"),
+            ("workflow-automation-strategy", "Workflow automation strategy",
+             "where AI tools fit, what no-code costs long-term, and how to audit what you own"),
+            ("ai-seo-tooling", "AI SEO tooling",
+             "benchmarks and head-to-heads where the tools were actually run"),
+            ("agentic-ai-advertising", "Agentic advertising",
+             "autonomous spend in the platforms and the guardrails that exist today"),
+        )
         gi += "".join(
-            f'\n    <li><a href="/guides/{s}/">{n}</a> - {d}</li>' for s, n, d in (
-                ("generative-engine-optimization", "Generative Engine Optimization (GEO)",
-                 "hub for the AI search visibility work: the five-layer fix, the tooling, and the honest tactics"),
-                ("mcp-agent-protocols", "MCP and agent protocols for marketers",
-                 "the integration economics, the failure modes, and the audits to run first"),
-                ("workflow-automation-strategy", "Workflow automation strategy",
-                 "where AI tools fit, what no-code costs long-term, and how to audit what you own"),
-                ("ai-seo-tooling", "AI SEO tooling",
-                 "benchmarks and head-to-heads where the tools were actually run"),
-                ("agentic-ai-advertising", "Agentic advertising",
-                 "autonomous spend in the platforms and the guardrails that exist today"),
-            ))
+            f'\n    <li><a href="/guides/{s}/">{n}</a> - {d}</li>' for s, n, d in _STATIC_HUBS)
         gdir = ROOT / "guides"
         gdir.mkdir(exist_ok=True)
         # M9 (r9, 2026-09-28): the hub was a 182-word link dump, the thinnest
@@ -2550,7 +2553,22 @@ def main():
                  '<section class="page-head"><h1>Catalog guides</h1>'
                  '<p class="sub">Longer reference pages that support the directory. These are not tools, so they are not counted in the tool totals.</p></section>'
                  + _gintro +
-                 (f'<ul>{gi}</ul>' if gi.strip() else "")))
+                 (f'<ul>{gi}</ul>' if gi.strip() else ""),
+            schema_json={
+                "@context": "https://schema.org",
+                "@type": "CollectionPage",
+                "name": "Catalog guides",
+                "url": "https://martechsignal.com/guides/",
+                "description": "Longer reference pages that support the directory.",
+                # r11 H-6 (2026-09-29): the only hub without entity list
+                # markup. hasPart mirrors the body list via _STATIC_HUBS.
+                "hasPart": [
+                    {"@type": "WebPage",
+                     "name": n,
+                     "url": f"https://martechsignal.com/guides/{s}/"}
+                    for s, n, _d in _STATIC_HUBS
+                ],
+            }))
         print(f"Guides ({len(guides)}): /guides/")
 
     
