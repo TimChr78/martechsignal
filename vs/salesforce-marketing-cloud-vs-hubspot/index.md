@@ -106,7 +106,7 @@ Neither suits a small team selling to a few hundred accounts: the setup cost exc
 
 ## Who should pick which
 
-Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/).
+Prices and features here come from each vendor's own published materials as catalogued on the tool pages. Read [how we evaluate](/methodology/) or download the [machine-readable catalog](/catalog-tools.json).
 
 Last verified 2026-09-28.
 

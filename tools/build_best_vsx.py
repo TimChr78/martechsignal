@@ -191,7 +191,8 @@ def build_best():
             '<p class="alt-back">Every price quoted here comes from the vendor\'s own '
             'pricing page as catalogued on the tool page. Browse <a href="/tools/">all '
             f'{len([t for t in tools_by_slug.values() if t.get("status") == "active" and t.get("kind") != "Guide"])} tools</a> '
-            'or read <a href="/methodology/">how we evaluate</a>.</p>')
+            'or read <a href="/methodology/">how we evaluate</a>, '
+            'or download the <a href="/catalog-tools.json">machine-readable catalog</a>.</p>')
         # r10 H-1 pilot (2026-09-29): 3 question-form H2s with direct answers
         # (humanizer-passed, catalog-grounded) on flagged pages only.
         for _qa in (page.get("pilot_faq") or []):
@@ -363,7 +364,8 @@ def build_vs():
                     + '</dl>')
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
-                    '<a href="/methodology/">how we evaluate</a>.</p>')
+                    '<a href="/methodology/">how we evaluate</a> or download the '
+                    '<a href="/catalog-tools.json">machine-readable catalog</a>.</p>')
         # r10 H-1 (2026-09-29): visible freshness stamp on vs pages too.
         _vdu = page.get("date_updated", "")
         if _vdu:
