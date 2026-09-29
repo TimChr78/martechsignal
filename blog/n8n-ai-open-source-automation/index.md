@@ -180,8 +180,8 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
 - [Pipedream](/tools/pipedream/) - Workflow automation with 2,500+ integrations, built around data-driven triggers and HTTP steps
 ## Comparison guides
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
+- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)

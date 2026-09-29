@@ -84,7 +84,7 @@ Our directory reviews workflow and marketing automation tools on what happens af
 ## Comparison guides
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [Workflow automation](/glossary/workflow-automation/)
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1838,
+  "wordCount": 1842,
   "articleSection": "workflow-automation, agent-skills"
 }
 ```

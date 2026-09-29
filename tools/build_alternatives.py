@@ -100,6 +100,9 @@ def build():
             assert item["slug"] in tools_by_slug, f"unknown item slug {item['slug']}"
             assert item["slug"] != page["slug"], "target listed as its own alternative"
             body.append(alt_card(item, tools_by_slug))
+        # r11 H-4 (2026-09-29): same 3-question FAQ rollout as best/vs pages.
+        for _qa in (page.get("pilot_faq") or []):
+            body.append(f'<h2>{esc(_qa["q"])}</h2><p>{esc(_qa["a"])}</p>')
         body.append(
             f'<p class="alt-back">Read the full assessment of '
             f'<a href="/tools/{target["slug"]}/">{esc(target["name"])}</a>, or browse all '

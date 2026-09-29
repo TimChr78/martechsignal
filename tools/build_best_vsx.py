@@ -393,6 +393,9 @@ def build_vs():
         body.append('<dl class="vs-verdict">'
                     + ''.join(f'<dt>Pick {esc(t["name"])} if</dt><dd>{esc(v)}</dd>' for t, v in _picks)
                     + '</dl>')
+        # r11 H-4 (2026-09-29): same 3-question FAQ rollout as best pages.
+        for _qa in (page.get("pilot_faq") or []):
+            body.append(f'<h2>{esc(_qa["q"])}</h2><p>{esc(_qa["a"])}</p>')
         body.append('<p class="alt-back">Prices and features here come from each vendor\'s '
                     'own published materials as catalogued on the tool pages. Read '
                     '<a href="/methodology/">how we evaluate</a> or download the '
