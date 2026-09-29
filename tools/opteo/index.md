@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Pattern detection, one-click improvements and automation cover the Google Ads housekeeping loop (vendor documentation: [vendor site](https://opteo.com/), verified 2026-09-28). |
 | Integrations | 3/10 | Google Ads and Slack documented; the focus is deliberately single-platform (vendor documentation: [vendor site](https://opteo.com/), verified 2026-09-28). |
 | AI capability | 5/10 | Statistically significant pattern detection across accounts is the analytical core (vendor documentation: [vendor site](https://opteo.com/), verified 2026-09-28). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository: [repository](https://opteo.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (vendor documentation: [vendor site](https://opteo.com/), verified 2026-09-28). |
 | Operational maturity | 6/10 | Tiered support levels and account caps suggest a mature service operation (vendor documentation: [vendor site](https://opteo.com/), verified 2026-09-28). |
 
 
@@ -116,7 +116,7 @@ Advertisers wanting cross-channel management (Google Ads only), and teams under 
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from opteo.com and its pricing documentation (September 2026). Not a hands-on review. The workflow it proposes is specific enough to evaluate: continuous pattern detection, a queue of suggested improvements each with statistical backing, and one-click deployment back into Google Ads.
 

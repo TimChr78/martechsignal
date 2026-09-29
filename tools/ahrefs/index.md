@@ -7,7 +7,7 @@
 | Feature depth | 9/10 | A decade of backlink and keyword depth with Brand Radar's AI share of voice and estimated impressions layered on top (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | Integrations | 6/10 | Search Console, Looker Studio, the Ahrefs API and an SEO MCP server cover the working connections (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | AI capability | 7/10 | Brand Radar tracks mentions and citations across AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (the source repository: [repository](https://ahrefs.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with an API and MCP server; the data business is the product (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 | Operational maturity | 9/10 | One of the longest-running SEO data vendors with published tiers and a public roadmap (vendor documentation: [vendor site](https://ahrefs.com), verified 2026-09-28). |
 
 
@@ -119,7 +119,7 @@ Buyers who want a standalone, transparently priced AI-monitoring tool, or very n
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 There are two entry paths, and picking the wrong one wastes budget. Custom Prompts fits brands whose buyers ask narrow questions: you add the exact questions, optionally generate candidates from competitor comparisons and pricing signals Ahrefs collects, tag them by topic or funnel stage, and pick a cadence per platform. Data accumulates from the moment tracking starts. The AI Visibility Index fits market mapping: search any brand or category instantly, read share of voice and citations against competitors, and work back through topics and search demand to the pages AI leans on. The vendor notes the index draws on real search demand, so brands with little search volume may see thin coverage.
 

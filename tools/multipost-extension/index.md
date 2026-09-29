@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page: [pricing page](https://multipost.app), verified 2026-08-28). |
+| Pricing transparency | 10/10 | Free open-source browser extension with nothing to price (the vendor pricing page: [vendor site](https://multipost.app), verified 2026-08-28). |
 | Feature depth | 3/10 | One-click multi-platform publishing with per-platform content adaptation is deliberately narrow (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations; the extension works through the platforms' own web UIs (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 | AI capability | 3/10 | AI content adaptation per platform is the one documented assistive feature (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (the source repository: [repository](leaperone/MultiPost-Extension), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with 3.3k GitHub stars and full source visibility (the source repository: [repository](https://github.com/leaperone/MultiPost-Extension), verified 2026-09-28). |
 | Operational maturity | 4/10 | Community-maintained at 3.3k stars with no company behind it (vendor documentation: [vendor site](https://multipost.app), verified 2026-09-28). |
 
 

@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Creative generation, scoring and copy cover the ad asset workflow narrowly (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 | Integrations | 5/10 | Meta, Google, TikTok and LinkedIn Ads plus Shopify, Canva, Zapier and Slack documented (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 | AI capability | 6/10 | Performance scoring over generated creatives is the differentiating model claim (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.adcreative.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2021 with self-serve pricing and a wide trial funnel (vendor documentation: [vendor site](https://www.adcreative.ai), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [AdCreative.ai pricing page](https://www.ad
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Upload your brand assets and logo, tell AdCreative.ai who you sell to, and it generates dozens of image and video ad variations in minutes, each with a predicted performance score. That is the whole pitch, and it holds up when the bottleneck is volume: teams that test ten creative angles a week go from a two-week designer and copywriter cycle to a working session. The scoring rewards proven formats, so you spend your human time on the winners.
 

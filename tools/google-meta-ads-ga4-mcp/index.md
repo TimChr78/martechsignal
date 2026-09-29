@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | 250+ MCP tools spanning campaign management, analytics and optimization across three surfaces (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 | Integrations | 8/10 | Google Ads, Meta Ads and GA4 plus nine named agent clients from Claude Code to n8n and Gemini CLI (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 | AI capability | 7/10 | Natural-language campaign creation and pausing through MCP is the documented agent workflow (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
-| Openness | 8/10 | MIT-licensed with 1.7k GitHub stars and a self-hostable server (the source repository: [repository](irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
+| Openness | 8/10 | MIT-licensed with 1.7k GitHub stars and a self-hostable server (the source repository: [repository](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 | Operational maturity | 4/10 | Founded 2026 at 1.7k stars with a hosted service forming behind it (vendor documentation: [vendor site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp), verified 2026-09-28). |
 
 

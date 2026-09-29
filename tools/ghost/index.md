@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Publishing, newsletters and memberships cover the independent media stack (vendor documentation: [vendor site](https://ghost.org), verified 2026-09-28). |
 | Integrations | 6/10 | Zapier, Slack, Stripe, Mailchimp, GA and Unsplash documented plus an API (vendor documentation: [vendor site](https://ghost.org), verified 2026-09-28). |
 | AI capability | 4/10 | Writing assistance, content suggestions and newsletter optimization are deliberately light (vendor documentation: [vendor site](https://ghost.org), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 55.3k GitHub stars and true self-hosting (the source repository: [repository](TryGhost/Ghost), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 55.3k GitHub stars and true self-hosting (the source repository: [repository](https://github.com/TryGhost/Ghost), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2013 with a decade of independent publishing deployments (vendor documentation: [vendor site](https://ghost.org), verified 2026-09-28). |
 
 

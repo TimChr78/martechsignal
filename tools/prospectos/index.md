@@ -7,7 +7,7 @@
 | Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository: [repository](nando0x/ProspectOS), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository: [repository](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 
 

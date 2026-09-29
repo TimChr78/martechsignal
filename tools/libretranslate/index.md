@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (the vendor pricing page: [pricing page](https://libretranslate.com), verified 2026-09-28). |
+| Pricing transparency | 8/10 | Free self-hosted; the hosted API is billed per character on libretranslate.com, stated plainly (Sep 2026) (the vendor pricing page: [vendor site](https://libretranslate.com), verified 2026-09-28). |
 | Feature depth | 4/10 | Neural translation, language detection and a translation API cover localization narrowly (vendor documentation: [vendor site](https://libretranslate.com), verified 2026-09-28). |
 | Integrations | 4/10 | Mastodon, Argos Translate and OpenAPI/Swagger documented (vendor documentation: [vendor site](https://libretranslate.com), verified 2026-09-28). |
 | AI capability | 5/10 | Argos Translate neural models with automatic language detection are the machine core (vendor documentation: [vendor site](https://libretranslate.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (the source repository: [repository](LibreTranslate/LibreTranslate), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (the source repository: [repository](https://github.com/LibreTranslate/LibreTranslate), verified 2026-09-28). |
 | Operational maturity | 5/10 | 16.8k stars with a hosted per-character service as the commercial arm (vendor documentation: [vendor site](https://libretranslate.com), verified 2026-09-28). |
 
 

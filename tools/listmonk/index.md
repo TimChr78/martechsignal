@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Newsletter and mailing-list management with templates and campaigns cover the sending job (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 | Integrations | 4/10 | PostgreSQL, SMTP, Zapier and WordPress documented plus an API (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 | AI capability | 3/10 | AI-assisted template editing and campaign analytics are the two documented AI features (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 23.3k GitHub stars and a fast Go backend you can read (the source repository: [repository](knadh/listmonk), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with 23.3k GitHub stars and a fast Go backend you can read (the source repository: [repository](https://github.com/knadh/listmonk), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2019 with 23.3k stars and years of self-hosted production use (vendor documentation: [vendor site](https://listmonk.app), verified 2026-09-28). |
 
 

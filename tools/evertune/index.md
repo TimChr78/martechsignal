@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Prompt sampling at 100x per model, a 150M-prompt consumer panel, action agents and content activation make it measurement plus execution (vendor documentation: [vendor site](https://www.evertune.ai), verified 2026-09-28). |
 | Integrations | 3/10 | Five tracked AI surfaces are listed and no third-party app connections; the catalog marks no API (vendor documentation: [vendor site](https://www.evertune.ai), verified 2026-09-28). |
 | AI capability | 8/10 | EverPanel's 150M real user prompts and the Insights and Action Agent are data and automation assets few competitors match (vendor documentation: [vendor site](https://www.evertune.ai), verified 2026-09-28). |
-| Openness | 2/10 | Closed SaaS with no API flag and no self-hosting story (the source repository: [repository](https://www.evertune.ai), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API flag and no self-hosting story (vendor documentation: [vendor site](https://www.evertune.ai), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2024 with enterprise onboarding sessions in the plan; the operational history is short (vendor documentation: [vendor site](https://www.evertune.ai), verified 2026-09-28). |
 
 

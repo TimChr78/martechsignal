@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | CRM with built-in phone, email and chat cover the SMB sales loop (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog, though an API is documented (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
 | AI capability | 6/10 | Freddy AI contact and intent scoring, deal insights and email writing from Pro up (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.freshworks.com/crm/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2010 inside the Freshworks portfolio (vendor documentation: [vendor site](https://www.freshworks.com/crm/), verified 2026-09-28). |
 
 

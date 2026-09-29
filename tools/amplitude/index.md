@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Product analytics, funnels, cohorts and predictive analytics cover the behavioral analysis stack (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 | Integrations | 8/10 | Segment, Snowflake, Salesforce, Braze, Slack, Zapier, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 | AI capability | 7/10 | AI root cause analysis, anomaly detection and natural-language queries turn analysis into answers (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (the source repository: [repository](https://amplitude.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with warehouse-native exports softening the lock-in (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2012 and publicly listed with enterprise analytics deployments behind it (vendor documentation: [vendor site](https://amplitude.com), verified 2026-09-28). |
 
 
@@ -142,7 +142,7 @@ Teams that mainly need channel-level marketing reporting; GA4 covers acquisition
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from Amplitude's public docs, pricing pages, and comparison pages. Not a hands-on review. Amplitude is product analytics: events, funnels, retention, and now AI-generated insights. The strength is the event model, which lets you ask product questions without SQL. Funnel analysis and behavioral cohorts are the core reports. The learning curve is real but shallow enough for a data-literate marketer.
 

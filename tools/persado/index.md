@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Create, Optimize and Automate cover generation, message scoring and per-recipient personalization at send time (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 | Integrations | 7/10 | Nine named enterprise ESP connections including Salesforce Marketing Cloud, Braze, Eloqua and Klaviyo documented (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 | AI capability | 8/10 | Per-recipient personalization at send time backed by a long-running language performance dataset (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise product delivered inside your ESP's contract (the source repository: [repository](https://www.persado.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise product delivered inside your ESP's contract (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2012 with regulated-industry deployments and the audit story that requires (vendor documentation: [vendor site](https://www.persado.com), verified 2026-09-28). |
 
 
@@ -148,7 +148,7 @@ Small teams and non-regulated verticals: there is no trial, no published price, 
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from persado.com, its press releases, and its integration pages (September 2026). Not a hands-on review. The biggest change is positioning: the site now leads with the agentic creative agency for regulated brands rather than the Motivation AI Platform language our record used, though Motivation AI still appears in press releases and case studies.
 

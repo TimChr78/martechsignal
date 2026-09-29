@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Content, email, campaigns, chatbot and predictive scoring cover the marketing hub role with the CRM underneath (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 | Integrations | 8/10 | Salesforce, Slack, Zapier, Shopify, WordPress, Gmail, Outlook and Stripe documented plus a large app marketplace (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 | AI capability | 6/10 | Content assistant, predictive lead scoring and campaign recommendations help across the workflow without running it (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (the source repository: [repository](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong APIs; contact data exports are straightforward (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 | Operational maturity | 9/10 | Founded 2006 with a public company's support and status infrastructure (vendor documentation: [vendor site](https://www.hubspot.com/products/marketing), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [HubSpot Marketing Hub pricing page](https:
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 HubSpot Marketing Hub is the growth-phase all-in-one: email, automation, landing pages, SEO, and analytics in one product that inherits the CRM data model. Time-to-value is the real differentiator, a team can ship a lifecycle email program in an afternoon, and the agent features (Agent Hub, AI content) are being folded into the same familiar interface. The data model across marketing, sales, and service is still the reason all-in-one wins for SMB.
 

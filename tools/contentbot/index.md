@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Blog, ad copy, image and bulk generation with workflows cover the content production loop (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 | Integrations | 5/10 | WordPress, Chrome, Zapier, Shopify and Google Docs documented plus an API (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 | AI capability | 5/10 | Bulk generation and content workflows are the automation core (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://contentbot.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2021 with published per-word pricing (vendor documentation: [vendor site](https://contentbot.ai), verified 2026-09-28). |
 
 
@@ -115,7 +115,7 @@ Current plans and limits live on the [ContentBot pricing page](https://contentbo
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 ContentBot's differentiator is AI Flows: multi-step automations where the AI generates copy, checks it against brand guidelines, formats for the target channel, and schedules or publishes, all in one pipeline. Over 200,000 users run this cheaper, workflow-first alternative to Jasper and Copy.ai, and for teams producing recurring content, removing the manual handoffs between tools is the win that matters. The free tier is enough to test one flow before you commit to a plan.
 

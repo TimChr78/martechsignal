@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Brand governance, Knowledge Graph grounding and 100+ prebuilt agents in the Agent Library make it a platform (vendor documentation: [vendor site](https://writer.com), verified 2026-09-28). |
 | Integrations | 8/10 | Slack, Google Workspace, Microsoft 365, Salesforce, HubSpot, Contentful, Figma, Snowflake and Databricks documented plus an API (vendor documentation: [vendor site](https://writer.com), verified 2026-09-28). |
 | AI capability | 8/10 | Its own Palmyra model family plus Knowledge Graph grounding and agent tooling go past wrapper territory (vendor documentation: [vendor site](https://writer.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed platform, though the Palmyra models and API keep some portability (the source repository: [repository](https://writer.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed platform, though the Palmyra models and API keep some portability (vendor documentation: [vendor site](https://writer.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2020 with enterprise governance features and named compliance posture (vendor documentation: [vendor site](https://writer.com), verified 2026-09-28). |
 
 
@@ -148,7 +148,7 @@ Solo writers and small teams: Starter caps at 5 users and the published price is
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from writer.com, dev.writer.com, the support centre, and the Hugging Face model index (September 2026). Not a hands-on review. Direct fetches of writer.com pages are Cloudflare-gated, so quotes here come from the rendered pages and the developer docs.
 

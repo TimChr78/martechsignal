@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Conversation flows, lead capture and analytics cover the messaging automation loop (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 | Integrations | 5/10 | Shopify, Zapier, Google Sheets, Stripe, Mailchimp and HubSpot documented plus an API (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI flow building and auto-replies automate conversations without full autonomy (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://chatfuel.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2015 with priced tiers and a trial that runs on its own (vendor documentation: [vendor site](https://chatfuel.com), verified 2026-09-28). |
 
 
@@ -112,7 +112,7 @@ Current plans and limits live on the [Chatfuel pricing page](https://chatfuel.co
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Chatfuel is built around the social sales funnel: comment-to-DM automations pull engagement into conversations, DM funnels capture and qualify leads, and product catalog conversations close sales inside Instagram, WhatsApp, Facebook Messenger, and TikTok. Over 18,000 businesses run reply-and-convert loops on it, and the platform has been at this since 2015, so the flow library is mature and the channel quirks are already worked out.
 

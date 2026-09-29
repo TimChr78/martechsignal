@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Publishing, engagement, listening and sentiment analytics cover enterprise social operations (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
 | Integrations | 6/10 | Salesforce, Zendesk, Shopify, Canva, GA, Drive, Dropbox and Yelp documented plus an API (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI reply assist, sentiment analysis and listening queries put the models where support volume is (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://sproutsocial.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2010 and publicly listed with enterprise social deployments behind it (vendor documentation: [vendor site](https://sproutsocial.com), verified 2026-09-28). |
 
 
@@ -112,7 +112,7 @@ Current plans and limits live on the [Sprout Social pricing page](https://sprout
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Sprout Social is the polished end of social management: unified inbox, publishing calendar, and reporting that executives read. The Smart Inbox consolidated four platforms for us without losing reply context, and the Salesforce partnership adds real CRM tie-ins for support workflows.
 

@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Step delivery, lead scoring and broadcast management cover LINE CRM operations (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
 | Integrations | 6/10 | LINE Messaging API and LIFF, Google Calendar, Stripe and Slack webhooks, Cloudflare stack documented (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
 | AI capability | 6/10 | An MCP server drives scenario creation, inbox monitoring and broadcasts in natural language (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (the source repository: [repository](Shudesu/line-harness-oss), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (the source repository: [repository](https://github.com/Shudesu/line-harness-oss), verified 2026-09-28). |
 | Operational maturity | 3/10 | Founded 2026 at 589 stars with managed hosting offered (vendor documentation: [vendor site](https://the-harness.com/line-harness/), verified 2026-09-28). |
 
 

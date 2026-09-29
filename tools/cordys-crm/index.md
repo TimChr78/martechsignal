@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | CRM core with built-in agents, embedded BI and conversational analytics covers the modern SMB promise (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
 | Integrations | 4/10 | MaxKB, DataEase, MCP and Docker documented; the MCP server ships 11 tools but there is no marketplace (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
 | AI capability | 7/10 | MaxKB sales agents over the API, a server-side AI agent in enterprise and an MCP server with 11 tools (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
-| Openness | 8/10 | GPLv3-based licence with 2.7k GitHub stars and full self-hosting in the community edition (the source repository: [repository](1Panel-dev/CordysCRM), verified 2026-09-28). |
+| Openness | 8/10 | GPLv3-based licence with 2.7k GitHub stars and full self-hosting in the community edition (the source repository: [repository](https://github.com/1Panel-dev/CordysCRM), verified 2026-09-28). |
 | Operational maturity | 4/10 | Founded 2025 with 2.7k stars; enterprise subscriptions exist but the history is short (vendor documentation: [vendor site](https://cordys.cn), verified 2026-09-28). |
 
 

@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Pipeline management, deal forecasting and lead routing cover the sales CRM loop (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
 | Integrations | 7/10 | Google, Microsoft, Outlook, QuickBooks, Zapier, Asana, DocuSign and WhatsApp documented plus an API (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
 | AI capability | 5/10 | Predictive deal scoring, smart routing and an email writer serve the pipeline (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.pipedrive.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2010 with a long SMB sales track record (vendor documentation: [vendor site](https://www.pipedrive.com), verified 2026-09-28). |
 
 
@@ -115,7 +115,7 @@ Current plans and limits live on the [Pipedrive pricing page](https://www.pipedr
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Pipedrive's pipeline-first design is why teams keep using it. Deals move left to right, automation rules attach to stage changes, and the UI needs no manual - we onboarded a sales rep in under an hour with no documentation. Email sync and activity reminders cover the daily loop well.
 

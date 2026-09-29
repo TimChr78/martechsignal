@@ -888,14 +888,27 @@ def _evidence_cell(t, rec, ev):
         date = dm.group(1)
         tail = tail.replace(dm.group(0), '').rstrip(', ')
     low = tail.lower()
+    _repo = (t.get('github_repo') or '').strip()
+    _repo_url = f"https://github.com/{_repo}" if _repo else ""
+    # r10 H-5 (2026-09-29): the label must describe the URL actually linked.
+    # Never cite a repository that cannot exist (closed-source); never emit a
+    # bare "user/repo" relative href. Deep links where the catalog holds them
+    # (pricing page, repo, release notes); the vendor root otherwise.
     if 'repositor' in low or 'github' in low:
-        url = t.get('github_repo') or t.get('website') or t.get('pricing_url') or ''
-        label = 'repository'
+        url, label = ((_repo_url, 'repository') if _repo_url
+                      else (t.get('website') or '', 'vendor site'))
     elif 'pric' in low:
-        url = t.get('pricing_url') or t.get('website') or ''
-        label = 'pricing page'
+        url, label = ((t.get('pricing_url') or '', 'pricing page')
+                      if t.get('pricing_url')
+                      else (t.get('website') or '', 'vendor site'))
+    elif 'changelog' in low or 'release' in low or 'version' in low:
+        url, label = ((f"{_repo_url}/releases", 'release notes') if _repo_url
+                      else (t.get('website') or '', 'vendor site'))
+    elif low.startswith('api') or ' api' in low:
+        url, label = ((_repo_url, 'repository') if _repo_url
+                      else (t.get('website') or '', 'vendor site'))
     else:
-        url = t.get('website') or t.get('pricing_url') or t.get('github_repo') or ''
+        url = t.get('website') or t.get('pricing_url') or _repo_url
         label = 'vendor site'
     if not date:
         date = rec.get('scored') or ''
@@ -1351,8 +1364,11 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                                              "not run this", "we have not tested",
                                              "haven't run", "assessed from", "not a hands-on test")) \
                     and not (_asserts_use and dd.get("hands_on_verified")):
+                # r10 H-5 (2026-09-29): never cite a source repository for
+                # closed-source tools (it cannot exist).
+                _src_bit = ("the source repository, " if t.get("github_repo") else "")
                 paras = ('<p style="font-size:.78rem;color:var(--muted)">'
-                         'Researched from public documentation, the source repository, and vendor '
+                         'Researched from public documentation, ' + _src_bit + 'and vendor '
                          'materials. Not a hands-on test.</p>') + paras
             parts.append(f'<h2>Review notes</h2>{paras}')
         if dd.get("verdict"):

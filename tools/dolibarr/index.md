@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (the vendor pricing page: [pricing page](https://www.dolibarr.org), verified 2026-09-26). |
+| Pricing transparency | 6/10 | The software is free to self-host under GPL-3+ with no user limits, but no vendor tier table exists: commercial cloud offerings are third parties listed at saas.dolibarr.org and addon prices live per product on Dolistore (the vendor pricing page: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
 | Feature depth | 7/10 | About 100 modules across CRM and ERP plus 1,000-plus Dolistore addons and country-specific tax logic give real breadth, while marketing features stop at mass emailing and an email collector (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
 | Integrations | 7/10 | REST and SOAP APIs, webhooks, a Zapier module, PayPal, Stripe, Paybox and LDAP sit beside the Dolistore marketplace of 1,000-plus third-party addons (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
 | AI capability | 6/10 | The AI module, stable since version 21.0, drafts, rewrites, translates, spell-checks and autofills extrafields via an external AI API key, while the 24.0 MCP server and AI assistant remain experimental (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
-| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (the source repository: [repository](Dolibarr/dolibarr), verified 2026-09-26). |
+| Openness | 10/10 | GPL-3.0 or later, free to self-host with no user or record limits, and a documented upgrade path from any version after 2.8 (the source repository: [repository](https://github.com/Dolibarr/dolibarr), verified 2026-09-26). |
 | Operational maturity | 8/10 | Calendar-versioned releases with 24.0.0 in August 2026, 7,596 GitHub stars, wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation: [vendor site](https://www.dolibarr.org), verified 2026-09-26). |
 
 

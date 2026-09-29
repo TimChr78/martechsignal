@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Visual scenario building with routers, iterators and error handling plus AI agents covers complex branching automation well (vendor documentation: [vendor site](https://www.make.com), verified 2026-09-28). |
 | Integrations | 4/10 | The catalog's integration list was cleared as unverifiable (Cloudflare-walled directory); the app ecosystem is known to be large but we do not publish a count we cannot check (vendor documentation: [vendor site](https://www.make.com), verified 2026-09-28). |
 | AI capability | 7/10 | AI agents, workflow suggestions, data transformation, content generation and error handling are documented product (vendor documentation: [vendor site](https://www.make.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with a public API; scenarios are yours only as exports (the source repository: [repository](https://www.make.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with a public API; scenarios are yours only as exports (vendor documentation: [vendor site](https://www.make.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2012 and now inside Celonis, with the operational weight that implies (vendor documentation: [vendor site](https://www.make.com), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [Make pricing page](https://www.make.com/en
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from Make's public pricing pages and help docs. Not a hands-on review. Make (formerly Integromat) is the visual automation platform that competes with Zapier on price and power. The visual editor shows data flowing between modules as a graph, which makes multi-step logic readable in a way Zapier's linear steps are not. Scenarios can branch, loop, and reference earlier module output directly. The learning curve is steeper, and the interface is busier, but the capability ceiling is higher.
 

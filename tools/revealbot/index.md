@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Automated rules, strategies and custom attribution metrics across four ad platforms cover the optimization loop (vendor documentation: [vendor site](https://bir.ch), verified 2026-09-28). |
 | Integrations | 7/10 | Meta, Google, TikTok and Snapchat Ads plus Slack, Sheets, Drive and four attribution partners documented (vendor documentation: [vendor site](https://bir.ch), verified 2026-09-28). |
 | AI capability | 6/10 | The Bïrch AI workflow layer and MCP server let external AI tools drive documented controls (vendor documentation: [vendor site](https://bir.ch), verified 2026-09-28). |
-| Openness | 4/10 | Closed SaaS, but MCP keeps the control surface programmable (the source repository: [repository](https://bir.ch), verified 2026-09-28). |
+| Openness | 4/10 | Closed SaaS, but MCP keeps the control surface programmable (vendor documentation: [vendor site](https://bir.ch), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2015 and rebranded with years of ad automation deployments (vendor documentation: [vendor site](https://bir.ch), verified 2026-09-28). |
 
 

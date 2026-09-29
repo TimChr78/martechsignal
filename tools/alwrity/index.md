@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page: [pricing page](https://alwrity.com), verified 2026-08-28). |
+| Pricing transparency | 8/10 | Free open-source and self-hosted with nothing to price, and honest WIP labeling (the vendor pricing page: [vendor site](https://alwrity.com), verified 2026-08-28). |
 | Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform's core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (the source repository: [repository](ALwrity/ALwrity), verified 2026-09-28). |
+| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (the source repository: [repository](https://github.com/ALwrity/ALwrity), verified 2026-09-28). |
 | Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 
 

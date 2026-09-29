@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Feature flags, remote config and segment targeting cover the flag management job (vendor documentation: [vendor site](https://www.flagsmith.com), verified 2026-09-28). |
 | Integrations | 5/10 | Datadog, Grafana, Jira, GitHub, Amplitude and Mixpanel documented plus an API (vendor documentation: [vendor site](https://www.flagsmith.com), verified 2026-09-28). |
 | AI capability | 6/10 | MCP flag management, automated flag hygiene and prompt/model A/B testing are current-agent features (vendor documentation: [vendor site](https://www.flagsmith.com), verified 2026-09-28). |
-| Openness | 9/10 | BSD-3-Clause with 6.6k GitHub stars and full self-hosting (the source repository: [repository](Flagsmith/flagsmith), verified 2026-09-28). |
+| Openness | 9/10 | BSD-3-Clause with 6.6k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/Flagsmith/flagsmith), verified 2026-09-28). |
 | Operational maturity | 6/10 | Commercial backing behind the OSS core with priced cloud tiers (vendor documentation: [vendor site](https://www.flagsmith.com), verified 2026-09-28). |
 
 

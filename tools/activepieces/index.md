@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Chat-to-automation building, agents and unlimited flows cover the workflow platform loop (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
 | Integrations | 5/10 | Slack, Gmail, Sheets, Notion, HubSpot and OpenAI documented plus API and MCP (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
 | AI capability | 6/10 | Chat-to-automation building with AI agents and BYO keys keeps model costs yours (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
-| Openness | 8/10 | Open-source with self-hosting parity and flat cloud pricing (the source repository: [repository](activepieces/activepieces), verified 2026-09-28). |
+| Openness | 8/10 | Open-source with self-hosting parity and flat cloud pricing (the source repository: [repository](https://github.com/activepieces/activepieces), verified 2026-09-28). |
 | Operational maturity | 5/10 | Priced self-serve with flat tiers and no founding year in the catalog (vendor documentation: [vendor site](https://www.activepieces.com), verified 2026-09-28). |
 
 

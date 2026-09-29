@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (the vendor pricing page: [pricing page](https://frappe.io/crm), verified 2026-09-06). |
+| Pricing transparency | 9/10 | Free to self-host under AGPL-3.0 with unlimited users; Frappe Cloud hosting is $5/mo per site and dedicated servers $20 to $60/mo, all published (the vendor pricing page: [vendor site](https://frappe.io/crm), verified 2026-09-06). |
 | Feature depth | 6/10 | Leads, deals, tasks and views cover the CRM baseline cleanly, and ERPNext adjacency adds operations depth, but marketing automation sits outside the product (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 | Integrations | 4/10 | Five documented connectors (Twilio, Exotel, WhatsApp, ERPNext, Meta Lead Ads) and no public API flag in the catalog; the Frappe framework fills some gaps (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (the source repository: [repository](frappe/crm), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (the source repository: [repository](https://github.com/frappe/crm), verified 2026-09-28). |
 | Operational maturity | 6/10 | Built by Frappe with ERPNext's decade of operations behind it, though the CRM product itself is younger and has a smaller ecosystem (vendor documentation: [vendor site](https://frappe.io/crm), verified 2026-09-28). |
 
 

@@ -1197,3 +1197,27 @@ def test_vs_articles_carry_headline_and_image():
         if 'content="https://martechsignal.com/' + rel + '"' not in html:
             bad.append((idx.parent.name, "og:image mismatch"))
     assert not bad, f"vs Article headline/image gaps: {bad[:5]}"
+
+
+def test_evidence_citations_resolve_honestly():
+    """r10 H-5 (2026-09-29): no page may cite a source repository its catalog
+    record does not carry; every evidence href is absolute (no bare
+    user/repo relative links); labels describe the linked URL."""
+    import json as _json
+    import re as _re
+    tools = {t["slug"]: t for t in
+             _json.loads((ROOT / "tools" / "tools.json").read_text())}
+    bad = []
+    for slug, t in tools.items():
+        p = ROOT / "tools" / slug / "index.html"
+        if not p.exists():
+            continue
+        html = p.read_text()
+        if not t.get("github_repo"):
+            if "the source repository" in html:
+                bad.append((slug, "phantom repository citation"))
+        for href in _re.findall(r'href="([^"]+)"', html):
+            if _re.match(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/?$", href):
+                bad.append((slug, f"relative repo href {href}"))
+                break
+    assert not bad, f"evidence citation gaps: {bad[:5]}"

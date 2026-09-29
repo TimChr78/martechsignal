@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Copy generation, workflow automation, brand voice and sales outreach cover the GTM content surface (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, Zapier, HubSpot, Salesforce, Chrome, WordPress, Webflow and Shopify documented plus an API (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
 | AI capability | 6/10 | Workflow automation and sales outreach are the agentic edges of a generation core (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.copy.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2020 with one of the category's largest free user bases (vendor documentation: [vendor site](https://www.copy.ai), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [Copy.ai pricing page](https://www.copy.ai/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Copy.ai stopped being a copywriter and became a GTM orchestration layer: prospecting, inbound, content, and deal execution workflows live in one surface. The Prospecting Cockpit is the flagship, bundling company research, enriched contacts, and personalized outreach, while the inbound side covers lead qualification and meeting prep. Content generation still exists, but it now feeds the workflows rather than standing alone as the product.
 

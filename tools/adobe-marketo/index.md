@@ -7,7 +7,7 @@
 | Feature depth | 9/10 | Lead management, engagement scoring, revenue attribution and account-based automation remain the deepest B2B set in the category (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 | Integrations | 8/10 | Salesforce, Dynamics, Adobe Experience Cloud, Slack, Zoom, LinkedIn, Snowflake and Bizible documented plus an API (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 | AI capability | 7/10 | AI lead scoring, predictive audiences, content personalization and generative copy run across the funnel (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (the source repository: [repository](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise suite inside Adobe contracts (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 | Operational maturity | 9/10 | Founded 2006 and running inside Adobe with the compliance machinery enterprise buyers expect (vendor documentation: [vendor site](https://business.adobe.com/products/marketo.html), verified 2026-09-28). |
 
 
@@ -116,7 +116,7 @@ Current plans and limits live on the [Adobe Marketo Engage pricing page](https:/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Marketo Engage remains the enterprise marketing automation benchmark, mainly because of its program structure and lead database depth. Programs, tokens, and the engagement engine are concepts most competitors lack. The cost and the operational weight are real: implementation is a project, and the UI has not aged gracefully despite frequent updates. Teams run it with dedicated ops staff.
 

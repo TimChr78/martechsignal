@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Content grading, keyword suggestions, drafts and briefs cover the content optimization workflow (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 | Integrations | 5/10 | Google Docs, WordPress, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 | AI capability | 5/10 | AI grading and draft generation built on years of content performance data (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.clearscope.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2017 with a settled place in SEO team workflows (vendor documentation: [vendor site](https://www.clearscope.io), verified 2026-09-28). |
 
 
@@ -111,7 +111,7 @@ Current plans and limits live on the [Clearscope pricing page](https://www.clear
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Clearscope is content optimization built around a keyword score. You feed it a seed term, it returns a brief of related terms and an ideal length, and the editor scores your draft against that brief in real time. The data comes from current top-ranking pages, so the brief reflects what is currently ranking and earning traffic, not a vendor's opinion. The workflow is simple and the output is a number you can trend.
 

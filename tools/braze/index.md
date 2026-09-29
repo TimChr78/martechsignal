@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Cross-channel messaging, journeys and predictive churn cover the engagement loop at event speed (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
 | Integrations | 8/10 | Segment, Snowflake, Salesforce, Amplitude, Shopify, Meta, Google Ads and mParticle documented plus an API (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
 | AI capability | 7/10 | BrazeAI intelligent timing, channel optimization and predictive churn are production features with years of data behind them (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS on annual contracts (the source repository: [repository](https://www.braze.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS on annual contracts (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2011 and publicly listed with enterprise SLAs behind every deployment (vendor documentation: [vendor site](https://www.braze.com), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Braze pricing page](https://www.braze.com/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Braze is enterprise customer engagement: real-time messaging across email, push, in-app, and SMS, orchestrated from a central event stream rather than batched campaigns. The architecture is the product, and it is genuinely different from all-in-one marketing suites: you send events, Braze reacts, and the customer profile updates continuously. Canvas flows, Liquid templating, and the API surface are the reasons teams choose it over HubSpot or Marketo.
 

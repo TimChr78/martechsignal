@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Brand visibility tracking with GEO recommendations cover the AI-search measurement loop (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 | Integrations | 5/10 | ChatGPT, Gemini, Perplexity and Google AI Overviews as surfaces plus API and MCP (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 | AI capability | 5/10 | Cross-engine visibility tracking with optimization recommendations is applied GEO measurement (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://www.superlines.io/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2023 with published tier tables and per-brand limits (vendor documentation: [vendor site](https://www.superlines.io/), verified 2026-09-28). |
 
 
@@ -122,7 +122,7 @@ Teams wanting a free tier (entry is €79/mo after a 7-day trial) and content te
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from the vendor's live site and pricing pages (September 2026). Not a hands-on review. The pitch that matters for marketing ops is the collection method: Superlines samples the actual AI Search interfaces your customers use, on the argument that API-mode outputs differ from what users see. That claim is worth testing in a trial against your own prompt panel before committing budget.
 

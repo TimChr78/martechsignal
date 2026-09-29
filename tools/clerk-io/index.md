@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Search, recommendations, email personalization and segmentation cover the commerce personalization set (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
 | Integrations | 6/10 | Shopify, WooCommerce, Magento, Klaviyo, GA, Meta Ads and Mailchimp documented plus an API (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
 | AI capability | 5/10 | Predictive analytics and personalization run the store experience quietly (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.clerk.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2011 with published entry pricing and monthly-to-yearly contracts (vendor documentation: [vendor site](https://www.clerk.io), verified 2026-09-28). |
 
 
@@ -115,7 +115,7 @@ Current plans and limits live on the [Clerk.io pricing page](https://www.clerk.i
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Clerk.io sells personalization as four modular products: site search that routes around zero-result dead ends, product recommendations across every page type, behavior-triggered email feeds, and dynamic audience segments built on intent signals. Each module installs over your existing store and the models learn from browsing and sales data quickly, so you buy only the pieces you need. That modular entry is the honest way into personalization.
 

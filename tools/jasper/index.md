@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Copy, images, campaign workflows and content repurposing cover the marketing content pipeline (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
 | Integrations | 6/10 | Chrome, Surfer SEO, Zapier, HubSpot, WordPress, Webflow, Canva and Google Docs documented plus an API (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
 | AI capability | 7/10 | Brand voice training plus campaign workflows make it more than a writing box (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.jasper.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2021 with priced self-serve tiers and a large user base behind it (vendor documentation: [vendor site](https://www.jasper.ai), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Jasper pricing page](https://www.jasper.ai
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Jasper has grown from a GPT-3 wrapper into an enterprise marketing workspace with over 100 specialized agents, and the flagship idea is Campaigns: one brief feeds brand context, audience data, and goals into agents that produce coordinated blog, social, email, and ad assets, with brand voice governance enforced across everything. Analytics track what the platform produces, closing the loop for teams that report on output.
 

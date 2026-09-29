@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Autocapture, session replay analysis and digital experience insights cover the retroactive analysis story (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 | Integrations | 7/10 | Slack, Salesforce, Zapier, Segment, Amplitude, Snowflake, Marketo and HubSpot documented plus an API (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 | AI capability | 6/10 | AI autocapture labeling, replay analysis and anomaly detection serve the analysis loop (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with data exports to your warehouse (the source repository: [repository](https://www.heap.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data exports to your warehouse (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2013 with enterprise analytics deployments behind the autocapture pitch (vendor documentation: [vendor site](https://www.heap.io), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Heap pricing page](https://www.heap.io/pri
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Heap's pitch is capture everything, analyze later: install one snippet and every click, pageview, form fill, swipe, and scroll is recorded, so you can run retroactive analysis on interactions you never tagged. That ends the classic pain of needing six months of data on a feature nobody instrumented. The Contentsquare acquisition adds digital experience analytics alongside the product analytics, widening the lens.
 

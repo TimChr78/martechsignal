@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (the vendor pricing page: [pricing page](https://notifo.io), verified 2026-09-28). |
+| Pricing transparency | 7/10 | Free under MIT to self-host; a hosted instance exists with no live pricing page, so self-hosting is the only documented path (the vendor pricing page: [vendor site](https://notifo.io), verified 2026-09-28). |
 | Feature depth | 4/10 | Multi-channel notifications across email, SMS and web push cover the delivery job (vendor documentation: [vendor site](https://notifo.io), verified 2026-09-28). |
 | Integrations | 5/10 | Amazon SES, MessageBird, Firebase, custom web push and SignalR with a REST API and OpenAPI (vendor documentation: [vendor site](https://notifo.io), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://notifo.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 880 GitHub stars and full self-hosting (the source repository: [repository](notifo-io/notifo), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 880 GitHub stars and full self-hosting (the source repository: [repository](https://github.com/notifo-io/notifo), verified 2026-09-28). |
 | Operational maturity | 4/10 | Founded 2020 at 880 stars with a hosted instance of unlisted size (vendor documentation: [vendor site](https://notifo.io), verified 2026-09-28). |
 
 

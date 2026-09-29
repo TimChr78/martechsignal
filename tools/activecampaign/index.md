@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Email, automation, CRM and predictive sending cover the SMB loop end to end (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 | Integrations | 7/10 | Shopify, Salesforce, Slack, Zapier, WooCommerce, Stripe, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 | AI capability | 6/10 | Predictive sending, win probability and smart automation are useful scoring and timing features rather than agents (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (the source repository: [repository](https://www.activecampaign.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; exports are your exit plan (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2003 with two decades of email operations behind the product (vendor documentation: [vendor site](https://www.activecampaign.com), verified 2026-09-28). |
 
 
@@ -119,7 +119,7 @@ Current plans and limits live on the [ActiveCampaign pricing page](https://www.a
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 ActiveCampaign is the mid-market all-in-one: email, automation, a light CRM, and now its autonomous marketing agents. The automation builder is its best feature, a visual flow with conditions that does not require code. The CRM side is functional but not the reason to buy it. G2 crowdsourcing and practitioner threads both point to the same weakness: the interface has accumulated a lot of tabs over the years.
 

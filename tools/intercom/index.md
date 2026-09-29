@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Omnichannel messaging, ticketing and an AI agent with copilot cover the service loop (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 | Integrations | 8/10 | Slack, Salesforce, HubSpot, Zapier, Shopify, Stripe, Zendesk and Segment documented plus an API (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 | AI capability | 8/10 | Fin resolves conversations autonomously at a published per-resolution price, with routing and summaries behind it (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong API coverage (the source repository: [repository](https://www.intercom.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API coverage (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2011 with enterprise service deployments and public price honesty (vendor documentation: [vendor site](https://www.intercom.com), verified 2026-09-28). |
 
 
@@ -121,7 +121,7 @@ Current plans and limits live on the [Intercom pricing page](https://www.interco
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Intercom is the AI-first customer service platform: an omnichannel inbox, help center, and Fin, its AI agent, all tied to a customer data layer. The strength is the unified view, one thread across chat, email, and help center, with AI handling the first line and routing the rest. Fin's answers are only as good as the help center content it reads, which is the same dependency as every AI support tool.
 

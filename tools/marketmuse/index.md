@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Strategy documents, drafting, 9 brief types and patented topic authority models cover content planning (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
 | Integrations | 3/10 | Google Docs and Word export plus WordPress copy-paste and ChatGPT documented; no API (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
 | AI capability | 6/10 | Content Strategy AI, MarketMuse AI drafting and patented authority models are the analytical core (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository: [repository](https://www.marketmuse.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2013 with patented methodology and long SEO-team deployments (vendor documentation: [vendor site](https://www.marketmuse.com), verified 2026-09-28). |
 
 
@@ -140,7 +140,7 @@ Developers and ops teams: there is no documented API, no Zapier, no Google Searc
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from marketmuse.com, docs.marketmuse.com, and the pricing page (September 2026). Not a hands-on review. The site reads as a planning tool rather than a word processor: Optimize, Research, Heatmap, and Connect are the documented applications, and the research side carries seven named tools from Topic Navigator to SERP X-Ray.
 

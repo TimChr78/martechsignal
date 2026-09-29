@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Tag management, CDP modules, identity resolution and data governance cover the enterprise data layer (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
 | Integrations | 8/10 | Salesforce, Adobe, Snowflake, Braze, GA, Meta Ads, Amplitude and Slack documented plus an API (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI segmentation, enrichment and identity resolution serve the data layer rather than the front line (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://tealium.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2008 with long regulated-industry deployments (vendor documentation: [vendor site](https://tealium.com), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [Tealium pricing page](https://tealium.com/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Tealium is the enterprise tag management and customer data platform: a universal data layer, tag management across hundreds of vendors, and a real-time CDP layer for identity and audiences. Its durability is the tag management engine, which remains the backbone of many enterprise tracking stacks, and the CDP features have matured around real-time identity and consent. It is the safer, more rigorous pick in the CDP category versus developer-first Segment.
 

@@ -56,7 +56,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API and MCP access (the source repository)."
+          "evidence": "Closed SaaS with API and MCP access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -88,7 +88,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access; exports are your exit plan (the source repository)."
+          "evidence": "Closed SaaS with API access; exports are your exit plan (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -152,7 +152,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -184,7 +184,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise product tied to an Adobe contract; the catalog documents no API (the source repository)."
+          "evidence": "Closed enterprise product tied to an Adobe contract; the catalog documents no API (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -216,7 +216,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise suite inside Adobe contracts (the source repository)."
+          "evidence": "Closed enterprise suite inside Adobe contracts (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -280,7 +280,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with an API and MCP server; the data business is the product (the source repository)."
+          "evidence": "Closed SaaS with an API and MCP server; the data business is the product (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -344,7 +344,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise service operating inside your accounts (the source repository)."
+          "evidence": "Closed enterprise service operating inside your accounts (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -408,7 +408,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with warehouse-native exports softening the lock-in (the source repository)."
+          "evidence": "Closed SaaS with warehouse-native exports softening the lock-in (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -472,7 +472,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -568,7 +568,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -600,7 +600,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS (the source repository)."
+          "evidence": "Closed enterprise SaaS (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -664,7 +664,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform; portability is a program (the source repository)."
+          "evidence": "Closed enterprise platform; portability is a program (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -696,7 +696,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform (the source repository)."
+          "evidence": "Closed enterprise platform (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -728,7 +728,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS on annual contracts (the source repository)."
+          "evidence": "Closed enterprise SaaS on annual contracts (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -792,7 +792,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access and published pricing philosophy (the source repository)."
+          "evidence": "Closed SaaS with API access and published pricing philosophy (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -856,7 +856,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -952,7 +952,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -984,7 +984,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1048,7 +1048,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -1080,7 +1080,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1144,7 +1144,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API-first design and unusually open AI integrations (the source repository)."
+          "evidence": "Closed SaaS with API-first design and unusually open AI integrations (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -1272,7 +1272,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform inside a Mastercard contract (the source repository)."
+          "evidence": "Closed enterprise platform inside a Mastercard contract (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -1432,7 +1432,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed SaaS with no API flag and no self-hosting story (the source repository)."
+          "evidence": "Closed SaaS with no API flag and no self-hosting story (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -1528,7 +1528,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1560,7 +1560,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -1720,7 +1720,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with data exports to your warehouse (the source repository)."
+          "evidence": "Closed SaaS with data exports to your warehouse (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -1752,7 +1752,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -1784,7 +1784,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with strong APIs; contact data exports are straightforward (the source repository)."
+          "evidence": "Closed SaaS with strong APIs; contact data exports are straightforward (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -1816,7 +1816,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -1880,7 +1880,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -1912,7 +1912,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with strong API coverage (the source repository)."
+          "evidence": "Closed SaaS with strong API coverage (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -1944,7 +1944,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -2040,7 +2040,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS; your list leaves as CSV or through the API (the source repository)."
+          "evidence": "Closed SaaS; your list leaves as CSV or through the API (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -2296,7 +2296,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API and MCP access (the source repository)."
+          "evidence": "Closed SaaS with API and MCP access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -2360,7 +2360,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed SaaS with no API documented in the catalog (the source repository)."
+          "evidence": "Closed SaaS with no API documented in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -2392,7 +2392,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access and standard exports (the source repository)."
+          "evidence": "Closed SaaS with API access and standard exports (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -2456,7 +2456,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with a public API; scenarios are yours only as exports (the source repository)."
+          "evidence": "Closed SaaS with a public API; scenarios are yours only as exports (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -2488,7 +2488,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -2552,7 +2552,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed SaaS with no API documented in the catalog (the source repository)."
+          "evidence": "Closed SaaS with no API documented in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -2616,7 +2616,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with warehouse syncs keeping data yours (the source repository)."
+          "evidence": "Closed SaaS with warehouse syncs keeping data yours (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -2744,7 +2744,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API and MCP access (the source repository)."
+          "evidence": "Closed SaaS with API and MCP access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -2776,7 +2776,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS, though MCP and an API-level credit system keep the data portable (the source repository)."
+          "evidence": "Closed SaaS, though MCP and an API-level credit system keep the data portable (vendor documentation)."
         },
         "operational_maturity": {
           "score": 4,
@@ -2808,7 +2808,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with data flowing to your warehouse (the source repository)."
+          "evidence": "Closed SaaS with data flowing to your warehouse (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -2840,7 +2840,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS (the source repository)."
+          "evidence": "Closed enterprise SaaS (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -3064,7 +3064,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed SaaS with no API documented in the catalog (the source repository)."
+          "evidence": "Closed SaaS with no API documented in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3096,7 +3096,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access; data leaves via export (the source repository)."
+          "evidence": "Closed SaaS with API access; data leaves via export (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3128,7 +3128,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (the source repository)."
+          "evidence": "Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -3160,7 +3160,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -3224,7 +3224,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS; no API documented in the catalog (the source repository)."
+          "evidence": "Closed SaaS; no API documented in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3256,7 +3256,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise product delivered inside your ESP's contract (the source repository)."
+          "evidence": "Closed enterprise product delivered inside your ESP's contract (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -3288,7 +3288,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise product with no API documented in the catalog (the source repository)."
+          "evidence": "Closed enterprise product with no API documented in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3320,7 +3320,7 @@
         },
         "openness": {
           "score": 4,
-          "evidence": "Closed platform, though code steps are plain Node or Python you can lift out (the source repository)."
+          "evidence": "Closed platform, though code steps are plain Node or Python you can lift out (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3352,7 +3352,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -3448,7 +3448,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with strong API and MCP access (the source repository)."
+          "evidence": "Closed SaaS with strong API and MCP access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -3512,7 +3512,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform (the source repository)."
+          "evidence": "Closed enterprise platform (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -3544,7 +3544,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 4,
@@ -3576,7 +3576,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (the source repository)."
+          "evidence": "Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3672,7 +3672,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access; no self-hosting or open data portability terms documented (the source repository)."
+          "evidence": "Closed SaaS with API access; no self-hosting or open data portability terms documented (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -3800,7 +3800,7 @@
         },
         "openness": {
           "score": 4,
-          "evidence": "Closed SaaS, but MCP keeps the control surface programmable (the source repository)."
+          "evidence": "Closed SaaS, but MCP keeps the control surface programmable (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -3864,7 +3864,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed enterprise platform with extensive APIs (the source repository)."
+          "evidence": "Closed enterprise platform with extensive APIs (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -3896,7 +3896,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise suite; exit is a migration program (the source repository)."
+          "evidence": "Closed enterprise suite; exit is a migration program (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -3928,7 +3928,7 @@
         },
         "openness": {
           "score": 4,
-          "evidence": "Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (the source repository)."
+          "evidence": "Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -3960,7 +3960,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access at additional cost (the source repository)."
+          "evidence": "Closed SaaS with API access at additional cost (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -3992,7 +3992,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed platform; the API surface keeps it substitutable at the transport layer (the source repository)."
+          "evidence": "Closed platform; the API surface keeps it substitutable at the transport layer (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -4088,7 +4088,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4120,7 +4120,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform (the source repository)."
+          "evidence": "Closed enterprise platform (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -4184,7 +4184,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -4280,7 +4280,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API and MCP access (the source repository)."
+          "evidence": "Closed SaaS with API and MCP access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -4312,7 +4312,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4344,7 +4344,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise platform (the source repository)."
+          "evidence": "Closed enterprise platform (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -4376,7 +4376,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4440,7 +4440,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS; no self-hosting or open export terms in the catalog (the source repository)."
+          "evidence": "Closed SaaS; no self-hosting or open export terms in the catalog (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -4472,7 +4472,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS; portability is contractual (the source repository)."
+          "evidence": "Closed enterprise SaaS; portability is contractual (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4504,7 +4504,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS tied to your ad and store connections (the source repository)."
+          "evidence": "Closed SaaS tied to your ad and store connections (vendor documentation)."
         },
         "operational_maturity": {
           "score": 5,
@@ -4664,7 +4664,7 @@
         },
         "openness": {
           "score": 2,
-          "evidence": "Closed enterprise SaaS with contractual portability only (the source repository)."
+          "evidence": "Closed enterprise SaaS with contractual portability only (vendor documentation)."
         },
         "operational_maturity": {
           "score": 8,
@@ -4696,7 +4696,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed platform, though the Palmyra models and API keep some portability (the source repository)."
+          "evidence": "Closed platform, though the Palmyra models and API keep some portability (vendor documentation)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4728,7 +4728,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with API access (the source repository)."
+          "evidence": "Closed SaaS with API access (vendor documentation)."
         },
         "operational_maturity": {
           "score": 6,
@@ -4760,7 +4760,7 @@
         },
         "openness": {
           "score": 3,
-          "evidence": "Closed SaaS with a strong API; your workflows are portable only as re-builds (the source repository)."
+          "evidence": "Closed SaaS with a strong API; your workflows are portable only as re-builds (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,

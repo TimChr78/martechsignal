@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Brand-safe generation, performance prediction, tone analysis and automated A/B/N testing make a focused message optimization suite (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | Integrations | 7/10 | A dozen named enterprise ESPs from Salesforce Marketing Cloud to Emarsys documented (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | AI capability | 7/10 | The Neural engine's performance prediction over generated variants is a decade-old asset few can match (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (the source repository: [repository](https://www.jacquard.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise product with no API documented in the catalog (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2015, rebranded as Jacquard in June 2024; deep history with a transition question attached (vendor documentation: [vendor site](https://www.jacquard.com), verified 2026-09-28). |
 
 
@@ -147,7 +147,7 @@ Teams below enterprise send volumes, buyers who need ad or social copy (a Phrase
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from jacquard.com, UK Companies House filings, and Internet Archive snapshots of phrasee.co (September 2026). Not a hands-on review. Phrasee the brand is gone: the domain redirects, the company changed its registered name to Jacquard Group Limited on June 11, 2024, and the rebrand was announced the following day.
 

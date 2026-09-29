@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | ERP, CRM, accounting and invoicing cover the small-business back office (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 8.8k GitHub stars and full self-hosting (the source repository: [repository](idurar/idurar-erp-crm), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with 8.8k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/idurar/idurar-erp-crm), verified 2026-09-28). |
 | Operational maturity | 5/10 | 8.8k stars with published lifetime license tiers behind the OSS core (vendor documentation: [vendor site](https://cloud.idurarapp.com), verified 2026-09-28). |
 
 

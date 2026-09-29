@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 | Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository: [repository](every-app/open-seo), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/every-app/open-seo), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 
 

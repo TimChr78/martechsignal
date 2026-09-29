@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Keyword research, audits, competitive analysis, content optimization and AI visibility tracking cover the full SEO scope (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 | Integrations | 7/10 | GA, Search Console, WordPress, Zapier, Slack, HubSpot, Salesforce and Looker Studio documented plus an API (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI content optimization, keyword research, audits and visibility tracking spread across the suite (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access at additional cost (the source repository: [repository](https://www.semrush.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access at additional cost (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2008 with eighteen years of SEO-tool operations (vendor documentation: [vendor site](https://www.semrush.com), verified 2026-09-28). |
 
 

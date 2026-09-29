@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | AI creative workflow, real-time budget allocation and generated audiences cover the Meta optimization loop (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 | Integrations | 4/10 | Meta, Shopify, GA and TikTok documented; the surface is deliberately focused (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 | AI capability | 7/10 | End-to-end AI creative generation with autonomous budget allocation across ad sets (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
-| Openness | 2/10 | Closed SaaS with no API documented in the catalog (the source repository: [repository](https://madgicx.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed SaaS with no API documented in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Priced self-serve with a spend calculator but no founding year in the catalog (vendor documentation: [vendor site](https://madgicx.com/), verified 2026-09-28). |
 
 
@@ -120,7 +120,7 @@ Multi-channel advertisers needing Google/TikTok coverage in the same platform, a
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from madgicx.com and its pricing calculator (September 2026). Not a hands-on review. The consolidation claim checks out structurally - optimization, creative generation, audience testing and attribution are all listed as first-party product areas, not integrations.
 

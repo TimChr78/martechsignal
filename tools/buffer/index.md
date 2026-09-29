@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Scheduling, analytics and light engagement cover the small-team social routine (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 | Integrations | 5/10 | Canva, Zapier, Shopify, GA, Slack and WordPress documented plus an API (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 | AI capability | 4/10 | An AI assistant for posts, hashtag generation and repurposing help the writing step (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (the source repository: [repository](https://buffer.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and published pricing philosophy (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2010 with fifteen years of self-serve operations (vendor documentation: [vendor site](https://buffer.com), verified 2026-09-28). |
 
 
@@ -115,7 +115,7 @@ Current plans and limits live on the [Buffer pricing page](https://buffer.com/pr
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Buffer is the simplest serious scheduler on the market, and its free tier is the best in the category: three channels, scheduling, link shortening, and a landing page builder at no cost. The AI assistant drafts posts and suggests times, and the interface stays clean where rivals pile on menus. Small teams get posting done in minutes without a training session, which is exactly the promise the product makes and keeps.
 

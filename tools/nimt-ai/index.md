@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Daily tracking across 8 models, citation and fan-out analysis, and an agent that writes content, fixes pages and does outreach (vendor documentation: [vendor site](https://nimt.ai), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, MCP, Search Console, HubSpot, WordPress and GA cover the working stack (vendor documentation: [vendor site](https://nimt.ai), verified 2026-09-28). |
 | AI capability | 8/10 | The AI Search Agent writes content, fixes pages and outreaches; this is execution autonomy, not just analytics (vendor documentation: [vendor site](https://nimt.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS, though MCP and an API-level credit system keep the data portable (the source repository: [repository](https://nimt.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS, though MCP and an API-level credit system keep the data portable (vendor documentation: [vendor site](https://nimt.ai), verified 2026-09-28). |
 | Operational maturity | 4/10 | Young product with no founding year in the catalog and a card-required trial gate (vendor documentation: [vendor site](https://nimt.ai), verified 2026-09-28). |
 
 

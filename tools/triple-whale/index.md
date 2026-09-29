@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Attribution, LTV, creative analytics and profit tracking cover the DTC measurement loop (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
 | Integrations | 6/10 | Shopify, Meta, Google and TikTok Ads, Klaviyo, Slack, Zapier and Stripe documented (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI attribution modeling and creative analytics fit the storefront use case well (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS tied to your ad and store connections (the source repository: [repository](https://www.triplewhale.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS tied to your ad and store connections (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2021 with priced tiers and a DTC-focused customer base (vendor documentation: [vendor site](https://www.triplewhale.com), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Triple Whale pricing page](https://www.tri
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Triple Whale aggregates e-commerce metrics - ad spend across platforms, Shopify revenue, LTV cohorts - into a single dashboard, with the pixel-attribution sonar product as the headline feature. For DTC brands drowning in platform-native dashboards, the unified view alone saves real analyst time.
 

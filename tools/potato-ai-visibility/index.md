@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page: [pricing page](https://github.com/onism1767-creator/potato), verified 2026-08-31). |
+| Pricing transparency | 9/10 | Free under MIT, 100% local with a $0 mock mode; real runs use your own Anthropic key, stated plainly (the vendor pricing page: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-08-31). |
 | Feature depth | 4/10 | Mention coverage, citation validity and owned-versus-earned citation splits cover one measurement loop (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 | Integrations | 3/10 | Anthropic Claude and a CLI with a local GUI wizard documented (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 | AI capability | 5/10 | Measuring Claude's web-search answers with citation validity checks is applied AI measurement (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 168 GitHub stars and fully local execution (the source repository: [repository](onism1767-creator/potato), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 168 GitHub stars and fully local execution (the source repository: [repository](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 | Operational maturity | 2/10 | Founded 2026 at 168 stars as a focused local tool (vendor documentation: [vendor site](https://github.com/onism1767-creator/potato), verified 2026-09-28). |
 
 

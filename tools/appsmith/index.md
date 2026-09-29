@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Admin panels, dashboards and workflows over existing databases and APIs cover internal tooling fully (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
 | Integrations | 7/10 | Twelve named datasources from PostgreSQL and Snowflake to S3, HubSpot and Salesforce (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
 | AI capability | 3/10 | In-editor SQL and JS assistance is the live AI surface; the AI datasource is deprecated as of September 30, 2026 (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
-| Openness | 8/10 | Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (the source repository: [repository](appsmithorg/appsmith), verified 2026-09-28). |
+| Openness | 8/10 | Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (the source repository: [repository](https://github.com/appsmithorg/appsmith), verified 2026-09-28). |
 | Operational maturity | 7/10 | 40.8k stars with priced cloud tiers and an enterprise edition (vendor documentation: [vendor site](https://appsmith.com), verified 2026-09-28). |
 
 

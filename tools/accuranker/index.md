@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Daily rank tracking with AccuLLM mentions, citations and sentiment across four AI surfaces (vendor documentation: [vendor site](https://www.accuranker.com), verified 2026-09-28). |
 | Integrations | 6/10 | Search Console, GA, BigQuery, Looker Studio plus API and MCP documented (vendor documentation: [vendor site](https://www.accuranker.com), verified 2026-09-28). |
 | AI capability | 5/10 | AccuLLM adds brand mentions, citations and sentiment on the classic ranker (vendor documentation: [vendor site](https://www.accuranker.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://www.accuranker.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://www.accuranker.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Established rank tracker with published EUR tiers and enterprise keyword volumes (vendor documentation: [vendor site](https://www.accuranker.com), verified 2026-09-28). |
 
 
@@ -119,7 +119,7 @@ Buyers who want keyword research, backlink data and site audits in the same subs
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Using AccuRanker starts with slot planning. Keywords are the billing unit, so the practical question is which terms earn one. Typical setups split between head terms, brand terms, and a competitor monitoring set, then use tagging and advanced filtering to keep client or market reports readable. Daily updates run in every supported country, and data import from other rank trackers shortens migration. A 14-day refund policy from purchase makes the first fortnight a real evaluation window rather than a sunk cost.
 

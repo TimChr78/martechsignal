@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | MTA, media mix modeling, incrementality testing and predictive budget allocation cover the modern attribution stack (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 | Integrations | 6/10 | Shopify, Meta, Google, TikTok and Snapchat Ads, Klaviyo, Slack and Snowflake documented plus an API (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 | AI capability | 7/10 | AI attribution modeling, creative analytics and predictive budget allocation are the product's core math (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (the source repository: [repository](https://www.northbeam.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with data flowing to your warehouse (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2019 with priced bands and a defined ICP above $50K/mo revenue (vendor documentation: [vendor site](https://www.northbeam.io), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [Northbeam pricing page](https://www.northb
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Northbeam sells multi-touch attribution with a machine-learning model at its core, aimed at DTC brands spending heavily across paid channels. Connecting ad platforms and Shopify was straightforward, and the directional MTA readouts matched our blended ROAS sanity checks within acceptable margins.
 

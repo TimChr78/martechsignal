@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Enrichment, email drafting, meeting notes and agentic revenue workflows cover the modern CRM loop (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, Gmail, Outlook, Zapier, HubSpot, Notion, Calendly and Stripe documented plus an API (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 | AI capability | 7/10 | Real-time enrichment and agentic workflows are the product's architecture, not add-ons (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://attio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2019 with priced tiers and a fast-moving product cycle (vendor documentation: [vendor site](https://attio.com), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Attio pricing page](https://attio.com/pric
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Attio positions itself as the CRM that behaves like a database. The data model is the differentiator: every object, from company to deal to custom field, is a record with relations, and you can add fields without a settings maze. Attribute-based lists update live, which kills the stale-segment problem most CRMs have. The trade-off is a steeper learning curve than HubSpot; the UI assumes you think in relations.
 

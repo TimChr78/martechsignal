@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Research, briefs, drafting, E-E-A-T content scores and GEO tracking cover the content-to-visibility loop (vendor documentation: [vendor site](https://www.frase.io), verified 2026-09-28). |
 | Integrations | 6/10 | Twelve named connections from Search Console and GA4 to Notion, Linear, Webflow and Zapier plus an API (vendor documentation: [vendor site](https://www.frase.io), verified 2026-09-28). |
 | AI capability | 7/10 | Frase Agent with Deep Research briefs and GEO Score make the AI layer load-bearing (vendor documentation: [vendor site](https://www.frase.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.frase.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.frase.io), verified 2026-09-28). |
 | Operational maturity | 6/10 | Established SEO-content product with per-tier quotas published (vendor documentation: [vendor site](https://www.frase.io), verified 2026-09-28). |
 
 
@@ -149,7 +149,7 @@ Writers who want a traditional editor they control: the product is agent-first n
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from frase.io, docs.frase.io, and the pricing page (September 2026). Not a hands-on review. The docs are current and specific, with a published whats-new feed whose newest entries are Frase Answers (June 24, 2026), 16 content types plus Wix publishing (May 21, 2026), and Content Guard (May 14, 2026).
 

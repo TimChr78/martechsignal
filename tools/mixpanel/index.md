@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Funnels, retention, session replays and feature flags cover product analytics with experimentation attached (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
 | Integrations | 7/10 | Segment, Slack, Snowflake, BigQuery, Databricks, Redshift, HubSpot, Hotjar and CleverTap documented (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
 | AI capability | 7/10 | Root Cause Analysis and Experiments agents plus natural-language querying and Magic Playlists over replays (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (the source repository: [repository](https://mixpanel.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with warehouse syncs keeping data yours (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2009 with a long self-serve history and transparent pricing machinery (vendor documentation: [vendor site](https://mixpanel.com), verified 2026-09-28). |
 
 

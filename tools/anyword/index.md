@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Copy generation, brand voice, channel optimization and A/B testing cover the copy workflow around its scoring core (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 | Integrations | 5/10 | Chrome, HubSpot, WordPress, Zapier, Mailchimp, Google Ads and Meta Ads documented plus an API (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 | AI capability | 7/10 | The predictive performance score per copy variant is a model advantage competitors describe but rarely quantify (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.anyword.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2019 with priced tiers and a trial that runs without a call (vendor documentation: [vendor site](https://www.anyword.com), verified 2026-09-28). |
 
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [Anyword pricing page](https://www.anyword.
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Anyword's whole argument is measurable copy: paste a draft and a score on a 0-100 scale, trained on millions of real campaigns, tells you how the copy will perform before you send it. Email, ads, landing pages, and social each score against their own benchmarks, and the suggestion engine tightens weak lines. It sits on top of any LLM, so teams already using ChatGPT or Jasper can layer the scoring on without switching tools.
 

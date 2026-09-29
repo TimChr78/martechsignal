@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Rank tracking plus prompt tracking with sentiment and citation analysis across six AI surfaces (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
 | Integrations | 6/10 | GA, Looker Studio, the Nightwatch API and an SEO MCP server for Claude, Cursor and ChatGPT (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
 | AI capability | 6/10 | Prompt tracking with sentiment and citations on ChatGPT, Claude, Gemini, Perplexity, AI Mode and AI Overviews (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://nightwatch.io), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
 | Operational maturity | 6/10 | Published EUR tiers with unlimited seats and enterprise keyword volumes (vendor documentation: [vendor site](https://nightwatch.io), verified 2026-09-28). |
 
 
@@ -123,7 +123,7 @@ Solo site owners carrying more than 500 keywords on a tight budget, or teams tha
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Setup is keyword-first. You add domains, pick locations and languages from a large location list, choose competitors per site, and the daily updates start. On-demand checks cover anything that needs current numbers. Because the billing unit is a tracked keyword and seats are unlimited, the planning question is keyword scope, not team size. That inverts the usual agency math: adding a colleague or a client viewer costs nothing, and a growing keyword list is what moves the bill. The 14-day trial needs no credit card, but it converts to a paid monthly subscription if it is not canceled, with reminder emails sent beforehand.
 

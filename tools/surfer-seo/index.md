@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Content editing, article generation, keyword research, audits and AI visibility tracking cover the content-SEO loop (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 | Integrations | 6/10 | Google Docs, WordPress, Jasper, Zapier, Search Console and Semrush documented plus an API (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI editor, generator and audit stack with SERP analysis and visibility tracking (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://surferseo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2017 as the category-defining content editor (vendor documentation: [vendor site](https://surferseo.com), verified 2026-09-28). |
 
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [Surfer SEO pricing page](https://surferseo
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Surfer SEO optimizes written content against the current SERP: it analyzes ranking pages for a keyword and produces a brief with suggested terms, structure, and length, scoring your draft as you write. The data pipeline is the product, and it is genuinely current, since the briefs reflect pages ranking now. The editor integration (Google Docs, text editor) is smooth, and the scores trend consistently between runs.
 

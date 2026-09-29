@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Post, video and carousel generation with a content calendar cover the social output workflow (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
 | Integrations | 4/10 | Canva, Shopify, Zapier, Meta Business Suite, WordPress and GA documented plus an API (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
 | AI capability | 6/10 | Multi-format generation plus competitor analysis make it a content engine rather than a scheduler (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://predis.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
 | Operational maturity | 4/10 | Founded 2019 with light pricing and no enterprise track record in the catalog (vendor documentation: [vendor site](https://predis.ai), verified 2026-09-28). |
 
 
@@ -113,7 +113,7 @@ Current plans and limits live on the [Predis.ai pricing page](https://predis.ai/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Predis.ai generates social posts - visuals, captions, hashtags - from short prompts or product catalogs, aimed at small businesses maintaining a posting cadence. The e-commerce catalog-to-post pipeline is the standout: feed products, get branded variations across formats quickly.
 

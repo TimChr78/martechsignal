@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 8/10 | Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (the vendor pricing page: [pricing page](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-08-31). |
+| Pricing transparency | 8/10 | Free MIT-licensed templates requiring your own n8n instance and API keys, stated up front (the vendor pricing page: [vendor site](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-08-31). |
 | Feature depth | 5/10 | 79 workflows across social posting, monitoring, ads and SEO cover common marketing operations (vendor documentation: [vendor site](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
 | Integrations | 6/10 | n8n, Ollama, Meta Graph API, Sheets, YouTube Data API, WordPress and Discord documented (vendor documentation: [vendor site](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
 | AI capability | 5/10 | LLM drafting per platform and an AI news digest with push delivery, all with local Ollama versions (vendor documentation: [vendor site](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 175 GitHub stars and one-click import into your instance (the source repository: [repository](YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 175 GitHub stars and one-click import into your instance (the source repository: [repository](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
 | Operational maturity | 3/10 | Founded 2026 at 175 stars as a template collection (vendor documentation: [vendor site](https://github.com/YuriCrystal/n8n-marketing-flows), verified 2026-09-28). |
 
 

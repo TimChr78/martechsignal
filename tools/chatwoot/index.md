@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Omnichannel inbox, ticketing and Captain AI across assistant, copilot and memories cover the service suite (vendor documentation: [vendor site](https://www.chatwoot.com), verified 2026-09-28). |
 | Integrations | 5/10 | Slack, Linear, Dialogflow, Google Translate and LeadSquared documented plus an API (vendor documentation: [vendor site](https://www.chatwoot.com), verified 2026-09-28). |
 | AI capability | 6/10 | Captain Assistant, Copilot and Memories split the AI work into agent, assist and context layers (vendor documentation: [vendor site](https://www.chatwoot.com), verified 2026-09-28). |
-| Openness | 8/10 | 36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (the source repository: [repository](chatwoot/chatwoot), verified 2026-09-28). |
+| Openness | 8/10 | 36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (the source repository: [repository](https://github.com/chatwoot/chatwoot), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2019 with a large self-hosted base and priced cloud tiers (vendor documentation: [vendor site](https://www.chatwoot.com), verified 2026-09-28). |
 
 

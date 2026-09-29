@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Journeys, a CDP layer and analytics in one platform cover the marketing automation loop end to end (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 | Integrations | 7/10 | Twelve named connectors including Salesforce, Shopify, Stripe, Segment and Zendesk plus API access (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI subject lines, content suggestions, natural-language segment filters and enrichment are helpful utilities rather than agents (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; data leaves via export (the source repository: [repository](https://ortto.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; data leaves via export (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2015 with priced tiers and trials; a known mid-market option (vendor documentation: [vendor site](https://ortto.com), verified 2026-09-28). |
 
 
@@ -152,7 +152,7 @@ Teams that need a published per-plan price table before buying (the public prici
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from ortto.com, help.ortto.com, and roadmap.ortto.com/changelog (September 2026). Not a hands-on review. The changelog shows steady shipping: an Ortto MCP server and account-level journeys (December 2025), saved filters and folder depth (January 2026), Microsoft Dynamics 365 and an account-wide AI off switch (March 2026), then dynamic webhooks, MMS, Microsoft Teams, and Stripe abandoned cart (May 2026).
 

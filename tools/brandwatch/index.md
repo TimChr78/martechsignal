@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Consumer intelligence, social management and influencer modules cover research through execution (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, Salesforce, Zapier, Tableau, GA, Meta Business Suite and Hootsuite documented plus an API (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 | AI capability | 7/10 | Image recognition, trend detection and audience segmentation over a large historical dataset (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://www.brandwatch.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2008 with research-grade data history and enterprise contracts (vendor documentation: [vendor site](https://www.brandwatch.com), verified 2026-09-28). |
 
 
@@ -113,7 +113,7 @@ Current plans and limits live on the [Brandwatch pricing page](https://www.brand
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Brandwatch's strength is listening at scale: it analyzes billions of conversations across social, blogs, forums, and news, and turns them into trend, sentiment, and competitive intelligence your strategy team can act on. The query layer lets researchers ask questions in natural language instead of writing regex, and the management suite around it handles publishing and influencer work. Listening is the reason you buy it, and it is the deepest engine in the category.
 

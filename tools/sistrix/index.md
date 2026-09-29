@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Visibility Index tracking, AI answer analysis and Amazon analysis cover the European SEO scope (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 | Integrations | 5/10 | Search Console, GA, Slack and the SISTRIX API documented (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 | AI capability | 5/10 | The AI Visibility module tracks mentions, rankings and citations in AI search engines (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.sistrix.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Established European suite with a long-published index methodology (vendor documentation: [vendor site](https://www.sistrix.com), verified 2026-09-28). |
 
 
@@ -116,7 +116,7 @@ Buyers who need a self-serve entry tool under EUR 100/month, or teams that disli
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Choosing a package is mostly a question of users, projects and history depth. Start gives one user, three projects and 3 months of data history with 10,000 results per analysis. Plus adds two more users, 15 projects, five years of history and the content tools. Professional opens the full 11-year history, the complete API and telephone support. Premium targets large teams with 12 users, roles and rights management, an audit log and VIP support. Since Start cannot add users later, a team of two already belongs on Plus.
 

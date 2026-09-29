@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Org-chart orchestration of agent teams with hire, schedule, budget and audit cover agent operations (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
 | Integrations | 7/10 | Ten named agent harnesses from Claude Code and Codex to Hermes and OpenClaw Gateway (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
 | AI capability | 7/10 | Per-agent budgets with warn-at-80% and hard-stop-at-100% controls are operational AI governance (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (the source repository: [repository](paperclipai/paperclip), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (the source repository: [repository](https://github.com/paperclipai/paperclip), verified 2026-09-28). |
 | Operational maturity | 5/10 | 80.4k stars with a simple hosted tier and model-spend tracking (vendor documentation: [vendor site](https://paperclip.ing), verified 2026-09-28). |
 
 

@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Sales, service and marketing coverage with forecasting and pipeline management at platform depth (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 | Integrations | 8/10 | Slack, Tableau, MuleSoft, Google Workspace, Microsoft 365, Zapier, Snowflake and DocuSign documented (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 | AI capability | 7/10 | Einstein lead scoring, opportunity insights, Copilot and predictive forecasting across the suite (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
-| Openness | 3/10 | Closed enterprise platform with extensive APIs (the source repository: [repository](https://www.salesforce.com/crm/), verified 2026-09-28). |
+| Openness | 3/10 | Closed enterprise platform with extensive APIs (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 | Operational maturity | 9/10 | Founded 1999, the oldest and most deployed CRM in the catalog (vendor documentation: [vendor site](https://www.salesforce.com/crm/), verified 2026-09-28). |
 
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [Salesforce CRM pricing page](https://www.s
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Salesforce CRM remains the deepest sales platform on the market: object customization, Flow automation, and the AppExchange ecosystem mean nearly any sales process can be modeled. Reporting and forecasting, once configured by someone who knows the platform, outclass mid-market competitors by a wide margin.
 

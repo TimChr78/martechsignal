@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Flow building, keyword triggers, segmentation and comment automation cover the chat marketing loop (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
 | Integrations | 6/10 | Shopify, Zapier, Mailchimp, HubSpot, Sheets, Stripe and Salesforce documented plus an API (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI flow building, keyword triggers and auto-replies serve the DM workflow (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://manychat.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2015 with the category's largest consumer-messaging install base (vendor documentation: [vendor site](https://manychat.com), verified 2026-09-28). |
 
 
@@ -113,7 +113,7 @@ Current plans and limits live on the [ManyChat pricing page](https://manychat.co
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 ManyChat owns the Messenger and Instagram automation niche: comment-triggered DMs, keyword replies, and funnel flows on a visual canvas. Setup for the classic Instagram comment-to-DM playbook took under ten minutes, and per-step flow stats (opens, clicks, conversions) are solid enough to optimize against.
 

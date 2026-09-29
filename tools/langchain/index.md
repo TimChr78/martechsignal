@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | LLM chaining, agent orchestration, tool calling, structured output and RAG cover the agent stack (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 | Integrations | 8/10 | OpenAI, Anthropic, Google AI, Pinecone, Chroma, n8n, Slack, Notion, Drive and GitHub documented (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 | AI capability | 8/10 | Agent orchestration and RAG are the framework's reason to exist (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository: [repository](langchain-ai/langchain), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository: [repository](https://github.com/langchain-ai/langchain), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2022 with commercial LangSmith/LangGraph arms behind the core (vendor documentation: [vendor site](https://www.langchain.com), verified 2026-09-28). |
 
 

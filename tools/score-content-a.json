@@ -54,7 +54,7 @@
         },
         "openness": {
           "score": 5,
-          "evidence": "The product is closed SaaS with no source available, but a full public API and SDKs exist and event data lands in the customer's own warehouse, which matches full export plus open API (the source repository)."
+          "evidence": "The product is closed SaaS with no source available, but a full public API and SDKs exist and event data lands in the customer's own warehouse, which matches full export plus open API (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,
@@ -86,7 +86,7 @@
         },
         "openness": {
           "score": 5,
-          "evidence": "The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository)."
+          "evidence": "The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (vendor documentation)."
         },
         "operational_maturity": {
           "score": 9,

@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Data-driven triggers and HTTP steps with real code execution cover the programmable automation surface; the no-code layer is thinner than Make's (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 | Integrations | 8/10 | 2,500+ integrations advertised around a code-first component model (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI tokens are priced into the plans and code steps can call any model, but there is no documented AI product layer in the catalog (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
-| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (the source repository: [repository](https://pipedream.com), verified 2026-09-28). |
+| Openness | 4/10 | Closed platform, though code steps are plain Node or Python you can lift out (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | A known developer platform with usage-based plans and years in market (vendor documentation: [vendor site](https://pipedream.com), verified 2026-09-28). |
 
 
@@ -91,7 +91,7 @@ Current plans and limits live on the [Pipedream pricing page](https://pipedream.
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Pipedream sits between Zapier and raw code: workflows are Node, Python, or Go steps you write, with pre-built connected components handling auth for hundreds of APIs. When a workflow needs a real conditional or a custom API call, dropping into code beats fighting a blocks-only builder.
 

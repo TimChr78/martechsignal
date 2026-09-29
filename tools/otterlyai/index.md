@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Daily mention and citation tracking, prompt research, a visibility index and GEO audits cover the monitoring loop; it does not rewrite or publish content (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
 | Integrations | 6/10 | Tracks six named surfaces including ChatGPT, AI Overviews and Copilot, and ships Looker Studio and MCP connections from Standard up (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
 | AI capability | 6/10 | The product measures AI answers rather than generating them; the GEO audit recommendations are its assistive layer (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (the source repository: [repository](https://otterly.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; API and MCP access from the Standard tier improve the data story but the platform itself is not open (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2024 and priced for teams, with the operational history still short (vendor documentation: [vendor site](https://otterly.ai/), verified 2026-09-28). |
 
 

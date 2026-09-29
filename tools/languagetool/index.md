@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Grammar checking, paraphrasing and style suggestions across 30+ languages (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
 | Integrations | 5/10 | Chrome, Firefox, Edge, Gmail, Outlook and LibreOffice documented plus an API (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
 | AI capability | 5/10 | AI style and tone suggestions and AI-powered checking sit on the rule engine (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
-| Openness | 8/10 | LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (the source repository: [repository](languagetool-org/LanguageTool), verified 2026-09-28). |
+| Openness | 8/10 | LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (the source repository: [repository](https://github.com/languagetool-org/LanguageTool), verified 2026-09-28). |
 | Operational maturity | 7/10 | Long-running project with browser and desktop distribution at scale (vendor documentation: [vendor site](https://languagetool.org), verified 2026-09-28). |
 
 

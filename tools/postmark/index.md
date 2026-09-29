@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Transactional email with separated message streams and delivery diagnostics cover the sending job (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 | Integrations | 6/10 | Slack, Zapier, WordPress, Customer.io, Supabase, Stripe, Netlify and Datadog documented plus an API (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 | AI capability | 5/10 | An MCP server with 24 tools, agent skills and a documented AI prompt library (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with strong API and MCP access (the source repository: [repository](https://postmarkapp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with strong API and MCP access (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Long-running transactional email service with published delivery numbers (vendor documentation: [vendor site](https://postmarkapp.com), verified 2026-09-28). |
 
 

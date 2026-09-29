@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Citation tracking across 4 to 9 LLMs, Agent Pages serving token-optimized content and agent-facing site diagnostics (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 | Integrations | 5/10 | Looker Studio, MCP, a Query API and a CLI cover programmatic access without an app marketplace (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 | AI capability | 7/10 | Agent Pages that serve token-optimized content to AI agents is infrastructure work aimed at how models actually read (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
-| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (the source repository: [repository](https://scrunch.com/), verified 2026-09-28). |
+| Openness | 4/10 | Closed SaaS but with MCP, a Query API and a CLI keeping your data reachable (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2023 with enterprise SSO on the roadmap tiers; short history (vendor documentation: [vendor site](https://scrunch.com/), verified 2026-09-28). |
 
 

@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Email, automation and analytics cover the small-business loop; journey depth trails the specialist platforms (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 | Integrations | 7/10 | Shopify, WooCommerce, Salesforce, Zapier, WordPress, Canva, GA and Stripe documented (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 | AI capability | 5/10 | Content optimizer, subject line help, predictive demographics and Creative Assistant are assistive tools (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access and standard exports (the source repository: [repository](https://mailchimp.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access and standard exports (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 | Operational maturity | 9/10 | Founded 2001 with Intuit's infrastructure behind it and the category's widest name recognition (vendor documentation: [vendor site](https://mailchimp.com), verified 2026-09-28). |
 
 
@@ -122,7 +122,7 @@ Current plans and limits live on the [Mailchimp pricing page](https://mailchimp.
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Mailchimp is the entry point for a huge share of small teams, and the current product shows both halves of that inheritance: genuinely capable email, templates, and automation for casual senders, and a growing AI layer, while the platform around it has become noticeably busy with upsells and plan limits. The free tier is real and generous enough for tiny lists, which keeps it the default first-tool.
 

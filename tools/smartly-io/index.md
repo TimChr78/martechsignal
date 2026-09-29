@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | AI Studio for creative, predictive budget allocation and Brand Pulse measurement cover production through proof (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
 | Integrations | 8/10 | Ten named buying channels including Meta, Google, TikTok, Amazon, Roku and Spotify plus an API (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
 | AI capability | 7/10 | Scene generation, AI Studio media creation and predictive budget allocation are production features (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://www.smartly.io), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2013 with a decade of enterprise creative operations (vendor documentation: [vendor site](https://www.smartly.io), verified 2026-09-28). |
 
 
@@ -135,7 +135,7 @@ Advertisers who need published pricing to plan a budget, since there is none on 
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Smartly is the consolidation play: creative production, media management, and measurement under one contract, sold to teams that would otherwise run separate tools for each. The platform pages are more specific than most enterprise ad-tech sites, naming the ten integrated platforms and stating that PBA lives inside Media Suite rather than as a separate module. Researched from the public site. Not a hands-on review.
 

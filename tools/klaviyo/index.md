@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Email, SMS, predictive analytics and product recommendations cover the ecommerce lifecycle (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 | Integrations | 8/10 | Shopify, WooCommerce, BigCommerce, Salesforce, Slack, Zapier, Stripe and GA documented plus an API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 | AI capability | 6/10 | Predictive analytics, send-time optimization and product recommendations are commerce-tuned rather than agentic (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (the source repository: [repository](https://www.klaviyo.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; your list leaves as CSV or through the API (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2012 and publicly listed with the ecommerce track record brands price in (vendor documentation: [vendor site](https://www.klaviyo.com), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Klaviyo pricing page](https://www.klaviyo.
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Klaviyo is the ecommerce lifecycle email and SMS platform, and its identity model is what makes it work: profiles built from events like placed order, viewed product, abandoned check, so segmentation follows real commerce behavior rather than manual lists. Flow builder, predictive analytics, and SMS are all first-class. The reporting is refreshingly concrete for a platform in this price class, largely because the events are commerce-shaped from day one.
 

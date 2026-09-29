@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Marketing, product and transactional email in one tool cover the SaaS messaging stack (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 | Integrations | 6/10 | Stripe, Segment, Zapier, PostHog, Supabase, Clerk, Fivetran and Make documented plus an API (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 | AI capability | 5/10 | LLM email translation, an AI workflow builder and an MCP server for agent access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API and MCP access (the source repository: [repository](https://loops.so), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API and MCP access (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2022 with a developer-market product shape (vendor documentation: [vendor site](https://loops.so), verified 2026-09-28). |
 
 

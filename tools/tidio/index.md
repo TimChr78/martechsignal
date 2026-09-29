@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Live chat, chatbot flows and conversation analytics cover the SMB support loop (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 | Integrations | 6/10 | Shopify, WordPress, WooCommerce, Zapier, Slack, Mailchimp, HubSpot and GA documented plus an API (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 | AI capability | 6/10 | Lyro AI agent with auto-replies and visitor insights is the product's AI center (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.tidio.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2013 with a long SMB support track record (vendor documentation: [vendor site](https://www.tidio.com), verified 2026-09-28). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [Tidio pricing page](https://www.tidio.com/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Tidio combines live chat with chatbot automation, and its Lyro AI agent answers customer questions from your help content before handing complex cases to humans. Setup on Shopify and WordPress took minutes, and Lyro's deflection rate on common questions (shipping, returns, order status) impressed us.
 

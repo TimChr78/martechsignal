@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Task-based integrations and workflows cover the iPaaS job (vendor documentation: [vendor site](https://www.pabbly.com/connect/), verified 2026-09-28). |
 | Integrations | 5/10 | Google Sheets, Salesforce, HubSpot, Mailchimp and Slack documented plus an API (vendor documentation: [vendor site](https://www.pabbly.com/connect/), verified 2026-09-28). |
 | AI capability | 3/10 | Pabbly AgenticAI exists as a workflow builder sold separately (vendor documentation: [vendor site](https://www.pabbly.com/connect/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.pabbly.com/connect/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.pabbly.com/connect/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Published volume tiers and a lifetime purchase model (vendor documentation: [vendor site](https://www.pabbly.com/connect/), verified 2026-09-28). |
 
 

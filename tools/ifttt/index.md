@@ -7,7 +7,7 @@
 | Feature depth | 5/10 | Applet automation with code steps cover consumer and smart-device workflows (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | Integrations | 6/10 | Gmail, Sheets, Twitter, Discord, webhooks and YouTube documented plus an API (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | AI capability | 3/10 | AI services on Pro+ and query/filter code steps are the automation layer's only AI surface (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://ifttt.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2010 with sixteen years of consumer automation behind it (vendor documentation: [vendor site](https://ifttt.com), verified 2026-09-28). |
 
 

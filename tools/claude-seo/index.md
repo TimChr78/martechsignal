@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | The skill is free and MIT-licensed with no paid tier, and the tool page documents the real usage cost of roughly 6 USD in API tokens per full audit, while the optional paid Skool mirror has no published price in our sources (the vendor pricing page: [pricing page](https://claude-seo.md/), verified 2026-09-26). |
+| Pricing transparency | 7/10 | The skill is free and MIT-licensed with no paid tier, and the tool page documents the real usage cost of roughly 6 USD in API tokens per full audit, while the optional paid Skool mirror has no published price in our sources (the vendor pricing page: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 | Feature depth | 8/10 | 25 sub-skills, 18 specialist agents, 30 commands and 439 passing tests at v2.2.5 go past the skill-pack baseline with citability scoring, dependency tracking and explicit failure checks as differentiators (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 | Integrations | 3/10 | Five named integrations cover the surface: Claude Code, Google Search Console, DataForSEO, Firecrawl and Lighthouse, with no marketplace behind them (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 | AI capability | 9/10 | The product is itself an agent harness: /seo audit coordinates its specialist agents across 25 sub-skills inside Claude Code (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
-| Openness | 10/10 | MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (the source repository: [repository](AgriciDaniel/claude-seo), verified 2026-09-26). |
+| Openness | 10/10 | MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (the source repository: [repository](https://github.com/AgriciDaniel/claude-seo), verified 2026-09-26). |
 | Operational maturity | 6/10 | Founded in February 2026 with 17,737 GitHub stars, 2,599 forks (verified 2026-09-26) and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 
 

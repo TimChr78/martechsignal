@@ -7,7 +7,7 @@
 | Feature depth | 9/10 | Campaign creation, personalization decisioning, paid media optimization and cross-channel execution on Data 360 plumbing (vendor documentation: [vendor site](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
 | Integrations | 8/10 | Salesforce CRM, Data 360, Slack, Tableau, MuleSoft, Snowflake, Shopify, Google and Meta Ads documented in the catalog (vendor documentation: [vendor site](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
 | AI capability | 8/10 | Agentforce runs campaign creation, personalization decisioning and paid media optimization as agents, not features (vendor documentation: [vendor site](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise suite; exit is a migration program (the source repository: [repository](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise suite; exit is a migration program (vendor documentation: [vendor site](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
 | Operational maturity | 9/10 | Salesforce backing with per-org pricing, named editions and the compliance machinery regulated buyers expect (vendor documentation: [vendor site](https://www.salesforce.com/products/marketing-cloud/), verified 2026-09-28). |
 
 

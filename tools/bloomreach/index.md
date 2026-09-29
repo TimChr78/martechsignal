@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | AI search, recommendations, predictive personalization, content generation and merchandising cover the commerce experience stack (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 | Integrations | 7/10 | Shopify, Salesforce, Adobe, Google Cloud, Segment, Algolia, SAP and Commercetools documented plus an API (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 | AI capability | 8/10 | Loomi AI spans search, recommendations and merchandising as one named intelligence layer, included in the price (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform; portability is a program (the source repository: [repository](https://www.bloomreach.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform; portability is a program (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2009 with enterprise modules and the support model that tier implies (vendor documentation: [vendor site](https://www.bloomreach.com), verified 2026-09-28). |
 
 
@@ -114,7 +114,7 @@ Current plans and limits live on the [Bloomreach pricing page](https://www.bloom
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Bloomreach bundles what most commerce stacks sell separately: campaign orchestration, site search and merchandising, and a customer data engine that stitches behavioral, transactional, and demographic data into one profile. For retailers drowning in point solutions, one contract and one profile graph is a real simplification, and it operates across email, SMS, web, mobile app, and paid channels. Founded in 2009, it carries two decades of ecommerce data plumbing behind the AI polish.
 

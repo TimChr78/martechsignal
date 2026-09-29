@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Autonomous campaign management, budget allocation, targeting and cross-channel orchestration cover the paid loop end to end (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 | Integrations | 5/10 | Meta, Google and YouTube Ads plus Salesforce, Adobe Analytics and GA documented (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 | AI capability | 8/10 | Autonomous campaign management is the product thesis, not a feature line (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise service operating inside your accounts (the source repository: [repository](https://albert.ai), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise service operating inside your accounts (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2012 with enterprise autonomy deployments behind it (vendor documentation: [vendor site](https://albert.ai), verified 2026-09-28). |
 
 
@@ -112,7 +112,7 @@ Current plans and limits live on the [Albert AI pricing page](https://albert.ai/
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Albert runs paid media the way a trading desk runs markets: give it accounts, budgets, and conversion goals, and it plans, launches, and optimizes campaigns across search, social, display, and video on its own. The engine ingests creative, audience, and conversion data, then runs micro-experiments on audience, creative, bid, placement, and timing. Teams that trust automation get genuinely hands-off paid media. Albert has been at this since 2012, so the autonomy claims carry real mileage.
 

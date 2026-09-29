@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Visibility, citation and sentiment across 17+ engines, query fan-out insights and page-level AI audits with readiness scoring (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
 | Integrations | 6/10 | GA4, Search Console and Looker Studio connections plus REST API and MCP; no app marketplace beyond that (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
 | AI capability | 7/10 | Query fan-out retrieval insights and AI page audits with readiness scoring are genuinely model-aware features (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access; no self-hosting or open data portability terms documented (the source repository: [repository](https://rankscale.ai/), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access; no self-hosting or open data portability terms documented (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
 | Operational maturity | 5/10 | Agency-facing with SSO and support tiers, but no founding year is documented and the company is young (vendor documentation: [vendor site](https://rankscale.ai/), verified 2026-09-28). |
 
 

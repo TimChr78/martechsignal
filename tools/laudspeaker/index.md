@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (the vendor pricing page: [pricing page](https://laudspeaker.com/?ref=github), verified 2026-08-28). |
+| Pricing transparency | 7/10 | Free open-source self-hosted with cloud plans available but not listed in the catalog (the vendor pricing page: [vendor site](https://laudspeaker.com/?ref=github), verified 2026-08-28). |
 | Feature depth | 5/10 | Journey automation, behavioral triggers and product onboarding cover the engagement loop (vendor documentation: [vendor site](https://laudspeaker.com/?ref=github), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://laudspeaker.com/?ref=github), verified 2026-09-28). |
 | AI capability | 3/10 | AI-powered messaging is documented as one feature of the journey engine (vendor documentation: [vendor site](https://laudspeaker.com/?ref=github), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 2.6k GitHub stars and full self-hosting (the source repository: [repository](laudspeaker/laudspeaker), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 2.6k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/laudspeaker/laudspeaker), verified 2026-09-28). |
 | Operational maturity | 4/10 | 2.6k stars with a Braze-alternative positioning and no priced tiers listed (vendor documentation: [vendor site](https://laudspeaker.com/?ref=github), verified 2026-09-28). |
 
 

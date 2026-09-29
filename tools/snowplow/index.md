@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Event pipelines to six warehouse/lake formats plus real-time profiles with propensity and intent signals (vendor documentation: [vendor site](https://snowplow.io), verified 2026-09-28). |
 | Integrations | 8/10 | Snowflake, Databricks, BigQuery, Redshift, Delta Lake, Iceberg, Kafka, Kinesis and Pub/Sub documented (vendor documentation: [vendor site](https://snowplow.io), verified 2026-09-28). |
 | AI capability | 6/10 | Signals propensity predictions, intent detection and agentic context for AI agents make it model-ready plumbing (vendor documentation: [vendor site](https://snowplow.io), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (the source repository: [repository](snowplow/snowplow), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (the source repository: [repository](https://github.com/snowplow/snowplow), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2012 with a commercial cloud arm and long enterprise deployments (vendor documentation: [vendor site](https://snowplow.io), verified 2026-09-28). |
 
 

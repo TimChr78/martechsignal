@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Scheduling, listening, analytics and engagement across the major networks cover the social operations loop (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 | Integrations | 7/10 | Canva, Salesforce, HubSpot, Slack, Adobe, GA, Shopify and Dropbox documented plus an API (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 | AI capability | 5/10 | Caption generation, best-time-to-post and hashtag suggestions are useful conveniences (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.hootsuite.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2008 with the category's longest enterprise social track record (vendor documentation: [vendor site](https://www.hootsuite.com), verified 2026-09-28). |
 
 
@@ -112,7 +112,7 @@ Current plans and limits live on the [Hootsuite pricing page](https://www.hootsu
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Hootsuite is the enterprise social suite: one dashboard across 20-plus networks with bulk scheduling, a content library, AI-optimized post times, listening, employee advocacy, and social commerce. For multi-region teams, the permissions, approval flows, and governance are the point, and the 2026 AI layer across captions and publishing is the broadest in the category. This is the platform you buy when scale is the requirement.
 

@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Campaigns, Liquid templating and AI copy cover the email platform baseline without enterprise journey depth (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
 | Integrations | 6/10 | Six ESP transports (SES, Postmark, SendGrid, Mailgun, Mailjet, SparkPost) plus Anthropic, OpenAI, Gemini and Firecrawl documented (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI copy via three model vendors, Liquid-templated blog writing and Firecrawl research for AI-assisted content (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (the source repository: [repository](Notifuse/notifuse), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (the source repository: [repository](https://github.com/Notifuse/notifuse), verified 2026-09-28). |
 | Operational maturity | 3/10 | Founded 2025 with 2.2k stars; the project is early and operations are thin (vendor documentation: [vendor site](https://www.notifuse.com), verified 2026-09-28). |
 
 

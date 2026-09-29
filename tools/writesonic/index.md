@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | AI answer tracking across up to 10 platforms, article generation and site audits make one growth loop (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 | Integrations | 6/10 | Search Console, Ahrefs, WordPress, GA, Looker Studio and Cloudflare documented plus an API (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 | AI capability | 7/10 | Article generation inside a tracked-visibility loop is the platform's connective tissue (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://writesonic.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2021 with priced tiers and quota-stated plans (vendor documentation: [vendor site](https://writesonic.com), verified 2026-09-28). |
 
 

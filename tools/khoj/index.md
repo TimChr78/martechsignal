@@ -3,11 +3,11 @@
 
 | Pillar | Score | Evidence |
 | --- | --- | --- |
-| Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (the vendor pricing page: [pricing page](https://khoj.dev), verified 2026-09-28). |
+| Pricing transparency | 5/10 | Self-hosted free under AGPL-3.0; Khoj Cloud exists with no public pricing page found (Sep 2026) (the vendor pricing page: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | Feature depth | 6/10 | Document Q&A across five formats, custom agents with personas and workflow automation cover research work (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | Integrations | 5/10 | Obsidian, Emacs, WhatsApp and Notion documented plus an API (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 | AI capability | 7/10 | Local and online LLM chat with custom agents and document retrieval is the product core (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (the source repository: [repository](khoj-ai/khoj), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with 37.5k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/khoj-ai/khoj), verified 2026-09-28). |
 | Operational maturity | 5/10 | 37.5k stars with an optional cloud tier of undisclosed size (vendor documentation: [vendor site](https://khoj.dev), verified 2026-09-28). |
 
 

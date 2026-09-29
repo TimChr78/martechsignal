@@ -7,7 +7,7 @@
 | Feature depth | 9/10 | Visibility tracking across up to 9 engines, Prompt Volumes demand data, drafting agents and citations analytics make it a platform rather than a tracker (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
 | Integrations | 6/10 | Six documented connections including GA, Cloudflare and WordPress, plus an API; it stops short of a broad marketplace (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
 | AI capability | 8/10 | AI Marketer agents that draft content and manage visibility work are core product, not add-ons (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (the source repository: [repository](https://www.tryprofound.com/), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS with no self-hosting or published data export guarantees in the catalog (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
 | Operational maturity | 6/10 | Sells to enterprise with the support model that implies, but the company is young and the catalog documents no founding year (vendor documentation: [vendor site](https://www.tryprofound.com/), verified 2026-09-28). |
 
 

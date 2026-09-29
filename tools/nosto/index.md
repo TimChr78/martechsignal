@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Recommendations, semantic search, visual AI tagging and category merchandising cover the commerce experience loop (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 | Integrations | 7/10 | Seven named commerce platforms from Shopify Plus to PrestaShop plus Klaviyo and Attentive (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 | AI capability | 7/10 | Vector-embedding search and predictive recommendations are core, with visual tagging on top (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS (the source repository: [repository](https://www.nosto.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 | Operational maturity | 7/10 | Founded 2013 with a decade of commerce personalization deployments (vendor documentation: [vendor site](https://www.nosto.com), verified 2026-09-28). |
 
 
@@ -149,7 +149,7 @@ Small catalogs and small teams: pricing is quote-based GMV-plus-traffic with a b
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from nosto.com, docs.nosto.com, help.nosto.com, and the pricing page (September 2026). Not a hands-on review. The public surface is unusually deep for a quote-based vendor: a full technical docs site with published rate limits and implementation timelines, a help center, and a pricing page that explains structure while publishing no numbers. Evaluation without a sales conversation stops at the documentation.
 

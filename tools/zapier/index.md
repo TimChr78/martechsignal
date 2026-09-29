@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Multi-step Zaps, logic, tables and the AI workflow builder cover nearly every automation shape a marketing team needs (vendor documentation: [vendor site](https://zapier.com), verified 2026-09-28). |
 | Integrations | 9/10 | 9,000+ connected apps including Salesforce, HubSpot, Dynamics, Zendesk and NetSuite; nothing else in the category is close on breadth (vendor documentation: [vendor site](https://zapier.com), verified 2026-09-28). |
 | AI capability | 7/10 | AI workflow builder, data formatting, content generation, chatbot builder and AI agents are all shipping product (vendor documentation: [vendor site](https://zapier.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with a strong API; your workflows are portable only as re-builds (the source repository: [repository](https://zapier.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with a strong API; your workflows are portable only as re-builds (vendor documentation: [vendor site](https://zapier.com), verified 2026-09-28). |
 | Operational maturity | 9/10 | Founded 2011 with the category's longest enterprise track record and status transparency (vendor documentation: [vendor site](https://zapier.com), verified 2026-09-28). |
 
 
@@ -134,7 +134,7 @@ Current plans and limits live on the [Zapier pricing page](https://zapier.com/pr
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Researched from Zapier's public pricing and product pages. Not a hands-on review. Zapier is the default answer when someone says they want to connect two apps without code. The model is simple to understand: trigger, steps, done, with a visual editor that any marketer can learn in an afternoon. It lists more than 9,000 supported apps, so the long tail of niche martech tools is covered better than on any competing platform. The cost grows with usage: pricing is per active task, and chatty integrations or high-volume automations hit the top tiers fast.
 

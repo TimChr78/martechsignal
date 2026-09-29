@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Delivery API, templates and engagement tooling cover the sending stack; campaign depth is shallower than marketing platforms (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
 | Integrations | 7/10 | Twilio, Salesforce, Shopify, Zapier, Slack, WordPress, Segment and Snowflake documented plus the core API (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
 | AI capability | 5/10 | Deliverability optimization, engagement insights and send-time optimization are quietly useful rather than headline AI (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (the source repository: [repository](https://sendgrid.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed platform; the API surface keeps it substitutable at the transport layer (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Twilio-owned since 2009-era operations with the volume track record email buyers price in (vendor documentation: [vendor site](https://sendgrid.com), verified 2026-09-28). |
 
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [Twilio SendGrid pricing page](https://www.
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 SendGrid (Twilio) is the developer default for transactional email, and our integration experience was straightforward: API keys, SMTP relay, webhook events, done in an afternoon. Deliverability from shared IPs was acceptable; dedicated IPs needed the documented warm-up and rewarded it.
 

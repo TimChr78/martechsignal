@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Transactional and marketing email with batch sending and contact imports cover the developer email stack (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
 | Integrations | 6/10 | Next.js, Vercel, React Email, Zapier, an official Cursor plugin and Vercel Marketplace documented (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
 | AI capability | 6/10 | AI Email Editor with brand-voice drafting, template assistant and column mapping plus a hosted MCP server (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
-| Openness | 6/10 | MIT SDKs at 19.7k GitHub stars behind a closed sending service (the source repository: [repository](resend/react-email), verified 2026-09-28). |
+| Openness | 6/10 | MIT SDKs at 19.7k GitHub stars behind a closed sending service (the source repository: [repository](https://github.com/resend/react-email), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2023 with fast developer adoption and published tier ceilings (vendor documentation: [vendor site](https://resend.com), verified 2026-09-28). |
 
 

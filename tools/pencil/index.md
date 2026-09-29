@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Text, image, video and ad creative generation with performance prediction cover the creative pipeline (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 | Integrations | 6/10 | Nine named ad and DAM connections from Meta and Google Ads to DV360 and Bynder (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 | AI capability | 8/10 | Multi-model aggregation across OpenAI, Google, Adobe, Runway and Bria with self-serve agents per medium (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS; no API documented in the catalog (the source repository: [repository](https://trypencil.com), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS; no API documented in the catalog (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2018 with published tiers and enterprise creative deployments (vendor documentation: [vendor site](https://trypencil.com), verified 2026-09-28). |
 
 

@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Multi-touch attribution, revenue tracking and budget optimization cover the spend-to-revenue question (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
 | Integrations | 6/10 | Salesforce, HubSpot, Google, Meta and LinkedIn Ads, Slack and Marketo documented plus an API (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
 | AI capability | 5/10 | AI attribution and channel analysis serve the measurement loop (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise SaaS (the source repository: [repository](https://www.attributionapp.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise SaaS (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2016 with focused attribution deployments (vendor documentation: [vendor site](https://www.attributionapp.com), verified 2026-09-28). |
 
 
@@ -116,7 +116,7 @@ Current plans and limits live on the [Attribution pricing page](https://www.attr
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 This tool (slug 'attribution', also called Attribution) is a lightweight multi-touch attribution solution aimed at teams that found Google Analytics insufficient. It tracks channels, credits conversions per model, and produces the comparison view that marketing reviews tend to fight over. Setup is tag-and-paste, and the reports are readable without an analyst.
 

@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Workflow automation, RPA and agentic flows cover the enterprise automation stack (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 | Integrations | 8/10 | Microsoft 365, SharePoint, Dataverse, Salesforce, SAP and Google Drive documented plus an API (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 | AI capability | 6/10 | Copilot-assisted flow building, AI Builder document processing and agentic flows (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
-| Openness | 2/10 | Closed enterprise platform (the source repository: [repository](https://powerautomate.microsoft.com), verified 2026-09-28). |
+| Openness | 2/10 | Closed enterprise platform (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 | Operational maturity | 8/10 | Founded 2016 inside Microsoft's enterprise support structure (vendor documentation: [vendor site](https://powerautomate.microsoft.com), verified 2026-09-28). |
 
 

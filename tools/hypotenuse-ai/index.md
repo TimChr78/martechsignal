@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Articles, product descriptions, images and bulk generation cover the catalog content workflow (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 | Integrations | 5/10 | Shopify, WordPress, Chrome, Zapier, Google Docs and Webflow documented plus an API (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 | AI capability | 6/10 | Bulk generation with brand voice across text and images is the practical core (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
-| Openness | 3/10 | Closed SaaS with API access (the source repository: [repository](https://www.hypotenuse.ai), verified 2026-09-28). |
+| Openness | 3/10 | Closed SaaS with API access (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 | Operational maturity | 5/10 | Founded 2020 with one published tier and an enterprise option (vendor documentation: [vendor site](https://www.hypotenuse.ai), verified 2026-09-28). |
 
 
@@ -117,7 +117,7 @@ Current plans and limits live on the [Hypotenuse AI pricing page](https://www.hy
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 Hypotenuse AI positions itself around product content: bulk on-brand product descriptions, category page copy, SEO metadata, and attribute enrichment across catalogs of thousands of SKUs, generated from minimal input like a product name, specs, and an image. A data cleaning layer standardizes messy product attributes first. For catalog-heavy retailers, this replaces a content team's grunt work in a way a general writer cannot.
 

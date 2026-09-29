@@ -7,7 +7,7 @@
 | Feature depth | 8/10 | Pipelines, deals, email logging, meeting scheduling, ticketing and campaign reporting cover the CRM baseline with real differentiators in the all-in-one hubs and Agent Hub (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | Integrations | 9/10 | Named natives include Gmail, Outlook, Slack, Zapier, Salesforce, Shopify, Stripe and Google Analytics, backed by the public App Marketplace at ecosystem.hubspot.com and an open API (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | AI capability | 8/10 | Shipped features include an AI email writer, predictive lead scoring, AI call transcription, AI meeting scheduler and AI content suggestions, plus Agent Hub for building and managing AI agents across the platform (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
-| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (the source repository: [repository](https://www.hubspot.com/products/crm), verified 2026-09-26). |
+| Openness | 5/10 | The product is closed source, but an open API is documented and HubSpot's knowledge base covers exporting records and content, matching the full export plus open API anchor (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 | Operational maturity | 9/10 | Founded in 2006 and headquartered in Cambridge, with multi-hub Enterprise plans, a public app marketplace and a partner ecosystem behind the product (vendor documentation: [vendor site](https://www.hubspot.com/products/crm), verified 2026-09-26). |
 
 
@@ -118,7 +118,7 @@ Current plans and limits live on the [HubSpot CRM pricing page](https://www.hubs
 
 ## Review notes
 
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
+Researched from public documentation, and vendor materials. Not a hands-on test.
 
 HubSpot CRM is the default free entry point for small teams: contacts, deals, pipelines, and basic marketing in one product. The free tier is genuinely useful, which is the whole strategy. The platform price escalates quickly once you need workflows, sequences, and higher limits, and the all-in-one pitch means you keep paying into a single vendor.
 
