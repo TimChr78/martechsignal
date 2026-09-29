@@ -111,8 +111,8 @@ Browse the [MartechSignal tools directory](/tools/) for what's competing with Ag
 
 ## Related reading
 
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 

@@ -107,7 +107,7 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
@@ -174,7 +174,7 @@ More from the directory: [Anyword](/tools/anyword/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2137,
+  "wordCount": 2140,
   "articleSection": "agent-skills"
 }
 ```
