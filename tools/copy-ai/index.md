@@ -21,7 +21,7 @@
 Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
 **How much does Copy.ai cost?**
-Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Copy.ai worth it past the free tier?**
 Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Copy.ai: AI-powered GTM platform for sales and marketing content automation at scale. Copy.ai ships with AI copy generation. This page documents 8 integrations.
 
-Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Buy it for the GTM workflows and prospecting cockpit, not for copywriting. Pure content teams have cheaper options.
 
@@ -247,7 +247,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Copy.ai cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Copy.ai has a free tier; paid plans start at $49/mo. Free plan (2,000 words/mo); Pro $49/mo or $36/mo annual; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -293,5 +293,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

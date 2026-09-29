@@ -21,7 +21,7 @@
 ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
 
 **How much does ContentBot cost?**
-ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is ContentBot worth it past the free tier?**
 Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
@@ -141,7 +141,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ContentBot: AI content automation platform with workflows for blogs, ads, and social posts. ContentBot ships with AI blog generation. This page documents 5 integrations.
 
-ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Good value for high-volume, template-driven content pipelines. Teams doing premium long-form writing should stay with Jasper.
 
@@ -243,7 +243,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does ContentBot cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "ContentBot has a free tier; paid plans start at $9/mo. Prepaid $0.50/1K words; Starter $9/mo; Premium $29/mo; free trial available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -289,5 +289,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

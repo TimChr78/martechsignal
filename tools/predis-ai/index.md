@@ -21,7 +21,7 @@
 Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
 
 **How much does Predis.ai cost?**
-Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Predis.ai worth it past the free tier?**
 Efficient social content factory for small brands; B2B nuance still needs a human editor.
@@ -138,7 +138,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Predis.ai: AI-powered social media content generator for posts, videos, and ad creatives. Predis.ai ships with AI post generation. This page documents 6 integrations.
 
-Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Efficient social content factory for small brands; B2B nuance still needs a human editor.
 
@@ -245,7 +245,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Predis.ai cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Predis.ai has a free tier; paid plans start at $19/mo. Free plan available; Core $19/mo; Pro and Agency tiers; annual discounts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -291,5 +291,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

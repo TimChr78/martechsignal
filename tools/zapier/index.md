@@ -22,7 +22,7 @@
 Zapier: No-code automation platform connecting 9,000+ apps with AI-powered workflows. Zapier ships with AI workflow builder. This page documents 8 integrations.
 
 **How much does Zapier cost?**
-Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 **Is Zapier worth it past the free tier?**
 Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt.
@@ -162,7 +162,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Zapier: No-code automation platform connecting 9,000+ apps with AI-powered workflows. Zapier ships with AI workflow builder. This page documents 8 integrations.
 
-Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 Buy Zapier for breadth and onboarding speed. Move to Make or n8n when branching logic or volume starts making the per-task price hurt.
 
@@ -179,8 +179,8 @@ They meter differently. Zapier charges per task, and work repeated inside a Zap 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for breadth and onboarding speed on niche integrations.
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Zapier cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "Zapier has a free tier; paid plans start at $19.99/mo. Free (100 tasks/mo, 2-step Zaps); Professional $19.99/mo (annual); Team $69/mo (annual). We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -357,5 +357,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

@@ -22,7 +22,7 @@
 n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,232 stars.
 
 **How much does n8n cost?**
-n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 **Is n8n a good self-hosted Workflow Automation tool in 2026?**
 The right choice when you want owned automation with code-level control and no per-task tax.
@@ -33,7 +33,8 @@ The right choice when you want owned automation with code-level control and no p
 - **Founded:** 2019
 - **HQ:** Berlin, Germany
 - **API:** Yes
-- **Last verified:** 2026-09-27
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-27
 
 **Verdict:** n8n is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -147,7 +148,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 n8n: Open-source workflow automation platform with AI agent capabilities and 400+ nodes. n8n ships with AI agent nodes. The public repository carries 206,232 stars.
 
-n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+n8n has a free tier; paid plans start at €20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 €/mo billed annually (2.5K executions); Pro 50 €/mo billed annually; Business 667 €/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 The right choice when you want owned automation with code-level control and no per-task tax.
 
@@ -156,8 +157,8 @@ The right choice when you want owned automation with code-level control and no p
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
 ## Also featured in
 
 - [Best workflow automation tools (2026)](/best/workflow-automation-tools/) — Best for self-hosted workflows with code steps and AI agents.
@@ -257,7 +258,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does n8n cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "n8n has a free tier; paid plans start at \u20ac20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 \u20ac/mo billed annually (2.5K executions); Pro 50 \u20ac/mo billed annually; Business 667 \u20ac/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "n8n has a free tier; paid plans start at \u20ac20/mo. Self-hosted Community Edition free (fair-code); Cloud Starter 20 \u20ac/mo billed annually (2.5K executions); Pro 50 \u20ac/mo billed annually; Business 667 \u20ac/mo billed annually (self-hosted license); Enterprise custom. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -303,5 +304,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

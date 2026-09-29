@@ -21,7 +21,7 @@
 Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations.
 
 **How much does Microsoft Power Automate cost?**
-Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Microsoft Power Automate is paid software; plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
 **Is Microsoft Power Automate worth paying for in 2026?**
 Strengths include an API for custom integrations. Paid plans start at $15/mo
@@ -126,7 +126,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Microsoft Power Automate: Enterprise workflow automation inside the Microsoft Power Platform. Microsoft Power Automate ships with copilot-assisted flow building. This page documents 6 integrations.
 
-Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Microsoft Power Automate is paid software; plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
 Strengths include an API for custom integrations. Paid plans start at $15/mo
 
@@ -221,7 +221,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Microsoft Power Automate cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Microsoft Power Automate has a free tier; paid plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "Microsoft Power Automate is paid software; plans start at $15/mo. Power Automate Premium $15/user/month paid yearly; Process (unattended RPA) $150/bot/month; Hosted Process $215/bot/month. Verified 2026-09-27. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.\""
         }
       },
       {
@@ -267,5 +267,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

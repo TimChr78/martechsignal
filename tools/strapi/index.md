@@ -22,7 +22,7 @@
 Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,250 stars.
 
 **How much does Strapi cost?**
-Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Strapi a good self-hosted AI Content & Copywriting tool in 2026?**
 Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish.
@@ -33,7 +33,8 @@ Our default headless CMS for custom builds; choose it for flexibility, not for t
 - **Founded:** 2015
 - **HQ:** Paris, France
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-28
 
 **Verdict:** Strapi is a tool in AI Content & Copywriting with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -141,7 +142,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Strapi: Open-source headless CMS with AI-powered content management and API-first design. Strapi ships with AI content generation. The public repository carries 73,250 stars.
 
-Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Our default headless CMS for custom builds; choose it for flexibility, not for turnkey publishing polish.
 
@@ -248,7 +249,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Strapi cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Strapi has a free tier; paid plans start at $99/mo. Self-hosted free (MIT); Cloud Developer free; Pro $99/mo; Team $499/mo; Enterprise custom. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -294,5 +295,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

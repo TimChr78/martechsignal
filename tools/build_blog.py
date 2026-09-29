@@ -19,6 +19,10 @@ _H9_ENTITY = _h9j.dumps({
          "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"],
          "worksFor": {"@id": "https://martechsignal.com/#organization"},
          "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]},
+        # r16 M-7 (2026-09-29): blog copy of the shared entity block; WebSite
+        # stub joins here too so post graphs resolve isPartOf in-page.
+        {"@type": "WebSite", "@id": "https://martechsignal.com/#website",
+         "name": "MartechSignal", "url": "https://martechsignal.com/"},
     ],
 })
 _H9_TAG = '<script type="application/ld+json">' + _H9_ENTITY + '</script>'

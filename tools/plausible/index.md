@@ -22,7 +22,7 @@
 Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,248 stars.
 
 **How much does Plausible Analytics cost?**
-Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Plausible Analytics a good self-hosted Analytics & Attribution tool in 2026?**
 The analytics tool we recommend by default for content and marketing sites; power users will want a second layer.
@@ -33,7 +33,8 @@ The analytics tool we recommend by default for content and marketing sites; powe
 - **Founded:** 2019
 - **HQ:** Tallinn, Estonia
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-28
 
 **Verdict:** Plausible Analytics is a tool in Analytics & Attribution with free and open source. The catalog documents 3 AI features, 6 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -139,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Plausible Analytics: Lightweight, privacy-friendly open-source web analytics alternative to Google Analytics. Plausible Analytics ships with AI-powered insights. The public repository carries 29,248 stars.
 
-Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 The analytics tool we recommend by default for content and marketing sites; power users will want a second layer.
 
@@ -246,7 +247,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Plausible Analytics cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Plausible Analytics has a free tier; paid plans start at $9/mo. Self-hosted free (AGPL); Cloud from $9/mo (10K pageviews); scales with traffic. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -292,5 +293,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

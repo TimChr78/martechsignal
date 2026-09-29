@@ -2572,7 +2572,7 @@
    "category": "crm",
    "pricing_model": "paid",
    "pricing_url": "https://www.freshworks.com/crm/pricing/",
-   "price_from": 0,
+   "price_from": 9,
    "price_notes": "Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account.",
    "ai_features": [
     "Freddy AI contact and intent scoring (Pro and up)",
@@ -9773,6 +9773,7 @@
      "AI assistant": "Zia"
     }
    },
+   "paid_from": 14,
    "page_url": "https://martechsignal.com/tools/zoho-crm/"
   },
   {

@@ -22,7 +22,7 @@
 Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
 
 **How much does Mailchimp cost?**
-Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Mailchimp worth it past the free tier?**
 Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure.
@@ -148,7 +148,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Mailchimp: All-in-one marketing platform with AI-powered email, automation, and analytics. Mailchimp ships with AI content optimizer. This page documents 8 integrations.
 
-Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Fine as a starting point, especially free. Budget to migrate once automation depth or list size starts to strain the plan structure.
 
@@ -156,9 +156,9 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send
@@ -255,7 +255,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Mailchimp cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Mailchimp has a free tier; paid plans start at $13/mo. Free plan (500 contacts, 1,000 emails/mo); Essentials $13/mo; Standard $20/mo; Premium $350/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -301,5 +301,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

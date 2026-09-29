@@ -31,7 +31,7 @@
    "url": "https://martechsignal.com/catalog-tools.json",
    "representativeQueries": [
     "martechsignal tool catalog data",
-    "ai marketing tools dataset"
+    "ai marketing tools dataset with pricing"
    ]
   },
   {
@@ -40,8 +40,8 @@
    "type": "application/ai-catalog+json",
    "url": "https://martechsignal.com/catalog-categories.json",
    "representativeQueries": [
-    "martechsignal tool catalog data",
-    "ai marketing tools dataset"
+    "martechsignal category taxonomy",
+    "martech tool categories list"
    ]
   }
  ]

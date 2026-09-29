@@ -21,7 +21,7 @@
 Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
 
 **How much does Freshsales cost?**
-Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Freshsales is paid software; plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
 **Is Freshsales worth paying for in 2026?**
 The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
@@ -32,14 +32,14 @@ The current pricing page lists three paid plans and a 21-day trial of the fully 
 **What is a Freshsales bot session?**
 A bot session is any unique interaction between an end user and a bot. On chat, all of one end user's bot interactions in a day count as one session lasting up to 24 hours. Only customer-facing AI bot features consume sessions; agent-facing AI features do not.
 
-- **Pricing:** Free tier
+- **Pricing:** From $9/mo
 - **Category:** [CRM](/categories/crm/)
 - **Founded:** 2010
 - **HQ:** San Mateo, CA, USA
 - **API:** Yes
 - **Last verified:** 2026-09-27
 
-**Verdict:** Freshsales is a tool in CRM with a free tier. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** Freshsales is a tool in CRM with paid plans starting at $9/mo. The catalog documents 5 AI features and a public API. We reviewed it from vendor documentation on 2026-09-27. This is a desk review, not a hands-on test. Desk-reviewed
 
 Pipedrive
 
@@ -73,9 +73,9 @@ Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React
 
 AI-powered CRM with built-in phone, email, and chat for sales teams
 
-CRM · Free tier Desk-reviewed
+CRM · From $9/mo Desk-reviewed
 
-MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-28
+MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
 [Visit Freshsales →](https://www.freshworks.com/crm/)
 
@@ -104,7 +104,7 @@ Freshsales homepage, captured September 2026. Vendor page shown as a dated refer
 - Forecasting insights (Enterprise)
 ## Pricing
 
-Freshsales is free to use, paid plans start at $9/mo as of 2026-09.
+Freshsales is sold on paid plans, from $9/mo as of 2026-09.
 
 Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account.
 
@@ -156,7 +156,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Freshsales: AI-powered CRM with built-in phone, email, and chat for sales teams. Freshsales ships with freddy AI contact and intent scoring (Pro and up). Freshsales offers a public API for custom integrations.
 
-Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+Freshsales is paid software; plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them."
 
 The pragmatic budget CRM for sales-led mid-market teams. Pricing is sharper than most reviews say, and the AI is real but tier-gated and metered.
 
@@ -201,7 +201,7 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/freshsales/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-28",
+    "dateModified": "2026-09-29",
     "datePublished": "2026-07-27",
     "offers": {
       "@type": "Offer",
@@ -258,7 +258,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Freshsales cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Freshsales has a free tier; paid plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "Freshsales is paid software; plans start at $9/mo. Growth $9/user/mo, Pro $39/user/mo, Enterprise $59/user/mo (billed annually); 21-day free trial of the full product. Add-ons: Freddy AI Agent $49 per 100 bot sessions, Branded documents $19/user/mo. 500 trial bot sessions once per paid account. We last checked that price on 2026-09-27. The pricing section above lists every plan we can verify, including annual-billing differences where the vendor publishes them.\""
         }
       },
       {
@@ -320,5 +320,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

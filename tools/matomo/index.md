@@ -22,7 +22,7 @@
 Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,908 stars.
 
 **How much does Matomo cost?**
-Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
 **Is Matomo a good self-hosted Analytics & Attribution tool in 2026?**
 The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
@@ -45,7 +45,8 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 - **Founded:** 2007
 - **HQ:** Wellington, New Zealand
 - **API:** Yes
-- **Last verified:** 2026-09-06
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-06
 
 **Verdict:** Matomo is a tool in Analytics & Attribution with free and open source. The catalog documents 4 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-06. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -176,7 +177,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Matomo: Open-source web analytics platform with full data ownership and AI-powered insights. Matomo ships with AI chatbot traffic reports. The public repository carries 21,908 stars.
 
-Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Matomo has a free tier; paid plans start at €22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 €/mo, Business 1,450 €/mo, Enterprise 3,400 €/mo, about 17% less billed annually. Cloud from 22 €/mo for 50,000 hits, scaling to 14,850 €/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
 The analytics platform to pick when data residency and ownership are requirements rather than preferences. Budget for operations time and for the premium plugins you will use.
 
@@ -193,8 +194,8 @@ Yes, but they measure AI rather than behave like an AI analyst. Matomo 5.12.0 ad
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — Teams that want GA-grade analytics with the data staying home
@@ -294,7 +295,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Matomo cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Matomo has a free tier; paid plans start at \u20ac22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 \u20ac/mo, Business 1,450 \u20ac/mo, Enterprise 3,400 \u20ac/mo, about 17% less billed annually. Cloud from 22 \u20ac/mo for 50,000 hits, scaling to 14,850 \u20ac/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
+          "text": "Matomo has a free tier; paid plans start at \u20ac22/mo. Self-hosted core free (GPL v3+). On-Premise premium bundles: Team 275 \u20ac/mo, Business 1,450 \u20ac/mo, Enterprise 3,400 \u20ac/mo, about 17% less billed annually. Cloud from 22 \u20ac/mo for 50,000 hits, scaling to 14,850 \u20ac/mo at 100 million. 21-day Cloud trial. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -372,5 +373,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

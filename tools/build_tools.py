@@ -874,7 +874,7 @@ def _money(p, t):
     """M21 honesty: catalog prices carry a currency field (USD/EUR). Never stamp
     another currency's symbol on a number."""
     _cur = (t.get("currency") or "USD")
-    _sym = {"USD": "$", "EUR": "\u20ac"}.get(_cur, _cur + " ")
+    _sym = {"USD": "$", "EUR": "€"}.get(_cur, _cur + " ")
     return f"{_sym}{p}/mo"
 
 def _score_band(t):
@@ -1059,7 +1059,15 @@ def _offer_for(t):
     # paid cloud/premium tiers listed in price_notes) contradict a zero Offer
     # on their own visible pricing. Only genuinely-free products keep it.
     if _pf == 0 and (t.get("pricing_model") == "free" or t.get("open_source")):
-        if not re.search(r"[€$£]\s?\d|\d+\s?€", t.get("price_notes") or ""):
+        # r16 M-9 (2026-09-29): open-source records stay free by definition
+        # (self-host); dollar figures in their notes are usage costs, not
+        # product tiers (seo-skill-bench precedent: $1.70-$4.46 are the
+        # caller's own LLM API tokens). Freemium-model records keep the
+        # nonzero blocker (r7 M5): quoted paid tiers in notes contradict a
+        # lone zero Offer. "$0" alone is a free price, not a paid tier.
+        if t.get("open_source") and str(t.get("pricing_model") or "") in ("open-source", "free"):
+            return _offer(0)
+        if not re.search(r"[€$£]\s?[1-9]|\d+\s?€", t.get("price_notes") or ""):
             return _offer(0)
     return None
 
@@ -1517,10 +1525,23 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             # freemium with a known paid entry: quote both sides of the freemium split
             _pn = (t.get("price_notes") or "").strip().rstrip(".")
             _vd = t.get("date_verified") or t.get("date_updated") or "September 2026"
-            a2 = (f"{name} has a free tier; paid plans start at {_money(t['paid_from'], t)}. "
-                  + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
-                  + f"We last checked both ends of that split on {_vd}. The pricing section "
-                    "above shows what the free tier actually covers.")
+            # r16 M-9 (2026-09-29): the free-tier claim needs a real free-entry
+            # signal (same gate as the both-tier Offer). Paid/trial-only
+            # records with a paid entry (freshsales precedent: Growth $9, trial
+            # only, price_from was a 0 data gap) get paid wording, never a
+            # manufactured free tier.
+            _free_sig = (t.get("price_from") == 0 and
+                         (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")))
+            if _free_sig:
+                a2 = (f"{name} has a free tier; paid plans start at {_money(t['paid_from'], t)}. "
+                    + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                    + f"We last checked both ends of that split on {_vd}. The pricing section "
+                    + "above shows what the free tier actually covers.\"")
+            else:
+                a2 = (f"{name} is paid software; plans start at {_money(t['paid_from'], t)}. "
+                    + (_pn[0].upper() + _pn[1:] + ". " if _pn else "")
+                    + f"We last checked that price on {_vd}. The pricing section above lists "
+                    + "every plan we can verify, including annual-billing differences where the vendor publishes them.\"")
         elif t.get("open_source"):
             # R2 L-1 (2026-09-08): source-available tools (alphone: Elastic 2.0) must not
             # be called open source here - the license sidebar says otherwise.
@@ -1861,7 +1882,8 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         {'<div class="side-row"><dt>Founded</dt><dd>' + str(t['founded']) + '</dd></div>' if t.get('founded') else ''}
         {'<div class="side-row"><dt>HQ</dt><dd>' + esc(t['hq']) + '</dd></div>' if t.get('hq') else ''}
         <div class="side-row"><dt>API</dt><dd>{'Yes' if t.get('api_available') else 'No'}</dd></div>
-        {'<div class="side-row"><dt>Last verified</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('date_updated') else ''}
+        {'<div class="side-row"><dt>Repository checked</dt><dd><time datetime="' + esc(t['github_checked']) + '">' + esc(t['github_checked']) + '</time></dd></div><div class="side-row"><dt>Page updated</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('github_checked') and t.get('date_updated') else ''}
+        {'<div class="side-row"><dt>Last verified</dt><dd><time datetime="' + esc(t['date_updated']) + '">' + esc(t['date_updated']) + '</time></dd></div>' if t.get('date_updated') and not t.get('github_checked') else ''}
       </dl>
     </div>
     <div class="side-card cta-card">
@@ -2737,15 +2759,19 @@ def assert_factual_consistency(tools):
         if t.get("status") != "active":
             continue
         slug, model = t["slug"], t.get("pricing_model")
-        paid_custom = t.get("price_from") is None or t.get("pricing_model") == "enterprise"
         page = TOOLS_DIR / slug / "index.html"
         if not page.exists():
             continue
         html = page.read_text()
         if re.search(r'"price"\s*:\s*0\b', html) and model in ("enterprise", "paid"):
             problems.append(f"{slug}: offers.price=0 on {model} pricing")
-        if paid_custom and "has a free tier" in html:
-            problems.append(f"{slug}: FAQ claims free tier on {model} pricing")
+        # r16 M-9 (2026-09-29): the free-tier claim needs a real free-entry
+        # signal (freshsales precedent: paid/trial-only page claimed a free
+        # tier from a 0 data gap). Same gate as the both-tier Offer.
+        _free_sig = (t.get("price_from") == 0 and
+                     (t.get("open_source") or str(t.get("pricing_model") or "").lower() in ("freemium", "free", "open-core")))
+        if "has a free tier" in html and not _free_sig:
+            problems.append(f"{slug}: FAQ claims free tier without a free-entry signal ({model})")
         if t.get("name") and len(t.get("name","")) > 3:
             # A2 M3: H1 phrasing varies by pricing class; the invariant is that the
             # tool name leads the H1.
@@ -2875,6 +2901,10 @@ def build_llms_txt(tools, cats):
         "",
         f"- [catalog-tools.json](https://martechsignal.com/catalog-tools.json) - full tool catalog: pricing, license, hosting, open-source status (ARD). {_records} records = {n_active} active + {_retired} non-active; the directory above lists only active tools",
         "- [oss-momentum.json](https://martechsignal.com/oss-momentum.json) - open-source star momentum dataset with snapshot-bounded windows",
+        # r16 M-3 (2026-09-29): llms-full.txt mirrors 7.6% of prose; the
+        # per-page index.md mirrors (200 text/markdown, 58-80% coverage)
+        # are the strong artifact. Point agents at them, don't expand the txt.
+        "- Markdown mirrors: every page ships a full-prose `index.md` twin (reviews, comparisons, posts) - take any page URL, append `index.md` (e.g. https://martechsignal.com/tools/n8n/index.md)",
         "",
     ]
     out.write_text("\n".join(lines))

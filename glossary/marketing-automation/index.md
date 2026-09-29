@@ -80,20 +80,30 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
 [
   {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "name": "Marketing Automation",
-    "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.",
-    "dateModified": "2026-09-28",
-    "inDefinedTermSet": {
-      "@id": "https://martechsignal.com/glossary/#set"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "url": "https://martechsignal.com/glossary/marketing-automation/"
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "name": "Marketing Automation",
+        "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.",
+        "dateModified": "2026-09-28",
+        "inDefinedTermSet": {
+          "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "publisher": {
+          "@id": "https://martechsignal.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://martechsignal.com/#website"
+        },
+        "url": "https://martechsignal.com/glossary/marketing-automation/"
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://martechsignal.com/glossary/#set",
+        "url": "https://martechsignal.com/glossary/",
+        "name": "Martech Glossary"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -123,5 +133,5 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

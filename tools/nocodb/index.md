@@ -22,7 +22,7 @@
 NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,104 stars.
 
 **How much does NocoDB cost?**
-NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is NocoDB a good self-hosted Marketing Automation tool in 2026?**
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
@@ -40,7 +40,8 @@ Yes, that is the core design: connect an external data source and NocoDB builds 
 - **Category:** [Marketing Automation](/categories/marketing-automation/)
 - **GitHub:** ★ 65104
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
 
 **Verdict:** NocoDB is a tool in Marketing Automation with free and open source. The catalog documents 3 AI features, 8 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -175,7 +176,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 NocoDB: Free, self-hostable Airtable alternative that turns any database into a smart spreadsheet. NocoDB ships with nocoAI prompt-based schema, table, view and formula generation (paid). The public repository carries 65,104 stars.
 
-NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 The shortest self-hosted path from spreadsheet chaos to a permissioned, API-covered base over your own database. Go in knowing the license is fair-code rather than open source, and that AI and the advanced views sit behind paid tiers.
 
@@ -289,7 +290,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does NocoDB cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "NocoDB has a free tier; paid plans start at $12/mo. Self-host free, unlimited records and seats (Sustainable Use License, fair-code). Cloud: Free (3 users, 1,000 records), Plus $12/seat/mo billed annually, Business $24 (external DB connections, SAML SSO), Scale $45, Enterprise custom. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -359,5 +360,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

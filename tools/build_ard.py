@@ -86,7 +86,10 @@ def build():
     # Machine-readable data sources (url reference, value-or-reference §4.3).
     # Served as root catalog-*.json (llms-full.txt siblings): /data/ is correctly
     # closed by .assetsignore (pipeline state), so manifest urls must not point there.
-    for fname in ("tools.json", "categories.json"):
+    for fname, qs in (("tools.json", ["martechsignal tool catalog data",
+                                      "ai marketing tools dataset with pricing"]),
+                      ("categories.json", ["martechsignal category taxonomy",
+                                           "martech tool categories list"])):
         entries.append({
             "identifier": f"urn:air:{PUBLISHER}:data:{fname.replace('.', '-')}",
             "displayName": f"MartechSignal {fname} (machine-readable)",
@@ -94,8 +97,9 @@ def build():
             # Lighthouse deduction in the agentic-browsing category.
             "type": "application/ai-catalog+json",
             "url": f"https://martechsignal.com/catalog-{fname}",
-            "representativeQueries": ["martechsignal tool catalog data",
-                                      "ai marketing tools dataset"],
+            # r16 M-4 (2026-09-29): the two catalog entries carried
+            # byte-identical representativeQueries. Disambiguated per file.
+            "representativeQueries": qs,
         })
     # A3 H-5 (2026-09-26): walk the built tree so every published page has an
     # entry. The v240c audit found 92 URLs missing (blog posts, glossary terms,

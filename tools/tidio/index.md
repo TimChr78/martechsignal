@@ -21,7 +21,7 @@
 Tidio: AI-powered live chat and chatbot platform with Lyro AI agent for customer support. Tidio ships with lyro AI agent. This page documents 8 integrations.
 
 **How much does Tidio cost?**
-Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Tidio worth it past the free tier?**
 Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Tidio: AI-powered live chat and chatbot platform with Lyro AI agent for customer support. Tidio ships with lyro AI agent. This page documents 8 integrations.
 
-Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Best-value AI chat for small e-commerce; complex routing needs bigger platforms.
 
@@ -251,7 +251,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Tidio cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Tidio has a free tier; paid plans start at $24/mo. Free plan (50 conversations); Starter ~$24/mo; Chatbots $39/mo; Lyro AI add-on available. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -297,5 +297,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

@@ -21,7 +21,7 @@
 Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations.
 
 **How much does Twilio Segment cost?**
-Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
 **Is Twilio Segment worth it past the free tier?**
 The developer-first CDP with the deepest documentation and the widest destination catalog, priced so that most of what differentiates it sits above the self-serve tiers.
@@ -172,7 +172,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Twilio Segment: Customer data platform for collecting, unifying, and activating customer data. Twilio Segment ships with predictions (4 models). This page documents 10 integrations.
 
-Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.
+Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
 
 The developer-first CDP with the deepest documentation and the widest destination catalog, priced so that most of what differentiates it sits above the self-serve tiers.
 
@@ -189,8 +189,8 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 ## Related reading
 
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem
@@ -287,7 +287,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Twilio Segment cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers."
+          "text": "Twilio Segment has a free tier; paid plans start at $120/mo. Free covers 1,000 monthly tracked users and 2 sources. Team starts at $120/mo for 10,000 MTUs (overages $10 to $12 per extra 1,000 MTUs), unlimited sources, 10 seats; Business is custom. Protocols, Unify, and Engage are Business-tier or add-on. 14-day trial. Twilio states pricing current as of August 2026. We last checked both ends of that split on 2026-09-06. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -365,5 +365,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

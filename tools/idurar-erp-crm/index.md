@@ -21,7 +21,7 @@
 IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
 **How much does IDURAR ERP & CRM cost?**
-IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is IDURAR ERP & CRM a good self-hosted CRM tool in 2026?**
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
@@ -39,7 +39,8 @@ No, not in the open-source edition. SuiteCRM and Dolibarr ship leads, pipelines,
 - **Category:** [CRM](/categories/crm/)
 - **GitHub:** ★ 8838
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
 
 **Verdict:** IDURAR ERP & CRM is a tool in CRM with free and open source. The catalog documents a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -157,7 +158,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 IDURAR ERP & CRM: Free Open Source ERP CRM Software Accounting Invoicing | Node.Js React. The public repository carries 8,838 stars. IDURAR ERP & CRM offers a public API for custom integrations.
 
-IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 A compact AGPL starting point for custom MERN invoicing and payments work, not a deployable CRM suite: read the three model files before you believe any feature list.
 
@@ -265,7 +266,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does IDURAR ERP & CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "IDURAR ERP & CRM has a free tier; paid plans start at $5000/mo. Self-host free under AGPL-3.0. The vendor sells one-time license tiers on its site: Professional lifetime license $5,000, Enterprise $10,000, adding multi-company, multi-currency, a headless API and support. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -335,5 +336,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

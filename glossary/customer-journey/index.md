@@ -71,20 +71,30 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 [
   {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "name": "Customer Journey Mapping",
-    "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
-    "dateModified": "2026-09-07",
-    "inDefinedTermSet": {
-      "@id": "https://martechsignal.com/glossary/#set"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "url": "https://martechsignal.com/glossary/customer-journey/"
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "name": "Customer Journey Mapping",
+        "description": "A customer journey map is a visual representation of every step a customer takes from first awareness to purchase and beyond. It documents touchpoints, emotions, pain points, and the channels involved at each stage. The goal is to find where the experience breaks down.",
+        "dateModified": "2026-09-07",
+        "inDefinedTermSet": {
+          "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "publisher": {
+          "@id": "https://martechsignal.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://martechsignal.com/#website"
+        },
+        "url": "https://martechsignal.com/glossary/customer-journey/"
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://martechsignal.com/glossary/#set",
+        "url": "https://martechsignal.com/glossary/",
+        "name": "Martech Glossary"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -114,5 +124,5 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

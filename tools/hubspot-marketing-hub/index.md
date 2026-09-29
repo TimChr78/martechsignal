@@ -22,7 +22,7 @@
 HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations.
 
 **How much does HubSpot Marketing Hub cost?**
-HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is HubSpot Marketing Hub worth it past the free tier?**
 The sensible default for SMB and growth teams that want one system. Fragments when you need true event-driven engagement at scale.
@@ -146,7 +146,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 HubSpot Marketing Hub: All-in-one marketing automation with AI-powered content, email, and campaign tools. HubSpot Marketing Hub ships with AI content assistant. This page documents 8 integrations.
 
-HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 The sensible default for SMB and growth teams that want one system. Fragments when you need true event-driven engagement at scale.
 
@@ -254,7 +254,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does HubSpot Marketing Hub cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "HubSpot Marketing Hub has a free tier; paid plans start at $20/mo. Free CRM included; Marketing Hub Starter $20/mo, Professional $890/mo, Enterprise $3,600/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -300,5 +300,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

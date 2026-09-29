@@ -21,7 +21,7 @@
 ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
 
 **How much does ManyChat cost?**
-ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is ManyChat worth it past the free tier?**
 The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs.
@@ -139,7 +139,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 ManyChat: AI-powered chat marketing platform for Instagram, WhatsApp, and Messenger. ManyChat ships with AI flow builder. This page documents 7 integrations.
 
-ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 The default choice for Instagram and Messenger funnels; value depends entirely on living in DMs.
 
@@ -148,8 +148,8 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 ## Related reading
 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Creators monetizing DMs across Instagram and WhatsApp
@@ -246,7 +246,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does ManyChat cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "ManyChat has a free tier; paid plans start at $14/mo. Free plan; Essential $14/mo; Pro custom; Business and Advanced tiers; scales with contacts. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -292,5 +292,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

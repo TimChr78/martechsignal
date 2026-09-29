@@ -3,15 +3,15 @@
 
 | Pros | Cons |
 | --- | --- |
-| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Closed source - no self-hosting option |
-| ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) |  |
+| ✓ AI capabilities: zia assistant for lead scoring, deal prediction and email sentiment | ✗ Paid plans start at €14/mo once past the free tier |
+| ✓ Native integrations include Zoho Mail, Zoho Books, Zoho Desk (6 listed) | ✗ Closed source - no self-hosting option |
 | ✓ Free tier to evaluate before committing (Free for 3 users; Standard EUR 14/user/mo) |  |
 
 **What is Zoho CRM?**
 Zoho CRM: Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
 **How much does Zoho CRM cost?**
-Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
+Zoho CRM has a free tier; paid plans start at €14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers."
 
 **Is Zoho CRM worth it past the free tier?**
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
@@ -94,7 +94,7 @@ Zoho CRM covers pipeline automation, lead scoring and forecasting with its Zia a
 - Zapier
 ## Pricing
 
-Zoho CRM is freemium, with a free tier to start.
+Zoho CRM is freemium, with a free tier to start, paid plans start at €14/mo as of 2026-09.
 
 Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT)
 
@@ -127,7 +127,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Zoho CRM: Sales CRM with the Zia assistant, workflow automation and the Zoho suite around it. Zoho CRM ships with zia assistant for lead scoring, deal prediction and email sentiment. This page documents 6 integrations.
 
-Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features.
+Zoho CRM has a free tier; paid plans start at €14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers."
 
 Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.
 
@@ -136,8 +136,8 @@ Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best value for small teams that want a full suite without an enterprise bill.
@@ -170,7 +170,23 @@ One email when a new tool review lands, nothing else.
     "mainEntityOfPage": "https://martechsignal.com/tools/zoho-crm/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "dateModified": "2026-09-29"
+    "dateModified": "2026-09-29",
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR",
+        "url": "https://www.zoho.com/crm/pricing.html",
+        "priceValidUntil": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "price": 14,
+        "priceCurrency": "EUR",
+        "url": "https://www.zoho.com/crm/pricing.html",
+        "priceValidUntil": "2026-12-31"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -219,7 +235,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Zoho CRM cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Zoho CRM has a free tier, so you can run a real evaluation before paying. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked the plan structure on 2026-09-28; paid tiers mainly raise limits rather than unlocking core features."
+          "text": "Zoho CRM has a free tier; paid plans start at \u20ac14/mo. Free for 3 users; Standard EUR 14/user/mo; Professional EUR 23/user/mo (automation and AI); Enterprise EUR 40/user/mo; Ultimate EUR 52/user/mo (EU page, ex. VAT). We last checked both ends of that split on 2026-09-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -236,5 +252,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

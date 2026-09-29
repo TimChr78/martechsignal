@@ -21,7 +21,7 @@
 Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,072 stars. Umami offers a public API for custom integrations.
 
 **How much does Umami cost?**
-Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is Umami a good self-hosted Analytics & Attribution tool in 2026?**
 Light, honest, cookieless analytics you can own outright; the AI-free tracking script is the point, not a gap. Self-host for unlimited sites, or pay $20 a month for 1 million cloud events.
@@ -40,7 +40,8 @@ It was removed. The v3 upgrade guide announces that Umami is standardizing on Po
 - **GitHub:** ★ 39072
 - **Founded:** 2020
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
 
 **Verdict:** Umami is a tool in Analytics & Attribution with free and open source. The catalog documents 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -161,7 +162,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Umami: Open-source, cookieless web analytics with real-time dashboards, session replay, and heatmaps. The public repository carries 39,072 stars. Umami offers a public API for custom integrations.
 
-Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 Light, honest, cookieless analytics you can own outright; the AI-free tracking script is the point, not a gap. Self-host for unlimited sites, or pay $20 a month for 1 million cloud events.
 
@@ -274,7 +275,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Umami cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "Umami has a free tier; paid plans start at $20/mo. Self-hosted free (MIT). Cloud: Hobby free to 100K events/mo; Pro $20/mo for 1M events; Business $200/mo for 10M events; Enterprise custom. 14-day trial. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -344,5 +345,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

@@ -22,7 +22,7 @@
 Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,326 stars.
 
 **How much does Budibase cost?**
-Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is Budibase a good self-hosted Workflow Automation tool in 2026?**
 The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
@@ -40,7 +40,8 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 28326
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
 
 **Verdict:** Budibase is a tool in Workflow Automation with free and open source. The catalog documents 3 AI features, 12 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -179,7 +180,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Budibase: Open-source operations platform for building AI agents, apps and automations on your own data. Budibase ships with AI agents with tools, memory and structured outputs (beta since March 2026). The public repository carries 28,326 stars.
 
-Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 The most interesting agent story in the open-source internal-tools class, wrapped in a layered license. A strong pick if you want agents acting over your own data and can accept the operational fine print that comes with them.
 
@@ -289,7 +290,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Budibase cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "Budibase has a free tier; paid plans start at $19/mo. Self-host open source free: unlimited actions, apps, agents and users in 1 workspace (GPLv3 core, pro folder BSL). Cloud Pro $19/mo billed annually, Premium $49, Business $299; end users $5/user/mo, creators $50/creator/mo. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -359,5 +360,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

@@ -21,7 +21,7 @@
 Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
 
 **How much does Attio cost?**
-Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Attio worth it past the free tier?**
 Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
@@ -147,7 +147,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Attio: AI-native CRM with real-time data enrichment and agentic revenue workflows. Attio ships with AI data enrichment. This page documents 8 integrations.
 
-Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Worth a look when your CRM needs custom objects and live segments more than it needs a sales methodology out of the box.
 
@@ -254,7 +254,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Attio cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Attio has a free tier; paid plans start at $29/mo. Free (3 seats); Plus $29/seat/mo; Pro $69/seat/mo; Enterprise custom; annual billing. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -300,5 +300,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

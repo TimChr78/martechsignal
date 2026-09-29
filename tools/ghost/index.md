@@ -22,7 +22,7 @@
 Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,454 stars.
 
 **How much does Ghost cost?**
-Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Ghost a good self-hosted AI Content & Copywriting tool in 2026?**
 Choose Ghost for editorial sites with paid membership intent. Skip it if you need a general-purpose CMS.
@@ -33,7 +33,8 @@ Choose Ghost for editorial sites with paid membership intent. Skip it if you nee
 - **Founded:** 2013
 - **HQ:** Singapore
 - **API:** Yes
-- **Last verified:** 2026-08-28
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-08-28
 
 **Verdict:** Ghost is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 7 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -139,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Ghost: Open-source publishing platform with built-in newsletters, memberships, and AI tools. Ghost ships with AI writing assistant. The public repository carries 55,454 stars.
 
-Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Choose Ghost for editorial sites with paid membership intent. Skip it if you need a general-purpose CMS.
 
@@ -241,7 +242,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Ghost cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Ghost has a free tier; paid plans start at $9/mo. Self-hosted free (MIT); Cloud Starter $9/mo; Creator $29/mo; Team $79/mo; Business $199/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -287,5 +288,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

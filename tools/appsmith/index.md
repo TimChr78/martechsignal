@@ -22,7 +22,7 @@
 Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,967 stars.
 
 **How much does Appsmith cost?**
-Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 **Is Appsmith a good self-hosted Workflow Automation tool in 2026?**
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
@@ -40,7 +40,8 @@ Documented data sources include PostgreSQL, MySQL, MongoDB, Microsoft SQL Server
 - **Category:** [Workflow Automation](/categories/workflow-automation/)
 - **GitHub:** ★ 40967
 - **API:** Yes
-- **Last verified:** 2026-09-07
+- **Repository checked:** 2026-09-29
+- **Page updated:** 2026-09-07
 
 **Verdict:** Appsmith is a tool in Workflow Automation with free and open source. The catalog documents 2 AI features, 13 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-07. This is a desk review, not a hands-on test. Desk-reviewed
 
@@ -179,7 +180,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Appsmith: Open-source platform for building admin panels and internal dashboards on your existing databases and APIs. Appsmith ships with ask AI in-editor SQL and JavaScript assistance (Community Edition since v2.3). The public repository carries 40,967 stars.
 
-Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.
+Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
 
 The safest default in the open-source internal-tools class: Apache 2.0 core, the widest documented connector list, real git-based workflows and steady releases, provided a developer owns it.
 
@@ -287,7 +288,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Appsmith cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers."
+          "text": "Appsmith has a free tier; paid plans start at $15/mo. Self-host CE free (Apache 2.0); EE image free plan. Cloud Free (5 users), Business $15/user/mo, Enterprise from $2,500/mo for 100 users. We last checked both ends of that split on 2026-09-07. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -357,5 +358,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

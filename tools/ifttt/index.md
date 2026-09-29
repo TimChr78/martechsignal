@@ -21,7 +21,7 @@
 IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations.
 
 **How much does IFTTT cost?**
-IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 **Is IFTTT worth it past the free tier?**
 Strengths include an API for custom integrations. Paid plans start at $2.99/mo
@@ -125,7 +125,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 IFTTT: Consumer-friendly automation connecting apps and smart devices. IFTTT ships with AI services on Pro+. This page documents 6 integrations.
 
-IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.
+IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
 
 Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 
@@ -134,8 +134,8 @@ Strengths include an API for custom integrations. Paid plans start at $2.99/mo
 ## Related reading
 
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)
@@ -229,7 +229,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does IFTTT cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers."
+          "text": "IFTTT has a free tier; paid plans start at $2.99/mo. Free (2 Applets, standard speeds); Pro $2.99/month billed annually ($35.88/year, 20 Applets); Pro+ $8.99/month billed annually ($107.88/year, unlimited Applets). Verified 2026-09-27. We last checked both ends of that split on 2026-09-27. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -275,5 +275,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

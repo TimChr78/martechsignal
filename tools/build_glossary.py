@@ -117,6 +117,9 @@ def build_hub(terms, term_dates=None):
              "@id": "https://martechsignal.com/glossary/#set",
              "url": "https://martechsignal.com/glossary/",
              "name": "Martech Glossary",
+             # r16 M-7 (2026-09-29): the audit's fix — the set declares its
+             # size so consumers know the coverage without crawling.
+             "numberOfItems": len(terms),
              # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
              "publisher": {"@id": "https://martechsignal.com/#organization"},
              "isPartOf": {"@id": "https://martechsignal.com/#website"},
@@ -281,20 +284,30 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
   </aside>
 </div>"""
 
-    # DefinedTerm schema for rich snippets
+    # DefinedTerm schema for rich snippets.
+    # r16 M-7 (2026-09-29): the leaf referenced glossary/#set without
+    # defining it (30 dangling refs). @graph carries the term plus the set
+    # stub; the hub holds the full node with numberOfItems.
     schema = {
         "@context": "https://schema.org",
-        "@type": "DefinedTerm",
-        "name": term["term"],
-        "description": term["definition"],
-        **({"dateModified": term_date} if term_date else {}),
-        "inDefinedTermSet": {
-            "@id": "https://martechsignal.com/glossary/#set"
-        },
-        # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
-        "publisher": {"@id": "https://martechsignal.com/#organization"},
-        "isPartOf": {"@id": "https://martechsignal.com/#website"},
-        "url": f"https://martechsignal.com/glossary/{slug}/"
+        "@graph": [{
+            "@type": "DefinedTerm",
+            "name": term["term"],
+            "description": term["definition"],
+            **({"dateModified": term_date} if term_date else {}),
+            "inDefinedTermSet": {
+                "@id": "https://martechsignal.com/glossary/#set"
+            },
+            # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
+            "publisher": {"@id": "https://martechsignal.com/#organization"},
+            "isPartOf": {"@id": "https://martechsignal.com/#website"},
+            "url": f"https://martechsignal.com/glossary/{slug}/"
+        }, {
+            "@type": "DefinedTermSet",
+            "@id": "https://martechsignal.com/glossary/#set",
+            "url": "https://martechsignal.com/glossary/",
+            "name": "Martech Glossary"
+        }]
     }
 
     breadcrumb = {

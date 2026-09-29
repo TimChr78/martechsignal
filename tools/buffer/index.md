@@ -21,7 +21,7 @@
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
 **How much does Buffer cost?**
-Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Buffer worth it past the free tier?**
 Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
@@ -140,7 +140,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Buffer: Simple social media scheduling and analytics with AI-powered content tools. Buffer ships with AI assistant for posts. This page documents 6 integrations.
 
-Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 Start here, especially on the free tier. Plan to graduate to Sprout when reporting depth and approvals matter.
 
@@ -247,7 +247,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Buffer cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Buffer has a free tier; paid plans start at $5/mo. Free (3 channels); Essentials $5/channel/mo; Team $10/channel/mo; 14-day free trial. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -293,5 +293,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

@@ -22,7 +22,7 @@
 Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations.
 
 **How much does Klaviyo cost?**
-Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 **Is Klaviyo worth it past the free tier?**
 The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better.
@@ -144,7 +144,7 @@ The weekly newsletter: one tool teardown, one workflow, no fluff. Free.
 
 Klaviyo: AI-powered email and SMS marketing platform built for ecommerce brands. Klaviyo ships with AI subject line assistant. This page documents 8 integrations.
 
-Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.
+Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
 
 The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a CDP-backed stack fits better.
 
@@ -153,8 +153,8 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation
@@ -252,7 +252,7 @@ One email when a new tool review lands, nothing else.
         "name": "How much does Klaviyo cost?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers."
+          "text": "Klaviyo has a free tier; paid plans start at $20/mo. Free up to 250 contacts/500 emails/mo; paid scales with contact count from ~$20/mo. We last checked both ends of that split on 2026-08-28. The pricing section above shows what the free tier actually covers.\""
         }
       },
       {
@@ -298,5 +298,5 @@ One email when a new tool review lands, nothing else.
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

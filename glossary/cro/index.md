@@ -76,20 +76,30 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 [
   {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "name": "Conversion Rate Optimization (CRO)",
-    "description": "Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.",
-    "dateModified": "2026-09-07",
-    "inDefinedTermSet": {
-      "@id": "https://martechsignal.com/glossary/#set"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "url": "https://martechsignal.com/glossary/cro/"
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "name": "Conversion Rate Optimization (CRO)",
+        "description": "Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.",
+        "dateModified": "2026-09-07",
+        "inDefinedTermSet": {
+          "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "publisher": {
+          "@id": "https://martechsignal.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://martechsignal.com/#website"
+        },
+        "url": "https://martechsignal.com/glossary/cro/"
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://martechsignal.com/glossary/#set",
+        "url": "https://martechsignal.com/glossary/",
+        "name": "Martech Glossary"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -119,5 +129,5 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

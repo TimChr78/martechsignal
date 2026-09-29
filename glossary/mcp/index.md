@@ -71,20 +71,30 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
 [
   {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "name": "Model Context Protocol (MCP)",
-    "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
-    "dateModified": "2026-09-25",
-    "inDefinedTermSet": {
-      "@id": "https://martechsignal.com/glossary/#set"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "url": "https://martechsignal.com/glossary/mcp/"
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "name": "Model Context Protocol (MCP)",
+        "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
+        "dateModified": "2026-09-25",
+        "inDefinedTermSet": {
+          "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "publisher": {
+          "@id": "https://martechsignal.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://martechsignal.com/#website"
+        },
+        "url": "https://martechsignal.com/glossary/mcp/"
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://martechsignal.com/glossary/#set",
+        "url": "https://martechsignal.com/glossary/",
+        "name": "Martech Glossary"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -114,5 +124,5 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```

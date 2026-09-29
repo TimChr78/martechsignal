@@ -733,6 +733,13 @@ def test_entity_graph_resolves_id_refs():
             bad.append((str(f.relative_to(ROOT)), 'person'))
         if '#organization' in h and '"@type":"Organization"' not in c:
             bad.append((str(f.relative_to(ROOT)), 'organization'))
+        # r16 M-7 (2026-09-29): 75 dangling #website refs + 30 glossary #set
+        # refs. Every page referencing them must define them (shared WebSite
+        # stub via page_shell; set stub on term leaves, full node on the hub).
+        if '#website' in h and '"@type":"WebSite"' not in c:
+            bad.append((str(f.relative_to(ROOT)), 'website'))
+        if 'glossary/#set' in h and '"@type":"DefinedTermSet"' not in c:
+            bad.append((str(f.relative_to(ROOT)), 'termset'))
     assert not bad, f'dangling @id refs without entity graph: {bad[:6]}'
 
 
@@ -1512,6 +1519,14 @@ def test_money_prose_currency_matches_record():
                     if isinstance(it.get(field), str) and "\u20ac" in it[field]:
                         bad.append(f"{path}:{pg.get('slug')}:{slug}")
     assert not bad, f"euro prose on non-euro records: {bad[:8]}"
+    # r16 follow-up (2026-09-29): _money emitted a literal backslash-u20ac
+    # escape into 13 rendered pages' visible text (JSON-LD script blocks may
+    # legally carry ascii-escaped \u20ac, so scripts are stripped first).
+    import re as _re2
+    raw = [str(f.relative_to(ROOT)) for f in sorted(ROOT.glob("**/index.html"))
+           if "deploy-out" not in str(f) and (chr(92) + "u20ac") in
+           _re2.sub(r"<script[^>]*>.*?</script>", "", f.read_text(errors="ignore"), flags=_re2.S)]
+    assert not raw, f"literal backslash-u20ac in visible HTML: {raw[:8]}"
 
 
 def test_no_duplicated_pricing_lead_seam():

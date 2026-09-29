@@ -76,20 +76,30 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 [
   {
     "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "name": "Agentic Marketing",
-    "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
-    "dateModified": "2026-09-28",
-    "inDefinedTermSet": {
-      "@id": "https://martechsignal.com/glossary/#set"
-    },
-    "publisher": {
-      "@id": "https://martechsignal.com/#organization"
-    },
-    "isPartOf": {
-      "@id": "https://martechsignal.com/#website"
-    },
-    "url": "https://martechsignal.com/glossary/agentic-marketing/"
+    "@graph": [
+      {
+        "@type": "DefinedTerm",
+        "name": "Agentic Marketing",
+        "description": "Agentic marketing describes marketing operations where AI agents hold decision authority over defined processes: budget allocation, audience selection, content variation, or campaign pacing. The term distinguishes systems where software decides from systems where software only assists humans deciding. It overlaps with autonomous marketing but carries a stronger implication of bounded scope - agents own specific processes, not the whole function.",
+        "dateModified": "2026-09-28",
+        "inDefinedTermSet": {
+          "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "publisher": {
+          "@id": "https://martechsignal.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://martechsignal.com/#website"
+        },
+        "url": "https://martechsignal.com/glossary/agentic-marketing/"
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://martechsignal.com/glossary/#set",
+        "url": "https://martechsignal.com/glossary/",
+        "name": "Martech Glossary"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -119,5 +129,5 @@ Sources: [n8n](https://n8n.io) · [Make](https://www.make.com)
 ```
 
 ```json
-{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}, {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "image": "https://martechsignal.com/authors/tim-christensen/avatar.png", "jobTitle": "Martech Product Owner", "description": "Tim Christensen researches and writes the AI marketing tool catalog at MartechSignal: tool pages, pricing verification, comparisons, and the methodology behind them.", "knowsAbout": ["martech tools", "marketing automation", "AI search visibility", "workflow automation", "open-source marketing software"], "worksFor": {"@id": "https://martechsignal.com/#organization"}, "sameAs": ["https://www.linkedin.com/in/tchristensen78", "https://github.com/timchr78"]}, {"@type": "WebSite", "@id": "https://martechsignal.com/#website", "name": "MartechSignal", "url": "https://martechsignal.com/"}]}
 ```
