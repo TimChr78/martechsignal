@@ -3,7 +3,6 @@
 
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
-| n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
 | Make | Freemium | You want the most visual scenario builder and a generous free tier to prototype in. |
 | Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
 
@@ -41,13 +40,9 @@ Both platforms now sell AI features on top of the same plumbing: triggers, actio
 
 The pair pages beside this one (n8n vs Zapier, and the three-way) carry the wider automation-platform picture; here we stay on the two visual builders that fight for the same buyer.
 
-## n8n vs Make vs Zapier: the quick decision
+## Make vs Zapier: the quick decision
 
 The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
-
-And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
-
-All three face off properly on the three-way page: [n8n vs Make vs Zapier](/vs/n8n-vs-make-vs-zapier/).
 
 [Make assessment](/tools/make/) · [Zapier assessment](/tools/zapier/)
 

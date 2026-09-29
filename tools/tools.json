@@ -9592,7 +9592,17 @@
       "Conversational AI assistant for querying CRM data in plain language"
     ],
     "date_updated": "2026-09-28",
-    "date_verified": "2026-09-28"
+    "date_verified": "2026-09-28",
+    "deep_dive": {
+      "best_for": "Tiny teams that want a real CRM free: the free tier covers 3 users with pipeline automation, lead scoring basics, and email included. EU buyers who prefer euro-denominated per-seat pricing scale from Standard at EUR 14 to Professional at EUR 23 (automation and AI) and Enterprise at EUR 40.",
+      "not_for": "Buyers who want a scored assessment against our rubric: Zoho CRM is one of three catalog tools not yet scored (see the methodology page). Teams that need a self-hostable codebase should look at the open-source CRM options instead; Zoho is proprietary.",
+      "stats": {
+        "Free tier seats": "3",
+        "Paid tiers": "3 (Standard / Professional / Enterprise)",
+        "Pricing currency": "EUR",
+        "AI assistant": "Zia"
+      }
+    }
   },
   {
     "slug": "ai-marketing-claude",

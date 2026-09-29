@@ -4,7 +4,6 @@
 | Tool | Starts at | Pick it when |
 | --- | --- | --- |
 | n8n | Open Source | You want self-hosting, code steps and per-execution pricing over per-task billing. |
-| Make | Freemium | You want the most visual scenario builder and a generous free tier to prototype in. |
 | Zapier | Freemium | You want the deepest app catalog and the least thinking about edge cases. |
 
 
@@ -39,9 +38,7 @@ The real difference here is not a feature checklist. It is where your automation
 
 Teams usually arrive at this comparison after hitting one of two walls: a Zapier bill that scales with every successful run, or an n8n instance that needs someone to maintain it. The axis is metered convenience against owned infrastructure, and the catalog numbers below show what each side charges for the same five-step lead-intake workflow.
 
-## n8n vs Make vs Zapier: the quick decision
-
-The pair pages carry the same evidence in depth: [n8n vs Zapier](/vs/n8n-vs-zapier/).
+## n8n vs Zapier: the quick decision
 
 And for the Make side of the family: [Make vs Zapier](/vs/make-vs-zapier/).
 

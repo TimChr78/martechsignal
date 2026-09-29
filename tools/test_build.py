@@ -1000,6 +1000,73 @@ def test_image_sizes_describe_real_slots():
     assert "100vw, 500px" in vs, "vs-figures shots missing grid-slot sizes"
 
 
+def test_blog_posts_carry_publisher_and_canonical_linkage():
+    """r14 M-11 (2026-09-29): every BlogPosting carries a publisher block
+    (org name/url/logo) and mainEntityOfPage so posts resolve to the
+    organization and their canonical URL."""
+    import pathlib as _pl
+    bad = []
+    for f in (ROOT / "blog").glob("*/index.html"):
+        h = f.read_text()
+        if '"BlogPosting"' not in h:
+            continue
+        if '"publisher"' not in h or '"mainEntityOfPage"' not in h:
+            bad.append(f.parent.name)
+    assert not bad, f"posts missing publisher/linkage: {bad[:5]}"
+
+
+def test_unscored_tools_still_carry_editorial_depth():
+    """r14 M-9 (2026-09-29): /tools/zoho-crm/ was a stub (no score, no
+    deep-dive, one link level from the homepage). Unscored tools must still
+    carry grounded deep-dive sections (best_for/not_for/stats) and an inbound
+    link from their category hub chooser."""
+    html = (ROOT / "tools" / "zoho-crm" / "index.html").read_text()
+    for needle in ("Best for", "Not for", "Project stats"):
+        assert needle in html, f"zoho-crm missing deep-dive section: {needle}"
+    hub = (ROOT / "categories" / "crm" / "index.html").read_text()
+    assert "/tools/zoho-crm/" in hub, "CRM hub chooser does not link zoho-crm"
+
+
+def test_category_pages_carry_substantive_intros():
+    """r14 M-5 (2026-09-29): thin category pages (<150 words of intro prose
+    beyond the listing). Every category page now renders >=150 words of
+    category-specific intro copy, derived from catalog data."""
+    import re as _re
+    thin = []
+    for idx in (ROOT / "categories").glob("*/index.html"):
+        html = idx.read_text()
+        paras = _re.findall(r'class="cat-intro"[^>]*>(.*?)</p>', html, _re.S)
+        lead = _re.findall(r'<section class="hub-lead">(.*?)</section>', html, _re.S)
+        words = sum(len(_re.sub(r"<[^>]+>", "", p).split()) for p in paras + lead)
+        if words < 150:
+            thin.append((idx.parent.name, words))
+    assert not thin, f"thin category pages: {thin}"
+
+
+def test_vs_decision_blocks_match_their_pair():
+    """r14 M-3 (2026-09-29): two-way /vs/ pages rendered a three-way
+    decision block with a self-link. Decision rows must name only the
+    page's two contenders; no link may point at the page itself."""
+    import json as _j
+    d = _j.loads((ROOT / "tools" / "vsx-content.json").read_text())
+    pages = d["pages"] if isinstance(d, dict) else d
+    plist = list(pages.values()) if isinstance(pages, dict) else pages
+    bad = []
+    for pg in plist:
+        df = pg.get("decision_first") or {}
+        head = (df.get("heading") or "").lower()
+        pair = {pg.get("a_slug", ""), pg.get("b_slug", "")}
+        for r in df.get("rows", []):
+            # a row is legal if it is one of the pair OR named in the heading
+            # (matomo-vs-plausible deliberately carries a headed trio block)
+            if r[0].lower() not in pair and r[0].lower() not in head:
+                bad.append((pg["slug"], r[0]))
+        for l in df.get("links", []) or []:
+            if pg["slug"] in l.get("href", ""):
+                bad.append((pg["slug"], "self-link"))
+    assert not bad, f"decision block leaks: {bad[:5]}"
+
+
 def test_best_counts_agree_with_items():
     """Stale-count class (M27 r9 + L4 follow-up): ai-crm claimed 8 with 6
     items, geo claimed 8 with 9. Every 'N compared' in title/seo_title/meta
@@ -1347,15 +1414,16 @@ def test_vs_shots_fit_mobile_viewport():
 
 
 def test_fact_cards_serve_sized_renditions():
-    """r10 H-9 (2026-09-29): money-page fact cards (335px slot) serve a 670w
-    rendition via srcset, not the raw 1200px file."""
+    """r10 H-9 (2026-09-29) as corrected by r14 M-2: money-page fact cards
+    serve a 670w rendition via srcset with sizes describing the real
+    640px slot (the old 335px value under-fetched at DPR 2)."""
     import re as _re
     html = (ROOT / "best" / "geo-llm-visibility-tools" / "index.html").read_text()
     imgs = _re.findall(r'<img[^>]*fact card[^>]*>', html)
     assert imgs, "no fact card images on the sampled best page"
     bare = [i for i in imgs if "srcset" not in i]
     assert not bare, f"{len(bare)}/{len(imgs)} fact cards lack srcset"
-    assert 'sizes="335px"' in imgs[0], "fact card sizes does not match the 335px slot"
+    assert 'sizes="(max-width: 700px) 100vw, 640px"' in imgs[0], "fact card sizes does not match the 640px slot"
 
 
 def test_best_pages_carry_above_fold_verdict_cta():

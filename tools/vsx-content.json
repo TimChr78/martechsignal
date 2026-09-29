@@ -99,15 +99,11 @@
         "Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
       ],
       "decision_first": {
-        "heading": "n8n vs Make vs Zapier: the quick decision",
+        "heading": "n8n vs Zapier: the quick decision",
         "rows": [
           [
             "n8n",
             "You want self-hosting, code steps and per-execution pricing over per-task billing."
-          ],
-          [
-            "make",
-            "You want the most visual scenario builder and a generous free tier to prototype in."
           ],
           [
             "zapier",
@@ -115,11 +111,6 @@
           ]
         ],
         "links": [
-          {
-            "text": "The pair pages carry the same evidence in depth:",
-            "label": "n8n vs Zapier",
-            "href": "/vs/n8n-vs-zapier/"
-          },
           {
             "text": "And for the Make side of the family:",
             "label": "Make vs Zapier",
@@ -690,12 +681,8 @@
         "Switching costs land in the connectors, not the canvas. Triggers and actions map across all three roughly one to one, so a careful export and rebuild of a 20-step workflow takes an afternoon. The expensive parts are the steps that used a vendor-specific helper: JSON construction in n8n, iterators and aggregators in Make, formatter steps in Zapier. Budget a day per workflow that leans on those."
       ],
       "decision_first": {
-        "heading": "n8n vs Make vs Zapier: the quick decision",
+        "heading": "Make vs Zapier: the quick decision",
         "rows": [
-          [
-            "n8n",
-            "You want self-hosting, code steps and per-execution pricing over per-task billing."
-          ],
           [
             "make",
             "You want the most visual scenario builder and a generous free tier to prototype in."
@@ -710,16 +697,6 @@
             "text": "The pair pages carry the same evidence in depth:",
             "label": "n8n vs Zapier",
             "href": "/vs/n8n-vs-zapier/"
-          },
-          {
-            "text": "And for the Make side of the family:",
-            "label": "Make vs Zapier",
-            "href": "/vs/make-vs-zapier/"
-          },
-          {
-            "text": "All three face off properly on the three-way page:",
-            "label": "n8n vs Make vs Zapier",
-            "href": "/vs/n8n-vs-make-vs-zapier/"
           }
         ]
       },
