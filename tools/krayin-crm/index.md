@@ -109,7 +109,7 @@ Current plans and limits live on the [Krayin CRM pricing page](https://krayincrm
 ## How to install
 
 - Create the project and run the installer: composer create-project krayin/laravel-crm, then php artisan krayin-crm:install. If no .env exists, the installer prompts for app name, URL, locale, currency, database connection, and admin credentials; otherwise edit APP_URL plus the mail and database parameters in .env yourself.
-- The web root must point at laravel-crm/public/. The default admin signs in at /admin/login with admin@example.com and admin123, so change both before anything touches the internet.
+- The web root must point at laravel-crm/public/. The default admin signs in at /admin/login with the default admin email from the docs and admin123, so change both before anything touches the internet.
 - For production the README recommends removing development dependencies with composer install --no-dev.
 - The REST API is a separate package: composer require krayin/rest-api, then php artisan krayin-rest-api:install and php artisan l5-swagger:generate. Swagger UI lands at /api/admin/documentation, with Sanctum bearer-token endpoints such as POST /api/admin/login and GET /api/admin/leads.
 - Magic AI is configured after install under Dashboard, Settings, Configuration, Magic AI, where you supply an OpenRouter API key; the docs show a free Llama model as the example.

@@ -112,7 +112,7 @@ Current plans and limits live on the [EspoCRM pricing page](https://www.espocrm.
 
 ## How to install
 
-- Fastest route is the official installer script: wget -N https://github.com/espocrm/espocrm-installer/releases/latest/download/install.sh then sudo bash install.sh. Add --ssl for certificates, or run unattended with sudo bash install.sh -y --ssl --letsencrypt --domain=my-espocrm.com --email=email@my-domain.com.
+- Fastest route is the official installer script: wget -N https://github.com/espocrm/espocrm-installer/releases/latest/download/install.sh then sudo bash install.sh. Add --ssl for certificates, or run unattended with sudo bash install.sh -y --ssl --letsencrypt --domain=my-espocrm.com --email=YOUR-EMAIL.
 - Docker route per the docs: create an espocrm-network and four volumes (espocrm-db, espocrm-data, espocrm-custom, espocrm-custom-client), then run a MariaDB container plus espocrm/espocrm published on 8080, and an espocrm-daemon container alongside. Default login is admin / admin_password.
 - Archive route: extract the release archive to your web server directory (the docs name public_html or www), set 755 for directories, 644 for files, and 775 for the data directory, with ownership typically www-data:www-data, then open the domain in a browser to run the wizard.
 - Scheduled jobs need cron: add * * * * * /usr/bin/php -f /var/www/html/espocrm/cron.php > /dev/null 2>&1 through crontab -e -u WEBSERVER_USER.

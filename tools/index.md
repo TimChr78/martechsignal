@@ -52,7 +52,7 @@ LibreTranslate
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-Open SourceDesk-reviewedAI Content & CopywritingOSS
+Open SourceHands-onAI Content & CopywritingOSS
 
 Persado
 
@@ -88,7 +88,7 @@ advertools
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Open SourceDesk-reviewedAdvertising & Paid MediaOSS
+Open SourceHands-onAdvertising & Paid MediaOSS
 
 Albert AI
 
@@ -904,7 +904,7 @@ LangChain
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Open SourceDesk-reviewedWorkflow AutomationOSS
+Open SourceHands-onWorkflow AutomationOSS
 
 Make
 

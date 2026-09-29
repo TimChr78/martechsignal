@@ -48,7 +48,7 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 - **Repository checked:** 2026-09-29
 - **Page updated:** 2026-09-25
 
-**Verdict:** LibreTranslate is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LibreTranslate is a tool in AI Content & Copywriting with free and open source. The catalog documents 3 AI features, 3 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
 
 Strapi
 
@@ -78,7 +78,7 @@ AI content automation platform with workflows for blogs, ads, and social posts
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-AI Content & Copywriting · Open Source Desk-reviewed
+AI Content & Copywriting · Open Source Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
@@ -123,8 +123,6 @@ Teams building localization pipelines that want a free, self-hosted translation 
 Teams publishing translated marketing copy straight to customers in many languages. The models trail the commercial engines, and the hosted instance has no public price list.
 
 ## Review notes
-
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
 Hands-on (2026-09-28): we installed the Argos Translate 1.11.0 engine behind LibreTranslate, downloaded the English-to-Swedish model (about 100 MB) and translated a marketing sentence fully locally. The output was idiomatic Swedish, sentence splitting ran through Stanza, and no text left the machine. Model downloads and language coverage are the constraints to plan for.
 

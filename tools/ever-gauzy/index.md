@@ -108,7 +108,7 @@ Self-hosted free (AGPLv3 Community Edition); Cloud Starter free for 1 company an
 
 ## How to install
 
-- Fastest look: the hosted demo at demo.gauzy.co, or the hosted SaaS at app.gauzy.co, which the README marks as an alpha version. Default demo logins documented in the README are admin@ever.co / admin and employee@ever.co / 12345678.
+- Fastest look: the hosted demo at demo.gauzy.co, or the hosted SaaS at app.gauzy.co, which the README marks as an alpha version. Default demo logins documented in the README are the demo admin login (admin at ever.co) / admin and the demo employee login (employee at ever.co) / 12345678.
 - Demo stack in one command: docker-compose -f docker-compose.demo.yml up (Docker Compose v2.20 or later is the stated minimum).
 - Production containers: docker-compose up -d after setting JWT_SECRET, JWT_REFRESH_TOKEN_SECRET, and JWT_VERIFICATION_TOKEN_SECRET in .env.compose (the README suggests generating them with openssl rand -hex 64). A docker-compose.infra.yml brings up infrastructure only, and docker-compose.build.yml builds locally.
 - From source: yarn bootstrap, optionally yarn prepare:husky, then yarn start; seed demo data with yarn seed or yarn seed:all. The UI runs at localhost:4200 and the API at localhost:3000/api.

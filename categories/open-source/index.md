@@ -10,7 +10,7 @@ FreemiumDesk-reviewedOSS
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 63 bilingual marketing skills (Vietnamese + Global) for Claude Code and agents
 
@@ -146,7 +146,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 Open-source writing assistant and grammar checker with AI style and tone suggestions for 30+ languages
 
@@ -158,7 +158,7 @@ Open SourceDesk-reviewedOSS
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 Open-source CRM for LINE Official Accounts with step delivery, scoring, and an MCP server for AI control
 

@@ -36,7 +36,7 @@ For engineers building custom marketing AI: the standard foundation. Marketers s
 - **Repository checked:** 2026-09-29
 - **Page updated:** 2026-08-28
 
-**Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-08-28. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** LangChain is a tool in Workflow Automation with free and open source. The catalog documents 5 AI features, 10 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
 
 n8n
 
@@ -72,7 +72,7 @@ Re-check pending: pricing last verified 2026-08-28 (32 days ago).
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Workflow Automation · Open Source Desk-reviewed
+Workflow Automation · Open Source Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
@@ -122,8 +122,6 @@ Open source (MIT license); LangSmith free tier, paid plans from $39/mo; LangGrap
 Current plans and limits live on the [LangChain pricing page](https://www.langchain.com/pricing).
 
 ## Review notes
-
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
 Hands-on (2026-09-28): we built and invoked a LCEL chain (PromptTemplate, model, output parser) on langchain-core 1.6.5 with a stub model to exercise composition without API costs. The pipe composition and synchronous invocation worked as documented. This covers the framework surface only; production behavior with live models was not part of this run.
 

@@ -117,8 +117,8 @@ Free open-source self-hosting under MIT with no user caps or feature paywall; Bo
 
 - Fastest path is Docker Compose from the repo root: git clone https://github.com/django-crm/Django-CRM.git, cd Django-CRM, then docker compose up --build. That starts six services: PostgreSQL 16, Redis 7, the Django API on port 8000, a Celery worker, a Celery beat scheduler, and the SvelteKit frontend on port 5173.
 - Nothing needs configuring to get a working stack. The checked-in .env.docker ships development defaults and is loaded by every service; overrides go in a gitignored .env.docker.local whose values win.
-- Migrations run automatically on container start. Load demo data with docker compose exec backend python manage.py seed_data --email you@example.com, which creates an organization named MicroPyramid plus demo leads, accounts, contacts, opportunities, cases, tasks, and invoices.
-- Sign in with docker compose exec backend python manage.py devlogin you@example.com --org MicroPyramid, which prints an access token, a refresh token, and the org UUID. The frontend is at http://localhost:5173 and the API with Swagger UI at http://localhost:8000/swagger-ui/.
+- Migrations run automatically on container start. Load demo data with docker compose exec backend python manage.py seed_data --email YOUR-EMAIL, which creates an organization named MicroPyramid plus demo leads, accounts, contacts, opportunities, cases, tasks, and invoices.
+- Sign in with docker compose exec backend python manage.py devlogin YOUR-EMAIL --org MicroPyramid, which prints an access token, a refresh token, and the org UUID. The frontend is at http://localhost:5173 and the API with Swagger UI at http://localhost:8000/swagger-ui/.
 - If Docker does not fit, the docs' Manual setup page covers running the backend, database, Redis, Celery, and frontend directly on one machine.
 - For an agent, mint a personal access token at Settings, then API tokens, and point the agent at GET /schema/ so it can discover endpoints itself.
 ## Requirements

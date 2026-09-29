@@ -1556,6 +1556,63 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_utility_pages_carry_og_title():
+    """r16 L-13 (2026-09-29): og:title absent on exactly 4 utility pages
+    (contact, privacy, terms, ai-policy) while 298 of 302 had it."""
+    import re as _re
+    bad = [str(f.parent) for f in sorted(ROOT.glob("**/index.html"))
+           if "deploy-out" not in str(f)
+           and '<meta property="og:type"' in f.read_text(errors="ignore")
+           and 'og:title' not in f.read_text(errors="ignore")]
+    assert not bad, f"pages with og:type but no og:title: {bad[:8]}"
+
+
+def test_software_app_nodes_carry_date_published():
+    """r16 L-13 (2026-09-29): datePublished absent from the
+    SoftwareApplication node on openseo/pipedream/zoho-crm (no date_added).
+    Falls back to the earliest verified record date."""
+    import re as _re, json as _j
+    recs = [x for x in _j.loads((ROOT / "tools" / "tools.json").read_text()) if isinstance(x, dict)]
+    bad = []
+    for t in recs:
+        page = ROOT / "tools" / t["slug"] / "index.html"
+        if not page.exists():
+            continue
+        h = page.read_text(errors="ignore")
+        i = h.find('"SoftwareApplication"')
+        if i >= 0 and '"datePublished"' not in h[i:i + 2500]:
+            bad.append(t["slug"])
+    assert not bad, f"SoftwareApplication without datePublished: {bad[:8]}"
+
+
+def test_verified_hands_on_suppresses_boilerplate():
+    """r16 L-9 (2026-09-29): advertools/langchain/libretranslate carried
+    'Not a hands-on test' boilerplate above real dated hands-on blocks.
+    hands_on_verified suppresses it."""
+    bad = [s for s in ("advertools", "langchain", "libretranslate")
+           if "Not a hands-on test" in (ROOT / "tools" / s / "index.html").read_text(errors="ignore")]
+    assert not bad, f"boilerplate contradicts hands-on block: {bad}"
+
+
+def test_agent_discovery_links_uniform():
+    """r16 L-16/L-17 (2026-09-29): the ARD discovery link carried three rel
+    variants (homepage + about used bare rel="ard", 7 hand pages none) and
+    llms.txt was unlinked from / and /about/ footers. Every page carries
+    rel="ard ai-catalog"; / and /about/ link llms.txt in the footer."""
+    bad = []
+    for f in sorted(ROOT.glob("**/index.html")):
+        if "deploy-out" in str(f):
+            continue
+        h = f.read_text(errors="ignore")
+        if 'rel="ard ai-catalog"' not in h:
+            bad.append(f"ard:{f.parent}")
+    for name in ("index.html", "about/index.html"):
+        h = (ROOT / name).read_text(errors="ignore")
+        if 'href="/llms.txt"' not in h:
+            bad.append(f"llmslink:{name}")
+    assert not bad, f"agent discovery gaps: {bad[:10]}"
+
+
 def test_no_email_shaped_strings_in_tool_commands():
     """r16 M-1 (2026-09-29): Cloudflare Email Obfuscation rewrote email-shaped
     strings inside install commands into /cdn-cgi/l/email-protection links,
@@ -1780,17 +1837,20 @@ def test_tool_hero_image_priority_and_sizes():
 
 
 def test_font_payload_is_minimal_and_preloaded():
-    """M3/M4 (r9, 2026-09-28): only shipped mono weights (500/600) keep
-    @font-face; the 400 file is gone; both shipped weights are preloaded so
-    none is discovered late."""
+    """M3/M4 (r9, 2026-09-28) as revised by r16 L-3 (2026-09-29): only shipped
+    mono weights (500/600) keep @font-face; the 400 file is gone. Only 600 is
+    preloaded: 500 measured `unloaded` on 2 of 5 audit runs (slow connections
+    expire font-display:optional's ~100ms block before it arrives, so the
+    preload bytes download and never paint). Optional never swaps, so the
+    zero-CLS guarantee holds either way; 500 loads on demand when fast."""
     css = (ROOT / "style.css").read_text()
     assert "spline-sans-mono-400" not in css, "dead 400 @font-face still shipped"
     assert not (ROOT / "fonts" / "spline-sans-mono-400.woff2").exists(), \
         "dead 400 font file still on disk"
     for tpl in ("tools/n8n/index.html", "blog/claude-seo-benchmark/index.html"):
         html = (ROOT / tpl).read_text()
-        for w in ("spline-sans-mono-500.woff2", "spline-sans-mono-600.woff2"):
-            assert f'preload" href="/fonts/{w}"' in html, f"{tpl} misses {w} preload"
+        assert 'preload" href="/fonts/spline-sans-mono-600.woff2"' in html, f"{tpl} misses 600 preload"
+        assert 'preload" href="/fonts/spline-sans-mono-500.woff2"' not in html, f"{tpl} still preloads 500"
 
 
 def test_critical_css_inline_and_deferred():

@@ -24,7 +24,7 @@ We express this policy with the three content signals defined by the Cloudflare 
 
 Anthropic runs three separately controlled crawlers: ClaudeBot collects training data and stays blocked here; Claude-User and Claude-SearchBot handle retrieval and search and stay open. That split is why the same robots.txt can say yes to AI answers and no to training without contradicting itself.
 
-Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, and Amazonbot. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.
+Our robots.txt declares the signals, and it blocks the well-known training crawlers outright: GPTBot, ClaudeBot, Google-Extended, CCBot, Applebot-Extended, meta-externalagent, Bytespider, Amazonbot, cohere-ai, Diffbot, AI2Bot (including AI2Bot-Dolma), ImagesiftBot, PanguBot, omgili, omgilibot, Timpibot, KangarooBot, Kangaroo Bot, and Cotoyogi. Search crawlers and user-triggered fetch agents are left open on purpose. The signals are a stated preference and a reservation of rights, not a technical guarantee. Some tools ignore robots.txt; the policy stands either way.
 
 ## Why this line
 
@@ -34,7 +34,7 @@ Retrieval sends readers to the source. Training does not. We publish pricing res
 
 Want to train on the corpus, license it, or ask about a use this page does not cover? [Contact us](/contact/). Licensing is available; silence is not consent.
 
-Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap points agents at the machine-readable catalog in /.well-known/ard.json. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.
+Two non-standard extensions appear in the robots.txt on purpose: Content-Signal declares what each crawler may do with what it fetches, and Agentmap names the machine-readable catalog in /.well-known/ard.json. Agentmap stays a comment because the directive is non-standard and trips strict parsers; only Content-Signal is a live directive. Parsers that follow RFC 9309 ignore what they do not know, which is the intended behavior.
 
 © 2026 MARTECHSIGNAL · THE AI IN MARKETING AUTOMATION
 

@@ -603,7 +603,6 @@ def page_shell(title, description, canonical, body, schema_json=None, og_image=N
 <link rel="dns-prefetch" href="https://analytics.martechsignal.com">
 <link rel="preload" href="/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo-black-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/spline-sans-mono-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/spline-sans-mono-600.woff2" as="font" type="font/woff2" crossorigin>{schema_block}
 <link rel="alternate" type="text/markdown" href="https://martechsignal.com{canonical}index.md">
 {_stylesheet_tags()}
@@ -1457,12 +1456,13 @@ def build_tool_page(t, cats, all_tools, base="tools"):
             # we-have-not-run disclosure. If the tool's own text lacks one, prepend a
             # standard line so no page can imply hands-on testing it did not perform.
             joined = " ".join(str(p) for p in dd["hands_on"]).lower()
-            _asserts_use = any(m in joined for m in (
-                "we ran ", "we have run ", "we tested ", "we installed ", "we set up "))
             if not any(m in joined for m in ("we have not run", "we have no account",
                                              "not run this", "we have not tested",
                                              "haven't run", "assessed from", "not a hands-on test")) \
-                    and not (_asserts_use and dd.get("hands_on_verified")):
+                    and not dd.get("hands_on_verified"):
+                # r16 L-9 (2026-09-29): the verified flag alone suppresses the
+                # boilerplate (langchain precedent: "we built and invoked"
+                # matched no assert-use marker, so the flag is the mechanism).
                 # r10 H-5 (2026-09-29): never cite a source repository for
                 # closed-source tools (it cannot exist).
                 _src_bit = ("the source repository, " if t.get("github_repo") else "")
@@ -1930,6 +1930,11 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         schema["dateModified"] = _record_edit_date(t["slug"], t.get("date_updated") or t.get("date_added") or schema.get("datePublished", "2026-09-27"))
     if t.get("date_added"):
         schema["datePublished"] = t["date_added"]
+    elif t.get("date_updated"):
+        # r16 L-13 (2026-09-29): 3 records have no date_added, so their
+        # SoftwareApplication node skipped datePublished while sibling nodes
+        # carry it. Fall back to the earliest verified record date.
+        schema["datePublished"] = t["date_updated"]
     # R2 M-12 (2026-09-09): the site's own editorial rating was the one first-party
     # rating on the site invisible to machines. Mark it up as a Review authored by
     # MartechSignal (Google's review-snippet shape), separate from third-party

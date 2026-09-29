@@ -30,7 +30,7 @@ EnterpriseDesk-reviewed
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 Free open source ad server for publishers, ad networks and advertisers
 

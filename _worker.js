@@ -36,6 +36,10 @@ export default {
     if (ct.includes("text/html")) {
       const h = new Headers(res.headers);
       h.set("vary", "Accept");
+      // r16 L-13 (2026-09-29): edge answers `access-control-allow-origin: *`
+      // on documents though nothing needs it there. Scope the wildcard to
+      // the machine-readable data endpoints by stripping it from pages.
+      h.delete("access-control-allow-origin");
       return new Response(res.body, { status: res.status, headers: h });
     }
     return res;

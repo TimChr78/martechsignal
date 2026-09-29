@@ -171,6 +171,7 @@ One email when a new tool review lands, nothing else.
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "dateModified": "2026-09-29",
+    "datePublished": "2026-09-28",
     "offers": [
       {
         "@type": "Offer",

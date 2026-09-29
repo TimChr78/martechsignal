@@ -43,7 +43,7 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 - **Repository checked:** 2026-09-29
 - **Page updated:** 2026-09-25
 
-**Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We reviewed it from vendor documentation on 2026-09-25. This is a desk review, not a hands-on test. Desk-reviewed
+**Verdict:** advertools is a tool in Advertising & Paid Media with free and open source. The catalog documents 1 AI feature, 5 integrations, a public API and a self-hosting path. We ran this ourselves before reviewing it; the run notes and dates sit in Review notes below. Hands-on
 
 AccuRanker
 
@@ -77,7 +77,7 @@ AI-powered Meta ads optimization and creative workflow
 
 Python toolkit for SEO and advertising analysis in pandas DataFrames
 
-Advertising & Paid Media · Open Source Desk-reviewed
+Advertising & Paid Media · Open Source Hands-on
 
 MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) · updated 2026-09-29
 
@@ -116,8 +116,6 @@ SEO and PPC practitioners comfortable in Python who want SERP, keyword, ad text 
 Marketers who want dashboards, scheduled reports or a no-code workflow. advertools is a library, and you build the output yourself.
 
 ## Review notes
-
-Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
 Hands-on (2026-09-28): we installed 0.18.0 from PyPI and ran two functions directly. kw_generate expanded one seed phrase into 30 keyword rows with match-type variants, and the English stopwords table returned 305 entries. The package behaved exactly as its documentation describes; everything is importable pandas with no service behind it.
 

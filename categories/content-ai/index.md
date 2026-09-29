@@ -34,7 +34,7 @@ FreemiumDesk-reviewedOSS
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 AI content creation and optimization platform for regulated financial services marketing
 

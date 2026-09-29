@@ -119,7 +119,7 @@ Free to self-host under AGPL-3.0. Frappe Cloud hosting from $5/mo per site; dedi
 ## How to install
 
 - Managed route first, because the docs say so: they recommend trying Frappe Cloud before self-hosting. Sign up at frappecloud.com/crm/signup, or install the CRM app from the marketplace if you already run a Frappe Cloud account.
-- For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=you@example.com --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.
+- For a production server, use the Easy Install script. Download frappe.io/easy-install.py and run python3 ./easy-install.py deploy --project=crm_prod_setup --email=YOUR-EMAIL --image=ghcr.io/frappe/crm --version=stable --app=crm --sitename subdomain.domain.tld. The docs warn the site's DNS A record must point at the server first, or you will get a 404.
 - For a quick look, Docker is the fastest path: download docker-compose.yml and init.sh from the repo's docker directory and run docker compose up -d, then open http://crm.localhost:8000/crm and log in as Administrator with the password admin.
 - For development, install the bench CLI (uv tool install frappe-bench), create a bench with bench init, then run bench get-app crm and bench new-site sitename.localhost --install-app crm. Start it with bench start and browse to sitename.localhost:8000/crm.
 - Frontend changes live in frappe-bench/apps/crm/frontend, a Vue 3 and Vite project: yarn install, then yarn dev serves the dev build on port 8080.

@@ -2,7 +2,7 @@
 
 Open-source framework for building AI agents, chaining LLM calls, and connecting language models to tools
 
-Open SourceDesk-reviewedOSS
+Open SourceHands-onOSS
 
 Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
