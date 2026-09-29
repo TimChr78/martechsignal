@@ -20,6 +20,8 @@
 
 Amplitude fits product teams that want funnels without an analyst queue. Matomo gives you GA-grade analytics with the data staying home. Umami is the light self-hosted option. Mixpanel does deep product analytics with a usable free tier. Decide on data ownership first and features second.
 
+**Our top pick: [Amplitude](#amplitude)** — Product teams that want funnels and retention without an analyst queue [Try Amplitude](https://amplitude.com)
+
 ## How we picked
 
 The analytics shelf is short - eleven tools tracked, eight listed here. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

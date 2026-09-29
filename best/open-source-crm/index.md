@@ -18,6 +18,8 @@
 
 Most teams should start with EspoCRM. It is lean, free, and easy to extend piece by piece. SuiteCRM gives you the widest free feature set if you want everything in one box. Twenty fits developers who want a modern codebase to build on. All six self-host free, so the choice comes down to how much assembly you want.
 
+**Our top pick: [EspoCRM](#espocrm)** — Best for lean sales teams that automate à la carte. [Try EspoCRM](https://www.espocrm.com)
+
 ## How we picked
 
 This list is for teams that want a CRM they can host themselves: founders tired of per-seat billing, agencies holding client data on their own servers, and ops leads whose compliance rules rule out someone else's cloud. Every pick is open_source: true in the martechsignal catalog.

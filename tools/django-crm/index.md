@@ -179,7 +179,7 @@ Each request sets a PostgreSQL session variable (app.current_org) and Row-Level 
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ### Quick Facts
 
 ## Get the next teardown

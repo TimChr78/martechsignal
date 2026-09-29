@@ -20,6 +20,8 @@
 
 OpenOutreach leads for teams that want agent-written openers on their own server. React Email Editor fits developers who version templates as code. SendGrid handles transactional delivery with marketing on the side. Customer.io runs behavior-triggered lifecycle journeys on your own data.
 
+**Our top pick: [OpenOutreach](#openoutreach)** — Best for email marketing teams that want agent-written openers and can host it themselves, with a free starting tier. [Try OpenOutreach](https://openoutreach.app)
+
 ## How we picked
 
 Fifteen email marketing tools are catalogued; these eight make the shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

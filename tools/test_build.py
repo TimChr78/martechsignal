@@ -1132,3 +1132,25 @@ def test_fact_cards_serve_sized_renditions():
     bare = [i for i in imgs if "srcset" not in i]
     assert not bare, f"{len(bare)}/{len(imgs)} fact cards lack srcset"
     assert 'sizes="335px"' in imgs[0], "fact card sizes does not match the 335px slot"
+
+
+def test_best_pages_carry_above_fold_verdict_cta():
+    """r10 H-11 (2026-09-29): every /best/ page carries a verdict-led top-pick
+    CTA right after the comparison table (above the fold)."""
+    import re as _re
+    bad = []
+    for idx in (ROOT / "best").glob("*/index.html"):
+        if idx.parent.name == "best":
+            continue
+        html = idx.read_text()
+        if 'class="top-pick"' not in html or "Our top pick:" not in html:
+            bad.append(idx.parent.name)
+    assert not bad, f"best pages without top-pick CTA: {bad[:5]}"
+
+
+def test_mobile_nav_has_swipe_cue():
+    """r10 H-10 (2026-09-29): the one-row mobile nav rail keeps its form but
+    carries a discoverability cue (edge fade), not a blind swipe."""
+    css = (ROOT / "style.css").read_text()
+    assert "mask-image:linear-gradient(90deg,#000 92%,transparent)" in css, \
+        "mobile nav swipe cue missing"

@@ -20,6 +20,8 @@
 
 Dynamic Yield fits large commerce operations buying personalization depth. Segment makes sense when the real problem is data plumbing. Nosto gives merchants recommendations their merchandisers can steer. Clerk.io brings search and recommendations to mid-size stores without enterprise procurement. Start from your data stack, not the demo.
 
+**Our top pick: [Dynamic Yield](#dynamic-yield)** — Large commerce operations buying personalization depth over self-serve [Try Dynamic Yield](https://www.dynamicyield.com)
+
 ## How we picked
 
 Eight of the nine personalization and CDP tools made this list. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

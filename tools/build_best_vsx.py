@@ -106,6 +106,17 @@ def build_best():
             '<div class="table-wrap"><table><caption>Best picks at a glance</caption><thead>'
             + _head + '</thead><tbody>'
             + "".join(rows) + "</tbody></table></div>")
+        # r10 H-11 (2026-09-29): one verdict-led CTA above the fold. The top
+        # pick is items[0] (rank order); the verdict is our own published
+        # editorial and the vendor URL comes from the catalog record.
+        _top = tools_by_slug[items[0]["slug"]]
+        _top_url = _top.get("website", "")
+        body.append(
+            f'<p class="top-pick"><strong>Our top pick: '
+            f'<a href="#{esc(_top["slug"])}">{esc(_top["name"])}</a></strong>'
+            f' &mdash; {esc(items[0]["verdict"])}'
+            + (f' <a class="btn-cta" href="{esc(_top_url)}" rel="noopener">Try {esc(_top["name"])}</a>' if _top_url else "")
+            + "</p>")
         body.append('<h2>How we picked</h2>')
         body.extend(_intros)
         body.append(_verify_box)

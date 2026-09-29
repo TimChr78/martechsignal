@@ -164,7 +164,7 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 
 ## Related reading
 
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in

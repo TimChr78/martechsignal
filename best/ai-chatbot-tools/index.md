@@ -18,6 +18,8 @@
 
 Intercom fits support teams that want AI resolutions they can audit. Chatwoot gives you an open-source inbox with AI help included. Tidio adds live chat and an AI agent cheaply for small shops. Chatfuel suits messaging-first brands that script conversations like campaigns. Handover quality matters more than the script.
 
+**Our top pick: [Intercom](#intercom)** — Support teams that want AI resolutions auditable at $0.99 each [Try Intercom](https://www.intercom.com)
+
 ## How we picked
 
 Every chatbot tool we track - all six of them - appears below. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

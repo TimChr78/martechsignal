@@ -20,6 +20,8 @@
 
 Revealbot fits buyers who trust rules they wrote over black boxes. Pencil pairs creative testing with an insights agent. Smartly suits enterprises consolidating creative and buying in one contract. Adcreative gives lean teams scored creative volume. Nothing here spends wisely unsupervised, so weigh the guardrails.
 
+**Our top pick: [Revealbot (Birch)](#revealbot)** — Media buyers that trust rules they wrote more than black boxes [Try Revealbot (Birch)](https://bir.ch)
+
 ## How we picked
 
 Nine paid-media tools are catalogued, and eight sit below. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

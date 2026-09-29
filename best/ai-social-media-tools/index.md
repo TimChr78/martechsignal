@@ -18,6 +18,8 @@
 
 Hootsuite fits teams running many accounts where scheduling has to survive staff turnover. Sprout Social combines listening and engagement in a polished UI. Brandwatch is for research teams that need consumer intelligence, not a scheduler. Predis gives solo marketers daily volume on a small budget.
 
+**Our top pick: [Hootsuite](#hootsuite)** — Teams running many accounts that need scheduling which survives staff turnover [Try Hootsuite](https://www.hootsuite.com)
+
 ## How we picked
 
 All six social media tools in the directory are listed; the category is that new. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

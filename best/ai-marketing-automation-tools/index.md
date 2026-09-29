@@ -20,6 +20,8 @@
 
 NocoDB tops this list because it covers automation plus data in one self-hosted platform. Ortto puts email, SMS, and journeys behind one login. Salesforce Marketing Cloud only makes sense inside a Salesforce estate. ActiveCampaign gives SMB teams real automation without enterprise procurement.
 
+**Our top pick: [NocoDB](#nocodb)** — Best for marketing automation teams that want the job covered in one platform and can host it themselves, with a free starting tier. [Try NocoDB](https://nocodb.com)
+
 ## How we picked
 
 The directory tracks twelve marketing automation platforms, and these eight are the ones worth your shortlist. We picked them on capability coverage and transparency: documented AI features, listed integrations, API availability, and published pricing. Scored tools come first. Nobody pays for placement.

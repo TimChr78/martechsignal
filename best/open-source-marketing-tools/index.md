@@ -20,6 +20,8 @@
 
 Mautic comes first: HubSpot-class automation you host yourself. Listmonk sends newsletters with no per-contact billing. Laudspeaker runs lifecycle messaging outside the CRM. SuiteCRM covers sales. Everything here self-hosts free, so hosting effort is the price you actually pay. The other four play the same game in narrower lanes; the table below lines them up.
 
+**Our top pick: [Mautic](#mautic)** — Marketing teams that want HubSpot-class automation they can host themselves [Try Mautic](https://www.mautic.org)
+
 ## How we picked
 
 The directory's open-source badge marks tools whose code and terms are public. These eight are where a marketing team should start, ordered by how directly they answer the job: Mautic for marketing automation first, newsletter and messaging engines next, then CRM, automation glue, and analytics. Scored tools come first. Nobody pays for placement.
