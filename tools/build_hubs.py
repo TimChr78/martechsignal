@@ -222,6 +222,40 @@ def build():
         for i, c in enumerate(_best_kids))
     _best_intro = [BEST_INTRO[0].split("Three lists are live:")[0] +
                    f"{_nb} lists are live: " + _best_links] + BEST_INTRO[1:]
+    # r16 H-3 (2026-09-29): the /vs/ hub said "three comparisons" while
+    # linking 7 of 10, and /alternatives/ said "three" while holding 4.
+    # Same derived pattern as /best/: live-list sentence + links from the
+    # same children that feed hasPart and the visible list. Short names
+    # come from slugs (pair) or title prefixes (guide target).
+    _brands = {"hubspot": "HubSpot", "nocodb": "NocoDB", "nocobase": "NocoBase"}
+    def _pair(slug):
+        return " ".join("vs" if w == "vs" else _brands.get(w, w.upper() if w == "crm" else w.capitalize())
+                           for w in slug.split("-"))
+    _vs_slugs = [c["url"].rstrip("/").split("/")[-1] for c in _vs_kids]
+    _vs_links = " ".join(
+        f'<a href="https://martechsignal.com/vs/{s}/">{_pair(s)}</a>' + ("," if i < len(_vs_slugs) - 2 else " and" if i < len(_vs_slugs) - 1 else ".")
+        for i, s in enumerate(_vs_slugs))
+    _vs_intro = [VS_INTRO[0].split("The three comparisons live now are")[0] +
+                 f"{_nv} comparisons are live now: " + _vs_links +
+                 " Each pair overlaps enough that teams genuinely weigh one "
+                 "against the other; the pages exist because the choice is close."] + VS_INTRO[1:]
+    import json as _json
+    _alt_raw = _json.loads(ALT.read_text())["pages"]
+    _alt_targets = [p["title"].replace("Best ", "").split(" (")[0] for p in _alt_raw]
+    _alt_counts = [len(p.get("items") or []) for p in _alt_raw]
+    _alt_links = " ".join(
+        f'<a href="https://martechsignal.com/alternatives/{p["slug"]}/">{t} ({n} compared)</a>' + ("," if i < len(_alt_raw) - 2 else " and" if i < len(_alt_raw) - 1 else ".")
+        for i, (p, t, n) in enumerate(zip(_alt_raw, _alt_targets, _alt_counts)))
+    _alt_intro = [ALT_INTRO[0].split("Three are live:")[0] +
+                  f"{_na} are live: " + _alt_links,
+                  ALT_INTRO[1].replace(
+                      "Each guide lists five alternatives drawn from the same category",
+                      f"Each guide lists every credible alternative the catalog holds for its target "
+                      f"(from {min(_alt_counts)} to {max(_alt_counts)} per guide), drawn from the same category"),
+                  ALT_INTRO[2].replace("This is a deliberate set of three,",
+                                       f"This is a deliberate set of {_na.lower()},"),
+                  ALT_INTRO[3].replace("What it can do is narrow five credible options",
+                                       "What it can do is narrow the field")]
     sections = [
         ("best", "Best-of lists",
          "Best-of lists (2026): open-source CRM, workflow, AI SEO",
@@ -230,23 +264,76 @@ def build():
          "platforms and AI SEO.",
          _best_intro, _best_kids),
         ("vs", "Head-to-head comparisons",
-         "Head-to-head comparisons: n8n, NocoDB and Matomo (2026)",
-         f"{_nv} head-to-head comparisons: n8n vs Zapier, NocoDB vs NocoBase "
-         "and Matomo vs Plausible, built on catalog facts with a clear pick "
-         "for each team.",
-         VS_INTRO, _vs_kids),
+         "Head-to-head comparisons (2026)",
+         f"{_nv} head-to-head comparisons of overlapping marketing tools, "
+         "built on catalog facts with a clear pick for each team.",
+         _vs_intro, _vs_kids),
         ("alternatives", "Alternatives guides",
-         "Alternatives guides: HubSpot CRM, Zapier, Matomo (2026)",
-         f"{_na} alternatives guides: options besides HubSpot CRM, Zapier and "
-         "Matomo, with who each pick fits, who should skip it and "
-         "vendor-published pricing.",
-         ALT_INTRO, _alt_kids),
+         "Alternatives guides (2026)",
+         f"{_na} alternatives guides: credible options besides "
+         f"{', '.join(t.removesuffix(' alternatives') for t in _alt_targets[:-1])} and {_alt_targets[-1].removesuffix(' alternatives')}, with who each pick fits and vendor-published pricing.",
+         _alt_intro, _alt_kids),
     ]
     for section, h1, seo_title, meta, intro, children in sections:
         assert children, f"hub /{section}/ has no live children"
         n = _hub(section, h1, seo_title, meta, intro, children)
         print(f"  wrote {section}/index.html ({n} children listed, "
               f"intro ~{sum(len(p.split()) for p in intro)} words)")
+    _money_strip(_best_kids, _vs_slugs, _alt_raw)
+
+
+def _money_strip(best_kids, vs_slugs, alt_pages):
+    """r16 H-3 (2026-09-29): the homepage linked none of the 29 money
+    leaves, so the pages built to rank were unreachable from the site's own
+    entry point. Same marker pattern as the categories strip: a generated
+    block between money-strip markers, counts and links derived from the
+    same sources as the hubs. No new CSS (plain paragraphs, existing
+    section shell)."""
+    _brands = {"hubspot": "HubSpot", "nocodb": "NocoDB", "nocobase": "NocoBase"}
+    def _pair(slug):
+        return " ".join("vs" if w == "vs" else _brands.get(w, w.upper() if w == "crm" else w.capitalize())
+                           for w in slug.split("-"))
+    _best = ", ".join(
+        f'<a href="https://martechsignal.com/best/{c["url"].rstrip("/").split("/")[-1]}/">'
+        f'{esc(c["title"].split(" (")[0])}</a>' for c in best_kids)
+    _vs = ", ".join(
+        f'<a href="https://martechsignal.com/vs/{s}/">{_pair(s)}</a>' for s in vs_slugs)
+    _al = ", ".join(
+        f'<a href="https://martechsignal.com/alternatives/{p["slug"]}/">'
+        f'{esc(p["title"].replace("Best ", "").split(" (")[0])}</a>' for p in alt_pages)
+    strip = (
+        "<!-- money-strip:start (generated by tools/build_hubs.py) -->\n"
+        '<section class="section">\n'
+        '  <div class="section-head">\n'
+        '    <h2>Comparisons and best-of lists</h2>\n'
+        '    <a href="/vs/">ALL COMPARISONS →</a>\n'
+        '  </div>\n'
+        '  <p style="max-width:62ch">Verdicts with receipts: every list below names what each tool costs '
+        'from the vendor\u2019s own pricing page, what it fits worst, and who should skip it. '
+        'Start from the comparison or list that matches your shortlist, then read the linked tool pages for dated numbers.</p>\n'
+        f'  <p style="max-width:78ch">{len(vs_slugs)} head-to-head comparisons: {_vs}. '
+        f'More on the <a href="/vs/">comparisons hub</a>.</p>\n'
+        f'  <p style="max-width:78ch">{len(best_kids)} best-of lists: {_best}. '
+        f'More on the <a href="/best/">best-of hub</a>.</p>\n'
+        f'  <p style="max-width:78ch">{len(alt_pages)} alternatives guides: {_al}. '
+        f'More on the <a href="/alternatives/">alternatives hub</a>.</p>\n'
+        "</section>\n"
+        "<!-- money-strip:end -->"
+    )
+    p = ROOT / "index.html"
+    html = p.read_text()
+    start = "<!-- money-strip:start"
+    end = "<!-- money-strip:end -->"
+    anchor = '<section class="section">\n  <div class="section-head">\n    <h2>How to read the directory</h2>'
+    if start in html and end in html:
+        i = html.index(start)
+        j = html.index(end) + len(end)
+        html = html[:i] + strip + html[j:]
+    else:
+        assert anchor in html, "homepage anchor for money strip not found"
+        html = html.replace(anchor, strip + "\n\n" + anchor, 1)
+    p.write_text(html)
+    print(f"  homepage money strip: {len(best_kids)}/{len(vs_slugs)}/{len(alt_pages)} links")
 
 
 if __name__ == "__main__":

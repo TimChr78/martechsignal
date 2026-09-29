@@ -1540,6 +1540,55 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"pricing lead seam: {bad[:8]}"
 
 
+def test_hubs_link_all_children_with_derived_counts():
+    """r16 H-3 (2026-09-29): the /vs/ hub linked 7 of 10 leaves while saying
+    "three", /alternatives/ linked 3 of 4 while saying "three" and "five".
+    Hub child links must equal the source page count; prose counts derive
+    from the same children (Ten/Four/Fifteen present, stale words absent)."""
+    import json as _j, re as _re
+    exp = {}
+    for slug, path in (("best", "tools/bestx-content.json"), ("vs", "tools/vsx-content.json"),
+                       ("alternatives", "tools/alternatives-content.json")):
+        data = _j.loads((ROOT / path).read_text())
+        pages = data["pages"] if isinstance(data, dict) else data
+        exp[slug] = [p["slug"] for p in pages]
+    words = {15: "Fifteen", 10: "Ten", 4: "Four"}
+    bad = []
+    for slug, slugs in exp.items():
+        h = (ROOT / slug / "index.html").read_text()
+        linked = set(_re.findall(r'https://martechsignal\.com/' + slug + r'/([a-z0-9-]+)/', h)) | \
+            set(_re.findall(r'href="(/' + slug + r'/[a-z0-9-]+/)"', h))
+        linked = {u.rstrip("/").split("/")[-1] for u in linked}
+        missing = [s for s in slugs if s not in linked]
+        if missing:
+            bad.append(f"/{slug}/ unlinked: {missing[:4]}")
+        if words[len(slugs)] not in h:
+            bad.append(f"/{slug}/ prose count missing ({words[len(slugs)]})")
+    for stale in ("three comparisons live", "Three are live:", "lists five alternatives",
+                  "deliberate set of three", "narrow five credible options"):
+        for slug in exp:
+            if stale in (ROOT / slug / "index.html").read_text():
+                bad.append(f"/{slug}/ stale prose: {stale!r}")
+    assert not bad, f"hub distribution gaps: {bad[:8]}"
+
+
+def test_homepage_links_every_money_leaf():
+    """r16 H-3 (2026-09-29): the homepage linked none of the 29 money
+    leaves. The generated money strip must link every best/vs/alternatives
+    leaf with a descriptive anchor."""
+    import json as _j, re as _re
+    h = (ROOT / "index.html").read_text()
+    bad = []
+    for slug, path in (("best", "tools/bestx-content.json"), ("vs", "tools/vsx-content.json"),
+                       ("alternatives", "tools/alternatives-content.json")):
+        data = _j.loads((ROOT / path).read_text())
+        pages = data["pages"] if isinstance(data, dict) else data
+        for p in pages:
+            if f"/{slug}/{p['slug']}/" not in h:
+                bad.append(f"/{slug}/{p['slug']}/")
+    assert not bad, f"money leaves unreachable from /: {bad[:8]}"
+
+
 def test_faq_third_answers_are_unique_per_tool():
     """r15 M-3 (2026-09-29): 7 tool pages shipped placeholder FAQ answers
     sharing the "full review breaks down" tail (3 byte-identical). The

@@ -50,9 +50,13 @@ def build_categories(cats, tools):
             f'<section class="cat-depth"><h2><a href="/categories/{c["slug"]}/">{esc(c["name"])}</a></h2>'
             f'<p>{lead}.{tail}</p></section>'
         )
+    # r16 M-10 (2026-09-29): the hub said "All 14 categories" while the
+    # homepage says "13 categories plus a cross-cutting open-source index".
+    # Same derived sentence both places: real categories + the index.
+    _n_real = len([c for c in cats if not c.get("cross_cutting")])
     body = (
         '<header class="page-head"><h1>Categories</h1>'
-        f'<p class="lede">All {len(cats)} categories across the {total}-tool directory. '
+        f'<p class="lede">All {_n_real} categories plus a cross-cutting open-source index across the {total}-tool directory. '
         'Each category page lists its tools with licence, stars and a plain summary of what it does.</p></header>'
         f'<div class="tool-grid">{"".join(cards)}</div>'
         f'<div class="cat-depth-list">{"".join(depth)}</div>'
@@ -62,7 +66,7 @@ def build_categories(cats, tools):
         "@type": "CollectionPage",
         "name": "Categories",
         "url": "https://martechsignal.com/categories/",
-        "description": f"All {len(cats)} tool categories in the MartechSignal directory.",
+        "description": f"All {_n_real} tool categories plus an open-source index in the MartechSignal directory.",
         # r11 M-9 (2026-09-29): hasPart for the 14 children — same pattern
         # as the /guides/ fix (r11 H-6). Single source: the cats list below.
         "hasPart": [
@@ -75,7 +79,7 @@ def build_categories(cats, tools):
     }
     return page_shell(
         "Categories | MartechSignal",
-        f"Browse all {len(cats)} categories across {total} marketing-automation tools: licences, stars and plain-English summaries.",
+        f"Browse all {_n_real} categories plus the open-source index across {total} marketing-automation tools: licences, stars and plain-English summaries.",
         "/categories/",
         body, schema_json=schema, og_image="og.png",
     )
