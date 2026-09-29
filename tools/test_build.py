@@ -1000,6 +1000,42 @@ def test_image_sizes_describe_real_slots():
     assert "100vw, 500px" in vs, "vs-figures shots missing grid-slot sizes"
 
 
+def test_no_doubled_star_phrases_sitewide():
+    """r15 H-1a (2026-09-29): the star sync left 19 doubled "GitHub stars
+    GitHub stars" phrases on 16 pages. No rendered page may repeat the
+    token, in any content file or output."""
+    import pathlib as _pl
+    bad = []
+    for base in ("tools", "best", "vs", "alternatives", "categories", "blog", "glossary", "guides"):
+        for f in (ROOT / base).glob("*/index.html"):
+            h = f.read_text()
+            if "GitHub stars GitHub stars" in h or "GitHub stars stars" in h:
+                bad.append(f"{base}/{f.parent.name}/")
+    assert not bad, f"doubled star phrases: {bad[:5]}"
+
+
+def test_tool_page_star_literals_match_catalog():
+    """r15 H-1b (2026-09-29): 14 tool pages showed a stale prose star count
+    beside the synced catalog value. Every "N GitHub stars" literal on a
+    tool page must equal that record's github_stars."""
+    import json as _j, re as _re, pathlib as _pl
+    recs = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    idx = {x["slug"]: x for x in recs if isinstance(x, dict)}
+    pat = _re.compile(r"(\d{1,3}(?:,\d{3})+)\s+GitHub stars\b")
+    bad = []
+    for f in (ROOT / "tools").glob("*/index.html"):
+        slug = f.parent.name
+        rec = idx.get(slug, {})
+        if not isinstance(rec.get("github_stars"), int):
+            continue
+        real = f'{rec["github_stars"]:,}'
+        for m in pat.finditer(f.read_text()):
+            if m.group(1) != real:
+                bad.append((slug, m.group(1), real))
+                break
+    assert not bad, f"stale star literals: {bad[:5]}"
+
+
 def test_blog_posts_carry_publisher_and_canonical_linkage():
     """r14 M-11 (2026-09-29): every BlogPosting carries a publisher block
     (org name/url/logo) and mainEntityOfPage so posts resolve to the
@@ -1254,7 +1290,13 @@ def test_self_made_cluster_declared():
     tool = (ROOT / "tools" / "claude-seo" / "index.html").read_text()
     assert len(_re.findall(r"16,675|16675|2,443", tool)) == 0, \
         "stale star/fork figures persist on /tools/claude-seo/"
-    assert "17,737" in tool and "2,599" in tool, "corrected figures missing"
+    # r15 H-1b (2026-09-29): figures must track the live catalog record, not
+    # a hardcoded snapshot — the sync moves them daily.
+    import json as _j
+    _recs = _j.loads((ROOT / "tools" / "tools.json").read_text())
+    _cs = next(x for x in _recs if x.get("slug") == "claude-seo")
+    assert f'{_cs["github_stars"]:,}' in tool and f'{_cs["github_forks"]:,}' in tool, \
+        "tool page figures do not match the catalog record"
 
 
 def test_money_pages_link_their_hubs():
