@@ -97,8 +97,8 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 - [Nosto](/tools/nosto/) - AI-powered ecommerce personalization with product recommendations and merchandising
 ## Comparison guides
 
-- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [DSP](/glossary/dsp/)
@@ -107,7 +107,7 @@ Advertising platforms and the measurement layer that keeps them honest. Pricing 
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SISTRIX](/tools/sistrix/)
+More from the directory: [Pabbly Connect](/tools/pabbly-connect/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -159,7 +159,7 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1707,
+  "wordCount": 1706,
   "articleSection": "advertising"
 }
 ```

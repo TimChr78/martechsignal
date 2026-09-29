@@ -176,11 +176,11 @@ Two layers. The repo is MIT licensed and its pricing FAQ states the MCP server i
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

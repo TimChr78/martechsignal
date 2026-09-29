@@ -157,7 +157,7 @@ Niche but interesting for technical teams that want model-drafted ad copy inside
 - [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
 ### Quick Facts
 
 Related guides: [Agent Skills Tools](/best/agent-skills-tools/)

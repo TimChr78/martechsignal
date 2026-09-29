@@ -9,8 +9,8 @@
 | [Clerk.io](/tools/clerk-io/) | From $119/mo | No | Mid-size stores that want search and recs without enterprise procurement |
 | [Tealium](/tools/tealium/) | Enterprise | No | Regulated enterprises that need governance around every customer event |
 | [Flagsmith](/tools/flagsmith/) | Freemium | Yes (BSD-3-Clause) | Teams that want their experiment engine as open as their stack |
-| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [GrowthBook](/tools/growthbook/) | Freemium | Yes (MIT) | Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users. |
+| [Jitsu](/tools/jitsu/) | Freemium | Yes (MIT) | Best for data teams that want open-source event collection in their own warehouse, free to self-host. |
 
 [Open-Source Tools](/categories/open-source/)[Personalization & CDP](/categories/personalization/)
 
@@ -114,7 +114,7 @@ Vendor: [Official site](https://www.flagsmith.com) · [Pricing](https://www.flag
 
 GrowthBook is an open-source feature flag and A/B testing platform with 8,430 GitHub stars, built warehouse-native: experiments are analyzed in your own data warehouse instead of a vendor copy of your events. It starts free, and starter free (3 users, 1 project). Pro USD 40/seat/month (30 users, 3 projects). Enterprise custom. Managed warehouse: 1M events/mo on Starter, 2M on Pro then USD 30 per additional million (verified 2026-09-25). The catalog documents 4 AI features, 6 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.
 
 Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.growthbook.io/pricing) · [GitHub](https://github.com/growthbook/growthbook)
 
@@ -126,7 +126,7 @@ Vendor: [Official site](https://www.growthbook.io) · [Pricing](https://www.grow
 
 Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,091 stars on GitHub. It starts free, and free plan: unlimited captured events, 200k active events/mo, one daily active sync. Business USD 99/mo: 2M active events/mo then USD 40 per additional 1M; up to 5 monthly active syncs then USD 20 each. Enterprise custom. Open-source self-hosting (MIT) free with no usage limits (verified 2026-09-25). The catalog documents 1 AI features, 6 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for data teams that want open-source event collection in their own warehouse, free to self-host.
 
 Vendor: [Official site](https://jitsu.com) · [Pricing](https://jitsu.com/pricing) · [GitHub](https://github.com/jitsucom/jitsu)
 

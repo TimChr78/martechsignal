@@ -239,7 +239,7 @@ It runs as analysis software inside your terminal rather than a dashboard. Each 
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for Claude Code users who want SEO audits run by agents instead of dashboards.
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license.
 - [Claude SEO vs Semrush (2026): pricing, AI features, verdict](/vs/claude-seo-vs-semrush/) — Pick Claude SEO if you can host it yourself and want code-level control, starting free.
 ### Quick Facts
 

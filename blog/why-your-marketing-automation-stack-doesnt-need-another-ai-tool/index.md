@@ -103,8 +103,8 @@ This post is part of the hub for this topic: [workflow automation strategy](/gui
 - [HubSpot Marketing Hub](/tools/hubspot-marketing-hub/) - All-in-one marketing automation with AI-powered content, email, and campaign tools
 ## Comparison guides
 
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [Lead scoring](/glossary/lead-scoring/)

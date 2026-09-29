@@ -3,12 +3,12 @@
 
 | Tool | Pricing | Verdict |
 | --- | --- | --- |
-| [Claude SEO](/tools/claude-seo/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Claude Ads](/tools/claude-ads/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) | Freemium | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Claude SEO](/tools/claude-seo/) | Open Source | Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license. |
+| [Claude Ads](/tools/claude-ads/) | Open Source | Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license. |
+| [Google Ads + Meta Ads + GA4 MCP](/tools/google-meta-ads-ga4-mcp/) | Freemium | Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host. |
 | [Digital Marketing Pro](/tools/digital-marketing-pro/) | Open Source | Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier. |
-| [Email Marketing Bible](/tools/email-marketing-bible/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
-| [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) | Open Source | Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. |
+| [Email Marketing Bible](/tools/email-marketing-bible/) | Open Source | Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license. |
+| [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) | Open Source | Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install. |
 | [Eve Marketing Team Template](/tools/eve-marketing-team/) | Open Source | Best for agent skills teams that want slack or terminal interface and can host it themselves, with a free starting tier. |
 | [OpenClaw Marketing Skills](/tools/openclaw-marketing-skills/) | Open Source | Best for agent skills teams that want keyword cannibalization detection and can host it themselves, with a free starting tier. |
 
@@ -20,7 +20,7 @@
 
 Claude SEO headlines for teams running SEO audits as agent skills. The rest split by platform and workflow: Claude Ads, GA4 and Meta connectors, and playbook packs. These are utilities rather than platforms, and each one carries a kind label saying exactly that.
 
-**Our top pick: [Claude SEO](#claude-seo)** — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier. [Try Claude SEO](https://claude-seo.md/)
+**Our top pick: [Claude SEO](#claude-seo)** — Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license. [Try Claude SEO](https://claude-seo.md/)
 
 Last verified 2026-09-28.
 
@@ -55,7 +55,7 @@ Star counts we snapshot ourselves every morning — check any of them against Gi
 
 Claude SEO turns Claude Code into an SEO audit machine. It starts free, and free, MIT-licensed. Self-hosted inside Claude Code. Optional paid community mirror on Skool (verified 2026-08-28). The catalog documents 5 AI features, 5 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for SEO teams that want 25 audit sub-skills and 20 specialist agents inside Claude Code, free under the MIT license.
 
 Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/AgriciDaniel/claude-seo)
 
@@ -67,7 +67,7 @@ Vendor: [Official site](https://claude-seo.md/) · [GitHub](https://github.com/A
 
 Claude Ads is a paid-media operations skill that runs inside Claude Code. It starts free, and free, MIT-licensed. Runs inside Claude Code. API costs for Claude apply (verified 2026-08-28). The catalog documents 5 AI features, 12 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for paid-media teams that run several ad platforms and want one Claude Code skill covering all 12, free under the MIT license.
 
 Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](https://github.com/AgriciDaniel/claude-ads)
 
@@ -79,7 +79,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/claude-ads) · [GitHub](
 
 google-meta-ads-ga4-mcp is an MCP server that lets AI assistants manage Google Ads, Meta Ads, and GA4 from one conversation. It starts free, and mIT-licensed repo; hosted MCP endpoint provided through Ryze AI (free trial, then paid plans) (verified 2026-09-07). The catalog documents 5 AI features, 11 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for performance teams that want Google Ads, Meta Ads and GA4 reachable from one MCP server, free to self-host.
 
 Vendor: [Official site](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) · [Pricing](https://www.get-ryze.ai/payment-setup) · [GitHub](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp)
 
@@ -103,7 +103,7 @@ Vendor: [Official site](https://github.com/indranilbanerjee/digital-marketing-pr
 
 Email Marketing Bible is what happens when someone who ran an email SaaS (SmartrMail, ~28,000 customers, 6 billion emails sent, acquired in 2022) distills everything into a 55,000-word skill file. It starts free, and free and open source. Works with Claude Code, Claude Desktop, and MCP-compatible agents (verified 2026-08-28). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for email marketers who want 19 playbooks with 908 cited sources and ESP control over MCP, free under the MIT license.
 
 Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [GitHub](https://github.com/CosmoBlk/email-marketing-bible)
 
@@ -115,7 +115,7 @@ Vendor: [Official site](https://github.com/CosmoBlk/email-marketing-bible) · [G
 
 GTM Cheat Codes is the skill library Zapier's own go-to-market teams use with coding agents. It starts free, and free, MIT-licensed. Runs inside Codex, Claude Code, Cursor, and similar harnesses. Requires Zapier MCP or SDK credentials for connected actions (verified 2026-08-31). The catalog documents 5 AI features, 8 integrations, a public API, and a self-hosting path.
 
-**Verdict:** Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+**Verdict:** Best for GTM practitioners who want a cheat-code skill for Zapier and Google Tag Manager recipes, free to install.
 
 Vendor: [Official site](https://github.com/zapier/gtm-cheat-codes) · [GitHub](https://github.com/zapier/gtm-cheat-codes)
 

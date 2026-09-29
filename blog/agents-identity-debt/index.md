@@ -97,8 +97,8 @@ CDPs, identity resolution, and the data platforms that decide what your agents c
 - [Braze](/tools/braze/) - Customer engagement platform with AI-powered real-time messaging across channels
 ## Comparison guides
 
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -159,7 +159,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1743,
+  "wordCount": 1741,
   "articleSection": "marketing-automation"
 }
 ```

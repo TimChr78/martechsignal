@@ -172,7 +172,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for data teams that want open-source event collection in their own warehouse, free to self-host.
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

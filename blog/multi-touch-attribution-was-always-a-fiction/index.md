@@ -95,7 +95,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 ## Comparison guides
 
 - [Best Marketing Analytics &amp; Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Attribution models](/glossary/marketing-attribution-models/)
@@ -104,7 +104,7 @@ Attribution platforms, CDPs, and analytics tools with pricing and AI features co
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [SuiteCRM](/tools/suitecrm/)
+More from the directory: [SISTRIX](/tools/sistrix/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -156,7 +156,7 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1597,
+  "wordCount": 1592,
   "articleSection": "analytics"
 }
 ```

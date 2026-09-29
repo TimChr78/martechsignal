@@ -169,7 +169,7 @@ Yes. The managed warehouse option covers teams without one on cloud plans, and t
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
-- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for personalization & CDP teams that want the job covered in one platform and can host it themselves, with a free starting tier.
+- [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for product teams that want feature flags and A/B testing they can self-host, with a free Starter plan for 3 users.
 ### Quick Facts
 
 Related guides: [Ai Personalization Tools](/best/ai-personalization-tools/)

@@ -144,8 +144,8 @@ The most complete open-source take on agent-produced launch assets, with a real 
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO vs Seonaut: which free SEO checker should you run](/blog/claude-seo-vs-seonaut/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -88,8 +88,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)

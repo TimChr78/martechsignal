@@ -156,7 +156,7 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Related reading
 
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in

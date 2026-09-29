@@ -184,7 +184,7 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 

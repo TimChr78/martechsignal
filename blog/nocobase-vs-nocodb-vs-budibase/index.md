@@ -116,17 +116,17 @@ If you only need the two-way NocoDB and NocoBase question answered as a spec she
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
 ## Comparison guides
 
-- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
-- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
-- [MCP](/glossary/mcp/)
+- [Workflow automation](/glossary/workflow-automation/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Writesonic](/tools/writesonic/)
+More from the directory: [Trakkr](/tools/trakkr/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -178,7 +178,7 @@ More from the directory: [Writesonic](/tools/writesonic/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1925,
+  "wordCount": 1923,
   "articleSection": "workflow-automation"
 }
 ```
