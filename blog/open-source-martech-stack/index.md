@@ -173,8 +173,8 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
 - [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Related tools
 
-- [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [HubSpot CRM](/tools/hubspot-crm/) - Free AI-powered CRM platform with sales, service, and marketing tools unified
+- [Matomo](/tools/matomo/) - Open-source web analytics platform with full data ownership and AI-powered insights
 - [Jitsu](/tools/jitsu/) - Open-source Segment alternative for event capture and warehouse-first data pipelines
 ## Comparison guides
 
@@ -233,7 +233,7 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1538,
+  "wordCount": 1537,
   "articleSection": ""
 }
 ```

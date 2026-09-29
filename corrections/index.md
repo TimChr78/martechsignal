@@ -6,6 +6,8 @@
 
 2026-09-29
 
+2026-09-29
+
 2026-09-26
 
 2026-09-26
@@ -31,6 +33,10 @@
 ## Corrections
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
+
+## Correction to our own corrections entry: the star sync shipped incomplete
+
+Our earlier entry today claimed older star literals in prose were refreshed to the synced values. That was premature: 19 doubled "GitHub stars GitHub stars" phrases and 14 stale star numbers survived in tool descriptions, score evidence, and stats cells — some predating the sync itself. All are now collapsed or refreshed to the synced catalog values, and two build-time checks (token repetition, star-literal-vs-catalog) fail the build if either class ever regresses.
 
 ## Homepage layout and analytics loss, introduced by our own deploy
 

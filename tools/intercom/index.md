@@ -156,8 +156,8 @@ Best-in-class for AI-assisted support. Watch the AI usage metering, it quietly c
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Support teams that want AI resolutions auditable at $0.99 each

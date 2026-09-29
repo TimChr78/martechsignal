@@ -1000,6 +1000,21 @@ def test_image_sizes_describe_real_slots():
     assert "100vw, 500px" in vs, "vs-figures shots missing grid-slot sizes"
 
 
+def test_analytics_loader_present_on_every_page():
+    """r15 M-4 (2026-09-29): the Umami loader drifted off 10 hand pages
+    (about/contact/privacy/terms/ai-policy + 5 guides) because it is applied
+    per-template. Every live page must carry it."""
+    import pathlib as _pl
+    bad = []
+    for pat in ("*/index.html", "*/*/index.html"):
+        for f in ROOT.glob(pat):
+            if "deploy-out" in f.parts:
+                continue
+            if "analytics.martechsignal.com/script.js" not in f.read_text():
+                bad.append(str(f.parent))
+    assert not bad, f"pages without analytics loader: {bad[:12]}"
+
+
 def test_no_doubled_star_phrases_sitewide():
     """r15 H-1a (2026-09-29): the star sync left 19 doubled "GitHub stars
     GitHub stars" phrases on 16 pages. No rendered page may repeat the

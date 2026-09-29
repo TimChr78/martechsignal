@@ -48,13 +48,13 @@ ToolJet
 
 Open-source low-code platform for internal tools: prompt or build admin panels, dashboards and operational apps
 
-n8n
-
-Open-source workflow automation platform with AI agent capabilities and 400+ nodes
-
 Appsmith
 
 Open-source platform for building admin panels and internal dashboards on your existing databases and APIs
+
+n8n
+
+Open-source workflow automation platform with AI agent capabilities and 400+ nodes
 
 Tray.io
 
@@ -195,7 +195,7 @@ It is model-agnostic and bring-your-own-key: the docs list Anthropic, OpenAI, Go
 
 - [Budibase next to NocoBase and NocoDB: choosing between the three](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ### Quick Facts
 
 Related guides: [Budibase in Zapier alternatives](/alternatives/zapier/)

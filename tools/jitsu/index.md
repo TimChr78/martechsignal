@@ -15,7 +15,7 @@
 | --- | --- |
 | ✓ MIT licence with free self-hosting | ✗ The free cloud plan caps connectors at one daily active sync, so anything past event streaming sits on a paid plan. |
 | ✓ AI capabilities: MCP Server for agent-driven setup | ✗ Multiplexed and filtered events have billing edge cases that need reading the FAQ before budgeting. |
-| ✓ Active public repository (5,095 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5,095 GitHub stars stars. |
+| ✓ Active public repository (5,095 GitHub stars counted at last check) | ✗ Community support is the open-source path; the repository is active but not huge at 5,095 GitHub stars. |
 | ✓ Native integrations include BigQuery, Snowflake, Google Analytics 4 (6 listed) |  |
 | ✓ Captured events are unlimited and free on every plan, so ingest volume alone never drives cost. |  |
 | ✓ Self-hosting the MIT-licensed code carries no usage limits and no licence fee. |  |
@@ -95,7 +95,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,095 GitHub stars stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
+Jitsu is an open-source event collection and data pipeline platform, MIT licensed, positioned as a Segment alternative with 5,095 GitHub stars on GitHub. It captures events from web, mobile, and server code through an HTML snippet, JavaScript and npm packages, React and React Native SDKs, iOS and Android SDKs, an HTTP API, a pixel API, and a Segment proxy, then routes them to warehouses and SaaS tools. The destination catalog covers BigQuery, Snowflake, Redshift, Postgres, and ClickHouse for storage, and Google Analytics 4, Google Ads, HubSpot, Salesforce, Mixpanel, PostHog, Amplitude, SendGrid, Resend, Hotjar, Microsoft Clarity, and webhooks downstream. Jitsu Functions run in a JavaScript runtime with access to npm packages and key-value storage, so events can be filtered, enriched, or rewritten before delivery. Other documented features include identity stitching, user profiles, sessions, deduplication, schema management, live event debugging, event backups, and a provisioned ClickHouse option. Billing counts active events, meaning events delivered to at least one destination. Captured events are always free, and a filtering function can drop noise before it counts. The free cloud plan includes 200,000 active events a month and one daily active sync. Business at USD 99 a month includes 2 million active events, then USD 40 per additional million, plus five monthly active syncs at USD 20 each after that. Enterprise is custom. Self-hosting the MIT-licensed code is free with no usage limits, and deployment options cover Jitsu Cloud, a managed single-tenant private cloud on GCP or AWS, and on-premises. The company went through YC S20 and is based in New York City.
 
 ## AI Capabilities
 
@@ -169,7 +169,7 @@ It covers the same collection and routing job and the docs ship a Segment proxy 
 
 - [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Best for data teams that want open-source event collection in their own warehouse, free to self-host.

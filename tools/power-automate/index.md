@@ -135,8 +135,8 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ### Quick Facts
 
 Related guides: [Microsoft Power Automate in Zapier alternatives](/alternatives/zapier/)

@@ -55,17 +55,17 @@ Ghost
 
 Open-source publishing platform with built-in newsletters, memberships, and AI tools
 
-Khoj
+Twenty
 
-Self-hosted AI research and writing assistant that chats with your documents and automates content workflows
+The open-source alternative to Salesforce, designed for AI with modern CRM workflows
+
+Warpdrive
+
+Self-hosted open-source Pipedrive alternative for BD teams: pipelines and Gmail on your own box
 
 LibreTranslate
 
 Open-source machine translation API for content localization, self-hostable and free of vendor lock-in
-
-Chatwoot
-
-Open-source customer engagement suite with Captain AI and full self-hosting
 
 Copy.ai
 
@@ -101,7 +101,7 @@ Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is 
 
 ## Overview
 
-LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,093 GitHub stars GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
+LanguageTool is an open-source writing assistant and grammar checker, licensed LGPL-2.1, with 15,093 GitHub stars and a rule-based engine that covers more than 30 languages. It checks grammar, punctuation, and spelling, and its AI layer adds style and tone suggestions alongside a paraphrasing tool. The server is a Java application you run yourself, and the clients cover browser add-ons for Chrome, Firefox, Edge, and Opera, mail add-ons for Gmail, Outlook, and Apple Mail, and extensions for office suites. Self-hosting and the browser add-ons are free. Premium features on languagetool.org, which include the AI style suggestions, unlimited paraphrasing, and extra error detection, started at SEK 49.96 per month as served in Sweden in September 2026. The vendor localizes currency, and higher tiers appeared at SEK 58.25 and SEK 149.67. The project is maintained by LanguageTooler GmbH in Hamburg, part of Learneo since 2023, so there is a company behind the community codebase. That matters for privacy discussions: the self-hosted server keeps text on your own infrastructure, while the hosted checker sends text to LanguageTool's servers. For marketing teams the practical use is quality control on multilingual copy. Writers get a second pass before publication, and style rules push contributors toward a shared tone across English, German, French, Spanish, and dozens of other languages. It checks text; it does not manage content or translate it, and the depth of the style suggestions varies by language. Teams that publish in several languages and want consistent grammar and style checking with the option to keep text in-house will find it fits.
 
 ## AI Capabilities
 
@@ -177,8 +177,8 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ### Quick Facts
 
 ## Get the next teardown

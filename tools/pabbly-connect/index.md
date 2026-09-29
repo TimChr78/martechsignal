@@ -130,8 +130,8 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
 - [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 Related guides: [Pabbly Connect in Zapier alternatives](/alternatives/zapier/)

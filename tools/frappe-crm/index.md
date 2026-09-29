@@ -183,7 +183,7 @@ Yes, through Twilio or Exotel. Both integrations add click-to-call on lead, deal
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in
 

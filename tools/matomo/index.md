@@ -8,7 +8,7 @@
 | Integrations | 7/10 | An official WordPress plugin with 100,000-plus installs, Tag Manager, a Google Analytics importer, Shopify and BigQuery sit beside a public plugin marketplace and an API (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
 | AI capability | 7/10 | A free official MCP Server plugin connects Matomo to ChatGPT and Claude with write actions behind approval, joined by AI chatbot traffic reports, an AIAgents plugin and the AI Connector (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
 | Openness | 10/10 | The core is GPL-3.0, self-hostable with no licence fee, and the vendor commits to keeping self-hosting free permanently (the source repository: [repository](https://github.com/matomo-org/matomo), verified 2026-09-26). |
-| Operational maturity | 8/10 | Founded in 2007 with 21,851 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
+| Operational maturity | 8/10 | Founded in 2007 with 21,908 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation: [vendor site](https://matomo.org), verified 2026-09-26). |
 
 
 | Pros | Cons |

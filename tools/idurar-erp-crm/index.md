@@ -47,10 +47,6 @@ Frappe CRM
 
 Fully featured, open source CRM
 
-Relaticle
-
-Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-
 Ever Gauzy
 
 Open business management platform: ERP, CRM, HRM, ATS, and time tracking
@@ -58,6 +54,10 @@ Open business management platform: ERP, CRM, HRM, ATS, and time tracking
 Macro
 
 Open source workspace with a self-updating, agent-driven CRM and shared AI team memory
+
+Relaticle
+
+Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
 
 [More CRM Tools →](/categories/crm/)
 

@@ -180,8 +180,8 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 ## Get the next teardown

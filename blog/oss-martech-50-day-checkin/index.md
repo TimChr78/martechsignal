@@ -86,8 +86,8 @@ Tools linked in this post: [n8n](/tools/n8n/) · [Mautic](/tools/mautic/) · [Tw
 ## Related tools
 
 - [Relaticle](/tools/relaticle/) - Open-source CRM with native AI agent support, 37 MCP tools, REST API, Laravel & Filament
-- [Listmonk](/tools/listmonk/) - Open-source self-hosted newsletter and mailing list manager with a fast Go backend
 - [DeskcommCRM](/tools/deskcommcrm/) - Self-hosted open-source CRM with AI agents that sell through WhatsApp
+- [Tray.io](/tools/tray-io/) - AI-powered integration platform for building custom automation and AI agents
 ## Comparison guides
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
@@ -143,7 +143,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1488,
+  "wordCount": 1486,
   "articleSection": "open-source, workflow-automation"
 }
 ```

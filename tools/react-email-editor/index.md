@@ -28,7 +28,7 @@ React Email Editor has a free tier; paid plans start at $250/mo. Free tier for t
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
 **Is React Email Editor really open source?**
-The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
 **What are Unlayer's paid plans?**
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
@@ -179,7 +179,7 @@ React Email Editor has a free tier; paid plans start at $250/mo. Free tier for t
 
 The fastest route to a real email builder inside a React app, and an honest one as long as you read the MIT license as covering the wrapper rather than the editor.
 
-The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
+The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier.
 
 Free at $0, Launch at $250 per month, Scale at $750 per month, and Optimize at $2,000 per month, with custom Enterprise pricing. Annual billing saves 10 percent across the paid tiers, every paid plan includes a 14-day trial, and add-on credit packs for AI, exports, inbox previews, and bandwidth start at $50 per month and top out at $2,000.
 
@@ -297,7 +297,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is React Email Editor really open source?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The npm package is, under MIT, with about 5,200 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
+          "text": "The npm package is, under MIT, with about 5,231 GitHub stars. It is a thin React wrapper with one runtime dependency. The editor engine loads from Unlayer's CDN into an iframe and is governed by Unlayer's plans, so you can fork the wrapper but not the editor: on-premise deployment appears only in the Enterprise tier."
         }
       },
       {

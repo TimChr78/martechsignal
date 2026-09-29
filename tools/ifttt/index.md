@@ -134,8 +134,8 @@ Strengths include an API for custom integrations. The full review breaks down wh
 ## Related reading
 
 - [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)

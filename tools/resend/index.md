@@ -145,7 +145,7 @@ Assessed from resend.com, resend.com/docs, and the changelog RSS in September 20
 
 The correction that matters: the three AI features in our earlier record (AI deliverability optimization, AI spam detection, smart retry logic) appear nowhere in Resend's documentation. The documented AI surface is an AI Email Editor with brand-voice drafting and pre-send checks, an assistant in the template editor, AI column mapping on imports, and monthly AI credits; Deliverability Insights is explicitly a set of best-practice checks, not AI. Slack and Segment are not documented integrations, and Scale is not custom-priced.
 
-Open source is the exit surface, and our record undersold it: react-email alone holds about 19,700 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
+Open source is the exit surface, and our record undersold it: react-email alone holds about 19,793 GitHub stars under MIT, an order of magnitude larger than any Resend SDK repo, and the organization publishes roughly 100 repositories including the MCP server, CLI, skills, and OpenAPI spec. Templates you build in React Email keep working against another sender.
 
 The transactional and marketing split is the pricing trap. A team that starts on Pro for product email and later wants newsletters takes a second, contact-based subscription, and the docs recommend separate subdomains per stream anyway. IP pools are a $30 a month Scale add-on with an eligibility bar of 3,000 emails a day, so shared IPs are the default reality for most accounts.
 
