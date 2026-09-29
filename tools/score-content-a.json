@@ -26,7 +26,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "24,386 GitHub stars, published release notes and a roadmap, documentation in about ten languages, and a named company (NocoBase Pte. Ltd., Singapore) selling commercial editions with support (GitHub nocobase/nocobase, nocobase.com)."
+          "evidence": "Published release notes and a roadmap, documentation in about ten languages, and a named company (NocoBase Pte. Ltd., Singapore) selling commercial editions with support (GitHub nocobase/nocobase, nocobase.com)."
         }
       },
       "verdict": "A serious self-hosted construction kit whose pricing page is unusually concrete, with real edition prices and a free unlimited community tier. The weak spots sit outside the core: thin marketing connectors and a license whose supplementary terms limit how far the open source label stretches.",
@@ -122,7 +122,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "Founded in 2007 with 21,908 GitHub stars, releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation)."
+          "evidence": "Founded in 2007, with releases through 5.13.0 in August 2026 plus an active 6.x branch, and a commercial Cloud operation behind it (vendor documentation)."
         }
       },
       "verdict": "The pick when analytics data residency is a requirement rather than a preference, with an open core and a real premium plugin business behind it. Budget both operations time for self-hosting and plugin fees for the headline behavioral features.",
@@ -154,7 +154,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "65,104 GitHub stars with calendar-versioned releases (2026.08.2 shipped September 3, 2026), full documentation and paid plans that carry support (vendor documentation)."
+          "evidence": "Calendar-versioned releases (2026.08.2 shipped September 3, 2026), full documentation and paid plans that carry support (vendor documentation)."
         }
       },
       "verdict": "The shortest self-hosted route from spreadsheet sprawl to permissioned, API-covered bases over a database you own, with pricing that is fully visible. The license is fair-code rather than open source, and the features teams often want most, AI fields and advanced views, are paid.",
@@ -186,7 +186,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "Created in 2020 with 39,072 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation)."
+          "evidence": "Created in 2020 with a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation)."
         }
       },
       "verdict": "Light, cookieless analytics with fully public pricing and an MIT license, where the absence of AI is a deliberate design point rather than a gap. Session replay, heatmaps and the streaming API live on paid Cloud tiers, and the integration surface is small.",
@@ -218,7 +218,7 @@
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "Founded in February 2026 with 17,899 GitHub stars, 2,625 forks (verified 2026-09-26) and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation)."
+          "evidence": "Founded in February 2026 with active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation)."
         }
       },
       "verdict": "A deep, free SEO audit layer for Claude Code whose findings carry evidence, dependencies and verification checks. It needs the paid Claude Code runtime to run and grader scores shift between releases, so track deltas within one version rather than absolutes.",
@@ -250,7 +250,7 @@
         },
         "operational_maturity": {
           "score": 9,
-          "evidence": "206,232 GitHub stars, a Berlin company founded in 2019, cloud and Enterprise plans with dedicated support and an SLA, and a template ecosystem above 10,000 workflows (n8n.io/pricing)."
+          "evidence": "A Berlin company founded in 2019, cloud and Enterprise plans with dedicated support and an SLA, and a template ecosystem above 10,000 workflows (n8n.io/pricing)."
         }
       },
       "verdict": "The strongest overall score in this batch: owned automation with code-level control, huge integration breadth, published plan limits and a real AI agent surface. The cost is maintenance and a learning curve, and the fair-code license is not open source in the OSI sense.",
@@ -282,7 +282,7 @@
         },
         "operational_maturity": {
           "score": 8,
-          "evidence": "Calendar-versioned releases with 24.0.0 in August 2026, 7,670 GitHub stars, wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation)."
+          "evidence": "Calendar-versioned releases through 24.0.0 (August 2026), wiki documentation and a 1,000-plus addon ecosystem built over a project lifetime measured in decades (vendor documentation)."
         }
       },
       "verdict": "The pragmatic small-organization ERP/CRM: enable the modules you need, keep it for decades, and pay nothing for the core. Campaign automation is not the job here, and the interface and reporting show the project's age.",
@@ -314,7 +314,7 @@
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded in 2026 with 176 GitHub stars and an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation)."
+          "evidence": "Founded in 2026 with an active commit log, which places it at young-project maturity with no company or support track record behind it (vendor documentation)."
         }
       },
       "verdict": "An API-first CRM designed to be driven by n8n and AI agents, with MCP support that older CRMs lack. It is early: thin features, a small community and a split license that rules out resale, so judge it as a foundation rather than a finished product.",

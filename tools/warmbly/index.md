@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Warmup, campaigns, a unified inbox and CRM make a complete cold-email loop for its size (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
 | Integrations | 5/10 | HubSpot, Slack, Zapier, Gmail, Microsoft 365 and SMTP plus REST API and HMAC webhooks documented (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
 | AI capability | 7/10 | Agent steps that branch on classified reply intent with automatic reply classification (positive, OOO, unsubscribe, bounce) are genuinely agentic (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (the source repository: [repository](https://github.com/warmbly/warmbly), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 with 316 stars; the operating history is measured in months (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 self-hosted with no cloud dependency (the source repository: [repository](https://github.com/warmbly/warmbly), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; the operating history is measured in months (vendor documentation: [vendor site](https://warmbly.com), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -24,7 +24,7 @@ Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, 
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
 
 **Is Warmbly a good self-hosted Email Marketing tool in 2026?**
-The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you.
+The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
 - **Pricing:** Open Source
 - **Category:** [Email Marketing](/categories/email-marketing/)
@@ -76,13 +76,13 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 38/60
 
-Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.
+Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. With a 2026 founding date, you are the early adopter and the operator.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It bundles warmup pools, multi-step campaigns, a shared reply inbox, analytics, and a small CRM into one self-hostable stack (Apache 2.0, built with Go, Rust, Elixir, and React). The audience is founders, agencies, and sales teams running outbound B2B, the same crowd paying Instantly or Smartlead for this workflow today. The AI parts are narrower than the "AI-native" branding suggests. Campaign sequences can include AI agent steps that branch on classified reply intent. The unified inbox labels incoming replies as positive, out of office, unsubscribe, or bounce the moment they land, and holds agent drafts for follow-ups. A content checker scores template deliverability before you send, advisory only, it never blocks a campaign. Reply classification is the genuinely useful piece; the rest is assistive rather than autonomous. Pricing splits cleanly in two. Self-hosting is free with no cloud dependency: a curl install script brings up Docker Compose with Postgres and Redis, and outbound mail leaves through each mailbox's own provider rather than Warmbly's servers. The hosted cloud has a free plan with 10 mailboxes, then Starter at $29/mo (150 sends/day), Grow at $89/mo (3,000 sends/day, adds CRM, A/B variants, and the API), and Business at $329/mo (15,000 sends/day, team roles, audit log). Watch the send caps: 150/day at Starter is thin next to similarly priced plans at Instantly, though annual billing shaves 20%. Against Smartlead or Instantly, the draw is self-hosting and the Apache 2.0 license. Your mailbox credentials and lead data never leave your own infrastructure, and you scale throughput by running more workers. The trade-off is youth: 316 GitHub stars as of September 2026, one company behind it (Mindroot Ltd, London), and no lead database included. The hosted competitors have years of deliverability tooling and B2B data you would have to source separately. If you want managed cold email at volume and do not care where the servers live, the incumbents are more mature. If you are an agency that needs client outreach on your own hardware, or a product team that wants to embed sending behind an API with signed webhooks, Warmbly earns a Docker Compose run.
+Warmbly is an open-source cold email platform that sends from mailboxes you already own and warms them gradually so they stop landing in spam. It bundles warmup pools, multi-step campaigns, a shared reply inbox, analytics, and a small CRM into one self-hostable stack (Apache 2.0, built with Go, Rust, Elixir, and React). The audience is founders, agencies, and sales teams running outbound B2B, the same crowd paying Instantly or Smartlead for this workflow today. The AI parts are narrower than the "AI-native" branding suggests. Campaign sequences can include AI agent steps that branch on classified reply intent. The unified inbox labels incoming replies as positive, out of office, unsubscribe, or bounce the moment they land, and holds agent drafts for follow-ups. A content checker scores template deliverability before you send, advisory only, it never blocks a campaign. Reply classification is the genuinely useful piece; the rest is assistive rather than autonomous. Pricing splits cleanly in two. Self-hosting is free with no cloud dependency: a curl install script brings up Docker Compose with Postgres and Redis, and outbound mail leaves through each mailbox's own provider rather than Warmbly's servers. The hosted cloud has a free plan with 10 mailboxes, then Starter at $29/mo (150 sends/day), Grow at $89/mo (3,000 sends/day, adds CRM, A/B variants, and the API), and Business at $329/mo (15,000 sends/day, team roles, audit log). Watch the send caps: 150/day at Starter is thin next to similarly priced plans at Instantly, though annual billing shaves 20%. Against Smartlead or Instantly, the draw is self-hosting and the Apache 2.0 license. Your mailbox credentials and lead data never leave your own infrastructure, and you scale throughput by running more workers. The trade-off is youth: a few hundred stars as of September 2026, one company behind it (Mindroot Ltd, London), and no lead database included. The hosted competitors have years of deliverability tooling and B2B data you would have to source separately. If you want managed cold email at volume and do not care where the servers live, the incumbents are more mature. If you are an agency that needs client outreach on your own hardware, or a product team that wants to embed sending behind an API with signed webhooks, Warmbly earns a Docker Compose run.
 
 ## AI Capabilities
 
@@ -126,7 +126,7 @@ The AI layer is reply classification plus agent steps in sequences, not autonomo
 
 ## Verdict
 
-The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you.
+The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
 ## Pros and cons
 
@@ -146,7 +146,7 @@ Warmbly: Open-source cold email platform with warmup, campaigns, unified inbox, 
 
 Warmbly has a free tier; paid plans start at $23/mo. Free to self-host under Apache 2.0 with no cloud dependency. Hosted cloud: free plan with 10 mailboxes; Starter $29/mo (150 sends/day), Grow $89/mo (3,000 sends/day, CRM + API), Business $329/mo (15,000 sends/day). Annual billing saves 20%. We last checked both ends of that split on 2026-09-24. The pricing section above shows what the free tier actually covers.
 
-The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you.
+The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you.
 
 ## Similar Tools
 
@@ -259,7 +259,7 @@ One email when a new tool review lands, nothing else.
         "name": "Is Warmbly a good self-hosted Email Marketing tool in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The most complete open-source cold email stack we have listed, but young (316 stars, launched 2026) and self-hosting puts deliverability operations on you."
+          "text": "The most complete open-source cold email stack we have listed, but young (launched 2026) and self-hosting puts deliverability operations on you."
         }
       }
     ]
@@ -279,7 +279,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.",
+    "reviewBody": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. With a 2026 founding date, you are the early adopter and the operator.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/warmbly/#app",

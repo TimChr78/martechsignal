@@ -8,7 +8,7 @@
 | Integrations | 5/10 | An API plus community plugins for ten platforms and API clients for Laravel, Python and Go make up the catalog, with no native marketing integrations documented (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 | AI capability | 0/10 | A search of the full documentation set, the README and every release from v3.0.3 to v3.3.1 found no AI feature of any kind, and the directory removed earlier AI claims as incorrect (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 | Openness | 10/10 | MIT-licensed and self-hostable via a two-service Docker compose file, with data retained indefinitely and full ownership of the database (the source repository: [repository](https://github.com/umami-software/umami), verified 2026-09-26). |
-| Operational maturity | 8/10 | Created in 2020 with 39,072 GitHub stars and a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
+| Operational maturity | 8/10 | Created in 2020 with a steady v3.x release cadence through v3.3.1 on August 20, 2026 (vendor documentation: [vendor site](https://umami.is), verified 2026-09-26). |
 
 
 | Pros | Cons |

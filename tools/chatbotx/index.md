@@ -7,8 +7,8 @@
 | Feature depth | 4/10 | Agentic chat marketing and automated sales conversations cover the ManyChat-shaped loop at small scale (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
 | AI capability | 5/10 | Agentic AI chat marketing is the thesis of the project rather than a feature (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
-| Openness | 8/10 | Open-source self-hosted with 746 GitHub stars and full code access (the source repository: [repository](https://github.com/ChatbotXIO/ChatbotX), verified 2026-09-28). |
-| Operational maturity | 3/10 | 746 stars with no company or founding year in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
+| Openness | 8/10 | Open-source self-hosted with full code access (the source repository: [repository](https://github.com/ChatbotXIO/ChatbotX), verified 2026-09-28). |
+| Operational maturity | 3/10 | No company or founding year in the catalog (vendor documentation: [vendor site](https://chatbotx.io/docs), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -76,13 +76,13 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 31/60
 
-ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.
+ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. It is early; read the code before you depend on it.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven chat marketing and automation across multiple messaging channels. The platform lets teams design, deploy, and manage conversational experiences for lead capture, qualification, and automated sales conversations, while keeping full control of their data and infrastructure. Because it is self-hosted and free to use, it appeals to developers, growth teams, and privacy-conscious businesses that want more flexibility than hosted SaaS chatbot tools typically provide. Its public GitHub repository shows 524 stars, signaling early community interest around an open approach to conversational marketing. The absence of licensing fees makes experimentation and internal customization easier, while self-hosting supports compliance and data residency needs. ChatbotX emphasizes agentic AI capabilities, allowing bots to move beyond scripted flows and handle more dynamic, AI-powered omnichannel messaging. An available API supports custom integrations and workflow extensions, making it easier to connect the platform with existing marketing, CRM, or product systems. Compared with commercial alternatives, ChatbotX trades polished hosted convenience for ownership, customization, and lower software costs, though teams should be prepared to manage deployment, maintenance, and scaling themselves. It is best for technical marketing teams, agencies, and open-source advocates that want a self-hosted chatbot platform for AI-assisted customer conversations without relying on a proprietary commercial vendor.
+Built as an open-source alternative to ManyChat, ChatbotX focuses on AI-driven chat marketing and automation across multiple messaging channels. The platform lets teams design, deploy, and manage conversational experiences for lead capture, qualification, and automated sales conversations, while keeping full control of their data and infrastructure. Because it is self-hosted and free to use, it appeals to developers, growth teams, and privacy-conscious businesses that want more flexibility than hosted SaaS chatbot tools typically provide. Its public GitHub repository shows a few hundred stars, signaling early community interest around an open approach to conversational marketing. The absence of licensing fees makes experimentation and internal customization easier, while self-hosting supports compliance and data residency needs. ChatbotX emphasizes agentic AI capabilities, allowing bots to move beyond scripted flows and handle more dynamic, AI-powered omnichannel messaging. An available API supports custom integrations and workflow extensions, making it easier to connect the platform with existing marketing, CRM, or product systems. Compared with commercial alternatives, ChatbotX trades polished hosted convenience for ownership, customization, and lower software costs, though teams should be prepared to manage deployment, maintenance, and scaling themselves. It is best for technical marketing teams, agencies, and open-source advocates that want a self-hosted chatbot platform for AI-assisted customer conversations without relying on a proprietary commercial vendor.
 
 ChatbotX homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -95,7 +95,7 @@ ChatbotX homepage, captured September 2026. Vendor page shown as a dated referen
 
 Researched from public documentation, the source repository, and vendor materials. Not a hands-on test.
 
-ChatbotX is the open-source answer to ManyChat: self-hosted chat marketing with flows for lead capture, qualification, and automated sales conversations across messaging channels, plus an agentic AI layer that moves past rigid scripts. The API opens custom integrations with your CRM and product stack, and because you host it, customer data never leaves your infrastructure. The repo sits at 524 stars, early but active, and the MIT license makes experimentation free.
+ChatbotX is the open-source answer to ManyChat: self-hosted chat marketing with flows for lead capture, qualification, and automated sales conversations across messaging channels, plus an agentic AI layer that moves past rigid scripts. The API opens custom integrations with your CRM and product stack, and because you host it, customer data never leaves your infrastructure. The repo is early but active, and the MIT license makes experimentation free.
 
 That ownership is the whole trade. Deployment, maintenance, scaling, and security are yours, the community is small next to ManyChat's, and there is no vendor support to call. Non-technical marketers will stall at installation. Teams with engineering muscle and privacy requirements get the control they want without licensing fees, which is a fair swap only if you count your own time as cheap.
 
@@ -249,7 +249,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.",
+    "reviewBody": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. It is early; read the code before you depend on it.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/chatbotx/#app",

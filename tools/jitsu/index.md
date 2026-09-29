@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | Event capture, warehouse syncs and destination routing cover the CDP-pipeline job (vendor documentation: [vendor site](https://jitsu.com), verified 2026-09-28). |
 | Integrations | 6/10 | BigQuery, Snowflake, GA4, HubSpot, Salesforce and webhooks documented plus an API (vendor documentation: [vendor site](https://jitsu.com), verified 2026-09-28). |
 | AI capability | 3/10 | An MCP server for agent-driven setup is the one documented AI surface (vendor documentation: [vendor site](https://jitsu.com), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (the source repository: [repository](https://github.com/jitsucom/jitsu), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2020 with 5.1k stars and a small commercial operation (vendor documentation: [vendor site](https://jitsu.com), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with self-hosting parity with cloud (the source repository: [repository](https://github.com/jitsucom/jitsu), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2020 with a small commercial operation (vendor documentation: [vendor site](https://jitsu.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

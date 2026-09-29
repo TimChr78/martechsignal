@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Sales, marketing and support automation across one codebase covers the full CRM triangle, the reason it persists (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog; APIs and community modules carry the extension story (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (the source repository: [repository](https://github.com/SuiteCRM/SuiteCRM), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 self-hosted with the whole suite free (the source repository: [repository](https://github.com/SuiteCRM/SuiteCRM), verified 2026-09-28). |
 | Operational maturity | 7/10 | A SugarCRM fork with years of production deployments and a stable release cadence (vendor documentation: [vendor site](https://www.suitecrm.com), verified 2026-09-28). |
 
 

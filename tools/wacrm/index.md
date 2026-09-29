@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Shared inbox, sales pipelines, broadcasts and automations cover the WhatsApp CRM loop (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
 | Integrations | 6/10 | Meta WhatsApp Cloud API, Supabase, OpenAI, Anthropic, pgvector and MCP clients documented (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
 | AI capability | 6/10 | Grounded auto-reply with human handoff over pgvector or Postgres full-text retrieval (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/ArnasDon/wacrm), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 at 2.3k stars as an early self-hosted project (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/ArnasDon/wacrm), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026 as an early self-hosted project (vendor documentation: [vendor site](https://wacrm.tech), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -94,7 +94,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 38/60
 
-WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.
+WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT with a few thousand stars. BYO model keys keep the AI costs yours and the data local.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -349,7 +349,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.",
+    "reviewBody": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT with a few thousand stars. BYO model keys keep the AI costs yours and the data local.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/wacrm/#app",

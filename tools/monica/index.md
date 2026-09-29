@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | Contact timelines, reminders, notes and relationship tracking are deep for personal use, but there is no deal pipeline or campaign machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
 | Integrations | 3/10 | The catalog lists no named integrations; a public API exists for your own wiring (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL self-hosting with 25.3k GitHub stars and the full feature set available free on your own server (the source repository: [repository](https://github.com/monicahq/monica), verified 2026-09-28). |
-| Operational maturity | 6/10 | 25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL self-hosting with the full feature set available free on your own server (the source repository: [repository](https://github.com/monicahq/monica), verified 2026-09-28). |
+| Operational maturity | 6/10 | Years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation: [vendor site](https://monicahq.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Drag-and-drop editing across four frameworks plus template import covers the component job; the AI editing and generation layers sit on the paid plans (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
 | Integrations | 5/10 | React, Angular, Vue and vanilla JS embeds, a Cloud API and OpenAI and Anthropic connections are documented (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
 | AI capability | 7/10 | AI chat editing, image generation, template import and an Unlayer MCP server with Agent Skills for coding agents (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
-| Openness | 8/10 | MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (the source repository: [repository](https://github.com/unlayer/react-email-editor), verified 2026-09-28). |
+| Openness | 8/10 | MIT-licensed core; the hosted AI services are what you pay for (the source repository: [repository](https://github.com/unlayer/react-email-editor), verified 2026-09-28). |
 | Operational maturity | 6/10 | A commercial component vendor with priced tiers and trials behind the OSS core (vendor documentation: [vendor site](https://unlayer.com/), verified 2026-09-28). |
 
 

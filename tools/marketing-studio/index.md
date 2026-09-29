@@ -7,8 +7,8 @@
 | Feature depth | 4/10 | Launch assets, demo video rendering, social clips and OG images cover the launch kit (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 | Integrations | 3/10 | Claude Code and Blender documented as the two dependencies (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 | AI capability | 5/10 | Agent-driven asset and video generation through Blender is a real pipeline (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 234 GitHub stars and full source (the source repository: [repository](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
-| Operational maturity | 2/10 | Founded 2026 at 234 stars with no API and a narrow dependency stack (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 with no API and a narrow dependency stack (vendor documentation: [vendor site](https://github.com/ucsandman/marketing-studio), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -78,13 +78,13 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 32/60
 
-Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.
+Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. It is a well-shaped idea in early days.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-Marketing Studio is an agent-driven asset pipeline for Claude Code: you run /marketing in your product's repository, and the agent onboards your brand, captures your app with Playwright, and renders a launch asset suite through a chain of skills. One run produces a logo reveal (Blender plus Remotion), a product demo with camera moves, a 30 to 90 second launch video, a scored voiceover and music track via ElevenLabs, per-platform social clips for X, LinkedIn, and TikTok, plus OG images and README GIFs. The pipeline is deliberately ordered so cheap compositions render first and brand-token bugs surface before expensive assets, and a manifest lets a dead session resume instead of restarting. Around the render chain sit a derived content brief (the agent reads your README, routes, and landing page into a validated brief.json), a copy linter that blocks em dashes and hype vocabulary before render, per-brand film grade and motion tokens, and an export matrix. With 220 stars it is one of the more complete demonstrations of agentic creative production, and the honest framing is that it renders marketing assets from your repo, not strategy from thin air.
+Marketing Studio is an agent-driven asset pipeline for Claude Code: you run /marketing in your product's repository, and the agent onboards your brand, captures your app with Playwright, and renders a launch asset suite through a chain of skills. One run produces a logo reveal (Blender plus Remotion), a product demo with camera moves, a 30 to 90 second launch video, a scored voiceover and music track via ElevenLabs, per-platform social clips for X, LinkedIn, and TikTok, plus OG images and README GIFs. The pipeline is deliberately ordered so cheap compositions render first and brand-token bugs surface before expensive assets, and a manifest lets a dead session resume instead of restarting. Around the render chain sit a derived content brief (the agent reads your README, routes, and landing page into a validated brief.json), a copy linter that blocks em dashes and hype vocabulary before render, per-brand film grade and motion tokens, and an export matrix. With a few hundred stars it is one of the more complete demonstrations of agentic creative production, and the honest framing is that it renders marketing assets from your repo, not strategy from thin air.
 
 Marketing Studio homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.",
+    "reviewBody": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. It is a well-shaped idea in early days.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/marketing-studio/#app",

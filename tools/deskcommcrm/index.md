@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Lead qualification agents, pipeline movement and per-tenant RAG cover WhatsApp-based selling (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 | Integrations | 7/10 | WhatsApp via WAHA and the official Cloud API, Supabase, Nuvemshop, Zapier, n8n, OpenRouter and MCP (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 | AI capability | 7/10 | RAG-backed agents with seven-check pre-send guardrails show real production thinking (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/melgarafael/DeskcommCRM), verified 2026-09-28). |
-| Operational maturity | 4/10 | 2.3k stars with agent-side support noted for paid plans (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/melgarafael/DeskcommCRM), verified 2026-09-28). |
+| Operational maturity | 4/10 | Agent-side support noted for paid plans (vendor documentation: [vendor site](https://deskcomm.com.br), verified 2026-09-28). |
 
 
 | Pros | Cons |

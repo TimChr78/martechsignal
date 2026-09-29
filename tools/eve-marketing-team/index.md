@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Five specialist agents (product, content, social, SEO, email) coordinated by a lead over shared brand context (vendor documentation: [vendor site](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
 | Integrations | 5/10 | Slack, Notion, Resend, Typefully, Vercel Blob and eve.dev documented (vendor documentation: [vendor site](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
 | AI capability | 7/10 | A coordinated multi-agent team reading one brand context document is real orchestration (vendor documentation: [vendor site](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 435 GitHub stars and your own deployment on Vercel (the source repository: [repository](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 at 435 stars; early template with a platform forming around it (vendor documentation: [vendor site](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with your own deployment on Vercel (the source repository: [repository](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; early template with a platform forming around it (vendor documentation: [vendor site](https://github.com/vercel-labs/marketing-team-eve-template), verified 2026-09-28). |
 
 
 | Pros | Cons |

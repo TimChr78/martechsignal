@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | A 55K-word knowledge base, 19 playbooks with benchmarks and ESP control cover email planning through execution (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
 | Integrations | 6/10 | Klaviyo, Mailchimp, Resend, beehiiv, Omnisend and nitrosend plus MCP documented (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
 | AI capability | 6/10 | AI copy drafting with anti-slop rules and agent-native playbooks (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 291 GitHub stars and 908 cited sources (the source repository: [repository](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 at 291 stars; a young project with a large knowledge artifact (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with 908 cited sources (the source repository: [repository](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; a young project with a large knowledge artifact (vendor documentation: [vendor site](https://github.com/CosmoBlk/email-marketing-bible), verified 2026-09-28). |
 
 
 | Pros | Cons |

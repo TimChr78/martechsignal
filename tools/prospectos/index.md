@@ -7,8 +7,8 @@
 | Feature depth | 4/10 | Lead discovery and contact enrichment cover the prospecting loop (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | Integrations | 3/10 | Google Maps and Instagram documented as data sources plus an API (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 | AI capability | 3/10 | Lead discovery and enrichment run as data automation more than model work (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 214 GitHub stars and full self-hosting (the source repository: [repository](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
-| Operational maturity | 2/10 | Founded 2026 at 214 stars as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
+| Operational maturity | 2/10 | Founded 2026 as an early project (vendor documentation: [vendor site](https://github.com/nando0x/ProspectOS), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -78,13 +78,13 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 29/60
 
-ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.
+ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. It is early, and the scraping APIs carry their own costs and risks.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
 ## Overview
 
-ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with 206 stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.
+ProspectOS is a local lead-prospecting tool for agencies and freelancers who sell websites or digital services to small businesses. It scans Google Maps by niche and city (or by pin and radius), checks each company's website to separate no-site from slow-or-insecure-site, scores the results, and generates an AI-written outreach message plus a PDF diagnosis per lead, all tracked in a visual kanban CRM. The stack is Flask, React 19, TypeScript, and SQLite, runs locally on Windows, and the repo shows 230 passing tests. The honest catch is in the project's own warnings: it is a scraping tool, Google Maps and Instagram scraping can violate those platforms' terms, and the Instagram module logs in with a personal account via instagrapi, which carries a real risk of checkpoint or ban. The README recommends a secondary account and moderate use. MIT-licensed with a few hundred stars, it is a working codebase for learning and prospecting at small scale, sold to nobody and hosted by you, with the compliance question deliberately left in your hands.
 
 ProspectOS homepage, captured September 2026. Vendor page shown as a dated reference capture; all site content belongs to its owner.
 
@@ -256,7 +256,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.",
+    "reviewBody": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. It is early, and the scraping APIs carry their own costs and risks.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/prospectos/#app",

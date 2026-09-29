@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | SEO and ad analysis functions in pandas DataFrames cover analyst workflows without a UI (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
 | Integrations | 5/10 | Python pandas, Scrapy and the Google, YouTube and Twitter/X APIs documented (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
 | AI capability | 4/10 | A Claude SERP analytics module landed in v0.18.0, the one AI-facing surface (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 1.5k GitHub stars and pure Python transparency (the source repository: [repository](https://github.com/eliasdabbas/advertools), verified 2026-09-28). |
-| Operational maturity | 5/10 | Community-maintained at 1.5k stars with steady releases (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with pure Python transparency (the source repository: [repository](https://github.com/eliasdabbas/advertools), verified 2026-09-28). |
+| Operational maturity | 5/10 | Community-maintained with steady releases (vendor documentation: [vendor site](https://advertools.readthedocs.io), verified 2026-09-28). |
 
 
 | Pros | Cons |

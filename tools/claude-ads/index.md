@@ -7,8 +7,8 @@
 | Feature depth | 7/10 | 250+ audit checks, parallel subagent audits with confidence scoring and creative brief generation (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 | Integrations | 8/10 | Twelve named ad platforms from Google, Meta and TikTok to Apple Ads and Reddit Ads (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 | AI capability | 8/10 | Parallel subagent account audits with confidence scoring are native-agent architecture (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 9.1k GitHub stars and runs in your own harness (the source repository: [repository](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2025 at 9.1k stars; adoption is fast and history is short (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with runs in your own harness (the source repository: [repository](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2025; adoption is fast and history is short (vendor documentation: [vendor site](https://github.com/AgriciDaniel/claude-ads), verified 2026-09-28). |
 
 
 | Pros | Cons |

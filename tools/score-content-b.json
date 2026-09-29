@@ -24,11 +24,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 with 2.8k GitHub stars and full source (the source repository)."
+          "evidence": "Apache-2.0 with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 at 2.8k stars; community-run with no company behind it (vendor documentation)."
+          "evidence": "Founded 2025; community-run with no company behind it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -248,11 +248,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 1.5k GitHub stars and pure Python transparency (the source repository)."
+          "evidence": "MIT-licensed with pure Python transparency (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Community-maintained at 1.5k stars with steady releases (vendor documentation)."
+          "evidence": "Community-maintained with steady releases (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -312,11 +312,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 572 GitHub stars and full source (the source repository)."
+          "evidence": "MIT-licensed with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2025 at 572 stars; niche and young (vendor documentation)."
+          "evidence": "Founded 2025; niche and young (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -376,11 +376,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "Open-source self-hosted with 1.2k GitHub stars and full source (the source repository)."
+          "evidence": "Open-source self-hosted with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "1.2k stars and a self-declared WIP state (vendor documentation)."
+          "evidence": "A self-declared WIP state (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -440,11 +440,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 with 136 GitHub stars and readable source (the source repository)."
+          "evidence": "Apache-2.0 with readable source (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2025 at 136 stars; a focused small project (vendor documentation)."
+          "evidence": "Founded 2025; a focused small project (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -504,7 +504,7 @@
         },
         "openness": {
           "score": 10,
-          "evidence": "Apache-2.0 under Apache Foundation governance with 375 GitHub stars (the source repository)."
+          "evidence": "Apache-2.0 under Apache Foundation governance (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -536,11 +536,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "Apache-2.0 community edition with 40.8k GitHub stars and self-hosting parity (the source repository)."
+          "evidence": "Apache-2.0 community edition with self-hosting parity (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
-          "evidence": "40.8k stars with priced cloud tiers and an enterprise edition (vendor documentation)."
+          "evidence": "With priced cloud tiers and an enterprise edition (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -632,11 +632,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (the source repository)."
+          "evidence": "AGPL-3.0 with the whole mail stack self-hosted (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 at 15.6k stars with an optional deployment service (vendor documentation)."
+          "evidence": "Founded 2025 with an optional deployment service (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -760,11 +760,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "GPLv3 core with 28.3k GitHub stars and a BSL pro folder kept separate (the source repository)."
+          "evidence": "GPLv3 core with a BSL pro folder kept separate (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "28.3k stars with priced cloud tiers and beta-quality agent features shipping fast (vendor documentation)."
+          "evidence": "With priced cloud tiers and beta-quality agent features shipping fast (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -804,7 +804,7 @@
     {
       "slug": "chatbotx",
       "score_total": 31,
-      "verdict": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. At 746 stars it is early; read the code before you depend on it.",
+      "verdict": "ChatbotX is the open-source ManyChat alternative for teams that want agentic chat marketing on their own server. It is early; read the code before you depend on it.",
       "pillars": {
         "pricing_transparency": {
           "score": 9,
@@ -824,11 +824,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "Open-source self-hosted with 746 GitHub stars and full code access (the source repository)."
+          "evidence": "Open-source self-hosted with full code access (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "746 stars with no company or founding year in the catalog (vendor documentation)."
+          "evidence": "No company or founding year in the catalog (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -888,7 +888,7 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "36.6k GitHub stars with full self-hosting in the community edition; the enterprise directory is separately licensed (the source repository)."
+          "evidence": "Full self-hosting in the community edition; the enterprise directory is separately licensed (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -920,11 +920,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 9.1k GitHub stars and runs in your own harness (the source repository)."
+          "evidence": "MIT-licensed with runs in your own harness (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Founded 2025 at 9.1k stars; adoption is fast and history is short (vendor documentation)."
+          "evidence": "Founded 2025; adoption is fast and history is short (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1020,7 +1020,7 @@
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 at 694 stars under a solo author's licence (vendor documentation)."
+          "evidence": "Founded 2025 under a solo author's licence (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1112,11 +1112,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "GPLv3-based licence with 2.7k GitHub stars and full self-hosting in the community edition (the source repository)."
+          "evidence": "GPLv3-based licence with full self-hosting in the community edition (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 with 2.7k stars; enterprise subscriptions exist but the history is short (vendor documentation)."
+          "evidence": "Founded 2025; enterprise subscriptions exist but the history is short (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1176,11 +1176,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "2.3k stars with agent-side support noted for paid plans (vendor documentation)."
+          "evidence": "Agent-side support noted for paid plans (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1208,11 +1208,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 with 161 GitHub stars and local execution (the source repository)."
+          "evidence": "Apache-2.0 with local execution (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 161 stars; a young research pipeline (vendor documentation)."
+          "evidence": "Founded 2026; a young research pipeline (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1240,11 +1240,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 2.4k GitHub stars and no paywalled features (the source repository)."
+          "evidence": "MIT-licensed with no paywalled features (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Community-run at 2.4k stars with one managed-hosting vendor behind it (vendor documentation)."
+          "evidence": "Community-run with one managed-hosting vendor behind it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1304,11 +1304,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 291 GitHub stars and 908 cited sources (the source repository)."
+          "evidence": "MIT-licensed with 908 cited sources (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 291 stars; a young project with a large knowledge artifact (vendor documentation)."
+          "evidence": "Founded 2026; a young project with a large knowledge artifact (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1336,7 +1336,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPLv3 self-hosted since 2011 with 3.3k GitHub stars and the full core free (the source repository)."
+          "evidence": "AGPLv3 self-hosted since 2011 with the full core free (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -1368,11 +1368,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 435 GitHub stars and your own deployment on Vercel (the source repository)."
+          "evidence": "MIT-licensed with your own deployment on Vercel (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 435 stars; early template with a platform forming around it (vendor documentation)."
+          "evidence": "Founded 2026; early template with a platform forming around it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1400,11 +1400,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 4.4k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "4.4k stars with priced cloud tiers above the free plan (vendor documentation)."
+          "evidence": "With priced cloud tiers above the free plan (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1464,7 +1464,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "BSD-3-Clause with 6.6k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "BSD-3-Clause with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1496,7 +1496,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0, self-hosted, 3.5k GitHub stars, unlimited users on the free tier (the source repository)."
+          "evidence": "AGPL-3.0, self-hosted with unlimited users on the free tier (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1592,7 +1592,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 55.3k GitHub stars and true self-hosting (the source repository)."
+          "evidence": "MIT-licensed with true self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 8,
@@ -1624,11 +1624,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "MIT-licensed with 1.7k GitHub stars and a self-hostable server (the source repository)."
+          "evidence": "MIT-licensed with a self-hostable server (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2026 at 1.7k stars with a hosted service forming behind it (vendor documentation)."
+          "evidence": "Founded 2026 with a hosted service forming behind it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1656,11 +1656,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 with 2.0k GitHub stars and a self-hosted workspace (the source repository)."
+          "evidence": "Apache-2.0 with a self-hosted workspace (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 2.0k stars with no API of its own (vendor documentation)."
+          "evidence": "Founded 2026 with no API of its own (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1688,7 +1688,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 8.4k GitHub stars and free self-hosting (the source repository)."
+          "evidence": "MIT-licensed with free self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -1848,11 +1848,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 8.8k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "8.8k stars with published lifetime license tiers behind the OSS core (vendor documentation)."
+          "evidence": "With published lifetime license tiers behind the OSS core (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -1976,11 +1976,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 5.1k GitHub stars and self-hosting parity with cloud (the source repository)."
+          "evidence": "MIT-licensed with self-hosting parity with cloud (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Founded 2020 with 5.1k stars and a small commercial operation (vendor documentation)."
+          "evidence": "Founded 2020 with a small commercial operation (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2008,11 +2008,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 37.5k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "37.5k stars with an optional cloud tier of undisclosed size (vendor documentation)."
+          "evidence": "With an optional cloud tier of undisclosed size (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2072,11 +2072,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 23.9k GitHub stars and no user limits on self-hosting (the source repository)."
+          "evidence": "MIT-licensed with no user limits on self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "Backed by Webkul's extension business with 23.9k stars, giving it more runway than a solo project (vendor documentation)."
+          "evidence": "Backed by Webkul's extension business, giving it more runway than a solo project (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2104,7 +2104,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 146k GitHub stars, the largest in the catalog (the source repository)."
+          "evidence": "MIT-licensed with the largest in the catalog (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -2136,7 +2136,7 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "LGPL-2.1 with 15.1k GitHub stars and self-hosted deployment (the source repository)."
+          "evidence": "LGPL-2.1 with self-hosted deployment (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -2168,11 +2168,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 2.6k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "2.6k stars with a Braze-alternative positioning and no priced tiers listed (vendor documentation)."
+          "evidence": "With a Braze-alternative positioning and no priced tiers listed (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2200,11 +2200,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 16.8k GitHub stars and vendor-lock-in-free self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with vendor-lock-in-free self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "16.8k stars with a hosted per-character service as the commercial arm (vendor documentation)."
+          "evidence": "With a hosted per-character service as the commercial arm (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2232,11 +2232,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 589 GitHub stars and your own Cloudflare deployment (the source repository)."
+          "evidence": "MIT-licensed with your own Cloudflare deployment (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 589 stars with managed hosting offered (vendor documentation)."
+          "evidence": "Founded 2026 with managed hosting offered (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2264,11 +2264,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 23.3k GitHub stars and a fast Go backend you can read (the source repository)."
+          "evidence": "AGPL-3.0 with a fast Go backend you can read (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "Founded 2019 with 23.3k stars and years of self-hosted production use (vendor documentation)."
+          "evidence": "Founded 2019 with years of self-hosted production use (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2328,11 +2328,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "AGPL-3.0 with 4.3k GitHub stars and full source access (the source repository)."
+          "evidence": "AGPL-3.0 with full source access (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Founded 2020 with 4.3k stars and priced team tiers (vendor documentation)."
+          "evidence": "Founded 2020 with priced team tiers (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2424,11 +2424,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 2.9k GitHub stars and full source (the source repository)."
+          "evidence": "MIT-licensed with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "2.9k stars as a stable build tool with no service obligations (vendor documentation)."
+          "evidence": "A stable build tool with no service obligations (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2500,7 +2500,7 @@
     {
       "slug": "marketing-studio",
       "score_total": 32,
-      "verdict": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. At 234 stars it is a well-shaped idea in early days.",
+      "verdict": "Marketing Studio renders launch assets and demo videos from one Claude Code command, using Blender under the hood. It is a well-shaped idea in early days.",
       "pillars": {
         "pricing_transparency": {
           "score": 9,
@@ -2520,11 +2520,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 234 GitHub stars and full source (the source repository)."
+          "evidence": "MIT-licensed with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 2,
-          "evidence": "Founded 2026 at 234 stars with no API and a narrow dependency stack (vendor documentation)."
+          "evidence": "Founded 2026 with no API and a narrow dependency stack (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2584,7 +2584,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "GPL-3.0 with 10.5k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "GPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -2648,11 +2648,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL self-hosting with 25.3k GitHub stars and the full feature set available free on your own server (the source repository)."
+          "evidence": "AGPL self-hosting with the full feature set available free on your own server (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "25.3k stars and years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation)."
+          "evidence": "Years of steady maintenance, but it runs as a small project without enterprise support machinery (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2680,11 +2680,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 with 3.3k GitHub stars and full source visibility (the source repository)."
+          "evidence": "Apache-2.0 with full source visibility (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Community-maintained at 3.3k stars with no company behind it (vendor documentation)."
+          "evidence": "Community-maintained with no company behind it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2712,11 +2712,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 175 GitHub stars and one-click import into your instance (the source repository)."
+          "evidence": "MIT-licensed with one-click import into your instance (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 175 stars as a template collection (vendor documentation)."
+          "evidence": "Founded 2026 as a template collection (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2872,11 +2872,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 880 GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2020 at 880 stars with a hosted instance of unlisted size (vendor documentation)."
+          "evidence": "Founded 2020 with a hosted instance of unlisted size (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2904,11 +2904,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with every feature free on your own server and 2.2k GitHub stars (the source repository)."
+          "evidence": "AGPL-3.0 with every feature free on your own server (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2025 with 2.2k stars; the project is early and operations are thin (vendor documentation)."
+          "evidence": "Founded 2025; the project is early and operations are thin (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2936,11 +2936,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 1.7k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 at 1.7k stars with a commercial Enterprise layer forming (vendor documentation)."
+          "evidence": "Founded 2025 with a commercial Enterprise layer forming (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -2968,11 +2968,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 1.0k GitHub stars and full source (the source repository)."
+          "evidence": "MIT-licensed with full source (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2025 at 1.0k stars with an optional hosting service (vendor documentation)."
+          "evidence": "Founded 2025 with an optional hosting service (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3000,7 +3000,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "GPLv3, self-hosted, 3.0k GitHub stars, and you bring your own keys so no usage is locked to a vendor (the source repository)."
+          "evidence": "GPLv3, self-hosted, and you bring your own keys so no usage is locked to a vendor (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
@@ -3012,7 +3012,7 @@
     {
       "slug": "openseo",
       "score_total": 32,
-      "verdict": "OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. 18.2k stars and a $10/mo hosted option make the economics easy to model.",
+      "verdict": "OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. A $10/mo hosted option makes the economics easy to model.",
       "pillars": {
         "pricing_transparency": {
           "score": 8,
@@ -3032,11 +3032,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation)."
+          "evidence": "Founded 2026 with a simple hosted tier behind it (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3172,7 +3172,7 @@
     {
       "slug": "paperclip",
       "score_total": 44,
-      "verdict": "Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. 80k stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.",
+      "verdict": "Paperclip is the control plane for AI agent teams: org-chart orchestration with per-agent budgets and audit. Tens of thousands of stars say the problem is real, and EUR 10/mo hosted undercuts every alternative.",
       "pillars": {
         "pricing_transparency": {
           "score": 9,
@@ -3192,11 +3192,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 80.4k GitHub stars, the second-largest in the catalog (the source repository)."
+          "evidence": "MIT-licensed with the second-largest in the catalog (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "80.4k stars with a simple hosted tier and model-spend tracking (vendor documentation)."
+          "evidence": "A simple hosted tier and model-spend tracking (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3384,7 +3384,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 with 29.0k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -3416,11 +3416,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 39.9k GitHub stars and self-hosting parity (the source repository)."
+          "evidence": "MIT-licensed with self-hosting parity (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
-          "evidence": "Founded 2020 at 39.9k stars with a mature multi-product platform (vendor documentation)."
+          "evidence": "Founded 2020 with a mature multi-product platform (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3480,11 +3480,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 168 GitHub stars and fully local execution (the source repository)."
+          "evidence": "MIT-licensed with fully local execution (the source repository)."
         },
         "operational_maturity": {
           "score": 2,
-          "evidence": "Founded 2026 at 168 stars as a focused local tool (vendor documentation)."
+          "evidence": "Founded 2026 as a focused local tool (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3588,7 +3588,7 @@
     {
       "slug": "promptfoo",
       "score_total": 42,
-      "verdict": "Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with 25k stars. The cloud tiers price quietly, which does not matter much when the core is free.",
+      "verdict": "Promptfoo is the one in this category you can run tonight and read end to end: MIT evals and red teaming with tens of thousands of stars. The cloud tiers price quietly, which does not matter much when the core is free.",
       "pillars": {
         "pricing_transparency": {
           "score": 6,
@@ -3608,11 +3608,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 25.5k GitHub stars and a CLI-first design you can run anywhere (the source repository)."
+          "evidence": "MIT-licensed with a CLI-first design you can run anywhere (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "25.5k stars plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation)."
+          "evidence": "Plus a commercial entity behind the cloud tiers give it both community and runway (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3620,7 +3620,7 @@
     {
       "slug": "prospectos",
       "score_total": 29,
-      "verdict": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. At 214 stars it is early, and the scraping APIs carry their own costs and risks.",
+      "verdict": "ProspectOS is MIT lead prospecting with Google Maps and Instagram scraping built in. It is early, and the scraping APIs carry their own costs and risks.",
       "pillars": {
         "pricing_transparency": {
           "score": 8,
@@ -3640,11 +3640,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 214 GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 2,
-          "evidence": "Founded 2026 at 214 stars as an early project (vendor documentation)."
+          "evidence": "Founded 2026 as an early project (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3704,7 +3704,7 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "MIT-licensed core with 5.2k GitHub stars; the hosted AI services are what you pay for (the source repository)."
+          "evidence": "MIT-licensed core; the hosted AI services are what you pay for (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3736,11 +3736,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "AGPL-3.0 with 1.6k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2024 at 1.6k stars with priced cloud tiers (vendor documentation)."
+          "evidence": "Founded 2024 with priced cloud tiers (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -3768,7 +3768,7 @@
         },
         "openness": {
           "score": 6,
-          "evidence": "MIT SDKs at 19.7k GitHub stars behind a closed sending service (the source repository)."
+          "evidence": "MIT SDKs behind a closed sending service (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
@@ -3832,7 +3832,7 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "GPL-2.0 with 1.5k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "GPL-2.0 with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
@@ -4024,11 +4024,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 51 GitHub stars and fully local execution (the source repository)."
+          "evidence": "MIT-licensed with fully local execution (the source repository)."
         },
         "operational_maturity": {
           "score": 2,
-          "evidence": "51 stars as a young benchmark project with no API (vendor documentation)."
+          "evidence": "A young benchmark project with no API (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4056,11 +4056,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 782 GitHub stars in readable Go (the source repository)."
+          "evidence": "MIT-licensed, readable Go (the source repository)."
         },
         "operational_maturity": {
           "score": 4,
-          "evidence": "Founded 2022 at 782 stars with priced cloud tiers above the free plan (vendor documentation)."
+          "evidence": "Founded 2022 with priced cloud tiers above the free plan (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4152,7 +4152,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 self-hosted pipeline with 7.0k GitHub stars and warehouse-first design (the source repository)."
+          "evidence": "Apache-2.0 self-hosted pipeline with warehouse-first design (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4216,7 +4216,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed core with 73.1k GitHub stars and free self-hosting with no feature paywall (the source repository)."
+          "evidence": "MIT-licensed core with free self-hosting with no feature paywall (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4248,7 +4248,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPL-3.0 self-hosted with 5.7k GitHub stars and the whole suite free (the source repository)."
+          "evidence": "AGPL-3.0 self-hosted with the whole suite free (the source repository)."
         },
         "operational_maturity": {
           "score": 7,
@@ -4408,11 +4408,11 @@
         },
         "openness": {
           "score": 8,
-          "evidence": "AGPL-3.0 with 40.9k GitHub stars and community-edition self-hosting (the source repository)."
+          "evidence": "AGPL-3.0 with community-edition self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 6,
-          "evidence": "40.9k stars with priced cloud tiers and an Enterprise floor published (vendor documentation)."
+          "evidence": "With priced cloud tiers and an Enterprise floor published (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4536,11 +4536,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "AGPLv3 with all Pro features in the free self-hosted tier and 56.5k GitHub stars; only premium add-ons need a paid key (the source repository)."
+          "evidence": "AGPLv3 with all Pro features in the free self-hosted tier; only premium add-ons need a paid key (the source repository)."
         },
         "operational_maturity": {
           "score": 5,
-          "evidence": "Founded 2023 with 56.5k stars and fast shipping, but no decade of operational history and the enterprise support tier is still forming (vendor documentation)."
+          "evidence": "Founded 2023 with fast shipping, but no decade of operational history and the enterprise support tier is still forming (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4548,7 +4548,7 @@
     {
       "slug": "wacrm",
       "score_total": 38,
-      "verdict": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT at 2.3k stars. BYO model keys keep the AI costs yours and the data local.",
+      "verdict": "WaCRM is self-hosted WhatsApp CRM with grounded auto-replies and human handoff, MIT with a few thousand stars. BYO model keys keep the AI costs yours and the data local.",
       "pillars": {
         "pricing_transparency": {
           "score": 8,
@@ -4568,11 +4568,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 2.3k GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 at 2.3k stars as an early self-hosted project (vendor documentation)."
+          "evidence": "Founded 2026 as an early self-hosted project (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4580,7 +4580,7 @@
     {
       "slug": "warmbly",
       "score_total": 38,
-      "verdict": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. At 316 stars and a 2026 founding date, you are the early adopter and the operator.",
+      "verdict": "Warmbly packages cold email honestly as open source: Apache 2.0, self-hosted, with warmup and reply classification built in. With a 2026 founding date, you are the early adopter and the operator.",
       "pillars": {
         "pricing_transparency": {
           "score": 8,
@@ -4600,11 +4600,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "Apache-2.0 self-hosted with no cloud dependency and 316 GitHub stars (the source repository)."
+          "evidence": "Apache-2.0 self-hosted with no cloud dependency (the source repository)."
         },
         "operational_maturity": {
           "score": 3,
-          "evidence": "Founded 2026 with 316 stars; the operating history is measured in months (vendor documentation)."
+          "evidence": "Founded 2026; the operating history is measured in months (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4632,11 +4632,11 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 72 GitHub stars and full self-hosting (the source repository)."
+          "evidence": "MIT-licensed with full self-hosting (the source repository)."
         },
         "operational_maturity": {
           "score": 2,
-          "evidence": "72 stars with no API and a minimal dependency stack (vendor documentation)."
+          "evidence": "With no API and a minimal dependency stack (vendor documentation)."
         }
       },
       "scored": "2026-09-28"
@@ -4792,7 +4792,7 @@
         },
         "openness": {
           "score": 9,
-          "evidence": "MIT-licensed with 334 GitHub stars and vendor-published source (the source repository)."
+          "evidence": "MIT-licensed with vendor-published source (the source repository)."
         },
         "operational_maturity": {
           "score": 5,

@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | 37 skills across CRO, copy, SEO, ads, email, growth, retention, sales and strategy (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
 | Integrations | 6/10 | Google Ads API, Search Console, Meta Marketing API and TweetClaw documented (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
 | AI capability | 6/10 | Live data connectors feeding agent skills put it above static prompt collections (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 1.0k GitHub stars and full source (the source repository: [repository](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 at 1.0k stars with an optional hosting service (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full source (the source repository: [repository](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 with an optional hosting service (vendor documentation: [vendor site](https://github.com/LeoYeAI/openclaw-marketing-skills), verified 2026-09-28). |
 
 
 | Pros | Cons |

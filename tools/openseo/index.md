@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | SEO research and auditing functions mirroring the suite incumbents cover the analyst workflow (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 | Integrations | 3/10 | DataForSEO as the data layer; no named platform integrations in the catalog (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 18.2k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/every-app/open-seo), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2026 at 18.2k stars with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with full self-hosting (the source repository: [repository](https://github.com/every-app/open-seo), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2026 with a simple hosted tier behind it (vendor documentation: [vendor site](https://openseo.so), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -90,7 +90,7 @@ MartechSignal editorial review by [Tim Christensen](/authors/tim-christensen/) Â
 
 ## MartechSignal Score: 32/60
 
-OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. 18.2k stars and a $10/mo hosted option make the economics easy to model.
+OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. A $10/mo hosted option makes the economics easy to model.
 
 Scored 2026-09-28 against our published rubric: six pillars, 0-10 each. This is an editorial assessment from documentation and vendor materials, not a lab benchmark or a verified-buyer rating. The full rubric is on the [methodology page](/methodology/).
 
@@ -318,7 +318,7 @@ One email when a new tool review lands, nothing else.
       "name": "MartechSignal"
     },
     "datePublished": "2026-09-26",
-    "reviewBody": "OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. 18.2k stars and a $10/mo hosted option make the economics easy to model.",
+    "reviewBody": "OpenSEO is the open-source Ahrefs and Semrush alternative where you pay DataForSEO per call instead of a suite price. A $10/mo hosted option makes the economics easy to model.",
     "itemReviewed": {
       "@type": "SoftwareApplication",
       "@id": "https://martechsignal.com/tools/openseo/#app",

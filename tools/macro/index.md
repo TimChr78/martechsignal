@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Self-updating contact and company records from email with company-level pipeline stages (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
 | Integrations | 4/10 | Gmail, Google Workspace, GitHub and MCP documented (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
 | AI capability | 7/10 | Agents that build and maintain CRM records from email, plus shared team memory (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
-| Openness | 8/10 | AGPL-3.0 with 4.3k GitHub stars and full source access (the source repository: [repository](https://github.com/macro-inc/macro), verified 2026-09-28). |
-| Operational maturity | 5/10 | Founded 2020 with 4.3k stars and priced team tiers (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
+| Openness | 8/10 | AGPL-3.0 with full source access (the source repository: [repository](https://github.com/macro-inc/macro), verified 2026-09-28). |
+| Operational maturity | 5/10 | Founded 2020 with priced team tiers (vendor documentation: [vendor site](https://macro.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

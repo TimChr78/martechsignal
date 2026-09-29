@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | Mail server, newsletters and email marketing in one self-hosted stack cover the sending loop (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
 | Integrations | 6/10 | Postfix, Dovecot, Rspamd, Roundcube and SMTP relays (SES, Mailgun, custom) plus REST and Send APIs (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
 | AI capability | 5/10 | BYO-model template generation with six named model vendors and website profiling for brand-aware output (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 15.6k GitHub stars and the whole mail stack self-hosted (the source repository: [repository](https://github.com/Billionmail/BillionMail), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 at 15.6k stars with an optional deployment service (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with the whole mail stack self-hosted (the source repository: [repository](https://github.com/Billionmail/BillionMail), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 with an optional deployment service (vendor documentation: [vendor site](https://www.billionmail.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

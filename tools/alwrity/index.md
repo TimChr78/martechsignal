@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | Content strategy, generation, SEO and social coverage promise the full platform at draft quality (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 | AI capability | 6/10 | Multimodal generation and AI strategy planning are the platform's core claims (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
-| Openness | 8/10 | Open-source self-hosted with 1.2k GitHub stars and full source (the source repository: [repository](https://github.com/ALwrity/ALwrity), verified 2026-09-28). |
-| Operational maturity | 3/10 | 1.2k stars and a self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
+| Openness | 8/10 | Open-source self-hosted with full source (the source repository: [repository](https://github.com/ALwrity/ALwrity), verified 2026-09-28). |
+| Operational maturity | 3/10 | A self-declared WIP state (vendor documentation: [vendor site](https://alwrity.com), verified 2026-09-28). |
 
 
 | Pros | Cons |

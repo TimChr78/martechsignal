@@ -7,7 +7,7 @@
 | Feature depth | 7/10 | Feature flags, A/B testing, a visual editor and contextual bandits cover the experimentation stack (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
 | Integrations | 6/10 | Snowflake, BigQuery, Databricks, ClickHouse, Trino and Slack documented plus an API (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
 | AI capability | 6/10 | AI assistant, AI Visual Editor and MCP servers for Claude, Cursor and VS Code with contextual bandits (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 8.4k GitHub stars and free self-hosting (the source repository: [repository](https://github.com/growthbook/growthbook), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with free self-hosting (the source repository: [repository](https://github.com/growthbook/growthbook), verified 2026-09-28). |
 | Operational maturity | 6/10 | Founded 2020 with a commercial entity behind the open core (vendor documentation: [vendor site](https://www.growthbook.io), verified 2026-09-28). |
 
 

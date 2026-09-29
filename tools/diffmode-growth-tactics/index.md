@@ -7,8 +7,8 @@
 | Feature depth | 5/10 | Case-study mining, blind mechanism pairing and 4 rejection gates cover growth ideation with friction (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
 | Integrations | 3/10 | Claude Code, Codex and Claude plugins documented as the harnesses (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
 | AI capability | 6/10 | Blind pairing before analysis and enforced rejection gates are methodological choices, not model calls (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| Openness | 9/10 | Apache-2.0 with 161 GitHub stars and local execution (the source repository: [repository](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
-| Operational maturity | 3/10 | Founded 2026 at 161 stars; a young research pipeline (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| Openness | 9/10 | Apache-2.0 with local execution (the source repository: [repository](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
+| Operational maturity | 3/10 | Founded 2026; a young research pipeline (vendor documentation: [vendor site](https://github.com/acogood/diffmode_free), verified 2026-09-28). |
 
 
 | Pros | Cons |

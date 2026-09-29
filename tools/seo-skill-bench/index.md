@@ -7,8 +7,8 @@
 | Feature depth | 4/10 | Headless skill execution, answer-key scoring and hallucination trap detection cover benchmarking narrowly (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
 | Integrations | 2/10 | Claude Code is the only documented harness (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
 | AI capability | 5/10 | Deterministic planted-defect scoring and trap avoidance measurement are meta-evaluation of AI output (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
-| Openness | 9/10 | MIT-licensed with 51 GitHub stars and fully local execution (the source repository: [repository](https://github.com/aleclindz/seo-skill-bench), verified 2026-09-28). |
-| Operational maturity | 2/10 | 51 stars as a young benchmark project with no API (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
+| Openness | 9/10 | MIT-licensed with fully local execution (the source repository: [repository](https://github.com/aleclindz/seo-skill-bench), verified 2026-09-28). |
+| Operational maturity | 2/10 | A young benchmark project with no API (vendor documentation: [vendor site](https://seoagent.com/seo-skill-benchmark), verified 2026-09-28). |
 
 
 | Pros | Cons |

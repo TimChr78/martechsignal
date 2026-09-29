@@ -8,7 +8,7 @@
 | Integrations | 3/10 | Five named integrations cover the surface: Claude Code, Google Search Console, DataForSEO, Firecrawl and Lighthouse, with no marketplace behind them (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 | AI capability | 9/10 | The product is itself an agent harness: /seo audit coordinates its specialist agents across 25 sub-skills inside Claude Code (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 | Openness | 10/10 | MIT-licensed with the whole audit stack inspectable and no paid tier hiding functionality (the source repository: [repository](https://github.com/AgriciDaniel/claude-seo), verified 2026-09-26). |
-| Operational maturity | 6/10 | Founded in February 2026 with 17,899 GitHub stars, 2,625 forks (verified 2026-09-26) and active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
+| Operational maturity | 6/10 | Founded in February 2026 with active v2.2.x releases in August 2026, but it remains a young project with no company or SLAs behind it (vendor documentation: [vendor site](https://claude-seo.md/), verified 2026-09-26). |
 
 
 | Grader | Date | Score | Context |

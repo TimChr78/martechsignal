@@ -8,7 +8,7 @@
 | Integrations | 7/10 | DataForSEO, Google Search Console, Firecrawl and Gemini documented plus Codex as the harness (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 | AI capability | 6/10 | GEO/AEO optimization workflows with agent profiles make it agent-native SEO tooling (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 | Openness | 4/10 | Free and source-visible but under a proprietary courtesy licence, not OSS (the source repository: [repository](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
-| Operational maturity | 4/10 | Founded 2025 at 694 stars under a solo author's licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
+| Operational maturity | 4/10 | Founded 2025 under a solo author's licence (vendor documentation: [vendor site](https://github.com/AgriciDaniel/codex-seo), verified 2026-09-28). |
 
 
 | Pros | Cons |
@@ -117,7 +117,7 @@ Researched from public documentation, the source repository, and vendor material
 
 Codex SEO is the OpenAI Codex port of Claude SEO from the same author, covering the full surface: technical audits, on-page analysis, E-E-A-T content checks, schema, Core Web Vitals, GEO and AEO for AI search, backlinks, local and ecommerce SEO, hreflang, and semantic clustering. The difference is the runtime: 24 TOML agent profiles, deterministic headless runners, and a Python virtualenv under ~/.codex instead of Claude's subagent model.
 
-Everything depends on your team's stack. If you run Codex, you get the same workflows Claude shops enjoy, 26 of them across the suite and 534 stars and climbing. If you run Claude Code, stay with the original. Setup is developer work: venv management, agent config, and no UI or support when things break. The output ceiling is whatever model you point at it.
+Everything depends on your team's stack. If you run Codex, you get the same workflows Claude shops enjoy, 26 of them across the suite and hundreds of stars and climbing. If you run Claude Code, stay with the original. Setup is developer work: venv management, agent config, and no UI or support when things break. The output ceiling is whatever model you point at it.
 
 ## Verdict
 

@@ -7,8 +7,8 @@
 | Feature depth | 6/10 | ERP, CRM, HRM, ATS and time tracking make a broad business management suite (vendor documentation: [vendor site](https://gauzy.co), verified 2026-09-28). |
 | Integrations | 2/10 | No named integrations in the catalog (vendor documentation: [vendor site](https://gauzy.co), verified 2026-09-28). |
 | AI capability | 2/10 | No AI features are documented in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://gauzy.co), verified 2026-09-28). |
-| Openness | 9/10 | AGPL-3.0 with 4.4k GitHub stars and full self-hosting (the source repository: [repository](https://github.com/ever-co/ever-gauzy), verified 2026-09-28). |
-| Operational maturity | 5/10 | 4.4k stars with priced cloud tiers above the free plan (vendor documentation: [vendor site](https://gauzy.co), verified 2026-09-28). |
+| Openness | 9/10 | AGPL-3.0 with full self-hosting (the source repository: [repository](https://github.com/ever-co/ever-gauzy), verified 2026-09-28). |
+| Operational maturity | 5/10 | With priced cloud tiers above the free plan (vendor documentation: [vendor site](https://gauzy.co), verified 2026-09-28). |
 
 
 | Pros | Cons |

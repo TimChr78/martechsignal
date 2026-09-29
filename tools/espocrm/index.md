@@ -7,7 +7,7 @@
 | Feature depth | 6/10 | Sales, marketing and customer management with workflow add-ons make a complete small-team CRM; BPM depth lives in the paid Advanced Pack (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 | Integrations | 3/10 | No named integrations in the catalog; a documented API carries the connection story (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 | AI capability | 3/10 | The Intelligence add-on exists but no AI features are itemized in the catalog as of 2026-09-28 (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
-| Openness | 9/10 | AGPLv3 self-hosted since 2011 with 3.3k GitHub stars and the full core free (the source repository: [repository](https://github.com/espocrm/espocrm), verified 2026-09-28). |
+| Openness | 9/10 | AGPLv3 self-hosted since 2011 with the full core free (the source repository: [repository](https://github.com/espocrm/espocrm), verified 2026-09-28). |
 | Operational maturity | 7/10 | Shipping since 2011 with paid extension support; a long track record for a project this size (vendor documentation: [vendor site](https://www.espocrm.com), verified 2026-09-28). |
 
 

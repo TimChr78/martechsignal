@@ -652,20 +652,71 @@ def test_homepage_tool_count_matches_catalog():
 
 def test_content_json_star_literals_resolve_to_records():
     """r9 H1 (203,890 orphan): an exact star count in comparison content must
-    be some record's actual github_stars."""
+    be some record's actual github_stars.
+
+    r16 H-1 (2026-09-29): extended to normalized comparison (abbreviated
+    4.4k forms, bare counts, word-boundary safe so years like 2011 never
+    match). Any prose star literal more than 2% from its record fails —
+    the audit recipe. Score evidence lines carry no star literals at all
+    (structural rule, drift-proof); verdicts/descriptions use digit-free
+    scale bands (tens of thousands, a few hundred) or nothing."""
+    import re as _re
     recs = _r3_records()
-    _vals = [t.get("github_stars") for t in recs.values() if t.get("github_stars")]
-    valid = set(f"{gs:,}" for gs in _vals)
+    idx = {t.get("slug"): t for t in recs.values() if isinstance(t, dict)}
+    def _norm(s):
+        s = s.replace(",", "")
+        return int(float(s[:-1]) * 1000) if s.lower().endswith("k") else int(float(s))
+    _pat = _re.compile(r'([\d,]+\.?\d*k?)\s*(?:GitHub\s+)?stars?\b|'
+                       r'★\s*([\d,]+\.?\d*k?)\b')
     bad = []
-    for fname in ("bestx-content.json", "vsx-content.json"):
+    for fname in ("bestx-content.json", "vsx-content.json", "alternatives-content.json"):
         path = ROOT / "tools" / fname
         if not path.exists():
             continue
         for txt in _r3_strings(_r3json.loads(path.read_text())):
             for m in _r3re.finditer(r'\b(\d{1,3},\d{3})\b(?= (?:GitHub )?stars)', txt):
-                if m.group(1) not in valid:
+                if m.group(1) not in set(f"{t.get('github_stars'):,}" for t in recs.values() if t.get("github_stars")):
                     bad.append((fname, m.group(1)))
-    assert not bad, f"orphan star literals in comparison content: {bad[:6]}"
+    # normalized >2% check on tool + score prose, resolved by record
+    for fname, getdict in (("tools.json", None), ("score-content-a.json", "tools"),
+                           ("score-content-b.json", "tools")):
+        path = ROOT / "tools" / fname
+        data = _r3json.loads(path.read_text())
+        items = data if fname == "tools.json" else data.get(getdict, [])
+        for entry in (items if isinstance(items, list) else items.values()):
+            if not isinstance(entry, dict):
+                continue
+            slug = entry.get("slug")
+            cat = (idx.get(slug) or {}).get("github_stars") if slug else None
+            for txt in _r3_strings(entry):
+                for m in _pat.finditer(txt):
+                    lit = m.group(1) or m.group(2)
+                    try:
+                        v = _norm(lit)
+                    except ValueError:
+                        continue
+                    if not v or not cat:
+                        continue
+                    if abs(v - cat) / cat > 0.02:
+                        bad.append((f"{fname}:{slug}", f"{lit} vs {cat}"))
+    assert not bad, f"stale star literals: {bad[:8]}"
+
+
+def test_score_evidence_carries_no_star_literals():
+    """r16 H-1 (2026-09-29): score pillar evidence lines cite licenses,
+    hosting and dates — never star counts (they rot with every snapshot).
+    The count lives in Quick-Facts (exact, build-fresh). Zero literals,
+    any format, no threshold."""
+    import re as _re
+    bad = []
+    for fname in ("score-content-a.json", "score-content-b.json"):
+        data = _r3json.loads((ROOT / "tools" / fname).read_text())
+        for entry in data.get("tools", []):
+            for pname, pillar in (entry.get("pillars") or {}).items():
+                ev = pillar.get("evidence", "") if isinstance(pillar, dict) else ""
+                if _re.search(r'[\d,]+\.?\d*k?\s*(?:GitHub\s+)?stars?\b|★', ev):
+                    bad.append(f"{fname}:{entry.get('slug')}:{pname}")
+    assert not bad, f"star literals in score evidence: {bad[:8]}"
 
 
 def test_entity_graph_resolves_id_refs():
