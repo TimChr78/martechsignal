@@ -4,6 +4,8 @@
 
 ## AI SEO tooling: benchmarks, comparisons, and the honest limits
 
+Last verified 2026-09-28.
+
 AI SEO tooling covers two different promises: tools that help you produce and optimize content, and tools that tell you how visible you are inside AI-generated answers. Both markets are crowded and under-measured. This hub collects our benchmark work and the comparisons where we ran the tools ourselves.
 
 ## The benchmark work

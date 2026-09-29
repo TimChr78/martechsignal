@@ -4,6 +4,8 @@
 
 ## Workflow automation without the AI-tool pile-on: the strategy hub
 
+Last verified 2026-09-28.
+
 Most automation buying goes wrong in the same way: a tool demo promises leverage, the team adds it beside what they own, and eighteen months later the workflow debt is the platform. This hub orders the arguments we have published against that pattern, so you can make the case in whatever sequence your budget cycle needs.
 
 ## Start with what you own

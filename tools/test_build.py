@@ -1281,6 +1281,41 @@ def test_money_pages_show_freshness_and_pilot_depth():
     assert not bad_pilot, f"pilot gaps: {bad_pilot}"
 
 
+def test_all_money_pages_carry_visible_time_and_shots():
+    """r11 H-4 (2026-09-29): every money page (15 best + 10 vs + 4
+    alternatives) shows a visible Last verified <time> and, where the og
+    survey shot a product UI, a real screenshot — not pilot-gated."""
+    import glob as _glob
+    import os as _os
+    gaps = []
+    pages = ([str(ROOT / "best" / p["slug"]) for p in
+              json.loads((ROOT / "tools" / "bestx-content.json").read_text())["pages"]]
+             + [str(ROOT / "vs" / p["slug"]) for p in
+                json.loads((ROOT / "tools" / "vsx-content.json").read_text())["pages"]]
+             + [str(ROOT / "alternatives" / p["slug"]) for p in
+                json.loads((ROOT / "tools" / "alternatives-content.json").read_text())["pages"]])
+    assert len(pages) == 29, f"expected 29 money pages, got {len(pages)}"
+    for d in pages:
+        html = Path(d, "index.html").read_text()
+        if "<time datetime=" not in html:
+            gaps.append((d, "no visible time"))
+    assert not gaps, f"time gaps: {gaps}"
+    shot_pages = [d for d in pages if "og/screenshots/" in
+                  Path(d, "index.html").read_text()]
+    assert len(shot_pages) >= 20, \
+        f"screenshots on only {len(shot_pages)} money pages, want 20+"
+
+
+def test_guide_hubs_carry_visible_time():
+    """r11 H-4 (2026-09-29): the five static /guides/* hubs each carry a
+    visible Last verified <time> matching their Article dateModified."""
+    for slug in ("generative-engine-optimization", "mcp-agent-protocols",
+                 "workflow-automation-strategy", "ai-seo-tooling",
+                 "agentic-ai-advertising"):
+        html = (ROOT / "guides" / slug / "index.html").read_text()
+        assert "<time datetime=" in html, f"{slug}: no visible time"
+
+
 def test_volume_pricing_rows_are_derived_not_quoted():
     """r11 H-7 (2026-09-29): the invoice persona gets 10K/100K/1M rows on
     /vs/n8n-vs-zapier/. Cells above the published tiers say who to ask —

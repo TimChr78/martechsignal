@@ -26,6 +26,8 @@ Before you move, list the apps each workflow touches and confirm the replacement
 
 The table below compares all ten on the four axes that decide these purchases: what it costs, how the billing works, whether you can run it yourself, and what it is actually best at. Every number in the price column comes from the vendor's own pricing page with its verification date on the tool's review page.
 
+Last verified 2026-09-28.
+
 ## [n8n](/tools/n8n/)
 
 Open Source OSS

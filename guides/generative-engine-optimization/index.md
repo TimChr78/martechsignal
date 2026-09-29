@@ -4,6 +4,8 @@
 
 ## Generative Engine Optimization (GEO): the working guide
 
+Last verified 2026-09-28.
+
 Generative engine optimization is the practice of getting your company cited, quoted, and correctly described inside AI-generated answers, in ChatGPT, Perplexity, Gemini, and AI Overviews. It sits next to SEO rather than replacing it, and the distinction matters for your budget: the same content and authority base feeds both, but the measurement and the tactics diverge once answers stop showing ten blue links.
 
 This page is the hub for our GEO coverage: the analysis posts, the category of tools that measure AI visibility, and the definitions worth knowing. It exists because the pieces were published faster than they were connected.
