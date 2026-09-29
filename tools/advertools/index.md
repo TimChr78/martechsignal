@@ -154,9 +154,9 @@ It is a data toolkit rather than a tracking dashboard, but keyword generation, S
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform and can host it themselves, with a free starting tier.

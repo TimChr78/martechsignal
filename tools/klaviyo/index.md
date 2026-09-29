@@ -152,9 +152,9 @@ The right pick for DTC and commerce email. Wrong tool for B2B lifecycle where a 
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — DTC brands that want store data doing the segmentation

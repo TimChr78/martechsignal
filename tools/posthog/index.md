@@ -179,8 +179,8 @@ PostHog AI answers questions about your data in plain language across web, Slack
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Also featured in
 
 - [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/) — the real questions are about product usage, and you want flags and experiments beside the funnel.

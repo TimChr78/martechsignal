@@ -156,8 +156,8 @@ The pragmatic pick when you want automation plus AI agents in one product and yo
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — SMB teams that want real automation without enterprise procurement

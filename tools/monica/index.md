@@ -189,9 +189,9 @@ Yes on both. Export covers contacts, relationships, notes, reminders, activities
 
 ## Related reading
 
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
 ## Also featured in
 
 - [Best open-source CRM tools (2026)](/best/open-source-crm/) — Best for relationship-led founders and community businesses.

@@ -194,9 +194,9 @@ Nosto documents a consent-conditional pattern: wrap the tracking script (connect
 
 ## Related reading
 
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Merchants that want recommendations their merchandisers can steer

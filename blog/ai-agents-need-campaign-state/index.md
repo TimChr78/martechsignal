@@ -108,7 +108,8 @@ The agents are good enough. The context is not.
 - [Mixpanel](/tools/mixpanel/) - Product analytics platform with AI-powered insights for user behavior tracking
 ## Comparison guides
 
-- [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best workflow automation tools (2026)](/best/workflow-automation-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -117,7 +118,7 @@ The agents are good enough. The context is not.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
+More from the directory: [advertools](/tools/advertools/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -169,7 +170,7 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1522,
+  "wordCount": 1526,
   "articleSection": "marketing-automation"
 }
 ```

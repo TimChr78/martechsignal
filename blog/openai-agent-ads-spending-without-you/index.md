@@ -137,7 +137,7 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Related tools
 
 - [Profound](/tools/profound/) - Enterprise AI marketing platform: answer-engine visibility plus drafting agents
@@ -145,8 +145,8 @@ This post is part of the hub for this topic: [agentic ai advertising](/guides/ag
 - [Growth Lab](/tools/growth-lab/) - Open-source skills that run SEO and Xiaohongshu growth loops in Claude Code and Codex
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -205,7 +205,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2159,
+  "wordCount": 2163,
   "articleSection": "advertising"
 }
 ```

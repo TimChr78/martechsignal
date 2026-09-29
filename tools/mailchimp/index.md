@@ -156,9 +156,9 @@ Fine as a starting point, especially free. Budget to migrate once automation dep
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Small businesses that want the shortest path from idea to send

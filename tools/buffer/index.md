@@ -149,7 +149,7 @@ Start here, especially on the free tier. Plan to graduate to Sprout when reporti
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ## Also featured in
 

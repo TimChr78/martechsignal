@@ -188,9 +188,9 @@ Connections is the data pipeline: sources, destinations, Reverse ETL, and wareho
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
 ## Also featured in
 
 - [Best AI Personalization & CDP tools (2026): 8 compared](/best/ai-personalization-tools/) — Teams whose personalization problem is really a data plumbing problem

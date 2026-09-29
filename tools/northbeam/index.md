@@ -150,8 +150,8 @@ Credible MTA for heavy paid-media spenders; directional signal, not truth, and p
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
 ## Also featured in
 
 - [Best Marketing Analytics & Attribution tools (2026): 8 compared](/best/marketing-analytics-tools/) — DTC brands whose incrementality questions deserve real modeling

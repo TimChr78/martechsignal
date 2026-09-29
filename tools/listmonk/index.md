@@ -147,8 +147,8 @@ The strongest self-hosted mailing platform in this catalog; bring your own forms
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Newsletter and lifecycle email at one list price, with no per-contact billing

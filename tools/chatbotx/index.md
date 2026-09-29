@@ -127,9 +127,9 @@ Right for technical teams that want ManyChat-style automation without lock-in. E
 
 ## Related reading
 
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ## Also featured in
 
 - [Best Chatbots & Conversational AI tools (2026): 6 compared](/best/ai-chatbot-tools/) — Developers that want ManyChat's playbook as source code

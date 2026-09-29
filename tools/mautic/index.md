@@ -189,8 +189,8 @@ The features page describes IP anonymization for visitor records, site tracking 
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
+- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 
 - [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/) — Marketing teams that want HubSpot-class automation they can host themselves

@@ -152,8 +152,8 @@ A credible, governance-aware starter kit for GTM teams already living in Zapier-
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want the job covered in one platform and can host it themselves, with a free starting tier.

@@ -180,8 +180,8 @@ The core is MIT-licensed and free to self-host, including all documented core mo
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ### Quick Facts
 
 ## Get the next teardown

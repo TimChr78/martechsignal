@@ -195,9 +195,9 @@ We found no Surfer integration in Frase's integrations page or docs index; Surfe
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best for small content teams that want research, briefs and drafting in one tool.

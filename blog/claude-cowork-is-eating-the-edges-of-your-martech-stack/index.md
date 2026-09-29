@@ -90,18 +90,18 @@ Tools linked in this post: [n8n](/tools/n8n/), [Make](/tools/make/), [Tray.io](/
 
 ## Related reading
 
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
-- [AI Marketing Suite](/tools/ai-marketing-claude/) - 15-skill marketing suite for Claude Code with parallel agents and PDF reports
 - [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
+- [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 ## Comparison guides
 
-- [Matomo vs Plausible (2026): analytics depth or a dashboard that stays small](/vs/matomo-vs-plausible/)
-- [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
+- [Matomo vs PostHog (2026): web analytics or product analytics](/vs/matomo-vs-posthog/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
@@ -162,7 +162,7 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1640,
+  "wordCount": 1629,
   "articleSection": "agent-skills"
 }
 ```

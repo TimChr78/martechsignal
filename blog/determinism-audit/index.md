@@ -90,9 +90,9 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 
 ## Related reading
 
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
+- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
 ## Related tools
 
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
@@ -100,7 +100,7 @@ Our directory reviews marketing AI tools on what they can decide, what they can 
 - [Intercom](/tools/intercom/) - AI-first customer service platform with Fin AI agent and omnichannel messaging
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 - [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
@@ -162,7 +162,7 @@ More from the directory: [IFTTT](/tools/ifttt/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1773,
+  "wordCount": 1783,
   "articleSection": "agent-skills"
 }
 ```

@@ -81,9 +81,9 @@ Our directory reviews marketing automation and workflow tools on what matters af
 
 ## Related reading
 
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 - [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ## Related tools
 
 - [Laudspeaker](/tools/laudspeaker/) - Open-source customer engagement and product onboarding platform, alternative to Braze
@@ -91,8 +91,8 @@ Our directory reviews marketing automation and workflow tools on what matters af
 - [Zapier](/tools/zapier/) - No-code automation platform connecting 9,000+ apps with AI-powered workflows
 ## Comparison guides
 
+- [Best n8n alternatives (2026)](/alternatives/n8n/)
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
-- [Best Open-Source Marketing Tools (2026): 8 compared](/best/open-source-marketing-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -153,7 +153,7 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1682,
+  "wordCount": 1684,
   "articleSection": "marketing-automation, workflow-automation"
 }
 ```

@@ -144,8 +144,8 @@ A working, well-tested local prospecting tool with unusually honest documentatio
 ## Related reading
 
 - [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 ## Get the next teardown

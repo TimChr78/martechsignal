@@ -168,8 +168,8 @@ No. It pairs monitoring (Answer Engine Insights, Prompt Volumes, Shopping, Agent
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
-- [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want chatgpt shopping visibility tracking, with pricing quoted per contract.

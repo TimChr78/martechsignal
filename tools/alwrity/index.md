@@ -137,8 +137,8 @@ A capable self-hosted content engine for technical marketers. Everyone else gets
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
 - [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
-- [Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.](/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/)
 ### Quick Facts
 
 ### Pricing

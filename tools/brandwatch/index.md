@@ -147,8 +147,8 @@ The listening leader for enterprise consumer-intelligence teams. Posting-only te
 ## Related reading
 
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
+- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
 ## Also featured in
 
 - [Best AI Social Media tools (2026): 6 compared](/best/ai-social-media-tools/) — Research teams that want consumer intelligence more than a scheduler

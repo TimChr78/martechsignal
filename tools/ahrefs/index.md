@@ -162,9 +162,9 @@ The Index covers AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini and Copilot.
 
 ## Related reading
 
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
 ## Also featured in
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/) — Best if you already pay for Ahrefs and want the AI question answered from your existing stack.

@@ -103,27 +103,27 @@ Browse the [MartechSignal tools directory](/tools/) before the next renewal. The
 
 ## Related reading
 
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 - [You Don't Need a New Data Stack for AI. Fivetran Just Proved It](/blog/you-dont-need-new-data-stack-fivetran/)
+- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
 ## Related tools
 
 - [SEO Skill Bench](/tools/seo-skill-bench/) - Open benchmark that scores Claude Code SEO skills against fixture sites with planted defects
 - [Northbeam](/tools/northbeam/) - AI-powered multi-touch attribution and marketing intelligence for ecommerce
-- [Attribution](/tools/attribution/) - AI-powered marketing attribution platform connecting ad spend to revenue
+- [Adobe LLM Optimizer](/tools/adobe-llm-optimizer/) - Adobe's enterprise GEO system for AI visibility, CDN-edge fixes, and revenue attribution
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/)
 ## Glossary terms
 
 - [Marketing ops](/glossary/marketing-ops/)
-- [DSP](/glossary/dsp/)
+- [Customer journey](/glossary/customer-journey/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
 
-More from the directory: [OpenOutreach](/tools/openoutreach/)
+More from the directory: [MarketMuse](/tools/marketmuse/)
 
 **MartechSignal**, written by [Tim Christensen](/authors/tim-christensen/)
 
@@ -175,7 +175,7 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1688,
+  "wordCount": 1695,
   "articleSection": "analytics"
 }
 ```

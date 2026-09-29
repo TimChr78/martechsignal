@@ -184,9 +184,9 @@ Yes, and they are modest by design. The AI module became stable in version 21.0 
 
 ## Related reading
 
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ### Quick Facts
 
 ## Get the next teardown

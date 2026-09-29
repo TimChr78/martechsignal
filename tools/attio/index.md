@@ -156,8 +156,8 @@ Worth a look when your CRM needs custom objects and live segments more than it n
 ## Related reading
 
 - [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
 - [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
+- [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 ## Also featured in
 
 - [Best AI CRM tools (2026): 6 compared](/best/ai-crm-tools/) — Best for startups that want a CRM shaped around their own data model.

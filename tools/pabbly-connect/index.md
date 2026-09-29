@@ -129,9 +129,9 @@ Strengths include an API for custom integrations. The full review breaks down wh
 
 ## Related reading
 
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
 ### Quick Facts
 
 Related guides: [Pabbly Connect in Zapier alternatives](/alternatives/zapier/)

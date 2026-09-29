@@ -62,20 +62,20 @@ The provenance tax is real, but the invoice is split. Platforms pay it in compli
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
 - [Digital Marketing Pro](/tools/digital-marketing-pro/) - 163-skill AI marketing plugin for agencies with EU AI Act compliance
 - [Claude SEO](/tools/claude-seo/) - Open-source SEO skill for Claude Code with 25 sub-skills and 20 specialist agents
-- [Nimt.ai](/tools/nimt-ai/) - AI search tracking across 8 models with an agent that writes, fixes, and outreaches
+- [Codex SEO](/tools/codex-seo/) - Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrations
 ## Comparison guides
 
 - [Best AI SEO tools (2026): 8 compared](/best/ai-seo-tools/)
-- [Best AI Content &amp; Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
 ## Glossary terms
 
-- [AI content](/glossary/ai-content-generation/)
 - [AI Agent](/glossary/ai-agent/)
+- [AI content](/glossary/ai-content-generation/)
 ### One email. Every Friday.
 
 The AI tools, workflows, and vendor moves that actually matter for marketing automation. Five minutes, not an hour.
@@ -130,7 +130,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1470,
+  "wordCount": 1475,
   "articleSection": "agent-skills"
 }
 ```

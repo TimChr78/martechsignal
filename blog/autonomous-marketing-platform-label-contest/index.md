@@ -107,8 +107,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -116,8 +116,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 - [Zapier GTM Cheat Codes](/tools/zapier-gtm-cheat-codes/) - Zapier's installable coding-agent skills for GTM: campaign planning, CRM context, customer proof
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [Agentic Marketing](/glossary/agentic-marketing/)
@@ -178,7 +178,7 @@ More from the directory: [Anyword](/tools/anyword/)
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 2123,
+  "wordCount": 2135,
   "articleSection": "agent-skills"
 }
 ```

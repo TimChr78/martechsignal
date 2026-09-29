@@ -169,9 +169,9 @@ No. The agent drafts content, page fixes, and outreach, and you approve changes 
 
 ## Related reading
 
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
-- [AI visibility advice, audited against 775 logged citations](/blog/geo-experiments-vs-ai-visibility-playbook/)
-- [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
+- [The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For](/blog/cdp-reckoning-warehouse-native/)
 ## Also featured in
 
 - [Best GEO & LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/) — Best for GEO & LLM optimization teams that want the job covered in one platform, starting at €79/mo.

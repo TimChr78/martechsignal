@@ -164,8 +164,8 @@ Anything that can call a REST API. Mastodon is the best-known example, where adm
 ## Related reading
 
 - [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Why Your Marketing Stack Doesn't Need Another AI Tool](/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/)
 ### Quick Facts
 
 ## Get the next teardown

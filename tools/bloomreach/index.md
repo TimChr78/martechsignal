@@ -151,8 +151,8 @@ The right platform for large retailers consolidating search, CDP, and messaging.
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
+- [Link Building Won't Get You Into AI Answers. Community Signals Will.](/blog/link-building-wont-get-you-into-ai-answers/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
 ## Also featured in
 
 - [Best AI Marketing Automation tools (2026): 8 compared](/best/ai-marketing-automation-tools/) — Commerce brands that want content, search and campaigns in one engine

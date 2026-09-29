@@ -149,8 +149,8 @@ Strong for enterprise media teams with large budgets and mature conversion track
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
-- [Claude Cowork is eating the edges of your martech stack](/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/)
+- [Your Martech Budget Is Bleeding and Nobody's Measuring It](/blog/martech-budget-bleeding-nobody-measuring/)
+- [Multi-Touch Attribution Was Always a Fiction](/blog/multi-touch-attribution-was-always-a-fiction/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Advertisers ready to hand the daily optimization loop to a machine

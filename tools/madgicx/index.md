@@ -157,8 +157,8 @@ The most complete Meta-only operating layer in the directory: real breadth acros
 ## Related reading
 
 - [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
-- [The guardrails Google won't ship for your AI ad account](/blog/google-ads-ai-guardrails/)
+- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [MCP Rewrites the Integration Economics of Your Marketing Stack](/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/)
 ## Also featured in
 
 - [Best AI Advertising & Paid Media tools (2026): 8 compared](/best/ai-advertising-tools/) — Best for advertising & paid media teams that want the job covered in one platform, starting at $49/mo.

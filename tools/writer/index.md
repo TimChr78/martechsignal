@@ -195,8 +195,8 @@ Published in the developer docs: Palmyra X6 at $2 per million input tokens and $
 ## Related reading
 
 - [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
-- [Your agent protocol matters less than your data plumbing](/blog/agent-protocol-vs-data-plumbing/)
-- [OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.](/blog/openai-agent-ads-spending-without-you/)
+- [Competitive-Intel Tools Were the First Martech Category AI Killed](/blog/ci-tools-were-the-first-martech-category-ai-killed/)
+- [Salesforce's third no-code promise, audited](/blog/salesforce-third-no-code-promise/)
 ## Also featured in
 
 - [Best AI Content & Copywriting tools (2026): 8 compared](/best/ai-content-copywriting-tools/) — Enterprises that put brand governance ahead of raw output

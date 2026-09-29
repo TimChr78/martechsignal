@@ -133,9 +133,9 @@ Strengths include an API for custom integrations. The full review breaks down wh
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
+- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
+- [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
+- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 
 Related guides: [IFTTT in Zapier alternatives](/alternatives/zapier/)

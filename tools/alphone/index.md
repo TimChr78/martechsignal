@@ -149,9 +149,9 @@ An API-first CRM built to be driven by n8n and AI agents rather than replace the
 
 ## Related reading
 
-- [Before your next automation, run the blast radius audit](/blog/automation-blast-radius-audit/)
-- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
-- [Two ways to buy the same workflow debt: task-metered and operations-metered](/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/)
+- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 ## Get the next teardown

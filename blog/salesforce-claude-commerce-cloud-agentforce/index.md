@@ -95,8 +95,8 @@ Tools linked in this post: [Salesforce Marketing Cloud](/tools/salesforce-market
 - [Bloomreach](/tools/bloomreach/) - AI-powered commerce experience platform with search, personalization, and CDP
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best Zapier alternatives (2026)](/alternatives/zapier/)
+- [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
 ## Glossary terms
 
 - [AI Agent](/glossary/ai-agent/)
@@ -155,7 +155,7 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     "@id": "https://martechsignal.com/blog/#blog"
   },
   "inLanguage": "en",
-  "wordCount": 1502,
+  "wordCount": 1510,
   "articleSection": "marketing-automation"
 }
 ```

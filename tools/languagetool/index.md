@@ -177,8 +177,8 @@ No. It catches grammar, punctuation, and spelling problems and offers style and 
 ## Related reading
 
 - [Fifty days of open-source MarTech, audited](/blog/oss-martech-50-day-checkin/)
-- [Microsoft Just Removed the Steering Wheel From Search Ads](/blog/microsoft-search-ads-steering-wheel/)
-- [Open-Source Martech Stack vs $5K/mo Subscriptions](/blog/open-source-martech-stack/)
+- [Where open-source martech momentum actually lives](/blog/oss-momentum-tracker-september-2026/)
+- [Your Dashboard Can't See AI Search, Here's the 5-Layer Fix](/blog/dashboard-cant-see-ai-search-5-layer-fix/)
 ### Quick Facts
 
 ## Get the next teardown

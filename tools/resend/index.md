@@ -183,8 +183,8 @@ Yes, and it is one of the better-documented cases in email. Resend hosts an MCP 
 
 ## Related reading
 
-- [Autonomous Marketing Platforms Are Real. The Name Is Wrong.](/blog/autonomous-marketing-platform-label-contest/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
+- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
+- [Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough](/blog/salesforce-claude-commerce-cloud-agentforce/)
 - [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
 ### Quick Facts
 

@@ -118,8 +118,8 @@ Our directory breaks down data and activation tools by pricing model, connector 
 - [Tealium](/tools/tealium/) - Enterprise customer data platform with real-time data orchestration and AI
 ## Comparison guides
 
-- [Best n8n alternatives (2026)](/alternatives/n8n/)
-- [Best GEO &amp; LLM Optimization tools (2026): 9 compared](/best/geo-llm-visibility-tools/)
+- [Best AI Personalization &amp; CDP tools (2026): 8 compared](/best/ai-personalization-tools/)
+- [Best Zapier alternatives (2026)](/alternatives/zapier/)
 ## Glossary terms
 
 - [CDP](/glossary/cdp/)

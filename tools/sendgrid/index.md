@@ -152,8 +152,8 @@ Reliable, well-documented transactional email plumbing; marketers should look el
 ## Related reading
 
 - [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
-- [Most of your marketing AI agents should be if/then](/blog/determinism-audit/)
-- [Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.](/blog/salesforce-agentforce-free-marketing-ops/)
+- [ChatGPT Isn't Search Anymore, It's Checkout](/blog/chatgpt-isnt-search-anymore-its-checkout/)
+- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
 ## Also featured in
 
 - [Best AI Email Marketing tools (2026): 8 compared](/best/ai-email-marketing-tools/) — Product teams that need transactional delivery with marketing on the side

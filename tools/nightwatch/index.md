@@ -167,8 +167,8 @@ The trial runs 14 days with the full toolkit and no credit card required. If it 
 ## Related reading
 
 - [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
-- [What a free SEO audit replaces in your Semrush stack, and what it does not](/blog/what-free-seo-audit-replaces/)
-- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [AI watermarks are now part of your agent's risk surface](/blog/watermark-provenance-tax-agents/)
+- [Claude SEO benchmark: every score we have earned, and what each one measured](/blog/claude-seo-benchmark/)
 ### Quick Facts
 
 ## Get the next teardown

@@ -187,8 +187,8 @@ Yes. The catalog records a public API for Digital Marketing Pro, so custom integ
 ## Related reading
 
 - [Claude SEO vs Codex SEO: same audit, pick the agent you already pay for](/blog/claude-seo-vs-codex-seo/)
-- [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Deliverability in the AI-spam Era Is a Content Problem, Not an IT Problem](/blog/deliverability-ai-spam-content-problem/)
+- [The AI-search funnel map GA4 won't give you](/blog/ai-search-funnel-map-ga4-wont-give-you/)
+- [Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them](/blog/iab-agentic-buying-rules-insertion-orders/)
 ## Also featured in
 
 - [Best Agent Skills tools (2026): 8 compared](/best/agent-skills-tools/) — Best for agent skills teams that want cowork team-persistent state and can host it themselves, with a free starting tier.
