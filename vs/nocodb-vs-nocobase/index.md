@@ -130,6 +130,8 @@ One email when a new tool review lands, nothing else.
     "name": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
     "url": "https://martechsignal.com/vs/nocodb-vs-nocobase/",
     "inLanguage": "en",
+    "headline": "NocoDB vs NocoBase (2026): spreadsheet layer or system builder",
+    "image": "https://martechsignal.com/og/vs/nocodb-vs-nocobase.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/nocodb/#app"

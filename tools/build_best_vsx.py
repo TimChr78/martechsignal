@@ -377,6 +377,9 @@ def build_vs():
             "name": page["title"],
             "url": f"https://martechsignal.com/vs/{page['slug']}/",
             "inLanguage": "en",
+            # r10 H-4 (2026-09-29): Article headline (= H1) + page image.
+            "headline": page["title"],
+            "image": f"https://martechsignal.com/og/vs/{page['slug']}.png",
             # r7 M7 (2026-09-28): plain #app references for the compared pair
             # (the offers-gated state machine governs product typing) and the
             # pair declared as an ItemList.
@@ -398,7 +401,8 @@ def build_vs():
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(page_shell(
             page["seo_title"], page["meta"], f"/vs/{page['slug']}/",
-            "\n".join(body + [_SUB_INLINE]), [entity, breadcrumb]))
+            "\n".join(body + [_SUB_INLINE]), [entity, breadcrumb],
+            og_image=f"og/vs/{page['slug']}.png"))
         built.append(page["slug"])
     print(f"vs pages built: {len(built)} ({', '.join(built)})")
     return built

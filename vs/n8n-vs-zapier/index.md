@@ -145,6 +145,8 @@ One email when a new tool review lands, nothing else.
     "name": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
     "url": "https://martechsignal.com/vs/n8n-vs-zapier/",
     "inLanguage": "en",
+    "headline": "n8n vs Zapier (2026): self-hosted depth or catalog breadth",
+    "image": "https://martechsignal.com/og/vs/n8n-vs-zapier.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/n8n/#app"

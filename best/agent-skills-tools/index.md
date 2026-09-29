@@ -132,7 +132,7 @@ Vendor: [Official site](https://github.com/LeoYeAI/openclaw-marketing-skills) ·
 
 **What we could not verify:** installed behaviour, support quality and limits under real load. A hands-on pass would settle them; we have not run one.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 
@@ -189,7 +189,8 @@ One email when a new tool review lands, nothing else.
         "position": 4,
         "name": "Digital Marketing Pro",
         "item": {
-          "url": "https://martechsignal.com/guides/digital-marketing-pro/"
+          "@id": "https://martechsignal.com/tools/digital-marketing-pro/#app",
+          "url": "https://martechsignal.com/tools/digital-marketing-pro/"
         }
       },
       {

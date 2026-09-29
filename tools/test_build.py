@@ -1173,3 +1173,27 @@ def test_skill_packs_live_under_tools():
     redir = (ROOT / "_redirects").read_text()
     for slug in ("ai-marketing-claude", "digital-marketing-pro"):
         assert f"/guides/{slug}/ /tools/{slug}/ 301" in redir, f"301 missing for {slug}"
+
+
+def test_vs_articles_carry_headline_and_image():
+    """r10 H-4 (2026-09-29): every /vs/ Article has headline (= H1) and a
+    page-specific image that exists on disk and matches og:image."""
+    import re as _re
+    bad = []
+    for idx in (ROOT / "vs").glob("*/index.html"):
+        if idx.parent.name == "vs":
+            continue
+        html = idx.read_text()
+        if '"headline"' not in html:
+            bad.append((idx.parent.name, "no headline"))
+            continue
+        m = _re.search(r'"image":\s*"(https://martechsignal\.com/og/vs/[^"]+\.png)"', html)
+        if not m:
+            bad.append((idx.parent.name, "no vs image"))
+            continue
+        rel = m.group(1).replace("https://martechsignal.com/", "")
+        if not (ROOT / rel).exists():
+            bad.append((idx.parent.name, "missing file " + rel))
+        if 'content="https://martechsignal.com/' + rel + '"' not in html:
+            bad.append((idx.parent.name, "og:image mismatch"))
+    assert not bad, f"vs Article headline/image gaps: {bad[:5]}"

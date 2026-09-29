@@ -123,6 +123,8 @@ One email when a new tool review lands, nothing else.
     "name": "Matomo vs PostHog (2026): web analytics or product analytics",
     "url": "https://martechsignal.com/vs/matomo-vs-posthog/",
     "inLanguage": "en",
+    "headline": "Matomo vs PostHog (2026): web analytics or product analytics",
+    "image": "https://martechsignal.com/og/vs/matomo-vs-posthog.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/matomo/#app"

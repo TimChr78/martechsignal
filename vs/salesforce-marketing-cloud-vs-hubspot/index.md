@@ -136,6 +136,8 @@ One email when a new tool review lands, nothing else.
     "name": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/",
     "inLanguage": "en",
+    "headline": "Salesforce Marketing Cloud vs HubSpot Marketing Hub (2026): pricing, AI features, verdict",
+    "image": "https://martechsignal.com/og/vs/salesforce-marketing-cloud-vs-hubspot.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/salesforce-marketing-cloud/#app"

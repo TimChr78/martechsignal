@@ -136,6 +136,8 @@ One email when a new tool review lands, nothing else.
     "name": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
     "url": "https://martechsignal.com/vs/claude-seo-vs-semrush/",
     "inLanguage": "en",
+    "headline": "Claude SEO vs Semrush (2026): pricing, AI features, verdict",
+    "image": "https://martechsignal.com/og/vs/claude-seo-vs-semrush.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/claude-seo/#app"

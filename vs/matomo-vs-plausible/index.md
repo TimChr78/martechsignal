@@ -139,6 +139,8 @@ One email when a new tool review lands, nothing else.
     "name": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
     "url": "https://martechsignal.com/vs/matomo-vs-plausible/",
     "inLanguage": "en",
+    "headline": "Matomo vs Plausible (2026): analytics depth or a dashboard that stays small",
+    "image": "https://martechsignal.com/og/vs/matomo-vs-plausible.png",
     "about": [
       {
         "@id": "https://martechsignal.com/tools/matomo/#app"

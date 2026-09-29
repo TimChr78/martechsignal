@@ -134,7 +134,7 @@ Vendor: [Official site](https://github.com/AgriciDaniel/codex-seo) · [GitHub](h
 
 **What we could not verify:** workflow stability across Codex CLI releases, which the suite tracks closely.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 

@@ -254,6 +254,20 @@ def gen_charts(tools, cats, out_dir):
     out = out_dir / "oss-by-category.png"
     img.save(out, "PNG", optimize=True)
 
+def gen_vs_card(a_name, b_name, d_out):
+    """r10 H-4 (2026-09-29): per-comparison social/schema image (A vs B)."""
+    img, d = base_canvas()
+    brand_header(img, d, "head-to-head comparison")
+    title = f"{a_name} vs {b_name}"
+    tf = font(64 if len(title) <= 30 else 50 if len(title) <= 40 else 40)
+    y = 230
+    for line in wrap(d, title, tf, 1000):
+        d.text((80, y), line, font=tf, fill=TEXT); y += 78
+    d.text((80, 462), "Pricing, features and verdict compared", font=font(26), fill=MUTED)
+    footer(d, "martechsignal.com")
+    img.save(d_out, "PNG", optimize=True)
+
+
 def main():
     import os
     os.chdir(ROOT)
@@ -281,7 +295,17 @@ def main():
         gen_glossary_card(g, g.get("definition", ""), gdir / f"{g['slug']}.png"); n_g += 1
     gen_author_card()
     gen_charts(active, cats, chdir)
-    print(f"media: {n_t} tool cards, {n_c} category cards, {n_g} glossary cards, author card, charts")
+    # r10 H-4: one card per /vs/ page (social + Article image).
+    _vsx = json.loads((ROOT / "tools" / "vsx-content.json").read_text())
+    _vs_pages = _vsx if isinstance(_vsx, list) else _vsx.get("pages", [])
+    _by_slug = {t["slug"]: t["name"] for t in tools}
+    _vdir = OUT / "vs"; _vdir.mkdir(parents=True, exist_ok=True)
+    n_v = 0
+    for _p in _vs_pages:
+        _a = _by_slug.get(_p.get("a_slug", ""), _p.get("a_slug", "?"))
+        _b = _by_slug.get(_p.get("b_slug", ""), _p.get("b_slug", "?"))
+        gen_vs_card(_a, _b, _vdir / f"{_p['slug']}.png"); n_v += 1
+    print(f"media: {n_t} tool cards, {n_c} category cards, {n_g} glossary cards, author card, charts, {n_v} vs cards")
 
 if __name__ == "__main__":
     main()

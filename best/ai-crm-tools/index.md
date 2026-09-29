@@ -106,7 +106,7 @@ Vendor: [Official site](https://www.freshworks.com/crm/) · [Pricing](https://ww
 
 **What we could not verify:** custom-object behaviour at scale, and how Freddy scoring holds up on thin data.
 
-Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 161 tools](/tools/) or read [how we evaluate](/methodology/).
+Every price quoted here comes from the vendor's own pricing page as catalogued on the tool page. Browse [all 163 tools](/tools/) or read [how we evaluate](/methodology/).
 
 ## Get the next teardown
 
