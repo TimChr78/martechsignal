@@ -120,7 +120,10 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
   "headline": "ChatGPT Isn't Search Anymore, It's Checkout",
   "description": "On August 18, OpenAI announced ChatGPT Ads is expanding to 31 European countries, its largest geographic expansion so far. Germany, France, Spain, Italy.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -176,6 +179,10 @@ More from the directory: [Brandwatch](/tools/brandwatch/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/chatgpt-isnt-search-anymore-its-checkout/", "dateModified": "2026-09-29"}
 ```
 
 ```json

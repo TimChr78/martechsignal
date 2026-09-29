@@ -116,7 +116,10 @@ More from the directory: [BillionMail](/tools/billionmail/)
   "headline": "The CDP Reckoning: Your Next CDP Is a Data Platform You Already Pay For",
   "description": "The customer data platform had a good run as a category. The pitch was simple: your customer data is scattered across dozens of systems, so buy a.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -172,6 +175,10 @@ More from the directory: [BillionMail](/tools/billionmail/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/cdp-reckoning-warehouse-native/", "dateModified": "2026-09-29"}
 ```
 
 ```json

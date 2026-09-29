@@ -209,7 +209,10 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
   "headline": "n8n + AI: The Open-Source Automation Engine",
   "description": "In our open-source martech stack analysis, one tool kept surfacing: n8n. With 198K GitHub stars, per-execution pricing that undercuts Zapier by an order.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -265,6 +268,10 @@ More from the directory: [Buffer](/tools/buffer/) · [Clerk.io](/tools/clerk-io/
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/n8n-ai-open-source-automation/", "dateModified": "2026-09-29"}
 ```
 
 ```json

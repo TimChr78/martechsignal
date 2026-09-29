@@ -130,7 +130,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Why Your Marketing Stack Doesn't Need Another AI Tool",
   "description": "Another AI tool will not fix a stack that cannot hand it clean context. These are the four boring repairs that make the tools you already pay for work as.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -186,6 +189,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/why-your-marketing-automation-stack-doesnt-need-another-ai-tool/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -24,6 +24,8 @@ Enterprise B2B marketing automation with AI-driven lead management and engagemen
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.
@@ -86,8 +88,15 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
         "name": "Marketing Automation",
         "description": "Marketing automation is software that runs repetitive marketing tasks without manual intervention: sending a welcome email when someone signs up, moving a lead to a nurture sequence after they download a whitepaper, alerting sales when a prospect visits the pricing page three times in a week.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -130,6 +139,10 @@ Sources: [ActiveCampaign](https://www.activecampaign.com) · [Braze](https://www
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/marketing-automation/", "dateModified": "2026-09-29"}
 ```
 
 ```json

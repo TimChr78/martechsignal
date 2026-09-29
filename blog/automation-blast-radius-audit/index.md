@@ -120,7 +120,10 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
   "headline": "Before your next automation, run the blast radius audit",
   "description": "A marketer in r/MarketingAutomation described what happened when their team moved from manual to automated targeting: \"machine kept pushing the ad to.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -176,6 +179,10 @@ More from the directory: [Analytics Tracking Automation](/tools/analytics-tracki
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/automation-blast-radius-audit/", "dateModified": "2026-09-29"}
 ```
 
 ```json

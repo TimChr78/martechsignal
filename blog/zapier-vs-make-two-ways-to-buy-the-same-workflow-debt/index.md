@@ -141,7 +141,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Two ways to buy the same workflow debt: task-metered and operations-metered",
   "description": "Zapier's pricing page now opens.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -197,6 +200,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/zapier-vs-make-two-ways-to-buy-the-same-workflow-debt/", "dateModified": "2026-09-29"}
 ```
 
 ```json

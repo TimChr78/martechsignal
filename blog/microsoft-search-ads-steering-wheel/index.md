@@ -126,7 +126,10 @@ More from the directory: [SISTRIX](/tools/sistrix/)
   "headline": "Microsoft Just Removed the Steering Wheel From Search Ads",
   "description": "Microsoft Advertising made two announcements in the same week, and neither one is dramatic on its own. On August 19, the platform began rolling out AI.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -182,6 +185,10 @@ More from the directory: [SISTRIX](/tools/sistrix/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/microsoft-search-ads-steering-wheel/", "dateModified": "2026-09-29"}
 ```
 
 ```json

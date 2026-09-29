@@ -459,7 +459,11 @@ def build_vs():
         entity = {
             "@context": "https://schema.org",
             "@type": "Article",
-            "@id": f"https://martechsignal.com/vs/{page['slug']}/#webpage",
+            # r16 L-7 (2026-09-29): #webpage bound to Article here but to
+            # WebPage everywhere else. The typed node takes #article; the
+            # WebPage node (unfragmented page URL, guides pattern) is added
+            # by the M9 injector.
+            "@id": f"https://martechsignal.com/vs/{page['slug']}/#article",
             "datePublished": page.get("date_published", ""), "dateModified": page.get("date_updated", ""),
             "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.

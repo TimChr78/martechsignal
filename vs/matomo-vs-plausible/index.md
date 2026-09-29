@@ -148,7 +148,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#webpage",
+    "@id": "https://martechsignal.com/vs/matomo-vs-plausible/#article",
     "datePublished": "2026-09-26",
     "dateModified": "2026-09-28",
     "author": {

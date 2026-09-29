@@ -107,8 +107,8 @@ Marketing platforms, agent tooling, and the orchestration layer, with pricing an
 ## Related reading
 
 - [Your AI Marketing Agent Doesn't Need Better Prompts](/blog/ai-agents-need-campaign-state/)
-- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 - [Your Agents Are Only as Smart as Your Identity Debt](/blog/agents-identity-debt/)
+- [Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook](/blog/google-ad-agents-control-gap/)
 ## Related tools
 
 - [Workato](/tools/workato/) - Enterprise AI governance plus integration and automation on one platform
@@ -145,7 +145,10 @@ More from the directory: [Anyword](/tools/anyword/)
   "headline": "Autonomous Marketing Platforms Are Real. The Name Is Wrong.",
   "description": "Vendors say autonomous marketing platform. Analysts say agentic AI. G2 says AI marketing agents. Three names, one category, and zero independent.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -201,6 +204,10 @@ More from the directory: [Anyword](/tools/anyword/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/autonomous-marketing-platform-label-contest/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -20,6 +20,8 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.
@@ -80,8 +82,15 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
         "name": "Email Deliverability",
         "description": "Deliverability is the measure of whether your emails actually reach the inbox instead of the spam folder. It depends on sender reputation, authentication records (SPF, DKIM, DMARC), list hygiene, engagement rates, and the content of the email itself.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -124,6 +133,10 @@ Sources: [RFC 5321 (SMTP)](https://datatracker.ietf.org/doc/rfc5321/) · [Active
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/deliverability/", "dateModified": "2026-09-29"}
 ```
 
 ```json

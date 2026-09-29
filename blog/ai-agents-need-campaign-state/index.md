@@ -137,7 +137,10 @@ More from the directory: [advertools](/tools/advertools/)
   "headline": "Your AI Marketing Agent Doesn't Need Better Prompts",
   "description": "Every vendor demo you have seen this year shows the same trick. A marketer types a sentence into a box, an AI agent drafts an email, and the crowd.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -193,6 +196,10 @@ More from the directory: [advertools](/tools/advertools/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-agents-need-campaign-state/", "dateModified": "2026-09-29"}
 ```
 
 ```json

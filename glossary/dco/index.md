@@ -16,6 +16,8 @@ AI copywriting platform with predictive performance scores for marketing content
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.
@@ -74,8 +76,15 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "name": "Dynamic Creative Optimization (DCO)",
         "description": "Dynamic creative optimization assembles ad creatives in real time from modular components, headlines, images, calls to action, and selects the combination most likely to perform for each individual viewer. Instead of designing 50 ad variants, you design the components and let the algorithm assemble them.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -118,6 +127,10 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/dco/", "dateModified": "2026-09-29"}
 ```
 
 ```json

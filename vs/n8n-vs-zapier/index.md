@@ -153,7 +153,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "https://martechsignal.com/vs/n8n-vs-zapier/#webpage",
+    "@id": "https://martechsignal.com/vs/n8n-vs-zapier/#article",
     "datePublished": "2026-09-26",
     "dateModified": "2026-09-28",
     "author": {

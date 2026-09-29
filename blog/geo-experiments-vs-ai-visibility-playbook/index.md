@@ -111,7 +111,10 @@ More from the directory: [Jasper](/tools/jasper/)
   "headline": "AI visibility advice, audited against 775 logged citations",
   "description": "775 logged AI citations just dismantled the standard GEO playbook. Two experiments, six AI platforms, months of hand-logged queries and no dashboards.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -167,6 +170,10 @@ More from the directory: [Jasper](/tools/jasper/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/geo-experiments-vs-ai-visibility-playbook/", "dateModified": "2026-09-29"}
 ```
 
 ```json

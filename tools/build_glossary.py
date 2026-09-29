@@ -260,6 +260,7 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
 <section class="page-head">
   <h1>{esc(term['term'])}</h1>
   <p class="count">GLOSSARY</p>
+  {f'<p class="meta">Definition last updated <time datetime="{term_date}">{term_date}</time></p>' if term_date else ''}
 </section>
 <div class="detail">
   <div class="detail-main">
@@ -295,9 +296,16 @@ def build_term_page(term, tools_map, all_terms, term_date=None):
             "name": term["term"],
             "description": term["definition"],
             **({"dateModified": term_date} if term_date else {}),
+            # r16 L-8 (2026-09-29): leaves carried only dateModified.
+            # datePublished falls back to the term date so naive parsers
+            # can date the entry.
+            **({"datePublished": term_date} if term_date else {}),
             "inDefinedTermSet": {
                 "@id": "https://martechsignal.com/glossary/#set"
             },
+            # r16 L-8: author inlined with name (single-block parsers see
+            # no author name in a bare @id reference).
+            "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
             # r15 M-2 (2026-09-29): money-template graphs join publisher + site.
             "publisher": {"@id": "https://martechsignal.com/#organization"},
             "isPartOf": {"@id": "https://martechsignal.com/#website"},

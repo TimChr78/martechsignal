@@ -115,7 +115,10 @@ More from the directory: [LanguageTool](/tools/languagetool/)
   "headline": "The guardrails Google won't ship for your AI ad account",
   "description": "Google ships AI ad automation faster than it ships the safety reporting to match, so guardrails for an AI-managed account are still a do-it-yourself job.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -183,6 +186,10 @@ More from the directory: [LanguageTool](/tools/languagetool/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ads-ai-guardrails/", "dateModified": "2026-09-29"}
 ```
 
 ```json

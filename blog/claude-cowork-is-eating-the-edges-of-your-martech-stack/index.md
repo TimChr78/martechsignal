@@ -129,7 +129,10 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
   "headline": "Claude Cowork is eating the edges of your martech stack",
   "description": "For the past three years, marketing ops teams have been promised \"AI-powered.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -185,6 +188,10 @@ More from the directory: [Dolibarr ERP/CRM](/tools/dolibarr/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-cowork-is-eating-the-edges-of-your-martech-stack/", "dateModified": "2026-09-29"}
 ```
 
 ```json

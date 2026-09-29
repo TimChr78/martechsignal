@@ -28,6 +28,8 @@ AI-powered CRM with built-in phone, email, and chat for sales teams
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.
@@ -90,8 +92,15 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "name": "Customer Relationship Management (CRM)",
         "description": "A CRM is the system of record for every interaction your company has with a prospect or customer. It stores contact details, conversation history, deal stages, and activity logs. Sales teams use it to manage pipelines. Marketing teams use it to segment audiences. Support teams use it to track tickets.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -134,6 +143,10 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/crm/", "dateModified": "2026-09-29"}
 ```
 
 ```json

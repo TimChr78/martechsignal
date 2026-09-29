@@ -129,7 +129,10 @@ More from the directory: [AI Marketing Suite](/tools/ai-marketing-claude/)
   "headline": "The AI-search funnel map GA4 won't give you",
   "description": "Two things landed since we published the 5-layer fix for dashboards that can't see AI search. On May 13, Google shipped a native AI Assistant.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -185,6 +188,10 @@ More from the directory: [AI Marketing Suite](/tools/ai-marketing-claude/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/ai-search-funnel-map-ga4-wont-give-you/", "dateModified": "2026-09-29"}
 ```
 
 ```json

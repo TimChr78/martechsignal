@@ -122,7 +122,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Salesforce putting Claude inside Commerce Cloud is the quiet admission Agentforce isn't enough",
   "description": "On September 22, Salesforce published two blog posts. One, from the Commerce Cloud team, is titled \"Build Agents Your Way with Claude and Commerce.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -178,6 +181,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-claude-commerce-cloud-agentforce/", "dateModified": "2026-09-29"}
 ```
 
 ```json

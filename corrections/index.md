@@ -12,6 +12,8 @@
 
 2026-09-29
 
+2026-09-29
+
 2026-09-26
 
 2026-09-26
@@ -38,13 +40,17 @@
 
 We make mistakes; when we find one, we fix it and say so here. This log is newest-first. If you spot an error we missed, the contact page has the channels - every accepted correction gets a public entry on this page.
 
+## Audit low-priority dispositions: four more findings assessed
+
+Today's SEO audit low tail included four items we are deliberately not changing. (1) Homepage inline styles: the first block is the shared critical-inline pattern every page carries, and the second is homepage-only above-fold CSS - moving it to the shared sheet would tax every page view to save one. (2) Euro codes in prose ("Standard EUR 14/user/mo"): the pages are faithful to vendor-quoted records, and the site rule is that money prose must match record currency, which code-form satisfies. (3) ARD entry types stay text/plain for the .txt surfaces: labelling a text file application/ai-registry+json would chase a Lighthouse point with a false content type, and discovery works through the link relation plus .well-known. (4) No breadcrumb property on WebPage nodes: the audit itself marks this optional with no rich-result effect. Build-time checks cover the items we did fix.
+
 ## Audit medium-priority disposition: vendor links flagged unreachable were reachable
 
 Today's SEO audit flagged three links to one vendor domain as returning 503 during its linkcheck. Both URLs we actually emit returned HTTP 200 on direct retry the same evening (0.09s and 0.24s), as did the domain root, so the 503 was transient bot-handling on the vendor side, not a dead link. No link changed. If the vendor's bot-handling hardens permanently we will replace the links with plain-text citations.
 
 ## Audit low-priority dispositions: four findings declined with evidence
 
-Today’s SEO audit low tail included four items we are not changing, and we are recording why. (1) Retired-product records (former Autopilot, Drift) stay in the catalog with no public page: both were acquired, both carry a named successor, and the catalog is the paper trail. (2) Two spelling variants of one deny-listed bot name are cosmetic: both variants are denied, so crawlers are unaffected. (3) The IndexNow “deployment gap” probed key paths that never existed (/indexnow.txt, /indexnow-keys/, indexnow.json); both real key files return HTTP 200 and submissions are succeeding. (4) Screenshot srcsets cap at 800w because the source captures are 800px masters; a 1200w rendition would be pure upscale with zero added detail. Two sitewide build-time checks (token repetition, star-literal-vs-catalog) and per-finding checks for the items we did fix fail the build if any of this regresses.
+Today’s SEO audit low tail included four items we are not changing, and we are recording why. (1) Retired-product records (former Autopilot, Drift) stay in the catalog with no public page: both were acquired, both carry a named successor, and the catalog is the paper trail. (2) Two spelling variants of one deny-listed bot name are cosmetic: both variants are denied, so crawlers are unaffected. (3) The IndexNow “deployment gap” probed key paths that never existed (/indexnow.txt, /indexnow-keys/, indexnow.json); both real key files return HTTP 200 and submissions are succeeding. (4) Screenshot srcsets capped at 800w while the source captures are 1280px masters; 1200w honest-downscale rungs were added on 2026-09-29 with a build-time check. Two sitewide build-time checks (token repetition, star-literal-vs-catalog) and per-finding checks for the items we did fix fail the build if any of this regresses.
 
 ## Correction to our own corrections entry: the star sync shipped incomplete
 

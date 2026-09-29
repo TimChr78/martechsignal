@@ -20,6 +20,8 @@ AI-powered content optimization platform for SEO-driven article writing and audi
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Answer Engine Optimization is the practice of structuring content so AI answer systems can find, trust, and cite it. It inherits technical SEO - crawlability, clean markup, server rendering - and adds what answer engines specifically reward: direct question-shaped passages, dated authorship, original data, and entity clarity about who is making claims.
@@ -86,8 +88,15 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Semrush](https://www.semrush.
         "name": "Answer Engine Optimization (AEO)",
         "description": "Answer Engine Optimization is the practice of structuring content so AI answer systems can find, trust, and cite it. It inherits technical SEO - crawlability, clean markup, server rendering - and adds what answer engines specifically reward: direct question-shaped passages, dated authorship, original data, and entity clarity about who is making claims.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -130,6 +139,10 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Semrush](https://www.semrush.
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/aeo/", "dateModified": "2026-09-29"}
 ```
 
 ```json

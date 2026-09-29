@@ -112,7 +112,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "What a free SEO audit replaces in your Semrush stack, and what it does not",
   "description": "&gt; Editor's note (2026-09-28): this piece replaces an earlier comparison post that was published without approval and pulled the same day. The.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -168,6 +171,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/what-free-seo-audit-replaces/", "dateModified": "2026-09-29"}
 ```
 
 ```json

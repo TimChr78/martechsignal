@@ -502,7 +502,7 @@ def build_post(meta: dict, body_html: str) -> str:
         "@type": "BlogPosting",
         "headline": title,
         "description": _clean_excerpt(excerpt),
-        "author": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"},
+        "author": {"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/"},
         "publisher": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com", "logo": {"@type": "ImageObject", "url": "https://martechsignal.com/logo.png"}},
         "datePublished": date_str,
         "dateModified": _date_modified(meta, date_str),

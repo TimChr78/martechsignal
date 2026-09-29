@@ -207,7 +207,10 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
   "headline": "Open-Source Martech Stack vs $5K/mo Subscriptions",
   "description": "Every marketing team pays the subscription tax. HubSpot at $800/mo. Salesforce at $150/user. Adobe Marketo at $2,000+. A mid-size B2B team easily burns.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -263,6 +266,10 @@ More from the directory: [Chatfuel](/tools/chatfuel/) · [ContentBot](/tools/con
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/open-source-martech-stack/", "dateModified": "2026-09-29"}
 ```
 
 ```json

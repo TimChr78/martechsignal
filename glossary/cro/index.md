@@ -20,6 +20,8 @@ AI-powered ecommerce personalization with search, recommendations, and email
 
 GLOSSARY
 
+Definition last updated 2026-09-07
+
 ## Definition
 
 Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.
@@ -82,8 +84,15 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
         "name": "Conversion Rate Optimization (CRO)",
         "description": "Conversion rate optimization is the practice of increasing the percentage of visitors who take a desired action, buying, signing up, requesting a demo. It combines A/B testing, user research, analytics, and UX design to remove friction from the conversion path.",
         "dateModified": "2026-09-07",
+        "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -126,6 +135,10 @@ Sources: [Nielsen Norman Group](https://www.nngroup.com/) · [Amplitude](https:/
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/cro/", "dateModified": "2026-09-29"}
 ```
 
 ```json

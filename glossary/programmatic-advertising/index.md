@@ -12,6 +12,8 @@ AI platform generating high-converting ad creatives and social media post design
 
 GLOSSARY
 
+Definition last updated 2026-09-05
+
 ## Definition
 
 Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding. Instead of a media buyer calling a publisher to negotiate a placement, software matches available impressions with advertiser bids in milliseconds, millions of times per day.
@@ -69,8 +71,15 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
         "name": "Programmatic Advertising",
         "description": "Programmatic advertising is the automated buying and selling of ad inventory through real-time bidding. Instead of a media buyer calling a publisher to negotiate a placement, software matches available impressions with advertiser bids in milliseconds, millions of times per day.",
         "dateModified": "2026-09-05",
+        "datePublished": "2026-09-05",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -113,6 +122,10 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [AdCreative.ai](https://
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/programmatic-advertising/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -20,6 +20,8 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.
@@ -84,8 +86,15 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "name": "Lead Scoring",
         "description": "Lead scoring assigns a numerical value to each prospect based on their likelihood to buy. Points accumulate for demographic fit (job title, company size) and behavioral signals (page visits, email opens, content downloads). Sales prioritizes the highest scores.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -128,6 +137,10 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/lead-scoring/", "dateModified": "2026-09-29"}
 ```
 
 ```json

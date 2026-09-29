@@ -147,7 +147,7 @@ The default choice for Instagram and Messenger funnels; value depends entirely o
 
 ## Related reading
 
-- [Check outputs, not logs: the silent-failure audit](/blog/silent-failure-audit/)
+- [n8n + AI: The Open-Source Automation Engine](/blog/n8n-ai-open-source-automation/)
 - [NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet](/blog/nocobase-vs-nocodb-vs-budibase/)
 - [Your autonomous stack's loophole is the approval step you deleted](/blog/autonomous-stack-loophole-approval-step/)
 ## Also featured in
@@ -289,6 +289,10 @@ One email when a new tool review lands, nothing else.
     }
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/tools/manychat/", "dateModified": "2026-09-29"}
 ```
 
 ```json

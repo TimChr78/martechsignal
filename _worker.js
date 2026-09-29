@@ -3,7 +3,7 @@
 // content-type text/markdown; HTML responses carry Vary: Accept. Everything
 // else is plain static asset serving.
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     // r16 M-8 (2026-09-29): repeated-slash path variants (//about/,
     // /tools//) were served at 200 with byte-identical bodies, leaving
@@ -14,7 +14,22 @@ export default {
       url.pathname = fixed;
       return Response.redirect(url.toString(), 301);
     }
+    // r16 L-5 (2026-09-29): documents answered DYNAMIC (origin round-trip
+    // every view) because the worker rebuilds each HTML response. Cache
+    // GET 200s in the edge cache keyed on the markdown-negotiation branch
+    // (an .md variant must never poison the HTML slot or vice versa).
+    // Stored responses carry s-maxage=300, which bounds staleness.
     const accept = (request.headers.get("accept") || "").toLowerCase();
+    const mdBranch = request.method === "GET" && accept.includes("text/markdown")
+        && !url.pathname.endsWith(".md");
+    let cacheKey = null;
+    if (request.method === "GET" && (url.pathname.endsWith("/") || !url.pathname.split("/").pop().includes("."))) {
+      cacheKey = new Request(url.toString() + (mdBranch ? "#md" : "#html"), request);
+      try {
+        const hit = await caches.default.match(cacheKey);
+        if (hit) return hit;
+      } catch (e) { /* cache unavailable: serve live */ }
+    }
     if (request.method === "GET" && accept.includes("text/markdown")
         && !url.pathname.endsWith(".md")) {
       const last = url.pathname.split("/").pop();
@@ -27,7 +42,7 @@ export default {
           const h = new Headers(md.headers);
           h.set("content-type", "text/markdown; charset=utf-8");
           h.set("vary", "Accept");
-          return new Response(md.body, { status: 200, headers: h });
+          return this._store(cacheKey, ctx, new Response(md.body, { status: 200, headers: h }));
         }
       }
     }
@@ -40,7 +55,16 @@ export default {
       // on documents though nothing needs it there. Scope the wildcard to
       // the machine-readable data endpoints by stripping it from pages.
       h.delete("access-control-allow-origin");
-      return new Response(res.body, { status: res.status, headers: h });
+      return this._store(cacheKey, ctx, new Response(res.body, { status: res.status, headers: h }));
+    }
+    return res;
+  },
+  // Cache-API store helper: only page-URL GET 200s, cloned before return.
+  async _store(cacheKey, ctx, res) {
+    if (cacheKey && ctx && ctx.waitUntil && res.status === 200) {
+      try {
+        ctx.waitUntil(caches.default.put(cacheKey, res.clone()));
+      } catch (e) { /* cache unavailable: serve live */ }
     }
     return res;
   }

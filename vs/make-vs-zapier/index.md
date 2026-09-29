@@ -146,7 +146,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "https://martechsignal.com/vs/make-vs-zapier/#webpage",
+    "@id": "https://martechsignal.com/vs/make-vs-zapier/#article",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-28",
     "author": {

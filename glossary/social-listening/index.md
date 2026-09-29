@@ -16,6 +16,8 @@ Simple social media scheduling and analytics with AI-powered content tools
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets for mentions of your brand, competitors, products, or industry topics. It goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.
@@ -65,8 +67,15 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
         "name": "Social Listening",
         "description": "Social listening is the practice of monitoring social media channels, forums, review sites, and news outlets for mentions of your brand, competitors, products, or industry topics. It goes beyond tracking @mentions to capturing untagged conversations where people discuss your category without naming you.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -109,6 +118,10 @@ Sources: [Brandwatch](https://www.brandwatch.com) · [Buffer](https://buffer.com
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/social-listening/", "dateModified": "2026-09-29"}
 ```
 
 ```json

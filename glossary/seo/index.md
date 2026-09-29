@@ -24,6 +24,8 @@ Codex-first SEO skill suite with 26 workflows, 24 TOML agents, and API integrati
 
 GLOSSARY
 
+Definition last updated 2026-09-07
+
 ## Definition
 
 SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).
@@ -82,8 +84,15 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
         "name": "Search Engine Optimization (SEO)",
         "description": "SEO is the practice of improving a website's visibility in organic (non-paid) search results. It covers technical factors (site speed, crawlability, structured data), content quality (relevance, depth, freshness), and authority signals (backlinks, brand mentions, domain reputation).",
         "dateModified": "2026-09-07",
+        "datePublished": "2026-09-07",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -126,6 +135,10 @@ Sources: [Google Search Central](https://developers.google.com/search/docs) · [
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/seo/", "dateModified": "2026-09-29"}
 ```
 
 ```json

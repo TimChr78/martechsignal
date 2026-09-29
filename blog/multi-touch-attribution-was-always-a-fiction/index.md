@@ -123,7 +123,10 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
   "headline": "Multi-Touch Attribution Was Always a Fiction",
   "description": "On Sept. 2, the MarTech Conference ran a free session called \"Marketing without signals: How to perform when the data.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -179,6 +182,10 @@ More from the directory: [SuiteCRM](/tools/suitecrm/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/multi-touch-attribution-was-always-a-fiction/", "dateModified": "2026-09-29"}
 ```
 
 ```json

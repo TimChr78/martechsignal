@@ -145,7 +145,10 @@ More from the directory: [Writesonic](/tools/writesonic/)
   "headline": "NocoBase vs NocoDB vs Budibase: pick by team shape, not by spec sheet",
   "description": "Every marketing ops team we talk to about self-hosting ends up shortlisting the same three names: NocoBase, NocoDB, and Budibase. They all promise the.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -201,6 +204,10 @@ More from the directory: [Writesonic](/tools/writesonic/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/nocobase-vs-nocodb-vs-budibase/", "dateModified": "2026-09-29"}
 ```
 
 ```json

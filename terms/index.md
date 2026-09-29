@@ -36,5 +36,5 @@ Last verified: 2026-08-26
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/terms/#webpage", "dateModified": "2026-08-26"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/terms/", "dateModified": "2026-08-26"}
 ```

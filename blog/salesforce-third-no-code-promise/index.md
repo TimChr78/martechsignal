@@ -113,7 +113,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Salesforce's third no-code promise, audited",
   "description": "Salesforce shipped two announcements in one day last week. Builder Central, a no-code AI workspace, enters beta this week. Campaign Agent, which turns a.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -169,6 +172,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-third-no-code-promise/", "dateModified": "2026-09-29"}
 ```
 
 ```json

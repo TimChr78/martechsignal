@@ -145,7 +145,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "You Don't Need a New Data Stack for AI. Fivetran Just Proved It",
   "description": "Every AI platform vendor wants to sell you the same story: your data stack is legacy, your warehouse is a bottleneck, and the fix is a migration project.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -201,6 +204,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/you-dont-need-new-data-stack-fivetran/", "dateModified": "2026-09-29"}
 ```
 
 ```json

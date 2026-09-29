@@ -111,7 +111,10 @@ More from the directory: [Madgicx](/tools/madgicx/)
   "headline": "Your insertion orders were written for humans: the IAB's agentic buying rules land before your ad stack can honor them",
   "description": "Two announcements landed 24 hours apart this week, and they describe the same workflow from opposite ends. On September 22, IAB Tech Lab shipped AAMP 3.0.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -167,6 +170,10 @@ More from the directory: [Madgicx](/tools/madgicx/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/iab-agentic-buying-rules-insertion-orders/", "dateModified": "2026-09-29"}
 ```
 
 ```json

@@ -126,7 +126,10 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
   "headline": "Google Doesn't Need Your Site Anymore. You Taught It Everything It Knows.",
   "description": "For fifteen years the deal was simple. You published content, Google sent traffic. You did the writing, the formatting, the keyword research, and in.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -182,6 +185,10 @@ More from the directory: [LibreTranslate](/tools/libretranslate/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-doesnt-need-your-site-anymore-you-taught-it-everything-it-knows/", "dateModified": "2026-09-29"}
 ```
 
 ```json

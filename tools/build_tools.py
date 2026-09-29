@@ -827,11 +827,15 @@ def _tool_fact_img(t):
     # alone when the rendition is absent (same pattern as the M6 600w rung).
     _r670 = _src.replace(".png", "-670.webp")
     _r480 = _src.replace(".png", "-480.webp")
+    # r16 L-1 (2026-09-29): the 1200w slot was the PNG master (mobile at DPR 3
+    # fetched PNG, no WebP alternative). Prefer a q82 -1200.webp rendition.
+    _r1200 = _src.replace(".png", "-1200.webp")
     _has670 = (ROOT / _r670.lstrip("/")).exists()
     _has480 = (ROOT / _r480.lstrip("/")).exists()
+    _has1200 = (ROOT / _r1200.lstrip("/")).exists()
     # r11 L-7 (2026-09-29): add a 480w step — the 335px slot at DPR 1.5 was
     # fetching the 1200w source and wasting ~29KB per card.
-    _parts = [p for p, ok in ((_r480, _has480), (_r670, _has670), (_src, True)) if ok]
+    _parts = [p for p, ok in ((_r480, _has480), (_r670, _has670), (_r1200, _has1200), (_src, not _has1200)) if ok]
     # r14 M-2 (2026-09-29): sizes must describe the real slot — .best-item
     # img renders width:100% capped at 640px, so 335px under-fetched
     # (upscale proven user-visible at DPR 2). Mobile: full viewport width.
@@ -860,8 +864,10 @@ def _pilot_shot(slug, name, slot=640, priority=False):
     if not cands:
         return ""
     src = cands.get(600) or cands[max(cands)]
+    # r16 L-2 (2026-09-29): srcsets capped at 800w (0.76x of DPR-3 needs).
+    # Masters are 1280px, so a 1200w rung is honest downscale, not upscale.
     parts = [f"/og/screenshots/{_os.path.basename(cands[w])} {w}w"
-             for w in (480, 600, 800) if w in cands]
+             for w in (480, 600, 800, 1200) if w in cands]
     _set = f' srcset="{", ".join(parts)}"' if parts else ""
     # r12 H-2/H-3 (2026-09-29): candidates MUST be comma-separated (spaces
     # killed responsive selection on 134 images); attrs match the true
@@ -3326,11 +3332,27 @@ def sync_date_modified():
     attributes unchanged lines to their real commits instead."""
     import re as _re
     _n = 0
+    # r16 L-7 one-time migration: earlier injector runs stamped WebPage nodes
+    # with a #webpage fragment @id; the canonical form is now the
+    # unfragmented page URL (guides pattern). Normalize in place.
     for _p in ROOT.rglob("index.html"):
         if "deploy-out" in _p.parts or ".well-known" in _p.parts:
             continue
         _s = _p.read_text()
-        if "dateModified" in _s or "ld+json" not in _s:
+        _s2 = _re.sub(r'("@type":\s*"WebPage",\s*"@id":\s*"[^"]+?)#webpage"', r'\1"', _s)
+        if _s2 != _s:
+            _p.write_text(_s2)
+            _s = _s2
+    for _p in ROOT.rglob("index.html"):
+        if "deploy-out" in _p.parts or ".well-known" in _p.parts:
+            continue
+        _s = _p.read_text()
+        # r16 L-7 (2026-09-29): the old skip (any dateModified) left 270
+        # pages with no page entity at all. Skip only pages that already
+        # define a WebPage node; every other page gets one with the
+        # unfragmented page URL as @id (the guides pattern the audit calls
+        # cleanest), so #webpage is never double-bound.
+        if '"@type": "WebPage"' in _s or '"@type":"WebPage"' in _s:
             continue
         # r6 M-4/M-5 (2026-09-27): the REAL last-edit date wins. Declared dates
         # (datePublished / <time>) are fallbacks, not authorities: generator-stamped
@@ -3349,8 +3371,9 @@ def sync_date_modified():
         _url = "https://martechsignal.com/" + _p.parent.relative_to(ROOT).as_posix().strip(".") + "/"
         if _url == "https://martechsignal.com//":
             _url = "https://martechsignal.com/"
+        # r16 L-7: unfragmented page URL as the WebPage @id (guides pattern).
         _block = ('<script type="application/ld+json">{"@context": "https://schema.org", '
-                  '"@type": "WebPage", "@id": "' + _url + '#webpage", '
+                  '"@type": "WebPage", "@id": "' + _url + '", '
                   '"dateModified": "' + _val + '"}</script>')
         _p.write_text(_s.replace("</head>", _block + "\n</head>", 1))
         _n += 1

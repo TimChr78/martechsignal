@@ -139,7 +139,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Where open-source martech momentum actually lives",
   "description": "The fastest-accumulating open-source projects in our catalog are not platforms. They are packs of agent skills, and the gap is widening.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -195,6 +198,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/oss-momentum-tracker-september-2026/", "dateModified": "2026-09-29"}
 ```
 
 ```json

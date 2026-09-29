@@ -113,7 +113,10 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
   "headline": "Claude SEO vs Codex SEO: same audit, pick the agent you already pay for",
   "description": "Two SEO skill suites, one author, the same methodology underneath, and one question that settles it: which coding agent does your team already pay for.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -169,6 +172,10 @@ More from the directory: [Ever Gauzy](/tools/ever-gauzy/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-codex-seo/", "dateModified": "2026-09-29"}
 ```
 
 ```json

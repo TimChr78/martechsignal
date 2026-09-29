@@ -20,6 +20,8 @@ AI-powered marketing automation and CRM for small to mid-size businesses
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.
@@ -82,8 +84,15 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
         "name": "MQL vs SQL (Marketing Qualified Lead vs Sales Qualified Lead)",
         "description": "An MQL is a lead that marketing deems ready for sales based on engagement signals: they downloaded three whitepapers, attended a webinar, and visited the pricing page. An SQL is a lead that sales has accepted and is actively working. The gap between the two is where most marketing-sales friction lives.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -126,6 +135,10 @@ Sources: [HubSpot CRM](https://www.hubspot.com/products/crm) · [Salesforce CRM]
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mql-sql/", "dateModified": "2026-09-29"}
 ```
 
 ```json

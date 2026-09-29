@@ -148,7 +148,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "Salesforce Made Agentforce Free. What Marketing Ops Can Build With It.",
   "description": "Salesforce spent the last two years selling Agentforce as an enterprise conversation, at enterprise prices. Then at the end of July it quietly changed.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -204,6 +207,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/salesforce-agentforce-free-marketing-ops/", "dateModified": "2026-09-29"}
 ```
 
 ```json

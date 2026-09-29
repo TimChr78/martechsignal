@@ -126,7 +126,10 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
   "headline": "Your Agents Are Only as Smart as Your Identity Debt",
   "description": "Three pieces landed this week from three corners of the industry that rarely agree on anything. Salesforce's architecture blog said customer data can.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -182,6 +185,10 @@ More from the directory: [Adobe Marketo Engage](/tools/adobe-marketo/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/agents-identity-debt/", "dateModified": "2026-09-29"}
 ```
 
 ```json

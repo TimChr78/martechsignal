@@ -138,7 +138,7 @@ One email when a new tool review lands, nothing else.
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#webpage",
+    "@id": "https://martechsignal.com/vs/salesforce-marketing-cloud-vs-hubspot/#article",
     "datePublished": "2026-09-27",
     "dateModified": "2026-09-28",
     "author": {

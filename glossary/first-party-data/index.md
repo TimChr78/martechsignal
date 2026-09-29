@@ -20,6 +20,8 @@ Data-driven messaging platform for automated email, push, SMS, and in-app messag
 
 GLOSSARY
 
+Definition last updated 2026-09-05
+
 ## Definition
 
 First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.
@@ -86,8 +88,15 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
         "name": "First-Party Data",
         "description": "First-party data is information you collect directly from your customers and prospects: website behavior, purchase history, email engagement, survey responses, support interactions. You own it, you collected it with consent, and it doesn't depend on a third party's platform or cookie.",
         "dateModified": "2026-09-05",
+        "datePublished": "2026-09-05",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -130,6 +139,10 @@ Sources: [IAB Tech Lab](https://www.iabtechlab.com/) · [Twilio Segment](https:/
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/first-party-data/", "dateModified": "2026-09-29"}
 ```
 
 ```json

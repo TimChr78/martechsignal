@@ -134,7 +134,10 @@ More from the directory: [GrowthBook](/tools/growthbook/)
   "headline": "Your Dashboard Can't See AI Search, Here's the 5-Layer Fix",
   "description": "On August 17 we ran our Google Search Console diagnostic on this site. Twenty-eight days of data, query by query. The export came back with 379 unique.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -190,6 +193,10 @@ More from the directory: [GrowthBook](/tools/growthbook/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/dashboard-cant-see-ai-search-5-layer-fix/", "dateModified": "2026-09-29"}
 ```
 
 ```json

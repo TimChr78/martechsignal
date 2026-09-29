@@ -44,5 +44,5 @@ Two non-standard extensions appear in the robots.txt on purpose: Content-Signal 
 ```
 
 ```json
-{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/ai-policy/#webpage", "dateModified": "2026-09-26"}
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/ai-policy/", "dateModified": "2026-09-26"}
 ```

@@ -151,7 +151,10 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
   "headline": "MCP Rewrites the Integration Economics of Your Marketing Stack",
   "description": "Ten marketing tools need forty-five pairwise integrations. Add an eleventh and the number jumps to fifty-five. The math is (n\u00b2 \u2212 n) / 2, and marketing.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -207,6 +210,10 @@ More from the directory: [OpenOutreach](/tools/openoutreach/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/mcp-rewrites-the-integration-economics-of-your-marketing-stack/", "dateModified": "2026-09-29"}
 ```
 
 ```json

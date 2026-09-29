@@ -158,7 +158,10 @@ More from the directory: [Khoj](/tools/khoj/)
   "headline": "Google Just Handed Your Ad Budget to AI Agents , and Kept You on the Hook",
   "description": "The week of August 10 was a strange one for paid media. On Monday, Google announced new agentic capabilities for Ask Advisor, its AI assistant inside.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -214,6 +217,10 @@ More from the directory: [Khoj](/tools/khoj/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/google-ad-agents-control-gap/", "dateModified": "2026-09-29"}
 ```
 
 ```json

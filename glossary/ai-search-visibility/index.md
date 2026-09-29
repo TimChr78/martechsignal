@@ -20,6 +20,8 @@ AI-powered SEO content platform for research, writing, and AI visibility trackin
 
 GLOSSARY
 
+Definition last updated 2026-09-28
+
 ## Definition
 
 AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers: Google AI Overviews, ChatGPT responses, Perplexity, Copilot, and similar systems. Unlike classic rank tracking, there is no single position - visibility means being cited, quoted, or linked inside a synthesized answer.
@@ -84,8 +86,15 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
         "name": "AI Search Visibility",
         "description": "AI search visibility measures how often and how prominently a brand, product, or content appears in AI-generated answers: Google AI Overviews, ChatGPT responses, Perplexity, Copilot, and similar systems. Unlike classic rank tracking, there is no single position - visibility means being cited, quoted, or linked inside a synthesized answer.",
         "dateModified": "2026-09-28",
+        "datePublished": "2026-09-28",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -128,6 +137,10 @@ Sources: [llms.txt spec](https://llmstxt.org/) · [Google Search Central](https:
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/ai-search-visibility/", "dateModified": "2026-09-29"}
 ```
 
 ```json

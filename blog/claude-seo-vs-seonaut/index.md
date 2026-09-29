@@ -115,7 +115,10 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
   "headline": "Claude SEO vs Seonaut: which free SEO checker should you run",
   "description": "Both are free, both are open source, and both will tell you what is broken on a site. That is where the resemblance ends. Claude SEO is an agent skill.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -171,6 +174,10 @@ More from the directory: [Flagsmith](/tools/flagsmith/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-vs-seonaut/", "dateModified": "2026-09-29"}
 ```
 
 ```json

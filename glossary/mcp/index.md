@@ -16,6 +16,8 @@ Visual automation platform for building complex workflows with AI agents and app
 
 GLOSSARY
 
+Definition last updated 2026-09-25
+
 ## Definition
 
 The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.
@@ -77,8 +79,15 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
         "name": "Model Context Protocol (MCP)",
         "description": "The Model Context Protocol is an open standard for connecting AI models to external tools and data sources. An MCP server exposes capabilities - search a database, send an email, read a file - in a uniform format any MCP-compatible client can use. It replaces one-off integrations between each model and each tool with a single protocol on each side.",
         "dateModified": "2026-09-25",
+        "datePublished": "2026-09-25",
         "inDefinedTermSet": {
           "@id": "https://martechsignal.com/glossary/#set"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+          "name": "Tim Christensen",
+          "url": "https://martechsignal.com/authors/tim-christensen/"
         },
         "publisher": {
           "@id": "https://martechsignal.com/#organization"
@@ -121,6 +130,10 @@ Sources: [Model Context Protocol](https://modelcontextprotocol.io/) · [n8n](htt
     ]
   }
 ]
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/glossary/mcp/", "dateModified": "2026-09-29"}
 ```
 
 ```json

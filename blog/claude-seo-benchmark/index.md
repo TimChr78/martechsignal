@@ -95,7 +95,10 @@ More from the directory: [EspoCRM](/tools/espocrm/)
   "headline": "Claude SEO benchmark: every score we have earned, and what each one measured",
   "description": "Five grader generations have scored martechsignal.com since August. This page is the living record: every score, the grader that produced it, and the one.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -158,6 +161,10 @@ More from the directory: [EspoCRM](/tools/espocrm/)
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/claude-seo-benchmark/", "dateModified": "2026-09-29"}
 ```
 
 ```json

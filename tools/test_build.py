@@ -807,7 +807,10 @@ def test_money_pages_carry_per_tool_media():
         for s in slugs:
             if s not in tools_by_slug:
                 continue  # retired/Guide-kind items route elsewhere; card grid covers guides
-            for cand in (f"/og/tools/{s}.png", f"/og/{s}.png"):
+            # r16 L-1: the 1200w slot is a -1200.webp rendition, so the raw
+            # .png need not appear; any rung for the slug counts as media.
+            for cand in (f"/og/tools/{s}.png", f"/og/{s}.png",
+                         f"/og/tools/{s}-", f"/og/{s}-"):
                 if cand in h:
                     break
             else:
@@ -1556,6 +1559,55 @@ def test_no_duplicated_pricing_lead_seam():
     assert not bad, f"duplicated pricing lead seam: {bad[:8]}"
 
 
+def test_tool_cards_serve_webp_at_1200w():
+    """r16 L-1 (2026-09-29): money-page image srcsets used the PNG master as
+    the 1200w candidate (mobile at DPR 3 fetched PNG). q82 -1200.webp
+    renditions exist for every og/tools master and take the 1200w slot."""
+    bad = [p.name for p in sorted((ROOT / "og" / "tools").glob("*.png"))
+           if not (ROOT / "og" / "tools" / (p.stem + "-1200.webp")).exists()]
+    assert not bad, f"tool masters without -1200.webp: {bad[:8]}"
+    h = (ROOT / "best" / "ai-seo-tools" / "index.html").read_text(errors="ignore")
+    assert "-1200.webp 1200w" in h, "1200w slot not served as WebP on money pages"
+
+
+def test_screenshots_serve_1200w_rung():
+    """r16 L-2 (2026-09-29): screenshot srcsets capped at 800w (0.76x of DPR-3
+    needs) while masters are 1280px. Honest-downscale -1200.webp rungs take
+    a 1200w slot on money pages."""
+    import struct as _st
+    bad = []
+    for m in sorted((ROOT / "og" / "screenshots").glob("*.png")):
+        try:
+            head = m.read_bytes()[:24]
+        except OSError:
+            continue
+        if len(head) == 24 and head[12:16] == b"IHDR" and _st.unpack(">I", head[16:20])[0] >= 1200 \
+                and not m.with_name(m.stem + "-1200.webp").exists():
+            bad.append(m.name)
+    assert not bad, f"1280px masters without -1200.webp: {bad[:8]}"
+    h = (ROOT / "vs" / "matomo-vs-plausible" / "index.html").read_text(errors="ignore")
+    assert "1200w" in h, "no 1200w rung on vs pages"
+
+
+def test_every_page_defines_webpage_node():
+    """r16 L-7 (2026-09-29): #webpage was bound to Article on 10 /vs/ leaves
+    and WebPage on 17 pages while 270 pages defined no page entity. Now every
+    page carries a WebPage node (unfragmented page URL, guides pattern); the
+    /vs/ typed node lives at #article."""
+    import re as _re
+    bad, dbl = [], []
+    for f in sorted(ROOT.glob("**/index.html")):
+        if "deploy-out" in str(f):
+            continue
+        h = f.read_text(errors="ignore")
+        if '"@type": "WebPage"' not in h and '"@type":"WebPage"' not in h:
+            bad.append(str(f.parent))
+        if _re.search(r'"@type":\s*"Article"[^}]{0,300}?#webpage', h):
+            dbl.append(str(f.parent))
+    assert not bad, f"pages without WebPage node: {bad[:8]}"
+    assert not dbl, f"Article still bound to #webpage: {dbl[:8]}"
+
+
 def test_momentum_dataset_matches_catalog():
     """r16 L-11 (2026-09-29): oss-momentum.json was a manual artifact, 3 days
     stale with 8 of 16 tools disagreeing with the catalog. It regenerates in
@@ -1657,6 +1709,15 @@ def test_edge_worker_collapses_repeated_slashes():
     any other handling. The rule must survive worker edits."""
     w = (ROOT / "_worker.js").read_text()
     assert "301" in w and "{2,}" in w, "slash-collapse 301 missing from _worker.js"
+
+
+def test_edge_worker_caches_documents():
+    """r16 L-5 (2026-09-29): documents answered DYNAMIC (origin round-trip
+    per view) because the worker rebuilds HTML responses. Page-URL GET 200s
+    go through the Cache API keyed on the markdown branch."""
+    w = (ROOT / "_worker.js").read_text()
+    assert "caches.default.put" in w and "caches.default.match" in w, "edge document cache missing"
+    assert "#md" in w and "#html" in w, "markdown/HTML cache branches not separated"
 
 
 def test_one_time_prices_carry_no_monthly_suffix():

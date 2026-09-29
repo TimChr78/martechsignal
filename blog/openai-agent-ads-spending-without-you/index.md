@@ -172,7 +172,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
   "headline": "OpenAI Isn't Building Ads. It's Building Agents That Spend Money Without You.",
   "description": "When news broke last week that OpenAI is testing a new ad format in ChatGPT, much of the industry took one look and restarted the banner ad debate. Will.",
   "author": {
-    "@id": "https://martechsignal.com/authors/tim-christensen/#person"
+    "@type": "Person",
+    "@id": "https://martechsignal.com/authors/tim-christensen/#person",
+    "name": "Tim Christensen",
+    "url": "https://martechsignal.com/authors/tim-christensen/"
   },
   "publisher": {
     "@type": "Organization",
@@ -228,6 +231,10 @@ The AI tools, workflows, and vendor moves that actually matter for marketing aut
     }
   ]
 }
+```
+
+```json
+{"@context": "https://schema.org", "@type": "WebPage", "@id": "https://martechsignal.com/blog/openai-agent-ads-spending-without-you/", "dateModified": "2026-09-29"}
 ```
 
 ```json
