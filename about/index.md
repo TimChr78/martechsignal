@@ -50,26 +50,7 @@ Corrections, tips, and tool suggestions: reach Tim through the site or on [Linke
 
 
 ```json
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "About MartechSignal",
-  "url": "https://martechsignal.com/about/",
-  "mainEntity": {
-    "@type": "Organization",
-    "@id": "https://martechsignal.com/#organization",
-    "name": "MartechSignal",
-    "url": "https://martechsignal.com/",
-    "founder": {
-      "@id": "https://martechsignal.com/authors/tim-christensen/#person"
-    },
-    "logo": {
-      "@type": "ImageObject",
-      "@id": "https://martechsignal.com/#logo",
-      "url": "https://martechsignal.com/logo.png"
-    }
-  }
-}
+{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://martechsignal.com/authors/tim-christensen/#person", "name": "Tim Christensen", "url": "https://martechsignal.com/authors/tim-christensen/", "worksFor": {"@id": "https://martechsignal.com/#organization"}}, {"@type": "AboutPage", "name": "About MartechSignal", "url": "https://martechsignal.com/about/", "mainEntity": {"@type": "Organization", "@id": "https://martechsignal.com/#organization", "name": "MartechSignal", "url": "https://martechsignal.com/", "founder": {"@id": "https://martechsignal.com/authors/tim-christensen/#person"}, "logo": {"@type": "ImageObject", "@id": "https://martechsignal.com/#logo", "url": "https://martechsignal.com/logo.png"}}}]}
 ```
 
 ```json

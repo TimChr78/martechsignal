@@ -1567,6 +1567,7 @@ def build_tool_page(t, cats, all_tools, base="tools"):
         # F-H13: the answer must be per-tool, not a sitewide template. Prefer the tool's
         # own verdict from its deep dive; fall back to concrete facts (stars, OSS, price).
         verdict = ((t.get("deep_dive") or {}).get("verdict") or "").strip()
+        best_for = ((t.get("deep_dive") or {}).get("best_for") or "").strip()
         if verdict:
             a3 = verdict.rstrip(".") + "."
         else:
@@ -1578,9 +1579,26 @@ def build_tool_page(t, cats, all_tools, base="tools"):
                 pros.append(f"{_lp} licensing with free self-hosting" if _lp
                             else "open-source licensing with free self-hosting")
             if t.get("api_available"): pros.append("an API for custom integrations")
-            a3 = (f"Strengths include {', '.join(pros)}" if pros
-                  else f"Our review covers {name}'s core {cat.lower()} workflow")
-            a3 += f". The full review breaks down where it fits in a modern martech stack."
+            # r15 M-3 (2026-09-29): the fallback answer ("Strengths include X.
+            # The full review breaks down...") shipped byte-identical tails on
+            # 7 pages. The closer must be per-tool: best_for where the record
+            # has one, else a price-anchored sentence (numbers differ per tool).
+            if best_for and pros:
+                a3 = f"Strengths include {', '.join(pros)}. {best_for}"
+            elif best_for:
+                a3 = best_for
+            else:
+                a3 = (f"Strengths include {', '.join(pros)}" if pros
+                      else f"Our review covers {name}'s core {cat.lower()} workflow")
+                if t.get("paid_from"):
+                    a3 += f". Paid plans start at {_money(t['paid_from'], t)}"
+                elif str(t.get("pricing_model") or "") == "freemium":
+                    a3 += ". The free tier covers the basics; paid tiers unlock the limits"
+                elif t.get("open_source"):
+                    # per-tool and factual: integration count differs per record
+                    _ni = len(t.get("integrations") or [])
+                    a3 += (f". {name} documents {_ni} integrations" if _ni
+                           else f". Source code is {str(t.get('license') or 'open')} licensed")
         faqs = [
             {"@type": "Question", "name": q1, "acceptedAnswer": {"@type": "Answer", "text": a1}},
             {"@type": "Question", "name": q2, "acceptedAnswer": {"@type": "Answer", "text": a2}},
